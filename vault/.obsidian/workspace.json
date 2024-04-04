@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/notes/AuW.md",
+                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/notes/AuW.md",
+                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/notes/AuW.md"
+                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf"
               }
             }
           },
@@ -175,11 +174,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ffe73c63f3f71feb",
+  "active": "003ab1f2d96f8f38",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/notes/AuW.md",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
     "sem2/AuW/VRL/slides/AuW-L07-coloring.pdf",
-    "sem2/AuW/VRL/notes/AuW.md",
     "sem2/AuW/UE/u/e/AuW-u00-e.pdf",
     "sem2/AuW/VRL/slides/AuW-L12-multiple-rand-var.pdf",
     "sem2/AuW/VRL/extra/AuW-formulas.pdf",
@@ -188,7 +187,6 @@
     "sem2/AuW/UE/u/s/AuW-u02-s.pdf",
     "sem2/AuW/UE/u/c/AuW-u01-bf-c.pdf",
     "sem2/AuW/VRL/slides/AuW-L09-2goats-1car.pdf",
-    "sem2/AuW/VRL/slides/AuW-L08-probability.pdf",
     "less config.md",
     "sem2/AuW/UE/pg/bf/AuW-u02-pg-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
