@@ -28,8 +28,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1ad7e8685a285b4a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf"
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
               }
             }
           },
@@ -174,10 +185,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "003ab1f2d96f8f38",
+  "active": "1ad7e8685a285b4a",
   "lastOpenFiles": [
-    "sem2/AuW/VRL/notes/AuW.md",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
+    "sem2/AuW/VRL/notes/AuW.md",
     "sem2/AuW/VRL/slides/AuW-L07-coloring.pdf",
     "sem2/AuW/UE/u/e/AuW-u00-e.pdf",
     "sem2/AuW/VRL/slides/AuW-L12-multiple-rand-var.pdf",
