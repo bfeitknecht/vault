@@ -18,6 +18,16 @@
             }
           },
           {
+            "id": "bdabf7ddce2c02e5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf"
+              }
+            }
+          },
+          {
             "id": "1ad7e8685a285b4a",
             "type": "leaf",
             "state": {
@@ -39,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
