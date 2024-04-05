@@ -18,6 +18,16 @@
             }
           },
           {
+            "id": "1ad7e8685a285b4a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+              }
+            }
+          },
+          {
             "id": "ffe73c63f3f71feb",
             "type": "leaf",
             "state": {
@@ -26,16 +36,6 @@
                 "file": "sem2/AuW/VRL/notes/AuW.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "1ad7e8685a285b4a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
               }
             }
           }
