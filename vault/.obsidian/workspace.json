@@ -58,9 +58,19 @@
                 "file": "sem2/DDCA/VRL/extra/basys3-SCHEMATICS.pdf"
               }
             }
+          },
+          {
+            "id": "8b11244cc62e0560",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -110,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -126,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/VRL/extra/basys3-SCHEMATICS.pdf",
+                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/VRL/extra/basys3-SCHEMATICS.pdf",
+                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/VRL/extra/basys3-SCHEMATICS.pdf"
+                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf"
               }
             }
           },
@@ -205,8 +216,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a797c6765907f8d4",
+  "active": "8b11244cc62e0560",
   "lastOpenFiles": [
+    "sem2/DDCA/VRL/extra/basys3-SCHEMATICS.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
