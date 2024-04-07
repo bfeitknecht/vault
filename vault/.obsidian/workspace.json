@@ -55,22 +55,12 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/DDCA/VRL/extra/basys3-SCHEMATICS.pdf"
-              }
-            }
-          },
-          {
-            "id": "8b11244cc62e0560",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf"
+                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L04b-verilog-combinational.pdf"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -120,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -137,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
+                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L04b-verilog-combinational.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
+                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L04b-verilog-combinational.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf"
+                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L04b-verilog-combinational.pdf"
               }
             }
           },
@@ -216,9 +205,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8b11244cc62e0560",
+  "active": "a797c6765907f8d4",
   "lastOpenFiles": [
+    "sem2/DDCA/VRL/slides/lectures/DDCA-L04a-combinational-circuits-theory.pdf",
+    "sem2/DDCA/VRL/slides/lectures/DDCA-L04b-verilog-combinational.pdf",
+    "sem2/DDCA/VRL/slides/lectures/DDCA-L06-arithmetic-circuits.pdf",
     "sem2/DDCA/VRL/extra/basys3-SCHEMATICS.pdf",
+    "202404072140.md",
+    "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
@@ -226,10 +220,6 @@
     "sem2/AuW/UE/u/e/AuW-u00-e.pdf",
     "sem2/AuW/VRL/slides/AuW-L12-multiple-rand-var.pdf",
     "sem2/AuW/VRL/extra/AuW-formulas.pdf",
-    "sem2/AuW/UE/pg/c",
-    "sem2/AuW/UE/u/c/AuW-u02-bf-c.pdf",
-    "sem2/AuW/UE/u/s/AuW-u02-s.pdf",
-    "sem2/AuW/UE/u/c/AuW-u01-bf-c.pdf",
     "less config.md",
     "sem2/AuW/UE/pg/bf/AuW-u02-pg-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
@@ -262,7 +252,6 @@
     "sem1/DMath/00-EXAM-PREP/summaries/exponential-modular-arithmetic.jpg",
     "sem1/AuD/00-EXAM-PREP/summaries/java-algorithms.md",
     "sem1/LinAlg/lib/LinAlg_lib.md",
-    "sem1/LinAlg/lib/LinAlg.md",
     "sem1/LinAlg/00-EXAM-PREP/LinAlg-topics-demistified.png",
     "sem1/AuD/VRL/Untitled.canvas",
     "Untitled.canvas"
