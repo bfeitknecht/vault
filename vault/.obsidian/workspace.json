@@ -53,8 +53,10 @@
             "id": "a797c6765907f8d4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/VRL/extra/basys3-SCHEMATICS.pdf"
+              }
             }
           }
         ],
@@ -124,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/DDCA/VRL/extra/basys3-SCHEMATICS.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,6 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/DDCA/VRL/extra/basys3-SCHEMATICS.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +165,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/DDCA/VRL/extra/basys3-SCHEMATICS.pdf"
+              }
             }
           },
           {
