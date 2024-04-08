@@ -43,14 +43,22 @@
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "page": 103,
-                "left": 24,
-                "top": 673,
+                "left": 33,
+                "top": 500,
                 "zoom": 1.6
               }
             }
+          },
+          {
+            "id": "bdbde4439ed4ffc5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -116,7 +124,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +140,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,9 +161,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -198,7 +202,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "60698c5f1202546f",
+  "active": "bdbde4439ed4ffc5",
   "lastOpenFiles": [
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
