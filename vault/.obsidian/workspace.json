@@ -38,29 +38,17 @@
             }
           },
           {
-            "id": "ffe73c63f3f71feb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem2/AuW/VRL/notes/AuW.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a797c6765907f8d4",
+            "id": "6eb39ed200bc8586",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf"
+                "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -126,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
+                "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
+                "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf"
+                "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf"
               }
             }
           },
@@ -205,21 +194,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a797c6765907f8d4",
+  "active": "6eb39ed200bc8586",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "sem2/AuW/VRL/notes/AuW.md",
+    "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
+    "202404072140.md",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L04b-verilog-combinational.pdf",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L04a-combinational-circuits-theory.pdf",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L06-arithmetic-circuits.pdf",
     "sem2/DDCA/VRL/extra/basys3-SCHEMATICS.pdf",
-    "202404072140.md",
-    "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
-    "sem2/AuW/VRL/notes/AuW.md",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
     "sem2/AuW/VRL/slides/AuW-L07-coloring.pdf",
     "sem2/AuW/UE/u/e/AuW-u00-e.pdf",
     "sem2/AuW/VRL/slides/AuW-L12-multiple-rand-var.pdf",
-    "sem2/AuW/VRL/extra/AuW-formulas.pdf",
     "less config.md",
     "sem2/AuW/UE/pg/bf/AuW-u02-pg-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
