@@ -50,10 +50,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
-                "page": 6,
-                "left": -8,
-                "top": 815,
-                "zoom": 1.7991654291454724
+                "page": 20,
+                "left": -668,
+                "top": 638,
+                "zoom": 0.57
               }
             }
           },
@@ -68,9 +68,23 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d3ad9641a68efd59",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/Analysis-1/VRL/extra/maja/analysis-1-w02-maja.pdf",
+                "page": 1,
+                "left": -8,
+                "top": 842,
+                "zoom": 1.8001211375636101
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -137,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
+                "file": "sem2/Analysis-1/VRL/extra/maja/analysis-1-w02-maja.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
+                "file": "sem2/Analysis-1/VRL/extra/maja/analysis-1-w02-maja.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf"
+                "file": "sem2/Analysis-1/VRL/extra/maja/analysis-1-w02-maja.pdf"
               }
             }
           },
@@ -219,10 +233,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2cf7cd8a0c9bf5c6",
+  "active": "d3ad9641a68efd59",
   "lastOpenFiles": [
-    "202404072140.md",
     "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
+    "202404072140.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
