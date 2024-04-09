@@ -14,10 +14,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-                "page": 3,
-                "left": -113,
-                "top": 123,
-                "zoom": 1.06
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -28,10 +26,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w03-hall.pdf",
-                "page": 25,
-                "left": -11,
-                "top": 438,
-                "zoom": 1.41
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -42,10 +38,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 103,
-                "left": 33,
-                "top": 500,
-                "zoom": 1.6
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -124,6 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,6 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +157,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf"
+              }
             }
           },
           {
