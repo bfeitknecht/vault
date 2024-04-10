@@ -35,13 +35,11 @@
             "id": "60698c5f1202546f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 102,
-                "left": -11,
-                "top": 333,
-                "zoom": 1.421189498652726
+                "file": "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -112,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "file": "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "file": "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+                "file": "sem2/AuW/UE/u/bf/AuW-u03-bf.md"
               }
             }
           },
@@ -196,8 +194,10 @@
   },
   "active": "60698c5f1202546f",
   "lastOpenFiles": [
-    "sem2/AuW/VRL/slides/AuW-L12-multiple-rand-var.pdf",
+    "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "sem2/AuW/VRL/slides/AuW-L12-multiple-rand-var.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w03-hall.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w04-hopcroft-karp.pdf",
@@ -207,8 +207,6 @@
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L04b-verilog-combinational.pdf",
-    "sem2/DDCA/VRL/slides/lectures/DDCA-L04a-combinational-circuits-theory.pdf",
-    "sem2/DDCA/VRL/slides/lectures/DDCA-L06-arithmetic-circuits.pdf",
     "less config.md",
     "sem2/AuW/UE/pg/bf/AuW-u02-pg-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
@@ -240,7 +238,6 @@
     "sem1/EProg/UE/bf/EProg-u01-bf.md",
     "sem1/DMath/00-EXAM-PREP/summaries/exponential-modular-arithmetic.jpg",
     "sem1/AuD/00-EXAM-PREP/summaries/java-algorithms.md",
-    "sem1/LinAlg/lib/LinAlg_lib.md",
     "sem1/LinAlg/00-EXAM-PREP/LinAlg-topics-demistified.png",
     "sem1/AuD/VRL/Untitled.canvas",
     "Untitled.canvas"
