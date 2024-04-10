@@ -54,15 +54,15 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 102,
+                "page": 22,
                 "left": -11,
-                "top": 399,
+                "top": 619,
                 "zoom": 1.421189498652726
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "file": "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "file": "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+                "file": "sem2/AuW/UE/u/e/AuW-u03-e.pdf"
               }
             }
           },
@@ -210,14 +210,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "82b92a5283cc46f0",
+  "active": "8889da6bdffae93a",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w03-hall.pdf",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/slides/AuW-L12-multiple-rand-var.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w04-hopcroft-karp.pdf",
     "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
