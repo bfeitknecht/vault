@@ -15,9 +15,9 @@
               "state": {
                 "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
                 "page": 3,
-                "left": -11,
+                "left": -7,
                 "top": 123,
-                "zoom": 1.41
+                "zoom": 2.005
               }
             }
           },
@@ -42,8 +42,8 @@
                 "file": "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
                 "page": 1,
                 "left": -11,
-                "top": 709,
-                "zoom": 1.421189498652726
+                "top": 842,
+                "zoom": 1.4211894986527263
               }
             }
           },
@@ -51,8 +51,14 @@
             "id": "82b92a5283cc46f0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "page": 102,
+                "left": -11,
+                "top": 399,
+                "zoom": 1.421189498652726
+              }
             }
           }
         ],
@@ -122,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,6 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +167,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+              }
             }
           },
           {
@@ -203,9 +213,9 @@
   "active": "82b92a5283cc46f0",
   "lastOpenFiles": [
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
-    "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
     "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w03-hall.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/slides/AuW-L12-multiple-rand-var.pdf",
