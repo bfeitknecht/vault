@@ -14,20 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-                "page": 1,
-                "zoom": 1
-              }
-            }
-          },
-          {
-            "id": "19018ea074479139",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w03-hall.pdf",
-                "page": 1,
-                "zoom": 1
+                "page": 3,
+                "left": -11,
+                "top": 123,
+                "zoom": 1.41
               }
             }
           },
@@ -42,9 +32,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8889da6bdffae93a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
+                "page": 1,
+                "left": -11,
+                "top": 709,
+                "zoom": 1.421189498652726
+              }
+            }
+          },
+          {
+            "id": "82b92a5283cc46f0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +138,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +159,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u03-bf.md"
-              }
+              "state": {}
             }
           },
           {
@@ -192,14 +200,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "60698c5f1202546f",
+  "active": "82b92a5283cc46f0",
   "lastOpenFiles": [
-    "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
-    "sem2/AuW/VRL/slides/AuW-L12-multiple-rand-var.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
+    "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w03-hall.pdf",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "sem2/AuW/VRL/slides/AuW-L12-multiple-rand-var.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w04-hopcroft-karp.pdf",
     "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
     "202404072140.md",
@@ -209,7 +218,6 @@
     "sem2/DDCA/VRL/slides/lectures/DDCA-L04b-verilog-combinational.pdf",
     "less config.md",
     "sem2/AuW/UE/pg/bf/AuW-u02-pg-bf.md",
-    "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
     "var/support/templates/page-break.template.md",
     "sem2/AuW/UE/pg/bf/AuW-u01-pg-bf.md",
     "sem1/LinAlg/UE/bf/md/LinAlg_U1_bf.md",
