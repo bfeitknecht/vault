@@ -1,7 +1,7 @@
 ![[AuW-u03-e.pdf]]
 
 
-## 1.
+## 1
 #### a)
 We assume, that "Anzahl Kanten über den Schnitt ($S, V\setminus S$)" means \# of edges $e$ with an incident vertex in each set ($S, V \setminus S$).
 
@@ -17,17 +17,10 @@ As all subsets are equally likely, the chance for every edge to have its vertice
 
 $$
 \begin{align}
-\forall e \in E : \mathbb E[Y_e] &= \frac 1 2 \\
-&\overset {\text{Linearity of $\mathbb E$}} \implies
+&\forall e \in E : \mathbb E[Y_e] = \frac 1 2 \\
+&\mathbb E[X] \overset {\text{Linearity of $\mathbb E$}} = \sum_{e\in \mathbb E} \mathbb E[Y_e] = m\cdot \frac 1 2 = \frac m 2
 \end{align}
 $$
+$\square$
 
-
-Let
-$$
-A = \text{"the vertices of e are in different subsets ($S, V\setminus S$)"}
-$$
-Thus
-$$
-\Pr[A] = \frac 1 2
-$$
+#### b)
