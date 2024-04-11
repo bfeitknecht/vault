@@ -7,5 +7,17 @@ We assume, that "Anzahl Kanten über den Schnitt ($S, V\setminus S$)" means \# o
 
 We define an indicator variable:
 $$
-Y_e = 
+Y_e =
+\begin{cases}
+1, \quad e \text{ is an edge over ($S$, $V\setminus S$)} \\
+0, \quad \text{otherwise}
+\end{cases}
+$$
+Let
+$$
+A = \text{"the vertices of e are in different subsets ($S, V\setminus S$)"}
+$$
+Thus
+$$
+\P[A]
 $$
