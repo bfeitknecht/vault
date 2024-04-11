@@ -2,7 +2,7 @@
 
 
 ## 1
-#### a)
+#### (a)
 We assume, that "Anzahl Kanten über den Schnitt ($S, V\setminus S$)" means \# of edges $e$ with an incident vertex in each set ($S, V \setminus S$).
 
 We define an indicator variable:
@@ -23,4 +23,20 @@ $$
 $$
 $\square$
 
-#### b)
+#### (b)
+
+___
+
+## 2
+#### (i)
+
+
+
+
+#### (ii)
+
+
+
+
+
+#### (iii)
