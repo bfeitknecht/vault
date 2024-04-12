@@ -64,10 +64,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
-                "page": 3,
-                "left": -9,
-                "top": 399,
-                "zoom": 1.7500000000000002
+                "page": 2,
+                "left": -33,
+                "top": 360,
+                "zoom": 0.45588235294117646
               }
             }
           },
@@ -218,8 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
