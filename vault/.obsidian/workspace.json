@@ -50,13 +50,23 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 1,
-                "zoom": 1
+                "page": 102,
+                "left": -8,
+                "top": 833,
+                "zoom": 1.7991654291454724
               }
+            }
+          },
+          {
+            "id": "75bca7fdb4509ad1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -123,7 +133,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +149,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,9 +170,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u03-bf.md"
-              }
+              "state": {}
             }
           },
           {
@@ -205,12 +211,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "60698c5f1202546f",
+  "active": "75bca7fdb4509ad1",
   "lastOpenFiles": [
-    "var/export/AuW-u03-bf.pdf",
-    "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
+    "var/export/AuW-u03-bf.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w03-hall.pdf",
@@ -221,7 +227,6 @@
     "sem2/Analysis-1/VRL/extra/maja/analysis-1-w02-maja.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
-    "sem2/DDCA/VRL/slides/lectures/DDCA-L04b-verilog-combinational.pdf",
     "less config.md",
     "sem2/AuW/UE/pg/bf/AuW-u02-pg-bf.md",
     "var/support/templates/page-break.template.md",
