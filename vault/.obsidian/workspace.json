@@ -65,14 +65,28 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
                 "page": 2,
-                "left": -9,
-                "top": 185,
-                "zoom": 1.75
+                "left": -33,
+                "top": 758,
+                "zoom": 0.45588235294117646
+              }
+            }
+          },
+          {
+            "id": "2b52ef6aaa59b284",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
+                "page": 1,
+                "left": -39,
+                "top": 540,
+                "zoom": 0.3875
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -139,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf"
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf"
               }
             }
           },
@@ -221,11 +235,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7983d8b96321bab1",
+  "active": "2b52ef6aaa59b284",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
-    "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB03.pdf",
     "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
