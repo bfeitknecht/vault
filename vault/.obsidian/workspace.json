@@ -65,9 +65,9 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
                 "page": 2,
-                "left": -33,
+                "left": -18,
                 "top": 360,
-                "zoom": 0.45588235294117646
+                "zoom": 0.823529411764706
               }
             }
           },
@@ -218,7 +218,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,7 +235,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7983d8b96321bab1",
+  "active": "d4d9e5cf2cd5e94b",
   "lastOpenFiles": [
     "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
