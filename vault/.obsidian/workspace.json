@@ -50,10 +50,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 102,
-                "left": -11,
-                "top": 833,
-                "zoom": 1.421189498652726
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -65,9 +63,7 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
                 "page": 1,
-                "left": 64,
-                "top": 27,
-                "zoom": 1.05
+                "zoom": 1
               }
             }
           },
@@ -78,10 +74,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
-                "page": 14,
-                "left": 0,
-                "top": 312,
-                "zoom": 0.89
+                "page": 12,
+                "left": -10,
+                "top": 220,
+                "zoom": 1.4875
               }
             }
           }
