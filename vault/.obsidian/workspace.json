@@ -50,8 +50,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 1,
-                "zoom": 1
+                "page": 102,
+                "left": -8,
+                "top": 279,
+                "zoom": 1.7991654291454724
               }
             }
           },
@@ -76,13 +78,13 @@
                 "file": "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
                 "page": 12,
                 "left": -10,
-                "top": 220,
+                "top": 278,
                 "zoom": 1.4875
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -149,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf"
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
               }
             }
           },
@@ -231,10 +233,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2b52ef6aaa59b284",
+  "active": "82b92a5283cc46f0",
   "lastOpenFiles": [
-    "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
+    "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB03.pdf",
