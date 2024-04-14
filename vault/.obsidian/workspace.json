@@ -50,9 +50,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 102,
+                "page": 124,
                 "left": -8,
-                "top": 279,
+                "top": 240,
                 "zoom": 1.7991654291454724
               }
             }
@@ -76,10 +76,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
-                "page": 12,
-                "left": -10,
-                "top": 278,
-                "zoom": 1.4875
+                "page": 1,
+                "zoom": 1
               }
             }
           }
