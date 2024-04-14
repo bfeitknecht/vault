@@ -64,9 +64,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
-                "page": 3,
+                "page": 2,
                 "left": -9,
-                "top": 453,
+                "top": 64,
                 "zoom": 1.75
               }
             }
@@ -80,7 +80,7 @@
                 "file": "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
                 "page": 15,
                 "left": -10,
-                "top": 373,
+                "top": 414,
                 "zoom": 1.4875
               }
             }
@@ -92,15 +92,15 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
-                "page": 52,
+                "page": 51,
                 "left": -10,
-                "top": 112,
+                "top": 507,
                 "zoom": 1.4875
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf"
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf"
               }
             }
           },
@@ -249,12 +249,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7983d8b96321bab1",
+  "active": "2b52ef6aaa59b284",
   "lastOpenFiles": [
-    "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB03.pdf",
     "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
