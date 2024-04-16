@@ -37,8 +37,10 @@ INPUT(w)
 n = 0;
 WHILE true DO
 	n = n + 1;
-	IF A(w, n) THEN return 1;
-	IF B(w, n) THEN return 1;
-	return a && b;    // return a || b;
+	a, b = 0;
+	IF A(w, n) THEN a = 1;
+	IF B(w, n) THEN b = 1;
+	if (a || b) return 1;    // for union
+	if (a && b)// return a && b;    // for disjunction
 end
 ```
