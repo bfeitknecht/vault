@@ -118,7 +118,7 @@ k-zsh. ≤ k-edge.zsh. ≤ $\delta(G)$
 
 
 
-$\mathcal A$ 
+$\mathfrak A$ 
 
 
 
