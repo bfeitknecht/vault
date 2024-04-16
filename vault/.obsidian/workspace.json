@@ -50,35 +50,15 @@
             }
           },
           {
-            "id": "312e32e46c69c007",
+            "id": "ab77f19e9349d901",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "var/escapades/ZHAW-decidability.pdf",
-                "page": 18,
-                "left": -5,
-                "top": 4,
-                "zoom": 2.9517549299268264
-              }
-            }
-          },
-          {
-            "id": "73b5c0249ce35ead",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
-                "page": 15,
-                "left": -18,
-                "top": 537,
-                "zoom": 0.826171875
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -144,7 +124,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +140,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,9 +161,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -226,14 +202,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "73b5c0249ce35ead",
+  "active": "ab77f19e9349d901",
   "lastOpenFiles": [
+    "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
+    "var/escapades/ZHAW-decidability.pdf",
+    "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
     "sem2/AuW/VRL/slides/AuW-L12-distributions.pdf",
     "sem2/AuW/VRL/slides/AuW-L10-probability-space.pdf",
-    "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
     "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
-    "var/escapades/ZHAW-decidability.pdf",
-    "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
     "var/escapades/202402271204.md",
     "var/var.md",
     "var/escapades/theoretische informatik zhaw.md",
