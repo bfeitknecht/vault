@@ -1,15 +1,4 @@
 
-
-```
-while (true) do
-	if (w in A) return 1      // X
-end
-
-while (true) do
-	if (w in A) return 1     // Y
-end
-```
-
 $A \text{ decidable} \subset \Sigma^* \implies A \text{ semi-decidable} \land \overline A \text{ semi-decidable}$
 
 Proof of "$\Longleftarrow$" 
@@ -49,7 +38,8 @@ end
 ```
 
 
-## $A\cap B$
+
+## $A\cap B$
 
 $A, B$ decidable
 ```

@@ -43,9 +43,9 @@
               "state": {
                 "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
                 "page": 51,
-                "left": -10,
+                "left": -13,
                 "top": 507,
-                "zoom": 1.4875
+                "zoom": 1.175
               }
             }
           },
@@ -55,14 +55,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "theoretische informatik zhaw.md",
+                "file": "var/var.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "theoretische informatik zhaw.md",
+                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "theoretische informatik zhaw.md",
+                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "theoretische informatik zhaw.md"
+                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf"
               }
             }
           },
@@ -211,8 +210,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "14d891456149500e",
+  "active": "9fe518af2f28357c",
   "lastOpenFiles": [
+    "var/var.md",
+    "var/202402271204.md",
+    "theoretische informatik zhaw.md",
     "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
@@ -220,7 +222,6 @@
     "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-    "theoretische informatik zhaw.md",
     "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB03.pdf",
     "var/export/AuW-u03-bf.pdf",
@@ -255,7 +256,6 @@
     "sem1/AuD/UE/bf/md/AuD-u07-bf.md",
     "sem1/AuD/UE/bf/md/AuD-u00-bf.md",
     "sem1/EProg/UE/bf/EProg-u02-bf.md",
-    "sem1/EProg/UE/bf/EProg-u01-bf.md",
     "sem1/DMath/00-EXAM-PREP/summaries/exponential-modular-arithmetic.jpg",
     "sem1/LinAlg/00-EXAM-PREP/LinAlg-topics-demistified.png",
     "sem1/AuD/VRL/Untitled.canvas",
