@@ -8,65 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5a3db0e40beb2808",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-                "page": 1,
-                "zoom": 1
-              }
-            }
-          },
-          {
-            "id": "60698c5f1202546f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8889da6bdffae93a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
-                "page": 1,
-                "zoom": 1
-              }
-            }
-          },
-          {
-            "id": "82b92a5283cc46f0",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 124,
-                "left": -8,
-                "top": 246,
-                "zoom": 1.7991654291454724
-              }
-            }
-          },
-          {
             "id": "7983d8b96321bab1",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
-                "page": 2,
+                "page": 7,
                 "left": -18,
-                "top": 68,
+                "top": 763,
                 "zoom": 1.7
               }
             }
@@ -98,9 +48,21 @@
                 "zoom": 1.4875
               }
             }
+          },
+          {
+            "id": "14d891456149500e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "theoretische informatik zhaw.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -167,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
+                "file": "theoretische informatik zhaw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
+                "file": "theoretische informatik zhaw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf"
+                "file": "theoretische informatik zhaw.md"
               }
             }
           },
@@ -249,21 +211,21 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7983d8b96321bab1",
+  "active": "14d891456149500e",
   "lastOpenFiles": [
-    "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
-    "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
-    "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB03.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
+    "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
     "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
-    "var/export/AuW-u03-bf.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
+    "theoretische informatik zhaw.md",
+    "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB03.pdf",
+    "var/export/AuW-u03-bf.pdf",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w03-hall.pdf",
-    "sem2/AuW/VRL/slides/AuW-L12-multiple-rand-var.pdf",
     "202404072140.md",
     "sem2/AuW/VRL/notes/AuW.md",
     "less config.md",
@@ -295,7 +257,6 @@
     "sem1/EProg/UE/bf/EProg-u02-bf.md",
     "sem1/EProg/UE/bf/EProg-u01-bf.md",
     "sem1/DMath/00-EXAM-PREP/summaries/exponential-modular-arithmetic.jpg",
-    "sem1/AuD/00-EXAM-PREP/summaries/java-algorithms.md",
     "sem1/LinAlg/00-EXAM-PREP/LinAlg-topics-demistified.png",
     "sem1/AuD/VRL/Untitled.canvas",
     "Untitled.canvas"
