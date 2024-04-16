@@ -22,4 +22,10 @@ WHILE true DO
 	IF B(w, n) THEN return 0;
 end
 ```
-basically, switch step of semi-decidability every step 
+basically, switch step of semi-decidability computation every step 
+
+
+$$
+$$
+
+
