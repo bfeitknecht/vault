@@ -2,7 +2,7 @@
 
 ```
 while (true) do
-	if (w in A) return 1         // X
+	if (w in A) return 1      // X
 end
 
 while (true) do
@@ -10,5 +10,16 @@ while (true) do
 end
 ```
 
-$A \subset \Sigma^* \text{ (decidable)} \implies A \text{ (semi-decidable)} \land \overline A \text{ (semi-decidable)}$
+$A \text{ decidable} \subset \Sigma^* \implies A \text{ semi-decidable} \land \overline A \text{ semi-decidable}$
 
+Proof of "$\Longleftarrow$" 
+```
+INPUT(w)
+n = 0;
+WHILE true DO
+	n = n + 1;
+	IF A(w, n) THEN return 1;
+	IF B(w, n) THEN return 0;
+end
+```
+basically, switch step of semi-decidability every step 
