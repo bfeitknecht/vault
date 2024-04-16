@@ -26,6 +26,19 @@ basically, switch step of semi-decidability computation every step
 
 
 $$
+\begin{align}
+A \\
+B \\
+
+\end{align}
 $$
-
-
+```
+INPUT(w)
+n = 0;
+WHILE true DO
+	n = n + 1;
+	IF A(w, n) THEN return 1;
+	IF B(w, n) THEN return 1;
+	return a && b;    // return a || b;
+end
+```
