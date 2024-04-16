@@ -25,22 +25,28 @@ end
 basically, switch step of semi-decidability computation every step 
 
 
-$$
-\begin{align}
-A \\
-B \\
 
-\end{align}
-$$
+UNION
 ```
 INPUT(w)
 n = 0;
 WHILE true DO
 	n = n + 1;
-	a, b = 0;
-	IF A(w, n) THEN a = 1;
-	IF B(w, n) THEN b = 1;
-	if (a || b) return 1;    // for union
-	if (a && b)// return a && b;    // for disjunction
+	IF A(w, n) THEN return 1
+	IF B(w, n) THEN return 1;
+end
+```
+
+
+DISJUNCTION
+```
+INPUT(w)
+n = 0;
+WHILE true DO
+	n = n + 1;
+	IF A(w, n) THEN
+		IF B(w, n) THEN return 1;
+	end
+	// return 0;    // for definite decidability
 end
 ```
