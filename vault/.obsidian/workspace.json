@@ -55,11 +55,11 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "var/escapades/8-Entscheidbarkeit_HO.pdf",
-                "page": 1,
-                "left": -6,
-                "top": 272,
-                "zoom": 2.331638348009426
+                "file": "var/escapades/ZHAW-decidability.pdf",
+                "page": 18,
+                "left": -5,
+                "top": 8,
+                "zoom": 2.9517549299268264
               }
             }
           }
@@ -114,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "var/escapades/8-Entscheidbarkeit_HO.pdf",
+                "file": "var/escapades/ZHAW-decidability.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "var/escapades/8-Entscheidbarkeit_HO.pdf",
+                "file": "var/escapades/ZHAW-decidability.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "var/escapades/8-Entscheidbarkeit_HO.pdf"
+                "file": "var/escapades/ZHAW-decidability.pdf"
               }
             }
           },
@@ -215,7 +216,7 @@
   "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
     "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
-    "var/escapades/8-Entscheidbarkeit_HO.pdf",
+    "var/escapades/ZHAW-decidability.pdf",
     "var/escapades/202402271204.md",
     "var/var.md",
     "var/escapades/theoretische informatik zhaw.md",
