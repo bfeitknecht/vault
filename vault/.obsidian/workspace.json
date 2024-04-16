@@ -13,11 +13,11 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
-                "page": 6,
-                "left": 60,
-                "top": 429,
-                "zoom": 1.7
+                "file": "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
+                "page": 1,
+                "left": -11,
+                "top": 706,
+                "zoom": 1.3823529411764706
               }
             }
           },
@@ -75,8 +75,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/notes/AuW.md",
+                "file": "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/notes/AuW.md",
+                "file": "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/notes/AuW.md"
+                "file": "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf"
               }
             }
           },
@@ -224,10 +223,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ab77f19e9349d901",
+  "active": "7983d8b96321bab1",
   "lastOpenFiles": [
-    "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
+    "sem2/AuW/VRL/notes/AuW.md",
+    "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
     "var/escapades/ZHAW-decidability.pdf",
@@ -239,11 +239,9 @@
     "var/var.md",
     "var/escapades/theoretische informatik zhaw.md",
     "var/escapades",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
     "202404072140.md",
-    "sem2/AuW/VRL/notes/AuW.md",
     "less config.md",
     "sem2/AuW/UE/pg/bf/AuW-u02-pg-bf.md",
     "var/support/templates/page-break.template.md",
