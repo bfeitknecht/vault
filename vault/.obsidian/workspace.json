@@ -15,8 +15,8 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
                 "page": 6,
-                "left": 0,
-                "top": 494,
+                "left": 7,
+                "top": 534,
                 "zoom": 1.7
               }
             }
@@ -44,7 +44,7 @@
                 "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
                 "page": 50,
                 "left": -13,
-                "top": 520,
+                "top": 485,
                 "zoom": 1.175
               }
             }
@@ -209,6 +209,7 @@
   "lastOpenFiles": [
     "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
+    "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
     "var/escapades/ZHAW-decidability.pdf",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
     "sem2/AuW/VRL/slides/AuW-L12-distributions.pdf",
@@ -220,7 +221,6 @@
     "var/escapades",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
-    "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
     "202404072140.md",
