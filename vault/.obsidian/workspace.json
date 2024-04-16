@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
-                "page": 6,
-                "left": 7,
-                "top": 534,
+                "page": 2,
+                "left": 60,
+                "top": 781,
                 "zoom": 1.7
               }
             }
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
+                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
+                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf"
+                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf"
               }
             }
           },
@@ -205,11 +206,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7983d8b96321bab1",
+  "active": "9fe518af2f28357c",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
-    "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
     "var/escapades/ZHAW-decidability.pdf",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
     "sem2/AuW/VRL/slides/AuW-L12-distributions.pdf",
