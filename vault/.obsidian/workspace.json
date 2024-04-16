@@ -50,19 +50,21 @@
             }
           },
           {
-            "id": "14d891456149500e",
+            "id": "312e32e46c69c007",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "var/var.md",
-                "mode": "source",
-                "source": false
+                "file": "var/escapades/8-Entscheidbarkeit_HO.pdf",
+                "page": 1,
+                "left": -6,
+                "top": 272,
+                "zoom": 2.331638348009426
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -128,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
+                "file": "var/escapades/8-Entscheidbarkeit_HO.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
+                "file": "var/escapades/8-Entscheidbarkeit_HO.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf"
+                "file": "var/escapades/8-Entscheidbarkeit_HO.pdf"
               }
             }
           },
@@ -210,23 +212,24 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9fe518af2f28357c",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
-    "var/var.md",
-    "var/202402271204.md",
-    "theoretische informatik zhaw.md",
-    "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
+    "var/escapades/8-Entscheidbarkeit_HO.pdf",
+    "var/escapades/202402271204.md",
+    "var/var.md",
+    "var/escapades/theoretische informatik zhaw.md",
+    "var/escapades",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
+    "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB03.pdf",
     "var/export/AuW-u03-bf.pdf",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
-    "sem2/AuW/VRL/extra/nwehrli/AuW-w03-hall.pdf",
     "202404072140.md",
     "sem2/AuW/VRL/notes/AuW.md",
     "less config.md",
@@ -255,7 +258,6 @@
     "sem1/AuD/UE/bf/md/AuD-u08-bf.md",
     "sem1/AuD/UE/bf/md/AuD-u07-bf.md",
     "sem1/AuD/UE/bf/md/AuD-u00-bf.md",
-    "sem1/EProg/UE/bf/EProg-u02-bf.md",
     "sem1/DMath/00-EXAM-PREP/summaries/exponential-modular-arithmetic.jpg",
     "sem1/LinAlg/00-EXAM-PREP/LinAlg-topics-demistified.png",
     "sem1/AuD/VRL/Untitled.canvas",
