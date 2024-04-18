@@ -56,31 +56,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4054f4b330520ee5",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
-                "page": 1,
-                "left": -11,
-                "top": 425,
-                "zoom": 1.3823529411764706
-              }
-            }
-          },
-          {
-            "id": "46b1d71d07e0645b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -146,6 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/AuW/VRL/notes/AuW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,6 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/AuW/VRL/notes/AuW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +164,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/AuW/VRL/notes/AuW.md"
+              }
             }
           },
           {
@@ -224,8 +207,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "46b1d71d07e0645b",
+  "active": "ab77f19e9349d901",
   "lastOpenFiles": [
+    "Untitled.canvas",
     "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
     "sem2/AuW/VRL/slides/AuW-00-slides.md",
     "sem2/DDCA/VRL/slides/DDCA-00-slides.md",
@@ -271,7 +255,6 @@
     "sem1/AuD/UE/bf/md/AuD-u08-bf.md",
     "sem1/DMath/00-EXAM-PREP/summaries/exponential-modular-arithmetic.jpg",
     "sem1/LinAlg/00-EXAM-PREP/LinAlg-topics-demistified.png",
-    "sem1/AuD/VRL/Untitled.canvas",
-    "Untitled.canvas"
+    "sem1/AuD/VRL/Untitled.canvas"
   ]
 }
