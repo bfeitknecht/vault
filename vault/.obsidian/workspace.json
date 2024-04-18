@@ -16,7 +16,7 @@
                 "file": "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
                 "page": 1,
                 "left": -11,
-                "top": 706,
+                "top": 425,
                 "zoom": 1.3823529411764706
               }
             }
@@ -28,10 +28,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
-                "page": 13,
-                "left": -13,
-                "top": 22,
-                "zoom": 1.175
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -42,10 +40,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
-                "page": 50,
-                "left": -13,
-                "top": 196,
-                "zoom": 1.175
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -69,9 +65,7 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
                 "page": 1,
-                "left": -11,
-                "top": 468,
-                "zoom": 1.3823529411764706
+                "zoom": 1
               }
             }
           }
