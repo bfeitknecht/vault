@@ -25,7 +25,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB04-FSM.pdf",
                 "page": 1,
                 "zoom": 1
               }
@@ -56,17 +56,11 @@
             }
           },
           {
-            "id": "ca802ce6e1773059",
+            "id": "61822b66bc1912ee",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
-                "page": 3,
-                "left": -11,
-                "top": 470,
-                "zoom": 1.3823529411764708
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -136,7 +130,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +146,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,9 +167,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -218,22 +208,22 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ca802ce6e1773059",
+  "active": "61822b66bc1912ee",
   "lastOpenFiles": [
     "sem2/AuW/VRL/notes/AuW.md",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB02-gates.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB01-circuits.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB04-FSM.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
+    "sem2/DDCA/UE/e/report/DDCA-u05-report.pdf",
+    "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB05-ALU.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w06-coupon-collector-DP.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
     "Untitled.canvas",
     "sem2/AuW/VRL/slides/AuW-00-slides.md",
     "sem2/DDCA/VRL/slides/DDCA-00-slides.md",
-    "sem2/DDCA/VRL/slides/lectures/DDCA-L10a-number-systems.pdf",
-    "sem2/DDCA/VRL/slides/lectures/DDCA-L07-sequential-logic-design.pdf",
-    "sem2/DDCA/VRL/slides/lectures/DDCA-L14b-MIPS-prog.pdf",
-    "sem2/DDCA/VRL/slides/lectures/DDCA-L12b-MIPS-ASM.pdf",
-    "sem2/DDCA/VRL/slides/lectures/DDCA-L14a-MIPS-prog.pdf",
     "var/escapades/202402271204.md",
     "var/var.md",
     "var/escapades/theoretische informatik zhaw.md",
