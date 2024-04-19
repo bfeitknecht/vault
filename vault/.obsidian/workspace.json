@@ -56,29 +56,21 @@
             }
           },
           {
-            "id": "6f7264c6565980cd",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "ca802ce6e1773059",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
-                "page": 6,
+                "page": 5,
                 "left": -9,
-                "top": 485,
+                "top": 121,
                 "zoom": 1.75
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -145,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
+                "file": "sem2/AuW/VRL/notes/AuW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
+                "file": "sem2/AuW/VRL/notes/AuW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf"
+                "file": "sem2/AuW/VRL/notes/AuW.md"
               }
             }
           },
@@ -227,8 +219,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ca802ce6e1773059",
+  "active": "ab77f19e9349d901",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB04.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w06-coupon-collector-DP.pdf",
@@ -243,7 +236,6 @@
     "sem2/DDCA/VRL/slides/lectures/DDCA-L12b-MIPS-ASM.pdf",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L14a-MIPS-prog.pdf",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L13-memory.pdf",
-    "sem2/DDCA/VRL/slides/lectures/DDCA-L12a_MIPS-ASM.pdf",
     "var/escapades/202402271204.md",
     "var/var.md",
     "var/escapades/theoretische informatik zhaw.md",
