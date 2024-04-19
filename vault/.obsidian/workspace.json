@@ -54,23 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "61822b66bc1912ee",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-report01-bf-cs.pdf",
-                "page": 1,
-                "left": -11,
-                "top": 792,
-                "zoom": 1.3823529411764706
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -136,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-report01-bf-cs.pdf",
+                "file": "sem2/AuW/VRL/notes/AuW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-report01-bf-cs.pdf",
+                "file": "sem2/AuW/VRL/notes/AuW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-report01-bf-cs.pdf"
+                "file": "sem2/AuW/VRL/notes/AuW.md"
               }
             }
           },
@@ -218,8 +204,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "61822b66bc1912ee",
+  "active": "ab77f19e9349d901",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/bf/DDCA-report01-bf-cs.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/DDCA/UE/e/slides/DDCA-LAB02-gates.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB01-circuits.pdf",
