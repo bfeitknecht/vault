@@ -15,9 +15,7 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
                 "page": 1,
-                "left": -11,
-                "top": 425,
-                "zoom": 1.3823529411764706
+                "zoom": 1
               }
             }
           },
@@ -64,9 +62,17 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "9a5fbf744b91bb47",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -211,13 +217,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5f4cf158045f14fe",
+  "active": "9a5fbf744b91bb47",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w06-coupon-collector-DP.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "Untitled.canvas",
-    "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
     "sem2/AuW/VRL/slides/AuW-00-slides.md",
     "sem2/DDCA/VRL/slides/DDCA-00-slides.md",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L10a-number-systems.pdf",
