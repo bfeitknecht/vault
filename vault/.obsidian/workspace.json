@@ -14,8 +14,23 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "579b8ace602742c7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
+                "page": 1,
+                "left": -9,
+                "top": 394,
+                "zoom": 1.75
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf"
+              }
             }
           },
           {
@@ -160,7 +179,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "865efd44f5c58263",
+  "active": "579b8ace602742c7",
   "lastOpenFiles": [
     "sem2/DDCA/VRL/slides/lectures/DDCA-L14b-MIPS-prog.pdf",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L14a-MIPS-prog.pdf",
