@@ -1,0 +1,16 @@
+---
+w00-kai: "[[Linalg-w00-kai.pdf]]" 
+w01-kai: "[[Linalg-w01-kai.pdf]]" 
+w02-kai: "[[LinAlg-w02-kai.pdf]]" 
+w03-kai: "[[LinAlg-w03-kai.pdf]]" 
+w04-kai: "[[LinAlg-w04-kai.pdf]]" 
+w05-kai: "[[LinAlg-w05-kai.pdf]]" 
+w06-kai: "[[LinAlg-w06-kai.pdf]]" 
+w07-kai: "[[LinAlg-w07-kai.pdf]]" 
+w08-kai: "[[LinAlg-w08-kai.pdf]]" 
+w09-kai: "[[LinAlg-w09-kai.pdf]]" 
+w10-kai: "[[LinAlg-w10-kai.pdf]]" 
+w11-kai: "[[LinAlg-w11-kai.pdf]]" 
+w12-kai: "[[LinAlg-w12-kai.pdf]]" 
+w13-kai: "[[LinAlg-w13-kai.pdf]]"
+---

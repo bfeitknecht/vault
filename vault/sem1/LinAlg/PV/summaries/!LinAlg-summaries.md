@@ -1,0 +1,3 @@
+---
+kai: "[[!LinAlg-kai.md]]"
+---

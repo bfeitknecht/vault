@@ -1,0 +1,16 @@
+---
+LinAlg-u00-s: "[[LinAlg-u00-s.pdf]]" 
+LinAlg-u01-s: "[[LinAlg-u01-s.pdf]]" 
+LinAlg-u02-s: "[[LinAlg-u02-s.pdf]]" 
+LinAlg-u03-s: "[[LinAlg-u03-s.pdf]]" 
+LinAlg-u04-s: "[[LinAlg-u04-s.pdf]]" 
+LinAlg-u05-s: "[[LinAlg-u05-s.pdf]]" 
+LinAlg-u06-s: "[[LinAlg-u06-s.pdf]]" 
+LinAlg-u07-s: "[[LinAlg-u07-s.pdf]]" 
+LinAlg-u08-s: "[[LinAlg-u08-s.pdf]]" 
+LinAlg-u09-s: "[[LinAlg-u09-s.pdf]]" 
+LinAlg-u10-s: "[[LinAlg-u10-s.pdf]]" 
+LinAlg-u11-s: "[[LinAlg-u11-s.pdf]]" 
+LinAlg-u12-s: "[[LinAlg-u12-s.pdf]]" 
+LinAlg-u13-s: "[[LinAlg-u13-s.pdf]]"
+---
