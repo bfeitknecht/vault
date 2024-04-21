@@ -16,16 +16,16 @@
             }
           },
           {
-            "id": "579b8ace602742c7",
+            "id": "2f4cbc145bbf0ca6",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
+                "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
                 "page": 1,
-                "left": -9,
-                "top": 761,
-                "zoom": 1.75
+                "left": -11,
+                "top": 842,
+                "zoom": 1.421189498652726
               }
             }
           }
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -97,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
+                "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
+                "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf"
+                "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf"
               }
             }
           },
@@ -179,8 +178,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "579b8ace602742c7",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
+    "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
+    "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L14b-MIPS-prog.pdf",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L14a-MIPS-prog.pdf",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L13-memory.pdf",
@@ -190,8 +191,6 @@
     "sem2/DDCA/VRL/slides/lectures/DDCA-L10b-functional-verification.pdf",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L10a-number-systems.pdf",
     "sem2/DDCA/VRL/slides/lectures/DDCA-L09b-timing.pdf",
-    "sem2/DDCA/VRL/slides/lectures/DDCA-L09a-open-source.pdf",
-    "sem2/DDCA/VRL/slides/lectures/DDCA-L08-verilog-sequential.pdf",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u01-bf.md",
