@@ -91,9 +91,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
-                "page": 33,
-                "left": -50,
-                "top": 721,
+                "page": 31,
+                "left": -194,
+                "top": 96,
                 "zoom": 0.39
               }
             }
@@ -149,7 +149,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
