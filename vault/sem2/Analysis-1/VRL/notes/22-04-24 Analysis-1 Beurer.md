@@ -15,3 +15,16 @@ $$
 \end{align}
 $$
 
+
+
+
+
+Prove:
+
+$$
+\begin{align}
+\lim_{x\rightarrow0} \sin\Biggl(\frac 1 x\Bigg) \text{ diverges.} \\
+
+\text{Find ($x_n$), ($y_n$) with } 0 = \lim_{n\rightarrow \infty} x_n =  \lim_{n\rightarrow \infty} y_n
+\end{align}
+$$
