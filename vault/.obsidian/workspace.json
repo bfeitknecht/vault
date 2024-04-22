@@ -23,14 +23,13 @@
               "state": {
                 "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
                 "page": 1,
-                "left": -2,
-                "top": 686,
-                "zoom": 1.84
+                "left": -95,
+                "top": 647,
+                "zoom": 1.4
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -179,7 +174,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2f4cbc145bbf0ca6",
+  "active": "865efd44f5c58263",
   "lastOpenFiles": [
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
