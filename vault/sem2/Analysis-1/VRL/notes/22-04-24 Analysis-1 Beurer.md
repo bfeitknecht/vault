@@ -9,5 +9,9 @@ $$
 $$
 
 $$
-\forall \delta > 0 : (x_0 - \delta, x_0 + \delta) \cap 
+\begin{align}
+&\forall \delta > 0 : (x_0 - \delta, x_0 + \delta) \cap D\setminus \{x_0\} \neq \varnothing &\Longleftrightarrow \\
+&\exists x_n \in D\setminus\{x_0\} : \lim_{n\rightarrow \infty} x_n = x_0
+\end{align}
 $$
+
