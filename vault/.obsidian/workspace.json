@@ -23,9 +23,21 @@
               "state": {
                 "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
                 "page": 1,
-                "left": 126,
-                "top": 544,
-                "zoom": 1.4
+                "left": 94,
+                "top": 609,
+                "zoom": 1.51
+              }
+            }
+          },
+          {
+            "id": "ef29a0db6434da0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -42,21 +54,9 @@
                 "zoom": 0.8743843192065531
               }
             }
-          },
-          {
-            "id": "ef29a0db6434da0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "4422d8c64a5ae160",
@@ -83,9 +83,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-                "page": 13,
-                "left": 24,
-                "top": 682,
+                "page": 15,
+                "left": 34,
+                "top": 409,
                 "zoom": 1.04
               }
             }
@@ -172,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf"
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md"
               }
             }
           },
@@ -254,14 +254,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2f4cbc145bbf0ca6",
+  "active": "ef29a0db6434da0c",
   "lastOpenFiles": [
-    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+    "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
     "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
-    "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/Analysis-1/VRL/extra/sabatino/mdisabatino-session2.pdf",
     "sem2/PProg/VRL/extra/Abstract Parallel Programming.pdf",
