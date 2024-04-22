@@ -23,28 +23,14 @@
               "state": {
                 "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
                 "page": 1,
-                "left": -95,
+                "left": -15,
                 "top": 647,
                 "zoom": 1.4
               }
             }
-          },
-          {
-            "id": "b563974df7ca7782",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/UE/u/bf/AW_T3_DH.pdf",
-                "page": 1,
-                "left": -11,
-                "top": 843,
-                "zoom": 1.4196536924303158
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AW_T3_DH.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AW_T3_DH.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AW_T3_DH.pdf"
+                "file": "sem2/Analysis-1/VRL/extra/sabatino/mdisabatino-session2.pdf"
               }
             }
           },
@@ -192,21 +176,22 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b563974df7ca7782",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
-    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
-    "sem2/AuW/UE/u/bf/AW_T3_DH.pdf",
-    "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
+    "sem2/Analysis-1/VRL/extra/sabatino/mdisabatino-session6-v2.pdf",
+    "sem2/Analysis-1/VRL/extra/sabatino/mdisabatino-session5.pdf",
+    "sem2/Analysis-1/VRL/extra/sabatino/mdisabatino-session4.pdf",
+    "sem2/Analysis-1/VRL/extra/sabatino/mdisabatino-session3.pdf",
+    "sem2/Analysis-1/VRL/extra/sabatino/mdisabatino-session2.pdf",
+    "sem2/Analysis-1/VRL/extra/sabatino",
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u03-dh.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
     "sem2/Analysis-1/UE/s/Analysis-1-u07-s.pdf",
     "sem2/Analysis-1/UE/s/Analysis-1-u06-s.pdf",
     "sem2/Analysis-1/UE/s/Analysis-1-u05-s.pdf",
-    "sem2/Analysis-1/UE/s/Analysis-1-u04-s.pdf",
-    "sem2/Analysis-1/UE/s/Analysis-1-u03-s.pdf",
-    "sem2/Analysis-1/UE/e/Analysis-1-u04-e.pdf",
-    "sem2/Analysis-1/UE/e/Analysis-1-u05-e.pdf",
-    "sem2/Analysis-1/UE/e/Analysis-1-u08-e.pdf",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem1/AuD/PV/kenji/!kenji.md",
     "sem1/AuD/PV/kenji/!.md",
