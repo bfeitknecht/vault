@@ -28,9 +28,9 @@ $$
 &\text{ Find ($x_n$), ($y_n$) with } \\
 &\lim_{n\rightarrow \infty} x_n =  \lim_{n\rightarrow \infty} y_n = 0, \text{ and } \\
 & \lim_{n\rightarrow \infty} f(x_n) \neq  \lim_{n\rightarrow \infty} f(y_n) \\
-&\ ...
-
-
+&\ ... \\
+& x_n = \frac 1 {n \cdot \pi} \\
+& y_n = \frac 1 {2n \cdot \pi + \frac \pi 2}
 
 \end{align}
 $$
