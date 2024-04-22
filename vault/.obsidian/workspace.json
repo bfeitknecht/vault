@@ -23,14 +23,60 @@
               "state": {
                 "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
                 "page": 1,
-                "left": -15,
-                "top": 647,
+                "left": 126,
+                "top": 442,
                 "zoom": 1.4
+              }
+            }
+          },
+          {
+            "id": "49cddb7dba2c36ec",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "page": 117,
+                "left": -17,
+                "top": 480,
+                "zoom": 0.8743843192065531
+              }
+            }
+          },
+          {
+            "id": "ef29a0db6434da0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
+      },
+      {
+        "id": "4422d8c64a5ae160",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85f37617a5244122",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "page": 117,
+                "left": 0,
+                "top": 480,
+                "zoom": 1.7991654291454724
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -96,6 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/Analysis-1/VRL/extra/sabatino/mdisabatino-session2.pdf"
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md"
               }
             }
           },
@@ -176,22 +225,22 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5f4cf158045f14fe",
+  "active": "ef29a0db6434da0c",
   "lastOpenFiles": [
-    "sem2/Analysis-1/VRL/extra/sabatino/mdisabatino-session6-v2.pdf",
-    "sem2/Analysis-1/VRL/extra/sabatino/mdisabatino-session5.pdf",
-    "sem2/Analysis-1/VRL/extra/sabatino/mdisabatino-session4.pdf",
-    "sem2/Analysis-1/VRL/extra/sabatino/mdisabatino-session3.pdf",
-    "sem2/Analysis-1/VRL/extra/sabatino/mdisabatino-session2.pdf",
-    "sem2/Analysis-1/VRL/extra/sabatino",
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
-    "sem2/AuW/UE/u/bf/AuW-u03-dh.pdf",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "sem2/Analysis-1/VRL/extra/sabatino/mdisabatino-session2.pdf",
+    "sem2/PProg/VRL/extra/Abstract Parallel Programming.pdf",
+    "sem2/PProg/VRL/extra",
+    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w06.pdf",
+    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w05.pdf",
+    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w04.pdf",
+    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w03.pdf",
+    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w02.pdf",
+    "sem2/Analysis-1/VRL/extra/sabatino/mdisabatino-session6-v2.pdf",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
-    "sem2/Analysis-1/UE/s/Analysis-1-u07-s.pdf",
-    "sem2/Analysis-1/UE/s/Analysis-1-u06-s.pdf",
-    "sem2/Analysis-1/UE/s/Analysis-1-u05-s.pdf",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem1/AuD/PV/kenji/!kenji.md",
     "sem1/AuD/PV/kenji/!.md",
