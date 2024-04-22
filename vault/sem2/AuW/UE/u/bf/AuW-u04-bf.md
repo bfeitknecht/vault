@@ -9,20 +9,22 @@ Let $X$ be the expected value of streets with flowers. We recall that the trip i
 $$
 \begin{align}
 & \Pr[X \geq t] \leq \frac {\mathbb E[X]} t \overset \cdot \implies\\
-&\Pr[X \geq \frac 3 4] \leq \frac{\frac k 2}{\frac 3 4} = \frac {4k}{6} \\
-
-
+&\Pr[X \geq \frac 3 4] \leq \frac{\frac k 2}{\frac 3 4} = \frac {4}{6} \cdot k \\
+&\square
 \end{align}
 $$
-
 
 ___
 ## (b)
 
-
+Since $\text{Var}[X]= n\cdot p ($ 
 
 $$
-\Pr[X - \mathbb E[X] \geq t] \leq \frac{\text{Var}[X]}{t^2}
+\begin{align}
+\Pr[X - \mathbb E[X] \geq t] \leq \frac{\text{Var}[X]}{t^2} \\
+\Pr[X - \frac{4k}{6} \geq \frac 3 4] \leq \frac{}{\big(\frac 3 4\big)^2} \\
+
+\end{align}
 $$
 ___
 ## (c)
