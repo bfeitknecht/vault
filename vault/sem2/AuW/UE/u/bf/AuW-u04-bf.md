@@ -2,7 +2,7 @@
 
 ## (a)
 
-Let $X$ be the expected value of streets with flowers. We recall that the trip is a disaster
+Let $X$ be the expected value of streets with flowers. We recall that the trip is a disaster, if $X \geq \frac 3 4$ 
 $$
 \Pr[X \geq t] \leq \frac {\mathbb E[X]} t
 $$
