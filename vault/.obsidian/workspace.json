@@ -88,8 +88,14 @@
             "id": "0e9aeeaabda4e370",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
+                "page": 33,
+                "left": -50,
+                "top": 721,
+                "zoom": 0.39
+              }
             }
           }
         ],
@@ -143,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -160,6 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,6 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +204,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md"
+              }
             }
           },
           {
@@ -238,8 +247,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0e9aeeaabda4e370",
+  "active": "ef29a0db6434da0c",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
+    "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
@@ -250,7 +261,6 @@
     "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w05.pdf",
     "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w04.pdf",
     "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w03.pdf",
-    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w02.pdf",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",

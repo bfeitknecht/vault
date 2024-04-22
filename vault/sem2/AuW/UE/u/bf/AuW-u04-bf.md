@@ -11,6 +11,10 @@ ___
 
 
 
+$$
+\Pr[X - \mathbb E[X] \geq t] \leq \frac{\text{Var}[X]}{t^2}
+$$
+
 ___
 ## (c)
 
