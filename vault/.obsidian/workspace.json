@@ -104,8 +104,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -256,13 +255,13 @@
   },
   "active": "ef29a0db6434da0c",
   "lastOpenFiles": [
-    "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+    "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
     "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/Analysis-1/VRL/extra/sabatino/mdisabatino-session2.pdf",
     "sem2/PProg/VRL/extra/Abstract Parallel Programming.pdf",
     "sem2/PProg/VRL/extra",
