@@ -13,3 +13,4 @@
 
 #### 2.7 #Reihen
 Eine Folge aus Partialsummen.
+
