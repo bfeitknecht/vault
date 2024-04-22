@@ -98,8 +98,8 @@
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
                 "page": 32,
-                "left": 3,
-                "top": 285,
+                "left": 0,
+                "top": 271,
                 "zoom": 0.54
               }
             }
@@ -257,9 +257,9 @@
   "active": "ef29a0db6434da0c",
   "lastOpenFiles": [
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-    "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
-    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+    "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
     "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
@@ -267,7 +267,6 @@
     "sem2/PProg/VRL/extra/Abstract Parallel Programming.pdf",
     "sem2/PProg/VRL/extra",
     "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w06.pdf",
-    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w05.pdf",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
