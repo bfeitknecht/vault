@@ -80,8 +80,14 @@
             "id": "29899104d7fc8d48",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
+                "page": 15,
+                "left": 111,
+                "top": 458,
+                "zoom": 1.47
+              }
             }
           },
           {
@@ -91,15 +97,15 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
-                "page": 31,
-                "left": -194,
-                "top": 96,
-                "zoom": 0.39
+                "page": 32,
+                "left": 3,
+                "top": 285,
+                "zoom": 0.54
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -250,9 +256,11 @@
   },
   "active": "ef29a0db6434da0c",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
+    "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
     "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
-    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/Analysis-1/VRL/extra/sabatino/mdisabatino-session2.pdf",
@@ -260,8 +268,6 @@
     "sem2/PProg/VRL/extra",
     "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w06.pdf",
     "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w05.pdf",
-    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w04.pdf",
-    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w03.pdf",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
