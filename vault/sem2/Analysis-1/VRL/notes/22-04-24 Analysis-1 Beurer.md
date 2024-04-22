@@ -23,8 +23,14 @@ Prove:
 
 $$
 \begin{align}
-\lim_{x\rightarrow0} \sin\Biggl(\frac 1 x\Bigg) \text{ diverges.} \\
+&\lim_{x\rightarrow0} \sin \bigg(\frac 1 x\bigg) \text{ diverges.} \\
+\\
+&\text{ Find ($x_n$), ($y_n$) with } \\
+&\lim_{n\rightarrow \infty} x_n =  \lim_{n\rightarrow \infty} y_n = 0, \text{ and } \\
+& \lim_{n\rightarrow \infty} f(x_n) \neq  \lim_{n\rightarrow \infty} f(y_n) \\
+&\ ...
 
-\text{Find ($x_n$), ($y_n$) with } 0 = \lim_{n\rightarrow \infty} x_n =  \lim_{n\rightarrow \infty} y_n
+
+
 \end{align}
 $$
