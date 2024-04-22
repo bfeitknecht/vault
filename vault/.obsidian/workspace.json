@@ -23,9 +23,9 @@
               "state": {
                 "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
                 "page": 1,
-                "left": -11,
-                "top": 842,
-                "zoom": 1.421189498652726
+                "left": -2,
+                "top": 686,
+                "zoom": 1.84
               }
             }
           }
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -178,7 +179,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5f4cf158045f14fe",
+  "active": "2f4cbc145bbf0ca6",
   "lastOpenFiles": [
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
