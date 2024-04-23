@@ -34,7 +34,7 @@ $$
 &\text{Let $\mathbf{A}$ denote that the set of sniffling dogs is empty.} \\
 \\
 \\
-\text{Let $X$ = }\\
+&\text{Let $X$ = "Number of sniffling dogs"}\\
 \end{align}
 $$
 $$x
@@ -48,7 +48,12 @@ ___
 ## (d)
 
 
-Le
+$$
+\begin{align}
+&\text{Let } k=1000
+\end{align}
+$$
+
 
 
 "i always find it therefore i never search"

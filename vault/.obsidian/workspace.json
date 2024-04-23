@@ -91,8 +91,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
-                "page": 1,
-                "zoom": 1
+                "page": 23,
+                "left": -30,
+                "top": 138,
+                "zoom": 0.5068359375
               }
             }
           },
@@ -104,7 +106,7 @@
               "state": {
                 "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
                 "page": 1,
-                "left": 232,
+                "left": 131,
                 "top": 427,
                 "zoom": 1.77
               }
@@ -264,8 +266,8 @@
   "lastOpenFiles": [
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/slides/AuW-L15-chernoff.pdf",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
     "sem2/AuW/UE/u/bf/Untitled.md",
