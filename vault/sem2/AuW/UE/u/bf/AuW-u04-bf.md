@@ -34,9 +34,9 @@ $$
 &\text{Let $\mathbf{A}$ denote that the set of sniffling dogs is empty.} \\
 \end{align}
 $$
-$$
+$$x
 \begin{align} \\
-&k \geq \log_{2}{(n)}+1 \implies \Pr[\mathbf{A}] = \frac{1}{2} \\ \\
+&k \geq \log_{2}{(n)}+1 \implies \Pr[\mathbf{A}] \geq \frac{1}{2} \\ \\
 
 \end{align}
 $$
