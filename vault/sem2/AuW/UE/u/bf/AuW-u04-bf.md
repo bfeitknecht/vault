@@ -29,16 +29,14 @@ ___
 
 $$
 \begin{align}
-&\text{Let $\Omega$ denote the probability space.} \\
-&\text{Let $\mathcal H$ denote the set of sniffling dogs.} \\
-&\text{Let $\mathbf{A}$ denote that the set of sniffling dogs is empty.} \\
+&\text{Let $\mathbf{A}$ denote that there are no sniffling dogs.} \\
 \\
 \\
 &\text{Let $X$ = "Number of sniffling dogs"}\\
-&\mathbb
+&\mathbb E[X] \overset?=
 \end{align}
 $$
-$$x
+$$
 \begin{align} \\
 &k \geq \log_{2}{(n)}+1 \implies \Pr[\mathbf{A}] \geq \frac{1}{2} \\ \\
 
