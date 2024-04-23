@@ -41,14 +41,16 @@
       "key": "P"
     }
   ],
+  "editor:delete-paragraph": [],
+  "file-explorer:new-file-in-new-pane": [],
+  "editor:toggle-checklist-status": [],
+  "editor:open-link-in-new-leaf": [],
   "workspace:split-vertical": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "D"
+      "key": "P"
     }
-  ],
-  "editor:delete-paragraph": [],
-  "file-explorer:new-file-in-new-pane": []
+  ]
 }
