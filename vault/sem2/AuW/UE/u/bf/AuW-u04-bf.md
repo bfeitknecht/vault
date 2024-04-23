@@ -32,6 +32,9 @@ $$
 &\text{Let $\Omega$ denote the probability space.} \\
 &\text{Let $\mathcal H$ denote the set of sniffling dogs.} \\
 &\text{Let $\mathbf{A}$ denote that the set of sniffling dogs is empty.} \\
+\\
+\\
+\text{Let $X$ = }\\
 \end{align}
 $$
 $$x
