@@ -37,7 +37,7 @@
 
 
 
-> **Aufgabenstellung**: Auf einem 8x8 Feld aus Quadraten wird ein Feldabgedeckt. Existiert eine Konfiguration an Anordnungen von L-förmigen Formen, bestehend aus drei Häuschen, bei dem das gesamte Brett ohne Überlappung abgedeckt wird.
+> **Aufgabenstellung**: Auf einem 8x8 Feld aus Quadraten wird ein Feld abgedeckt. Existiert eine Konfiguration an Anordnungen von L-förmigen Formen, bestehend aus drei Häuschen, bei dem das gesamte Brett ohne Überlappung abgedeckt wird?
 
 $P(k) = 1 \overset{def}{\longleftrightarrow}$ Für jede ($\forall$) Markierung existiert ($\exists$) eine Zerlegung des Restfeldes 
 

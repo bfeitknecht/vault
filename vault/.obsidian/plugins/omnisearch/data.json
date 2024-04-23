@@ -16,7 +16,7 @@
   "renderLineReturnInExcerpts": true,
   "showCreateButton": false,
   "highlight": true,
-  "showPreviousQueryResults": true,
+  "showPreviousQueryResults": false,
   "simpleSearch": false,
   "tokenizeUrls": false,
   "fuzziness": "1",
