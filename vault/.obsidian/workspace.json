@@ -103,8 +103,21 @@
                 "zoom": 0.54
               }
             }
+          },
+          {
+            "id": "b9a2768d4896a8be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "yannick pseudocode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -171,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+                "file": "yannick pseudocode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+                "file": "yannick pseudocode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md"
+                "file": "yannick pseudocode.md"
               }
             }
           },
@@ -253,10 +266,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ef29a0db6434da0c",
+  "active": "b9a2768d4896a8be",
   "lastOpenFiles": [
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "yannick pseudocode.md",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
