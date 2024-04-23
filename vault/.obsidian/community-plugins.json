@@ -1,9 +1,8 @@
 [
   "obsidian-git",
   "obsidian-style-settings",
-  "pdf-plus",
   "break-page",
+  "obsidian-hider",
   "omnisearch",
-  "text-extractor",
-  "obsidian-hider"
+  "text-extractor"
 ]
