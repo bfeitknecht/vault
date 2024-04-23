@@ -34,7 +34,9 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "page": 1,
+                "zoom": 1
               }
             }
           }
@@ -52,7 +54,9 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -62,7 +66,9 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf"
+                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -72,7 +78,9 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf"
+                "file": "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -82,7 +90,9 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf"
+                "file": "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -92,7 +102,11 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf"
+                "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
+                "page": 1,
+                "left": 89,
+                "top": 592,
+                "zoom": 1.3
               }
             }
           }
@@ -240,14 +254,17 @@
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": true,
-      "zk-prefixer:Create new unique note": true
+      "zk-prefixer:Create new unique note": true,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
   "active": "2f4cbc145bbf0ca6",
   "lastOpenFiles": [
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
     "sem2/AuW/VRL/slides/AuW-L15-chernoff.pdf",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
