@@ -29,19 +29,17 @@ ___
 
 $$
 \begin{align}
-&\text{Let $\mathbf{A}$ denote that there are no sniffling dogs.} \\
+%&\text{Let $\mathbf{A}$ denote that there are no sniffling dogs.} \\
 \\
 \\
-&\text{Let $X$ = "Number of sniffling dogs"}\\
-&\mathbb E[X] \overset?=
+&\text{Let ${\mathrm{X}}$ = "Number of sniffling dogs"}\\
+&\mathbb E[\mathrm{X}] \overset?= \\
+\\
+\\
+&k \geq \log_{2}{(n)}+1 \overset?\implies \Pr[\mathrm{X} = 0] \geq \frac{1}{2} \\ \\
 \end{align}
 $$
-$$
-\begin{align} \\
-&k \geq \log_{2}{(n)}+1 \implies \Pr[\mathbf{A}] \geq \frac{1}{2} \\ \\
 
-\end{align}
-$$
 
 ___
 ## (d)
@@ -50,8 +48,8 @@ ___
 $$
 \begin{align}
 &\text{Let } k=1000\log_{2}(n) \text{ and } n \geq 2. \qquad \text{(1)} \\
-&\text{Furthermore, let } \mathbf{A} =\text{"all trips were a pleasure".} \\ \\
-&\text{(1)} \implies \Pr[\mathbf{A}] = 0.99
+&\text{Furthermore, let } \mathrm{A} =\text{"all trips were a pleasure".} \\ \\
+&\text{(1)} \implies \Pr[\mathrm{A}] \geq 0.99
 \end{align}
 $$
 
