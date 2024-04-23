@@ -28,9 +28,16 @@ ___
 ## (c)
 
 $$
+\begin{align}
+&\text{Let $\Omega$ denote the probability space.} \\
+&\text{Let $\mathcal H$ denote the set of sniffling dogs.} \\
+&\text{Let $\mathbf{A}$ denote that the set of sniffling dogs is empty.} \\
+\end{align}
+$$
+$$
 \begin{align} \\
-&\text{let $\mathbb H$} \\
-&k \geq \log_{2}{(n)}+1 &\implies &\Pr[X=\text{"keinen einzigen schniefenden Hund"}] = \frac{1}{2}
+&k \geq \log_{2}{(n)}+1 \implies \Pr[\mathbf{A}] = \frac{1}{2} \\ \\
+
 \end{align}
 $$
 
