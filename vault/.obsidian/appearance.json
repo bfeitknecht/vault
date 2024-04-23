@@ -9,5 +9,6 @@
   "enabledCssSnippets": [
     "page-breaks",
     "page-break"
-  ]
+  ],
+  "monospaceFontFamily": "CommitMono Nerd Font Mono"
 }

@@ -46,13 +46,15 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 1,
-                "zoom": 1
+                "page": 116,
+                "left": -22,
+                "top": 463,
+                "zoom": 0.6853963539601798
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "4422d8c64a5ae160",
@@ -89,8 +91,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
-                "page": 1,
-                "zoom": 1
+                "page": 33,
+                "left": -38,
+                "top": 408,
+                "zoom": 0.3984375
               }
             }
           }
@@ -161,7 +165,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +181,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md"
+                "file": "cheby.md"
               }
             }
           },
@@ -226,7 +228,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,10 +246,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ef29a0db6434da0c",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
-    "sem1/DMath/VRL/V01_mathematical-propositions.md",
+    "cheby.md",
+    "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
+    "sem2/AuW/VRL/slides/AuW-L15-chernoff.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+    "sem1/DMath/VRL/V01_mathematical-propositions.md",
     "yannick pseudocode.md",
     "sem2/AuW/UE/pg/bf/AuW-u02-pg-cs.pdf",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
@@ -254,12 +260,10 @@
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/PProg/VRL/extra/PProg-abstract.pdf",
     "sem2/AuW/VRL/slides/AuW-L16-random-algorithms.pdf",
-    "sem2/AuW/VRL/slides/AuW-L15-chernoff.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
-    "sem2/DDCA/UE/e/report/DDCA-u03-report.pdf",
     "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem1/AuD/PV/kenji/!kenji.md",
@@ -280,7 +284,6 @@
     "sem1/LinAlg/PV/summaries/kai/!LinAlg-kai.md",
     "sem1/AuD/PV/summaries/!AuD-summaries.md",
     "sem1/EProg/extra/!EProg-extra.md",
-    "sem1/LinAlg/PV/other/matrix-multiplication/!matrix-multiplication.md",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-matrix.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-column-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-row-vector.png",
