@@ -28,7 +28,10 @@ ___
 ## (c)
 
 $$
-
+\begin{align} \\
+&\text{let $\mathbb H$} \\
+&k \geq \log_{2}{(n)}+1 &\implies &\Pr[X=\text{"keinen einzigen schniefenden Hund"}] = \frac{1}{2}
+\end{align}
 $$
 
 ___
