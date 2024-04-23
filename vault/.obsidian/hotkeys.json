@@ -33,14 +33,6 @@
       "key": "P"
     }
   ],
-  "break-page:insert-break-page": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "P"
-    }
-  ],
   "editor:delete-paragraph": [],
   "file-explorer:new-file-in-new-pane": [],
   "editor:toggle-checklist-status": [],
@@ -52,5 +44,14 @@
       ],
       "key": "P"
     }
-  ]
+  ],
+  "break-page:insert-break-page": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "obsidian-editor-shortcuts:insertLineBelow": []
 }
