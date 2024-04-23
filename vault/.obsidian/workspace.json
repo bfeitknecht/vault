@@ -223,11 +223,11 @@
     "hiddenItems": {
       "omnisearch:Omnisearch": false,
       "workspaces:Manage workspace layouts": false,
-      "switcher:Open quick switcher": false,
+      "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
-      "templates:Insert template": false,
-      "zk-prefixer:Create new unique note": false
+      "templates:Insert template": true,
+      "zk-prefixer:Create new unique note": true
     }
   },
   "active": "56d5b3815748a7e0",
