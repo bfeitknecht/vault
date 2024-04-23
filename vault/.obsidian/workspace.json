@@ -33,11 +33,11 @@
             "id": "ef29a0db6434da0c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
-                "mode": "source",
-                "source": false
+                "file": "sem2/AuW/UE/pg/bf/AuW-u02-pg-cs.pdf",
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -155,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -172,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+                "file": "sem2/AuW/UE/u/bf/AuW-u03-dh.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+                "file": "sem2/AuW/UE/u/bf/AuW-u03-dh.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md"
+                "file": "sem2/AuW/UE/u/bf/AuW-u03-dh.pdf"
               }
             }
           },
@@ -256,25 +255,24 @@
   },
   "active": "ef29a0db6434da0c",
   "lastOpenFiles": [
+    "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
+    "sem2/AuW/UE/pg/bf/AuW-u02-pg-cs.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u03-dh.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+    "sem2/PProg/VRL/extra/PProg-abstract.pdf",
+    "sem2/AuW/VRL/slides/AuW-L16-random-algorithms.pdf",
+    "sem2/AuW/VRL/slides/AuW-L15-chernoff.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
+    "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
+    "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u03-report.pdf",
-    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
-    "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
     "yannick pseudocode.md",
-    "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-    "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
-    "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
-    "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
-    "sem2/Analysis-1/VRL/extra/sabatino/mdisabatino-session2.pdf",
-    "sem2/PProg/VRL/extra/Abstract Parallel Programming.pdf",
-    "sem2/PProg/VRL/extra",
-    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w06.pdf",
-    "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem1/AuD/PV/kenji/!kenji.md",
     "sem1/AuD/PV/kenji/!.md",
-    "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u01-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u00-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-u02-pg-bf.md",
