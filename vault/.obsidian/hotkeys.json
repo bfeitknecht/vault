@@ -40,5 +40,15 @@
       ],
       "key": "P"
     }
-  ]
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "file-explorer:new-file-in-new-pane": []
 }

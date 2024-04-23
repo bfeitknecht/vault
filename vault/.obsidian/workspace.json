@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "4422d8c64a5ae160",
@@ -167,7 +167,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +183,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+                "file": "sem2/AuW/UE/u/bf/Untitled.md"
               }
             }
           },
@@ -249,11 +247,13 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "49cddb7dba2c36ec",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
-    "var/unique",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+    "sem2/AuW/UE/u/bf/Untitled.md",
+    "sem2/AuW/UE/u/bf/Untitled 1.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "var/unique",
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
@@ -267,7 +267,6 @@
     "sem2/AuW/UE/u/bf/AuW-u03-dh.pdf",
     "sem2/PProg/VRL/extra/PProg-abstract.pdf",
     "sem2/AuW/VRL/slides/AuW-L16-random-algorithms.pdf",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
     "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem1/AuD/PV/kenji/!kenji.md",
@@ -286,7 +285,6 @@
     "sem2/Analysis-1/UE/bf/Analysis-1-u02-bf.md",
     "sem2/Analysis-1/UE/bf/Analysis-1-u01-bf.md",
     "sem1/LinAlg/PV/summaries/kai/!LinAlg-kai.md",
-    "sem1/AuD/PV/summaries/!AuD-summaries.md",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-matrix.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-column-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-row-vector.png",
