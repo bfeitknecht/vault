@@ -18,8 +18,8 @@ Since $\text{Var}[X]= np (1-p)$ for binomial distributions, the variance in our 
 
 $$
 \begin{align}
-&\Pr[X - \mathbb E[X] \geq t] \leq \frac{\text{Var}[X]}{t^2} \overset \cdot \implies \\
-&\Pr[X - \frac{2}{3} \geq \frac 3 4 \cdot k] \leq \frac{\frac k 4}{\big(\frac 3 4\big)^2} = \frac {4^2 \cdot k} {3^2 \cdot4} = \frac {4}{9} \cdot k\\
+&\Pr[|X - \mathbb E[X]| \geq t] \leq \frac{\text{Var}[X]}{t^2} \overset \cdot \implies \\
+&\Pr[|X - \frac{2}{3}| \geq \frac 3 4 \cdot k] \leq \frac{\frac k 4}{\big(\frac 3 4 \cdot k\big)^2} = \frac {4^2 \cdot k} {4 \cdot (3k)^2} = \frac {4}{9} \cdot k\\
 &\square
 \end{align}
 $$
