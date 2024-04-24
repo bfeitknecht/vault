@@ -36,6 +36,8 @@ n &\geq 2 \\
 k &\geq \log_{2}(n) + 1  \overset{?}{\implies} \Pr[\mathrm{Y} = 0] \geq \frac{1}{2} \\
  \\
  \\
+\mathbb E[\mathrm{Y}] &= \binom{n}{n-1} \cdot \binom{n}{k} \cdot n \\
+ \\
  \\
 \Pr\left[ \mathrm{X} =  k  \right]
 &= 1-\Pr[\mathrm{X \le k-1}]  &\text{(CDF)}\\
