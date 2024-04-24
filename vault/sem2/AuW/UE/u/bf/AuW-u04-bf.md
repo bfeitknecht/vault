@@ -38,12 +38,18 @@ $$
 &\text{Let } k \geq \log_{2}{(n)}+1 &\text{(1)} \\
 &\Pr[\mathrm{Y} = s] = \binom{n}{s} \cdot p^s \cdot (1-p)^{n-s} &\text{(2)} \\
  \\
-&\text{(1)}, (2) \implies \Pr[\mathrm{Y} = 0] = \frac{n!}{0!(n)!} \cdot \left( \frac{2}{3}\right)^0 \cdot \left( \frac{1}{3} \right)^n \\ \\
-&= \left( \frac{1}{3} \right)^n
+&\text{(1)}, (2) \implies \Pr[\mathrm{Y} = 0] = \frac{n!}{0!(n)!} \cdot \left( \frac{2}{3}\right)^0 \cdot \left( \frac{1}{3} \right)^n \\
  \\
  \\
  \\
-&\Pr[\mathrm{Y} = 0] \geq \frac{1}{2}
+ \\
+ \\
+ \\
+ \\
+ \\
+ \\
+ \\
+&k \geq \log_{2}{(n)}+1 \overset{?}{\implies} \Pr[\mathrm{Y} = 0] \geq \frac{1}{2}
 \end{align}
 $$
 
