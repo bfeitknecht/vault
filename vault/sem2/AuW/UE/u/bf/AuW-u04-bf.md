@@ -41,13 +41,10 @@ k &\geq \log_{2}(n) + 1  \overset{?}{\implies} \Pr[\mathrm{Y} = 0] \geq \frac{1}
 &= 1-\Pr[\mathrm{X \le k-1}] \\
 &= 1-\sum_{i=0}^{\lfloor \log_{2}(n) \rfloor}\binom{n}{i} \cdot p^i \cdot (1-p)^{n-i} \\
 &= 1 - \sum_{i=0}^{\lfloor \log_{2}(n) \rfloor}\binom{n}{i} \cdot \left( \frac{1}{2} \right)^n\\
-&=1-\frac{1}{2^n} \cdot 2^{\lfloor \log_{2}{(n)} \rfloor}  \\
+%&=1-\frac{1}{2^n} \cdot 2^{\lfloor \log_{2}{(n)} \rfloor}  \\
 &= 1-\frac{2^{\lfloor \log_{2}{(n)} \rfloor}}{2^n} \\
 &\leq 1 - \frac{n}{2^{n}}\\
 
-
-%&\Pr[\mathrm{Y} = s] = \binom{n}{s} \cdot p^s \cdot (1-p)^{n-s} &\text{(2)} \\
-%&\text{(1)}, (2) \implies \Pr[\mathrm{Y} = 0] = \frac{n!}{0!(n)!} \cdot \left( \frac{2}{3}\right)^0 \cdot \left( \frac{1}{3} \right)^n \\
  \\
  \\
  \\
