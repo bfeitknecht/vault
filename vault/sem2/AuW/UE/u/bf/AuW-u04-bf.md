@@ -17,11 +17,9 @@ ___
 Using Chebyshev's inequality, $\Pr[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t] \leq \frac{\text{Var}[\mathrm{X}]}{t^2}$, requires $\text{Var}[\mathrm{X}]$. For binomial distributions $\mathrm{X} \sim \mathrm{Bin}(n, p)$, as in our case, this is given by $\text{Var}[\mathrm{X}] = np(1-p) = k \cdot \frac{1}{2} \cdot \left( 1-\frac{1}{2} \right) = \frac k 4$. Thus,
 
 $$
-\begin{align} \\
-\Pr\bigg[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t \cdot\sqrt{ \text{Var}[\mathrm{X}] }\bigg] &\leq \frac{1}{t^2}  \\
-\Pr\bigg[\bigg|\mathrm{X} - \frac{k}{2} \bigg| \geq \frac{3k}{4} \cdot \sqrt{ \frac{k}{4} } \bigg] &\leq \frac{1}{\left(\frac{3k}{4}\right)^2} = \frac {4}{9k^2} \\
-\\
-\\
+\begin{align}
+%\Pr\bigg[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t \cdot\sqrt{ \text{Var}[\mathrm{X}] }\bigg] &\leq \frac{1}{t^2}  \\
+%\Pr\bigg[\bigg|\mathrm{X} - \frac{k}{2} \bigg| \geq \frac{3k}{4} \cdot \sqrt{ \frac{k}{4} } \bigg] &\leq \frac{1}{\left(\frac{3k}{4}\right)^2} = \frac {4}{9k^2} \\
 \\
 \Pr[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t] &\leq \frac{ \mathrm{Var}[\mathrm{X}]}{t^2}  \\
 \Pr\bigg[\bigg|\mathrm{X} - \frac{k}{2} \bigg| \geq \frac{3k}{4} \bigg] &\leq \frac{\frac {k}{4}}{\big(\frac{3k}{4}\big)^2} = \frac {k}{4} \cdot \left(\frac{4}{3k}\right)^2 \\
@@ -50,8 +48,7 @@ k &\geq \log_{2}(n) + 1  \overset{?}{\implies} \Pr[\mathrm{Y} = 0] \geq \frac{1}
  \\
  \\
 \Pr\left[ \mathrm{X} =  k  \right]
-&= \binom{n}{0}\cdot p^k \cdot (1-p)^{n-k} \\
-&= (1-p)^{n}
+&= \binom{n}{k}\cdot p^k \cdot (1-p)^{n-k} \\
 %&= 1-\Pr[\mathrm{X \le k-1}]  &\text{(CDF)}\\
 %&= 1-\sum_{i=0}^{\lfloor \log_{2}(n) \rfloor}\binom{n}{i} \cdot p^i \cdot (1-p)^{n-i} \\
 %&= 1 - \sum_{i=0}^{\lfloor \log_{2}(n) \rfloor}\binom{n}{i} \cdot \left( \frac{1}{2} \right)^n\\
