@@ -18,8 +18,9 @@ Since $\text{Var}[\mathrm{X}]= np (1-p)$ for binomial distributions $\mathrm{X} 
 
 $$
 \begin{align} \\
-&\Pr[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t] \leq \frac{\text{Var}[\mathrm{X}]}{t^2} \overset{\text{Cheby.}} \implies \\ \\
-&\Pr\bigg[\bigg|\mathrm{X} - \frac{2}{3} \bigg| \geq \frac{3}{4} \cdot k \bigg] \leq \frac{\frac {k}{4}}{\big(\frac{3}{4} \cdot k\big)^2} = \frac {4}{3^2 \cdot k} \\
+&\Pr[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t] \leq \frac{\text{Var}[\mathrm{X}]}{t^2} \overset{\text{Cheby.}} \implies \\
+\\
+&\Pr\bigg[\bigg|\mathrm{X} - \frac{k}{2} \bigg| \geq \frac{3}{4} \cdot k \bigg] \leq \frac{\frac {k}{4}}{\big(\frac{3}{4} \cdot k\big)^2} = \frac {4}{3^2 \cdot k} \\
 &\square
 \end{align}
 $$
@@ -35,17 +36,9 @@ This is by the fact that all $n-1$ trips are independent and the probability of 
 
 $$
 \begin{align}
-&\text{Let } k \geq \log_{2}{(n)}+1 &\text{(1)} \\
-&\Pr[\mathrm{Y} = s] = \binom{n}{s} \cdot p^s \cdot (1-p)^{n-s} &\text{(2)} \\
- \\
-&\text{(1)}, (2) \implies \Pr[\mathrm{Y} = 0] = \frac{n!}{0!(n)!} \cdot \left( \frac{2}{3}\right)^0 \cdot \left( \frac{1}{3} \right)^n \\
- \\
- \\
- \\
- \\
- \\
- \\
- \\
+%&\text{Let } k \geq \log_{2}{(n)}+1 &\text{(1)} \\
+%&\Pr[\mathrm{Y} = s] = \binom{n}{s} \cdot p^s \cdot (1-p)^{n-s} &\text{(2)} \\
+%&\text{(1)}, (2) \implies \Pr[\mathrm{Y} = 0] = \frac{n!}{0!(n)!} \cdot \left( \frac{2}{3}\right)^0 \cdot \left( \frac{1}{3} \right)^n \\
  \\
  \\
  \\
