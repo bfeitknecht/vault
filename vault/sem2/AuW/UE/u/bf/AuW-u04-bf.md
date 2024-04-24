@@ -26,7 +26,7 @@ $$
 
 ___
 ## (c)
-Let $\text{Y = "\# sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p), \text{ independent}$. We know, that the probability for any one dog to sniffle all day is $p = \Pr[\mathrm{X} = k]$. Thus, $\mathrm{Y} \sim \text{Bin}(n-1, p)$. This is by the fact that all $n-1$ trips are independent. The probability of any one dog sniffling for the rest of the day is given by $p$.
+Let $\text{Y = "\# sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p), \text{ independent}$. We know, that the probability $p$ for any one dog to sniffle all day is $\Pr[\mathrm{X} = k]$. Thus, $\mathrm{Y} \sim \text{Bin}(n-1, p)$. This is by the fact that all $n-1$ trips are independent. The probability of any one dog sniffling for the rest of the day is given by $p$.
 Thus, $\mathbb E[\mathrm{Y}] = (n-1) \cdot p$.
 
 
@@ -90,7 +90,14 @@ $$
 $\mathbb E[\mathrm{Z}]=N\cdot\frac{1}{4}$
 
 
+$$
+\begin{align}
+&\mathbb E[\mathrm{X}] = np = \frac{1000\log_{2}(n)}{2} \\
 
+&\Pr\left[ \mathrm{X} \geq \frac 3 4 \cdot k \right] \leq \frac{\frac k 2}{\frac 3 4 \cdot k} = \frac {2}{3}\\
+&\square
+\end{align}
+$$
 
 
 
