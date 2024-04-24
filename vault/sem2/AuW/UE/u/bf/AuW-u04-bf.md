@@ -77,9 +77,18 @@ k &= 1000\log_{2}(n)  \\
 n &\geq 2 \\
  \\
  \\
-\text{(1)} &\overset{?}{\implies} \Pr[\mathrm{\mathrm{Z}= n-1}] \geq 0.99 \\
+%\text{(1)} &\overset{?}{\implies} \Pr[\mathrm{\mathrm{Z}= n-1}] \geq 0.99 \\
  \\
-\text{(1)} &\overset{?}{\implies} \Pr[\mathrm{Z}\geq 1] \leq 0.01 \\
+%\text{(1)} &\overset{?}{\implies} \Pr[\mathrm{Z}\geq 1] \leq 0.01 \\
+\text{(1)} &\overset{?}{\implies} 1-\Pr[\mathrm{Z}\geq 1] \geq 0.99 \\
+ \\
+ \\
+ \\
+ \\
+ \\
+&\Pr[\mathrm{Z}\geq 1] \leq 0.01 \\
+&\Pr[\mathrm{Z}\geq (1+\delta)\mathbb E[\mathrm{X}]] \leq e^{-\frac{1}{3}\delta^2\mathbb E[]\mathrm{X}}} \\
+
  \\
  \\
 %\Pr\left[ \mathrm{X\geq \frac{3}{4}\cdot k} \right] &\leq \frac{\frac{k}{2}}{\frac{3}{4} \cdot k} \\
