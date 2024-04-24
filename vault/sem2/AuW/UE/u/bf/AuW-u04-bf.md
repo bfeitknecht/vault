@@ -36,7 +36,10 @@ This is by the fact that all $n-1$ trips are independent and the probability of 
 $$
 \begin{align}
 &\text{Let } k \geq \log_{2}{(n)}+1 &\text{(1)} \\
-&\Pr[\mathrm{Y} = s] = \binom{n}{s} \cdot   \\
+&\Pr[\mathrm{Y} = s] = \binom{n}{s} \cdot p^s \cdot (1-p)^{n-s} &\text{(2)} \\
+ \\
+&\text{(1)}, (2) \implies \Pr[\mathrm{Y} = 0] = \frac{n!}{0!(n)!} \cdot \left( \frac{2}{3}\right)^0 \cdot \left( \frac{1}{3} \right)^n \\ \\
+&= \left( \frac{1}{3} \right)^n
  \\
  \\
  \\
