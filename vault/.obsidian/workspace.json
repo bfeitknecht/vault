@@ -55,10 +55,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 132,
-                "left": -17,
-                "top": 381,
-                "zoom": 0.8718644796699347
+                "page": 127,
+                "left": 48,
+                "top": 209,
+                "zoom": 1.18
               }
             }
           },
@@ -70,7 +70,9 @@
               "state": {
                 "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
                 "page": 1,
-                "zoom": 1
+                "left": -17,
+                "top": 832,
+                "zoom": 0.865
               }
             }
           },
@@ -95,9 +97,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
-                "page": 20,
+                "page": 23,
                 "left": -30,
-                "top": 423,
+                "top": 107,
                 "zoom": 0.5068359375
               }
             }
@@ -117,7 +119,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md"
+                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf"
               }
             }
           },
@@ -266,12 +268,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "56d5b3815748a7e0",
+  "active": "29899104d7fc8d48",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
-    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
     "sem2/AuW/VRL/slides/AuW-L15-chernoff.pdf",
     "sem2/AuW/UE/u/bf/Untitled.md",
