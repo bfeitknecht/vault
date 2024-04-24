@@ -30,9 +30,6 @@ Let $\text{Y = "\# sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots
 Thus, $\mathbb E[\mathrm{Y}] = (n-1) \cdot p$.
 
 
-
-use chernoff here ??
-
 $$
 \begin{align}
 n &\geq 2 \\
