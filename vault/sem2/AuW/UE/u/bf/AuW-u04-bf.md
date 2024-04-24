@@ -3,7 +3,6 @@
 ## (a)
 Let $\mathrm{X}$ be the random variable denoting the number of streets with flowers. We recall that the trip is a disaster, if $\mathrm{X} \geq \frac 3 4$. To apply Markov's inequality, $\Pr[\mathrm{X} \geq t] \leq \frac {\mathbb E[\mathrm{X}]} t$, we need the expected value $\mathbb{E}[\mathrm{X}]$, meaning the expected number of streets with flowers encountered.
 For this, we can use linearity of expectation, since the probability for a street to have flowers is binomially distributed. Hence,
-
 $$
 \begin{align} \\
 &\mathbb E[\mathrm{X}] = np = \frac{k}{2} \\
@@ -16,7 +15,6 @@ $$
 ___
 ## (b)
 Using Chebyshev's inequality, $\Pr[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t] \leq \frac{\text{Var}[\mathrm{X}]}{t^2}$, requires $\text{Var}[\mathrm{X}]$. For binomial distributions $\mathrm{X} \sim \mathrm{Bin}(n, p)$, as in our case, this is given by $\text{Var}[\mathrm{X}] = np(1-p) = k \cdot \frac{1}{2} \cdot \left( 1-\frac{1}{2} \right) = \frac k 4$. Thus,
-
 $$
 \begin{align} \\
 &\Pr\bigg[\bigg|\mathrm{X} - \frac{k}{2} \bigg| \geq \frac{3}{4} \cdot k \bigg] \leq \frac{\frac {k}{4}}{\big(\frac{3}{4} \cdot k\big)^2} = \frac {4}{3^2 \cdot k} \\
@@ -41,7 +39,7 @@ $$
  \\
  \\
  \\
-&k \geq \log_{2}{(n)}+1 \overset{?}{\implies} \Pr[\mathrm{Y} = 0] \leq \frac{1}{2}
+&k \geq \log_{2}{(n)}+1 \overset{?}{\implies} \Pr[\mathrm{Y} = 0] \geq \frac{1}{2}
 \end{align}
 $$
 
