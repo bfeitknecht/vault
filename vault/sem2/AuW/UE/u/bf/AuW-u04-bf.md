@@ -37,7 +37,7 @@ k &\geq \log_{2}n + 1 \\
  \\
  \\
  \\
-p &=\Pr\left[ \mathrm{X} = k  \right] \\
+\Pr\left[ \mathrm{X} = k  \right] &= \binom{n}{k} \cdot p^k \cdot (1-p)^{n-k} \\
 &= \frac{n!}{k!(n-k)!} \cdot \left(\frac{1}{2}\right)^k \cdot \left( \frac{1}{2} \right)^{n-k}  \\
 &= \frac{n!}{k! \cdot(n-k)! \cdot 2^n} \\
 &= \frac{n!}{2^n} \\
