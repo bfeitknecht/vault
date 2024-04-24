@@ -32,11 +32,17 @@ This is by the fact that all $n-1$ trips are independent and the probability of 
 
 
 
-Let $k \geq \log_{2}{(n)}+1$ 
 
-
-$\Pr[\mathrm{Y} = 0] \geq \frac{1}{2}$
-
+$$
+\begin{align}
+&\text{Let } k \geq \log_{2}{(n)}+1 &\text{(1)} \\
+&\Pr[\mathrm{Y} = s] = \binom{n}{s} \cdot   \\
+ \\
+ \\
+ \\
+&\Pr[\mathrm{Y} = 0] \geq \frac{1}{2}
+\end{align}
+$$
 
 
 ___
