@@ -26,10 +26,10 @@ $$
 
 ___
 ## (c)
-We know, that the probability for any one dog to sniffle all day is $p = \Pr\left[ \mathrm{X} = k \right]$. $\text{Let Y = "\# sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(n-1, p), \text{ independent}$. Thus, $\mathrm{Y} \sim \text{Bin}(n-1, p)$. This is by the fact that all $n-1$ trips are independent and the probability of any one dog sniffling for the rest of the day is given by $\Pr[\mathrm{X}=k]=\frac{1}{2}$.
+We know, that the probability for any one dog to sniffle all day is $p = \Pr\left[ \mathrm{X} = k \right]=\frac{1}{2}$. $\text{Let Y = "\# sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p), \text{ independent}$. Thus, $\mathrm{Y} \sim \text{Bin}(n-1, p)$. This is by the fact that all $n-1$ trips are independent. The probability of any one dog sniffling for the rest of the day is given by $p$.
 Thus, $\mathbb E[\mathrm{Y}] = (n-1) \cdot p$.
 
-We assume that $n \geq 2$.
+%%We assume that $n \geq 2$.
 
 $$
 \begin{align}
