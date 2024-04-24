@@ -1,14 +1,14 @@
 ![[Auw-u04-e.pdf]]
 
 ## (a)
-Let $\mathrm{X}$ be the random variable denoting the number of streets with flowers. We recall that the trip is a disaster, if $\mathrm{X} \geq \frac 3 4$. To apply Markov's inequality we need the expected value $\mathbb{E}[\mathrm{X}]$, meaning the expected number of streets with flowers encountered.
-For this, we can use linearity of expectation, since the probability for a street to have flowers is binomially distributed. Hence, $\mathbb E[\mathrm{X}] = np = \frac k 2$.
-Thus follows:
+Let $\mathrm{X}$ be the random variable denoting the number of streets with flowers. We recall that the trip is a disaster, if $\mathrm{X} \geq \frac 3 4$. To apply Markov's inequality, $\Pr[\mathrm{X} \geq t] \leq \frac {\mathbb E[\mathrm{X}]} t$, we need the expected value $\mathbb{E}[\mathrm{X}]$, meaning the expected number of streets with flowers encountered.
+For this, we can use linearity of expectation, since the probability for a street to have flowers is binomially distributed. Hence,
 
 $$
-\begin{align}
-& \Pr[\mathrm{X} \geq t] \leq \frac {\mathbb E[\mathrm{X}]} t \overset{\text{Mark.}}\implies\\
-&\Pr[\mathrm{X} \geq \frac 3 4 \cdot k] \leq \frac{\frac k 2}{\frac 3 4 \cdot k} = \frac {2}{3}\\
+\begin{align} \\
+&\mathbb E[\mathrm{X}] = np = \frac{k}{2} \\
+
+&\Pr\left[ \mathrm{X} \geq \frac 3 4 \cdot k \right] \leq \frac{\frac k 2}{\frac 3 4 \cdot k} = \frac {2}{3}\\
 &\square
 \end{align}
 $$
