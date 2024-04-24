@@ -29,7 +29,7 @@ ___
 
 $$
 \begin{align}
-%&\text{Let $\mathbf{A}$ denote that there are no sniffling dogs.} \\
+%&\text{Let $\mathsf{A}$ denote that there are no sniffling dogs.} \\
 \\
 \\
 &\text{Let ${\mathrm{X}}$ = "Number of sniffling dogs"}\\
