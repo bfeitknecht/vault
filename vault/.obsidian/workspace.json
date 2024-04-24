@@ -108,8 +108,8 @@
               "state": {
                 "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
                 "page": 1,
-                "left": 80,
-                "top": 638,
+                "left": 114,
+                "top": 529,
                 "zoom": 1.46
               }
             }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf"
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md"
               }
             }
           },
@@ -264,12 +264,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2f4cbc145bbf0ca6",
+  "active": "56d5b3815748a7e0",
   "lastOpenFiles": [
+    "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
-    "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/AuW/VRL/slides/AuW-L15-chernoff.pdf",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
     "sem2/AuW/UE/u/bf/Untitled.md",
