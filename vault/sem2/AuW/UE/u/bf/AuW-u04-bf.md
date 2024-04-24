@@ -24,18 +24,19 @@ $$
 
 ___
 ## (c)
-We know, that the probability for any one dog to sniffle is $\Pr\left[ \mathrm{X}\geq \frac{3}{4} \cdot k \right] = \frac{2}{3}$. $\text{Let Y = "Number of sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ and $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p),\ \mathrm{Y}_{i}\text{ independent}$.
+We know, that the probability for any one dog to sniffle is $\Pr\left[ \mathrm{X}\geq k \right]$. $\text{Let Y = "Number of sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ and $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p),\ \mathrm{Y}_{i}\text{ independent}$.
 
-This is by the fact that all $n-1$ trips are independent and the probability of any one trip being a disaster is given by $p=\frac{2}{3}$. Thus follows $\mathrm{Y} \sim \text{Bin}(n, p)$ and $\mathbb E[\mathrm{Y}] = (n-1) \cdot \frac{2}{3}$.
+This is by the fact that all $n-1$ trips are independent and the probability of any one dog sniffling for the rest of the day is given by $p=\frac{2}{3}$. Thus follows $\mathrm{Y} \sim \text{Bin}(n, p)$ and $\mathbb E[\mathrm{Y}] = (n-1) \cdot \frac{2}{3}$.
 
 
 
 
 $$
 \begin{align}
-&\text{Let } k \geq \log_{2}{(n)}+1 &\text{(1)} \\
-&\Pr[\mathrm{Y} = s] = \binom{n}{s} \cdot p^s \cdot (1-p)^{n-s} &\text{(2)} \\
-&\text{(1)}, (2) \implies \Pr[\mathrm{Y} = 0] = \frac{n!}{0!(n)!} \cdot \left( \frac{2}{3}\right)^0 \cdot \left( \frac{1}{3} \right)^n \\
+&\text{Let } k \geq \log_{2}{(n)}+1 &\text{(1)} \\ \\
+&\Pr\left[ \mathrm{X} \geq k  \right] \leq \frac{\mathbb E[\mathrm{}]\frac k 2}{\frac 3 4 \cdot k} = \frac {2}{3}\\
+%&\Pr[\mathrm{Y} = s] = \binom{n}{s} \cdot p^s \cdot (1-p)^{n-s} &\text{(2)} \\
+%&\text{(1)}, (2) \implies \Pr[\mathrm{Y} = 0] = \frac{n!}{0!(n)!} \cdot \left( \frac{2}{3}\right)^0 \cdot \left( \frac{1}{3} \right)^n \\
  \\
  \\
  \\
