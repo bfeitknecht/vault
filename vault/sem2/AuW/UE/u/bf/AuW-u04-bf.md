@@ -56,7 +56,8 @@ $$
 ___
 ## (d)
 
-Let $\mathrm{Z}$ be a random variable denoting the number of trips that are a pleasure. i.e. $\mathrm{X} < \frac{3}{4}$
+We know, that the probability for any one trip to be a delight is $p = 1-\Pr\left[ \mathrm{X} \geq \frac{3}{4} \right]$. $\text{Let Z = "\# delightful trips"}$, where $\mathrm{Z} = \mathrm{Z}_{1} + \dots + \mathrm{Z}_{n-1}$ with $\mathrm{Z}_{i} \sim \mathrm{Bernoulli}(p), \text{ independent}$. Thus, $\mathrm{Z} \sim \text{Bin}(n-1, p)$. This is by the fact that all $n-1$ trips are independent.
+
 $$
 \begin{align}
 &\text{Let } k=1000\log_{2}(n) \text{ and } n \geq 2. &\text{(1)} \\
@@ -66,7 +67,7 @@ $$
 
 
 
-
+$E[X]=n-1$
 
 
 "i always find it therefore i never search"
