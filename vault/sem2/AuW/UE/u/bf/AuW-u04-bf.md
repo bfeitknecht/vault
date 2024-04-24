@@ -36,7 +36,7 @@ $$
 n &\geq 2 \\
 k &\geq \log_{2}n + 1 \\ 
  \\
- \\
+\mathbb{\Omega} \\
  \\
  \\
 \Pr\left[ \mathrm{X} = k  \right] &= \binom{n}{k} \cdot p^k \cdot (1-p)^{n-k} \\
