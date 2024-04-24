@@ -19,7 +19,7 @@ Since $\text{Var}[\mathrm{X}]= np (1-p)$ for binomial distributions $\mathrm{X} 
 $$
 \begin{align} \\
 &\Pr[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t] \leq \frac{\text{Var}[\mathrm{X}]}{t^2} \overset{\text{Cheby.}} \implies \\ \\
-&\Pr[ |\mathrm{X} - \frac{2}{3}| \geq \frac{3}{4}\cdot k \right] \leq \frac{\frac k 4}{\big\left( \frac 3 4 \cdot k\big \right)^2} = \frac {4^2 \cdot k} {4 \cdot (3k)^2} = \frac {4}{3^2 \cdot k}\\
+&\Pr\bigg[\bigg|\mathrm{X} - \frac{2}{3} \bigg| \geq \frac{3}{4} \cdot k \bigg] \leq \frac{\frac {k}{4}}{\big(\frac{3}{4} \cdot k\big)^2} = \frac {4}{3^2 \cdot k} \\
 &\square
 \end{align}
 $$
