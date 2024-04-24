@@ -29,10 +29,9 @@ ___
 
 $$
 \begin{align}
-%&\text{Let $\mathsf{A}$ denote that there are no sniffling dogs.} \\
 \\
 \\
-&\text{Let ${\mathrm{X}}$ = "Number of sniffling dogs"}\\
+&\text{Let X = "Number of sniffling dogs"}\\
 &\mathbb E[\mathrm{X}] \overset?= \\
 \\
 \\
