@@ -6,7 +6,7 @@ Thus follows:
 
 $$
 \begin{align}
-& \Pr[\mathrm{X} \geq t] \leq \frac {\mathbb E[\mathrm{X}]} t \overset{\text{Markov}}\implies\\
+& \Pr[\mathrm{X} \geq t] \leq \frac {\mathbb E[\mathrm{X}]} t \overset{\text{Mark.}}\implies\\
 &\Pr[\mathrm{X} \geq \frac 3 4 \cdot k] \leq \frac{\frac k 2}{\frac 3 4 \cdot k} = \frac {2}{3}\\
 &\square
 \end{align}
@@ -14,12 +14,12 @@ $$
 
 ___
 ## (b)
-Since $\text{Var}[\mathrm{X}]= np (1-p)$ for binomial distributions, the variance in our case is $\frac k 2 \cdot \frac 1 2 = \frac k 4$.
+Since $\text{Var}[\mathrm{X}]= np (1-p)$ for binomial distributions $\mathrm{X} \sim\Bin$, the variance in our case is $\frac k 2 \cdot \frac 1 2 = \frac k 4$.
 
 $$
 \begin{align}
-&\Pr[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t] \leq \frac{\text{Var}[\mathrm{X}]}{t^2} \overset \cdot \implies \\
-&\Pr[|X - \frac{2}{3}| \geq \frac 3 4 \cdot k] \leq \frac{\frac k 4}{\big(\frac 3 4 \cdot k\big)^2} = \frac {4^2 \cdot k} {4 \cdot (3k)^2} = \frac {4}{3^2 \cdot k}\\
+&\Pr[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t] \leq \frac{\text{Var}[\mathrm{X}]}{t^2} \overset{\text{Cheby.}} \implies \\
+&\Pr[|\mathrm{X} - \frac{2}{3}| \geq \frac 3 4 \cdot k] \leq \frac{\frac k 4}{\big(\frac 3 4 \cdot k\big)^2} = \frac {4^2 \cdot k} {4 \cdot (3k)^2} = \frac {4}{3^2 \cdot k}\\
 &\square
 \end{align}
 $$
