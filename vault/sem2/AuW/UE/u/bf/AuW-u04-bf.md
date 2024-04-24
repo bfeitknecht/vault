@@ -26,16 +26,16 @@ $$
 
 ___
 ## (c)
-We know, that the probability for any one dog to sniff is $\Pr\left[ \mathrm{X}\geq \frac{3}{4} \cdot k \right] = \frac{2}{3}$ 
+We know, that the probability for any one dog to sniffle is $\Pr\left[ \mathrm{X}\geq \frac{3}{4} \cdot k \right] = \frac{2}{3}$. $\text{Let Y = "Number of sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ and $\mathrm{Y}_{i} \sim \mathrm{Bernoulli(p)}$
 $$
 \begin{align}
 \\
 \\
-&\text{Let X = "Number of sniffling dogs"}\\
-&\mathbb E[\mathrm{X}] \overset?= \\
+&\\
+&\mathbb E[\mathrm{Y}] \overset?= \\
 \\
 \\
-&k \geq \log_{2}{(n)}+1 \overset?\implies \Pr[\mathrm{X} = 0] \geq \frac{1}{2} \\ \\
+&k \geq \log_{2}{(n)}+1 \overset?\implies \Pr[\mathrm{Y} = 0] \geq \frac{1}{2} \\ \\
 \end{align}
 $$
 
