@@ -26,9 +26,12 @@ $$
 
 ___
 ## (c)
-We know, that the probability for any one dog to sniffle all day is $p = \Pr[\mathrm{X} = k]$. $\text{Let Y = "\# sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p), \text{ independent}$. Thus, $\mathrm{Y} \sim \text{Bin}(n-1, p)$. This is by the fact that all $n-1$ trips are independent. The probability of any one dog sniffling for the rest of the day is given by $p$.
+$\text{Let Y = "\# sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p), \text{ independent}$. Thus, $\mathrm{Y} \sim \text{Bin}(n-1, p)$. This is by the fact that all $n-1$ trips are independent. The probability of any one dog sniffling for the rest of the day is given by $p$.
 Thus, $\mathbb E[\mathrm{Y}] = (n-1) \cdot p$.
 
+
+
+use chernoff here ??
 
 $$
 \begin{align}
@@ -67,7 +70,7 @@ $$
 
 
 
-$E[X]=\frac{n-1}{4}$
+$E[Z]=\frac{n-1}{4}$
 
 
 "i always find it therefore i never search"
