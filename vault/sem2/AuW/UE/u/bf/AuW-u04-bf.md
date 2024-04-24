@@ -44,7 +44,8 @@ k &\geq \log_{2}(n) + 1  \overset{?}{\implies} \Pr[\mathrm{Y} = 0] \geq \frac{1}
  \\
  \\
 \Pr\left[ \mathrm{X} =  k  \right]
-&= \binom{n}{0}\cdot p^n \cdot (1-p)^{n-k}
+&= \binom{n}{0}\cdot p^k \cdot (1-p)^{n-k} \\
+&= (1-p)^{n}
 %&= 1-\Pr[\mathrm{X \le k-1}]  &\text{(CDF)}\\
 %&= 1-\sum_{i=0}^{\lfloor \log_{2}(n) \rfloor}\binom{n}{i} \cdot p^i \cdot (1-p)^{n-i} \\
 %&= 1 - \sum_{i=0}^{\lfloor \log_{2}(n) \rfloor}\binom{n}{i} \cdot \left( \frac{1}{2} \right)^n\\
