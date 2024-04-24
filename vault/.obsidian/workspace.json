@@ -69,9 +69,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-                "page": 1,
+                "page": 12,
                 "left": -17,
-                "top": 832,
+                "top": 653,
                 "zoom": 0.865
               }
             }
@@ -186,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf"
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md"
               }
             }
           },
@@ -268,8 +268,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "29899104d7fc8d48",
+  "active": "56d5b3815748a7e0",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
@@ -280,7 +281,6 @@
     "sem2/AuW/UE/u/bf/Untitled 1.md",
     "var/unique",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
-    "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
     "cheby.md",
     "sem1/DMath/VRL/V01_mathematical-propositions.md",
     "yannick pseudocode.md",

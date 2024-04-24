@@ -51,8 +51,7 @@ ___
 $$
 \begin{align}
 &\text{Let } k=1000\log_{2}(n) \text{ and } n \geq 2. &\text{(1)} \\
-&\text{Let } \mathrm{A} =\text{"all trips were a pleasure".} \\ \\
-&\text{(1)} \overset?\implies \Pr[\mathrm{A}] \geq 0.99
+&\text{(1)} \overset?\implies \Pr[\mathrm{\mathrm{Y}= n}] \geq 0.99
 \end{align}
 $$
 
