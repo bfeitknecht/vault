@@ -49,8 +49,9 @@ k &\geq \log_{2}n + 1 \\
  \\
  \\
  \\
-&k \geq \log_{2}{(n)}+1 \overset{?}{\implies} \Pr[\mathrm{Y} = 0] \geq \frac{1}{2} \\
-&\Pr[\mathrm{Y} = 0] =\binom{n-1}{0} \cdot p^0 \cdot (1-p)^n
+k \geq \log_{2}{(n)}+1 &\overset{?}{\implies} \Pr[\mathrm{Y} = 0] \geq \frac{1}{2} \\
+\Pr[\mathrm{Y} = 0] &= \binom{n-1}{0} \cdot p^0 \cdot (1-p)^{n-1} \\
+\Pr[\mathrm{Y} = 0] &=(1-p)^{n-1}
 \end{align}
 $$
 
