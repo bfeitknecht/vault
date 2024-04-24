@@ -30,6 +30,8 @@ We know, that the probability for any one dog to sniffle is $\Pr\left[ \mathrm{X
 
 This is by the fact that all $n-1$ trips are independent and the probability of any one trip being a disaster is given by $p=\frac{2}{3}$. Thus follows $\mathrm{Y} \sim \text{Bin}(n, p)$ and $\mathbb E[\mathrm{Y}] = (n-1) \cdot \frac{2}{3}$.
 
+
+
 Let $k \geq \log_{2}{(n)}+1$ 
 
 
