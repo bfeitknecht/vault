@@ -28,8 +28,7 @@ We know, that the probability for any one dog to sniffle is $\Pr\left[ \mathrm{X
 
 This is by the fact that all $n-1$ trips are independent and the probability of any one dog sniffling for the rest of the day is given by $p=\frac{2}{3}$. Thus follows $\mathrm{Y} \sim \text{Bin}(n, p)$ and $\mathbb E[\mathrm{Y}] = (n-1) \cdot \frac{2}{3}$.
 
-
-
+We assume that $n \geq 2$.
 
 $$
 \begin{align}
@@ -37,7 +36,7 @@ $$
 \Pr\left[ \mathrm{X} = k  \right] &= \binom{n}{k} \cdot p^k \cdot (1-p)^{n-k} &(p)  \\
 &= \frac{n!}{k!(n-k)!} \cdot \left(\frac{1}{2}\right)^k \cdot \left( \frac{1}{2} \right)^{n-k}  \\
 &= \frac{n!}{k! \cdot(n-k)! \cdot 2^n} \\
- \\
+&= \frac{n!}{2^n} \\
 
 %&\Pr[\mathrm{Y} = s] = \binom{n}{s} \cdot p^s \cdot (1-p)^{n-s} &\text{(2)} \\
 %&\text{(1)}, (2) \implies \Pr[\mathrm{Y} = 0] = \frac{n!}{0!(n)!} \cdot \left( \frac{2}{3}\right)^0 \cdot \left( \frac{1}{3} \right)^n \\
