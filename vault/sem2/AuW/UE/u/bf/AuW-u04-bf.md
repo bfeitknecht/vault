@@ -67,7 +67,7 @@ $$
 
 
 
-$E[X]=n-1$
+$E[X]=\frac{n-1}{4}$
 
 
 "i always find it therefore i never search"
