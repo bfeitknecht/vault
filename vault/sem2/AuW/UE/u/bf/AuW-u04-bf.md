@@ -20,7 +20,7 @@ Using Chebyshev's inequality, $\Pr[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t] 
 $$
 \begin{align} \\
 &\Pr[|\mathrm{X} - \mu| \geq t \sigma] \leq \frac{1}{t^2}  \\
-&\Pr\bigg[\bigg|\mathrm{X} - \frac{k}{2} \bigg| \geq \frac{3k}{4} \cdot \sqrt{ \frac{k}{4} } \bigg] \leq \frac{\frac {k}{4}}{\big(\frac{3}{4} \cdot k\big)^2} = \frac {4}{3^2 \cdot k} \\
+&\Pr\bigg[\bigg|\mathrm{X} - \frac{k}{2} \bigg| \geq \frac{3k}{4} \cdot \sqrt{ \frac{k}{4} } \bigg] \leq \frac{1}{\left(\frac{3k}{4}\right)^2} = \frac {4}{3^2 \cdot k} \\
 \\
 \\
 \\
