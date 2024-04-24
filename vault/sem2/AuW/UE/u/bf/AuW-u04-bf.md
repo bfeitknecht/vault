@@ -47,7 +47,7 @@ k &\geq \log_{2}(n) + 1  \overset{?}{\implies} \Pr[\mathrm{Y} = 0] \geq \frac{1}
  \\
  \\
  \\
-\Pr[\mathrm{Y} = 0] &= 1-(\Pr[\mathrm{Y \geq 1}] \leq \mathbb E[\mathrm{Y}]/) \\
+\Pr[\mathrm{Y} = 0] &= 1-(\Pr[\mathrm{Y \geq 1}]) &\text{(Markov)}\\
 &\geq 1 - \mathbb E[\mathrm{Y}]
 \end{align}
 $$
