@@ -7,9 +7,8 @@ For this, we can use linearity of expectation, since the probability for a stree
 $$
 \begin{align}
 &\mathbb E[\mathrm{X}] = np = \frac{k}{2} \\
-
 &\Pr\left[ \mathrm{X} \geq \frac 3 4 \cdot k \right] \leq \frac{\frac k 2}{\frac 3 4 \cdot k} = \frac {2}{3}\\
-&\square
+&&\square
 \end{align}
 $$
 
@@ -27,7 +26,7 @@ $$
 \Pr[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t] &\leq \frac{ \mathrm{Var}[\mathrm{X}]}{t^2}  \\
 \Pr\bigg[\bigg|\mathrm{X} - \frac{k}{2} \bigg| \geq \frac{3k}{4} \bigg] &\leq \frac{\frac {k}{4}}{\big(\frac{3k}{4}\big)^2} = \frac {k}{4} \cdot \left(\frac{4}{3k}\right)^2 \\
 &\leq \frac{16k}{36k^2} = \frac{4}{9k}\\
-&\square
+&&\square
 \end{align}
 $$
 
