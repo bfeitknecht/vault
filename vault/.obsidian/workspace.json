@@ -99,10 +99,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
-                "page": 23,
-                "left": -38,
-                "top": 635,
-                "zoom": 0.39697265625
+                "page": 19,
+                "left": -98,
+                "top": 90,
+                "zoom": 0.45
               }
             }
           },
@@ -171,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
