@@ -34,7 +34,7 @@ This is by the fact that all $n-1$ trips are independent and the probability of 
 $$
 \begin{align}
 &\text{Let } k \geq \log_{2}{(n)}+1 &\text{(1)} \\ \\
-&\Pr\left[ \mathrm{X} \geq k  \right] \leq \frac{\mathbb E[\mathrm{X}]}{k} = \frac {\frac{k}{2}}{k} = \frac{1}{2} &(p)  \\
+&\Pr\left[ \mathrm{X} = k  \right] = \binom{n}{k} &(p)  \\
  \\
  \\
  \\
