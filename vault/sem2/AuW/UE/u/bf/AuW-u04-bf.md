@@ -36,7 +36,7 @@ $$
 \text{Let } k &\geq \log_{2}{(n)}+1 &\text{(1)} \\ \\
 \Pr\left[ \mathrm{X} = k  \right] &= \binom{n}{k} \cdot p^k \cdot (1-p)^{n-k} &(p)  \\
 &= \frac{n!}{k!(n-k)!} \cdot \left(\frac{1}{2}\right)^k \cdot \left( \frac{1}{2} \right)^{n-k}  \\
-&=  \\
+&= \frac{n!}{k! \cdot(n-k)! \cdot 2^n} \\
  \\
 
 %&\Pr[\mathrm{Y} = s] = \binom{n}{s} \cdot p^s \cdot (1-p)^{n-s} &\text{(2)} \\
