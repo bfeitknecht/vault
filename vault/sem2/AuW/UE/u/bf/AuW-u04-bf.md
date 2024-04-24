@@ -18,9 +18,12 @@ Using Chebyshev's inequality, $\Pr[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t] 
 
 $$
 \begin{align}
-%\Pr\bigg[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t \cdot\sqrt{ \text{Var}[\mathrm{X}] }\bigg] &\leq \frac{1}{t^2}  \\
-%\Pr\bigg[\bigg|\mathrm{X} - \frac{k}{2} \bigg| \geq \frac{3k}{4} \cdot \sqrt{ \frac{k}{4} } \bigg] &\leq \frac{1}{\left(\frac{3k}{4}\right)^2} = \frac {4}{9k^2} \\
-\\
+\Pr\bigg[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t \cdot\sqrt{ \text{Var}[\mathrm{X}] }\bigg] &\leq \frac{1}{t^2}  \\
+\Pr\bigg[\bigg|\mathrm{X} - \frac{k}{2} \bigg| \geq \frac{3k}{4} \cdot \sqrt{ \frac{k}{4} } \bigg] &\leq \frac{1}{\left(\frac{3k}{4}\right)^2} = \frac {4}{9k^2} \\
+ \\
+ \\
+ \\
+ \\
 \Pr[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t] &\leq \frac{ \mathrm{Var}[\mathrm{X}]}{t^2}  \\
 \Pr\bigg[\bigg|\mathrm{X} - \frac{k}{2} \bigg| \geq \frac{3k}{4} \bigg] &\leq \frac{\frac {k}{4}}{\big(\frac{3k}{4}\big)^2} = \frac {k}{4} \cdot \left(\frac{4}{3k}\right)^2 \\
 &\leq \frac{16k}{36k^2} = \frac{4}{9k}\\
@@ -100,7 +103,7 @@ $$
 
 
 
-$\mathbb E[\mathrm{Z}]=N\cdot\frac{1}{4}$
+$\mathbb E[\mathrm{Z}]=\frac{n-1}{4}$
 
 
 $$
