@@ -62,7 +62,7 @@ $$
 ___
 ## (d)
 
-Let $\text{Z = "\# delightful trips"}$, where $\mathrm{Z} = \mathrm{Z}_{1} + \dots + \mathrm{Z}_{n-1}$ with $\mathrm{Z}_{i} \sim \mathrm{Bernoulli}(p), \text{ independent}$. We know, that the probability for any one trip to be a delight is $p = 1-\Pr\left[ \mathrm{X} \geq \frac{3}{4}\cdot k \right]$. Thus, $\mathrm{Z} \sim \text{Bin}(n-1, p)$. This is by the fact that all $n-1$ trips are independent.
+Let $\text{Z = "\# delightful trips"}$, let $N=\text{"\# trips"}=n \cdot\binom{n}{k}$ where $\mathrm{Z} = \mathrm{Z}_{1} + \dots + \mathrm{Z}_{N}$ with $\mathrm{Z}_{i} \sim \mathrm{Bernoulli}(p), \text{ independent}$. We know, that the probability for any one trip to be a delight is $p = 1-\Pr\left[ \mathrm{X} \geq \frac{3}{4}\cdot k \right]$. Thus, $\mathrm{Z} \sim \text{Bin}(n-1, p)$. This is by the fact that all $n-1$ trips are independent.
 
 $$
 \begin{align}
@@ -86,6 +86,10 @@ $$
 
 
 $E[Z]=\frac{n-1}{4}$
+
+
+
+
 
 
 "i always find it therefore i never search"
