@@ -26,7 +26,7 @@ $$
 
 ___
 ## (c)
-We know, that the probability for any one dog to sniffle all day is $p = \Pr\left[ \mathrm{X} = k \right]=\frac{1}{2}$. $\text{Let Y = "\# sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p), \text{ independent}$. Thus, $\mathrm{Y} \sim \text{Bin}(n-1, p)$. This is by the fact that all $n-1$ trips are independent. The probability of any one dog sniffling for the rest of the day is given by $p$.
+We know, that the probability for any one dog to sniffle all day is $p = \Pr[\mathrm{X} = k]$. $\text{Let Y = "\# sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p), \text{ independent}$. Thus, $\mathrm{Y} \sim \text{Bin}(n-1, p)$. This is by the fact that all $n-1$ trips are independent. The probability of any one dog sniffling for the rest of the day is given by $p$.
 Thus, $\mathbb E[\mathrm{Y}] = (n-1) \cdot p$.
 
 
@@ -40,16 +40,20 @@ k &\geq \log_{2}n + 1 \\
 \Pr\left[ \mathrm{X} = k  \right] &= \binom{n}{k} \cdot p^k \cdot (1-p)^{n-k} \\
 &= \frac{n!}{k!(n-k)!} \cdot \left(\frac{1}{2}\right)^k \cdot \left( \frac{1}{2} \right)^{n-k}  \\
 &= \frac{n!}{k! \cdot(n-k)! \cdot 2^n} \\
-&= \frac{n!}{2^n} \\
+%&= \frac{n!}{2^n} \\
 
 %&\Pr[\mathrm{Y} = s] = \binom{n}{s} \cdot p^s \cdot (1-p)^{n-s} &\text{(2)} \\
 %&\text{(1)}, (2) \implies \Pr[\mathrm{Y} = 0] = \frac{n!}{0!(n)!} \cdot \left( \frac{2}{3}\right)^0 \cdot \left( \frac{1}{3} \right)^n \\
  \\
  \\
  \\
-k \geq \log_{2}{(n)}+1 &\overset{?}{\implies} \Pr[\mathrm{Y} = 0] \geq \frac{1}{2} \\
-\Pr[\mathrm{Y} = 0] &= \binom{n-1}{0} \cdot p^0 \cdot (1-p)^{n-1} \\
-\Pr[\mathrm{Y} = 0] &=(1-p)^{n-1}
+
+ \\
+ \\
+ \\
+ \\
+
+\Pr[\mathrm{Y} = 0] &= 1-\Pr[\mathrm{X \geq 1}]
 \end{align}
 $$
 
