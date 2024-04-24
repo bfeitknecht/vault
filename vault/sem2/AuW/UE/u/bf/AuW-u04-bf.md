@@ -56,8 +56,7 @@ $$
 ___
 ## (d)
 
-
-Let Z denote the number of trips that are a pleasure
+Let $\mathrm{Z}$ be a random variable denoting the number of trips that are a pleasure. i.e. $\mathrm{X} < \frac{3}{4}$
 $$
 \begin{align}
 &\text{Let } k=1000\log_{2}(n) \text{ and } n \geq 2. &\text{(1)} \\
