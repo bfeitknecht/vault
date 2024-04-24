@@ -26,7 +26,9 @@ $$
 
 ___
 ## (c)
-We know, that the probability for any one dog to sniffle is $\Pr\left[ \mathrm{X}\geq \frac{3}{4} \cdot k \right] = \frac{2}{3}$. $\text{Let Y = "Number of sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ and $\mathrm{Y}_{i} \sim \mathrm{Bernoulli(p)}$
+We know, that the probability for any one dog to sniffle is $\Pr\left[ \mathrm{X}\geq \frac{3}{4} \cdot k \right] = \frac{2}{3}$. $\text{Let Y = "Number of sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ and $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p),\ \mathrm{Y}_{i}\text{ independent}$. This is by the fact that all $n-1$ trips are independent and the probability of any one trip being a disaster is given by $p=\frac{2}{3}$  
+
+
 $$
 \begin{align}
 \\
