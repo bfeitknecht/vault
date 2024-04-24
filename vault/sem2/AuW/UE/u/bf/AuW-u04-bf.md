@@ -87,7 +87,7 @@ n &\geq 2 \\
  \\
  \\
 &\Pr[\mathrm{Z}\geq 1] \leq 0.01 \\
-&\Pr[\mathrm{Z}\geq (1+\delta)\mathbb E[\mathrm{X}]] \leq e^{-\frac{1}{3}\delta^2\mathbb E[]\mathrm{X}}} \\
+&\Pr[\mathrm{Z}\geq (1+\delta)\mathbb E[\mathrm{X}]] \leq e^{-\frac{1}{3}\delta^2\mathbb E[\mathrm{X}]} \\
 
  \\
  \\
@@ -95,7 +95,6 @@ n &\geq 2 \\
 %&= \frac{1000\log_{2}(n)}{2} \cdot \frac{4}{3\cdot 1000\log_{2}(n)} \\
  \\
  \\
-\lim_{ \delta \to 0 } e^{-\frac{1}{3}\delta^2\mathbb E[\mathrm{Z}]}
 \end{align}
 $$
 
