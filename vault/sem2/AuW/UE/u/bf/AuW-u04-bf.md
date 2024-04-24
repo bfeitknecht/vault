@@ -14,7 +14,7 @@ $$
 
 ___
 ## (b)
-Since $\text{Var}[\mathrm{X}]= np (1-p)$ for binomial distributions $\mathrm{X} \sim\Bin$, the variance in our case is $\frac k 2 \cdot \frac 1 2 = \frac k 4$.
+Since $\text{Var}[\mathrm{X}]= np (1-p)$ for binomial distributions $\mathrm{X} \sim \mathrm{Bin}(n, p)$, the variance in our case is $k \cdot \frac{1}{2} \cdot \left( 1-\frac{1}{2} \right) = \frac k 4$.
 
 $$
 \begin{align}
