@@ -85,9 +85,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
-                "page": 34,
+                "page": 33,
                 "left": -30,
-                "top": 16,
+                "top": 53,
                 "zoom": 0.5068359375
               }
             }
@@ -101,7 +101,7 @@
                 "file": "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
                 "page": 23,
                 "left": -98,
-                "top": 501,
+                "top": 465,
                 "zoom": 0.45
               }
             }
@@ -115,13 +115,13 @@
                 "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
                 "page": 1,
                 "left": 71,
-                "top": 560,
+                "top": 634,
                 "zoom": 1.2
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -188,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+                "file": "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+                "file": "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md"
+                "file": "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf"
               }
             }
           },
@@ -270,11 +270,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "56d5b3815748a7e0",
+  "active": "0e9aeeaabda4e370",
   "lastOpenFiles": [
-    "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
-    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+    "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem1/AuD/PV/summaries/java-algorithms.md",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
