@@ -99,9 +99,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
-                "page": 20,
+                "page": 23,
                 "left": -98,
-                "top": 658,
+                "top": 501,
                 "zoom": 0.45
               }
             }
@@ -114,14 +114,14 @@
               "state": {
                 "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
                 "page": 1,
-                "left": 138,
-                "top": 515,
+                "left": 71,
+                "top": 560,
                 "zoom": 1.2
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -272,10 +272,10 @@
   },
   "active": "56d5b3815748a7e0",
   "lastOpenFiles": [
-    "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
-    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+    "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem1/AuD/PV/summaries/java-algorithms.md",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",

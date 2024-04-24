@@ -117,12 +117,12 @@ $$
 
 
 
+
+
+
+
+
+
+
 "i always find it therefore i never search"
 
-
-
-
-
-Endlich ist der Fr¨uhling da in deiner Heimatstadt. Die Sonne scheint - und Blumen spriessen zuf¨allig verteilt am Strassenrand. Bei diesem sch¨onen Wetter entscheidest du dich, zusammen mit deiner Franz¨osischen Bulldogge Doug die diesj¨ahrige Spaziersaison einzul¨auten. Es gibt nur ein Problem - die Blumen sind zwar sch¨on, zu viele auf einmal f¨uhren jedoch dazu, dass Dougs Heuschnupfen ausbricht, so dass eure Spazier-Route deutlich weniger angenehm ist. Ein paar wenige Blumen sind f¨ur Doug gerade noch auszuhalten, wenn allerdings mindestens 3 4 aller Strassen auf eurer Route von Blumen ges¨aumt sind, ist der Spaziergang kein Vergn¨ugen mehr. Wenn an allen Strassen auf eurer Route Blumen wachsen, so schnieft Doug f¨ur den Rest des Tages. Wir nehmen an, dass deine Heimatstadt - wie so viele Heimatst¨adte - ein Graph G = (V, E) ist. Die Knoten sind dabei Kreuzungen und die Kanten sind Strassen, welche zwei Kreuzungen verbinden. Die Anfangsposition eurer Spazier-Route ist irgend eine Kreuzung v ∈ V und die Route ist ein gegebener Kreis C = (v0 = v, v1, v2, . . . , vk−1, vk = v) der L¨ange k
-
-Berechne, unter Zuhilfenahme der Ungleichung von Chebyshev, eine obere Schranke f¨ur die Wahrscheinlichkeit, dass der Spaziergang kein Vergn¨ugen ist
