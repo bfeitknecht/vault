@@ -26,7 +26,7 @@ $$
 
 ___
 ## (c)
-Let $\text{Y = "\# sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p), \text{ independent}$. We know, that the probability $p$ for any one dog to sniffle all day is $\Pr[\mathrm{X} = k]$. Thus, $\mathrm{Y} \sim \text{Bin}(n-1, p)$. This is by the fact that all $n-1$ trips are independent. The probability of any one dog sniffling for the rest of the day is given by $p$.
+Let $\text{Y = "\# sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p), \text{ independent}$. We know, that the probability $p$ for any one dog to sniffle all day is $\Pr[\mathrm{X} = k]$. Thus, $\mathrm{Y} \sim \text{Bin}(n-1, p)$. This is by the fact that all $n-1$ trips are independent.
 Thus, $\mathbb E[\mathrm{Y}] = (n-1) \cdot p$.
 
 
@@ -44,11 +44,12 @@ k &\geq \log_{2}(n) + 1  \overset{?}{\implies} \Pr[\mathrm{Y} = 0] \geq \frac{1}
  \\
  \\
 \Pr\left[ \mathrm{X} =  k  \right]
-&= 1-\Pr[\mathrm{X \le k-1}]  &\text{(CDF)}\\
-&= 1-\sum_{i=0}^{\lfloor \log_{2}(n) \rfloor}\binom{n}{i} \cdot p^i \cdot (1-p)^{n-i} \\
-&= 1 - \sum_{i=0}^{\lfloor \log_{2}(n) \rfloor}\binom{n}{i} \cdot \left( \frac{1}{2} \right)^n\\
-&= 1-\frac{2^{\lfloor \log_{2}{(n)} \rfloor}}{2^n} \\
-&\leq 1 - \frac{n}{2^{n}}\\
+&= \binom{n}{0}\cdot p^n \cdot (1-p)^{n-k}
+%&= 1-\Pr[\mathrm{X \le k-1}]  &\text{(CDF)}\\
+%&= 1-\sum_{i=0}^{\lfloor \log_{2}(n) \rfloor}\binom{n}{i} \cdot p^i \cdot (1-p)^{n-i} \\
+%&= 1 - \sum_{i=0}^{\lfloor \log_{2}(n) \rfloor}\binom{n}{i} \cdot \left( \frac{1}{2} \right)^n\\
+%&= 1-\frac{2^{\lfloor \log_{2}{(n)} \rfloor}}{2^n} \\
+%&\leq 1 - \frac{n}{2^{n}}\\
 
  \\
  \\
