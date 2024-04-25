@@ -18,11 +18,10 @@ Using Chebyshev's inequality, $\Pr[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t] 
 
 $$
 \begin{align}
-\Pr\bigg[\mathrm{X} \geq \frac{3k}{4}\bigg] &= \Pr\bigg[\mathrm{X} \geq \frac{2k}{4} + \frac{k}{4}\bigg] &\text{(Chebyshev)}\\
-\Pr\bigg[\mathrm{X}-\frac{k}{2} \geq \frac{k}{4} \bigg]  \\
- \\
-
-&\leq \frac{16k}{36k^2} = \frac{4}{9k}\\
+%\Pr\bigg[\mathrm{X} \geq \frac{3k}{4}\bigg] &= \Pr\bigg[\mathrm{X} \geq \frac{2k}{4} + \frac{k}{4}\bigg] =
+%\Pr\bigg[\mathrm{X}-\frac{k}{2} \geq \frac{k}{4} \bigg] &\text{(Chebyshev)} \\ \\
+\Pr\bigg[\bigg|\mathrm{X} - \frac{k}{2} \bigg| \geq \frac{k}{4}\bigg]  &= \frac{\text{Var}[]}\\
+&= \frac{4}{9}\\
 &&\square
 \end{align}
 $$
@@ -56,6 +55,8 @@ Let $\text{Z = "\# disaster trips"}$,  where $\mathrm{Z} := \sum_{i=1}^{n-1}\mat
 
 We need to show that $k = 1000\log_{2}(n), \ n \geq 2 \implies 1-\Pr[\mathrm{Z}\geq 1] \geq 0.99$.
 
+
+Let $\delta = \frac{1}{2}$
 $$
 \begin{align}
 &\Pr[\mathrm{Z}\geq 1] \leq 0.01 \\
