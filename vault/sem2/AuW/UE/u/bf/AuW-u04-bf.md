@@ -33,8 +33,8 @@ $$
 
 ___
 ## (c)
-Let $\text{Y = "\# sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p), \text{ independent}$ denoting that the i-th dog is sniffling. We know, that the probability $p$ for any one dog to sniffle all day is $\Pr[\mathrm{X} = k]$. Thus, $\Pr[\mathrm{Y_{i}=1}]=\left(\frac{1}{2}\right)^2$ $\mathrm{Y} \sim \text{Bin}(n-1, p)$. This is by the fact that all $n-1$ trips are independent.
-Thus, $\mathbb E[\mathrm{Y}] = (n-1) \cdot p$.
+Let $\text{Y = "\# sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p)$, independent denoting whether i-th dog is sniffling. The probability, $p$ for any one dog to sniffle all day is $\Pr[\mathrm{Y_{i}=1}]=\Pr[\mathrm{X} = k]=\left(\frac{1}{2}\right)^2$. Thus, $\mathrm{Y} \sim \text{Bin}(n-1, p)$. 
+
 
 
 $$
@@ -72,7 +72,7 @@ ___
 
 %%let $N=\text{"\# trips"}=n \cdot\binom{n}{k}%%
 
-Let $\text{Z = "\# delightful trips"}$,  where $\mathrm{Z} = \mathrm{Z}_{1} + \dots + \mathrm{Z}_{n-1}$ with $\mathrm{Z}_{i} \sim \mathrm{Bernoulli}(p), \text{}$. We know, that the probability for any one trip to be a delight is $p = 1-\Pr\left[ \mathrm{X} \geq \frac{3}{4}\cdot k \right]$. Thus, $\mathrm{Z} \sim \text{Bin}(n-1, p)$. This is by the fact that all $n-1$ trips are independent.
+Let $\text{Z = "\# delightful trips"}$,  where $\mathrm{Z} = \mathrm{Z}_{1} + \dots + \mathrm{Z}_{n-1}$ with $\mathrm{Z}_{i} \sim \mathrm{Bernoulli}(p)$, independent. We know, that the probability for any one trip to be a delight is $p = 1-\Pr\left[ \mathrm{X} \geq \frac{3}{4}\cdot k \right]$. Thus, $\mathrm{Z} \sim \text{Bin}(n-1, p)$. This is by the fact that all $n-1$ trips are independent.
 
 $$
 \begin{align}
