@@ -67,24 +67,26 @@ $$
 \Pr[\mathrm{Z}=0] \geq 0.99 &\implies \Pr[\mathrm{Z}\geq 1] \leq 0.01 \\
 %&\Pr[\mathrm{Z}\geq (1+\delta)\mathbb E[\mathrm{Z}]] \leq e^{-\frac{1}{3}\delta^2\mathbb E[\mathrm{Z}]} \\
  \\
- \\
-\Pr\left[ \mathrm{X}\geq \frac{3k}{4} \right] &=
+p=\Pr\left[ \mathrm{X}\geq \frac{3k}{4} \right] &=
 \Pr\left[ \mathrm{X \geq \left(1+\frac{1}{1}\right)\cdot\frac{k}{2}} \right]  \\
 &= \Pr\left[ \mathrm{X}\geq \left( 1+\frac{1}{2} \right) \cdot \mathbb E[\mathrm{X}] \right] &\text{(Chernoff)}\\
 &\leq e^{- \frac{1}{3} \cdot \frac{1}{4}\cdot\mathbb E[\mathrm{X}]}
 = e^{-\frac{k}{24}} = e^{-\frac{1000\log_{2}(n)}{24}} \\
-&\leq 2^{-\frac{1000\log_{2}(n)}{24}} = n^{-\frac{1000}{24}}
+&\leq 2^{-\frac{1000\log_{2}(n)}{24}} = n^{-\frac{1000}{24}} \\
+&\leq n^{-41.\bar{6}}
 \end{align}
 $$
-So, $p_{\mathrm{Z}_{i}} \leq n^{-41.\bar{6}}$ 
 
 
 
 $$
 \begin{align}
-\Pr[\mathrm{X}\geq 1] &\leq\mathbb E[\mathrm{X}] &\text{(Markov)} \\
+\Pr[\mathrm{X}\geq 1] &\leq\mathbb E[\mathrm{Z}] &\text{(Markov)} \\
 &\leq n \cdot p_{\mathrm{Z}_{i}} \\
-&\leq n \cdot 
+&\leq n \cdot n^{-41.\bar{6}} = n^{-40.\bar{6}} \\
+&\leq 2^{-40.\bar{6}} &\text{($n\geq2$)} \\
+&\leq 0.01 \\
+&&\square
 \end{align}
 $$
 
@@ -95,5 +97,3 @@ $$
 
 
 "i always find it therefore i never search"
-
-We know, that the probability, $p$ for any one trip to be a disaster is $\Pr\left[ \mathrm{X} \geq \frac{3k}{4}\right]\leq\frac{2}{3}$. Thus, $\mathrm{Z} \sim \text{Bin}(n-1, p)$.
