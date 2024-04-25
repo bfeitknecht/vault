@@ -35,10 +35,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 128,
-                "left": -17,
-                "top": 669,
-                "zoom": 0.8769041587431714
+                "page": 1,
+                "zoom": 1
               }
             }
           }
@@ -57,10 +55,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 148,
-                "left": 44,
-                "top": 513,
-                "zoom": 1.18
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -71,10 +67,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-                "page": 11,
-                "left": -17,
-                "top": 574,
-                "zoom": 0.865
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -85,10 +79,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
-                "page": 32,
-                "left": -30,
-                "top": 676,
-                "zoom": 0.5068359375
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -99,10 +91,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
-                "page": 20,
-                "left": 0,
-                "top": 758,
-                "zoom": 0.45
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -114,9 +104,7 @@
               "state": {
                 "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
                 "page": 1,
-                "left": 71,
-                "top": 634,
-                "zoom": 1.2
+                "zoom": 1
               }
             }
           },
@@ -127,10 +115,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/UE/u/bf/AW_T4_aramin.pdf",
-                "page": 2,
-                "left": 14,
-                "top": 220,
-                "zoom": 0.95
+                "page": 1,
+                "zoom": 1
               }
             }
           }
