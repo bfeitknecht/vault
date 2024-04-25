@@ -33,9 +33,12 @@ $$
 
 ___
 ## (c)
-Let $\text{Y = "\# sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p)$, independent denoting whether i-th dog is sniffling. The probability, $p$ for any one dog to sniffle all day is $\Pr[\mathrm{Y_{i}=1}]=\Pr[\mathrm{X} = k]=\left(\frac{1}{2}\right)^2$. Thus, $\mathrm{Y} \sim \text{Bin}(n-1, p)$. 
+Let $\text{Y = "\# sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p)$, independent denoting whether i-th dog is sniffling. The probability, $p$ for any one dog to sniffle all day is $\Pr[\mathrm{Y_{i}=1}]=\Pr[\mathrm{X} = k]=\frac{1}{2^k}$. Thus, $\mathrm{Y} \sim \text{Bin}(n-1, p)$. 
 
 
+
+
+ $\mathbb E[\mathrm{Y}] = (n-1) \cdot p$.
 
 $$
 \begin{align}
@@ -49,9 +52,11 @@ k &\geq \log_{2}(n) + 1  \overset{?}{\implies} \Pr[\mathrm{Y} = 0] \geq \frac{1}
  \\
  \\
  \\
+%\Pr\left[ \mathrm{X} =  x  \right] &= \binom{k}{x}\cdot p^k \cdot (1-p)^{x-k} \\
  \\
 \Pr\left[ \mathrm{X} =  k  \right]
-&= \binom{n}{k}\cdot p^k \cdot (1-p)^{n-k} \\
+&= \binom{k}{k}\cdot p^k \cdot (1-p)^{k-k} \\
+&= \frac{1}{2^k} \\
 %&= 1-\Pr[\mathrm{X \le k-1}]  &\text{(CDF)}\\
 %&= 1-\sum_{i=0}^{\lfloor \log_{2}(n) \rfloor}\binom{n}{i} \cdot p^i \cdot (1-p)^{n-i} \\
 %&= 1 - \sum_{i=0}^{\lfloor \log_{2}(n) \rfloor}\binom{n}{i} \cdot \left( \frac{1}{2} \right)^n\\
