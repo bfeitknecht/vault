@@ -56,15 +56,12 @@ $$
 
 ___
 ## (d)
+Let $\text{Z = "\# delightful trips"}$,  where $\mathrm{Z} := \sum_{i=1}^{n-1}\mathrm{Z}_{i}$ with $\mathrm{Z}_{i} \sim \mathrm{Bernoulli}(p)$, independent. We know, that the probability for any one trip to be a delight is $p = 1-\Pr\left[ \mathrm{X} \geq \frac{3}{4}\cdot k \right]=\frac{1}{4}$. Thus, $\mathrm{Z} \sim \text{Bin}(n-1, p)$.
 
-%%let $N=\text{"\# trips"}=n \cdot\binom{n}{k}%%
-
-Let $\text{Z = "\# delightful trips"}$,  where $\mathrm{Z} = \mathrm{Z}_{1} + \dots + \mathrm{Z}_{n-1}$ with $\mathrm{Z}_{i} \sim \mathrm{Bernoulli}(p)$, independent. We know, that the probability for any one trip to be a delight is $p = 1-\Pr\left[ \mathrm{X} \geq \frac{3}{4}\cdot k \right]$. Thus, $\mathrm{Z} \sim \text{Bin}(n-1, p)$. This is by the fact that all $n-1$ trips are independent.
-
+We need to show that
 $$
 \begin{align}
-k &= 1000\log_{2}(n)  \\
-n &\geq 2 \\
+k &= 1000\log_{2}(n), \ n &\geq 2 \\
  \\
  \\
 %\text{(1)} &\overset{?}{\implies} \Pr[\mathrm{\mathrm{Z}= n-1}] \geq 0.99 \\
