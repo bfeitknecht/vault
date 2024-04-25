@@ -1,7 +1,7 @@
 ![[Auw-u04-e.pdf]]
 
 ## (a)
-Let $\mathrm{X}$ be the random variable denoting the number of streets with flowers. We recall that the trip is a disaster, if $\mathrm{X} \geq \frac 3 4$. To apply Markov's inequality, $\Pr[\mathrm{X} \geq t] \leq \frac {\mathbb E[\mathrm{X}]} t$, we need the expected value $\mathbb{E}[\mathrm{X}]$, meaning the expected number of streets with flowers encountered.
+Let $\mathrm{X}$ be the random variable denoting the number of streets with flowers. We recall that the trip is a disaster, if $\mathrm{X} \geq \frac 3 4$. To apply Markov's inequality, $\Pr[\mathrm{X} \geq t] \leq \frac {\mathbb E[\mathrm{X}]} t$, we need the expected value $\mathbb{E}[\mathrm{X}]$, meaning the expected number of streets with flowers encountered.
 For this, we can use linearity of expectation, since the probability for a street to have flowers is binomially distributed. Hence,
 
 $$
@@ -20,8 +20,8 @@ $$
 \begin{align}
 %\Pr\bigg[\mathrm{X} \geq \frac{3k}{4}\bigg] &= \Pr\bigg[\mathrm{X} \geq \frac{2k}{4} + \frac{k}{4}\bigg] =
 %\Pr\bigg[\mathrm{X}-\frac{k}{2} \geq \frac{k}{4} \bigg] &\text{(Chebyshev)} \\ \\
-\Pr\bigg[\bigg|\mathrm{X} - \frac{k}{2} \bigg| \geq \frac{k}{4}\bigg]  &= \frac{\text{Var}[]}\\
-&= \frac{4}{9}\\
+\Pr\bigg[\bigg|\mathrm{X} - \frac{k}{2} \bigg| \geq \frac{k}{4}\bigg]  &= \frac{\text{Var}[\mathrm{X}]}{\left(\frac{k}{4}\right)^2}\\
+&= \frac{k}{4} \cdot \frac{4^2}{k^2} = \frac{4}{9}\\
 &&\square
 \end{align}
 $$
