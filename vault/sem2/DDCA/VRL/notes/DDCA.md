@@ -1,6 +1,3 @@
----
-"slides:": "[[DDCA-00-slides]]"
----
 
 
 

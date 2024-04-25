@@ -4,51 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "db4e1252b221d2a8",
+        "id": "96e62d22eac54a13",
         "type": "tabs",
         "children": [
           {
-            "id": "330ce54a7c1e3e8d",
+            "id": "55b6ab42eddd4403",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
-                "page": 7,
-                "left": -29,
-                "top": 659,
-                "zoom": 1.31
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "f9256ac3a1bc1207",
+            "id": "2984081100d9e658",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u05-manual-bf-cs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "733e3213e60e3912",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-dp.pdf",
-                "page": 1,
-                "left": -17,
-                "top": 540,
-                "zoom": 0.88125
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:/sem2/AuW/VRL/slides",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-dp.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-dp.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-dp.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -188,44 +160,44 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5f4cf158045f14fe",
+  "active": "2984081100d9e658",
   "lastOpenFiles": [
-    "sem2/AuW/VRL/extra/AuW-formulas.pdf",
-    "sem2/AuW/VRL/extra/AuW-dp.pdf",
-    "sem2/DDCA/UE/e/manual/tmp",
-    "sem2/Analysis-1/UE/s/!Analysis-1-u-s.md",
-    "sem2/Analysis-1/UE/s/tmp",
-    "sem2/Analysis-1/UE/e/!Analysis-1-u-e.md",
-    "sem2/Analysis-1/UE/e/tmp",
-    "sem2/Analysis-1/UE/bf/!Analysis-1-u-bf.md",
-    "sem2/Analysis-1/UE/bf/tmp",
-    "sem2/DDCA/UE/bf/DDCA-u01-report-bf-cs.pdf",
-    "sem2/DDCA/UE/e/manual/!DDCA-lab-manuals.md",
+    "sem2/Analysis-1/VRL/notes/Analysis-1.md",
+    "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
+    "sem2/AuW/VRL/notes/AuW.md",
+    "sem2/DDCA/VRL/notes/DDCA.md",
+    "sem2/AuW/VRL/Untitled.md",
+    "sem2/PProg/VRL/notes/PProg.md",
+    "DDCA-00-slides.md",
+    "var/var.md",
+    "var/attachments/AuW-u02-e.pdf",
+    "sem2/DDCA/VRL/slides/DDCA-L01-FPGA.pdf",
+    "sem2/DDCA/VRL/slides/DDCA-L00-introduction.pdf",
+    "sem2/DDCA/VRL/slides/DDCA-00-slides.md",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB01-circuits.pdf",
+    "sem2/PProg/VRL/slides/PProg-00-slides.md",
     "sem2/DDCA/UE/e/slides/!DDCA-lab-slides.md",
-    "sem2/DDCA/UE/e/slides/tmp",
     "sem2/DDCA/UE/e/report/!DDCA-lab-reports.md",
-    "sem2/DDCA/UE/e/report/tmp",
+    "sem2/DDCA/UE/e/manual/!DDCA-lab-manuals.md",
+    "sem2/Analysis-1/UE/s/!Analysis-1-u-s.md",
+    "sem2/Analysis-1/UE/e/!Analysis-1-u-e.md",
+    "sem2/Analysis-1/UE/bf/!Analysis-1-u-bf.md",
+    "sem2/AuW/VRL/slides/AuW-00-slides.md",
+    "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
     "sem2/DDCA/UE/bf/DDCA-u05-manual-bf-cs.md",
+    "sem2/AuW/VRL/extra/AuW-dp.pdf",
+    "sem2/AuW/VRL/extra/AuW-formulas.pdf",
+    "sem2/DDCA/UE/e/manual/tmp",
+    "sem2/Analysis-1/UE/s/tmp",
+    "sem2/Analysis-1/UE/e/tmp",
     "sem2/DDCA/UE/e/manual/!manual.md",
     "sem2/DDCA/UE/e/manual/!aa.md",
     "sem2/DDCA/UE/e/manual/!.md",
-    "sem2/DDCA/UE/e/manual/aa",
-    "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem1/AuD/PV/summaries/java-algorithms.md",
     "sem2/AuW/UE/u/bf/Untitled.md",
     "sem2/AuW/UE/u/bf/Untitled 1.md",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
-    "cheby.md",
-    "sem1/DMath/VRL/V01_mathematical-propositions.md",
-    "yannick pseudocode.md",
-    "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
-    "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
-    "sem2/Analysis-1/VRL/notes/Analysis-1.md",
-    "sem1/AuD/PV/kenji/!kenji.md",
-    "sem1/AuD/PV/kenji/!.md",
-    "sem2/AuW/UE/u/bf/AuW-u01-bf.md",
-    "sem2/AuW/UE/u/bf/AuW-u00-bf.md",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-matrix.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-column-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-row-vector.png",

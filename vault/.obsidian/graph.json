@@ -5,7 +5,7 @@
   "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:sem2/AuW",
@@ -34,18 +34,25 @@
         "a": 1,
         "rgb": 4076268
       }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0.2,
   "nodeSizeMultiplier": 0.954150390625,
   "lineSizeMultiplier": 1.71299641927083,
   "collapse-forces": true,
-  "centerStrength": 0,
+  "centerStrength": 0.129923502604167,
   "repelStrength": 20,
-  "linkStrength": 0.652180989583333,
-  "linkDistance": 30,
-  "scale": 0.013584416903617919,
-  "close": true
+  "linkStrength": 0.605997721354167,
+  "linkDistance": 126,
+  "scale": 0.06103691808794629,
+  "close": false
 }
