@@ -14,18 +14,25 @@ $$
 
 ___
 ## (b)
-Using Chebyshev's inequality, $\Pr[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t] \leq \frac{\text{Var}[\mathrm{X}]}{t^2}$, requires $\text{Var}[\mathrm{X}]$. For binomial distributions $\mathrm{X} \sim \mathrm{Bin}(n, p)$, as in our case, this is given by $\text{Var}[\mathrm{X}] = np(1-p) = k \cdot \frac{1}{2} \cdot \left( 1-\frac{1}{2} \right) = \frac k 4$. Thus,
+Using Chebyshev's inequality, $\Pr[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t] \leq \frac{\text{Var}[\mathrm{X}]}{t^2}$, requires $\text{Var}[\mathrm{X}]$.
 
 $$
 \begin{align}
+\mathrm{Var}[\mathrm{X}] &= \mathbb E[\mathrm{X_{i}^2}] - \mathbb E [\mathrm{X_{i}}]^2 \\
+&= \sum_{i=0}^1 i^2 \cdot p - \left(\sum_{i=0}^1 i^2\right)^2 \\
+ \\
+ \\
+ \\
+ \\
+ \\
 \Pr\bigg[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t \cdot\sqrt{ \text{Var}[\mathrm{X}] }\bigg] &\leq \frac{1}{t^2}  \\
-\Pr\bigg[\bigg|\mathrm{X} - \frac{k}{2} \bigg| \geq \frac{3k}{4} \cdot \sqrt{ \frac{k}{4} } \bigg] &\leq \frac{1}{\left(\frac{3k}{4}\right)^2} = \frac {4}{9k^2} \\
+\Pr\bigg\left[ \bigg|\mathrm{X} - \frac{k}{2} \bigg| \geq \frac{3k}{4} \cdot \sqrt{ \frac{k}{4} } \bigg \right] &\leq \frac{1}{\left(\frac{3k}{4}\right)^2} = \frac {4}{9k^2} \\
  \\
  \\
  \\
  \\
 \Pr[|\mathrm{X} - \mathbb E[\mathrm{X}]| \geq t] &\leq \frac{ \mathrm{Var}[\mathrm{X}]}{t^2}  \\
-\Pr\bigg[\bigg|\mathrm{X} - \frac{k}{2} \bigg| \geq \frac{3k}{4} \bigg] &\leq \frac{\frac {k}{4}}{\big(\frac{3k}{4}\big)^2} = \frac {k}{4} \cdot \left(\frac{4}{3k}\right)^2 \\
+\Pr\bigg\left[ \bigg|\mathrm{X} - \frac{k}{2} \bigg| \geq \frac{3k}{4} \bigg \right] &\leq \frac{\frac {k}{4}}{\big\left( \frac{3k}{4}\big \right)^2} = \frac {k}{4} \cdot \left(\frac{4}{3k}\right)^2 \\
 &\leq \frac{16k}{36k^2} = \frac{4}{9k}\\
 &&\square
 \end{align}

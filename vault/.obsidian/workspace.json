@@ -100,7 +100,7 @@
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
                 "page": 20,
-                "left": -98,
+                "left": 0,
                 "top": 758,
                 "zoom": 0.45
               }
@@ -119,9 +119,23 @@
                 "zoom": 1.2
               }
             }
+          },
+          {
+            "id": "3efa9f0c568087d7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/UE/u/bf/AW_T4_aramin.pdf",
+                "page": 1,
+                "left": -17,
+                "top": 842,
+                "zoom": 0.8718644796699349
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -272,9 +286,10 @@
   },
   "active": "56d5b3815748a7e0",
   "lastOpenFiles": [
+    "sem2/AuW/UE/u/bf/AW_T4_aramin.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
-    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem1/AuD/PV/summaries/java-algorithms.md",
@@ -290,7 +305,6 @@
     "sem2/AuW/UE/pg/bf/AuW-u02-pg-cs.pdf",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u03-dh.pdf",
-    "sem2/PProg/VRL/extra/PProg-abstract.pdf",
     "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem1/AuD/PV/kenji/!kenji.md",
