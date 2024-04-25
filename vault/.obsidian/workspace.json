@@ -77,8 +77,8 @@
               "state": {
                 "file": "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf",
                 "page": 4,
-                "left": 5,
-                "top": 658,
+                "left": 11,
+                "top": 663,
                 "zoom": 0.94
               }
             }
@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
