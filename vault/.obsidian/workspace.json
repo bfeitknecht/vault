@@ -4,81 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "987eb821e407d70c",
+        "id": "db4e1252b221d2a8",
         "type": "tabs",
-        "dimension": 50.13623978201635,
         "children": [
           {
-            "id": "56d5b3815748a7e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85f37617a5244122",
+            "id": "330ce54a7c1e3e8d",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 1,
-                "zoom": 1
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
+                "page": 5,
+                "left": -293,
+                "top": 673,
+                "zoom": 0.92
               }
+            }
+          },
+          {
+            "id": "f9256ac3a1bc1207",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
-      },
-      {
-        "id": "4422d8c64a5ae160",
-        "type": "tabs",
-        "dimension": 49.863760217983646,
-        "children": [
-          {
-            "id": "09cf7989e936f58c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
-                "page": 1,
-                "zoom": 1
-              }
-            }
-          },
-          {
-            "id": "2f4cbc145bbf0ca6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
-                "page": 1,
-                "zoom": 1
-              }
-            }
-          },
-          {
-            "id": "7c8f2e4b56098eaa",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf",
-                "page": 4,
-                "left": -17,
-                "top": 709,
-                "zoom": 0.871858621153071
-              }
-            }
-          }
-        ],
-        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -145,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md"
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf"
               }
             }
           },
@@ -227,14 +178,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "56d5b3815748a7e0",
+  "active": "330ce54a7c1e3e8d",
   "lastOpenFiles": [
+    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
     "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
-    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
     "var/export/AuW-u04-bf.pdf",
@@ -247,7 +198,6 @@
     "cheby.md",
     "sem1/DMath/VRL/V01_mathematical-propositions.md",
     "yannick pseudocode.md",
-    "sem2/AuW/UE/pg/bf/AuW-u02-pg-cs.pdf",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
     "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
