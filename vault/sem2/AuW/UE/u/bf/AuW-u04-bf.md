@@ -73,7 +73,9 @@ $$
 \Pr\left[ \mathrm{X}\geq \frac{3k}{4} \right] &=
 \Pr\left[ \mathrm{X \geq \left(1+\frac{1}{1}\right)\cdot\frac{k}{2}} \right]  \\
 &= \Pr\left[ \mathrm{X}\geq \left( 1+\frac{1}{2} \right) \cdot \mathbb E[\mathrm{X}] \right] &\text{(Chernoff)}\\
-&\leq e^{- \frac}
+&\leq e^{- \frac{1}{3} \cdot \frac{1}{4}\cdot\mathbb E[\mathrm{X}]}
+= e^{-\frac{k}{24}} = e^{-\frac{1000\log_{2}(n)}{24}} \\
+&\leq 2^{-\frac{1000\log_{2}(n)}{24}} = n^{-\frac{1000}{24}}
  \\
  \\
 \end{align}
