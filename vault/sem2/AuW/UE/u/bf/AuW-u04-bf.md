@@ -58,11 +58,10 @@ ___
 ## (d)
 Let $\text{Z = "\# disaster trips"}$,  where $\mathrm{Z} := \sum_{i=1}^{n-1}\mathrm{Z}_{i}$ with $\mathrm{Z}_{i} \sim \mathrm{Bernoulli}(p)$, independent. We know, that the probability for any one trip to be a disaster is $p = \Pr\left[ \mathrm{X} \geq \frac{3k}{4}\right]\leq\frac{2}{3}$. Thus, $\mathrm{Z} \sim \text{Bin}(n-1, p)$.
 
-We need to show that
+We need to show that $k = 1000\log_{2}(n), \ n \geq 2 \implies 1-\Pr[\mathrm{Z}\geq 1] \geq 0.99$.
 $$
 \begin{align}
-k &= 1000\log_{2}(n), \ n \geq 2 
-\implies 1-\Pr[\mathrm{Z}\geq 1] \geq 0.99 \\
+ \\
  \\
  \\
  \\
