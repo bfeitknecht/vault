@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
-                "page": 9,
+                "page": 7,
                 "left": -29,
-                "top": 749,
+                "top": 659,
                 "zoom": 1.31
               }
             }
@@ -33,7 +33,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-bf-cs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-bf-cs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf"
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-bf-cs.md"
               }
             }
           },
@@ -173,11 +174,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "330ce54a7c1e3e8d",
+  "active": "f9256ac3a1bc1207",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u05-bf-cs.md",
     "sem2/DDCA/UE/e/manual/tmp",
-    "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",

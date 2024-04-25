@@ -16,8 +16,8 @@ ___
 | \# LUTs                         | 113    |
 | \# bonded IOBs                  | 101    |
 | output 'zero' pin name          |        |
-| longest path start              |        |
-| longest path end                |        |
+| longest path start              | A\[0]  |
+| longest path end                | Y\[29] |
 | longest path                    |        |
 | routing in longest path         |        |
 | levels of logic in longest path | 17     |
