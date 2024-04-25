@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
-                "page": 5,
+                "page": 7,
                 "left": -293,
-                "top": 673,
+                "top": 468,
                 "zoom": 0.92
               }
             }
@@ -25,11 +25,16 @@
             "id": "f9256ac3a1bc1207",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-bf.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -96,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf"
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-bf.md"
               }
             }
           },
@@ -178,10 +182,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "330ce54a7c1e3e8d",
+  "active": "f9256ac3a1bc1207",
   "lastOpenFiles": [
-    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
+    "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
+    "sem2/DDCA/UE/e/manual/DDCA-u05-bf.md",
+    "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf",
@@ -193,7 +200,6 @@
     "sem2/AuW/VRL/slides/AuW-L15-chernoff.pdf",
     "sem2/AuW/UE/u/bf/Untitled.md",
     "sem2/AuW/UE/u/bf/Untitled 1.md",
-    "var/unique",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "cheby.md",
     "sem1/DMath/VRL/V01_mathematical-propositions.md",
@@ -214,7 +220,6 @@
     "sem2/AuW/VRL/slides/AuW-00-slides.md",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/Analysis-1/VRL/slides/Analysis-1-00-slides.md",
-    "sem2/Analysis-1/UE/bf/Analysis-1-u02-bf.md",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-matrix.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-column-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-row-vector.png",
