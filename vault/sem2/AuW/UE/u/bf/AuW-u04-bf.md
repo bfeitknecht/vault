@@ -58,16 +58,14 @@ $$
 
 ___
 ## (d)
-Let $\text{Z = "\# disaster trips"}$,  where $\mathrm{Z} := \sum_{i=1}^{n-1}\mathrm{Z}_{i}$ with $\mathrm{Z}_{i} \sim \mathrm{Bernoulli}(p)$, independent denoting, whether the $i$-th trip was a disaster. We know, that the probability, $p$ for any one trip to be a disaster is $\Pr\left[ \mathrm{X} \geq \frac{3k}{4}\right]\leq\frac{2}{3}$. Thus, $\mathrm{Z} \sim \text{Bin}(n-1, p)$.
+Let $\text{Z = "\# disaster trips"}$,  where $\mathrm{Z} := \sum_{i=1}^{n-1}\mathrm{Z}_{i}$ with $\mathrm{Z}_{i} \sim \mathrm{Bernoulli}(p)$, independent denoting, whether the $i$-th trip was a disaster. 
 
-We need to show that $k = 1000\log_{2}(n), \ n \geq 2 \implies 1-\Pr[\mathrm{Z}\geq 1] \geq 0.99$.
+We need to show that $k = 1000\log_{2}(n), \ n \geq 2 \implies \Pr[\mathrm{Z}=0] \geq 0.99$.
 
-
-Let $\delta = \frac{1}{2}$
 $$
 \begin{align}
-&\Pr[\mathrm{Z}\geq 1] \leq 0.01 \\
-&\Pr[\mathrm{Z}\geq (1+\delta)\mathbb E[\mathrm{Z}]] \leq e^{-\frac{1}{3}\delta^2\mathbb E[\mathrm{Z}]} \\
+\Pr[\mathrm{Z}=0] \geq 0.99 &\implies \Pr[\mathrm{Z}\geq 1] \leq 0.01 \\
+%&\Pr[\mathrm{Z}\geq (1+\delta)\mathbb E[\mathrm{Z}]] \leq e^{-\frac{1}{3}\delta^2\mathbb E[\mathrm{Z}]} \\
  \\
  \\
 \Pr\left[ \mathrm{X}\geq \frac{3k}{4} \right] &=
@@ -76,24 +74,10 @@ $$
 &\leq e^{- \frac{1}{3} \cdot \frac{1}{4}\cdot\mathbb E[\mathrm{X}]}
 = e^{-\frac{k}{24}} = e^{-\frac{1000\log_{2}(n)}{24}} \\
 &\leq 2^{-\frac{1000\log_{2}(n)}{24}} = n^{-\frac{1000}{24}}
- \\
- \\
 \end{align}
 $$
 
 
-
-$\mathbb E[\mathrm{Z}]=\frac{2\cdot(n-1)}{3}$
-
-
-$$
-\begin{align}
-&\mathbb E[\mathrm{X}] = np = \frac{1000\log_{2}(n)}{2} \\
-
-&\Pr\left[ \mathrm{X} \geq \frac 3 4 \cdot k \right] \leq \frac{\frac k 2}{\frac 3 4 \cdot k} = \frac {2}{3}\\
-&\square
-\end{align}
-$$
 
 
 
@@ -106,3 +90,4 @@ $$
 
 "i always find it therefore i never search"
 
+We know, that the probability, $p$ for any one trip to be a disaster is $\Pr\left[ \mathrm{X} \geq \frac{3k}{4}\right]\leq\frac{2}{3}$. Thus, $\mathrm{Z} \sim \text{Bin}(n-1, p)$.
