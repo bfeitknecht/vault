@@ -81,8 +81,7 @@ $$
 
 $$
 \begin{align}
-\Pr[\mathrm{X}\geq 1] &\leq\mathbb E[\mathrm{Z}] &\text{(Markov)} \\
-&\leq n \cdot p_{\mathrm{Z}_{i}} \\
+\Pr[\mathrm{X}\geq 1] &\leq\mathbb E[\mathrm{Z}] = n \cdot p_{\mathrm{Z}_{i}} &\text{(Markov)} \\
 &\leq n \cdot n^{-41.\bar{6}} = n^{-40.\bar{6}} \\
 &\leq 2^{-40.\bar{6}} &\text{($n\geq2$)} \\
 &\leq 0.01 \\
