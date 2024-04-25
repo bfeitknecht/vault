@@ -76,7 +76,7 @@ $$
 &\leq 2^{-\frac{1000\log_{2}(n)}{24}} = n^{-\frac{1000}{24}}
 \end{align}
 $$
-So, $p_{\mathrm{Z}_{i}}$
+So, $p_{\mathrm{Z}_{i}} \leq n^{-41.\bar{6}}$ 
 
 
 
