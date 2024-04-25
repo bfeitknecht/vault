@@ -46,9 +46,9 @@ n &\geq 2 \\
 k &\geq \log_{2}(n) + 1  \overset{?}{\implies} \Pr[\mathrm{Y} = 0] \geq \frac{1}{2} \\
  \\
  \\
-\mathbb E[\mathrm{Y}] &= \binom{n}{k} \cdot p \\
-&= \frac{n!}{k!(n-k)!}\cdot p \\
-&= \frac{n!}{(\log_{2}(n)+1)!\cdot(n-\log_{2}(n)+1)!} \\
+\mathbb E[\mathrm{Y}] &= \frac{n-1}{2^k} \\
+&= \frac{n-1}{2^{\log_{2}(n)+1}} = \frac{n-1}{2n} \\
+%&= \frac{n!}{(\log_{2}(n)+1)!\cdot(n-\log_{2}(n)+1)!} \\
  \\
  \\
  \\
