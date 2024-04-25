@@ -32,9 +32,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cee495eb337380e1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-bf-cs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +124,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-bf-cs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,9 +145,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-bf-cs.md"
-              }
+              "state": {}
             }
           },
           {
@@ -174,15 +178,19 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f9256ac3a1bc1207",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/e/slides/!DDCA-lab-slides.md",
+    "sem2/DDCA/UE/e/slides/tmp",
+    "sem2/DDCA/UE/e/report/!DDCA-lab-reports.md",
+    "sem2/DDCA/UE/e/report/tmp",
+    "sem2/DDCA/UE/e/manual/DDCA-u05-bf-cs.md",
     "sem2/DDCA/UE/e/manual/!DDCA-lab-manuals.md",
     "sem2/DDCA/UE/e/manual/tmp",
     "sem2/DDCA/UE/e/manual/!manual.md",
     "sem2/DDCA/UE/e/manual/!aa.md",
     "sem2/DDCA/UE/e/manual/!.md",
     "sem2/DDCA/UE/e/manual/aa",
-    "sem2/DDCA/UE/e/manual/DDCA-u05-bf-cs.md",
     "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
@@ -190,8 +198,6 @@
     "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
-    "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
     "sem1/AuD/PV/summaries/java-algorithms.md",
     "sem2/AuW/UE/u/bf/Untitled.md",
     "sem2/AuW/UE/u/bf/Untitled 1.md",
@@ -210,8 +216,6 @@
     "sem2/AuW/UE/pg/bf/AuW-u01-pg-bf.md",
     "sem2/PProg/VRL/slides/PProg-00-slides.md",
     "sem2/PProg/VRL/notes/PProg.md",
-    "sem2/DDCA/VRL/slides/DDCA-00-slides.md",
-    "sem2/DDCA/VRL/notes/DDCA.md",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-matrix.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-column-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-row-vector.png",
