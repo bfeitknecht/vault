@@ -129,7 +129,7 @@
                 "file": "sem2/AuW/UE/u/bf/AW_T4_aramin.pdf",
                 "page": 2,
                 "left": 14,
-                "top": 350,
+                "top": 220,
                 "zoom": 0.95
               }
             }
@@ -185,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
