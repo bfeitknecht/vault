@@ -33,40 +33,25 @@ $$
 
 ___
 ## (c)
-Let $\text{Y = "\# sniffling dogs"}$, where $\mathrm{Y} = \mathrm{Y}_{1} + \dots + \mathrm{Y}_{n-1}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p)$, independent denoting whether i-th dog is sniffling. The probability, $p$ for any one dog to sniffle all day is $\Pr[\mathrm{Y_{i}=1}]=\Pr[\mathrm{X} = k]=\frac{1}{2^k}$. Thus, $\mathrm{Y} \sim \text{Bin}(n-1, p)$. 
-
-
-
-
- $\mathbb E[\mathrm{Y}] = (n-1) \cdot p$.
+Let $\text{Y = "\# sniffling dogs"}$, where $\mathrm{Y} := \sum_{i=1}^{n-1}\mathrm{Y}_{i}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p)$, independent denoting whether i-th dog is sniffling. The probability, $p$ for any one dog to sniffle all day is $\Pr[\mathrm{Y_{i}=1}]=\Pr[\mathrm{X} = k]=\frac{1}{2^k}$. Thus, $\mathrm{Y} \sim \text{Bin}(n-1, p)$. 
 
 $$
 \begin{align}
-n &\geq 2 \\
 k &\geq \log_{2}(n) + 1  \overset{?}{\implies} \Pr[\mathrm{Y} = 0] \geq \frac{1}{2} \\
- \\
- \\
-\mathbb E[\mathrm{Y}] &= \frac{n-1}{2^k} \\
-&= \frac{n-1}{2^{\log_{2}(n)+1}} = \frac{n-1}{2n} \\
-%&= \frac{n!}{(\log_{2}(n)+1)!\cdot(n-\log_{2}(n)+1)!} \\
- \\
- \\
- \\
-%\Pr\left[ \mathrm{X} =  x  \right] &= \binom{k}{x}\cdot p^k \cdot (1-p)^{x-k} \\
  \\
 \Pr\left[ \mathrm{X} =  k  \right]
 &= \binom{k}{k}\cdot p^k \cdot (1-p)^{k-k} \\
 &= \frac{1}{2^k} \\
-%&= 1-\Pr[\mathrm{X \le k-1}]  &\text{(CDF)}\\
-%&= 1-\sum_{i=0}^{\lfloor \log_{2}(n) \rfloor}\binom{n}{i} \cdot p^i \cdot (1-p)^{n-i} \\
-%&= 1 - \sum_{i=0}^{\lfloor \log_{2}(n) \rfloor}\binom{n}{i} \cdot \left( \frac{1}{2} \right)^n\\
-%&= 1-\frac{2^{\lfloor \log_{2}{(n)} \rfloor}}{2^n} \\
-%&\leq 1 - \frac{n}{2^{n}}\\
-
  \\
  \\
  \\
-\Pr[\mathrm{Y} = 0] &= 1-(\Pr[\mathrm{Y \geq 1}]) &\text{(Markov)}\\
+\mathbb E[\mathrm{Y}] &= \frac{n-1}{2^k} \\
+&= \frac{n-1}{2^{\log_{2}(n)+1}} = \frac{n-1}{2n} \\
+&< \frac{1}{2} \\
+ \\
+ \\
+ \\
+\Pr[\mathrm{Y} = 0] &= 1-\Pr[\mathrm{Y \geq 1}] &\text{(Markov)}\\
 &\geq 1 - \mathbb E[\mathrm{Y}]
 \end{align}
 $$
