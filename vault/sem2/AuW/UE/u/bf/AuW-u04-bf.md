@@ -1,4 +1,5 @@
 ![[Auw-u04-e.pdf]]
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## (a)
 Let $\mathrm{X}$ be the random variable denoting the number of streets with flowers. We recall that the trip is a disaster, if $\mathrm{X} \geq \frac 3 4$. To apply Markov's inequality, $\Pr[\mathrm{X} \geq t] \leq \frac {\mathbb E[\mathrm{X}]} t$, we need the expected value $\mathbb{E}[\mathrm{X}]$, meaning the expected number of streets with flowers encountered.
@@ -26,6 +27,7 @@ $$
 \end{align}
 $$
 
+
 ___
 ## (c)
 Let $\text{Y = "\# sniffling dogs"}$, where $\mathrm{Y} := \sum_{i=1}^{n-1}\mathrm{Y}_{i}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p)$, independent. Let $\mathrm{Y}_{i}= \text{"the }i\text{-th dog sniffles"}$. The probability, $p$ for some $i$-th dog to sniffle all day is $\Pr[\mathrm{Y_{i}=1}]=\Pr[\mathrm{X} = k]=\frac{1}{2^k}$, given by all of its trip's streets having flowers. Thus, $\mathrm{Y} \sim \text{Bin}(n-1, p)$. 
@@ -50,6 +52,8 @@ $$ \begin{align}
 $$
 
 ___
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## (d)
 Let $\text{Z = "\# disaster trips"}$,  where $\mathrm{Z} := \sum_{i=1}^{n-1}\mathrm{Z}_{i}$ with $\mathrm{Z}_{i} \sim \mathrm{Bernoulli}(p)$, independent denoting, whether the $i$-th trip was a disaster. We know, that the probability, $p$ for any one trip to be a disaster is $\Pr\left[ \mathrm{X} \geq \frac{3k}{4}\right]\leq\frac{2}{3}$. Thus, $\mathrm{Z} \sim \text{Bin}(n-1, p)$.
 
