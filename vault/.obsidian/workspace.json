@@ -114,9 +114,11 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AW_T4_aramin.pdf",
-                "page": 1,
-                "zoom": 1
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf",
+                "page": 2,
+                "left": -22,
+                "top": 220,
+                "zoom": 0.6828719258164225
               }
             }
           }
@@ -187,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md"
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf"
               }
             }
           },
@@ -269,11 +271,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "56d5b3815748a7e0",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
-    "var/export/AuW-u04-bf.pdf",
-    "sem2/AuW/UE/u/bf/AW_T4_aramin.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+    "var/export/AuW-u04-bf.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf",
     "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
@@ -290,7 +292,6 @@
     "yannick pseudocode.md",
     "sem2/AuW/UE/pg/bf/AuW-u02-pg-cs.pdf",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
-    "sem2/AuW/UE/u/bf/AuW-u03-dh.pdf",
     "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem1/AuD/PV/kenji/!kenji.md",
