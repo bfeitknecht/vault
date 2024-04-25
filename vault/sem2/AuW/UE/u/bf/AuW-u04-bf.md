@@ -66,8 +66,9 @@ $$
 &\Pr[\mathrm{Z}\geq (1+\delta)\mathbb E[\mathrm{Z}]] \leq e^{-\frac{1}{3}\delta^2\mathbb E[\mathrm{Z}]} \\
  \\
  \\
-\Pr\left[ \mathrm{X}\geq \frac{3k}{4} \right] = \\
-1- \Pr\left[ \mathrm{X < \frac{k}{4}} \right] = \sum_{i=0}^{\lfloor k \rfloor } \binom{n}{i}
+\Pr\left[ \mathrm{X}\geq \frac{3k}{4} \right] &=
+1- \Pr\left[ \mathrm{X \leq \frac{k}{4}-1} \right]  \\
+&= \sum_{i=0}^{\lfloor \frac{k}{4} -1 \rfloor } \binom{n}{i} \cdot p^i \cdot (1-p)^{n-i}
 %&= \frac{1000\log_{2}(n)}{2} \cdot \frac{4}{3\cdot 1000\log_{2}(n)} \\
  \\
  \\
