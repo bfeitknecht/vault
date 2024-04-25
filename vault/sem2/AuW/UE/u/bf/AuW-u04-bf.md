@@ -71,9 +71,9 @@ $$
  \\
  \\
 \Pr\left[ \mathrm{X}\geq \frac{3k}{4} \right] &=
-1- \Pr\left[ \mathrm{X \leq \frac{k}{4}-1} \right]  \\
-&= \sum_{i=0}^{\lfloor \frac{k}{4} -1 \rfloor } \binom{n}{i} \cdot p^i \cdot (1-p)^{n-i}
-%&= \frac{1000\log_{2}(n)}{2} \cdot \frac{4}{3\cdot 1000\log_{2}(n)} \\
+\Pr\left[ \mathrm{X \geq \left(1+\frac{1}{1}\right)\cdot\frac{k}{2}} \right]  \\
+&= \Pr\left[ \mathrm{X}\geq \left( 1+\frac{1}{2} \right) \cdot \mathbb E[\mathrm{X}] \right] &\text{(Chernoff)}\\
+&\leq e^{- \frac}
  \\
  \\
 \end{align}

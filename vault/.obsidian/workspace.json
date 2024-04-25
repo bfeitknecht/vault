@@ -76,10 +76,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf",
-                "page": 3,
-                "left": -22,
-                "top": 64,
-                "zoom": 0.6828719258164226
+                "page": 4,
+                "left": 93,
+                "top": 811,
+                "zoom": 0.94
               }
             }
           }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf",
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf",
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf"
+                "file": "sem2/AuW/UE/u/bf/AuW-u04-bf.md"
               }
             }
           },
@@ -232,14 +232,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7c8f2e4b56098eaa",
+  "active": "56d5b3815748a7e0",
   "lastOpenFiles": [
+    "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf",
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-    "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf",
     "var/export/AuW-u04-bf.pdf",
     "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
     "sem1/AuD/PV/summaries/java-algorithms.md",
