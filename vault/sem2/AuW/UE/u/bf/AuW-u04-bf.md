@@ -35,21 +35,24 @@ ___
 ## (c)
 Let $\text{Y = "\# sniffling dogs"}$, where $\mathrm{Y} := \sum_{i=1}^{n-1}\mathrm{Y}_{i}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p)$, independent denoting whether i-th dog is sniffling. The probability, $p$ for some $i$-th dog to sniffle all day is $\Pr[\mathrm{Y_{i}=1}]=\Pr[\mathrm{X} = k]=\frac{1}{2^k}$, given by all of its trip's streets having flowers. Thus, $\mathrm{Y} \sim \text{Bin}(n-1, p)$. 
 
-We need to show that $k \geq \log_{2}(n) + 1  \implies \Pr[\mathrm{Y} = 0] \geq \frac{1}{2}$.
-
+The expected number of sniffling dogs is given by
 $$
 \begin{align}
 \mathbb E[\mathrm{Y}] &= \frac{n-1}{2^k} \\
 &= \frac{n-1}{2^{\log_{2}(n)+1}} = \frac{n-1}{2n} \\
 &< \frac{1}{2} \\
- \\
- \\
-\Pr[\mathrm{Y} = 0] &= 1-\Pr[\mathrm{Y \geq 1}] &\text{(Markov)}\\
-&\geq 1 - \mathbb E[\mathrm{Y}] \\
-
+&&\square
 \end{align}
 $$
 
+Now, we need to show that $k \geq \log_{2}(n) + 1  \implies \Pr[\mathrm{Y} = 0] \geq \frac{1}{2}$.
+$$ \begin{align}
+\Pr[\mathrm{Y} = 0] &= 1-\Pr[\mathrm{Y \geq 1}] &\text{(Markov)}\\
+&\geq 1 - \mathbb E[\mathrm{Y}] \\
+&\geq \frac{1}{2} \\
+&&\square
+\end{align}
+$$
 
 ___
 ## (d)
