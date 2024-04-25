@@ -7,7 +7,7 @@ For this, we can use linearity of expectation, since the probability for a stree
 $$
 \begin{align}
 &\mathbb E[\mathrm{X}] = np = \frac{k}{2} \\
-&\Pr\left[ \mathrm{X} \geq \frac 3 4 \cdot k \right] \leq \frac{\frac k 2}{\frac 3 4 \cdot k} = \frac {2}{3}\\
+&\Pr\left[ \mathrm{X} \geq \frac{3k} 4 \right] \leq \frac{\frac k 2}{\frac 3 4 \cdot k} = \frac {2}{3}\\
 &&\square
 \end{align}
 $$
@@ -56,15 +56,15 @@ $$
 
 ___
 ## (d)
-Let $\text{Z = "\# delightful trips"}$,  where $\mathrm{Z} := \sum_{i=1}^{n-1}\mathrm{Z}_{i}$ with $\mathrm{Z}_{i} \sim \mathrm{Bernoulli}(p)$, independent. We know, that the probability for any one trip to be a delight is $p = 1-\Pr\left[ \mathrm{X} \geq \frac{3}{4}\cdot k \right]=\frac{1}{4}$. Thus, $\mathrm{Z} \sim \text{Bin}(n-1, p)$.
+Let $\text{Z = "\# disaster trips"}$,  where $\mathrm{Z} := \sum_{i=1}^{n-1}\mathrm{Z}_{i}$ with $\mathrm{Z}_{i} \sim \mathrm{Bernoulli}(p)$, independent. We know, that the probability for any one trip to be a disaster is $p = \Pr\left[ \mathrm{X} \geq \frac{3k}{4}\right]\leq\frac{2}{3}$. Thus, $\mathrm{Z} \sim \text{Bin}(n-1, p)$.
 
 We need to show that
 $$
 \begin{align}
-k &= 1000\log_{2}(n), \ n &\geq 2 \\
+k &= 1000\log_{2}(n), \ n \geq 2 \\
  \\
  \\
-%\text{(1)} &\overset{?}{\implies} \Pr[\mathrm{\mathrm{Z}= n-1}] \geq 0.99 \\
+\text{(1)} &\overset{?}{\implies} \Pr[\mathrm{\mathrm{Z}= n-1}] \geq 0.99 \\
  \\
 %\text{(1)} &\overset{?}{\implies} \Pr[\mathrm{Z}\geq 1] \leq 0.01 \\
 \text{(1)} &\overset{?}{\implies} 1-\Pr[\mathrm{Z}\geq 1] \geq 0.99 \\
