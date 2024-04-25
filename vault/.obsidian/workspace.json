@@ -27,10 +27,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 127,
-                "left": 0,
-                "top": 364,
-                "zoom": 1.18
+                "page": 1,
+                "zoom": 1
               }
             }
           }
@@ -48,10 +46,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
-                "page": 19,
-                "left": -38,
-                "top": 228,
-                "zoom": 0.39697265625
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -63,9 +59,7 @@
               "state": {
                 "file": "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
                 "page": 1,
-                "left": 95,
-                "top": 515,
-                "zoom": 1.2
+                "zoom": 1
               }
             }
           },
@@ -77,9 +71,9 @@
               "state": {
                 "file": "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf",
                 "page": 4,
-                "left": 11,
-                "top": 663,
-                "zoom": 0.94
+                "left": -17,
+                "top": 709,
+                "zoom": 0.871858621153071
               }
             }
           }
@@ -235,14 +229,15 @@
   },
   "active": "56d5b3815748a7e0",
   "lastOpenFiles": [
-    "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf",
-    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+    "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
+    "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
     "sem2/AuW/UE/u/e/Auw-u04-e.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u04-ta.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
     "var/export/AuW-u04-bf.pdf",
-    "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
     "sem1/AuD/PV/summaries/java-algorithms.md",
     "sem2/AuW/VRL/slides/AuW-L15-chernoff.pdf",
     "sem2/AuW/UE/u/bf/Untitled.md",

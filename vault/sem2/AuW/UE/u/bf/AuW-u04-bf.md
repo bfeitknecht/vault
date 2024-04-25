@@ -84,7 +84,7 @@ $$
 \begin{align}
 \Pr[\mathrm{X}\geq 1] &\leq\mathbb E[\mathrm{X}] &\text{(Markov)} \\
 &\leq n \cdot p_{\mathrm{Z}_{i}} \\
-&\leq n^
+&\leq n \cdot 
 \end{align}
 $$
 
