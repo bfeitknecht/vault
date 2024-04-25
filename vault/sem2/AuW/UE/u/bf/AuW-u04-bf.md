@@ -61,12 +61,6 @@ Let $\text{Z = "\# disaster trips"}$,  where $\mathrm{Z} := \sum_{i=1}^{n-1}\mat
 We need to show that $k = 1000\log_{2}(n), \ n \geq 2 \implies 1-\Pr[\mathrm{Z}\geq 1] \geq 0.99$.
 $$
 \begin{align}
- \\
- \\
- \\
- \\
- \\
- \\
 &\Pr[\mathrm{Z}\geq 1] \leq 0.01 \\
 &\Pr[\mathrm{Z}\geq (1+\delta)\mathbb E[\mathrm{X}]] \leq e^{-\frac{1}{3}\delta^2\mathbb E[\mathrm{X}]} \\
 
@@ -81,7 +75,7 @@ $$
 
 
 
-$\mathbb E[\mathrm{Z}]=\frac{n-1}{4}$
+$\mathbb E[\mathrm{Z}]=\frac{2\cdot(n-1)}{3}$
 
 
 $$
