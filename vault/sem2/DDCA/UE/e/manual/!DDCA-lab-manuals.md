@@ -3,7 +3,6 @@ DDCA-u01-manual: "[[DDCA-u01-manual.pdf]]"
 DDCA-u02-manual: "[[DDCA-u02-manual.pdf]]"
 DDCA-u03-manual: "[[DDCA-u03-manual.pdf]]"
 DDCA-u04-manual: "[[DDCA-u04-manual.pdf]]"
-DDCA-u05-bf-cs: "[[DDCA-u05-bf-cs.md]]"
 DDCA-u05-manual: "[[DDCA-u05-manual.pdf]]"
 DDCA-u06-manual: "[[DDCA-u06-manual.pdf]]"
 ---
