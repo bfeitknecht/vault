@@ -42,15 +42,29 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/VRL/slides/DDCA-L17-microarchitecture.pdf",
-                "page": 34,
-                "left": -10,
-                "top": 362,
-                "zoom": 1.4875
+                "page": 70,
+                "left": -355,
+                "top": 533,
+                "zoom": 0.77
+              }
+            }
+          },
+          {
+            "id": "3b439653136c0279",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "page": 119,
+                "left": -8,
+                "top": 544,
+                "zoom": 1.7991654291454724
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -117,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/DDCA-L17-microarchitecture.pdf",
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/DDCA-L17-microarchitecture.pdf",
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/DDCA-L17-microarchitecture.pdf"
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
               }
             }
           },
@@ -191,11 +205,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "94ae354f92bd3869",
+  "active": "3b439653136c0279",
   "lastOpenFiles": [
+    "sem2/DDCA/VRL/slides/DDCA-L17-microarchitecture.pdf",
     "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
-    "sem2/DDCA/VRL/slides/DDCA-L17-microarchitecture.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L14b-MIPS-prog.pdf",
     "DDCA-u06-manual-bf-cs.md",
     "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
