@@ -15,8 +15,8 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
                 "page": 2,
-                "left": 0,
-                "top": 751,
+                "left": -115,
+                "top": 713,
                 "zoom": 1.31
               }
             }
@@ -191,9 +191,9 @@
   },
   "active": "e4c1dbceccd187f5",
   "lastOpenFiles": [
-    "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
-    "DDCA-u06-manual-bf-cs.md",
     "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
+    "DDCA-u06-manual-bf-cs.md",
+    "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
     "sem2/DDCA/UE/bf/DDCA-u05-manual-bf-cs.md",
     "var/attachments/Screenshot 2024-04-26 at 11.13.45.png",
     "sem2/AuW/VRL/slides/!abc.md",
