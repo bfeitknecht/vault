@@ -1,6 +1,5 @@
 
 
-
 ## Part 2
 ![[DDCA-u05-manual.pdf#page=9&rect=87,642,527,702|DDCA-u05-manual, p.9]]
 
