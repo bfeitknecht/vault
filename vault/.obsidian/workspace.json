@@ -4,51 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "db4e1252b221d2a8",
+        "id": "96e62d22eac54a13",
         "type": "tabs",
         "children": [
           {
-            "id": "330ce54a7c1e3e8d",
+            "id": "2984081100d9e658",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
+                "file": "sem2/DDCA/VRL/slides/DDCA-L14b-MIPS-prog.pdf",
                 "page": 2,
-                "left": -115,
-                "top": 713,
-                "zoom": 1.31
-              }
-            }
-          },
-          {
-            "id": "e4c1dbceccd187f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DDCA-u06-manual-bf-cs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e59804a241eef36",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
-                "page": 3,
-                "left": 87,
-                "top": 706,
-                "zoom": 1.26
+                "left": -13,
+                "top": 483,
+                "zoom": 1.175
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -77,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:/sem2/AuW/VRL/slides",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -115,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DDCA-u06-manual-bf-cs.md",
+                "file": "sem2/DDCA/VRL/slides/DDCA-L14b-MIPS-prog.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DDCA-u06-manual-bf-cs.md",
+                "file": "sem2/DDCA/VRL/slides/DDCA-L14b-MIPS-prog.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DDCA-u06-manual-bf-cs.md"
+                "file": "sem2/DDCA/VRL/slides/DDCA-L14b-MIPS-prog.pdf"
               }
             }
           },
@@ -189,10 +161,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e4c1dbceccd187f5",
+  "active": "2984081100d9e658",
   "lastOpenFiles": [
-    "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
     "DDCA-u06-manual-bf-cs.md",
+    "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
     "sem2/DDCA/UE/bf/DDCA-u05-manual-bf-cs.md",
     "var/attachments/Screenshot 2024-04-26 at 11.13.45.png",
