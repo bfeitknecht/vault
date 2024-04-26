@@ -34,9 +34,23 @@
                 "zoom": 1.5666666666666667
               }
             }
+          },
+          {
+            "id": "94ae354f92bd3869",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/VRL/slides/DDCA-L17-microarchitecture.pdf",
+                "page": 34,
+                "left": -10,
+                "top": 362,
+                "zoom": 1.4875
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -102,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
+                "file": "sem2/DDCA/VRL/slides/DDCA-L17-microarchitecture.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
+                "file": "sem2/DDCA/VRL/slides/DDCA-L17-microarchitecture.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf"
+                "file": "sem2/DDCA/VRL/slides/DDCA-L17-microarchitecture.pdf"
               }
             }
           },
@@ -176,11 +191,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5f4cf158045f14fe",
+  "active": "94ae354f92bd3869",
   "lastOpenFiles": [
+    "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
+    "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L17-microarchitecture.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L14b-MIPS-prog.pdf",
-    "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
     "DDCA-u06-manual-bf-cs.md",
     "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
@@ -210,7 +226,6 @@
     "sem2/Analysis-1/UE/e/!Analysis-1-u-e.md",
     "sem2/Analysis-1/UE/bf/!Analysis-1-u-bf.md",
     "sem2/AuW/VRL/slides/AuW-00-slides.md",
-    "sem2/AuW/VRL/extra/AuW-dp.pdf",
     "sem2/DDCA/UE/e/manual/!manual.md",
     "sem2/DDCA/UE/e/manual/!aa.md",
     "sem2/DDCA/UE/e/manual/!.md",
