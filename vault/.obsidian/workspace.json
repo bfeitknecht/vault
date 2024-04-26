@@ -53,9 +53,9 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
                 "page": 3,
-                "left": -9,
-                "top": 639,
-                "zoom": 1.75
+                "left": -18,
+                "top": 312,
+                "zoom": 0.823529411764706
               }
             }
           }
@@ -203,10 +203,10 @@
   },
   "active": "e4c1dbceccd187f5",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
+    "DDCA-u06-manual-bf-cs.md",
     "var/attachments/Screenshot 2024-04-26 at 11.13.45.png",
     "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
-    "DDCA-u06-manual-bf-cs.md",
-    "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
     "sem2/DDCA/UE/bf/DDCA-u05-manual-bf-cs.md",
     "sem2/AuW/VRL/slides/!abc.md",
     "sem2/AuW/VRL/slides/tmp",
@@ -248,7 +248,6 @@
     "sem1/LinAlg/PV/other/matrix-multiplication/GRAPH-l-mult-matrix-by-row-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/GRAPH-l-mult-matrix-by-matrix.png",
     "sem1/LinAlg/PV/other/LinAlg-topics-demistified.png",
-    "sem1/LinAlg/PV/summaries/matrix-multiplication/r-mult-matrix-by-matrix.png",
     "Untitled.canvas",
     "sem1/AuD/VRL/Untitled.canvas"
   ]
