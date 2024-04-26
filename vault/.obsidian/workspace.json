@@ -4,23 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "96e62d22eac54a13",
+        "id": "db4e1252b221d2a8",
         "type": "tabs",
         "children": [
           {
-            "id": "55b6ab42eddd4403",
+            "id": "330ce54a7c1e3e8d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
+                "page": 1,
+                "zoom": 1
+              }
             }
           },
           {
-            "id": "2984081100d9e658",
+            "id": "f9256ac3a1bc1207",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "sem2/DDCA/UE/bf/DDCA-u05-manual-bf-cs.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -53,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:/sem2/AuW/VRL/slides",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/DDCA/UE/bf/DDCA-u05-manual-bf-cs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/DDCA/UE/bf/DDCA-u05-manual-bf-cs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/DDCA/UE/bf/DDCA-u05-manual-bf-cs.md"
+              }
             }
           },
           {
@@ -160,7 +172,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2984081100d9e658",
+  "active": "f9256ac3a1bc1207",
   "lastOpenFiles": [
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
