@@ -29,3 +29,6 @@ $$
 
 
 
+intuition:
+
+run A (monte carlo) many times and check with verifier until
