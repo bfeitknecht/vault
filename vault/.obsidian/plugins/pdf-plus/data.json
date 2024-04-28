@@ -72,11 +72,11 @@
     "Yellow": "#ffff00",
     "Red": "#ff0000",
     "Magent": "#ff00ff",
-    "Purpl": "#9903ff",
     "Blue": "#0000ff",
     "Cyan": "#05fdff",
     "Green": "#00ff00",
-    "Orange": "#ff9900"
+    "Orange": "#ff9900",
+    "Purple": "#9903ff"
   },
   "defaultColor": "Yellow",
   "defaultColorPaletteItemIndex": 0,

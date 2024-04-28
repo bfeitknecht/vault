@@ -26,9 +26,23 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dfae6dadaf5ecafc",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/UE/pg/e/AuW-u04-pg-e.pdf",
+                "page": 1,
+                "left": -11,
+                "top": 842,
+                "zoom": 1.421189498652726
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
+                "file": "sem2/AuW/UE/pg/e/AuW-u04-pg-e.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
+                "file": "sem2/AuW/UE/pg/e/AuW-u04-pg-e.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md"
+                "file": "sem2/AuW/UE/pg/e/AuW-u04-pg-e.pdf"
               }
             }
           },
@@ -168,10 +182,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "698eafc2f9870b19",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
-    "sem2/AuW/UE/pg/e/AuW-u04-pg-e.pdf",
     "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
+    "sem2/AuW/UE/pg/e/AuW-u04-pg-e.pdf",
     "sem2/AuW/UE/pg/bf/AuW-u01-pg-bf.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L17-microarchitecture.pdf",
