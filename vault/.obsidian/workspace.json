@@ -11,52 +11,24 @@
             "id": "2984081100d9e658",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/VRL/slides/DDCA-L14b-MIPS-prog.pdf",
-                "page": 1,
-                "zoom": 1
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
-            "id": "9eb5aba8f3dbab83",
+            "id": "698eafc2f9870b19",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
-                "page": 1,
-                "zoom": 1
-              }
-            }
-          },
-          {
-            "id": "94ae354f92bd3869",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/VRL/slides/DDCA-L17-microarchitecture.pdf",
-                "page": 1,
-                "zoom": 1
-              }
-            }
-          },
-          {
-            "id": "3b439653136c0279",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 1,
-                "zoom": 1
+                "file": "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -123,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "file": "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "file": "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+                "file": "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md"
               }
             }
           },
@@ -197,8 +168,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "3b439653136c0279",
+  "active": "698eafc2f9870b19",
   "lastOpenFiles": [
+    "sem2/AuW/UE/pg/e/AuW-u04-pg-e.pdf",
+    "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
+    "sem2/AuW/UE/pg/bf/AuW-u01-pg-bf.md",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L17-microarchitecture.pdf",
     "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
@@ -220,10 +195,7 @@
     "DDCA-00-slides.md",
     "var/var.md",
     "var/attachments/AuW-u02-e.pdf",
-    "sem2/DDCA/VRL/slides/DDCA-L01-FPGA.pdf",
-    "sem2/DDCA/VRL/slides/DDCA-L00-introduction.pdf",
     "sem2/DDCA/VRL/slides/DDCA-00-slides.md",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB01-circuits.pdf",
     "sem2/PProg/VRL/slides/PProg-00-slides.md",
     "sem2/DDCA/UE/e/slides/!DDCA-lab-slides.md",
     "sem2/DDCA/UE/e/report/!DDCA-lab-reports.md",
@@ -234,8 +206,6 @@
     "sem2/AuW/VRL/slides/AuW-00-slides.md",
     "sem2/DDCA/UE/e/manual/!manual.md",
     "sem2/DDCA/UE/e/manual/!aa.md",
-    "sem2/DDCA/UE/e/manual/!.md",
-    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-matrix.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-column-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-row-vector.png",
