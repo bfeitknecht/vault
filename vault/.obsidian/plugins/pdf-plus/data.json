@@ -136,7 +136,7 @@
     },
     {
       "id": "annotation",
-      "visible": false
+      "visible": true
     },
     {
       "id": "modify-annotation",
@@ -144,7 +144,7 @@
     },
     {
       "id": "link",
-      "visible": false
+      "visible": true
     },
     {
       "id": "text",

@@ -1,5 +1,4 @@
 ![[AuW-u04-pg-e.pdf#page=1&rect=86,405,522,557|AuW-u04-pg-e, p.1]]
-
 $$
 \begin{align}
 &\mathbf{Algorithm\ A} \\
@@ -27,7 +26,6 @@ $$
 &\text{Probability: } p_{N} \geq \frac{1}{2} 
 \end{align}
 $$
-
 
 
 
