@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -182,7 +183,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5f4cf158045f14fe",
+  "active": "3801c66a42735060",
   "lastOpenFiles": [
     "var/attachments/Pasted image 20240428141459.png",
     "sem2/AuW/UE/pg/e/AuW-u04-pg-e.pdf",
