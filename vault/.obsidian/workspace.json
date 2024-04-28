@@ -14,10 +14,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/VRL/slides/DDCA-L14b-MIPS-prog.pdf",
-                "page": 5,
-                "left": -13,
-                "top": 357,
-                "zoom": 1.175
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -29,9 +27,7 @@
               "state": {
                 "file": "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
                 "page": 1,
-                "left": -10,
-                "top": 642,
-                "zoom": 1.5666666666666667
+                "zoom": 1
               }
             }
           },
@@ -42,10 +38,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/VRL/slides/DDCA-L17-microarchitecture.pdf",
-                "page": 70,
-                "left": -355,
-                "top": 533,
-                "zoom": 0.77
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -56,10 +50,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 119,
-                "left": -8,
-                "top": 544,
-                "zoom": 1.7991654291454724
+                "page": 1,
+                "zoom": 1
               }
             }
           }
