@@ -1,14 +1,21 @@
 ![[AuW-u04-pg-e.pdf#page=1|AuW-u04-pg-e, p.1]]
-```A
-input N
-output X in (N, 2N), p_N >= 
-```
 
 $$
 \begin{align}
 &\mathbf{Algorithm\ A} \\
 &\text{Input: } N\in \mathbb N \\
-&\text{Output: } X\in(N, 2N), \ \Pr[\text{"}X\text{ prime"}] \geq \frac{1}{\log N} \\
+&\text{Output: } X\in(N, 2N) \\
 &\text{Runtime: $\mathcal O(\log N)$} \\
+&\text{Probability: } p_{N} \geq \frac{1}{\log N} 
+\end{align}
+$$
+
+$$
+\begin{align}
+&\mathbf{Algorithm\ V} \\
+&\text{Input: } x\in \mathbb N \\
+&\text{Output: } \text{yes / no} \\
+&\text{Runtime: $\mathcal O((\log n)^{6.1})$} \\
+&\text{Probability: } p_{N} \geq \frac{1}{\log N} 
 \end{align}
 $$
