@@ -124,7 +124,7 @@
   "contextMenuConfig": [
     {
       "id": "action",
-      "visible": true
+      "visible": false
     },
     {
       "id": "selection",
@@ -132,11 +132,11 @@
     },
     {
       "id": "write-file",
-      "visible": true
+      "visible": false
     },
     {
       "id": "annotation",
-      "visible": true
+      "visible": false
     },
     {
       "id": "modify-annotation",
@@ -144,7 +144,7 @@
     },
     {
       "id": "link",
-      "visible": true
+      "visible": false
     },
     {
       "id": "text",
@@ -152,11 +152,11 @@
     },
     {
       "id": "search",
-      "visible": true
+      "visible": false
     },
     {
       "id": "speech",
-      "visible": true
+      "visible": false
     },
     {
       "id": "page",
