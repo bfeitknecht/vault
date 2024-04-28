@@ -16,7 +16,6 @@
     }
   ],
   "editor:save-file": [],
-  "command-palette:open": [],
   "templater-obsidian:var/support/templates/page-breaks.css": [
     {
       "modifiers": [
@@ -53,5 +52,13 @@
       "key": "Enter"
     }
   ],
-  "obsidian-editor-shortcuts:insertLineBelow": []
+  "obsidian-editor-shortcuts:insertLineBelow": [],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": " "
+    }
+  ]
 }
