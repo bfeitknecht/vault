@@ -8,23 +8,28 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ba0cd8b31304de3a",
+            "id": "f808e2c2c2427cb8",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "graph",
+              "state": {},
+              "pinned": true
             }
           },
           {
-            "id": "f808e2c2c2427cb8",
+            "id": "60fa2b3f31419a28",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "sem2/Analysis-1/VRL/notes/Analysis-1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -163,6 +168,7 @@
   },
   "active": "f808e2c2c2427cb8",
   "lastOpenFiles": [
+    "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/PProg/PV/PProg-PV24.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB05-ALU.pdf",
@@ -173,7 +179,6 @@
     "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u05-report.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
-    "sem2/DDCA/UE/e/report/DDCA-u03-report.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
@@ -188,7 +193,6 @@
     "sem2/DDCA/UE/bf/DDCA-u05-manual-bf-cs.md",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/Analysis-1/VRL/slides/Analysis-1-00-slides.md",
-    "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
     "sem2/Analysis-1/UE/bf/Analysis-1-u02-bf.md",
     "sem2/Analysis-1/UE/bf/Analysis-1-u01-bf.md",
