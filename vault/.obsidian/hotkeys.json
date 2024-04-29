@@ -60,5 +60,25 @@
       ],
       "key": " "
     }
+  ],
+  "obsidian-theme-toggler:theme-toggle-light": [
+    {
+      "modifiers": [],
+      "key": "F2"
+    }
+  ],
+  "workspace:edit-file-title": [],
+  "theme:use-dark": [
+    {
+      "modifiers": [],
+      "key": "F1"
+    }
+  ],
+  "app:open-help": [],
+  "theme:use-light": [
+    {
+      "modifiers": [],
+      "key": "F2"
+    }
   ]
 }
