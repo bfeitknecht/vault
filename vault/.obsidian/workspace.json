@@ -19,11 +19,13 @@
             "id": "3801c66a42735060",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
-                "mode": "source",
-                "source": false
+                "file": "sem2/PProg/PV/PProg-PV24-notes.pdf",
+                "page": 8,
+                "left": -13,
+                "top": 337,
+                "zoom": 1.175
               }
             }
           },
@@ -108,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
+                "file": "sem2/PProg/PV/PProg-PV24-notes.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
+                "file": "sem2/PProg/PV/PProg-PV24-notes.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md"
+                "file": "sem2/PProg/PV/PProg-PV24-notes.pdf"
               }
             }
           },
@@ -184,10 +186,13 @@
   },
   "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
-    "sem2/PProg/VRL/extra/Exam_Preparation_24_with_notes.pdf",
+    "sem2/DDCA/VRL/extra/Harris&Harris.pdf",
+    "sem2/PProg/PV",
+    "sem2/PProg/PV/PProg-PV24.pdf",
+    "sem2/PProg/PV/PProg-PV24-notes.pdf",
+    "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
     "var/attachments/Pasted image 20240428141459.png",
     "sem2/AuW/UE/pg/e/AuW-u04-pg-e.pdf",
-    "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-u01-pg-bf.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L17-microarchitecture.pdf",
@@ -196,11 +201,9 @@
     "sem2/DDCA/VRL/slides/DDCA-L14b-MIPS-prog.pdf",
     "sem2/DDCA/UE/bf/DDCA-u06-manual-bf-cs.md",
     "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
-    "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
     "sem2/DDCA/UE/bf/DDCA-u05-manual-bf-cs.md",
     "var/attachments/Screenshot 2024-04-26 at 11.13.45.png",
     "sem2/AuW/VRL/slides/!abc.md",
-    "sem2/AuW/VRL/slides/tmp",
     "sem2/AuW/VRL/slides/!m.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
@@ -210,7 +213,6 @@
     "sem2/PProg/VRL/notes/PProg.md",
     "DDCA-00-slides.md",
     "var/var.md",
-    "var/attachments/AuW-u02-e.pdf",
     "sem2/DDCA/VRL/slides/DDCA-00-slides.md",
     "sem2/PProg/VRL/slides/PProg-00-slides.md",
     "sem2/DDCA/UE/e/slides/!DDCA-lab-slides.md",
