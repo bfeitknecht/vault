@@ -29,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -95,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/Analysis-1/VRL/notes/Analysis-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/Analysis-1/VRL/notes/Analysis-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/Analysis-1/VRL/notes/Analysis-1.md"
+              }
             }
           },
           {
@@ -165,7 +171,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f808e2c2c2427cb8",
+  "active": "60fa2b3f31419a28",
   "lastOpenFiles": [
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/PProg/PV/PProg-PV24.pdf",
