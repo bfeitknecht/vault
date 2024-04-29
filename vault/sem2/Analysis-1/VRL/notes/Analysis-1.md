@@ -11,3 +11,10 @@
 #### 2.7 #Reihen
 Eine Folge aus Partialsummen.
 
+
+
+
+x^
+
+ln(ln(x+1)) '=
+1/ln(x+1) / x+1
