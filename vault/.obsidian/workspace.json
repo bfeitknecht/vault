@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -183,8 +182,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "3801c66a42735060",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
+    "sem2/PProg/VRL/extra/Exam_Preparation_24_with_notes.pdf",
     "var/attachments/Pasted image 20240428141459.png",
     "sem2/AuW/UE/pg/e/AuW-u04-pg-e.pdf",
     "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
@@ -230,7 +230,6 @@
     "sem1/LinAlg/PV/other/matrix-multiplication/GRAPHIC-r-mult-matrix-by-column-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/GRAPH-l-mult-matrix-by-row-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/GRAPH-l-mult-matrix-by-matrix.png",
-    "sem1/LinAlg/PV/other/LinAlg-topics-demistified.png",
     "Untitled.canvas",
     "sem1/AuD/VRL/Untitled.canvas"
   ]
