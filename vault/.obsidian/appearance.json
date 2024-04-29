@@ -10,5 +10,6 @@
     "page-breaks",
     "page-break"
   ],
-  "monospaceFontFamily": "CommitMono Nerd Font Mono"
+  "monospaceFontFamily": "CommitMono Nerd Font Mono",
+  "theme": "moonstone"
 }

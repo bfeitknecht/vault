@@ -4,18 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "96e62d22eac54a13",
+        "id": "62dbe0366b287ac9",
         "type": "tabs",
         "children": [
           {
-            "id": "2984081100d9e658",
+            "id": "ba0cd8b31304de3a",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f808e2c2c2427cb8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -81,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/PProg/PV/PProg-PV24.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +107,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/PProg/PV/PProg-PV24.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,9 +128,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/PProg/PV/PProg-PV24.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -155,19 +161,37 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5f4cf158045f14fe",
+  "active": "f808e2c2c2427cb8",
   "lastOpenFiles": [
-    "sem1/LinAlg/PV/summaries/kai/Linalg-w01-kai.pdf",
-    "sem1/LinAlg/PV/summaries/kai/Linalg-w00-kai.pdf",
-    "sem1/LinAlg/PV/summaries/kai/LinAlg-w13-kai.pdf",
-    "sem1/LinAlg/PV/summaries/kai/LinAlg-w12-kai.pdf",
-    "sem1/LinAlg/PV/summaries/kai/LinAlg-w11-kai.pdf",
-    "sem1/LinAlg/PV/summaries/kai/LinAlg-w10-kai.pdf",
-    "sem1/LinAlg/PV/summaries/kai/LinAlg-w09-kai.pdf",
-    "sem1/LinAlg/PV/summaries/kai/LinAlg-w08-kai.pdf",
-    "sem1/LinAlg/PV/summaries/kai/LinAlg-w07-kai.pdf",
-    "sem1/LinAlg/PV/summaries/kai/LinAlg-w06-kai.pdf",
-    "sem1/LinAlg/PV/summaries/kai/LinAlg-w05-kai.pdf",
+    "sem2/PProg/PV/PProg-PV24.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB05-ALU.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB04-FSM.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB03-7SegDisplay.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB02-gates.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB01-circuits.pdf",
+    "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
+    "sem2/DDCA/UE/e/report/DDCA-u05-report.pdf",
+    "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
+    "sem2/DDCA/UE/e/report/DDCA-u03-report.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u01-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u00-bf.md",
+    "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
+    "sem2/AuW/UE/pg/bf/AuW-u02-pg-bf.md",
+    "sem2/AuW/UE/pg/bf/AuW-u01-pg-bf.md",
+    "sem2/PProg/VRL/notes/PProg.md",
+    "sem2/DDCA/VRL/notes/DDCA.md",
+    "sem2/DDCA/UE/bf/DDCA-u06-manual-bf-cs.md",
+    "sem2/DDCA/UE/bf/DDCA-u05-manual-bf-cs.md",
+    "sem2/AuW/VRL/notes/AuW.md",
+    "sem2/Analysis-1/VRL/slides/Analysis-1-00-slides.md",
+    "sem2/Analysis-1/VRL/notes/Analysis-1.md",
+    "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
+    "sem2/Analysis-1/UE/bf/Analysis-1-u02-bf.md",
+    "sem2/Analysis-1/UE/bf/Analysis-1-u01-bf.md",
     "sem1/LinAlg/PV/summaries/kai/!LinAlg-kai.md",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-matrix.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-column-vector.png",
@@ -183,24 +207,6 @@
     "sem1/DMath/UE/bf/md/DMath-u12-bf.md",
     "sem1/DMath/UE/bf/md/DMath-u11-bf.md",
     "sem1/DMath/UE/bf/md/DMath-u10-bf.md",
-    "sem1/DMath/UE/bf/md/DMath-u09-bf.md",
-    "sem1/DMath/UE/bf/md/DMath-u08-bf.md",
-    "sem1/DMath/UE/bf/md/DMath-u07-bf.md",
-    "sem1/DMath/UE/bf/md/DMath-u06-bf.md",
-    "sem1/DMath/UE/bf/md/DMath-u01-bf.md",
-    "sem1/DMath/UE/bf/md/!DMath-u-bf-md.md",
-    "sem1/AuD/UE/bf/pdf/!AuD-u-bf-pdf.md",
-    "sem1/AuD/UE/bf/md/AuD-u11-bf.md",
-    "sem1/AuD/UE/bf/md/AuD-u09-bf.md",
-    "sem1/AuD/UE/bf/md/AuD-u08-bf.md",
-    "sem1/AuD/UE/bf/md/AuD-u07-bf.md",
-    "sem1/AuD/UE/bf/md/AuD-u00-bf.md",
-    "sem1/AuD/UE/bf/md/!AuD-u-bf-md.md",
-    "sem1/EProg/extra/slides/!slides.md",
-    "sem1/EProg/UE/e/!EProg-u-e.md",
-    "sem1/EProg/UE/bf/EProg-u01-bf.md",
-    "sem1/EProg/UE/bf/!EProg-e-bf-md.md",
-    "sem1/LinAlg/UE/s/!LinAlg-u-s.md",
     "sem1/LinAlg/PV/other/LinAlg-topics-demistified.png",
     "sem1/DMath/PV/summaries/exponential-modular-arithmetic.jpg",
     "Untitled.canvas",
