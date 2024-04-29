@@ -14,7 +14,13 @@ Eine Folge aus Partialsummen.
 
 
 
-x^
+$$
+\begin{align}
+\frac{d}{dx}x^x &= e^{\ln(x^x)} \\
+&= e^{x\cdot \ln(x)} \\
+&= x^x \cdot(\ln(x) + 1)
+\end{align}
+$$
 
 ln(ln(x+1)) '=
 1/ln(x+1) / x+1
