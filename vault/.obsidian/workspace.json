@@ -25,7 +25,7 @@
                 "page": 8,
                 "left": -13,
                 "top": 337,
-                "zoom": 1.175
+                "zoom": 1.1750000000000003
               }
             }
           },
@@ -184,8 +184,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5f4cf158045f14fe",
+  "active": "3801c66a42735060",
   "lastOpenFiles": [
+    "sem2/DDCA/VRL/extra/basys3-DIMENSIONS.pdf",
     "sem2/DDCA/VRL/extra/Harris&Harris.pdf",
     "sem2/PProg/PV",
     "sem2/PProg/PV/PProg-PV24.pdf",
@@ -200,7 +201,6 @@
     "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L14b-MIPS-prog.pdf",
     "sem2/DDCA/UE/bf/DDCA-u06-manual-bf-cs.md",
-    "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
     "sem2/DDCA/UE/bf/DDCA-u05-manual-bf-cs.md",
     "var/attachments/Screenshot 2024-04-26 at 11.13.45.png",
     "sem2/AuW/VRL/slides/!abc.md",
