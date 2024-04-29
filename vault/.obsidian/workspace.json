@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -171,7 +170,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "60fa2b3f31419a28",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/PProg/PV/PProg-PV24.pdf",
