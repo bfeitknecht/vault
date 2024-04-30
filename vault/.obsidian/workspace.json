@@ -37,8 +37,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,7 +173,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5db17fd1b6f63dd4",
+  "active": "f808e2c2c2427cb8",
   "lastOpenFiles": [
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/PProg/PV/PProg-PV24.pdf",
