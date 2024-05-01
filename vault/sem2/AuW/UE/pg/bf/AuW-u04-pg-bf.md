@@ -31,7 +31,7 @@ $$
 
 intuition:
 
-run A (monte carlo) many times and check with verifier until we have Pr\["Correct answer] = 1/2
+run A (monte carlo) many times and check with verifier until we have Pr\["correct answer"] = 1/2
 
 
 
