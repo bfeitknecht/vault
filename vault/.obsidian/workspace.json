@@ -36,8 +36,23 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "9784ef9b24195a87",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "page": 105,
+                "left": -11,
+                "top": 369,
+                "zoom": 1.421189498652726
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -103,6 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,6 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +157,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+              }
             }
           },
           {
@@ -173,7 +192,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f808e2c2c2427cb8",
+  "active": "9784ef9b24195a87",
   "lastOpenFiles": [
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/PProg/PV/PProg-PV24.pdf",
