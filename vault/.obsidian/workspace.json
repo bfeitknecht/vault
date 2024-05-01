@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -185,6 +184,9 @@
   },
   "active": "a3affe3f4441f48b",
   "lastOpenFiles": [
+    "var/export/AuW-u04-pg-bf.pdf",
+    "var/AuW-u04-pg-bf.pdf",
+    "AuW-u04-pg-bf.pdf",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/PProg/PV/PProg-PV24.pdf",
@@ -194,8 +196,6 @@
     "sem2/DDCA/UE/e/slides/DDCA-LAB03-7SegDisplay.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB02-gates.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB01-circuits.pdf",
-    "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
-    "sem2/DDCA/UE/e/report/DDCA-u05-report.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",

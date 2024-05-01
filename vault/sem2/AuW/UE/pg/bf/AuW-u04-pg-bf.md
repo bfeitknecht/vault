@@ -51,16 +51,11 @@ Therefore, the runtime of Algorithm $L$ will be:
 
 $$
 \begin{align}
-
+\text{Runtime of L} &= k \times T_A + T_V \\
+&= 2 \log N \times T_A + T_V \\
+&= 2 \log N \times O(\log N) + O((\log N)^{6.1}) \\
+& = O((\log N)^2) + O((\log N)^{6.1}) \\
+&= O((\log N)^{6.1})
 \end{align}
-\[ \text{Runtime of L} = k \times T_A + T_V \]
-
-\[ = 2 \log N \times T_A + T_V \]
-
-\[ = 2 \log N \times O(\log N) + O((\log N)^{6.1}) \]
-
-\[ = O((\log N)^2) + O((\log N)^{6.1}) \]
-
-\[ = O((\log N)^{6.1}) \]
 $$
-So, the runtime of Algorithm L is \( O((\log N)^{6.1}) \), which is dominated by the runtime of Algorithm V.
+So, the runtime of Algorithm $L$ is \($O((\log N)^{6.1}$) \), which is dominated by the runtime of Algorithm $V$.
