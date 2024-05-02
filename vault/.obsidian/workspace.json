@@ -64,15 +64,29 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
-                "page": 1,
+                "page": 2,
                 "left": -11,
-                "top": 357,
+                "top": 654,
                 "zoom": 1.3823529411764706
+              }
+            }
+          },
+          {
+            "id": "96a850d985396434",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/slides/AuW-L15-chernoff.pdf",
+                "page": 4,
+                "left": -18,
+                "top": 227,
+                "zoom": 0.826171875
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -138,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
+                "file": "sem2/AuW/VRL/slides/AuW-L15-chernoff.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
+                "file": "sem2/AuW/VRL/slides/AuW-L15-chernoff.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf"
+                "file": "sem2/AuW/VRL/slides/AuW-L15-chernoff.pdf"
               }
             }
           },
@@ -212,11 +226,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "50e5189f73792c52",
+  "active": "96a850d985396434",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/slides/AuW-L16-random-algorithms.pdf",
+    "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-    "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB05-ALU.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
@@ -225,9 +241,7 @@
     "var/export/AuW-u04-pg-bf.pdf",
     "var/AuW-u04-pg-bf.pdf",
     "AuW-u04-pg-bf.pdf",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/PProg/PV/PProg-PV24.pdf",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB04-FSM.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
