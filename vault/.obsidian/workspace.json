@@ -4,15 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9408bc06d20ae077",
+        "id": "1c3310f199986cc4",
         "type": "tabs",
         "children": [
           {
-            "id": "406b55f996486f63",
+            "id": "1e912a71157c6721",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/UE/pg/s/AuW-pg02-cs-s.pdf",
+                "page": 1,
+                "left": -11,
+                "top": 842,
+                "zoom": 1.4211799489315953
+              }
             }
           }
         ]
@@ -81,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/AuW/UE/pg/s/AuW-pg02-cs-s.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/AuW/UE/pg/s/AuW-pg02-cs-s.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/AuW/UE/pg/s/AuW-pg02-cs-s.pdf"
+              }
             }
           },
           {
@@ -151,20 +161,20 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "406b55f996486f63",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
+    "sem2/AuW/UE/pg/s/AuW-pg01-s.pdf",
+    "sem2/AuW/UE/pg/e/AuW-pg02-e.pdf",
+    "sem2/AuW/UE/pg/s/AuW-pg02-s.pdf",
+    "sem2/AuW/UE/pg/s/AuW-pg03-s.pdf",
+    "sem2/AuW/UE/u/s/AuW-u03-dh.pdf",
+    "sem2/AuW/UE/u/var",
+    "sem2/AuW/UE/pg/s/AuW-pg02-cs-s.pdf",
+    "sem2/AuW/UE/u/s/AuW-u03-s.pdf",
+    "sem2/AuW/UE/u/s/AuW-u04-s.pdf",
     "sem2/AuW/UE/u/c/AuW-u03-bf-c.pdf",
     "sem2/AuW/UE/u/c/AuW-u04-bf-c.pdf",
     "sem2/DDCA/VRL/notes/DDCA.md",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
-    "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
-    "sem2/AuW/VRL/slides/AuW-L15-chernoff.pdf",
-    "sem2/AuW/VRL/slides/AuW-L16-random-algorithms.pdf",
-    "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
-    "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
-    "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB05-ALU.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",

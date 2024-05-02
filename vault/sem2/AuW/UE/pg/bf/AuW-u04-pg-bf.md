@@ -1,4 +1,4 @@
-![[AuW-u04-pg-e.pdf#page=1&rect=86,405,522,557|AuW-u04-pg-e, p.1]]
+![[AuW-pg04-e.pdf#page=1&rect=86,405,522,557|AuW-u04-pg-e, p.1]]
 $$
 \begin{align}
 &\mathbf{Algorithm\ A} \\
