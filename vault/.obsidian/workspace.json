@@ -13,11 +13,11 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/DDCA-L18-pipelines-1.pdf",
+                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
                 "page": 1,
-                "left": -13,
-                "top": 540,
-                "zoom": 1.175
+                "left": -11,
+                "top": 848,
+                "zoom": 1.41
               }
             }
           }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/DDCA-L18-pipelines-1.pdf",
+                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/DDCA-L18-pipelines-1.pdf",
+                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/DDCA-L18-pipelines-1.pdf"
+                "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf"
               }
             }
           },
@@ -163,9 +163,11 @@
   },
   "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
+    "sem2/DDCA/VRL/slides/DDCA-L18-pipelines-1.pdf",
+    "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
+    "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
     "sem2/DDCA/VRL/notes/DDCA.md",
     "sem2/DDCA/VRL/slides/DDCA-L19-pipelines-2.pdf",
-    "sem2/DDCA/VRL/slides/DDCA-L18-pipelines-1.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
     "sem2/AuW/VRL/slides/AuW-L17-geometric-algorithms.pdf",
@@ -173,7 +175,6 @@
     "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
     "sem2/AuW/VRL/slides/AuW-L16-random-algorithms.pdf",
     "sem2/AuW/UE/pg/s/AuW-pg02-cs.pdf",
-    "sem2/AuW/UE/pg/s/AuW-pg01-s.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
