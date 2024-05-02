@@ -49,30 +49,16 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
-                "page": 2,
-                "left": -9,
-                "top": 696,
-                "zoom": 1.7499999999999998
-              }
-            }
-          },
-          {
-            "id": "ae7a86ef3c4b1ba0",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
-                "page": 3,
-                "left": -10,
-                "top": 409,
-                "zoom": 1.4875
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
+                "page": 1,
+                "left": -11,
+                "top": 792,
+                "zoom": 1.3823529411764706
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -139,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf"
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf"
               }
             }
           },
@@ -213,9 +198,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ae7a86ef3c4b1ba0",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
     "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
+    "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB05-ALU.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
@@ -226,9 +213,7 @@
     "AuW-u04-pg-bf.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/PProg/PV/PProg-PV24.pdf",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB04-FSM.pdf",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB03-7SegDisplay.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
