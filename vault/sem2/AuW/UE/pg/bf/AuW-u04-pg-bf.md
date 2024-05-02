@@ -17,6 +17,7 @@ $$
 &\text{Runtime: $\mathcal O((\log n)^{6.1})$} \\
 \end{align}
 $$
+
 $$
 \begin{align}
 &\mathbf{Algorithm\ L} \\
@@ -26,8 +27,6 @@ $$
 &\text{Probability: } p_{N} \geq \frac{1}{2} 
 \end{align}
 $$
-
-
 
 >[!quote] intuition:
 run A (monte carlo) many times and check with verifier until we have Pr\["correct answer"] = 1/2
