@@ -4,21 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1c3310f199986cc4",
+        "id": "dde1bbfad10527b3",
         "type": "tabs",
         "children": [
           {
-            "id": "1e912a71157c6721",
+            "id": "5cf60206a280a3ae",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/UE/pg/s/AuW-pg02-cs-s.pdf",
-                "page": 1,
-                "left": -11,
-                "top": 842,
-                "zoom": 1.4211799489315953
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -87,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/pg/s/AuW-pg02-cs-s.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/pg/s/AuW-pg02-cs-s.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/AuW/UE/pg/s/AuW-pg02-cs-s.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -161,19 +151,19 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5f4cf158045f14fe",
+  "active": "5cf60206a280a3ae",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/slides/AuW-L16-random-algorithms.pdf",
+    "sem2/AuW/UE/pg/s/AuW-pg02-cs.pdf",
     "sem2/AuW/UE/pg/s/AuW-pg01-s.pdf",
     "sem2/AuW/UE/pg/e/AuW-pg02-e.pdf",
     "sem2/AuW/UE/pg/s/AuW-pg02-s.pdf",
     "sem2/AuW/UE/pg/s/AuW-pg03-s.pdf",
     "sem2/AuW/UE/u/s/AuW-u03-dh.pdf",
     "sem2/AuW/UE/u/var",
-    "sem2/AuW/UE/pg/s/AuW-pg02-cs-s.pdf",
     "sem2/AuW/UE/u/s/AuW-u03-s.pdf",
     "sem2/AuW/UE/u/s/AuW-u04-s.pdf",
     "sem2/AuW/UE/u/c/AuW-u03-bf-c.pdf",
-    "sem2/AuW/UE/u/c/AuW-u04-bf-c.pdf",
     "sem2/DDCA/VRL/notes/DDCA.md",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
