@@ -11,8 +11,14 @@
             "id": "5cf60206a280a3ae",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
+                "page": 1,
+                "left": -18,
+                "top": 768,
+                "zoom": 0.826171875
+              }
             }
           }
         ]
@@ -81,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf"
+              }
             }
           },
           {
@@ -151,8 +161,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5cf60206a280a3ae",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/slides/AuW-L17-geometric-algorithms.pdf",
+    "sem2/AuW/VRL/slides/AuW-L18-smallest-circumcirle.pdf",
+    "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
+    "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
     "sem2/AuW/VRL/slides/AuW-L16-random-algorithms.pdf",
     "sem2/AuW/UE/pg/s/AuW-pg02-cs.pdf",
     "sem2/AuW/UE/pg/s/AuW-pg01-s.pdf",
@@ -160,10 +174,6 @@
     "sem2/AuW/UE/pg/s/AuW-pg02-s.pdf",
     "sem2/AuW/UE/pg/s/AuW-pg03-s.pdf",
     "sem2/AuW/UE/u/s/AuW-u03-dh.pdf",
-    "sem2/AuW/UE/u/var",
-    "sem2/AuW/UE/u/s/AuW-u03-s.pdf",
-    "sem2/AuW/UE/u/s/AuW-u04-s.pdf",
-    "sem2/AuW/UE/u/c/AuW-u03-bf-c.pdf",
     "sem2/DDCA/VRL/notes/DDCA.md",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
