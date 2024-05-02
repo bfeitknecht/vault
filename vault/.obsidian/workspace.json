@@ -50,15 +50,14 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
-                "page": 1,
+                "page": 2,
                 "left": -9,
-                "top": 98,
+                "top": 685,
                 "zoom": 1.75
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +124,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +140,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,9 +161,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -199,8 +194,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8e579545d80bb2d4",
+  "active": "f808e2c2c2427cb8",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
@@ -214,7 +210,6 @@
     "sem2/DDCA/UE/e/slides/DDCA-LAB05-ALU.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB04-FSM.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB03-7SegDisplay.pdf",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB02-gates.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
