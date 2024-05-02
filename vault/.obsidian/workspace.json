@@ -28,9 +28,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "98d0f12b779fed7c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +104,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/notes/AuW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +120,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/notes/AuW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,9 +141,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/AuW/VRL/notes/AuW.md"
-              }
+              "state": {}
             }
           },
           {
@@ -170,8 +174,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ae97acb9e4e9bfe8",
+  "active": "98d0f12b779fed7c",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/notes/AuW.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
     "var/export/AuW-u04-pg-bf.pdf",
@@ -195,7 +200,6 @@
     "sem2/DDCA/VRL/notes/DDCA.md",
     "sem2/DDCA/UE/bf/DDCA-u06-manual-bf-cs.md",
     "sem2/DDCA/UE/bf/DDCA-u05-manual-bf-cs.md",
-    "sem2/AuW/VRL/notes/AuW.md",
     "sem2/Analysis-1/VRL/slides/Analysis-1-00-slides.md",
     "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
     "sem2/Analysis-1/UE/bf/Analysis-1-u02-bf.md",
