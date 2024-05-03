@@ -26,10 +26,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-                "page": 6,
-                "left": -9,
-                "top": 510,
-                "zoom": 1.7500000000000002
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -52,7 +50,7 @@
               "type": "markdown",
               "state": {
                 "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -108,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -177,7 +176,23 @@
             }
           },
           {
-            "id": "54ba130fe0307dfa",
+            "id": "830aded0b143542d",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "9f74a395dd43b5ff",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "96633db260353794",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -185,11 +200,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,18 +216,19 @@
       "command-palette:Open command palette": false,
       "templates:Insert template": true,
       "zk-prefixer:Create new unique note": true,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": true,
+      "pdf-plus:PDF++: Toggle auto-copy": true,
+      "pdf-plus:PDF++: Toggle auto-focus": true,
+      "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "54ba130fe0307dfa",
+  "active": "d6ed7bd7327f159f",
   "lastOpenFiles": [
+    "sem2/DDCA/VRL/notes/DDCA.md",
+    "sem2/AuW/UE/cx/bf/cx07-bf.md",
+    "smart-chats",
     "sem2/AuW/UE/cx/bf",
     "sem2/AuW/UE/cx",
-    "sem2/AuW/UE/cx/bf/cx07-bf.md",
-    "sem2/DDCA/VRL/notes/DDCA.md",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/AuW/VRL/extra/AuW-formulas.pdf",
@@ -219,8 +236,6 @@
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/extra/AuW-dp.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
-    "sem2/DDCA/VRL/slides/DDCA-L18-pipelines-1.pdf",
-    "sem2/DDCA/VRL/slides/DDCA-L19-pipelines-2.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
