@@ -90,35 +90,26 @@ id3-..-x|"r1"|id2
 ```mermaid
 flowchart TD
 
-id1((1))
-id2((2))
-id3((p1))
-id4{r1}
-id5((p2))
-id6{r2}
-
-id1-->|"(1-p1)*p2"|id2
-id1-->|"p1"|id3
-id3-->|"p1*r1"|id4
+id1((1))-->|"(1-p1)*p2"|id2((2))
+id1-->|"p1"|id3((p1))
+id3-.-x|"p1*r1"|id4((r1))
 id3-->|"p1*(1-r1)*p2"|id2
-id2-->|"p2"|id5
-id4-->|"1"|id5
-id5-->|"r2"|id6
+id4-->|"p1*r1*p2"|id2
 
-subgraph .
-	id6-..->|"[??]"|id4
-end
 ```
 
 
 $$
 \begin{align}
-\mathrm{Y} &= \text{""} \\
-\Pr[\mathrm{X =i}] &= 
-\begin{cases}
-1-(p_{i}  \cdot r_{i}), &&\text{if $i \leq k$} \\
-, &&\text{else}
-\end{cases}
+\mathrm{Y} &= \text{"\# bags not taken"} \\
+\Pr[\mathrm{Y}=0] &= \prod_{i=1}^{k}p_{i}\cdot r_{i} \\
+
+
+
+%\begin{cases}
+%1-(p_{i}  \cdot r_{i}), &&\text{if $i \leq k$} \\
+%, &&\text{else}
+%\end{cases}
 \end{align}
 $$
 
@@ -149,3 +140,6 @@ $(1-p_{i})+(p_{i}*(1-r_{i}))$
 | n-1        | 1   |                               |     |     |     |     |     |     |     |         |
 | n          | 1   |                               |     |     |     |     |     |     |     |         |
 | **j**<br>v |     |                               |     |     |     |     |     |     |     |         |
+
+
+
