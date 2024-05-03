@@ -44,8 +44,21 @@
                 "zoom": 1
               }
             }
+          },
+          {
+            "id": "d6ed7bd7327f159f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -95,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -112,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/VRL/notes/DDCA.md",
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/VRL/notes/DDCA.md",
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/VRL/notes/DDCA.md"
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md"
               }
             }
           },
@@ -186,11 +198,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "17b90c959b4c1c36",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
+    "sem2/AuW/UE/cx/bf",
+    "sem2/AuW/UE/cx",
+    "sem2/AuW/UE/cx/bf/cx07-bf.md",
+    "sem2/DDCA/VRL/notes/DDCA.md",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
-    "sem2/DDCA/VRL/notes/DDCA.md",
     "sem2/AuW/VRL/extra/AuW-formulas.pdf",
     "sem2/AuW/VRL/extra/AuW-summary-fschwinn.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
@@ -198,8 +213,6 @@
     "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L18-pipelines-1.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L19-pipelines-2.pdf",
-    "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
-    "sem2/AuW/VRL/slides/AuW-L17-geometric-algorithms.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
@@ -231,7 +244,6 @@
     "sem1/DMath/UE/bf/pdf/!DMath-u-bf-pdf.md",
     "sem1/DMath/UE/bf/md/DMath-u12-bf.md",
     "sem1/DMath/UE/bf/md/DMath-u11-bf.md",
-    "sem1/DMath/UE/bf/md/DMath-u10-bf.md",
     "sem1/LinAlg/PV/other/LinAlg-topics-demistified.png",
     "sem1/DMath/PV/summaries/exponential-modular-arithmetic.jpg",
     "Untitled.canvas",
