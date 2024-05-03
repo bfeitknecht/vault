@@ -117,14 +117,11 @@ Most notably, when $\mathrm{Y} >k$, there exists a permutation where all $k$ fir
 
 $$
 \begin{align}
-\mathrm{X} &= \text{"\# bags not taken"} \\
-\Pr[\mathrm{X}=0] &= \prod_{i=1}^{k} p_{i} \cdot \prod_{i=1}^{n} r_{i} \\
+%\mathrm{X} &= \text{"\# bags not taken"} \\
+%\Pr[\mathrm{X}=0] &= \prod_{i=1}^{k} p_{i} \cdot \prod_{i=1}^{n} r_{i} \\
 
 
-\Pr[\mathrm{X}_{i\leq k}] &= \sum_{i=1}^{n}
-\begin{cases}
-
-\end{cases}
+\Pr[\mathrm{X}_{i\leq k}] &= \sum_{i=1}^{n} (p_{i} \cdot r_{i}) \cdot \left(\prod_{j\neq i}^{n} 1-(p_{j} \cdot r_{j}\right)
 
 %\begin{cases}
 %1-(p_{i}  \cdot r_{i}), &&\text{if $i \leq k$} \\
