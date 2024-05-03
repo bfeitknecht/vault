@@ -72,24 +72,6 @@ return pr_A_B;
 ___
 ## q3
 
-
-
-
-```mermaid
-flowchart TD
-
-id1((1))
-id2((2))
-id3((p1))
-id4((r1))
-
-id1-->|"(1-p1)*p2"|id2
-id1-->|"p1"|id3
-id3-.-x|"p1*r1"|id4
-id3-->|"p1*(1-r1)*p2"|id2
-id4-->|"p1*r1*p2"|id2
-
-```
 ```mermaid
 flowchart TD
 
@@ -105,6 +87,13 @@ id3-..-x|"r1"|id2
 
 ```
 
+$$
+\Pr[\mathrm{X =i}] = 
+\begin{cases}
+1-(p_{i \cdot r_{i}}), &&\text{if $i \leq k$} \\
+, &&\text{else}
+\end{cases}
+$$
 
 
 ```java
