@@ -93,7 +93,7 @@ id3-..-x|"r1"|id2
 ```
 
 
-Let $\mathrm{Y}$ denote the number of bags taken. By case distinction, there are $\binom{n}{ \mathrm{Y}}$ ways for the bags to be taken.
+Let $\mathrm{T}$ denote the number of bags taken. By case distinction, there are $\binom{n}{ \mathrm{T}}$ ways for the bags to be taken.
 $$
 \begin{align}
 \binom{n}{0} &= 1  \\ \\
@@ -110,7 +110,7 @@ $$
 &\dots
 \end{align}
 $$
-Most notably, when $\mathrm{Y} >k$, there exists a permutation where all $k$ first bags are taken. Thus the $k+1$-th bag is definitely checked and taken away with $r_{k+1}$. We have to take this probability into account.
+Most notably, when $\mathrm{T} >k$, there exists a permutation where all $k$ first bags are taken. Thus the $k+1$-th bag is definitely checked and taken away with $r_{k+1}$. We have to take this probability into account.
 
 
 $$
@@ -120,9 +120,10 @@ $$
 \\
 \\
 
-\Pr[\mathrm{Y}=0] &= \prod_{i=1}^{n} 1-(p_{i} \cdot r_{i}) \\
-\Pr[\mathrm{Y}=1] &= \sum_{i=1}^{n} (p_{i} \cdot r_{i}) \cdot \left(\prod_{j\neq i}^{n} 1-(p_{j} \cdot r_{j})\right) \\
-\Pr[\mathrm{Y}=2] &= ?? 
+\Pr[\mathrm{T}=0] &= \prod_{i=1}^{n} 1-(p_{i} \cdot r_{i}) \\
+\Pr[\mathrm{T}=1] &= \sum_{i=1}^{n} \left((p_{i} \cdot r_{i}) \cdot \prod_{j\neq i}^{n} 1-(p_{j} \cdot r_{j})\right) \\
+
+\Pr[\mathrm{T}=2] &= ?? 
 
 
 \\
@@ -142,7 +143,7 @@ maybe we need a different approach. what we want to do now iscalculate the proba
 
 maybe we need to caclulate the expected value directly, with dp.
 
-like exp_v i
+like exp_v if i out of n taken
 
 
 
