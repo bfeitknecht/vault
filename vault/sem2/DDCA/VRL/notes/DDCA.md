@@ -70,7 +70,9 @@ ___
 
 
 
-LAB-01
 
-Task 2
-use nand games to make <, >, and equality, push < and > together, use de morgans to reduce nand gates
+
+
+
+
+
