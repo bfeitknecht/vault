@@ -69,6 +69,10 @@ return pr_A_B;
 
 
 
+
+
+
+
 ___
 ## q3
 
@@ -89,8 +93,7 @@ id3-..-x|"r1"|id2
 ```
 
 
-
-Let $\mathrm{Y}$ denote the number of bags taken. By case distinction, there are $\binom n X$ ways for the bags to be taken.
+Let $\mathrm{Y}$ denote the number of bags taken. By case distinction, there are $\binom{n}{ \mathrm{Y}}$ ways for the bags to be taken.
 $$
 \begin{align}
 \binom{n}{0} &= 1  \\ \\
@@ -100,7 +103,6 @@ $$
 \end{align}
 $$
 For instance, for $\mathrm{X} = 1$, there are $n$ different scenarios. Let us consider the cases, where $\mathrm{X}$ approaches $k$.
-
 $$
 \begin{align}
 \binom{n}{k} &= \frac{n!}{k!\cdot(n-k)!}  \\ \\
@@ -108,17 +110,21 @@ $$
 &\dots
 \end{align}
 $$
-Most notably, when $\mathrm{X} >k$, there exists a permutation where all $k$ first bags are taken. Thus the $k+1$-th bag is definitely checked and taken away with $r_{k+1}$. We have to take this probability into account.
+Most notably, when $\mathrm{Y} >k$, there exists a permutation where all $k$ first bags are taken. Thus the $k+1$-th bag is definitely checked and taken away with $r_{k+1}$. We have to take this probability into account.
 
 
 
 
 $$
 \begin{align}
-\mathrm{Y} &= \text{"\# bags not taken"} \\
-\Pr[\mathrm{Y}=0] &= \prod_{i=1}^{k} p_{i} \cdot \prod_{i=1}^{n} r_{i} \\
+\mathrm{X} &= \text{"\# bags not taken"} \\
+\Pr[\mathrm{X}=0] &= \prod_{i=1}^{k} p_{i} \cdot \prod_{i=1}^{n} r_{i} \\
 
 
+\Pr[\mathrm{X}_{i\leq k}] &= \sum_{i=1}^{n}
+\begin{cases}
+
+\end{cases}
 
 %\begin{cases}
 %1-(p_{i}  \cdot r_{i}), &&\text{if $i \leq k$} \\
