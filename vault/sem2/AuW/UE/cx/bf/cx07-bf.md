@@ -44,6 +44,7 @@ id5-->|"r2"|id6((r2))
 
 
 ```java
+double pr_2_taken = P[1]
 ```
 
 
