@@ -2,11 +2,16 @@
 ```mermaid
 flowchart TD
 
-id1((1))-->|"(1-p1)*p2"|id2((2))
-id1-->|"p1"|id3((p1))
-id3-.-x|"p1*r1"|id4((r1))
+id1((1))
+id2{2}
+id3((p1))
+id4((r1))
+
+id1-->|"(1-p1)*p2"|id2
+id1-->|"p1"|id3
+id3-.-x|"p1*r1"|id4
 id3-->|"p1*(1-r1)*p2"|id2
-id4-->|"p1*r1*p2"|id2
+id4-.-x|"p1*r1*p2"|id2
 
 ```
 
@@ -77,9 +82,14 @@ ___
 ```mermaid
 flowchart TD
 
-id1((1))-->|"(1-p1)*p2"|id2((2))
-id1-->|"p1"|id3((p1))
-id3==>|"p1*r1"|id4{r1}
+id1((1))
+id2((2))
+id3((p1))
+id4((r1))
+
+id1-->|"(1-p1)*p2"|id2
+id1-->|"p1"|id3
+id3-.-x|"p1*r1"|id4
 id3-->|"p1*(1-r1)*p2"|id2
 id4-->|"p1*r1*p2"|id2
 

@@ -4,24 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "21b54644574cb500",
+        "id": "96e62d22eac54a13",
         "type": "tabs",
         "children": [
           {
-            "id": "9c86274435b666aa",
+            "id": "2984081100d9e658",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "e9949af3594faece",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 101,
-                "left": -11,
-                "top": 759,
-                "zoom": 1.421189498652726
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -87,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md"
               }
             }
           },
@@ -149,7 +157,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "mermaid-tools:Open Mermaid Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": true,
       "omnisearch:Omnisearch": false,
       "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": true,
@@ -157,14 +165,15 @@
       "command-palette:Open command palette": false,
       "templates:Insert template": true,
       "zk-prefixer:Create new unique note": true,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-copy": true,
+      "pdf-plus:PDF++: Toggle auto-focus": true,
+      "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "5f4cf158045f14fe",
+  "active": "e9949af3594faece",
   "lastOpenFiles": [
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
     "sem2/DDCA/VRL/notes/DDCA.md",
@@ -174,7 +183,6 @@
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/AuW/VRL/extra/AuW-formulas.pdf",
     "sem2/AuW/VRL/extra/AuW-summary-fschwinn.pdf",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/extra/AuW-dp.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
