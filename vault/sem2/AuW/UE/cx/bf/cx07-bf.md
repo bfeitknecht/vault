@@ -80,6 +80,7 @@ ___
 ```mermaid
 flowchart LR
 
+subgraph ide1 []
 id1((p1))
 id2{p2}
 id3((r1))
@@ -89,17 +90,16 @@ id1-->|"p1"|id3
 id3-->|"1-r1"|id2
 id3-..-x|"r1"|id2
 
-
-subgraoh .
+subgraph ide1 [" "]
 id4((p2))
 id5{p3}
 id6((r2))
 
-id2-->|"1-p1"|id5
-id2-->|"p1"|id6
-id6-->|"1-r1"|id5
-id6-..-x|"r1"|id5
-
+id4-->|"1-p2"|id5
+id4-->|"p2"|id6
+id6-->|"1-r2"|id5
+id6-..-x|"r2"|id5
+end
 
 ```
 
