@@ -27,8 +27,8 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
                 "page": 5,
-                "left": 96,
-                "top": 227,
+                "left": 70,
+                "top": 215,
                 "zoom": 2.35
               }
             }
@@ -40,15 +40,15 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
-                "page": 16,
-                "left": 224,
-                "top": 326,
+                "page": 24,
+                "left": 69,
+                "top": 196,
                 "zoom": 1.17
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf"
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf"
               }
             }
           },
@@ -189,10 +189,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ea2415940afeebf0",
+  "active": "7c69e5983b5d0e4a",
   "lastOpenFiles": [
-    "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
+    "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/VRL/notes/DDCA.md",
     "sem2/AuW/VRL/extra/AuW-formulas.pdf",
     "sem2/AuW/VRL/extra/AuW-summary-fschwinn.pdf",
