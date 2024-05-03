@@ -117,9 +117,11 @@ $$
 \begin{align}
 %\mathrm{X} &= \text{"\# bags not taken"} \\
 \Pr[\mathrm{X}=0] &= \prod_{i=1}^{k} p_{i} \cdot \prod_{i=1}^{n} r_{i} \\
+\\
+\\
 
-
-\Pr[\mathrm{Y}=1] &= \sum_{i=1}^{n} (p_{i} \cdot r_{i}) \cdot \left(\prod_{j\neq i}^{n} 1-(p_{j} \cdot r_{j}\right)
+\Pr[\mathrm{Y}=0] &= \prod_{i=1}^{n} 1-(p_{i} \cdot r_{i}) \\
+\Pr[\mathrm{Y}=1] &= \prod_{j\neq i}^{n} 1-(p_{j} \cdot r_{j}) \cdot \sum_{i=1}^{n} (p_{i} \cdot r_{i}) \\
 
 %\begin{cases}
 %1-(p_{i}  \cdot r_{i}), &&\text{if $i \leq k$} \\
@@ -135,9 +137,11 @@ $$
 
 
 
-| $\Pr[\mathrm{X_{i}}]$ | 0                                               |
-| --------------------- | ----------------------------------------------- |
-|                       | first k) pr_picked \* pr_taken \*<br>rest )<br> |
+| $\Pr[\mathrm{X_{i}}]$ |                                                            |
+| --------------------- | ---------------------------------------------------------- |
+| 0                     | first k)		pr_picked \* pr_taken \*<br>rest)			pr_taken<br> |
+| 1                     |                                                            |
+|                       |                                                            |
 
 
 
