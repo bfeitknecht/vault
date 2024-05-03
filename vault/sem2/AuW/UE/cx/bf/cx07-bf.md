@@ -1,4 +1,5 @@
 ## q1
+
 ```mermaid
 flowchart TD
 
@@ -31,23 +32,6 @@ return exp_not_taken;
 ___
 ## q2
 
-
-```mermaid
-flowchart TD
-
-id1((p1))
-id2{p2}
-id3((r1))
-
-id1-->|"1-p1"|id2
-id1-->|"p1"|id3
-id3-->|"1-r1"|id2
-id3-..-x|"r1"|id2
-
-
-```
-
-
 ```mermaid
 flowchart TD
 
@@ -55,7 +39,7 @@ id1((p1))
 id2((p2))
 id3((r1))
 id4{r1}
-id5{r2}
+id5((r2))
 
 id1-->|"1-p1"|id2
 id1-->|"p1"|id3
@@ -65,10 +49,9 @@ id4-->|"1"|id2
 id2-->|"r2"|id5
 
 subgraph .
-	id5-.->|"[??]"|id4
+	id5===>|"?"|id4
 end
 ```
-
 
 ```java
 // A = "first taken"
@@ -105,6 +88,20 @@ id1-->|"p1"|id3
 id3-.-x|"p1*r1"|id4
 id3-->|"p1*(1-r1)*p2"|id2
 id4-->|"p1*r1*p2"|id2
+
+```
+```mermaid
+flowchart TD
+
+id1((p1))
+id2{p2}
+id3((r1))
+
+id1-->|"1-p1"|id2
+id1-->|"p1"|id3
+id3-->|"1-r1"|id2
+id3-..-x|"r1"|id2
+
 
 ```
 
