@@ -87,6 +87,30 @@ id3-..-x|"r1"|id2
 
 ```
 
+```mermaid
+flowchart TD
+
+id1((1))
+id2((2))
+id3((p1))
+id4{r1}
+id5((p2))
+id6{r2}
+
+id1-->|"(1-p1)*p2"|id2
+id1-->|"p1"|id3
+id3-->|"p1*r1"|id4
+id3-->|"p1*(1-r1)*p2"|id2
+id2-->|"p2"|id5
+id4-->|"1"|id5
+id5-->|"r2"|id6
+
+subgraph .
+	id6-..->|"[??]"|id4
+end
+```
+
+
 $$
 \begin{align}
 \mathrm{Y} &= \text{""} \\
