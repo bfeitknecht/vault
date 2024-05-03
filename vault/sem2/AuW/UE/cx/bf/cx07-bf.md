@@ -88,11 +88,14 @@ id3-..-x|"r1"|id2
 ```
 
 $$
-\Pr[\mathrm{X =i}] = 
+\begin{align}
+\mathrm{Y} &= \text{""} \\
+\Pr[\mathrm{X =i}] &= 
 \begin{cases}
-1-(p_{i \cdot r_{i}}), &&\text{if $i \leq k$} \\
+1-(p_{i}  \cdot r_{i}), &&\text{if $i \leq k$} \\
 , &&\text{else}
 \end{cases}
+\end{align}
 $$
 
 
