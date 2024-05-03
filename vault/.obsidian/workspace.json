@@ -175,14 +175,21 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "20c11587acd8b897",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,10 +202,11 @@
       "zk-prefixer:Create new unique note": true,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5f4cf158045f14fe",
+  "active": "20c11587acd8b897",
   "lastOpenFiles": [
     "sem2/AuW/UE/cx/bf",
     "sem2/AuW/UE/cx",
