@@ -113,15 +113,13 @@ $$
 Most notably, when $\mathrm{Y} >k$, there exists a permutation where all $k$ first bags are taken. Thus the $k+1$-th bag is definitely checked and taken away with $r_{k+1}$. We have to take this probability into account.
 
 
-In words:
-"The probability that one bag is not taken, "
 $$
 \begin{align}
 %\mathrm{X} &= \text{"\# bags not taken"} \\
-%\Pr[\mathrm{X}=0] &= \prod_{i=1}^{k} p_{i} \cdot \prod_{i=1}^{n} r_{i} \\
+\Pr[\mathrm{X}=0] &= \prod_{i=1}^{k} p_{i} \cdot \prod_{i=1}^{n} r_{i} \\
 
 
-\Pr[\mathrm{X}=1] &= \sum_{i=1}^{n} (p_{i} \cdot r_{i}) \cdot \left(\prod_{j\neq i}^{n} 1-(p_{j} \cdot r_{j}\right)
+\Pr[\mathrm{Y}=1] &= \sum_{i=1}^{n} (p_{i} \cdot r_{i}) \cdot \left(\prod_{j\neq i}^{n} 1-(p_{j} \cdot r_{j}\right)
 
 %\begin{cases}
 %1-(p_{i}  \cdot r_{i}), &&\text{if $i \leq k$} \\
@@ -131,6 +129,40 @@ $$
 $$
 
 
+
+
+
+
+
+
+| $\Pr[\mathrm{X_{i}}]$ | 0                                               |
+| --------------------- | ----------------------------------------------- |
+|                       | first k) pr_picked \* pr_taken \*<br>rest )<br> |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```java
 double exp_not_taken = 0;
 for (int i = 0; i <= n; i++) {
@@ -138,8 +170,6 @@ for (int i = 0; i <= n; i++) {
 }
 return exp_not_taken;
 ```
-
-
 
 
 $\mathrm{DP}[i][j] = i \text{-th bag taken out of first }j$
