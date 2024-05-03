@@ -44,7 +44,16 @@ id5-->|"r2"|id6((r2))
 
 
 ```java
-double pr_2_taken = P[1]
+// A = "first taken"
+// B = "second taken"
+double p1 = P[1];
+double r1 = R[1];
+double p2 = P[2];
+double r2 = R[2];
+double pr_A = p1*r1;
+double pr_B = r2 * ((p1*r1) + ((1-p1)*p2) + (p1*(1-r1)*p2));
+double pr_A_B = (r2 * pr_A) / pr_B;
+return pr_A_B;
 ```
 
 
@@ -52,6 +61,8 @@ double pr_2_taken = P[1]
 
 ___
 ## q3
+
+
 
 
 | $n$ | $p_{i}$ | $r_i$ |
