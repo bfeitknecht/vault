@@ -99,9 +99,16 @@ $$
 &\dots
 \end{align}
 $$
-For instance, for $\mathrm{X} = 1$, there are $n$ different scenarios.
+For instance, for $\mathrm{X} = 1$, there are $n$ different scenarios. Let us consider the cases, where $\mathrm{X}$ approaches $k$.
 
-
+$$
+\begin{align}
+\binom{n}{k} &= \frac{n!}{k!\cdot(n-k)!}  \\ \\
+\binom{n}{k+1} &= \frac{n!}{(k+1)!\cdot(n-k+1)!} \\ \\
+&\dots
+\end{align}
+$$
+Most notably, when $\mathrm{X} >k$, there exists a permutation where all $k$ first bags are taken. Thus the $k+1$-th bag is definitely checked and taken away with $r_{k+1}$. We have to take this probability into account.
 
 
 
