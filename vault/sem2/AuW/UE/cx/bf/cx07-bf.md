@@ -21,3 +21,11 @@ id4-->|"p1*r1*p2"|id2
 
 ```
 
+```java
+double exp_not_taken = 0;
+for (int i = 0; i < n; i++) {
+	exp_not_taken += 1 - (P[i] * R[i]);
+}
+return exp_not_taken;
+```
+
