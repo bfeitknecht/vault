@@ -37,8 +37,14 @@
             "id": "ea2415940afeebf0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
+                "page": 2,
+                "left": -13,
+                "top": 47,
+                "zoom": 1.175
+              }
             }
           }
         ],
@@ -108,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +153,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf"
+              }
             }
           },
           {
@@ -180,6 +190,7 @@
   },
   "active": "ea2415940afeebf0",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/VRL/notes/DDCA.md",
     "sem2/AuW/VRL/extra/AuW-formulas.pdf",
@@ -191,7 +202,6 @@
     "sem2/DDCA/VRL/slides/DDCA-L19-pipelines-2.pdf",
     "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
     "sem2/AuW/VRL/slides/AuW-L17-geometric-algorithms.pdf",
-    "sem2/AuW/VRL/slides/AuW-L18-smallest-circumcirle.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
