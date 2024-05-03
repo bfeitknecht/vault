@@ -78,21 +78,52 @@ ___
 
 
 ```mermaid
-flowchart
+flowchart TD
 
 subgraph 1
 id1((p1))
-id2{p2}
-id3((r1))
-id1-->|"1-p1"|id2
-id1-->|"p1"|id3
-id3-->|"1-r1"|id2
-id3-..-x|"r1"|id2
+id2((r1))
+id3((p2))
+id4((p2))
+id5((p2))
+
+id1-->|"1-p1"|id3
+id1-->|"p1"|id2
+id2-->|"1-r1"|id4
+id2-..-x|"r1"|id5
 end
 
-subgraph 2
+subgraph 2a
+id7((p2))
+id8((p3))
+id9((r2))
+
+id7-->|"1-p2"|id8
+id7-->|"p2"|id9
+id9-->|"1-r2"|id8
+id9-..-x|"r2"|id8
+end
+
+```
+
+
+
+
+
+subgraph 2a
 id4((p2))
-id5{p3}
+id5((p3))
+id6((r2))
+
+id7-->|"1-p2"|id8
+id7-->|"p2"|id9
+id9-->|"1-r2"|id8
+id9-..-x|"r2"|id8
+end
+
+subgraph 2b
+id4((p2))
+id5((p3))
 id6((r2))
 
 id4-->|"1-p2"|id5
@@ -102,9 +133,7 @@ id6-..-x|"r2"|id5
 end
 
 
-id2-->id4
 
-```
 
 
 Let $\mathrm{T}$ denote the number of bags taken. By case distinction, there are $\binom{n}{ \mathrm{T}}$ ways for the bags to be taken.
