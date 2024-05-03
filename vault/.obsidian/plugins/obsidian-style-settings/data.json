@@ -1,8 +1,9 @@
 {
   "minimal-advanced@@styled-scrollbars": false,
   "minimal-advanced@@cursor": "default",
-  "minimal-style@@pdf-invert-dark": false,
+  "minimal-style@@pdf-invert-dark": true,
   "minimal-style@@pdf-dark-opacity": 1,
-  "minimal-style@@pdf-blend-light": true,
-  "minimal-style@@h1-l": false
+  "minimal-style@@pdf-blend-light": false,
+  "minimal-style@@h1-l": false,
+  "minimal-style@@pdf-page-style": "pdf-shadows-on"
 }

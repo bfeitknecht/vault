@@ -34,15 +34,15 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 101,
-                "left": -32,
-                "top": 768,
-                "zoom": 1.67
+                "page": 113,
+                "left": -161,
+                "top": 93,
+                "zoom": 1.2
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md"
               }
             }
           },
@@ -184,10 +184,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "5a003b4ef00c0e0d",
+  "active": "e9949af3594faece",
   "lastOpenFiles": [
-    "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
     "sem2/DDCA/VRL/notes/DDCA.md",
