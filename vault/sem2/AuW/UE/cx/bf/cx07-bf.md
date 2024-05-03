@@ -79,37 +79,27 @@ flowchart TD
 
 id1((1))-->|"(1-p1)*p2"|id2((2))
 id1-->|"p1"|id3((p1))
-id3-.-x|"p1*r1"|id4((r1))
+id3==>|"p1*r1"|id4{r1}
 id3-->|"p1*(1-r1)*p2"|id2
 id4-->|"p1*r1*p2"|id2
 
 ```
 
 
-case distinction:
 
-X = "bags not taken"
-
-case (X)
-	0) 
-	1)
-	...
-	k-1)
-	k)
-	...
-	n)
-end
-
-
-$p_{i} * r_{i}$ up to $i=k$, then $r_{i}$
-
-
-use DP,
-
-$DP[i][j] = i \text{-th bag taken out of first }j$
+```java
+double exp_not_taken = 0;
+for (int i = 0; i <= n; i++) {
+	exp_not_taken += i * pr(i);
+}
+return exp_not_taken;
+```
 
 
 
+
+$\mathrm{DP}[i][j] = i \text{-th bag taken out of first }j$
+$(1-p_{i})+(p_{i}*(1-r_{i}))$
 
 | DP         | 0   | 1                             | 2   | ..  | k   | k+1 | ..  | n-1 | n   | **i** > |
 | ---------- | --- | ----------------------------- | --- | --- | --- | --- | --- | --- | --- | ------- |
@@ -123,4 +113,3 @@ $DP[i][j] = i \text{-th bag taken out of first }j$
 | n-1        | 1   |                               |     |     |     |     |     |     |     |         |
 | n          | 1   |                               |     |     |     |     |     |     |     |         |
 | **j**<br>v |     |                               |     |     |     |     |     |     |     |         |
-$(1-p_{i})+(p_{i}*(1-r_{i}))$
