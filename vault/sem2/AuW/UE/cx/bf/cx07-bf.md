@@ -85,4 +85,15 @@ ___
 
 case distinction:
 
-X = ""
+X = "bags not taken"
+
+case (X)
+	0) $p_{i} * r_{i}$ up to $i=k$, then $r_{i}$
+	1)
+	...
+	k-1)
+	k)
+	...
+	n)
+	
+	
