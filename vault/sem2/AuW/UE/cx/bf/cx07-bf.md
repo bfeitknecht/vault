@@ -121,14 +121,39 @@ $$
 \\
 
 \Pr[\mathrm{Y}=0] &= \prod_{i=1}^{n} 1-(p_{i} \cdot r_{i}) \\
-\Pr[\mathrm{Y}=1] &= \prod_{j\neq i}^{n} 1-(p_{j} \cdot r_{j}) \cdot \sum_{i=1}^{n} (p_{i} \cdot r_{i}) \\
+\Pr[\mathrm{Y}=1] &= \sum_{i=1}^{n} (p_{i} \cdot r_{i}) \cdot \left(\prod_{j\neq i}^{n} 1-(p_{j} \cdot r_{j})\right) \\
+\Pr[\mathrm{Y}=2] &= ?? 
 
+
+\\
 %\begin{cases}
 %1-(p_{i}  \cdot r_{i}), &&\text{if $i \leq k$} \\
 %, &&\text{else}
 %\end{cases}
 \end{align}
 $$
+
+
+
+
+
+
+maybe we need a different approach. what we want to do now iscalculate the probability for each random variable and then take the expected value.
+
+maybe we need to caclulate the expected value directly, with dp.
+
+like exp_v i
+
+
+
+
+
+
+
+
+
+
+
 
 
 
