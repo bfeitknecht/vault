@@ -72,6 +72,7 @@ return pr_A_B;
 ___
 ## q3
 
+
 ```mermaid
 flowchart TD
 
@@ -87,22 +88,16 @@ id3-..-x|"r1"|id2
 
 ```
 
-```mermaid
-flowchart TD
 
-id1((1))-->|"(1-p1)*p2"|id2((2))
-id1-->|"p1"|id3((p1))
-id3-.-x|"p1*r1"|id4((r1))
-id3-->|"p1*(1-r1)*p2"|id2
-id4-->|"p1*r1*p2"|id2
 
-```
+Let $\mathrm{Y}$ denote the number of bags taken. By case distinction, ther
+
 
 
 $$
 \begin{align}
 \mathrm{Y} &= \text{"\# bags not taken"} \\
-\Pr[\mathrm{Y}=0] &= \prod_{i=1}^{k}p_{i}\cdot r_{i} \\
+\Pr[\mathrm{Y}=0] &= \prod_{i=1}^{k} p_{i} \cdot \prod_{i=1}^{n} r_{i} \\
 
 
 
@@ -143,3 +138,25 @@ $(1-p_{i})+(p_{i}*(1-r_{i}))$
 
 
 
+
+
+
+
+
+
+
+
+
+
+___
+
+```mermaid
+flowchart TD
+
+id1((1))-->|"(1-p1)*p2"|id2((2))
+id1-->|"p1"|id3((p1))
+id3-.-x|"p1*r1"|id4((r1))
+id3-->|"p1*(1-r1)*p2"|id2
+id4-->|"p1*r1*p2"|id2
+
+```
