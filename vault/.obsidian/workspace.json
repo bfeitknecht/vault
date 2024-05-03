@@ -26,10 +26,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-                "page": 1,
-                "left": -11,
-                "top": 456,
-                "zoom": 1.3823529411764706
+                "page": 6,
+                "left": 65,
+                "top": 598,
+                "zoom": 1.21
               }
             }
           },
@@ -40,10 +40,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
-                "page": 2,
-                "left": -13,
-                "top": 47,
-                "zoom": 1.175
+                "page": 10,
+                "left": 219,
+                "top": 468,
+                "zoom": 1.16
               }
             }
           }
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -190,8 +191,8 @@
   },
   "active": "ea2415940afeebf0",
   "lastOpenFiles": [
-    "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/DDCA/VRL/notes/DDCA.md",
     "sem2/AuW/VRL/extra/AuW-formulas.pdf",
     "sem2/AuW/VRL/extra/AuW-summary-fschwinn.pdf",
