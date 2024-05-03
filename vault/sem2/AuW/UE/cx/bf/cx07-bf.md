@@ -78,11 +78,19 @@ ___
 
 
 ```mermaid
-flowchart TD
+flowchart LR
 
 id1((p1))
 id2{p2}
 id3((r1))
+id4((p2))
+id5{p3}
+id6((r2))
+
+id1-->|"1-p1"|id2
+id1-->|"p1"|id3
+id3-->|"1-r1"|id2
+id3-..-x|"r1"|id2
 
 id1-->|"1-p1"|id2
 id1-->|"p1"|id3
@@ -139,15 +147,15 @@ $$
 
 
 
-maybe we need a different approach. what we want to do now iscalculate the probability for each random variable and then take the expected value.
+maybe we need a different approach. what we want to do now is calculate the probability for each random variable and then take the expected value.
 
-maybe we need to caclulate the expected value directly, with dp.
+maybe we need to calculate the expected value directly, with dp.
 
-like exp_v if i out of n taken
-
-
+like exp_v if i out of j taken
 
 
+
+or maybe first calculate the expected value of checked bags and then do something with them
 
 
 
