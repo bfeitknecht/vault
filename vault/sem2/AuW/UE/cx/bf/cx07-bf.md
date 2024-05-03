@@ -83,19 +83,22 @@ flowchart LR
 id1((p1))
 id2{p2}
 id3((r1))
+
+id1-->|"1-p1"|id2
+id1-->|"p1"|id3
+id3-->|"1-r1"|id2
+id3-..-x|"r1"|id2
+
+
+subgraoh .
 id4((p2))
 id5{p3}
 id6((r2))
 
-id1-->|"1-p1"|id2
-id1-->|"p1"|id3
-id3-->|"1-r1"|id2
-id3-..-x|"r1"|id2
-
-id1-->|"1-p1"|id2
-id1-->|"p1"|id3
-id3-->|"1-r1"|id2
-id3-..-x|"r1"|id2
+id2-->|"1-p1"|id5
+id2-->|"p1"|id6
+id6-->|"1-r1"|id5
+id6-..-x|"r1"|id5
 
 
 ```
