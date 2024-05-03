@@ -110,7 +110,7 @@ $$
 &\dots
 \end{align}
 $$
-Most notably, when $\mathrm{T} >k$, there exists a permutation where all $k$ first bags are taken. Thus the $k+1$-th bag is definitely checked and taken away with $r_{k+1}$. We have to take this probability into account.
+Most notably, when $\mathrm{T} >k$, there exists a permutation where all $k$ first bags are taken. Thus the $k+1$-th bag might be checked with $p_{k+1}=1$ and taken away with $r_{k+1}$. We have to take this probability into account.
 
 
 $$
