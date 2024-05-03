@@ -90,7 +90,15 @@ id3-..-x|"r1"|id2
 
 
 
-Let $\mathrm{Y}$ denote the number of bags taken. By case distinction, ther
+Let $\mathrm{Y}$ denote the number of bags taken. By case distinction, there are $\binom n X$ ways for the bags to be taken.
+
+$$
+\begin{align}
+\binom{n}{n} &= 1  \\
+\binom{n}{n-1} &= n \\
+
+\end{align}
+$$
 
 
 
