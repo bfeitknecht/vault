@@ -91,14 +91,18 @@ id3-..-x|"r1"|id2
 
 
 Let $\mathrm{Y}$ denote the number of bags taken. By case distinction, there are $\binom n X$ ways for the bags to be taken.
-
 $$
 \begin{align}
-\binom{n}{n} &= 1  \\
-\binom{n}{n-1} &= n \\
-
+\binom{n}{0} &= 1  \\ \\
+\binom{n}{1} &= n \\ \\
+\binom{n}{2} &= \frac{n\cdot(n-1)}{2}  \\ \\
+&\dots
 \end{align}
 $$
+For instance, for $\mathrm{X} = 1$, there are $n$ different scenarios.
+
+
+
 
 
 
