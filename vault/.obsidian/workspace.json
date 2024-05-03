@@ -39,12 +39,14 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
                 "page": 1,
-                "zoom": 1
+                "left": -13,
+                "top": 540,
+                "zoom": 1.175
               }
             }
           },
           {
-            "id": "d6ed7bd7327f159f",
+            "id": "d9e49c3c0b1d65b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -106,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -204,8 +205,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,15 +222,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "d6ed7bd7327f159f",
+  "active": "d9e49c3c0b1d65b5",
   "lastOpenFiles": [
-    "sem2/DDCA/VRL/notes/DDCA.md",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
+    "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
+    "sem2/DDCA/VRL/notes/DDCA.md",
     "smart-chats",
     "sem2/AuW/UE/cx/bf",
     "sem2/AuW/UE/cx",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/AuW/VRL/extra/AuW-formulas.pdf",
     "sem2/AuW/VRL/extra/AuW-summary-fschwinn.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
@@ -238,7 +239,6 @@
     "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
-    "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
