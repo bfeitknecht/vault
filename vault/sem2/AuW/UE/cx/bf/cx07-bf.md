@@ -88,12 +88,14 @@ case distinction:
 X = "bags not taken"
 
 case (X)
-	0) $p_{i} * r_{i}$ up to $i=k$, then $r_{i}$
+	0) 
 	1)
 	...
 	k-1)
 	k)
 	...
 	n)
-	
-	
+end
+
+
+$p_{i} * r_{i}$ up to $i=k$, then $r_{i}$
