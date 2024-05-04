@@ -278,9 +278,10 @@ or maybe first calculate the expected value of checked bags and then do somethin
 
 
 
+Can't make DP\[n+1|\[n+1] big:
+```Exception in thread "main" java.lang.OutOfMemoryError: Java heap space```
 
-
-
+Can't have $\mathcal O(n^3)$, but $\mathcal O(n^2)$ is okay.
 
 
 
