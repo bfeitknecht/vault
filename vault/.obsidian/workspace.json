@@ -48,15 +48,15 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-formulas.pdf",
-                "page": 1,
-                "left": -9,
-                "top": 317,
-                "zoom": 1.7991654291454724
+                "page": 3,
+                "left": -1,
+                "top": 492,
+                "zoom": 1.96
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-formulas.pdf",
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-formulas.pdf",
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-formulas.pdf"
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md"
               }
             }
           },
@@ -198,10 +198,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "25e5346dd5f29226",
+  "active": "e9949af3594faece",
   "lastOpenFiles": [
-    "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "sem2/AuW/VRL/extra/AuW-formulas.pdf",
+    "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
     "sem2/DDCA/VRL/notes/DDCA.md",
@@ -209,7 +210,6 @@
     "sem2/AuW/UE/cx/bf",
     "sem2/AuW/UE/cx",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-    "sem2/AuW/VRL/extra/AuW-formulas.pdf",
     "sem2/AuW/VRL/extra/AuW-summary-fschwinn.pdf",
     "sem2/AuW/VRL/extra/AuW-dp.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
