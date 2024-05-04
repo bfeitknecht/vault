@@ -246,9 +246,16 @@ or maybe first calculate the expected value of checked bags and then do somethin
 
 
 
-DP_i := chance of i bags taken
+DP_i \= chance of i bags taken
 
-=  sum
+\=  sum of C(n, i) permutations to choose
+\= 
+
+
+
+base case:
+all bags taken
+only one not taken --> Pr\[all bags taken] 
 
 
 
