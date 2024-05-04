@@ -95,6 +95,26 @@ id2-..-x|"r1"|id5
 end
 
 subgraph 2a
+id8((r2))
+id9((p3))
+
+id4-->|"1-p2"|id9
+id4-->|"p2"|id8
+id8-->|"1-r2"|id9
+id8-..-x|"r2"|id9
+end
+
+subgraph 2b
+id10((r2))
+id11((p3))
+
+id5-->|"1-p2"|id11
+id5-->|"p2"|id10
+id10-->|"1-r2"|id11
+id10-..-x|"r2"|id11
+end
+
+subgraph 2c
 id6((r2))
 id7((p3))
 
@@ -105,25 +125,39 @@ id6-..-x|"r2"|id7
 end
 
 
+
 ```
 
+subgraph 1
+id1((p1))
+id2((r1))
 
+id3((p2))
+id4((p2))
+id5((p2))
 
-
-
-pc : 7
-
-
-
-subgraph 2b
-id8((r2))
-id9((p3))
-
-id4-->|"1-p2"|id5
-id4-->|"p2"|id6
-id6-->|"1-r2"|id5
-id6-..-x|"r2"|id5
+id1-->|"1-p1"|id3
+id1-->|"p1"|id2
+id2-->|"1-r1"|id4
+id2-..-x|"r1"|id5
 end
+
+subgraph 2a
+id6((p1))
+id7((r1))
+
+id8((p2))
+id9((p2))
+id10((p2))
+
+id6-->|"1-p1"|id8
+id6-->|"p1"|id7
+id7-->|"1-r1"|id9
+id7-..-x|"r1"|id10
+end
+
+
+
 
 
 
