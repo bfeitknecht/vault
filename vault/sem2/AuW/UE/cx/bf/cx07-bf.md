@@ -270,7 +270,8 @@ or maybe first calculate the expected value of checked bags and then do somethin
 
 
 
-
+>[!note] epiphany
+> up to $X = k$, the probability is as if, k were equal to n
 
 
 
