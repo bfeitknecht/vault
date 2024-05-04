@@ -189,7 +189,7 @@ $$
 &\dots
 \end{align}
 $$
-For instance, for $\mathrm{X} = 1$, there are $n$ different scenarios. Let us consider the cases, where $\mathrm{X}$ approaches $k$.
+For instance, with $\mathrm{X} = 1$, there are $n$ different scenarios. Let us consider the cases, where $\mathrm{X}$ approaches $k$.
 $$
 \begin{align}
 \binom{n}{k} &= \frac{n!}{k!\cdot(n-k)!}  \\ \\
@@ -220,6 +220,9 @@ $$
 %\end{cases}
 \end{align}
 $$
+
+
+
 
 
 
