@@ -226,7 +226,9 @@ $$
 
 
 
+Can't make DP\[n+1|\[n+1] big:
 
+```Exception in thread "main" java.lang.OutOfMemoryError: Java heap space```
 
 
 maybe we need a different approach. what we want to do now is calculate the probability for each random variable and then take the expected value.
