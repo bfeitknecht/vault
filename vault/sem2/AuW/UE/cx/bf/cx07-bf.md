@@ -246,7 +246,9 @@ or maybe first calculate the expected value of checked bags and then do somethin
 
 
 
+DP_i := chance of i bags taken
 
+=  sum
 
 
 
@@ -255,6 +257,7 @@ or maybe first calculate the expected value of checked bags and then do somethin
 | --------------------- | ---------------------------------------------------------- |
 | 0                     | first k)		pr_picked \* pr_taken \*<br>rest)			pr_taken<br> |
 | 1                     |                                                            |
+|                       |                                                            |
 |                       |                                                            |
 
 
@@ -266,12 +269,10 @@ or maybe first calculate the expected value of checked bags and then do somethin
 
 
 
->[!note] epiphany
+>[!Idea]
 > up to $X = k$ the probability is as if k were equal to n
 
-
-
->[!attention] attention
+>[!attention]
 >- Can't have $\mathcal O(n^3)$, but $\mathcal O(n^2)$ is okay.
 >- Can't make DP\[n+1|\[n+1] big:
 `Exception in thread "main" java.lang.OutOfMemoryError: Java heap space`
