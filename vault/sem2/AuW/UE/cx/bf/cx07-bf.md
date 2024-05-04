@@ -83,6 +83,7 @@ flowchart TD
 subgraph 1
 id1((p1))
 id2((r1))
+
 id3((p2))
 id4((p2))
 id5((p2))
@@ -94,15 +95,15 @@ id2-..-x|"r1"|id5
 end
 
 subgraph 2a
-id7((p2))
-id8((p3))
-id9((r2))
+id6((r2))
+id7((p3))
 
-id7-->|"1-p2"|id8
-id7-->|"p2"|id9
-id9-->|"1-r2"|id8
-id9-..-x|"r2"|id8
+id3-->|"1-p2"|id7
+id3-->|"p2"|id6
+id6-->|"1-r2"|id7
+id6-..-x|"r2"|id7
 end
+
 
 ```
 
@@ -110,21 +111,13 @@ end
 
 
 
-subgraph 2a
-id4((p2))
-id5((p3))
-id6((r2))
+pc : 7
 
-id7-->|"1-p2"|id8
-id7-->|"p2"|id9
-id9-->|"1-r2"|id8
-id9-..-x|"r2"|id8
-end
+
 
 subgraph 2b
-id4((p2))
-id5((p3))
-id6((r2))
+id8((r2))
+id9((p3))
 
 id4-->|"1-p2"|id5
 id4-->|"p2"|id6
