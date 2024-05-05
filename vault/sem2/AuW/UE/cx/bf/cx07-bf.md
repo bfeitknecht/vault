@@ -337,6 +337,8 @@ sliding window dp (?) n\*2 dp-table
 | pr_last_k |     |     |     |
 
 
+dp to get probability for each bag, then iterate and compute compound probabilities
+
 
 
 ```
