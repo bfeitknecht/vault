@@ -3,9 +3,9 @@
 ```mermaid
 flowchart TD
 
-id1((p1))
-id2{p2}
-id3((r1))
+id1((p1?))
+id2{p2?}
+id3((r1?))
 
 id1-->|"1-p1"|id2
 id1-->|"p1"|id3
@@ -35,11 +35,11 @@ ___
 ```mermaid
 flowchart TD
 
-id1((p1))
-id2((p2))
-id3((r1))
-id4{r1}
-id5((r2))
+id1((p1?))
+id2((p2?))
+id3((r1?))
+id4{r1?}
+id5((r2?))
 
 id1-->|"1-p1"|id2
 id1-->|"p1"|id3
@@ -80,13 +80,14 @@ ___
 ```mermaid
 flowchart TD
 
-subgraph 1
-id1((p1))
-id2((r1))
 
-id3((p2))
-id4((p2))
-id5((p2))
+subgraph 1
+id1((p1?))
+id2((r1?))
+
+id3((p2?))
+id4((p2?))
+id5((p2?))
 
 id1-->|"1-p1"|id3
 id1-->|"p1"|id2
@@ -95,8 +96,8 @@ id2-..-x|"r1"|id5
 end
 
 subgraph 2a
-id8((r2))
-id9((p3))
+id8((r2?))
+id9((p3?))
 
 id4-->|"1-p2"|id9
 id4-->|"p2"|id8
@@ -104,9 +105,10 @@ id8-->|"1-r2"|id9
 id8-..-x|"r2"|id9
 end
 
+
 subgraph 2b
-id10((r2))
-id11((p3))
+id10((r2?))
+id11((p3?))
 
 id5-->|"1-p2"|id11
 id5-->|"p2"|id10
@@ -114,9 +116,10 @@ id10-->|"1-r2"|id11
 id10-..-x|"r2"|id11
 end
 
+
 subgraph 2c
-id6((r2))
-id7((p3))
+id6((r2?))
+id7((p3?))
 
 id3-->|"1-p2"|id7
 id3-->|"p2"|id6
@@ -132,12 +135,12 @@ end
 flowchart TD
 
 subgraph 1
-id1((p1))
-id2((r1))
+id1((p1?))
+id2((r1?))
 
-id3((p2))
-id4((p2))
-id5((p2))
+id3((p2?))
+id4((p2?))
+id5((p2?))
 
 id1-->|"1-p1"|id3
 id1-->|"p1"|id2
@@ -146,11 +149,11 @@ id2-..-x|"r1"|id5
 end
 
 subgraph 2a
-id6((r2))
+id6((r2?))
 
-id7((p3))
-id8((p3))
-id9((p3))
+id7((p3?))
+id8((p3?))
+id9((p3?))
 
 id5-->|"1-p2"|id7
 id5-->|"p2"|id6
@@ -165,9 +168,9 @@ end
 subgraph 3a
 id10((r3))
 
-id11((p4))
-id12((p4))
-id13((p4))
+id11((p4?))
+id12((p4?))
+id13((p4?))
 
 id9-->|"1-pr3"|id11
 id9-->|"p3"|id10
