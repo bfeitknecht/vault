@@ -326,6 +326,17 @@ $(1-p_{i})+(p_{i}*(1-r_{i}))$
 
 
 
+sliding window dp (?) n\*2 dp-table
+
+
+
+
+|           |     |
+| --------- | --- |
+| pr_i      |     |
+| pr_last_k |     |
+
+
 
 
 
