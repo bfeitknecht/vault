@@ -341,7 +341,17 @@ sliding window dp (?) n\*2 dp-table
 
 ```
 double[][] dp
-for i 
+double k_consecutives = 1
+double pr_i = 1
+for i in 1 .. n
+	if (k<=k)
+	
+	else
+	
+	end
+	pr_i = (i>k)? p[i]*r[i] * (dp[i-1]+(1-dp[i-1])) : ;
+	k_consecutives *= pr_i
+end
 
 
 // how many bags taken?
