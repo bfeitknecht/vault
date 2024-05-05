@@ -16,20 +16,6 @@
             }
           },
           {
-            "id": "e9949af3594faece",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/UE/u/s/AuW-u04-s.pdf",
-                "page": 1,
-                "left": -11,
-                "top": 846,
-                "zoom": 1.421189498652726
-              }
-            }
-          },
-          {
             "id": "5a003b4ef00c0e0d",
             "type": "leaf",
             "state": {
@@ -52,9 +38,21 @@
                 "zoom": 1
               }
             }
+          },
+          {
+            "id": "7ccb2dd121511d5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -120,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/s/AuW-u04-s.pdf",
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/s/AuW-u04-s.pdf",
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/u/s/AuW-u04-s.pdf"
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md"
               }
             }
           },
@@ -195,8 +193,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "e9949af3594faece",
+  "active": "7ccb2dd121511d5c",
   "lastOpenFiles": [
+    "sem2/AuW/UE/u/s/AuW-u04-s.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/UE/pg/s/AuW-pg04-s.pdf",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
