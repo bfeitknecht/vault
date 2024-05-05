@@ -34,10 +34,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 113,
-                "left": -161,
-                "top": 93,
-                "zoom": 1.2
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -48,10 +46,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-formulas.pdf",
-                "page": 3,
-                "left": -1,
-                "top": 492,
-                "zoom": 1.96
+                "page": 1,
+                "zoom": 1
               }
             }
           }
