@@ -81,21 +81,10 @@ ___
 flowchart TD
 
 
-subgraph 1
-id1((p1?))
-id2((r1?))
 
-id3((p2?))
+
+subgraph " "
 id4((p2?))
-id5((p2?))
-
-id1-->|"1-p1"|id3
-id1-->|"p1"|id2
-id2-->|"1-r1"|id4
-id2-..-x|"r1"|id5
-end
-
-subgraph 2a
 id8((r2?))
 id9((p3?))
 
@@ -106,7 +95,8 @@ id8-..-x|"r2"|id9
 end
 
 
-subgraph 2b
+subgraph " "
+id5((p2?))
 id10((r2?))
 id11((p3?))
 
@@ -117,7 +107,8 @@ id10-..-x|"r2"|id11
 end
 
 
-subgraph 2c
+subgraph " "
+id3((p2?))
 id6((r2?))
 id7((p3?))
 
@@ -127,14 +118,22 @@ id6-->|"1-r2"|id7
 id6-..-x|"r2"|id7
 end
 
+subgraph " "
+id1((p1?))
+id2((r1?))
 
+id1-->|"1-p1"|id3
+id1-->|"p1"|id2
+id2-->|"1-r1"|id4
+id2-..-x|"r1"|id5
+end
 
 ```
 
 ```mermaid
 flowchart TD
 
-subgraph 1
+subgraph " "
 id1((p1?))
 id2((r1?))
 
@@ -148,7 +147,7 @@ id2-->|"1-r1"|id4
 id2-..-x|"r1"|id5
 end
 
-subgraph 2a
+subgraph " "
 id6((r2?))
 
 id7((p3?))
@@ -161,12 +160,12 @@ id6-->|"1-r2"|id8
 id6-..-x|"r2"|id9
 end
 
-id3-->2b
-subgraph 2b
+id3-->id99
+subgraph ["etc.]
 end
 
-subgraph 3a
-id10((r3))
+subgraph " "
+id10((r3?))
 
 id11((p4?))
 id12((p4?))
