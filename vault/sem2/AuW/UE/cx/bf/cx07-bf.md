@@ -331,11 +331,24 @@ sliding window dp (?) n\*2 dp-table
 
 
 
-|           |     |
-| --------- | --- |
-| pr_i      |     |
-| pr_last_k |     |
+|           | 1   | 2   | 3   |
+| --------- | --- | --- | --- |
+| pr_i      |     |     |     |
+| pr_last_k |     |     |     |
 
+
+
+
+```
+double[][] dp
+for i 
+
+
+// how many bags taken?
+for i in 0 .. n
+	for j 
+end
+```
 
 
 
