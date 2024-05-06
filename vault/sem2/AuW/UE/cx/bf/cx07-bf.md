@@ -217,8 +217,6 @@ $$
 \end{align}
 $$
 Most notably, when $\mathrm{T} >k$, there exists a permutation where all $k$ first bags are taken. Thus the $k+1$-th bag might be checked with $p_{k+1}=1$ and taken away with $r_{k+1}$. We have to take this probability into account.
-
-
 $$
 \begin{align}
 %\mathrm{X} &= \text{"\# bags not taken"} \\
@@ -239,6 +237,10 @@ $$
 %\end{cases}
 \end{align}
 $$
+
+
+
+
 
 
 
@@ -343,13 +345,11 @@ $(1-p_{i})+(p_{i}*(1-r_{i}))$
 sliding window dp (?) n\*2 dp-table
 
 
-
-
-|            | 0   | 1   | 2   | ..  | k   | k+1 | k+2 |
-| ---------- | --- | --- | --- | --- | --- | --- | --- |
-| \# streaks | 0   | 0   | 0   |     |     | 1   | 2   |
-|            |     |     |     |     |     |     |     |
-|            |     |     |     |     |     |     |     |
+|            | 0   | 1   | 2   | ..  | k   | k+1 | k+2 | k+3 |
+| ---------- | --- | --- | --- | --- | --- | --- | --- | --- |
+| \# streaks | 0   | 0   | 0   |     |     | 1   | 2   |     |
+|            |     |     |     |     |     |     |     |     |
+|            |     |     |     |     |     |     |     |     |
 
 
 dp to get probability for each bag, then iterate and compute compound probabilities
@@ -374,6 +374,36 @@ for i in 0 .. n
 	for j 
 end
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
