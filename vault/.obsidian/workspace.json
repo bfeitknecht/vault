@@ -22,8 +22,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 1,
-                "zoom": 1
+                "page": 113,
+                "left": -9,
+                "top": 60,
+                "zoom": 1.7991654291454724
               }
             }
           },
@@ -52,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md"
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
               }
             }
           },
@@ -194,13 +196,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "7ccb2dd121511d5c",
+  "active": "5a003b4ef00c0e0d",
   "lastOpenFiles": [
+    "sem2/AuW/UE/cx/bf/cx07-bf.md",
+    "sem1/AuD/extra/AuD_script.pdf",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/UE/u/s/AuW-u04-s.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/UE/pg/s/AuW-pg04-s.pdf",
-    "sem2/AuW/UE/cx/bf/cx07-bf.md",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/extra/AuW-formulas.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
@@ -209,8 +212,6 @@
     "sem2/AuW/UE/cx/bf",
     "sem2/AuW/UE/cx",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-    "sem2/AuW/VRL/extra/AuW-summary-fschwinn.pdf",
-    "sem2/AuW/VRL/extra/AuW-dp.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",

@@ -422,3 +422,7 @@ id3-->|"p1*(1-r1)*p2"|id2
 id4-->|"p1*r1*p2"|id2
 
 ```
+
+
+
+addierä und.. minuierä..?
