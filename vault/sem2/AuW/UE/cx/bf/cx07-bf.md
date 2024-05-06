@@ -200,19 +200,23 @@ end
 ```mermaid
 flowchart TD
 
+subgraph 3
+id7((3))
+end
+
+
 subgraph 2
 id4((2))
 id5((p2))
 id6((r2))
-id7((3))
 
-id4-->|"p2"|id5
+id4==>|"p2"|id5
 id4-->|"1-p2"|id7
-id5-->|"r1"|id6
-
-
-
+id5==>|"r1"|id6
+id5-->|"1-r2"|id7
+id6-->|"1"|id7
 end
+
 
 subgraph 1
 id1((1))
@@ -220,9 +224,9 @@ id2((p1))
 id3((r1))
 
 
-id1-->|"p1"|id2
+id1==>|"p1"|id2
 id1-->|"1-p1"|id4
-id2-.-x|"r1"|id3
+id2==>|"r1"|id3
 id2-->|"1-r1"|id4
 id3-->|"1"|id4
 end
