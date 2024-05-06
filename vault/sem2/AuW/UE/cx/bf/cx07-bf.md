@@ -49,7 +49,7 @@ id4-->|"1"|id2
 id2-->|"r2"|id5
 
 subgraph .
-	id5===>|"?"|id4
+	id5-.->|"?"|id4
 end
 ```
 
@@ -199,6 +199,20 @@ end
 
 ```mermaid
 flowchart TD
+
+
+subgraoh 1
+id1((1))
+id2((2))
+id3((p1))
+
+id1-->|"(1-p1)*p2"|id2
+id1-->|"p1"|id3((p1))
+id3-.-x|"p1*r1"|id4((r1))
+id3-->|"p1*(1-r1)*p2"|id2
+id4-->|"p1*r1*p2"|id2
+
+
 
 subgraph 3
 id7((p3?))
