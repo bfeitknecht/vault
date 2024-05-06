@@ -77,58 +77,7 @@ ___
 ## q3
 
 
-```mermaid
-flowchart TD
 
-
-
-
-subgraph 2a
-id4((p2?))
-id8((r2?))
-id9((p3?))
-
-id4-->|"1-p2"|id9
-id4-->|"p2"|id8
-id8-->|"1-r2"|id9
-id8-..->|"r2"|id9
-end
-
-
-subgraph 2b
-id5((p2?))
-id10((r2?))
-id11((p3?))
-
-id5-->|"1-p2"|id11
-id5-->|"p2"|id10
-id10-->|"1-r2"|id11
-id10-..->|"r2"|id11
-end
-
-
-subgraph 2c
-id3((p2?))
-id6((r2?))
-id7((p3?))
-
-id3-->|"1-p2"|id7
-id3-->|"p2"|id6
-id6-->|"1-r2"|id7
-id6-..->|"r2"|id7
-end
-
-subgraph 1
-id1((p1?))
-id2((r1?))
-
-id1-->|"1-p1"|id3
-id1-->|"p1"|id2
-id2-->|"1-r1"|id4
-id2-..->|"r1"|id5
-end
-
-```
 
 ```mermaid
 flowchart TD
@@ -477,3 +426,59 @@ id4-->|"p1*r1*p2"|id2
 
 
 addierä und.. minuierä..?
+
+
+
+
+```mermaid
+flowchart TD
+
+
+
+
+subgraph 2a
+id4((p2?))
+id8((r2?))
+id9((p3?))
+
+id4-->|"1-p2"|id9
+id4-->|"p2"|id8
+id8-->|"1-r2"|id9
+id8-..->|"r2"|id9
+end
+
+
+subgraph 2b
+id5((p2?))
+id10((r2?))
+id11((p3?))
+
+id5-->|"1-p2"|id11
+id5-->|"p2"|id10
+id10-->|"1-r2"|id11
+id10-..->|"r2"|id11
+end
+
+
+subgraph 2c
+id3((p2?))
+id6((r2?))
+id7((p3?))
+
+id3-->|"1-p2"|id7
+id3-->|"p2"|id6
+id6-->|"1-r2"|id7
+id6-..->|"r2"|id7
+end
+
+subgraph 1
+id1((p1?))
+id2((r1?))
+
+id1-->|"1-p1"|id3
+id1-->|"p1"|id2
+id2-->|"1-r1"|id4
+id2-..->|"r1"|id5
+end
+
+```
