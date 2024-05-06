@@ -347,7 +347,7 @@ sliding window dp (?) n\*2 dp-table
 
 |            | 0   | 1   | 2   | ..  | k   | k+1 | k+2 |
 | ---------- | --- | --- | --- | --- | --- | --- | --- |
-| \# streaks | 0   | 0   | 0   |     |     | 1   |     |
+| \# streaks | 0   | 0   | 0   |     |     | 1   | 2   |
 |            |     |     |     |     |     |     |     |
 |            |     |     |     |     |     |     |     |
 
@@ -359,7 +359,7 @@ double[][] dp
 double k_consecutives = 1
 double pr_i = 1
 for i in 1 .. n
-	if (k<=k)
+	if (i<=k)
 	
 	else
 	
