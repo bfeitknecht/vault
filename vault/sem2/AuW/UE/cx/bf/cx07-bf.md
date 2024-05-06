@@ -195,7 +195,32 @@ end
 
 
 ```
+```mermaid
+flowchart TD
 
+subgraph 2
+id3((p2?))
+id6((r2?))
+id7((p3?))
+
+id3-->|"1-p2"|id7
+id3-->|"p2"|id6
+id6-->|"1-r2"|id7
+id6-..->|"r2"|id7
+end
+
+
+subgraph 1
+id1((p1?))
+id2((r1?))
+
+id1-->|"1-p1"|id3
+id1-->|"p1"|id2
+id2-->|"1-r1"|id3
+id2-..->|"r1"|id3
+end
+
+```
 
 
 
