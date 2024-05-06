@@ -345,15 +345,14 @@ sliding window dp (?) n\*2 dp-table
 
 
 
-|           | 1   | 2   | 3   |
-| --------- | --- | --- | --- |
-| pr_i      |     |     |     |
-| pr_last_k |     |     |     |
+|            | 0   | 1   | 2   | ..  | k   | k+1 | k+2 |
+| ---------- | --- | --- | --- | --- | --- | --- | --- |
+| \# streaks | 0   | 0   | 0   |     |     | 1   |     |
+|            |     |     |     |     |     |     |     |
+|            |     |     |     |     |     |     |     |
 
 
 dp to get probability for each bag, then iterate and compute compound probabilities
-
-
 
 ```
 double[][] dp
