@@ -347,9 +347,10 @@ sliding window dp (?) n\*2 dp-table
 
 |            | 0   | 1   | 2   | ..  | k   | k+1 | k+2 | k+3 |
 | ---------- | --- | --- | --- | --- | --- | --- | --- | --- |
-| \# streaks | 0   | 0   | 0   |     |     | 1   | 2   |     |
+| \# streaks | 0   | 0   | 0   | ..  | 0   | 1   | 2   | 3   |
 |            |     |     |     |     |     |     |     |     |
 |            |     |     |     |     |     |     |     |     |
+
 
 
 dp to get probability for each bag, then iterate and compute compound probabilities
