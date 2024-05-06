@@ -22,9 +22,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 113,
+                "page": 114,
                 "left": -9,
-                "top": 60,
+                "top": 118,
                 "zoom": 1.7991654291454724
               }
             }
@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md"
               }
             }
           },
@@ -196,11 +196,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "5a003b4ef00c0e0d",
+  "active": "7ccb2dd121511d5c",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem1/AuD/extra/AuD_script.pdf",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/UE/u/s/AuW-u04-s.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/UE/pg/s/AuW-pg04-s.pdf",

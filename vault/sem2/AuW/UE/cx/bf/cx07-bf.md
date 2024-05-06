@@ -353,8 +353,7 @@ sliding window dp (?) n\*2 dp-table
 
 
 
-dp to get probability for each bag, then iterate and compute compound probabilities
-
+dp to get probability for each bag, then sum them up
 ```
 double[][] dp
 double k_consecutives = 1
