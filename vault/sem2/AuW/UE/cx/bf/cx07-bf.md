@@ -77,7 +77,7 @@ ___
 ## q3
 
 
-
+#### Graphs
 
 ```mermaid
 flowchart TD
@@ -145,7 +145,6 @@ end
 
 ```
 
-
 ```mermaid
 flowchart TD
 
@@ -185,6 +184,7 @@ end
 ```
 
 
+#### First Approach
 
 Let $\mathrm{T}$ denote the number of bags taken. By case distinction, there are $\binom{n}{ \mathrm{T}}$ ways for the bags to be taken.
 $$
@@ -225,73 +225,7 @@ $$
 \end{align}
 $$
 
-
-
-
-
-
-
-
-
-
-
-maybe we need a different approach. what we want to do now is calculate the probability for each random variable and then take the expected value.
-
-maybe we need to calculate the expected value directly, with dp.
-
-like exp_v if i out of j taken
-
-
-
-or maybe first calculate the expected value of checked bags and then do something with them
-
-
-
-
-
-```java
-
-double[] Pr = new double[n+1];
-Pr[0] = 1;
-for (int i = 1; i <= n; i++) {
-	if (i <= k) {
-		Pr[i] += p[i] * r[i];
-	}
-	else {
-		
-	}
-}
-
-
-```
-
-
-
-
-
-
-base case:
-all bags taken
-only one not taken --> Pr\[all bags taken] 
-
-
-
-
-| $\Pr[\mathrm{X_{i}}]$ |                                                            |
-| --------------------- | ---------------------------------------------------------- |
-| 0                     | first k)		pr_picked \* pr_taken \*<br>rest)			pr_taken<br> |
-| 1                     |                                                            |
-|                       |                                                            |
-|                       |                                                            |
-
-
-
-
-
-
-
-
-
+#### Notes
 
 >[!Idea]
 > up to $X = k$ the probability is as if k were equal to n
@@ -301,15 +235,6 @@ only one not taken --> Pr\[all bags taken]
 >- Can't make DP\[n+1|\[n+1] big:
 `Exception in thread "main" java.lang.OutOfMemoryError: Java heap space`
 
-
-
-
-
-
-
-
-
-
 ```java
 double exp_not_taken = 0;
 for (int i = 0; i <= n; i++) {
@@ -318,6 +243,12 @@ for (int i = 0; i <= n; i++) {
 return exp_not_taken;
 ```
 
+
+#### Pseudocode
+
+
+
+DP
 
 $\mathrm{DP}[i][j] = i \text{-th bag taken out of first }j$
 $(1-p_{i})+(p_{i}*(1-r_{i}))$
