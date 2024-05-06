@@ -248,7 +248,7 @@ return exp_not_taken;
 
 
 
-DP
+DP\[i]\[j] = 
 
 $\mathrm{DP}[i][j] = i \text{-th bag taken out of first }j$
 $(1-p_{i})+(p_{i}*(1-r_{i}))$
