@@ -94,10 +94,10 @@ id11((p4?))
 id12((p4?))
 id13((p4?))
 
-id9-->|"1-pr3"|id11
-id9-->|"p3"|id10
-id10-->|"1-r3"|id12
-id10-.->|"r3"|id13
+id9-.->|"1-pr3"|id11
+id9==>|"p3"|id10
+id10-.->|"1-r3"|id12
+id10==>|"r3"|id13
 end
 
 subgraph 3b
@@ -115,10 +115,10 @@ subgraph 2a
 id5((p2?))
 id6((r2?))
 
-id5-->|"1-p2"|id7
-id5-->|"p2"|id6
-id6-->|"1-r2"|id8
-id6-.->|"r2"|id9
+id5-.->|"1-p2"|id7
+id5==>|"p2"|id6
+id6-.->|"1-r2"|id8
+id6==>|"r2"|id9
 end
 
 subgraph 2b
@@ -135,10 +135,10 @@ subgraph 1
 id1((p1?))
 id2((r1?))
 
-id1-->|"1-p1"|id3
-id1-->|"p1"|id2
-id2-->|"1-r1"|id4
-id2-.->|"r1"|id5
+id1-.->|"1-p1"|id3
+id1==>|"p1"|id2
+id2-.->|"1-r1"|id4
+id2==>|"r1"|id5
 end
 
 
