@@ -295,9 +295,15 @@ end
 
 // dp[i][j] = Pr["bags j to i taken"]
 double[][] dp
+for j in 1 .. n-k
+	for i in k+1 .. n
+		dp[i][j] = dp[i-1][j] * r[i]
+	end 
+end
+
 for i in 1 .. n-k
 	for j in k+1 .. n
-		dp[i][j] = dp[i][j-1]
+		dp[i][j] = dp[i-1][j] * r[i]
 	end 
 end
 
