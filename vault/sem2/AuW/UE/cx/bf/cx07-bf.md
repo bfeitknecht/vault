@@ -292,6 +292,8 @@ for i in 1 .. k
 	E[i] = p[i] * r[i]
 end
 
+
+// dp[i][j] = Pr["bags j to i taken"]
 double[][] dp
 for i in 1 .. n-k
 	for j in k+1 .. n
@@ -300,7 +302,8 @@ for i in 1 .. n-k
 end
 
 for i in k+1 .. n
-
+	E[i] = sum(dp[i-k])
+end
 ```
 
 
