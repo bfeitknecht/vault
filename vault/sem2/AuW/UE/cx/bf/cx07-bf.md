@@ -346,10 +346,11 @@ double[] E = new double[n+1];
 
 // streaks[b][a] = Pr["taking all bags from a to b"]
 double[][] streaks = new double[n+1][];
-
+streaks[0] = new double[1];
 // streaks ending at b ..
 for (int b = 1; b <= n; b++) {
-	E[b] = (1-streaks[b-1][b-k]) * p[b] * r[b]; // 1-Pr["k-th bag"] * p[b] * r[b]
+	// 1-Pr["k-th bag"] * p[b] * r[b]
+	E[b] = (b>k)? (1-streaks[b-1][b-k]) * p[b] * r[b] : p[b] * r[b]; 
 	
 	streaks[b] = new double[b]; // # streaks ending at b
 	
