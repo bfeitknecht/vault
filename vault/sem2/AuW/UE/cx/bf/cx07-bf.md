@@ -287,23 +287,16 @@ sliding window dp (?) n\*2 dp-table
 
 dp to get probability for each bag, then sum them up
 ```
-double[][] dp
-double k_consecutives = 1
-double pr_i = 1
-for i in 1 .. n
-	if (i<=k)
-	
-	else
-	
-	end
-	pr_i = (i>k)? p[i]*r[i] * (dp[i-1]+(1-dp[i-1])) : ;
-	k_consecutives *= pr_i
+double[] E = new double[n]
+for i in 1 .. k
+	E[i] = p[i] * r[i]
 end
 
-
-// how many bags taken?
-for i in 0 .. n
-	for j 
+double[][] dp
+for i in 1 .. n-k
+	for j in n .. n
+		dp[i][j] = 
+	end
 end
 ```
 
