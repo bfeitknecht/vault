@@ -312,9 +312,23 @@ for i in k+1 .. n-k
 end
 
 
+double[][] dp = new double[n+1][]
 
-// streaks ending at b
+// streaks ending at b ..
 for b in k+1 .. n
+	
+	// # streaks from a to b, length > k
+	dp[b] = new double[b-k+1]
+	
+	// .. starting at a
+	for a in 1 .. n-k
+		dp[b][a] = streak(a, b)
+	end
+	
+	for streak in dp[b]
+		E[b] += streak
+	end
+end
 
 ```
 
