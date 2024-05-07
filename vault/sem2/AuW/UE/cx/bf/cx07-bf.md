@@ -292,40 +292,21 @@ for i in 1 .. k
 	E[i] = p[i] * r[i]
 end
 
-
-// dp[i][j] = Pr["bags i to j taken"]
-double[][] dp = new double[n+1][]
-
-// streaks starting at i ..
-for i in k+1 .. n-k
-	
-	// # streaks from i to n, length(streak) > k
-	dp[i] = (i>k)? new double[i-k+1] : new double[1];
-	
-	// .. ending at j
-	for j in k+1 .. n
-		
-		dp[i][j] = dp[i-1][j] * r[j]
-	end
-	
-	E[i] += sum(dp[i-k])
-end
-
-
-double[][] dp = new double[n+1][]
+// streaks[b][a] = Pr["bags a to b taken"]
+double[][] streaks = new double[n+1][]
 
 // streaks ending at b ..
 for b in k+1 .. n
 	
 	// # streaks from a to b, length > k
-	dp[b] = new double[b-k+1]
+	streaks[b] = new double[b-k+1]
 	
 	// .. starting at a
 	for a in 1 .. n-k
-		dp[b][a] = streak(a, b)
+		streaks[b][a] = streak(a, b)
 	end
 	
-	for streak in dp[b]
+	for streak in streaks[b]
 		E[b] += streak
 	end
 end
