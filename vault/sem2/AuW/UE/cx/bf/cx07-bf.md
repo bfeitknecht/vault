@@ -351,6 +351,7 @@ for (int i = 1; i <= n; i++) {
 double[][] streaks = new double[n+1][];
 // streaks ending at b ..
 for (int b = 1; b <= n; b++) {
+	E[b] = (1-streaks[b-1]) * p[b] * r[b]; // pr"not being the k-th bag
 	
 	streaks[b] = new double[b]; // # streaks ending at b
 	
@@ -358,8 +359,10 @@ for (int b = 1; b <= n; b++) {
 	for (int a = 1; a <= n; a++) {
 		streaks[b][a] = streaks[b-1][a] * E[b];
 		
-		if (b>k) {
-			// 
+		if (b-a>k) {
+			// when the streak is longer than k
+			// modify the probability to take b-th bag
+			E[b] += streaks[b][a] * r[b];
 		}
 	}
 	
