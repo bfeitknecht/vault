@@ -296,17 +296,17 @@ end
 // dp[i][j] = Pr["bags i to j taken"]
 double[][] dp = new double[n-k+1][]
 
-
-for i in k+1 .. n
+// streaks ending in j
+for j in k+1 .. n
 	
-	dp[i] = // # from  i to n
+	dp[j] = new double[j-k]
 	
-	for j in 1 .. i
+	for i in 1 .. i-k
 		
 		dp[i][j] = dp[i-1][j] * r[j]
 	end
 	
-	E[i] += sum(dp[i-k])
+	E[i] += sum(dp[j-k])
 end
 
 ```
