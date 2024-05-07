@@ -355,7 +355,7 @@ for (int b = 1; b <= n; b++) {
 	streaks[b] = new double[b+1]; // # streaks ending at b
 	
 	// .. starting at a
-	for (int a = 1; a <= n; a++) {
+	for (int a = 1; a <= b; a++) {
 		streaks[b][a] = streaks[b-1][a] * E[b];
 		
 		if (b-a>k) {
