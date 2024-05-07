@@ -293,13 +293,13 @@ for i in 1 .. k
 end
 
 
-// dp[i][j] = Pr["bags j to i taken"]
+// dp[i][j] = Pr["bags i to j taken"]
 double[][] dp = new double[n-k+1][]
 
 
-for i in k+1 .. n
+for i in 1 .. n-k
 	
-	dp[i-k] = new double[i-k+1]
+	dp[i] = new double[i+1]
 	
 	for j in 1 .. i-k
 		
