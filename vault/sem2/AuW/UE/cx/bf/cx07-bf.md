@@ -294,8 +294,8 @@ end
 
 double[][] dp
 for i in 1 .. n-k
-	for j in n .. n
-		dp[i][j] = 
+	for j in k+1 .. n
+		dp[i][j] = dp[i][j-1]
 	end
 end
 ```
