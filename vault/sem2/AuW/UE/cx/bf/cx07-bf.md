@@ -341,17 +341,15 @@ for (int b = k+1; b <= n; b++) {
 
 
 ```java
+// E[i] = Pr["taking i-th bag"]
 double[] E = new double[n+1];
-for (int i = 1; i <= n; i++) {
-	
-}
-
 
 // streaks[b][a] = Pr["taking all bags from a to b"]
 double[][] streaks = new double[n+1][];
+
 // streaks ending at b ..
 for (int b = 1; b <= n; b++) {
-	E[b] = (1-streaks[b-1]) * p[b] * r[b]; // pr"not being the k-th bag
+	E[b] = (1-streaks[b-1][b-k]) * p[b] * r[b]; // 1-Pr["k-th bag"] * p[b] * r[b]
 	
 	streaks[b] = new double[b]; // # streaks ending at b
 	
@@ -365,13 +363,6 @@ for (int b = 1; b <= n; b++) {
 			E[b] += streaks[b][a] * r[b];
 		}
 	}
-	
-
-// sum to E[b] 
-for (int a = 1; a <= b-k; a++) {
-  E[b] += streaks[b][a] * r[b];
-  // System.out.println(streaks[b][a] * p[b] * r[b]);
-}
 }
 ```
 
