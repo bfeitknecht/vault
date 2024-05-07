@@ -294,18 +294,19 @@ end
 
 
 // dp[i][j] = Pr["bags j to i taken"]
-double[][] dp
+double[][] dp = new double[n-k+1][]
 for i in k+1 .. n
-	dp[i] = new double[i-k+1]
+	
+	dp[i-k] = new double[i-k+1]
+	
 	for j in 1 .. i-k
+		
 		dp[i][j] = dp[i-1][j] * r[j]
 	end
-	E[i] += sum(dp[i])
+	
+	E[i] += sum(dp[i-k])
 end
 
-for i in k+1 .. n
-	E[i] = sum(dp[i-k])
-end
 ```
 
 
