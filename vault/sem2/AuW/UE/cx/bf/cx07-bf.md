@@ -297,9 +297,10 @@ end
 double[][] dp = new double[n+1][]
 
 // streaks starting at i ..
-for i in 1 .. n-k
+for i in k+1 .. n-k
 	
-	dp[i] = (i>k)? dp[i-k+1]		// # streaks from i to n, length(streak) > k
+	// # streaks from i to n, length(streak) > k
+	dp[i] = (i>k)? new double[i-k+1] : new double[1];
 	
 	// .. ending at j
 	for j in k+1 .. n
@@ -309,6 +310,11 @@ for i in 1 .. n-k
 	
 	E[i] += sum(dp[i-k])
 end
+
+
+
+// streaks ending at b
+for b in k+1 .. n
 
 ```
 
