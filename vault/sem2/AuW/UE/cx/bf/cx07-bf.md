@@ -358,8 +358,8 @@ for (int b = 1; b <= n; b++) {
 	for (int a = 1; a <= n; a++) {
 		streaks[b][a] = streaks[b-1][a] * E[b];
 		
-		if (b-a>k) {
-			//
+		if (b>k) {
+			// 
 		}
 	}
 	
