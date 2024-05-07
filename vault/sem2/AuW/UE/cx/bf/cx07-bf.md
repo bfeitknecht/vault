@@ -295,6 +295,8 @@ end
 
 // dp[i][j] = Pr["bags j to i taken"]
 double[][] dp = new double[n-k+1][]
+
+
 for i in k+1 .. n
 	
 	dp[i-k] = new double[i-k+1]
