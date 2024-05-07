@@ -297,11 +297,11 @@ end
 double[][] dp = new double[n-k+1][]
 
 
-for i in 1 .. n-k
+for i in k+1 .. n
 	
-	dp[i] = new double[i+1]
+	dp[i] = // # from  i to n
 	
-	for j in 1 .. i-k
+	for j in 1 .. i
 		
 		dp[i][j] = dp[i-1][j] * r[j]
 	end
