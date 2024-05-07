@@ -356,7 +356,11 @@ for (int b = 1; b <= n; b++) {
 	
 	// .. starting at a
 	for (int a = 1; a <= n; a++) {
-		streaks[b][a] = streaks[b][a-1] * E[b]
+		streaks[b][a] = streaks[b-1][a] * E[b];
+		
+		if (b-a>k) {
+			//
+		}
 	}
 	
 
