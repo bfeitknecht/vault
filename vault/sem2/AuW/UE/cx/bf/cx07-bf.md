@@ -352,7 +352,7 @@ for (int b = 1; b <= n; b++) {
 	// 1-Pr["k-th bag"] * p[b] * r[b]
 	E[b] = (b>k)? (1-streaks[b-1][b-k]) * p[b] * r[b] : p[b] * r[b]; 
 	
-	streaks[b] = new double[b]; // # streaks ending at b
+	streaks[b] = new double[b+1]; // # streaks ending at b
 	
 	// .. starting at a
 	for (int a = 1; a <= n; a++) {
