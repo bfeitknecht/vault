@@ -287,7 +287,7 @@ sliding window dp (?) n\*2 dp-table
 
 dp to get probability for each bag, then sum them up
 ```
-double[] E = new double[n]
+double[] E
 for i in 1 .. k
 	E[i] = p[i] * r[i]
 end
