@@ -318,7 +318,23 @@ end
 
 
 
-
+```java
+// streaks[b][a] = Pr["bags a to b taken"]
+double[][] streaks = new double[n+1][];
+// streaks ending at b ..
+for (int b = k+1; b <= n; b++) {
+	// # streaks from a to b, length > k
+	streaks[b] = new double[b-k+1];
+	// .. starting at a
+	for (int a = 1; a <= b-k; a++) {
+		streaks[b][a] = streak(a, b);
+	}
+	// sum to E[b] 
+	for (double streak : streaks[b]) {
+		E[b] += streak;
+	}
+}
+```
 
 
 
