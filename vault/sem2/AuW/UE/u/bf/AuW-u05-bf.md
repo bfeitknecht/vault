@@ -53,8 +53,8 @@ for p' in P' do
 	Q.push(p')
 end
 
-function(p, q, r)
-	
+function ccw(p, q, r)
+	return (q.x - p.x)(r.y - p.y) - (q.y - p.y)(r.x - p.x)
 end
 ```
 
