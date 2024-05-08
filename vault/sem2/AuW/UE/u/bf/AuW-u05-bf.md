@@ -17,9 +17,7 @@ ___
 ## (b)
 ![[AuW-u05-e.pdf#page=1&rect=106,418,518,480|AuW-u05-e, p.1]]
 
-We use the JarvisWrap algorithm
-
-
+We use the JarvisWrap algorithm, with input $c_0$, which runs in $O(nh)$.
 
 
 
