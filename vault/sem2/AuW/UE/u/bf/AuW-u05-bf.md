@@ -3,7 +3,7 @@
 ## (a)
 ![[AuW-u05-e.pdf#page=1&rect=106,484,518,509|AuW-u05-e, p.1]]
 
-We use the LocalRepair algorithm, with input $S$ which, per definition, is sorted by $x$ coordinates.
+We use the LocalRepair algorithm, with input $S=\{s_{i\leq n} | s_{j}(x)< s_{j+1}(x), 1\le j < n\}$ which, per definition, is sorted by $x$ coordinates.
 
 ![[AuW-L20-local-repair.pdf#page=38&rect=109,99,888,641|AuW-L20-local-repair, p.38]]
 
