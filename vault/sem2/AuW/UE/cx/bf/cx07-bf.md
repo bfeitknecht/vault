@@ -334,6 +334,7 @@ for (int b = 1; b <= n; b++) {
 	else {
 		E[b] = p[b] * r[b] * (1-E[b-1]);
 	}
+	streak[b] = E[b];
 	
 	// .. starting at a
 	for (int a = 1; a < b; a++) {
