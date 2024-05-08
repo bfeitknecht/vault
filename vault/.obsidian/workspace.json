@@ -50,9 +50,37 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "de2e29abb52597e6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
+                "page": 1,
+                "left": -90,
+                "top": 706,
+                "zoom": 1.421189498652726
+              }
+            }
+          },
+          {
+            "id": "2f48f6f213da889c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
+                "page": 1,
+                "left": -9,
+                "top": 702,
+                "zoom": 1.7991654291454724
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -119,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
+                "file": "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
+                "file": "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md"
+                "file": "sem2/AuW/UE/u/e/AuW-u05-e.pdf"
               }
             }
           },
@@ -194,10 +222,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "7ccb2dd121511d5c",
+  "active": "de2e29abb52597e6",
   "lastOpenFiles": [
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+    "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
+    "sem2/AuW/UE/u/e/AuW-u04-e.pdf",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem1/AuD/extra/AuD_script.pdf",
     "sem2/AuW/UE/u/s/AuW-u04-s.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
@@ -208,8 +239,6 @@
     "sem2/DDCA/VRL/notes/DDCA.md",
     "smart-chats",
     "sem2/AuW/UE/cx/bf",
-    "sem2/AuW/UE/cx",
-    "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
@@ -238,7 +267,6 @@
     "sem1/DMath/UE/bf/corrections/!DMath-u-bf-c.md",
     "sem1/DMath/UE/bf/pdf/!DMath-u-bf-pdf.md",
     "sem1/DMath/UE/bf/md/DMath-u12-bf.md",
-    "sem1/DMath/UE/bf/md/DMath-u11-bf.md",
     "sem1/LinAlg/PV/other/LinAlg-topics-demistified.png",
     "sem1/DMath/PV/summaries/exponential-modular-arithmetic.jpg",
     "Untitled.canvas",
