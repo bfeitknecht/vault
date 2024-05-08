@@ -17,8 +17,9 @@ ___
 ## (b)
 ![[AuW-u05-e.pdf#page=1&rect=106,418,518,480|AuW-u05-e, p.1]]
 
+![[AuW-script.pdf#page=213&rect=209,515,385,534|AuW-script, p.213]]
 
-We split the set $C$ into two subsets, $C_{upper}=\{c_{i}\in C | c_{i}\prec_{c_{1}}c_{n}\}$ and $C_{lower}$, where
+We split the set $C$ into two subsets, $C_{upper}=\{c_{u}\in C \ | \ c_{u}\prec_{c_{n}}c_{1}\}$ and $C_{lower} =\{c_{l}\in C \ | \ c_{l}\prec_{c_{1}}c_{n}\}$.
 
 
 
