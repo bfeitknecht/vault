@@ -1,4 +1,406 @@
 {
-  "workspaces": {},
+  "workspaces": {
+    "AuW-cx": {
+      "main": {
+        "id": "ef0204964e2b9162",
+        "type": "split",
+        "children": [
+          {
+            "id": "96e62d22eac54a13",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2984081100d9e658",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              },
+              {
+                "id": "7ccb2dd121511d5c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "5a003b4ef00c0e0d",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                    "page": 214,
+                    "left": -150,
+                    "top": 542,
+                    "zoom": 1.23
+                  }
+                }
+              },
+              {
+                "id": "2f48f6f213da889c",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
+                    "page": 1,
+                    "left": -9,
+                    "top": 594,
+                    "zoom": 1.7991654291454724
+                  }
+                }
+              },
+              {
+                "id": "de2e29abb52597e6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "2760976af0ce956a",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
+                    "page": 28,
+                    "left": -172,
+                    "top": 266,
+                    "zoom": 1.56
+                  }
+                }
+              },
+              {
+                "id": "215a5b3c05465418",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
+                    "page": 33,
+                    "left": -376,
+                    "top": 398,
+                    "zoom": 0.62
+                  }
+                }
+              }
+            ],
+            "currentTab": 6
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "fe28d63e32c3168b",
+        "type": "split",
+        "children": [
+          {
+            "id": "fddab58c0769d063",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5f4cf158045f14fe",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "3eef01e3b58afb78",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:/sem2/AuW/VRL/slides",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "byModifiedTime"
+                  }
+                }
+              },
+              {
+                "id": "b14014a5400a500b",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "right": {
+        "id": "4be59d580df31d93",
+        "type": "split",
+        "children": [
+          {
+            "id": "a9eab3abde570e06",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b3aff261bc292caf",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "2d28441159ca953f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "ee946e358c8111ed",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "0f56d709fdb24392",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf"
+                  }
+                }
+              },
+              {
+                "id": "d4d9e5cf2cd5e94b",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "mermaid-tools:Open Mermaid Toolbar": true,
+          "omnisearch:Omnisearch": false,
+          "workspaces:Manage workspace layouts": false,
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": false,
+          "command-palette:Open command palette": false,
+          "templates:Insert template": true,
+          "zk-prefixer:Create new unique note": true,
+          "pdf-plus:PDF++: Toggle auto-copy": true,
+          "pdf-plus:PDF++: Toggle auto-focus": true,
+          "pdf-plus:PDF++: Toggle auto-paste": true
+        }
+      },
+      "active": "215a5b3c05465418",
+      "mtime": "2024-05-08T13:28:40+02:00"
+    },
+    "clean": {
+      "main": {
+        "id": "ef0204964e2b9162",
+        "type": "split",
+        "children": [
+          {
+            "id": "805f086209640ec1",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bfa50aa2f448175d",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "fe28d63e32c3168b",
+        "type": "split",
+        "children": [
+          {
+            "id": "fddab58c0769d063",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5f4cf158045f14fe",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "3eef01e3b58afb78",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:/sem2/AuW/VRL/slides",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "byModifiedTime"
+                  }
+                }
+              },
+              {
+                "id": "b14014a5400a500b",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "right": {
+        "id": "4be59d580df31d93",
+        "type": "split",
+        "children": [
+          {
+            "id": "a9eab3abde570e06",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b3aff261bc292caf",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "2d28441159ca953f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "ee946e358c8111ed",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "0f56d709fdb24392",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "d4d9e5cf2cd5e94b",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "mermaid-tools:Open Mermaid Toolbar": true,
+          "omnisearch:Omnisearch": false,
+          "workspaces:Manage workspace layouts": false,
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": false,
+          "command-palette:Open command palette": false,
+          "templates:Insert template": true,
+          "zk-prefixer:Create new unique note": true,
+          "pdf-plus:PDF++: Toggle auto-copy": true,
+          "pdf-plus:PDF++: Toggle auto-focus": true,
+          "pdf-plus:PDF++: Toggle auto-paste": true
+        }
+      },
+      "active": "bfa50aa2f448175d",
+      "mtime": "2024-05-08T13:28:56+02:00"
+    }
+  },
   "active": "clean"
 }
