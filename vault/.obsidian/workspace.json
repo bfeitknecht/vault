@@ -18,8 +18,23 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e925fca17d85b43f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/PProg/VRL/extra/benji/PProg-w10-benji.pdf",
+                "page": 1,
+                "left": -13,
+                "top": 409,
+                "zoom": 1.175
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/PProg/VRL/notes/PProg.md",
+                "file": "sem2/PProg/VRL/extra/benji/PProg-w10-benji.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/PProg/VRL/notes/PProg.md",
+                "file": "sem2/PProg/VRL/extra/benji/PProg-w10-benji.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/PProg/VRL/notes/PProg.md"
+                "file": "sem2/PProg/VRL/extra/benji/PProg-w10-benji.pdf"
               }
             }
           },
@@ -160,10 +175,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "c18bc8ce51ea05f1",
+  "active": "e925fca17d85b43f",
   "lastOpenFiles": [
-    "sem2/PProg/VRL/extra/benji/PProg-w10-benji.pdf",
     "sem2/PProg/VRL/notes/PProg.md",
+    "sem2/PProg/VRL/extra/benji/PProg-w10-benji.pdf",
     "sem2/PProg/VRL/extra/benji/PProw-w09-benji.pdf",
     "sem2/PProg/VRL/extra/benji/PProw-w08-benji.pdf",
     "sem2/PProg/VRL/extra/benji/PProw-w07-benji.pdf",
