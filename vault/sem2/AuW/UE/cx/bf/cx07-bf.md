@@ -391,7 +391,8 @@ for (int b = 1; b <= n; b++) {
 
 
 
-
+at the k+1 th iteration, we need
+1) Pr\["bags 1 .. k taken"]
 
 
 
