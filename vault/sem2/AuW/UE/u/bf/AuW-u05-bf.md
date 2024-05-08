@@ -17,8 +17,27 @@ ___
 ## (b)
 ![[AuW-u05-e.pdf#page=1&rect=106,418,518,480|AuW-u05-e, p.1]]
 
-We use the JarvisWrap algorithm, with input $c_0$, which runs in $O(nh)$.
 
+We split the set $C$ into two subsets, $C_{upper}=\{c_{i}\in C | c_{i}\prec_{c_{1}}c_{n}\}$ and $C_{lower}$, where
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We use the JarvisWrap algorithm, with input $c_0$, which runs in $O(nh)$.
 
 ![[AuW-script.pdf#page=212&rect=115,517,481,632|AuW-script, p.212]]
 ![[AuW-script.pdf#page=213&rect=99,606,496,720|AuW-script, p.213]]
