@@ -24,6 +24,7 @@ ___
 ## (c)
 ![[AuW-u05-e.pdf#page=1&rect=106,375,519,415|AuW-u05-e, p.1]]
 
+Since the points $p$ in $P$ are sorted anticlockwise and P is a simple polygon (no crossing edges), we can turn every point into its polar coordinate system equivalent. This takes $O(1)$ for every point.
 ```
 P' = {}
 for p in P do
@@ -31,7 +32,8 @@ for p in P do
 	P' += p'
 end
 
-
+Q = {}
+for p' in P' do
 ```
 
 
