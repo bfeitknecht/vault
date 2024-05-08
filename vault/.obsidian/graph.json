@@ -5,7 +5,7 @@
   "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:sem2/AuW",
@@ -46,6 +46,6 @@
   "repelStrength": 20,
   "linkStrength": 0.965535481770833,
   "linkDistance": 500,
-  "scale": 0.07800239283386941,
+  "scale": 0.0981506030467572,
   "close": false
 }

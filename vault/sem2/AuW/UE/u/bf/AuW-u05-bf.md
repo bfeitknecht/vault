@@ -24,9 +24,21 @@ ___
 ## (c)
 ![[AuW-u05-e.pdf#page=1&rect=106,375,519,415|AuW-u05-e, p.1]]
 
+```
+P' = {}
+for p in P do
+	p' = toRadian(p(x), p(y))
+	P' += p'
+end
+
+
+```
 
 
 
 ![[AuW-L19-convex-hulls.pdf#page=28&rect=25,92,339,227|AuW-L19-convex-hulls, p.10]]
 
 ![[AuW-script.pdf#page=214&rect=113,394,484,460|AuW-script, p.214]]
+
+Thus we have computed $conv(P)$ in $O(n)$.
+$\square$
