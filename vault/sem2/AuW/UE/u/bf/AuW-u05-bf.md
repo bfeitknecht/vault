@@ -30,6 +30,9 @@ We use the JarvisWrap algorithm
 
 
 
+![[AuW-script.pdf#page=214&rect=113,394,484,460|AuW-script, p.214]]
+
+
 We use LocalRepair again, though this time, we iterate over the points given their index. At each step $i$, we consider only the points with $c_{j< n} \prec_{c_{i}} c_{n}$, that is all the points to the right of the line connecting the current point to $c_n$. 
 
 
@@ -64,7 +67,7 @@ end
 
 
 
-![[AuW-script.pdf#page=214&rect=113,394,484,460|AuW-script, p.214]]
+
 
 Thus we have computed $conv(P)$ in $O(n)$.
 $\square$
