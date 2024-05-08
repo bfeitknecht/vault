@@ -27,14 +27,16 @@ ___
 ## (c)
 ![[AuW-u05-e.pdf#page=1&rect=106,375,519,415|AuW-u05-e, p.1]]
 
-Since the points $p$ in $P$ are sorted anticlockwise and P is a simple polygon (no crossing edges), we can turn every point's $x, y$ coordinates into their polar system equivalent ($r, \theta$). This takes $O(n)$ in total.
-```math
+Since the points $p$ in $P$ are sorted anticlockwise and P is a simple polygon (no crossing edges), we can turn every point's $x, y$ coordinates into their polar system equivalent ($r, \theta$). This takes $O(n)$ in total. 
+
+We then start building a stack, where the top element is always the last point considered a potential candidates for the convex hull's edge points.
+```
 P' = {}
 for p in P do
 	p' = polar(p)
 	P' += p'
 end
-\sqrt{}
+
 Q = {}
 Q.push(p'0)
 for p' in P'\{p'0} do
