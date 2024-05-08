@@ -339,6 +339,7 @@ for (int b = 1; b <= n; b++) {
 	for (int a = 1; a < b; a++) {
 		streak[a] *= E[b];
 	}
+	for (int a )
 	
 	
 	// streak[b] = E[b];
