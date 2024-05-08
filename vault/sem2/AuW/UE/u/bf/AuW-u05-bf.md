@@ -17,7 +17,9 @@ ___
 ## (b)
 ![[AuW-u05-e.pdf#page=1&rect=106,418,518,480|AuW-u05-e, p.1]]
 
-We use LocalRepair again, though this time, we iterate over the points given their index. At each step $i$, we consider only the points with  $c_{i}(x) >c_{i-1}(x)$. 
+We use LocalRepair again, though this time, we iterate over the points given their index. At each step $i$, we consider only the points with $c_{j< n} \prec_{c_{i}} c_{n}$, that is all the points to the right of the line connecting the current point to the 
+
+with  $c_{i}(x) >c_{i-1}(x)$. 
 
 $\square$
 ___
