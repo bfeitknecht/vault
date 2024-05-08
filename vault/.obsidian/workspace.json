@@ -34,9 +34,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 218,
+                "page": 219,
                 "left": -150,
-                "top": 14,
+                "top": 848,
                 "zoom": 1.23
               }
             }
@@ -50,7 +50,7 @@
                 "file": "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
                 "page": 1,
                 "left": -9,
-                "top": 611,
+                "top": 659,
                 "zoom": 1.7991654291454724
               }
             }
@@ -88,15 +88,15 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
-                "page": 19,
+                "page": 21,
                 "left": -376,
-                "top": 524,
+                "top": 302,
                 "zoom": 0.62
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
+                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
+                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf"
+                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md"
               }
             }
           },
@@ -238,13 +238,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "215a5b3c05465418",
+  "active": "de2e29abb52597e6",
   "lastOpenFiles": [
-    "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
-    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
-    "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+    "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
+    "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
     "sem2/AuW/VRL/extra/AuW-formulas.pdf",
     "sem2/AuW/UE/u/e/AuW-u04-e.pdf",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",

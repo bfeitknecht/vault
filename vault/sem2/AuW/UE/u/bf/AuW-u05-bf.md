@@ -1,9 +1,9 @@
-![[AuW-u05-e.pdf#page=1&rect=88,513,518,633|AuW-u05-e, p.1]]
+![[AuW-u05-e.pdf#page=1&rect=87,512,518,635|AuW-u05-e, p.1]]
 
 ## (a)
 ![[AuW-u05-e.pdf#page=1&rect=106,484,518,509|AuW-u05-e, p.1]]
 
-We use the LocalRepair algorithm, with the input $S$ which, per definition, is sorted by $x$ coordinates.
+We use the LocalRepair algorithm, with input $S$ which, per definition, is sorted by $x$ coordinates.
 
 ![[AuW-L20-local-repair.pdf#page=38&rect=109,99,888,641|AuW-L20-local-repair, p.38]]
 
@@ -16,3 +16,9 @@ ___
 ## (b)
 ![[AuW-u05-e.pdf#page=1&rect=106,418,518,480|AuW-u05-e, p.1]]
 
+
+
+___
+
+## (c)
+![[AuW-u05-e.pdf#page=1&rect=106,375,519,415|AuW-u05-e, p.1]]
