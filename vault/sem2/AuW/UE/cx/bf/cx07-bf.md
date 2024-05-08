@@ -328,8 +328,8 @@ double[] streak = new double[n+1];
 
 // streak ending at b ..
 for (int b = 1; b <= n; b++) {
-	if () {
-		
+	if (b<=k) {
+		E[b] = p[b] * r[b]
 	}
 	else
 	E[b] = p[b] * r[b];
