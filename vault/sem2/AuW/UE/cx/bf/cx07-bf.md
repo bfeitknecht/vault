@@ -323,8 +323,10 @@ end
 // E[i] = Pr["i-th bag taken"]
 double[] E = new double[n+1];
 
-// streak[a>0] = Pr["all bags from a to current taken"]
+// streak[a] = Pr["all bags taken from a to b"]
+// streak[0] = Pr["more than k bags taken at b"]
 double[] streak = new double[n+1];
+Arrays.fill(streak, 1);
 
 // streak ending at b ..
 for (int b = 1; b <= n; b++) {
@@ -340,7 +342,9 @@ for (int b = 1; b <= n; b++) {
 	for (int a = 1; a < b; a++) {
 		streak[a] *= E[b];
 	}
-	for (int a )
+	for (int a = 1; a <= b-k; a++) {
+		streak[0] *= streak[a];
+	}
 	
 	
 	// streak[b] = E[b];
