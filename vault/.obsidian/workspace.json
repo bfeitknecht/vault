@@ -49,7 +49,7 @@
               "state": {
                 "file": "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
                 "page": 1,
-                "left": 53,
+                "left": -9,
                 "top": 594,
                 "zoom": 1.7991654291454724
               }
@@ -74,9 +74,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
-                "page": 25,
+                "page": 23,
                 "left": -172,
-                "top": 86,
+                "top": 152,
                 "zoom": 1.56
               }
             }
@@ -241,8 +241,8 @@
   "active": "de2e29abb52597e6",
   "lastOpenFiles": [
     "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
-    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
     "sem2/AuW/VRL/extra/AuW-formulas.pdf",
