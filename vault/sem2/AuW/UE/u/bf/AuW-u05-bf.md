@@ -38,6 +38,7 @@ ___
 Since the points $p$ in $P$ are sorted anticlockwise and P is a simple polygon (no crossing edges), we can turn every point's $x, y$ coordinates into their polar system equivalent ($r, \theta$). This takes $O(n)$ in total. 
 
 We then start building a stack, where the top element is always the last point considered a potential candidates for the convex hull's edge points.
+
 ```
 P' = {}
 for p in P do
@@ -47,7 +48,7 @@ end
 
 Q = {}
 for p' in P' do
-	while Q.size() > 1 and ccw(Q.2nd(), Q.1st(), p') <= 0
+	while Q.size() > 1 and ccw(Q.peaktwice(), Q.peak(), p') <= 0
 		Q.pop
 	end
 	Q.push(p')
@@ -57,13 +58,7 @@ function ccw(p, q, r)
 	return (q.x - p.x)(r.y - p.y) - (q.y - p.y)(r.x - p.x)
 end
 ```
-
-
-
-
-
-
-
+While it may seem that the time complexity of the loop is O(_n_2), because for each point it goes back to check if any of the previous points make a "right turn", it is actually O(_n_), because each point is considered at most twice in some sense. Each point can appear only once as a point $(x_2, y_2)$ in a "left turn" (because the algorithm advances to the next point $(x_{3},y_{3})$ after that), and as a point (𝑥2,𝑦2)![{\displaystyle (x_{2},y_{2})}](https://wikimedia.org/api/rest_v1/media/math/render/svg/d52d44e16a796acee486af49af05f678566d181a) in a "right turn" (because the point (𝑥2,𝑦2)![{\displaystyle (x_{2},y_{2})}](https://wikimedia.org/api/rest_v1/media/math/render/svg/d52d44e16a796acee486af49af05f678566d181a) is removed).
 Thus we have computed $conv(P)$ in $O(n)$.
 $\square$
 ___
