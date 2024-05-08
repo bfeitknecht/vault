@@ -7,7 +7,7 @@ We use the LocalRepair algorithm, with input $S=\{s_{i\leq n} | s_{j}(x)< s_{j+1
 
 ![[AuW-script.pdf#page=223&rect=99,442,496,720|AuW-script, p.223]]
 
-![[AuW-L20-local-repair.pdf#page=39&rect=64,508,985,633|AuW-L20-local-repair, p.39]]
+![[AuW-script.pdf#page=223&rect=114,248,481,300|AuW-script, p.223]]
 
 Thus we have computed $conv(S)$ in $O(n)$.
 $\square$
@@ -25,6 +25,8 @@ We use the JarvisWrap algorithm
 
 ![[AuW-script.pdf#page=214&rect=101,520,496,677|AuW-script, p.214]]
 ![[AuW-script.pdf#page=213&rect=99,606,496,720|AuW-script, p.213]]
+
+![[AuW-script.pdf#page=212&rect=115,517,481,632|AuW-script, p.212]]
 
 
 
