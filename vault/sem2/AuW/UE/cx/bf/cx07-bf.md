@@ -341,15 +341,15 @@ for (int b = 1; b <= n; b++) {
 	for (int a = 1; a <= b; a++) {
 		streak[a] *= E[b];
 	}
+	
+	// update the total probability of streaks > k at b 
 	for (int a = 1; a <= b-k; a++) {
 		streak[0] *= streak[a];
 	}
 	
 	if (b>k) {
-		
+		E[b] += streak[0] * r[b];
 	}
-	
-	// streak[b] = E[b];
 }
 ```
 
