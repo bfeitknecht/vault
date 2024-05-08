@@ -18,23 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e925fca17d85b43f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/PProg/VRL/extra/benji/PProg-w10-benji.pdf",
-                "page": 1,
-                "left": -13,
-                "top": 409,
-                "zoom": 1.175
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/PProg/VRL/extra/benji/PProg-w10-benji.pdf",
+                "file": "sem2/PProg/VRL/notes/PProg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/PProg/VRL/extra/benji/PProg-w10-benji.pdf",
+                "file": "sem2/PProg/VRL/notes/PProg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/PProg/VRL/extra/benji/PProg-w10-benji.pdf"
+                "file": "sem2/PProg/VRL/notes/PProg.md"
               }
             }
           },
@@ -175,19 +160,20 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "e925fca17d85b43f",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
-    "sem2/PProg/VRL/notes/PProg.md",
+    "sem2/PProg/VRL/extra/benji/PProw-09-benji.pdf",
+    "sem2/PProg/VRL/extra/benji/PProw-08-benji.pdf",
+    "sem2/PProg/VRL/extra/benji/PProw-07-benji.pdf",
+    "sem2/PProg/VRL/extra/benji/PProw-06-benji.pdf",
+    "sem2/PProg/VRL/extra/benji/PProw-05-benji.pdf",
+    "sem2/PProg/VRL/extra/benji/PProw-04-benji.pdf",
+    "sem2/PProg/VRL/extra/benji/PProw-03-benji.pdf",
+    "sem2/PProg/VRL/extra/benji/PProw-02-benji.pdf",
+    "sem2/PProg/VRL/extra/benji/PProw-01-benji.pdf",
+    "sem2/PProg/VRL/extra/benji/PProg-10-benji.pdf",
     "sem2/PProg/VRL/extra/benji/PProg-w10-benji.pdf",
-    "sem2/PProg/VRL/extra/benji/PProw-w09-benji.pdf",
-    "sem2/PProg/VRL/extra/benji/PProw-w08-benji.pdf",
-    "sem2/PProg/VRL/extra/benji/PProw-w07-benji.pdf",
-    "sem2/PProg/VRL/extra/benji/PProw-w06-benji.pdf",
-    "sem2/PProg/VRL/extra/benji/PProw-w05-benji.pdf",
-    "sem2/PProg/VRL/extra/benji/PProw-w04-benji.pdf",
-    "sem2/PProg/VRL/extra/benji/PProw-w03-benji.pdf",
-    "sem2/PProg/VRL/extra/benji/PProw-w02-benji.pdf",
-    "sem2/PProg/VRL/extra/benji/PProw-w01-benji.pdf",
+    "sem2/PProg/VRL/notes/PProg.md",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
