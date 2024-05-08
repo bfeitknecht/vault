@@ -37,8 +37,10 @@ end
 
 Q = {}
 for p' in P' do
+	if (p'.r > Q.top().r) then
+		repeat Q.pop() until (p'.r <= Q.top().r)
+	end
 	Q.push(p')
-	W.pop
 end
 ```
 
