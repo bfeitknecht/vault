@@ -329,21 +329,19 @@ double[] streak = new double[n+1];
 // streak ending at b ..
 for (int b = 1; b <= n; b++) {
 	if (b<=k) {
-		E[b] = p[b] * r[b]
+		E[b] = p[b] * r[b];
 	}
-	else
-	E[b] = p[b] * r[b];
+	else {
+		E[b] = p[b] * r[b] * (1-E[b-1]);
+	}
 	
-	streak[b] = E[b];
 	// .. starting at a
 	for (int a = 1; a < b; a++) {
-		streak[a] *= E[a];
+		streak[a] *= E[b];
 	}
 	
-	// sum to E[b] 
-	for (double streak : streaks[b]) {
-		E[b] += streak;
-	}
+	
+	// streak[b] = E[b];
 }
 ```
 
