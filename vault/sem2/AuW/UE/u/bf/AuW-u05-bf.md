@@ -20,19 +20,13 @@ ___
 We use the JarvisWrap algorithm, with input $c_0$, which runs in $O(nh)$.
 
 
-
-![[AuW-script.pdf#page=214&rect=101,520,496,677|AuW-script, p.214]]
-![[AuW-script.pdf#page=213&rect=99,606,496,720|AuW-script, p.213]]
-
 ![[AuW-script.pdf#page=212&rect=115,517,481,632|AuW-script, p.212]]
+![[AuW-script.pdf#page=213&rect=99,606,496,720|AuW-script, p.213]]
+![[AuW-script.pdf#page=214&rect=101,520,496,677|AuW-script, p.214]]
 
-
+Since $h$ will be
 
 ![[AuW-script.pdf#page=214&rect=113,394,484,460|AuW-script, p.214]]
-
-
-We use LocalRepair again, though this time, we iterate over the points given their index. At each step $i$, we consider only the points with $c_{j< n} \prec_{c_{i}} c_{n}$, that is all the points to the right of the line connecting the current point to $c_n$. 
-
 
 $\square$
 ___
