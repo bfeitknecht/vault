@@ -1,3 +1,4 @@
 {
-  "folder": "var/unique"
+  "folder": "var/unique",
+  "format": "YYYY-MM-DD@HH:mm"
 }
