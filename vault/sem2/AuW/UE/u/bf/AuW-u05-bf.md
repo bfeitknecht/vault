@@ -31,12 +31,13 @@ Since the points $p$ in $P$ are sorted anticlockwise and P is a simple polygon (
 ```
 P' = {}
 for p in P do
-	p' = toRadian(p(x), p(y))
+	p' = polar(p)
 	P' += p'
 end
 
 Q = {}
-for p' in P' do
+Q.push(p'0)
+for p' in P'\{p'0} do
 	if (p'.r > Q.top().r) then
 		repeat Q.pop() until (p'.r <= Q.top().r)
 	end
