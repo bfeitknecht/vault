@@ -320,7 +320,7 @@ end
 
 
 ```java
-
+// streak[b] = Pr["all bags from b to current taken"]
 double[] streak = new double[n+1];
 
 // streak ending at b ..
@@ -350,7 +350,7 @@ double[] E = new double[n+1];
 
 // streaks[b][a] = Pr["taking all bags from a to b"]
 double[][] streaks = new double[n+1][];
-streaks[0] = new double[1];
+
 // streaks ending at b ..
 for (int b = 1; b <= n; b++) {
 	// 1-Pr["k-th bag"] * p[b] * r[b]
