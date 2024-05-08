@@ -16,8 +16,7 @@ ___
 ## (b)
 ![[AuW-u05-e.pdf#page=1&rect=106,418,518,480|AuW-u05-e, p.1]]
 
-
-
+We use LocalRepair again, though we iterate over the points given their index. First, we
 ___
 
 ## (c)
