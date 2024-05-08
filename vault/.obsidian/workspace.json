@@ -47,8 +47,14 @@
             "id": "d83bf4fa98d48113",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
+                "page": 1,
+                "left": -9,
+                "top": 728,
+                "zoom": 1.75
+              }
             }
           }
         ],
@@ -119,6 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,6 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +164,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf"
+              }
             }
           },
           {
