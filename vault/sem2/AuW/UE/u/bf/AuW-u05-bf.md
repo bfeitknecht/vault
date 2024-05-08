@@ -18,13 +18,15 @@ ___
 ![[AuW-u05-e.pdf#page=1&rect=106,418,518,480|AuW-u05-e, p.1]]
 
 We use LocalRepair again, though we iterate over the points given their index. At each step $i$, we consider only the points with $c_{i}(x) >c_{i-1}(x)$. 
+
+$\square$
 ___
 
 
 ## (c)
 ![[AuW-u05-e.pdf#page=1&rect=106,375,519,415|AuW-u05-e, p.1]]
 
-Since the points $p$ in $P$ are sorted anticlockwise and P is a simple polygon (no crossing edges), we can turn every point into its polar coordinate system equivalent. This takes $O(1)$ for every point.
+Since the points $p$ in $P$ are sorted anticlockwise and P is a simple polygon (no crossing edges), we can turn every point's $x, y$ coordinates into their polar system equivalent. This takes $O(n)$ in total.
 ```
 P' = {}
 for p in P do
@@ -33,6 +35,7 @@ for p in P do
 end
 
 Q = {}
+while 
 for p' in P' do
 ```
 
@@ -44,3 +47,4 @@ for p' in P' do
 
 Thus we have computed $conv(P)$ in $O(n)$.
 $\square$
+___
