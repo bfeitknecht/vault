@@ -55,13 +55,11 @@
             "id": "de2e29abb52597e6",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
-                "page": 1,
-                "left": -90,
-                "top": 706,
-                "zoom": 1.421189498652726
+                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -74,7 +72,7 @@
                 "file": "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
                 "page": 1,
                 "left": -9,
-                "top": 702,
+                "top": 766,
                 "zoom": 1.7991654291454724
               }
             }
@@ -147,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
+                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
+                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/u/e/AuW-u05-e.pdf"
+                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md"
               }
             }
           },
@@ -224,8 +222,8 @@
   },
   "active": "de2e29abb52597e6",
   "lastOpenFiles": [
-    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/AuW/UE/u/e/AuW-u04-e.pdf",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
