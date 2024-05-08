@@ -1,9 +1,7 @@
 ![[AuW-u05-e.pdf#page=1&rect=88,513,518,633|AuW-u05-e, p.1]]
 
 ## (a)
-
 ![[AuW-u05-e.pdf#page=1&rect=106,484,518,509|AuW-u05-e, p.1]]
-
 
 We use the LocalRepair algorithm, with the input $S$ which, per definition, is sorted by $x$ coordinates.
 
@@ -16,4 +14,5 @@ $\square$
 ___
 
 ## (b)
+![[AuW-u05-e.pdf#page=1&rect=106,418,518,480|AuW-u05-e, p.1]]
 
