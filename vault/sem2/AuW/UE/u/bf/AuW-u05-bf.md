@@ -17,6 +17,12 @@ ___
 ## (b)
 ![[AuW-u05-e.pdf#page=1&rect=106,418,518,480|AuW-u05-e, p.1]]
 
+We use the JarvisWrap algorithm
+
+
+![[AuW-L19-convex-hulls.pdf#page=28&rect=25,92,339,227|AuW-L19-convex-hulls, p.10]]
+
+
 We use LocalRepair again, though this time, we iterate over the points given their index. At each step $i$, we consider only the points with $c_{j< n} \prec_{c_{i}} c_{n}$, that is all the points to the right of the line connecting the current point to $c_n$. 
 
 
@@ -49,7 +55,7 @@ end
 
 
 
-![[AuW-L19-convex-hulls.pdf#page=28&rect=25,92,339,227|AuW-L19-convex-hulls, p.10]]
+
 
 ![[AuW-script.pdf#page=214&rect=113,394,484,460|AuW-script, p.214]]
 
