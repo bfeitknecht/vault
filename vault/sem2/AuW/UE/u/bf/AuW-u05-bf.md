@@ -49,6 +49,7 @@ Q = {}
 Q.push(p'0)
 for p' in P'\{p'0} do
 	if (p'.r > Q.top().r) then
+		while #P' > 1 and ccw(second(P'), top(P'), p') <= 0:
 		repeat Q.pop() until (p'.r <= Q.top().r)
 	end
 	Q.push(p')
