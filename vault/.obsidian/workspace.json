@@ -22,8 +22,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 1,
-                "zoom": 1
+                "page": 211,
+                "left": -9,
+                "top": 325,
+                "zoom": 1.7991654291454724
               }
             }
           },
@@ -35,7 +37,9 @@
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-formulas.pdf",
                 "page": 1,
-                "zoom": 1
+                "left": -47,
+                "top": 408,
+                "zoom": 1.6
               }
             }
           },
@@ -76,9 +80,37 @@
                 "zoom": 1.7991654291454724
               }
             }
+          },
+          {
+            "id": "2760976af0ce956a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
+                "page": 40,
+                "left": -172,
+                "top": 113,
+                "zoom": 1.56
+              }
+            }
+          },
+          {
+            "id": "215a5b3c05465418",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
+                "page": 2,
+                "left": -15,
+                "top": 131,
+                "zoom": 1.0458984375
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -145,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+                "file": "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+                "file": "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md"
+                "file": "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf"
               }
             }
           },
@@ -220,23 +252,23 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "de2e29abb52597e6",
+  "active": "215a5b3c05465418",
   "lastOpenFiles": [
-    "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
+    "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+    "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "sem2/AuW/VRL/extra/AuW-formulas.pdf",
     "sem2/AuW/UE/u/e/AuW-u04-e.pdf",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem1/AuD/extra/AuD_script.pdf",
     "sem2/AuW/UE/u/s/AuW-u04-s.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/UE/pg/s/AuW-pg04-s.pdf",
-    "sem2/AuW/VRL/extra/AuW-formulas.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
     "sem2/DDCA/VRL/notes/DDCA.md",
     "smart-chats",
-    "sem2/AuW/UE/cx/bf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
