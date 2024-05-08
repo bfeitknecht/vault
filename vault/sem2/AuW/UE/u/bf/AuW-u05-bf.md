@@ -27,7 +27,7 @@ ___
 ## (c)
 ![[AuW-u05-e.pdf#page=1&rect=106,375,519,415|AuW-u05-e, p.1]]
 
-Since the points $p$ in $P$ are sorted anticlockwise and P is a simple polygon (no crossing edges), we can turn every point's $x, y$ coordinates into their polar system equivalent. This takes $O(n)$ in total.
+Since the points $p$ in $P$ are sorted anticlockwise and P is a simple polygon (no crossing edges), we can turn every point's $x, y$ coordinates into their polar system equivalent ($r, \theta$). This takes $O(n)$ in total.
 ```
 P' = {}
 for p in P do
@@ -36,8 +36,10 @@ for p in P do
 end
 
 Q = {}
-while 
 for p' in P' do
+	Q.push(p')
+	W.pop
+end
 ```
 
 
