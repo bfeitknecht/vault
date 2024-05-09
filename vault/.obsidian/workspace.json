@@ -40,9 +40,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
-                "page": 1,
+                "page": 22,
                 "left": -5,
-                "top": 276,
+                "top": 206,
                 "zoom": 2.9517549299268264
               }
             }
@@ -56,13 +56,13 @@
                 "file": "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf",
                 "page": 1,
                 "left": -5,
-                "top": 276,
+                "top": 242,
                 "zoom": 2.9517549299268264
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
+                "file": "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
+                "file": "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf"
+                "file": "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf"
               }
             }
           },
@@ -204,13 +204,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "4dfbcbe2816c4827",
+  "active": "254d4c902849e419",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
-    "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "var/export/AuW-u05-bf.pdf",
