@@ -21,6 +21,7 @@ ___
 
 We split the set $C$ into two subsets, $C_{upper}=\{c_{u}\in C \ | \ c_{u}\prec_{c_{n}}c_{1}\}$ and $C_{lower} =\{c_{l}\in C \ | \ c_{l}\prec_{c_{1}}c_{n}\}$.
 
+We then run LocalRepair on these two sets, 
 
 Starting point is $c_1$.
    
