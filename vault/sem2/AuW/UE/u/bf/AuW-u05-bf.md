@@ -13,7 +13,7 @@ We use the LocalRepair algorithm with input $S$ which, per definition, is sorted
 
 Thus we have computed $conv(S)$ in $O(n)$.
 $\square$
-___
+
 <div class="page-break" style="page-break-before: always;"></div>
 
 
@@ -26,7 +26,7 @@ We split the set $C$ into two subsets, $C_{upper}=\{c_{u}\in C \ | \ c_{u}\prec_
 
 Thus, we have computed $conv(C)$ in $O(n)$.
 $\square$
-___
+
 <div class="page-break" style="page-break-before: always;"></div>
 
 
@@ -63,4 +63,4 @@ While it may seem that the time complexity of the loop is $O(n^2)$, because for 
 
 Thus we have computed $conv(P)$ in $O(n)$.
 $\square$
-___
+
