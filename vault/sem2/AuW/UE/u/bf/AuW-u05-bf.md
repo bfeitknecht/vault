@@ -22,7 +22,23 @@ ___
 We split the set $C$ into two subsets, $C_{upper}=\{c_{u}\in C \ | \ c_{u}\prec_{c_{n}}c_{1}\}$ and $C_{lower} =\{c_{l}\in C \ | \ c_{l}\prec_{c_{1}}c_{n}\}$.
 
 
-
+1. **Find the point with the lowest x-coordinate:** 
+   Iterate through all the points once to find the point with the lowest x-coordinate. This operation takes O(n) time.
+   
+2. **Scan through the points to find the upper and lower hulls:**
+    - Initialize two empty stacks: one for the upper hull and one for the lower hull.
+    - Starting from the point with the lowest x-coordinate (the starting point), iterate through all the points once.
+    - For each point:
+        - Check whether it belongs to the upper or lower hull by comparing its position relative to the previous points.
+        - For the upper hull, keep removing points from the stack until the current point forms a clockwise turn with the top two points in the stack.
+        - For the lower hull, keep removing points from the stack until the current point forms a counterclockwise turn with the top two points in the stack.
+        - Push the current point onto the corresponding stack.
+    - This scanning step also takes O(n) time because each point is processed once.
+      
+3. **Combine the upper and lower hulls to form the convex hull:**
+- Remove the last point from each hull to avoid duplicating the starting point.
+- Concatenate the upper hull (in reverse order) with the lower hull to form the convex hull.
+- This concatenation step takes O(n) time.
 
 
 
