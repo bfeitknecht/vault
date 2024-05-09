@@ -34,6 +34,20 @@
             }
           },
           {
+            "id": "4dfbcbe2816c4827",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
+                "page": 1,
+                "left": -5,
+                "top": 276,
+                "zoom": 2.9517549299268264
+              }
+            }
+          },
+          {
             "id": "254d4c902849e419",
             "type": "leaf",
             "state": {
@@ -41,28 +55,14 @@
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf",
                 "page": 1,
-                "left": -6,
+                "left": -5,
                 "top": 276,
-                "zoom": 2.331638348009426
-              }
-            }
-          },
-          {
-            "id": "65910321b2289d6d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
-                "page": 1,
-                "left": -15,
-                "top": 606,
-                "zoom": 1.0147058823529411
+                "zoom": 2.9517549299268264
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -128,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
+                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
+                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf"
+                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf"
               }
             }
           },
@@ -185,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,9 +204,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "65910321b2289d6d",
+  "active": "4dfbcbe2816c4827",
   "lastOpenFiles": [
     "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf",
+    "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
