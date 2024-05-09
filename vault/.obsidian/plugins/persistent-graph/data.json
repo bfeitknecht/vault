@@ -1,0 +1,3210 @@
+{
+  "nodePositions": [
+    {
+      "id": "sem1/AuD/PV/summaries/java-algorithms.md",
+      "x": 10133.732421875,
+      "y": -13283.751953125
+    },
+    {
+      "id": "sem1/AuD/UE/bf/md/AuD-u00-bf.md",
+      "x": 19528.74609375,
+      "y": -4490.5166015625
+    },
+    {
+      "id": "sem1/AuD/UE/bf/md/AuD-u07-bf.md",
+      "x": 19290.890625,
+      "y": -4077.034423828125
+    },
+    {
+      "id": "sem1/AuD/UE/bf/md/AuD-u08-bf.md",
+      "x": 19471.060546875,
+      "y": -4259.68798828125
+    },
+    {
+      "id": "sem1/AuD/UE/bf/md/AuD-u09-bf.md",
+      "x": 19333.052734375,
+      "y": -4955.21875
+    },
+    {
+      "id": "sem1/AuD/UE/bf/md/AuD-u11-bf.md",
+      "x": 19496.642578125,
+      "y": -4731.31298828125
+    },
+    {
+      "id": "sem1/AuD/VRL/V00_AuD.md",
+      "x": 8311.1796875,
+      "y": -8282.6533203125
+    },
+    {
+      "id": "sem1/AuD/VRL/V01_karatsuba.md",
+      "x": 8383.328125,
+      "y": -9029.3427734375
+    },
+    {
+      "id": "sem1/AuD/VRL/V02_big-O.md",
+      "x": 7635.701171875,
+      "y": -9282.23828125
+    },
+    {
+      "id": "sem1/AuD/VRL/V03_.md",
+      "x": 7834.3125,
+      "y": -9332.720703125
+    },
+    {
+      "id": "sem1/AuD/VRL/V04_.md",
+      "x": 7342.75927734375,
+      "y": -8334.072265625
+    },
+    {
+      "id": "sem1/AuD/VRL/V05_.md",
+      "x": 8472.64453125,
+      "y": -8804.13671875
+    },
+    {
+      "id": "sem1/AuD/VRL/V06_.md",
+      "x": 8039.97021484375,
+      "y": -9297.3408203125
+    },
+    {
+      "id": "sem1/AuD/VRL/V07_.md",
+      "x": 7237.412109375,
+      "y": -8572.4697265625
+    },
+    {
+      "id": "sem1/AuD/VRL/V08_.md",
+      "x": 7317.70751953125,
+      "y": -9020.8359375
+    },
+    {
+      "id": "sem1/AuD/VRL/V09_.md",
+      "x": 8231.67578125,
+      "y": -9198.9208984375
+    },
+    {
+      "id": "sem1/AuD/VRL/V10_.md",
+      "x": 7233.93798828125,
+      "y": -8812.109375
+    },
+    {
+      "id": "sem1/AuD/VRL/V11_.md",
+      "x": 7449.08203125,
+      "y": -9191.166015625
+    },
+    {
+      "id": "sem1/AuD/VRL/V12_.md",
+      "x": 7578.00634765625,
+      "y": -8147.34130859375
+    },
+    {
+      "id": "sem1/AuD/VRL/V13_.md",
+      "x": 8460.029296875,
+      "y": -8542.0927734375
+    },
+    {
+      "id": "sem1/AuD/VRL/V14_.md",
+      "x": 7967.00830078125,
+      "y": -8105.462890625
+    },
+    {
+      "id": "sem1/DMath/UE/bf/md/DMath-u01-bf.md",
+      "x": -15642.888671875,
+      "y": 4364.63037109375
+    },
+    {
+      "id": "sem1/DMath/UE/bf/md/DMath-u06-bf.md",
+      "x": -15201.0810546875,
+      "y": 3954.96875
+    },
+    {
+      "id": "sem1/DMath/UE/bf/md/DMath-u07-bf.md",
+      "x": -14909.4326171875,
+      "y": 3975.906982421875
+    },
+    {
+      "id": "sem1/DMath/UE/bf/md/DMath-u08-bf.md",
+      "x": -15576.9599609375,
+      "y": 4175.46044921875
+    },
+    {
+      "id": "sem1/DMath/UE/bf/md/DMath-u09-bf.md",
+      "x": -15417.6787109375,
+      "y": 4037.401123046875
+    },
+    {
+      "id": "sem1/DMath/UE/bf/md/DMath-u10-bf.md",
+      "x": -15364.37109375,
+      "y": 4994.19580078125
+    },
+    {
+      "id": "sem1/DMath/UE/bf/md/DMath-u11-bf.md",
+      "x": -15587.7529296875,
+      "y": 4778.10791015625
+    },
+    {
+      "id": "sem1/DMath/UE/bf/md/DMath-u12-bf.md",
+      "x": -15679.9345703125,
+      "y": 4566.2890625
+    },
+    {
+      "id": "sem1/DMath/VRL/V01_mathematical-propositions.md",
+      "x": -2596.75341796875,
+      "y": -1820.1689453125
+    },
+    {
+      "id": "sem1/DMath/VRL/V02_logical-operators.md",
+      "x": -2181.979248046875,
+      "y": -903.728515625
+    },
+    {
+      "id": "sem1/DMath/VRL/V03_predicates.md",
+      "x": -2523.4580078125,
+      "y": -634.744384765625
+    },
+    {
+      "id": "sem1/DMath/VRL/V04_logical-formulas.md",
+      "x": -2215.5947265625,
+      "y": -1624.828125
+    },
+    {
+      "id": "sem1/DMath/VRL/V05_equivalence-transformations.md",
+      "x": -3118.305908203125,
+      "y": -812.1429443359375
+    },
+    {
+      "id": "sem1/DMath/VRL/V06_lemmas.md",
+      "x": -2108.201171875,
+      "y": -1462.0367431640625
+    },
+    {
+      "id": "sem1/DMath/VRL/V08_relations.md",
+      "x": -2902.411865234375,
+      "y": -1771.8590087890625
+    },
+    {
+      "id": "sem1/DMath/VRL/V10_posets.md",
+      "x": -2791.91845703125,
+      "y": -621.451416015625
+    },
+    {
+      "id": "sem1/DMath/VRL/V11_injection.md",
+      "x": -2372.9990234375,
+      "y": -1753.8492431640625
+    },
+    {
+      "id": "sem1/DMath/VRL/V12_ring.md",
+      "x": -2082.033935546875,
+      "y": -1272.7791748046875
+    },
+    {
+      "id": "sem1/DMath/VRL/V13_set-product.md",
+      "x": -2081.300048828125,
+      "y": -1078.3134765625
+    },
+    {
+      "id": "sem1/DMath/VRL/V14_körper.md",
+      "x": -2312.165771484375,
+      "y": -735.8350219726562
+    },
+    {
+      "id": "sem1/EProg/UE/bf/EProg-u01-bf.md",
+      "x": 2030.6236572265625,
+      "y": -15988
+    },
+    {
+      "id": "sem1/EProg/VRL/V00_EProg.md",
+      "x": 1369.368408203125,
+      "y": -12690.5791015625
+    },
+    {
+      "id": "sem1/EProg/VRL/V01_EBNF.md",
+      "x": 1346.2564697265625,
+      "y": -11719.30078125
+    },
+    {
+      "id": "sem1/EProg/VRL/V02_EBNF+.md",
+      "x": 821.376708984375,
+      "y": -12822.41015625
+    },
+    {
+      "id": "sem1/EProg/VRL/V03_pre-&post-conditions.md",
+      "x": 637.8020629882812,
+      "y": -12875.1455078125
+    },
+    {
+      "id": "sem1/EProg/VRL/V04_typen.md",
+      "x": 1549.7225341796875,
+      "y": -12458.802734375
+    },
+    {
+      "id": "sem1/EProg/VRL/V05_verzweigungen.md",
+      "x": 521.5355224609375,
+      "y": -12710.9423828125
+    },
+    {
+      "id": "sem1/EProg/VRL/V06_.md",
+      "x": 1589.4080810546875,
+      "y": -12163.7470703125
+    },
+    {
+      "id": "sem1/EProg/VRL/V07_.md",
+      "x": 930.9442749023438,
+      "y": -11493.376953125
+    },
+    {
+      "id": "sem1/EProg/VRL/V08_.md",
+      "x": 1523.99658203125,
+      "y": -11908.642578125
+    },
+    {
+      "id": "sem1/EProg/VRL/V09_.md",
+      "x": 406.1465759277344,
+      "y": -12560.962890625
+    },
+    {
+      "id": "sem1/EProg/VRL/V10_.md",
+      "x": 948.1435546875,
+      "y": -12989.080078125
+    },
+    {
+      "id": "sem1/EProg/VRL/V11_.md",
+      "x": 1277.0513916015625,
+      "y": -11530.1201171875
+    },
+    {
+      "id": "sem1/EProg/VRL/V12_.md",
+      "x": 1772.132080078125,
+      "y": -12220.283203125
+    },
+    {
+      "id": "sem1/EProg/VRL/V13_.md",
+      "x": 1555.17333984375,
+      "y": -11704.6455078125
+    },
+    {
+      "id": "sem1/EProg/VRL/V14_.md",
+      "x": 1097.2349853515625,
+      "y": -12841.94921875
+    },
+    {
+      "id": "sem1/EProg/VRL/V15_.md",
+      "x": 604.3997192382812,
+      "y": -11640.462890625
+    },
+    {
+      "id": "sem1/EProg/VRL/V16_.md",
+      "x": 491.77227783203125,
+      "y": -11810.2294921875
+    },
+    {
+      "id": "sem1/EProg/VRL/V17_.md",
+      "x": 337.22882080078125,
+      "y": -12377.783203125
+    },
+    {
+      "id": "sem1/EProg/VRL/V18_.md",
+      "x": 1474.4173583984375,
+      "y": -12846.0673828125
+    },
+    {
+      "id": "sem1/EProg/VRL/V19_.md",
+      "x": 1745.1978759765625,
+      "y": -12444.5830078125
+    },
+    {
+      "id": "sem1/EProg/VRL/V21_.md",
+      "x": 1091.630859375,
+      "y": -11613.9404296875
+    },
+    {
+      "id": "sem1/EProg/VRL/V22_.md",
+      "x": 1721.14892578125,
+      "y": -11963.4267578125
+    },
+    {
+      "id": "sem1/EProg/VRL/V23_.md",
+      "x": 1630.4637451171875,
+      "y": -12665.580078125
+    },
+    {
+      "id": "sem1/EProg/VRL/V24_.md",
+      "x": 379.26287841796875,
+      "y": -11976.646484375
+    },
+    {
+      "id": "sem1/EProg/VRL/V25_.md",
+      "x": 1258.63134765625,
+      "y": -12945.390625
+    },
+    {
+      "id": "sem1/EProg/VRL/V26_.md",
+      "x": 343.4963073730469,
+      "y": -12177.01171875
+    },
+    {
+      "id": "sem1/EProg/VRL/V27_.md",
+      "x": 797.7185668945312,
+      "y": -11644.265625
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V00_LinAlg.md",
+      "x": -9085.587890625,
+      "y": -10179.2666015625
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V01_linear-combinations.md",
+      "x": -9557.369140625,
+      "y": -10399.580078125
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V02_scalar-products.md",
+      "x": -9844.2109375,
+      "y": -10378.888671875
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V03_matrix-multiplication.md",
+      "x": -8890.6005859375,
+      "y": -10131.6064453125
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V04_.md",
+      "x": -10192.046875,
+      "y": -9925.4052734375
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V05_.md",
+      "x": -8924.72265625,
+      "y": -9491.876953125
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V06_.md",
+      "x": -10355.1005859375,
+      "y": -9613.658203125
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V07_.md",
+      "x": -9282.404296875,
+      "y": -10330.0390625
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V08_.md",
+      "x": -10051.419921875,
+      "y": -10218.669921875
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V09_.md",
+      "x": -9547.134765625,
+      "y": -10588.443359375
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V10_.md",
+      "x": -10324.302734375,
+      "y": -10078.9716796875
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V11_.md",
+      "x": -10374.73046875,
+      "y": -9835.0068359375
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V12_.md",
+      "x": -9077.958984375,
+      "y": -10389.5
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V13_.md",
+      "x": -9784.2978515625,
+      "y": -10564.6201171875
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V14_orthonormale-basis.md",
+      "x": -9171.341796875,
+      "y": -9235.0537109375
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V16_.md",
+      "x": -10222.9169921875,
+      "y": -9366.8525390625
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V17_.md",
+      "x": -10236.2783203125,
+      "y": -10271.2607421875
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V18_.md",
+      "x": -8994.7646484375,
+      "y": -9681.2841796875
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V19_.md",
+      "x": -10045.4609375,
+      "y": -10453.556640625
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V20_.md",
+      "x": -10023.7802734375,
+      "y": -9335.2587890625
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V21_.md",
+      "x": -9942.7705078125,
+      "y": -9161.09375
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V22_.md",
+      "x": -9115.099609375,
+      "y": -9421.2900390625
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V23_.md",
+      "x": -8835.86328125,
+      "y": -9813.47265625
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V24_.md",
+      "x": -8990.3642578125,
+      "y": -9945.9267578125
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V25_.md",
+      "x": -9738.94921875,
+      "y": -9174.19921875
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V26_.md",
+      "x": -9318.052734375,
+      "y": -10528.345703125
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V27_.md",
+      "x": -10169.708984375,
+      "y": -9593.515625
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V28_.md",
+      "x": -9369.3642578125,
+      "y": -9205.537109375
+    },
+    {
+      "id": "sem1/LinAlg/VRL/V29_.md",
+      "x": -9547.7392578125,
+      "y": -9120.9912109375
+    },
+    {
+      "id": "sem2/Analysis-1/UE/bf/Analysis-1-u01-bf.md",
+      "x": 9542.64453125,
+      "y": 13122.1015625
+    },
+    {
+      "id": "sem2/Analysis-1/UE/bf/Analysis-1-u02-bf.md",
+      "x": 9060.943359375,
+      "y": 12901.44140625
+    },
+    {
+      "id": "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
+      "x": 10272.4697265625,
+      "y": 15729.8740234375
+    },
+    {
+      "id": "sem2/Analysis-1/VRL/notes/Analysis-1.md",
+      "x": 10621.7724609375,
+      "y": 15596.84765625
+    },
+    {
+      "id": "sem2/Analysis-1/VRL/slides/Analysis-1-00-slides.md",
+      "x": 9519.4091796875,
+      "y": 15474.037109375
+    },
+    {
+      "id": "sem2/AuW/UE/cx/bf/cx07-bf.md",
+      "x": -6445.0537109375,
+      "y": 13674.416015625
+    },
+    {
+      "id": "sem2/AuW/UE/pg/bf/AuW-u01-pg-bf.md",
+      "x": -6506.0244140625,
+      "y": 20860.38671875
+    },
+    {
+      "id": "sem2/AuW/UE/pg/bf/AuW-u02-pg-bf.md",
+      "x": -6666.89599609375,
+      "y": 20559.541015625
+    },
+    {
+      "id": "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
+      "x": -6367.216796875,
+      "y": 21226.90234375
+    },
+    {
+      "id": "sem2/AuW/UE/u/bf/AuW-u00-bf.md",
+      "x": -8153.77587890625,
+      "y": 16735.669921875
+    },
+    {
+      "id": "sem2/AuW/UE/u/bf/AuW-u01-bf.md",
+      "x": -7666.98779296875,
+      "y": 16891.31640625
+    },
+    {
+      "id": "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
+      "x": -8768.6650390625,
+      "y": 17649.365234375
+    },
+    {
+      "id": "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
+      "x": -8825.5537109375,
+      "y": 17261.078125
+    },
+    {
+      "id": "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+      "x": -8204.0751953125,
+      "y": 18046.833984375
+    },
+    {
+      "id": "sem2/AuW/VRL/notes/AuW.md",
+      "x": -3022.87255859375,
+      "y": 13577.6826171875
+    },
+    {
+      "id": "sem2/DDCA/UE/bf/DDCA-u05-manual-bf-cs.md",
+      "x": 14379.0615234375,
+      "y": 5954.71875
+    },
+    {
+      "id": "sem2/DDCA/UE/bf/DDCA-u06-manual-bf-cs.md",
+      "x": 14460.7412109375,
+      "y": 6216.126953125
+    },
+    {
+      "id": "sem2/DDCA/VRL/notes/DDCA.md",
+      "x": 8835.3916015625,
+      "y": 7903.1650390625
+    },
+    {
+      "id": "sem2/PProg/VRL/notes/PProg.md",
+      "x": 5389.12255859375,
+      "y": 12847.1845703125
+    },
+    {
+      "id": "var/escapades/202402271204.md",
+      "x": 1527.5364990234375,
+      "y": 4445.615234375
+    },
+    {
+      "id": "var/escapades/theoretische informatik zhaw.md",
+      "x": 857.6207885742188,
+      "y": 4623.9013671875
+    },
+    {
+      "id": "var/support/templates/page-break.template.md",
+      "x": -1367.55419921875,
+      "y": 3764.0380859375
+    },
+    {
+      "id": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+      "x": -6863.8115234375,
+      "y": 17300.173828125
+    },
+    {
+      "id": "sem1/AuD/PV/kenji/AuD-w05-kenji.pdf",
+      "x": 12268.359375,
+      "y": -10710.767578125
+    },
+    {
+      "id": "sem1/AuD/PV/kenji/AuD-w06-kenji.pdf",
+      "x": 11406.802734375,
+      "y": -10011.12109375
+    },
+    {
+      "id": "sem1/AuD/PV/kenji/AuD-w07-kenji.pdf",
+      "x": 11797.5205078125,
+      "y": -9902.4873046875
+    },
+    {
+      "id": "sem1/AuD/PV/kenji/AuD-w08-kenji.pdf",
+      "x": 12260.396484375,
+      "y": -10195.1298828125
+    },
+    {
+      "id": "sem1/AuD/PV/kenji/AuD-w09-kenji.pdf",
+      "x": 11406.318359375,
+      "y": -10943.3515625
+    },
+    {
+      "id": "sem1/AuD/PV/kenji/AuD-w10-kenji.pdf",
+      "x": 12001.9462890625,
+      "y": -10972.4716796875
+    },
+    {
+      "id": "sem1/AuD/PV/kenji/AuD-w11-kenji.pdf",
+      "x": 12334.1923828125,
+      "y": -10441.369140625
+    },
+    {
+      "id": "sem1/AuD/PV/kenji/AuD-w12-kenji.pdf",
+      "x": 12081.31640625,
+      "y": -9997.2685546875
+    },
+    {
+      "id": "sem1/AuD/PV/lbehric/AuD-w00-lbehric.pdf",
+      "x": 13058.802734375,
+      "y": -12882.6826171875
+    },
+    {
+      "id": "sem1/AuD/PV/lbehric/AuD-w01-lbehric.pdf",
+      "x": 13159.78515625,
+      "y": -12542.23046875
+    },
+    {
+      "id": "sem1/AuD/PV/lbehric/AuD-w02-lbehric.pdf",
+      "x": 13076.6142578125,
+      "y": -12188.0869140625
+    },
+    {
+      "id": "sem1/AuD/PV/lbehric/AuD-w03-lbehric.pdf",
+      "x": 12847.1982421875,
+      "y": -12047.2685546875
+    },
+    {
+      "id": "sem1/AuD/PV/lbehric/AuD-w04-lbehric.pdf",
+      "x": 12597.5068359375,
+      "y": -13215.08984375
+    },
+    {
+      "id": "sem1/AuD/PV/lbehric/AuD-w05-lbehric.pdf",
+      "x": 12871.333984375,
+      "y": -13083.8642578125
+    },
+    {
+      "id": "sem1/AuD/PV/lbehric/AuD-w06-lbehric.pdf",
+      "x": 13300.7490234375,
+      "y": -12666.29296875
+    },
+    {
+      "id": "sem1/AuD/PV/lbehric/AuD-w07-lbehric.pdf",
+      "x": 13236.640625,
+      "y": -12350.7861328125
+    },
+    {
+      "id": "sem1/AuD/PV/lbehric/AuD-w08-lbehric.pdf",
+      "x": 12193.1396484375,
+      "y": -13019.2958984375
+    },
+    {
+      "id": "sem1/AuD/PV/lbehric/AuD-w09-lbehric.pdf",
+      "x": 12392.8046875,
+      "y": -13182.404296875
+    },
+    {
+      "id": "sem1/AuD/PV/lbehric/AuD-w10-lbehric.pdf",
+      "x": 12804.255859375,
+      "y": -13264.1455078125
+    },
+    {
+      "id": "sem1/AuD/PV/lbehric/AuD-w11-lbehric.pdf",
+      "x": 13085.59765625,
+      "y": -13114.8857421875
+    },
+    {
+      "id": "sem1/AuD/PV/lbehric/AuD-w12-lbehric.pdf",
+      "x": 13250.669921875,
+      "y": -12888.7509765625
+    },
+    {
+      "id": "sem1/AuD/PV/summaries/AuD-summary-algorithms.pdf",
+      "x": 9966.669921875,
+      "y": -13122.869140625
+    },
+    {
+      "id": "sem1/AuD/PV/summaries/AuD-summary-danny.pdf",
+      "x": 10737.2451171875,
+      "y": -13244.8837890625
+    },
+    {
+      "id": "sem1/AuD/PV/summaries/AuD-summary-graphs-kenji.pdf",
+      "x": 10542.8193359375,
+      "y": -13344.2060546875
+    },
+    {
+      "id": "sem1/AuD/PV/summaries/AuD-summary-jannis.pdf",
+      "x": 10898.7724609375,
+      "y": -13037.24609375
+    },
+    {
+      "id": "sem1/AuD/PV/summaries/AuD-summary-lbehric.pdf",
+      "x": 10334.3544921875,
+      "y": -13351.9814453125
+    },
+    {
+      "id": "sem1/AuD/PV/summaries/AuD-summary-soelmicheletti.pdf",
+      "x": 9854.61328125,
+      "y": -12862.7548828125
+    },
+    {
+      "id": "sem1/AuD/UE/bf/pdf/AuD-u01-bf.pdf",
+      "x": 18761.28125,
+      "y": -3074.7412109375
+    },
+    {
+      "id": "sem1/AuD/UE/bf/pdf/AuD-u02-bf.pdf",
+      "x": 18508.1328125,
+      "y": -2942.06982421875
+    },
+    {
+      "id": "sem1/AuD/UE/bf/pdf/AuD-u03-bf.pdf",
+      "x": 18900.21484375,
+      "y": -3313.720458984375
+    },
+    {
+      "id": "sem1/AuD/UE/e/AuD-u00-e.pdf",
+      "x": 15364.0244140625,
+      "y": -4262.98583984375
+    },
+    {
+      "id": "sem1/AuD/UE/e/AuD-u01-e.pdf",
+      "x": 14500.3896484375,
+      "y": -3750.215576171875
+    },
+    {
+      "id": "sem1/AuD/UE/e/AuD-u02-e.pdf",
+      "x": 15046.478515625,
+      "y": -3830.82275390625
+    },
+    {
+      "id": "sem1/AuD/UE/e/AuD-u03-e.pdf",
+      "x": 15332.064453125,
+      "y": -4487.443359375
+    },
+    {
+      "id": "sem1/AuD/UE/e/AuD-u04-e.pdf",
+      "x": 15187.30859375,
+      "y": -4723.77978515625
+    },
+    {
+      "id": "sem1/AuD/UE/e/AuD-u05-e.pdf",
+      "x": 14910.9755859375,
+      "y": -3692.080322265625
+    },
+    {
+      "id": "sem1/AuD/UE/e/AuD-u06-e.pdf",
+      "x": 15306.439453125,
+      "y": -4066.725341796875
+    },
+    {
+      "id": "sem1/AuD/UE/e/AuD-u07-e.pdf",
+      "x": 14808.6328125,
+      "y": -4915.8291015625
+    },
+    {
+      "id": "sem1/AuD/UE/e/AuD-u08-e.pdf",
+      "x": 14310.2890625,
+      "y": -3875.133544921875
+    },
+    {
+      "id": "sem1/AuD/UE/e/AuD-u09-e.pdf",
+      "x": 14165.9736328125,
+      "y": -4086.094970703125
+    },
+    {
+      "id": "sem1/AuD/UE/e/AuD-u10-e.pdf",
+      "x": 14704.994140625,
+      "y": -3703.965087890625
+    },
+    {
+      "id": "sem1/AuD/UE/e/AuD-u11-e.pdf",
+      "x": 15233.51171875,
+      "y": -3876.468994140625
+    },
+    {
+      "id": "sem1/AuD/UE/e/AuD-u12-e.pdf",
+      "x": 14284.5283203125,
+      "y": -4733.85498046875
+    },
+    {
+      "id": "sem1/AuD/UE/e/AuD-u13-e.pdf",
+      "x": 14122.029296875,
+      "y": -4383.7099609375
+    },
+    {
+      "id": "sem1/AuD/UE/s/AuD-u00-s.pdf",
+      "x": 15892.1240234375,
+      "y": -7486.77734375
+    },
+    {
+      "id": "sem1/AuD/UE/s/AuD-u01-s.pdf",
+      "x": 16045.236328125,
+      "y": -6312.2705078125
+    },
+    {
+      "id": "sem1/AuD/UE/s/AuD-u02-s.pdf",
+      "x": 15236.80859375,
+      "y": -7014.23388671875
+    },
+    {
+      "id": "sem1/AuD/UE/s/AuD-u03-s.pdf",
+      "x": 16339.87890625,
+      "y": -7072.91162109375
+    },
+    {
+      "id": "sem1/AuD/UE/s/AuD-u04-s.pdf",
+      "x": 15668.138671875,
+      "y": -7473.6123046875
+    },
+    {
+      "id": "sem1/AuD/UE/s/AuD-u05-s.pdf",
+      "x": 16265.7529296875,
+      "y": -6442.19580078125
+    },
+    {
+      "id": "sem1/AuD/UE/s/AuD-u06-s.pdf",
+      "x": 15430.6904296875,
+      "y": -7339.21142578125
+    },
+    {
+      "id": "sem1/AuD/UE/s/AuD-u07-s.pdf",
+      "x": 15617.322265625,
+      "y": -6327.81982421875
+    },
+    {
+      "id": "sem1/AuD/UE/s/AuD-u08-s.pdf",
+      "x": 16208.1376953125,
+      "y": -7324.19580078125
+    },
+    {
+      "id": "sem1/AuD/UE/s/AuD-u09-s.pdf",
+      "x": 16431.56640625,
+      "y": -6791.25537109375
+    },
+    {
+      "id": "sem1/AuD/UE/s/AuD-u10-s.pdf",
+      "x": 16518.5546875,
+      "y": -6977.94775390625
+    },
+    {
+      "id": "sem1/AuD/UE/s/AuD-u11-s.pdf",
+      "x": 16101.7978515625,
+      "y": -7484.59130859375
+    },
+    {
+      "id": "sem1/AuD/UE/s/AuD-u12-s.pdf",
+      "x": 16408.021484375,
+      "y": -7271.451171875
+    },
+    {
+      "id": "sem1/AuD/UE/s/AuD-u13-s.pdf",
+      "x": 16416.697265625,
+      "y": -6597.02685546875
+    },
+    {
+      "id": "sem1/AuD/extra/AuD_graph-theory_new&concise.pdf",
+      "x": 8872.2734375,
+      "y": -6052.21533203125
+    },
+    {
+      "id": "sem1/AuD/extra/AuD_graph-theory_old&extensive.pdf",
+      "x": 7896.7392578125,
+      "y": -5623.13525390625
+    },
+    {
+      "id": "sem1/AuD/extra/AuD_ottmann&widmayer.pdf",
+      "x": 8615.23828125,
+      "y": -5595.04296875
+    },
+    {
+      "id": "sem1/AuD/extra/AuD_pvw_HS22.pdf",
+      "x": 7725.62451171875,
+      "y": -5845.9560546875
+    },
+    {
+      "id": "sem1/AuD/extra/AuD_s01_algorithmen.pdf",
+      "x": 8130.765625,
+      "y": -5506.99951171875
+    },
+    {
+      "id": "sem1/AuD/extra/AuD_s02_big-o-notation.pdf",
+      "x": 8383.2041015625,
+      "y": -5498.6484375
+    },
+    {
+      "id": "sem1/AuD/extra/AuD_s03_max-subarray-sum.pdf",
+      "x": 7692.39697265625,
+      "y": -6174.6220703125
+    },
+    {
+      "id": "sem1/AuD/extra/AuD_s04_search-&sorting-algorithms.pdf",
+      "x": 8792.92578125,
+      "y": -5782.83349609375
+    },
+    {
+      "id": "sem1/AuD/extra/AuD_script.pdf",
+      "x": 8781.9072265625,
+      "y": -6375.81396484375
+    },
+    {
+      "id": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-GOOD-2.pdf",
+      "x": -6707.8515625,
+      "y": -470.9807434082031
+    },
+    {
+      "id": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-GOOD-old.pdf",
+      "x": -7155.5,
+      "y": -920.4072875976562
+    },
+    {
+      "id": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-bs.pdf",
+      "x": -6852.2431640625,
+      "y": -1548.481689453125
+    },
+    {
+      "id": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-danny.pdf",
+      "x": -5995.38037109375,
+      "y": -1194.9295654296875
+    },
+    {
+      "id": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-gassman.pdf",
+      "x": -7142.7333984375,
+      "y": -1185.241455078125
+    },
+    {
+      "id": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-idk.pdf",
+      "x": -6254.552734375,
+      "y": -552.2313842773438
+    },
+    {
+      "id": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-leon.pdf",
+      "x": -6481.97705078125,
+      "y": -460.42010498046875
+    },
+    {
+      "id": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-yannick.pdf",
+      "x": -6057.35546875,
+      "y": -764.4502563476562
+    },
+    {
+      "id": "sem1/DMath/PV/cheatsheets/DMath-mult-group-girl.pdf",
+      "x": -6908.3193359375,
+      "y": -554.8242797851562
+    },
+    {
+      "id": "sem1/DMath/PV/cheatsheets/DMath-mult-group-seb.pdf",
+      "x": -7065.3662109375,
+      "y": -708.0311889648438
+    },
+    {
+      "id": "sem1/DMath/PV/leon/DMath-leon-w01.pdf",
+      "x": -7115.9228515625,
+      "y": -3261.68505859375
+    },
+    {
+      "id": "sem1/DMath/PV/leon/DMath-leon-w02.pdf",
+      "x": -7609.2509765625,
+      "y": -3714.491943359375
+    },
+    {
+      "id": "sem1/DMath/PV/leon/DMath-leon-w03.pdf",
+      "x": -8218.4033203125,
+      "y": -2796.29296875
+    },
+    {
+      "id": "sem1/DMath/PV/leon/DMath-leon-w04.pdf",
+      "x": -7886.35791015625,
+      "y": -2535.87451171875
+    },
+    {
+      "id": "sem1/DMath/PV/leon/DMath-leon-w05.pdf",
+      "x": -7344.39306640625,
+      "y": -3604.522216796875
+    },
+    {
+      "id": "sem1/DMath/PV/leon/DMath-leon-w06.pdf",
+      "x": -7552.1796875,
+      "y": -2538.603759765625
+    },
+    {
+      "id": "sem1/DMath/PV/leon/DMath-leon-w07.pdf",
+      "x": -8224.908203125,
+      "y": -3293.923828125
+    },
+    {
+      "id": "sem1/DMath/PV/leon/DMath-leon-w08.pdf",
+      "x": -8322.009765625,
+      "y": -2955.649658203125
+    },
+    {
+      "id": "sem1/DMath/PV/leon/DMath-leon-w09.pdf",
+      "x": -8045.9541015625,
+      "y": -3605.70458984375
+    },
+    {
+      "id": "sem1/DMath/PV/leon/DMath-leon-w10.pdf",
+      "x": -8356.24609375,
+      "y": -3154.640625
+    },
+    {
+      "id": "sem1/DMath/PV/leon/DMath-leon-w11.pdf",
+      "x": -8228.8447265625,
+      "y": -3490.875244140625
+    },
+    {
+      "id": "sem1/DMath/PV/leon/DMath-leon-w12.pdf",
+      "x": -8111.05029296875,
+      "y": -2623.875
+    },
+    {
+      "id": "sem1/DMath/PV/leon/DMath-leon-w13.pdf",
+      "x": -7851.9208984375,
+      "y": -3705.883544921875
+    },
+    {
+      "id": "sem1/DMath/PV/old-exams/HS18.pdf",
+      "x": -5682.67138671875,
+      "y": -4727.26171875
+    },
+    {
+      "id": "sem1/DMath/PV/old-exams/HS19.pdf",
+      "x": -5432.62109375,
+      "y": -4741.17236328125
+    },
+    {
+      "id": "sem1/DMath/PV/old-exams/HS20.pdf",
+      "x": -5046.2802734375,
+      "y": -4434.76611328125
+    },
+    {
+      "id": "sem1/DMath/PV/old-exams/HS21.pdf",
+      "x": -5930.89404296875,
+      "y": -4577.6494140625
+    },
+    {
+      "id": "sem1/DMath/PV/old-exams/HS22.pdf",
+      "x": -5208.50341796875,
+      "y": -4650.3349609375
+    },
+    {
+      "id": "sem1/DMath/PV/summaries/DMath-slides-diffie-hellman.pdf",
+      "x": -4367.5224609375,
+      "y": -4025.8740234375
+    },
+    {
+      "id": "sem1/DMath/PV/summaries/DMath-summary-def-jannis.pdf",
+      "x": -3967.86181640625,
+      "y": -3411.579345703125
+    },
+    {
+      "id": "sem1/DMath/PV/summaries/DMath-summary-jannis.pdf",
+      "x": -4122.3974609375,
+      "y": -3916.34814453125
+    },
+    {
+      "id": "sem1/DMath/PV/summaries/exponential-modular-arithmetic.jpg",
+      "x": -3982.17529296875,
+      "y": -3701.229248046875
+    },
+    {
+      "id": "sem1/DMath/UE/bf/corrections/DMath-u01-bf-c.pdf",
+      "x": -16035.81640625,
+      "y": 6013.83935546875
+    },
+    {
+      "id": "sem1/DMath/UE/bf/corrections/DMath-u02-bf-c.pdf",
+      "x": -15877.828125,
+      "y": 7088.00927734375
+    },
+    {
+      "id": "sem1/DMath/UE/bf/corrections/DMath-u03-bf-c.pdf",
+      "x": -16233.6328125,
+      "y": 6164.603515625
+    },
+    {
+      "id": "sem1/DMath/UE/bf/corrections/DMath-u04-bf-c.pdf",
+      "x": -16314.689453125,
+      "y": 6353.29345703125
+    },
+    {
+      "id": "sem1/DMath/UE/bf/corrections/DMath-u06-bf-c.pdf",
+      "x": -15443.8818359375,
+      "y": 7026.13232421875
+    },
+    {
+      "id": "sem1/DMath/UE/bf/corrections/DMath-u07-bc-c.pdf",
+      "x": -15676.5078125,
+      "y": 7131.4296875
+    },
+    {
+      "id": "sem1/DMath/UE/bf/corrections/DMath-u08-bf-c.pdf",
+      "x": -16237.3955078125,
+      "y": 6651.8740234375
+    },
+    {
+      "id": "sem1/DMath/UE/bf/corrections/DMath-u09-bf-c.pdf",
+      "x": -16116.6123046875,
+      "y": 6897.61669921875
+    },
+    {
+      "id": "sem1/DMath/UE/bf/corrections/DMath-u10-bf-c.pdf",
+      "x": -16403.01953125,
+      "y": 6545.55615234375
+    },
+    {
+      "id": "sem1/DMath/UE/bf/corrections/DMath-u11-bf-c.pdf",
+      "x": -16324.380859375,
+      "y": 6851.45947265625
+    },
+    {
+      "id": "sem1/DMath/UE/bf/corrections/DMath-u12-bf-c.pdf",
+      "x": -16084.650390625,
+      "y": 7092.25048828125
+    },
+    {
+      "id": "sem1/DMath/UE/bf/pdf/DMath-u01-bf.pdf",
+      "x": -12916.3251953125,
+      "y": 7183.357421875
+    },
+    {
+      "id": "sem1/DMath/UE/bf/pdf/DMath-u02-bf.pdf",
+      "x": -14029.6640625,
+      "y": 6889.06591796875
+    },
+    {
+      "id": "sem1/DMath/UE/bf/pdf/DMath-u03-bf.pdf",
+      "x": -14080.486328125,
+      "y": 7281.86181640625
+    },
+    {
+      "id": "sem1/DMath/UE/bf/pdf/DMath-u04-bf.pdf",
+      "x": -13012.640625,
+      "y": 6825.9970703125
+    },
+    {
+      "id": "sem1/DMath/UE/bf/pdf/DMath-u06-bf.pdf",
+      "x": -13483.3525390625,
+      "y": 7712.0859375
+    },
+    {
+      "id": "sem1/DMath/UE/bf/pdf/DMath-u07-bf.pdf",
+      "x": -13833.4443359375,
+      "y": 7660.14892578125
+    },
+    {
+      "id": "sem1/DMath/UE/bf/pdf/DMath-u08-bf.pdf",
+      "x": -13990.841796875,
+      "y": 7518.41259765625
+    },
+    {
+      "id": "sem1/DMath/UE/bf/pdf/DMath-u09-bf.pdf",
+      "x": -13130.8134765625,
+      "y": 7609.05419921875
+    },
+    {
+      "id": "sem1/DMath/UE/bf/pdf/DMath-u10-bf.pdf",
+      "x": -13666.5810546875,
+      "y": 7779.75
+    },
+    {
+      "id": "sem1/DMath/UE/bf/pdf/DMath-u11-bf.pdf",
+      "x": -12982.7353515625,
+      "y": 7440.5546875
+    },
+    {
+      "id": "sem1/DMath/UE/bf/pdf/DMath-u12-bf.pdf",
+      "x": -13290.26171875,
+      "y": 7750.83935546875
+    },
+    {
+      "id": "sem1/DMath/UE/e/DMath-u01-e.pdf",
+      "x": -11510.236328125,
+      "y": 2227.2529296875
+    },
+    {
+      "id": "sem1/DMath/UE/e/DMath-u02-e.pdf",
+      "x": -10897.7626953125,
+      "y": 3103.29736328125
+    },
+    {
+      "id": "sem1/DMath/UE/e/DMath-u03-e.pdf",
+      "x": -11570.427734375,
+      "y": 2599.519775390625
+    },
+    {
+      "id": "sem1/DMath/UE/e/DMath-u04-e.pdf",
+      "x": -10940.1513671875,
+      "y": 1903.72705078125
+    },
+    {
+      "id": "sem1/DMath/UE/e/DMath-u05-e.pdf",
+      "x": -11381.6845703125,
+      "y": 2962.416259765625
+    },
+    {
+      "id": "sem1/DMath/UE/e/DMath-u06-e.pdf",
+      "x": -11525.5068359375,
+      "y": 2798.26953125
+    },
+    {
+      "id": "sem1/DMath/UE/e/DMath-u07-e.pdf",
+      "x": -10602.462890625,
+      "y": 2044.899169921875
+    },
+    {
+      "id": "sem1/DMath/UE/e/DMath-u08-e.pdf",
+      "x": -10526.890625,
+      "y": 2886.566650390625
+    },
+    {
+      "id": "sem1/DMath/UE/e/DMath-u09-e.pdf",
+      "x": -11178.107421875,
+      "y": 3083.61669921875
+    },
+    {
+      "id": "sem1/DMath/UE/e/DMath-u10-e.pdf",
+      "x": -11203.6494140625,
+      "y": 1940.844970703125
+    },
+    {
+      "id": "sem1/DMath/UE/e/DMath-u11-e.pdf",
+      "x": -11608,
+      "y": 2402.42724609375
+    },
+    {
+      "id": "sem1/DMath/UE/e/DMath-u12-e.pdf",
+      "x": -11405.5126953125,
+      "y": 2049.65625
+    },
+    {
+      "id": "sem1/DMath/UE/s/DMath-u01-s.pdf",
+      "x": -9280.0009765625,
+      "y": 4685.9091796875
+    },
+    {
+      "id": "sem1/DMath/UE/s/DMath-u02-s.pdf",
+      "x": -9380.82421875,
+      "y": 4101.71240234375
+    },
+    {
+      "id": "sem1/DMath/UE/s/DMath-u03-s.pdf",
+      "x": -9397.46484375,
+      "y": 4461.1328125
+    },
+    {
+      "id": "sem1/DMath/UE/s/DMath-u04-s.pdf",
+      "x": -8251.6064453125,
+      "y": 4074.628173828125
+    },
+    {
+      "id": "sem1/DMath/UE/s/DMath-u05-s.pdf",
+      "x": -8477.841796875,
+      "y": 3792.028564453125
+    },
+    {
+      "id": "sem1/DMath/UE/s/DMath-u06-s.pdf",
+      "x": -8570.8271484375,
+      "y": 4804.52197265625
+    },
+    {
+      "id": "sem1/DMath/UE/s/DMath-u07-s.pdf",
+      "x": -8281.8955078125,
+      "y": 4555.56689453125
+    },
+    {
+      "id": "sem1/DMath/UE/s/DMath-u08-s.pdf",
+      "x": -8213.55078125,
+      "y": 4338.53271484375
+    },
+    {
+      "id": "sem1/DMath/UE/s/DMath-u09-s.pdf",
+      "x": -8918.994140625,
+      "y": 4876.24072265625
+    },
+    {
+      "id": "sem1/DMath/UE/s/DMath-u10-s.pdf",
+      "x": -9116.8935546875,
+      "y": 4834.15625
+    },
+    {
+      "id": "sem1/DMath/UE/s/DMath-u11-s.pdf",
+      "x": -8381.6826171875,
+      "y": 4743.89453125
+    },
+    {
+      "id": "sem1/DMath/UE/s/DMath-u12-s.pdf",
+      "x": -8724.03515625,
+      "y": 4926.29052734375
+    },
+    {
+      "id": "sem1/DMath/extra/DMath-script.pdf",
+      "x": -4185.74560546875,
+      "y": 505.34130859375
+    },
+    {
+      "id": "sem1/DMath/extra/DMath_pvw_HS22.pdf",
+      "x": -4528.302734375,
+      "y": 572.6116943359375
+    },
+    {
+      "id": "sem1/DMath/ueli.txt",
+      "x": -4375.0126953125,
+      "y": -753.1331176757812
+    },
+    {
+      "id": "sem1/EProg/PV/EProg-summary-danny.pdf",
+      "x": -2073.392578125,
+      "y": -11593.4072265625
+    },
+    {
+      "id": "sem1/EProg/PV/EProg-summary-java-zoe.pdf",
+      "x": -1857.578125,
+      "y": -11148.12890625
+    },
+    {
+      "id": "sem1/EProg/UE/e/EProg-u00-e.pdf",
+      "x": 2382.849609375,
+      "y": -17818.78125
+    },
+    {
+      "id": "sem1/EProg/UE/e/EProg-u01-e.pdf",
+      "x": 1734.931884765625,
+      "y": -17948.0625
+    },
+    {
+      "id": "sem1/EProg/UE/e/EProg-u02-e.pdf",
+      "x": 1568.4820556640625,
+      "y": -17841.900390625
+    },
+    {
+      "id": "sem1/EProg/UE/e/EProg-u03-e.pdf",
+      "x": 2039.632080078125,
+      "y": -17944.56640625
+    },
+    {
+      "id": "sem1/EProg/UE/e/EProg-u04-e.pdf",
+      "x": 2607.692626953125,
+      "y": -17550.927734375
+    },
+    {
+      "id": "sem1/EProg/UE/e/EProg-u05-e.pdf",
+      "x": 2727.84716796875,
+      "y": -17391.990234375
+    },
+    {
+      "id": "sem1/EProg/UE/e/EProg-u06-e.pdf",
+      "x": 1473.0919189453125,
+      "y": -17637.345703125
+    },
+    {
+      "id": "sem1/EProg/UE/e/EProg-u07-e.pdf",
+      "x": 2636.04443359375,
+      "y": -17184.810546875
+    },
+    {
+      "id": "sem1/EProg/UE/e/EProg-u08-e-bonus.pdf",
+      "x": 2675.63623046875,
+      "y": -17726.716796875
+    },
+    {
+      "id": "sem1/EProg/UE/e/EProg-u08-e.pdf",
+      "x": 2472.763671875,
+      "y": -16972.298828125
+    },
+    {
+      "id": "sem1/EProg/UE/e/EProg-u09-e.pdf",
+      "x": 2339.6962890625,
+      "y": -18034.82421875
+    },
+    {
+      "id": "sem1/EProg/UE/e/EProg-u10-e-bonus.pdf",
+      "x": 1453.051513671875,
+      "y": -17343.84375
+    },
+    {
+      "id": "sem1/EProg/UE/e/EProg-u10-e.pdf",
+      "x": 2553.9814453125,
+      "y": -17917.564453125
+    },
+    {
+      "id": "sem1/EProg/UE/e/EProg-u11-e.pdf",
+      "x": 2145.244140625,
+      "y": -18113.56640625
+    },
+    {
+      "id": "sem1/EProg/UE/e/EProg-u12-e.pdf",
+      "x": 1878.6910400390625,
+      "y": -18091.603515625
+    },
+    {
+      "id": "sem1/EProg/extra/EProg_pvw_HS22.pdf",
+      "x": -1879.2901611328125,
+      "y": -15481.6416015625
+    },
+    {
+      "id": "sem1/EProg/extra/EProg_vk_ex.1.x-5.x.pdf",
+      "x": -2520.81298828125,
+      "y": -14766.9091796875
+    },
+    {
+      "id": "sem1/EProg/extra/EProg_vk_ex.5.x-8.x.pdf",
+      "x": -2466.684326171875,
+      "y": -15219.16015625
+    },
+    {
+      "id": "sem1/EProg/extra/slides/EProg_s00_information.pdf",
+      "x": -2488.384521484375,
+      "y": -17436.646484375
+    },
+    {
+      "id": "sem1/EProg/extra/slides/EProg_s01_ebnf.pdf",
+      "x": -3473.31591796875,
+      "y": -17129.6875
+    },
+    {
+      "id": "sem1/EProg/extra/slides/EProg_s02_ebnf++.pdf",
+      "x": -3206.17333984375,
+      "y": -16458.671875
+    },
+    {
+      "id": "sem1/EProg/extra/slides/EProg_s03_ebnf-recursion.pdf",
+      "x": -2833.63330078125,
+      "y": -17536.25
+    },
+    {
+      "id": "sem1/EProg/extra/slides/EProg_s04_methoden.pdf",
+      "x": -3105.536865234375,
+      "y": -17438.982421875
+    },
+    {
+      "id": "sem1/EProg/extra/slides/EProg_s05_typen&variablen.pdf",
+      "x": -3378.4853515625,
+      "y": -17298.4609375
+    },
+    {
+      "id": "sem1/EProg/extra/slides/EProg_s06_hoare-trippel.pdf",
+      "x": -2645.091796875,
+      "y": -17576.970703125
+    },
+    {
+      "id": "sem1/EProg/extra/slides/EProg_s07_verzweigungen.pdf",
+      "x": -3488.33544921875,
+      "y": -16920.96484375
+    },
+    {
+      "id": "sem1/EProg/extra/slides/EProg_s08_schleifen.pdf",
+      "x": -3298.682373046875,
+      "y": -17488.203125
+    },
+    {
+      "id": "sem1/EProg/extra/slides/EProg_s09_methoden++.pdf",
+      "x": -2274.607177734375,
+      "y": -16967.67578125
+    },
+    {
+      "id": "sem1/EProg/extra/slides/EProg_s10_invarianten.pdf",
+      "x": -3421.986572265625,
+      "y": -16690.5390625
+    },
+    {
+      "id": "sem1/EProg/extra/slides/EProg_s11_arrays.pdf",
+      "x": -3016.546142578125,
+      "y": -17630.462890625
+    },
+    {
+      "id": "sem1/EProg/extra/slides/EProg_sx.pdf",
+      "x": -2339.209716796875,
+      "y": -17263.267578125
+    },
+    {
+      "id": "sem1/LinAlg/PV/cheatsheets/LinAlg-cheatsheet-bfunk.pdf",
+      "x": -15828.7724609375,
+      "y": -6277.103515625
+    },
+    {
+      "id": "sem1/LinAlg/PV/cheatsheets/LinAlg-cheatsheet-danny.pdf",
+      "x": -14988.587890625,
+      "y": -6090.42041015625
+    },
+    {
+      "id": "sem1/LinAlg/PV/cheatsheets/LinAlg-cheatsheet-gassmann.pdf",
+      "x": -15902.3603515625,
+      "y": -6583.94091796875
+    },
+    {
+      "id": "sem1/LinAlg/PV/cheatsheets/LinAlg-cheatsheet-jannis.pdf",
+      "x": -15620.4599609375,
+      "y": -6053.91796875
+    },
+    {
+      "id": "sem1/LinAlg/PV/cheatsheets/LinAlg-cheatsheet-laurence.pdf",
+      "x": -15789.2060546875,
+      "y": -6902.80224609375
+    },
+    {
+      "id": "sem1/LinAlg/PV/cheatsheets/LinAlg-cheatsheet-nico.pdf",
+      "x": -15447.0966796875,
+      "y": -7117.79345703125
+    },
+    {
+      "id": "sem1/LinAlg/PV/cheatsheets/LinAlg-cheatsheet-robin.pdf",
+      "x": -15324.7333984375,
+      "y": -5970.3935546875
+    },
+    {
+      "id": "sem1/LinAlg/PV/other/LinAlg-gilbert-strang-CR-DEC.pdf",
+      "x": -17309.568359375,
+      "y": -8684.890625
+    },
+    {
+      "id": "sem1/LinAlg/PV/other/LinAlg-summary-kai.pdf",
+      "x": -17411.28515625,
+      "y": -7970.998046875
+    },
+    {
+      "id": "sem1/LinAlg/PV/other/LinAlg-summary-yannick.pdf",
+      "x": -16945.1640625,
+      "y": -8835.662109375
+    },
+    {
+      "id": "sem1/LinAlg/PV/other/LinAlg-topics-demistified.png",
+      "x": -17489.337890625,
+      "y": -8329.927734375
+    },
+    {
+      "id": "sem1/LinAlg/PV/other/matrix-multiplication/GRAPH-l-mult-matrix-by-matrix.png",
+      "x": -19139.3203125,
+      "y": -9483.4052734375
+    },
+    {
+      "id": "sem1/LinAlg/PV/other/matrix-multiplication/GRAPH-l-mult-matrix-by-row-vector.png",
+      "x": -19392.681640625,
+      "y": -8910.318359375
+    },
+    {
+      "id": "sem1/LinAlg/PV/other/matrix-multiplication/GRAPHIC-r-mult-matrix-by-column-vector.png",
+      "x": -19381.935546875,
+      "y": -9129.666015625
+    },
+    {
+      "id": "sem1/LinAlg/PV/other/matrix-multiplication/GRAPHIC-r-mult-matrix-by-matrix.png",
+      "x": -18922.1015625,
+      "y": -9581.0380859375
+    },
+    {
+      "id": "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-matrix.png",
+      "x": -19313.638671875,
+      "y": -8689.4716796875
+    },
+    {
+      "id": "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-row-vector.png",
+      "x": -19301.599609375,
+      "y": -9331.6005859375
+    },
+    {
+      "id": "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-column-vector.png",
+      "x": -19113.208984375,
+      "y": -8499.6337890625
+    },
+    {
+      "id": "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-matrix.png",
+      "x": -18640.28515625,
+      "y": -9561.1220703125
+    },
+    {
+      "id": "sem1/LinAlg/PV/summaries/kai/LinAlg-w02-kai.pdf",
+      "x": -17869.927734375,
+      "y": -4115.705078125
+    },
+    {
+      "id": "sem1/LinAlg/PV/summaries/kai/LinAlg-w03-kai.pdf",
+      "x": -18663.87890625,
+      "y": -4954.05908203125
+    },
+    {
+      "id": "sem1/LinAlg/PV/summaries/kai/LinAlg-w04-kai.pdf",
+      "x": -18885.08203125,
+      "y": -4188.7236328125
+    },
+    {
+      "id": "sem1/LinAlg/PV/summaries/kai/LinAlg-w05-kai.pdf",
+      "x": -18990.888671875,
+      "y": -4646.0458984375
+    },
+    {
+      "id": "sem1/LinAlg/PV/summaries/kai/LinAlg-w06-kai.pdf",
+      "x": -18304.560546875,
+      "y": -4986.8916015625
+    },
+    {
+      "id": "sem1/LinAlg/PV/summaries/kai/LinAlg-w07-kai.pdf",
+      "x": -18282.69921875,
+      "y": -3792.03955078125
+    },
+    {
+      "id": "sem1/LinAlg/PV/summaries/kai/LinAlg-w08-kai.pdf",
+      "x": -18869.91015625,
+      "y": -4817.5439453125
+    },
+    {
+      "id": "sem1/LinAlg/PV/summaries/kai/LinAlg-w09-kai.pdf",
+      "x": -18621.09375,
+      "y": -3892.052001953125
+    },
+    {
+      "id": "sem1/LinAlg/PV/summaries/kai/LinAlg-w10-kai.pdf",
+      "x": -18065.859375,
+      "y": -3881.626953125
+    },
+    {
+      "id": "sem1/LinAlg/PV/summaries/kai/LinAlg-w11-kai.pdf",
+      "x": -18956.44140625,
+      "y": -4002.05322265625
+    },
+    {
+      "id": "sem1/LinAlg/PV/summaries/kai/LinAlg-w12-kai.pdf",
+      "x": -19031.9140625,
+      "y": -4455.43310546875
+    },
+    {
+      "id": "sem1/LinAlg/PV/summaries/kai/LinAlg-w13-kai.pdf",
+      "x": -19080.359375,
+      "y": -4253.0380859375
+    },
+    {
+      "id": "sem1/LinAlg/PV/summaries/kai/Linalg-w00-kai.pdf",
+      "x": -18806.29296875,
+      "y": -3848.1455078125
+    },
+    {
+      "id": "sem1/LinAlg/PV/summaries/kai/Linalg-w01-kai.pdf",
+      "x": -18496.44140625,
+      "y": -3735.55517578125
+    },
+    {
+      "id": "sem1/LinAlg/UE/e/LinAlg-u00-e.pdf",
+      "x": -10595.6650390625,
+      "y": -15285.15234375
+    },
+    {
+      "id": "sem1/LinAlg/UE/e/LinAlg-u01-e.pdf",
+      "x": -10867.748046875,
+      "y": -15390.2646484375
+    },
+    {
+      "id": "sem1/LinAlg/UE/e/LinAlg-u02-e.pdf",
+      "x": -11534.7119140625,
+      "y": -15325.771484375
+    },
+    {
+      "id": "sem1/LinAlg/UE/e/LinAlg-u03-e.pdf",
+      "x": -11206.990234375,
+      "y": -15412.5771484375
+    },
+    {
+      "id": "sem1/LinAlg/UE/e/LinAlg-u04-e.pdf",
+      "x": -11645.3291015625,
+      "y": -15145.216796875
+    },
+    {
+      "id": "sem1/LinAlg/UE/e/LinAlg-u05-e.pdf",
+      "x": -11668.3076171875,
+      "y": -14874.556640625
+    },
+    {
+      "id": "sem1/LinAlg/UE/e/LinAlg-u06-e.pdf",
+      "x": -10513.0830078125,
+      "y": -14662.9462890625
+    },
+    {
+      "id": "sem1/LinAlg/UE/e/LinAlg-u07-e.pdf",
+      "x": -10472.271484375,
+      "y": -15135.6259765625
+    },
+    {
+      "id": "sem1/LinAlg/UE/e/LinAlg-u08-e.pdf",
+      "x": -11412.16796875,
+      "y": -15491.1943359375
+    },
+    {
+      "id": "sem1/LinAlg/UE/e/LinAlg-u09-e.pdf",
+      "x": -10933.6435546875,
+      "y": -14324.56640625
+    },
+    {
+      "id": "sem1/LinAlg/UE/e/LinAlg-u10-e.pdf",
+      "x": -10676.0810546875,
+      "y": -15475.0029296875
+    },
+    {
+      "id": "sem1/LinAlg/UE/e/LinAlg-u11-e.pdf",
+      "x": -10934.9765625,
+      "y": -15579.806640625
+    },
+    {
+      "id": "sem1/LinAlg/UE/e/LinAlg-u12-e.pdf",
+      "x": -10451.9228515625,
+      "y": -14919.8876953125
+    },
+    {
+      "id": "sem1/LinAlg/UE/e/LinAlg-u13-e.pdf",
+      "x": -11162.314453125,
+      "y": -15599.767578125
+    },
+    {
+      "id": "sem1/LinAlg/UE/s/LinAlg-u00-s.pdf",
+      "x": -13502.4228515625,
+      "y": -14122.66796875
+    },
+    {
+      "id": "sem1/LinAlg/UE/s/LinAlg-u01-s.pdf",
+      "x": -13135.498046875,
+      "y": -12969.365234375
+    },
+    {
+      "id": "sem1/LinAlg/UE/s/LinAlg-u02-s.pdf",
+      "x": -13869.419921875,
+      "y": -13413.326171875
+    },
+    {
+      "id": "sem1/LinAlg/UE/s/LinAlg-u03-s.pdf",
+      "x": -13725.3544921875,
+      "y": -13063.69140625
+    },
+    {
+      "id": "sem1/LinAlg/UE/s/LinAlg-u04-s.pdf",
+      "x": -13101.5361328125,
+      "y": -14102.6494140625
+    },
+    {
+      "id": "sem1/LinAlg/UE/s/LinAlg-u05-s.pdf",
+      "x": -13896.283203125,
+      "y": -13210.6689453125
+    },
+    {
+      "id": "sem1/LinAlg/UE/s/LinAlg-u06-s.pdf",
+      "x": -13317.16796875,
+      "y": -14181.1796875
+    },
+    {
+      "id": "sem1/LinAlg/UE/s/LinAlg-u07-s.pdf",
+      "x": -13763.6494140625,
+      "y": -13819.9658203125
+    },
+    {
+      "id": "sem1/LinAlg/UE/s/LinAlg-u08-s.pdf",
+      "x": -13686.01171875,
+      "y": -14098.685546875
+    },
+    {
+      "id": "sem1/LinAlg/UE/s/LinAlg-u09-s.pdf",
+      "x": -12859.8759765625,
+      "y": -13903.4462890625
+    },
+    {
+      "id": "sem1/LinAlg/UE/s/LinAlg-u10-s.pdf",
+      "x": -13964.1318359375,
+      "y": -13738.728515625
+    },
+    {
+      "id": "sem1/LinAlg/UE/s/LinAlg-u11-s.pdf",
+      "x": -13499.2119140625,
+      "y": -12949.81640625
+    },
+    {
+      "id": "sem1/LinAlg/UE/s/LinAlg-u12-s.pdf",
+      "x": -13870.5869140625,
+      "y": -13983.2763671875
+    },
+    {
+      "id": "sem1/LinAlg/UE/s/LinAlg-u13-s.pdf",
+      "x": -14011.3173828125,
+      "y": -13534.033203125
+    },
+    {
+      "id": "sem1/LinAlg/extra/LinAlg_bb-notes_1.pdf",
+      "x": -11243.0966796875,
+      "y": -6665.27392578125
+    },
+    {
+      "id": "sem1/LinAlg/extra/LinAlg_bb-notes_2.pdf",
+      "x": -11512.4248046875,
+      "y": -7153.826171875
+    },
+    {
+      "id": "sem1/LinAlg/extra/LinAlg_pvw_HS22.pdf",
+      "x": -10936.8310546875,
+      "y": -6585.560546875
+    },
+    {
+      "id": "sem1/LinAlg/extra/LinAlg_script.pdf",
+      "x": -11443.3125,
+      "y": -6864.984375
+    },
+    {
+      "id": "sem2/Analysis-1/UE/e/Analysis-1-u01-e.pdf",
+      "x": 11417.001953125,
+      "y": 10862.99609375
+    },
+    {
+      "id": "sem2/Analysis-1/UE/e/Analysis-1-u02-e.pdf",
+      "x": 11208.08203125,
+      "y": 10723.421875
+    },
+    {
+      "id": "sem2/Analysis-1/UE/e/Analysis-1-u03-e.pdf",
+      "x": 10500.61328125,
+      "y": 10922.8525390625
+    },
+    {
+      "id": "sem2/Analysis-1/UE/e/Analysis-1-u04-e.pdf",
+      "x": 11540.3955078125,
+      "y": 11060.6591796875
+    },
+    {
+      "id": "sem2/Analysis-1/UE/e/Analysis-1-u05-e.pdf",
+      "x": 10927.302734375,
+      "y": 11814.9228515625
+    },
+    {
+      "id": "sem2/Analysis-1/UE/e/Analysis-1-u06-e.pdf",
+      "x": 11557.2392578125,
+      "y": 11299.0146484375
+    },
+    {
+      "id": "sem2/Analysis-1/UE/e/Analysis-1-u07-e.pdf",
+      "x": 11435.986328125,
+      "y": 11563.748046875
+    },
+    {
+      "id": "sem2/Analysis-1/UE/e/Analysis-1-u08-e.pdf",
+      "x": 10904.69140625,
+      "y": 10687.5791015625
+    },
+    {
+      "id": "sem2/Analysis-1/UE/s/Analysis-1-u01-s.pdf",
+      "x": 12222.9873046875,
+      "y": 12673.5185546875
+    },
+    {
+      "id": "sem2/Analysis-1/UE/s/Analysis-1-u02-s.pdf",
+      "x": 11531.0478515625,
+      "y": 13228.603515625
+    },
+    {
+      "id": "sem2/Analysis-1/UE/s/Analysis-1-u03-s.pdf",
+      "x": 12047.533203125,
+      "y": 13059.640625
+    },
+    {
+      "id": "sem2/Analysis-1/UE/s/Analysis-1-u04-s.pdf",
+      "x": 12053.3212890625,
+      "y": 12268.5986328125
+    },
+    {
+      "id": "sem2/Analysis-1/UE/s/Analysis-1-u05-s.pdf",
+      "x": 11845.146484375,
+      "y": 13200.1484375
+    },
+    {
+      "id": "sem2/Analysis-1/UE/s/Analysis-1-u06-s.pdf",
+      "x": 12190.33203125,
+      "y": 12883.8642578125
+    },
+    {
+      "id": "sem2/Analysis-1/UE/s/Analysis-1-u07-s.pdf",
+      "x": 12207.3310546875,
+      "y": 12458.4814453125
+    },
+    {
+      "id": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
+      "x": 12578.208984375,
+      "y": 15768.08984375
+    },
+    {
+      "id": "sem2/Analysis-1/VRL/extra/maja/analysis-1-w01-maja.pdf",
+      "x": 14271.8154296875,
+      "y": 15444.890625
+    },
+    {
+      "id": "sem2/Analysis-1/VRL/extra/maja/analysis-1-w02-maja.pdf",
+      "x": 14178.158203125,
+      "y": 15743.5166015625
+    },
+    {
+      "id": "sem2/Analysis-1/VRL/extra/maja/analysis-1-w03-maja.pdf",
+      "x": 14183.2734375,
+      "y": 15145.1572265625
+    },
+    {
+      "id": "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w02.pdf",
+      "x": 12562.2626953125,
+      "y": 17164.990234375
+    },
+    {
+      "id": "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w03.pdf",
+      "x": 13428.98046875,
+      "y": 16650.505859375
+    },
+    {
+      "id": "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w04.pdf",
+      "x": 13364.2255859375,
+      "y": 16958.15234375
+    },
+    {
+      "id": "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w05.pdf",
+      "x": 12882.650390625,
+      "y": 17252.146484375
+    },
+    {
+      "id": "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w06.pdf",
+      "x": 13165.296875,
+      "y": 17166.23046875
+    },
+    {
+      "id": "sem2/AuW/UE/pg/e/AuW-pg01-e.pdf",
+      "x": -5268.29443359375,
+      "y": 21499.572265625
+    },
+    {
+      "id": "sem2/AuW/UE/pg/e/AuW-pg02-e.pdf",
+      "x": -5573.0400390625,
+      "y": 21530.720703125
+    },
+    {
+      "id": "sem2/AuW/UE/pg/e/AuW-pg04-e.pdf",
+      "x": -5938.77880859375,
+      "y": 21632.537109375
+    },
+    {
+      "id": "sem2/AuW/UE/pg/s/AuW-pg01-s.pdf",
+      "x": -3699.01904296875,
+      "y": 20823.06640625
+    },
+    {
+      "id": "sem2/AuW/UE/pg/s/AuW-pg02-cs.pdf",
+      "x": -3926.1171875,
+      "y": 21264.58203125
+    },
+    {
+      "id": "sem2/AuW/UE/pg/s/AuW-pg02-s.pdf",
+      "x": -4146.435546875,
+      "y": 21356.14453125
+    },
+    {
+      "id": "sem2/AuW/UE/pg/s/AuW-pg03-s.pdf",
+      "x": -4411.63037109375,
+      "y": 21325.5078125
+    },
+    {
+      "id": "sem2/AuW/UE/pg/s/AuW-pg04-s.pdf",
+      "x": -3760.6923828125,
+      "y": 21090.4296875
+    },
+    {
+      "id": "sem2/AuW/UE/u/c/AuW-u01-bf-c.pdf",
+      "x": -10833.115234375,
+      "y": 17253.08984375
+    },
+    {
+      "id": "sem2/AuW/UE/u/c/AuW-u02-bf-c.pdf",
+      "x": -11072.6796875,
+      "y": 16801.0234375
+    },
+    {
+      "id": "sem2/AuW/UE/u/c/AuW-u03-bf-c.pdf",
+      "x": -11005.318359375,
+      "y": 16539.66015625
+    },
+    {
+      "id": "sem2/AuW/UE/u/c/AuW-u04-bf-c.pdf",
+      "x": -11017.2314453125,
+      "y": 17049.189453125
+    },
+    {
+      "id": "sem2/AuW/UE/u/e/AuW-u00-e.pdf",
+      "x": -9061.8076171875,
+      "y": 18603.81640625
+    },
+    {
+      "id": "sem2/AuW/UE/u/e/AuW-u01-e.pdf",
+      "x": -9317.7431640625,
+      "y": 18452.751953125
+    },
+    {
+      "id": "sem2/AuW/UE/u/e/AuW-u02-e.pdf",
+      "x": -9454.0341796875,
+      "y": 18111.013671875
+    },
+    {
+      "id": "sem2/AuW/UE/u/e/AuW-u03-e.pdf",
+      "x": -9419.4365234375,
+      "y": 17684.400390625
+    },
+    {
+      "id": "sem2/AuW/UE/u/s/AuW-u00-s.pdf",
+      "x": -9778.33203125,
+      "y": 14743.828125
+    },
+    {
+      "id": "sem2/AuW/UE/u/s/AuW-u01-s.pdf",
+      "x": -10325.310546875,
+      "y": 15386.6806640625
+    },
+    {
+      "id": "sem2/AuW/UE/u/s/AuW-u02-s.pdf",
+      "x": -10204.68359375,
+      "y": 14956.966796875
+    },
+    {
+      "id": "sem2/AuW/UE/u/s/AuW-u03-dh.pdf",
+      "x": -10315.7763671875,
+      "y": 15152.6982421875
+    },
+    {
+      "id": "sem2/AuW/UE/u/s/AuW-u03-s.pdf",
+      "x": -9471.1513671875,
+      "y": 14810.9287109375
+    },
+    {
+      "id": "sem2/AuW/UE/u/s/AuW-u04-s.pdf",
+      "x": -10209.5732421875,
+      "y": 15642.3603515625
+    },
+    {
+      "id": "sem2/AuW/UE/u/s/AuW-u04-ta.pdf",
+      "x": -10027.130859375,
+      "y": 14807.5400390625
+    },
+    {
+      "id": "sem2/AuW/VRL/extra/AuW-dp.pdf",
+      "x": -3890.8642578125,
+      "y": 16957.9140625
+    },
+    {
+      "id": "sem2/AuW/VRL/extra/AuW-formulas.pdf",
+      "x": -3847.108154296875,
+      "y": 16044.291015625
+    },
+    {
+      "id": "sem2/AuW/VRL/extra/AuW-script.pdf",
+      "x": -5126.630859375,
+      "y": 16897.263671875
+    },
+    {
+      "id": "sem2/AuW/VRL/extra/AuW-summary-fschwinn.pdf",
+      "x": -4108.7861328125,
+      "y": 16471.158203125
+    },
+    {
+      "id": "sem2/AuW/VRL/extra/nwehrli/AuW-w01-cycles.pdf",
+      "x": -3199.458251953125,
+      "y": 18602.8515625
+    },
+    {
+      "id": "sem2/AuW/VRL/extra/nwehrli/AuW-w02-tsp.pdf",
+      "x": -2711.550537109375,
+      "y": 18662.810546875
+    },
+    {
+      "id": "sem2/AuW/VRL/extra/nwehrli/AuW-w03-hall.pdf",
+      "x": -2348.405517578125,
+      "y": 18106.96484375
+    },
+    {
+      "id": "sem2/AuW/VRL/extra/nwehrli/AuW-w04-hopcroft-karp.pdf",
+      "x": -2944.14208984375,
+      "y": 18690.134765625
+    },
+    {
+      "id": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
+      "x": -2384.7890625,
+      "y": 18373.1953125
+    },
+    {
+      "id": "sem2/AuW/VRL/extra/nwehrli/AuW-w06-coupon-collector-DP.pdf",
+      "x": -2513.58056640625,
+      "y": 18562.857421875
+    },
+    {
+      "id": "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
+      "x": -3434.15673828125,
+      "y": 18347.802734375
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L00-introduction.pdf",
+      "x": -1407.38720703125,
+      "y": 15619.9267578125
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L01-connection.pdf",
+      "x": -179.42176818847656,
+      "y": 15742.931640625
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L02-cycles.pdf",
+      "x": -1023.7615966796875,
+      "y": 14992.29296875
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L03-TSP-PvsNP.pdf",
+      "x": -1365.3602294921875,
+      "y": 15359.1650390625
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L04-matchings.pdf",
+      "x": -323.957275390625,
+      "y": 15980.4853515625
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L05-satz-von-hall.pdf",
+      "x": -70.23060607910156,
+      "y": 15584.5263671875
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L06-augmenting-paths.pdf",
+      "x": -227.65567016601562,
+      "y": 15217.677734375
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L07-coloring.pdf",
+      "x": -1203.805419921875,
+      "y": 16059.4208984375
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L08-probability.pdf",
+      "x": -834.3421020507812,
+      "y": 16225.6787109375
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L09-2goats-1car.pdf",
+      "x": -533.3999633789062,
+      "y": 16149.5859375
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L10-probability-space.pdf",
+      "x": -1224.5211181640625,
+      "y": 15137.513671875
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L12-distributions.pdf",
+      "x": -1345.600341796875,
+      "y": 15867.4228515625
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L13-mult-rand-vars.pdf",
+      "x": -167.50257873535156,
+      "y": 15408.2568359375
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L14-variance-concentration.pdf",
+      "x": -646.255126953125,
+      "y": 16306.0478515625
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L15-chernoff.pdf",
+      "x": -1034.095458984375,
+      "y": 16200.5439453125
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L16-random-algorithms.pdf",
+      "x": -123.35244750976562,
+      "y": 15943.05078125
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L17-geometric-algorithms.pdf",
+      "x": -384.4759216308594,
+      "y": 15079.2314453125
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L18-smallest-circumcirle.pdf",
+      "x": -326.7911682128906,
+      "y": 16189.8642578125
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
+      "x": -795.4486083984375,
+      "y": 14942.671875
+    },
+    {
+      "id": "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
+      "x": -572.8311767578125,
+      "y": 14972.396484375
+    },
+    {
+      "id": "sem2/DDCA/UE/bf/DDCA-u01-report-bf-cs.pdf",
+      "x": 13838.2802734375,
+      "y": 6603.39208984375
+    },
+    {
+      "id": "sem2/DDCA/UE/e/manual/DDCA-u01-manual.pdf",
+      "x": 16078.951171875,
+      "y": 4451.40625
+    },
+    {
+      "id": "sem2/DDCA/UE/e/manual/DDCA-u02-manual.pdf",
+      "x": 16365.134765625,
+      "y": 5022.50390625
+    },
+    {
+      "id": "sem2/DDCA/UE/e/manual/DDCA-u03-manual.pdf",
+      "x": 15837.662109375,
+      "y": 5494.00732421875
+    },
+    {
+      "id": "sem2/DDCA/UE/e/manual/DDCA-u04-manual.pdf",
+      "x": 16275.66796875,
+      "y": 4613.31396484375
+    },
+    {
+      "id": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
+      "x": 15173.35546875,
+      "y": 5749.53076171875
+    },
+    {
+      "id": "sem2/DDCA/UE/e/manual/DDCA-u06-manual.pdf",
+      "x": 16365.2666015625,
+      "y": 4813.16748046875
+    },
+    {
+      "id": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
+      "x": 16133.806640625,
+      "y": 5398.01220703125
+    },
+    {
+      "id": "sem2/DDCA/UE/e/manual/tmp",
+      "x": 16297.1904296875,
+      "y": 5226.5087890625
+    },
+    {
+      "id": "sem2/DDCA/UE/e/report/DDCA-u01-report.pdf",
+      "x": 13150.6630859375,
+      "y": 2790.521728515625
+    },
+    {
+      "id": "sem2/DDCA/UE/e/report/DDCA-u02-report.pdf",
+      "x": 13114.94140625,
+      "y": 3117.4931640625
+    },
+    {
+      "id": "sem2/DDCA/UE/e/report/DDCA-u03-report.pdf",
+      "x": 13750.052734375,
+      "y": 2454.594970703125
+    },
+    {
+      "id": "sem2/DDCA/UE/e/report/DDCA-u04-report.pdf",
+      "x": 13994.8623046875,
+      "y": 2575.9345703125
+    },
+    {
+      "id": "sem2/DDCA/UE/e/report/DDCA-u05-report.pdf",
+      "x": 13509.5478515625,
+      "y": 2464.591796875
+    },
+    {
+      "id": "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
+      "x": 13298.8642578125,
+      "y": 2577.476806640625
+    },
+    {
+      "id": "sem2/DDCA/UE/e/slides/DDCA-LAB01-circuits.pdf",
+      "x": 15160.3740234375,
+      "y": 2583.515625
+    },
+    {
+      "id": "sem2/DDCA/UE/e/slides/DDCA-LAB02-gates.pdf",
+      "x": 15750.794921875,
+      "y": 2856.341064453125
+    },
+    {
+      "id": "sem2/DDCA/UE/e/slides/DDCA-LAB03-7SegDisplay.pdf",
+      "x": 15778.6484375,
+      "y": 3352.9580078125
+    },
+    {
+      "id": "sem2/DDCA/UE/e/slides/DDCA-LAB04-FSM.pdf",
+      "x": 15401.3232421875,
+      "y": 2591.736328125
+    },
+    {
+      "id": "sem2/DDCA/UE/e/slides/DDCA-LAB05-ALU.pdf",
+      "x": 14902.97265625,
+      "y": 2713.993896484375
+    },
+    {
+      "id": "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
+      "x": 15606.0546875,
+      "y": 2686.321533203125
+    },
+    {
+      "id": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
+      "x": 15829.0517578125,
+      "y": 3077.612060546875
+    },
+    {
+      "id": "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
+      "x": 6729.2548828125,
+      "y": 7661.94091796875
+    },
+    {
+      "id": "sem2/DDCA/VRL/extra/Harris&Harris.pdf",
+      "x": 6803.3173828125,
+      "y": 8040.00244140625
+    },
+    {
+      "id": "sem2/DDCA/VRL/extra/basys3-DIMENSIONS.pdf",
+      "x": 7093.2041015625,
+      "y": 8289.28515625
+    },
+    {
+      "id": "sem2/DDCA/VRL/extra/basys3-SCHEMATICS.pdf",
+      "x": 7497.97509765625,
+      "y": 8301.0927734375
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L00-introduction.pdf",
+      "x": 9079.05078125,
+      "y": 5558.7763671875
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L01-FPGA.pdf",
+      "x": 9179.9208984375,
+      "y": 5243.01806640625
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L02a-binary-numbers.pdf",
+      "x": 9236.482421875,
+      "y": 5428.63818359375
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L02b-electrical-engineering.pdf",
+      "x": 8075.12158203125,
+      "y": 5504.35791015625
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L03-combinational-circuits-theory.pdf",
+      "x": 7985.91796875,
+      "y": 4941.90380859375
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L04a-combinational-circuits-theory.pdf",
+      "x": 7966.58642578125,
+      "y": 5314.775390625
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L04b-verilog-combinational.pdf",
+      "x": 7897.98095703125,
+      "y": 5116.68017578125
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
+      "x": 9040.03515625,
+      "y": 4729.46533203125
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L07-sequential-logic-design.pdf",
+      "x": 7948.2548828125,
+      "y": 4750.36279296875
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L08-verilog-sequential.pdf",
+      "x": 8123.3564453125,
+      "y": 4660.02880859375
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L09a-open-source.pdf",
+      "x": 8380.50390625,
+      "y": 4556.02880859375
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L09b-timing.pdf",
+      "x": 8730.49609375,
+      "y": 4543.4033203125
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L10a-number-systems.pdf",
+      "x": 9209.142578125,
+      "y": 4954.6259765625
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L10b-functional-verification.pdf",
+      "x": 8719.921875,
+      "y": 5743.92578125
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L11_verilog-verification.pdf",
+      "x": 8447.8359375,
+      "y": 4370.1025390625
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L12a_MIPS-ASM.pdf",
+      "x": 8488.7373046875,
+      "y": 5735.69873046875
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L12b-MIPS-ASM.pdf",
+      "x": 9079.4423828125,
+      "y": 4541.0361328125
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L13-memory.pdf",
+      "x": 9256.3740234375,
+      "y": 4756.71240234375
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L14a-MIPS-prog.pdf",
+      "x": 8658.416015625,
+      "y": 4355.90478515625
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L14b-MIPS-prog.pdf",
+      "x": 8921.6943359375,
+      "y": 5678.77001953125
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
+      "x": 9335.390625,
+      "y": 5111.24365234375
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L17-microarchitecture.pdf",
+      "x": 8900.5048828125,
+      "y": 4427.42041015625
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L18-pipelines-1.pdf",
+      "x": 8261.0595703125,
+      "y": 5649.4560546875
+    },
+    {
+      "id": "sem2/DDCA/VRL/slides/DDCA-L19-pipelines-2.pdf",
+      "x": 8190.2373046875,
+      "y": 4465.609375
+    },
+    {
+      "id": "sem2/PProg/PV/PProg-PV24-notes.pdf",
+      "x": 1386.083740234375,
+      "y": 10257.625
+    },
+    {
+      "id": "sem2/PProg/PV/PProg-PV24.pdf",
+      "x": 1492.6700439453125,
+      "y": 9916.5400390625
+    },
+    {
+      "id": "sem2/PProg/UE/e/PProg-u01-e.pdf",
+      "x": 2674.101318359375,
+      "y": 8765.1171875
+    },
+    {
+      "id": "sem2/PProg/UE/e/PProg-u02-e.pdf",
+      "x": 3270.898193359375,
+      "y": 9072.626953125
+    },
+    {
+      "id": "sem2/PProg/UE/e/PProg-u03-e.pdf",
+      "x": 3093.052978515625,
+      "y": 9771.19921875
+    },
+    {
+      "id": "sem2/PProg/UE/e/PProg-u04-e.pdf",
+      "x": 3335.072998046875,
+      "y": 9468.6611328125
+    },
+    {
+      "id": "sem2/PProg/VRL/extra/PProg-abstract.pdf",
+      "x": 5430.8193359375,
+      "y": 14581.619140625
+    },
+    {
+      "id": "sem2/PProg/VRL/slides/PProg-L01-introduction.pdf",
+      "x": 3200.132568359375,
+      "y": 12022.41796875
+    },
+    {
+      "id": "sem2/PProg/VRL/slides/PProg-L02-JVM.pdf",
+      "x": 2797.940673828125,
+      "y": 12617.1064453125
+    },
+    {
+      "id": "sem2/PProg/VRL/slides/PProg-L03-L05-JAVATHREADS.pdf",
+      "x": 2868.15771484375,
+      "y": 12277.3173828125
+    },
+    {
+      "id": "sem2/PProg/VRL/slides/PProg-L06-architecture.pdf",
+      "x": 3711.575927734375,
+      "y": 13003.6318359375
+    },
+    {
+      "id": "sem2/PProg/VRL/slides/PProg-L07-concepts.pdf",
+      "x": 2945.9052734375,
+      "y": 12941.1455078125
+    },
+    {
+      "id": "sem2/PProg/VRL/slides/PProg-L08-L09-div&conq-cilk.pdf",
+      "x": 3284.911865234375,
+      "y": 13123.83984375
+    },
+    {
+      "id": "var/attachments/PP_ersti-tag_D-INFK.pdf",
+      "x": -304.1845397949219,
+      "y": 4528.83740234375
+    },
+    {
+      "id": "var/attachments/Pasted image 20240428141459.png",
+      "x": -11.475425720214844,
+      "y": 4635.63037109375
+    },
+    {
+      "id": "var/attachments/Screenshot 2024-04-26 at 11.13.45.png",
+      "x": -482.8776550292969,
+      "y": 4268.72021484375
+    },
+    {
+      "id": "var/escapades/ZHAW-decidability.pdf",
+      "x": 1208.513916015625,
+      "y": 4659.6416015625
+    },
+    {
+      "id": "var/export/Analysis-1-u01-bf.pdf",
+      "x": 1487.3187255859375,
+      "y": 2199.63916015625
+    },
+    {
+      "id": "var/export/AuW-pg01-bf.pdf",
+      "x": 2149.967529296875,
+      "y": 1591.169189453125
+    },
+    {
+      "id": "var/export/AuW-u01-bf.pdf",
+      "x": 2636.29345703125,
+      "y": 1987.1317138671875
+    },
+    {
+      "id": "var/export/AuW-u01-pg-bf.pdf",
+      "x": 2410.546142578125,
+      "y": 2687.267333984375
+    },
+    {
+      "id": "var/export/AuW-u02-bf-v1.pdf",
+      "x": 1908.888427734375,
+      "y": 1610.6669921875
+    },
+    {
+      "id": "var/export/AuW-u02-bf.pdf",
+      "x": 2604.6181640625,
+      "y": 2462.631103515625
+    },
+    {
+      "id": "var/export/AuW-u02-pg-bf.pdf",
+      "x": 2671.236083984375,
+      "y": 2216.07958984375
+    },
+    {
+      "id": "var/export/AuW-u03-bf.pdf",
+      "x": 2036.948974609375,
+      "y": 2789.168701171875
+    },
+    {
+      "id": "var/export/AuW-u04-bf.pdf",
+      "x": 1664.377197265625,
+      "y": 1761.7664794921875
+    },
+    {
+      "id": "var/export/AuW-u04-pg-bf.pdf",
+      "x": 2531.0087890625,
+      "y": 1794.4521484375
+    },
+    {
+      "id": "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
+      "x": -7847.13427734375,
+      "y": 17794.68359375
+    },
+    {
+      "id": "sem2/AuW/UE/u/e/AuW-u04-e.pdf",
+      "x": -8589.88671875,
+      "y": 18626.857421875
+    },
+    {
+      "id": "sem2/PProg/VRL/extra/benji/PProg-w01-benji.pdf",
+      "x": 6040.43408203125,
+      "y": 15906.556640625
+    },
+    {
+      "id": "sem2/PProg/VRL/extra/benji/PProg-w02-benji.pdf",
+      "x": 5900.50439453125,
+      "y": 15614.57421875
+    },
+    {
+      "id": "sem2/PProg/VRL/extra/benji/PProg-w03-benji.pdf",
+      "x": 5601.19775390625,
+      "y": 16563.654296875
+    },
+    {
+      "id": "sem2/PProg/VRL/extra/benji/PProg-w04-benji.pdf",
+      "x": 5928.79248046875,
+      "y": 16353.93359375
+    },
+    {
+      "id": "sem2/PProg/VRL/extra/benji/PProg-w05-benji.pdf",
+      "x": 5196.4208984375,
+      "y": 16535.5
+    },
+    {
+      "id": "sem2/PProg/VRL/extra/benji/PProg-w06-benji.pdf",
+      "x": 5402.7763671875,
+      "y": 16611.6171875
+    },
+    {
+      "id": "sem2/PProg/VRL/extra/benji/PProg-w07-benji.pdf",
+      "x": 5002.84521484375,
+      "y": 16384.369140625
+    },
+    {
+      "id": "sem2/PProg/VRL/extra/benji/PProg-w08-benji.pdf",
+      "x": 6033.57666015625,
+      "y": 16159.6064453125
+    },
+    {
+      "id": "sem2/PProg/VRL/extra/benji/PProg-w09-benji.pdf",
+      "x": 5797.9951171875,
+      "y": 16517.7890625
+    },
+    {
+      "id": "sem2/PProg/VRL/extra/benji/PProg-w10-benji.pdf",
+      "x": 4876.7685546875,
+      "y": 16091.552734375
+    },
+    {
+      "id": "/",
+      "x": 979.8132934570312,
+      "y": 1871.28076171875
+    },
+    {
+      "id": "/sem1",
+      "x": -1119.310791015625,
+      "y": -5424.916015625
+    },
+    {
+      "id": "/sem1/AuD",
+      "x": 8076.419921875,
+      "y": -7357.65576171875
+    },
+    {
+      "id": "/sem1/AuD/PV",
+      "x": 10702.2197265625,
+      "y": -10950.79296875
+    },
+    {
+      "id": "/sem1/AuD/PV/kenji",
+      "x": 11699.3095703125,
+      "y": -10487.53515625
+    },
+    {
+      "id": "/sem1/AuD/PV/lbehric",
+      "x": 12556.2587890625,
+      "y": -12548.6015625
+    },
+    {
+      "id": "/sem1/AuD/PV/summaries",
+      "x": 10422.3349609375,
+      "y": -12679.130859375
+    },
+    {
+      "id": "/sem1/AuD/UE",
+      "x": 13950.9912109375,
+      "y": -5868.8955078125
+    },
+    {
+      "id": "/sem1/AuD/UE/bf",
+      "x": 17140.009765625,
+      "y": -4656.80029296875
+    },
+    {
+      "id": "/sem1/AuD/UE/bf/md",
+      "x": 18864.935546875,
+      "y": -4542.08837890625
+    },
+    {
+      "id": "/sem1/AuD/UE/bf/pdf",
+      "x": 18285.203125,
+      "y": -3552.182373046875
+    },
+    {
+      "id": "/sem1/AuD/UE/e",
+      "x": 14714.5859375,
+      "y": -4363.9609375
+    },
+    {
+      "id": "/sem1/AuD/UE/s",
+      "x": 15775.701171875,
+      "y": -6850.2587890625
+    },
+    {
+      "id": "/sem1/AuD/VRL",
+      "x": 7857.7197265625,
+      "y": -8669.6884765625
+    },
+    {
+      "id": "/sem1/AuD/extra",
+      "x": 8268.0986328125,
+      "y": -6123.56787109375
+    },
+    {
+      "id": "/sem1/DMath",
+      "x": -4699.85302734375,
+      "y": -1209.72900390625
+    },
+    {
+      "id": "/sem1/DMath/PV",
+      "x": -5921.08984375,
+      "y": -2563.386962890625
+    },
+    {
+      "id": "/sem1/DMath/PV/cheatsheets",
+      "x": -6542.98974609375,
+      "y": -1106.34228515625
+    },
+    {
+      "id": "/sem1/DMath/PV/leon",
+      "x": -7646.30322265625,
+      "y": -3091.46240234375
+    },
+    {
+      "id": "/sem1/DMath/PV/old-exams",
+      "x": -5561.36572265625,
+      "y": -4100.93701171875
+    },
+    {
+      "id": "/sem1/DMath/PV/summaries",
+      "x": -4578.57177734375,
+      "y": -3436.0439453125
+    },
+    {
+      "id": "/sem1/DMath/UE",
+      "x": -9284.3291015625,
+      "y": 2585.500732421875
+    },
+    {
+      "id": "/sem1/DMath/UE/bf",
+      "x": -13576.7822265625,
+      "y": 5339.6142578125
+    },
+    {
+      "id": "/sem1/DMath/UE/bf/corrections",
+      "x": -15652.2080078125,
+      "y": 6472.33837890625
+    },
+    {
+      "id": "/sem1/DMath/UE/bf/md",
+      "x": -15006.1171875,
+      "y": 4552.626953125
+    },
+    {
+      "id": "/sem1/DMath/UE/bf/pdf",
+      "x": -13509.94921875,
+      "y": 7080.9833984375
+    },
+    {
+      "id": "/sem1/DMath/UE/e",
+      "x": -10923.443359375,
+      "y": 2507.696533203125
+    },
+    {
+      "id": "/sem1/DMath/UE/s",
+      "x": -8836.4921875,
+      "y": 4225.58447265625
+    },
+    {
+      "id": "/sem1/DMath/VRL",
+      "x": -2750.7529296875,
+      "y": -1224.131591796875
+    },
+    {
+      "id": "/sem1/DMath/extra",
+      "x": -4475.1005859375,
+      "y": -76.52452850341797
+    },
+    {
+      "id": "/sem1/EProg",
+      "x": -549.9513549804688,
+      "y": -11956.05078125
+    },
+    {
+      "id": "/sem1/EProg/PV",
+      "x": -1468.8419189453125,
+      "y": -11607.5361328125
+    },
+    {
+      "id": "/sem1/EProg/UE",
+      "x": 977.4743041992188,
+      "y": -15201.1240234375
+    },
+    {
+      "id": "/sem1/EProg/UE/bf",
+      "x": 1474.0289306640625,
+      "y": -15763.9248046875
+    },
+    {
+      "id": "/sem1/EProg/UE/e",
+      "x": 2024.255859375,
+      "y": -17349.3671875
+    },
+    {
+      "id": "/sem1/EProg/VRL",
+      "x": 985.1188354492188,
+      "y": -12233.5244140625
+    },
+    {
+      "id": "/sem1/EProg/extra",
+      "x": -1973.924560546875,
+      "y": -14923.685546875
+    },
+    {
+      "id": "/sem1/EProg/extra/slides",
+      "x": -2842.577392578125,
+      "y": -16894.31640625
+    },
+    {
+      "id": "/sem1/LinAlg",
+      "x": -9626.1767578125,
+      "y": -8372.646484375
+    },
+    {
+      "id": "/sem1/LinAlg/PV",
+      "x": -14635.345703125,
+      "y": -7262.92138671875
+    },
+    {
+      "id": "/sem1/LinAlg/PV/cheatsheets",
+      "x": -15299.4599609375,
+      "y": -6576.74755859375
+    },
+    {
+      "id": "/sem1/LinAlg/PV/other",
+      "x": -16901.2109375,
+      "y": -8257.1455078125
+    },
+    {
+      "id": "/sem1/LinAlg/PV/other/matrix-multiplication",
+      "x": -18738.7421875,
+      "y": -8972.23828125
+    },
+    {
+      "id": "/sem1/LinAlg/PV/summaries",
+      "x": -16771.732421875,
+      "y": -5642.97314453125
+    },
+    {
+      "id": "/sem1/LinAlg/PV/summaries/kai",
+      "x": -18350.283203125,
+      "y": -4436.64013671875
+    },
+    {
+      "id": "/sem1/LinAlg/UE",
+      "x": -11440.564453125,
+      "y": -12495.4072265625
+    },
+    {
+      "id": "/sem1/LinAlg/UE/e",
+      "x": -11085.3046875,
+      "y": -14830.6005859375
+    },
+    {
+      "id": "/sem1/LinAlg/UE/s",
+      "x": -13268.3837890625,
+      "y": -13507.458984375
+    },
+    {
+      "id": "/sem1/LinAlg/VRL",
+      "x": -9610.048828125,
+      "y": -9801.7822265625
+    },
+    {
+      "id": "/sem1/LinAlg/extra",
+      "x": -10881.5908203125,
+      "y": -7193.19287109375
+    },
+    {
+      "id": "/sem2",
+      "x": 3783.6513671875,
+      "y": 8887.92578125
+    },
+    {
+      "id": "/sem2/Analysis-1",
+      "x": 7589.859375,
+      "y": 11518.765625
+    },
+    {
+      "id": "/sem2/Analysis-1/UE",
+      "x": 9927.126953125,
+      "y": 11935.8046875
+    },
+    {
+      "id": "/sem2/Analysis-1/UE/bf",
+      "x": 9517.4091796875,
+      "y": 12552.533203125
+    },
+    {
+      "id": "/sem2/Analysis-1/UE/e",
+      "x": 10924.0166015625,
+      "y": 11278.0126953125
+    },
+    {
+      "id": "/sem2/Analysis-1/UE/s",
+      "x": 11560.9970703125,
+      "y": 12639.34375
+    },
+    {
+      "id": "/sem2/Analysis-1/VRL",
+      "x": 9796.654296875,
+      "y": 14078.765625
+    },
+    {
+      "id": "/sem2/Analysis-1/VRL/extra",
+      "x": 12102.197265625,
+      "y": 15472.9951171875
+    },
+    {
+      "id": "/sem2/Analysis-1/VRL/extra/maja",
+      "x": 13622.8671875,
+      "y": 15436.9462890625
+    },
+    {
+      "id": "/sem2/Analysis-1/VRL/extra/sabatino",
+      "x": 12827.6904296875,
+      "y": 16631.736328125
+    },
+    {
+      "id": "/sem2/Analysis-1/VRL/notes",
+      "x": 10251.306640625,
+      "y": 15094.46484375
+    },
+    {
+      "id": "/sem2/Analysis-1/VRL/slides",
+      "x": 9638.1640625,
+      "y": 14851.546875
+    },
+    {
+      "id": "/sem2/AuW",
+      "x": -913.8718872070312,
+      "y": 12759.1005859375
+    },
+    {
+      "id": "/sem2/AuW/UE",
+      "x": -4971.865234375,
+      "y": 15707.2099609375
+    },
+    {
+      "id": "/sem2/AuW/UE/cx",
+      "x": -5546.5947265625,
+      "y": 14912.5654296875
+    },
+    {
+      "id": "/sem2/AuW/UE/cx/bf",
+      "x": -6064.01611328125,
+      "y": 14167.0078125
+    },
+    {
+      "id": "/sem2/AuW/UE/pg",
+      "x": -5171.919921875,
+      "y": 19343.9140625
+    },
+    {
+      "id": "/sem2/AuW/UE/pg/bf",
+      "x": -6078.99267578125,
+      "y": 20430.029296875
+    },
+    {
+      "id": "/sem2/AuW/UE/pg/e",
+      "x": -5483.76025390625,
+      "y": 20910.322265625
+    },
+    {
+      "id": "/sem2/AuW/UE/pg/s",
+      "x": -4299.28857421875,
+      "y": 20716.861328125
+    },
+    {
+      "id": "/sem2/AuW/UE/u",
+      "x": -8380.43359375,
+      "y": 16369.7333984375
+    },
+    {
+      "id": "/sem2/AuW/UE/u/bf",
+      "x": -8063.5234375,
+      "y": 17278.724609375
+    },
+    {
+      "id": "/sem2/AuW/UE/u/c",
+      "x": -10400.84375,
+      "y": 16778.01953125
+    },
+    {
+      "id": "/sem2/AuW/UE/u/e",
+      "x": -8839.9560546875,
+      "y": 17994.234375
+    },
+    {
+      "id": "/sem2/AuW/UE/u/s",
+      "x": -9685.9482421875,
+      "y": 15359.7470703125
+    },
+    {
+      "id": "/sem2/AuW/VRL",
+      "x": -2026.024169921875,
+      "y": 14732.009765625
+    },
+    {
+      "id": "/sem2/AuW/VRL/extra",
+      "x": -3541.0078125,
+      "y": 16517.287109375
+    },
+    {
+      "id": "/sem2/AuW/VRL/extra/nwehrli",
+      "x": -2940.229736328125,
+      "y": 18049.27734375
+    },
+    {
+      "id": "/sem2/AuW/VRL/notes",
+      "x": -2612.03076171875,
+      "y": 14067.0205078125
+    },
+    {
+      "id": "/sem2/AuW/VRL/slides",
+      "x": -788.8528442382812,
+      "y": 15580.1533203125
+    },
+    {
+      "id": "/sem2/DDCA",
+      "x": 7445.31005859375,
+      "y": 7355.40283203125
+    },
+    {
+      "id": "/sem2/DDCA/UE",
+      "x": 11799.21484375,
+      "y": 5903.2666015625
+    },
+    {
+      "id": "/sem2/DDCA/UE/bf",
+      "x": 13495.8447265625,
+      "y": 6124.92431640625
+    },
+    {
+      "id": "/sem2/DDCA/UE/e",
+      "x": 14142.5322265625,
+      "y": 4338.01513671875
+    },
+    {
+      "id": "/sem2/DDCA/UE/e/manual",
+      "x": 15696.5703125,
+      "y": 4931.21875
+    },
+    {
+      "id": "/sem2/DDCA/UE/e/report",
+      "x": 13686.4736328125,
+      "y": 3092.39111328125
+    },
+    {
+      "id": "/sem2/DDCA/UE/e/slides",
+      "x": 15199.69140625,
+      "y": 3213.200927734375
+    },
+    {
+      "id": "/sem2/DDCA/VRL",
+      "x": 8015.04345703125,
+      "y": 6677.037109375
+    },
+    {
+      "id": "/sem2/DDCA/VRL/extra",
+      "x": 7324.04833984375,
+      "y": 7731.1279296875
+    },
+    {
+      "id": "/sem2/DDCA/VRL/notes",
+      "x": 8456.3330078125,
+      "y": 7394.85791015625
+    },
+    {
+      "id": "/sem2/DDCA/VRL/slides",
+      "x": 8584.9990234375,
+      "y": 5117.294921875
+    },
+    {
+      "id": "/sem2/PProg",
+      "x": 3242.01953125,
+      "y": 10554.6611328125
+    },
+    {
+      "id": "/sem2/PProg/PV",
+      "x": 2029.37890625,
+      "y": 10283.47265625
+    },
+    {
+      "id": "/sem2/PProg/UE",
+      "x": 2733.09375,
+      "y": 10014.9150390625
+    },
+    {
+      "id": "/sem2/PProg/UE/e",
+      "x": 2771.205322265625,
+      "y": 9324.125
+    },
+    {
+      "id": "/sem2/PProg/VRL",
+      "x": 4169.7646484375,
+      "y": 12641.5537109375
+    },
+    {
+      "id": "/sem2/PProg/VRL/extra",
+      "x": 4883.9375,
+      "y": 14527.767578125
+    },
+    {
+      "id": "/sem2/PProg/VRL/notes",
+      "x": 4821.6240234375,
+      "y": 12773.658203125
+    },
+    {
+      "id": "/sem2/PProg/VRL/slides",
+      "x": 3391.566162109375,
+      "y": 12553.87109375
+    },
+    {
+      "id": "/var",
+      "x": 877.8207397460938,
+      "y": 3048.25390625
+    },
+    {
+      "id": "/var/attachments",
+      "x": 81.01969146728516,
+      "y": 4019.746826171875
+    },
+    {
+      "id": "/var/escapades",
+      "x": 1077.9940185546875,
+      "y": 4062.08154296875
+    },
+    {
+      "id": "/var/export",
+      "x": 2033.4234619140625,
+      "y": 2222.81982421875
+    },
+    {
+      "id": "/var/support",
+      "x": 25.58560562133789,
+      "y": 3205.934326171875
+    },
+    {
+      "id": "/var/support/templates",
+      "x": -818.6292114257812,
+      "y": 3465.771728515625
+    },
+    {
+      "id": "/sem2/PProg/VRL/extra/benji",
+      "x": 5429.8720703125,
+      "y": 15937.7744140625
+    },
+    {
+      "id": "var/export/AuW-u05-bf.pdf",
+      "x": 2363.76611328125,
+      "y": 1655.5338134765625
+    }
+  ],
+  "automaticallyRestoreNodePositions": false
+}
