@@ -56,9 +56,20 @@
                 "zoom": 1
               }
             }
+          },
+          {
+            "id": "6dafc3aeec94f903",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md"
               }
             }
           },
@@ -200,15 +211,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "5a003b4ef00c0e0d",
+  "active": "7ccb2dd121511d5c",
   "lastOpenFiles": [
+    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
     "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
-    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "var/export/AuW-u05-bf.pdf",
     "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
     "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
