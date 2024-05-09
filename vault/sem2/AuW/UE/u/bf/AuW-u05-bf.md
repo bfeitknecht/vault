@@ -19,51 +19,9 @@ ___
 
 ![[AuW-script.pdf#page=213&rect=209,515,385,534|AuW-script, p.213]]
 
-We split the set $C$ into two subsets, $C_{upper}=\{c_{u}\in C \ | \ c_{u}\prec_{c_{n}}c_{1}\}$ and $C_{lower} =\{c_{l}\in C \ | \ c_{l}\prec_{c_{1}}c_{n}\}$.
+We split the set $C$ into two subsets, $C_{upper}=\{c_{u}\in C \ | \ c_{u}\prec_{c_{n}}c_{1}\}$ and $C_{lower} =\{c_{l}\in C \ | \ c_{l}\prec_{c_{1}}c_{n}\}$. Since the set is non crossing, we now have two basically sorted subsets. We run LocalRepair on them and merge the two resulting convex hulls.
 
-We then run LocalRepair on these two sets, 
-
-Starting point is $c_1$.
-   
-1. **Scan through the points to find the upper and lower hulls:**
-- Initialize two empty stacks: one for the upper hull and one for the lower hull.
-- Starting from the point with the lowest x-coordinate (the starting point), iterate through all the points once.
-- For each point:
-	- Check whether it belongs to the upper or lower hull by comparing its position relative to the previous points.
-	- For the upper hull, keep removing points from the stack until the current point forms a clockwise turn with the top two points in the stack.
-	- For the lower hull, keep removing points from the stack until the current point forms a counterclockwise turn with the top two points in the stack.
-	- Push the current point onto the corresponding stack.
-- This scanning step also takes O(n) time because each point is processed once.
-  
-2. **Combine the upper and lower hulls to form the convex hull:**
-- Remove the last point from each hull to avoid duplicating the starting point.
-- Concatenate the upper hull (in reverse order) with the lower hull to form the convex hull.
-- This concatenation step takes O(n) time.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-We use the JarvisWrap algorithm, with input $c_0$, which runs in $O(nh)$.
-
-![[AuW-script.pdf#page=212&rect=115,517,481,632|AuW-script, p.212]]
-![[AuW-script.pdf#page=213&rect=99,606,496,720|AuW-script, p.213]]
-![[AuW-script.pdf#page=214&rect=101,520,496,677|AuW-script, p.214]]
-
-Since $h$ will be
-
-![[AuW-script.pdf#page=214&rect=113,394,484,460|AuW-script, p.214]]
-
+Thus, we have computed $cont(C)
 $\square$
 ___
 
