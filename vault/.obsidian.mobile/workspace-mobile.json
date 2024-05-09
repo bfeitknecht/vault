@@ -24,17 +24,9 @@
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
               }
             }
-          },
-          {
-            "id": "6c7cba44b1e3b145",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,6 +84,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -108,6 +101,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -118,7 +112,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+          }
         }
       }
     ],
@@ -131,7 +127,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6c7cba44b1e3b145",
+  "active": "2cd47a692272926e",
   "lastOpenFiles": [
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "Untitled.md",
