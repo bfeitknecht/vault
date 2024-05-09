@@ -1,5 +1,7 @@
 ![[AuW-u05-e.pdf#page=1&rect=87,512,518,635|AuW-u05-e, p.1]]
 
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## (a)
 ![[AuW-u05-e.pdf#page=1&rect=106,484,518,509|AuW-u05-e, p.1]]
 
@@ -12,6 +14,7 @@ We use the LocalRepair algorithm with input $S$ which, per definition, is sorted
 Thus we have computed $conv(S)$ in $O(n)$.
 $\square$
 ___
+<div class="page-break" style="page-break-before: always;"></div>
 
 
 ## (b)
@@ -21,9 +24,10 @@ ___
 
 We split the set $C$ into two subsets, $C_{upper}=\{c_{u}\in C \ | \ c_{u}\prec_{c_{n}}c_{1}\}$ and $C_{lower} =\{c_{l}\in C \ | \ c_{l}\prec_{c_{1}}c_{n}\}$. Since the set is non crossing, we now have two basically sorted subsets. We run LocalRepair on them and merge the two resulting convex hulls.
 
-Thus, we have computed $cont(C)
+Thus, we have computed $conv(C)$ in $O(n)$.
 $\square$
 ___
+<div class="page-break" style="page-break-before: always;"></div>
 
 
 ## (c)
