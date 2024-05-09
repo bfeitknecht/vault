@@ -55,9 +55,9 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
                 "page": 1,
-                "left": -11,
-                "top": 443,
-                "zoom": 1.3823529411764706
+                "left": -15,
+                "top": 606,
+                "zoom": 1.0147058823529411
               }
             }
           }
@@ -185,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
