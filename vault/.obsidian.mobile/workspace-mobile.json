@@ -8,16 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6e18d41a158686c3",
+            "id": "469f85cf15d9dd4f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "2cd47a692272926e",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem1/00-EXAM-PREP/LinAlg-exam-prep/cheatsheets/LinAlg-cheatsheet-kai.pdf"
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,14 +70,6 @@
             "useHierarchy": true
           }
         }
-      },
-      {
-        "id": "34bc4c3b9bc4516b",
-        "type": "leaf",
-        "state": {
-          "type": "bookmarks",
-          "state": {}
-        }
       }
     ],
     "currentTab": 0
@@ -83,7 +84,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "sem1/00-EXAM-PREP/LinAlg-exam-prep/cheatsheets/LinAlg-cheatsheet-kai.pdf",
+            "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -100,7 +101,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "sem1/00-EXAM-PREP/LinAlg-exam-prep/cheatsheets/LinAlg-cheatsheet-kai.pdf",
+            "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -112,16 +113,8 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "sem1/00-EXAM-PREP/LinAlg-exam-prep/cheatsheets/LinAlg-cheatsheet-kai.pdf"
+            "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
           }
-        }
-      },
-      {
-        "id": "046a6aebac3644f7",
-        "type": "leaf",
-        "state": {
-          "type": "advanced-tables-toolbar",
-          "state": {}
         }
       }
     ],
@@ -129,59 +122,59 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
+      "workspaces:Manage workspace layouts": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "omnisearch:Omnisearch": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "4802a04bb15b374a",
+  "active": "2cd47a692272926e",
   "lastOpenFiles": [
-    "sem1/00-EXAM-PREP/LinAlg-exam-prep/cheatsheets/LinAlg-cheatsheet-gassmann.pdf",
-    "var/Test+2.pdf",
-    "var/tmp(kenji-AuD_11).md",
-    "var/rename-script.py",
-    "var/test2.md",
-    "var/test1.txt",
-    "var/fix-rename-script.py",
-    "sem1/00-EXAM-PREP/AuD-exam-prep/summaries/kenji/AuD-w08-kenji.pdf",
-    "sem1/00-EXAM-PREP/AuD-exam-prep/summaries/kenji/AuD-w11-kenji.pdf",
-    "sem1/00-EXAM-PREP/AuD-exam-prep/summaries/kenji/AuD-w05-kenji.pdf",
-    "sem1/00-EXAM-PREP/AuD-exam-prep/summaries/kenji/AuD-w09-kenji.pdf",
-    "sem1/00-EXAM-PREP/AuD-exam-prep/summaries/kenji/AuD-w10-kenji.pdf",
-    "sem1/00-EXAM-PREP/AuD-exam-prep/summaries/kenji/AuD-w07-kenji.pdf",
-    "sem1/00-EXAM-PREP/var/topics/AuD-topics.md",
-    "sem1/00-EXAM-PREP/var/topics/LinAlg-topics.md",
-    "sem1/00-EXAM-PREP/DMath-exam-prep/summaries/exponential-modular-arithmetic.jpg",
-    "sem1/00-EXAM-PREP/LinAlg-exam-prep/LinAlg-topics-demistified.png",
-    "sem1/DMath/UE/bf/md/DMath-u09-bf.md",
-    "sem1/DMath/UE/bf/md/DMath-u10-bf.md",
-    "sem1/DMath/UE/bf/md/DMath-u12-bf.md",
-    "sem1/DMath/UE/bf/md/DMath-u08-bf.md",
-    "sem1/DMath/UE/bf/md/DMath-u11-bf.md",
-    "sem1/DMath/UE/bf/md/DMath-u06-bf.md",
-    "sem1/DMath/UE/bf/md/DMath-u07-bf.md",
-    "sem1/DMath/UE/bf/md/DMath-u01-bf.md",
-    "sem1/LinAlg/UE/bf/md/LinAlg_U1_bf.md",
-    "sem1/AuD/UE/bf/md/AuD-u07-bf.md",
-    "sem1/AuD/UE/bf/md/AuD-u00-bf.md",
-    "sem1/AuD/UE/bf/md/AuD-u11-bf.md",
-    "sem1/AuD/UE/bf/md/AuD-u08-bf.md",
-    "sem1/AuD/UE/bf/md/AuD-u09-bf.md",
-    "sem1/EProg/UE/bf/EProg-u02-bf.md",
-    "sem1/EProg/UE/bf/EProg-u01-bf.md",
-    "sem1/DMath/VRL/V01_mathematical propositions.md",
-    "sem1/DMath/VRL/V10_posets.md",
-    "sem1/DMath/UE/U10/DMath_U10_bf.md",
-    "sem1/DMath/UE/U11/DMath_U11_bf.md",
-    "sem1/DMath/UE/U12/DMath_U12_bf.md",
-    "var/sem1_schedule.jpg",
-    "var/sem1/sem1_schedule.jpg",
-    "var/Pasted image 20231015075427.jpg",
+    "Untitled.md",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "sem1/LinAlg/lib/LinAlg_bb-notes_1.pdf",
+    "sem2/Analysis-1/VRL/extra/maja/analysis-1-w01-maja.pdf",
+    "sem2/Analysis-1/VRL/extra/maja/analysis-1-w02-maja.pdf",
+    "sem2/Analysis-1/VRL/extra/maja/analysis-1-w03-maja.pdf",
+    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w02.pdf",
+    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w03.pdf",
+    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w04.pdf",
+    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w05.pdf",
+    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w06.pdf",
+    "sem2/AuW/UE/cx/bf/cx07-bf.md",
+    "sem2/AuW/UE/pg/bf/AuW-u01-pg-bf.md",
+    "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
+    "sem2/AuW/UE/pg/bf/AuW-u02-pg-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u01-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u00-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
+    "sem2/Analysis-1/VRL/notes/Analysis-1.md",
+    "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
+    "sem2/Analysis-1/VRL/slides/Analysis-1-00-slides.md",
+    "sem2/Analysis-1/UE/bf/Analysis-1-u01-bf.md",
+    "sem2/Analysis-1/UE/bf/Analysis-1-u02-bf.md",
+    "sem2/AuW/VRL/notes/AuW.md",
+    "sem2/DDCA/VRL/notes/DDCA.md",
+    "sem2/DDCA/UE/bf/DDCA-u06-manual-bf-cs.md",
+    "sem2/DDCA/UE/bf/DDCA-u05-manual-bf-cs.md",
+    "sem2/PProg/VRL/notes/PProg.md",
+    "var/attachments/Screenshot 2024-04-26 at 11.13.45.png",
+    "var/attachments/Pasted image 20240428141459.png",
+    "var/support/templates/page-break.template.md",
+    "var/escapades/202402271204.md",
+    "var/escapades/theoretische informatik zhaw.md",
+    "sem1/DMath/VRL/V12_ring.md",
+    "sem1/DMath/VRL/V01_mathematical-propositions.md",
+    "sem1/DMath/PV/summaries/exponential-modular-arithmetic.jpg",
+    "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-row-vector.png",
+    "sem1/LinAlg/PV/other/matrix-multiplication/GRAPH-l-mult-matrix-by-row-vector.png",
+    "sem1/LinAlg/PV/other/matrix-multiplication/GRAPHIC-r-mult-matrix-by-column-vector.png",
+    "sem1/LinAlg/PV/other/matrix-multiplication/GRAPH-l-mult-matrix-by-matrix.png",
+    "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-column-vector.png",
+    "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-matrix.png",
+    "sem1/LinAlg/PV/other/matrix-multiplication/GRAPHIC-r-mult-matrix-by-matrix.png",
     "Untitled.canvas"
   ]
 }

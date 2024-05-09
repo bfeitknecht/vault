@@ -1,3 +1,6 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "cssTheme": "Minimal",
+  "interfaceFontFamily": "Helvetica Neue",
+  "textFontFamily": "Helvetica Neue"
 }
