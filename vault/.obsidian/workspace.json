@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2984081100d9e658",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
             "id": "7ccb2dd121511d5c",
             "type": "leaf",
             "state": {
@@ -35,41 +27,28 @@
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "page": 213,
-                "left": -62,
+                "left": -4,
                 "top": 696,
                 "zoom": 1.53
               }
             }
           },
           {
-            "id": "2760976af0ce956a",
+            "id": "254d4c902849e419",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
-                "page": 22,
-                "left": -140,
-                "top": 191,
-                "zoom": 1.71
-              }
-            }
-          },
-          {
-            "id": "215a5b3c05465418",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
-                "page": 38,
-                "left": -376,
-                "top": 374,
-                "zoom": 0.62
+                "file": "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf",
+                "page": 1,
+                "left": -6,
+                "top": 276,
+                "zoom": 2.331638348009426
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -136,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +153,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf"
+              }
             }
           },
           {
@@ -207,21 +189,21 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "2984081100d9e658",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
+    "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
+    "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf",
+    "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "var/export/AuW-u05-bf.pdf",
     "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
-    "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
     "sem2/AuW/UE/u/e/AuW-u05-e.pdf",
-    "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/PProg/VRL/notes/PProg.md",
     "sem2/PProg/VRL/extra/benji/PProg-w10-benji.pdf",
     "sem2/PProg/VRL/extra/benji/PProg-w09-benji.pdf",
     "sem2/PProg/VRL/extra/benji/PProg-w08-benji.pdf",
-    "sem2/PProg/VRL/extra/benji/PProg-w07-benji.pdf",
-    "sem2/PProg/VRL/extra/benji/PProg-w06-benji.pdf",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
     "sem2/DDCA/VRL/notes/DDCA.md",
