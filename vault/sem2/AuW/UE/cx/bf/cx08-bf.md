@@ -20,4 +20,8 @@ id2(('$k_1$'))
 
 
 
-![[network-flow-multi-source-multi-sink.png]]
+
+![[network-flow-multi-source&sink.png]]
+
+
+![[network-flow-vertex-capacity.png]]
