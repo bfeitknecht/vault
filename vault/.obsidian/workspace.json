@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
+                "file": "sem2/AuW/UE/cx/bf/cx08-bf.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,8 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -136,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
+                "file": "sem2/AuW/UE/cx/bf/cx08-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md",
+                "file": "sem2/AuW/UE/cx/bf/cx08-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx07-bf.md"
+                "file": "sem2/AuW/UE/cx/bf/cx08-bf.md"
               }
             }
           },
@@ -213,11 +212,12 @@
   },
   "active": "7ccb2dd121511d5c",
   "lastOpenFiles": [
+    "sem2/AuW/UE/cx/bf/cx07-bf.md",
+    "sem2/AuW/UE/cx/bf/cx08-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf",
-    "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
     "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
     "var/export/AuW-u05-bf.pdf",
