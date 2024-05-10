@@ -78,9 +78,23 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "686103ce3f69b0f1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf",
+                "page": 1,
+                "left": -6,
+                "top": 260,
+                "zoom": 2.331638348009426
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -146,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx08-bf.md",
+                "file": "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx08-bf.md",
+                "file": "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx08-bf.md"
+                "file": "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf"
               }
             }
           },
@@ -221,10 +235,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "c1bd2243a4fea0db",
+  "active": "686103ce3f69b0f1",
   "lastOpenFiles": [
-    "var/attachments/a3-grid-v2.pdf",
     "sem2/AuW/UE/cx/bf/cx08-bf.md",
+    "var/attachments/a3-grid-v2.pdf",
     "var/attachments/network-flow-multi-source&sink.png",
     "var/attachments/network-flow-multi-source&sink-img.png",
     "var/attachments/network-flow-vertex-capacity-img.png",
