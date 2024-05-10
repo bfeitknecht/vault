@@ -17,3 +17,7 @@ id2(('$k_1$'))
 
 
 ```
+
+
+
+![[network-flow-multi-source-multi-sink.png]]

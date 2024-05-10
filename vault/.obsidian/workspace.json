@@ -11,11 +11,9 @@
             "id": "7ccb2dd121511d5c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx08-bf.md",
-                "mode": "source",
-                "source": false
+                "file": "var/attachments/network-flow-multi-source-multi-sink.png"
               }
             }
           },
@@ -119,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -136,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx08-bf.md",
+                "file": "var/attachments/network-flow-multi-source-multi-sink.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx08-bf.md",
+                "file": "var/attachments/network-flow-multi-source-multi-sink.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx08-bf.md"
+                "file": "var/attachments/network-flow-multi-source-multi-sink.png"
               }
             }
           },
@@ -211,10 +208,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "7ccb2dd121511d5c",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
-    "sem2/AuW/UE/cx/bf/cx07-bf.md",
+    "var/attachments/Pasted image 20240428141459.png",
+    "var/attachments/network-flow-multi-source-multi-sink.png",
     "sem2/AuW/UE/cx/bf/cx08-bf.md",
+    "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
@@ -256,9 +255,7 @@
     "sem1/LinAlg/PV/other/matrix-multiplication/!matrix-multiplication.md",
     "sem1/DMath/UE/bf/corrections/!DMath-u-bf-c.md",
     "sem1/DMath/UE/bf/pdf/!DMath-u-bf-pdf.md",
-    "sem1/DMath/UE/bf/md/DMath-u12-bf.md",
     "sem1/LinAlg/PV/other/LinAlg-topics-demistified.png",
-    "sem1/DMath/PV/summaries/exponential-modular-arithmetic.jpg",
     "Untitled.canvas",
     "sem1/AuD/VRL/Untitled.canvas"
   ]
