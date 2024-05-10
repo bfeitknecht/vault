@@ -48,7 +48,15 @@
             }
           },
           {
-            "id": "c1bd2243a4fea0db",
+            "id": "35547aed02e7fe76",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4a07a5e6650a58df",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -60,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -201,11 +209,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "5f4cf158045f14fe",
+  "active": "4a07a5e6650a58df",
   "lastOpenFiles": [
-    "var/attachments/network-flow-vertex-capacity-img.jpg",
-    "sem2/AuW/UE/cx/bf/cx08-bf.md",
     "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf",
+    "sem2/AuW/UE/cx/bf/cx08-bf.md",
+    "var/attachments/network-flow-vertex-capacity-img.jpg",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "var/attachments/network-flow-vertex-capacity-img.png",
     "sem2/AuW/UE/u/s/others/AuW-u04-ta.pdf",
@@ -245,7 +253,6 @@
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-matrix.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-column-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-row-vector.png",
-    "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-matrix.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/!matrix-multiplication.md",
     "sem1/DMath/UE/bf/corrections/!DMath-u-bf-c.md",
     "sem1/DMath/UE/bf/pdf/!DMath-u-bf-pdf.md",
