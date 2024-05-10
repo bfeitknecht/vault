@@ -58,6 +58,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "78a803a61e38005b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/UE/pg/e/AuW-pg05-e.pdf",
+                "page": 1,
+                "left": -11,
+                "top": 677,
+                "zoom": 1.421189498652726
+              }
+            }
           }
         ],
         "currentTab": 3
@@ -203,9 +217,10 @@
   },
   "active": "4a07a5e6650a58df",
   "lastOpenFiles": [
-    "sem2/AuW/UE/pg/s/AuW-pg04-s.pdf",
+    "sem2/AuW/UE/pg/e/AuW-pg05-e.pdf",
     "sem2/AuW/UE/cx/bf/cx08-bf.md",
     "sem1/EProg/UE/e/EProg-u05-e.pdf",
+    "sem2/AuW/UE/pg/s/AuW-pg04-s.pdf",
     "sem2/AuW/VRL/slides/AuW-L22-minimal-flow.pdf",
     "var/attachments/network-flow-vertex-capacity-img.jpg",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
@@ -216,12 +231,10 @@
     "sem2/AuW/UE/u/s/others",
     "sem2/AuW/UE/u/s/AuW-u05-s.pdf",
     "sem2/AuW/UE/pg/bf/AuW-u05-pg.pdf",
-    "var/attachments/a3-grid-v2.pdf",
     "var/attachments/network-flow-multi-source&sink.png",
     "var/attachments/network-flow-multi-source&sink-img.png",
     "var/attachments/Screenshot 2024-04-26 at 11.13.45.png",
     "var/attachments/network-flow-vertex-capacity.png",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "var/attachments/Pasted image 20240428141459.png",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/PProg/VRL/notes/PProg.md",

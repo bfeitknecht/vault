@@ -33,7 +33,7 @@ id2(('$k_1$'))
 
 
 ```java
-public static void () {
+public static void deliveryPossible() {
 	int n = In.readInt(); // number of children
 	int m = In.readInt(); // number of different toys
 	int S = 0;            // supersource
