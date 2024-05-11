@@ -1,11 +1,14 @@
 
+## Literature
+![[network-flow-multi-source&sink.png]]
+![[network-flow-multi-source&sink-img.png]]
 
 
-use flow algorithm?
+![[network-flow-vertex-capacity.png]]
+![[network-flow-vertex-capacity-img.png]]
 
-what are the nodes, what is the capacity?
 
-
+## Graph
 ```mermaid
 flowchart TD
 
@@ -20,26 +23,15 @@ id0 -->|"0/c1"| id1 -->|"0/1"| id3 & id4
 id0 -->|"0/c2"| id2 -->|"0/1"| id3 & id4
 
 
-id4 -->|"0/d1"| id5
-id5 -->|"0/d2"| id5
+id3 -->|"0/d1"| id5
+id4 -->|"0/d2"| id5
 
 
 ```
 
 
-![[network-flow-multi-source&sink.png]]
-![[network-flow-multi-source&sink-img.png]]
-
-
-
-
-![[network-flow-vertex-capacity.png]]
-![[network-flow-vertex-capacity-img.png]]
-
-
-
 ```java
- public static boolean possible() {
+ public boolean possible() {
 	int n = In.readInt(); // number of children
 	int m = In.readInt(); // number of different toys
 	int S = 0;            // supersource
