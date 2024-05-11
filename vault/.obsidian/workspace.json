@@ -54,7 +54,7 @@
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "page": 176,
                 "left": -97,
-                "top": 31,
+                "top": 310,
                 "zoom": 1.11
               }
             }
@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "file": "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "file": "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+                "file": "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md"
               }
             }
           },
@@ -215,10 +215,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "f45351ef841194e7",
+  "active": "78a803a61e38005b",
   "lastOpenFiles": [
-    "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/extra/AuW-formulas.pdf",
     "sem2/AuW/UE/pg/e/AuW-pg05-e.pdf",
