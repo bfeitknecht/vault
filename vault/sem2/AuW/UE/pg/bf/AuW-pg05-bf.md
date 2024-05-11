@@ -45,15 +45,24 @@ Thus our network $N=(V, A, c, s, t)$.
 ```lua
 -- @input
 -- N = {V, A, c, s, t}
--- h = {h1, hj, ... hm}
-H = sum(h), h in h[i, ... m]
-function deliveryPossible(N, H, S, T)
-	return H == N.computeMaximumFlow(S, T)
+-- H = sum(h[1, ... m])
+--
+-- returns a boolean,
+-- indicating whether the tour
+-- is possible and, if yes,
+-- what presents each kid gets
+function deliveryPossible(N, H)
+	possible = H == N.computeMaximumFlow(s, t)
+	if possible then
+		presents = {}
+		
+	end
+	return possible and presents
 end
 
-function computeMaximumFlow(S, T)
+function computeMaximumFlow(s, t)
 	-- runs Ford Fulkerson on network N
-	-- returns maximum flow from S to T
+	-- returns maximum flow from s to t
 end
 ```
 
