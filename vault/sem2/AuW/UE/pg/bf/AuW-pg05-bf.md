@@ -1,8 +1,6 @@
 
 ![[AuW-pg05-e.pdf#page=1&rect=86,404,521,548|AuW-pg05-e, p.1]]
 
-<div class="page-break" style="page-break-before: always;"></div>
-
 We recall the definition for a network is a tuple $N = (V, A, c, s, t)$, such that
 $$
 \begin{align}
@@ -18,10 +16,10 @@ $$
 s &= \text{"super source"} \\
 t &= \text{"super sink"} \\
  \\
-\mathbb{P} &= \{ p_{i} \ | \ i \in [1, n] \} \\
-\mathbb{K} &= \{ k_{j} \ | \ j \in ]n, m] \} \\
+\mathbb{P} &= \{ p_{i} \ | \ i \in [1, n] \} \\
+\mathbb{K} &= \{ k_{j} \ | \ j \in ]n, m] \} \\
 \\
-V &= \{ \mathcal{S}, \mathcal{T}, p \in \mathbb{P}, k \in \mathbb{K} \} \\
+V &= \{ s, t, p \in \mathbb{P}, k \in \mathbb{K} \} \\
 \\
 X &= \{ s \times \mathbb{P} \} \\
 Y &= \{ \mathbb{P} \times \mathbb{K} \} \\
@@ -36,9 +34,12 @@ h_{j}, &a \in Z
 \end{cases}
 \end{align}
 $$
+
 Thus our network $N=(V, A, c, s, t)$ solves the problem, since, either a distribution of presents can be achieved, in which case the maximum flow at $t$ must be equal to the sum of all $h_j$ and the types of presents for each household are those, that flow into it (the capacity of 1 ensures that no present can be given to a house twice), or it's impossible to distribute the presents, in which case the maximum flow at $t$ is not equal to the sum of all $h_j$.
 
-The following algorithm solves the problem.
+<div class="page-break" style="page-break-before: always;"></div>
+
+The following algorithm solves the problem, given a described network $N$ and returns a distribution of presents for it or, if not possible `false`.
 
 ```lua
 -- @input
@@ -58,7 +59,7 @@ end
 function getPresents(N)
 	presents = {}
 	for j=1, m do
-		presents[j] = {}
+		presents[j] = {}
 		for i=1, n do
 			presents[j][i] = N.getFlow(j)
 		end
