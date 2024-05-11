@@ -31,7 +31,7 @@ id4 -->|"0/d2"| id5
 
 
 ```java
- public boolean possible() {
+public boolean possible() {
 	int n = In.readInt(); // number of children
 	int m = In.readInt(); // number of different toys
 	int S = 0;            // supersource
