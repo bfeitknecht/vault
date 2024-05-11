@@ -13,7 +13,7 @@ $$
 $$
 Let us define these elements
 $$
-\begin{align} \\
+\begin{align}
 \mathcal{S} &= \text{"super source"} \\
 \mathcal{T} &= \text{"super sink"} \\
  \\
@@ -29,13 +29,14 @@ Z &= \{ \mathbb{K} \times \mathcal{T} \} \\
 A &= X \cup Y \cup Z \\
  \\
 c(a) &= \begin{cases}
-g_{i}, &a \in X,  \\
+g_{i}, &a \in X \\
 1, &a \in Y \\
 h_{j}, &a \in Z
 \end{cases}
-
 \end{align}
 $$
+Thus our network $N=(V, A, \mathcal S, \mathcal T, c)$.
+
 
 
 
@@ -44,7 +45,7 @@ $$
 ```lua
 g = {g1, gi, ... gn} 
 h = {h1, hj, ... hm}
-function deliveryPossible(n, g, m, m)
+function deliveryPossible(N, g, h, S, T)
 	H = 0
 	for i in 1 ... n
 	
