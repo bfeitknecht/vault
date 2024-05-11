@@ -20,18 +20,18 @@ $$
 \mathbb{P} &= \{ p_{i} \ | \ i \in [1, n] \} \\
 \mathbb{K} &= \{ k_{j} \ | \ j \in ]n, m] \} \\
 \\
-\mathbf{V} &= \{ \mathcal{S}, \mathcal{T}, p \in \mathbb{P}, k \in \mathbb{K} \} \\
+V &= \{ \mathcal{S}, \mathcal{T}, p \in \mathbb{P}, k \in \mathbb{K} \} \\
 \\
 X &= \{ \mathcal{S} \times \mathbb{P} \} \\
 Y &= \{ \mathbb{P} \times \mathbb{K} \} \\
 Z &= \{ \mathbb{K} \times \mathcal{T} \} \\
  \\
-E &= X \cup Y \cup Z \\
+A &= X \cup Y \cup Z \\
  \\
-c(e) &= \begin{cases}
-1, &a \\
-2, &b \\
-3, &c
+c(a) &= \begin{cases}
+g_{i}, &a \in X,  \\
+1, &a \in Y \\
+h_{j}, &a \in Z
 \end{cases}
 
 \end{align}
