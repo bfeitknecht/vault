@@ -12,23 +12,19 @@ flowchart TD
 id0((S))
 id1((t1))
 id2((t2))
-id3((ti))
-id4((k1))
-id5((k2))
-id6((kj))
-id7((T))
+id3((k1))
+id4((k2))
+id5((T))
 
-id0 --> id1 & id2 & id3
-
-
-id4 & id5 & id6 --> id7
+id0 -->|"0/c1"| id1 -->|"0/1"| id3 & id4
+id0 -->|"0/c2"| id2 -->|"0/1"| id3 & id4
 
 
+id4 -->|"0/d1"| id5
+id5 -->|"0/d2"| id5
 
 
 ```
-
-
 
 
 ![[network-flow-multi-source&sink.png]]
