@@ -14,6 +14,10 @@ $$
 Let us define these elements
 $$
 \begin{align}
+V &= \{s, t, 1 \leq i \leq n < j \leq m \} \\
+A &= \{\} \\
+ \\
+ \\
 G' &= K_{n, m} = (V_{1}, V_{2}, E), &\text{"complete bipartite directed graph"}\\
 |V_{1}| &= n, \\
 |V_{2}| &= m, \\
@@ -21,7 +25,8 @@ E & = \{e \in V_{1} \times V_{2}\}, \\
 |E| &= nm \\
 \\ \\
 
-G &= G' \uplus
+G &= G' \uplus s \uplus t, \\
+
 \end{align}
 $$
 
