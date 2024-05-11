@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "8807b8f4ada47d0d",
+        "id": "805f086209640ec1",
         "type": "tabs",
         "children": [
           {
-            "id": "f3ddffed6c50e953",
+            "id": "bfa50aa2f448175d",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
-                "page": 18,
-                "left": -6,
-                "top": 102,
-                "zoom": 2.331638348009426
+                "file": "sem2/DDCA/VRL/slides/DDCA-L19-pipelines-2.pdf",
+                "page": 13,
+                "left": -13,
+                "top": 306,
+                "zoom": 1.175
+              }
+            }
+          },
+          {
+            "id": "6949c2e55e596d5e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
+                "page": 1,
+                "left": -13,
+                "top": 544,
+                "zoom": 1.175
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -50,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:/sem2/AuW/VRL/slides",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
+                "file": "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
+                "file": "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf"
+                "file": "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf"
               }
             }
           },
@@ -162,8 +177,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "f3ddffed6c50e953",
+  "active": "6949c2e55e596d5e",
   "lastOpenFiles": [
+    "sem2/DDCA/VRL/slides/DDCA-L19-pipelines-2.pdf",
+    "sem2/DDCA/VRL/slides/DDCA-L20-out-of-order-execution.pdf",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
@@ -179,7 +196,6 @@
     "var/attachments/network-flow-vertex-capacity-img.jpg",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "var/attachments/network-flow-vertex-capacity-img.png",
-    "sem2/AuW/UE/u/s/others/AuW-u04-ta.pdf",
     "var/attachments/network-flow-multi-source&sink.png",
     "var/attachments/network-flow-multi-source&sink-img.png",
     "var/attachments/Screenshot 2024-04-26 at 11.13.45.png",
