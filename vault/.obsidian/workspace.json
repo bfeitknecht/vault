@@ -4,73 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "96e62d22eac54a13",
+        "id": "8807b8f4ada47d0d",
         "type": "tabs",
         "children": [
           {
-            "id": "5a003b4ef00c0e0d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 1,
-                "zoom": 1
-              }
-            }
-          },
-          {
-            "id": "4a07a5e6650a58df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx08-bf.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "78a803a61e38005b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f45351ef841194e7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 176,
-                "left": -11,
-                "top": 8,
-                "zoom": 1.421189498652726
-              }
-            }
-          },
-          {
-            "id": "815e9e0c0cbe0181",
+            "id": "f3ddffed6c50e953",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
-                "page": 1,
-                "zoom": 1
+                "page": 6,
+                "left": -6,
+                "top": 245,
+                "zoom": 2.331638348009426
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx08-bf.md",
+                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx08-bf.md",
+                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx08-bf.md"
+                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf"
               }
             }
           },
@@ -211,20 +162,20 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "4a07a5e6650a58df",
+  "active": "f3ddffed6c50e953",
   "lastOpenFiles": [
-    "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
+    "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "sem2/AuW/UE/cx/bf/cx08-bf.md",
+    "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "var/export/AuW-pg05-bf.pdf",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/extra/AuW-formulas.pdf",
     "sem2/AuW/UE/pg/e/AuW-pg05-e.pdf",
-    "sem2/AuW/UE/cx/bf/cx08-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg01-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-u05-pg.pdf",
     "sem1/EProg/UE/e/EProg-u05-e.pdf",
     "sem2/AuW/UE/pg/s/AuW-pg04-s.pdf",
-    "sem2/AuW/VRL/slides/AuW-L22-maximal-flow.pdf",
     "var/attachments/network-flow-vertex-capacity-img.jpg",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "var/attachments/network-flow-vertex-capacity-img.png",
