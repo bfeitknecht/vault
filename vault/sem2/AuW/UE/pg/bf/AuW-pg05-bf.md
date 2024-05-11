@@ -1,6 +1,7 @@
 
 ![[AuW-pg05-e.pdf#page=1&rect=86,404,521,548|AuW-pg05-e, p.1]]
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 We recall the definition for a network is a tuple $N = (V, A, c, s, t)$, such that
 $$
@@ -35,7 +36,7 @@ h_{j}, &a \in Z
 \end{cases}
 \end{align}
 $$
-Thus our network $N=(V, A, c, s, t)$. It solves this problem since, either a distribution of presents can be achieved, in which case the maximum flow at $t$ must be equal to the sum of all $h_j$, or it's impossible to distribute the presents, in which case the maximum flow
+Thus our network $N=(V, A, c, s, t)$ solves the problem, since, either a distribution of presents can be achieved, in which case the maximum flow at $t$ must be equal to the sum of all $h_j$ and the types of presents for each household are those, that flow into it (the capacity of 1 ensures that no present can be given to a house twice), or it's impossible to distribute the presents, in which case the maximum flow at $t$ is not equal to the sum of all $h_j$.
 
 The following algorithm solves the problem.
 
@@ -75,4 +76,5 @@ function getFlow(v)
 end
 ```
 
-The runtime is $O(|E|\cdot f)$, as the Ford-Fulkerson algorithm runs in that time.
+The runtime is $O(|E|\cdot f)$, as the Ford-Fulkerson algorithm which dominates the rest runs in that time.
+$\square$
