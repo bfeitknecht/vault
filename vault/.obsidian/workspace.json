@@ -28,15 +28,29 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
-                "page": 1,
+                "page": 15,
                 "left": -13,
-                "top": 544,
+                "top": 513,
                 "zoom": 1.175
+              }
+            }
+          },
+          {
+            "id": "9828219d333ea958",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
+                "page": 1,
+                "left": -11,
+                "top": 796,
+                "zoom": 1.3823529411764706
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf"
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf"
               }
             }
           },
@@ -177,8 +191,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "6949c2e55e596d5e",
+  "active": "9828219d333ea958",
   "lastOpenFiles": [
+    "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L19-pipelines-2.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L20-out-of-order-execution.pdf",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
@@ -191,8 +207,6 @@
     "sem2/AuW/UE/pg/e/AuW-pg05-e.pdf",
     "sem2/AuW/UE/pg/bf/AuW-pg01-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-u05-pg.pdf",
-    "sem1/EProg/UE/e/EProg-u05-e.pdf",
-    "sem2/AuW/UE/pg/s/AuW-pg04-s.pdf",
     "var/attachments/network-flow-vertex-capacity-img.jpg",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "var/attachments/network-flow-vertex-capacity-img.png",
