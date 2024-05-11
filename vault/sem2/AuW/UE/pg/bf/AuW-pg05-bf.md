@@ -35,7 +35,9 @@ h_{j}, &a \in Z
 \end{cases}
 \end{align}
 $$
-Thus our network $N=(V, A, c, s, t)$. The following algorithm solves the problem.
+Thus our network $N=(V, A, c, s, t)$. It solves this problem since, either a distribution of presents can be achieved, in which case the maximum flow at $t$ must be equal to the sum of all $h_j$, or it's impossible to distribute the presents, in which case the maximum flow
+
+The following algorithm solves the problem.
 
 ```lua
 -- @input
@@ -73,4 +75,4 @@ function getFlow(v)
 end
 ```
 
-The runtime is $O(nm+n+m+f)$, as the 
+The runtime is $O(|E|\cdot f)$, as the Ford-Fulkerson algorithm runs in that time.
