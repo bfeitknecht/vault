@@ -11,8 +11,11 @@ $$
 & c : A \rightarrow \mathbb R_{0}^+ &\text{"capacity function"} \\
 \end{align}
 $$
+Let us define these elements
 $$
 \begin{align}
+G &= K_{m, n} = (H, T, A)\\
+ \\
 V &= \{ v \ | \ 0<i \leq n+m \} \\
 A &= \{ () \in \}
 \end{align}
