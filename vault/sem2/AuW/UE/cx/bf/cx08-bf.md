@@ -8,10 +8,20 @@ what are the nodes, what is the capacity?
 
 ```mermaid
 flowchart TD
-id1((S))
 
-id2(('$k_1$'))
+id0((S))
+id1((t1))
+id2((t2))
+id3((ti))
+id4((k1))
+id5((k2))
+id6((kj))
+id7((T))
 
+id0 --> id1 & id2 & id3
+
+
+id4 & id5 & id6 --> id7
 
 
 
@@ -33,7 +43,7 @@ id2(('$k_1$'))
 
 
 ```java
- public static void testCase() {
+ public static boolean possible() {
 	int n = In.readInt(); // number of children
 	int m = In.readInt(); // number of different toys
 	int S = 0;            // supersource
@@ -54,8 +64,6 @@ id2(('$k_1$'))
 				G.addEdge(i, j, 1);         // connect toy to kid w/ capacity c
 		}
 	}
-      
-      boolean possible = D == G.computeMaximumFlow(S, T);
-      Out.println(possible? "yes" : "no");
-    }
+	return D == G.computeMaximumFlow(S, T);
+}
 ```
