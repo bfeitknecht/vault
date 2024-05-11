@@ -16,12 +16,12 @@ $$
 \begin{align} \\
 S &= \text{"super source"} \\
 T &= \text{"super sink"} \\ \\
-s &= \{ s_{i} \ | \ i \in [1, n] \} \\
-t &= \{ t_{j} \ | \ j \in ]n, m] \} \\
-V &= \{ S, T, s, t\} \\
-A &= \{ S \times s \} \\
-B &= \{ s \times t \} \\
-C &= \{ t \times T \} \\
+sources &= \{ s_{i} \ | \ i \in [1, n] \} \\
+targets &= \{ t_{j} \ | \ j \in ]n, m] \} \\
+V &= \{ S, T, toy \in toys, kid \in kids\} \\
+A &= \{ S \times sources \} \\
+B &= \{ sources \times targets \} \\
+C &= \{ targets \times T \} \\
 E &= A \cup B \cup C \\
 s &= S \\
 t &= T \\
