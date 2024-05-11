@@ -70,13 +70,13 @@
                 "file": "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
                 "page": 1,
                 "left": -10,
-                "top": 670,
+                "top": 278,
                 "zoom": 1.5666666666666667
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
+                "file": "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
+                "file": "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf"
+                "file": "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md"
               }
             }
           },
@@ -217,8 +217,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "2265c2d53daa0780",
+  "active": "c087ef3696ae6058",
   "lastOpenFiles": [
+    "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
