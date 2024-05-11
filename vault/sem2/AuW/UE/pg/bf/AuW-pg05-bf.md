@@ -26,7 +26,7 @@ E &= A \cup B \cup C \\
 s &= S \\
 t &= T \\
  \\
-c(a) &= \begin{cases}
+c(e) &= \begin{cases}
 1, &a \\
 2, &b \\
 3, &c
