@@ -2,6 +2,11 @@
 ![[AuW-pg05-e.pdf#page=1&rect=86,404,521,548|AuW-pg05-e, p.1]]
 
 
+We recall the definition for a network is a tuple $N = (V, A, s, t, c)$, such that
+![[AuW-script.pdf#page=177&rect=147,622,478,716|AuW-script, p.177]]
+
+
+
 
 ```lua
 g = {g1, gi, ... gn} 
