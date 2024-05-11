@@ -42,9 +42,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-                "page": 6,
+                "page": 5,
                 "left": -11,
-                "top": 364,
+                "top": 749,
                 "zoom": 1.3823529411764706
               }
             }
@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md"
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf"
               }
             }
           },
@@ -203,10 +203,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "c087ef3696ae6058",
+  "active": "9828219d333ea958",
   "lastOpenFiles": [
-    "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
+    "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
