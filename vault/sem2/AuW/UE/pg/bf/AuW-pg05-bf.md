@@ -14,8 +14,8 @@ $$
 Let us define these elements
 $$
 \begin{align}
-G &= K_{m, n} = (H, T, A)\\
- \\
+G &= K_{m, n} &\text{"complete bipartite directed graph"}\\
+&= (V_{1}, V_{2}) \text{s.t.} \\
 V &= \{ v \ | \ 0<i \leq n+m \} \\
 A &= \{ () \in \}
 \end{align}
