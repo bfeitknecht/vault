@@ -14,13 +14,14 @@ $$
 Let us define these elements
 $$
 \begin{align}
-G &= K_{n, m} = (V_{1}, V_{2}, A), &\text{"complete bipartite directed graph"}\\
+G' &= K_{n, m} = (V_{1}, V_{2}, E), &\text{"complete bipartite directed graph"}\\
 |V_{1}| &= n, \\
 |V_{2}| &= m, \\
-A & = \{a \in V_{1} \times V_{2}\}, \\
-|A| &= nm \\
-\\
+E & = \{e \in V_{1} \times V_{2}\}, \\
+|E| &= nm \\
+\\ \\
 
+G &= G' \uplus
 \end{align}
 $$
 
