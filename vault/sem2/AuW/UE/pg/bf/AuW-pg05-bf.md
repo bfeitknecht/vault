@@ -14,12 +14,13 @@ $$
 Let us define these elements
 $$
 \begin{align}
-G &= K_{m, n} &\text{"complete bipartite directed graph"}\\
-&= (V_{1}, V_{2}, A), &|V_{1}|=m, |V_{2}|=n, |A|=mn \\
+G &= K_{n, m} = (V_{1}, V_{2}, A), &\text{"complete bipartite directed graph"}\\
+|V_{1}| &= n, \\
+|V_{2}| &= m, \\
+A & = \{a \in V_{1} \times V_{2}\}, \\
+|A| &= nm \\
+\\
 
-
-V &= \{ v \ | \ 0<i \leq n+m \} \\
-A &= \{ () \in \}
 \end{align}
 $$
 
