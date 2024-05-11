@@ -14,8 +14,8 @@ $$
 Let us define these elements
 $$
 \begin{align}
-V &= \{s, t, 1 \leq i \leq n < j \leq m \} \\
-A &= \{\} \\
+V &= \{ S, T, s_{i}, t_{j}, \ | \ i \in [1, n], j \in ]n, m] \} \\
+A &= \{ s \times i \} \cup \{ i \times j \} \cup \{ j \times t \} \\
  \\
  \\
 G' &= K_{n, m} = (V_{1}, V_{2}, E), &\text{"complete bipartite directed graph"}\\
