@@ -3,17 +3,21 @@
 
 
 We recall the definition for a network is a tuple $N = (V, A, s, t, c)$, such that
-
-
 $$
 \begin{align}
-G &= (V, A) &\text{("directed graph")} \\
-s &\in V &\text{("source")} \\
-t &\in V\setminus\{s\} &\text{("target)} \\
-c &:A\rightarrow \mathbb R_{0}^+
+& G = (V, A) &\text{"directed graph"} \\
+& s \in V &\text{"source"} \\
+& t \in V\setminus\{s\} &\text{"target"} \\
+& c : A \rightarrow \mathbb R_{0}^+ &\text{"capacity function"} \\
 \end{align}
 $$
-![[AuW-script.pdf#page=177&rect=146,623,479,715|AuW-script, p.177]]
+$$
+\begin{align}
+V &= \{ v \ | \ 0<i \leq n+m \} \\
+A &= \{ () \in \}
+\end{align}
+$$
+
 
 
 
