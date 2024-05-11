@@ -20,13 +20,12 @@ $$
 \mathbb{P} &= \{ p_{i} \ | \ i \in [1, n] \} \\
 \mathbb{K} &= \{ k_{j} \ | \ j \in ]n, m] \} \\
 \\
-V &= \{ \mathcal{S}, \mathcal{T}, p \in \mathbb{P}, k \in \mathrm{K} \} \\
-A &= \{ S \times toys \} \\
-B &= \{ toys \times kids \} \\
-C &= \{ kids \times T \} \\
+V &= \{ \mathcal{S}, \mathcal{T}, p \in \mathbb{P}, k \in \mathbb{K} \} \\
+A &= \{ \mathcal{S} \times \mathbb{P} \} \\
+B &= \{ \mathbb{P} \times \mathbb{K} \} \\
+C &= \{ \mathbb{K} \times \mathcal{T} \} \\
+ \\
 E &= A \cup B \cup C \\
-s &= S \\
-t &= T \\
  \\
 c(e) &= \begin{cases}
 1, &a \\
