@@ -42,9 +42,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-                "page": 5,
+                "page": 6,
                 "left": -11,
-                "top": 349,
+                "top": 629,
                 "zoom": 1.3823529411764706
               }
             }
@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md"
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf"
               }
             }
           },
@@ -217,10 +217,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "c087ef3696ae6058",
+  "active": "9828219d333ea958",
   "lastOpenFiles": [
-    "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
+    "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
@@ -230,7 +230,6 @@
     "sem2/DDCA/VRL/slides/DDCA-L19-pipelines-2.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L20-out-of-order-execution.pdf",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
-    "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
     "sem2/AuW/UE/cx/bf/cx08-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg01-bf.md",
