@@ -9,6 +9,7 @@
 
 
 ## Graph
+
 ```mermaid
 flowchart TD
 
@@ -29,7 +30,7 @@ id4 -->|"0/d2"| id5
 
 ```
 
-
+## Code
 ```java
 public boolean possible() {
 	int n = In.readInt(); // number of children

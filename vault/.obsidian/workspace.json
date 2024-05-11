@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
+                "file": "sem2/AuW/UE/cx/bf/cx08-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
+                "file": "sem2/AuW/UE/cx/bf/cx08-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md"
+                "file": "sem2/AuW/UE/cx/bf/cx08-bf.md"
               }
             }
           },
@@ -211,10 +211,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "78a803a61e38005b",
+  "active": "4a07a5e6650a58df",
   "lastOpenFiles": [
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "var/export/AuW-pg05-bf.pdf",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/extra/AuW-formulas.pdf",
