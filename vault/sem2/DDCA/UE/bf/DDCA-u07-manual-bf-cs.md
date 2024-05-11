@@ -31,6 +31,17 @@ int main() {
 ```
 
 
+![[DDCA-u07-manual.pdf#page=7&rect=168,527,445,585|DDCA-u07-manual, p.7]]
+\*\_image\[\*] = in range 0, 16
+
+
+
+**Make sure that the data segment in your memory starts at address 0x00000000!** 
+
+![[DDCA-u07-manual.pdf#page=7&rect=230,169,386,430|DDCA-u07-manual, p.7]]
+
+
+
 ```assembly
 
 
