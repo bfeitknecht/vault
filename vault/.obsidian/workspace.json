@@ -42,15 +42,27 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-                "page": 1,
+                "page": 6,
                 "left": -11,
-                "top": 634,
+                "top": 382,
                 "zoom": 1.3823529411764706
+              }
+            }
+          },
+          {
+            "id": "c087ef3696ae6058",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -116,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
+                "file": "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
+                "file": "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf"
+                "file": "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md"
               }
             }
           },
@@ -191,21 +203,21 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "5f4cf158045f14fe",
+  "active": "c087ef3696ae6058",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
+    "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
+    "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
-    "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L19-pipelines-2.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L20-out-of-order-execution.pdf",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/UE/cx/bf/cx08-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
-    "var/export/AuW-pg05-bf.pdf",
     "sem2/AuW/UE/pg/bf/AuW-pg01-bf.md",
     "var/attachments/network-flow-vertex-capacity-img.jpg",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
@@ -238,7 +250,6 @@
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-column-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-row-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/!matrix-multiplication.md",
-    "sem1/DMath/UE/bf/corrections/!DMath-u-bf-c.md",
     "Untitled.canvas",
     "sem1/AuD/VRL/Untitled.canvas"
   ]
