@@ -15,7 +15,9 @@ Let us define these elements
 $$
 \begin{align}
 G &= K_{m, n} &\text{"complete bipartite directed graph"}\\
-&= (V_{1}, V_{2}) \text{s.t.} \\
+&= (V_{1}, V_{2}, A), &|V_{1}|=m, |V_{2}|=n, |A|=mn \\
+
+
 V &= \{ v \ | \ 0<i \leq n+m \} \\
 A &= \{ () \in \}
 \end{align}
