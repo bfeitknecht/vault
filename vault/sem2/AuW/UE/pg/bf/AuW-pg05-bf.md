@@ -54,7 +54,6 @@ Thus our network $N=(V, A, c, s, t)$.
 function deliveryPossible(N, H)
 	possible = H == N.computeMaximumFlow(s, t)
 	if possible then
-		presents = {}
 		
 	end
 	return possible and presents
@@ -63,6 +62,21 @@ end
 function computeMaximumFlow(s, t)
 	-- runs Ford Fulkerson on network N
 	-- returns maximum flow from s to t
+end
+
+function getFlow(v)
+	-- returns the flow at vertex v
+end
+
+function getPresents()
+	presents = {}
+	for j=1, m do
+		presents[j] = {}
+		for i=1, n do
+			presents[j][i] = N.getFlow(j)
+		end
+	end
+	return presen
 end
 ```
 
