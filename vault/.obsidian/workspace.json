@@ -44,7 +44,7 @@
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
                 "page": 1,
                 "left": -11,
-                "top": 796,
+                "top": 634,
                 "zoom": 1.3823529411764706
               }
             }
@@ -191,8 +191,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "9828219d333ea958",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
+    "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
+    "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L19-pipelines-2.pdf",
@@ -203,10 +206,7 @@
     "sem2/AuW/UE/cx/bf/cx08-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "var/export/AuW-pg05-bf.pdf",
-    "sem2/AuW/VRL/extra/AuW-formulas.pdf",
-    "sem2/AuW/UE/pg/e/AuW-pg05-e.pdf",
     "sem2/AuW/UE/pg/bf/AuW-pg01-bf.md",
-    "sem2/AuW/UE/pg/bf/AuW-u05-pg.pdf",
     "var/attachments/network-flow-vertex-capacity-img.jpg",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "var/attachments/network-flow-vertex-capacity-img.png",
