@@ -14,14 +14,16 @@ $$
 Let us define these elements
 $$
 \begin{align} \\
-S &= \text{"super source"} \\
-T &= \text{"super sink"} \\ \\
-sources &= \{ s_{i} \ | \ i \in [1, n] \} \\
-targets &= \{ t_{j} \ | \ j \in ]n, m] \} \\
-V &= \{ S, T, toy \in toys, kid \in kids\} \\
-A &= \{ S \times sources \} \\
-B &= \{ sources \times targets \} \\
-C &= \{ targets \times T \} \\
+\mathcal{S} &= \text{"super source"} \\
+\mathcal{T} &= \text{"super sink"} \\
+ \\
+\mathbb{P} &= \{ p_{i} \ | \ i \in [1, n] \} \\
+\mathbb{K} &= \{ k_{j} \ | \ j \in ]n, m] \} \\
+\\
+V &= \{ \mathcal{S}, \mathcal{T}, p \in \mathbb{P}, k \in \mathrm{K} \} \\
+A &= \{ S \times toys \} \\
+B &= \{ toys \times kids \} \\
+C &= \{ kids \times T \} \\
 E &= A \cup B \cup C \\
 s &= S \\
 t &= T \\
