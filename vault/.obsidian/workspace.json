@@ -42,10 +42,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-                "page": 6,
-                "left": -11,
-                "top": 629,
-                "zoom": 1.3823529411764706
+                "page": 9,
+                "left": 77,
+                "top": 732,
+                "zoom": 2.42
               }
             }
           },
@@ -126,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
