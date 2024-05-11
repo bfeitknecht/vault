@@ -20,12 +20,13 @@ $$
 \mathbb{P} &= \{ p_{i} \ | \ i \in [1, n] \} \\
 \mathbb{K} &= \{ k_{j} \ | \ j \in ]n, m] \} \\
 \\
-V &= \{ \mathcal{S}, \mathcal{T}, p \in \mathbb{P}, k \in \mathbb{K} \} \\
-A &= \{ \mathcal{S} \times \mathbb{P} \} \\
-B &= \{ \mathbb{P} \times \mathbb{K} \} \\
-C &= \{ \mathbb{K} \times \mathcal{T} \} \\
+\mathbf{V} &= \{ \mathcal{S}, \mathcal{T}, p \in \mathbb{P}, k \in \mathbb{K} \} \\
+\\
+X &= \{ \mathcal{S} \times \mathbb{P} \} \\
+Y &= \{ \mathbb{P} \times \mathbb{K} \} \\
+Z &= \{ \mathbb{K} \times \mathcal{T} \} \\
  \\
-E &= A \cup B \cup C \\
+E &= X \cup Y \cup Z \\
  \\
 c(e) &= \begin{cases}
 1, &a \\
