@@ -13,19 +13,19 @@ $$
 $$
 Let us define these elements
 $$
-\begin{align}
+\begin{align} \\
+S :&= \text{"super source"} \\
+T :&= \text{"super sink"} \\
 V &= \{ S, T, s_{i}, t_{j}, \ | \ i \in [1, n], j \in ]n, m] \} \\
-A &= \{ s \times i \} \cup \{ i \times j \} \cup \{ j \times t \} \\
- \\
- \\
-G' &= K_{n, m} = (V_{1}, V_{2}, E), &\text{"complete bipartite directed graph"}\\
-|V_{1}| &= n, \\
-|V_{2}| &= m, \\
-E & = \{e \in V_{1} \times V_{2}\}, \\
-|E| &= nm \\
-\\ \\
-
-G &= G' \uplus s \uplus t, \\
+A &= \{ S \times s_{i} \} \cup \{ s_{i} \times t_{j} \} \cup \{ t_{j} \times T \} \\
+s &= S \\
+t &= T \\
+ \\ \\
+c = \begin{cases}
+1, &a \\
+2, b \\
+3, c
+\end{cases}
 
 \end{align}
 $$
