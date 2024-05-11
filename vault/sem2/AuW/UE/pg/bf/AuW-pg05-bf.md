@@ -14,17 +14,22 @@ $$
 Let us define these elements
 $$
 \begin{align} \\
-S :&= \text{"super source"} \\
-T :&= \text{"super sink"} \\
-V &= \{ S, T, s_{i}, t_{j}, \ | \ i \in [1, n], j \in ]n, m] \} \\
-A &= \{ S \times s_{i} \} \cup \{ s_{i} \times t_{j} \} \cup \{ t_{j} \times T \} \\
+S &= \text{"super source"} \\
+T &= \text{"super sink"} \\ \\
+s &= \{ s_{i} \ | \ i \in [1, n] \} \\
+t &= \{ t_{j} \ | \ j \in ]n, m] \} \\
+V &= \{ S, T, s, t\} \\
+A &= \{ S \times s \} \\
+B &= \{ s \times t \} \\
+C &= \{ t \times T \} \\
+E &= A \cup B \cup C \\
 s &= S \\
 t &= T \\
- \\ \\
-c = \begin{cases}
+ \\
+c(a) &= \begin{cases}
 1, &a \\
-2, b \\
-3, c
+2, &b \\
+3, &c
 \end{cases}
 
 \end{align}
