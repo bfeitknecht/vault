@@ -45,10 +45,14 @@ Thus our network $N=(V, A, \mathcal S, \mathcal T, c)$.
 ```lua
 g = {g1, gi, ... gn} 
 h = {h1, hj, ... hm}
-function deliveryPossible(N, g, h, S, T)
-	H = 0
-	for i in 1 ... n
-	
+H = sum(h)
+function deliveryPossible(N, H, S, T)
+	return H == N.computeMaximumFlow(S, T)
+end
+
+function computeMaximumFlow(S, T)
+	-- Ford Fulkerson from source S to sink T
+	-- returns maximum flow at T
 end
 ```
 
