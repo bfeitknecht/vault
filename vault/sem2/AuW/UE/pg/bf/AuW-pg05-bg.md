@@ -4,10 +4,11 @@
 
 
 ```lua
-G = {g1, gi, ... gn}
-H = {h1, hj, ... hm}
-function deliveryPossible(n, G, m, H)
-	for 
+g = {g1, gi, ... gn} 
+h = {h1, hj, ... hm}
+function deliveryPossible(n, g, m, m)
+	H = 0
+	for i in 1 ... n
 	
 end
 ```
@@ -38,3 +39,10 @@ public boolean possible() {
 	return D == G.computeMaximumFlow(S, T);
 }
 ```
+
+
+$$
+\begin{align}
+N = (V, A, c, s, t)
+\end{align}
+$$
