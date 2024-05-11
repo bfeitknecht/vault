@@ -15,9 +15,7 @@
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "page": 1,
-                "left": -11,
-                "top": 846,
-                "zoom": 1.421189498652726
+                "zoom": 1
               }
             }
           },
@@ -52,10 +50,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 176,
-                "left": -97,
-                "top": 4,
-                "zoom": 1.11
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -66,10 +62,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
-                "page": 7,
-                "left": -6,
-                "top": 271,
-                "zoom": 2.331638348009426
+                "page": 1,
+                "zoom": 1
               }
             }
           }
