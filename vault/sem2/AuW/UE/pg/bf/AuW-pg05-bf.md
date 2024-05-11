@@ -2,7 +2,7 @@
 ![[AuW-pg05-e.pdf#page=1&rect=86,404,521,548|AuW-pg05-e, p.1]]
 
 
-We recall the definition for a network is a tuple $N = (V, A, s, t, c)$, such that
+We recall the definition for a network is a tuple $N = (V, A, c, s, t)$, such that
 $$
 \begin{align}
 & G = (V, A) &\text{"directed graph"} \\
@@ -14,17 +14,17 @@ $$
 Let us define these elements
 $$
 \begin{align}
-\mathcal{S} &= \text{"super source"} \\
-\mathcal{T} &= \text{"super sink"} \\
+s &= \text{"super source"} \\
+t &= \text{"super sink"} \\
  \\
 \mathbb{P} &= \{ p_{i} \ | \ i \in [1, n] \} \\
 \mathbb{K} &= \{ k_{j} \ | \ j \in ]n, m] \} \\
 \\
 V &= \{ \mathcal{S}, \mathcal{T}, p \in \mathbb{P}, k \in \mathbb{K} \} \\
 \\
-X &= \{ \mathcal{S} \times \mathbb{P} \} \\
+X &= \{ s \times \mathbb{P} \} \\
 Y &= \{ \mathbb{P} \times \mathbb{K} \} \\
-Z &= \{ \mathbb{K} \times \mathcal{T} \} \\
+Z &= \{ \mathbb{K} \times t \} \\
  \\
 A &= X \cup Y \cup Z \\
  \\
@@ -35,7 +35,7 @@ h_{j}, &a \in Z
 \end{cases}
 \end{align}
 $$
-Thus our network $N=(V, A, \mathcal S, \mathcal T, c)$.
+Thus our network $N=(V, A, c, s, t)$.
 
 
 
@@ -43,16 +43,17 @@ Thus our network $N=(V, A, \mathcal S, \mathcal T, c)$.
 
 
 ```lua
-g = {g1, gi, ... gn} 
-h = {h1, hj, ... hm}
-H = sum(h)
+-- @input
+-- N = {V, A, c, s, t}
+-- h = {h1, hj, ... hm}
+H = sum(h), h in h[i, ... m]
 function deliveryPossible(N, H, S, T)
 	return H == N.computeMaximumFlow(S, T)
 end
 
 function computeMaximumFlow(S, T)
-	-- Ford Fulkerson from source S to sink T
-	-- returns maximum flow at T
+	-- runs Ford Fulkerson on network N
+	-- returns maximum flow from S to T
 end
 ```
 
