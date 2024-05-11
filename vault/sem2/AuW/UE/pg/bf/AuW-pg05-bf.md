@@ -3,7 +3,7 @@
 
 
 We recall the definition for a network is a tuple $N = (V, A, s, t, c)$, such that
-![[AuW-script.pdf#page=177&rect=147,622,478,716|AuW-script, p.177]]
+![[AuW-script.pdf#page=177&rect=146,623,479,715|AuW-script, p.177]]
 
 
 
