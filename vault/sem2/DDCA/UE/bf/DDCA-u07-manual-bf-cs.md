@@ -42,4 +42,5 @@ int main() {
 ```
 
 
+![[DDCA-u07-manual.pdf#page=9&rect=22,455,592,709|DDCA-u07-manual, p.9]]
 
