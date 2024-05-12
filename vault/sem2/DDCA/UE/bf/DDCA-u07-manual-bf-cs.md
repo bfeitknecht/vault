@@ -43,8 +43,3 @@ int main() {
 
 
 
-
-
-```mermaid
-
-```

@@ -43,9 +43,9 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
                 "page": 9,
-                "left": 77,
-                "top": 732,
-                "zoom": 2.42
+                "left": -47,
+                "top": 491,
+                "zoom": 1.56
               }
             }
           },
@@ -221,8 +221,8 @@
   "active": "9828219d333ea958",
   "lastOpenFiles": [
     "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
-    "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
+    "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
