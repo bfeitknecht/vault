@@ -14,10 +14,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/VRL/slides/DDCA-L19-pipelines-2.pdf",
-                "page": 13,
-                "left": -13,
-                "top": 306,
-                "zoom": 1.175
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -28,10 +26,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
-                "page": 15,
-                "left": -13,
-                "top": 513,
-                "zoom": 1.175
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -42,10 +38,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-                "page": 8,
-                "left": -153,
-                "top": 417,
-                "zoom": 1.2
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -69,9 +63,7 @@
               "state": {
                 "file": "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
                 "page": 1,
-                "left": -10,
-                "top": 278,
-                "zoom": 1.5666666666666667
+                "zoom": 1
               }
             }
           }
