@@ -38,8 +38,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-                "page": 1,
-                "zoom": 1
+                "page": 3,
+                "left": -18,
+                "top": 550,
+                "zoom": 0.8235294117647058
               }
             }
           },
