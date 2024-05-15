@@ -1,7 +1,9 @@
 
 
 ![[DDCA-u07-manual.pdf#page=1&rect=87,100,528,178|DDCA-u07-manual, p.1]]
+![[DDCA-u07-manual.pdf#page=2&rect=87,250,334,264|DDCA-u07-manual, p.2]]
 
+## Solution
 ```
 .text
 main:
@@ -25,6 +27,14 @@ end:
 
 
 
+
+___
+
+![[DDCA-u07-manual.pdf#page=5&rect=113,192,500,342|DDCA-u07-manual, p.5]]
+![[DDCA-u07-manual.pdf#page=6&rect=208,575,402,723|DDCA-u07-manual, p.6]]
+![[DDCA-u07-manual.pdf#page=6&rect=89,482,523,516|DDCA-u07-manual, p.6]]
+
+**C code for the SAD algorithm**
 ```c
 // Implementation of the absolute value of differences
 int abs_diff(int pixel_left, int pixel_right) {
@@ -58,5 +68,68 @@ int main() {
 ![[DDCA-u07-manual.pdf#page=7&rect=168,527,445,585|DDCA-u07-manual, p.7]]
 \*\_image\[\*] = in range 0, 16
 
-
 **Make sure that the data segment in your memory starts at address 0x00000000!** 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```C
+int abs_diff_color(int R1, int G1, int B1, int R2, int G2, int B2) {
+	int abs_diff = abs(R1-R2) + abs(G1-G2) + abs(B1-B2);
+	return abs_diff;
+}
+```
+![[DDCA-u07-report.pdf#page=2&rect=87,637,528,721|DDCA-u07-report, p.2]]
+![[DDCA-LAB07-asm.pdf#page=23&rect=115,112,608,386|DDCA-LAB07-asm, p.23]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```C
+int abs_diff(int l, int r) {
+	int abs_diff = abs(l - r);
+	return abs_diff;
+}
+```
+```
+# Absolute difference between two integers
+# $a0 = l
+# $a1 = r
+abs_diff:
+	sub $t1, $a0, $a1 	# Subtract second integer from first integer
+	sra $t2, $t1, 31 	# Arithmetic right shift to get sign of the difference
+	xor $t1, $t1, $t2 	# XOR to flip the sign if necessary
+	sub $v0, $t1, $t2 	# Subtract flipped sign from difference to get absolute difference
+	jr $ra 				# Return to the calling function
+
+```
