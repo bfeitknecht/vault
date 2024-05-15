@@ -1,6 +1,7 @@
 
-
-![[DDCA-u07-manual.pdf#page=1&rect=87,100,528,178|DDCA-u07-manual, p.1]]
+# Part 1
+## Gaussian Sum
+![[DDCA-u07-manual.pdf#page=1&rect=87,104,528,157|DDCA-u07-manual, p.1]]
 ![[DDCA-u07-manual.pdf#page=2&rect=87,250,334,264|DDCA-u07-manual, p.2]]
 
 ## Solution
@@ -29,10 +30,13 @@ end:
 
 
 ___
-
+# Part 2
+## SAD Algorithm
 ![[DDCA-u07-manual.pdf#page=5&rect=113,192,500,342|DDCA-u07-manual, p.5]]
 ![[DDCA-u07-manual.pdf#page=6&rect=208,575,402,723|DDCA-u07-manual, p.6]]
 ![[DDCA-u07-manual.pdf#page=6&rect=89,482,523,516|DDCA-u07-manual, p.6]]
+>[!quote] Make sure that the data segment in your memory starts at address 0x00000000!
+
 
 **C code for the SAD algorithm**
 ```c
@@ -63,12 +67,9 @@ int main() {
 	
 	sad_value = recursive_sum(sad_array, image_size);
 }
-```
+``` 
 ![[DDCA-u07-manual.pdf#page=9&rect=22,455,592,709|DDCA-u07-manual, p.9]]
 ![[DDCA-u07-manual.pdf#page=7&rect=168,527,445,585|DDCA-u07-manual, p.7]]
-\*\_image\[\*] = in range 0, 16
-
-**Make sure that the data segment in your memory starts at address 0x00000000!** 
 
 
 
@@ -88,11 +89,9 @@ int main() {
 
 
 
-
-
-
-
-
+___
+# Part 3 (Report)
+## Multiple Function Parameters
 ```C
 int abs_diff_color(int R1, int G1, int B1, int R2, int G2, int B2) {
 	int abs_diff = abs(R1-R2) + abs(G1-G2) + abs(B1-B2);
