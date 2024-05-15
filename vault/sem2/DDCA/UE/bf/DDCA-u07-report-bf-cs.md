@@ -7,6 +7,7 @@ int abs_diff_color(int R1, int G1, int B1, int R2, int G2, int B2) {
 	return abs_diff;
 }
 ```
+![[DDCA-u07-report.pdf#page=2&rect=87,637,528,721|DDCA-u07-report, p.2]]
 
 
 
