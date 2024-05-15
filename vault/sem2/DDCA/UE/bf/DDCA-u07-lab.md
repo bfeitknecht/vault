@@ -87,7 +87,11 @@ int abs_diff_color(int R1, int R2, int B1, int B2, int G1, int G2) {
 ![[DDCA-LAB07-asm.pdf#page=23&rect=115,112,608,386|DDCA-LAB07-asm, p.23]]
 
 
-
+```
+.text
+main:
+	
+```
 
 
 
