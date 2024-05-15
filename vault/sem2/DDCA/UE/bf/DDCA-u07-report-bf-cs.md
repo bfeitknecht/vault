@@ -21,6 +21,8 @@ int abs_diff_color(int R1, int G1, int B1, int R2, int G2, int B2) {
 
 
 
+
+
 ```C
 int abs_diff(int l, int r) {
 	int abs_diff = abs(l - r);

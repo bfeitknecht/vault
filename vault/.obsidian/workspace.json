@@ -29,7 +29,7 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
                 "page": 1,
-                "left": -11,
+                "left": -92,
                 "top": 525,
                 "zoom": 1.3823529411764706
               }
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
+                "file": "sem2/DDCA/UE/bf/DDCA-LAB05.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
+                "file": "sem2/DDCA/UE/bf/DDCA-LAB05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
+                "file": "sem2/DDCA/UE/bf/DDCA-LAB05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md"
+                "file": "sem2/DDCA/UE/bf/DDCA-LAB05.md"
               }
             }
           },
@@ -189,8 +189,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "ef9663631da6a74d",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/bf/DDCA-LAB01.pdf",
+    "sem2/DDCA/UE/bf/DDCA-LAB05.md",
+    "sem2/DDCA/UE/bf/DDCA-u06-manual-bf-cs.md",
     "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
     "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
     "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
@@ -227,8 +230,6 @@
     "sem2/AuW/UE/u/bf/AuW-u01-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u00-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg02-bf.md",
-    "sem2/DDCA/UE/bf/DDCA-u06-manual-bf-cs.md",
-    "sem2/DDCA/UE/bf/DDCA-u05-manual-bf-cs.md",
     "sem2/Analysis-1/VRL/slides/Analysis-1-00-slides.md",
     "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
     "sem2/Analysis-1/UE/bf/Analysis-1-u02-bf.md",
