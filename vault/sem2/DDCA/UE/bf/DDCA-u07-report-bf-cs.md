@@ -8,6 +8,8 @@ int abs_diff_color(int R1, int G1, int B1, int R2, int G2, int B2) {
 }
 ```
 ![[DDCA-u07-report.pdf#page=2&rect=87,637,528,721|DDCA-u07-report, p.2]]
+![[DDCA-LAB07-asm.pdf#page=23&rect=115,112,608,386|DDCA-LAB07-asm, p.23]]
+
 
 
 
@@ -20,18 +22,12 @@ int abs_diff_color(int R1, int G1, int B1, int R2, int G2, int B2) {
 
 
 ```C
-// Implementation of the absolute value of differences
 int abs_diff(int l, int r) {
 	int abs_diff = abs(l - r);
 	return abs_diff;
 }
 ```
-
 ```
-lw $a0, 0($s0) 			# Load l[i] into $a0
-lw $a1, 36($s0) 		# Load r[i] into $a1
-jal abs_diff 			# Call abs_diff
-
 # Absolute difference between two integers
 # $a0 = l
 # $a1 = r
