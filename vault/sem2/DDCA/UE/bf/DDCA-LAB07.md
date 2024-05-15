@@ -1,15 +1,29 @@
 
 
+![[DDCA-u07-manual.pdf#page=1&rect=87,100,528,178|DDCA-u07-manual, p.1]]
+
+```
+.text
+main:
+	addi $s0, $0, 5 		# A = 5
+	addi $s1, $0, 32767 	# B = 32767
+	addi $s1, $s1, 1 		# B = B + 1
+	addi $t2, $0, 0 		# S = 0
+	j loop 					# Jump to loop
+
+loop:
+	beq $s0, $s1, end 		# If A == B, jump to end
+	add $t2, $t2, $s0 		# S = S + A
+	addi $s0, $s0, 1 		# A = A + 1
+	j loop 					# jump to loop
+
+end:
+	j end					# Infinite loop at the end of the program.
+```
 
 
-![[DDCA-u07-manual.pdf#page=7&rect=168,527,445,585|DDCA-u07-manual, p.7]]
-\*\_image\[\*] = in range 0, 16
 
 
-
-**Make sure that the data segment in your memory starts at address 0x00000000!** 
-
-![[DDCA-u07-manual.pdf#page=7&rect=230,169,386,430|DDCA-u07-manual, p.7]]
 
 ```c
 // Implementation of the absolute value of differences
@@ -40,7 +54,9 @@ int main() {
 	sad_value = recursive_sum(sad_array, image_size);
 }
 ```
-
-
 ![[DDCA-u07-manual.pdf#page=9&rect=22,455,592,709|DDCA-u07-manual, p.9]]
+![[DDCA-u07-manual.pdf#page=7&rect=168,527,445,585|DDCA-u07-manual, p.7]]
+\*\_image\[\*] = in range 0, 16
 
+
+**Make sure that the data segment in your memory starts at address 0x00000000!** 
