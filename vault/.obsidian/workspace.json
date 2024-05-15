@@ -8,69 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bfa50aa2f448175d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/VRL/slides/DDCA-L19-pipelines-2.pdf",
-                "page": 1,
-                "zoom": 1
-              }
-            }
-          },
-          {
-            "id": "6949c2e55e596d5e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
-                "page": 1,
-                "zoom": 1
-              }
-            }
-          },
-          {
-            "id": "9828219d333ea958",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-                "page": 3,
-                "left": -18,
-                "top": 550,
-                "zoom": 0.8235294117647058
-              }
-            }
-          },
-          {
             "id": "c087ef3696ae6058",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
+                "file": "var/other/202402271204.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "2265c2d53daa0780",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
-                "page": 1,
-                "zoom": 1
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -137,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
+                "file": "var/other/202402271204.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
+                "file": "var/other/202402271204.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf"
+                "file": "var/other/202402271204.md"
               }
             }
           },
@@ -212,19 +160,19 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "9828219d333ea958",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
     "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
+    "sem2/DDCA/VRL/slides/DDCA-L19-pipelines-2.pdf",
+    "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
-    "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
+    "var/other/PV-BP.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
-    "sem2/DDCA/VRL/slides/DDCA-L19-pipelines-2.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L20-out-of-order-execution.pdf",
-    "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/UE/cx/bf/cx08-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg01-bf.md",
