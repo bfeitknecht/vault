@@ -16,7 +16,7 @@
                 "file": "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
                 "page": 1,
                 "left": -11,
-                "top": 228,
+                "top": 796,
                 "zoom": 1.3823529411764706
               }
             }
@@ -32,9 +32,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1c60693a3fc42b41",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -84,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -100,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +125,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,9 +146,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md"
-              }
+              "state": {}
             }
           },
           {
@@ -175,11 +180,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "ef9663631da6a74d",
+  "active": "1c60693a3fc42b41",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
     "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
-    "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
     "var/other/202402271204.md",
@@ -219,7 +224,6 @@
     "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
     "sem2/Analysis-1/UE/bf/Analysis-1-u02-bf.md",
     "sem2/Analysis-1/UE/bf/Analysis-1-u01-bf.md",
-    "sem1/LinAlg/PV/summaries/kai/!LinAlg-kai.md",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-matrix.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-column-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-row-vector.png",
