@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
-                "page": 2,
+                "page": 26,
                 "left": -11,
-                "top": 339,
+                "top": 206,
                 "zoom": 1.4875
               }
             }
@@ -59,7 +59,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
+                "file": "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
+                "file": "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf"
+                "file": "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md"
               }
             }
           },
@@ -201,8 +202,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "f3d635bae99b8981",
+  "active": "ef9663631da6a74d",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
     "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
     "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
@@ -215,7 +217,6 @@
     "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
     "var/other/PV-BP.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/AuW/UE/cx/bf/cx08-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg01-bf.md",

@@ -21,14 +21,20 @@ int abs_diff_color(int R1, int G1, int B1, int R2, int G2, int B2) {
 
 ```C
 // Implementation of the absolute value of differences
-int abs_diff(int pixel_left, int pixel_right) {
-	int abs_diff = abs(pixel_left - pixel_right);
+int abs_diff(int l, int r) {
+	int abs_diff = abs(l - r);
 	return abs_diff;
 }
 ```
 
 ```
+lw $a0, 0($s0) 			# Load l[i] into $a0
+lw $a1, 36($s0) 		# Load r[i] into $a1
+jal abs_diff 			# Call abs_diff
+
 # Absolute difference between two integers
+# $a0 = l
+# $a1 = r
 abs_diff:
 	sub $t1, $a0, $a1 	# Subtract second integer from first integer
 	sra $t2, $t1, 31 	# Arithmetic right shift to get sign of the difference
