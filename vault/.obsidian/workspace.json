@@ -29,9 +29,9 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
                 "page": 1,
-                "left": -9,
-                "top": 28,
-                "zoom": 1.75
+                "left": -11,
+                "top": 525,
+                "zoom": 1.3823529411764706
               }
             }
           },
@@ -42,18 +42,6 @@
               "type": "markdown",
               "state": {
                 "file": "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a49b01da721a2961",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -204,10 +191,11 @@
   },
   "active": "ef9663631da6a74d",
   "lastOpenFiles": [
-    "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
-    "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
     "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
+    "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
     "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
+    "sem2/DDCA/VRL/extra/introduction-to-mips.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
     "var/other/202402271204.md",
@@ -216,7 +204,6 @@
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
     "var/other/PV-BP.pdf",
-    "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
     "sem2/AuW/UE/cx/bf/cx08-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg01-bf.md",
