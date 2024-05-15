@@ -28,7 +28,6 @@ end:
 
 
 
-
 ___
 # Part 2
 ## SAD Algorithm
@@ -75,20 +74,6 @@ int main() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ___
 # Part 3 (Report)
 ## Multiple Function Parameters
@@ -100,8 +85,6 @@ int abs_diff_color(int R1, int G1, int B1, int R2, int G2, int B2) {
 ```
 ![[DDCA-u07-report.pdf#page=2&rect=87,637,528,721|DDCA-u07-report, p.2]]
 ![[DDCA-LAB07-asm.pdf#page=23&rect=115,112,608,386|DDCA-LAB07-asm, p.23]]
-
-
 
 
 
