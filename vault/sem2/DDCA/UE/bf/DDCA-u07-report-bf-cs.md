@@ -10,6 +10,22 @@ int abs_diff_color(int R1, int G1, int B1, int R2, int G2, int B2) {
 
 
 
+
+
+
+
+
+
+
+
+```C
+// Implementation of the absolute value of differences
+int abs_diff(int pixel_left, int pixel_right) {
+	int abs_diff = abs(pixel_left - pixel_right);
+	return abs_diff;
+}
+```
+
 ```
 # Absolute difference between two integers
 abs_diff:

@@ -34,23 +34,19 @@
             }
           },
           {
-            "id": "1c60693a3fc42b41",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
             "id": "a49b01da721a2961",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,6 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md"
+              }
             }
           },
           {
@@ -188,11 +188,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "a49b01da721a2961",
+  "active": "ef9663631da6a74d",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
     "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
-    "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
     "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
     "var/other/202402271204.md",
