@@ -15,9 +15,9 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
                 "page": 1,
-                "left": -11,
-                "top": 796,
-                "zoom": 1.3823529411764706
+                "left": -9,
+                "top": 718,
+                "zoom": 1.75
               }
             }
           },
@@ -40,9 +40,17 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "a49b01da721a2961",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -180,11 +188,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "1c60693a3fc42b41",
+  "active": "a49b01da721a2961",
   "lastOpenFiles": [
     "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
-    "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
     "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
+    "sem2/DDCA/UE/bf/DDCA-u07-manual-bf-cs.md",
     "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
     "var/other/202402271204.md",
