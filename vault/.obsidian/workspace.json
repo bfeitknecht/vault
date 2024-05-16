@@ -11,82 +11,52 @@
             "id": "bfa50aa2f448175d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 214,
-                "left": -124,
-                "top": 729,
-                "zoom": 1.04
-              }
-            }
-          },
-          {
-            "id": "1a3c95a2e5870056",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
-                "page": 1,
-                "zoom": 1
-              }
-            }
-          },
-          {
-            "id": "044029e7584fe308",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "sem2/AuW/VRL/notes/AuW.md",
+                "file": "sem2/AuW/UE/cx/bf/cx09-bf.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "287317b416d76794",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a8e5a873cf4479d",
+            "id": "5451be40b72717e5",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
-                "page": 1,
-                "left": -155,
-                "top": 276,
-                "zoom": 1.64
+                "file": "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
+                "page": 19,
+                "left": -5,
+                "top": 169,
+                "zoom": 2.9517549299268264
               }
             }
           },
           {
-            "id": "2bc2110c591cdebe",
+            "id": "a06aca2450e8e550",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
-                "page": 21,
-                "left": -89,
-                "top": 21,
-                "zoom": 2.04
+                "page": 19,
+                "left": -5,
+                "top": 260,
+                "zoom": 2.9517549299268264
               }
+            }
+          },
+          {
+            "id": "0a5c6865a6dcf608",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -153,7 +123,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +139,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,9 +160,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -228,8 +194,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "2bc2110c591cdebe",
+  "active": "0a5c6865a6dcf608",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
+    "sem2/AuW/VRL/slides/AuW-L24a-flow-matchings.pdf",
+    "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
+    "sem2/AuW/UE/cx/bf/cx09-bf.md",
     "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
     "sem1/DMath/extra/DMath-script.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
@@ -241,9 +211,6 @@
     "sem2/AuW/VRL/extra/nwehrli/AuW-w08-target-shooting.pdf",
     "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
-    "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
-    "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
-    "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
     "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u06-lab.md",
@@ -272,7 +239,6 @@
     "sem2/Analysis-1/VRL/slides/Analysis-1-00-slides.md",
     "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
     "sem2/Analysis-1/UE/bf/Analysis-1-u02-bf.md",
-    "sem2/Analysis-1/UE/bf/Analysis-1-u01-bf.md",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-matrix.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-column-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-row-vector.png",
