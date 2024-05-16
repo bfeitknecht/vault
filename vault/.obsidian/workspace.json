@@ -14,8 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                "page": 1,
-                "zoom": 1
+                "page": 214,
+                "left": -124,
+                "top": 729,
+                "zoom": 1.04
               }
             }
           },
@@ -199,8 +201,9 @@
   },
   "active": "287317b416d76794",
   "lastOpenFiles": [
-    "sem2/AuW/VRL/notes/AuW.md",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+    "sem2/AuW/VRL/notes/AuW.md",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w09-smallest-epi-circle.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w01-cycles.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w10-convex-hulls.pdf",
@@ -209,7 +212,6 @@
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L24a-flow-matchings.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
