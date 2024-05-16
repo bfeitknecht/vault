@@ -15,56 +15,51 @@
               "state": {
                 "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "page": 181,
-                "left": -9,
-                "top": 484,
-                "zoom": 1.7991654291454724
+                "left": -11,
+                "top": 488,
+                "zoom": 1.421189498652726
               }
             }
           },
           {
-            "id": "57affc16a2345b7a",
+            "id": "1a3c95a2e5870056",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
-                "page": 37,
-                "left": -6,
-                "top": 57,
-                "zoom": 2.331638348009426
+                "file": "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
+                "page": 19,
+                "left": -164,
+                "top": 177,
+                "zoom": 1.27
               }
             }
           },
           {
-            "id": "ff140e693cf0bd58",
+            "id": "044029e7584fe308",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L24a-flow-matchings.pdf",
-                "page": 1,
-                "left": -6,
-                "top": 276,
-                "zoom": 2.331638348009426
+                "file": "sem2/AuW/VRL/notes/AuW.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "1e95d0079f8d811e",
+            "id": "287317b416d76794",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
-                "page": 14,
-                "left": -40,
-                "top": 220,
-                "zoom": 1.98
+                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf"
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
               }
             }
           },
@@ -205,12 +200,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "1e95d0079f8d811e",
+  "active": "bfa50aa2f448175d",
   "lastOpenFiles": [
-    "sem2/AuW/VRL/slides/AuW-L24a-flow-matchings.pdf",
-    "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
-    "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
+    "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+    "sem2/AuW/VRL/notes/AuW.md",
+    "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
+    "sem2/AuW/VRL/slides/AuW-L24a-flow-matchings.pdf",
+    "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
+    "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
@@ -219,15 +218,11 @@
     "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
     "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u06-lab.md",
-    "sem2/DDCA/VRL/extra/introduction-to-mips.pdf",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
-    "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
     "var/other/202402271204.md",
     "sem2/AuW/UE/cx/bf/cx08-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg01-bf.md",
     "var/attachments/network-flow-vertex-capacity-img.jpg",
-    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "var/attachments/network-flow-vertex-capacity-img.png",
     "var/attachments/network-flow-multi-source&sink.png",
     "var/attachments/network-flow-multi-source&sink-img.png",
@@ -239,7 +234,6 @@
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg04-bf.md",
     "sem2/DDCA/VRL/notes/DDCA.md",
-    "sem2/AuW/VRL/notes/AuW.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
