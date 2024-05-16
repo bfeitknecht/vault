@@ -56,9 +56,23 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6a8e5a873cf4479d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
+                "page": 3,
+                "left": -6,
+                "top": 150,
+                "zoom": 2.331638348009426
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -124,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+                "file": "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+                "file": "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md"
+                "file": "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf"
               }
             }
           },
@@ -199,10 +213,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "287317b416d76794",
+  "active": "6a8e5a873cf4479d",
   "lastOpenFiles": [
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w09-smallest-epi-circle.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w01-cycles.pdf",
