@@ -54,17 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ed1cab7345dec623",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md"
+              }
             }
           },
           {
@@ -201,7 +197,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "ed1cab7345dec623",
+  "active": "287317b416d76794",
   "lastOpenFiles": [
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
