@@ -30,13 +30,41 @@
                 "file": "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
                 "page": 37,
                 "left": -6,
-                "top": 53,
+                "top": 57,
                 "zoom": 2.331638348009426
+              }
+            }
+          },
+          {
+            "id": "ff140e693cf0bd58",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/slides/AuW-L24a-flow-matchings.pdf",
+                "page": 1,
+                "left": -6,
+                "top": 276,
+                "zoom": 2.331638348009426
+              }
+            }
+          },
+          {
+            "id": "1e95d0079f8d811e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
+                "page": 1,
+                "left": -5,
+                "top": 276,
+                "zoom": 2.9517549299268264
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -86,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -102,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
+                "file": "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
+                "file": "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf"
+                "file": "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf"
               }
             }
           },
@@ -177,8 +206,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "57affc16a2345b7a",
+  "active": "1e95d0079f8d811e",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/slides/AuW-L24a-flow-matchings.pdf",
+    "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
+    "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
@@ -192,9 +224,6 @@
     "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
     "var/other/202402271204.md",
-    "sem2/DDCA/VRL/slides/DDCA-L19-pipelines-2.pdf",
-    "sem2/DDCA/VRL/slides/DDCA-L16-microarchitecture.pdf",
-    "sem2/DDCA/VRL/extra/DDCA-MIPS-cheatsheet.pdf",
     "sem2/AuW/UE/cx/bf/cx08-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg01-bf.md",
