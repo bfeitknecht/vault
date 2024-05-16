@@ -54,9 +54,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ed1cab7345dec623",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +130,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +146,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +167,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md"
-              }
+              "state": {}
             }
           },
           {
@@ -197,8 +201,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "287317b416d76794",
+  "active": "ed1cab7345dec623",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/notes/AuW.md",
+    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w09-smallest-epi-circle.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w01-cycles.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w10-convex-hulls.pdf",
@@ -207,12 +213,9 @@
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
-    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
-    "sem2/AuW/VRL/notes/AuW.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L24a-flow-matchings.pdf",
-    "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
     "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u06-lab.md",
