@@ -56,10 +56,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
-                "page": 1,
-                "left": -5,
-                "top": 276,
-                "zoom": 2.9517549299268264
+                "page": 14,
+                "left": -40,
+                "top": 220,
+                "zoom": 1.98
               }
             }
           }
@@ -114,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
