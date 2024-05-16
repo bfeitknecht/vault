@@ -4,52 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "2241594fba6dda7a",
+        "id": "805f086209640ec1",
         "type": "tabs",
         "children": [
           {
-            "id": "f3d635bae99b8981",
+            "id": "bfa50aa2f448175d",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                 "page": 1,
                 "zoom": 1
               }
             }
           },
           {
-            "id": "b5dff481cafc939a",
+            "id": "1a3c95a2e5870056",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
+                "file": "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
                 "page": 1,
                 "zoom": 1
               }
             }
           },
           {
-            "id": "5cc606828d2ebf1d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-                "page": 1,
-                "zoom": 1
-              }
-            }
-          },
-          {
-            "id": "04a2818ba334a5d4",
+            "id": "044029e7584fe308",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
+                "file": "sem2/AuW/VRL/notes/AuW.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "287317b416d76794",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
+                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
+                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,12 +162,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-lab.md"
+                "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md"
               }
+            }
+          },
+          {
+            "id": "d4d9e5cf2cd5e94b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -190,9 +197,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "04a2818ba334a5d4",
+  "active": "287317b416d76794",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/extra/nwehrli/AuW-w09-smallest-epi-circle.pdf",
+    "sem2/AuW/VRL/extra/nwehrli/AuW-w01-cycles.pdf",
+    "sem2/AuW/VRL/extra/nwehrli/AuW-w10-convex-hulls.pdf",
+    "sem2/AuW/VRL/extra/nwehrli/AuW-w08-target-shooting.pdf",
     "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
+    "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
@@ -201,11 +213,6 @@
     "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L24a-flow-matchings.pdf",
     "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
-    "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
-    "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
-    "sem2/DDCA/UE/bf/DDCA-u01-lab.pdf",
-    "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
     "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u06-lab.md",
