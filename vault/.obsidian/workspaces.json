@@ -158,59 +158,71 @@
       "active": "bfa50aa2f448175d",
       "mtime": "2024-05-08T13:28:56+02:00"
     },
-    "DDCA-lab06": {
+    "ddca-report07": {
       "main": {
         "id": "ef0204964e2b9162",
         "type": "split",
         "children": [
           {
-            "id": "805f086209640ec1",
+            "id": "2241594fba6dda7a",
             "type": "tabs",
             "children": [
               {
-                "id": "bfa50aa2f448175d",
+                "id": "f3d635bae99b8981",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
-                    "page": 1,
+                    "page": 23,
                     "left": -11,
-                    "top": 544,
+                    "top": 459,
                     "zoom": 1.4875
                   }
                 }
               },
               {
-                "id": "5a06d22fe91d21f3",
+                "id": "b5dff481cafc939a",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
+                    "page": 1,
+                    "left": -92,
+                    "top": 474,
+                    "zoom": 1.3823529411764706
+                  }
+                }
+              },
+              {
+                "id": "5cc606828d2ebf1d",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-                    "page": 6,
-                    "left": -9,
-                    "top": 534,
-                    "zoom": 1.75
+                    "page": 2,
+                    "left": -4,
+                    "top": 618,
+                    "zoom": 1.45
                   }
                 }
               },
               {
-                "id": "d83bf4fa98d48113",
+                "id": "04a2818ba334a5d4",
                 "type": "leaf",
                 "state": {
-                  "type": "pdf",
+                  "type": "markdown",
                   "state": {
-                    "file": "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
-                    "page": 1,
-                    "left": -9,
-                    "top": 349,
-                    "zoom": 1.75
+                    "file": "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
+                    "mode": "source",
+                    "source": false
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -277,7 +289,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
+                    "file": "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -294,7 +306,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf",
+                    "file": "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -317,20 +329,12 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/UE/e/report/DDCA-u06-report.pdf"
+                    "file": "sem2/DDCA/UE/bf/DDCA-u07-lab.md"
                   }
-                }
-              },
-              {
-                "id": "d4d9e5cf2cd5e94b",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {}
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           }
         ],
         "direction": "horizontal",
@@ -352,8 +356,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "d83bf4fa98d48113",
-      "mtime": "2024-05-08T13:48:08+02:00"
+      "active": "04a2818ba334a5d4",
+      "mtime": "2024-05-16T11:36:36+02:00"
     }
   },
   "active": "clean"
