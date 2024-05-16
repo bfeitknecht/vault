@@ -100,7 +100,6 @@ main:
 
 
 
-	
 ```C
 int abs_diff(int l, int r) {
 	int abs_diff = abs(l - r);
