@@ -130,7 +130,7 @@ $\mathfrak A$
 
 
 #Partial-Order-Relation
-
+![[AuW-script.pdf#page=212&rect=114,516,483,636|AuW-script, p.212]]
 
 
 
