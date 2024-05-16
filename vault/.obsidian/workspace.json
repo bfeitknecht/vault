@@ -58,9 +58,23 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e7332ce3c2d8ff73",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
+                "page": 21,
+                "left": -5,
+                "top": 124,
+                "zoom": 2.9517549299268264
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -127,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/VRL/notes/AuW.md",
+                "file": "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/VRL/notes/AuW.md",
+                "file": "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/VRL/notes/AuW.md"
+                "file": "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf"
               }
             }
           },
@@ -202,16 +216,17 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "044029e7584fe308",
+  "active": "e7332ce3c2d8ff73",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
+    "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+    "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
-    "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
     "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L24a-flow-matchings.pdf",
     "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
-    "sem2/AuW/VRL/slides/AuW-L20-local-repair.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
