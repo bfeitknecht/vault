@@ -64,24 +64,24 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
-                "page": 13,
+                "page": 1,
                 "left": -155,
-                "top": 185,
+                "top": 276,
                 "zoom": 1.64
               }
             }
           },
           {
-            "id": "e31c6a6142bf6688",
+            "id": "2bc2110c591cdebe",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem1/DMath/extra/DMath-script.pdf",
-                "page": 1,
-                "left": -6,
-                "top": 628,
-                "zoom": 2.5528689384260406
+                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
+                "page": 21,
+                "left": -89,
+                "top": 21,
+                "zoom": 2.04
               }
             }
           }
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem1/DMath/extra/DMath-script.pdf",
+                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem1/DMath/extra/DMath-script.pdf",
+                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem1/DMath/extra/DMath-script.pdf"
+                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf"
               }
             }
           },
@@ -228,10 +228,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "e31c6a6142bf6688",
+  "active": "2bc2110c591cdebe",
   "lastOpenFiles": [
-    "sem2/AuW/VRL/notes/AuW.md",
     "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
+    "sem1/DMath/extra/DMath-script.pdf",
+    "sem2/AuW/VRL/notes/AuW.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w09-smallest-epi-circle.pdf",
