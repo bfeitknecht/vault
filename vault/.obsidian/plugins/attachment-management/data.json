@@ -2,9 +2,10 @@
   "attachPath": {
     "attachmentRoot": "",
     "saveAttE": "obsFolder",
-    "attachmentPath": "${notepath}/${notename}",
+    "attachmentPath": "${notename}",
     "attachFormat": "IMG-${notename}-${date}",
-    "type": "GLOBAL"
+    "type": "GLOBAL",
+    "extensionOverride": []
   },
   "dateFormat": "YYYY-MM-DD-HH:mm:ss",
   "excludeExtensionPattern": "",
