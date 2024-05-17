@@ -13,5 +13,7 @@
   "folders2graph",
   "mermaid-tools",
   "cm-editor-syntax-highlight-obsidian",
-  "persistent-graph"
+  "persistent-graph",
+  "hide-folders",
+  "attachment-management"
 ]

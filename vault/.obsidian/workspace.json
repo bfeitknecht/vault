@@ -4,75 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "2241594fba6dda7a",
+        "id": "805f086209640ec1",
         "type": "tabs",
         "children": [
           {
-            "id": "f3d635bae99b8981",
+            "id": "bfa50aa2f448175d",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
+                "file": "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
                 "page": 1,
-                "zoom": 1
-              }
-            }
-          },
-          {
-            "id": "b5dff481cafc939a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
-                "page": 1,
-                "zoom": 1
-              }
-            }
-          },
-          {
-            "id": "5cc606828d2ebf1d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-                "page": 2,
-                "left": -4,
-                "top": 622,
-                "zoom": 1.45
-              }
-            }
-          },
-          {
-            "id": "04a2818ba334a5d4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
-                "page": 3,
                 "left": -11,
-                "top": 460,
-                "zoom": 1.3823529411764706
+                "top": 276,
+                "zoom": 1.3890611434949771
               }
             }
           },
           {
-            "id": "a43d3811891cf2d8",
+            "id": "b02d618547f13faa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
-                "mode": "source",
-                "source": false
+                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
+                "page": 19,
+                "left": -11,
+                "top": 264,
+                "zoom": 1.3890611434949771
               }
+            }
+          },
+          {
+            "id": "fd17505bb456f0ca",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -138,7 +111,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +127,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,13 +148,19 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "d4d9e5cf2cd5e94b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -205,18 +182,18 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "04a2818ba334a5d4",
+  "active": "fd17505bb456f0ca",
   "lastOpenFiles": [
-    "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
+    "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
+    "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
+    "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u01-lab.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/AuW/UE/u/e/AuW-u06-e.pdf",
-    "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L24a-flow-matchings.pdf",
-    "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
     "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
     "sem1/DMath/extra/DMath-script.pdf",
