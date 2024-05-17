@@ -36,20 +36,6 @@
             }
           },
           {
-            "id": "0a5c6865a6dcf608",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/UE/u/e/AuW-u06-e.pdf",
-                "page": 1,
-                "left": -64,
-                "top": 578,
-                "zoom": 1.21
-              }
-            }
-          },
-          {
             "id": "865d4b4b601d5397",
             "type": "leaf",
             "state": {
@@ -82,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -148,7 +134,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +150,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,9 +171,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/AuW/UE/u/bf/AuW-u06-bf.md"
-              }
+              "state": {}
             }
           },
           {
@@ -224,10 +206,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "865d4b4b601d5397",
+  "active": "106449c509c66774",
   "lastOpenFiles": [
-    "sem2/AuW/UE/u/e/AuW-u06-e.pdf",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
+    "sem2/AuW/UE/u/e/AuW-u06-e.pdf",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
