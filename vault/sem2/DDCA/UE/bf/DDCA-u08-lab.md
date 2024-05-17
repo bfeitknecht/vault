@@ -6,3 +6,4 @@
 ![[DDCA-u08a-manual.pdf#page=4&rect=87,167,529,359|DDCA-u08a-manual, p.4]]
 
 ![[DDCA-u08a-manual.pdf#page=4&rect=85,459,527,623|DDCA-u08a-manual, p.4]]
+![[ddca-lab08-mips-schematic.png]]

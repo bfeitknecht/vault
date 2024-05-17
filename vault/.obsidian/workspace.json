@@ -52,10 +52,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
-                "page": 4,
-                "left": -4,
-                "top": 701,
-                "zoom": 1.68
+                "page": 6,
+                "left": -320,
+                "top": 743,
+                "zoom": 0.88
               }
             }
           },
@@ -70,9 +70,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1ecbe46e141fa43c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "var/attachments/ddca-lab08-mips-schematic.png"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -139,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
+                "file": "var/attachments/ddca-lab08-mips-schematic.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
+                "file": "var/attachments/ddca-lab08-mips-schematic.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf"
+                "file": "var/attachments/ddca-lab08-mips-schematic.png"
               }
             }
           }
@@ -207,22 +217,24 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "04a2818ba334a5d4",
+  "active": "1ecbe46e141fa43c",
   "lastOpenFiles": [
     "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
+    "var/attachments/Screenshot 2024-05-16 at 17.15.02.png",
+    "var/attachments/DDCA-MIPS-instruction-set.pdf",
+    "var/attachments/ddca-lab08-mips-schematic.png",
+    "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/DDCA/VRL/extra/MIPS-instruction-set.pdf",
     "sem2/DDCA/VRL/extra/Harris&Harris.pdf",
     "sem2/DDCA/VRL/extra/basys3-DIMENSIONS.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-    "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
     "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u01-lab.pdf",
-    "sem2/AuW/UE/u/e/AuW-u06-e.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
@@ -252,8 +264,6 @@
     "sem2/Analysis-1/VRL/slides/Analysis-1-00-slides.md",
     "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-matrix.png",
-    "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-column-vector.png",
-    "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-row-vector.png",
     "Untitled.canvas",
     "sem1/AuD/VRL/Untitled.canvas"
   ]
