@@ -8,16 +8,28 @@
         "type": "tabs",
         "children": [
           {
+            "id": "bb1fea2fa1427b1b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                "page": 1,
+                "left": -11,
+                "top": 846,
+                "zoom": 1.421189498652726
+              }
+            }
+          },
+          {
             "id": "a06aca2450e8e550",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
-                "page": 19,
-                "left": -5,
-                "top": 264,
-                "zoom": 2.9517549299268264
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -28,10 +40,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
-                "page": 18,
-                "left": -143,
-                "top": 11,
-                "zoom": 1.7
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -68,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -192,7 +202,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "hide-folders:Show hidden folders": false,
       "mermaid-tools:Open Mermaid Toolbar": true,
       "omnisearch:Omnisearch": false,
       "workspaces:Manage workspace layouts": false,
@@ -208,9 +217,11 @@
   },
   "active": "106449c509c66774",
   "lastOpenFiles": [
+    "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "sem2/AuW/UE/u/e/AuW-u06-e.pdf",
-    "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
     "var/attachments/ddca-lab08-mips-schematic.png",
@@ -226,7 +237,6 @@
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
     "sem2/AuW/VRL/notes/AuW.md",
-    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
     "sem2/DDCA/UE/bf/DDCA-u06-lab.md",
     "var/other/202402271204.md",
