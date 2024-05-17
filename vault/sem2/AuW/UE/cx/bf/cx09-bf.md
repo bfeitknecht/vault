@@ -42,5 +42,6 @@ $d_i \widehat = \ \text{"demand of food"}$, of $v_j\ne v_i$ or $i=j$
 
 Network N:
 
-edge from i to j if:
-	i has leftovers (p_i - d_i)
+direct edge from i to j if:
+	i has leftovers (p_i - d_i > 0) and
+	i doesn't produce j's favorite (v_i != v_j)
