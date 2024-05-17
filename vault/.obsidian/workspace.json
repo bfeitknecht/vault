@@ -44,7 +44,7 @@
                 "file": "sem2/AuW/UE/u/e/AuW-u06-e.pdf",
                 "page": 1,
                 "left": -64,
-                "top": 703,
+                "top": 578,
                 "zoom": 1.21
               }
             }
@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/u/e/AuW-u06-e.pdf",
+                "file": "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/u/e/AuW-u06-e.pdf",
+                "file": "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/u/e/AuW-u06-e.pdf"
+                "file": "sem2/AuW/UE/u/bf/AuW-u06-bf.md"
               }
             }
           },
@@ -224,10 +224,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "0a5c6865a6dcf608",
+  "active": "865d4b4b601d5397",
   "lastOpenFiles": [
-    "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "sem2/AuW/UE/u/e/AuW-u06-e.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
