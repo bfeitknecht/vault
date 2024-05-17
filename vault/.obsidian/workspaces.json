@@ -142,6 +142,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "hide-folders:Show hidden folders": false,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
@@ -156,7 +157,7 @@
         }
       },
       "active": "bfa50aa2f448175d",
-      "mtime": "2024-05-08T13:28:56+02:00"
+      "mtime": "2024-05-17T14:20:09+02:00"
     },
     "ddca-report07": {
       "main": {
@@ -1020,203 +1021,7 @@
       },
       "active": "1ecbe46e141fa43c",
       "mtime": "2024-05-17T14:17:22+02:00"
-    },
-    "auw-cx09": {
-      "main": {
-        "id": "ef0204964e2b9162",
-        "type": "split",
-        "children": [
-          {
-            "id": "805f086209640ec1",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "bfa50aa2f448175d",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
-                    "page": 1,
-                    "left": -11,
-                    "top": 276,
-                    "zoom": 1.3890611434949771
-                  }
-                }
-              },
-              {
-                "id": "b02d618547f13faa",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
-                    "page": 19,
-                    "left": -11,
-                    "top": 264,
-                    "zoom": 1.3890611434949771
-                  }
-                }
-              },
-              {
-                "id": "fd17505bb456f0ca",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem2/AuW/UE/cx/bf/cx09-bf.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 2
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "fe28d63e32c3168b",
-        "type": "split",
-        "children": [
-          {
-            "id": "fddab58c0769d063",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5f4cf158045f14fe",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "3eef01e3b58afb78",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:/sem2/AuW/VRL/slides",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "byModifiedTime"
-                  }
-                }
-              },
-              {
-                "id": "b14014a5400a500b",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "right": {
-        "id": "4be59d580df31d93",
-        "type": "split",
-        "children": [
-          {
-            "id": "a9eab3abde570e06",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b3aff261bc292caf",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "sem2/AuW/UE/cx/bf/cx09-bf.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "2d28441159ca953f",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "sem2/AuW/UE/cx/bf/cx09-bf.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "ee946e358c8111ed",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "0f56d709fdb24392",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "sem2/AuW/UE/cx/bf/cx09-bf.md"
-                  }
-                }
-              },
-              {
-                "id": "d4d9e5cf2cd5e94b",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {}
-                }
-              }
-            ],
-            "currentTab": 4
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "mermaid-tools:Open Mermaid Toolbar": true,
-          "omnisearch:Omnisearch": false,
-          "workspaces:Manage workspace layouts": false,
-          "switcher:Open quick switcher": true,
-          "graph:Open graph view": false,
-          "command-palette:Open command palette": false,
-          "templates:Insert template": true,
-          "zk-prefixer:Create new unique note": true,
-          "pdf-plus:PDF++: Toggle auto-copy": true,
-          "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true,
-          "hide-folders:Show hidden folders": false
-        }
-      },
-      "active": "fd17505bb456f0ca",
-      "mtime": "2024-05-17T10:21:48+02:00"
     }
   },
-  "active": "auw-cx09"
+  "active": "auw-u06"
 }

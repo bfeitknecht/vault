@@ -80,5 +80,14 @@
       "modifiers": [],
       "key": "F2"
     }
+  ],
+  "workspace:next-tab": [],
+  "workspaces:save-and-load": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Tab"
+    }
   ]
 }
