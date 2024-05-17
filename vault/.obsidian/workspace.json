@@ -53,7 +53,7 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
                 "page": 4,
-                "left": -22,
+                "left": -4,
                 "top": 701,
                 "zoom": 1.68
               }
@@ -70,23 +70,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8e79556e31192563",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
-                "page": 11,
-                "left": -138,
-                "top": 386,
-                "zoom": 0.88
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -153,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u08-lab.md"
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf"
               }
             }
           }
@@ -221,15 +207,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "a43d3811891cf2d8",
+  "active": "04a2818ba334a5d4",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
     "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/DDCA/VRL/extra/MIPS-instruction-set.pdf",
     "sem2/DDCA/VRL/extra/Harris&Harris.pdf",
     "sem2/DDCA/VRL/extra/basys3-DIMENSIONS.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-    "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
     "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
