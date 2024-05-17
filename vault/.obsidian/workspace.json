@@ -38,8 +38,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-                "page": 1,
-                "zoom": 1
+                "page": 2,
+                "left": -74,
+                "top": 626,
+                "zoom": 1.45
               }
             }
           },
@@ -82,9 +84,21 @@
                 "zoom": 0.88
               }
             }
+          },
+          {
+            "id": "434b6f15814c5b8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -151,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
+                "file": "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
+                "file": "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u08-lab.md"
+                "file": "sem2/DDCA/UE/bf/DDCA-u07-lab.md"
               }
             }
           }
@@ -219,15 +233,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "a43d3811891cf2d8",
+  "active": "434b6f15814c5b8a",
   "lastOpenFiles": [
-    "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
+    "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
+    "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
-    "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u01-lab.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
