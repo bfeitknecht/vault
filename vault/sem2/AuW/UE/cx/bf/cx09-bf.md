@@ -34,7 +34,7 @@ d	=	[4, 1, 8, 13]
 ```
 
 
-$v_i \simeq \text{"favorite food"}$, only eat food variety $v_i$ if produced in city $i$.
-$p_i\simeq \text{"produced food"}$, of variety $v_i$
-$d_i\simeq\text{"demand of food"}$, of $v_j\ne v_i$ or $i=j$
+$v_i \widehat = \text{"favorite food"}$, only eat food variety $v_i$ if produced in city $i$.
+$p_i \widehat = \text{"produced food"}$, of variety $v_i$
+$d_i \widehat = \text{"demand of food"}$, of $v_j\ne v_i$ or $i=j$
 
