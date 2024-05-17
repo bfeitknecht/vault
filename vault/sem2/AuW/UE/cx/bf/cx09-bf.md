@@ -38,3 +38,9 @@ $v_i \widehat = \ \text{"favorite food"}$, only eat food variety $v_i$ if produc
 $p_i \widehat = \ \text{"produced food"}$, of variety $v_i$
 $d_i \widehat = \ \text{"demand of food"}$, of $v_j\ne v_i$ or $i=j$
 
+
+
+Network N:
+
+edge from i to j if:
+	i has leftovers (p_i - d_i)
