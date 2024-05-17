@@ -148,8 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -235,6 +234,10 @@
   },
   "active": "434b6f15814c5b8a",
   "lastOpenFiles": [
+    "sem2/DDCA/VRL/extra/MIPS-instruction-set.pdf",
+    "sem2/DDCA/VRL/extra/Harris&Harris.pdf",
+    "sem2/DDCA/VRL/extra/basys3-DIMENSIONS.pdf",
+    "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
     "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
@@ -244,11 +247,8 @@
     "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
     "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u01-lab.pdf",
-    "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/AuW/UE/u/e/AuW-u06-e.pdf",
     "sem2/AuW/VRL/slides/AuW-L24a-flow-matchings.pdf",
-    "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
-    "sem1/DMath/extra/DMath-script.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
