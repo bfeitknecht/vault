@@ -4,55 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "805f086209640ec1",
+        "id": "2241594fba6dda7a",
         "type": "tabs",
         "children": [
           {
-            "id": "bfa50aa2f448175d",
+            "id": "f3d635bae99b8981",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "b5dff481cafc939a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "5cc606828d2ebf1d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
+                "page": 2,
+                "left": -4,
+                "top": 622,
+                "zoom": 1.45
+              }
+            }
+          },
+          {
+            "id": "04a2818ba334a5d4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
+                "page": 3,
+                "left": -11,
+                "top": 411,
+                "zoom": 1.3823529411764706
+              }
+            }
+          },
+          {
+            "id": "a43d3811891cf2d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx09-bf.md",
+                "file": "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "5451be40b72717e5",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
-                "page": 19,
-                "left": -5,
-                "top": 169,
-                "zoom": 2.9517549299268264
-              }
-            }
-          },
-          {
-            "id": "a06aca2450e8e550",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
-                "page": 19,
-                "left": -5,
-                "top": 260,
-                "zoom": 2.9517549299268264
-              }
-            }
-          },
-          {
-            "id": "0a5c6865a6dcf608",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
@@ -106,8 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -123,6 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,6 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,19 +177,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "d4d9e5cf2cd5e94b",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
+              "state": {
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf"
+              }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -194,8 +205,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "0a5c6865a6dcf608",
+  "active": "04a2818ba334a5d4",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
+    "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
+    "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
+    "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
+    "sem2/DDCA/UE/bf/DDCA-u01-lab.pdf",
+    "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
+    "sem2/AuW/UE/u/e/AuW-u06-e.pdf",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L24a-flow-matchings.pdf",
     "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
@@ -205,14 +223,7 @@
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
-    "sem2/AuW/VRL/extra/nwehrli/AuW-w09-smallest-epi-circle.pdf",
-    "sem2/AuW/VRL/extra/nwehrli/AuW-w01-cycles.pdf",
-    "sem2/AuW/VRL/extra/nwehrli/AuW-w10-convex-hulls.pdf",
-    "sem2/AuW/VRL/extra/nwehrli/AuW-w08-target-shooting.pdf",
-    "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
-    "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
-    "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u06-lab.md",
     "var/other/202402271204.md",
     "sem2/AuW/UE/cx/bf/cx08-bf.md",
@@ -238,7 +249,6 @@
     "sem2/AuW/UE/pg/bf/AuW-pg02-bf.md",
     "sem2/Analysis-1/VRL/slides/Analysis-1-00-slides.md",
     "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
-    "sem2/Analysis-1/UE/bf/Analysis-1-u02-bf.md",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-matrix.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-column-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-row-vector.png",
