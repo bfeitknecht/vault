@@ -840,8 +840,8 @@
                   "state": {
                     "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
                     "page": 2,
-                    "left": -4,
-                    "top": 622,
+                    "left": -74,
+                    "top": 626,
                     "zoom": 1.45
                   }
                 }
@@ -853,10 +853,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
-                    "page": 4,
-                    "left": -33,
-                    "top": 761,
-                    "zoom": 0.4558823529411765
+                    "page": 6,
+                    "left": -320,
+                    "top": 743,
+                    "zoom": 0.88
                   }
                 }
               },
@@ -871,9 +871,19 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "1ecbe46e141fa43c",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "var/attachments/ddca-lab08-mips-schematic.png"
+                  }
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 5
           }
         ],
         "direction": "vertical"
@@ -923,7 +933,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -939,7 +950,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
+                    "file": "var/attachments/ddca-lab08-mips-schematic.png",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -956,7 +967,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
+                    "file": "var/attachments/ddca-lab08-mips-schematic.png",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -979,7 +990,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf"
+                    "file": "var/attachments/ddca-lab08-mips-schematic.png"
                   }
                 }
               }
@@ -993,6 +1004,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "hide-folders:Show hidden folders": false,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
@@ -1006,8 +1018,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "04a2818ba334a5d4",
-      "mtime": "2024-05-17T09:22:26+02:00"
+      "active": "1ecbe46e141fa43c",
+      "mtime": "2024-05-17T14:17:22+02:00"
     },
     "auw-cx09": {
       "main": {
@@ -1206,5 +1218,5 @@
       "mtime": "2024-05-17T10:21:48+02:00"
     }
   },
-  "active": "ddca-lab08"
+  "active": "auw-cx09"
 }
