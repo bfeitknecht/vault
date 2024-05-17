@@ -79,26 +79,14 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
                 "page": 11,
-                "left": -266,
+                "left": -138,
                 "top": 386,
                 "zoom": 0.88
               }
             }
-          },
-          {
-            "id": "434b6f15814c5b8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -148,7 +136,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -164,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
+                "file": "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
+                "file": "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u07-lab.md"
+                "file": "sem2/DDCA/UE/bf/DDCA-u08-lab.md"
               }
             }
           }
@@ -232,23 +221,22 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "434b6f15814c5b8a",
+  "active": "a43d3811891cf2d8",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
+    "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/DDCA/VRL/extra/MIPS-instruction-set.pdf",
     "sem2/DDCA/VRL/extra/Harris&Harris.pdf",
     "sem2/DDCA/VRL/extra/basys3-DIMENSIONS.pdf",
-    "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
     "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
     "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u01-lab.pdf",
     "sem2/AuW/UE/u/e/AuW-u06-e.pdf",
-    "sem2/AuW/VRL/slides/AuW-L24a-flow-matchings.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
