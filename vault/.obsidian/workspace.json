@@ -51,9 +51,9 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
                 "page": 4,
-                "left": -306,
-                "top": 563,
-                "zoom": 0.9
+                "left": -22,
+                "top": 701,
+                "zoom": 1.68
               }
             }
           },
@@ -66,6 +66,20 @@
                 "file": "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "8e79556e31192563",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
+                "page": 11,
+                "left": -266,
+                "top": 386,
+                "zoom": 0.88
               }
             }
           }
@@ -209,6 +223,7 @@
   "lastOpenFiles": [
     "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
     "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
@@ -222,7 +237,6 @@
     "sem1/DMath/extra/DMath-script.pdf",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
     "sem2/DDCA/UE/bf/DDCA-u06-lab.md",
     "var/other/202402271204.md",
