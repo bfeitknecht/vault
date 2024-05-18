@@ -76,9 +76,23 @@
                 "file": "var/attachments/ddca-lab08-mips-schematic.png"
               }
             }
+          },
+          {
+            "id": "d831fd2d76070275",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/VRL/slides/DDCA-L12b-MIPS-ASM.pdf",
+                "page": 2,
+                "left": -11,
+                "top": 125,
+                "zoom": 1.4875
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -145,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "var/attachments/ddca-lab08-mips-schematic.png",
+                "file": "sem2/DDCA/VRL/slides/DDCA-L12b-MIPS-ASM.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "var/attachments/ddca-lab08-mips-schematic.png",
+                "file": "sem2/DDCA/VRL/slides/DDCA-L12b-MIPS-ASM.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "var/attachments/ddca-lab08-mips-schematic.png"
+                "file": "sem2/DDCA/VRL/slides/DDCA-L12b-MIPS-ASM.pdf"
               }
             }
           }
@@ -212,8 +226,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "1ecbe46e141fa43c",
+  "active": "d831fd2d76070275",
   "lastOpenFiles": [
+    "var/attachments/ddca-lab08-mips-schematic.png",
+    "sem2/DDCA/VRL/slides/DDCA-L12a_MIPS-ASM.pdf",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
@@ -221,7 +237,6 @@
     "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/AuW/UE/u/e/AuW-u06-e.pdf",
-    "var/attachments/ddca-lab08-mips-schematic.png",
     "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
     "var/attachments/Screenshot 2024-05-16 at 17.15.02.png",
     "var/attachments/DDCA-MIPS-instruction-set.pdf",
@@ -230,7 +245,6 @@
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/DDCA/VRL/extra/MIPS-instruction-set.pdf",
     "sem2/DDCA/VRL/extra/Harris&Harris.pdf",
-    "sem2/DDCA/VRL/extra/basys3-DIMENSIONS.pdf",
     "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
