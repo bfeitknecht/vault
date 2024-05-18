@@ -76,23 +76,9 @@
                 "file": "var/attachments/ddca-lab08-mips-schematic.png"
               }
             }
-          },
-          {
-            "id": "d831fd2d76070275",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/VRL/slides/DDCA-L12b-MIPS-ASM.pdf",
-                "page": 2,
-                "left": -11,
-                "top": 125,
-                "zoom": 1.4875
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -159,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/DDCA-L12b-MIPS-ASM.pdf",
+                "file": "var/attachments/ddca-lab08-mips-schematic.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/DDCA-L12b-MIPS-ASM.pdf",
+                "file": "var/attachments/ddca-lab08-mips-schematic.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/VRL/slides/DDCA-L12b-MIPS-ASM.pdf"
+                "file": "var/attachments/ddca-lab08-mips-schematic.png"
               }
             }
           }
@@ -226,8 +212,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "d831fd2d76070275",
+  "active": "1ecbe46e141fa43c",
   "lastOpenFiles": [
+    "sem2/DDCA/VRL/slides/DDCA-L12b-MIPS-ASM.pdf",
     "var/attachments/ddca-lab08-mips-schematic.png",
     "sem2/DDCA/VRL/slides/DDCA-L12a_MIPS-ASM.pdf",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
