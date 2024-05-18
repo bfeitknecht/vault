@@ -38,9 +38,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-                "page": 2,
+                "page": 5,
                 "left": -74,
-                "top": 630,
+                "top": 467,
                 "zoom": 1.45
               }
             }
@@ -54,7 +54,7 @@
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
                 "page": 3,
                 "left": -71,
-                "top": 613,
+                "top": 529,
                 "zoom": 1.46
               }
             }
@@ -228,11 +228,11 @@
   },
   "active": "04a2818ba334a5d4",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
+    "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
     "var/attachments/ddca-lab08-mips-schematic.png",
     "sem2/DDCA/VRL/extra/Harris&Harris.pdf",
-    "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
     "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
-    "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L12b-MIPS-ASM.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L12a_MIPS-ASM.pdf",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
