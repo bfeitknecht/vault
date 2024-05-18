@@ -53,19 +53,26 @@ idt3((3))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-idF -->|"12"| idf0 
-idF -->|"6"| idf1
-idF -->|"3"| idf2
-idF -->|"5"| idf3
+idF -->|"?/12"| idf0 
+idF -->|"?/6"| idf1
+idF -->|"?/3"| idf2
+idF -->|"?/5"| idf3
 
-idt0 -->|"4"| idT 
-idt1 -->|"1"| idT
-idt2 -->|"8"| idT
-idt3 -->|"13"| idT
+idt0 -->|"?/4"| idT 
+idt1 -->|"?/1"| idT
+idt2 -->|"?/8"| idT
+idt3 -->|"?/13"| idT
 
+idf0 --> id0a --> idt0
 idf1 --> id1a & id1b & id1c --> idt1
-idf1 --> id1a & id1b & id1c --> idt1
+idf2 --> id2a & id2b & id2c --> idt2
+idf3 --> id3b --> idt3
 
+
+idf0 --> id1a
+idf1 --> id2b
+idf2 --> id1c
+idf1 --> id3a
 ```
 
 
