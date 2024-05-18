@@ -24,8 +24,8 @@ id1 --> id3
 ```mermaid
 flowchart LR
 
-idF(("SOURCE"))
-idT(("SINK"))
+idF(("S"))
+idT(("T"))
 
 %% from
 idf0{0}
