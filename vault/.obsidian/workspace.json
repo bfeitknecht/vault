@@ -50,10 +50,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
-                "page": 6,
-                "left": -320,
-                "top": 748,
-                "zoom": 0.88
+                "page": 4,
+                "left": -71,
+                "top": 476,
+                "zoom": 1.46
               }
             }
           },
@@ -242,6 +242,7 @@
   "lastOpenFiles": [
     "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
     "var/attachments/ddca-lab08-mips-schematic.png",
+    "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
     "sem2/DDCA/VRL/extra/Harris&Harris.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L12b-MIPS-ASM.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L12a_MIPS-ASM.pdf",
@@ -254,7 +255,6 @@
     "sem2/AuW/UE/u/e/AuW-u06-e.pdf",
     "var/attachments/Screenshot 2024-05-16 at 17.15.02.png",
     "var/attachments/DDCA-MIPS-instruction-set.pdf",
-    "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
