@@ -64,21 +64,22 @@ idt2 -->|"?/8"| idT
 idt3 -->|"?/13"| idT
 
 
-idf0 --> id0a & id0b & id0c --> idt0
-idf1 --> id1a & id1b & id1c --> idt1
-idf2 --> id2a & id2b & id2c --> idt2
-idf3 --> id3a & id3b & id3c --> idt3
+%%idf0 --> id0a & id0b & id0c --> idt0
+%%idf1 --> id1a & id1b & id1c --> idt1
+%%idf2 --> id2a & id2b & id2c --> idt2
+%%idf3 --> id3a & id3b & id3c --> idt3
+
 
 idf0 ==> id0a ==> idt0
 idf1 ==> id1b ==> idt1
 idf2 ==> id2c ==> idt2
-idf1 ==> id
+idf3 ==> id3b ==> idt3
 
 
 %%idf0 --> id1a
 %%idf1 --> id2b
 %%idf2 --> id1c
-%%idf1 --> id3a
+%%idf3 --> id3a
 ```
 
 
