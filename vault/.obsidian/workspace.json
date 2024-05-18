@@ -78,35 +78,31 @@
             }
           },
           {
+            "id": "c3b1a71e5c9807a5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "var/attachments/ddca-lab08-mips-schematic.png"
+              }
+            }
+          },
+          {
             "id": "b741d129a50404dc",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/VRL/extra/Harris&Harris.pdf",
-                "page": 380,
-                "left": -4,
-                "top": 390,
+                "page": 391,
+                "left": 26,
+                "top": 43,
                 "zoom": 1.49
-              }
-            }
-          },
-          {
-            "id": "5e233fa6785b8fa7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/VRL/extra/Harris&Harris.pdf",
-                "page": 380,
-                "left": -11,
-                "top": 394,
-                "zoom": 1.3823529411764706
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -172,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/VRL/extra/Harris&Harris.pdf",
+                "file": "var/attachments/ddca-lab08-mips-schematic.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/VRL/extra/Harris&Harris.pdf",
+                "file": "var/attachments/ddca-lab08-mips-schematic.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/VRL/extra/Harris&Harris.pdf"
+                "file": "var/attachments/ddca-lab08-mips-schematic.png"
               }
             }
           }
@@ -239,8 +235,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "5e233fa6785b8fa7",
+  "active": "c3b1a71e5c9807a5",
   "lastOpenFiles": [
+    "sem2/DDCA/VRL/extra/Harris&Harris.pdf",
     "var/attachments/ddca-lab08-mips-schematic.png",
     "sem2/DDCA/VRL/slides/DDCA-L12b-MIPS-ASM.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L12a_MIPS-ASM.pdf",
@@ -257,7 +254,6 @@
     "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
-    "sem2/DDCA/VRL/extra/MIPS-instruction-set.pdf",
     "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
     "sem2/AuW/VRL/notes/AuW.md",
     "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
