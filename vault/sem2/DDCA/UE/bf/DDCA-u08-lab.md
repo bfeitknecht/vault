@@ -16,3 +16,27 @@ assign IOAddr = ALUResult[3:0];
 assign IOWriteEn = MemWrite & IsIO;
 ```
 
+
+
+# Report
+## (1)
+![[DDCA-u08a-report.pdf#page=1&rect=88,339,527,385|DDCA-u08a-report, p.1]]
+
+
+___
+
+
+
+## (2)
+![[DDCA-u08a-report.pdf#page=2&rect=88,667,530,698|DDCA-u08a-report, p.2]]
+
+
+___
+
+
+
+## (3)
+![[DDCA-u08a-report.pdf#page=2&rect=87,427,528,485|DDCA-u08a-report, p.2]]
+
+
+___
