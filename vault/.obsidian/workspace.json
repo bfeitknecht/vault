@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "var/attachments/ddca-lab08-mips-schematic.png",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "var/attachments/ddca-lab08-mips-schematic.png",
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "var/attachments/ddca-lab08-mips-schematic.png"
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf"
               }
             }
           }
@@ -238,11 +238,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "c3b1a71e5c9807a5",
+  "active": "04a2818ba334a5d4",
   "lastOpenFiles": [
-    "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
     "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
     "var/attachments/ddca-lab08-mips-schematic.png",
+    "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
     "sem2/DDCA/VRL/extra/Harris&Harris.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L12b-MIPS-ASM.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L12a_MIPS-ASM.pdf",
