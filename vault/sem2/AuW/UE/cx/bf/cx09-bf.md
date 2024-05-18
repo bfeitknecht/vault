@@ -19,6 +19,30 @@ id1 --> id3
 
 ```
 
+```mermaid
+flowchart LR
+
+idA(("SOURCE"))
+idB(("SINK"))
+
+id0a((0))
+id1a((1))
+id2a((2))
+id3a((3))
+
+id0b((0))
+id1b((1))
+id2b((2))
+id3b((3))
+
+idA --> id0a & id1a & id2a & id3a
+id0b & id1b & id2b & id3b --> idB
+
+id1a --> id2b
+
+```
+
+
 
 ```
 n	=	4
