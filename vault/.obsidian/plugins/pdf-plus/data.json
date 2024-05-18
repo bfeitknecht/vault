@@ -70,13 +70,13 @@
   "backlinkHoverColor": "",
   "colors": {
     "Yellow": "#ffff00",
-    "Red": "#ff0000",
-    "Magent": "#ff00ff",
-    "Blue": "#0000ff",
-    "Cyan": "#05fdff",
-    "Green": "#00ff00",
-    "Orange": "#ff9900",
-    "Purple": "#9903ff"
+    "Orang": "#ff0000",
+    "Red": "#ff00ff",
+    "Magenta": "#0000ff",
+    "Purpl": "#05fdff",
+    "Blue": "#00ff00",
+    "Cyan": "#ff9900",
+    "Green": "#9903ff"
   },
   "defaultColor": "Yellow",
   "defaultColorPaletteItemIndex": 0,
