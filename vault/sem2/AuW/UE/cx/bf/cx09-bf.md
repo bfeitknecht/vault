@@ -30,18 +30,40 @@ idf1((1))
 idf2((2))
 idf3((3))
 
+id0a((a))
+id0b((b))
+id0c((c))
+
 id1a((a))
 id1b((b))
 id1c((c))
+
+id2a((a))
+id2b((b))
+id2c((c))
+
+id3a((a))
+id3b((b))
+id3c((c))
 
 idt0((0))
 idt1((1))
 idt2((2))
 idt3((3))
 
-idF --> idf0 & idf1 & idf2 & idf3
-idt0 & idt1 & idt2 & idt3 --> idT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+idF -->|"12"| idf0 
+idF -->|"6"| idf1
+idF -->|"3"| idf2
+idF -->|"5"| idf3
+
+idt0 -->|"4"| idT 
+idt1 -->|"1"| idT
+idt2 -->|"8"| idT
+idt3 -->|"13"| idT
+
+idf1 --> id1a & id1b & id1c --> idt1
 idf1 --> id1a & id1b & id1c --> idt1
 
 ```
