@@ -7,3 +7,12 @@
 
 ![[DDCA-u08a-manual.pdf#page=4&rect=85,459,527,623|DDCA-u08a-manual, p.4]]
 ![[ddca-lab08-mips-schematic.png]]
+
+
+```verilog
+assign IsMemWrite = MemWrite & ~IsIO;
+assign IOWriteData = WriteData; 
+assign IOAddr = ALUResult[3:0];
+assign IOWriteEn = MemWrite & IsIO;
+```
+
