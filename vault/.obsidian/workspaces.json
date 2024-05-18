@@ -598,16 +598,28 @@
             "type": "tabs",
             "children": [
               {
+                "id": "bb1fea2fa1427b1b",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                    "page": 1,
+                    "left": -11,
+                    "top": 846,
+                    "zoom": 1.421189498652726
+                  }
+                }
+              },
+              {
                 "id": "a06aca2450e8e550",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
-                    "page": 19,
-                    "left": -5,
-                    "top": 264,
-                    "zoom": 2.9517549299268264
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -619,8 +631,8 @@
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
                     "page": 18,
-                    "left": -143,
-                    "top": 11,
+                    "left": -76,
+                    "top": 85,
                     "zoom": 1.7
                   }
                 }
@@ -708,7 +720,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -724,6 +737,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "sem2/AuW/UE/cx/bf/cx09-bf.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -740,6 +754,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "sem2/AuW/UE/cx/bf/cx09-bf.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -761,7 +776,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "sem2/AuW/UE/cx/bf/cx09-bf.md"
+                  }
                 }
               },
               {
@@ -795,8 +812,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-05-17T14:37:09+02:00"
+      "active": "bfa50aa2f448175d",
+      "mtime": "2024-05-18T14:42:10+02:00"
     },
     "ddca-lab08": {
       "main": {
@@ -1021,5 +1038,5 @@
       "mtime": "2024-05-17T14:17:22+02:00"
     }
   },
-  "active": "auw-u06"
+  "active": "ddca-lab08"
 }
