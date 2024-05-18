@@ -22,13 +22,13 @@ id1 --> id3
 ```mermaid
 flowchart LR
 
-idF{"SOURCE"}
-idT{"SINK"}
+idF(("SOURCE"))
+idT(("SINK"))
 
-idf0((0))
-idf1((1))
-idf2((2))
-idf3((3))
+idf0[0]
+idf1[1]
+idf2[2]
+idf3[3]
 
 id0a((a))
 id0b((b))
@@ -65,20 +65,20 @@ idt3 -->|"?/13"| idT
 
 
 idf0 ==> id0a ==> idt0
-id0b --> idt0
-id0c --> idt0
+id0b -.-> idt0
+id0c -.-> idt0
 
-id1a --> idt1
+idf0 --> id1a --> idt1
 idf1 ==> id1b ==> idt1
-id1c --> idt1
+idf2 --> id1c --> idt1
 
-id2a --> idt2
-id2b --> idt2
+id2a -.-> idt2
+id2b -.-> idt2
 idf2 ==> id2c ==> idt2
 
-id3a --> idt3
+id3a -.-> idt3
 idf3 ==> id3b ==> idt3
-id3c --> idt3
+id3c -.-> idt3
 
 
 
