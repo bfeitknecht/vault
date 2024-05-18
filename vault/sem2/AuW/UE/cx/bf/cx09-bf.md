@@ -77,7 +77,7 @@ idx0 --> id2a --> idt2
 idf1 --> id2b --> idt2
 idf2 ==> id2c ==> idt2
 
-id3a --> idt3
+id3a -.-> idt3
 idf3 ==> id3b ==> idt3
 idf2 --> id3c --> idt3
 
