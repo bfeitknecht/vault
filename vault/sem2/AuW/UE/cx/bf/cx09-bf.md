@@ -1,5 +1,6 @@
 
 
+## Graph
 ```mermaid
 flowchart TD
 
@@ -19,6 +20,7 @@ id1 --> id3
 
 ```
 
+## Network
 ```mermaid
 flowchart LR
 
@@ -32,10 +34,10 @@ idf2{2}
 idf3{3}
 
 %% to
-idt0((0))
-idt1((1))
-idt2((2))
-idt3((3))
+idt0{0}
+idt1{1}
+idt2{2}
+idt3{3}
 
 %% variety
 id0a((a))
@@ -55,6 +57,7 @@ idt1 -->|"?/1"| idT
 idt2 -->|"?/8"| idT
 idt3 -->|"?/13"| idT
 
+
 idf0 ==> id0a ==> idt0
 
 id0a --> idt1
@@ -68,7 +71,6 @@ idf2 ==> id2c ==> idt2
 id0a --> idt3
 idf3 ==> id3b ==> idt3
 id2c --> idt3
-
 
 ```
 
