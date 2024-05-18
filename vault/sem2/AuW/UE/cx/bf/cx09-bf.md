@@ -63,6 +63,7 @@ idt1 -->|"?/1"| idT
 idt2 -->|"?/8"| idT
 idt3 -->|"?/13"| idT
 
+idx0(("..."))
 
 idf0 ==> id0a ==> idt0
 id0b -.-> idt0
@@ -72,11 +73,11 @@ idf0 --> id1a --> idt1
 idf1 ==> id1b ==> idt1
 idf2 --> id1c --> idt1
 
-id2a -.-> idt2
+idx0 --> id2a --> idt2
 idf1 --> id2b --> idt2
 idf2 ==> id2c ==> idt2
 
-id3a -.-> idt3
+id3a --> idt3
 idf3 ==> id3b ==> idt3
 idf2 --> id3c --> idt3
 
