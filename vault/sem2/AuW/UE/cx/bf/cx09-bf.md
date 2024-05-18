@@ -25,10 +25,10 @@ flowchart LR
 idF(("SOURCE"))
 idT(("SINK"))
 
-idf0[0]
-idf1[1]
-idf2[2]
-idf3[3]
+idf0{0}
+idf1{1}
+idf2{2}
+idf3{3}
 
 id0a((a))
 id0b((b))
@@ -73,7 +73,7 @@ idf1 ==> id1b ==> idt1
 idf2 --> id1c --> idt1
 
 id2a -.-> idt2
-id2b -.-> idt2
+idf1 --> id2b --> idt2
 idf2 ==> id2c ==> idt2
 
 id3a -.-> idt3
@@ -81,11 +81,6 @@ idf3 ==> id3b ==> idt3
 id3c -.-> idt3
 
 
-
-%%idf0 --> id1a
-%%idf1 --> id2b
-%%idf2 --> id1c
-%%idf3 --> id3a
 ```
 
 
