@@ -24,20 +24,20 @@ id1 --> id3
 ```mermaid
 flowchart LR
 
-idF(("S"))
-idT(("T"))
+idF{"S"}
+idT{"T"}
 
 %% from
-idf0{0}
-idf1{1}
-idf2{2}
-idf3{3}
+idf0[0]
+idf1[1]
+idf2[2]
+idf3[3]
 
 %% to
-idt0{0}
-idt1{1}
-idt2{2}
-idt3{3}
+idt0[0]
+idt1[1]
+idt2[2]
+idt3[3]
 
 %% variety
 id0a((a))
