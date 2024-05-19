@@ -24,12 +24,8 @@ id1 --> id3
 ```mermaid
 flowchart LR
 
-classDef special stroke:#f00
-
-%% fill:#fff
-
-idF{"S"}:::special
-idT{"T"}:::special
+idF{"S"}
+idT{"T"}
 
 %% from
 idf0[0]
