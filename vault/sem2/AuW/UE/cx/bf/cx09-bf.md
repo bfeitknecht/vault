@@ -75,11 +75,11 @@ id2c -.- idt3
 ```
 
 ```java
- for (int i = 0; i < m; i++) {
+for (int i = 0; i < m; i++) {
 	int x = In.readInt();   // from
 	int y = In.readInt();   // to
 	G.addEdge(x, y+v[x], p[x]);
-  }
+}
 ```
 
 ```
