@@ -78,7 +78,9 @@ id2c -.- idt3
 for (int i = 0; i < m; i++) {
 	int x = In.readInt();   // from
 	int y = In.readInt();   // to
-	G.addEdge(x, y+v[x], p[x]);
+	int fav = n+x;			// favorite
+	G.addEdge(x, fav, p[x]);	
+	G.addEdge(fav, x, p[x]);
 }
 ```
 
