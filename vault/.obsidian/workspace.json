@@ -66,9 +66,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "531ba59aa039baba",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -135,7 +143,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx09-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +159,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx09-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,9 +180,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/AuW/UE/cx/bf/cx09-bf.md"
-              }
+              "state": {}
             }
           },
           {
@@ -210,7 +214,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "bfa50aa2f448175d",
+  "active": "531ba59aa039baba",
   "lastOpenFiles": [
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
     "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
