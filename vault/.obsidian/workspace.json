@@ -66,21 +66,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "531ba59aa039baba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -147,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
+                "file": "sem2/AuW/UE/cx/bf/cx09-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
+                "file": "sem2/AuW/UE/cx/bf/cx09-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md"
+                "file": "sem2/AuW/UE/cx/bf/cx09-bf.md"
               }
             }
           },
@@ -222,8 +210,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "531ba59aa039baba",
+  "active": "bfa50aa2f448175d",
   "lastOpenFiles": [
+    "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
     "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
@@ -247,7 +236,6 @@
     "sem2/DDCA/UE/bf/DDCA-u06-lab.md",
     "var/other/202402271204.md",
     "sem2/AuW/UE/cx/bf/cx08-bf.md",
-    "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg01-bf.md",
     "var/attachments/network-flow-vertex-capacity-img.jpg",
     "var/attachments/network-flow-vertex-capacity-img.png",
