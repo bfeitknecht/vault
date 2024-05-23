@@ -76,13 +76,13 @@
                 "file": "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
                 "page": 1,
                 "left": -9,
-                "top": 669,
+                "top": 201,
                 "zoom": 1.75
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
+                "file": "sem2/AuW/UE/cx/bf/cx09-bf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
+                "file": "sem2/AuW/UE/cx/bf/cx09-bf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf"
+                "file": "sem2/AuW/UE/cx/bf/cx09-bf.md"
               }
             }
           },
@@ -224,13 +224,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "1725a8a5b0a60ac8",
+  "active": "bfa50aa2f448175d",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-    "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "var/attachments/ddca-lab08-mips-schematic.png",
     "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
