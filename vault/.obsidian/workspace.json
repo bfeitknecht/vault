@@ -130,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -224,8 +223,10 @@
   },
   "active": "bfa50aa2f448175d",
   "lastOpenFiles": [
-    "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
+    "sem2/AuW/VRL/extra/nwehrli/AuW-w02-tsp.pdf",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
+    "sem2/AuW/VRL/extra/nwehrli/AuW-w12-max-flow-min-cut.pdf",
+    "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
@@ -238,7 +239,6 @@
     "sem2/DDCA/VRL/slides/DDCA-L12a_MIPS-ASM.pdf",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "var/attachments/Screenshot 2024-05-16 at 17.15.02.png",
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
