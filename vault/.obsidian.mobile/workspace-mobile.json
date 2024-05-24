@@ -8,25 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "469f85cf15d9dd4f",
+            "id": "bd80800d04db9c9f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "2cd47a692272926e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+                "file": "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "bd80800d04db9c9f",
+            "id": "c6d1024d36ea375d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -34,7 +28,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,19 +125,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd80800d04db9c9f",
+  "active": "c6d1024d36ea375d",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
+    "sem2/AuW/VRL/extra/nwehrli/AuW-w12-max-flow-min-cut.pdf",
+    "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
+    "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB08b-snake-faster.pdf",
+    "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
+    "sem2/DDCA/UE/bf/DDCA-u01-lab.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
+    "sem2/AuW/VRL/extra/nwehrli/AuW-w08-target-shooting.pdf",
+    "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
+    "var/attachments/ddca-lab08-mips-schematic.png",
+    "sem2/AuW/UE/pg/e/AuW-pg05-e.pdf",
+    "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
+    "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
+    "sem2/AuW/UE/cx/bf/cx09-bf.md",
+    "sem2/AuW/UE/pg/bf/AuW-pg04-bf.md",
+    "var/other/theoretische informatik zhaw.md",
+    "sem2/DDCA/UE/bf/DDCA-u06-lab.md",
+    "sem2/AuW/UE/pg/bf/AuW-pg02-bf.md",
+    "sem2/AuW/UE/pg/bf/AuW-pg01-bf.md",
+    "var/other/202402271204.md",
+    "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
+    "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
     "Untitled.md",
-    "sem1/LinAlg/lib/LinAlg_bb-notes_1.pdf",
-    "sem2/Analysis-1/VRL/extra/maja/analysis-1-w01-maja.pdf",
-    "sem2/Analysis-1/VRL/extra/maja/analysis-1-w02-maja.pdf",
-    "sem2/Analysis-1/VRL/extra/maja/analysis-1-w03-maja.pdf",
-    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w02.pdf",
-    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w03.pdf",
-    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w04.pdf",
-    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w05.pdf",
-    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w06.pdf",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-u01-pg-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
@@ -154,22 +163,8 @@
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u00-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
-    "sem2/Analysis-1/VRL/notes/Analysis-1.md",
-    "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
-    "sem2/Analysis-1/VRL/slides/Analysis-1-00-slides.md",
-    "sem2/Analysis-1/UE/bf/Analysis-1-u01-bf.md",
-    "sem2/Analysis-1/UE/bf/Analysis-1-u02-bf.md",
-    "sem2/AuW/VRL/notes/AuW.md",
-    "sem2/DDCA/VRL/notes/DDCA.md",
-    "sem2/DDCA/UE/bf/DDCA-u06-manual-bf-cs.md",
-    "sem2/DDCA/UE/bf/DDCA-u05-manual-bf-cs.md",
-    "sem2/PProg/VRL/notes/PProg.md",
     "var/attachments/Screenshot 2024-04-26 at 11.13.45.png",
     "var/attachments/Pasted image 20240428141459.png",
-    "var/support/templates/page-break.template.md",
-    "var/escapades/202402271204.md",
-    "var/escapades/theoretische informatik zhaw.md",
-    "sem1/DMath/VRL/V12_ring.md",
     "sem1/DMath/PV/summaries/exponential-modular-arithmetic.jpg",
     "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-row-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/GRAPH-l-mult-matrix-by-row-vector.png",
@@ -177,7 +172,6 @@
     "sem1/LinAlg/PV/other/matrix-multiplication/GRAPH-l-mult-matrix-by-matrix.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-column-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-matrix.png",
-    "sem1/LinAlg/PV/other/matrix-multiplication/GRAPHIC-r-mult-matrix-by-matrix.png",
     "Untitled.canvas"
   ]
 }
