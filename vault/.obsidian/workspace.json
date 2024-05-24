@@ -85,14 +85,12 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
                 "page": 1,
-                "left": -13,
-                "top": 490,
-                "zoom": 1.175
+                "zoom": 1
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -142,7 +140,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -158,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
+                "file": "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
+                "file": "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf"
+                "file": "sem2/DDCA/UE/bf/DDCA-u08b-lab.md"
               }
             }
           }
@@ -225,8 +224,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "1676c6a33e08759e",
+  "active": "d48005951e22fc9a",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
     "var/attachments/ddca-lab08-mips-schematic.png",
     "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
