@@ -81,14 +81,18 @@
             "id": "1676c6a33e08759e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "var/attachments/ddca-lab08-mips-schematic.png"
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
+                "page": 1,
+                "left": -13,
+                "top": 490,
+                "zoom": 1.175
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -138,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -155,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u08a-lab.md"
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf"
               }
             }
           }
@@ -222,11 +225,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "c74914fc5b84f6de",
+  "active": "1676c6a33e08759e",
   "lastOpenFiles": [
     "var/attachments/ddca-lab08-mips-schematic.png",
-    "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
+    "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf",
     "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
     "var/other/attachments/DDCA-u08a-lab",
     "var/other/attachments",
@@ -238,7 +242,6 @@
     "sem2/AuW/VRL/extra/nwehrli/AuW-w12-max-flow-min-cut.pdf",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "var/attachments/Screenshot 2024-05-16 at 17.15.02.png",
