@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
+                "file": "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
                 "mode": "source",
                 "source": false
               }
@@ -51,9 +51,9 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf",
                 "page": 1,
-                "left": -9,
-                "top": 796,
-                "zoom": 1.75
+                "left": -11,
+                "top": 540,
+                "zoom": 1.3823529411764708
               }
             }
           },
@@ -61,12 +61,16 @@
             "id": "d48005951e22fc9a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -116,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -133,6 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,6 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +175,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf"
+              }
             }
           }
         ],
@@ -196,11 +203,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "d48005951e22fc9a",
+  "active": "c25ae4fd00fdfb8e",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
     "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf",
+    "var/other/attachments/DDCA-u08a-lab",
+    "var/other/attachments",
     "sem2/DDCA/UE/e/slides/DDCA-LAB08b-snake-faster.pdf",
-    "sem2/DDCA/UE/bf/DDCA-u08-lab.md",
+    "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
     "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
@@ -210,8 +220,6 @@
     "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
     "var/attachments/ddca-lab08-mips-schematic.png",
-    "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
-    "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "var/attachments/Screenshot 2024-05-16 at 17.15.02.png",
@@ -241,7 +249,6 @@
     "sem2/AuW/UE/u/bf/AuW-u01-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u00-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg02-bf.md",
-    "sem2/Analysis-1/VRL/slides/Analysis-1-00-slides.md",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-matrix.png",
     "Untitled.canvas",
     "sem1/AuD/VRL/Untitled.canvas"
