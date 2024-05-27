@@ -8,11 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bfa50aa2f448175d",
+            "id": "f97426b6c35d5a49",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
+                "page": 116,
+                "left": -123,
+                "top": 337,
+                "zoom": 1.31
+              }
             }
           },
           {
@@ -28,7 +34,7 @@
             }
           },
           {
-            "id": "f97426b6c35d5a49",
+            "id": "bdfd6a95a9155c75",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,6 +42,20 @@
                 "file": "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "ad98ae3a7b3981d2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/UE/pg/e/AuW-pg06-e.pdf",
+                "page": 1,
+                "left": -9,
+                "top": 609,
+                "zoom": 1.7991654291454724
               }
             }
           }
@@ -90,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -181,12 +202,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "f97426b6c35d5a49",
+  "active": "bdfd6a95a9155c75",
   "lastOpenFiles": [
-    "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
-    "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
     "sem2/AuW/UE/pg/e/AuW-pg06-e.pdf",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
+    "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
+    "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-bs.pdf",
@@ -201,9 +223,7 @@
     "sem2/DDCA/UE/e/slides/DDCA-LAB08b-snake-faster.pdf",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
     "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
-    "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
-    "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "var/attachments/Screenshot 2024-05-16 at 17.15.02.png",
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
