@@ -19,12 +19,30 @@
             "id": "b1e9473ac7aa651d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "sem2/Analysis-1/VRL/notes/Analysis-1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f97426b6c35d5a49",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
+                "page": 1,
+                "left": -9,
+                "top": 846,
+                "zoom": 1.7991654291454724
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -91,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf"
+              }
             }
           },
           {
@@ -162,8 +184,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "b1e9473ac7aa651d",
+  "active": "f97426b6c35d5a49",
   "lastOpenFiles": [
+    "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-bs.pdf",
@@ -202,7 +225,6 @@
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg04-bf.md",
     "sem2/DDCA/VRL/notes/DDCA.md",
-    "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u01-bf.md",
