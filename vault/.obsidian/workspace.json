@@ -14,8 +14,17 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "b1e9473ac7aa651d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -153,7 +162,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "bfa50aa2f448175d",
+  "active": "b1e9473ac7aa651d",
   "lastOpenFiles": [
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
