@@ -20,7 +20,17 @@
             }
           },
           {
-            "id": "c6d1024d36ea375d",
+            "id": "ccd3f5c5aec8e069",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf"
+              }
+            }
+          },
+          {
+            "id": "d985a76b24c431c9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -86,6 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,6 +113,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -112,7 +124,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf"
+          }
         }
       }
     ],
@@ -125,9 +139,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c6d1024d36ea375d",
+  "active": "ccd3f5c5aec8e069",
   "lastOpenFiles": [
     "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
+    "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
+    "sem2/AuW/UE/pg/e/AuW-pg06-e.pdf",
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w12-max-flow-min-cut.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
@@ -140,7 +156,6 @@
     "sem2/DDCA/UE/e/report/DDCA-u07-report.pdf",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "var/attachments/ddca-lab08-mips-schematic.png",
-    "sem2/AuW/UE/pg/e/AuW-pg05-e.pdf",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
