@@ -14,10 +14,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
-                "page": 116,
-                "left": -123,
-                "top": 337,
-                "zoom": 1.31
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -32,35 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "bdfd6a95a9155c75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad98ae3a7b3981d2",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/UE/pg/e/AuW-pg06-e.pdf",
-                "page": 1,
-                "left": -9,
-                "top": 609,
-                "zoom": 1.7991654291454724
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -127,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
+                "file": "sem2/Analysis-1/VRL/notes/Analysis-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
+                "file": "sem2/Analysis-1/VRL/notes/Analysis-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md"
+                "file": "sem2/Analysis-1/VRL/notes/Analysis-1.md"
               }
             }
           },
@@ -202,11 +174,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "bdfd6a95a9155c75",
+  "active": "b1e9473ac7aa651d",
   "lastOpenFiles": [
+    "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
     "sem2/AuW/UE/pg/e/AuW-pg06-e.pdf",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
-    "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
