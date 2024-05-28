@@ -16,6 +16,11 @@ assign IOAddr = ALUResult[3:0];
 assign IOWriteEn = MemWrite & IsIO;
 ```
 
+___
+
+
+
+
 
 
 # Report
@@ -37,6 +42,18 @@ ___
 
 ## (3)
 ![[DDCA-u08a-report.pdf#page=2&rect=87,427,528,485|DDCA-u08a-report, p.2]]
+
+>[!info] `snake_pattern.asm`
+>This counter keeps track of the position in the loop of snake patterns.
+
+>[!info] `clock_div.v`
+This counter is responsible for slowing down the clock. It is incremented on every tick of the hardware clock and every x ticks, it sends a *divided* clock output.
+
+>[!info] `DispCount`
+>This counter indicates, which seven segment display to turn on (send logical 0).
+
+
+
 
 
 ___

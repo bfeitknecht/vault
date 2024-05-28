@@ -30,9 +30,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "133f9aca8c417f6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b45c1392057ff1b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -90,7 +110,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "sem2/Analysis-1/VRL/notes/Analysis-1.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -107,7 +126,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "sem2/Analysis-1/VRL/notes/Analysis-1.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -118,9 +136,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "sem2/Analysis-1/VRL/notes/Analysis-1.md"
-          }
+          "state": {}
         }
       }
     ],
@@ -131,17 +147,18 @@
       "workspaces:Manage workspace layouts": false,
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-copy": true,
+      "pdf-plus:PDF++: Toggle auto-focus": true,
+      "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "4ea7d830bd86611b",
+  "active": "0b45c1392057ff1b",
   "lastOpenFiles": [
     "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
+    "sem2/Analysis-1/VRL/notes/Analysis-1.md",
+    "Untitled 1.md",
     "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
     "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w06.pdf",
-    "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/Analysis-1/VRL/extra/maja/analysis-1-w01-maja.pdf",
     "sem2/Analysis-1/VRL/extra/maja/analysis-1-w02-maja.pdf",
     "sem2/Analysis-1/VRL/extra/maja/analysis-1-w03-maja.pdf",
