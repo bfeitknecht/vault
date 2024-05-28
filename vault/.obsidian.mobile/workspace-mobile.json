@@ -13,7 +13,9 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf"
+                "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -29,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +90,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
+            "file": "sem2/Analysis-1/VRL/notes/Analysis-1.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -104,7 +107,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
+            "file": "sem2/Analysis-1/VRL/notes/Analysis-1.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -116,7 +119,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf"
+            "file": "sem2/Analysis-1/VRL/notes/Analysis-1.md"
           }
         }
       }
@@ -127,18 +130,22 @@
     "hiddenItems": {
       "workspaces:Manage workspace layouts": false,
       "graph:Open graph view": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ccd3f5c5aec8e069",
+  "active": "4ea7d830bd86611b",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
+    "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
     "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w06.pdf",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/Analysis-1/VRL/extra/maja/analysis-1-w01-maja.pdf",
     "sem2/Analysis-1/VRL/extra/maja/analysis-1-w02-maja.pdf",
     "sem2/Analysis-1/VRL/extra/maja/analysis-1-w03-maja.pdf",
     "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w04.pdf",
-    "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
     "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
     "Untitled.md",
     "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
@@ -146,7 +153,6 @@
     "sem2/AuW/VRL/extra/AuW-script.pdf",
     "sem2/AuW/VRL/extra/nwehrli/AuW-w12-max-flow-min-cut.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
-    "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "var/attachments/ddca-lab08-mips-schematic.png",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
