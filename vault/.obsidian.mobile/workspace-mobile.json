@@ -18,16 +18,6 @@
             }
           },
           {
-            "id": "4cfecaa36fd57dcd",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w06.pdf"
-              }
-            }
-          },
-          {
             "id": "4ea7d830bd86611b",
             "type": "leaf",
             "state": {
@@ -36,46 +26,6 @@
                 "file": "sem2/Analysis-1/VRL/notes/Analysis-1.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "c7defb06c0e99ff2",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/Analysis-1/VRL/extra/maja/analysis-1-w01-maja.pdf"
-              }
-            }
-          },
-          {
-            "id": "c62ae0159b987286",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/Analysis-1/VRL/extra/maja/analysis-1-w02-maja.pdf"
-              }
-            }
-          },
-          {
-            "id": "c2326d54df8d33be",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/Analysis-1/VRL/extra/maja/analysis-1-w03-maja.pdf"
-              }
-            }
-          },
-          {
-            "id": "c5fdaba79aa00d51",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w04.pdf"
               }
             }
           }
@@ -184,11 +134,11 @@
   "lastOpenFiles": [
     "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w06.pdf",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
-    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w04.pdf",
-    "sem2/Analysis-1/VRL/extra/maja/analysis-1-w03-maja.pdf",
-    "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
     "sem2/Analysis-1/VRL/extra/maja/analysis-1-w01-maja.pdf",
     "sem2/Analysis-1/VRL/extra/maja/analysis-1-w02-maja.pdf",
+    "sem2/Analysis-1/VRL/extra/maja/analysis-1-w03-maja.pdf",
+    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w04.pdf",
+    "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
     "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
     "Untitled.md",
     "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
