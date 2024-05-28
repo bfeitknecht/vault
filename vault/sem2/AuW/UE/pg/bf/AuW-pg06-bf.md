@@ -7,6 +7,10 @@
 
 ## (a)
 ![[AuW-pg06-e.pdf#page=1&rect=113,442,516,481|AuW-pg06-e, p.1]]
+$$
+x(p \in P_1)_{max} < x(p \in P_2)_{min}
+
+$$
 
 
 ## (b)
