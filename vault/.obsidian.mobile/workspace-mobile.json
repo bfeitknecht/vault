@@ -50,9 +50,17 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "c30ffa0cb53dd7a9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -152,7 +160,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "e395c78452d0ef07",
+  "active": "c30ffa0cb53dd7a9",
   "lastOpenFiles": [
     "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
