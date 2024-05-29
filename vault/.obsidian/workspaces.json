@@ -6,14 +6,14 @@
         "type": "split",
         "children": [
           {
-            "id": "805f086209640ec1",
+            "id": "90b6981305132ac8",
             "type": "tabs",
             "children": [
               {
-                "id": "bfa50aa2f448175d",
+                "id": "87addbb5c1a1f458",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
+                  "type": "graph",
                   "state": {}
                 }
               }
@@ -142,7 +142,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "hide-folders:Show hidden folders": false,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
@@ -156,8 +155,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "bfa50aa2f448175d",
-      "mtime": "2024-05-17T14:20:09+02:00"
+      "active": "87addbb5c1a1f458",
+      "mtime": "2024-05-29T10:33:03+02:00"
     },
     "auw-miniquizzes": {
       "main": {
@@ -840,5 +839,5 @@
       "mtime": "2024-05-24T10:30:43+02:00"
     }
   },
-  "active": "clean"
+  "active": "ddca-lab08"
 }

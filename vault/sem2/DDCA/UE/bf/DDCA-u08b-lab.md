@@ -9,3 +9,27 @@
 
 
 ![[DDCA-LAB06-testbench.pdf#page=8&rect=73,68,696,270|DDCA-LAB06-testbench, p.8]]
+
+
+
+
+___
+
+
+
+
+
+
+# Report
+
+## (1)
+![[DDCA-u08b-report.pdf#page=1&rect=86,327,528,385|DDCA-u08b-report, p.1]]
+![[DDCA-u08b-report.pdf#page=1&rect=62,117,532,322|DDCA-u08b-report, p.1]]
+
+
+
+
+___
+
+## (2)
+![[DDCA-u08b-report.pdf#page=2&rect=87,649,529,704|DDCA-u08b-report, p.2]]
