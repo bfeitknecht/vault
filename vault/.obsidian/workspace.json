@@ -50,9 +50,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf",
-                "page": 1,
+                "page": 2,
                 "left": -9,
-                "top": 299,
+                "top": 384,
                 "zoom": 1.75
               }
             }
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf",
+                "file": "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf",
+                "file": "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf"
+                "file": "sem2/DDCA/UE/bf/DDCA-u08b-lab.md"
               }
             }
           }
@@ -226,13 +226,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "c25ae4fd00fdfb8e",
+  "active": "d48005951e22fc9a",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
+    "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
+    "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB08b-snake-faster.pdf",
     "var/attachments/ddca-lab08a-mips-schematic.png",
-    "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
-    "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
-    "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf",
     "var/attachments/ddca-lab08b-block-diagram.png",
     "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
     "sem2/DDCA/VRL/slides/DDCA-L12a_MIPS-ASM.pdf",
@@ -242,7 +242,6 @@
     "var/export/DDCA-u08a-report-bf-cs.pdf",
     "var/attachments/DDCA-u08a-report-bf-cs.pdf",
     "var/export/DDCA-u08a-lab.pdf",
-    "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
