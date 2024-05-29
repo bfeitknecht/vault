@@ -35,4 +35,4 @@ ___
 ![[DDCA-u08b-report.pdf#page=2&rect=87,649,529,704|DDCA-u08b-report, p.2]]
 ![[DDCA-u08b-manual.pdf#page=2&rect=87,261,528,322|DDCA-u08b-manual, p.2]]
 
-To accomplish this, we need another register in the IO address space (`0x7ffX`), where 
+To accomplish this, we need another register in the IO address space (`0x7ffX`), where `X`represents any hexadecimal value. The display is driven by the register addressed at `0x7ff0`, the speed by the reg at `0x7ff4` and an additional one bit register could be located at `0x7ff8`. Then, in `top.v` we would have a case distinction on `IOAddr` deciding which input gets saved to what register. There are no additional changes. 
