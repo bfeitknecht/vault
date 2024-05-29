@@ -41,10 +41,7 @@ ___
 
 2^6 = 64. 
 
-
-This means that the 6 bits for instruction limits us to only 64 unique instructions. Some instructions can be further divided by the 6 function bits. 
-
-There are techniques to circumvent a 64-memory address limitation by adding the 6 bit address to a base address.
+ A 6-bit address can represent $2^6 = 64$ distinct values. In both the `DataMemory` and `InstructionMemory` modules, the memory arrays are declared as `reg [31:0] DataArr [63:0]` and `reg [31:0] InsArr [63:0]`.
 
 
 ___
