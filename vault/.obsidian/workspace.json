@@ -25,7 +25,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "var/attachments/ddca-lab08-mips-schematic.png"
+                "file": "var/attachments/ddca-lab08a-mips-schematic.png"
               }
             }
           },
@@ -83,7 +83,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "var/attachments/Screenshot 2024-05-29 at 11.56.52.png"
+                "file": "var/attachments/ddca-lab08a-mips-schematic.png"
               }
             }
           }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "var/attachments/Screenshot 2024-05-29 at 11.56.52.png",
+                "file": "var/attachments/ddca-lab08a-mips-schematic.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "var/attachments/Screenshot 2024-05-29 at 11.56.52.png",
+                "file": "var/attachments/ddca-lab08a-mips-schematic.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "var/attachments/Screenshot 2024-05-29 at 11.56.52.png"
+                "file": "var/attachments/ddca-lab08a-mips-schematic.png"
               }
             }
           }
@@ -223,8 +223,8 @@
   },
   "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
+    "var/attachments/ddca-lab08b-block-diagram.png",
     "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
-    "var/attachments/Screenshot 2024-05-29 at 11.56.52.png",
     "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
     "sem2/DDCA/VRL/slides/DDCA-L12a_MIPS-ASM.pdf",
     "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
@@ -241,7 +241,7 @@
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
-    "var/attachments/ddca-lab08-mips-schematic.png",
+    "var/attachments/ddca-lab08a-mips-schematic.png",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "var/attachments/Screenshot 2024-05-16 at 17.15.02.png",
