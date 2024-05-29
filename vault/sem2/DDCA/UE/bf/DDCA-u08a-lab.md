@@ -29,25 +29,20 @@ ___
 ![[DDCA-u08a-report.pdf#page=1&rect=88,339,527,385|DDCA-u08a-report, p.1]]
 
 All Mips instructions that store something back into the register won’t work anymore. 
-In the controlUnit we can see all affected operations listed: OP_RTYPE, OP_LW and OP_ADDI
+In the controlUnit we can see all affected operations listed:
+`OP_RTYPE`, `OP_LW` and `OP_ADDI`
+
 
 
 ___
-
-
-
 ## (2)
 ![[DDCA-u08a-report.pdf#page=2&rect=88,667,530,698|DDCA-u08a-report, p.2]]
 
-2^6 = 64. 
+ A 6-bit address can represent $2^6 = 64$ distinct values. In both the `DataMemory` and `InstructionMemory` modules, the memory arrays are declared as `reg [31:0] DataArr [63:0]` and `reg [31:0] InsArr [63:0]`. Thus 6 bits are enough to uniquely address each data and instruction in memory.
 
- A 6-bit address can represent $2^6 = 64$ distinct values. In both the `DataMemory` and `InstructionMemory` modules, the memory arrays are declared as `reg [31:0] DataArr [63:0]` and `reg [31:0] InsArr [63:0]`.
 
 
 ___
-
-
-
 ## (3)
 ![[DDCA-u08a-report.pdf#page=2&rect=87,427,528,485|DDCA-u08a-report, p.2]]
 
@@ -65,11 +60,3 @@ This counter is responsible for slowing down the frequency of the processor. It 
 >[!info] `DispCount`, `top.v`
 >This counter determines, which seven segment display to turn on (send logical 0), i.e. it controls the update frequency of an AN segment.
 
-
-
-
-
-
-
-
-___
