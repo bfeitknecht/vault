@@ -49,7 +49,7 @@ ___
 >[!info] `clock_div.v`
 This counter is responsible for slowing down the clock. It is incremented on every tick of the hardware clock and every x ticks, it sends a *divided* clock output.
 
->[!info] `DispCount`
+>[!info] `DispCount`, `top.v`
 >This counter indicates, which seven segment display to turn on (send logical 0).
 
 
