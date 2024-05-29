@@ -4,37 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "73254800486d1df5",
+        "id": "bb036f78302bd531",
         "type": "tabs",
         "children": [
           {
-            "id": "267eb390a84995fc",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/AuW/UE/pg/e/AuW-pg06-e.pdf",
-                "page": 1,
-                "left": 0,
-                "top": 842,
-                "zoom": 1.486705326604802
-              }
-            }
-          },
-          {
-            "id": "c9671a326f4a67ce",
+            "id": "133f9aca8c417f6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
+                "file": "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "abea46d298379b77",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB08b-snake-faster.pdf",
+                "page": 1,
+                "left": -214,
+                "top": 540,
+                "zoom": 0.77
+              }
+            }
+          },
+          {
+            "id": "ffd2787a2ea112ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6903df8e5f72ae7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
+                "page": 1,
+                "left": 52,
+                "top": 355,
+                "zoom": 1.77
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -92,7 +118,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
+            "file": "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -109,7 +135,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
+            "file": "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -121,7 +147,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md"
+            "file": "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf"
           }
         }
       }
@@ -138,10 +164,20 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "c9671a326f4a67ce",
+  "active": "c6903df8e5f72ae7",
   "lastOpenFiles": [
-    "sem2/AuW/UE/pg/e/AuW-pg06-e.pdf",
+    "var/attachments/ddca-lab08b-block-diagram.png",
+    "var/attachments/ddca-lab08a-mips-schematic.png",
+    "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
+    "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB08b-snake-faster.pdf",
+    "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
+    "var/export/lab8_1_Schmid_Feitknecht.zip",
+    "var/export/DDCA-u08a-lab.pdf",
+    "var/export/lab8_1_Schmid_Feitknecht/DDCA-u08a-report-bf-cs.pdf",
+    "var/export/lab8_1_Schmid_Feitknecht",
+    "var/export/DDCA-u08a-report-bf-cs.pdf",
+    "sem2/AuW/UE/pg/e/AuW-pg06-e.pdf",
     "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
@@ -149,14 +185,6 @@
     "Untitled 2.md",
     "Untitled 1.md",
     "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w06.pdf",
-    "sem2/Analysis-1/VRL/extra/maja/analysis-1-w01-maja.pdf",
-    "sem2/Analysis-1/VRL/extra/maja/analysis-1-w02-maja.pdf",
-    "sem2/Analysis-1/VRL/extra/maja/analysis-1-w03-maja.pdf",
-    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w04.pdf",
-    "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
-    "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
-    "sem2/AuW/VRL/extra/AuW-script.pdf",
-    "sem2/AuW/VRL/extra/nwehrli/AuW-w12-max-flow-min-cut.pdf",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "var/attachments/ddca-lab08-mips-schematic.png",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
@@ -184,7 +212,6 @@
     "sem1/LinAlg/PV/other/matrix-multiplication/GRAPHIC-r-mult-matrix-by-column-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/GRAPH-l-mult-matrix-by-matrix.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-column-vector.png",
-    "sem1/LinAlg/PV/other/matrix-multiplication/l-mult-matrix-by-matrix.png",
     "Untitled.canvas"
   ]
 }
