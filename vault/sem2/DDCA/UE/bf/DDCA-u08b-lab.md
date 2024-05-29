@@ -35,4 +35,4 @@ ___
 ![[DDCA-u08b-report.pdf#page=2&rect=87,649,529,704|DDCA-u08b-report, p.2]]
 ![[DDCA-u08b-manual.pdf#page=2&rect=87,261,528,322|DDCA-u08b-manual, p.2]]
 
-We would need 
+To accomplish this, we need another register in the IO address space (`0x7ffX`), where 
