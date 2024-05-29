@@ -28,6 +28,9 @@ ___
 ## (1)
 ![[DDCA-u08a-report.pdf#page=1&rect=88,339,527,385|DDCA-u08a-report, p.1]]
 
+All Mips instructions that store something back into the register won’t work anymore. 
+In the controlUnit we can see all affected operations listed: OP_RTYPE, OP_LW and OP_ADDI
+
 
 ___
 
@@ -55,6 +58,10 @@ This counter is responsible for slowing down the frequency of the processor. It 
 >[!info] `DispCount`, `top.v`
 >This counter determines, which seven segment display to turn on (send logical 0), based on the current pattern.
 
+
+// Instantiate an internal clock divider that will
+// take the 50 MHz FPGA clock and divide it by 5 so that
+// We will have a simple 10 MHz clock internally
 
 
 
