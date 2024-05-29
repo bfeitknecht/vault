@@ -49,19 +49,9 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf",
                 "page": 1,
-                "zoom": 1
-              }
-            }
-          },
-          {
-            "id": "c74914fc5b84f6de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
-                "mode": "source",
-                "source": false
+                "left": -9,
+                "top": 540,
+                "zoom": 1.75
               }
             }
           },
@@ -88,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -138,7 +128,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -221,13 +212,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "5f4cf158045f14fe",
+  "active": "7a1b597c764d45c3",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
+    "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf",
+    "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
+    "var/attachments/ddca-lab08a-mips-schematic.png",
     "var/attachments/ddca-lab08b-block-diagram.png",
     "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
-    "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
     "sem2/DDCA/VRL/slides/DDCA-L12a_MIPS-ASM.pdf",
-    "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
     "var/export/lab8_1_Schmid_Feitknecht/DDCA-u08a-report-bf-cs.pdf",
     "var/export/lab8_1_Schmid_Feitknecht",
     "var/export/lab8_1_Schmid_Feitknecht.zip",
@@ -235,13 +228,11 @@
     "var/attachments/DDCA-u08a-report-bf-cs.pdf",
     "var/export/DDCA-u08a-lab.pdf",
     "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB06-testbench.pdf",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
-    "var/attachments/ddca-lab08a-mips-schematic.png",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "var/attachments/Screenshot 2024-05-16 at 17.15.02.png",
