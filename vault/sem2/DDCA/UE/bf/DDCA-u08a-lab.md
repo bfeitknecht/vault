@@ -39,7 +39,12 @@ ___
 ## (2)
 ![[DDCA-u08a-report.pdf#page=2&rect=88,667,530,698|DDCA-u08a-report, p.2]]
 
+2^6 = 64. 
 
+
+This means that the 6 bits for instruction limits us to only 64 unique instructions. Some instructions can be further divided by the 6 function bits. 
+
+There are techniques to circumvent a 64-memory address limitation by adding the 6 bit address to a base address.
 
 
 ___
@@ -50,18 +55,19 @@ ___
 ![[DDCA-u08a-report.pdf#page=2&rect=87,427,528,485|DDCA-u08a-report, p.2]]
 
 >[!info] `snake_pattern.asm`
->This counter keeps track of the position in the loop of snake patterns.
+>This counter keeps track of the position in the loop of snake patterns. Making it go faster, loops through the pattern faster.
 
 >[!info] `clock_div.v`
 This counter is responsible for slowing down the frequency of the processor. It is incremented on every tick of the hardware clock and every x ticks, it sends a *divided* clock output.
-
->[!info] `DispCount`, `top.v`
->This counter determines, which seven segment display to turn on (send logical 0), based on the current pattern.
 >```
 // Instantiate an internal clock divider that will
 // take the 50 MHz FPGA clock and divide it by 5 so that
 // We will have a simple 10 MHz clock internally
 >```
+
+>[!info] `DispCount`, `top.v`
+>This counter determines, which seven segment display to turn on (send logical 0), i.e. it controls the update frequency of an AN segment.
+
 
 
 
