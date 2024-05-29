@@ -57,11 +57,14 @@ This counter is responsible for slowing down the frequency of the processor. It 
 
 >[!info] `DispCount`, `top.v`
 >This counter determines, which seven segment display to turn on (send logical 0), based on the current pattern.
-
-
+>```
 // Instantiate an internal clock divider that will
 // take the 50 MHz FPGA clock and divide it by 5 so that
 // We will have a simple 10 MHz clock internally
+>```
+
+
+
 
 
 
