@@ -26,7 +26,7 @@ ___
 ![[DDCA-u08b-report.pdf#page=1&rect=86,327,528,385|DDCA-u08b-report, p.1]]
 ![[DDCA-u08b-report.pdf#page=1&rect=62,117,532,322|DDCA-u08b-report, p.1]]
 
-
+Below is the modified block diagram.
 
 
 ___
