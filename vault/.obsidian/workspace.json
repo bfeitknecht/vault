@@ -84,10 +84,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/VRL/slides/DDCA-L12a_MIPS-ASM.pdf",
-                "page": 35,
-                "left": -273,
-                "top": 440,
-                "zoom": 0.87
+                "page": 1,
+                "zoom": 1
               }
             }
           }
@@ -228,6 +226,7 @@
   },
   "active": "c74914fc5b84f6de",
   "lastOpenFiles": [
+    "var/attachments/DDCA-u08a-report-bf-cs.pdf",
     "var/export/DDCA-u08a-lab.pdf",
     "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
     "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
@@ -246,7 +245,6 @@
     "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-bs.pdf",
     "var/attachments/ddca-lab08-mips-schematic.png",
     "sem2/DDCA/UE/e/slides/DDCA-LAB07-asm.pdf",
-    "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf",
     "sem2/AuW/UE/cx/bf/cx09-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "var/attachments/Screenshot 2024-05-16 at 17.15.02.png",

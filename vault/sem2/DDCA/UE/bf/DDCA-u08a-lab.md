@@ -16,12 +16,8 @@ assign IOAddr = ALUResult[3:0];
 assign IOWriteEn = MemWrite & IsIO;
 ```
 
-___
 
-
-
-
-
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Report
 
@@ -42,7 +38,8 @@ ___
 
 
 
-___
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## (3)
 ![[DDCA-u08a-report.pdf#page=2&rect=87,427,528,485|DDCA-u08a-report, p.2]]
 
