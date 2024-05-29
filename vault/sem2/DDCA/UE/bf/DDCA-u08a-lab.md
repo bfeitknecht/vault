@@ -10,6 +10,7 @@
 
 
 ```verilog
+assign IsIO = ALUResult[31:4] == 28'h00007ff;
 assign IsMemWrite = MemWrite & ~IsIO;
 assign IOWriteData = WriteData; 
 assign IOAddr = ALUResult[3:0];
