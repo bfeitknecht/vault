@@ -24,6 +24,7 @@ ___
 
 
 # Report
+
 ## (1)
 ![[DDCA-u08a-report.pdf#page=1&rect=88,339,527,385|DDCA-u08a-report, p.1]]
 
@@ -47,10 +48,10 @@ ___
 >This counter keeps track of the position in the loop of snake patterns.
 
 >[!info] `clock_div.v`
-This counter is responsible for slowing down the clock. It is incremented on every tick of the hardware clock and every x ticks, it sends a *divided* clock output.
+This counter is responsible for slowing down the frequency of the processor. It is incremented on every tick of the hardware clock and every x ticks, it sends a *divided* clock output.
 
 >[!info] `DispCount`, `top.v`
->This counter determines, which seven segment display to turn on (send logical 0).
+>This counter determines, which seven segment display to turn on (send logical 0), based on the current pattern.
 
 
 
