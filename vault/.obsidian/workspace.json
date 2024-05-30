@@ -26,9 +26,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u09-manual.pdf",
-                "page": 3,
+                "page": 2,
                 "left": -9,
-                "top": 66,
+                "top": 11,
                 "zoom": 1.75
               }
             }
@@ -41,9 +41,7 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/report/DDCA-u09-report.pdf",
                 "page": 1,
-                "left": -92,
-                "top": 389,
-                "zoom": 1.3823529411764706
+                "zoom": 1
               }
             }
           },
