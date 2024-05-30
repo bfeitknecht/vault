@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -186,6 +185,7 @@
   },
   "active": "ebfe7df096a6abfd",
   "lastOpenFiles": [
+    "var/export/AuW-pg06-bf.pdf",
     "sem2/AuW/UE/pg/e/AuW-pg06-e.pdf",
     "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
     "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
@@ -201,7 +201,6 @@
     "var/export/lab8_1_Schmid_Feitknecht/DDCA-u08a-report-bf-cs.pdf",
     "var/export/lab8_1_Schmid_Feitknecht",
     "var/export/lab8_1_Schmid_Feitknecht.zip",
-    "var/export/DDCA-u08a-report-bf-cs.pdf",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",

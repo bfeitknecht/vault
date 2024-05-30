@@ -4,11 +4,10 @@
 
 
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## (a)
 ![[AuW-pg06-e.pdf#page=1&rect=113,442,516,481|AuW-pg06-e, p.1]]
-
-We are given two convex polygons$P_1$and$P_2$with a total of$n$points, given in counterclockwise order, and separated by a vertical line. We need to show that the convex hull of$P_1 \cup P_2$can be computed in$O(n)$time.
 
 **Algorithm to Merge Two Convex Hulls:**
 1. **Find Upper and Lower Tangents**:
@@ -17,26 +16,26 @@ We are given two convex polygons$P_1$and$P_2$with a total of$n$points, given in 
 
 2. **Merge the Hulls**:
    - Remove points that are inside the tangents.
-   - Concatenate the points of$P_1$and$P_2$from the tangents.
+   - Concatenate the points of $P_1$ and $P_2$ from the tangents.
 
 **Steps in Detail:**
 1. **Initialize**:
-   - Let$p =$rightmost point of$P_1$.
-   - Let$q =$leftmost point of$P_2$.
+   - Let $p =$rightmost point of $P_1$.
+   - Let $q =$leftmost point of $P_2$.
 
 2. **Find Upper Tangent**:
-   - While there exist points above the line joining$p$and$q$in$P_1$, move$p$counterclockwise.
-   - While there exist points above the line joining$p$and$q$in$P_2$, move$q$clockwise.
+   - While there exist points above the line joining $p$ and $q$ in $P_1$, move $p$ counterclockwise.
+   - While there exist points above the line joining $p$ and $q$ in$P_2$, move $q$ clockwise.
    - Repeat the adjustments until no more moves can be made.
 
 3. **Find Lower Tangent**:
-   - While there exist points below the line joining$p$and$q$in$P_1$, move$p$clockwise.
-   - While there exist points below the line joining$p$and$q$in$P_2$, move$q$counterclockwise.
+   - While there exist points below the line joining $p$ and $q$ in $P_1$, move $p$ clockwise.
+   - While there exist points below the line joining $p$ and $q$ in $P_2$, move $q$ counterclockwise.
    - Repeat the adjustments until no more moves can be made.
 
 4. **Merge**:
-   - Include points from$P_1$from the upper tangent to the lower tangent.
-   - Include points from$P_2$from the lower tangent to the upper tangent.
+   - Include points from $P_1$ from the upper tangent to the lower tangent.
+   - Include points from $P_2$ from the lower tangent to the upper tangent.
 
 **Complexity Analysis:**
 - Each point is visited a constant number of times during the tangent finding process.
@@ -45,6 +44,7 @@ We are given two convex polygons$P_1$and$P_2$with a total of$n$points, given in 
 
 
 <div class="page-break" style="page-break-before: always;"></div>
+
 ## (b)
 ![[AuW-pg06-e.pdf#page=1&rect=113,401,518,440|AuW-pg06-e, p.1]]
 
