@@ -26,9 +26,23 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "44e556fe26e627b8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/AuW/UE/pg/e/AuW-pg06-e.pdf",
+                "page": 1,
+                "left": -9,
+                "top": 613,
+                "zoom": 1.7991654291454724
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
+                "file": "sem2/AuW/UE/pg/e/AuW-pg06-e.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
+                "file": "sem2/AuW/UE/pg/e/AuW-pg06-e.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md"
+                "file": "sem2/AuW/UE/pg/e/AuW-pg06-e.pdf"
               }
             }
           },
@@ -170,8 +184,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "ebfe7df096a6abfd",
+  "active": "44e556fe26e627b8",
   "lastOpenFiles": [
+    "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
     "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
     "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf",
@@ -187,7 +202,6 @@
     "var/export/lab8_1_Schmid_Feitknecht.zip",
     "var/export/DDCA-u08a-report-bf-cs.pdf",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
-    "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
