@@ -18,6 +18,42 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6f25f30a13d78b9c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/UE/e/manual/DDCA-u09-manual.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "301eb1e9505ad3b7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/UE/e/report/DDCA-u09-report.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "77d2757c121a5b05",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB09-MIPS.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
           }
         ]
       }
@@ -162,14 +198,17 @@
   },
   "active": "87addbb5c1a1f458",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
+    "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u09-lab.md",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB09-MIPS.pdf",
+    "sem2/DDCA/UE/e/report/DDCA-u09-report.pdf",
+    "sem2/DDCA/UE/e/manual/DDCA-u09-manual.pdf",
     "sem2/AuW/UE/pg/bf/AuW-pg03-bf.md",
     "sem2/AuW/UE/pg/e/Untitled.md",
     "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
     "var/export/AuW-pg06-bf.pdf",
     "sem2/AuW/UE/pg/e/AuW-pg06-e.pdf",
-    "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
-    "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
     "sem2/DDCA/UE/e/manual/DDCA-u08b-manual.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
     "var/attachments/ddca-lab08a-mips-schematic.png",
@@ -177,9 +216,6 @@
     "sem2/DDCA/UE/e/slides/DDCA-LAB08b-snake-faster.pdf",
     "var/attachments/ddca-lab08b-block-diagram.png",
     "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
-    "sem2/DDCA/VRL/slides/DDCA-L12a_MIPS-ASM.pdf",
-    "var/export/lab8_1_Schmid_Feitknecht/DDCA-u08a-report-bf-cs.pdf",
-    "var/export/lab8_1_Schmid_Feitknecht",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "sem2/AuW/UE/cx/bf/cx07-bf.md",
@@ -207,7 +243,6 @@
     "sem2/AuW/UE/pg/bf/AuW-pg04-bf.md",
     "sem2/DDCA/VRL/notes/DDCA.md",
     "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
-    "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
     "Untitled.canvas",
     "sem1/AuD/VRL/Untitled.canvas"
   ]
