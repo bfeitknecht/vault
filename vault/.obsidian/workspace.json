@@ -57,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u09-manual.pdf",
+                "file": "sem2/DDCA/UE/bf/DDCA-u09-lab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u09-manual.pdf",
+                "file": "sem2/DDCA/UE/bf/DDCA-u09-lab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/DDCA/UE/e/manual/DDCA-u09-manual.pdf"
+                "file": "sem2/DDCA/UE/bf/DDCA-u09-lab.md"
               }
             }
           },
@@ -200,10 +199,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "6f25f30a13d78b9c",
+  "active": "87addbb5c1a1f458",
   "lastOpenFiles": [
-    "sem2/DDCA/UE/bf/DDCA-u09-lab.md",
     "sem2/DDCA/UE/e/manual/DDCA-u09-manual.pdf",
+    "sem2/DDCA/UE/bf/DDCA-u09-lab.md",
     "sem2/DDCA/UE/e/report/DDCA-u09-report.pdf",
     "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
