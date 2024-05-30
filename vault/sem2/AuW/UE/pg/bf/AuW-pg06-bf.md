@@ -11,8 +11,8 @@
 
 **Algorithm to Merge Two Convex Hulls:**
 1. **Find Upper and Lower Tangents**:
-   - **Upper Tangent**: Start with the rightmost point of$P_1$and the leftmost point of$P_2$. Adjust the points to find the upper tangent.
-   - **Lower Tangent**: Similarly, find the lower tangent starting with the rightmost point of$P_1$and the leftmost point of$P_2$.
+   - **Upper Tangent**: Start with the rightmost point of $P_1$ and the leftmost point of $P_2$. Adjust the points to find the upper tangent.
+   - **Lower Tangent**: Similarly, find the lower tangent starting with the rightmost point of $P_1$ and the leftmost point of $P_2$.
 
 2. **Merge the Hulls**:
    - Remove points that are inside the tangents.
@@ -20,8 +20,8 @@
 
 **Steps in Detail:**
 1. **Initialize**:
-   - Let $p =$rightmost point of $P_1$.
-   - Let $q =$leftmost point of $P_2$.
+   - Let $p =$ rightmost point of $P_1$.
+   - Let $q =$ leftmost point of $P_2$.
 
 2. **Find Upper Tangent**:
    - While there exist points above the line joining $p$ and $q$ in $P_1$, move $p$ counterclockwise.
@@ -39,7 +39,7 @@
 
 **Complexity Analysis:**
 - Each point is visited a constant number of times during the tangent finding process.
-- Hence, the merging process runs in$O(n)$time.
+- Hence, the merging process runs in $O(n)$ time.
 
 
 
@@ -47,9 +47,6 @@
 
 ## (b)
 ![[AuW-pg06-e.pdf#page=1&rect=113,401,518,440|AuW-pg06-e, p.1]]
-
-
-Use the result from part (a) to construct a divide-and-conquer algorithm for finding the convex hull of$n$points in$O(n \log n)$time.
 
 **Algorithm**:
 1. **Base Case**: If there are 1 or 2 points, the convex hull is the points themselves.
@@ -64,21 +61,18 @@ Use the result from part (a) to construct a divide-and-conquer algorithm for fin
 1. **Sort Points by x-coordinate** (if not already sorted):
    - Use a linear time selection algorithm to find the median, which ensures$O(n)$time.
    - Partition the points into two halves based on the median x-coordinate.
-
 2. **Recursive Computation**:
    - Compute the convex hull for the left half.
    - Compute the convex hull for the right half.
-
 3. **Merge**:
    - Combine the two convex hulls using the merge algorithm from part (a).
 
 **Complexity Analysis**:
-- **Divide Step**: Finding the median and partitioning takes$O(n)$time.
-- **Conquer Step**: Solving two subproblems of size$n/2$.
-- **Combine Step**: Merging two convex hulls takes$O(n)$time.
+- **Divide Step**: Finding the median and partitioning takes $O(n)$ time.
+- **Conquer Step**: Solving two subproblems of size $n/2$.
+- **Combine Step**: Merging two convex hulls takes $O(n)$ time.
 
-Using the Master Theorem for divide-and-conquer recurrences:
-- $T(n) = 2T(n/2) + O(n)$.
+Using the Master Theorem for divide-and-conquer recurrences $T(n) = 2T(n/2) + O(n)$.
 
 This recurrence solves to $T(n) = O(n \log n)$.
 
@@ -88,4 +82,4 @@ This recurrence solves to $T(n) = O(n \log n)$.
 - The divide step correctly partitions the problem.
 - The merge step is proven to be correct in part (a).
 
-Thus, the divide-and-conquer algorithm correctly computes the convex hull in$O(n \log n)$time.
+Thus, the divide-and-conquer algorithm correctly computes the convex hull in $O(n \log n)$ time.
