@@ -56,7 +56,10 @@ This counter is responsible for slowing down the frequency of the processor. It 
 >```
 
 >[!info] `DispCount`, `top.v`
->This counter determines, which seven segment display to turn on (send logical 0). `DispDigit` controls, which specific segment is turned on, but for all AN. For this Reason, we need
+>This counter determines, which seven segment display to turn on (send logical 0). `DispDigit` controls, which specific segment is turned on, but for all AN. For this Reason, we need to turn on only the one that is needed.
+
+
+<div class="page-break" style="page-break-before: always;"></div>
 
 
 ```verilog

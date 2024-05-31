@@ -21,6 +21,8 @@ Make sure that other instructions are not affected.
 
 
 <div class="page-break" style="page-break-before: always;"></div>
+
+
 # Report
 
 
@@ -103,8 +105,6 @@ $$
 ## (3)
 ![[DDCA-u09-report.pdf#page=2&rect=86,321,527,365|DDCA-u09-report, p.2]]
 
-
-**Lab06**
 
 Without additional instructions implemented:
 ```
