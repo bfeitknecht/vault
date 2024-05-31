@@ -52,17 +52,16 @@ The formula to calculate the number of cycles is given by
 $$
 N(A, B) = \begin{cases}
 6 + 4 \cdot (B-A) + 2, & A \leq B \\
-5, & \text{else}
+5, & A > B
 \end{cases}
 $$
 
 | A      | B      | Number of cycles | Time in seconds |
 | ------ | ------ | ---------------- | --------------- |
-| 0      | 8      | 40               |                 |
+| 0      | 8      | 40               | 0.000002s       |
 | 6      | 8      | 16               |                 |
-| 6      | 90'000 |                  |                 |
-| 89'996 | 90'002 |                  |                 |
-
+| 6      | 90'000 | 359'984          | 0.0179992s      |
+| 89'996 | 90'002 | 32               |                 |
 
 
 <div class="page-break" style="page-break-before: always;"></div>
