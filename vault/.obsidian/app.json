@@ -12,5 +12,8 @@
   },
   "showInlineTitle": true,
   "showLineNumber": false,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "spellcheckDictionary": [
+    "LUTs"
+  ]
 }

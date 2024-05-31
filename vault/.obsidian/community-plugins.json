@@ -14,5 +14,6 @@
   "mermaid-tools",
   "cm-editor-syntax-highlight-obsidian",
   "persistent-graph",
-  "attachment-management"
+  "attachment-management",
+  "obsidian-languagetool-plugin"
 ]

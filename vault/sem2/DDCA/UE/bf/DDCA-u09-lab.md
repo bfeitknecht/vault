@@ -106,7 +106,7 @@ $$
 
 **Lab06**
 
-With
+Without additional instructions implemented:
 ```
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Fixed | Available | Util% |
@@ -142,3 +142,6 @@ with additional instructions implemented:
 | F8 Muxes                   |    0 |     0 |      8150 |  0.00 |
 +----------------------------+------+-------+-----------+-------+
 ```
+
+
+As evident, implementing the additional functionality increases the number of used LUTs (logic) by nearly 50 percent and doubles the number of registers. This surprised us a lot!
