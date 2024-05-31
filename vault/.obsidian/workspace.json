@@ -26,10 +26,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u09-manual.pdf",
-                "page": 2,
-                "left": -4,
-                "top": 305,
-                "zoom": 1.82
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -41,9 +39,7 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/report/DDCA-u09-report.pdf",
                 "page": 1,
-                "left": -9,
-                "top": 796,
-                "zoom": 1.75
+                "zoom": 1
               }
             }
           },
@@ -55,9 +51,7 @@
               "state": {
                 "file": "sem2/DDCA/UE/e/slides/DDCA-LAB09-MIPS.pdf",
                 "page": 1,
-                "left": -11,
-                "top": 544,
-                "zoom": 1.4875
+                "zoom": 1
               }
             }
           },
@@ -68,10 +62,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
-                "page": 2,
-                "left": -9,
-                "top": 695,
-                "zoom": 1.75
+                "page": 1,
+                "zoom": 1
               }
             }
           }
