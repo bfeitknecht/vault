@@ -105,13 +105,27 @@ $$
 
 
 **Lab06**
+
+With
 ```
-a
++----------------------------+------+-------+-----------+-------+
+|          Site Type         | Used | Fixed | Available | Util% |
++----------------------------+------+-------+-----------+-------+
+| Slice LUTs*                |  461 |     0 |     20800 |  2.22 |
+|   LUT as Logic             |  205 |     0 |     20800 |  0.99 |
+|   LUT as Memory            |  256 |     0 |      9600 |  2.67 |
+|     LUT as Distributed RAM |  256 |     0 |           |       |
+|     LUT as Shift Register  |    0 |     0 |           |       |
+| Slice Registers            |   31 |     0 |     41600 |  0.07 |
+|   Register as Flip Flop    |   31 |     0 |     41600 |  0.07 |
+|   Register as Latch        |    0 |     0 |     41600 |  0.00 |
+| F7 Muxes                   |    0 |     0 |     16300 |  0.00 |
+| F8 Muxes                   |    0 |     0 |      8150 |  0.00 |
++----------------------------+------+-------+-----------+-------+
 ```
 
 
-
-**Lab09**
+with additional instructions implemented:
 ```
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Fixed | Available | Util% |
