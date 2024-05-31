@@ -23,13 +23,18 @@ Make sure that other instructions are not affected.
 <div class="page-break" style="page-break-before: always;"></div>
 # Report
 
-## Lab05 Code
+
+
+## (1)
+![[DDCA-u09-report.pdf#page=1&rect=88,287,525,357|DDCA-u09-report, p.1]]
+![[DDCA-u09-report.pdf#page=1&rect=87,178,537,286|DDCA-u09-report, p.1]]
+
 
 ```asm
 .text
 main:
-	addi $s0, $0, 5 		# A = 5
-	addi $s1, $0, 32767 	# B = 32767
+	addi $s0, $0, 5 		# A = 0
+	addi $s1, $0, 32767 	# B = 8
 	addi $s1, $s1, 1 		# B = B + 1
 	addi $t2, $0, 0 		# S = 0
 	slt $t1, $s0, $s1 		# $t1 = A < B ? 1 : 0
@@ -47,11 +52,6 @@ end:
 ```
 
 
-## (1)
-![[DDCA-u09-report.pdf#page=1&rect=88,287,525,357|DDCA-u09-report, p.1]]
-![[DDCA-u09-report.pdf#page=1&rect=87,178,537,286|DDCA-u09-report, p.1]]
-
-a
 
 <div class="page-break" style="page-break-before: always;"></div>
 
@@ -59,7 +59,27 @@ a
 ![[DDCA-u09-report.pdf#page=2&rect=88,608,525,653|DDCA-u09-report, p.2]]
 ![[DDCA-u09-report.pdf#page=2&rect=88,501,536,607|DDCA-u09-report, p.2]]
 
-b
+
+```asm
+.text
+main:
+	addi $t0, $0, 0		# $t0 = A
+	addi $t1, $0, 200	# $t1 = B
+	addi $t2, $t0, -1	# A-1
+	multu $t0, $t2		# A (A-1)
+	mflo $t0			# mult result in t0
+	srl $t0, $t0, 1		# divide by two
+	
+	addi $t2, $t1, 1	# B+1
+	multu $t1, $t2		# B (B+1)
+	mflo $t1			# mult result in t1
+	srl $t1, $t1, 1		# divide by two
+	sub $t2, $t1, $t0	# end result is the difference
+
+end:
+	j end				# loop t2 is the result
+```
+
 
 <div class="page-break" style="page-break-before: always;"></div>
 
