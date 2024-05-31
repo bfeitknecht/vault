@@ -48,7 +48,21 @@ end:
     j       end                 	# Infinite loop at the end
 ```
 
-The formula to calculate the number of cycles is given by $6 + (4 * 8) + 2$
+The formula to calculate the number of cycles is given by 
+$$
+N(A, B) = \begin{cases}
+6 + 4 \cdot (B-A) + 2, & A \leq B \\
+5, & \text{else}
+\end{cases}
+$$
+
+| A      | B      | Number of cycles | Time in seconds |
+| ------ | ------ | ---------------- | --------------- |
+| 0      | 8      | 40               |                 |
+| 6      | 8      | 16               |                 |
+| 6      | 90'000 |                  |                 |
+| 89'996 | 90'002 |                  |                 |
+
 
 
 <div class="page-break" style="page-break-before: always;"></div>
