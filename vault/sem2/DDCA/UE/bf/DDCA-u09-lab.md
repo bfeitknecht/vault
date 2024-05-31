@@ -28,3 +28,14 @@ Make sure that other instructions are not affected.
 <div class="page-break" style="page-break-before: always;"></div>
 # Report
 
+
+
+## (1)
+![[DDCA-u09-report.pdf#page=1&rect=88,287,525,357|DDCA-u09-report, p.1]]
+![[DDCA-u09-report.pdf#page=1&rect=87,178,537,286|DDCA-u09-report, p.1]]
+
+
+
+## (2)
+![[DDCA-u09-report.pdf#page=2&rect=88,608,525,653|DDCA-u09-report, p.2]]
+![[DDCA-u09-report.pdf#page=2&rect=88,501,536,607|DDCA-u09-report, p.2]]
