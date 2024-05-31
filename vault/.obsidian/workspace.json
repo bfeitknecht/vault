@@ -56,6 +56,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fa41a6fbe2cfb134",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ]
       }
@@ -201,9 +209,13 @@
   },
   "active": "87addbb5c1a1f458",
   "lastOpenFiles": [
+    "var/attachments/WhatsApp Image 2024-05-31 at 14.25.13.jpeg",
+    "var/attachments/WhatsApp Image 2024-05-31 at 14.24.28 1.jpeg",
+    "var/other/attachments/DDCA-u09-lab",
+    "var/attachments/WhatsApp Image 2024-05-31 at 14.24.28.jpeg",
+    "sem2/DDCA/UE/bf/DDCA-u09-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
-    "sem2/DDCA/UE/bf/DDCA-u09-lab.md",
     "sem2/DDCA/UE/e/report/DDCA-u09-report.pdf",
     "sem2/DDCA/UE/e/slides/DDCA-LAB09-MIPS.pdf",
     "sem2/DDCA/UE/e/manual/DDCA-u05-manual.pdf",
@@ -219,7 +231,6 @@
     "sem2/DDCA/UE/e/manual/DDCA-u08a-manual.pdf",
     "var/attachments/ddca-lab08a-mips-schematic.png",
     "sem2/DDCA/UE/e/slides/DDCA-LAB08a-snake.pdf",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB08b-snake-faster.pdf",
     "var/attachments/ddca-lab08b-block-diagram.png",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
@@ -239,8 +250,6 @@
     "var/attachments/network-flow-multi-source&sink.png",
     "var/attachments/network-flow-multi-source&sink-img.png",
     "var/attachments/Screenshot 2024-04-26 at 11.13.45.png",
-    "var/attachments/network-flow-vertex-capacity.png",
-    "var/attachments/Pasted image 20240428141459.png",
     "sem2/PProg/VRL/notes/PProg.md",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-pg04-bf.md",

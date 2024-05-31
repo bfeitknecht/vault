@@ -103,5 +103,10 @@ $$
 ## (3)
 ![[DDCA-u09-report.pdf#page=2&rect=86,321,527,365|DDCA-u09-report, p.2]]
 
+Lab08
+![[WhatsApp Image 2024-05-31 at 14.24.28 1.jpeg]]
 
 
+
+Lab09
+![[WhatsApp Image 2024-05-31 at 14.25.13.jpeg]]
