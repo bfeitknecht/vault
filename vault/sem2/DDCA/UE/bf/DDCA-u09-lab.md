@@ -24,11 +24,9 @@ Make sure that other instructions are not affected.
 # Report
 
 
-
 ## (1)
 ![[DDCA-u09-report.pdf#page=1&rect=88,287,525,357|DDCA-u09-report, p.1]]
 ![[DDCA-u09-report.pdf#page=1&rect=87,178,537,286|DDCA-u09-report, p.1]]
-
 ```
 main:
     addi    $s0,    $0,     0	  	# A = 0
@@ -59,18 +57,15 @@ $$
 | A      | B      | Number of cycles | Time in seconds |
 | ------ | ------ | ---------------- | --------------- |
 | 0      | 8      | 40               | 0.000002s       |
-| 6      | 8      | 16               |                 |
+| 6      | 8      | 16               | 0.0000008s      |
 | 6      | 90'000 | 359'984          | 0.0179992s      |
-| 89'996 | 90'002 | 32               |                 |
-
+| 89'996 | 90'002 | 32               | 0.0000016s      |
 
 <div class="page-break" style="page-break-before: always;"></div>
 
 ## (2)
 ![[DDCA-u09-report.pdf#page=2&rect=88,608,525,653|DDCA-u09-report, p.2]]
 ![[DDCA-u09-report.pdf#page=2&rect=88,501,536,607|DDCA-u09-report, p.2]]
-
-
 ```asm
 .text
 main:
@@ -91,11 +86,22 @@ end:
 	j 		end						# loop t2 is the result
 ```
 
+The formula to calculate the number of cycles is given by 
+$$
+N(A, B) = 11
+$$
+
+| A      | B      | Number of cycles | Time in seconds |
+| ------ | ------ | ---------------- | --------------- |
+| 0      | 8      | 11               | 0.00000055s     |
+| 6      | 8      | 11               | 0.00000055s     |
+| 6      | 90'000 | 11               | 0.00000055s     |
+| 89'996 | 90'002 | 11               | 0.00000055s     |
 
 <div class="page-break" style="page-break-before: always;"></div>
 
 ## (3)
 ![[DDCA-u09-report.pdf#page=2&rect=86,321,527,365|DDCA-u09-report, p.2]]
 
-c
+
 
