@@ -89,23 +89,18 @@ int abs_diff_color(int R1, int R2, int B1, int B2, int G1, int G2) {
 ![[DDCA-LAB07-asm.pdf#page=23&rect=115,112,608,386|DDCA-LAB07-asm, p.23]]
 
 
-
-
-
-
-
-
-
 ```C
 int abs_diff(int l, int r) {
 	int abs_diff = abs(l - r);
 	return abs_diff;
 }
 ```
-```
+
+```asm
 # Absolute difference between two integers
 # $a0 = l
 # $a1 = r
+
 abs_diff:
 	sub $t1, $a0, $a1 	# Subtract second integer from first integer
 	sra $t2, $t1, 31 	# Arithmetic right shift to get sign of the difference
