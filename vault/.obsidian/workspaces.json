@@ -619,56 +619,16 @@
             "type": "tabs",
             "children": [
               {
-                "id": "87addbb5c1a1f458",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem2/DDCA/UE/bf/DDCA-u09-lab.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "6f25f30a13d78b9c",
+                "id": "f7786ebd74c390e1",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/DDCA/UE/e/manual/DDCA-u09-manual.pdf",
+                    "file": "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
                     "page": 1,
-                    "left": -11,
-                    "top": 796,
-                    "zoom": 1.3823529411764706
-                  }
-                }
-              },
-              {
-                "id": "301eb1e9505ad3b7",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/DDCA/UE/e/report/DDCA-u09-report.pdf",
-                    "page": 1,
-                    "left": -11,
-                    "top": 796,
-                    "zoom": 1.3823529411764706
-                  }
-                }
-              },
-              {
-                "id": "77d2757c121a5b05",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/DDCA/UE/e/slides/DDCA-LAB09-MIPS.pdf",
-                    "page": 1,
-                    "left": -13,
-                    "top": 544,
-                    "zoom": 1.175
+                    "left": -9,
+                    "top": 724,
+                    "zoom": 1.75
                   }
                 }
               }
@@ -722,7 +682,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -738,7 +699,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/UE/bf/DDCA-u09-lab.md",
+                    "file": "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -755,7 +716,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/UE/bf/DDCA-u09-lab.md",
+                    "file": "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -778,7 +739,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/UE/bf/DDCA-u09-lab.md"
+                    "file": "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf"
                   }
                 }
               },
@@ -813,9 +774,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "87addbb5c1a1f458",
-      "mtime": "2024-05-30T08:37:44+02:00"
+      "active": "f7786ebd74c390e1",
+      "mtime": "2024-05-31T14:55:52+02:00"
     }
   },
-  "active": "ddca-lab09"
+  "active": "clean"
 }
