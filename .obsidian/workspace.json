@@ -4,18 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "90b6981305132ac8",
+        "id": "583e85bb6fcfbc73",
         "type": "tabs",
         "children": [
           {
-            "id": "87addbb5c1a1f458",
+            "id": "1f385e2a74e24687",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "1d4994fb49049cb4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "ae154ed7d125e700",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sem2/A1/PV/extra/A1-derivative-integral-rules.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -44,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:/sem2/AuW/VRL/slides",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -82,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/A1/PV/extra/A1-derivative-integral-rules.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/A1/PV/extra/A1-derivative-integral-rules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/A1/PV/extra/A1-derivative-integral-rules.md"
+              }
             }
           },
           {
@@ -153,53 +177,54 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "87addbb5c1a1f458",
+  "active": "ae154ed7d125e700",
   "lastOpenFiles": [
-    "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
-    "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
-    "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
-    "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
-    "sem2/DDCA/UE/bf/DDCA-u06-lab.md",
-    "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
-    "var/export/Lab8-1_Schmid_Feitknecht.pdf.zip",
-    "var/export/Lab8-1_Schmid_Feitknecht.pdf",
+    "sem2/A1/PV/extra/A1-rules-identities.pdf",
+    "sem2/A1/PV/summaries/A1-summary-yannick.pdf",
+    "sem2/A1/PV/notes/ZHAW-A1-u04-bf.md",
+    "sem2/A1/PV/summaries/A1-FS18-summary-rböhr.pdf",
+    "sem2/A1/PV/extra/A1-derivative-integral-rules.md",
+    "sem2/A1/PV/exams/A1-FS22-exam.pdf",
+    "sem2/PProg/PV/summaries/PProg-summary-rböhr.pdf",
+    "sem2/PProg/PV/summaries/PProg-summary-fheck.pdf",
+    "sem2/PProg/PV/summaries",
+    "sem2/PProg/PV/extra/PProg-kahoot.pdf",
+    "sem2/PProg/PV/extra",
+    "sem2/PProg/PV/exams/PProg-HS23-exam.pdf",
+    "sem2/PProg/PV/exams/PProg-FS23-exam.pdf",
+    "sem2/AuW/PV/cx/token-exchange.md",
+    "sem2/A1/VRL/notes/A1.md",
+    "sem2/A1/VRL/notes/22-04-24-mbeurer.md",
+    "sem2/A1/UE/bf/A1-u03-bf.md",
+    "sem2/A1/UE/bf/A1-u02-bf.md",
+    "sem2/A1/UE/bf/A1-u01-bf.md",
+    "sem2/Analysis-1/VRL/slides/Analysis-1-00-slides.md",
+    "sem2/Analysis-1/VRL/notes/Analysis-1.md",
+    "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
+    "sem2/Analysis-1/UE/bf/Analysis-1-u02-bf.md",
+    "sem2/Analysis-1/UE/bf/Analysis-1-u01-bf.md",
+    "sem2/DDCA/VRL/notes/DDCA.md",
     "sem2/DDCA/UE/bf/DDCA-u09-lab.md",
-    "sem2/DDCA/UE/e/report/DDCA-u09-report.pdf",
-    "var/export/Lab9_Schmid_Feitknecht.pdf",
-    "var/export/DDCA-u09-lab.pdf",
+    "sem2/PProg/VRL/notes/PProg.md",
+    "sem2/A1/VRL/notes/22-04-24 A1 Beurer.md",
+    "summary nwe.md",
+    "var/attachments/ddca-lab08b-block-diagram-modified.png",
+    "rm later.md",
+    "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
+    "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
+    "sem2/AuW/UE/cx/bf/cx09-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+    "sem2/AuW/VRL/notes/AuW.md",
+    "sem2/DDCA/UE/bf/DDCA-u06-lab.md",
+    "var/attachments/ddca-lab08a-mips-schematic.png",
+    "var/attachments/ddca-lab08b-block-diagram.png",
+    "var/attachments/ddca-lab08b-mips-schematic.png",
     "var/attachments/WhatsApp Image 2024-05-31 at 14.24.28.jpeg",
     "var/attachments/WhatsApp Image 2024-05-31 at 14.25.13.jpeg",
     "var/attachments/WhatsApp Image 2024-05-31 at 14.24.28 1.jpeg",
-    "sem2/DDCA/UE/e/manual/DDCA-u07-manual.pdf",
-    "var/other/attachments/DDCA-u09-lab",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB09-MIPS.pdf",
-    "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
-    "sem2/AuW/UE/pg/bf/AuW-pg03-bf.md",
-    "sem2/AuW/UE/pg/e/Untitled.md",
-    "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
-    "var/attachments/ddca-lab08a-mips-schematic.png",
-    "var/attachments/ddca-lab08b-block-diagram.png",
-    "sem2/Analysis-1/VRL/notes/Analysis-1.md",
-    "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
-    "sem2/AuW/UE/cx/bf/cx07-bf.md",
-    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
-    "sem2/AuW/UE/cx/bf/cx09-bf.md",
-    "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
     "var/attachments/Screenshot 2024-05-16 at 17.15.02.png",
-    "sem2/AuW/VRL/notes/AuW.md",
-    "sem2/DDCA/UE/bf/DDCA-u07-report-bf-cs.md",
-    "var/other/202402271204.md",
-    "sem2/AuW/UE/cx/bf/cx08-bf.md",
-    "sem2/AuW/UE/pg/bf/AuW-pg01-bf.md",
     "var/attachments/network-flow-vertex-capacity-img.jpg",
     "var/attachments/network-flow-vertex-capacity-img.png",
-    "var/attachments/network-flow-multi-source&sink.png",
-    "var/attachments/network-flow-multi-source&sink-img.png",
-    "sem2/PProg/VRL/notes/PProg.md",
-    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
-    "sem2/AuW/UE/pg/bf/AuW-pg04-bf.md",
-    "sem2/DDCA/VRL/notes/DDCA.md",
-    "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "Untitled.canvas",
     "sem1/AuD/VRL/Untitled.canvas"
   ]

@@ -4,63 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "bb036f78302bd531",
+        "id": "0145bb9fac59081b",
         "type": "tabs",
         "children": [
           {
-            "id": "133f9aca8c417f6b",
+            "id": "176f4056979d50f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "abea46d298379b77",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/UE/e/slides/DDCA-LAB08b-snake-faster.pdf",
-                "page": 1,
-                "left": -214,
-                "top": 540,
-                "zoom": 0.77
-              }
-            }
-          },
-          {
-            "id": "ffd2787a2ea112ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6903df8e5f72ae7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
-                "page": 1,
-                "left": 52,
-                "top": 355,
-                "zoom": 1.77
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +73,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -135,7 +89,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -146,9 +99,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf"
-          }
+          "state": {}
         }
       }
     ],
@@ -164,13 +115,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "c6903df8e5f72ae7",
+  "active": "176f4056979d50f5",
   "lastOpenFiles": [
+    "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
+    "sem2/DDCA/UE/e/slides/DDCA-LAB08b-snake-faster.pdf",
+    "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
+    "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
     "var/attachments/ddca-lab08b-block-diagram.png",
     "var/attachments/ddca-lab08a-mips-schematic.png",
-    "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
-    "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB08b-snake-faster.pdf",
     "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
     "var/export/lab8_1_Schmid_Feitknecht.zip",
     "var/export/DDCA-u08a-lab.pdf",
@@ -178,7 +130,6 @@
     "var/export/lab8_1_Schmid_Feitknecht",
     "var/export/DDCA-u08a-report-bf-cs.pdf",
     "sem2/AuW/UE/pg/e/AuW-pg06-e.pdf",
-    "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
     "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
     "Untitled.md",
@@ -211,7 +162,6 @@
     "sem1/LinAlg/PV/other/matrix-multiplication/GRAPH-l-mult-matrix-by-row-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/GRAPHIC-r-mult-matrix-by-column-vector.png",
     "sem1/LinAlg/PV/other/matrix-multiplication/GRAPH-l-mult-matrix-by-matrix.png",
-    "sem1/LinAlg/PV/other/matrix-multiplication/r-mult-matrix-by-column-vector.png",
     "Untitled.canvas"
   ]
 }

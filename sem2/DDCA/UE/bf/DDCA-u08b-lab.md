@@ -18,6 +18,7 @@ ___
 
 
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 
 # Report
@@ -26,10 +27,11 @@ ___
 ![[DDCA-u08b-report.pdf#page=1&rect=86,327,528,385|DDCA-u08b-report, p.1]]
 ![[DDCA-u08b-report.pdf#page=1&rect=62,117,532,322|DDCA-u08b-report, p.1]]
 
-Below is the modified block diagram.
+Below is the block diagram modified to enable the `lw` and `sw` instruction.
+![[ddca-lab08b-block-diagram-modified.png]]
 
 
-___
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## (2)
 ![[DDCA-u08b-report.pdf#page=2&rect=87,649,529,704|DDCA-u08b-report, p.2]]

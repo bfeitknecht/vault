@@ -1,0 +1,1 @@
+{"path":"var/attachments/ddca-lab08b-mips-schematic.png","text":"CLK L I_} IOWriteData o RESET [ P —_ [ ) IOWriteEn et T rbcontret — T {_] I0ReadData „Ox7ff . o . ; I_} 10Addr Unit IsIO0 ReadMemIO WE3 IsMemWrite A1 RD1 e WE ALUResu = A RD A2 RD2 Data A3 Memory WD3 WD D P ]","libVersion":"0.3.1","langs":"deu+eng"}

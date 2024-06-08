@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "90b6981305132ac8",
+            "id": "90e7a0d7a491b70b",
             "type": "tabs",
             "children": [
               {
-                "id": "87addbb5c1a1f458",
+                "id": "414cefd1625961b6",
                 "type": "leaf",
                 "state": {
                   "type": "graph",
@@ -155,94 +155,647 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "87addbb5c1a1f458",
-      "mtime": "2024-05-29T10:33:03+02:00"
+      "active": "414cefd1625961b6",
+      "mtime": "2024-06-08T14:21:00+02:00"
     },
-    "auw-miniquizzes": {
+    "pv - auw": {
       "main": {
         "id": "ef0204964e2b9162",
         "type": "split",
         "children": [
           {
-            "id": "805f086209640ec1",
+            "id": "20eeaa5c10e6aaa8",
             "type": "tabs",
             "children": [
               {
-                "id": "bfa50aa2f448175d",
+                "id": "cbcc5a45f6e7a5f5",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                    "file": "sem2/AuW/PV/summaries/AuW-summary-fschwinn.pdf",
                     "page": 1,
                     "zoom": 1
                   }
                 }
               },
               {
-                "id": "1a3c95a2e5870056",
+                "id": "82365c5d4a071ef0",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/AuW/VRL/slides/AuW-L19-convex-hulls.pdf",
+                    "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf",
                     "page": 1,
                     "zoom": 1
                   }
                 }
               },
               {
-                "id": "044029e7584fe308",
+                "id": "3a3b8e552d1aea05",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem2/AuW/VRL/notes/AuW.md",
+                    "file": "sem2/AuW/PV/cx/token-exchange.md",
                     "mode": "source",
                     "source": false
-                  }
-                }
-              },
-              {
-                "id": "287317b416d76794",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "6a8e5a873cf4479d",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/AuW/VRL/slides/AuW-L24b-flow-image-fg-bg.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "2bc2110c591cdebe",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
-                    "page": 19,
-                    "left": -33,
-                    "top": 244,
-                    "zoom": 2.04
                   }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "fe28d63e32c3168b",
+        "type": "split",
+        "children": [
+          {
+            "id": "fddab58c0769d063",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5f4cf158045f14fe",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "3eef01e3b58afb78",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:/sem2/AuW/VRL/slides",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "byModifiedTime"
+                  }
+                }
+              },
+              {
+                "id": "b14014a5400a500b",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "right": {
+        "id": "4be59d580df31d93",
+        "type": "split",
+        "children": [
+          {
+            "id": "a9eab3abde570e06",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b3aff261bc292caf",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "sem2/AuW/PV/cx/token-exchange.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "2d28441159ca953f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "sem2/AuW/PV/cx/token-exchange.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "ee946e358c8111ed",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "0f56d709fdb24392",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "sem2/AuW/PV/cx/token-exchange.md"
+                  }
+                }
+              },
+              {
+                "id": "d4d9e5cf2cd5e94b",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "mermaid-tools:Open Mermaid Toolbar": true,
+          "omnisearch:Omnisearch": false,
+          "workspaces:Manage workspace layouts": false,
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": false,
+          "command-palette:Open command palette": false,
+          "templates:Insert template": true,
+          "zk-prefixer:Create new unique note": true,
+          "pdf-plus:PDF++: Toggle auto-copy": true,
+          "pdf-plus:PDF++: Toggle auto-focus": true,
+          "pdf-plus:PDF++: Toggle auto-paste": true
+        }
+      },
+      "active": "3a3b8e552d1aea05",
+      "mtime": "2024-06-12T13:11:05+02:00"
+    },
+    "pv - pprog": {
+      "main": {
+        "id": "ef0204964e2b9162",
+        "type": "split",
+        "children": [
+          {
+            "id": "e8bdbc2c4c8ba20f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2db0380c514ebefe",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/PProg/VRL/extra/benji/PProg-w04-benji.pdf",
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              },
+              {
+                "id": "28060cc3a0ac53cf",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
+                    "page": 1,
+                    "left": -11,
+                    "top": 796,
+                    "zoom": 1.3823529411764706
+                  }
+                }
+              },
+              {
+                "id": "54fc4e5ed3576cdb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem2/PProg/VRL/notes/PProg.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "076fcad2c1c0269d",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/PProg/VRL/extra/benji/PProg-w04-benji.pdf",
+                    "page": 30,
+                    "left": -14,
+                    "top": 95,
+                    "zoom": 1.1156140195470514
+                  }
+                }
+              },
+              {
+                "id": "943591ce48e82735",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
+                    "page": 2,
+                    "left": -9,
+                    "top": 483,
+                    "zoom": 1.75
+                  }
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "fe28d63e32c3168b",
+        "type": "split",
+        "children": [
+          {
+            "id": "fddab58c0769d063",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5f4cf158045f14fe",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "3eef01e3b58afb78",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "byModifiedTime"
+                  }
+                }
+              },
+              {
+                "id": "b14014a5400a500b",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "right": {
+        "id": "4be59d580df31d93",
+        "type": "split",
+        "children": [
+          {
+            "id": "a9eab3abde570e06",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b3aff261bc292caf",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "2d28441159ca953f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "ee946e358c8111ed",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "0f56d709fdb24392",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "sem2/PProg/UE/e/PProg-u03-e.pdf"
+                  }
+                }
+              },
+              {
+                "id": "d4d9e5cf2cd5e94b",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "workspaces:Manage workspace layouts": false,
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": false,
+          "command-palette:Open command palette": false,
+          "templates:Insert template": true,
+          "zk-prefixer:Create new unique note": true,
+          "omnisearch:Omnisearch": false,
+          "mermaid-tools:Open Mermaid Toolbar": true,
+          "pdf-plus:PDF++: Toggle auto-copy": true,
+          "pdf-plus:PDF++: Toggle auto-focus": true,
+          "pdf-plus:PDF++: Toggle auto-paste": true
+        }
+      },
+      "active": "943591ce48e82735",
+      "mtime": "2024-06-10T17:09:06+02:00"
+    },
+    "pv - a1": {
+      "main": {
+        "id": "ef0204964e2b9162",
+        "type": "split",
+        "children": [
+          {
+            "id": "90e7a0d7a491b70b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "414cefd1625961b6",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/PV/A1-rules-identities.pdf",
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              },
+              {
+                "id": "f4621dd0f63205de",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem2/A1/UE/bf/A1-u03-bf.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "2bc7b02d03a98678",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/UE/e/A1-u03-e.pdf",
+                    "page": 1,
+                    "left": -11,
+                    "top": 846,
+                    "zoom": 1.421189498652726
+                  }
+                }
+              },
+              {
+                "id": "afde5d99847c388f",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/UE/s/A1-u03-s.pdf",
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "fe28d63e32c3168b",
+        "type": "split",
+        "children": [
+          {
+            "id": "fddab58c0769d063",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5f4cf158045f14fe",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "3eef01e3b58afb78",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "byModifiedTime"
+                  }
+                }
+              },
+              {
+                "id": "b14014a5400a500b",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "4be59d580df31d93",
+        "type": "split",
+        "children": [
+          {
+            "id": "a9eab3abde570e06",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b3aff261bc292caf",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "sem2/A1/PV/A1-rules-identities.pdf",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "2d28441159ca953f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "sem2/A1/PV/A1-rules-identities.pdf",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "ee946e358c8111ed",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "0f56d709fdb24392",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "sem2/A1/PV/A1-rules-identities.pdf"
+                  }
+                }
+              },
+              {
+                "id": "d4d9e5cf2cd5e94b",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "mermaid-tools:Open Mermaid Toolbar": true,
+          "omnisearch:Omnisearch": false,
+          "workspaces:Manage workspace layouts": false,
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": false,
+          "command-palette:Open command palette": false,
+          "templates:Insert template": true,
+          "zk-prefixer:Create new unique note": true,
+          "pdf-plus:PDF++: Toggle auto-copy": true,
+          "pdf-plus:PDF++: Toggle auto-focus": true,
+          "pdf-plus:PDF++: Toggle auto-paste": true
+        }
+      },
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-06-12T14:58:34+02:00"
+    },
+    "pv - ddca": {
+      "main": {
+        "id": "ef0204964e2b9162",
+        "type": "split",
+        "children": [
+          {
+            "id": "31e035fe7d8cc1d2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bc8f0dc41f8794f0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem2/DDCA/VRL/notes/DDCA.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
           }
         ],
         "direction": "vertical"
@@ -308,7 +861,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+                    "file": "sem2/DDCA/VRL/notes/DDCA.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -325,7 +878,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+                    "file": "sem2/DDCA/VRL/notes/DDCA.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -348,7 +901,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/UE/u/bf/AuW-u05-bf.md"
+                    "file": "sem2/DDCA/VRL/notes/DDCA.md"
                   }
                 }
               },
@@ -383,400 +936,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "287317b416d76794",
-      "mtime": "2024-05-17T14:37:24+02:00"
-    },
-    "auw-cx-u06": {
-      "main": {
-        "id": "ef0204964e2b9162",
-        "type": "split",
-        "children": [
-          {
-            "id": "805f086209640ec1",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "bb1fea2fa1427b1b",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "a06aca2450e8e550",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/AuW/VRL/slides/AuW-L21-network-flow.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "5451be40b72717e5",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/AuW/VRL/slides/AuW-L22-maximum-flow.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "865d4b4b601d5397",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "bfa50aa2f448175d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem2/AuW/UE/cx/bf/cx09-bf.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "99e47c99f6daaf4a",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              }
-            ],
-            "currentTab": 4
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "fe28d63e32c3168b",
-        "type": "split",
-        "children": [
-          {
-            "id": "fddab58c0769d063",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5f4cf158045f14fe",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "3eef01e3b58afb78",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:/sem2/AuW/VRL/slides",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "byModifiedTime"
-                  }
-                }
-              },
-              {
-                "id": "b14014a5400a500b",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "right": {
-        "id": "4be59d580df31d93",
-        "type": "split",
-        "children": [
-          {
-            "id": "a9eab3abde570e06",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b3aff261bc292caf",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "sem2/AuW/UE/cx/bf/cx09-bf.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "2d28441159ca953f",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "sem2/AuW/UE/cx/bf/cx09-bf.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "ee946e358c8111ed",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "0f56d709fdb24392",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "sem2/AuW/UE/cx/bf/cx09-bf.md"
-                  }
-                }
-              },
-              {
-                "id": "d4d9e5cf2cd5e94b",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {}
-                }
-              }
-            ],
-            "currentTab": 4
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "mermaid-tools:Open Mermaid Toolbar": true,
-          "omnisearch:Omnisearch": false,
-          "workspaces:Manage workspace layouts": false,
-          "switcher:Open quick switcher": true,
-          "graph:Open graph view": false,
-          "command-palette:Open command palette": false,
-          "templates:Insert template": true,
-          "zk-prefixer:Create new unique note": true,
-          "pdf-plus:PDF++: Toggle auto-copy": true,
-          "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
-        }
-      },
-      "active": "bfa50aa2f448175d",
-      "mtime": "2024-05-24T10:30:43+02:00"
-    },
-    "ddca-lab09": {
-      "main": {
-        "id": "ef0204964e2b9162",
-        "type": "split",
-        "children": [
-          {
-            "id": "90b6981305132ac8",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "f7786ebd74c390e1",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
-                    "page": 1,
-                    "left": -9,
-                    "top": 724,
-                    "zoom": 1.75
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "fe28d63e32c3168b",
-        "type": "split",
-        "children": [
-          {
-            "id": "fddab58c0769d063",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5f4cf158045f14fe",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "3eef01e3b58afb78",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:/sem2/AuW/VRL/slides",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "byModifiedTime"
-                  }
-                }
-              },
-              {
-                "id": "b14014a5400a500b",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "right": {
-        "id": "4be59d580df31d93",
-        "type": "split",
-        "children": [
-          {
-            "id": "a9eab3abde570e06",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b3aff261bc292caf",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "2d28441159ca953f",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "ee946e358c8111ed",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "0f56d709fdb24392",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "sem2/DDCA/UE/e/report/DDCA-u08a-report.pdf"
-                  }
-                }
-              },
-              {
-                "id": "d4d9e5cf2cd5e94b",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {}
-                }
-              }
-            ],
-            "currentTab": 4
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "mermaid-tools:Open Mermaid Toolbar": true,
-          "omnisearch:Omnisearch": false,
-          "workspaces:Manage workspace layouts": false,
-          "switcher:Open quick switcher": true,
-          "graph:Open graph view": false,
-          "command-palette:Open command palette": false,
-          "templates:Insert template": true,
-          "zk-prefixer:Create new unique note": true,
-          "pdf-plus:PDF++: Toggle auto-copy": true,
-          "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
-        }
-      },
-      "active": "f7786ebd74c390e1",
-      "mtime": "2024-05-31T14:55:52+02:00"
+      "active": "bc8f0dc41f8794f0",
+      "mtime": "2024-06-12T15:18:26+02:00"
     }
   },
-  "active": "clean"
+  "active": "pv - a1"
 }
