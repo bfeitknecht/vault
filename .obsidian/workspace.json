@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "90e7a0d7a491b70b",
+        "id": "9cec267a6cfaa56b",
         "type": "tabs",
         "children": [
           {
-            "id": "414cefd1625961b6",
+            "id": "ec39da7da15a68a9",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:/sem2/AuW/VRL/slides",
+                "query": "tag:/sem2/A1/PV",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -152,8 +152,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "5f4cf158045f14fe",
+  "active": "ec39da7da15a68a9",
   "lastOpenFiles": [
+    "LICENSE.md",
     "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie9_loesung.pdf",
     "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie8_loesung.pdf",
     "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie7_loesung.pdf",
@@ -164,7 +165,6 @@
     "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie2_loesung.pdf",
     "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie1_loesung.pdf",
     "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie13_loesung.pdf",
-    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie12_loesung.pdf",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",

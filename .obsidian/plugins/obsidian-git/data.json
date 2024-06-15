@@ -1,5 +1,5 @@
 {
-  "commitMessage": "backup(vault): {{date}} from {{hostname}}",
+  "commitMessage": "backup: {{date}} from {{hostname}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 5,
   "autoPushInterval": 5,
@@ -54,5 +54,5 @@
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
   },
-  "autoCommitMessage": "backup(vault): {{date}} from {{hostname}}"
+  "autoCommitMessage": "backup: {{date}} from {{hostname}}"
 }
