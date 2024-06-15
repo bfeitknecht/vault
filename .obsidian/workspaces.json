@@ -576,61 +576,22 @@
         "type": "split",
         "children": [
           {
-            "id": "90e7a0d7a491b70b",
+            "id": "e715ab6ccbd5f59f",
             "type": "tabs",
             "children": [
               {
-                "id": "414cefd1625961b6",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/A1/PV/A1-rules-identities.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "f4621dd0f63205de",
+                "id": "2c6ae94002f1ccbf",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem2/A1/UE/bf/A1-u03-bf.md",
+                    "file": "README.md",
                     "mode": "source",
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "2bc7b02d03a98678",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/A1/UE/e/A1-u03-e.pdf",
-                    "page": 1,
-                    "left": -11,
-                    "top": 846,
-                    "zoom": 1.421189498652726
-                  }
-                }
-              },
-              {
-                "id": "afde5d99847c388f",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/A1/UE/s/A1-u03-s.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -696,7 +657,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/A1/PV/A1-rules-identities.pdf",
+                    "file": "README.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -713,7 +674,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/A1/PV/A1-rules-identities.pdf",
+                    "file": "README.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -736,7 +697,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/A1/PV/A1-rules-identities.pdf"
+                    "file": "README.md"
                   }
                 }
               },
@@ -758,21 +719,21 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "mermaid-tools:Open Mermaid Toolbar": true,
-          "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
           "switcher:Open quick switcher": true,
           "graph:Open graph view": false,
           "command-palette:Open command palette": false,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
-          "pdf-plus:PDF++: Toggle auto-copy": true,
-          "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "omnisearch:Omnisearch": false,
+          "pdf-plus:PDF++: Toggle auto-copy": false,
+          "pdf-plus:PDF++: Toggle auto-focus": false,
+          "pdf-plus:PDF++: Toggle auto-paste": false,
+          "mermaid-tools:Open Mermaid Toolbar": false
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-06-12T14:58:34+02:00"
+      "active": "2c6ae94002f1ccbf",
+      "mtime": "2024-06-15T10:30:14+02:00"
     },
     "pv - ddca": {
       "main": {
@@ -940,5 +901,5 @@
       "mtime": "2024-06-12T15:18:26+02:00"
     }
   },
-  "active": "pv - a1"
+  "active": "clean"
 }

@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "583e85bb6fcfbc73",
+        "id": "90e7a0d7a491b70b",
         "type": "tabs",
         "children": [
           {
-            "id": "1f385e2a74e24687",
+            "id": "414cefd1625961b6",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "1d4994fb49049cb4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "ae154ed7d125e700",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:/sem2/AuW/VRL/slides",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,58 +139,58 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "mermaid-tools:Open Mermaid Toolbar": true,
+      "omnisearch:Omnisearch": false,
       "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": true,
       "zk-prefixer:Create new unique note": true,
-      "omnisearch:Omnisearch": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "pdf-plus:PDF++: Toggle auto-copy": true,
+      "pdf-plus:PDF++: Toggle auto-focus": true,
+      "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "ae154ed7d125e700",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
-    "sem2/A1/PV/extra/A1-rules-identities.pdf",
-    "sem2/A1/PV/summaries/A1-summary-yannick.pdf",
-    "sem2/A1/PV/notes/ZHAW-A1-u04-bf.md",
-    "sem2/A1/PV/summaries/A1-FS18-summary-rböhr.pdf",
-    "sem2/A1/PV/extra/A1-derivative-integral-rules.md",
-    "sem2/A1/PV/exams/A1-FS22-exam.pdf",
-    "sem2/PProg/PV/summaries/PProg-summary-rböhr.pdf",
-    "sem2/PProg/PV/summaries/PProg-summary-fheck.pdf",
-    "sem2/PProg/PV/summaries",
-    "sem2/PProg/PV/extra/PProg-kahoot.pdf",
-    "sem2/PProg/PV/extra",
-    "sem2/PProg/PV/exams/PProg-HS23-exam.pdf",
-    "sem2/PProg/PV/exams/PProg-FS23-exam.pdf",
-    "sem2/AuW/PV/cx/token-exchange.md",
-    "sem2/A1/VRL/notes/A1.md",
-    "sem2/A1/VRL/notes/22-04-24-mbeurer.md",
-    "sem2/A1/UE/bf/A1-u03-bf.md",
-    "sem2/A1/UE/bf/A1-u02-bf.md",
-    "sem2/A1/UE/bf/A1-u01-bf.md",
-    "sem2/Analysis-1/VRL/slides/Analysis-1-00-slides.md",
-    "sem2/Analysis-1/VRL/notes/Analysis-1.md",
-    "sem2/Analysis-1/VRL/notes/22-04-24 Analysis-1 Beurer.md",
-    "sem2/Analysis-1/UE/bf/Analysis-1-u02-bf.md",
-    "sem2/Analysis-1/UE/bf/Analysis-1-u01-bf.md",
+    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie9_loesung.pdf",
+    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie8_loesung.pdf",
+    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie7_loesung.pdf",
+    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie6_loesung.pdf",
+    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie5_loesung.pdf",
+    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie4_loesung.pdf",
+    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie3_loesung.pdf",
+    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie2_loesung.pdf",
+    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie1_loesung.pdf",
+    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie13_loesung.pdf",
+    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie12_loesung.pdf",
+    "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u01-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u02-bf.md",
+    "sem2/AuW/UE/u/bf/AuW-u00-bf.md",
+    "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
+    "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
+    "sem2/AuW/UE/pg/bf/AuW-pg04-bf.md",
+    "sem2/AuW/UE/pg/bf/AuW-pg03-bf.md",
+    "sem2/AuW/UE/pg/bf/AuW-pg02-bf.md",
+    "sem2/AuW/UE/pg/bf/AuW-pg01-bf.md",
+    "sem2/AuW/UE/cx/bf/cx09-bf.md",
+    "sem2/AuW/UE/cx/bf/cx08-bf.md",
+    "sem2/AuW/UE/cx/bf/cx07-bf.md",
+    "sem2/PProg/VRL/notes/PProg.md",
     "sem2/DDCA/VRL/notes/DDCA.md",
     "sem2/DDCA/UE/bf/DDCA-u09-lab.md",
-    "sem2/PProg/VRL/notes/PProg.md",
-    "sem2/A1/VRL/notes/22-04-24 A1 Beurer.md",
-    "summary nwe.md",
-    "var/attachments/ddca-lab08b-block-diagram-modified.png",
-    "rm later.md",
     "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
-    "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
-    "sem2/AuW/UE/cx/bf/cx09-bf.md",
-    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
-    "sem2/AuW/VRL/notes/AuW.md",
+    "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
+    "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u06-lab.md",
+    "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
+    "sem2/A1/VRL/notes/A1.md",
+    "var/attachments/ddca-lab08b-block-diagram-modified.png",
     "var/attachments/ddca-lab08a-mips-schematic.png",
     "var/attachments/ddca-lab08b-block-diagram.png",
     "var/attachments/ddca-lab08b-mips-schematic.png",
