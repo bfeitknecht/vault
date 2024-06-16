@@ -14,8 +14,17 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "0a84a76827278501",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,7 +161,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "414cefd1625961b6",
+  "active": "0a84a76827278501",
   "lastOpenFiles": [
     "sem2/PProg/VRL/notes/PProg.md",
     "sem2/PProg/UE/e/PProg-u03-e.pdf",
