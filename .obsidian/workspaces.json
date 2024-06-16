@@ -378,9 +378,9 @@
                   "state": {
                     "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
                     "page": 1,
-                    "left": -11,
-                    "top": 796,
-                    "zoom": 1.3823529411764706
+                    "left": -9,
+                    "top": 729,
+                    "zoom": 1.75
                   }
                 }
               },
@@ -403,10 +403,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/VRL/extra/benji/PProg-w04-benji.pdf",
-                    "page": 30,
-                    "left": -14,
-                    "top": 95,
-                    "zoom": 1.1156140195470514
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -417,15 +415,13 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
-                    "page": 2,
-                    "left": -9,
-                    "top": 483,
-                    "zoom": 1.75
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -492,7 +488,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
+                    "file": "sem2/PProg/VRL/notes/PProg.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -509,7 +505,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
+                    "file": "sem2/PProg/VRL/notes/PProg.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -532,7 +528,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/PProg/UE/e/PProg-u03-e.pdf"
+                    "file": "sem2/PProg/VRL/notes/PProg.md"
                   }
                 }
               },
@@ -549,8 +545,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -561,14 +556,14 @@
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
           "omnisearch:Omnisearch": false,
-          "mermaid-tools:Open Mermaid Toolbar": true,
-          "pdf-plus:PDF++: Toggle auto-copy": true,
-          "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "pdf-plus:PDF++: Toggle auto-copy": false,
+          "pdf-plus:PDF++: Toggle auto-focus": false,
+          "pdf-plus:PDF++: Toggle auto-paste": false,
+          "mermaid-tools:Open Mermaid Toolbar": false
         }
       },
-      "active": "943591ce48e82735",
-      "mtime": "2024-06-10T17:09:06+02:00"
+      "active": "d4d9e5cf2cd5e94b",
+      "mtime": "2024-06-16T11:10:56+02:00"
     },
     "pv - a1": {
       "main": {
@@ -901,5 +896,5 @@
       "mtime": "2024-06-12T15:18:26+02:00"
     }
   },
-  "active": "pv - pprog"
+  "active": "clean"
 }
