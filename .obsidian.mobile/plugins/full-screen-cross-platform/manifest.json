@@ -1,0 +1,14 @@
+{
+	"id": "full-screen-cross-platform",
+	"name": "Full Screen Toggle",
+	"version": "1.0.2",
+	"minAppVersion": "0.15.0",
+	"description": "Toggle fullscreen across all platforms.",
+	"authorUrl": "https://github.com/DonkeyPacific",
+	"fundingUrl": {
+		"Buy Me a Coffee": "https://www.buymeacoffee.com/donkeypacific",
+		"Afdian(爱发电)": "https://afdian.net/a/donkeypacific",
+		"Patreon": "https://patreon.com/DonkeyPacific"
+	},
+	"isDesktopOnly": false
+}

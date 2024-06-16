@@ -186,6 +186,8 @@
     "display"
   ],
   "updateColorPaletteStateFromContextMenu": true,
+  "mobileCopyAction": "pdf-plus",
+  "showContextMenuOnTablet": false,
   "executeBuiltinCommandForOutline": true,
   "executeBuiltinCommandForZoom": true,
   "executeFontSizeAdjusterCommand": true,
@@ -289,11 +291,21 @@
   "enableBibInEmbed": false,
   "enableBibInHoverPopover": false,
   "enableBibInCanvas": true,
+  "copyAsSingleLine": true,
   "removeWhitespaceBetweenCJChars": true,
   "vim": false,
+  "vimrcPath": "",
+  "vimVisualMotion": true,
   "vimScrollSize": 40,
+  "vimLargerScrollSizeWhenZoomIn": true,
   "vimContinuousScrollSpeed": 1.2,
   "vimSmoothScroll": true,
   "vimHlsearch": true,
-  "vimIncsearch": true
+  "vimIncsearch": true,
+  "enableVimInContextMenu": true,
+  "enableVimOutlineMode": true,
+  "vimSmoothOutlineMode": true,
+  "vimHintChars": "hjklasdfgyuiopqwertnmzxcvb",
+  "vimHintArgs": "all",
+  "PATH": ""
 }
