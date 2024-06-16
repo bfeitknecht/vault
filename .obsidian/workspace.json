@@ -4,18 +4,73 @@
     "type": "split",
     "children": [
       {
-        "id": "9cec267a6cfaa56b",
+        "id": "e8bdbc2c4c8ba20f",
         "type": "tabs",
         "children": [
           {
-            "id": "ec39da7da15a68a9",
+            "id": "2db0380c514ebefe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "sem2/PProg/VRL/extra/benji/PProg-w04-benji.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "28060cc3a0ac53cf",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
+                "page": 1,
+                "left": -13,
+                "top": 796,
+                "zoom": 1.1519607843137254
+              }
+            }
+          },
+          {
+            "id": "54fc4e5ed3576cdb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sem2/PProg/VRL/notes/PProg.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "076fcad2c1c0269d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/PProg/VRL/extra/benji/PProg-w04-benji.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "943591ce48e82735",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
+                "page": 1,
+                "zoom": 1
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:/sem2/A1/PV",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -81,6 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +176,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/PProg/UE/e/PProg-u03-e.pdf"
+              }
             }
           },
           {
@@ -139,20 +199,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "mermaid-tools:Open Mermaid Toolbar": true,
-      "omnisearch:Omnisearch": false,
       "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": true,
       "zk-prefixer:Create new unique note": true,
-      "pdf-plus:PDF++: Toggle auto-copy": true,
-      "pdf-plus:PDF++: Toggle auto-focus": true,
-      "pdf-plus:PDF++: Toggle auto-paste": true
+      "omnisearch:Omnisearch": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ec39da7da15a68a9",
+  "active": "28060cc3a0ac53cf",
   "lastOpenFiles": [
     "LICENSE.md",
     "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie9_loesung.pdf",
