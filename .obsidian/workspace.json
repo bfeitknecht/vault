@@ -27,9 +27,9 @@
               "state": {
                 "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
                 "page": 1,
-                "left": -13,
-                "top": 796,
-                "zoom": 1.1519607843137254
+                "left": -9,
+                "top": 729,
+                "zoom": 1.75
               }
             }
           },
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
+                "file": "sem2/PProg/VRL/notes/PProg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
+                "file": "sem2/PProg/VRL/notes/PProg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/PProg/UE/e/PProg-u03-e.pdf"
+                "file": "sem2/PProg/VRL/notes/PProg.md"
               }
             }
           },
@@ -194,8 +194,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,8 +211,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "28060cc3a0ac53cf",
+  "active": "d4d9e5cf2cd5e94b",
   "lastOpenFiles": [
+    "sem2/PProg/UE/e/PProg-u03-e.pdf",
     "LICENSE.md",
     "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie9_loesung.pdf",
     "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie8_loesung.pdf",
@@ -249,7 +249,6 @@
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u06-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
-    "sem2/A1/VRL/notes/A1.md",
     "var/attachments/ddca-lab08b-block-diagram-modified.png",
     "var/attachments/ddca-lab08a-mips-schematic.png",
     "var/attachments/ddca-lab08b-block-diagram.png",
