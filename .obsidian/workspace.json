@@ -144,7 +144,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,7 +162,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": true
     }
   },
-  "active": "0a84a76827278501",
+  "active": "d4d9e5cf2cd5e94b",
   "lastOpenFiles": [
     "sem2/PProg/VRL/notes/PProg.md",
     "sem2/PProg/UE/e/PProg-u03-e.pdf",
