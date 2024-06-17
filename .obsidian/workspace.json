@@ -18,8 +18,23 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "83f724578b34561e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+                "page": 1,
+                "left": -9,
+                "top": 740,
+                "zoom": 1.785
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/A1/PV/notes/A1-PVW-L01.md",
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/A1/PV/notes/A1-PVW-L01.md",
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/A1/PV/notes/A1-PVW-L01.md"
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf"
               }
             }
           },
@@ -161,10 +176,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e65ae840d0c84e88",
+  "active": "83f724578b34561e",
   "lastOpenFiles": [
-    "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
     "sem2/A1/PV/notes/A1-PVW-L01.md",
+    "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
     "README.md",
     "sem2/A1/PV/extra/pvw",
     "LICENSE.md",
