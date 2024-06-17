@@ -14,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
-                "page": 5,
-                "left": -9,
-                "top": 163,
-                "zoom": 1.7991654291454724
+                "page": 8,
+                "left": -77,
+                "top": 309,
+                "zoom": 1.47
               }
             }
           },
@@ -184,17 +184,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
+      "graph:Open graph view": false,
       "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": true,
-      "graph:Open graph view": false,
-      "command-palette:Open command palette": false,
       "templates:Insert template": true,
       "zk-prefixer:Create new unique note": true,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "omnisearch:Omnisearch": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "mermaid-tools:Open Mermaid Toolbar": true,
+      "pdf-plus:PDF++: Toggle auto-copy": true,
+      "pdf-plus:PDF++: Toggle auto-focus": true,
+      "pdf-plus:PDF++: Toggle auto-paste": true,
+      "command-palette:Open command palette": false
     }
   },
   "active": "e65ae840d0c84e88",
