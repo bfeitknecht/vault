@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "90e7a0d7a491b70b",
+        "id": "8e0141cc6bf187a3",
         "type": "tabs",
         "children": [
           {
-            "id": "414cefd1625961b6",
+            "id": "e65ae840d0c84e88",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "sem2/A1/PV/notes/A1-PVW-L01.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:/sem2/AuW/VRL/slides",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/A1/PV/notes/A1-PVW-L01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/A1/PV/notes/A1-PVW-L01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/A1/PV/notes/A1-PVW-L01.md"
+              }
             }
           },
           {
@@ -140,24 +148,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "mermaid-tools:Open Mermaid Toolbar": true,
-      "omnisearch:Omnisearch": false,
       "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": true,
       "zk-prefixer:Create new unique note": true,
-      "pdf-plus:PDF++: Toggle auto-copy": true,
-      "pdf-plus:PDF++: Toggle auto-focus": true,
-      "pdf-plus:PDF++: Toggle auto-paste": true
+      "omnisearch:Omnisearch": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "414cefd1625961b6",
+  "active": "e65ae840d0c84e88",
   "lastOpenFiles": [
+    "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+    "sem2/A1/PV/notes/A1-PVW-L01.md",
+    "README.md",
+    "sem2/A1/PV/extra/pvw",
+    "LICENSE.md",
     "sem2/PProg/VRL/notes/PProg.md",
     "sem2/PProg/UE/e/PProg-u03-e.pdf",
-    "LICENSE.md",
     "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie9_loesung.pdf",
     "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie8_loesung.pdf",
     "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie7_loesung.pdf",
@@ -165,8 +177,6 @@
     "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie5_loesung.pdf",
     "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie4_loesung.pdf",
     "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie3_loesung.pdf",
-    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie2_loesung.pdf",
-    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie1_loesung.pdf",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
@@ -188,8 +198,6 @@
     "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
-    "sem2/DDCA/UE/bf/DDCA-u06-lab.md",
-    "sem2/DDCA/UE/bf/DDCA-u05-lab.md",
     "var/attachments/ddca-lab08b-block-diagram-modified.png",
     "var/attachments/ddca-lab08a-mips-schematic.png",
     "var/attachments/ddca-lab08b-block-diagram.png",
