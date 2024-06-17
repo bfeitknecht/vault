@@ -26,15 +26,29 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
-                "page": 1,
-                "left": -9,
-                "top": 740,
-                "zoom": 1.785
+                "page": 3,
+                "left": -83,
+                "top": 20,
+                "zoom": 1.44
+              }
+            }
+          },
+          {
+            "id": "bcd1d0043fb79d23",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
+                "page": 8,
+                "left": 23,
+                "top": 11,
+                "zoom": 1.76
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+                "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+                "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf"
+                "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf"
               }
             }
           },
@@ -169,17 +183,18 @@
       "command-palette:Open command palette": false,
       "templates:Insert template": true,
       "zk-prefixer:Create new unique note": true,
+      "mermaid-tools:Open Mermaid Toolbar": false,
       "omnisearch:Omnisearch": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "83f724578b34561e",
+  "active": "bcd1d0043fb79d23",
   "lastOpenFiles": [
-    "sem2/A1/PV/notes/A1-PVW-L01.md",
     "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+    "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
+    "sem2/A1/PV/notes/A1-PVW-L01.md",
     "README.md",
     "sem2/A1/PV/extra/pvw",
     "LICENSE.md",

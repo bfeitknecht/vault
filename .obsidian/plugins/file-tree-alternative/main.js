@@ -3110,13 +3110,14 @@ const triggerContextMenu = (params) => {
     // Pin - Unpin Item
     fileMenu.addItem((menuItem) => {
         menuItem.setIcon('pin');
-        if (ozPinnedFiles.contains(file))
+        const isAlreadyPinned = ozPinnedFiles.some((pinnedFile) => pinnedFile.path === file.path);
+        if (isAlreadyPinned)
             menuItem.setTitle('Unpin');
         else
             menuItem.setTitle('Pin to Top');
         menuItem.onClick((ev) => {
-            if (ozPinnedFiles.contains(file)) {
-                let newPinnedFiles = ozPinnedFiles.filter((pinnedFile) => pinnedFile !== file);
+            if (isAlreadyPinned) {
+                let newPinnedFiles = ozPinnedFiles.filter((pinnedFile) => pinnedFile.path !== file.path);
                 setOzPinnedFiles(newPinnedFiles);
             }
             else {
@@ -4100,34 +4101,38 @@ function MainTreeComponent(props) {
     // Function for Event Handlers
     function handleVaultChanges(file, changeType, oldPathBeforeRename) {
         // Get Current States from Setters
-        let currentFocusedFolder = null;
         let currentActiveFolderPath = '';
-        let currentView = '';
-        let currentFileList = [];
-        let currentActiveOZFile = null;
-        setFocusedFolder((focusedFolder) => {
-            currentFocusedFolder = focusedFolder;
-            return focusedFolder;
-        });
         setActiveFolderPath((activeFolderPath) => {
             currentActiveFolderPath = activeFolderPath;
             return activeFolderPath;
         });
-        setView((view) => {
-            currentView = view;
-            return view;
-        });
-        setOzFileList((fileList) => {
-            currentFileList = fileList;
-            return fileList;
-        });
-        setActiveOzFile((activeOZFile) => {
-            currentActiveOZFile = activeOZFile;
-            return activeOZFile;
-        });
         // File Event Handlers
         if (file instanceof obsidian.TFile) {
+            // Update Pinned Files
+            if (['rename', 'delete'].contains(changeType)) {
+                let currentOzPinnedFiles = [];
+                setOzPinnedFiles((ozPinnedFiles) => {
+                    currentOzPinnedFiles = ozPinnedFiles;
+                    return ozPinnedFiles;
+                });
+                const filteredPinnedFiles = currentOzPinnedFiles.filter((f) => f.path !== (changeType === 'rename' ? oldPathBeforeRename : file.path));
+                if (filteredPinnedFiles.length !== currentOzPinnedFiles.length) {
+                    setOzPinnedFiles([...filteredPinnedFiles, ...(changeType === 'rename' ? [TFile2OZFile(file)] : [])]);
+                }
+            }
+            // Update current View
+            let currentView = '';
+            setView((view) => {
+                currentView = view;
+                return view;
+            });
             if (currentView === 'file') {
+                let currentFileList = [];
+                setOzFileList((fileList) => {
+                    currentFileList = fileList;
+                    return fileList;
+                });
+                // Evaluate changes
                 if (changeType === 'rename' || changeType === 'modify' || changeType === 'delete') {
                     // If the file is modified but sorting is not last-update to not component update unnecessarily, return
                     let sortFilesBy = plugin.settings.sortFilesBy;
@@ -4163,6 +4168,11 @@ function MainTreeComponent(props) {
                                 ...(file.parent.path.startsWith(currentActiveFolderPath) ? [TFile2OZFile(file)] : []),
                             ]);
                             // If active file is renamed, change the active file
+                            let currentActiveOZFile = null;
+                            setActiveOzFile((activeOZFile) => {
+                                currentActiveOZFile = activeOZFile;
+                                return activeOZFile;
+                            });
                             if (changeType === 'rename' && currentActiveOZFile && currentActiveOZFile.path === oldPathBeforeRename) {
                                 setActiveOzFile(TFile2OZFile(file));
                             }
@@ -4186,6 +4196,11 @@ function MainTreeComponent(props) {
         }
         // Folder Event Handlers
         else if (file instanceof obsidian.TFolder) {
+            let currentFocusedFolder = null;
+            setFocusedFolder((focusedFolder) => {
+                currentFocusedFolder = focusedFolder;
+                return focusedFolder;
+            });
             setFolderTree(createFolderTree({ startFolder: currentFocusedFolder, plugin: plugin, excludedFolders: excludedFolders$1 }));
             // if active folder is renamed, activefolderpath needs to be refreshed
             if (changeType === 'rename' && oldPathBeforeRename && currentActiveFolderPath === oldPathBeforeRename) {
@@ -4395,15 +4410,6 @@ class FileTreeAlternativePluginSettingsTab extends obsidian.PluginSettingTab {
         containerEl.empty();
         let lsh = new LocalStorageHandler_1({});
         /* ------------- Buy Me a Coffee ------------- */
-        const tipDiv = containerEl.createDiv('tip');
-        tipDiv.addClass('oz-tip-div');
-        const tipLink = tipDiv.createEl('a', { href: 'https://revolut.me/ozante' });
-        const tipImg = tipLink.createEl('img', {
-            attr: {
-                src: 'https://raw.githubusercontent.com/ozntel/file-tree-alternative/main/images/tip%20the%20artist_v2.png',
-            },
-        });
-        tipImg.height = 55;
         const coffeeDiv = containerEl.createDiv('coffee');
         coffeeDiv.addClass('oz-coffee-div');
         const coffeeLink = coffeeDiv.createEl('a', { href: 'https://ko-fi.com/L3L356V6Q' });
