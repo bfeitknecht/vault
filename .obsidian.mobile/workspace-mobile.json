@@ -14,8 +14,23 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "2501db70c42b40ae",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+                "page": 1,
+                "left": -43,
+                "top": 578,
+                "zoom": 1.5
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,6 +88,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -89,6 +105,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -99,7 +116,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf"
+          }
         }
       }
     ],
@@ -115,27 +134,30 @@
       "pdf-plus:PDF++: Toggle auto-focus": true
     }
   },
-  "active": "176f4056979d50f5",
+  "active": "2501db70c42b40ae",
   "lastOpenFiles": [
+    "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+    "sem2/A1/PV/cheatsheets/A1-cheatsheet-kelmich.pdf",
+    "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
+    "sem2/A1/PV/extra/pvw",
+    "sem2/A1/PV/extra/zhaw/ZHAW-A1-E/serie8.pdf",
+    "sem2/A1/PV/extra/zhaw/ZHAW-A1-E/serie13.pdf",
+    "sem2/A1/PV/extra/zhaw/ZHAW-A1-E/serie12.pdf",
+    "sem2/A1/PV/extra/zhaw/ZHAW-A1-E/serie9.pdf",
+    "sem2/A1/PV/extra/zhaw/ZHAW-A1-E/serie10.pdf",
+    "sem2/A1/PV/extra/zhaw/ZHAW-A1-E/serie11.pdf",
+    "sem2/A1/PV/extra/zhaw/ZHAW-A1-E/serie7.pdf",
+    "sem2/A1/PV/notes/A1-ZHAW.md",
+    "sem2/A1/PV/notes/A1-pvw.md",
     "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
-    "sem2/DDCA/UE/e/slides/DDCA-LAB08b-snake-faster.pdf",
-    "sem2/DDCA/UE/e/report/DDCA-u08b-report.pdf",
     "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
     "var/attachments/ddca-lab08b-block-diagram.png",
     "var/attachments/ddca-lab08a-mips-schematic.png",
     "sem2/AuW/UE/pg/bf/AuW-pg06-bf.md",
-    "var/export/lab8_1_Schmid_Feitknecht.zip",
-    "var/export/DDCA-u08a-lab.pdf",
-    "var/export/lab8_1_Schmid_Feitknecht/DDCA-u08a-report-bf-cs.pdf",
-    "var/export/lab8_1_Schmid_Feitknecht",
-    "var/export/DDCA-u08a-report-bf-cs.pdf",
-    "sem2/AuW/UE/pg/e/AuW-pg06-e.pdf",
     "sem2/Analysis-1/VRL/notes/Analysis-1.md",
-    "sem2/Analysis-1/VRL/extra/Analysis1-script.pdf",
     "Untitled.md",
     "Untitled 2.md",
     "Untitled 1.md",
-    "sem2/Analysis-1/VRL/extra/sabatino/Analysis-1-w06.pdf",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "var/attachments/ddca-lab08-mips-schematic.png",
     "sem2/AuW/UE/pg/bf/AuW-pg05-bf.md",
@@ -153,8 +175,6 @@
     "sem2/AuW/UE/pg/bf/AuW-u01-pg-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-u04-pg-bf.md",
     "sem2/AuW/UE/pg/bf/AuW-u02-pg-bf.md",
-    "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
-    "sem2/AuW/UE/u/bf/AuW-u03-bf.md",
     "var/attachments/Screenshot 2024-04-26 at 11.13.45.png",
     "var/attachments/Pasted image 20240428141459.png",
     "sem1/DMath/PV/summaries/exponential-modular-arithmetic.jpg",

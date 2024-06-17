@@ -3,5 +3,6 @@
   "pdf-plus",
   "restore-tab-key",
   "highlightr-plugin",
-  "full-screen-cross-platform"
+  "full-screen-cross-platform",
+  "persistent-graph"
 ]
