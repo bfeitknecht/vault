@@ -29,8 +29,8 @@
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
                 "page": 6,
-                "left": -4,
-                "top": 670,
+                "left": -16,
+                "top": 667,
                 "zoom": 1.74
               }
             }
@@ -43,8 +43,8 @@
               "state": {
                 "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                 "page": 8,
-                "left": 18,
-                "top": 36,
+                "left": -46,
+                "top": 10,
                 "zoom": 1.18
               }
             }
@@ -168,13 +168,22 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "737269a9c2b57530",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 283.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,8 +203,8 @@
   "active": "83f724578b34561e",
   "lastOpenFiles": [
     "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
-    "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
     "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+    "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
     "sem2/A1/PV/notes/pvw-L01.md",
     "README.md",
     "sem2/A1/PV/extra/pvw",
