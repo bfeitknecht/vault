@@ -28,10 +28,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
-                "page": 5,
-                "left": -11,
-                "top": 267,
-                "zoom": 1.41
+                "page": 8,
+                "left": 17,
+                "top": 574,
+                "zoom": 1.88
               }
             }
           },
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
