@@ -15,9 +15,9 @@
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
                 "page": 8,
-                "left": -77,
-                "top": 309,
-                "zoom": 1.47
+                "left": -9,
+                "top": 355,
+                "zoom": 1.7991654291454724
               }
             }
           },
@@ -28,10 +28,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
-                "page": 5,
-                "left": -4,
-                "top": 317,
-                "zoom": 1.88
+                "page": 1,
+                "zoom": 1
               }
             }
           },
