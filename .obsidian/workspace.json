@@ -40,15 +40,23 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
-                "page": 8,
+                "page": 9,
                 "left": 23,
-                "top": 11,
+                "top": 582,
                 "zoom": 1.76
               }
             }
+          },
+          {
+            "id": "8cd48caa54937f91",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -115,7 +122,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +138,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,9 +159,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -190,10 +193,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "bcd1d0043fb79d23",
+  "active": "5f4cf158045f14fe",
   "lastOpenFiles": [
-    "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
     "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
+    "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
     "sem2/A1/PV/notes/A1-PVW-L01.md",
     "README.md",
     "sem2/A1/PV/extra/pvw",
