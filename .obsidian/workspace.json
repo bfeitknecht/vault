@@ -14,10 +14,24 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
-                "page": 1,
+                "page": 5,
                 "left": -11,
-                "top": 608,
+                "top": 496,
                 "zoom": 1.421189498652726
+              }
+            }
+          },
+          {
+            "id": "f0dd49dc9153fa38",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+                "page": 5,
+                "left": -11,
+                "top": 267,
+                "zoom": 1.41
               }
             }
           },
@@ -25,27 +39,11 @@
             "id": "83f724578b34561e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
-                "page": 6,
-                "left": -16,
-                "top": 667,
-                "zoom": 1.74
-              }
-            }
-          },
-          {
-            "id": "bcd1d0043fb79d23",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
-                "page": 8,
-                "left": -46,
-                "top": 10,
-                "zoom": 1.18
+                "file": "sem2/A1/PV/notes/A1-pvw.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -100,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -200,23 +197,23 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "83f724578b34561e",
+  "active": "f0dd49dc9153fa38",
   "lastOpenFiles": [
+    "sem2/A1/PV/notes/A1-pvw.md",
     "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
     "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
     "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
-    "sem2/A1/PV/notes/pvw-L01.md",
+    "sem2/A1/PV/notes/A1-ZHAW.md",
+    "var/other/attachments/A1-ZHAW",
+    "var/other/attachments/A1-ZHAW-u04-bf",
+    "var/other/attachments",
+    "sem2/A1/PV/cheatsheets/A1-cheatsheet-kelmich.pdf",
     "README.md",
     "sem2/A1/PV/extra/pvw",
     "LICENSE.md",
     "sem2/PProg/VRL/notes/PProg.md",
     "sem2/PProg/UE/e/PProg-u03-e.pdf",
-    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie9_loesung.pdf",
-    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie8_loesung.pdf",
-    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie7_loesung.pdf",
-    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie6_loesung.pdf",
-    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie5_loesung.pdf",
-    "sem2/A1/PV/extra/zhaw-analysis2/ZHAW-A2-S/serie4_loesung.pdf",
+    "sem2/A1/PV/extra/zhaw/ZHAW-A2-S/serie9_loesung.pdf",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
@@ -237,7 +234,6 @@
     "sem2/DDCA/UE/bf/DDCA-u09-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u08b-lab.md",
     "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
-    "sem2/DDCA/UE/bf/DDCA-u07-lab.md",
     "var/attachments/ddca-lab08b-block-diagram-modified.png",
     "var/attachments/ddca-lab08a-mips-schematic.png",
     "var/attachments/ddca-lab08b-block-diagram.png",

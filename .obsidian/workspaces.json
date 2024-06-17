@@ -571,22 +571,53 @@
         "type": "split",
         "children": [
           {
-            "id": "e715ab6ccbd5f59f",
+            "id": "8e0141cc6bf187a3",
             "type": "tabs",
             "children": [
               {
-                "id": "2c6ae94002f1ccbf",
+                "id": "e65ae840d0c84e88",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "pdf",
                   "state": {
-                    "file": "README.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
+                    "page": 1,
+                    "left": -11,
+                    "top": 608,
+                    "zoom": 1.421189498652726
+                  }
+                }
+              },
+              {
+                "id": "83f724578b34561e",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+                    "page": 5,
+                    "left": -16,
+                    "top": 258,
+                    "zoom": 1.74
+                  }
+                }
+              },
+              {
+                "id": "bcd1d0043fb79d23",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
+                    "page": 8,
+                    "left": -46,
+                    "top": 10,
+                    "zoom": 1.18
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -636,7 +667,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -652,7 +684,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "README.md",
+                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -669,7 +701,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "README.md",
+                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -692,7 +724,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "README.md"
+                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf"
                   }
                 }
               },
@@ -703,13 +735,21 @@
                   "type": "git-view",
                   "state": {}
                 }
+              },
+              {
+                "id": "737269a9c2b57530",
+                "type": "leaf",
+                "state": {
+                  "type": "git-history-view",
+                  "state": {}
+                }
               }
             ],
             "currentTab": 4
           }
         ],
         "direction": "horizontal",
-        "width": 300,
+        "width": 283.5,
         "collapsed": true
       },
       "left-ribbon": {
@@ -720,15 +760,15 @@
           "command-palette:Open command palette": false,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
+          "mermaid-tools:Open Mermaid Toolbar": false,
           "omnisearch:Omnisearch": false,
           "pdf-plus:PDF++: Toggle auto-copy": false,
           "pdf-plus:PDF++: Toggle auto-focus": false,
-          "pdf-plus:PDF++: Toggle auto-paste": false,
-          "mermaid-tools:Open Mermaid Toolbar": false
+          "pdf-plus:PDF++: Toggle auto-paste": false
         }
       },
-      "active": "2c6ae94002f1ccbf",
-      "mtime": "2024-06-15T10:30:14+02:00"
+      "active": "83f724578b34561e",
+      "mtime": "2024-06-17T14:46:11+02:00"
     },
     "pv - ddca": {
       "main": {
