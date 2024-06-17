@@ -29,7 +29,7 @@
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
                 "page": 5,
-                "left": -293,
+                "left": -172,
                 "top": 549,
                 "zoom": 0.93
               }
@@ -42,15 +42,15 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
-                "page": 9,
-                "left": 23,
-                "top": 582,
-                "zoom": 1.76
+                "page": 8,
+                "left": 18,
+                "top": 36,
+                "zoom": 1.18
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4be59d580df31d93",
@@ -116,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf"
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf"
               }
             }
           },
@@ -191,12 +192,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "bcd1d0043fb79d23",
+  "active": "83f724578b34561e",
   "lastOpenFiles": [
+    "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
     "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
     "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
     "sem2/A1/PV/notes/pvw-L01.md",
-    "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
     "README.md",
     "sem2/A1/PV/extra/pvw",
     "LICENSE.md",
