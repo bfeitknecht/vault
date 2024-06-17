@@ -15,9 +15,9 @@
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
                 "page": 5,
-                "left": -11,
-                "top": 496,
-                "zoom": 1.421189498652726
+                "left": -9,
+                "top": 163,
+                "zoom": 1.7991654291454724
               }
             }
           },
@@ -28,9 +28,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
-                "page": 8,
-                "left": 17,
-                "top": 574,
+                "page": 5,
+                "left": -4,
+                "top": 317,
                 "zoom": 1.88
               }
             }
@@ -47,8 +47,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf"
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf"
               }
             }
           },
@@ -198,11 +197,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f0dd49dc9153fa38",
+  "active": "e65ae840d0c84e88",
   "lastOpenFiles": [
     "sem2/A1/PV/notes/A1-pvw.md",
-    "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
     "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+    "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
     "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
     "sem2/A1/PV/notes/A1-ZHAW.md",
     "var/other/attachments/A1-ZHAW",
