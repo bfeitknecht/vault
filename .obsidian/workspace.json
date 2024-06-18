@@ -28,8 +28,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-01-seq&ser.pdf",
-                "page": 1,
-                "zoom": 1
+                "page": 5,
+                "left": -18,
+                "top": 602,
+                "zoom": 0.8675
               }
             }
           },
@@ -42,7 +44,7 @@
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
                 "page": 1,
                 "left": -9,
-                "top": 352,
+                "top": 187,
                 "zoom": 1.785
               }
             }
@@ -58,9 +60,43 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "555328c9131f000c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/A1/UE/e/A1-u04-e.pdf",
+                "page": 2,
+                "left": -4,
+                "top": 778,
+                "zoom": 1.63
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
+      },
+      {
+        "id": "317be60f4a5c3e7d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a628fc236c47c4fd",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-01-seq&ser.pdf",
+                "page": 5,
+                "left": -4,
+                "top": 728,
+                "zoom": 1.7850000000000001
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
+                "file": "sem2/A1/UE/e/A1-u04-e.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
+                "file": "sem2/A1/UE/e/A1-u04-e.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf"
+                "file": "sem2/A1/UE/e/A1-u04-e.pdf"
               }
             }
           },
@@ -210,11 +246,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1d69ced7a883697c",
+  "active": "555328c9131f000c",
   "lastOpenFiles": [
     "sem2/A1/PV/extra/pvw/A1-pvw-01-seq&ser.pdf",
-    "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
+    "sem2/A1/UE/e/A1-u04-e.pdf",
     "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
+    "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
     "sem2/A1/PV/notes/A1-pvw.md",
     "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
     "sem2/A1/PV/notes/A1-ZHAW.md",
@@ -227,7 +264,6 @@
     "LICENSE.md",
     "sem2/PProg/VRL/notes/PProg.md",
     "sem2/PProg/UE/e/PProg-u03-e.pdf",
-    "sem2/A1/PV/extra/zhaw/ZHAW-A2-S/serie9_loesung.pdf",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u05-bf.md",
     "sem2/AuW/UE/u/bf/AuW-u04-bf.md",
