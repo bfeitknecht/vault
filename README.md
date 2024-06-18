@@ -2,8 +2,8 @@
 
 My obsidian markdown notes
 
-to set up, `git-lfs` is required
+To use, follow these steps:
 
 ```
-git lfs pull remote origin
-```
+git clone https://github.com/bs10x/vault.git
+``` 
