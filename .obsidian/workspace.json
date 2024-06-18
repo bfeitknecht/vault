@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-01-seq&ser.pdf",
-                "page": 9,
+                "page": 11,
                 "left": -53,
-                "top": 608,
+                "top": 514,
                 "zoom": 1.56
               }
             }
@@ -28,9 +28,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
-                "page": 1,
+                "page": 2,
                 "left": -9,
-                "top": 358,
+                "top": 817,
                 "zoom": 1.785
               }
             }
@@ -69,14 +69,14 @@
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
                 "page": 8,
-                "left": -9,
-                "top": 572,
-                "zoom": 1.7991654291454724
+                "left": 29,
+                "top": 681,
+                "zoom": 2.14
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf"
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf"
               }
             }
           },
@@ -226,12 +226,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "751f088464831505",
+  "active": "1d69ced7a883697c",
   "lastOpenFiles": [
-    "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
-    "sem2/A1/PV/extra/pvw/A1-pvw-01-seq&ser.pdf",
-    "sem2/A1/UE/e/A1-u04-e.pdf",
     "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
+    "sem2/A1/PV/extra/pvw/A1-pvw-01-seq&ser.pdf",
+    "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
+    "sem2/A1/UE/e/A1-u04-e.pdf",
     "sem2/A1/PV/notes/A1-pvw.md",
     "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
     "sem2/A1/PV/notes/A1-ZHAW.md",
