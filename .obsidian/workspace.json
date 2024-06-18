@@ -8,30 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e65ae840d0c84e88",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-01-seq&ser.pdf",
-                "page": 5,
-                "left": -9,
-                "top": 275,
-                "zoom": 1.785
-              }
-            }
-          },
-          {
             "id": "f0dd49dc9153fa38",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-01-seq&ser.pdf",
-                "page": 5,
-                "left": -18,
-                "top": 602,
-                "zoom": 0.8675
+                "page": 9,
+                "left": -53,
+                "top": 645,
+                "zoom": 1.56
               }
             }
           },
@@ -69,34 +55,14 @@
               "state": {
                 "file": "sem2/A1/UE/e/A1-u04-e.pdf",
                 "page": 2,
-                "left": -4,
-                "top": 778,
+                "left": -40,
+                "top": 737,
                 "zoom": 1.63
               }
             }
           }
         ],
-        "currentTab": 4
-      },
-      {
-        "id": "317be60f4a5c3e7d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a628fc236c47c4fd",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-01-seq&ser.pdf",
-                "page": 5,
-                "left": -4,
-                "top": 728,
-                "zoom": 1.7850000000000001
-              }
-            }
-          }
-        ]
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
