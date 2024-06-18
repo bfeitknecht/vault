@@ -8,24 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "176f4056979d50f5",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "2501db70c42b40ae",
+            "id": "3bea06df10aec803",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
                 "page": 1,
-                "left": -43,
-                "top": 578,
-                "zoom": 1.5
+                "left": 0,
+                "top": 848,
+                "zoom": 1.71625
+              }
+            }
+          },
+          {
+            "id": "d988306934071b94",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
+                "page": 1,
+                "left": 0,
+                "top": 548,
+                "zoom": 1.7298698418884688
               }
             }
           }
@@ -88,7 +94,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+            "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -105,7 +111,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+            "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -117,7 +123,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf"
+            "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf"
           }
         }
       }
@@ -134,9 +140,11 @@
       "pdf-plus:PDF++: Toggle auto-focus": true
     }
   },
-  "active": "2501db70c42b40ae",
+  "active": "d988306934071b94",
   "lastOpenFiles": [
+    "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
     "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+    "sem2/A1/PV/extra/pvw/A1-pvw-01-seq&ser.pdf",
     "sem2/A1/PV/cheatsheets/A1-cheatsheet-kelmich.pdf",
     "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
     "sem2/A1/PV/extra/pvw",
@@ -145,8 +153,6 @@
     "sem2/A1/PV/extra/zhaw/ZHAW-A1-E/serie12.pdf",
     "sem2/A1/PV/extra/zhaw/ZHAW-A1-E/serie9.pdf",
     "sem2/A1/PV/extra/zhaw/ZHAW-A1-E/serie10.pdf",
-    "sem2/A1/PV/extra/zhaw/ZHAW-A1-E/serie11.pdf",
-    "sem2/A1/PV/extra/zhaw/ZHAW-A1-E/serie7.pdf",
     "sem2/A1/PV/notes/A1-ZHAW.md",
     "sem2/A1/PV/notes/A1-pvw.md",
     "sem2/DDCA/UE/bf/DDCA-u08a-lab.md",
