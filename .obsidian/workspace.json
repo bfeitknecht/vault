@@ -26,20 +26,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
-                "page": 1,
-                "zoom": 1
-              }
-            }
-          },
-          {
-            "id": "3d9a94728a001ef8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "page": 4,
+                "left": -14,
+                "top": 835,
+                "zoom": 1.05625
               }
             }
           },
@@ -80,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf"
               }
             }
           },
@@ -211,8 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,8 +218,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d9a94728a001ef8",
+  "active": "1d69ced7a883697c",
   "lastOpenFiles": [
+    "README.md",
     "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
     "bar",
     "foo",
@@ -243,8 +233,6 @@
     "var/other/attachments/A1-ZHAW",
     "var/other/attachments/A1-ZHAW-u04-bf",
     "var/other/attachments",
-    "sem2/A1/PV/cheatsheets/A1-cheatsheet-kelmich.pdf",
-    "README.md",
     "LICENSE.md",
     "sem2/PProg/VRL/notes/PProg.md",
     "sem2/AuW/UE/u/bf/AuW-u06-bf.md",
