@@ -28,10 +28,10 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
-                "page": 2,
-                "left": -9,
-                "top": 817,
-                "zoom": 1.785
+                "page": 4,
+                "left": -11,
+                "top": 822,
+                "zoom": 1.41
               }
             }
           },
@@ -126,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4be59d580df31d93",
