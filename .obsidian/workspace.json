@@ -26,9 +26,9 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
-                "page": 13,
+                "page": 12,
                 "left": -9,
-                "top": 739,
+                "top": 132,
                 "zoom": 1.785
               }
             }
@@ -72,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
+                "file": "sem2/A1/PV/notes/A1-pvw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
+                "file": "sem2/A1/PV/notes/A1-pvw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf"
+                "file": "sem2/A1/PV/notes/A1-pvw.md"
               }
             }
           },
@@ -222,10 +222,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1d69ced7a883697c",
+  "active": "83f724578b34561e",
   "lastOpenFiles": [
-    "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
     "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
+    "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
     "README.md",
     "bar",
     "foo",
