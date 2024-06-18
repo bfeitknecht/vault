@@ -34,6 +34,18 @@
             }
           },
           {
+            "id": "3d9a94728a001ef8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "555328c9131f000c",
             "type": "leaf",
             "state": {
@@ -70,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -136,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf"
+                "file": "README.md"
               }
             }
           },
@@ -219,13 +231,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1d69ced7a883697c",
+  "active": "3d9a94728a001ef8",
   "lastOpenFiles": [
+    "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
     "bar",
     "foo",
     "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
     "sem2/A1/PV/extra/pvw/A1-pvw-01-seq&ser.pdf",
-    "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
     "sem2/A1/UE/e/A1-u04-e.pdf",
     "sem2/A1/PV/notes/A1-pvw.md",
     "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
