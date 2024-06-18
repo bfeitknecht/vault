@@ -14,10 +14,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-01-seq&ser.pdf",
-                "page": 11,
-                "left": -53,
-                "top": 514,
-                "zoom": 1.56
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -30,7 +28,7 @@
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-02-continuity.pdf",
                 "page": 4,
                 "left": -11,
-                "top": 822,
+                "top": 826,
                 "zoom": 1.41
               }
             }
@@ -42,10 +40,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/A1/UE/e/A1-u04-e.pdf",
-                "page": 2,
-                "left": -40,
-                "top": 733,
-                "zoom": 1.63
+                "page": 1,
+                "zoom": 1
               }
             }
           },
@@ -68,10 +64,8 @@
               "type": "pdf",
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
-                "page": 8,
-                "left": 29,
-                "top": 681,
-                "zoom": 2.14
+                "page": 1,
+                "zoom": 1
               }
             }
           }
