@@ -15,9 +15,9 @@
               "state": {
                 "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
                 "page": 8,
-                "left": -10,
-                "top": 359,
-                "zoom": 1.4426081347139819
+                "left": -9,
+                "top": 488,
+                "zoom": 1.7991654291454724
               }
             }
           },
@@ -177,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
