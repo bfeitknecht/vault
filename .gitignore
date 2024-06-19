@@ -1,4 +1,6 @@
 **/.DS_Store
 
-**/workspace.json
+.obsidian/workspace.json
+
+# **/workspace.json
 **/workspace-mobile.json
