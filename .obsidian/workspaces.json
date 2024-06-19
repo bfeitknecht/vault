@@ -156,7 +156,7 @@
         }
       },
       "active": "414cefd1625961b6",
-      "mtime": "2024-06-17T13:09:20+02:00"
+      "mtime": "2024-06-19T11:43:29+02:00"
     },
     "pv - auw": {
       "main": {
@@ -347,7 +347,7 @@
         }
       },
       "active": "3a3b8e552d1aea05",
-      "mtime": "2024-06-12T13:11:05+02:00"
+      "mtime": "2024-06-19T11:43:35+02:00"
     },
     "pv - pprog": {
       "main": {
@@ -378,9 +378,7 @@
                   "state": {
                     "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 729,
-                    "zoom": 1.75
+                    "zoom": 1
                   }
                 }
               },
@@ -488,7 +486,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/PProg/VRL/notes/PProg.md",
+                    "file": "sem2/PProg/VRL/extra/benji/PProg-w04-benji.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -505,7 +503,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/PProg/VRL/notes/PProg.md",
+                    "file": "sem2/PProg/VRL/extra/benji/PProg-w04-benji.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -528,7 +526,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/PProg/VRL/notes/PProg.md"
+                    "file": "sem2/PProg/VRL/extra/benji/PProg-w04-benji.pdf"
                   }
                 }
               },
@@ -563,75 +561,73 @@
         }
       },
       "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-06-16T11:10:56+02:00"
+      "mtime": "2024-06-19T11:43:34+02:00"
     },
     "pv - a1": {
       "main": {
-        "id": "ef0204964e2b9162",
+        "id": "158adf9c9122c33f",
         "type": "split",
         "children": [
           {
-            "id": "8e0141cc6bf187a3",
+            "id": "2c4585b511e28930",
             "type": "tabs",
             "children": [
               {
-                "id": "e65ae840d0c84e88",
+                "id": "2bf097a8ec41203e",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
-                    "page": 1,
+                    "page": 8,
                     "left": -11,
-                    "top": 608,
+                    "top": 572,
                     "zoom": 1.421189498652726
                   }
                 }
               },
               {
-                "id": "83f724578b34561e",
+                "id": "f3bfc6534eac24a0",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
-                    "page": 5,
-                    "left": -16,
-                    "top": 258,
-                    "zoom": 1.74
+                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
+                    "page": 1,
+                    "left": -11,
+                    "top": 852,
+                    "zoom": 1.41
                   }
                 }
               },
               {
-                "id": "bcd1d0043fb79d23",
+                "id": "dc289c1ecc112d3d",
                 "type": "leaf",
                 "state": {
-                  "type": "pdf",
+                  "type": "markdown",
                   "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
-                    "page": 8,
-                    "left": -46,
-                    "top": 10,
-                    "zoom": 1.18
+                    "file": "sem2/A1/PV/notes/A1-pvw.md",
+                    "mode": "source",
+                    "source": false
                   }
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
       },
       "left": {
-        "id": "fe28d63e32c3168b",
+        "id": "d6968efc906e6835",
         "type": "split",
         "children": [
           {
-            "id": "fddab58c0769d063",
+            "id": "c46b4e4cb9f51cf7",
             "type": "tabs",
             "children": [
               {
-                "id": "5f4cf158045f14fe",
+                "id": "f3ac220869c4289f",
                 "type": "leaf",
                 "state": {
                   "type": "file-explorer",
@@ -641,7 +637,7 @@
                 }
               },
               {
-                "id": "3eef01e3b58afb78",
+                "id": "d191d43e7d383778",
                 "type": "leaf",
                 "state": {
                   "type": "search",
@@ -651,12 +647,12 @@
                     "explainSearch": false,
                     "collapseAll": false,
                     "extraContext": false,
-                    "sortOrder": "byModifiedTime"
+                    "sortOrder": "alphabetical"
                   }
                 }
               },
               {
-                "id": "b14014a5400a500b",
+                "id": "8695f559d50e18d4",
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
@@ -667,24 +663,23 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
-        "id": "4be59d580df31d93",
+        "id": "8222f4ede9a19d2f",
         "type": "split",
         "children": [
           {
-            "id": "a9eab3abde570e06",
+            "id": "ed3d53b23895eae4",
             "type": "tabs",
             "children": [
               {
-                "id": "b3aff261bc292caf",
+                "id": "64722cc5dd769830",
                 "type": "leaf",
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+                    "file": "sem2/A1/PV/notes/A1-pvw.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -696,19 +691,19 @@
                 }
               },
               {
-                "id": "2d28441159ca953f",
+                "id": "0f60a0aec6854c89",
                 "type": "leaf",
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf",
+                    "file": "sem2/A1/PV/notes/A1-pvw.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
                 }
               },
               {
-                "id": "ee946e358c8111ed",
+                "id": "3a4005969fec72c5",
                 "type": "leaf",
                 "state": {
                   "type": "tag",
@@ -719,56 +714,39 @@
                 }
               },
               {
-                "id": "0f56d709fdb24392",
+                "id": "2f94e84373426791",
                 "type": "leaf",
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-seq&ser.pdf"
+                    "file": "sem2/A1/PV/notes/A1-pvw.md"
                   }
                 }
-              },
-              {
-                "id": "d4d9e5cf2cd5e94b",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "737269a9c2b57530",
-                "type": "leaf",
-                "state": {
-                  "type": "git-history-view",
-                  "state": {}
-                }
               }
-            ],
-            "currentTab": 4
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 283.5,
+        "width": 300,
         "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
-          "workspaces:Manage workspace layouts": false,
-          "switcher:Open quick switcher": true,
-          "graph:Open graph view": false,
-          "command-palette:Open command palette": false,
-          "templates:Insert template": true,
-          "zk-prefixer:Create new unique note": true,
-          "mermaid-tools:Open Mermaid Toolbar": false,
           "omnisearch:Omnisearch": false,
+          "mermaid-tools:Open Mermaid Toolbar": false,
           "pdf-plus:PDF++: Toggle auto-copy": false,
           "pdf-plus:PDF++: Toggle auto-focus": false,
-          "pdf-plus:PDF++: Toggle auto-paste": false
+          "pdf-plus:PDF++: Toggle auto-paste": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "zk-prefixer:Create new unique note": false,
+          "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "83f724578b34561e",
-      "mtime": "2024-06-17T14:46:11+02:00"
+      "active": "dc289c1ecc112d3d",
+      "mtime": "2024-06-19T11:44:08+02:00"
     },
     "pv - ddca": {
       "main": {
@@ -933,8 +911,8 @@
         }
       },
       "active": "bc8f0dc41f8794f0",
-      "mtime": "2024-06-12T15:18:26+02:00"
+      "mtime": "2024-06-19T11:43:37+02:00"
     }
   },
-  "active": "pv - a1"
+  "active": "clean"
 }
