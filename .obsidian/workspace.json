@@ -150,25 +150,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "omnisearch:Omnisearch": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "switcher:Open quick switcher": false,
+      "mermaid-tools:Open Mermaid Toolbar": true,
+      "pdf-plus:PDF++: Toggle auto-copy": true,
+      "pdf-plus:PDF++: Toggle auto-focus": true,
+      "pdf-plus:PDF++: Toggle auto-paste": true,
+      "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
-      "templates:Insert template": false,
+      "workspaces:Manage workspace layouts": false,
+      "templates:Insert template": true,
       "command-palette:Open command palette": false,
-      "zk-prefixer:Create new unique note": false,
-      "workspaces:Manage workspace layouts": false
+      "zk-prefixer:Create new unique note": true
     }
   },
-  "active": "7c21f95dd2811513",
+  "active": "17fbad1573a393c0",
   "lastOpenFiles": [
     "sem2/A1/PV/notes/A1-pvw.md"
   ]
