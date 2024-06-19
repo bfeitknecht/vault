@@ -1,3 +1,4 @@
 **/.DS_Store
-**/workspace.json
-**/workspace-mobile.json
+
+# **/workspace.json
+# **/workspace-mobile.json
