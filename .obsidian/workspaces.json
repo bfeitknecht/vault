@@ -131,14 +131,21 @@
                   "type": "git-view",
                   "state": {}
                 }
+              },
+              {
+                "id": "65197310c6429a2e",
+                "type": "leaf",
+                "state": {
+                  "type": "git-history-view",
+                  "state": {}
+                }
               }
             ],
             "currentTab": 4
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -156,7 +163,7 @@
         }
       },
       "active": "414cefd1625961b6",
-      "mtime": "2024-06-19T11:43:29+02:00"
+      "mtime": "2024-06-19T11:51:52+02:00"
     },
     "pv - auw": {
       "main": {
@@ -914,5 +921,5 @@
       "mtime": "2024-06-19T11:43:37+02:00"
     }
   },
-  "active": "clean"
+  "active": "pv - a1"
 }
