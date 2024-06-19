@@ -1,0 +1,166 @@
+{
+  "main": {
+    "id": "46cef9f87504ff8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "64e4e8103d389c84",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17fbad1573a393c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sem2/A1/PV/notes/A1-pvw.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e90c3aaaf0c5d09e",
+    "type": "split",
+    "children": [
+      {
+        "id": "43245997f9995606",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c97908631068b29f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "293daa8f148dbb0d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ec141ad7aec334c5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "de804b917b73c6cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac3a0d3eaf886c32",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbd92b4e45cc3bdf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "sem2/A1/PV/notes/A1-pvw.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1360fa7e5bc9aab2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "sem2/A1/PV/notes/A1-pvw.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5848672419ad8e14",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f4c391400a7ef525",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "sem2/A1/PV/notes/A1-pvw.md"
+              }
+            }
+          },
+          {
+            "id": "7c21f95dd2811513",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "omnisearch:Omnisearch": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "7c21f95dd2811513",
+  "lastOpenFiles": [
+    "sem2/A1/PV/notes/A1-pvw.md"
+  ]
+}
