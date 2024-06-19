@@ -136,13 +136,22 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "11b174ae3613334c",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
