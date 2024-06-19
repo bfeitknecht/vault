@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "de804b917b73c6cc",
@@ -142,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,7 +161,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "7c21f95dd2811513",
+  "active": "17fbad1573a393c0",
   "lastOpenFiles": [
     "sem2/A1/PV/notes/A1-pvw.md"
   ]
