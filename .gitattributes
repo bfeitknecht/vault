@@ -3,4 +3,7 @@
 .obsidian/** linguist-vendored
 .obsidian-mobile/** linguist-vendored
 
-**.md linguist-language=Markdown
+*.md linguist-vendored=false
+*.md linguist-generated=false
+*.md linguist-documentation=false
+*.md linguist-detectable
