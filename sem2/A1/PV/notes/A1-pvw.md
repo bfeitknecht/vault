@@ -19,3 +19,8 @@ $N$ must be a natural number so we need to take the ceiling ($\lceil{\cdot}\rcei
 
 ️If some $f(x)$ is strictly increasing, it is injective on its domain.
 
+
+
+
+
+$\sqrt{1-x} - \frac{x}{2\cdot\sqrt{1-x}}$
