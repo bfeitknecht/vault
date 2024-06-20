@@ -611,9 +611,7 @@
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-04-taylor.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 740,
-                    "zoom": 1.785
+                    "zoom": 1
                   }
                 }
               },
@@ -628,9 +626,50 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "30b8084c0a533742",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/PV/extra/A1-rules-identities.pdf",
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
+          },
+          {
+            "id": "23c90508e7e8a513",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "fce5dcbd8501495a",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/UE/e/A1-u10-e.pdf",
+                    "page": 1,
+                    "left": -18,
+                    "top": 67,
+                    "zoom": 0.8743843192065529
+                  }
+                }
+              },
+              {
+                "id": "f2e21a169bc67ba6",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -697,7 +736,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-04-taylor.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -714,7 +752,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-04-taylor.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -736,9 +773,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-04-taylor.pdf"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -780,8 +815,45 @@
           "mermaid-tools:Open Mermaid Toolbar": true
         }
       },
-      "active": "90059350bc416091",
-      "mtime": "2024-06-20T13:49:45+02:00"
+      "floating": {
+        "id": "32d293b1c518fd6b",
+        "type": "floating",
+        "children": [
+          {
+            "id": "07d13dcc8c21ce9c",
+            "type": "window",
+            "children": [
+              {
+                "id": "018981d74f4da2b0",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "dc35635af8a3a1d1",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "sem2/A1/PV/extra/A1-derivative-integral-rules.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "vertical",
+            "x": 2160,
+            "y": 131,
+            "width": 647,
+            "height": 851,
+            "maximize": false,
+            "zoom": 0
+          }
+        ]
+      },
+      "active": "f2e21a169bc67ba6",
+      "mtime": "2024-06-20T15:34:09+02:00"
     },
     "pv - ddca": {
       "main": {
