@@ -18,7 +18,7 @@ $N$ must be a natural number so we need to take the ceiling ($\lceil{\cdot}\rcei
 
 
 ️If some $f(x)$ is strictly increasing, it is injective on its domain.
-
+$f(x)$ differentiable on $\mathbb R$ $\implies$ $f(x)$ continuos on $\mathbb R$ !!! always
 
 
 
