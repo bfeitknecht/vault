@@ -23,11 +23,11 @@ $N$ must be a natural number so we need to take the ceiling ($\lceil{\cdot}\rcei
 
 
 
-$\sqrt{1-x} - \frac{x}{2\cdot\sqrt{1-x}}=0$
 
 $$
 \begin{align}
 f(x) &= x \cdot \sqrt{ 1-x } \\
-f'(x) &= 
+f'(x) &= \sqrt{1-x} - \frac{x}{2\cdot\sqrt{1-x}} \\
+f''(x) &= -\frac{1}{2\cdot \sqrt{ 1-x }} -  &  & 
 \end{align}
 $$
