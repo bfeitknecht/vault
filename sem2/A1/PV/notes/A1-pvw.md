@@ -34,3 +34,23 @@ f'(x) &= \frac{2-3x}{2\cdot\sqrt{1-x}} \\
 f''(x) &= 
 \end{align}
 $$
+
+
+Die Prüfung wird aus **drei Teilen** bestehen:
+
+1. Multiple-Choice- oder Single-Choice-Fragen
+2. Box-Fragen, bei denen nur das Endergebnis bewertet wird (z.B. Berechnung von Grenzwerten, Ableitungen, Integralen,...)
+3. Offene Fragen, bei denen das Endergebnis und der Lösungsweg bewertet werden (z.B. Beweisaufgaben, aufwändigere Rechnungen,...)
+
+Jeder der drei Teile wird ca. ein Drittel der Prüfung ausmachen (bzgl. erreichbare Punkte).
+
+
+
+$$
+\begin{align}
+u &= x^2 \\
+du &= 2xdx \\
+
+
+\end{align}
+$$
