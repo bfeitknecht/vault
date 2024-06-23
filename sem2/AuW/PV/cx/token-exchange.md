@@ -94,3 +94,8 @@ idfo0 ==> idte1
 idfo1 ==> idte1
 ```
 
+
+
+>[!idea]
+>make two graphs, one for evens, one for odds
+

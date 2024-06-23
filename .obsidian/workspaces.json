@@ -141,11 +141,12 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 5
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -162,8 +163,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "414cefd1625961b6",
-      "mtime": "2024-06-19T12:07:18+02:00"
+      "active": "65197310c6429a2e",
+      "mtime": "2024-06-23T11:59:50+02:00"
     },
     "pv - auw": {
       "main": {
@@ -1021,5 +1022,5 @@
       "mtime": "2024-06-20T13:36:00+02:00"
     }
   },
-  "active": "clean"
+  "active": "pv - auw"
 }
