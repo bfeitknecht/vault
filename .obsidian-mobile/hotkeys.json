@@ -23,5 +23,13 @@
       ],
       "key": "F"
     }
+  ],
+  "workspaces:save-and-load": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Tab"
+    }
   ]
 }

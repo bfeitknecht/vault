@@ -161,9 +161,7 @@
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-04-taylor.pdf",
                     "page": 1,
-                    "left": 0,
-                    "top": 847,
-                    "zoom": 1.71625
+                    "zoom": 1
                   }
                 }
               },
@@ -175,9 +173,7 @@
                   "state": {
                     "file": "sem2/A1/UE/e/A1-u06-e.pdf",
                     "page": 1,
-                    "left": 0,
-                    "top": 842,
-                    "zoom": 1.7298698418884688
+                    "zoom": 1
                   }
                 }
               },
@@ -185,8 +181,14 @@
                 "id": "82273011004dfe6f",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/UE/s/A1-u06-s.pdf",
+                    "page": 1,
+                    "left": 0,
+                    "top": 842,
+                    "zoom": 1.7298698418884688
+                  }
                 }
               }
             ],
@@ -248,6 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/A1/UE/s/A1-u06-s.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -264,6 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/A1/UE/s/A1-u06-s.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -274,7 +278,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/A1/UE/s/A1-u06-s.pdf"
+              }
             }
           }
         ],
@@ -291,8 +297,8 @@
         }
       },
       "active": "82273011004dfe6f",
-      "mtime": "2024-06-24T14:09:55+02:00"
+      "mtime": "2024-06-24T14:25:59+02:00"
     }
   },
-  "active": "pv - a1"
+  "active": "clean"
 }
