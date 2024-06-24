@@ -137,9 +137,7 @@
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
                     "page": 1,
-                    "left": 0,
-                    "top": 608,
-                    "zoom": 1.7298698418884688
+                    "zoom": 1
                   }
                 }
               },
@@ -151,9 +149,7 @@
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-05-integral.pdf",
                     "page": 1,
-                    "left": 0,
-                    "top": 847,
-                    "zoom": 1.71625
+                    "zoom": 1
                   }
                 }
               },
@@ -170,9 +166,31 @@
                     "zoom": 1.71625
                   }
                 }
+              },
+              {
+                "id": "7e454520d9764fc8",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/UE/e/A1-u06-e.pdf",
+                    "page": 1,
+                    "left": 0,
+                    "top": 842,
+                    "zoom": 1.7298698418884688
+                  }
+                }
+              },
+              {
+                "id": "82273011004dfe6f",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -230,7 +248,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-04-taylor.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +264,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-04-taylor.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,9 +274,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sem2/A1/PV/extra/pvw/A1-pvw-04-taylor.pdf"
-              }
+              "state": {}
             }
           }
         ],
@@ -276,9 +290,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "d2578ced31f7ef55",
-      "mtime": "2024-06-24T10:41:18+02:00"
+      "active": "82273011004dfe6f",
+      "mtime": "2024-06-24T14:09:55+02:00"
     }
   },
-  "active": "clean"
+  "active": "pv - a1"
 }
