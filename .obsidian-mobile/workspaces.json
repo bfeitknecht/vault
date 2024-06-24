@@ -1,0 +1,284 @@
+{
+  "workspaces": {
+    "clean": {
+      "main": {
+        "id": "ef0204964e2b9162",
+        "type": "split",
+        "children": [
+          {
+            "id": "90e7a0d7a491b70b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "414cefd1625961b6",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "cc42d5cf52663d52",
+        "type": "mobile-drawer",
+        "children": [
+          {
+            "id": "ecbc2e5b89ec0b52",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9af57f85515713e2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "42c07f44c42622d6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 0
+      },
+      "right": {
+        "id": "c78b528fca72c487",
+        "type": "mobile-drawer",
+        "children": [
+          {
+            "id": "a5a6773905eb1baf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "460f3482e5feca43",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3d0b5550a0be83f3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 0
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "workspaces:Manage workspace layouts": false,
+          "graph:Open graph view": false,
+          "command-palette:Open command palette": false,
+          "pdf-plus:PDF++: Toggle auto-copy": true,
+          "pdf-plus:PDF++: Toggle auto-focus": true,
+          "pdf-plus:PDF++: Toggle auto-paste": true
+        }
+      },
+      "active": "414cefd1625961b6",
+      "mtime": "2024-06-24T10:40:03+02:00"
+    },
+    "pv - a1": {
+      "main": {
+        "id": "ef0204964e2b9162",
+        "type": "split",
+        "children": [
+          {
+            "id": "4c468d11c0768b29",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "76227d6a03acf5d6",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
+                    "page": 1,
+                    "left": 0,
+                    "top": 608,
+                    "zoom": 1.7298698418884688
+                  }
+                }
+              },
+              {
+                "id": "9f57672e977a7f31",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-05-integral.pdf",
+                    "page": 1,
+                    "left": 0,
+                    "top": 847,
+                    "zoom": 1.71625
+                  }
+                }
+              },
+              {
+                "id": "d2578ced31f7ef55",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-04-taylor.pdf",
+                    "page": 1,
+                    "left": 0,
+                    "top": 847,
+                    "zoom": 1.71625
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "cc42d5cf52663d52",
+        "type": "mobile-drawer",
+        "children": [
+          {
+            "id": "ecbc2e5b89ec0b52",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9af57f85515713e2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "42c07f44c42622d6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 0
+      },
+      "right": {
+        "id": "c78b528fca72c487",
+        "type": "mobile-drawer",
+        "children": [
+          {
+            "id": "a5a6773905eb1baf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-04-taylor.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "460f3482e5feca43",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-04-taylor.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3d0b5550a0be83f3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "sem2/A1/PV/extra/pvw/A1-pvw-04-taylor.pdf"
+              }
+            }
+          }
+        ],
+        "currentTab": 0
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "workspaces:Manage workspace layouts": false,
+          "graph:Open graph view": false,
+          "command-palette:Open command palette": false,
+          "pdf-plus:PDF++: Toggle auto-copy": true,
+          "pdf-plus:PDF++: Toggle auto-focus": true,
+          "pdf-plus:PDF++: Toggle auto-paste": true
+        }
+      },
+      "active": "d2578ced31f7ef55",
+      "mtime": "2024-06-24T10:41:18+02:00"
+    }
+  },
+  "active": "pv - a1"
+}
