@@ -94,8 +94,21 @@ idfo0 ==> idte1
 idfo1 ==> idte1
 ```
 
+just do the naming like this:
 
+```java
+for (int i = 0; i < k; i++) {
+	int e = In.readInt();   // e-th even steven (0..n)
+	int o = In.readInt();   // o-th odd todd (0..m)
+	
+	int even = 2*e;        
+	int steven = 2*e+1;
+	int odd = 2*(n+o);
+	int todd = 2*(n+o)+1;
+	
+	G.addEdge(even, todd, I);
+	G.addEdge(odd, steven, I);
+}
+```
 
->[!idea]
->make two graphs, one for evens, one for odds
-
+the rest was correct.
