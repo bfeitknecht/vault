@@ -51,13 +51,13 @@ ide1 --> ido0 & ido1
 flowchart LR
 
 idfe0((0))
-idte0((2))
-idfe1((4))
-idte1((6))
+idte0((1))
+idfe1((2))
+idte1((3))
 
-idfo0((1))
-idto0((3))
-idfo1((5))
+idfo0((4))
+idto0((5))
+idfo1((6))
 idto1((7))
 
 idf((8))
@@ -65,12 +65,12 @@ idt((9))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
-subgraph fe
+subgraph even
 	idfe0
 	idfe1
 end
-
-subgraph te
+	
+subgraph steven
 	idte0
 	idte1
 end
@@ -93,6 +93,7 @@ idfe1 ==> idto1
 idfo0 ==> idte1
 idfo1 ==> idte1
 ```
+
 
 just do the naming like this:
 
