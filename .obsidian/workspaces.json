@@ -906,7 +906,7 @@
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-dcamenisch.pdf",
                     "page": 2,
                     "left": -15,
-                    "top": 28,
+                    "top": 40,
                     "zoom": 1.0048818729287674
                   }
                 }
@@ -978,7 +978,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-dcamenisch.pdf",
+                    "file": "sem2/DDCA/VRL/notes/DDCA.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -995,7 +995,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-dcamenisch.pdf",
+                    "file": "sem2/DDCA/VRL/notes/DDCA.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1018,7 +1018,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-dcamenisch.pdf"
+                    "file": "sem2/DDCA/VRL/notes/DDCA.md"
                   }
                 }
               },
@@ -1054,8 +1054,8 @@
         }
       },
       "active": "5f4cf158045f14fe",
-      "mtime": "2024-06-26T14:57:00+02:00"
+      "mtime": "2024-06-26T20:39:15+02:00"
     }
   },
-  "active": "pv - ddca"
+  "active": "pv - auw"
 }
