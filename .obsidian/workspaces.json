@@ -163,8 +163,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "65197310c6429a2e",
-      "mtime": "2024-06-23T11:59:50+02:00"
+      "active": "414cefd1625961b6",
+      "mtime": "2024-06-26T14:58:59+02:00"
     },
     "pv - auw": {
       "main": {
@@ -210,9 +210,21 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "0d3f7d3ee5675051",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem2/AuW/PV/cx/grand-theft-alligator.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -279,7 +291,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/PV/cx/token-exchange.md",
+                    "file": "sem2/AuW/PV/cx/grand-theft-alligator.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -296,7 +308,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/PV/cx/token-exchange.md",
+                    "file": "sem2/AuW/PV/cx/grand-theft-alligator.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -319,7 +331,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/PV/cx/token-exchange.md"
+                    "file": "sem2/AuW/PV/cx/grand-theft-alligator.md"
                   }
                 }
               },
@@ -330,13 +342,21 @@
                   "type": "git-view",
                   "state": {}
                 }
+              },
+              {
+                "id": "b56948faef2696f4",
+                "type": "leaf",
+                "state": {
+                  "type": "git-history-view",
+                  "state": {}
+                }
               }
             ],
             "currentTab": 4
           }
         ],
         "direction": "horizontal",
-        "width": 300,
+        "width": 353.5,
         "collapsed": true
       },
       "left-ribbon": {
@@ -354,8 +374,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "3a3b8e552d1aea05",
-      "mtime": "2024-06-20T13:35:54+02:00"
+      "active": "0d3f7d3ee5675051",
+      "mtime": "2024-06-26T14:55:25+02:00"
     },
     "pv - pprog": {
       "main": {
@@ -876,8 +896,23 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "c684db4e114b9fc2",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-dcamenisch.pdf",
+                    "page": 2,
+                    "left": -15,
+                    "top": 28,
+                    "zoom": 1.0048818729287674
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -943,7 +978,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/VRL/notes/DDCA.md",
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-dcamenisch.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -960,7 +995,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/VRL/notes/DDCA.md",
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-dcamenisch.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -983,7 +1018,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/VRL/notes/DDCA.md"
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-dcamenisch.pdf"
                   }
                 }
               },
@@ -1018,9 +1053,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "bc8f0dc41f8794f0",
-      "mtime": "2024-06-20T13:36:00+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-06-26T14:57:00+02:00"
     }
   },
-  "active": "pv - auw"
+  "active": "pv - ddca"
 }
