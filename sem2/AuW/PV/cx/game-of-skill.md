@@ -19,3 +19,6 @@ result = A / B;
 
 
 ## q3
+- need the expected value but with different probabilities for each number
+- idea: compute expected value after one round and then solve for n
+
