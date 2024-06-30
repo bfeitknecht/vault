@@ -121,3 +121,15 @@ ___
 
 ___
 
+## Verilog for Sequential Circuits $\star$
+
+![[DDCA-topics.pdf#page=13&rect=71,272,624,398|DDCA-topics, p.13]]
+
+___
+
+## Sequential Circuits: Timing $\star$
+
+![[DDCA-topics.pdf#page=15&rect=69,314,605,394|DDCA-topics, p.15]]
+
+
+## Verification
