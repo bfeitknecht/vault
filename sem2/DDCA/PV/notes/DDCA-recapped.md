@@ -104,16 +104,24 @@ ___
 ![[DDCA-topics.pdf#page=7&rect=71,275,601,393|DDCA-topics, p.7]]
 
 >[!check] Yes
->yes
+>- a
 
 >[!fail] No
->no
+>- a
+
 ___
 
 ## Combinational Circuits (Design) $\star$
 
 ![[DDCA-topics.pdf#page=8&rect=70,304,507,376|DDCA-topics, p.8]]
 \+ SOP and POS fomulations, definitions
+
+
+>[!check] Yes
+>- a
+
+>[!fail] No
+>- a
 
 ___
 ## Verilog for Combinational Circuits $\star$
@@ -122,11 +130,23 @@ ___
 ![[DDCA-topics.pdf#page=9&rect=72,329,509,352|DDCA-topics, p.9]]
 ![[DDCA-topics.pdf#page=9&rect=71,281,602,326|DDCA-topics, p.9]]
 
+>[!check] Yes
+>- a
+
+>[!fail] No
+>- a
+
 ___
 
 ## Combinational Circuits on Processors
 
 ![[DDCA-topics.pdf#page=10&rect=71,269,478,403|DDCA-topics, p.10]]
+
+>[!check] Yes
+>- a
+
+>[!fail] No
+>- a
 
 ___
 
@@ -135,11 +155,23 @@ ___
 ![[DDCA-topics.pdf#page=12&rect=70,367,438,392|DDCA-topics, p.12]]
 ![[DDCA-topics.pdf#page=12&rect=70,274,572,363|DDCA-topics, p.12]]
 
+>[!check] Yes
+>- a
+
+>[!fail] No
+>- a
+
 ___
 
 ## Verilog for Sequential Circuits $\star$
 
 ![[DDCA-topics.pdf#page=13&rect=71,272,624,398|DDCA-topics, p.13]]
+
+>[!check] Yes
+>- a
+
+>[!fail] No
+>- a
 
 ___
 
@@ -147,11 +179,23 @@ ___
 
 ![[DDCA-topics.pdf#page=15&rect=69,314,605,394|DDCA-topics, p.15]]
 
+>[!check] Yes
+>- a
+
+>[!fail] No
+>- a
+
 ___
 
 ## Need for Verification
 
 ![[DDCA-topics.pdf#page=16&rect=68,277,617,393|DDCA-topics, p.16]]
+
+>[!check] Yes
+>- a
+
+>[!fail] No
+>- a
 
 ___
 
@@ -159,11 +203,23 @@ ___
 
 ![[DDCA-topics.pdf#page=17&rect=71,277,486,399|DDCA-topics, p.17]]
 
+>[!check] Yes
+>- a
+
+>[!fail] No
+>- a
+
 ___
 
 ## Number Systems
 
 ![[DDCA-topics.pdf#page=18&rect=72,275,586,398|DDCA-topics, p.18]]
+
+>[!check] Yes
+>- a
+
+>[!fail] No
+>- a
 
 ___
 
@@ -171,11 +227,23 @@ ___
 
 ![[DDCA-topics.pdf#page=19&rect=71,297,615,398|DDCA-topics, p.19]]
 
+>[!check] Yes
+>- a
+
+>[!fail] No
+>- a
+
 ___
 
 ## Memory
 
 ![[DDCA-topics.pdf#page=20&rect=70,318,646,398|DDCA-topics, p.20]]
+
+>[!check] Yes
+>- a
+
+>[!fail] No
+>- a
 
 ___
 
@@ -183,6 +251,12 @@ ___
 
 ![[DDCA-topics.pdf#page=21&rect=72,300,458,399|DDCA-topics, p.21]]
 ![[DDCA-topics.pdf#page=21&rect=71,276,629,298|DDCA-topics, p.21]]
+
+>[!check] Yes
+>- a
+
+>[!fail] No
+>- a
 
 ___
 
