@@ -155,3 +155,8 @@ ___
 
 ![[DDCA-topics.pdf#page=19&rect=71,297,615,398|DDCA-topics, p.19]]
 
+___
+
+## Memory
+
+![[DDCA-topics.pdf#page=20&rect=70,318,646,398|DDCA-topics, p.20]]
