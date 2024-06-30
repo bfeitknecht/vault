@@ -120,7 +120,7 @@ ___
 >[!fail] No
 >- design circuits that make use of tri-state logic
 >- fixing glitches
->- i.e. Design a multiplexer using tri-state buffers
+>	 i.e. Design a multiplexer using tri-state buffers
 
 ___
 ## Verilog for Combinational Circuits $\star$
@@ -133,7 +133,9 @@ ___
 >- Which one of the following Verilog statements have an ERROR? Explain the issue, and correct the line.
 
 >[!fail] No
->- a
+>- Implement tri-state busses, circuits using tri-state busses 
+>- Derive truth tables or work with functions that have Z and X inputs
+> 	i.e. How do you write a Verilog code that implements a 32-bit tristate bus with 3 different drivers (Frank, Mohammad, Ataberk).
 
 ___
 
