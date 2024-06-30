@@ -24,7 +24,7 @@ ___
 \+ IEE 32b / 64b FP 
 
 >[!note]
->If the hexadecimal number (82)16 is expressing a number in sign-magnitude format, which number does it describe in decimal system?
+>If the hexadecimal number $(82)_{16}$ is expressing a number in sign-magnitude format, which number does it describe in decimal system?
 
 ___
 
