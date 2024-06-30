@@ -213,10 +213,11 @@ ___
 ![[DDCA-topics.pdf#page=17&rect=71,277,486,399|DDCA-topics, p.17]]
 
 >[!check] Yes
->- a
+>- Take a look at the following Verilog testbench. Explain what each section does.
+>- Two of the sections has a mistake in the code, identify these, and write the corrected version
 
 >[!fail] No
->- a
+>- To write a golden model § Discuss the timing of stimuli application and sampling of expected outputs i.e. Develop a golden model in a language of your preference to implement a golden model for multiplication.
 
 ___
 
