@@ -130,7 +130,7 @@ ___
 ![[DDCA-topics.pdf#page=9&rect=71,281,602,326|DDCA-topics, p.9]]
 
 >[!check] Yes
->- a
+>- Which one of the following Verilog statements have an ERROR? Explain the issue, and correct the line.
 
 >[!fail] No
 >- a
