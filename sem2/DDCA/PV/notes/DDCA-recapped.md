@@ -180,5 +180,4 @@ ___
 
 ![[DDCA-topics.pdf#page=23&rect=71,328,530,398|DDCA-topics, p.23]]
 
-vel'ké
 ___
