@@ -233,7 +233,7 @@ ___
 >- Give an example where the rounding would result in different numbers.
 
 >[!fail] No
->- a
+>- To perform a IEEE 32/64 bit floating point number operation using a golden model in binary/hex § To identify, describe the Floating Point Unit in page 30 § To memorize the special case encodings i.e. Which number 32bit floating point number is represented by 32’h160a_59EF
 
 ___
 
