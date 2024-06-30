@@ -264,17 +264,22 @@ ___
 
 ![[DDCA-topics.pdf#page=22&rect=71,282,638,399|DDCA-topics, p.22]]
 
+>[!check] Yes
+>- a
+
+>[!fail] No
+>- a
+
 ___
 
 ## Pipelined MIPS Architecture $\star$
 
 ![[DDCA-topics.pdf#page=23&rect=71,328,530,398|DDCA-topics, p.23]]
 
+>[!check] Yes
+>- a
+
+>[!fail] No
+>- a
+
 ___
-
-
-
->[!a]
->a
->___
->a
