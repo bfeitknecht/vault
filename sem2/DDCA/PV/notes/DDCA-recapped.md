@@ -23,7 +23,8 @@ ___
 ![[DDCA-topics.pdf#page=5&rect=70,270,645,400|DDCA-topics, p.5]]
 \+ IEE 32b / 64b FP 
 
-1 2 4 etc
+>[!note]
+>If the hexadecimal number (82)16 is expressing a number in sign-magnitude format, which number does it describe in decimal system?
 
 ___
 
