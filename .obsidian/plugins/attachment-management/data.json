@@ -1,13 +1,13 @@
 {
   "attachPath": {
-    "attachmentRoot": "var/other/attachments",
+    "attachmentRoot": "var/attachments",
     "saveAttE": "inFolderBelow",
     "attachmentPath": "${notename}",
     "attachFormat": "IMG-${notename}-${date}",
     "type": "GLOBAL",
     "extensionOverride": []
   },
-  "dateFormat": "YYYY-MM-DD-HH:mm:ss",
+  "dateFormat": "YYYY-MM-DD_HH:mm:ss",
   "excludeExtensionPattern": "",
   "autoRenameAttachment": true,
   "excludedPaths": "",
