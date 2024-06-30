@@ -147,7 +147,8 @@ ___
 >- Calculate the propagation/contamination delay of a 16-bit Ripple Carry Adder. What is the maximum operating frequency of a processor that uses this adder in its critical path?
 
 >[!fail] No
->- a
+>- To derive how comparators are obtained from adders 
+>- Design/draw large multipliers i.e. Draw the transistor level schematic of the CMOS logic gate realizing the function Y= A. (B+C)
 
 ___
 
