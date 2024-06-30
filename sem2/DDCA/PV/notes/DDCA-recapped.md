@@ -23,7 +23,7 @@ ___
 ![[DDCA-topics.pdf#page=5&rect=70,270,645,400|DDCA-topics, p.5]]
 \+ IEE 32b / 64b FP 
 
->[!note]
+>[!example]
 >If the hexadecimal number $(82)_{16}$ is expressing a number in sign-magnitude format, which number does it describe in decimal system?
 
 ___
@@ -31,6 +31,11 @@ ___
 ## Electrical Engineering (Transistors and Gates)
 
 ![[DDCA-topics.pdf#page=6&rect=72,266,639,400|DDCA-topics, p.6]]
+
+>[!example]
+>True or false, “pMOS transistors are used in CMOS gates to drive the output of a logic gate to logic low”
+
+___
 
 ### Semiconductors
 >[!quote] What is so great about semiconductors?
