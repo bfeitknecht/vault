@@ -200,7 +200,7 @@ ___
 ![[DDCA-topics.pdf#page=16&rect=68,277,617,393|DDCA-topics, p.16]]
 
 >[!check] Yes
->- a
+>- If you can test 1’000’000’000 input combinations per second, how long would it take you to exhaustively test a 32bit adder.
 
 >[!fail] No
 >- a
