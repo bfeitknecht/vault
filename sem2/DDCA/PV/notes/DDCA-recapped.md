@@ -18,7 +18,7 @@ add examplory questions in each section
 
 ___
 
-## Number Systems
+## Number Systems $\star$
 
 ![[DDCA-topics.pdf#page=5&rect=70,270,645,400|DDCA-topics, p.5]]
 \+ IEE 32b / 64b FP 
@@ -89,7 +89,10 @@ To construct any inverting logic gates, i.e. NOT, NAND, NOR:
 
 ___
 
-## Combinational Circuits
+## Combinational Circuits (Theory)
 
 ![[DDCA-topics.pdf#page=7&rect=71,275,601,393|DDCA-topics, p.7]]
 
+___
+
+## Combinational Circuits (Design) $\star$
