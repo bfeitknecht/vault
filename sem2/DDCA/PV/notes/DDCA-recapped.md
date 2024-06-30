@@ -302,8 +302,8 @@ ___
 ![[DDCA-topics.pdf#page=23&rect=71,328,530,398|DDCA-topics, p.23]]
 
 >[!check] Yes
->- We have a single cycle processor that works at 1GHz. The idea is to have a 10-stage pipeline pipelining to improve performance. 
->- What is the theoretical max frequency? We use pipeline registers with a 20ps setup time, 0ps hold time and a 30 ps propagation/contamination delay. If everything else needed for pipelining can be done without ill effects, what is the max frequency we can achieve. What other effects do you expect would reduce this theoretical performance, name three different aspects, describe one of them.
+>- We have a single cycle processor that works at 1GHz. The idea is to have a 10-stage pipeline pipelining to improve performance. What is the theoretical max frequency? 
+>- We use pipeline registers with a 20ps setup time, 0ps hold time and a 30 ps propagation/contamination delay. If everything else needed for pipelining can be done without ill effects, what is the max frequency we can achieve. What other effects do you expect would reduce this theoretical performance, name three different aspects, describe one of them.
 
 >[!fail] No
 >- a
