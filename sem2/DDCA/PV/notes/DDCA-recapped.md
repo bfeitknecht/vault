@@ -1,4 +1,10 @@
 
+```
+TODO:
+add examplory questions in each section
+```
+
+
 ## Introduction
 
 ![[DDCA-topics.pdf#page=4&rect=71,338,454,391|DDCA-topics, p.4]]
@@ -21,7 +27,7 @@ ___
 
 ___
 
-## Transistors and Gates
+## Electrical Engineering (Transistors and Gates)
 
 ![[DDCA-topics.pdf#page=6&rect=72,266,639,400|DDCA-topics, p.6]]
 
@@ -66,11 +72,24 @@ ___
 >[!quote] Inverts the input
 >![[DDCA-L02b-electrical-engineering.pdf#page=30&rect=56,309,181,403|DDCA-L02b-electrical-engineering, p.30]]
 >
->![[DDCA-L02b-electrical-engineering.pdf#page=30&rect=190,60,538,194|DDCA-L02b-electrical-engineering, p.30]]
-
-
+>![[DDCA-L02b-electrical-engineering.pdf#page=30&rect=71,218,173,302|DDCA-L02b-electrical-engineering, p.30]]
 
 
 #### NAND Gate
->[!quote] "Product", 
->
+>[!quote] functionally complete (can implement all other truth tables)
+>![[DDCA-L02b-electrical-engineering.pdf#page=32&rect=27,309,169,403|DDCA-L02b-electrical-engineering, p.32]]
+>![[DDCA-L02b-electrical-engineering.pdf#page=32&rect=39,178,174,302|DDCA-L02b-electrical-engineering, p.32]]
+
+
+#### General Gates
+![[DDCA-L02b-electrical-engineering.pdf#page=40&rect=28,29,699,439|DDCA-L02b-electrical-engineering, p.40]]
+
+To construct any inverting logic gates, i.e. NOT, NAND, NOR:
+![[DDCA-L02b-electrical-engineering.pdf#page=34&rect=30,79,700,431|DDCA-L02b-electrical-engineering, p.34]]
+
+___
+
+## Combinational Circuits
+
+![[DDCA-topics.pdf#page=7&rect=71,275,601,393|DDCA-topics, p.7]]
+
