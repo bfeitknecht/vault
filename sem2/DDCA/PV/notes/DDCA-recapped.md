@@ -103,6 +103,6 @@ ___
 ## Verilog for Combinational Circuits $\star$
 
 ![[DDCA-topics.pdf#page=9&rect=71,355,439,400|DDCA-topics, p.9]]
-![[DDCA-topics.pdf#page=9&rect=71,328,509,356|DDCA-topics, p.9]]
+![[DDCA-topics.pdf#page=9&rect=72,329,509,352|DDCA-topics, p.9]]
 ![[DDCA-topics.pdf#page=9&rect=71,281,602,326|DDCA-topics, p.9]]
 
