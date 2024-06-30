@@ -159,7 +159,7 @@ ___
 ![[DDCA-topics.pdf#page=12&rect=70,274,572,363|DDCA-topics, p.12]]
 
 >[!check] Yes
->- a
+>- Design the FSM that implements “….” derive the logic equations for next state calculation, minimize them
 
 >[!fail] No
 >- a
