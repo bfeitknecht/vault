@@ -1,10 +1,4 @@
 
-```
-TODO:
-add examplory questions in each section
-```
-
-
 ## Introduction
 
 ![[DDCA-topics.pdf#page=4&rect=71,338,454,391|DDCA-topics, p.4]]
