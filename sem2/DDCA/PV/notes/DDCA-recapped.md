@@ -32,15 +32,6 @@ ___
 
 ![[DDCA-topics.pdf#page=6&rect=72,266,639,400|DDCA-topics, p.6]]
 
->[!question]
->**Yes**
->- a
->- b
->___
->**No**
->
-
-
 >[!check] Yes
 >True or false, “pMOS transistors are used in CMOS gates to drive the output of a logic gate to logic low”
 
