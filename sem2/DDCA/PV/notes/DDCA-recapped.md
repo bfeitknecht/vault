@@ -102,18 +102,21 @@ ___
 
 >[!fail] No
 >- Graphical Bubble pushing exercises
->- 
+>- Note that knowing how to push the bubbles could help you with simplification of Boolean logic equations (which we will ASK)
+
 
 ___
 
 ## Combinational Circuits (Design) $\star$
 
+![[DDCA-topics.pdf#page=8&rect=71,380,353,401|DDCA-topics, p.8]]
 ![[DDCA-topics.pdf#page=8&rect=70,304,507,376|DDCA-topics, p.8]]
-\+ SOP and POS fomulations, definitions
 
 
 >[!check] Yes
->- a
+>- Implement the Boolean logic equation Z=ABC+!A!B+!C!B using ONLY two input AND/OR gates and inverters
+>- On the circuit you have drawn show the critical path, the shortest path by using the delay values for these gates
+>- Simplify this logic function, how much are you able to reduce the critical path?
 
 >[!fail] No
 >- a
