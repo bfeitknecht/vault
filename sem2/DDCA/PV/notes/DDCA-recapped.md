@@ -139,12 +139,12 @@ ___
 
 ___
 
-## Combinational Circuits on Processors
+## Combinational Circuits in Processors
 
 ![[DDCA-topics.pdf#page=10&rect=71,269,478,403|DDCA-topics, p.10]]
 
 >[!check] Yes
->- a
+>- Calculate the propagation/contamination delay of a 16-bit Ripple Carry Adder. What is the maximum operating frequency of a processor that uses this adder in its critical path?
 
 >[!fail] No
 >- a
