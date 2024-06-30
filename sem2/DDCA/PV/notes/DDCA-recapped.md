@@ -213,7 +213,8 @@ ___
 ![[DDCA-topics.pdf#page=17&rect=71,277,486,399|DDCA-topics, p.17]]
 
 >[!check] Yes
->- Take a look at the following Verilog testbench. Explain what each section does.
+>- Take a look at the following Verilog testbench.
+>- Explain what each section does.
 >- Two of the sections has a mistake in the code, identify these, and write the corrected version
 
 >[!fail] No
