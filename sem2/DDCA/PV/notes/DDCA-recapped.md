@@ -292,7 +292,8 @@ ___
 
 >[!fail] No
 >- To know all instructions by heart, if questions involve details of an instruction, the table from Appendix B of your book will be provided 
->- To draw an entire processor from scratch. If there are such questions, it will be to complete pieces of a missing diagram or find/fix errors. i.e. What is the opcode for lw
+>- To draw an entire processor from scratch. If there are such questions, it will be to complete pieces of a missing diagram or find/fix errors.
+>- i.e. What is the opcode for lw
 
 ___
 
