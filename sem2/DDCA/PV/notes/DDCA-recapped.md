@@ -187,10 +187,10 @@ ___
 ![[DDCA-topics.pdf#page=15&rect=69,314,605,394|DDCA-topics, p.15]]
 
 >[!check] Yes
->- a
+>- Given a circuit diagram (or Verilog code) calculate if the circuit has a setup or hold violation, if there is a violation explain how it can be fixed.
 
 >[!fail] No
->- a
+>- Calculations involving synchronizers (knowing what they do and their basics could be asked, but no detailed calculations on MTBF etc) i.e. What is the mean time of failure for a circuit running at 1 GHz, when the input changes 100 times a second, Aperture time is 50ps, setup time is 300 ps, and the technology constant is 75 ps
 
 ___
 
