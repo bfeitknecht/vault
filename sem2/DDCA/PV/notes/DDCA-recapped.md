@@ -233,7 +233,10 @@ ___
 >- Give an example where the rounding would result in different numbers.
 
 >[!fail] No
->- To perform a IEEE 32/64 bit floating point number operation using a golden model in binary/hex § To identify, describe the Floating Point Unit in page 30 § To memorize the special case encodings i.e. Which number 32bit floating point number is represented by 32’h160a_59EF
+>- To perform a IEEE 32/64 bit floating point number operation using a golden model in binary/hex 
+>- To identify, describe the Floating Point Unit in page 30 
+>- To memorize the special case encodings
+>- i.e. Which number 32bit floating point number is represented by 32’h160a_59EF
 
 ___
 
@@ -242,10 +245,12 @@ ___
 ![[DDCA-topics.pdf#page=19&rect=71,297,615,398|DDCA-topics, p.19]]
 
 >[!check] Yes
->- a
+>- Explain what the instruction lw `$t0, 24 ($s1)` will do.
+>- Where is the data coming from and where will it be written to after this instruction.
 
 >[!fail] No
->- a
+>- To memorize the registers, all instructions of MIPS. If we ask questions that need such information, these will be provided
+>- i.e. What is register number 17 in MIPS
 
 ___
 
