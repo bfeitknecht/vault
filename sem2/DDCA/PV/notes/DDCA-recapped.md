@@ -215,7 +215,7 @@ ___
 >[!check] Yes
 >- Take a look at the following Verilog testbench.
 >- Explain what each section does.
->- Two of the sections has a mistake in the code, identify these, and write the corrected version
+>- Two of the sections have a mistake in the code, identify and correct them.
 
 >[!fail] No
 >- To write a golden model
