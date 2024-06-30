@@ -103,6 +103,11 @@ ___
 
 ![[DDCA-topics.pdf#page=7&rect=71,275,601,393|DDCA-topics, p.7]]
 
+>[!check] Yes
+>yes
+
+>[!fail] No
+>no
 ___
 
 ## Combinational Circuits (Design) $\star$
