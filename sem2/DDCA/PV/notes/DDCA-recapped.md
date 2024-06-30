@@ -148,7 +148,8 @@ ___
 
 >[!fail] No
 >- To derive how comparators are obtained from adders 
->- Design/draw large multipliers i.e. Draw the transistor level schematic of the CMOS logic gate realizing the function Y= A. (B+C)
+>- Design/draw large multipliers
+>	i.e. Draw the transistor level schematic of the CMOS logic gate realizing the function Y= A. (B+C)
 
 ___
 
