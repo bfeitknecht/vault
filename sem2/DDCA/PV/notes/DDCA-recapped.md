@@ -100,14 +100,12 @@ ___
 \+ SOP and POS fomulations, definitions
 
 ___
-
-## 
-
+## Verilog for Combinational Circuits
 
 How to write a Verilog module, instantiate modules § Implement basic functions § Make assignments between busses of different sizes and types § Be able to read/understand and write Verilog code for combinational circuits § Draw a circuit diagram from a Verilog code or vice-versa
 
 
->[!check]+ Verilog
+>[!check]+ Yes
 >- a
 >- b
 >- c
