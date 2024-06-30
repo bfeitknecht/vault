@@ -217,7 +217,8 @@ ___
 >- Two of the sections has a mistake in the code, identify these, and write the corrected version
 
 >[!fail] No
->- To write a golden model § Discuss the timing of stimuli application and sampling of expected outputs i.e. Develop a golden model in a language of your preference to implement a golden model for multiplication.
+>- To write a golden model
+>- Discuss the timing of stimuli application and sampling of expected outputs i.e. Develop a golden model in a language of your preference to implement a golden model for multiplication.
 
 ___
 
