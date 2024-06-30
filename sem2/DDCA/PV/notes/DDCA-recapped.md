@@ -143,9 +143,7 @@ ___
 
 ![[DDCA-topics.pdf#page=17&rect=71,277,486,399|DDCA-topics, p.17]]
 
-
 ___
-
 
 ## Number Systems
 
@@ -153,4 +151,7 @@ ___
 
 ___
 
+## MIPS Assembly $\star$
+
+![[DDCA-topics.pdf#page=19&rect=71,297,615,398|DDCA-topics, p.19]]
 
