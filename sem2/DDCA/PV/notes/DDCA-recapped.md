@@ -63,8 +63,14 @@ ___
 >- "pushing bubbles" can simplify
 
 #### NOT Gate
-![[Screenshot 2024-06-30 at 15.07.09.png]]
+>[!quote] Inverts the input
+>![[DDCA-L02b-electrical-engineering.pdf#page=30&rect=56,309,181,403|DDCA-L02b-electrical-engineering, p.30]]
+>
+>![[DDCA-L02b-electrical-engineering.pdf#page=30&rect=190,60,538,194|DDCA-L02b-electrical-engineering, p.30]]
 
-![[Screenshot 2024-06-30 at 15.07.35.png]]
 
-![[Screenshot 2024-06-30 at 15.07.23.png]]
+
+
+#### NAND Gate
+>[!quote] "Product", 
+>
