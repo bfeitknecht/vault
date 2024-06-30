@@ -37,8 +37,9 @@ ___
 
 >[!fail] No
 >- calculate electrical properties of a circuit with transistors 
->- draw/derive the transistor level schematic of a logic function using transistors
->--i.e. Draw the transistor level schematic of the CMOS logic gate realizing the function Y= A. (B+C)
+>- draw/derive the transistor level schematic of a logic function
+>	i.e. Draw the transistor level schematic of the CMOS logic gate realizing the function Y= A. (B+C)
+
 ___
 
 ### Semiconductors
@@ -191,3 +192,9 @@ ___
 ![[DDCA-topics.pdf#page=23&rect=71,328,530,398|DDCA-topics, p.23]]
 
 ___
+
+
+
+>[!a]
+>___
+>
