@@ -203,7 +203,8 @@ ___
 >- If you can test 1’000’000’000 input combinations per second, how long would it take you to exhaustively test a 32bit adder.
 
 >[!fail] No
->- a
+>- List all possible testbench variations (slide 23)
+>- i.e. Draw three different testbenches and explain what the differences are.
 
 ___
 
