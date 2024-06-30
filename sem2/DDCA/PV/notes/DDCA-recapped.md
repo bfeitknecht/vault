@@ -18,7 +18,7 @@ add examplory questions in each section
 
 ___
 
-## Number Systems $\star$
+## Binary Numbers $\star$
 
 ![[DDCA-topics.pdf#page=5&rect=70,270,645,400|DDCA-topics, p.5]]
 \+ IEE 32b / 64b FP 
@@ -142,3 +142,15 @@ ___
 ## Using Verilog for Testbenches
 
 ![[DDCA-topics.pdf#page=17&rect=71,277,486,399|DDCA-topics, p.17]]
+
+
+___
+
+
+## Number Systems
+
+![[DDCA-topics.pdf#page=18&rect=72,275,586,398|DDCA-topics, p.18]]
+
+___
+
+
