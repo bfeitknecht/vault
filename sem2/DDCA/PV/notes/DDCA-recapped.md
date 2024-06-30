@@ -9,7 +9,7 @@ add examplory questions in each section
 
 ![[DDCA-topics.pdf#page=4&rect=71,338,454,391|DDCA-topics, p.4]]
 
->[!quote] Abstraction and Complexity
+>[!quote]- Abstraction and Complexity
 >
 ![[DDCA-L02b-electrical-engineering.pdf#page=3&rect=57,33,621,389|DDCA-L02b-electrical-engineering, p.3]]
 >
@@ -102,14 +102,7 @@ ___
 ___
 ## Verilog for Combinational Circuits $\star$
 
->[!check]+ Yes
->- How to write a Verilog module, instantiate modules 
->- Implement basic functions 
->- Make assignments between busses of different sizes and types 
->- Be able to read/understand and write Verilog code for combinational circuits
->- Draw a circuit diagram from a Verilog code or vice-versa
-
->[!fail] No
->
-
+![[DDCA-topics.pdf#page=9&rect=71,355,439,400|DDCA-topics, p.9]]
+![[DDCA-topics.pdf#page=9&rect=71,328,509,356|DDCA-topics, p.9]]
+![[DDCA-topics.pdf#page=9&rect=71,281,602,326|DDCA-topics, p.9]]
 
