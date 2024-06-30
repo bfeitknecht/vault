@@ -162,7 +162,9 @@ ___
 >- Design the FSM that implements “….” derive the logic equations for next state calculation, minimize them
 
 >[!fail] No
->- a
+>- To ‘factor’ FSMs in the exam (i.e. slides 60-63) 
+>- Draw, transistor level schematics of latches and FFs
+>	i.e. draw the transistor level schematic of a rising-edge trigerred D-type flip-flop with asynchronous reset and enable.
 
 ___
 
