@@ -106,9 +106,18 @@ ___
 ![[DDCA-topics.pdf#page=9&rect=72,329,509,352|DDCA-topics, p.9]]
 ![[DDCA-topics.pdf#page=9&rect=71,281,602,326|DDCA-topics, p.9]]
 
-
 ___
 
 ## Combinational Circuits on Processors
+
 ![[DDCA-topics.pdf#page=10&rect=71,269,478,403|DDCA-topics, p.10]]
+
+___
+
+## Sequential Logic Design $\star$
+
+![[DDCA-topics.pdf#page=12&rect=70,367,438,392|DDCA-topics, p.12]]
+![[DDCA-topics.pdf#page=12&rect=70,274,572,363|DDCA-topics, p.12]]
+
+___
 
