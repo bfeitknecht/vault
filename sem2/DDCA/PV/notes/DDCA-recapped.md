@@ -176,7 +176,7 @@ ___
 
 ___
 
-## 
+## Pipelined MIPS Architecture $\star$
 
 ![[DDCA-topics.pdf#page=23&rect=71,328,530,398|DDCA-topics, p.23]]
 
