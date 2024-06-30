@@ -135,7 +135,7 @@ ___
 >[!fail] No
 >- Implement tri-state busses, circuits using tri-state busses 
 >- Derive truth tables or work with functions that have Z and X inputs
-> 	i.e. How do you write a Verilog code that implements a 32-bit tristate bus with 3 different drivers (Frank, Mohammad, Ataberk).
+> - i.e. How do you write a Verilog code that implements a 32-bit tristate bus with 3 different drivers (Frank, Mohammad, Ataberk).
 
 ___
 
@@ -149,7 +149,7 @@ ___
 >[!fail] No
 >- To derive how comparators are obtained from adders 
 >- Design/draw large multipliers
->	i.e. Draw the transistor level schematic of the CMOS logic gate realizing the function Y= A. (B+C)
+>- i.e. Draw the transistor level schematic of the CMOS logic gate realizing the function Y= A. (B+C)
 
 ___
 
@@ -164,7 +164,7 @@ ___
 >[!fail] No
 >- To ‘factor’ FSMs in the exam (i.e. slides 60-63) 
 >- Draw, transistor level schematics of latches and FFs
->	i.e. draw the transistor level schematic of a rising-edge trigerred D-type flip-flop with asynchronous reset and enable.
+>- i.e. draw the transistor level schematic of a rising-edge trigerred D-type flip-flop with asynchronous reset and enable.
 
 ___
 
@@ -173,10 +173,12 @@ ___
 ![[DDCA-topics.pdf#page=13&rect=71,272,624,398|DDCA-topics, p.13]]
 
 >[!check] Yes
->- a
+>- Which of the following Verilog descriptions will result in a combinational circuit, and which ones will be a sequential circuit.
 
 >[!fail] No
->- a
+>- To evaluate differences/nuances between blocking and unblocking sequential statements (basics of what blocking and unblocking is could be asked)
+>- Combinational Verilog descriptions where sensitivity list is manipulated to miss some signals.
+>- i.e. Show that a combinational circuit described using unblocking statements wi ll work as well as one written with blocking statements
 
 ___
 
