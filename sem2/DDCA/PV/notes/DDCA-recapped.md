@@ -96,3 +96,17 @@ ___
 ___
 
 ## Combinational Circuits (Design) $\star$
+
+![[DDCA-topics.pdf#page=8&rect=70,304,507,376|DDCA-topics, p.8]]
+\+ SOP and POS fomulations, definitions
+
+___
+
+## 
+
+
+How to write a Verilog module, instantiate modules § Implement basic functions § Make assignments between busses of different sizes and types § Be able to read/understand and write Verilog code for combinational circuits § Draw a circuit diagram from a Verilog code or vice-versa
+
+
+>[!fix] a
+
