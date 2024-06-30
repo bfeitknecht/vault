@@ -54,7 +54,7 @@ ___
 >- Very simple to manufacture:
 >	pMOS and nMOS can be manufactured on the same substrate
 
->[!idea] pMOS + nMOS = CMOS
+>[!idea]- pMOS + nMOS = CMOS
 >- "When one MOS works, the other is the load"
 >- can pull current u**p** (**p**MOS) or dow**n** (**n**MOS)
 >  
@@ -68,22 +68,21 @@ ___
 >- easier to draw than complex transistor layouts
 >- "pushing bubbles" can simplify
 
-#### NOT Gate
->[!quote] Inverts the input
+>[!quote]- NOT Gate
+>- Inverts the input
 >![[DDCA-L02b-electrical-engineering.pdf#page=30&rect=56,309,181,403|DDCA-L02b-electrical-engineering, p.30]]
 >
 >![[DDCA-L02b-electrical-engineering.pdf#page=30&rect=71,218,173,302|DDCA-L02b-electrical-engineering, p.30]]
 
-
-#### NAND Gate
->[!quote] functionally complete (can implement all other truth tables)
+>[!quote]- NAND Gate
+>- functionally complete (can implement all other truth tables)
 >![[DDCA-L02b-electrical-engineering.pdf#page=32&rect=27,309,169,403|DDCA-L02b-electrical-engineering, p.32]]
 >![[DDCA-L02b-electrical-engineering.pdf#page=32&rect=39,178,174,302|DDCA-L02b-electrical-engineering, p.32]]
 
-
-#### General Gates
+>[!quote]- General Gates
+>
 ![[DDCA-L02b-electrical-engineering.pdf#page=40&rect=28,29,699,439|DDCA-L02b-electrical-engineering, p.40]]
-
+>
 To construct any inverting logic gates, i.e. NOT, NAND, NOR:
 ![[DDCA-L02b-electrical-engineering.pdf#page=34&rect=30,79,700,431|DDCA-L02b-electrical-engineering, p.34]]
 
@@ -108,5 +107,10 @@ ___
 How to write a Verilog module, instantiate modules § Implement basic functions § Make assignments between busses of different sizes and types § Be able to read/understand and write Verilog code for combinational circuits § Draw a circuit diagram from a Verilog code or vice-versa
 
 
->[!fix] a
+>[!check]+ Verilog
+>- a
+>- b
+>- c
 
+
+>[fail]
