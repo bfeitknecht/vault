@@ -113,4 +113,6 @@ How to write a Verilog module, instantiate modules § Implement basic functions 
 >- c
 
 
->[fail]
+>[!fail] Verilog
+
+
