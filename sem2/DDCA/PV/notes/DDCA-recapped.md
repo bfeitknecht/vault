@@ -131,5 +131,14 @@ ___
 
 ![[DDCA-topics.pdf#page=15&rect=69,314,605,394|DDCA-topics, p.15]]
 
+___
 
-## Verification
+## Need for Verification
+
+![[DDCA-topics.pdf#page=16&rect=68,277,617,393|DDCA-topics, p.16]]
+
+___
+
+## Using Verilog for Testbenches
+
+![[DDCA-topics.pdf#page=17&rect=71,277,486,399|DDCA-topics, p.17]]
