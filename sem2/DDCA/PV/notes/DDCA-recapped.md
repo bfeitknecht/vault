@@ -274,10 +274,12 @@ ___
 ![[DDCA-topics.pdf#page=21&rect=71,276,629,298|DDCA-topics, p.21]]
 
 >[!check] Yes
->- a
+>- ??
 
 >[!fail] No
->- a
+>- Exceptions and exception handling 
+>- Floating point instructions
+>- i.e. Explain what happens during an exception call. What is EPC and how is it updated.
 
 ___
 
@@ -286,10 +288,11 @@ ___
 ![[DDCA-topics.pdf#page=22&rect=71,282,638,399|DDCA-topics, p.22]]
 
 >[!check] Yes
->- a
+>- ??
 
 >[!fail] No
->- a
+>- To know all instructions by heart, if questions involve details of an instruction, the table from Appendix B of your book will be provided 
+>- To draw an entire processor from scratch. If there are such questions, it will be to complete pieces of a missing diagram or find/fix errors. i.e. What is the opcode for lw
 
 ___
 
