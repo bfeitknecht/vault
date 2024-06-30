@@ -160,3 +160,10 @@ ___
 ## Memory
 
 ![[DDCA-topics.pdf#page=20&rect=70,318,646,398|DDCA-topics, p.20]]
+
+___
+
+
+## MIPS Programming $\star$
+
+![[DDCA-topics.pdf#page=21&rect=72,300,458,399|DDCA-topics, p.21]]
