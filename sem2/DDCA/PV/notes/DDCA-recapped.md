@@ -163,7 +163,20 @@ ___
 
 ___
 
-
 ## MIPS Programming $\star$
 
 ![[DDCA-topics.pdf#page=21&rect=72,300,458,399|DDCA-topics, p.21]]
+![[DDCA-topics.pdf#page=21&rect=71,276,629,298|DDCA-topics, p.21]]
+
+___
+
+## Microarchitecture (Single Cycle) $\star$
+
+![[DDCA-topics.pdf#page=22&rect=71,282,638,399|DDCA-topics, p.22]]
+
+___
+
+## 
+
+![[DDCA-topics.pdf#page=23&rect=71,328,530,398|DDCA-topics, p.23]]
+
