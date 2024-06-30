@@ -64,3 +64,7 @@ ___
 
 #### NOT Gate
 ![[Screenshot 2024-06-30 at 15.07.09.png]]
+
+![[Screenshot 2024-06-30 at 15.07.35.png]]
+
+![[Screenshot 2024-06-30 at 15.07.23.png]]
