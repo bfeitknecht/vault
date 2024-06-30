@@ -307,6 +307,7 @@ ___
 >- What other effects do you expect would reduce this theoretical performance? Name three different aspects, describe one of them.
 
 >[!fail] No
->- To modify the block diagram to implement various hazard mitigation mechanisms like forwarding and branch prediction (you should still know what these mechanisms are, but not memorize the specific implementation details i.e. Explain how the execute stage can be stalled and modify the block diagram of the processor to add the STALLD, STALLF and FLUSHE signals
+>- To modify the block diagram to implement various hazard mitigation mechanisms like forwarding and branch prediction (you should still know what these mechanisms are, but not memorize the specific implementation details)
+>- i.e. Explain how the execute stage can be stalled and modify the block diagram of the processor to add the STALLD, STALLF and FLUSHE signals
 
 ___
