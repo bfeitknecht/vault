@@ -229,7 +229,8 @@ ___
 ![[DDCA-topics.pdf#page=18&rect=72,275,586,398|DDCA-topics, p.18]]
 
 >[!check] Yes
->- What is the difference between round-down and round-to-nearest, give an example where the rounding would result in different numbers.
+>- What is the difference between round-down and round-to-nearest?
+>- Give an example where the rounding would result in different numbers.
 
 >[!fail] No
 >- a
