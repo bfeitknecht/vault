@@ -259,10 +259,12 @@ ___
 ![[DDCA-topics.pdf#page=20&rect=70,318,646,398|DDCA-topics, p.20]]
 
 >[!check] Yes
->- a
+>- You have an SRAM block that has 8 address bits and can store 32 bits at a time. How many bytes can be stored in this memory.
+>- For your 32 bit MIPS processor you need a 4 kByte memory, show a block diagram how this can be constructed using this memory block, connect the address bits and add necessary components.
 
 >[!fail] No
->- a
+>- Internal structure of the RAMs using transistor/capacitor and questions related to how electrically the RAM works.
+>- i.e. Explain how the transistors connected to the wordline work
 
 ___
 
