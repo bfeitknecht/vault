@@ -76,6 +76,7 @@ id2c -.- idt3
 
 
 ## Alternate
+
 ```mermaid
 flowchart LR
 
@@ -97,9 +98,20 @@ idt3((3))
 
 %% variety
 id0a((a))
+id0b((b))
+id0c((c))
+
+id1a((a))
 id1b((b))
+id1c((c))
+
+id2a((a))
+id2b((b))
 id2c((c))
+
+id3a((a))
 id3b((b))
+id3c((c))
   
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
