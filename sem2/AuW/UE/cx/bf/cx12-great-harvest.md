@@ -1,5 +1,4 @@
 
-great-harvest
 
 ## Graph
 ```mermaid
@@ -75,14 +74,59 @@ idf3 --- id3b === idt3
 id2c -.- idt3
 ```
 
-```java
-for (int i = 0; i < m; i++) {
-	int x = In.readInt();   // from
-	int y = In.readInt();   // to
-	int fav = n+x;			// favorite
-	G.addEdge(x, fav, p[x]);	
-	G.addEdge(fav, x, p[x]);
-}
+
+## Alternate
+```mermaid
+flowchart LR
+
+idF{"S"}
+idT{"T"}
+
+%% from
+idf0((0))
+idf1((1))
+idf2((2))
+idf3((3))
+
+%% to
+idt0((0))
+idt1((1))
+idt2((2))
+idt3((3))
+  
+
+%% variety
+id0a((a))
+id1b((b))
+id2c((c))
+id3b((b))
+  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+idF ---|"?/12"| idf0
+idF ---|"?/6"| idf1
+idF ---|"?/3"| idf2
+idF ---|"?/5"| idf3
+
+idt0 ---|"?/4"| idT
+idt1 ---|"?/1"| idT
+idt2 ---|"?/8"| idT
+idt3 ---|"?/13"| idT
+
+idf0 --- id0a === idt0
+id0a -.- idt1
+idf1 --- id1b === idt1
+id2c -.- idt1
+
+id0a -.- idt2
+id1b -.- idt2
+idf2 --- id2c === idt2
+
+id0a -.- idt3
+idf3 --- id3b === idt3
+id2c -.- idt3
 ```
 
 ```
@@ -98,15 +142,3 @@ d	=	[4, 1, 8, 13]
 1 --> 3
 ```
 
-
-$v_i \widehat = \ \text{"favorite food"}$, only eat food variety $v_i$ if produced in city $i$.
-$p_i \widehat = \ \text{"produced food"}$, of variety $v_i$
-$d_i \widehat = \ \text{"demand of food"}$, of $v_j\ne v_i$ or $i=j$
-
-
-
-Network N:
-
-direct edge from i to j if:
-	i has leftovers (p_i - d_i > 0) and
-	i doesn't produce j's favorite (v_i != v_j)
