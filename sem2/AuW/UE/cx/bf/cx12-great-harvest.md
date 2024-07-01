@@ -80,8 +80,13 @@ id2c -.- idt3
 ```mermaid
 flowchart LR
 
-idF{"S"}
+idS{"S"}
 idT{"T"}
+
+ids1
+ids2
+ids3
+ids4
 
 %% from
 idf0((0))
