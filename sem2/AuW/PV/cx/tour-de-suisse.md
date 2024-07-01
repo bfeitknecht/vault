@@ -383,3 +383,39 @@ idb1 -->|"k"| idT
 ```
 
 
+```java
+public static void testCase() {
+	int n = In.readInt();   // bikes
+	int m = In.readInt();   // shops
+	int k = In.readInt();   // parts
+	int s = (m*k)+(n*k)+n;  // source
+	int t = s+1;            // target
+	
+	Graph G = new Graph((m*k)+(n*k)+n+2);
+	
+	for (int i = 0; i < m*k; i++) {
+		G.addEdge(s, i, In.readInt());	// source -> shop's parts
+	}
+	
+	for (int i = 0; i < n; i++) {
+		int part = (m*k)+i*(k+1);   // base + i * offset
+		int d = In.readInt();
+		
+		for (int j = 0; j < d; j++) {
+			int local = In.readInt()*k;
+			for (int p = 0; p < k; p++) {
+				G.addEdge(local+p, part+p, 1);    // shop parts -> bike parts
+			}
+		}
+		
+		for (int p = 0; p < k; p++) {
+			G.addEdge(part+p, part+k, 1);   // bike parts -> bike
+		}
+		
+		G.addEdge(part+k, t, k);    // bike -> target
+	}
+	
+	boolean possible = G.computeMaximumFlow(s, t) == n*k;
+	Out.println(possible? "yes" : "no");
+}
+```
