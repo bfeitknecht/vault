@@ -273,12 +273,12 @@ idS -->|"1"| ids1p2
 
 ids0p1 & ids1p1 --> idb0p1 --> idb0
 ids0p2 & ids1p2 -.-x idb0p2 -.-x idb0
-
-
 idb0 -.-x|"k"| idT
 
-
-
+ids0p1 -.-x idb1p1
+ids1p1 --> idb1p1 --> idb1
+ids0p2 -.-x idb1p2
+ids1p2 --> idb1p2 --> idb1
 idb1 -->|"k"| idT
 
 ```
