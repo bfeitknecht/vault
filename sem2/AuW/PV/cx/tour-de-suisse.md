@@ -193,8 +193,8 @@ ids2 -->|"0"| ids2p1
 ids2 -->|"0"| ids2p2
 
 ids0p1 & ids0p2 --> idb0
-ids0p1 & ids0p2 --> idb0
+ids1p1 & ids1p2 --> idb0
 
-ids2p1 & ids0p2 --> idb1
+ids2p1 & ids2p2 --> idb1
 
 ```
