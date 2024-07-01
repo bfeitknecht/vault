@@ -257,24 +257,29 @@ ids1p2((3))
 
 idb0p1((4))
 idb0p2((5))
-
 idb0((6))
+
+idb1p1((7))
+idb1p2((8))
+idb1((9))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 idS -->|"1"| ids0p1
-idS -->|"1"| ids0p2
+idS -->|"0"| ids0p2
 
 idS -->|"2"| ids1p1
 idS -->|"1"| ids1p2
 
-ids0p1 --> idb0p1 --> idb0
-ids0p2 -.-x idb0p2
+ids0p1 & ids1p1 --> idb0p1 --> idb0
+ids0p2 & ids1p2 -.-x idb0p2 -.-x idb0
 
-ids1p1 --> idb0p1
-ids1p2 -.-x idb0p2 -.-x idb0
 
 idb0 -.-x|"k"| idT
+
+
+
+idb1 -->|"k"| idT
 
 ```
 
