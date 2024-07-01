@@ -84,11 +84,14 @@ id87 --> id89
 ```mermaid
 flowchart TD
 
-id2 --> shop0 & id0
-
+id5 --> id4
+id4 --> id1 & id2 & id3
 subgraph shop0
-id0 --> id1
+id1
+id2
+id3
 end
 
-shop0 --> id3
+shop0 --> id6
+
 ```
