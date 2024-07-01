@@ -1,4 +1,8 @@
 
+>[!attention] exam tip!
+>be aware of edge cases from the start
+
+
 
 ## Tribulations
 ```java
@@ -377,10 +381,5 @@ idb1 -->|"k"| idT
 
 
 ```
-
-
-
->[!attention] exam tip!
->be aware of edge cases from the start
 
 
