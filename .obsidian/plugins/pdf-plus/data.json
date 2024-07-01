@@ -2,7 +2,7 @@
   "displayTextFormats": [
     {
       "name": "Title & page",
-      "template": "{{file.basename}}, p.{{pageLabel}}"
+      "template": "{{file.path}}, p.{{pageLabel}}"
     },
     {
       "name": "Page only",

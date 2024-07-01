@@ -1,4 +1,7 @@
 
+![[DDCA-cheatsheet-dcamenisch.pdf#page=1&rect=290,449,417,530|sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-dcamenisch.pdf, p.1]]
+
+
 ## Introduction
 
 ![[DDCA-topics.pdf#page=4&rect=71,338,454,391|DDCA-topics, p.4]]
