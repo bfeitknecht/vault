@@ -282,16 +282,12 @@ idb0 -.-x|"k"| idT
 
 ```
 
-
 \+ n \* k
 \- m
 
-| V | \= (m\*k) + (n\*k) + n + 2
 
 
-
-
-with more bikes:
+## Success
 
 ```mermaid
 flowchart LR
@@ -333,56 +329,10 @@ idb1 -->|"k"| idT
 
 ```
 
-
-```mermaid
-flowchart LR
-
-idS{s}
-idT{t}
-
-ids0p1((0))
-ids0p2((1))
-
-ids1p1((2))
-ids1p2((3))
-
-idb0p1((4))
-idb0p2((5))
-idb0((6))
-
-idb1p1((7))
-idb1p2((8))
-idb1((9))
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-subgraph 1st
-	idS -->|"1"| ids0p1
-	idS -->|"0"| ids0p2
-	
-	idS -->|"2"| ids1p1
-	idS -->|"1"| ids1p2
-end
-
-subgraph 2nd
-	ids0p1 & ids1p1 --> idb0p1 --> idb0
-	ids0p2 & ids1p2 -.-x idb0p2 -.-x idb0
-end
-
-subgraph 3rd
-	ids0p1 -.-x idb1p1
-	ids1p1 --> idb1p1 --> idb1
-	ids0p2 -.-x idb1p2
-	ids1p2 --> idb1p2 --> idb1
-end
-
-idb0 -.-x|"k"| idT
-idb1 -->|"k"| idT
+| V | \= (m\*k) + (n\*k) + n + 2
 
 
-```
-
-
+**Did it.**
 ```java
 public static void testCase() {
 	int n = In.readInt();   // bikes
@@ -394,25 +344,29 @@ public static void testCase() {
 	Graph G = new Graph((m*k)+(n*k)+n+2);
 	
 	for (int i = 0; i < m*k; i++) {
-		G.addEdge(s, i, In.readInt());	// source -> shop's parts
+		// source -> shop parts
+		G.addEdge(s, i, In.readInt());
 	}
 	
 	for (int i = 0; i < n; i++) {
-		int part = (m*k)+i*(k+1);   // base + i * offset
+		int part = (m*k)+i*(k+1);	// base + i * offset
 		int d = In.readInt();
 		
 		for (int j = 0; j < d; j++) {
 			int local = In.readInt()*k;
 			for (int p = 0; p < k; p++) {
-				G.addEdge(local+p, part+p, 1);    // shop parts -> bike parts
+				// shop parts -> bike parts
+				G.addEdge(local+p, part+p, 1);
 			}
 		}
 		
 		for (int p = 0; p < k; p++) {
-			G.addEdge(part+p, part+k, 1);   // bike parts -> bike
+			// bike parts -> bike
+			G.addEdge(part+p, part+k, 1);
 		}
 		
-		G.addEdge(part+k, t, k);    // bike -> target
+		// bike -> target
+		G.addEdge(part+k, t, k);
 	}
 	
 	boolean possible = G.computeMaximumFlow(s, t) == n*k;
