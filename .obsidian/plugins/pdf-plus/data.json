@@ -126,7 +126,7 @@
   "contextMenuConfig": [
     {
       "id": "action",
-      "visible": true
+      "visible": false
     },
     {
       "id": "selection",
