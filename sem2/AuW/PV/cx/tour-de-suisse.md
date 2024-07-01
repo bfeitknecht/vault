@@ -214,9 +214,9 @@ ids1p1((4))
 ids1p2((5))
 
 idb0p1((6))
-idb0p1((7))
+idb0p2((7))
 
-idb0((7))
+idb0((8))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -228,14 +228,13 @@ ids0 -->|"0"| ids0p2
 ids1 -->|"1"| ids1p1
 ids1 -->|"0"| ids1p2
 
-ids0p1 --> idb0
-ids0p2 -.-x idb0
+ids0p1 --> idb0p1 --> idb0
+ids0p2 -.-x idb0p2
 
-ids1p1 --> idb0
-ids1p2 -.-x idb0
+ids1p1 --> idb0p1
+ids1p2 -.-x idb0p2 -.-x idb0
 
-
-
-idb0 -->|"k"| idS
+idb0 -.-x|"k"| idS
 
 ```
+
