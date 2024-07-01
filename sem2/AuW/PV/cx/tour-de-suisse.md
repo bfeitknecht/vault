@@ -152,3 +152,23 @@ p0 --> id6 --> id7
 i have no idea what to do
 
 
+
+i have an idea of what to do
+
+
+
+```mermaid
+idS((s))
+idT((t))
+
+ids0((0))
+ids1((1))
+ids2((2))
+
+ids0p1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+idt --> 
+
+```
