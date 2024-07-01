@@ -1,5 +1,4 @@
 
-![[DDCA-cheatsheet-dcamenisch.pdf#page=1&rect=290,449,417,530|sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-dcamenisch.pdf, p.1]]
 
 
 ## Introduction
