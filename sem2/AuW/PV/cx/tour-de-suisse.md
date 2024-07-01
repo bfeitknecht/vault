@@ -160,12 +160,11 @@ i have an idea of what to do
 ```mermaid
 flowchart LR
 
-idS((s))
-idT((t))
+idS{s}
+idT{t}
 
 ids0((0))
 ids1((3))
-ids2((6))
 
 ids0p1((1))
 ids0p2((2))
@@ -173,15 +172,11 @@ ids0p2((2))
 ids1p1((4))
 ids1p2((5))
 
-ids2p1((7))
-ids2p2((8))
-
-idb0((9))
-idb1((10))
+idb0((7))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-idT -->|"*"| ids0 & ids1 & ids2
+idT ==>|"*"| ids0 & ids1
 
 ids0 -->|"1"| ids0p1
 ids0 -->|"0"| ids0p2
@@ -189,8 +184,49 @@ ids0 -->|"0"| ids0p2
 ids1 -->|"1"| ids1p1
 ids1 -->|"0"| ids1p2
 
-ids2 -->|"1"| ids2p1
-ids2 -->|"1"| ids2p2
+ids0p1 --> idb0
+ids0p2 -.-x idb0
+
+ids1p1 --> idb0
+ids1p2 -.-x idb0
+
+
+
+idb0 -->|"k"| idS
+
+```
+
+=>
+
+```mermaid
+flowchart LR
+
+idS{s}
+idT{t}
+
+ids0((0))
+ids1((3))
+
+ids0p1((1))
+ids0p2((2))
+
+ids1p1((4))
+ids1p2((5))
+
+idb0p1((6))
+idb0p1((7))
+
+idb0((7))
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+idT ==>|"*"| ids0 & ids1
+
+ids0 -->|"1"| ids0p1
+ids0 -->|"0"| ids0p2
+
+ids1 -->|"1"| ids1p1
+ids1 -->|"0"| ids1p2
 
 ids0p1 --> idb0
 ids0p2 -.-x idb0
@@ -198,9 +234,8 @@ ids0p2 -.-x idb0
 ids1p1 --> idb0
 ids1p2 -.-x idb0
 
-ids2p1 & ids2p2 --> idb1
 
 
-idb0 & idb1 -->|"k"| idS
+idb0 -->|"k"| idS
 
 ```
