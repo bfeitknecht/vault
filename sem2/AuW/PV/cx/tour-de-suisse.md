@@ -78,3 +78,17 @@ id86 --> id89
 id19 --> id87
 id87 --> id89
 ```
+
+
+
+```mermaid
+flowchart TD
+
+id2 --> shop0 & id0
+
+subgraph shop0
+id0 --> id1
+end
+
+shop0 --> id3
+```
