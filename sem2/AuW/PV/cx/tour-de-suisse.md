@@ -151,8 +151,6 @@ p0 --> id6 --> id7
 
 i have no idea what to do
 
-
-
 i have an idea of what to do
 
 
@@ -283,4 +281,8 @@ idb0 -.-x|"k"| idT
 \- m
 
 
-|V| = (m\*k) + (n\*k) + n + 2
+|V|
+\= (m\*k) + (n\*k) + n + 2
+\= (m\*k) + n\*(k+1) + 2
+\= k\*(n+m) + n + 2
+
