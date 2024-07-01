@@ -927,24 +927,22 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
-                    "page": 7,
-                    "left": -9,
-                    "top": 547,
-                    "zoom": 1.7991654291454724
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
               {
-                "id": "c684db4e114b9fc2",
+                "id": "6199dcb9a2f594d5",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-dcamenisch.pdf",
                     "page": 1,
-                    "left": -12,
-                    "top": 571,
-                    "zoom": 1.2721376901970567
+                    "left": -15,
+                    "top": 599,
+                    "zoom": 1.0048818729287674
                   }
                 }
               },
@@ -968,14 +966,12 @@
                   "state": {
                     "file": "sem2/DDCA/VRL/slides/DDCA-L03-combinational-circuits-theory.pdf",
                     "page": 1,
-                    "left": -208,
-                    "top": 309,
-                    "zoom": 0.77
+                    "zoom": 1
                   }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1041,7 +1037,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/VRL/slides/DDCA-L03-combinational-circuits-theory.pdf",
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1058,7 +1054,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/VRL/slides/DDCA-L03-combinational-circuits-theory.pdf",
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1081,7 +1077,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/VRL/slides/DDCA-L03-combinational-circuits-theory.pdf"
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md"
                   }
                 }
               },
@@ -1098,8 +1094,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -1113,12 +1108,13 @@
           "zk-prefixer:Create new unique note": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "webpage-html-export:Export Vault to HTML": false
         }
       },
-      "active": "9b342f2933b87035",
-      "mtime": "2024-06-30T22:03:08+02:00"
+      "active": "d4d9e5cf2cd5e94b",
+      "mtime": "2024-07-01T14:29:23+02:00"
     }
   },
-  "active": "pv - ddca"
+  "active": "pv - auw"
 }
