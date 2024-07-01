@@ -176,7 +176,7 @@ idb0((7))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-idT ==>|"*"| ids0 & ids1
+idS ==>|"*"| ids0 & ids1
 
 ids0 -->|"1"| ids0p1
 ids0 -->|"0"| ids0p2
@@ -192,7 +192,7 @@ ids1p2 -.-x idb0
 
 
 
-idb0 -->|"k"| idS
+idb0 -->|"k"| idT
 
 ```
 
@@ -220,7 +220,7 @@ idb0((8))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-idT ==>|"*"| ids0 & ids1
+idS ==>|"*"| ids0 & ids1
 
 ids0 -->|"1"| ids0p1
 ids0 -->|"0"| ids0p2
@@ -234,7 +234,53 @@ ids0p2 -.-x idb0p2
 ids1p1 --> idb0p1
 ids1p2 -.-x idb0p2 -.-x idb0
 
-idb0 -.-x|"k"| idS
+idb0 -.-x|"k"| idT
 
 ```
 
+
+=>
+
+
+
+```mermaid
+flowchart LR
+
+idS{s}
+idT{t}
+
+ids0p1((0))
+ids0p2((1))
+
+ids1p1((2))
+ids1p2((3))
+
+idb0p1((4))
+idb0p2((5))
+
+idb0((6))
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+idS -->|"1"| ids0p1
+idS -->|"0"| ids0p2
+
+idS -->|"1"| ids1p1
+idS -->|"0"| ids1p2
+
+ids0p1 --> idb0p1 --> idb0
+ids0p2 -.-x idb0p2
+
+ids1p1 --> idb0p1
+ids1p2 -.-x idb0p2 -.-x idb0
+
+idb0 -.-x|"k"| idT
+
+```
+
+
+\+ n \* k
+\- m
+
+
+|V| = (m\*k) + (n\*k) + n + 2
