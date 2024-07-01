@@ -1,6 +1,6 @@
 
 
-
+## Tribulations
 ```java
 public static void testCase() {
 	int n = In.readInt();   // bikes
@@ -148,12 +148,17 @@ p0 --> id6 --> id7
 
 ```
 
-
 i have no idea what to do
+
+
+___
+
 
 i have an idea of what to do
 
 
+
+## Recovery
 
 ```mermaid
 flowchart LR
@@ -236,10 +241,7 @@ idb0 -.-x|"k"| idT
 
 ```
 
-
 =>
-
-
 
 ```mermaid
 flowchart LR
@@ -261,10 +263,10 @@ idb0((6))
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 idS -->|"1"| ids0p1
-idS -->|"0"| ids0p2
+idS -->|"1"| ids0p2
 
-idS -->|"1"| ids1p1
-idS -->|"0"| ids1p2
+idS -->|"2"| ids1p1
+idS -->|"1"| ids1p2
 
 ids0p1 --> idb0p1 --> idb0
 ids0p2 -.-x idb0p2
@@ -277,8 +279,17 @@ idb0 -.-x|"k"| idT
 ```
 
 
+
 \+ n \* k
 \- m
 
 | V | \= (m\*k) + (n\*k) + n + 2
+
+
+
+
+
+>[!attention] exam tip!
+>be aware of edge cases from the start
+
 
