@@ -183,18 +183,24 @@ idb1((10))
 
 idT -->|"*"| ids0 & ids1 & ids2
 
-ids0 -->|"0"| ids0p1
+ids0 -->|"1"| ids0p1
 ids0 -->|"0"| ids0p2
 
-ids1 -->|"0"| ids1p1
+ids1 -->|"1"| ids1p1
 ids1 -->|"0"| ids1p2
 
-ids2 -->|"0"| ids2p1
-ids2 -->|"0"| ids2p2
+ids2 -->|"1"| ids2p1
+ids2 -->|"1"| ids2p2
 
-ids0p1 & ids0p2 --> idb0
-ids1p1 & ids1p2 --> idb0
+ids0p1 --> idb0
+ids0p2 -.-x idb0
+
+ids1p1 --> idb0
+ids1p2 -.-x idb0
 
 ids2p1 & ids2p2 --> idb1
+
+
+idb0 & idb1 -->|"k"| idS
 
 ```
