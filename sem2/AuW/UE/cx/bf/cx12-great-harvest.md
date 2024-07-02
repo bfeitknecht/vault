@@ -132,11 +132,11 @@ subgraph io
 	id4c
 end
 
-subgraph city
-id1
-id2
-id3
-id4
+subgraph cities
+	id1
+	id2
+	id3
+	id4
 end
 
 id1a & id1b & id1c --- id1
