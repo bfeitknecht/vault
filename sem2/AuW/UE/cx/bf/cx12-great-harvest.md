@@ -78,6 +78,8 @@ id2c -.- idt3
 ## Alternate
 
 ```mermaid
+%%{init: {'flowchart': {'curve': 'basis'}}}%%
+
 flowchart TD
 
 idS{"S"}
