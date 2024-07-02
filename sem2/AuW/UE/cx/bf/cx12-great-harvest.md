@@ -78,7 +78,7 @@ id2c -.- idt3
 ## Alternate
 
 ```mermaid
-flowchart LR
+flowchart TD
 
 idS{"S"}
 idT{"T"}
@@ -120,8 +120,13 @@ id2a & id2b & id2c --> id2
 id3a & id3b & id3c --> id3
 id4a & id4b & id4c --> id4
 
-id1a --> id2a
-id2a --> id3a & id4a
+id1a --- id2a
+
+id2a --- id3a & id4a
+id2b --- id3b
+id2c --- id4c
+
+id3c --- id2c
 
 id1 ==>|"?/4"| idT
 id2 ==>|"?/1"| idT
@@ -130,6 +135,7 @@ id4 ==>|"?/13"| idT
 
 
 ```
+
 
 ```
 n	=	4
