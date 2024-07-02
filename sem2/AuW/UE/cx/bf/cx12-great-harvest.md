@@ -115,6 +115,30 @@ idS ---|"?/6"| id2b
 idS ---|"?/3"| id3c
 idS ---|"?/5"| id4b
 
+subgraph io
+	id1a
+	id2a
+	id3a
+	id4a
+	
+	id1b
+	id2b
+	id3b
+	id4b
+	
+	id1c
+	id2c
+	id3c
+	id4c
+end
+
+subgraph city
+id1
+id2
+id3
+id4
+end
+
 id1a & id1b & id1c --- id1
 id2a & id2b & id2c --- id2
 id3a & id3b & id3c --- id3
