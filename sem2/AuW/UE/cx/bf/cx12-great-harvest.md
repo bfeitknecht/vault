@@ -110,15 +110,15 @@ id4((15))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-idS ==>|"?/12"| id1a
-idS ==>|"?/6"| id2b
-idS ==>|"?/3"| id3c
-idS ==>|"?/5"| id4b
+idS ---|"?/12"| id1a
+idS ---|"?/6"| id2b
+idS ---|"?/3"| id3c
+idS ---|"?/5"| id4b
 
-id1a & id1b & id1c --> id1
-id2a & id2b & id2c --> id2
-id3a & id3b & id3c --> id3
-id4a & id4b & id4c --> id4
+id1a & id1b & id1c --- id1
+id2a & id2b & id2c --- id2
+id3a & id3b & id3c --- id3
+id4a & id4b & id4c --- id4
 
 id1a --- id2a
 
@@ -128,10 +128,10 @@ id2c --- id4c
 
 id3c --- id2c
 
-id1 ==>|"?/4"| idT
-id2 ==>|"?/1"| idT
-id3 ==>|"?/8"| idT
-id4 ==>|"?/13"| idT
+id1 ---|"?/4"| idT
+id2 ---|"?/1"| idT
+id3 ---|"?/8"| idT
+id4 ---|"?/13"| idT
 
 
 ```
