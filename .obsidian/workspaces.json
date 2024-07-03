@@ -231,9 +231,7 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 852,
-                    "zoom": 1.7850000000000001
+                    "zoom": 1
                   }
                 }
               }
@@ -388,7 +386,7 @@
         }
       },
       "active": "7eb7ba94c833f561",
-      "mtime": "2024-07-03T16:17:11+02:00"
+      "mtime": "2024-07-03T16:31:02+02:00"
     },
     "pv - pprog": {
       "main": {
@@ -911,18 +909,6 @@
                 }
               },
               {
-                "id": "6199dcb9a2f594d5",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-dcamenisch.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
                 "id": "bc8f0dc41f8794f0",
                 "type": "leaf",
                 "state": {
@@ -945,9 +931,37 @@
                     "zoom": 1
                   }
                 }
+              },
+              {
+                "id": "6199dcb9a2f594d5",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-dcamenisch.pdf",
+                    "page": 1,
+                    "left": -78,
+                    "top": 367,
+                    "zoom": 0.88
+                  }
+                }
+              },
+              {
+                "id": "b40616e9ea6d71d5",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-huandri.pdf",
+                    "page": 1,
+                    "left": 149,
+                    "top": 419,
+                    "zoom": 2.15
+                  }
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1013,7 +1027,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-huandri.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1030,7 +1044,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-huandri.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1053,7 +1067,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md"
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-huandri.pdf"
                   }
                 }
               },
@@ -1088,8 +1102,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "bc8f0dc41f8794f0",
-      "mtime": "2024-07-03T16:26:40+02:00"
+      "active": "b40616e9ea6d71d5",
+      "mtime": "2024-07-03T16:33:50+02:00"
     }
   },
   "active": "pv - auw"
