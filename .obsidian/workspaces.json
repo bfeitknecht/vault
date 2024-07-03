@@ -207,9 +207,7 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/AuW-formulas.pdf",
                     "page": 1,
-                    "left": -11,
-                    "top": 846,
-                    "zoom": 1.421189498652726
+                    "zoom": 1
                   }
                 }
               },
@@ -233,14 +231,14 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
                     "page": 1,
-                    "left": -11,
+                    "left": -9,
                     "top": 852,
-                    "zoom": 1.41
+                    "zoom": 1.7850000000000001
                   }
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -290,7 +288,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -306,7 +305,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
+                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -323,7 +322,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
+                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -346,7 +345,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf"
+                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md"
                   }
                 }
               },
@@ -366,8 +365,7 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 4
+            ]
           }
         ],
         "direction": "horizontal",
@@ -389,8 +387,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "63e59b047a4a8e03",
-      "mtime": "2024-07-03T15:09:55+02:00"
+      "active": "7eb7ba94c833f561",
+      "mtime": "2024-07-03T16:17:11+02:00"
     },
     "pv - pprog": {
       "main": {
@@ -1096,5 +1094,5 @@
       "mtime": "2024-07-01T14:29:23+02:00"
     }
   },
-  "active": "pv - auw"
+  "active": "pv - ddca"
 }

@@ -39,16 +39,19 @@ ___
 ___
 
 ### Semiconductors
->[!quote] What is so great about semiconductors?
+>[!quote]+ What is so great about semiconductors?
 >- Silicone based
 >- You can “engineer” its properties 
 >- Make it P type by injecting type-III elements (B, Ga, In) 
 >- Make it N type by injecting elements from type-V (P, As) 
 >- Starting with a pure semiconductor, you can combine P and N regions
 >- Allows you to make interesting electrical devices (Diodes, Transistors, Thrystors)
->  
-![[DDCA-L02b-electrical-engineering.pdf#page=17&rect=29,37,652,491|DDCA-L02b-electrical-engineering, p.17]]
-![[DDCA-L02b-electrical-engineering.pdf#page=18&rect=33,35,643,491|DDCA-L02b-electrical-engineering, p.18]]
+>  >[!idea]- P type vs N type
+>  > P type has 
+>  >![[DDCA-L02b-electrical-engineering.pdf#page=17&rect=29,37,652,491|DDCA-L02b-electrical-engineering, p.17]]
+>  >![[DDCA-L02b-electrical-engineering.pdf#page=18&rect=33,35,643,491|DDCA-L02b-electrical-engineering, p.18]]
+
+
 
 ### Transistors
 >[!quote] **What is so great about CMOS?**
