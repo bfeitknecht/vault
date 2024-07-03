@@ -861,13 +861,27 @@
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
                     "page": 1,
                     "left": -9,
-                    "top": 809,
+                    "top": 751,
+                    "zoom": 1.785
+                  }
+                }
+              },
+              {
+                "id": "f1c2d688cbf9d1e7",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-05-integral.pdf",
+                    "page": 4,
+                    "left": -9,
+                    "top": 702,
                     "zoom": 1.785
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -934,7 +948,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
+                    "file": "sem2/A1/PV/extra/A1-derivative-integral-rules.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -951,7 +965,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
+                    "file": "sem2/A1/PV/extra/A1-derivative-integral-rules.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -974,7 +988,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf"
+                    "file": "sem2/A1/PV/extra/A1-derivative-integral-rules.md"
                   }
                 }
               },
@@ -1017,8 +1031,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "10fe69f5c61457fb",
-      "mtime": "2024-07-03T16:56:46+02:00"
+      "active": "b3a36c6389c7a126",
+      "mtime": "2024-07-03T17:31:41+02:00"
     }
   },
   "active": "pv - a1"
