@@ -860,9 +860,9 @@
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 751,
-                    "zoom": 1.785
+                    "left": -15,
+                    "top": 771,
+                    "zoom": 1.0350000000000001
                   }
                 }
               },
@@ -873,10 +873,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-05-integral.pdf",
-                    "page": 4,
-                    "left": -9,
-                    "top": 702,
-                    "zoom": 1.785
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               }
@@ -931,8 +929,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1013,8 +1010,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -1032,8 +1028,8 @@
         }
       },
       "active": "b3a36c6389c7a126",
-      "mtime": "2024-07-03T17:31:41+02:00"
+      "mtime": "2024-07-03T17:57:12+02:00"
     }
   },
-  "active": "pv - a1"
+  "active": "pv - ddca"
 }
