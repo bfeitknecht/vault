@@ -668,8 +668,8 @@
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-huandri.pdf",
                     "page": 1,
-                    "left": -21,
-                    "top": 272,
+                    "left": -129,
+                    "top": 578,
                     "zoom": 1.05
                   }
                 }
@@ -725,7 +725,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -817,7 +818,7 @@
         }
       },
       "active": "b40616e9ea6d71d5",
-      "mtime": "2024-07-03T16:44:22+02:00"
+      "mtime": "2024-07-03T18:17:12+02:00"
     },
     "pv - a1": {
       "main": {
@@ -1031,5 +1032,5 @@
       "mtime": "2024-07-03T17:57:12+02:00"
     }
   },
-  "active": "pv - ddca"
+  "active": "pv - a1"
 }
