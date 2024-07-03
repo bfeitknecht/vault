@@ -363,7 +363,8 @@
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
@@ -385,8 +386,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "7eb7ba94c833f561",
-      "mtime": "2024-07-03T16:40:48+02:00"
+      "active": "d4d9e5cf2cd5e94b",
+      "mtime": "2024-07-03T16:47:52+02:00"
     },
     "pv - pprog": {
       "main": {
@@ -1020,5 +1021,5 @@
       "mtime": "2024-07-03T16:42:48+02:00"
     }
   },
-  "active": "pv - auw"
+  "active": "pv - a1"
 }
