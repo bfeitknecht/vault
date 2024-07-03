@@ -158,6 +158,8 @@ id4 ---|"?/13"| idT
 ![[cx12-great-harvest-graph.png]]
 
 
+## Code
+
 ```java
 public static void testCase() {
 	int n = In.readInt();   // cities
@@ -207,6 +209,9 @@ public static void testCase() {
 ```
 
 
+pass all but one case.
+probably A -x B -> C, where v(A) == v(B) => A -x B but C needs some from A, can't get it because A is not connected to B
 
-pass all but one case. probably A -x B -> C, where v(A) ==  
+
+
 

@@ -386,7 +386,7 @@
         }
       },
       "active": "7eb7ba94c833f561",
-      "mtime": "2024-07-03T16:31:02+02:00"
+      "mtime": "2024-07-03T16:40:48+02:00"
     },
     "pv - pprog": {
       "main": {
@@ -600,7 +600,7 @@
         }
       },
       "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-06-20T13:35:55+02:00"
+      "mtime": "2024-07-03T16:40:52+02:00"
     },
     "pv - a1": {
       "main": {
@@ -686,9 +686,7 @@
                   "state": {
                     "file": "sem2/A1/UE/e/A1-u10-e.pdf",
                     "page": 1,
-                    "left": -18,
-                    "top": 67,
-                    "zoom": 0.8743843192065529
+                    "zoom": 1
                   }
                 }
               },
@@ -768,6 +766,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -784,6 +783,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -805,7 +805,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-script.pdf"
+                  }
                 }
               },
               {
@@ -875,17 +877,17 @@
               }
             ],
             "direction": "vertical",
-            "x": 2160,
+            "x": 488,
             "y": 131,
-            "width": 647,
-            "height": 851,
+            "width": 1024,
+            "height": 800,
             "maximize": false,
             "zoom": 0
           }
         ]
       },
       "active": "f2e21a169bc67ba6",
-      "mtime": "2024-06-20T15:34:09+02:00"
+      "mtime": "2024-07-03T16:41:00+02:00"
     },
     "pv - ddca": {
       "main": {
@@ -1106,5 +1108,5 @@
       "mtime": "2024-07-03T16:33:50+02:00"
     }
   },
-  "active": "pv - auw"
+  "active": "pv - a1"
 }
