@@ -918,9 +918,7 @@
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-dcamenisch.pdf",
                     "page": 1,
-                    "left": -15,
-                    "top": 599,
-                    "zoom": 1.0048818729287674
+                    "zoom": 1
                   }
                 }
               },
@@ -1072,7 +1070,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -1086,13 +1085,12 @@
           "zk-prefixer:Create new unique note": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true,
-          "webpage-html-export:Export Vault to HTML": false
+          "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-07-01T14:29:23+02:00"
+      "active": "bc8f0dc41f8794f0",
+      "mtime": "2024-07-03T16:26:40+02:00"
     }
   },
-  "active": "pv - ddca"
+  "active": "pv - auw"
 }
