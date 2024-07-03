@@ -46,15 +46,17 @@ ___
 >- Make it N type by injecting elements from type-V (P, As) 
 >- Starting with a pure semiconductor, you can combine P and N regions
 >- Allows you to make interesting electrical devices (Diodes, Transistors, Thrystors)
->  >[!idea]- P type vs N type
->  > P type has 
->  >![[DDCA-L02b-electrical-engineering.pdf#page=17&rect=29,37,652,491|DDCA-L02b-electrical-engineering, p.17]]
->  >![[DDCA-L02b-electrical-engineering.pdf#page=18&rect=33,35,643,491|DDCA-L02b-electrical-engineering, p.18]]
 
+>[!idea]- P type vs N type
+> - N type has negative overcharge
+>![[DDCA-L02b-electrical-engineering.pdf#page=17&rect=29,37,652,491|DDCA-L02b-electrical-engineering, p.17]]
+>
+>- P Type has positive overcharge
+>![[DDCA-L02b-electrical-engineering.pdf#page=18&rect=33,35,643,491|DDCA-L02b-electrical-engineering, p.18]]
 
 
 ### Transistors
->[!quote] **What is so great about CMOS?**
+>[!quote]+ **What is so great about CMOS?**
 >- No input current 
 >- Capacitive input, no resistive path from the input. 
 >- No current when output is at logic levels 
@@ -71,8 +73,9 @@ ___
 ![[DDCA-L02b-electrical-engineering.pdf#page=26&rect=26,98,660,377|DDCA-L02b-electrical-engineering, p.26]]
 ![[DDCA-L02b-electrical-engineering.pdf#page=27&rect=26,94,664,378|DDCA-L02b-electrical-engineering, p.27]]
 
+
 ### Logic Gates
->[!quote] What is so great about logic gates?
+>[!quote]+ What is so great about logic gates?
 >- helps us abstract:
 >	translate between formula and circuit 
 >- easier to draw than complex transistor layouts
