@@ -873,9 +873,9 @@
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 770,
-                    "zoom": 1.785
+                    "left": -388,
+                    "top": 852,
+                    "zoom": 0.8
                   }
                 }
               },
@@ -888,7 +888,7 @@
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-05-integral.pdf",
                     "page": 4,
                     "left": -9,
-                    "top": 572,
+                    "top": 576,
                     "zoom": 1.785
                   }
                 }
@@ -902,13 +902,13 @@
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                     "page": 11,
                     "left": -12,
-                    "top": 575,
+                    "top": 594,
                     "zoom": 1.2721376901970567
                   }
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -975,7 +975,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
+                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -992,7 +992,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
+                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1015,7 +1015,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf"
+                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf"
                   }
                 }
               },
@@ -1058,9 +1058,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "41cfc6f1471a666d",
-      "mtime": "2024-07-04T11:42:25+02:00"
+      "active": "10fe69f5c61457fb",
+      "mtime": "2024-07-04T15:01:37+02:00"
     }
   },
-  "active": "pv - a1"
+  "active": "pv - ddca"
 }
