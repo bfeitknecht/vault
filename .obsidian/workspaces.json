@@ -428,9 +428,23 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem2/PProg/VRL/notes/PProg.md",
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
                     "mode": "source",
                     "source": false
+                  }
+                }
+              },
+              {
+                "id": "a0693cb743107789",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
+                    "page": 10,
+                    "left": -93,
+                    "top": 810,
+                    "zoom": 1.41
                   }
                 }
               },
@@ -459,7 +473,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -526,7 +540,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/PProg/VRL/extra/benji/PProg-w04-benji.pdf",
+                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -543,7 +557,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/PProg/VRL/extra/benji/PProg-w04-benji.pdf",
+                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -566,7 +580,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/PProg/VRL/extra/benji/PProg-w04-benji.pdf"
+                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf"
                   }
                 }
               },
@@ -601,8 +615,8 @@
           "mermaid-tools:Open Mermaid Toolbar": false
         }
       },
-      "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-07-04T16:14:08+02:00"
+      "active": "a0693cb743107789",
+      "mtime": "2024-07-04T17:06:35+02:00"
     },
     "pv - ddca": {
       "main": {
