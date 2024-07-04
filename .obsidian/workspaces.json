@@ -164,7 +164,7 @@
         }
       },
       "active": "414cefd1625961b6",
-      "mtime": "2024-07-01T11:33:24+02:00"
+      "mtime": "2024-07-04T09:43:31+02:00"
     },
     "pv - auw": {
       "main": {
@@ -303,7 +303,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md",
+                    "file": "sem2/AuW/PV/cx/game-of-skill.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -320,7 +320,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md",
+                    "file": "sem2/AuW/PV/cx/game-of-skill.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -343,7 +343,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md"
+                    "file": "sem2/AuW/PV/cx/game-of-skill.md"
                   }
                 }
               },
@@ -387,7 +387,7 @@
         }
       },
       "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-07-03T16:47:52+02:00"
+      "mtime": "2024-07-04T09:42:53+02:00"
     },
     "pv - pprog": {
       "main": {
@@ -583,7 +583,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -601,7 +602,7 @@
         }
       },
       "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-07-03T16:40:52+02:00"
+      "mtime": "2024-07-04T09:42:49+02:00"
     },
     "pv - ddca": {
       "main": {
@@ -668,9 +669,7 @@
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-huandri.pdf",
                     "page": 1,
-                    "left": -21,
-                    "top": 582,
-                    "zoom": 1.05
+                    "zoom": 1
                   }
                 }
               },
@@ -831,7 +830,7 @@
         }
       },
       "active": "23ae56ed0afad8bc",
-      "mtime": "2024-07-04T09:42:28+02:00"
+      "mtime": "2024-07-04T09:42:44+02:00"
     },
     "pv - a1": {
       "main": {
@@ -958,7 +957,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/A1/PV/extra/A1-derivative-integral-rules.md",
+                    "file": "sem2/A1/PV/notes/A1-pvw.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -975,7 +974,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/A1/PV/extra/A1-derivative-integral-rules.md",
+                    "file": "sem2/A1/PV/notes/A1-pvw.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -998,7 +997,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/A1/PV/extra/A1-derivative-integral-rules.md"
+                    "file": "sem2/A1/PV/notes/A1-pvw.md"
                   }
                 }
               },
@@ -1023,7 +1022,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -1040,8 +1040,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "00c7b86ebdcc7127",
-      "mtime": "2024-07-04T09:41:45+02:00"
+      "active": "d4d9e5cf2cd5e94b",
+      "mtime": "2024-07-04T09:42:42+02:00"
     }
   },
   "active": "pv - a1"
