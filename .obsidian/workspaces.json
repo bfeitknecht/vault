@@ -303,7 +303,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/PV/cx/game-of-skill.md",
+                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -320,7 +320,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/PV/cx/game-of-skill.md",
+                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -343,7 +343,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/PV/cx/game-of-skill.md"
+                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md"
                   }
                 }
               },
@@ -386,8 +386,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-07-04T09:42:53+02:00"
+      "active": "7eb7ba94c833f561",
+      "mtime": "2024-07-04T15:13:22+02:00"
     },
     "pv - pprog": {
       "main": {
@@ -873,9 +873,9 @@
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
                     "page": 1,
-                    "left": -388,
-                    "top": 852,
-                    "zoom": 0.8
+                    "left": -9,
+                    "top": 812,
+                    "zoom": 1.7850000000000001
                   }
                 }
               },
@@ -886,10 +886,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-05-integral.pdf",
-                    "page": 4,
-                    "left": -9,
-                    "top": 576,
-                    "zoom": 1.785
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -900,10 +898,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
-                    "page": 11,
-                    "left": -12,
-                    "top": 594,
-                    "zoom": 1.2721376901970567
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               }
@@ -1059,8 +1055,8 @@
         }
       },
       "active": "10fe69f5c61457fb",
-      "mtime": "2024-07-04T15:01:37+02:00"
+      "mtime": "2024-07-04T15:13:24+02:00"
     }
   },
-  "active": "pv - auw"
+  "active": "pv - pprog"
 }
