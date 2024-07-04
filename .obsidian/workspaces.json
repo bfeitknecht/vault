@@ -873,7 +873,9 @@
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -9,
+                    "top": 770,
+                    "zoom": 1.785
                   }
                 }
               },
@@ -884,13 +886,29 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-05-integral.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 4,
+                    "left": -9,
+                    "top": 572,
+                    "zoom": 1.785
+                  }
+                }
+              },
+              {
+                "id": "41cfc6f1471a666d",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
+                    "page": 11,
+                    "left": -12,
+                    "top": 575,
+                    "zoom": 1.2721376901970567
                   }
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -957,7 +975,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/A1/PV/notes/A1-pvw.md",
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -974,7 +992,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/A1/PV/notes/A1-pvw.md",
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -997,7 +1015,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/A1/PV/notes/A1-pvw.md"
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf"
                   }
                 }
               },
@@ -1040,8 +1058,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-07-04T09:42:42+02:00"
+      "active": "41cfc6f1471a666d",
+      "mtime": "2024-07-04T11:42:25+02:00"
     }
   },
   "active": "pv - a1"
