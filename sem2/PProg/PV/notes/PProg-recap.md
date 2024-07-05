@@ -51,6 +51,10 @@ Must override `run()` method!
 
 
 
-## Pipeline Terms
+## Pipeline
 ![[PProg-w04-benji.pdf#page=58&rect=120,102,846,413|PProg-w04-benji, p.58]]
+![[PProg-w05-benji.pdf#page=13&rect=91,36,610,331|PProg-w05-benji, p.13]]
 
+
+
+##
