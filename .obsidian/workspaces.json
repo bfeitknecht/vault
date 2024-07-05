@@ -657,9 +657,7 @@
                   "state": {
                     "file": "sem2/DDCA/VRL/slides/DDCA-L03-combinational-circuits-theory.pdf",
                     "page": 1,
-                    "left": -13,
-                    "top": 544,
-                    "zoom": 1.175
+                    "zoom": 1
                   }
                 }
               },
@@ -670,10 +668,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
-                    "page": 1,
-                    "left": -17,
-                    "top": 599,
-                    "zoom": 1
+                    "page": 2,
+                    "left": 199,
+                    "top": 420,
+                    "zoom": 2.19
                   }
                 }
               }
@@ -821,7 +819,7 @@
         }
       },
       "active": "23ae56ed0afad8bc",
-      "mtime": "2024-07-05T19:01:18+02:00"
+      "mtime": "2024-07-05T19:57:13+02:00"
     },
     "pv - a1": {
       "main": {
@@ -1049,5 +1047,5 @@
       "mtime": "2024-07-04T15:13:24+02:00"
     }
   },
-  "active": "pv - ddca"
+  "active": "pv - pprog"
 }
