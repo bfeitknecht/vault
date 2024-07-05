@@ -441,10 +441,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
-                    "page": 9,
-                    "left": -13,
-                    "top": 193,
-                    "zoom": 1.41
+                    "page": 5,
+                    "left": -11,
+                    "top": 636,
+                    "zoom": 1.4211894986527263
                   }
                 }
               },
@@ -468,12 +468,14 @@
                   "state": {
                     "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -11,
+                    "top": 578,
+                    "zoom": 1.3823529411764708
                   }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 5
           }
         ],
         "direction": "vertical"
@@ -539,7 +541,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
+                    "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -556,7 +558,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
+                    "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -579,7 +581,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf"
+                    "file": "sem2/PProg/UE/e/PProg-u03-e.pdf"
                   }
                 }
               },
@@ -588,6 +590,14 @@
                 "type": "leaf",
                 "state": {
                   "type": "git-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "5fa701e1a25db1c4",
+                "type": "leaf",
+                "state": {
+                  "type": "git-history-view",
                   "state": {}
                 }
               }
@@ -601,21 +611,22 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "omnisearch:Omnisearch": false,
+          "command-palette:Open command palette": false,
+          "graph:Open graph view": false,
           "workspaces:Manage workspace layouts": false,
           "switcher:Open quick switcher": true,
-          "graph:Open graph view": false,
-          "command-palette:Open command palette": false,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
-          "omnisearch:Omnisearch": false,
-          "pdf-plus:PDF++: Toggle auto-copy": false,
-          "pdf-plus:PDF++: Toggle auto-focus": false,
-          "pdf-plus:PDF++: Toggle auto-paste": false,
-          "mermaid-tools:Open Mermaid Toolbar": false
+          "pdf-plus:PDF++: Toggle auto-copy": true,
+          "pdf-plus:PDF++: Toggle auto-focus": true,
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "mermaid-tools:Open Mermaid Toolbar": true,
+          "digitalgarden:Digital Garden Publication Center": true
         }
       },
-      "active": "a0693cb743107789",
-      "mtime": "2024-07-04T21:05:25+02:00"
+      "active": "d4d9e5cf2cd5e94b",
+      "mtime": "2024-07-05T13:29:59+02:00"
     },
     "pv - ddca": {
       "main": {
