@@ -27,8 +27,6 @@ Must override `run()` method!
 
 
 
-___
-
 ## Concurrency vs Parallelism 
 
 ![[PProg-w02-benji.pdf#page=13&rect=34,214,845,501|PProg-w02-benji, p.13]]
@@ -37,8 +35,22 @@ ___
 *Daemon* threads are out of the user scope (garbage collection, etc.). When all non-daemon threads terminate, the JVM terminates the program.
 
 
+
 ## Thread-State-Model
 
 ![[PProg-w03-benji.pdf#page=61&rect=149,54,834,413|PProg-w03-benji, p.61]]
 
+
+
+## Atomic Operations and Types
+
+![[PProg-w04-benji.pdf#page=52&rect=167,19,942,147|PProg-w04-benji, p.52]]
+
+>[!idea] What is an atomic operation?
+>An operation is atomic if no other thread can see it partly executed. Atomic, as in “appears indivisible”. However, does not mean it’s implemented as single instruction.
+
+
+
+## Pipeline Terms
+![[PProg-w04-benji.pdf#page=58&rect=120,102,846,413|PProg-w04-benji, p.58]]
 
