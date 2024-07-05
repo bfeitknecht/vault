@@ -118,6 +118,8 @@ ___
 >- Note that knowing how to push the bubbles could help you with simplification of Boolean logic equations (which we will ASK)
 
 
+
+
 ___
 
 ## Combinational Circuits (Design) $\star$
