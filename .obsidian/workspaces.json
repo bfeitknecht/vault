@@ -657,31 +657,9 @@
                   "state": {
                     "file": "sem2/DDCA/VRL/slides/DDCA-L03-combinational-circuits-theory.pdf",
                     "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "6199dcb9a2f594d5",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-dcamenisch.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "b40616e9ea6d71d5",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-huandri.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "left": -13,
+                    "top": 544,
+                    "zoom": 1.175
                   }
                 }
               },
@@ -693,28 +671,14 @@
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
                     "page": 1,
-                    "left": -4,
-                    "top": 587,
-                    "zoom": 2.13
-                  }
-                }
-              },
-              {
-                "id": "71238204dfcbbcbd",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/DDCA/PV/exams/DDCA-FS22-exam.pdf",
-                    "page": 1,
-                    "left": -11,
-                    "top": 513,
-                    "zoom": 1.421189498652726
+                    "left": -17,
+                    "top": 599,
+                    "zoom": 1
                   }
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -856,8 +820,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-07-05T14:59:41+02:00"
+      "active": "23ae56ed0afad8bc",
+      "mtime": "2024-07-05T19:01:18+02:00"
     },
     "pv - a1": {
       "main": {
