@@ -693,9 +693,23 @@
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
                     "page": 1,
-                    "left": -3,
-                    "top": 599,
-                    "zoom": 1.99
+                    "left": -4,
+                    "top": 587,
+                    "zoom": 2.13
+                  }
+                }
+              },
+              {
+                "id": "71238204dfcbbcbd",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/DDCA/PV/exams/DDCA-FS22-exam.pdf",
+                    "page": 1,
+                    "left": -11,
+                    "top": 513,
+                    "zoom": 1.421189498652726
                   }
                 }
               }
@@ -828,6 +842,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "digitalgarden:Digital Garden Publication Center": false,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
@@ -841,8 +856,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-04T15:07:10+02:00"
+      "active": "d4d9e5cf2cd5e94b",
+      "mtime": "2024-07-05T14:59:41+02:00"
     },
     "pv - a1": {
       "main": {
