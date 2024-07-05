@@ -399,26 +399,16 @@
             "type": "tabs",
             "children": [
               {
-                "id": "2db0380c514ebefe",
+                "id": "a0693cb743107789",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/PProg/VRL/extra/benji/PProg-w04-benji.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "28060cc3a0ac53cf",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
+                    "page": 5,
+                    "left": -11,
+                    "top": 640,
+                    "zoom": 1.421189498652726
                   }
                 }
               },
@@ -435,47 +425,49 @@
                 }
               },
               {
-                "id": "a0693cb743107789",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
-                    "page": 5,
-                    "left": -11,
-                    "top": 636,
-                    "zoom": 1.4211894986527263
-                  }
-                }
-              },
-              {
-                "id": "076fcad2c1c0269d",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/PProg/VRL/extra/benji/PProg-w04-benji.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "943591ce48e82735",
+                "id": "28060cc3a0ac53cf",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
-                    "page": 1,
-                    "left": -11,
-                    "top": 578,
-                    "zoom": 1.3823529411764708
+                    "page": 2,
+                    "left": -4,
+                    "top": 660,
+                    "zoom": 1.95
+                  }
+                }
+              },
+              {
+                "id": "2db0380c514ebefe",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/PProg/VRL/extra/benji/PProg-w04-benji.pdf",
+                    "page": 69,
+                    "left": -14,
+                    "top": 215,
+                    "zoom": 1.1156140195470514
+                  }
+                }
+              },
+              {
+                "id": "725ad8431d0d7f2b",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/PProg/VRL/extra/benji/PProg-w05-benji.pdf",
+                    "page": 3,
+                    "left": -13,
+                    "top": 78,
+                    "zoom": 1.175
                   }
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -541,7 +533,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
+                    "file": "sem2/PProg/VRL/extra/benji/PProg-w05-benji.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -558,7 +550,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
+                    "file": "sem2/PProg/VRL/extra/benji/PProg-w05-benji.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -581,7 +573,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/PProg/UE/e/PProg-u03-e.pdf"
+                    "file": "sem2/PProg/VRL/extra/benji/PProg-w05-benji.pdf"
                   }
                 }
               },
@@ -625,8 +617,8 @@
           "digitalgarden:Digital Garden Publication Center": true
         }
       },
-      "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-07-05T13:29:59+02:00"
+      "active": "725ad8431d0d7f2b",
+      "mtime": "2024-07-05T14:16:30+02:00"
     },
     "pv - ddca": {
       "main": {
