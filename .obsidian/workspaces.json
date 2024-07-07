@@ -457,7 +457,11 @@
                     "file": "sem2/PProg/VRL/extra/benji/PProg-w05-benji.pdf",
                     "page": 34,
                     "left": -13,
+<<<<<<< HEAD
                     "top": 276,
+=======
+                    "top": 296,
+>>>>>>> 7b1abe21 (backup: 2024-07-07T17:02:33+02:00 from MacBook Pro (echo))
                     "zoom": 1.175
                   }
                 }
@@ -613,8 +617,13 @@
           "digitalgarden:Digital Garden Publication Center": true
         }
       },
+<<<<<<< HEAD
       "active": "725ad8431d0d7f2b",
       "mtime": "2024-07-05T14:39:11+02:00"
+=======
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-07T17:02:30+02:00"
+>>>>>>> 7b1abe21 (backup: 2024-07-07T17:02:33+02:00 from MacBook Pro (echo))
     },
     "pv - ddca": {
       "main": {
