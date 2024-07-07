@@ -165,7 +165,7 @@
         }
       },
       "active": "414cefd1625961b6",
-      "mtime": "2024-07-07T17:03:29+02:00"
+      "mtime": "2024-07-07T18:41:44+02:00"
     },
     "pv - auw": {
       "main": {
@@ -458,22 +458,8 @@
                     "file": "sem2/PProg/VRL/extra/benji/PProg-w05-benji.pdf",
                     "page": 34,
                     "left": -13,
-<<<<<<< HEAD
-<<<<<<< HEAD
                     "top": 276,
-=======
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 07f7129b (backup: 2024-07-07T17:02:33+02:00 from MacBook Pro (echo))
->>>>>>> 9acf75ae (backup: 2024-07-07T17:02:33+02:00 from MacBook Pro (echo))
-                    "top": 296,
->>>>>>> 7b1abe21 (backup: 2024-07-07T17:02:33+02:00 from MacBook Pro (echo))
                     "zoom": 1.175
-=======
-                    "top": 309,
-                    "zoom": 1.1750000000000003
->>>>>>> 6c792e7a (backup: 2024-07-07T17:02:33+02:00 from MacBook Pro (echo))
                   }
                 }
               }
@@ -628,25 +614,8 @@
           "digitalgarden:Digital Garden Publication Center": true
         }
       },
-<<<<<<< HEAD
-<<<<<<< HEAD
       "active": "725ad8431d0d7f2b",
       "mtime": "2024-07-05T14:39:11+02:00"
-=======
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-07T17:02:30+02:00"
->>>>>>> 7b1abe21 (backup: 2024-07-07T17:02:33+02:00 from MacBook Pro (echo))
-=======
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-07T17:02:30+02:00"
-<<<<<<< HEAD
-=======
-=======
-      "active": "725ad8431d0d7f2b",
-      "mtime": "2024-07-07T17:02:52+02:00"
->>>>>>> 6c792e7a (backup: 2024-07-07T17:02:33+02:00 from MacBook Pro (echo))
->>>>>>> 07f7129b (backup: 2024-07-07T17:02:33+02:00 from MacBook Pro (echo))
->>>>>>> 9acf75ae (backup: 2024-07-07T17:02:33+02:00 from MacBook Pro (echo))
     },
     "pv - ddca": {
       "main": {
@@ -701,9 +670,9 @@
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
                     "page": 2,
-                    "left": 199,
-                    "top": 420,
-                    "zoom": 2.19
+                    "left": -15,
+                    "top": 444,
+                    "zoom": 1.0048821116492919
                   }
                 }
               }
@@ -836,13 +805,13 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "digitalgarden:Digital Garden Publication Center": false,
+          "digitalgarden:Digital Garden Publication Center": true,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
+          "command-palette:Open command palette": false,
+          "graph:Open graph view": false,
           "workspaces:Manage workspace layouts": false,
           "switcher:Open quick switcher": true,
-          "graph:Open graph view": false,
-          "command-palette:Open command palette": false,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
@@ -851,7 +820,7 @@
         }
       },
       "active": "23ae56ed0afad8bc",
-      "mtime": "2024-07-05T19:57:13+02:00"
+      "mtime": "2024-07-07T18:41:34+02:00"
     },
     "pv - a1": {
       "main": {
@@ -1079,5 +1048,5 @@
       "mtime": "2024-07-04T15:13:24+02:00"
     }
   },
-  "active": "pv - ddca"
+  "active": "clean"
 }
