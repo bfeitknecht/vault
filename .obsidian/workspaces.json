@@ -1136,6 +1136,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1152,6 +1153,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1173,7 +1175,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "HOME.md"
+                  }
                 }
               },
               {
@@ -1193,7 +1197,7 @@
                 }
               },
               {
-                "id": "ae26f570d4ef01b0",
+                "id": "5ee2532bdf16f29c",
                 "type": "leaf",
                 "state": {
                   "type": "toggl-report",
@@ -1205,7 +1209,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -1223,8 +1228,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "ae26f570d4ef01b0",
-      "mtime": "2024-07-08T21:12:15+02:00"
+      "active": "a3064afdb91e0b8e",
+      "mtime": "2024-07-08T21:16:31+02:00"
     }
   },
   "active": "HOME"
