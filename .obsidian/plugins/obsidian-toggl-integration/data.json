@@ -1,10 +1,10 @@
 {
-  "apiToken": null,
+  "apiToken": "6efc9aa168160c9a65888a682ead9046",
   "charLimitStatusBar": 40,
   "updateInRealTime": true,
   "workspace": {
-    "id": "none",
-    "name": "None selected"
+    "id": "8518035",
+    "name": "obsidian-integration"
   },
   "hasDismissedAlert": false
 }
