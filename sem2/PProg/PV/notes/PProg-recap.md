@@ -73,3 +73,14 @@ Must override `run()` method!
 
 
 ## Consistency Models
+
+>[!quote]+ What is quiescent consistency?
+>- requires non-overlapping operations to appear to take effect in their realtime order, but overlapping operations might be reordered
+
+
+
+>[!quote]+ What is sequential consistency?
+>- All instructions are executed in order
+>- Every write operation becomes instantaneously visible throughout the system
+>- 
+
