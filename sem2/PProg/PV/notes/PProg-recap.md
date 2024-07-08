@@ -61,18 +61,22 @@ Must override `run()` method!
 
 
 
-## Different Locks
+## Locking Mechanisms
 
 >[!quote]+ Livelock
 >- constant state changes
+>- nobody progress, but CPU is spent on the lock mechanism and not calculation
 >- "two people are in each other's way and both keep avoiding in the same direction"
 
 
 >[!quote]+ Deadlock
->- no one does any work
+>- situation where no process progress, sleeping, waiting, etc
+>- CPU usage will be low
 
 
 >[!quote]+ Spinlock
+>- technique of avoiding the cost waiting the lock to be freed
+>___
 >sometimes the scheduler's management of letting the thread access the lock takes too much time, so we just check it and busy spin until it's free
 
 
@@ -82,7 +86,8 @@ Must override `run()` method!
 
 
 
-
+## Starvation
+situation where one procress never gets the chance to run; by pure bad luck or by some of its property (low priority, for example)
 
 
 
