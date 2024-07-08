@@ -20,6 +20,7 @@ title "Time this Week"
 
 ```toggl
 list today
-group by 
+group by project
 title "Time Today"
 ```
+

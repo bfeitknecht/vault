@@ -1050,7 +1050,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "HOME.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "source": false
                   }
                 }
@@ -1136,7 +1136,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1153,7 +1152,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1175,9 +1173,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -1195,14 +1191,21 @@
                   "type": "git-history-view",
                   "state": {}
                 }
+              },
+              {
+                "id": "ae26f570d4ef01b0",
+                "type": "leaf",
+                "state": {
+                  "type": "toggl-report",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 6
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -1220,8 +1223,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "a3064afdb91e0b8e",
-      "mtime": "2024-07-08T19:15:16+02:00"
+      "active": "ae26f570d4ef01b0",
+      "mtime": "2024-07-08T21:12:15+02:00"
     }
   },
   "active": "HOME"
