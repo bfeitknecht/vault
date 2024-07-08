@@ -70,6 +70,8 @@ Must override `run()` method!
 
 
 >[!quote]+ Deadlock
+>Deadlock is a condition in which a task waits indefinitely for conditions that can never be satisfied - task claims exclusive control over shared resources - task holds resources while waiting for other resources to be released - tasks cannot be forced to relinquish resources - a circular waiting condition exists
+>___
 >- situation where no process progress, sleeping, waiting, etc
 >- CPU usage will be low
 
