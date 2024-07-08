@@ -57,11 +57,17 @@ Must override `run()` method!
 
 
 
+## Amdahl's Law
+aha
 
 
 
+## Gustafson's Law
+gg
 
-## Locking Mechanisms
+
+
+## Locking Problems
 
 >[!quote]+ Livelock
 >- constant state changes
@@ -80,19 +86,14 @@ Must override `run()` method!
 
 
 >[!quote]+ Spinlock
->- technique of avoiding the cost waiting the lock to be freed
+>- technique of avoiding the cost of waiting for the lock to be freed
 >___
 >sometimes the scheduler's management of letting the thread access the lock takes too much time and/or resources, so we just check it and busy wait (spin) until it's free
 
 
-
-
-
-
-
-
-## Starvation
-situation where a process never gets the chance to run, by pure bad luck or by some of its property (low priority)
+>[!quote] Starvation
+>situation where a process never gets the chance to run, by pure bad luck or by some of its
+>property (low priority)
 
 
 
