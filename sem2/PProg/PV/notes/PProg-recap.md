@@ -1,3 +1,4 @@
+
 - [ ] add gustafson's law ➕ 2024-07-08
 
 
