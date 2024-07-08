@@ -65,7 +65,17 @@ Must override `run()` method!
 
 >[!quote]+ Livelock
 >- constant state changes
->- "two people are in each other's way and both go in the same direction"
+>- "two people are in each other's way and both keep avoiding in the same direction"
+
+
+>[!quote]+ Deadlock
+>- no one does any work
+
+
+>[!quote]+ Spinlock
+>sometimes the scheduler's management of letting the thread access the lock takes too much time, so we just check it and busy spin until it's free
+
+
 
 
 
@@ -85,7 +95,7 @@ Must override `run()` method!
 >[!quote]+ What is sequential consistency?
 >- All instructions are executed in order
 >- Every write operation becomes instantaneously visible throughout the system
->>[!idea] Inventor's two cents
+>>[!idea]+ Inventor's two cents
 >> "...the results of any execution is the same as if the operations of all the processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program."
 
 
