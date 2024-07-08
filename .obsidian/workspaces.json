@@ -424,47 +424,33 @@
                 }
               },
               {
-                "id": "28060cc3a0ac53cf",
+                "id": "e9dd04d300b3c28a",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/PProg/UE/e/PProg-u03-e.pdf",
+                    "file": "sem2/PProg/VRL/extra/PProg-terminoligy.pdf",
                     "page": 1,
                     "zoom": 1
                   }
                 }
               },
               {
-                "id": "2db0380c514ebefe",
+                "id": "feb3adef7b66f9c6",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/PProg/VRL/extra/benji/PProg-w04-benji.pdf",
-                    "page": 72,
-                    "left": 3,
-                    "top": 57,
-                    "zoom": 1.1156140195470514
-                  }
-                }
-              },
-              {
-                "id": "725ad8431d0d7f2b",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/PProg/VRL/extra/benji/PProg-w05-benji.pdf",
-                    "page": 34,
-                    "left": -13,
-                    "top": 276,
-                    "zoom": 1.175
+                    "file": "sem2/PProg/VRL/extra/benji/PProg-w13-benji.pdf",
+                    "page": 56,
+                    "left": -202,
+                    "top": 225,
+                    "zoom": 0.78
                   }
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -530,7 +516,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/PProg/VRL/extra/benji/PProg-w05-benji.pdf",
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -547,7 +533,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/PProg/VRL/extra/benji/PProg-w05-benji.pdf",
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -570,7 +556,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/PProg/VRL/extra/benji/PProg-w05-benji.pdf"
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md"
                   }
                 }
               },
@@ -614,8 +600,8 @@
           "digitalgarden:Digital Garden Publication Center": true
         }
       },
-      "active": "725ad8431d0d7f2b",
-      "mtime": "2024-07-05T14:39:11+02:00"
+      "active": "54fc4e5ed3576cdb",
+      "mtime": "2024-07-08T17:55:58+02:00"
     },
     "pv - ddca": {
       "main": {

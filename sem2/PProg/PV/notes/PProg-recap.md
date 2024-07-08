@@ -91,9 +91,8 @@ gg
 >sometimes the scheduler's management of letting the thread access the lock takes too much time and/or resources, so we just check it and busy wait (spin) until it's free
 
 
->[!quote] Starvation
->situation where a process never gets the chance to run, by pure bad luck or by some of its
->property (low priority)
+>[!quote]+ Starvation
+>situation where a process never gets the chance to run, by pure bad luck or by some of its property (low priority)
 
 
 
