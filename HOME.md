@@ -1,5 +1,6 @@
 
 
 ```dataview
-table TASK
+TASK 
+WHERE !fullyCompleted
 ```
