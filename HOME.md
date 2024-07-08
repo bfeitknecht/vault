@@ -10,4 +10,16 @@ sort by description
 ```
 
 
+
+```toggl
+summary week
+title "Time this Week"
+```
+
+
+
+```toggl
+list today
+group by 
+title "Time Today"
 ```
