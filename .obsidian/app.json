@@ -15,5 +15,6 @@
   "newFileLocation": "current",
   "spellcheckDictionary": [
     "LUTs"
-  ]
+  ],
+  "showRibbon": true
 }
