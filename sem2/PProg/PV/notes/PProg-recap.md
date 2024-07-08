@@ -61,7 +61,11 @@ Must override `run()` method!
 
 
 
+## Different Locks
 
+>[!quote]+ Livelock
+>- constant state changes
+>- "two people are in each other's way and both go in the same direction"
 
 
 
@@ -90,5 +94,5 @@ Sequential consistency and quiescent consistency are incomparable, there exist s
 
 >[!quote]+ What is linearizability?
 >- Linearizability provides the illusion that each operation applied by concurrent processes takes effect instantaneously between its invocation and its response
->- "can we make one single history without reordering"
+>- "can we project onto a single history without reordering"
 
