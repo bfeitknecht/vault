@@ -78,9 +78,17 @@ Must override `run()` method!
 >- requires non-overlapping operations to appear to take effect in their realtime order, but overlapping operations might be reordered
 
 
-
 >[!quote]+ What is sequential consistency?
 >- All instructions are executed in order
 >- Every write operation becomes instantaneously visible throughout the system
->- 
+>>[!idea] Inventor's two cents
+>> "...the results of any execution is the same as if the operations of all the processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program."
+
+
+Sequential consistency and quiescent consistency are incomparable, there exist sequentially consistent executions that are not quiescently consistent, and vice versa.
+
+
+>[!quote]+ What is linearizability?
+>- Linearizability provides the illusion that each operation applied by concurrent processes takes effect instantaneously between its invocation and its response
+>- "can we make one single history"
 
