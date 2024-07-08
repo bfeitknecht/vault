@@ -2,10 +2,10 @@
   "version": 4,
   "homepages": {
     "Main Homepage": {
-      "value": "clean",
-      "kind": "Graph view",
+      "value": "HOME",
+      "kind": "Workspace",
       "openOnStartup": true,
-      "openMode": "Replace all open notes",
+      "openMode": "Keep open notes",
       "manualOpenMode": "Keep open notes",
       "view": "Default view",
       "revertView": true,
@@ -14,7 +14,12 @@
       "autoCreate": false,
       "autoScroll": false,
       "pin": false,
-      "commands": [],
+      "commands": [
+        {
+          "id": "persistent-graph:restore-node-positions",
+          "period": "Both"
+        }
+      ],
       "alwaysApply": false,
       "hideReleaseNotes": false
     }
