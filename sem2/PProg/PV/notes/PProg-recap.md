@@ -87,7 +87,7 @@ Must override `run()` method!
 
 
 ## Starvation
-situation where one procress never gets the chance to run; by pure bad luck or by some of its property (low priority, for example)
+situation where one process never gets the chance to run, by pure bad luck or by some of its property (low priority)
 
 
 
