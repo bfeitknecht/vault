@@ -444,7 +444,7 @@
                     "file": "sem2/PProg/VRL/extra/benji/PProg-w13-benji.pdf",
                     "page": 56,
                     "left": -202,
-                    "top": 229,
+                    "top": 233,
                     "zoom": 0.78
                   }
                 }
@@ -602,7 +602,7 @@
         }
       },
       "active": "feb3adef7b66f9c6",
-      "mtime": "2024-07-08T18:35:29+02:00"
+      "mtime": "2024-07-08T18:40:06+02:00"
     },
     "pv - ddca": {
       "main": {
@@ -658,7 +658,7 @@
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
                     "page": 2,
                     "left": -15,
-                    "top": 444,
+                    "top": 448,
                     "zoom": 1.0048821116492919
                   }
                 }
@@ -792,6 +792,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "homepage:Open homepage": false,
           "digitalgarden:Digital Garden Publication Center": true,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
@@ -807,7 +808,7 @@
         }
       },
       "active": "23ae56ed0afad8bc",
-      "mtime": "2024-07-07T18:41:34+02:00"
+      "mtime": "2024-07-08T18:40:01+02:00"
     },
     "pv - a1": {
       "main": {
@@ -1200,8 +1201,8 @@
         }
       },
       "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-07-08T18:36:12+02:00"
+      "mtime": "2024-07-08T18:39:59+02:00"
     }
   },
-  "active": "HOME"
+  "active": "pv - pprog"
 }
