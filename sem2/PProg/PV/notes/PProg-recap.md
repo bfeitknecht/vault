@@ -79,8 +79,6 @@ Must override `run()` method!
 >>4. circular wait condition (must be a circular chain of 2 or more processes and each is waiting for resource held by the next member of the chain)
 
 
-
-
 >[!quote]+ Spinlock
 >- technique of avoiding the cost waiting the lock to be freed
 >___
@@ -94,7 +92,7 @@ Must override `run()` method!
 
 
 ## Starvation
-situation where one process never gets the chance to run, by pure bad luck or by some of its property (low priority)
+situation where a process never gets the chance to run, by pure bad luck or by some of its property (low priority)
 
 
 
