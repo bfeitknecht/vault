@@ -17,5 +17,6 @@
   "obsidian-languagetool-plugin",
   "homepage",
   "obsidian-tasks-plugin",
-  "dataview"
+  "dataview",
+  "obsidian-toggl-integration"
 ]
