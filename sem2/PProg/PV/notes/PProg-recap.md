@@ -65,7 +65,7 @@ Must override `run()` method!
 
 >[!quote]+ Livelock
 >- constant state changes
->- nobody progress, but CPU is spent on the lock mechanism and not calculation
+>- no progress, but CPU is spent on the lock mechanism and can't get to critical section
 >- "two people are in each other's way and both keep avoiding in the same direction"
 
 
