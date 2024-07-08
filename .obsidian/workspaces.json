@@ -443,14 +443,14 @@
                   "state": {
                     "file": "sem2/PProg/VRL/extra/benji/PProg-w13-benji.pdf",
                     "page": 56,
-                    "left": -202,
-                    "top": 237,
-                    "zoom": 0.78
+                    "left": -13,
+                    "top": 245,
+                    "zoom": 1.175
                   }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -516,7 +516,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/PProg/VRL/extra/benji/PProg-w13-benji.pdf",
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -533,7 +533,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/PProg/VRL/extra/benji/PProg-w13-benji.pdf",
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -556,7 +556,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/PProg/VRL/extra/benji/PProg-w13-benji.pdf"
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md"
                   }
                 }
               },
@@ -597,12 +597,11 @@
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
           "mermaid-tools:Open Mermaid Toolbar": true,
-          "digitalgarden:Digital Garden Publication Center": true,
           "homepage:Open homepage": false
         }
       },
-      "active": "feb3adef7b66f9c6",
-      "mtime": "2024-07-08T18:52:02+02:00"
+      "active": "54fc4e5ed3576cdb",
+      "mtime": "2024-07-08T19:15:20+02:00"
     },
     "pv - ddca": {
       "main": {
@@ -1208,7 +1207,6 @@
       "left-ribbon": {
         "hiddenItems": {
           "homepage:Open homepage": true,
-          "digitalgarden:Digital Garden Publication Center": true,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "command-palette:Open command palette": false,
@@ -1223,7 +1221,7 @@
         }
       },
       "active": "a3064afdb91e0b8e",
-      "mtime": "2024-07-08T18:58:27+02:00"
+      "mtime": "2024-07-08T19:15:16+02:00"
     }
   },
   "active": "pv - pprog"
