@@ -77,7 +77,7 @@ Must override `run()` method!
 >[!quote]+ Spinlock
 >- technique of avoiding the cost waiting the lock to be freed
 >___
->sometimes the scheduler's management of letting the thread access the lock takes too much time, so we just check it and busy spin until it's free
+>sometimes the scheduler's management of letting the thread access the lock takes too much time and/or resources, so we just check it and busy wait (spin) until it's free
 
 
 
