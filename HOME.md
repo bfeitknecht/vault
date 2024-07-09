@@ -18,9 +18,9 @@ TITLE "Time this Week"
 
 ```toggl
 LIST TODAY
-GROUP BY PROJECT
 TITLE "Time Today"
 ```
--->
+
+
 
 

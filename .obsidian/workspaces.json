@@ -408,10 +408,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
-                    "page": 10,
-                    "left": -9,
-                    "top": 561,
-                    "zoom": 1.7991654291454724
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -434,10 +432,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/VRL/extra/PProg-terminoligy.pdf",
-                    "page": 2,
-                    "left": -9,
-                    "top": 374,
-                    "zoom": 1.8001211375636101
+                    "page": 1,
+                    "left": -59,
+                    "top": 390,
+                    "zoom": 1.23
                   }
                 }
               },
@@ -454,7 +452,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -520,7 +518,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
+                    "file": "sem2/PProg/VRL/extra/PProg-terminoligy.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -537,7 +535,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
+                    "file": "sem2/PProg/VRL/extra/PProg-terminoligy.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -560,7 +558,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/PProg/PV/notes/PProg-recap.md"
+                    "file": "sem2/PProg/VRL/extra/PProg-terminoligy.pdf"
                   }
                 }
               },
@@ -605,8 +603,8 @@
           "mermaid-tools:Open Mermaid Toolbar": true
         }
       },
-      "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-07-09T15:22:46+02:00"
+      "active": "e9dd04d300b3c28a",
+      "mtime": "2024-07-09T20:12:18+02:00"
     },
     "pv - ddca": {
       "main": {
@@ -1216,7 +1214,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -1236,8 +1235,8 @@
         }
       },
       "active": "84d6179a41f3d7a6",
-      "mtime": "2024-07-09T15:24:33+02:00"
+      "mtime": "2024-07-09T20:10:11+02:00"
     }
   },
-  "active": "HOME"
+  "active": "pv - auw"
 }

@@ -69,7 +69,7 @@ Must override `run()` method!
 >$$
 >S_{P} \leq \frac{1}{\mathbf{f}+\frac{1-\mathbf{f}}{P}}
 >$$
->Where, as the number of processors increases to infinity, the speedup approaches the reciprocal of the serial fraction. $P \overset{\infty}{\rightarrow} S_{\infty} \leq \frac{1}{\mathbf{f}}$.
+>Where, as the number of processors increases to infinity, the speedup approaches the reciprocal of the program's serial fraction. $P \overset{\infty}{\rightarrow} S_{\infty} \leq \frac{1}{\mathbf{f}}$.
 >Amdahl’s law is based on the assumption that the problem size is fixed and that the time is minimized.
 
 
