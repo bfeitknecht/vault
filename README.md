@@ -10,4 +10,5 @@ git clone https://github.com/bs10x/vault.git
 ``` 
 
 
-- [ ] configure commander plugin to enter "zen mode" 🔽 ➕ 2024-07-09
+>[!tldr] Roadmap
+>- [ ] configure commander plugin to enter "zen mode" 🔽 ➕ 2024-07-09

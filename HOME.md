@@ -1,14 +1,14 @@
 
->[!danger] To Do
+>[!example]+ To Do
 >```tasks
 >not done
 >group by filename
 >```
 
 
->[!done] Done this Week
+>[!done]- Done this Week
 >```tasks
->done
+>done this week
 >group by filename
 >```
 
