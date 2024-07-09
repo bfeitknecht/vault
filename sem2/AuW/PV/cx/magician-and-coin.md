@@ -17,6 +17,7 @@ public static void testCase() {
 }
 ```
 
+
 >[!quote] Definitions
 >1. compute the probability that we surpass the target after n rounds
 >$\mathrm{P}[X] \overset{?}{=} k > m_{n}$
@@ -24,13 +25,13 @@ public static void testCase() {
 >2. how many days correlates with how likely to surpass target
 >$n \sim c$
 >
->3. how close to target inversely correlates with 2
+>3. how close to target inversely correlates with (2.)
 >$| m - k | \ \widehat{\sim} \ c$
 >
->4. bet has to be an integer
+>4. bet has to be a non-negative integer (can be zero)
 >$b_{i} \in \mathbb N_{0}$
 >
->5. 
+>5. compute partial probabilities (?)
 >$\mathrm{P}[X_{i}] =$ "surpass $m$ at round $i$"
 
 
