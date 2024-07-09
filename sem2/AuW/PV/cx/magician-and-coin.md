@@ -17,18 +17,21 @@ public static void testCase() {
 }
 ```
 
-$\mathrm{P}[X] \overset{?}{=} k > m$
-
-how many days correlates with how likely to surpass target
-$n \sim c$
-
-how close to target inversely correlates with dito 
-$| m - k | \ \widehat{\sim} \ c$
-
-bet has to be an integer
-$b_{i} \in \mathbb N_{0}$
-
-$\mathrm{P}[X_{i}] =$ "surpass $m$ at round $i$"
+>[!quote] Definitions
+>1. compute the probability that we surpass the target after n rounds
+>$\mathrm{P}[X] \overset{?}{=} k > m_{n}$
+>
+>2. how many days correlates with how likely to surpass target
+>$n \sim c$
+>
+>3. how close to target inversely correlates with 2
+>$| m - k | \ \widehat{\sim} \ c$
+>
+>4. bet has to be an integer
+>$b_{i} \in \mathbb N_{0}$
+>
+>5. 
+>$\mathrm{P}[X_{i}] =$ "surpass $m$ at round $i$"
 
 
 ## Intuition
