@@ -1149,7 +1149,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1166,7 +1165,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1188,9 +1186,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -1218,7 +1214,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 5
           }
         ],
         "direction": "horizontal",
@@ -1242,9 +1238,9 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "84d6179a41f3d7a6",
-      "mtime": "2024-07-09T20:10:11+02:00"
+      "active": "414cefd1625961b6",
+      "mtime": "2024-07-09T20:22:34+02:00"
     }
   },
-  "active": "HOME"
+  "active": "pv - pprog"
 }

@@ -1,7 +1,7 @@
 
 - [x] add gustafson's law ➕ 2024-07-08 ✅ 2024-07-09
 - [x] add amdahl's law ➕ 2024-07-08 ✅ 2024-07-09
-
+- [ ] add  
 ## How to create and run a Thread
 
 In Java, there’s the `java.lang.Thread` class for managing Threads. The most important methods are:
