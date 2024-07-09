@@ -20,11 +20,11 @@ public static void testCase() {
 $n \sim c$
 $| m - k | \ \widehat{\sim} \ c$ 
 
-X :\= 
+$\mathrm{P}[X_{i}] =$ "chance to surpass $m$ at round $i$"
 
 intuition:
 
-when p is high, bet high, when p is low, bet low
+when p is high, bet high, else bet low
 \=> maximize win, minimize loss
 
 probability that k surpasses m is given by n, m, k and p_i
