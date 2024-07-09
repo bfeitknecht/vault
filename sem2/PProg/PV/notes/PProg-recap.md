@@ -128,9 +128,6 @@ Must override `run()` method!
 >- "two people are in each other's way and both keep avoiding in the same direction"
 
 
-
-
-
 >[!quote]+ Spinlock
 >- technique of avoiding the cost of waiting for the lock to be freed
 >___
