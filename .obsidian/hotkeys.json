@@ -70,14 +70,6 @@
   "workspace:edit-file-title": [],
   "app:open-help": [],
   "workspace:next-tab": [],
-  "workspaces:save-and-load": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "Tab"
-    }
-  ],
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
@@ -94,6 +86,22 @@
         "Shift"
       ],
       "key": "S"
+    }
+  ],
+  "workspaces:save-and-load": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "cycle-through-panes:cycle-through-panes": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Tab"
     }
   ]
 }
