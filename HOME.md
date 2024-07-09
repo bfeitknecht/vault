@@ -1,21 +1,16 @@
 
-## To Do
-```tasks
-not done
+>[!danger] To Do
+>```tasks
+>not done
+>group by filename
+>```
 
-group by filename
 
-sort by due reverse
-sort by description
-```
-
-## Done this Week
-```tasks
-done
-
-group by filename
-```
-
+>[!done] Done this Week
+>```tasks
+>done
+>group by filename
+>```
 
 ```toggl
 SUMMARY WEEK
