@@ -16,6 +16,6 @@ public static void testCase() {
 ```
 
 
-$n \sim c$
-$| m - k | \propto c$ 
+$n \propto c$
+$| m - k | \hat{\propto} c$ 
 
