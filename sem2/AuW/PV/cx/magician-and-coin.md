@@ -17,6 +17,7 @@ public static void testCase() {
 ```
 
 
-$n \propto c$
-$| m - k | \ \widehat{\propto} \ c$ 
+$n \sim c$
+$| m - k | \ \widehat{\sim} \ c$ 
 
+X :\= 
