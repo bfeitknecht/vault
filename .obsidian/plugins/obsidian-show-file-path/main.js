@@ -74,7 +74,7 @@ function getNodeForPathPart(part, includeIcon) {
             fragment.appendText(part.name);
             break;
         case 2 /* SEPARATOR */:
-            fragment.appendText(` » `);
+            fragment.appendText(` / `);
             break;
     }
     return fragment;
