@@ -1040,11 +1040,11 @@
         "type": "split",
         "children": [
           {
-            "id": "f6ef24d1326bfb1a",
+            "id": "530c567c42d9a199",
             "type": "tabs",
             "children": [
               {
-                "id": "a3064afdb91e0b8e",
+                "id": "84d6179a41f3d7a6",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -1195,17 +1195,9 @@
                   "type": "git-history-view",
                   "state": {}
                 }
-              },
-              {
-                "id": "5ee2532bdf16f29c",
-                "type": "leaf",
-                "state": {
-                  "type": "toggl-report",
-                  "state": {}
-                }
               }
             ],
-            "currentTab": 6
+            "currentTab": 5
           }
         ],
         "direction": "horizontal",
@@ -1225,11 +1217,13 @@
           "zk-prefixer:Create new unique note": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "smart-connections:Open: View Smart Connections": false,
+          "smart-connections:Open: Smart Chat Conversation": false
         }
       },
-      "active": "a3064afdb91e0b8e",
-      "mtime": "2024-07-08T21:16:31+02:00"
+      "active": "84d6179a41f3d7a6",
+      "mtime": "2024-07-09T09:21:58+02:00"
     }
   },
   "active": "HOME"
