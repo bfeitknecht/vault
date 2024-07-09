@@ -49,7 +49,7 @@
       },
       "cmdr-cmdr-adder;1": {
         "position": 9,
-        "visible": true,
+        "visible": false,
         "exists": true
       },
       "plugin-obsidian-git-obsidian-git-statusbar-failed-init-obsidian-git-statusbar-idle-obsidian-git-statusbar-status-obsidian-git-statusbar-pull-obsidian-git-statusbar-message;1": {

@@ -22,10 +22,10 @@ public static void testCase() {
 >1. compute the probability that we surpass the target after n rounds
 >$\mathrm{P}[X] \overset{?}{=} k > m_{n}$
 >
->2. how many days correlates with how likely to surpass target
+>2. how many days correlates with (1.)
 >$n \sim c$
 >
->3. how close to target inversely correlates with (2.)
+>3. how close to target inversely correlates with (1.)
 >$| m - k | \ \widehat{\sim} \ c$
 >
 >4. bet has to be a non-negative integer (can be zero)
@@ -34,7 +34,6 @@ public static void testCase() {
 >5. compute partial probabilities (?)
 >$\mathrm{P}[X_{i}] =$ "surpass $m$ at round $i$"
 
-
 ## Intuition
 - when $p_{i}$ is high, bet high, else bet low \=> maximize win, minimize loss
-- $b_{i} = p_{i}\min(|m-k|, k)$, so bet less when close to target
+- $b_{i} = p_{i} \cdot \min(|m-k|, k)$, so bet less when close to target
