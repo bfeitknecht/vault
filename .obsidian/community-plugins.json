@@ -18,7 +18,5 @@
   "homepage",
   "obsidian-tasks-plugin",
   "dataview",
-  "better-word-count",
-  "obsidian-full-calendar",
-  "obsidian-custom-frames"
+  "better-word-count"
 ]
