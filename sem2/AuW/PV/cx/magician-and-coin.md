@@ -16,5 +16,6 @@ public static void testCase() {
 ```
 
 
-n ~ chance
-| m - k | /~ chance
+$n \sim c$
+$| m - k | \propto c$ 
+
