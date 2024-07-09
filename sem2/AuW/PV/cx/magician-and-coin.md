@@ -9,7 +9,7 @@ public static void testCase() {
 	double[] p = new double[n];
 	for (int i = 0; i < n; i++) {
 		p[i] = In.readDouble();
-		double b = p[i] * Math.abs(m - k);
+		double b = p[i] * Math.min(Math.abs(m - k), k);
 	}
 	
 	
@@ -23,5 +23,5 @@ $\mathrm{P}[X_{i}] =$ "chance to surpass $m$ at round $i$"
 
 ## Intuition
 - when p is high, bet high, else bet low \=> maximize win, minimize loss
-- $b_{i} = p_{i}|m-k|$, so bet less when close to want
+- $b_{i} = p_{i}\min(|m-k|, k)$, so bet less when close to target
 - probability that k surpasses m is given by n, m, k and p_i
