@@ -16,15 +16,11 @@ public static void testCase() {
 }
 ```
 
-
 $n \sim c$
 $| m - k | \ \widehat{\sim} \ c$ 
-
 $\mathrm{P}[X_{i}] =$ "chance to surpass $m$ at round $i$"
 
-intuition:
-
-when p is high, bet high, else bet low
-\=> maximize win, minimize loss
-
-probability that k surpasses m is given by n, m, k and p_i
+## Intuition
+- when p is high, bet high, else bet low \=> maximize win, minimize loss
+- bet $p_{i}k$, that way $b \sim p_{i}$
+- probability that k surpasses m is given by n, m, k and p_i
