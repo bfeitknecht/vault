@@ -21,3 +21,10 @@ $n \sim c$
 $| m - k | \ \widehat{\sim} \ c$ 
 
 X :\= 
+
+intuition:
+
+when p is high, bet high, when p is low, bet low
+\=> maximize win, minimize loss
+
+probability that k surpasses m is given by n, m, k and p_i
