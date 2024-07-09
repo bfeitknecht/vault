@@ -4,18 +4,19 @@ public static void testCase() {
 	int n = In.readInt();    // days
 	double k = In.readInt();    // have
 	double m = In.readInt();    // want
+	double c = 0.0;		// chance
 	
 	double[] p = new double[n];
 	for (int i = 0; i < n; i++) {
 		p[i] = In.readDouble();
 	}
 	
-	double chance = 0.0;
-	Out.println(chance);
+	
+	Out.println(c);
 }
 ```
 
 
 $n \propto c$
-$| m - k | \hat{\propto} c$ 
+$| m - k | \ \widehat{\propto} \ c$ 
 
