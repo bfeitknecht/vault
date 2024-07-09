@@ -94,12 +94,22 @@ Must override `run()` method!
 
 
 
-## Locking Problems
+## Locks
 
->[!quote]+ Livelock
->- constant state changes
->- no progress, but CPU is spent on the lock mechanism and can't get to critical section
->- "two people are in each other's way and both keep avoiding in the same direction"
+>[!quote]+ What is a Lock?
+>a lock
+
+>[!quote]+ Some Common Types of Locks
+>>[!idea]- Baker's Lock
+>>bread
+
+>[!quote]+ Problems with Locking
+>>[!idea]- Deadlock
+>>dead
+>>
+>
+>>[!idea]- Livelock
+>>alive
 
 
 >[!quote]+ Deadlock
@@ -110,6 +120,15 @@ Must override `run()` method!
 >>2. hold and wait condition (process holding resources and at the same time it can ask other resources)
 >>3. no preemption condition (previously granted resources can not forcibly be taken away)
 >>4. circular wait condition (must be a circular chain of 2 or more processes and each is waiting for resource held by the next member of the chain)
+
+
+>[!quote]+ Livelock
+>- constant state changes
+>- no progress, but CPU is spent on the lock mechanism and can't get to critical section
+>- "two people are in each other's way and both keep avoiding in the same direction"
+
+
+
 
 
 >[!quote]+ Spinlock
