@@ -408,8 +408,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 10,
+                    "left": -9,
+                    "top": 561,
+                    "zoom": 1.7991654291454724
                   }
                 }
               },
@@ -432,8 +434,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/VRL/extra/PProg-terminoligy.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 2,
+                    "left": -9,
+                    "top": 374,
+                    "zoom": 1.8001211375636101
                   }
                 }
               },
@@ -601,8 +605,8 @@
           "mermaid-tools:Open Mermaid Toolbar": true
         }
       },
-      "active": "54fc4e5ed3576cdb",
-      "mtime": "2024-07-09T14:45:15+02:00"
+      "active": "d4d9e5cf2cd5e94b",
+      "mtime": "2024-07-09T15:22:46+02:00"
     },
     "pv - ddca": {
       "main": {
@@ -1053,7 +1057,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "HOME.md",
-                    "mode": "source",
+                    "mode": "preview",
                     "source": false
                   }
                 }
@@ -1198,14 +1202,21 @@
                   "type": "git-view",
                   "state": {}
                 }
+              },
+              {
+                "id": "df8e8e11fe3e136a",
+                "type": "leaf",
+                "state": {
+                  "type": "toggl-report",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 5
+            "currentTab": 6
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -1225,8 +1236,8 @@
         }
       },
       "active": "84d6179a41f3d7a6",
-      "mtime": "2024-07-09T15:09:43+02:00"
+      "mtime": "2024-07-09T15:24:33+02:00"
     }
   },
-  "active": "pv - pprog"
+  "active": "HOME"
 }
