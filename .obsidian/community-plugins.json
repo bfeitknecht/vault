@@ -17,5 +17,6 @@
   "homepage",
   "obsidian-tasks-plugin",
   "better-word-count",
-  "dataview"
+  "dataview",
+  "obsidian-toggl-integration"
 ]
