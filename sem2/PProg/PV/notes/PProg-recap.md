@@ -64,8 +64,21 @@ Must override `run()` method!
 >[!quote]+ What is Amdahl's Law?
 >>[!idea]- Terminoligy
 >>"Specifies the maximum amount of speedup that can be achieved for a program with a given sequential part. The pessimistic view on scalability."
->![[PProg-pvw-script.pdf#page=10&rect=262,718,336,755|PProg-pvw-script, p.9]]
 >
+>![[PProg-pvw-script.pdf#page=10&rect=73,719,520,784|PProg-pvw-script, p.9]]
+
+
+Let $\mathbf{f}$ denote the non-parallelizable, serial fraction of the total work done in a program and $P$ the number of processors at our disposal. Then, the following inequality holds:
+$$
+S_{P} \leq \frac{1}{\mathbf{f}+\frac{1-\mathbf{f}}{P}}
+$$
+Where, as $P\overset{\infty}{\rightarrow}$
+
+
+
+
+
+
 
 
 ## Gustafson's Law
