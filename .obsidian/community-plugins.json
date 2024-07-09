@@ -17,7 +17,9 @@
   "homepage",
   "obsidian-tasks-plugin",
   "dataview",
-  "obsidian-toggl-integration",
   "obsidian-statusbar-pomo",
-  "better-word-count"
+  "better-word-count",
+  "obsidian-show-file-path",
+  "statusbar-organizer",
+  "obsidian-toggl-integration"
 ]
