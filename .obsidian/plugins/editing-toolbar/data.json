@@ -1,5 +1,5 @@
 {
-  "aestheticStyle": "tiny",
+  "aestheticStyle": "glass",
   "positionStyle": "top",
   "menuCommands": [
     {
@@ -278,6 +278,11 @@
       "id": "editing-toolbar:workplace-fullscreen-focus",
       "name": "workplace-Fullscreen ",
       "icon": "exit-fullscreen"
+    },
+    {
+      "id": "workspace:export-pdf",
+      "name": "Export to PDF...",
+      "icon": "pdf-file"
     }
   ],
   "appendMethod": "body",

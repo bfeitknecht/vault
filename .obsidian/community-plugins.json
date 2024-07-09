@@ -16,8 +16,8 @@
   "persistent-graph",
   "homepage",
   "obsidian-tasks-plugin",
-  "better-word-count",
   "dataview",
   "obsidian-toggl-integration",
-  "obsidian-statusbar-pomo"
+  "obsidian-statusbar-pomo",
+  "better-word-count"
 ]
