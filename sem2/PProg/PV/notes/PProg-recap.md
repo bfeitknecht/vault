@@ -1,4 +1,4 @@
-
+i
 - [ ] add gustafson's law ➕ 2024-07-08
 - [ ] add amdahl's law ➕ 2024-07-08
 
