@@ -11,7 +11,7 @@ sort by description
 
 
 
-<!--plugin doesn't work-->
+<!--plugin doesn't work, wait until its prs are merged-->
 <!--
 ```toggl
 summary week
