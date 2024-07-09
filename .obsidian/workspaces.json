@@ -182,7 +182,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem2/AuW/PV/cx/game-of-skill.md",
+                    "file": "sem2/AuW/PV/cx/magician-and-coin.md",
                     "mode": "source",
                     "source": false
                   }
@@ -236,8 +236,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -304,7 +303,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md",
+                    "file": "sem2/AuW/PV/cx/magician-and-coin.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -321,7 +320,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md",
+                    "file": "sem2/AuW/PV/cx/magician-and-coin.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -344,7 +343,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md"
+                    "file": "sem2/AuW/PV/cx/magician-and-coin.md"
                   }
                 }
               },
@@ -397,8 +396,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-07-09T20:20:35+02:00"
+      "active": "42ca9b18aeb2477f",
+      "mtime": "2024-07-09T22:52:04+02:00"
     },
     "pv - pprog": {
       "main": {
@@ -1254,5 +1253,5 @@
       "mtime": "2024-07-09T20:22:34+02:00"
     }
   },
-  "active": "pv - auw"
+  "active": "HOME"
 }

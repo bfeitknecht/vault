@@ -22,7 +22,7 @@ public static void testCase() {
 >1. compute the probability that we surpass the target after n rounds
 >$\mathrm{P}[X] \overset{?}{=} k > m_{n}$
 >
->2. how many days correlates with (1.)
+>2. how many days correlates with (1)
 >$n \sim c$
 >
 >3. how close to target inversely correlates with (1.)
