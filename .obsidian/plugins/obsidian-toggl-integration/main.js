@@ -26225,6 +26225,18 @@ var MyPlugin = class extends import_obsidian10.Plugin {
       id: "stop-timer",
       name: "Stop Toggl Timer"
     });
+    this.addCommand({
+      checkCallback: (checking) => {
+        if (!checking) {
+          new Notice('Reconnecting to Toggl...')
+          this.toggl.setToken(this.settings.apiToken);
+        } else {
+          return this.settings.apiToken != null || this.settings.apiToken != "";
+        }
+      },
+      id: "refresh-api",
+      name: "Refresh API Connection",
+    });
     this.registerView(
       VIEW_TYPE_REPORT,
       (leaf) => this.reportView = new TogglReportView(leaf, this)

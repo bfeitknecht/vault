@@ -18,6 +18,10 @@
         {
           "id": "persistent-graph:restore-node-positions",
           "period": "Both"
+        },
+        {
+          "id": "obsidian-toggl-integration:refresh-api",
+          "period": "Both"
         }
       ],
       "alwaysApply": false,
