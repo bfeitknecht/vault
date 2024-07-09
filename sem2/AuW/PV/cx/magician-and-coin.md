@@ -17,9 +17,10 @@ public static void testCase() {
 }
 ```
 
-$n \sim c$
-$| m - k | \ \widehat{\sim} \ c$ 
-$\mathrm{P}[X_{i}] =$ "chance to surpass $m$ at round $i$"
+$n \sim c$				how many days correlates with how likely to surpass target
+$| m - k | \ \widehat{\sim} \ c$		how close to target inversely correlates with dito 
+$b_{i} \in \mathbb N_{0}$				bet has to be an integer
+$\mathrm{P}[X_{i}] =$ "surpass $m$ at round $i$"
 
 ## Intuition
 - when p is high, bet high, else bet low \=> maximize win, minimize loss
