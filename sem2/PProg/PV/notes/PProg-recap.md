@@ -64,6 +64,7 @@ Must override `run()` method!
 >[!quote]+ What is Amdahl's Law?
 >>[!idea]- Terminoligy
 >>"Specifies the maximum amount of speedup that can be achieved for a program with a given sequential part. The pessimistic view on scalability."
+>![[PProg-pvw-script.pdf#page=10&rect=262,718,336,755|PProg-pvw-script, p.9]]
 >
 
 
