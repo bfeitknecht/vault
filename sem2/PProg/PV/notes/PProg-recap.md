@@ -1,7 +1,11 @@
 
 - [x] add gustafson's law ➕ 2024-07-08 ✅ 2024-07-09
 - [x] add amdahl's law ➕ 2024-07-08 ✅ 2024-07-09
-- [ ] add  
+- [ ] recap locks ➕ 2024-07-09 
+	- [ ] what is a lock?
+	- [ ] common types of locks
+	- [ ] problems with locking
+
 ## How to create and run a Thread
 
 In Java, there’s the `java.lang.Thread` class for managing Threads. The most important methods are:
