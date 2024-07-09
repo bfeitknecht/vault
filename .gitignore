@@ -2,3 +2,9 @@
 
 **/workspace.json
 **/workspace-mobile.json
+
+
+
+
+# Ignore Smart Connections folder
+.smart-connections
