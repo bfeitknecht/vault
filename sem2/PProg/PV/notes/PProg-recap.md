@@ -1,5 +1,5 @@
 
-- [ ] add gustafson's law ➕ 2024-07-08
+- [x] add gustafson's law ➕ 2024-07-08 ✅ 2024-07-09
 - [x] add amdahl's law ➕ 2024-07-08 ✅ 2024-07-09
 
 ## How to create and run a Thread
@@ -76,16 +76,16 @@ Must override `run()` method!
 
 ## Gustafson's Law
 >[!quote]+ What is Gustafson's Law?
->>[!idea] Terminoligy
+>>[!idea]- Terminoligy
 >>"Specifies how much more work can be performed for a given fixed amount of time by adding more processors. The optimistic view on scalability."
 >
 >Let $\mathbf{f}$ denote the non-parallelizable, serial fraction of the total work done in the program and $P$ the number of processors at our disposal. Then, we get
-$$
-\begin{align}
-S_{P} &= \mathbf{f} + P(1-\mathbf{f}) \\
-&= P - \mathbf{f}(P-1)
-\end{align}
-$$
+>$$
+>\begin{align}
+>S_{P} &= \mathbf{f} + P(1-\mathbf{f}) \\
+>&= P - \mathbf{f}(P-1)
+>\end{align}
+>$$
 
 
 
