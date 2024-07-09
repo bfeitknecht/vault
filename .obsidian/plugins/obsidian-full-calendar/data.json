@@ -1,5 +1,11 @@
 {
-  "calendarSources": [],
+  "calendarSources": [
+    {
+      "type": "ical",
+      "color": "hsl( 0, 0%, calc(31% - 5%) )",
+      "url": "https://calendar.google.com/calendar/u/0?cid=ZjllY2RlNmZhNjRjYzE3M2E1YTM3YzAwODA5OWEzMTFmOTllOTRhMTgzNTMzZTE5Mjc4NTBlN2Y2MDJjNWMyM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+    }
+  ],
   "defaultCalendar": 0,
   "firstDay": 1,
   "initialView": {
