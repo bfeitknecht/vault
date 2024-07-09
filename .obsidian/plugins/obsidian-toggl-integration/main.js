@@ -20128,10 +20128,19 @@ var TogglService = class {
     this._currentTimerInterval = null;
     this._currentTimeEntry = null;
     this._ApiAvailable = "UNTESTED" /* UNTESTED */;
-    this._plugin = plugin;
-    this._statusBarItem = this._plugin.addStatusBarItem();
-    this._statusBarItem = this._plugin.addStatusBarItem();
-    this._statusBarItem.setText("Connecting to Toggl...");
+	this._plugin = plugin;
+	this._statusBarItem = this._plugin.addStatusBarItem();
+	this._statusBarItem.setText("Connecting to Toggl...");
+	this._plugin.registerDomEvent(
+	  this._statusBarItem, "click", () => {
+	    new Notice("Reconnecting to Toggl...")
+	    this.setToken(this._plugin.settings.apiToken)
+	  }
+	)
+	this._statusBarItem.classList.add("mod-clickable")
+	this._statusBarItem.style.cursor = "pointer"
+	this._statusBarItem.setAttribute("aria-label", "Refresh Connection")
+	this._statusBarItem.setAttribute("data-tooltip-position", "top")
     togglService.set(this);
     apiStatusStore.set("UNTESTED" /* UNTESTED */);
   }
@@ -26224,6 +26233,18 @@ var MyPlugin = class extends import_obsidian10.Plugin {
       icon: "clock",
       id: "stop-timer",
       name: "Stop Toggl Timer"
+    });
+    this.addCommand({
+      checkCallback: (checking) => {
+        if (!checking) {
+          new Notice('Reconnecting to Toggl...')
+          this.toggl.setToken(this.settings.apiToken);
+        } else {
+          return this.settings.apiToken != null || this.settings.apiToken != "";
+        }
+      },
+      id: "refresh-api",
+      name: "Refresh API Connection",
     });
     this.registerView(
       VIEW_TYPE_REPORT,
