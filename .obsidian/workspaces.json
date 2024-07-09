@@ -150,11 +150,11 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "digitalgarden:Digital Garden Publication Center": false,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
           "switcher:Open quick switcher": true,
+          "homepage:Open homepage": false,
           "graph:Open graph view": false,
           "command-palette:Open command palette": false,
           "templates:Insert template": true,
@@ -165,7 +165,7 @@
         }
       },
       "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-07-08T08:44:03+02:00"
+      "mtime": "2024-07-09T09:26:57+02:00"
     },
     "pv - auw": {
       "main": {
@@ -377,6 +377,7 @@
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
+          "homepage:Open homepage": false,
           "switcher:Open quick switcher": true,
           "graph:Open graph view": false,
           "command-palette:Open command palette": false,
@@ -388,7 +389,7 @@
         }
       },
       "active": "7eb7ba94c833f561",
-      "mtime": "2024-07-04T15:13:22+02:00"
+      "mtime": "2024-07-09T09:26:59+02:00"
     },
     "pv - pprog": {
       "main": {
@@ -442,10 +443,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/VRL/extra/benji/PProg-w13-benji.pdf",
-                    "page": 56,
-                    "left": -13,
-                    "top": 245,
-                    "zoom": 1.175
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               }
@@ -587,21 +586,21 @@
       "left-ribbon": {
         "hiddenItems": {
           "omnisearch:Omnisearch": false,
-          "command-palette:Open command palette": false,
-          "graph:Open graph view": false,
           "workspaces:Manage workspace layouts": false,
+          "homepage:Open homepage": false,
+          "graph:Open graph view": false,
+          "command-palette:Open command palette": false,
           "switcher:Open quick switcher": true,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "mermaid-tools:Open Mermaid Toolbar": true,
-          "homepage:Open homepage": false
+          "mermaid-tools:Open Mermaid Toolbar": true
         }
       },
       "active": "54fc4e5ed3576cdb",
-      "mtime": "2024-07-08T19:15:20+02:00"
+      "mtime": "2024-07-09T09:26:04+02:00"
     },
     "pv - ddca": {
       "main": {
@@ -657,7 +656,7 @@
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
                     "page": 2,
                     "left": -15,
-                    "top": 448,
+                    "top": 452,
                     "zoom": 1.0048821116492919
                   }
                 }
@@ -791,23 +790,22 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "homepage:Open homepage": false,
-          "digitalgarden:Digital Garden Publication Center": true,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
-          "command-palette:Open command palette": false,
-          "graph:Open graph view": false,
           "workspaces:Manage workspace layouts": false,
+          "homepage:Open homepage": false,
+          "graph:Open graph view": false,
           "switcher:Open quick switcher": true,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "command-palette:Open command palette": false
         }
       },
       "active": "23ae56ed0afad8bc",
-      "mtime": "2024-07-08T18:40:01+02:00"
+      "mtime": "2024-07-09T09:26:23+02:00"
     },
     "pv - a1": {
       "main": {
@@ -851,8 +849,8 @@
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
                     "page": 1,
                     "left": -9,
-                    "top": 812,
-                    "zoom": 1.7850000000000001
+                    "top": 816,
+                    "zoom": 1.785
                   }
                 }
               },
@@ -1021,6 +1019,7 @@
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
+          "homepage:Open homepage": false,
           "switcher:Open quick switcher": true,
           "graph:Open graph view": false,
           "command-palette:Open command palette": false,
@@ -1032,7 +1031,7 @@
         }
       },
       "active": "10fe69f5c61457fb",
-      "mtime": "2024-07-04T15:13:24+02:00"
+      "mtime": "2024-07-09T09:26:27+02:00"
     },
     "HOME": {
       "main": {
@@ -1181,18 +1180,18 @@
                 }
               },
               {
-                "id": "d4d9e5cf2cd5e94b",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {}
-                }
-              },
-              {
                 "id": "65197310c6429a2e",
                 "type": "leaf",
                 "state": {
                   "type": "git-history-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "d4d9e5cf2cd5e94b",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
                   "state": {}
                 }
               }
@@ -1209,22 +1208,20 @@
           "homepage:Open homepage": true,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
-          "command-palette:Open command palette": false,
-          "graph:Open graph view": false,
           "workspaces:Manage workspace layouts": false,
+          "graph:Open graph view": false,
           "switcher:Open quick switcher": true,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "smart-connections:Open: View Smart Connections": false,
-          "smart-connections:Open: Smart Chat Conversation": false
+          "command-palette:Open command palette": false
         }
       },
-      "active": "84d6179a41f3d7a6",
-      "mtime": "2024-07-09T09:21:58+02:00"
+      "active": "414cefd1625961b6",
+      "mtime": "2024-07-09T09:26:48+02:00"
     }
   },
-  "active": "HOME"
+  "active": "clean"
 }
