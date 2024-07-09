@@ -86,5 +86,14 @@
       ],
       "key": "B"
     }
+  ],
+  "obsidian-hider:toggle-hider-status": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
   ]
 }

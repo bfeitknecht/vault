@@ -62,7 +62,9 @@ Must override `run()` method!
 
 ## Amdahl's Law
 >[!quote]+ What is Amdahl's Law?
->"Specifies the maximum amount of speedup that can be achieved for a program with a given sequential part. The pessimistic view on scalability"
+>>[!idea]- Terminoligy
+>>"Specifies the maximum amount of speedup that can be achieved for a program with a given sequential part. The pessimistic view on scalability."
+>
 
 
 ## Gustafson's Law
