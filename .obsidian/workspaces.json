@@ -156,16 +156,16 @@
           "switcher:Open quick switcher": true,
           "homepage:Open homepage": false,
           "graph:Open graph view": false,
-          "command-palette:Open command palette": false,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "command-palette:Open command palette": false
         }
       },
       "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-07-09T09:26:57+02:00"
+      "mtime": "2024-07-09T09:30:49+02:00"
     },
     "pv - auw": {
       "main": {
@@ -1219,9 +1219,9 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "414cefd1625961b6",
-      "mtime": "2024-07-09T09:26:48+02:00"
+      "active": "84d6179a41f3d7a6",
+      "mtime": "2024-07-09T09:32:10+02:00"
     }
   },
-  "active": "clean"
+  "active": "pv - pprog"
 }
