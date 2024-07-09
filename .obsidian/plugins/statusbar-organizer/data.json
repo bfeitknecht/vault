@@ -3,42 +3,42 @@
   "presets": {
     "Default": {
       "plugin-obsidian-git;1": {
-        "position": 1,
+        "position": 0,
         "visible": false,
         "exists": true
       },
       "plugin-obsidian-toggl-integration;1": {
-        "position": 2,
+        "position": 1,
         "visible": false,
         "exists": true
       },
       "plugin-obsidian-toggl-integration;2": {
+        "position": 2,
+        "visible": false,
+        "exists": true
+      },
+      "plugin-obsidian-statusbar-pomo-statusbar-pomo;1": {
         "position": 3,
         "visible": true,
         "exists": true
       },
-      "plugin-obsidian-statusbar-pomo-statusbar-pomo;1": {
+      "plugin-better-word-count;1": {
         "position": 4,
         "visible": true,
         "exists": true
       },
-      "plugin-better-word-count;1": {
-        "position": 5,
-        "visible": true,
-        "exists": true
-      },
       "plugin-backlink;1": {
-        "position": 6,
+        "position": 5,
         "visible": false,
         "exists": true
       },
       "plugin-editor-status;1": {
-        "position": 8,
+        "position": 7,
         "visible": true,
         "exists": true
       },
       "plugin-editing-toolbar-cMenuToolbar-statusbar-button;1": {
-        "position": 7,
+        "position": 6,
         "visible": false,
         "exists": true
       },
@@ -48,7 +48,7 @@
         "exists": true
       },
       "plugin-obsidian-git-obsidian-git-statusbar-failed-init-obsidian-git-statusbar-idle-obsidian-git-statusbar-status-obsidian-git-statusbar-pull-obsidian-git-statusbar-message;1": {
-        "position": 0,
+        "position": 8,
         "visible": true,
         "exists": true
       }

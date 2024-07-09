@@ -377,6 +377,7 @@
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
+          "obsidian-statusbar-pomo:Start pomodoro": false,
           "homepage:Open homepage": false,
           "switcher:Open quick switcher": true,
           "graph:Open graph view": false,
@@ -389,7 +390,7 @@
         }
       },
       "active": "7eb7ba94c833f561",
-      "mtime": "2024-07-09T09:26:59+02:00"
+      "mtime": "2024-07-09T14:45:20+02:00"
     },
     "pv - pprog": {
       "main": {
@@ -587,6 +588,7 @@
         "hiddenItems": {
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
+          "obsidian-statusbar-pomo:Start pomodoro": false,
           "homepage:Open homepage": false,
           "graph:Open graph view": false,
           "command-palette:Open command palette": false,
@@ -600,7 +602,7 @@
         }
       },
       "active": "54fc4e5ed3576cdb",
-      "mtime": "2024-07-09T09:26:04+02:00"
+      "mtime": "2024-07-09T14:45:15+02:00"
     },
     "pv - ddca": {
       "main": {
@@ -656,7 +658,7 @@
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
                     "page": 2,
                     "left": -15,
-                    "top": 452,
+                    "top": 456,
                     "zoom": 1.0048821116492919
                   }
                 }
@@ -793,6 +795,7 @@
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
+          "obsidian-statusbar-pomo:Start pomodoro": false,
           "homepage:Open homepage": false,
           "graph:Open graph view": false,
           "switcher:Open quick switcher": true,
@@ -805,7 +808,7 @@
         }
       },
       "active": "23ae56ed0afad8bc",
-      "mtime": "2024-07-09T09:26:23+02:00"
+      "mtime": "2024-07-09T14:45:24+02:00"
     },
     "pv - a1": {
       "main": {
@@ -849,7 +852,7 @@
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
                     "page": 1,
                     "left": -9,
-                    "top": 816,
+                    "top": 820,
                     "zoom": 1.785
                   }
                 }
@@ -1019,6 +1022,7 @@
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
+          "obsidian-statusbar-pomo:Start pomodoro": false,
           "homepage:Open homepage": false,
           "switcher:Open quick switcher": true,
           "graph:Open graph view": false,
@@ -1031,7 +1035,7 @@
         }
       },
       "active": "10fe69f5c61457fb",
-      "mtime": "2024-07-09T09:26:27+02:00"
+      "mtime": "2024-07-09T14:45:28+02:00"
     },
     "HOME": {
       "main": {
@@ -1209,6 +1213,7 @@
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
+          "obsidian-statusbar-pomo:Start pomodoro": false,
           "graph:Open graph view": false,
           "switcher:Open quick switcher": true,
           "templates:Insert template": true,
@@ -1220,8 +1225,8 @@
         }
       },
       "active": "84d6179a41f3d7a6",
-      "mtime": "2024-07-09T10:31:34+02:00"
+      "mtime": "2024-07-09T14:45:06+02:00"
     }
   },
-  "active": "HOME"
+  "active": "pv - pprog"
 }

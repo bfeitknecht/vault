@@ -12,7 +12,6 @@ sort by description
 
 
 <!--plugin doesn't work, wait until its prs are merged-->
-
 ```toggl
 SUMMARY WEEK
 TITLE "Time this Week"
