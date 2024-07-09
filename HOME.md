@@ -9,9 +9,10 @@ sort by due reverse
 sort by description
 ```
 
-<!--plugin doesn't work-->
-<!---
 
+
+<!--plugin doesn't work-->
+<!--
 ```toggl
 summary week
 title "Time this Week"
@@ -24,5 +25,5 @@ list today
 group by project
 title "Time Today"
 ```
-
 -->
+
