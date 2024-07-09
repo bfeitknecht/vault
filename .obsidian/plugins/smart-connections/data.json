@@ -29,9 +29,12 @@
   "log_render_files": false,
   "recently_sent_retry_notice": false,
   "version": "2.1.84",
-  "muted_notices": {
-    "smart connect not found": true,
-    "Dataview API not found": true,
-    "Notice muted": true
+  "muted_notices": {},
+  "custom_local": {
+    "model_name": "llama3",
+    "protocol": "http",
+    "hostname": "localhost",
+    "streaming": true,
+    "port": 11434
   }
 }
