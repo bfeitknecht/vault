@@ -78,18 +78,15 @@ Must override `run()` method!
 >[!quote]+ What is Gustafson's Law?
 >>[!idea] Terminoligy
 >>"Specifies how much more work can be performed for a given fixed amount of time by adding more processors. The optimistic view on scalability."
-
-
-![[PProg-pvw-script.pdf#page=10&rect=79,286,518,353|PProg-pvw-script, p.9]]
-
-Let $\mathbf{f}$ denote the non-parallelizable, serial fraction of the total work done in the program and $P$ the number of processors at our disposal. Then, we get
-
+>
+>Let $\mathbf{f}$ denote the non-parallelizable, serial fraction of the total work done in the program and $P$ the number of processors at our disposal. Then, we get
 $$
 \begin{align}
-S_{P} = \mathbf{f} + P(1-\mathbf{f}) \\
-=
+S_{P} &= \mathbf{f} + P(1-\mathbf{f}) \\
+&= P - \mathbf{f}(P-1)
 \end{align}
 $$
+
 
 
 
