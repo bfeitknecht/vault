@@ -22,7 +22,7 @@ public static void testCase() {
 >1. compute the probability that we surpass the target after n rounds
 >$\mathrm{P}[X] \overset{?}{=} k > m_{n}$
 >
->2. how many days correlates with (1)
+>2. how many days correlates with (1.)
 >$n \sim c$
 >
 >3. how close to target inversely correlates with (1.)
@@ -39,5 +39,7 @@ public static void testCase() {
 - $b_{i} = \lfloor p_{i} |m-k| \rceil$, bet as much as possible when far from target, else bet less
 - use dp to compute every possible sub problem
 - $\mathrm{P}[X_{i}] \sim p_{1..i}$
+
+
 
 
