@@ -16,14 +16,10 @@
 SUMMARY WEEK
 TITLE "Time this Week"
 ```
-
-
+___
 
 ```toggl
 LIST TODAY
-TITLE "Time Today"
+TITLE "Today"
 ```
-
-
-
 

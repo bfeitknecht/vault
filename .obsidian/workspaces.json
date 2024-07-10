@@ -1074,7 +1074,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "HOME.md",
-                    "mode": "source",
+                    "mode": "preview",
                     "source": false
                   }
                 }
@@ -1254,8 +1254,8 @@
         }
       },
       "active": "84d6179a41f3d7a6",
-      "mtime": "2024-07-10T08:39:31+02:00"
+      "mtime": "2024-07-10T14:27:44+02:00"
     }
   },
-  "active": "HOME"
+  "active": "pv - ddca"
 }
