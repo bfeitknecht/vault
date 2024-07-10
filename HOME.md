@@ -21,6 +21,6 @@ ___
 ```toggl
 LIST TODAY
 TITLE "Today"
-EXCLUDE PROJECTS "other"
 ```
+
 
