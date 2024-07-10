@@ -34,12 +34,12 @@ public static void testCase() {
 >5. compute partial probabilities (?)
 >$\mathrm{P}[X_{i}] =$ "surpass $m$ at round $i$"
 
+
 ## Intuition
 - when $p_{i}$ is high, bet high, else bet low \=> maximize win, minimize loss
 - $b_{i} = \lfloor p_{i} |m-k| \rceil$, bet as much as possible when far from target, else bet less
 - use dp to compute every possible sub problem
-- $\mathrm{P}[X_{i}] \sim p_{1..i}$
-
+- $\mathrm{P}[X_{i}] \sim p_{1..i}$ 
 
 
 ### Sample Case 1
