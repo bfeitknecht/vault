@@ -36,7 +36,8 @@ public static void testCase() {
 
 ## Intuition
 - when $p_{i}$ is high, bet high, else bet low \=> maximize win, minimize loss
-- $b_{i} = \lfloor p_{i} |m-k| \rceil$, so bet less when close to target
+- $b_{i} = \lfloor p_{i} |m-k| \rceil$, bet as much as possible when far from target, else bet less
 - use dp to compute every possible sub problem
+- $\mathrm{P}[X_{i}] \sim B(i, p_{i})$
 
 
