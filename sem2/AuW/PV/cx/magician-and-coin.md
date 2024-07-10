@@ -40,7 +40,28 @@ public static void testCase() {
 - use dp to compute every possible sub problem
 - $\mathrm{P}[X_{i}] \sim p_{1..i}$
 
-	
+
+
+
+4 2 33
+0.25 0.5 0.75 1.0
+5 2 20
+0.3 0.5 0.2 0.7 1.0
+
+### Sample Case 1
+```
+n=2	// days
+k=2	// have
+m=8	// want
+p=[0.5 0.5]
+```
+The only way to reach 8 is to bet all you have on each day.
+
+### Sample Case 2
+There is no way to reach 33 in only four days.
+
+### Sample Case 3
+An optimal strategy is to bet 2 on the first day, 1 on the second day (unless you are broke). If you win on the second day, you bet 0 on the third day, and bet all you have on the remaining two days. If your lose on the second day, you bet all you have on the remaining three days.
 
 
 
