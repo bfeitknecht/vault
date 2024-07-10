@@ -13,8 +13,8 @@
 >```
 
 ```toggl
-SUMMARY WEEK
-TITLE "Time this Week"
+SUMMARY PAST 10 DAYS
+TITLE "Past Week"
 ```
 ___
 
