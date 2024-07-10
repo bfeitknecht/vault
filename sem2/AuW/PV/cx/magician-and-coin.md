@@ -38,6 +38,6 @@ public static void testCase() {
 - when $p_{i}$ is high, bet high, else bet low \=> maximize win, minimize loss
 - $b_{i} = \lfloor p_{i} |m-k| \rceil$, bet as much as possible when far from target, else bet less
 - use dp to compute every possible sub problem
-- $\mathrm{P}[X_{i}] \sim B(i, p_{i})$
+- $\mathrm{P}[X_{i}] \sim p_{1..i}$
 
 
