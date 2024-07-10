@@ -40,7 +40,7 @@ public static void testCase() {
 - use dp to compute every possible sub problem
 - $\mathrm{P}[X_{i}] \sim p_{1..i}$
 
-
+	
 
 
 
