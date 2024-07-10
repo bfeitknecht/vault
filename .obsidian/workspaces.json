@@ -208,7 +208,9 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/AuW-formulas.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -9,
+                    "top": 569,
+                    "zoom": 1.7991654291454724
                   }
                 }
               },
@@ -231,12 +233,15 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 4,
+                    "left": -9,
+                    "top": 767,
+                    "zoom": 1.785
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -303,7 +308,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/PV/cx/magician-and-coin.md",
+                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -320,7 +325,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/PV/cx/magician-and-coin.md",
+                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -343,7 +348,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/PV/cx/magician-and-coin.md"
+                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md"
                   }
                 }
               },
@@ -372,7 +377,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 6
           }
         ],
         "direction": "horizontal",
@@ -396,8 +401,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "42ca9b18aeb2477f",
-      "mtime": "2024-07-09T22:52:04+02:00"
+      "active": "7eb7ba94c833f561",
+      "mtime": "2024-07-10T22:02:49+02:00"
     },
     "pv - pprog": {
       "main": {
