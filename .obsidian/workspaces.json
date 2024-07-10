@@ -679,7 +679,7 @@
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
                     "page": 2,
                     "left": -15,
-                    "top": 456,
+                    "top": 564,
                     "zoom": 1.0048821116492919
                   }
                 }
@@ -828,8 +828,8 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "23ae56ed0afad8bc",
-      "mtime": "2024-07-09T14:45:24+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-10T14:30:51+02:00"
     },
     "pv - a1": {
       "main": {
@@ -1257,5 +1257,5 @@
       "mtime": "2024-07-10T14:27:44+02:00"
     }
   },
-  "active": "pv - ddca"
+  "active": "pv - auw"
 }

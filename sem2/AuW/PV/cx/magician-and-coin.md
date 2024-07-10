@@ -37,3 +37,4 @@ public static void testCase() {
 ## Intuition
 - when $p_{i}$ is high, bet high, else bet low \=> maximize win, minimize loss
 - $b_{i} = p_{i} \cdot \min(|m-k|, k)$, so bet less when close to target
+- use dp to compute every possible sub problem
