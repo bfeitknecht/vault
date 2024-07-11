@@ -208,9 +208,7 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/AuW-formulas.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 569,
-                    "zoom": 1.7991654291454724
+                    "zoom": 1
                   }
                 }
               },
@@ -233,10 +231,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-                    "page": 4,
-                    "left": -9,
-                    "top": 767,
-                    "zoom": 1.785
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               }
@@ -402,7 +398,7 @@
         }
       },
       "active": "7eb7ba94c833f561",
-      "mtime": "2024-07-10T22:02:49+02:00"
+      "mtime": "2024-07-11T14:49:31+02:00"
     },
     "pv - pprog": {
       "main": {
