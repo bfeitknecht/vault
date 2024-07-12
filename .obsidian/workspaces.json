@@ -232,12 +232,13 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -9,
+                    "top": 852,
+                    "zoom": 1.785
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -266,7 +267,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:/sem2/AuW/VRL/slides",
+                    "query": "",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -304,7 +305,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md",
+                    "file": "sem2/AuW/PV/cx/magician-and-coin.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -321,7 +322,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md",
+                    "file": "sem2/AuW/PV/cx/magician-and-coin.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -344,7 +345,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md"
+                    "file": "sem2/AuW/PV/cx/magician-and-coin.md"
                   }
                 }
               },
@@ -397,8 +398,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "7eb7ba94c833f561",
-      "mtime": "2024-07-11T14:49:31+02:00"
+      "active": "42ca9b18aeb2477f",
+      "mtime": "2024-07-12T10:05:34+02:00"
     },
     "pv - pprog": {
       "main": {
@@ -1258,5 +1259,5 @@
       "mtime": "2024-07-10T14:35:20+02:00"
     }
   },
-  "active": "pv - auw"
+  "active": "pv - ddca"
 }
