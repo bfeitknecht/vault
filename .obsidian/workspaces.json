@@ -866,7 +866,7 @@
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
                     "page": 1,
                     "left": -9,
-                    "top": 820,
+                    "top": 572,
                     "zoom": 1.785
                   }
                 }
@@ -1049,7 +1049,7 @@
         }
       },
       "active": "10fe69f5c61457fb",
-      "mtime": "2024-07-09T14:45:28+02:00"
+      "mtime": "2024-07-12T11:44:27+02:00"
     },
     "HOME": {
       "main": {
@@ -1250,5 +1250,5 @@
       "mtime": "2024-07-10T14:35:20+02:00"
     }
   },
-  "active": "pv - a1"
+  "active": "HOME"
 }
