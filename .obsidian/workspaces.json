@@ -177,64 +177,56 @@
             "type": "tabs",
             "children": [
               {
-                "id": "42ca9b18aeb2477f",
+                "id": "bc214e82e3d29ca0",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem2/AuW/PV/cx/magician-and-coin.md",
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "7eb7ba94c833f561",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "efe39363acd63ad7",
+                "id": "d871cca2448e0355",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/AuW-formulas.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "file": "sem2/AuW/VRL/slides/AuW-L01-connectedness.pdf",
+                    "page": 25,
+                    "left": -18,
+                    "top": 105,
+                    "zoom": 0.826171875
                   }
                 }
               },
               {
-                "id": "2ac0c6914868446c",
+                "id": "27f2c5430e667692",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w07-variance.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "file": "sem2/AuW/VRL/slides/AuW-L02-euler-tours.pdf",
+                    "page": 42,
+                    "left": -18,
+                    "top": 745,
+                    "zoom": 0.826171875
                   }
                 }
               },
               {
-                "id": "63e59b047a4a8e03",
+                "id": "031593ee393b7462",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-                    "page": 1,
-                    "left": -9,
-                    "top": 852,
-                    "zoom": 1.785
+                    "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w02-tsp.pdf",
+                    "page": 6,
+                    "left": -11,
+                    "top": 830,
+                    "zoom": 1.41
                   }
                 }
               }
@@ -288,8 +280,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -305,7 +296,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/PV/cx/magician-and-coin.md",
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -322,7 +313,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/PV/cx/magician-and-coin.md",
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -345,7 +336,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/PV/cx/magician-and-coin.md"
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md"
                   }
                 }
               },
@@ -374,7 +365,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
@@ -398,8 +389,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "42ca9b18aeb2477f",
-      "mtime": "2024-07-12T10:05:34+02:00"
+      "active": "bc214e82e3d29ca0",
+      "mtime": "2024-07-12T11:30:37+02:00"
     },
     "pv - pprog": {
       "main": {
@@ -1259,5 +1250,5 @@
       "mtime": "2024-07-10T14:35:20+02:00"
     }
   },
-  "active": "pv - auw"
+  "active": "pv - a1"
 }
