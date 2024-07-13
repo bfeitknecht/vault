@@ -363,7 +363,7 @@
         }
       },
       "active": "84d6179a41f3d7a6",
-      "mtime": "2024-07-13T16:57:04+02:00"
+      "mtime": "2024-07-13T19:07:17+02:00"
     },
     "pv-a1": {
       "main": {
@@ -405,10 +405,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
-                    "page": 3,
-                    "left": -9,
-                    "top": 774,
-                    "zoom": 1.785
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -432,9 +430,7 @@
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                     "page": 1,
-                    "left": -12,
-                    "top": 246,
-                    "zoom": 1.2721376901970567
+                    "zoom": 1
                   }
                 }
               },
@@ -445,10 +441,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf",
-                    "page": 2,
-                    "left": -9,
-                    "top": 195,
-                    "zoom": 1.75
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               }
@@ -605,7 +599,7 @@
         }
       },
       "active": "b22ace324bf1f666",
-      "mtime": "2024-07-13T18:39:13+02:00"
+      "mtime": "2024-07-13T19:07:20+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -647,10 +641,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/DDCA/VRL/slides/DDCA-L03-combinational-circuits-theory.pdf",
-                    "page": 27,
-                    "left": -11,
-                    "top": 497,
-                    "zoom": 1.4875
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -820,7 +812,7 @@
         }
       },
       "active": "bc8f0dc41f8794f0",
-      "mtime": "2024-07-13T18:49:43+02:00"
+      "mtime": "2024-07-13T19:07:29+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -1263,5 +1255,5 @@
       "mtime": "2024-07-13T14:26:37+02:00"
     }
   },
-  "active": "pv-ddca"
+  "active": "pv-pprog"
 }

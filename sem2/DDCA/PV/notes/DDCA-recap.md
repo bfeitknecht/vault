@@ -135,7 +135,6 @@ ___
 >
 >
 
-
 >[!quote]+ Boolean Algebra
 >
 >>[!idea]- Axioms
@@ -146,9 +145,9 @@ ___
 >> - Special order for bit combination (gray codes;  00, 01, 11, 10) 
 >> - Every 1 in a K-map must be circled at least once 
 >> - Squares have dimension $2^n \times 2^m$ 
->> - Each square must be as large as possible
->> - circles may wrap around the edges of the K-map 
->> - “don't care” (X) is circled only if it helps minimize the equation
+>> - Squares must be as large as possible and may wrap the map
+>> - “Don't care” (X) is circled only if it helps minimize the equation
+>> ![[DDCA-L04a-combinational-circuits-theory.pdf#page=16&rect=50,76,678,417|DDCA-L04a-combinational-circuits-theory, p.16]]
 >
 >
 >
@@ -170,6 +169,11 @@ ___
 >- design circuits that make use of tri-state logic
 >- fixing glitches
 >	 i.e. Design a multiplexer using tri-state buffers
+
+>[!quote]+ More Boolean Algebra
+>
+>>[!idea]- SOP vs POS
+>>a
 
 ___
 ## Verilog for Combinational Circuits $\star$
