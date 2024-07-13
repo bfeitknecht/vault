@@ -117,6 +117,18 @@ ___
 >- Graphical Bubble pushing exercises
 >- Note that knowing how to push the bubbles could help you with simplification of Boolean logic equations (which we will ASK)
 
+>[!quote]+ Different types of logic circuits
+>
+>>[!quote]- What is a combinational circuit?
+>>- Memoryless
+>>- Outputs determined by current values of inputs
+>
+>>[!quote]- What is a sequential circuit?
+>>- Has memory 
+>>- Outputs determined by previous and current values of inputs
+>
+>
+>
 
 
 

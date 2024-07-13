@@ -387,18 +387,6 @@
                 }
               },
               {
-                "id": "86b45b93a8121cda",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem2/A1/PV/notes/A1-pvw.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "00c7b86ebdcc7127",
                 "type": "leaf",
                 "state": {
@@ -417,8 +405,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 3,
+                    "left": -9,
+                    "top": 774,
+                    "zoom": 1.785
                   }
                 }
               },
@@ -442,12 +432,27 @@
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -12,
+                    "top": 246,
+                    "zoom": 1.2721376901970567
+                  }
+                }
+              },
+              {
+                "id": "a114654446feb931",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf",
+                    "page": 2,
+                    "left": -9,
+                    "top": 195,
+                    "zoom": 1.75
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -599,8 +604,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "86b45b93a8121cda",
-      "mtime": "2024-07-13T14:25:52+02:00"
+      "active": "b22ace324bf1f666",
+      "mtime": "2024-07-13T18:39:13+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -656,13 +661,13 @@
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
                     "page": 2,
                     "left": -12,
-                    "top": 576,
-                    "zoom": 1.2721379924070821
+                    "top": 580,
+                    "zoom": 1.2721379924070824
                   }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -729,7 +734,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -746,7 +751,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -769,7 +774,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf"
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md"
                   }
                 }
               },
@@ -780,14 +785,21 @@
                   "type": "git-view",
                   "state": {}
                 }
+              },
+              {
+                "id": "67981ccd078b905c",
+                "type": "leaf",
+                "state": {
+                  "type": "toggl-report",
+                  "state": {}
+                }
               }
             ],
             "currentTab": 4
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -806,8 +818,8 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-13T14:26:09+02:00"
+      "active": "bc8f0dc41f8794f0",
+      "mtime": "2024-07-13T18:39:51+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -1250,5 +1262,5 @@
       "mtime": "2024-07-13T14:26:37+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "pv-ddca"
 }
