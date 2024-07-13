@@ -74,6 +74,6 @@ ___
 
 - the three stop conditions for DI method (differentiation by parts)
 - u substitution rule
-- prime numbers?
+- definitions od bounded, monotonic, convex, etc
 - 
 
