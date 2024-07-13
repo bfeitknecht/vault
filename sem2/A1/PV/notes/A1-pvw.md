@@ -55,3 +55,9 @@ du &= 2xdx \\
 \end{align}
 $$
 
+
+
+
+
+
+$f(x)$ convex on an interval $[a, b]$ $\iff$ $\forall x \in [a, b], f''(x) \geq 0$
