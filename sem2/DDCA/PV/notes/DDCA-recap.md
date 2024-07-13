@@ -135,12 +135,24 @@ ___
 >
 >
 
->[!idea]+ Boolean Algebra Axioms
->![[DDCA-L03-combinational-circuits-theory.pdf#page=23&rect=35,207,685,426|DDCA-L03-combinational-circuits-theory, p.23]]
->![[DDCA-L03-combinational-circuits-theory.pdf#page=24&rect=34,177,682,419|DDCA-L03-combinational-circuits-theory, p.24]]
 
->[!idea] Karnaugh Maps
+>[!quote]+ Boolean Algebra
 >
+>>[!idea]- Axioms
+>> ![[DDCA-L03-combinational-circuits-theory.pdf#page=23&rect=35,207,685,426|DDCA-L03-combinational-circuits-theory, p.23]]
+>> ![[DDCA-L03-combinational-circuits-theory.pdf#page=24&rect=34,177,682,419|DDCA-L03-combinational-circuits-theory, p.24]]
+>
+>>[!idea]- Karnaugh Maps
+>> - Special order for bit combination (gray codes;  00, 01, 11, 10) 
+>> - Every 1 in a K-map must be circled at least once 
+>> - Squares have dimension $2^n \times 2^m$ 
+>> - Each square must be as large as possible
+>> - circles may wrap around the edges of the K-map 
+>> - “don't care” (X) is circled only if it helps minimize the equation
+>
+>
+>
+
 
 ___
 
