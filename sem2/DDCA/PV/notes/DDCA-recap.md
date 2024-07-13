@@ -122,6 +122,10 @@ ___
 >>[!quote]- What is a combinational circuit?
 >>- Memoryless
 >>- Outputs determined by current values of inputs
+<<<<<<< HEAD
+=======
+>>- Every 
+>>>>>>> 2b397c33 (backup: 2024-07-13T18:43:36+02:00 from MacBook Pro (echo))
 >
 >>[!quote]- What is a sequential circuit?
 >>- Has memory 
