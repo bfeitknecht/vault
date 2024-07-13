@@ -119,18 +119,19 @@ ___
 
 >[!quote]+ Different types of logic circuits
 >
->>[!quote]- What is a combinational circuit?
+>>[!quote]+ What is a combinational circuit?
 >>- Memoryless
 >>- Outputs determined by current values of inputs
-<<<<<<< HEAD
-=======
->>- Every 
->>>>>>> 2b397c33 (backup: 2024-07-13T18:43:36+02:00 from MacBook Pro (echo))
+>>- Every circuit element is itself combinational
+>>- Every node of the circuit is either 
+>> 	designated as an input to the circuit or 
+>> 	 connects to exactly one output terminal of a circuit element
+>> 
 >
->>[!quote]- What is a sequential circuit?
+>>[!quote]+ What is a sequential circuit?
 >>- Has memory 
 >>- Outputs determined by previous and current values of inputs
->
+>> 
 >
 >
 
