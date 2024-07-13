@@ -992,14 +992,6 @@
                 }
               },
               {
-                "id": "5fa701e1a25db1c4",
-                "type": "leaf",
-                "state": {
-                  "type": "git-history-view",
-                  "state": {}
-                }
-              },
-              {
                 "id": "9c938e09c24254c7",
                 "type": "leaf",
                 "state": {
@@ -1008,7 +1000,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 5
           }
         ],
         "direction": "horizontal",
@@ -1033,7 +1025,7 @@
         }
       },
       "active": "54fc4e5ed3576cdb",
-      "mtime": "2024-07-13T14:26:29+02:00"
+      "mtime": "2024-07-13T19:07:40+02:00"
     },
     "pv-auw": {
       "main": {
@@ -1142,7 +1134,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1211,14 +1204,6 @@
                 }
               },
               {
-                "id": "b56948faef2696f4",
-                "type": "leaf",
-                "state": {
-                  "type": "git-history-view",
-                  "state": {}
-                }
-              },
-              {
                 "id": "d1408c562fdb9bec",
                 "type": "leaf",
                 "state": {
@@ -1227,11 +1212,11 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 5
           }
         ],
         "direction": "horizontal",
-        "width": 406.5,
+        "width": 279.5,
         "collapsed": true
       },
       "left-ribbon": {
@@ -1251,9 +1236,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "bc214e82e3d29ca0",
-      "mtime": "2024-07-13T14:26:37+02:00"
+      "active": "d1408c562fdb9bec",
+      "mtime": "2024-07-13T19:07:57+02:00"
     }
   },
-  "active": "pv-pprog"
+  "active": "HOME"
 }
