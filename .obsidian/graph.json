@@ -1,11 +1,11 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:sem2/AuW  ",
@@ -46,6 +46,6 @@
   "repelStrength": 20,
   "linkStrength": 0.719970703125,
   "linkDistance": 500,
-  "scale": 0.027206064872809622,
-  "close": false
+  "scale": 0.026480507982261627,
+  "close": true
 }

@@ -632,7 +632,8 @@
                     "mode": "source",
                     "source": false
                   }
-                }
+                },
+                "group": "94cab258006f1710"
               },
               {
                 "id": "9b342f2933b87035",
@@ -642,7 +643,9 @@
                   "state": {
                     "file": "sem2/DDCA/VRL/slides/DDCA-L03-combinational-circuits-theory.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -11,
+                    "top": 544,
+                    "zoom": 1.4875
                   }
                 }
               },
@@ -656,6 +659,57 @@
                     "page": 1,
                     "zoom": 1
                   }
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "8bc69b4c79bc8d1b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6b14be38286a378d",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
+                    "options": {
+                      "collapse-filter": false,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": true,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.64234306875101,
+                      "close": false
+                    }
+                  }
+                },
+                "group": "94cab258006f1710"
+              },
+              {
+                "id": "fa28f4937ff6c40f",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
                 }
               }
             ],
@@ -726,7 +780,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -743,7 +796,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -765,9 +817,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -811,8 +861,8 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "bc8f0dc41f8794f0",
-      "mtime": "2024-07-13T19:07:29+02:00"
+      "active": "fa28f4937ff6c40f",
+      "mtime": "2024-07-13T19:17:52+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -1240,5 +1290,5 @@
       "mtime": "2024-07-13T19:07:57+02:00"
     }
   },
-  "active": "pv-ddca"
+  "active": "clean"
 }
