@@ -66,3 +66,14 @@ $f(x)$ monotonic on an interval $[a, b]$ $\iff$ $\forall x \in [a, b], f'(x) \ge
 
 
 
+
+
+___
+
+## Add to cheatsheet
+
+- the three stop conditions for DI method (differentiation by parts)
+- u substitution rule
+- prime numbers?
+- 
+
