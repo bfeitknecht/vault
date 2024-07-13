@@ -231,7 +231,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:/sem2/AuW/VRL/slides",
+                    "query": "tag:/sem2/DDCA/VRL/slides",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -362,8 +362,8 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "84d6179a41f3d7a6",
-      "mtime": "2024-07-13T19:13:41+02:00"
+      "active": "414cefd1625961b6",
+      "mtime": "2024-07-13T19:41:52+02:00"
     },
     "pv-a1": {
       "main": {
@@ -1290,5 +1290,5 @@
       "mtime": "2024-07-13T19:07:57+02:00"
     }
   },
-  "active": "clean"
+  "active": "pv-ddca"
 }
