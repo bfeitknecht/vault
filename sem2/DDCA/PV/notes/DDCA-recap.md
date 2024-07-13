@@ -135,7 +135,12 @@ ___
 >
 >
 
+>[!idea]+ Boolean Algebra Axioms
+>![[DDCA-L03-combinational-circuits-theory.pdf#page=23&rect=35,207,685,426|DDCA-L03-combinational-circuits-theory, p.23]]
+>![[DDCA-L03-combinational-circuits-theory.pdf#page=24&rect=34,177,682,419|DDCA-L03-combinational-circuits-theory, p.24]]
 
+>[!idea] Karnaugh Maps
+>
 
 ___
 
