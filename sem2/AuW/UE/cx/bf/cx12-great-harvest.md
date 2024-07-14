@@ -232,34 +232,34 @@ flowchart LR
 ids0v1((0))
 ids0v2((1))
 ids0v3((2))
-idc0((3))
-idt0v1((4))
-idt0v2((5))
-idt0v3((6))
+idt0v1((3))
+idt0v2((4))
+idt0v3((5))
+idc0((6))
 
 ids1v1((7))
 ids1v2((8))
 ids1v3((9))
-idc1((10))
-idt1v1((11))
-idt1v2((12))
-idt1v3((13))
+idt1v1((10))
+idt1v2((11))
+idt1v3((12))
+idc1((13))
 
 ids2v1((14))
 ids2v2((15))
 ids2v3((16))
-idc2((17))
-idt2v1((18))
-idt2v2((19))
-idt2v3((20))
+idt2v1((17))
+idt2v2((18))
+idt2v3((19))
+idc2((20))
 
 ids3v1((21))
 ids3v2((22))
 ids3v3((23))
-idc3((24))
-idt3v1((25))
-idt3v2((26))
-idt3v3((27))
+idt3v1((24))
+idt3v2((25))
+idt3v3((26))
+idc3((27))
 
 idS((28))
 idT((29))
@@ -268,10 +268,10 @@ idT((29))
 
 idS --- ids0v1 & ids1v2 & ids2v3 & ids3v2
 
-ids0v1 & ids0v2 & ids0v3 --- idc0 --- idt0v1 & idt0v2 & idt0v3 --- idT
-ids1v1 & ids1v2 & ids1v3 --- idc1 --- idt1v1 & idt1v2 & idt1v3 --- idT
-ids2v1 & ids2v2 & ids2v3 --- idc2 --- idt2v1 & idt2v2 & idt2v3 --- idT
-ids3v1 & ids3v2 & ids3v3 --- idc3 --- idt3v1 & idt3v2 & idt3v3 --- idT
+ids0v1 & ids0v2 & ids0v3 --- idc0 --- idt0v1 & idt0v2 & idt0v3 --- idc0
+ids1v1 & ids1v2 & ids1v3 --- idc1 --- idt1v1 & idt1v2 & idt1v3 --- idc1
+ids2v1 & ids2v2 & ids2v3 --- idc2 --- idt2v1 & idt2v2 & idt2v3 --- idc2
+ids3v1 & ids3v2 & ids3v3 --- idc3 --- idt3v1 & idt3v2 & idt3v3 --- idc3 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
