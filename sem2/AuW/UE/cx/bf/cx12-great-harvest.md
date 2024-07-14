@@ -220,3 +220,20 @@ probably A -x B -> C, where v(A) == v(B) => A -x B but C needs some from A, can'
 flowchart LR
 0-->2
 ```
+
+
+```mermaid
+flowchart TD
+
+%%%%%%%%%%%%%%
+idc0v1((0))
+idc0v2((1))
+idc0v3((2))
+
+idc1v1((0))
+idc1v2((1))
+idc1v3((2))
+
+
+%%%%%%%%%%%%%%
+```
