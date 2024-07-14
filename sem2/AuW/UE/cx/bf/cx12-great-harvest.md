@@ -221,18 +221,47 @@ flowchart LR
 0-->2
 ```
 
+## New Approach
+
 
 ```mermaid
 flowchart TD
 
 %%%%%%%%%%%%%%
-idc0v1((0))
-idc0v2((1))
-idc0v3((2))
+ids0v1((0))
+ids0v2((1))
+ids0v3((2))
+idc0((3))
+idt0v1((4))
+idt0v2((5))
+idt0v3((6))
 
-idc1v1((0))
-idc1v2((1))
-idc1v3((2))
+ids1v1((7))
+ids1v2((8))
+ids1v3((9))
+idc1((10))
+idt1v1((11))
+idt1v2((12))
+idt1v3((13))
+
+ids2v1((17))
+ids2v2((15))
+ids2v3((16))
+idc2((17))
+idt2v1((18))
+idt2v2((19))
+idt2v3((20))
+
+ids3v1((21))
+ids3v2((22))
+ids3v3((23))
+idc3((24))
+idt3v1((25))
+idt3v2((5))
+idt3v3((6))
+
+
+
 
 
 %%%%%%%%%%%%%%
