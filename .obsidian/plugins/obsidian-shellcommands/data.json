@@ -28,7 +28,7 @@
     {
       "id": "c40q7nlmrh",
       "platform_specific_commands": {
-        "default": "open -a iTerm"
+        "default": "open {{file_path:absolute}}"
       },
       "shells": {},
       "alias": "",
@@ -59,7 +59,12 @@
       "debounce": null,
       "command_palette_availability": "enabled",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {
+        "{{file_path}}": {
+          "type": "value",
+          "value": "~/home/eth/vault"
+        }
+      }
     }
   ],
   "prompts": [
