@@ -9,13 +9,37 @@
   "titleBar": [],
   "statusBar": [],
   "pageHeader": [],
-  "macros": [],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "app:toggle-ribbon"
+        },
+        {
+          "action": 0,
+          "commandId": "app:toggle-right-sidebar"
+        },
+        {
+          "action": 0,
+          "commandId": "app:toggle-left-sidebar"
+        },
+        {
+          "action": 0,
+          "commandId": "obsidian-hider:toggle-hider-status"
+        }
+      ],
+      "name": "Zen",
+      "icon": "asterisk",
+      "startup": false
+    }
+  ],
   "explorer": [],
   "hide": {
     "statusbar": [],
     "leftRibbon": []
   },
-  "spacing": 8,
+  "spacing": "8",
   "advancedToolbar": {
     "rowHeight": 48,
     "rowCount": 1,
