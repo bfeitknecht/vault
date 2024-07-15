@@ -272,6 +272,10 @@ ids0v1 --- idt0v1 --- idc0
 ids0v2 --- idt0v2 --- idc0
 ids0v3 --- idt0v3 --- idc0
 
+ids0v1 -.- idt1v1
+ids0v2 -.- idt1v2
+ids0v3 -.- idt1v3
+
 ids1v1 --- idt1v1 --- idc1
 ids1v2 --- idt1v2 --- idc1
 ids1v3 --- idt1v3 --- idc1
