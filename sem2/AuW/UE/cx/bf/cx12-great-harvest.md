@@ -268,10 +268,21 @@ idT((29))
 
 idS --- ids0v1 & ids1v2 & ids2v3 & ids3v2
 
-ids0v1 & ids0v2 & ids0v3 --- idt0v1 & idt0v2 & idt0v3 --- idc0 --- idT
-ids1v1 & ids1v2 & ids1v3 --- idt1v1 & idt1v2 & idt1v3 --- idc1 --- idT
-ids2v1 & ids2v2 & ids2v3 --- idt2v1 & idt2v2 & idt2v3 --- idc2 --- idT
-ids3v1 & ids3v2 & ids3v3 --- idt3v1 & idt3v2 & idt3v3 --- idc3 --- idT
+ids0v1 --- idt0v1 --- idc0
+ids0v2 --- idt0v2 --- idc0
+ids0v3 --- idt0v3 --- idc0
+
+ids1v1 --- idt1v1 --- idc1
+ids1v2 --- idt1v2 --- idc1
+ids1v3 --- idt1v3 --- idc1
+
+ids2v1 --- idt2v1 --- idc2
+ids2v2 --- idt2v2 --- idc2
+ids2v3 --- idt2v3 --- idc2
+
+ids1v1 --- idt3v1 --- idc3
+ids1v2 --- idt3v2 --- idc3
+ids1v3 --- idt3v3 --- idc3
 
 idc0 & idc1 & idc2 & idc3 --- idT
 
