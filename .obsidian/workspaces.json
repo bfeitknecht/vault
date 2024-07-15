@@ -67,7 +67,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -124,18 +125,10 @@
                 }
               },
               {
-                "id": "d4d9e5cf2cd5e94b",
+                "id": "34db57a620058d31",
                 "type": "leaf",
                 "state": {
-                  "type": "git-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "65197310c6429a2e",
-                "type": "leaf",
-                "state": {
-                  "type": "git-history-view",
+                  "type": "toggl-report",
                   "state": {}
                 }
               }
@@ -149,6 +142,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-shellcommands:Shell commands: Custom variables": true,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
@@ -164,8 +158,8 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "414cefd1625961b6",
-      "mtime": "2024-07-15T10:17:02+02:00"
+      "active": "34db57a620058d31",
+      "mtime": "2024-07-15T23:55:45+02:00"
     },
     "HOME": {
       "main": {
@@ -269,7 +263,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -286,7 +279,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -308,9 +300,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -364,7 +354,7 @@
         }
       },
       "active": "84d6179a41f3d7a6",
-      "mtime": "2024-07-15T23:51:02+02:00"
+      "mtime": "2024-07-15T23:52:07+02:00"
     },
     "pv-a1": {
       "main": {
@@ -567,10 +557,10 @@
                 }
               },
               {
-                "id": "65197310c6429a2e",
+                "id": "6b868fb11112a06c",
                 "type": "leaf",
                 "state": {
-                  "type": "git-history-view",
+                  "type": "toggl-report",
                   "state": {}
                 }
               }
@@ -584,6 +574,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-shellcommands:Shell commands: Custom variables": true,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
@@ -599,8 +590,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "b22ace324bf1f666",
-      "mtime": "2024-07-15T10:09:20+02:00"
+      "active": "d4d9e5cf2cd5e94b",
+      "mtime": "2024-07-15T23:55:57+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -657,7 +648,7 @@
                     "page": 1,
                     "left": -12,
                     "top": 599,
-                    "zoom": 1.2721379924070824
+                    "zoom": 1.2721379924070821
                   }
                 }
               }
@@ -799,6 +790,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-shellcommands:Shell commands: Custom variables": false,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
@@ -815,7 +807,7 @@
         }
       },
       "active": "23ae56ed0afad8bc",
-      "mtime": "2024-07-15T10:09:21+02:00"
+      "mtime": "2024-07-15T23:54:16+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -1012,6 +1004,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-shellcommands:Shell commands: Custom variables": false,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
@@ -1028,7 +1021,7 @@
         }
       },
       "active": "54fc4e5ed3576cdb",
-      "mtime": "2024-07-15T10:09:22+02:00"
+      "mtime": "2024-07-15T23:54:20+02:00"
     },
     "pv-auw": {
       "main": {
@@ -1236,6 +1229,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-shellcommands:Shell commands: Custom variables": false,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
@@ -1252,8 +1246,8 @@
         }
       },
       "active": "bc214e82e3d29ca0",
-      "mtime": "2024-07-15T10:09:24+02:00"
+      "mtime": "2024-07-15T23:54:38+02:00"
     }
   },
-  "active": "clean"
+  "active": "pv-ddca"
 }
