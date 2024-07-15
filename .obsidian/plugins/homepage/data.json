@@ -24,7 +24,7 @@
           "period": "Both"
         },
         {
-          "id": "markdown:toggle-preview",
+          "id": "obsidian-living-graph:toggle",
           "period": "Both"
         }
       ],
