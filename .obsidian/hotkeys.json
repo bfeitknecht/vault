@@ -78,15 +78,6 @@
       "key": "B"
     }
   ],
-  "obsidian-hider:toggle-hider-status": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "S"
-    }
-  ],
   "workspaces:save-and-load": [
     {
       "modifiers": [
@@ -101,6 +92,15 @@
         "Ctrl"
       ],
       "key": "Tab"
+    }
+  ],
+  "cmdr:macro-0": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
     }
   ]
 }

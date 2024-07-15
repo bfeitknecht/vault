@@ -18,18 +18,10 @@
         },
         {
           "action": 0,
-          "commandId": "app:toggle-right-sidebar"
-        },
-        {
-          "action": 0,
-          "commandId": "app:toggle-left-sidebar"
-        },
-        {
-          "action": 0,
           "commandId": "obsidian-hider:toggle-hider-status"
         }
       ],
-      "name": "Zen",
+      "name": "Toggle Status and Ribbon",
       "icon": "asterisk",
       "startup": false
     }
