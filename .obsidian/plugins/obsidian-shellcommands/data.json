@@ -28,7 +28,7 @@
     {
       "id": "c40q7nlmrh",
       "platform_specific_commands": {
-        "default": "./scripts/fishy.fish"
+        "default": "{{vault_path}}/.scripts/fishy.fish"
       },
       "shells": {},
       "alias": "",
