@@ -28,7 +28,7 @@
     {
       "id": "c40q7nlmrh",
       "platform_specific_commands": {
-        "default": "{{vault_path}}/.scripts/fishy.fish"
+        "default": "{{vault_path}}/.scripts/iterm-pwd.fish "
       },
       "shells": {},
       "alias": "",
