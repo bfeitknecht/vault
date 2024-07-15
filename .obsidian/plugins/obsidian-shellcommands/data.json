@@ -26,14 +26,14 @@
   "max_visible_lines_in_shell_command_fields": false,
   "shell_commands": [
     {
-      "id": "hu058qj5j0",
+      "id": "c40q7nlmrh",
       "platform_specific_commands": {
-        "default": "open -a Finder; trash -Fr .trash/*"
+        "default": "open -a iTerm"
       },
       "shells": {},
-      "alias": "Clear Trash",
-      "icon": "trash",
-      "confirm_execution": true,
+      "alias": "",
+      "icon": null,
+      "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
         "stdin": null
