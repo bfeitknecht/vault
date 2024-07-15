@@ -28,7 +28,7 @@
     {
       "id": "c40q7nlmrh",
       "platform_specific_commands": {
-        "default": "open (dirname {{file_path:absolute}})"
+        "default": "./scripts/fishy.fish"
       },
       "shells": {},
       "alias": "",
