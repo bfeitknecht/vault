@@ -100,7 +100,12 @@
       "debounce": null,
       "command_palette_availability": "enabled",
       "preactions": [],
-      "variable_default_values": {}
+      "variable_default_values": {
+        "{{file_path}}": {
+          "type": "value",
+          "value": "/User/bf/home/eth/vault"
+        }
+      }
     }
   ],
   "prompts": [
