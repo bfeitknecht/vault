@@ -28,7 +28,7 @@
     {
       "id": "c40q7nlmrh",
       "platform_specific_commands": {
-        "default": "open {{file_path:absolute}}"
+        "default": "open (dirname {{file_path:absolute}})"
       },
       "shells": {},
       "alias": "",
