@@ -17,5 +17,6 @@
     "LUTs"
   ],
   "showRibbon": true,
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "trashOption": "local"
 }
