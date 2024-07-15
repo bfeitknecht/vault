@@ -28,11 +28,11 @@
     {
       "id": "c40q7nlmrh",
       "platform_specific_commands": {
-        "default": "{{vault_path}}/.scripts/iterm-pwd.fish "
+        "default": "open -a iTerm {{event_folder_path:absolute}}"
       },
       "shells": {},
-      "alias": "",
-      "icon": null,
+      "alias": "Open Folder in iTerm",
+      "icon": "terminal",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
@@ -65,6 +65,42 @@
           "value": "~/home/eth/vault"
         }
       }
+    },
+    {
+      "id": "2vk5mhxxda",
+      "platform_specific_commands": {
+        "default": "nvim {{file_path:absolute}}"
+      },
+      "shells": {},
+      "alias": "Open File in Neovim",
+      "icon": "edit",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "ignore",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        }
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "execution_notification_mode": null,
+      "events": {},
+      "debounce": null,
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
     }
   ],
   "prompts": [
