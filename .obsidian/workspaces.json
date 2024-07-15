@@ -67,8 +67,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -166,7 +165,7 @@
         }
       },
       "active": "414cefd1625961b6",
-      "mtime": "2024-07-15T09:56:00+02:00"
+      "mtime": "2024-07-15T10:09:16+02:00"
     },
     "HOME": {
       "main": {
@@ -363,8 +362,8 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "84d6179a41f3d7a6",
-      "mtime": "2024-07-15T09:59:59+02:00"
+      "active": "414cefd1625961b6",
+      "mtime": "2024-07-15T10:11:54+02:00"
     },
     "pv-a1": {
       "main": {
@@ -600,7 +599,7 @@
         }
       },
       "active": "b22ace324bf1f666",
-      "mtime": "2024-07-14T09:16:20+02:00"
+      "mtime": "2024-07-15T10:09:20+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -619,9 +618,7 @@
                   "state": {
                     "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 846,
-                    "zoom": 1.7991654291454724
+                    "zoom": 1
                   }
                 }
               },
@@ -817,7 +814,7 @@
         }
       },
       "active": "23ae56ed0afad8bc",
-      "mtime": "2024-07-14T09:10:16+02:00"
+      "mtime": "2024-07-15T10:09:21+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -1030,7 +1027,7 @@
         }
       },
       "active": "54fc4e5ed3576cdb",
-      "mtime": "2024-07-13T19:07:40+02:00"
+      "mtime": "2024-07-15T10:09:22+02:00"
     },
     "pv-auw": {
       "main": {
@@ -1254,8 +1251,8 @@
         }
       },
       "active": "bc214e82e3d29ca0",
-      "mtime": "2024-07-15T09:33:37+02:00"
+      "mtime": "2024-07-15T10:09:24+02:00"
     }
   },
-  "active": "clean"
+  "active": "HOME"
 }

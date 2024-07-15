@@ -26,6 +26,10 @@
         {
           "id": "obsidian-living-graph:toggle",
           "period": "Both"
+        },
+        {
+          "id": "cmdr:macro-0",
+          "period": "Both"
         }
       ],
       "alwaysApply": false,
