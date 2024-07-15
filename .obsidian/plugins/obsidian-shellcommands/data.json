@@ -69,7 +69,7 @@
     {
       "id": "2vk5mhxxda",
       "platform_specific_commands": {
-        "default": "open -a iTerm && exec nvim {{file_path:absolute}}"
+        "default": "open -a iTerm;\nexec nvim {{file_path:absolute}}"
       },
       "shells": {},
       "alias": "Open File in Neovim",
