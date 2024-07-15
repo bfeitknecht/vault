@@ -108,16 +108,7 @@
       }
     }
   ],
-  "prompts": [
-    {
-      "id": "zu20qnyvbo",
-      "title": "",
-      "description": "",
-      "preview_shell_command": false,
-      "fields": [],
-      "execute_button_text": "Execute"
-    }
-  ],
+  "prompts": [],
   "builtin_variables": {},
   "custom_variables": [],
   "custom_variables_notify_changes_via": {
@@ -126,27 +117,10 @@
   },
   "custom_shells": [
     {
-      "id": "xjo880r3uj",
-      "name": "",
-      "description": "",
-      "binary_path": "",
-      "shell_arguments": [
-        "-c",
-        "{{!shell_command_content}}"
-      ],
-      "host_platform": "darwin",
-      "host_platform_configurations": {},
-      "shell_platform": null,
-      "escaper": "UnixShell",
-      "path_translator": null,
-      "shell_command_wrapper": null,
-      "shell_command_test": null
-    },
-    {
       "id": "p6ynqnlz9c",
       "name": "fish",
-      "description": "The friendly interactive",
-      "binary_path": "",
+      "description": "The friendly interactive shell",
+      "binary_path": "/opt/homebrew/bin/fish",
       "shell_arguments": [
         "-c",
         "{{!shell_command_content}}"
@@ -157,7 +131,7 @@
       "escaper": "UnixShell",
       "path_translator": null,
       "shell_command_wrapper": null,
-      "shell_command_test": null
+      "shell_command_test": "ls"
     }
   ],
   "output_wrappers": [
