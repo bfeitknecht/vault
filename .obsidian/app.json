@@ -11,10 +11,11 @@
     "downscalePercent": 100
   },
   "showInlineTitle": true,
-  "showLineNumber": true,
+  "showLineNumber": false,
   "newFileLocation": "current",
   "spellcheckDictionary": [
     "LUTs"
   ],
-  "showRibbon": true
+  "showRibbon": true,
+  "propertiesInDocument": "visible"
 }

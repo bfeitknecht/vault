@@ -24,5 +24,6 @@
   "cmdr",
   "obsidian-toggl-integration",
   "obsidian-living-graph",
-  "obsidian-cursor-location-plugin"
+  "obsidian-cursor-location-plugin",
+  "obsidian-shellcommands"
 ]
