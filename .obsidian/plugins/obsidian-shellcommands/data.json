@@ -141,6 +141,23 @@
       "path_translator": null,
       "shell_command_wrapper": null,
       "shell_command_test": null
+    },
+    {
+      "id": "p6ynqnlz9c",
+      "name": "fish",
+      "description": "The friendly interactive",
+      "binary_path": "",
+      "shell_arguments": [
+        "-c",
+        "{{!shell_command_content}}"
+      ],
+      "host_platform": "darwin",
+      "host_platform_configurations": {},
+      "shell_platform": null,
+      "escaper": "UnixShell",
+      "path_translator": null,
+      "shell_command_wrapper": null,
+      "shell_command_test": null
     }
   ],
   "output_wrappers": [
