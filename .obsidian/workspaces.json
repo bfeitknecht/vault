@@ -263,6 +263,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -279,6 +280,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -300,7 +302,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "HOME.md"
+                  }
                 }
               },
               {
@@ -337,7 +341,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-shellcommands:Shell commands: Custom variables": false,
+          "obsidian-shellcommands:Shell commands: Custom variables": true,
           "homepage:Open homepage": true,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
@@ -354,7 +358,7 @@
         }
       },
       "active": "84d6179a41f3d7a6",
-      "mtime": "2024-07-15T23:52:07+02:00"
+      "mtime": "2024-07-15T23:58:01+02:00"
     },
     "pv-a1": {
       "main": {
@@ -648,7 +652,7 @@
                     "page": 1,
                     "left": -12,
                     "top": 599,
-                    "zoom": 1.2721379924070821
+                    "zoom": 1.2721379924070824
                   }
                 }
               }
@@ -790,7 +794,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-shellcommands:Shell commands: Custom variables": false,
+          "obsidian-shellcommands:Shell commands: Custom variables": true,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
@@ -807,7 +811,7 @@
         }
       },
       "active": "23ae56ed0afad8bc",
-      "mtime": "2024-07-15T23:54:16+02:00"
+      "mtime": "2024-07-15T23:56:11+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -1004,7 +1008,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-shellcommands:Shell commands: Custom variables": false,
+          "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
@@ -1021,7 +1025,7 @@
         }
       },
       "active": "54fc4e5ed3576cdb",
-      "mtime": "2024-07-15T23:54:20+02:00"
+      "mtime": "2024-07-15T23:56:21+02:00"
     },
     "pv-auw": {
       "main": {
@@ -1229,7 +1233,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-shellcommands:Shell commands: Custom variables": false,
+          "obsidian-shellcommands:Shell commands: Custom variables": true,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
@@ -1246,8 +1250,8 @@
         }
       },
       "active": "bc214e82e3d29ca0",
-      "mtime": "2024-07-15T23:54:38+02:00"
+      "mtime": "2024-07-15T23:56:32+02:00"
     }
   },
-  "active": "pv-ddca"
+  "active": "clean"
 }
