@@ -1088,6 +1088,18 @@
                     "zoom": 1
                   }
                 }
+              },
+              {
+                "id": "585b492207b21c75",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem2/AuW/UE/cx/bf/cx12-great-harvest.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
             ]
           }
@@ -1241,9 +1253,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "d1408c562fdb9bec",
-      "mtime": "2024-07-13T19:07:57+02:00"
+      "active": "bc214e82e3d29ca0",
+      "mtime": "2024-07-15T09:33:37+02:00"
     }
   },
-  "active": "pv-auw"
+  "active": "pv-ddca"
 }
