@@ -347,6 +347,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-shellcommands:Shell commands: Custom variables": false,
           "homepage:Open homepage": true,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
@@ -362,8 +363,8 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "414cefd1625961b6",
-      "mtime": "2024-07-15T10:16:26+02:00"
+      "active": "84d6179a41f3d7a6",
+      "mtime": "2024-07-15T23:51:02+02:00"
     },
     "pv-a1": {
       "main": {
@@ -1254,5 +1255,5 @@
       "mtime": "2024-07-15T10:09:24+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "clean"
 }
