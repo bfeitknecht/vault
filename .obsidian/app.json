@@ -11,7 +11,7 @@
     "downscalePercent": 100
   },
   "showInlineTitle": true,
-  "showLineNumber": false,
+  "showLineNumber": true,
   "newFileLocation": "current",
   "spellcheckDictionary": [
     "LUTs"
