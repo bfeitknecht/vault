@@ -28,7 +28,7 @@
     {
       "id": "c40q7nlmrh",
       "platform_specific_commands": {
-        "default": "open -a iTerm {{event_folder_path:absolute}}"
+        "default": "open -a iTerm {{folder_path:absolute}}"
       },
       "shells": {},
       "alias": "Open Folder in iTerm",
