@@ -28,7 +28,7 @@
     {
       "id": "hu058qj5j0",
       "platform_specific_commands": {
-        "default": "rm -fr .trash/*"
+        "default": "open -a Finder; trash -Fr .trash/*"
       },
       "shells": {},
       "alias": "Clear Trash",
