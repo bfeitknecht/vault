@@ -8,7 +8,14 @@
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
-  "pageHeader": [],
+  "pageHeader": [
+    {
+      "id": "editor:toggle-source",
+      "icon": "lucide-code-2",
+      "name": "Toggle Live Preview/Source mode",
+      "mode": "any"
+    }
+  ],
   "macros": [
     {
       "macro": [
