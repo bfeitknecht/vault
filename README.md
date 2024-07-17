@@ -18,12 +18,7 @@ git clone https://github.com/bs10x/vault.git
 
 ## Automation
 
-save workspace layout uri
-```
-obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave
-```
-
-execute uri as shell:
+execute save workspace layout:
 ```
 open --background "obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave"
 ```

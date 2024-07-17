@@ -610,7 +610,9 @@
                   "state": {
                     "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -9,
+                    "top": 846,
+                    "zoom": 1.7991654291454722
                   }
                 }
               },
@@ -620,7 +622,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "README.md",
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
                     "mode": "source",
                     "source": false
                   }
@@ -634,7 +636,9 @@
                   "state": {
                     "file": "sem2/DDCA/VRL/slides/DDCA-L03-combinational-circuits-theory.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -11,
+                    "top": 544,
+                    "zoom": 1.4875
                   }
                 }
               },
@@ -646,12 +650,26 @@
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -12,
+                    "top": 599,
+                    "zoom": 1.2721379924070821
+                  }
+                }
+              },
+              {
+                "id": "38d64185ef91f6c9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "source",
+                    "source": false
                   }
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -671,21 +689,6 @@
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "3eef01e3b58afb78",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:/sem2/AuW/VRL/slides",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "byModifiedTime"
                   }
                 }
               },
@@ -782,7 +785,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -802,8 +806,8 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "bc8f0dc41f8794f0",
-      "mtime": "2024-07-17T08:42:13+02:00"
+      "active": "38d64185ef91f6c9",
+      "mtime": "2024-07-17T08:50:17+02:00"
     },
     "pv-pprog": {
       "main": {
