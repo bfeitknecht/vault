@@ -620,7 +620,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
+                    "file": "README.md",
                     "mode": "source",
                     "source": false
                   }
@@ -701,8 +701,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -718,7 +717,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
+                    "file": "README.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -735,7 +734,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
+                    "file": "README.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -758,7 +757,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md"
+                    "file": "README.md"
                   }
                 }
               },
@@ -783,8 +782,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -805,7 +803,7 @@
         }
       },
       "active": "bc8f0dc41f8794f0",
-      "mtime": "2024-07-17T08:29:59+02:00"
+      "mtime": "2024-07-17T08:42:13+02:00"
     },
     "pv-pprog": {
       "main": {

@@ -13,3 +13,17 @@ git clone https://github.com/bs10x/vault.git
 >[!example] Roadmap
 >- [ ] configure commander to enter "zen mode" 🔽 ➕ 2024-07-09
 
+
+
+
+## Automation
+
+save workspace layout uri
+```
+obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave
+```
+
+execute uri as shell:
+```
+open --background "obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave"
+```
