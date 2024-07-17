@@ -217,6 +217,7 @@ ___
 > ![[DDCA-L04b-verilog-combinational.pdf#page=13&rect=31,77,623,433|DDCA-L04b-verilog-combinational, p.13]]
 > ![[DDCA-L04b-verilog-combinational.pdf#page=33&rect=30,24,675,501|DDCA-L04b-verilog-combinational, p.33]]
 > 
+> 
 >>[!Iidea]- Defining a Module
 >> ![[DDCA-L04b-verilog-combinational.pdf#page=8&rect=41,250,375,432|DDCA-L04b-verilog-combinational, p.8]]
 >> ![[DDCA-L04b-verilog-combinational.pdf#page=8&rect=176,79,547,222|DDCA-L04b-verilog-combinational, p.8]]
@@ -230,7 +231,11 @@ ___
 >> ![[endians.jpg]]
 >
 >>[!idea]- Operators
->>bitwise logical operators:
+>>
+>> operator precedence (high to low):
+>> ![[DDCA-L04b-verilog-combinational.pdf#page=36&rect=329,61,655,448|DDCA-L04b-verilog-combinational, p.36]]
+>>
+>> bitwise logical operators:
 >> ![[DDCA-L04b-verilog-combinational.pdf#page=25&rect=69,159,407,287|DDCA-L04b-verilog-combinational, p.25]]
 >> 
 >> logical reduction operators:
@@ -240,6 +245,8 @@ ___
 >> assign y2 = |a;	// logical and reduction
 >> ```
 > 
+>>[!idea]- Numbers
+>> ![[DDCA-L04b-verilog-combinational.pdf#page=36&rect=337,66,651,439|DDCA-L04b-verilog-combinational, p.36]]
 > 
 
 
