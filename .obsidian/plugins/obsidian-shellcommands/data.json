@@ -191,7 +191,7 @@
     {
       "id": "cz6yqm01nx",
       "platform_specific_commands": {
-        "default": "open --background \"obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave\""
+        "default": "open --background \"obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave\" && echo a >> foo"
       },
       "shells": {},
       "alias": "Save Workspace before Close",
