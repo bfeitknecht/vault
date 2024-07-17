@@ -251,9 +251,14 @@ ___
 >> [!idea]- Examples
 >> ```verilog
 >> module MyXNOR
->> 	#(parameter width = 32)
->> 	(input [widht-1:0] a
-)
+>> #(parameter width = 32)
+>> (
+>> input [widht-1:0] a,
+>> input [widht-1:0] b,
+>> output [width-1:0] y
+>> );
+>> 	assign y = ~(a ^ b);	// NOT XOR
+>> endmodule
 >> ```
 >
 >
