@@ -214,6 +214,9 @@ ___
 
 >[!quote]+ Verilog Basics
 > 
+> ![[DDCA-L04b-verilog-combinational.pdf#page=13&rect=31,77,623,433|DDCA-L04b-verilog-combinational, p.13]]
+> ![[DDCA-L04b-verilog-combinational.pdf#page=33&rect=30,24,675,501|DDCA-L04b-verilog-combinational, p.33]]
+> 
 >>[!Iidea]- Defining a Module
 >> ![[DDCA-L04b-verilog-combinational.pdf#page=8&rect=41,250,375,432|DDCA-L04b-verilog-combinational, p.8]]
 >> ![[DDCA-L04b-verilog-combinational.pdf#page=8&rect=176,79,547,222|DDCA-L04b-verilog-combinational, p.8]]
@@ -223,20 +226,20 @@ ___
 >> wire [31:0] a;	// a[31], a[30] .. a[0]
 >> wire [8:0] b; 	// b[0], b[1] .. b[7]
 >> ```
+>> little vs big endian
 >> ![[endians.jpg]]
 >
-> ![[DDCA-L04b-verilog-combinational.pdf#page=13&rect=31,77,623,433|DDCA-L04b-verilog-combinational, p.13]]
-> 
 >>[!idea]- Operators
->>
-> bitwise logical operators:
-> ![[DDCA-L04b-verilog-combinational.pdf#page=25&rect=69,159,407,287|DDCA-L04b-verilog-combinational, p.25]]
-> logical reduction operators:
-> ```
-> wire a[3:0];
-> assign y1 = &a;	// logical or reduction
-> assign y2 = |a;	// logical and reduction
-> ```
+>>bitwise logical operators:
+>> ![[DDCA-L04b-verilog-combinational.pdf#page=25&rect=69,159,407,287|DDCA-L04b-verilog-combinational, p.25]]
+>> 
+>> logical reduction operators:
+>> ```verilog
+>> wire a[3:0];
+>> assign y1 = &a;	// logical or reduction
+>> assign y2 = |a;	// logical and reduction
+>> ```
+> 
 > 
 
 
