@@ -173,7 +173,17 @@ ___
 >[!quote]+ More Boolean Algebra
 >
 >>[!idea]- SOP vs POS
->>a
+>>
+>>>[!idea] SOP
+>>>![[DDCA-L04a-combinational-circuits-theory.pdf#page=7&rect=170,286,697,456|DDCA-L04a-combinational-circuits-theory, p.7]]
+>>
+>>>[!idea] POS
+>>>
+>>![[DDCA-L04a-combinational-circuits-theory.pdf#page=10&rect=57,12,704,433|DDCA-L04a-combinational-circuits-theory, p.10]]
+>>
+>>
+>>
+>>
 
 
 ___
