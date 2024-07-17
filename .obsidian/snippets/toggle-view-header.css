@@ -1,11 +1,11 @@
 /* @settings
 
-name: Tab Title Bar
+name: Personal
 id: 7
 settings:
     - 
-        id: show-view-header
-        title: Toggle view-header
+        id: toggle-view-header
+        title: Show view-header
         description: Toggles view-header in the body
         type: class-toggle
         add-command: true
