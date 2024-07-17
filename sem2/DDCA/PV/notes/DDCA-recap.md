@@ -213,8 +213,7 @@ ___
 > - i.e. How do you write a Verilog code that implements a 32-bit tristate bus with 3 different drivers (Frank, Mohammad, Ataberk).
 
 >[!quote]+ Verilog Basics
->
->Verilog is 
+> 
 >>[!Iidea]- Defining a Module
 >> ![[DDCA-L04b-verilog-combinational.pdf#page=8&rect=41,250,375,432|DDCA-L04b-verilog-combinational, p.8]]
 >> ![[DDCA-L04b-verilog-combinational.pdf#page=8&rect=176,79,547,222|DDCA-L04b-verilog-combinational, p.8]]
@@ -225,7 +224,8 @@ ___
 >> wire [8:0] b; 	// b[0], b[1] .. b[7]
 >> ```
 >> ![[endians.jpg]]
->> 
+>
+> ![[DDCA-L04b-verilog-combinational.pdf#page=13&rect=31,77,623,433|DDCA-L04b-verilog-combinational, p.13]]
 >
 >
 
