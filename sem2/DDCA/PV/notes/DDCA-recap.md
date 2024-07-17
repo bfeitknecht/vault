@@ -226,8 +226,18 @@ ___
 >> ![[endians.jpg]]
 >
 > ![[DDCA-L04b-verilog-combinational.pdf#page=13&rect=31,77,623,433|DDCA-L04b-verilog-combinational, p.13]]
->
->
+> 
+>>[!idea]- Operators
+>>
+> bitwise logical operators:
+> ![[DDCA-L04b-verilog-combinational.pdf#page=25&rect=69,159,407,287|DDCA-L04b-verilog-combinational, p.25]]
+> logical reduction operators:
+> ```
+> wire a[3:0];
+> assign y1 = &a;	// logical or reduction
+> assign y2 = |a;	// logical and reduction
+> ```
+> 
 
 
 ___
