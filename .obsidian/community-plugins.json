@@ -1,6 +1,5 @@
 [
   "obsidian-git",
-  "obsidian-style-settings",
   "break-page",
   "obsidian-hider",
   "omnisearch",
@@ -26,5 +25,6 @@
   "obsidian-shellcommands",
   "obsidian-toggl-integration",
   "remember-cursor-position",
-  "obsidian-advanced-uri"
+  "obsidian-advanced-uri",
+  "obsidian-style-settings"
 ]

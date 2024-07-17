@@ -1,0 +1,12 @@
+/* @settings
+
+name: Tab Title Bar
+id: 7
+settings:
+    - 
+        id: show-view-header
+        title: Toggle view-header
+        description: Toggles view-header in the body
+        type: class-toggle
+        add-command: true
+*/
