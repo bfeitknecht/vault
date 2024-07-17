@@ -655,21 +655,9 @@
                     "zoom": 1.2721379924070821
                   }
                 }
-              },
-              {
-                "id": "38d64185ef91f6c9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "README.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -704,7 +692,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -720,7 +709,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "README.md",
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -737,7 +726,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "README.md",
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -760,7 +749,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "README.md"
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf"
                   }
                 }
               },
@@ -806,8 +795,8 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "38d64185ef91f6c9",
-      "mtime": "2024-07-17T08:50:17+02:00"
+      "active": "23ae56ed0afad8bc",
+      "mtime": "2024-07-17T09:08:44+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -1249,5 +1238,5 @@
       "mtime": "2024-07-15T23:56:32+02:00"
     }
   },
-  "active": "pv-ddca"
+  "active": "HOME"
 }

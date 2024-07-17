@@ -25,5 +25,7 @@ open --background "obsidian://advanced-uri?vault=vault&commandid=workspaces%253A
 
 
 
-open neovim doesn't work but creates the process
+open neovim doesn't work but creates the process, maybe the problem is that the iterm server starts its shell after the nvim exec? but then the process would die...
+
+
 
