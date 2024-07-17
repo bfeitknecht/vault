@@ -79,7 +79,7 @@ gray codes, hypercubes, blah blah
 
 # Matchings
 
-Augmented path #explain  
+Augmented path
 
 proof of lemma or something, we show that the algorithm is correct because we have huge balls.
 
