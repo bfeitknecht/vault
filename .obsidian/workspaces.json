@@ -590,8 +590,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-07-15T23:55:57+02:00"
+      "active": "b22ace324bf1f666",
+      "mtime": "2024-07-17T08:30:01+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -646,14 +646,12 @@
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
                     "page": 1,
-                    "left": -12,
-                    "top": 599,
-                    "zoom": 1.2721379924070824
+                    "zoom": 1
                   }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -720,7 +718,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -737,7 +735,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -760,7 +758,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf"
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md"
                   }
                 }
               },
@@ -781,7 +779,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
@@ -806,8 +804,8 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "23ae56ed0afad8bc",
-      "mtime": "2024-07-15T23:56:11+02:00"
+      "active": "bc8f0dc41f8794f0",
+      "mtime": "2024-07-17T08:29:59+02:00"
     },
     "pv-pprog": {
       "main": {

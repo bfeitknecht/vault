@@ -1,4 +1,4 @@
-************
+___
 
 ## Introduction
 
@@ -174,6 +174,7 @@ ___
 >
 >>[!idea]- SOP vs POS
 >>a
+
 
 ___
 ## Verilog for Combinational Circuits $\star$
