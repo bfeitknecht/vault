@@ -233,7 +233,7 @@ ___
 >>[!idea]- Operators
 >>
 >> operator precedence (high to low):
->> ![[DDCA-L04b-verilog-combinational.pdf#page=36&rect=329,61,655,448|DDCA-L04b-verilog-combinational, p.36]]
+>> ![[DDCA-L04b-verilog-combinational.pdf#page=36&rect=337,66,651,439|DDCA-L04b-verilog-combinational, p.36]]
 >>
 >> bitwise logical operators:
 >> ![[DDCA-L04b-verilog-combinational.pdf#page=25&rect=69,159,407,287|DDCA-L04b-verilog-combinational, p.25]]
@@ -246,8 +246,17 @@ ___
 >> ```
 > 
 >>[!idea]- Numbers
->> ![[DDCA-L04b-verilog-combinational.pdf#page=36&rect=337,66,651,439|DDCA-L04b-verilog-combinational, p.36]]
-> 
+>>![[DDCA-L04b-verilog-combinational.pdf#page=34&rect=26,156,663,439|DDCA-L04b-verilog-combinational, p.34]]
+>
+>> [!idea]- Examples
+>> ```verilog
+>> module MyXNOR
+>> 	#(parameter width = 32)
+>> 	(input [widht-1:0] a
+)
+>> ```
+>
+>
 
 
 ___
