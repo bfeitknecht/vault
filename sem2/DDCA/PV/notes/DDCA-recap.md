@@ -229,6 +229,13 @@ ___
 >> ```
 >> little vs big endian
 >> ![[endians.jpg]]
+>> 
+>> Concatenating by `{}`
+>> ```verilog
+>> wire[3:0] a = 4'b0101;
+>> wire[1:0] b = 2'b11;
+>> wire[7:0] 
+>> ```
 >
 >>[!idea]- Operators
 >>
