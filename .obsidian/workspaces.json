@@ -41,21 +41,6 @@
                 }
               },
               {
-                "id": "3eef01e3b58afb78",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:/sem2/AuW/VRL/slides",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "byModifiedTime"
-                  }
-                }
-              },
-              {
                 "id": "b14014a5400a500b",
                 "type": "leaf",
                 "state": {
@@ -67,8 +52,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -160,7 +144,7 @@
         }
       },
       "active": "34db57a620058d31",
-      "mtime": "2024-07-17T12:21:20+02:00"
+      "mtime": "2024-07-17T12:25:39+02:00"
     },
     "HOME": {
       "main": {
@@ -221,21 +205,6 @@
                 }
               },
               {
-                "id": "3eef01e3b58afb78",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:/sem2/DDCA/VRL/slides",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "byModifiedTime"
-                  }
-                }
-              },
-              {
                 "id": "b14014a5400a500b",
                 "type": "leaf",
                 "state": {
@@ -247,8 +216,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -360,7 +328,7 @@
         }
       },
       "active": "414cefd1625961b6",
-      "mtime": "2024-07-17T12:21:29+02:00"
+      "mtime": "2024-07-17T12:25:42+02:00"
     },
     "pv-a1": {
       "main": {
@@ -467,21 +435,6 @@
                 }
               },
               {
-                "id": "3eef01e3b58afb78",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:/sem2/AuW/VRL/slides",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "byModifiedTime"
-                  }
-                }
-              },
-              {
                 "id": "b14014a5400a500b",
                 "type": "leaf",
                 "state": {
@@ -493,8 +446,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -598,7 +550,7 @@
         }
       },
       "active": "b22ace324bf1f666",
-      "mtime": "2024-07-17T12:21:05+02:00"
+      "mtime": "2024-07-17T12:25:21+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -705,8 +657,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -722,7 +673,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -739,7 +690,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -762,7 +713,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md"
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf"
                   }
                 }
               },
@@ -787,8 +738,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -809,8 +759,8 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "bc8f0dc41f8794f0",
-      "mtime": "2024-07-17T12:21:06+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-17T12:25:34+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -894,21 +844,6 @@
                 }
               },
               {
-                "id": "3eef01e3b58afb78",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "byModifiedTime"
-                  }
-                }
-              },
-              {
                 "id": "b14014a5400a500b",
                 "type": "leaf",
                 "state": {
@@ -920,8 +855,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1025,7 +959,7 @@
         }
       },
       "active": "54fc4e5ed3576cdb",
-      "mtime": "2024-07-17T12:21:10+02:00"
+      "mtime": "2024-07-17T12:25:26+02:00"
     },
     "pv-auw": {
       "main": {
@@ -1120,21 +1054,6 @@
                 }
               },
               {
-                "id": "3eef01e3b58afb78",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "byModifiedTime"
-                  }
-                }
-              },
-              {
                 "id": "b14014a5400a500b",
                 "type": "leaf",
                 "state": {
@@ -1146,8 +1065,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1251,7 +1169,7 @@
         }
       },
       "active": "bc214e82e3d29ca0",
-      "mtime": "2024-07-17T12:21:15+02:00"
+      "mtime": "2024-07-17T12:25:32+02:00"
     }
   },
   "active": "pv-ddca"

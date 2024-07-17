@@ -4,7 +4,7 @@
   "cssTheme": "Minimal",
   "interfaceFontFamily": "Helvetica Neue",
   "textFontFamily": "Helvetica Neue",
-  "showViewHeader": true,
+  "showViewHeader": false,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "page-breaks"
