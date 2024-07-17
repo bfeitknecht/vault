@@ -25,5 +25,6 @@
   "obsidian-living-graph",
   "obsidian-cursor-location-plugin",
   "obsidian-shellcommands",
-  "obsidian-toggl-integration"
+  "obsidian-toggl-integration",
+  "remember-cursor-position"
 ]
