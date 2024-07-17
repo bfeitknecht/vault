@@ -187,7 +187,7 @@
     {
       "id": "cz6yqm01nx",
       "platform_specific_commands": {
-        "default": "sed -i '' -e '/\"showViewHeader\": true/s/true/false/' -e '/\"showViewHeader\": false/s/false/true/' {{vault_path}}\\/.obsidian\\/appearance.json\n"
+        "default": "\n"
       },
       "shells": {},
       "alias": "",
