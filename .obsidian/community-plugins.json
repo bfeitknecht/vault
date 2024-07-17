@@ -22,10 +22,10 @@
   "statusbar-organizer",
   "obsidian-show-file-path",
   "cmdr",
-  "obsidian-living-graph",
   "obsidian-cursor-location-plugin",
   "obsidian-shellcommands",
   "obsidian-toggl-integration",
   "remember-cursor-position",
-  "obsidian-advanced-uri"
+  "obsidian-advanced-uri",
+  "customjs"
 ]
