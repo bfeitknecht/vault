@@ -137,7 +137,12 @@
       "output_channel_order": "stdout-first",
       "output_handling_mode": "buffered",
       "execution_notification_mode": null,
-      "events": {},
+      "events": {
+        "every-n-seconds": {
+          "enabled": false,
+          "seconds": 60
+        }
+      },
       "debounce": null,
       "command_palette_availability": "enabled",
       "preactions": [],
