@@ -155,7 +155,7 @@
       },
       "shells": {},
       "alias": "Git add all changes",
-      "icon": "plus",
+      "icon": "plus-circle",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {

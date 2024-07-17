@@ -4,10 +4,24 @@
   "debug": false,
   "editorMenu": [],
   "fileMenu": [],
-  "leftRibbon": [],
+  "leftRibbon": [
+    {
+      "id": "workspace:export-pdf",
+      "icon": "printer",
+      "name": "Export to PDF",
+      "mode": "any"
+    }
+  ],
   "rightRibbon": [],
   "titleBar": [],
-  "statusBar": [],
+  "statusBar": [
+    {
+      "id": "obsidian-shellcommands:shell-command-s558cixu8a",
+      "icon": "plus-circle",
+      "name": "Git add all changes",
+      "mode": "any"
+    }
+  ],
   "pageHeader": [],
   "macros": [
     {

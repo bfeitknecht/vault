@@ -149,6 +149,7 @@
           "switcher:Open quick switcher": true,
           "obsidian-statusbar-pomo:Start pomodoro": false,
           "homepage:Open homepage": false,
+          "cmdr:Export to PDF": false,
           "graph:Open graph view": false,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
@@ -159,7 +160,7 @@
         }
       },
       "active": "34db57a620058d31",
-      "mtime": "2024-07-15T23:55:45+02:00"
+      "mtime": "2024-07-17T12:21:20+02:00"
     },
     "HOME": {
       "main": {
@@ -263,6 +264,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -279,6 +281,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -300,7 +303,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "HOME.md"
+                  }
                 }
               },
               {
@@ -343,6 +348,7 @@
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
+          "cmdr:Export to PDF": false,
           "graph:Open graph view": false,
           "switcher:Open quick switcher": true,
           "templates:Insert template": true,
@@ -354,7 +360,7 @@
         }
       },
       "active": "414cefd1625961b6",
-      "mtime": "2024-07-17T09:52:35+02:00"
+      "mtime": "2024-07-17T12:21:29+02:00"
     },
     "pv-a1": {
       "main": {
@@ -580,6 +586,7 @@
           "workspaces:Manage workspace layouts": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
           "homepage:Open homepage": false,
+          "cmdr:Export to PDF": false,
           "switcher:Open quick switcher": true,
           "graph:Open graph view": false,
           "command-palette:Open command palette": false,
@@ -591,7 +598,7 @@
         }
       },
       "active": "b22ace324bf1f666",
-      "mtime": "2024-07-17T08:30:01+02:00"
+      "mtime": "2024-07-17T12:21:05+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -603,6 +610,18 @@
             "type": "tabs",
             "children": [
               {
+                "id": "23ae56ed0afad8bc",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              },
+              {
                 "id": "7bb5751edd19196c",
                 "type": "leaf",
                 "state": {
@@ -610,9 +629,7 @@
                   "state": {
                     "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 846,
-                    "zoom": 1.7991654291454722
+                    "zoom": 1
                   }
                 }
               },
@@ -629,35 +646,31 @@
                 }
               },
               {
-                "id": "9b342f2933b87035",
+                "id": "eb9f1e13a3c0e594",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/DDCA/VRL/slides/DDCA-L03-combinational-circuits-theory.pdf",
+                    "file": "sem2/DDCA/VRL/slides/DDCA-L04b-verilog-combinational.pdf",
                     "page": 1,
-                    "left": -11,
-                    "top": 544,
-                    "zoom": 1.4875
+                    "zoom": 1
                   }
                 }
               },
               {
-                "id": "23ae56ed0afad8bc",
+                "id": "30afe6b1ad02bdfe",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
+                    "file": "sem2/DDCA/VRL/slides/DDCA-L08-verilog-sequential.pdf",
                     "page": 1,
-                    "left": -12,
-                    "top": 599,
-                    "zoom": 1.2721379924070821
+                    "zoom": 1
                   }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -709,7 +722,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -726,7 +739,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -749,7 +762,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf"
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md"
                   }
                 }
               },
@@ -785,6 +798,7 @@
           "workspaces:Manage workspace layouts": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
           "homepage:Open homepage": false,
+          "cmdr:Export to PDF": false,
           "graph:Open graph view": false,
           "switcher:Open quick switcher": true,
           "templates:Insert template": true,
@@ -795,8 +809,8 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "23ae56ed0afad8bc",
-      "mtime": "2024-07-17T09:08:44+02:00"
+      "active": "bc8f0dc41f8794f0",
+      "mtime": "2024-07-17T12:21:06+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -998,6 +1012,7 @@
           "workspaces:Manage workspace layouts": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
           "homepage:Open homepage": false,
+          "cmdr:Export to PDF": false,
           "graph:Open graph view": false,
           "command-palette:Open command palette": false,
           "switcher:Open quick switcher": true,
@@ -1010,7 +1025,7 @@
         }
       },
       "active": "54fc4e5ed3576cdb",
-      "mtime": "2024-07-15T23:56:21+02:00"
+      "mtime": "2024-07-17T12:21:10+02:00"
     },
     "pv-auw": {
       "main": {
@@ -1225,6 +1240,7 @@
           "obsidian-statusbar-pomo:Start pomodoro": false,
           "homepage:Open homepage": false,
           "switcher:Open quick switcher": true,
+          "cmdr:Export to PDF": false,
           "graph:Open graph view": false,
           "command-palette:Open command palette": false,
           "templates:Insert template": true,
@@ -1235,7 +1251,7 @@
         }
       },
       "active": "bc214e82e3d29ca0",
-      "mtime": "2024-07-15T23:56:32+02:00"
+      "mtime": "2024-07-17T12:21:15+02:00"
     }
   },
   "active": "pv-ddca"

@@ -159,7 +159,7 @@ ___
 
 ![[DDCA-topics.pdf#page=8&rect=71,380,353,401|DDCA-topics, p.8]]
 ![[DDCA-topics.pdf#page=8&rect=70,304,507,376|DDCA-topics, p.8]]
-
+****
 >[!check]+ Yes
 > - Implement the Boolean logic equation Z=ABC+!A!B+!C!B using ONLY two input AND/OR gates and inverters
 > - On the circuit you have drawn show the critical path, the shortest path by using the delay values for these gates
