@@ -50,7 +50,7 @@
           "commandId": "editing-toolbar:hide-show-menu"
         }
       ],
-      "name": "Toggle Exclusive Edit and Tab Title Bar",
+      "name": "Switch Edit and Tab Title Bar",
       "icon": "pen-tool",
       "startup": false
     }

@@ -24,17 +24,23 @@ open --background "obsidian://advanced-uri?vault=vault&commandid=workspaces%253A
 ```
 
 
+```
+# tab title bar
+obsidian://advanced-uri?vault=vault&commandid=snippet-commands-obsidian%253Asnippet-command-toggle-view-header
+
+# edit bar hide
+obsidian://advanced-uri?vault=vault&commandid=editing-toolbar%253Ahide-show-menu
+
+# status and ribbon
+obsidian://advanced-uri?vault=vault&commandid=cmdr%253Amacro-0
+
+
+
+```
+
 
 open neovim doesn't work but creates the process, maybe the problem is that the iterm server starts its shell after the nvim exec? but then the process would die...
 
-
-
-
-```java
-public static void main(String[] args) {
-	System.out.println("Hi");
-}
-```
 
 
 ```qrcode

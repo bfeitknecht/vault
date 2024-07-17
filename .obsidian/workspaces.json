@@ -135,7 +135,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "code-files:Create Code File": false,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
@@ -154,7 +153,7 @@
         }
       },
       "active": "9ea8cdd69aaf51d2",
-      "mtime": "2024-07-17T15:02:08+02:00"
+      "mtime": "2024-07-17T17:03:29+02:00"
     },
     "HOME": {
       "main": {
@@ -226,7 +225,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -338,7 +338,7 @@
         }
       },
       "active": "414cefd1625961b6",
-      "mtime": "2024-07-17T14:19:39+02:00"
+      "mtime": "2024-07-17T17:02:31+02:00"
     },
     "pv-a1": {
       "main": {
@@ -456,7 +456,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -560,7 +561,7 @@
         }
       },
       "active": "b22ace324bf1f666",
-      "mtime": "2024-07-17T12:25:21+02:00"
+      "mtime": "2024-07-17T17:03:23+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1184,5 +1185,5 @@
       "mtime": "2024-07-17T12:25:32+02:00"
     }
   },
-  "active": "HOME"
+  "active": "clean"
 }
