@@ -1,0 +1,16 @@
+{
+  "extensions": [
+    "java",
+    "asm",
+    "s",
+    "c",
+    "cpp"
+  ],
+  "folding": true,
+  "lineNumbers": true,
+  "minimap": true,
+  "semanticValidation": true,
+  "syntaxValidation": true,
+  "theme": "default",
+  "overwriteBg": true
+}
