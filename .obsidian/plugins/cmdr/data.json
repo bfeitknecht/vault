@@ -8,20 +8,7 @@
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
-  "pageHeader": [
-    {
-      "id": "workspace:edit-file-title",
-      "icon": "edit",
-      "name": "Rename file",
-      "mode": "any"
-    },
-    {
-      "id": "obsidian-shellcommands:shell-command-2vk5mhxxda",
-      "icon": "terminal-square",
-      "name": "Open File in Neovim",
-      "mode": "any"
-    }
-  ],
+  "pageHeader": [],
   "macros": [
     {
       "macro": [
