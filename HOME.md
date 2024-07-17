@@ -11,10 +11,13 @@
 >group by filename
 >```
 
-```toggl
-SUMMARY PAST 10 DAYS
+<!-- 
 INCLUDE PROJECTS "pv-a1", "pv-auw", "pv-ddca", "pv-pprog"
 EXCLUDE PROJECTS "other"
+-->
+
+```toggl
+SUMMARY PAST 10 DAYS
 
 TITLE "Past Week"
 ```
