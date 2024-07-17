@@ -33,9 +33,13 @@
         {
           "action": 0,
           "commandId": "obsidian-hider:toggle-hider-status"
+        },
+        {
+          "action": 0,
+          "commandId": "snippet-commands-obsidian:snippet-command-toggle-view-header"
         }
       ],
-      "name": "Toggle Status and Ribbon",
+      "name": "Toggle Status and Ribbon and Tab Title Bar",
       "icon": "asterisk",
       "startup": false
     }
