@@ -22,3 +22,8 @@ execute save workspace layout:
 ```
 open --background "obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave"
 ```
+
+
+
+open neovim doesn't work but creates the process
+
