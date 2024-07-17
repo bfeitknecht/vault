@@ -233,6 +233,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -249,6 +250,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -270,7 +272,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "HOME.md"
+                  }
                 }
               },
               {
@@ -325,7 +329,7 @@
         }
       },
       "active": "414cefd1625961b6",
-      "mtime": "2024-07-17T13:34:45+02:00"
+      "mtime": "2024-07-17T14:19:39+02:00"
     },
     "pv-a1": {
       "main": {
@@ -1198,9 +1202,17 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "75a05812e738d926",
+                "type": "leaf",
+                "state": {
+                  "type": "style-settings",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1339,9 +1351,9 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "9177ee366b796736",
-      "mtime": "2024-07-17T13:12:30+02:00"
+      "active": "75a05812e738d926",
+      "mtime": "2024-07-17T14:20:31+02:00"
     }
   },
-  "active": "HOME"
+  "active": "testing"
 }
