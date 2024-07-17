@@ -223,9 +223,9 @@ ___
 >> ![[DDCA-L04b-verilog-combinational.pdf#page=8&rect=176,79,547,222|DDCA-L04b-verilog-combinational, p.8]]
 >
 >>[!idea]- Busses
->> ```
->> wire [31:0] a;	// a[31], a[30] .. a[0]
->> wire [8:0] b; 	// b[0], b[1] .. b[7]
+>> ```verilog
+>> wire[31:0] a;	// a[31] .. a[0], big endian, default
+>> wire[8:0] b; 	// b[0] .. b[7], little endian, only use for arrays
 >> ```
 >> little vs big endian
 >> ![[endians.jpg]]
@@ -234,7 +234,7 @@ ___
 >> ```verilog
 >> wire[3:0] a = 4'b0101;
 >> wire[1:0] b = 2'b11;
->> wire[7:0] 
+>> wire[7:0] y = {2'b0, a, b};
 >> ```
 >
 >>[!idea]- Operators
