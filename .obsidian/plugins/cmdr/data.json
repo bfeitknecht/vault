@@ -33,14 +33,25 @@
         {
           "action": 0,
           "commandId": "obsidian-hider:toggle-hider-status"
-        },
+        }
+      ],
+      "name": "Toggle Status and Ribbon",
+      "icon": "asterisk",
+      "startup": false
+    },
+    {
+      "macro": [
         {
           "action": 0,
           "commandId": "snippet-commands-obsidian:snippet-command-toggle-view-header"
+        },
+        {
+          "action": 0,
+          "commandId": "editing-toolbar:hide-show-menu"
         }
       ],
-      "name": "Toggle Status and Ribbon and Tab Title Bar",
-      "icon": "asterisk",
+      "name": "Toggle Exclusive Edit and Tab Title Bar",
+      "icon": "pen-tool",
       "startup": false
     }
   ],
