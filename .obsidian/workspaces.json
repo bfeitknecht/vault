@@ -657,7 +657,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -673,7 +674,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -690,7 +691,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -713,7 +714,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf"
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md"
                   }
                 }
               },
@@ -738,7 +739,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -759,8 +761,8 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-17T12:25:34+02:00"
+      "active": "bc8f0dc41f8794f0",
+      "mtime": "2024-07-17T12:41:50+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -1172,5 +1174,5 @@
       "mtime": "2024-07-17T12:25:32+02:00"
     }
   },
-  "active": "pv-ddca"
+  "active": "clean"
 }
