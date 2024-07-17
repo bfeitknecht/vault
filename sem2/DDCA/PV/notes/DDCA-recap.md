@@ -172,6 +172,8 @@ ___
 
 >[!quote]+ More Boolean Algebra
 >
+> critical path = longest path
+> 
 >>[!idea]+ SOP vs POS
 >>
 >>![[DDCA-L04a-combinational-circuits-theory.pdf#page=10&rect=57,12,704,433|DDCA-L04a-combinational-circuits-theory, p.10]]
@@ -181,7 +183,7 @@ ___
 >>>	Each row in a truth table has a minterm
 >>>	A minterm is a product (AND) of literals 
 >>>	Each minterm is TRUE for that row (and only that row) 
->>>  - Formed by ORing ($\bigvee$) the minterms for which the output is TRUE
+>>>  - Formed by ORing $\bigvee^*$ the minterms for which the output is TRUE
 >>>![[DDCA-L04a-combinational-circuits-theory.pdf#page=7&rect=170,286,697,456|DDCA-L04a-combinational-circuits-theory, p.7]]
 >>
 >>>[!idea]- POS
@@ -189,7 +191,7 @@ ___
 >>>	Each row in a truth table has a maxterm 
 >>>	A maxterm is a sum (OR) of literals 
 >>>	Each maxterm is FALSE for that row (and only that row) 
->>> - Formed by ANDing ($\bigwedge$) the maxterms for which the output is FALSE
+>>> - Formed by ANDing $\bigwedge^*$ the maxterms for which the output is FALSE
 >>>![[DDCA-L04a-combinational-circuits-theory.pdf#page=8&rect=160,28,536,241|DDCA-L04a-combinational-circuits-theory, p.8]]
 >>
 >>
@@ -210,6 +212,7 @@ ___
 >- Derive truth tables or work with functions that have Z and X inputs
 > - i.e. How do you write a Verilog code that implements a 32-bit tristate bus with 3 different drivers (Frank, Mohammad, Ataberk).
 
+>[!idea]+
 ___
 
 ## Combinational Circuits in Processors
