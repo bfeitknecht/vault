@@ -233,7 +233,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -250,7 +249,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -272,9 +270,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -329,7 +325,7 @@
         }
       },
       "active": "414cefd1625961b6",
-      "mtime": "2024-07-17T13:12:18+02:00"
+      "mtime": "2024-07-17T13:34:45+02:00"
     },
     "pv-a1": {
       "main": {
