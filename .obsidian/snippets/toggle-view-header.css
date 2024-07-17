@@ -1,10 +1,10 @@
 /* @settings
 
 name: Personal
-id: 7
+id: personal
 settings:
     - 
-        id: toggle-view-header
+        id: show-view-header
         title: Show view-header
         description: Toggles view-header in the body
         type: class-toggle

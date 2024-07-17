@@ -7,5 +7,8 @@
   "minimal-style@@h1-l": false,
   "minimal-style@@pdf-page-style": "pdf-shadows-on",
   "minimal-style@@file-header-visibility": "minimal-tab-title-hover",
-  "minimal-style@@file-header-justify": "center"
+  "minimal-style@@file-header-justify": "center",
+  "7@@toggle-view-header": false,
+  "1@@show-view-header": false,
+  "personal@@show-view-header": false
 }
