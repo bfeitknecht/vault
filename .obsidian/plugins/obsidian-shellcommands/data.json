@@ -69,11 +69,11 @@
     {
       "id": "2vk5mhxxda",
       "platform_specific_commands": {
-        "default": "# {{vault_path}}\\/.scripts\\/nvim-file.sh {{file_path:absolute}}"
+        "default": "code --wait {{file_path:absolute}}"
       },
       "shells": {},
-      "alias": "Open File in Neovim",
-      "icon": "edit",
+      "alias": "Open File in Editor",
+      "icon": "terminal-square",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
