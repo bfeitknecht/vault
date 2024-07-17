@@ -29,3 +29,8 @@ open neovim doesn't work but creates the process, maybe the problem is that the 
 
 
 
+
+```java
+public static void main(String[] args) {
+	System.out.println("Hi");
+}
