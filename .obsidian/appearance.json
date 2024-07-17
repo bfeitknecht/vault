@@ -10,5 +10,6 @@
     "page-breaks"
   ],
   "monospaceFontFamily": "CommitMono Nerd Font Mono",
-  "theme": "system"
+  "theme": "system",
+  "nativeMenus": false
 }
