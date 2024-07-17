@@ -110,7 +110,7 @@
     {
       "id": "smxre1li4g",
       "platform_specific_commands": {
-        "default": "{{vault_path}}\\/.scripts\\/open-homepage.sh"
+        "default": "# {{vault_path}}\\/.scripts\\/open-homepage.sh"
       },
       "shells": {},
       "alias": "Open Homepage",
@@ -191,10 +191,10 @@
     {
       "id": "cz6yqm01nx",
       "platform_specific_commands": {
-        "default": "\n"
+        "default": "open --background \"obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave\""
       },
       "shells": {},
-      "alias": "",
+      "alias": "Save Workspace before Close",
       "icon": null,
       "confirm_execution": false,
       "ignore_error_codes": [],
@@ -218,7 +218,11 @@
       "output_channel_order": "stdout-first",
       "output_handling_mode": "buffered",
       "execution_notification_mode": null,
-      "events": {},
+      "events": {
+        "on-quit": {
+          "enabled": true
+        }
+      },
       "debounce": null,
       "command_palette_availability": "enabled",
       "preactions": [],
