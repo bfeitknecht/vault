@@ -11,7 +11,6 @@
   "pdf-plus",
   "folders2graph",
   "mermaid-tools",
-  "cm-editor-syntax-highlight-obsidian",
   "persistent-graph",
   "homepage",
   "obsidian-tasks-plugin",
@@ -27,5 +26,8 @@
   "remember-cursor-position",
   "obsidian-advanced-uri",
   "obsidian-style-settings",
-  "snippet-commands-obsidian"
+  "snippet-commands-obsidian",
+  "code-styler",
+  "code-files",
+  "obsidian-qrcode-plugin"
 ]
