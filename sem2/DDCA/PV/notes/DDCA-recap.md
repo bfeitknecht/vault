@@ -172,16 +172,25 @@ ___
 
 >[!quote]+ More Boolean Algebra
 >
->>[!idea]- SOP vs POS
+>>[!idea]+ SOP vs POS
 >>
->>>[!idea] SOP
->>>![[DDCA-L04a-combinational-circuits-theory.pdf#page=7&rect=170,286,697,456|DDCA-L04a-combinational-circuits-theory, p.7]]
->>
->>>[!idea] POS
->>>
 >>![[DDCA-L04a-combinational-circuits-theory.pdf#page=10&rect=57,12,704,433|DDCA-L04a-combinational-circuits-theory, p.10]]
 >>
+>>>[!idea]- SOP
+>>> - All Boolean equations can be written in SOP form 
+>>>	Each row in a truth table has a minterm
+>>>	A minterm is a product (AND) of literals 
+>>>	Each minterm is TRUE for that row (and only that row) 
+>>>  - Formed by ORing ($\bigvee$) the minterms for which the output is TRUE
+>>>![[DDCA-L04a-combinational-circuits-theory.pdf#page=7&rect=170,286,697,456|DDCA-L04a-combinational-circuits-theory, p.7]]
 >>
+>>>[!idea]- POS
+>>> - All Boolean equations can be written in POS form
+>>>	Each row in a truth table has a maxterm 
+>>>	A maxterm is a sum (OR) of literals 
+>>>	Each maxterm is FALSE for that row (and only that row) 
+>>> - Formed by ANDing ($\bigwedge$) the maxterms for which the output is FALSE
+>>>![[DDCA-L04a-combinational-circuits-theory.pdf#page=8&rect=160,28,536,241|DDCA-L04a-combinational-circuits-theory, p.8]]
 >>
 >>
 
