@@ -8,7 +8,20 @@
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
-  "pageHeader": [],
+  "pageHeader": [
+    {
+      "id": "workspace:edit-file-title",
+      "icon": "edit",
+      "name": "Rename file",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-shellcommands:shell-command-2vk5mhxxda",
+      "icon": "terminal-square",
+      "name": "Open File in Neovim",
+      "mode": "any"
+    }
+  ],
   "macros": [
     {
       "macro": [
@@ -32,7 +45,7 @@
       "icon": "folder-open",
       "name": "Open Folder in iTerm",
       "mode": "any",
-      "color": "#8a8a8a"
+      "color": "#888888"
     }
   ],
   "hide": {
