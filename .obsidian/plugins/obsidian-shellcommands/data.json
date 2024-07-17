@@ -69,7 +69,7 @@
     {
       "id": "2vk5mhxxda",
       "platform_specific_commands": {
-        "default": "{{vault_path}}\\/.scripts/iterm-pwd.fish {{file_path:absolute}}"
+        "default": "{{vault_path}}\\/.scripts\\/nvim-file.sh {{file_path:absolute}}"
       },
       "shells": {},
       "alias": "Open File in Neovim",
@@ -110,10 +110,10 @@
     {
       "id": "smxre1li4g",
       "platform_specific_commands": {
-        "default": ""
+        "default": "{{vault_path}}\\/.scripts\\/open-homepage.sh"
       },
       "shells": {},
-      "alias": "",
+      "alias": "Open Homepage",
       "icon": "home",
       "confirm_execution": false,
       "ignore_error_codes": [],
