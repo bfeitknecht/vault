@@ -378,9 +378,7 @@
                   "state": {
                     "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf",
                     "page": 1,
-                    "left": -24,
-                    "top": 797,
-                    "zoom": 0.6666666666666666
+                    "zoom": 1
                   }
                 }
               },
@@ -486,8 +484,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -590,8 +587,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-18T07:45:12+02:00"
+      "active": "b22ace324bf1f666",
+      "mtime": "2024-07-18T08:32:06+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1215,5 +1212,5 @@
       "mtime": "2024-07-17T12:25:32+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "pv-ddca"
 }
