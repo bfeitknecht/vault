@@ -5,7 +5,7 @@
   "showPinnedIcon": true,
   "showPinIconIfNotPinned": true,
   "showTabIcon": true,
-  "customizeTabIcon": true,
+  "customizeTabIcon": false,
   "defaultTabIcon": "file",
   "tabIconRules": [
     {
