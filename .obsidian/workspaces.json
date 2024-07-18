@@ -267,7 +267,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -284,7 +283,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -306,16 +304,6 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
-                }
-              },
-              {
-                "id": "65197310c6429a2e",
-                "type": "leaf",
-                "state": {
-                  "type": "git-history-view",
                   "state": {}
                 }
               },
@@ -336,7 +324,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
@@ -359,11 +347,13 @@
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "command-palette:Open command palette": false
+          "command-palette:Open command palette": false,
+          "obsidian-advanced-slides:Show Slide Preview": true,
+          "webpage-html-export:Export Vault to HTML": true
         }
       },
-      "active": "414cefd1625961b6",
-      "mtime": "2024-07-18T16:43:16+02:00"
+      "active": "d4d9e5cf2cd5e94b",
+      "mtime": "2024-07-18T16:56:24+02:00"
     },
     "pv-a1": {
       "main": {
@@ -1251,5 +1241,5 @@
       "mtime": "2024-07-18T14:19:16+02:00"
     }
   },
-  "active": "HOME"
+  "active": "pv-a1"
 }

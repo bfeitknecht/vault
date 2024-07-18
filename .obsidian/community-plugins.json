@@ -10,11 +10,8 @@
   "obsidian-editor-shortcuts",
   "pdf-plus",
   "folders2graph",
-  "mermaid-tools",
   "persistent-graph",
-  "homepage",
   "obsidian-tasks-plugin",
-  "dataview",
   "obsidian-statusbar-pomo",
   "better-word-count",
   "statusbar-organizer",
@@ -30,6 +27,5 @@
   "code-styler",
   "obsidian-qrcode-plugin",
   "cm-editor-syntax-highlight-obsidian",
-  "vertical-tabs-view",
-  "obsidian-plugin-groups"
+  "vertical-tabs-view"
 ]
