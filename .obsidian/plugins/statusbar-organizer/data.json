@@ -33,7 +33,7 @@
         "exists": true
       },
       "plugin-editor-status;1": {
-        "position": 8,
+        "position": 9,
         "visible": true,
         "exists": true
       },
@@ -43,7 +43,7 @@
         "exists": true
       },
       "plugin-obsidian-show-file-path;1": {
-        "position": 9,
+        "position": 8,
         "visible": true,
         "exists": true
       },
@@ -75,7 +75,7 @@
       "cmdr-clickable-icon;3": {
         "position": 13,
         "visible": true,
-        "exists": true
+        "exists": false
       }
     }
   },
