@@ -54,10 +54,10 @@
                 }
               },
               {
-                "id": "a6fa0429b0c2f4f4",
+                "id": "0f56d709fdb24392",
                 "type": "leaf",
                 "state": {
-                  "type": "vertical-tabs-view",
+                  "type": "outline",
                   "state": {}
                 }
               },
@@ -67,6 +67,44 @@
                 "state": {
                   "type": "bookmarks",
                   "state": {}
+                }
+              },
+              {
+                "id": "ee946e358c8111ed",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "b3aff261bc292caf",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "2d28441159ca953f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
                 }
               }
             ]
@@ -85,53 +123,19 @@
             "type": "tabs",
             "children": [
               {
-                "id": "b3aff261bc292caf",
+                "id": "a6fa0429b0c2f4f4",
                 "type": "leaf",
                 "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "README.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
+                  "type": "vertical-tabs-view",
+                  "state": {}
                 }
               },
               {
-                "id": "2d28441159ca953f",
+                "id": "a850696dfc6a544a",
                 "type": "leaf",
                 "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "README.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "ee946e358c8111ed",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "0f56d709fdb24392",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "README.md"
-                  }
+                  "type": "git-view",
+                  "state": {}
                 }
               },
               {
@@ -142,8 +146,7 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 4
+            ]
           }
         ],
         "direction": "horizontal",
@@ -153,12 +156,10 @@
       "left-ribbon": {
         "hiddenItems": {
           "obsidian-shellcommands:Shell commands: Custom variables": true,
-          "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
           "switcher:Open quick switcher": true,
           "obsidian-statusbar-pomo:Start pomodoro": false,
-          "homepage:Open homepage": false,
           "cmdr:Export to PDF": false,
           "graph:Open graph view": false,
           "templates:Insert template": true,
@@ -170,7 +171,7 @@
         }
       },
       "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-18T16:43:12+02:00"
+      "mtime": "2024-07-18T18:07:01+02:00"
     },
     "HOME": {
       "main": {
@@ -372,10 +373,10 @@
                   "state": {
                     "file": "sem2/A1/PV/notes/A1-pvw.md",
                     "mode": "source",
-                    "source": true
+                    "source": false
                   }
                 },
-                "group": "60ba646d4e03657a"
+                "group": "9da7f02c2fd87d5a"
               },
               {
                 "id": "672fdd2172f22421",
@@ -440,11 +441,11 @@
             ]
           },
           {
-            "id": "ccf9a2b69fe00d1f",
+            "id": "bec5f445a2e63ab1",
             "type": "tabs",
             "children": [
               {
-                "id": "db44f371930f613f",
+                "id": "355fe78207f6416a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -454,7 +455,7 @@
                     "source": false
                   }
                 },
-                "group": "60ba646d4e03657a"
+                "group": "9da7f02c2fd87d5a"
               }
             ]
           }
@@ -480,11 +481,13 @@
                 }
               },
               {
-                "id": "2be78f1a6e9d94d5",
+                "id": "0f56d709fdb24392",
                 "type": "leaf",
                 "state": {
-                  "type": "vertical-tabs-view",
-                  "state": {}
+                  "type": "outline",
+                  "state": {
+                    "file": "sem2/A1/PV/notes/A1-pvw.md"
+                  }
                 }
               },
               {
@@ -494,24 +497,20 @@
                   "type": "bookmarks",
                   "state": {}
                 }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "right": {
-        "id": "4be59d580df31d93",
-        "type": "split",
-        "children": [
-          {
-            "id": "a9eab3abde570e06",
-            "type": "tabs",
-            "children": [
+              },
               {
-                "id": "b3aff261bc292caf",
+                "id": "ee946e358c8111ed",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "9555539c5a447147",
                 "type": "leaf",
                 "state": {
                   "type": "backlink",
@@ -528,7 +527,7 @@
                 }
               },
               {
-                "id": "2d28441159ca953f",
+                "id": "c2e93a1f3197b81a",
                 "type": "leaf",
                 "state": {
                   "type": "outgoing-link",
@@ -538,26 +537,28 @@
                     "unlinkedCollapsed": true
                   }
                 }
-              },
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "4be59d580df31d93",
+        "type": "split",
+        "children": [
+          {
+            "id": "a9eab3abde570e06",
+            "type": "tabs",
+            "children": [
               {
-                "id": "ee946e358c8111ed",
+                "id": "2be78f1a6e9d94d5",
                 "type": "leaf",
                 "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "0f56d709fdb24392",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "sem2/A1/PV/notes/A1-pvw.md"
-                  }
+                  "type": "vertical-tabs-view",
+                  "state": {}
                 }
               },
               {
@@ -576,8 +577,7 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 4
+            ]
           }
         ],
         "direction": "horizontal",
@@ -587,11 +587,9 @@
       "left-ribbon": {
         "hiddenItems": {
           "obsidian-shellcommands:Shell commands: Custom variables": true,
-          "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
-          "homepage:Open homepage": false,
           "cmdr:Export to PDF": false,
           "switcher:Open quick switcher": true,
           "graph:Open graph view": false,
@@ -604,7 +602,7 @@
         }
       },
       "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-18T16:42:49+02:00"
+      "mtime": "2024-07-18T18:07:09+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -688,11 +686,13 @@
                 }
               },
               {
-                "id": "b8fb6a3151264e03",
+                "id": "0f56d709fdb24392",
                 "type": "leaf",
                 "state": {
-                  "type": "vertical-tabs-view",
-                  "state": {}
+                  "type": "outline",
+                  "state": {
+                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf"
+                  }
                 }
               },
               {
@@ -702,29 +702,25 @@
                   "type": "bookmarks",
                   "state": {}
                 }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "right": {
-        "id": "4be59d580df31d93",
-        "type": "split",
-        "children": [
-          {
-            "id": "a9eab3abde570e06",
-            "type": "tabs",
-            "children": [
+              },
+              {
+                "id": "ee946e358c8111ed",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
               {
                 "id": "b3aff261bc292caf",
                 "type": "leaf",
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
+                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -741,31 +737,32 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
+                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
                 }
-              },
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "4be59d580df31d93",
+        "type": "split",
+        "children": [
+          {
+            "id": "a9eab3abde570e06",
+            "type": "tabs",
+            "children": [
               {
-                "id": "ee946e358c8111ed",
+                "id": "b8fb6a3151264e03",
                 "type": "leaf",
                 "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "0f56d709fdb24392",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md"
-                  }
+                  "type": "vertical-tabs-view",
+                  "state": {}
                 }
               },
               {
@@ -784,8 +781,7 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 4
+            ]
           }
         ],
         "direction": "horizontal",
@@ -795,11 +791,9 @@
       "left-ribbon": {
         "hiddenItems": {
           "obsidian-shellcommands:Shell commands: Custom variables": true,
-          "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
-          "homepage:Open homepage": false,
           "cmdr:Export to PDF": false,
           "graph:Open graph view": false,
           "switcher:Open quick switcher": true,
@@ -812,7 +806,7 @@
         }
       },
       "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-18T14:19:32+02:00"
+      "mtime": "2024-07-18T18:07:12+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -896,11 +890,13 @@
                 }
               },
               {
-                "id": "a3c83f46d62936d2",
+                "id": "0f56d709fdb24392",
                 "type": "leaf",
                 "state": {
-                  "type": "vertical-tabs-view",
-                  "state": {}
+                  "type": "outline",
+                  "state": {
+                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf"
+                  }
                 }
               },
               {
@@ -910,21 +906,18 @@
                   "type": "bookmarks",
                   "state": {}
                 }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300
-      },
-      "right": {
-        "id": "4be59d580df31d93",
-        "type": "split",
-        "children": [
-          {
-            "id": "a9eab3abde570e06",
-            "type": "tabs",
-            "children": [
+              },
+              {
+                "id": "ee946e358c8111ed",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
               {
                 "id": "b3aff261bc292caf",
                 "type": "leaf",
@@ -953,26 +946,28 @@
                     "unlinkedCollapsed": true
                   }
                 }
-              },
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "right": {
+        "id": "4be59d580df31d93",
+        "type": "split",
+        "children": [
+          {
+            "id": "a9eab3abde570e06",
+            "type": "tabs",
+            "children": [
               {
-                "id": "ee946e358c8111ed",
+                "id": "a3c83f46d62936d2",
                 "type": "leaf",
                 "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "0f56d709fdb24392",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf"
-                  }
+                  "type": "vertical-tabs-view",
+                  "state": {}
                 }
               },
               {
@@ -991,8 +986,7 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 5
+            ]
           }
         ],
         "direction": "horizontal",
@@ -1005,7 +999,6 @@
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
-          "homepage:Open homepage": false,
           "cmdr:Export to PDF": false,
           "graph:Open graph view": false,
           "command-palette:Open command palette": false,
@@ -1014,12 +1007,11 @@
           "zk-prefixer:Create new unique note": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true,
-          "mermaid-tools:Open Mermaid Toolbar": true
+          "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
       "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-18T14:19:20+02:00"
+      "mtime": "2024-07-18T18:05:54+02:00"
     },
     "pv-auw": {
       "main": {
@@ -1114,11 +1106,13 @@
                 }
               },
               {
-                "id": "04bc284bb234d730",
+                "id": "0f56d709fdb24392",
                 "type": "leaf",
                 "state": {
-                  "type": "vertical-tabs-view",
-                  "state": {}
+                  "type": "outline",
+                  "state": {
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md"
+                  }
                 }
               },
               {
@@ -1128,22 +1122,18 @@
                   "type": "bookmarks",
                   "state": {}
                 }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "right": {
-        "id": "4be59d580df31d93",
-        "type": "split",
-        "children": [
-          {
-            "id": "a9eab3abde570e06",
-            "type": "tabs",
-            "children": [
+              },
+              {
+                "id": "ee946e358c8111ed",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
               {
                 "id": "b3aff261bc292caf",
                 "type": "leaf",
@@ -1172,26 +1162,28 @@
                     "unlinkedCollapsed": true
                   }
                 }
-              },
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "right": {
+        "id": "4be59d580df31d93",
+        "type": "split",
+        "children": [
+          {
+            "id": "a9eab3abde570e06",
+            "type": "tabs",
+            "children": [
               {
-                "id": "ee946e358c8111ed",
+                "id": "04bc284bb234d730",
                 "type": "leaf",
                 "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "0f56d709fdb24392",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "sem2/AuW/PV/notes/AuW-recap.md"
-                  }
+                  "type": "vertical-tabs-view",
+                  "state": {}
                 }
               },
               {
@@ -1210,8 +1202,7 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 5
+            ]
           }
         ],
         "direction": "horizontal",
@@ -1221,11 +1212,9 @@
       "left-ribbon": {
         "hiddenItems": {
           "obsidian-shellcommands:Shell commands: Custom variables": true,
-          "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
-          "homepage:Open homepage": false,
           "switcher:Open quick switcher": true,
           "cmdr:Export to PDF": false,
           "graph:Open graph view": false,
@@ -1238,7 +1227,7 @@
         }
       },
       "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-18T14:19:16+02:00"
+      "mtime": "2024-07-18T18:06:14+02:00"
     }
   },
   "active": "pv-a1"
