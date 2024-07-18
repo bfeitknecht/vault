@@ -22,6 +22,29 @@ The value the terms of a series "approach"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $$
 \begin{align}
 l = \lim_{ n \to \infty }a_{n} \leftrightarrow a_{n} \underset{n \rightarrow \infty}{\rightarrow}
