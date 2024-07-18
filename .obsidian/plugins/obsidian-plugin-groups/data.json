@@ -1,5 +1,41 @@
 {
-  "groups": [],
+  "groups": [
+    {
+      "loadAtStartup": true,
+      "disableOnStartup": false,
+      "delay": 0,
+      "id": "pgcore",
+      "name": "core",
+      "plugins": [
+        {
+          "id": "obsidian-shellcommands",
+          "name": "Shell commands"
+        },
+        {
+          "id": "persistent-graph",
+          "name": "Persistent Graph"
+        },
+        {
+          "id": "omnisearch",
+          "name": "Omnisearch"
+        },
+        {
+          "id": "cmdr",
+          "name": "Commander"
+        },
+        {
+          "id": "obsidian-git",
+          "name": "Git"
+        },
+        {
+          "id": "homepage",
+          "name": "Homepage"
+        }
+      ],
+      "groupIds": [],
+      "generateCommands": false
+    }
+  ],
   "generateCommands": true,
   "showNoticeOnGroupLoad": "short",
   "devLogs": false,
