@@ -1,9 +1,25 @@
 
+>[!quote] Prüfung
+> Die Prüfung wird aus **drei Teilen** bestehen:
+>
+> 1. Multiple-Choice- oder Single-Choice-Fragen
+> 2. Box-Fragen, bei denen nur das Endergebnis bewertet wird (z.B. Berechnung von Grenzwerten, Ableitungen, Integralen,...)
+> 3. Offene Fragen, bei denen das Endergebnis und der Lösungsweg bewertet werden (z.B. Beweisaufgaben, aufwändigere Rechnungen,...)
+>
+> Jeder der drei Teile wird ca. ein Drittel der Prüfung ausmachen (bzgl. erreichbare Punkte).
+
 
 ## Sequences
+Just some numbers.
+___
 
-## Ser
-sequence is just some numbers
+## Series
+Sum of the terms of a sequence.
+___
+
+## Limits
+The value the terms of a series "approach"
+
 
 
 $$
@@ -39,13 +55,6 @@ f''(x) &=
 $$
 
 
-Die Prüfung wird aus **drei Teilen** bestehen:
-
-1. Multiple-Choice- oder Single-Choice-Fragen
-2. Box-Fragen, bei denen nur das Endergebnis bewertet wird (z.B. Berechnung von Grenzwerten, Ableitungen, Integralen,...)
-3. Offene Fragen, bei denen das Endergebnis und der Lösungsweg bewertet werden (z.B. Beweisaufgaben, aufwändigere Rechnungen,...)
-
-Jeder der drei Teile wird ca. ein Drittel der Prüfung ausmachen (bzgl. erreichbare Punkte).
 
 
 
