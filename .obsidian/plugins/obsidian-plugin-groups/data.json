@@ -1,7 +1,7 @@
 {
   "groups": [],
   "generateCommands": true,
-  "showNoticeOnGroupLoad": "none",
+  "showNoticeOnGroupLoad": "short",
   "devLogs": false,
   "devices": [],
   "doLoadSynchronously": true,
