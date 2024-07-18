@@ -346,7 +346,7 @@
         }
       },
       "active": "84d6179a41f3d7a6",
-      "mtime": "2024-07-17T18:36:06+02:00"
+      "mtime": "2024-07-18T07:43:04+02:00"
     },
     "pv-a1": {
       "main": {
@@ -369,6 +369,20 @@
                   }
                 },
                 "group": "60ba646d4e03657a"
+              },
+              {
+                "id": "672fdd2172f22421",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf",
+                    "page": 1,
+                    "left": -24,
+                    "top": 797,
+                    "zoom": 0.6666666666666666
+                  }
+                }
               },
               {
                 "id": "00c7b86ebdcc7127",
@@ -413,18 +427,6 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "a114654446feb931",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf",
                     "page": 1,
                     "zoom": 1
                   }
@@ -588,8 +590,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "db44f371930f613f",
-      "mtime": "2024-07-17T18:35:55+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-18T07:45:12+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1213,5 +1215,5 @@
       "mtime": "2024-07-17T12:25:32+02:00"
     }
   },
-  "active": "HOME"
+  "active": "pv-a1"
 }
