@@ -83,7 +83,6 @@ open neovim doesn't work but creates the process, maybe the problem is that the 
 > snippet-commands-obsidian: 1ms
 
 
-
 ```qrcode
 https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
