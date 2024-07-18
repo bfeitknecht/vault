@@ -1,0 +1,21 @@
+{
+  "defaultPosition": "left",
+  "showDirectory": true,
+  "showCloseIcon": true,
+  "showPinnedIcon": true,
+  "showPinIconIfNotPinned": true,
+  "showTabIcon": true,
+  "customizeTabIcon": true,
+  "defaultTabIcon": "file",
+  "tabIconRules": [
+    {
+      "matchConfig": {
+        "target": "title",
+        "condition": "startsWith",
+        "value": ""
+      },
+      "priority": 1,
+      "icon": "file"
+    }
+  ]
+}
