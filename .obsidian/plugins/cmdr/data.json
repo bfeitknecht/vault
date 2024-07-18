@@ -20,6 +20,12 @@
       "icon": "plus-circle",
       "name": "Git add all changes",
       "mode": "any"
+    },
+    {
+      "id": "obsidian-shellcommands:shell-command-2vk5mhxxda",
+      "icon": "terminal-square",
+      "name": "Open File in Editor",
+      "mode": "any"
     }
   ],
   "pageHeader": [],
