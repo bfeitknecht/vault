@@ -231,6 +231,14 @@
                 }
               },
               {
+                "id": "d39f74221ae34967",
+                "type": "leaf",
+                "state": {
+                  "type": "vertical-tabs-view",
+                  "state": {}
+                }
+              },
+              {
                 "id": "b14014a5400a500b",
                 "type": "leaf",
                 "state": {
@@ -354,8 +362,8 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "84d6179a41f3d7a6",
-      "mtime": "2024-07-18T13:52:27+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-18T14:20:37+02:00"
     },
     "pv-a1": {
       "main": {
@@ -1243,5 +1251,5 @@
       "mtime": "2024-07-18T14:19:16+02:00"
     }
   },
-  "active": "HOME"
+  "active": "pv-a1"
 }
