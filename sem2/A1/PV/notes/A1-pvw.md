@@ -1,5 +1,8 @@
+
+
 ## Sequences
 
+## Ser
 sequence is just some numbers
 
 
