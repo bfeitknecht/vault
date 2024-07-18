@@ -19,6 +19,8 @@ ___
 
 ## Limits
 The value the terms of a series "approach"
+- Cannot be $\pm \infty$.
+- If, and only if it exists, can be notated as $\lim_{ n \to \infty }a_{n} = l$ or $a_{n} \underset{n \rightarrow \infty}{\rightarrow} l$
 
 
 
@@ -45,11 +47,6 @@ The value the terms of a series "approach"
 
 
 
-$$
-\begin{align}
-l = \lim_{ n \to \infty }a_{n} \leftrightarrow a_{n} \underset{n \rightarrow \infty}{\rightarrow}
-\end{align}
-$$
 
 root trick:
 $$
