@@ -54,6 +54,14 @@
                 }
               },
               {
+                "id": "a6fa0429b0c2f4f4",
+                "type": "leaf",
+                "state": {
+                  "type": "vertical-tabs-view",
+                  "state": {}
+                }
+              },
+              {
                 "id": "b14014a5400a500b",
                 "type": "leaf",
                 "state": {
@@ -65,7 +73,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -160,8 +169,8 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "2fe8bd73f837561b",
-      "mtime": "2024-07-17T18:21:48+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-18T14:18:48+02:00"
     },
     "HOME": {
       "main": {
@@ -473,6 +482,14 @@
                 }
               },
               {
+                "id": "2be78f1a6e9d94d5",
+                "type": "leaf",
+                "state": {
+                  "type": "vertical-tabs-view",
+                  "state": {}
+                }
+              },
+              {
                 "id": "b14014a5400a500b",
                 "type": "leaf",
                 "state": {
@@ -484,7 +501,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -587,8 +605,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "b22ace324bf1f666",
-      "mtime": "2024-07-18T08:32:06+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-18T14:19:35+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -599,18 +617,6 @@
             "id": "31e035fe7d8cc1d2",
             "type": "tabs",
             "children": [
-              {
-                "id": "23ae56ed0afad8bc",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
               {
                 "id": "7bb5751edd19196c",
                 "type": "leaf",
@@ -660,7 +666,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -681,6 +687,14 @@
                   "state": {
                     "sortOrder": "alphabetical"
                   }
+                }
+              },
+              {
+                "id": "b8fb6a3151264e03",
+                "type": "leaf",
+                "state": {
+                  "type": "vertical-tabs-view",
+                  "state": {}
                 }
               },
               {
@@ -799,8 +813,8 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "bc8f0dc41f8794f0",
-      "mtime": "2024-07-17T12:41:50+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-18T14:19:32+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -884,6 +898,14 @@
                 }
               },
               {
+                "id": "a3c83f46d62936d2",
+                "type": "leaf",
+                "state": {
+                  "type": "vertical-tabs-view",
+                  "state": {}
+                }
+              },
+              {
                 "id": "b14014a5400a500b",
                 "type": "leaf",
                 "state": {
@@ -911,7 +933,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
+                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -928,7 +950,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
+                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -951,7 +973,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/PProg/PV/notes/PProg-recap.md"
+                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf"
                   }
                 }
               },
@@ -998,8 +1020,8 @@
           "mermaid-tools:Open Mermaid Toolbar": true
         }
       },
-      "active": "54fc4e5ed3576cdb",
-      "mtime": "2024-07-17T12:25:26+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-18T14:19:20+02:00"
     },
     "pv-auw": {
       "main": {
@@ -1094,6 +1116,14 @@
                 }
               },
               {
+                "id": "04bc284bb234d730",
+                "type": "leaf",
+                "state": {
+                  "type": "vertical-tabs-view",
+                  "state": {}
+                }
+              },
+              {
                 "id": "b14014a5400a500b",
                 "type": "leaf",
                 "state": {
@@ -1105,7 +1135,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1208,9 +1239,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "bc214e82e3d29ca0",
-      "mtime": "2024-07-17T12:25:32+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-18T14:19:16+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "HOME"
 }
