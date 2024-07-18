@@ -13,7 +13,7 @@ $$
 \end{align}
 $$
 
-
+ 
 ```desmos-graph
 f = \sin(x)
 g = \cos(x)
@@ -34,6 +34,6 @@ $$
 &= -120-\sin{x}-e^{-x} \implies \text{n.a.} \\
  \\
  \\
-
+\lim_{ x \to 1 } \frac{\ln{\cos{x^2-1}}}{x-e^x} &= 
 \end{align}
 $$
