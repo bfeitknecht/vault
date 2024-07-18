@@ -456,8 +456,21 @@
                   }
                 },
                 "group": "9da7f02c2fd87d5a"
+              },
+              {
+                "id": "a93fe3bc3c3cc276",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem2/A1/PV/extra/A1-derivative-integral-rules.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -538,12 +551,12 @@
                   }
                 }
               }
-            ],
-            "currentTab": 4
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -602,7 +615,7 @@
         }
       },
       "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-18T18:07:09+02:00"
+      "mtime": "2024-07-18T18:17:49+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1230,5 +1243,5 @@
       "mtime": "2024-07-18T18:06:14+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "HOME"
 }
