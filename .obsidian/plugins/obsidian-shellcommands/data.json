@@ -32,7 +32,7 @@
       },
       "shells": {},
       "alias": "Open Folder in iTerm",
-      "icon": "terminal",
+      "icon": "folder-open",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
