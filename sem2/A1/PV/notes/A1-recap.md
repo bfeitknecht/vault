@@ -15,8 +15,14 @@ $$
 
  
 ```desmos-graph
-f = \sin(x)
-g = \cos(x)
+y = \sin(x)
+y = \cos(x)
+```
+
+
+```desmos-graph
+y = 1/x
+
 ```
 
 
