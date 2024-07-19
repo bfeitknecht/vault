@@ -18,5 +18,6 @@
   ],
   "showRibbon": true,
   "propertiesInDocument": "visible",
-  "trashOption": "local"
+  "trashOption": "local",
+  "showUnsupportedFiles": false
 }
