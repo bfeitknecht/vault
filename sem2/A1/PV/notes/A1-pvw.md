@@ -46,7 +46,6 @@ The value the terms of a series "approach"
 
 
 
-
 root trick:
 $$
 |\sqrt{ n }+\sqrt{ n+1 }| = 

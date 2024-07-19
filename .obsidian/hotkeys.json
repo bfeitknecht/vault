@@ -112,12 +112,13 @@
       "key": "E"
     }
   ],
+  "obsidian-editor-shortcuts:selectLine": [],
   "editor:insert-wikilink": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "Y"
+      "key": "L"
     }
   ]
 }

@@ -1,0 +1,1 @@
+{"path":"var/other/sem1-pvw/graphics/lendau.jpeg","text":"MST Boruvka O(m : log(n)) Kruskal O@m - log(n)) Prim (Fibonacci Heap) 6(m + n - log(n)) Prim (Binary Heap) O(m - log(n)) DFS/BFS O(n +m) Shortest Path Dijkstra (Fib. Heap) O(m +n-log(n)) Bellman-Ford O(m - n) Johnson O(m -n + n* - log(n)) Floyd-Warshall 63","libVersion":"0.3.2","langs":"deu+eng"}
