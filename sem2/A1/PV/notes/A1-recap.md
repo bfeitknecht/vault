@@ -5,15 +5,12 @@ ___
 # Exercises
 
 
-
+>[!quote] 
 $$
 \begin{align}
-\lim_{ x \to 0 } \frac{\sin(x)}{x} &= \frac{0}{0} \\
-&= \frac{\cos(x)}{1} = 1
+\lim_{ x \to 0 } \frac{\sin(x)}{x} &\overset{x \rightarrow 0}{\rightarrow} \frac{0}{0} \implies \frac{\cos(x)}{1} \overset{x \rightarrow 0}{\rightarrow} 1
 \end{align}
 $$
-
- 
 ```desmos-graph
 y = \sin(x)
 y = \cos(x)
