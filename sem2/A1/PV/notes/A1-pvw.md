@@ -9,11 +9,11 @@
 > Jeder der drei Teile wird ca. ein Drittel der Prüfung ausmachen (bzgl. erreichbare Punkte).
 
 
-## Sequences
+## Sequences (Folgen)
 Just some numbers.
 ___
 
-## Series
+## Series (Reihen)
 Sum of the terms of a sequence.
 ___
 
