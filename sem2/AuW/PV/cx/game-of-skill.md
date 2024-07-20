@@ -31,9 +31,7 @@ ___
 
 ## q3
 
->[!idea] hmm
->- need the expected value but with different probabilities for each number
->- use dynamic programming, try everything out and memoize
+dynamic programming
 
 ```java
 
