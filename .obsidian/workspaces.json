@@ -619,6 +619,20 @@
                     "zoom": 1
                   }
                 }
+              },
+              {
+                "id": "457aea2e25a129e3",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/DDCA/VRL/slides/DDCA-L04b-verilog-combinational.pdf",
+                    "page": 46,
+                    "left": -13,
+                    "top": 451,
+                    "zoom": 1.175
+                  }
+                }
               }
             ],
             "currentTab": 1
@@ -650,7 +664,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf"
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md"
                   }
                 }
               },
@@ -679,7 +693,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -696,7 +710,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -764,8 +778,8 @@
           "command-palette:Open command palette": false
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-18T18:07:12+02:00"
+      "active": "bc8f0dc41f8794f0",
+      "mtime": "2024-07-20T14:14:25+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -1198,5 +1212,5 @@
       "mtime": "2024-07-20T12:11:32+02:00"
     }
   },
-  "active": "pv-ddca"
+  "active": "pv-auw"
 }
