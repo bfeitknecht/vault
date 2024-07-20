@@ -32,7 +32,3 @@ ___
 ## q3
 
 dynamic programming
-
-```java
-
-```
