@@ -46,7 +46,7 @@ open neovim doesn't work but creates the process, maybe the problem is that the 
 
 ## Lazy Load Plugins
 
->[!attention]+ Time To Load
+>[!attention]- Time To Load
 > Total plugin setup: 639ms
 > code-styler: 64ms
 > cm-editor-syntax-highlight-obsidian: 60ms
