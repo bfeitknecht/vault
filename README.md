@@ -16,6 +16,8 @@ git clone https://github.com/bs10x/vault.git
 
 
 
+
+
 ## Automation
 
 execute save workspace layout:
@@ -39,8 +41,6 @@ obsidian://advanced-uri?vault=vault&commandid=cmdr%253Amacro-0
 
 ```
 
-
-open neovim doesn't work but creates the process, maybe the problem is that the iterm server starts its shell after the nvim exec? but then the process would die...
 
 
 
