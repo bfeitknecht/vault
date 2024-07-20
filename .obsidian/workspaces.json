@@ -371,7 +371,9 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-01-seq&ser.pdf"
+                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-01-seq&ser.pdf",
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -381,7 +383,9 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/A1/UE/e/A1-u02-e.pdf"
+                    "file": "sem2/A1/UE/e/A1-u02-e.pdf",
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -391,7 +395,9 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/A1/UE/s/A1-u02-s.pdf"
+                    "file": "sem2/A1/UE/s/A1-u02-s.pdf",
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -401,7 +407,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf"
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
+                    "page": 2,
+                    "left": -15,
+                    "top": 384,
+                    "zoom": 1.0048818729287674
                   }
                 }
               }
@@ -551,7 +561,7 @@
         }
       },
       "active": "e3bb2946d88054c1",
-      "mtime": "2024-07-20T10:48:51+02:00"
+      "mtime": "2024-07-20T11:04:45+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1179,5 +1189,5 @@
       "mtime": "2024-07-18T18:06:14+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "pv-auw"
 }
