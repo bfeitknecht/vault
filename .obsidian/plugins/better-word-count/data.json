@@ -17,16 +17,7 @@
       }
     }
   ],
-  "altBar": [
-    {
-      "prefix": "",
-      "suffix": " files",
-      "metric": {
-        "type": 2,
-        "counter": 6
-      }
-    }
-  ],
+  "altBar": [],
   "countComments": false,
   "collectStats": true,
   "displaySectionCounts": false,

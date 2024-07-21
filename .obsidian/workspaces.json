@@ -410,7 +410,7 @@
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                     "page": 2,
                     "left": -15,
-                    "top": 384,
+                    "top": 392,
                     "zoom": 1.0048818729287674
                   }
                 }
@@ -561,7 +561,7 @@
         }
       },
       "active": "e3bb2946d88054c1",
-      "mtime": "2024-07-20T11:04:45+02:00"
+      "mtime": "2024-07-21T12:44:15+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -597,45 +597,21 @@
                 }
               },
               {
-                "id": "eb9f1e13a3c0e594",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/DDCA/VRL/slides/DDCA-L04b-verilog-combinational.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
                 "id": "30afe6b1ad02bdfe",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/DDCA/VRL/slides/DDCA-L08-verilog-sequential.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "457aea2e25a129e3",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/DDCA/VRL/slides/DDCA-L04b-verilog-combinational.pdf",
-                    "page": 46,
-                    "left": -13,
-                    "top": 451,
-                    "zoom": 1.175
+                    "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
+                    "page": 7,
+                    "left": -15,
+                    "top": 542,
+                    "zoom": 1.0846153846153845
                   }
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -664,7 +640,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md"
+                    "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf"
                   }
                 }
               },
@@ -693,7 +669,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
+                    "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -710,7 +686,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
+                    "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -775,11 +751,11 @@
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "command-palette:Open command palette": false
+          "command-palette:Open command palette": true
         }
       },
-      "active": "bc8f0dc41f8794f0",
-      "mtime": "2024-07-20T14:14:25+02:00"
+      "active": "30afe6b1ad02bdfe",
+      "mtime": "2024-07-21T12:44:41+02:00"
     },
     "pv-pprog": {
       "main": {
