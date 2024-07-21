@@ -31,4 +31,10 @@ ___
 
 ## q3
 
-dynamic programming
+need dynamic programming
+
+```java
+// expected square after n turns
+// expected turns until square n
+```
+
