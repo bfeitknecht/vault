@@ -579,8 +579,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 2,
+                    "left": -9,
+                    "top": 744,
+                    "zoom": 1.7991654291454724
                   }
                 }
               },
@@ -603,15 +605,28 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
-                    "page": 7,
-                    "left": -15,
-                    "top": 542,
-                    "zoom": 1.0846153846153845
+                    "page": 43,
+                    "left": -11,
+                    "top": 499,
+                    "zoom": 1.3730769230769233
+                  }
+                }
+              },
+              {
+                "id": "9c73f572ad9d43ee",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey-24.pdf",
+                    "page": 5,
+                    "left": -12,
+                    "top": 95,
+                    "zoom": 1.2721379924070824
                   }
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -640,7 +655,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf"
+                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf"
                   }
                 }
               },
@@ -669,7 +684,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
+                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -686,7 +701,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
+                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -696,7 +711,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -754,8 +770,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "30afe6b1ad02bdfe",
-      "mtime": "2024-07-21T12:44:41+02:00"
+      "active": "7bb5751edd19196c",
+      "mtime": "2024-07-21T14:00:49+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -1159,5 +1175,5 @@
       "mtime": "2024-07-21T12:36:53+02:00"
     }
   },
-  "active": "pv-ddca"
+  "active": "pv-pprog"
 }
