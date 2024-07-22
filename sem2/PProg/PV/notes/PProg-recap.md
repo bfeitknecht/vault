@@ -113,26 +113,36 @@ Must override `run()` method!
 >> ![[PProg-summary-rböhr.pdf#page=24&rect=101,422,552,622|PProg-summary-rböhr, p.24]]
 >> 
 >
->>[!idea]- Peterson Lock
+>> [!idea]- Peterson Lock
 >> Peterson Lock is another way to ensure 2 process mutual exclusion. We again have two flags and a turn or victim variable:
 >> ![[PProg-summary-rböhr.pdf#page=24&rect=90,68,554,280|PProg-summary-rböhr, p.24]]
 >> 
 >
->>[!idea]- Filter Lock
+>> [!idea]- Filter Lock
 >> The Filter Lock is an extension of Peterson’s Lock to n processes. The idea is that every thread knows his level in the filter `level[t]`. In order to enter the critical section, a thread has to elevate all levels. For each level, we use Petersons’s mechanism to filter at most one thread if other threads are at higher level. For every level, there is one `victim[l]` that has to let other pass in case of conflicts. It is not fair, it's first come first serve.
 >> ![[PProg-summary-rböhr.pdf#page=25&rect=88,404,562,634|PProg-summary-rböhr, p.25]]
 >> 
 >
->>[!idea]- Baker's Lock
+>> [!idea]- Baker's Lock
 >> The bakery algorithm works like the numbering system in a postal office. Every thread has a label indicating when he is allowed to enter the critical section (when he has the lowest label). It is possible that multiple processes have the same label, in which case the thread id gets compared.
 >> ![[PProg-summary-rböhr.pdf#page=26&rect=87,534,556,741|PProg-summary-rböhr, p.26]]
 >> 
 >
->>[!idea]- Spinlock
+>> [!idea]- Spinlock
 >> It's very easy to implement spinlock with TAS:
 >> ![[PProg-summary-rböhr.pdf#page=26&rect=83,380,279,479|PProg-summary-rböhr, p.26]]
 >> If we have a CAS(memref a, int old, int new) operation, it is also very easy to implement a spinlock:
 >> ![[PProg-summary-rböhr.pdf#page=26&rect=81,242,362,341|PProg-summary-rböhr, p.26]]
+>>
+>
+>> [!idea]- TATAS Lock
+>> The performance of the spinlock described above is quite poor for many threads, because all threads fight for the bus (memory bus) during the call of `getAndSet()` and the cache coherency protocol needs to invalidate cached copies of the lock on other processors. Therefore, we can improve performance by only calling `getAndSet()` / `compareAndSet()` when we noticed that the lock is available (i.e. testing first):
+>> ![[PProg-summary-rböhr.pdf#page=27&rect=90,630,415,740|PProg-summary-rböhr, p.27]]
+>> 
+>>> [!idea]+ TATAS Lock with Backoff
+>>> In a TATAS lock, there are still too many threads fighting for access to the same resource. Therefore we set a thread to sleep for a random duration when the acquisition of the lock fails. With an exponential backoff, we double the duration every time the acquisition fails.
+>>> This leads to a heavy improvement in performance:
+>>> ![[PProg-summary-rböhr.pdf#page=27&rect=80,327,558,529|PProg-summary-rböhr, p.27]]
 >
 
 
