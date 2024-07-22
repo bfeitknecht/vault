@@ -108,7 +108,7 @@ Must override `run()` method!
 >>  Re-entrant lock (recursive lock) stores the thread that currently holds it and a count. If the current holder calls acquire, it does not block but increments the count. On release, the count is decremented and if the count is 0, the lock becomes not held.
 >> 
 >
->>[!idea]- Deckers Algorithm
+>>[!idea]- Decker Lock
 >> Decker’s Algorithm is an algorithm to ensure mutual exclusion with two processes. It uses two flags (indicating that the other process wants to enter the critical section) and a variable turn to indicate which thread is allowed to enter the critical section:
 >> ![[PProg-summary-rböhr.pdf#page=24&rect=101,422,552,622|PProg-summary-rböhr, p.24]]
 >> 
@@ -119,11 +119,23 @@ Must override `run()` method!
 >> 
 >
 >>[!idea]- Filter Lock
->> The Filter Lock is an extension of Peterson’s Lock to n processes. The idea is that every thread knows his level in the filter `level[t]`. In order to enter the critical section, a thread has to elevate all levels. For each level, we use Petersons’s mechanism to filter at most one thread if other threads are at higher level. For every level, there is one `victim[l]` that has to let other pass in case of conflicts.
+>> The Filter Lock is an extension of Peterson’s Lock to n processes. The idea is that every thread knows his level in the filter `level[t]`. In order to enter the critical section, a thread has to elevate all levels. For each level, we use Petersons’s mechanism to filter at most one thread if other threads are at higher level. For every level, there is one `victim[l]` that has to let other pass in case of conflicts. It is not fair, it's first come first serve.
+>> ![[PProg-summary-rböhr.pdf#page=25&rect=88,404,562,634|PProg-summary-rböhr, p.25]]
 >> 
 >
 >>[!idea]- Baker's Lock
->>bread
+>> The bakery algorithm works like the numbering system in a postal office. Every thread has a label indicating when he is allowed to enter the critical section (when he has the lowest label). It is possible that multiple processes have the same label, in which case the thread id gets compared.
+>> ![[PProg-summary-rböhr.pdf#page=26&rect=87,534,556,741|PProg-summary-rböhr, p.26]]
+>> 
+>
+>>[!idea]- Spinlock
+>> It's very easy to implement spinlock with TAS:
+>> ![[PProg-summary-rböhr.pdf#page=26&rect=83,380,279,479|PProg-summary-rböhr, p.26]]
+>> If we have a CAS(memref a, int old, int new) operation, it is also very easy to implement a spinlock:
+>> ![[PProg-summary-rböhr.pdf#page=26&rect=81,242,362,341|PProg-summary-rböhr, p.26]]
+>
+
+
 
 >[!quote]+ Problems with Locking
 >>[!idea]- Deadlock
