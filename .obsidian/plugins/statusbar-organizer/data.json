@@ -55,11 +55,11 @@
       "plugin-obsidian-git-obsidian-git-statusbar-failed-init-obsidian-git-statusbar-idle-obsidian-git-statusbar-status-obsidian-git-statusbar-pull-obsidian-git-statusbar-message;1": {
         "position": 14,
         "visible": false,
-        "exists": true
+        "exists": false
       },
       "cmdr-clickable-icon;1": {
         "position": 11,
-        "visible": false,
+        "visible": true,
         "exists": true
       },
       "cmdr-clickable-icon;2": {
@@ -76,6 +76,11 @@
         "position": 13,
         "visible": true,
         "exists": false
+      },
+      "plugin-obsidian-git-obsidian-git-statusbar-idle-obsidian-git-statusbar-status-obsidian-git-statusbar-pull-obsidian-git-statusbar-message;1": {
+        "position": 16,
+        "visible": false,
+        "exists": true
       }
     }
   },

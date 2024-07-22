@@ -20,12 +20,6 @@
       "icon": "plus-circle",
       "name": "Git add all changes",
       "mode": "desktop"
-    },
-    {
-      "id": "obsidian-shellcommands:shell-command-2vk5mhxxda",
-      "icon": "terminal-square",
-      "name": "Open File in Editor",
-      "mode": "desktop"
     }
   ],
   "pageHeader": [],
@@ -66,6 +60,13 @@
       "id": "obsidian-shellcommands:shell-command-c40q7nlmrh",
       "icon": "folder-open",
       "name": "Open Folder in iTerm",
+      "mode": "desktop",
+      "color": "#888888"
+    },
+    {
+      "id": "obsidian-shellcommands:shell-command-2vk5mhxxda",
+      "icon": "terminal-square",
+      "name": "Open File in Editor",
       "mode": "any",
       "color": "#888888"
     }

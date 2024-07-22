@@ -193,9 +193,10 @@ Must override `run()` method!
 
 
 > [!quote]+ What is quiescent consistency?
->- requires non-overlapping operations to appear to take effect in their realtime order, but overlapping operations might be reordered
+> - requires non-overlapping operations to appear to take effect in their realtime order, but overlapping operations might be reordered
 
->[!warning]+
+> [!warning]+ Incomparable!!
+> Sequential consistency and quiescent consistency are incomparable, there exist sequentially consistent executions that are not quiescently consistent, and vice versa.
 
 
 
