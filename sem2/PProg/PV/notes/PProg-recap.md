@@ -108,6 +108,20 @@ Must override `run()` method!
 >>  Re-entrant lock (recursive lock) stores the thread that currently holds it and a count. If the current holder calls acquire, it does not block but increments the count. On release, the count is decremented and if the count is 0, the lock becomes not held.
 >> 
 >
+>>[!idea]- Deckers Algorithm
+>> Decker’s Algorithm is an algorithm to ensure mutual exclusion with two processes. It uses two flags (indicating that the other process wants to enter the critical section) and a variable turn to indicate which thread is allowed to enter the critical section:
+>> ![[PProg-summary-rböhr.pdf#page=24&rect=101,422,552,622|PProg-summary-rböhr, p.24]]
+>> 
+>
+>>[!idea]- Peterson Lock
+>> Peterson Lock is another way to ensure 2 process mutual exclusion. We again have two flags and a turn or victim variable:
+>> ![[PProg-summary-rböhr.pdf#page=24&rect=90,68,554,280|PProg-summary-rböhr, p.24]]
+>> 
+>
+>>[!idea]- Filter Lock
+>> The Filter Lock is an extension of Peterson’s Lock to n processes. The idea is that every thread knows his level in the filter `level[t]`. In order to enter the critical section, a thread has to elevate all levels. For each level, we use Petersons’s mechanism to filter at most one thread if other threads are at higher level. For every level, there is one `victim[l]` that has to let other pass in case of conflicts.
+>> 
+>
 >>[!idea]- Baker's Lock
 >>bread
 
