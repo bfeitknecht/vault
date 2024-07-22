@@ -175,7 +175,7 @@
         }
       },
       "active": "2fe8bd73f837561b",
-      "mtime": "2024-07-22T10:47:43+02:00"
+      "mtime": "2024-07-22T11:19:12+02:00"
     },
     "HOME": {
       "main": {
@@ -240,9 +240,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -270,7 +268,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -287,7 +284,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -357,8 +353,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-07-22T10:47:35+02:00"
+      "active": "414cefd1625961b6",
+      "mtime": "2024-07-22T11:20:02+02:00"
     },
     "pv-a1": {
       "main": {
@@ -388,8 +384,38 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-01-seq&ser.pdf",
+                    "page": 3,
+                    "left": -11,
+                    "top": 390,
+                    "zoom": 1.41
+                  }
+                }
+              },
+              {
+                "id": "c0f1b504743c705a",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -11,
+                    "top": 630,
+                    "zoom": 1.41
+                  }
+                }
+              },
+              {
+                "id": "f51f8230a44948d3",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/VRL/extra/maja/A1-w06-maja.pdf",
+                    "page": 1,
+                    "left": -8,
+                    "top": 541,
+                    "zoom": 1.854601898951075
                   }
                 }
               },
@@ -401,23 +427,14 @@
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                     "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "f51f8230a44948d3",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/A1/VRL/extra/maja/A1-w04-maja.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "left": -15,
+                    "top": 599,
+                    "zoom": 1.0048818729287674
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -446,7 +463,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md"
+                    "file": "sem2/A1/VRL/extra/maja/A1-w06-maja.pdf"
                   }
                 }
               },
@@ -475,7 +492,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md",
+                    "file": "sem2/A1/VRL/extra/maja/A1-w06-maja.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -492,7 +509,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md",
+                    "file": "sem2/A1/VRL/extra/maja/A1-w06-maja.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -502,7 +519,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -561,8 +579,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-22T10:47:21+02:00"
+      "active": "f51f8230a44948d3",
+      "mtime": "2024-07-22T11:19:10+02:00"
     },
     "pv-ddca": {
       "main": {
