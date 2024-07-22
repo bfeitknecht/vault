@@ -97,9 +97,17 @@ Must override `run()` method!
 ## Locks
 
 >[!quote]+ What is a Lock?
->a lock
+> Locks are primitives with atomic operations: 
+> - new: Make a new lock, initially “not held" 
+> - acquire: Blocks if this lock is already currently “held” 
+> - release: Makes this lock “not held” (if more than 1 threads are blocked on the lock, exactly one will acquire it)
+>
 
 >[!quote]+ Some Common Types of Locks
+>>[!idea]- Reentrant Lock
+>>  Re-entrant lock (recursive lock) stores the thread that currently holds it and a count. If the current holder calls acquire, it does not block but increments the count. On release, the count is decremented and if the count is 0, the lock becomes not held.
+>> 
+>
 >>[!idea]- Baker's Lock
 >>bread
 
