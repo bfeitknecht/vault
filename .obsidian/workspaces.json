@@ -335,8 +335,6 @@
       "left-ribbon": {
         "hiddenItems": {
           "obsidian-shellcommands:Shell commands: Custom variables": true,
-          "homepage:Open homepage": true,
-          "mermaid-tools:Open Mermaid Toolbar": true,
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
@@ -348,13 +346,11 @@
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "command-palette:Open command palette": false,
-          "obsidian-advanced-slides:Show Slide Preview": true,
-          "webpage-html-export:Export Vault to HTML": true
+          "command-palette:Open command palette": false
         }
       },
-      "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-07-18T16:56:24+02:00"
+      "active": "414cefd1625961b6",
+      "mtime": "2024-07-22T10:21:26+02:00"
     },
     "pv-a1": {
       "main": {
@@ -1201,5 +1197,5 @@
       "mtime": "2024-07-21T12:36:53+02:00"
     }
   },
-  "active": "HOME"
+  "active": "pv-auw"
 }
