@@ -1016,10 +1016,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/PV/extra/AuW-formulas.pdf",
-                    "page": 2,
-                    "left": -9,
-                    "top": 765,
-                    "zoom": 1.7991654291454724
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -1133,8 +1131,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1185,7 +1182,7 @@
           "switcher:Open quick switcher": true,
           "cmdr:Export to PDF": false,
           "graph:Open graph view": false,
-          "command-palette:Open command palette": false,
+          "command-palette:Open command palette": true,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
@@ -1194,8 +1191,8 @@
         }
       },
       "active": "59fe4afc7ba527ae",
-      "mtime": "2024-07-21T12:36:53+02:00"
+      "mtime": "2024-07-22T10:24:44+02:00"
     }
   },
-  "active": "pv-auw"
+  "active": "pv-a1"
 }
