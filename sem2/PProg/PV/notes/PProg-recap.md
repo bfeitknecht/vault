@@ -28,7 +28,7 @@ ___
 Must override `run()` method!
 
 
->[!warning]
+> [!warning]
 >Always use `.start()` to start a Thread!
 ![[PProg-summary-rböhr.pdf#page=6&rect=82,497,543,545|PProg-abstract, p.6]]
 
@@ -53,7 +53,7 @@ Must override `run()` method!
 
 ![[PProg-w04-benji.pdf#page=52&rect=167,19,942,147|PProg-w04-benji, p.52]]
 
->[!idea] What is an atomic operation?
+> [!idea] What is an atomic operation?
 >An operation is atomic if no other thread can see it partly executed. Atomic, as in “appears indivisible”. However, does not mean it’s implemented as single instruction.
 
 
@@ -65,8 +65,8 @@ Must override `run()` method!
 
 
 ## Amdahl's Law
->[!quote]+ What is Amdahl's Law?
->>[!idea]- Terminoligy
+> [!quote]+ What is Amdahl's Law?
+>> [!idea]- Terminoligy
 >>"Specifies the maximum amount of speedup that can be achieved for a program with a given sequential part. The pessimistic view on scalability."
 >
 >Let $\mathbf{f}$ denote the non-parallelizable, serial fraction of the total work done in a program and $P$ the number of processors at our disposal. Then, the following inequality holds:
@@ -79,8 +79,8 @@ Must override `run()` method!
 
 
 ## Gustafson's Law
->[!quote]+ What is Gustafson's Law?
->>[!idea]- Terminoligy
+> [!quote]+ What is Gustafson's Law?
+>> [!idea]- Terminoligy
 >>"Specifies how much more work can be performed for a given fixed amount of time by adding more processors. The optimistic view on scalability."
 >
 >Let $\mathbf{f}$ denote the non-parallelizable, serial fraction of the total work done in the program and $P$ the number of processors at our disposal. Then, we get
@@ -96,19 +96,19 @@ Must override `run()` method!
 
 ## Locks
 
->[!quote]+ What is a Lock?
+> [!quote]+ What is a Lock?
 > Locks are primitives with atomic operations: 
 > - new: Make a new lock, initially “not held" 
 > - acquire: Blocks if this lock is already currently “held” 
 > - release: Makes this lock “not held” (if more than 1 threads are blocked on the lock, exactly one will acquire it)
 >
 
->[!quote]+ Some Common Types of Locks
->>[!idea]- Reentrant Lock
+> [!quote]+ Some Common Types of Locks
+>> [!idea]- Reentrant Lock
 >>  Re-entrant lock (recursive lock) stores the thread that currently holds it and a count. If the current holder calls acquire, it does not block but increments the count. On release, the count is decremented and if the count is 0, the lock becomes not held.
 >> 
 >
->>[!idea]- Decker Lock
+>> [!idea]- Decker Lock
 >> Decker’s Algorithm is an algorithm to ensure mutual exclusion with two processes. It uses two flags (indicating that the other process wants to enter the critical section) and a variable turn to indicate which thread is allowed to enter the critical section:
 >> ![[PProg-summary-rböhr.pdf#page=24&rect=101,422,552,622|PProg-summary-rböhr, p.24]]
 >> 
@@ -147,59 +147,59 @@ Must override `run()` method!
 
 
 
->[!quote]+ Problems with Locking
->>[!idea]- Deadlock
+> [!quote]+ Problems with Locking
+>> [!idea]- Deadlock
 >>dead
 >>
 >
->>[!idea]- Livelock
+>> [!idea]- Livelock
 >>alive
 
 
->[!quote]+ Deadlock
+> [!quote]+ Deadlock
 >Deadlock is a condition in which a task waits indefinitely for conditions that can never be satisfied - task claims exclusive control over shared resources - task holds resources while waiting for other resources to be released - tasks cannot be forced to relinquish resources - a circular waiting condition exists.
 >CPU usage will be low.
->>[!idea]+ What makes a deadlock?
+>> [!idea]+ What makes a deadlock?
 >>1. mutual exclusion condition (each resource is assigned to 1 process)
 >>2. hold and wait condition (process holding resources and at the same time it can ask other resources)
 >>3. no preemption condition (previously granted resources can not forcibly be taken away)
 >>4. circular wait condition (must be a circular chain of 2 or more processes and each is waiting for resource held by the next member of the chain)
 
 
->[!quote]+ Livelock
+> [!quote]+ Livelock
 >- constant state changes
 >- no progress, but CPU is spent on the lock mechanism and can't get to critical section
 >- "two people are in each other's way and both keep avoiding in the same direction"
 
 
->[!quote]+ Spinlock
+> [!quote]+ Spinlock
 >- technique of avoiding the cost of waiting for the lock to be freed
 >___
 >sometimes the scheduler's management of letting the thread access the lock takes too much time and/or resources, so we just check it and busy wait (spin) until it's free
 
 
->[!quote]+ Starvation
+> [!quote]+ Starvation
 >situation where a process never gets the chance to run, by pure bad luck or by some of its property (low priority)
 
 
 
 ## Consistency Models
 
->[!quote]+ What is quiescent consistency?
+> [!quote]+ What is quiescent consistency?
 >- requires non-overlapping operations to appear to take effect in their realtime order, but overlapping operations might be reordered
 
 
->[!quote]+ What is sequential consistency?
+> [!quote]+ What is sequential consistency?
 >- All instructions are executed in order
 >- Every write operation becomes instantaneously visible throughout the system
->>[!idea]+ Inventor's two cents
+>> [!idea]+ Inventor's two cents
 >> "...the results of any execution is the same as if the operations of all the processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program."
 
 
 Sequential consistency and quiescent consistency are incomparable, there exist sequentially consistent executions that are not quiescently consistent, and vice versa.
 
 
->[!quote]+ What is linearizability?
+> [!quote]+ What is linearizability?
 >- Linearizability provides the illusion that each operation applied by concurrent processes takes effect instantaneously between its invocation and its response
 >- "can we project onto a single history without reordering"
 >- Linearizability implies sequential consistency
