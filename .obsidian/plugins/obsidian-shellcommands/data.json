@@ -151,7 +151,7 @@
     {
       "id": "s558cixu8a",
       "platform_specific_commands": {
-        "default": "cd {{vault_path}};\ngit add ."
+        "default": "cd {{vault_path}} && git add ."
       },
       "shells": {},
       "alias": "Git add all changes",

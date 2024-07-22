@@ -133,7 +133,8 @@ Must override `run()` method!
 >> ![[PProg-summary-rböhr.pdf#page=26&rect=83,380,279,479|PProg-summary-rböhr, p.26]]
 >> If we have a CAS(memref a, int old, int new) operation, it is also very easy to implement a spinlock:
 >> ![[PProg-summary-rböhr.pdf#page=26&rect=81,242,362,341|PProg-summary-rböhr, p.26]]
->>
+>> Not fair.
+>> 
 >
 >> [!idea]- TATAS Lock
 >> The performance of the spinlock described above is quite poor for many threads, because all threads fight for the bus (memory bus) during the call of `getAndSet()` and the cache coherency protocol needs to invalidate cached copies of the lock on other processors. Therefore, we can improve performance by only calling `getAndSet()` / `compareAndSet()` when we noticed that the lock is available (i.e. testing first):
@@ -149,7 +150,7 @@ Must override `run()` method!
 
 > [!quote]+ Problems with Locking
 >> [!idea]- Deadlock
->>dead
+>> Cycle exists in dependency graph, threads can't enter critical section because of mutual exclusion (blocking each other). Imagine, Four way 
 >>
 >
 >> [!idea]- Livelock
