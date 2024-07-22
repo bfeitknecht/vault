@@ -185,10 +185,6 @@ Must override `run()` method!
 
 ## Consistency Models
 
-> [!quote]+ What is quiescent consistency?
->- requires non-overlapping operations to appear to take effect in their realtime order, but overlapping operations might be reordered
-
-
 > [!quote]+ What is sequential consistency?
 >- All instructions are executed in order
 >- Every write operation becomes instantaneously visible throughout the system
@@ -196,7 +192,11 @@ Must override `run()` method!
 >> "...the results of any execution is the same as if the operations of all the processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program."
 
 
-Sequential consistency and quiescent consistency are incomparable, there exist sequentially consistent executions that are not quiescently consistent, and vice versa.
+> [!quote]+ What is quiescent consistency?
+>- requires non-overlapping operations to appear to take effect in their realtime order, but overlapping operations might be reordered
+
+>[!warning]+
+
 
 
 > [!quote]+ What is linearizability?
