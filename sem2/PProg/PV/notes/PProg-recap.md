@@ -149,38 +149,17 @@ Must override `run()` method!
 
 
 > [!quote]+ Problems with Locking
+> 
 >> [!idea]- Deadlock
->> Cycle exists in dependency graph, threads can't enter critical section because of mutual exclusion (blocking each other). Imagine, Four way 
+>> Cycle exists in dependency graph, threads can't enter critical section because of mutual exclusion (blocking each other). Imagine, street crossing with cars at every road. No work is done. CPU usage will be low.
 >>
 >
 >> [!idea]- Livelock
->>alive
-
-
-> [!quote]+ Deadlock
->Deadlock is a condition in which a task waits indefinitely for conditions that can never be satisfied - task claims exclusive control over shared resources - task holds resources while waiting for other resources to be released - tasks cannot be forced to relinquish resources - a circular waiting condition exists.
->CPU usage will be low.
->> [!idea]+ What makes a deadlock?
->>1. mutual exclusion condition (each resource is assigned to 1 process)
->>2. hold and wait condition (process holding resources and at the same time it can ask other resources)
->>3. no preemption condition (previously granted resources can not forcibly be taken away)
->>4. circular wait condition (must be a circular chain of 2 or more processes and each is waiting for resource held by the next member of the chain)
-
-
-> [!quote]+ Livelock
->- constant state changes
->- no progress, but CPU is spent on the lock mechanism and can't get to critical section
->- "two people are in each other's way and both keep avoiding in the same direction"
-
-
-> [!quote]+ Spinlock
->- technique of avoiding the cost of waiting for the lock to be freed
->___
->sometimes the scheduler's management of letting the thread access the lock takes too much time and/or resources, so we just check it and busy wait (spin) until it's free
-
-
-> [!quote]+ Starvation
->situation where a process never gets the chance to run, by pure bad luck or by some of its property (low priority)
+>> No work is done, but with constant state changes. Imagine two people in narrow hallway and continuously moving out of each other's way into each other's way. CPU usage high (due to constant locking mechanism state change)
+>> 
+>
+>> [!idea]- Resource Starvation
+>> Situation where a process never gets the chance to run, by pure bad luck or by some of its property (low priority).
 
 
 
