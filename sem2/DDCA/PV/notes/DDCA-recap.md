@@ -21,9 +21,8 @@ ___
 >[!check]+ Yes
 >If the hexadecimal number $(82)_{16}$ is expressing a number in sign-magnitude format, which number does it describe in decimal system?
 
-
-### Powers of Two
-![[DDCA-L02a-binary-numbers.pdf#page=6&rect=95,86,626,436|DDCA-L02a-binary-numbers, p.6]]
+>[!quote] Powers of Two
+> ![[DDCA-L02a-binary-numbers.pdf#page=6&rect=95,86,626,436|DDCA-L02a-binary-numbers, p.6]]
 
 
 
