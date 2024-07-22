@@ -175,7 +175,7 @@
         }
       },
       "active": "2fe8bd73f837561b",
-      "mtime": "2024-07-22T11:19:12+02:00"
+      "mtime": "2024-07-22T15:12:45+02:00"
     },
     "HOME": {
       "main": {
@@ -385,9 +385,7 @@
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-01-seq&ser.pdf",
                     "page": 1,
-                    "left": -32,
-                    "top": 828,
-                    "zoom": 1.66
+                    "zoom": 1
                   }
                 }
               },
@@ -399,9 +397,7 @@
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 801,
-                    "zoom": 1.84
+                    "zoom": 1
                   }
                 }
               },
@@ -412,10 +408,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/VRL/extra/maja/A1-w07-maja.pdf",
-                    "page": 2,
-                    "left": -8,
-                    "top": 636,
-                    "zoom": 1.854601898951075
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -577,7 +571,7 @@
         }
       },
       "active": "a55bc676f617597b",
-      "mtime": "2024-07-22T13:16:47+02:00"
+      "mtime": "2024-07-22T15:12:47+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1207,5 +1201,5 @@
       "mtime": "2024-07-22T15:11:46+02:00"
     }
   },
-  "active": "clean"
+  "active": "pv-auw"
 }
