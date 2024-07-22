@@ -789,8 +789,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 10,
+                    "left": -11,
+                    "top": 596,
+                    "zoom": 1.421189498652726
                   }
                 }
               },
@@ -802,7 +804,22 @@
                   "state": {
                     "file": "sem2/PProg/PV/notes/PProg-recap.md",
                     "mode": "source",
-                    "source": false
+                    "source": true
+                  }
+                },
+                "group": "14d5632425a399fb"
+              },
+              {
+                "id": "8c190b64c3d16523",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/PProg/PV/summaries/PProg-summary-rböhr.pdf",
+                    "page": 29,
+                    "left": 74,
+                    "top": 639,
+                    "zoom": 1.05
                   }
                 }
               },
@@ -814,24 +831,33 @@
                   "state": {
                     "file": "sem2/PProg/VRL/extra/PProg-terminoligy.pdf",
                     "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "feb3adef7b66f9c6",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/PProg/VRL/extra/benji/PProg-w13-benji.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "left": -18,
+                    "top": 846,
+                    "zoom": 0.8748487881436593
                   }
                 }
               }
             ],
             "currentTab": 1
+          },
+          {
+            "id": "160e0d627054d1a9",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0db6341d94fad4bf",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                },
+                "group": "14d5632425a399fb"
+              }
+            ]
           }
         ],
         "direction": "vertical"
@@ -860,7 +886,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf"
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md"
                   }
                 }
               },
@@ -889,7 +915,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -906,7 +932,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -966,7 +992,7 @@
           "obsidian-statusbar-pomo:Start pomodoro": false,
           "cmdr:Export to PDF": false,
           "graph:Open graph view": false,
-          "command-palette:Open command palette": false,
+          "command-palette:Open command palette": true,
           "switcher:Open quick switcher": true,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
@@ -975,8 +1001,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-18T18:05:54+02:00"
+      "active": "54fc4e5ed3576cdb",
+      "mtime": "2024-07-22T10:11:17+02:00"
     },
     "pv-auw": {
       "main": {
@@ -1175,5 +1201,5 @@
       "mtime": "2024-07-21T12:36:53+02:00"
     }
   },
-  "active": "pv-pprog"
+  "active": "HOME"
 }

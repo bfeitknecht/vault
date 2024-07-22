@@ -1,10 +1,10 @@
 
 - [x] add gustafson's law ➕ 2024-07-08 ✅ 2024-07-09
 - [x] add amdahl's law ➕ 2024-07-08 ✅ 2024-07-09
-- [ ] recap locks ➕ 2024-07-09 
-	- [ ] what is a lock?
-	- [ ] common types of locks
-	- [ ] problems with locking
+- [x] recap locks ➕ 2024-07-09 ✅ 2024-07-22
+	- [x] what is a lock? ✅ 2024-07-22
+	- [x] common types of locks ✅ 2024-07-22
+	- [x] problems with locking ✅ 2024-07-22
 
 ## How to create and run a Thread
 
@@ -171,17 +171,17 @@ Must override `run()` method!
 >> [!idea]+ Inventor's two cents
 >> "...the results of any execution is the same as if the operations of all the processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program."
 
-
 > [!quote]+ What is quiescent consistency?
 > - requires non-overlapping operations to appear to take effect in their realtime order, but overlapping operations might be reordered
 
 > [!warning]+ Incomparable!!
 > Sequential consistency and quiescent consistency are incomparable, there exist sequentially consistent executions that are not quiescently consistent, and vice versa.
 
-
-
 > [!quote]+ What is linearizability?
 >- Linearizability provides the illusion that each operation applied by concurrent processes takes effect instantaneously between its invocation and its response
 >- "can we project onto a single history without reordering"
 >- Linearizability implies sequential consistency
+
+
+## Threadpool / ForkJoin Framework
 
