@@ -58,7 +58,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "README.md"
+                  }
                 }
               },
               {
@@ -86,6 +88,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "README.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -102,6 +105,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "README.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -160,18 +164,18 @@
           "workspaces:Manage workspace layouts": false,
           "switcher:Open quick switcher": true,
           "obsidian-statusbar-pomo:Start pomodoro": false,
-          "cmdr:Export to PDF": false,
           "graph:Open graph view": false,
+          "cmdr:Export to PDF": false,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "command-palette:Open command palette": false
+          "command-palette:Open command palette": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-18T18:07:01+02:00"
+      "active": "2fe8bd73f837561b",
+      "mtime": "2024-07-22T10:47:43+02:00"
     },
     "HOME": {
       "main": {
@@ -232,11 +236,13 @@
                 }
               },
               {
-                "id": "d39f74221ae34967",
+                "id": "0f56d709fdb24392",
                 "type": "leaf",
                 "state": {
-                  "type": "vertical-tabs-view",
-                  "state": {}
+                  "type": "outline",
+                  "state": {
+                    "file": "HOME.md"
+                  }
                 }
               },
               {
@@ -245,6 +251,46 @@
                 "state": {
                   "type": "bookmarks",
                   "state": {}
+                }
+              },
+              {
+                "id": "ee946e358c8111ed",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "b3aff261bc292caf",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "HOME.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "2d28441159ca953f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "HOME.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
                 }
               }
             ]
@@ -263,48 +309,10 @@
             "type": "tabs",
             "children": [
               {
-                "id": "b3aff261bc292caf",
+                "id": "d39f74221ae34967",
                 "type": "leaf",
                 "state": {
-                  "type": "backlink",
-                  "state": {
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "2d28441159ca953f",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "ee946e358c8111ed",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "0f56d709fdb24392",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
+                  "type": "vertical-tabs-view",
                   "state": {}
                 }
               },
@@ -325,7 +333,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
@@ -338,19 +346,19 @@
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
-          "cmdr:Export to PDF": false,
           "graph:Open graph view": false,
+          "cmdr:Export to PDF": false,
           "switcher:Open quick switcher": true,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "command-palette:Open command palette": false
+          "command-palette:Open command palette": true
         }
       },
-      "active": "414cefd1625961b6",
-      "mtime": "2024-07-22T10:21:26+02:00"
+      "active": "d4d9e5cf2cd5e94b",
+      "mtime": "2024-07-22T10:47:35+02:00"
     },
     "pv-a1": {
       "main": {
@@ -361,6 +369,18 @@
             "id": "f15d9de97348739a",
             "type": "tabs",
             "children": [
+              {
+                "id": "a55bc676f617597b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem2/A1/PV/notes/A1-recap.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
               {
                 "id": "4214bca714affd05",
                 "type": "leaf",
@@ -374,45 +394,30 @@
                 }
               },
               {
-                "id": "1f2a0610e1008e70",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/A1/UE/e/A1-u02-e.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "6b469c7621ecdb54",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/A1/UE/s/A1-u02-s.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
                 "id": "e3bb2946d88054c1",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
-                    "page": 2,
-                    "left": -15,
-                    "top": 392,
-                    "zoom": 1.0048818729287674
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              },
+              {
+                "id": "f51f8230a44948d3",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/VRL/extra/maja/A1-w04-maja.pdf",
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "vertical"
@@ -441,7 +446,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf"
+                    "file": "sem2/A1/PV/notes/A1-recap.md"
                   }
                 }
               },
@@ -470,7 +475,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
+                    "file": "sem2/A1/PV/notes/A1-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -487,7 +492,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
+                    "file": "sem2/A1/PV/notes/A1-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -545,10 +550,10 @@
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
+          "graph:Open graph view": false,
           "cmdr:Export to PDF": false,
           "switcher:Open quick switcher": true,
-          "graph:Open graph view": false,
-          "command-palette:Open command palette": false,
+          "command-palette:Open command palette": true,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
@@ -556,8 +561,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "e3bb2946d88054c1",
-      "mtime": "2024-07-21T12:44:15+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-22T10:47:21+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -577,7 +582,7 @@
                     "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
                     "page": 2,
                     "left": -9,
-                    "top": 744,
+                    "top": 772,
                     "zoom": 1.7991654291454724
                   }
                 }
@@ -601,10 +606,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
-                    "page": 43,
-                    "left": -11,
-                    "top": 499,
-                    "zoom": 1.3730769230769233
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -615,10 +618,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey-24.pdf",
-                    "page": 5,
-                    "left": -12,
-                    "top": 95,
-                    "zoom": 1.2721379924070824
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               }
@@ -755,7 +756,6 @@
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
-          "cmdr:Export to PDF": false,
           "graph:Open graph view": false,
           "switcher:Open quick switcher": true,
           "templates:Insert template": true,
@@ -763,11 +763,12 @@
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "command-palette:Open command palette": true
+          "command-palette:Open command palette": true,
+          "cmdr:Export to PDF": false
         }
       },
-      "active": "7bb5751edd19196c",
-      "mtime": "2024-07-21T14:00:49+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-22T10:47:23+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -785,10 +786,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
-                    "page": 10,
-                    "left": -11,
-                    "top": 596,
-                    "zoom": 1.421189498652726
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -812,10 +811,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/summaries/PProg-summary-rböhr.pdf",
-                    "page": 29,
-                    "left": 74,
-                    "top": 639,
-                    "zoom": 1.05
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -827,9 +824,7 @@
                   "state": {
                     "file": "sem2/PProg/VRL/extra/PProg-terminoligy.pdf",
                     "page": 1,
-                    "left": -18,
-                    "top": 846,
-                    "zoom": 0.8748487881436593
+                    "zoom": 1
                   }
                 }
               }
@@ -986,8 +981,8 @@
           "omnisearch:Omnisearch": false,
           "workspaces:Manage workspace layouts": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
-          "cmdr:Export to PDF": false,
           "graph:Open graph view": false,
+          "cmdr:Export to PDF": false,
           "command-palette:Open command palette": true,
           "switcher:Open quick switcher": true,
           "templates:Insert template": true,
@@ -998,7 +993,7 @@
         }
       },
       "active": "54fc4e5ed3576cdb",
-      "mtime": "2024-07-22T10:11:17+02:00"
+      "mtime": "2024-07-22T10:47:30+02:00"
     },
     "pv-auw": {
       "main": {
@@ -1180,8 +1175,8 @@
           "workspaces:Manage workspace layouts": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
           "switcher:Open quick switcher": true,
-          "cmdr:Export to PDF": false,
           "graph:Open graph view": false,
+          "cmdr:Export to PDF": false,
           "command-palette:Open command palette": true,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
@@ -1191,7 +1186,7 @@
         }
       },
       "active": "59fe4afc7ba527ae",
-      "mtime": "2024-07-22T10:24:44+02:00"
+      "mtime": "2024-07-22T10:47:32+02:00"
     }
   },
   "active": "pv-a1"

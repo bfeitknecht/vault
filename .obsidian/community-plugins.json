@@ -28,5 +28,6 @@
   "obsidian-qrcode-plugin",
   "cm-editor-syntax-highlight-obsidian",
   "vertical-tabs-view",
-  "obsidian-desmos"
+  "obsidian-desmos",
+  "plugin-reloader"
 ]

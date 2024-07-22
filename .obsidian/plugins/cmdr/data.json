@@ -67,7 +67,7 @@
       "id": "obsidian-shellcommands:shell-command-2vk5mhxxda",
       "icon": "terminal-square",
       "name": "Open File in Editor",
-      "mode": "any",
+      "mode": "desktop",
       "color": "#888888"
     }
   ],
