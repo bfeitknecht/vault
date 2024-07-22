@@ -151,7 +151,7 @@
     {
       "id": "s558cixu8a",
       "platform_specific_commands": {
-        "default": "cd {{vault_path}} && git add ."
+        "default": "sleep 2 && cd {{vault_path}} && git add ."
       },
       "shells": {},
       "alias": "Git add all changes",
