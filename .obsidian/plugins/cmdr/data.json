@@ -24,16 +24,18 @@
   ],
   "pageHeader": [
     {
-      "id": "workspace:split-vertical",
-      "icon": "lucide-separator-vertical",
-      "name": "Split right",
-      "mode": "any"
-    },
-    {
       "id": "workspace:split-horizontal",
       "icon": "lucide-separator-horizontal",
       "name": "Split down",
-      "mode": "any"
+      "mode": "desktop",
+      "color": "#888888"
+    },
+    {
+      "id": "workspace:split-vertical",
+      "icon": "lucide-separator-vertical",
+      "name": "Split right",
+      "mode": "desktop",
+      "color": "#888888"
     }
   ],
   "macros": [
