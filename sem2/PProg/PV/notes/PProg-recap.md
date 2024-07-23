@@ -165,6 +165,9 @@ Must override `run()` method!
 
 ## Consistency Models
 
+> [!quote]+ What is a History?
+> ![[pprog-history-criteria.png]]
+
 > [!quote]+ What is sequential consistency?
 >- All instructions are executed in order
 >- Every write operation becomes instantaneously visible throughout the system
@@ -181,7 +184,7 @@ Must override `run()` method!
 >- Linearizability provides the illusion that each operation applied by concurrent processes takes effect instantaneously between its invocation and its response
 >- "can we project onto a single history without reordering"
 >- Linearizability implies sequential consistency
-
+> 
 
 ## Threadpool / ForkJoin Framework
 
