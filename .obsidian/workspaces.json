@@ -589,10 +589,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
-                    "page": 2,
-                    "left": -18,
-                    "top": 776,
-                    "zoom": 1.7991654291454724
+                    "page": 6,
+                    "left": -8,
+                    "top": 806,
+                    "zoom": 1.854601898951075
                   }
                 }
               },
@@ -616,7 +616,9 @@
                   "state": {
                     "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -11,
+                    "top": 544,
+                    "zoom": 1.3730769230769233
                   }
                 }
               },
@@ -628,14 +630,13 @@
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey-24.pdf",
                     "page": 1,
-                    "left": -12,
+                    "left": -4,
                     "top": 599,
                     "zoom": 1.3113355215848916
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -664,7 +665,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md"
+                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf"
                   }
                 }
               },
@@ -693,7 +694,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
+                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -710,7 +711,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
+                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -779,8 +780,8 @@
           "cmdr:Export to PDF": false
         }
       },
-      "active": "bc8f0dc41f8794f0",
-      "mtime": "2024-07-22T11:37:39+02:00"
+      "active": "7bb5751edd19196c",
+      "mtime": "2024-07-23T10:40:58+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -1228,5 +1229,5 @@
       "mtime": "2024-07-23T10:35:02+02:00"
     }
   },
-  "active": "pv-ddca"
+  "active": "pv-pprog"
 }
