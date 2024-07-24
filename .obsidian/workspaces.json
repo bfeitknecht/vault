@@ -365,6 +365,20 @@
             "type": "tabs",
             "children": [
               {
+                "id": "e3bb2946d88054c1",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
+                    "page": 1,
+                    "left": -13,
+                    "top": 599,
+                    "zoom": 1.1474183088051884
+                  }
+                }
+              },
+              {
                 "id": "a55bc676f617597b",
                 "type": "leaf",
                 "state": {
@@ -408,23 +422,28 @@
                   "state": {
                     "file": "sem2/A1/VRL/extra/maja/A1-w07-maja.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -10,
+                    "top": 608,
+                    "zoom": 1.6227766615821908
                   }
                 }
               },
               {
-                "id": "e3bb2946d88054c1",
+                "id": "22ec6d3cb455d708",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "file": "sem2/A1/UE/e/A1-u07-e.pdf",
+                    "page": 2,
+                    "left": -10,
+                    "top": 707,
+                    "zoom": 1.6227766615821908
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -509,8 +528,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -570,7 +588,7 @@
         }
       },
       "active": "a55bc676f617597b",
-      "mtime": "2024-07-22T15:12:47+02:00"
+      "mtime": "2024-07-24T15:39:10+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1222,5 +1240,5 @@
       "mtime": "2024-07-23T10:35:02+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "pv-auw"
 }
