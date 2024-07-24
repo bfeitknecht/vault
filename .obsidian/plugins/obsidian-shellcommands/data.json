@@ -69,7 +69,7 @@
     {
       "id": "2vk5mhxxda",
       "platform_specific_commands": {
-        "default": "code --wait {{file_path:absolute}}"
+        "default": "code --goto {{file_path:absolute}}:{{caret_position}}"
       },
       "shells": {},
       "alias": "Open File in Editor",
