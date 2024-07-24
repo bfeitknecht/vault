@@ -293,8 +293,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -354,7 +353,7 @@
         }
       },
       "active": "414cefd1625961b6",
-      "mtime": "2024-07-22T11:20:02+02:00"
+      "mtime": "2024-07-24T15:22:23+02:00"
     },
     "pv-a1": {
       "main": {
@@ -1226,5 +1225,5 @@
       "mtime": "2024-07-23T10:35:02+02:00"
     }
   },
-  "active": "HOME"
+  "active": "pv-pprog"
 }
