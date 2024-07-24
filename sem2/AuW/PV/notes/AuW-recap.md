@@ -13,10 +13,11 @@
 >>[!quote]- k-edge-connected
 >>![[AuW-w01-cycles.pdf#page=9&rect=88,64,476,205|AuW-w01-cycles, p.9]]
 >
->>[!quote]- d-hypercube
->>![[gray-codes.jpg]]
->
->
+
+
+
+> [!quote]- d-hypercube
+> ![[gray-codes.jpg]]
 
 
 
