@@ -20,4 +20,3 @@
 > ![[gray-codes.jpg]]
 
 
-
