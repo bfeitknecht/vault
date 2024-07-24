@@ -810,10 +810,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/summaries/PProg-summary-rböhr.pdf",
-                    "page": 28,
-                    "left": -9,
-                    "top": 342,
-                    "zoom": 1.6789915966386555
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -825,9 +823,7 @@
                   "state": {
                     "file": "sem2/PProg/VRL/extra/PProg-terminoligy.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 846,
-                    "zoom": 1.6791045905005102
+                    "zoom": 1
                   }
                 }
               },
@@ -850,15 +846,15 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/exams/PProg-FS21-exam.pdf",
-                    "page": 2,
-                    "left": -9,
-                    "top": 735,
-                    "zoom": 1.6782131313877935
+                    "page": 1,
+                    "left": -80,
+                    "top": 515,
+                    "zoom": 1.32
                   }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -887,7 +883,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/PProg/PV/notes/PProg-recap.md"
+                    "file": "sem2/PProg/PV/exams/PProg-FS21-exam.pdf"
                   }
                 }
               },
@@ -916,7 +912,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
+                    "file": "sem2/PProg/PV/exams/PProg-FS21-exam.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -933,7 +929,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
+                    "file": "sem2/PProg/PV/exams/PProg-FS21-exam.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -943,7 +939,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1001,8 +998,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-23T16:15:48+02:00"
+      "active": "95953c631190074f",
+      "mtime": "2024-07-24T15:27:30+02:00"
     },
     "pv-auw": {
       "main": {
@@ -1225,5 +1222,5 @@
       "mtime": "2024-07-23T10:35:02+02:00"
     }
   },
-  "active": "pv-pprog"
+  "active": "pv-a1"
 }

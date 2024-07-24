@@ -17,7 +17,6 @@ ___
 > ```
 
 
-
 $$
 \begin{align}
 \lim_{ x \to \infty } x\cos(x) &= \text{n. a.} \\
