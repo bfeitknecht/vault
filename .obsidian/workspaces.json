@@ -372,9 +372,7 @@
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                     "page": 1,
-                    "left": -13,
-                    "top": 599,
-                    "zoom": 1.1474183088051884
+                    "zoom": 1
                   }
                 }
               },
@@ -422,9 +420,7 @@
                   "state": {
                     "file": "sem2/A1/VRL/extra/maja/A1-w07-maja.pdf",
                     "page": 1,
-                    "left": -10,
-                    "top": 608,
-                    "zoom": 1.6227766615821908
+                    "zoom": 1
                   }
                 }
               },
@@ -435,10 +431,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/UE/e/A1-u07-e.pdf",
-                    "page": 2,
-                    "left": -10,
-                    "top": 707,
-                    "zoom": 1.6227766615821908
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               }
@@ -588,7 +582,7 @@
         }
       },
       "active": "a55bc676f617597b",
-      "mtime": "2024-07-24T15:39:10+02:00"
+      "mtime": "2024-07-24T15:46:42+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -607,9 +601,9 @@
                   "state": {
                     "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
                     "page": 6,
-                    "left": -8,
-                    "top": 806,
-                    "zoom": 1.854601898951075
+                    "left": -9,
+                    "top": 810,
+                    "zoom": 1.7991654291454724
                   }
                 }
               },
@@ -633,9 +627,7 @@
                   "state": {
                     "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
                     "page": 1,
-                    "left": -11,
-                    "top": 544,
-                    "zoom": 1.3730769230769233
+                    "zoom": 1
                   }
                 }
               },
@@ -647,9 +639,7 @@
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey-24.pdf",
                     "page": 1,
-                    "left": -4,
-                    "top": 599,
-                    "zoom": 1.3113355215848916
+                    "zoom": 1
                   }
                 }
               }
@@ -798,7 +788,7 @@
         }
       },
       "active": "7bb5751edd19196c",
-      "mtime": "2024-07-23T10:40:58+02:00"
+      "mtime": "2024-07-24T15:46:40+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -865,8 +855,8 @@
                   "state": {
                     "file": "sem2/PProg/PV/exams/PProg-FS21-exam.pdf",
                     "page": 1,
-                    "left": -80,
-                    "top": 515,
+                    "left": -119,
+                    "top": 519,
                     "zoom": 1.32
                   }
                 }
@@ -1017,7 +1007,7 @@
         }
       },
       "active": "95953c631190074f",
-      "mtime": "2024-07-24T15:27:30+02:00"
+      "mtime": "2024-07-24T15:46:39+02:00"
     },
     "pv-auw": {
       "main": {
@@ -1084,8 +1074,8 @@
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                     "page": 7,
-                    "left": -2,
-                    "top": 179,
+                    "left": -4,
+                    "top": 187,
                     "zoom": 1.3
                   }
                 }
@@ -1176,8 +1166,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1237,7 +1226,7 @@
         }
       },
       "active": "e3bb2946d88054c1",
-      "mtime": "2024-07-23T10:35:02+02:00"
+      "mtime": "2024-07-24T15:46:37+02:00"
     }
   },
   "active": "pv-auw"
