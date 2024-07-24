@@ -1,182 +1,5 @@
 {
   "workspaces": {
-    "clean": {
-      "main": {
-        "id": "ef0204964e2b9162",
-        "type": "split",
-        "children": [
-          {
-            "id": "cf6d68d6a91aab68",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9ea8cdd69aaf51d2",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {}
-                }
-              },
-              {
-                "id": "2fe8bd73f837561b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "README.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "fe28d63e32c3168b",
-        "type": "split",
-        "children": [
-          {
-            "id": "fddab58c0769d063",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5f4cf158045f14fe",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "0f56d709fdb24392",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "README.md"
-                  }
-                }
-              },
-              {
-                "id": "b14014a5400a500b",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
-                }
-              },
-              {
-                "id": "ee946e358c8111ed",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "b3aff261bc292caf",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "README.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "2d28441159ca953f",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "README.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "right": {
-        "id": "4be59d580df31d93",
-        "type": "split",
-        "children": [
-          {
-            "id": "a9eab3abde570e06",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a6fa0429b0c2f4f4",
-                "type": "leaf",
-                "state": {
-                  "type": "vertical-tabs-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "a850696dfc6a544a",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "34db57a620058d31",
-                "type": "leaf",
-                "state": {
-                  "type": "toggl-report",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "obsidian-shellcommands:Shell commands: Custom variables": true,
-          "omnisearch:Omnisearch": false,
-          "cmdr:Export to PDF": false,
-          "workspaces:Manage workspace layouts": false,
-          "switcher:Open quick switcher": true,
-          "obsidian-statusbar-pomo:Start pomodoro": false,
-          "graph:Open graph view": false,
-          "templates:Insert template": true,
-          "zk-prefixer:Create new unique note": true,
-          "pdf-plus:PDF++: Toggle auto-copy": true,
-          "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true,
-          "command-palette:Open command palette": true
-        }
-      },
-      "active": "2fe8bd73f837561b",
-      "mtime": "2024-07-24T16:18:57+02:00"
-    },
     "HOME": {
       "main": {
         "id": "ef0204964e2b9162",
@@ -194,6 +17,18 @@
                   "state": {
                     "file": "HOME.md",
                     "mode": "preview",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "c4761f644bfecbe1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "source",
                     "source": false
                   }
                 }
@@ -297,7 +132,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -356,8 +192,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "414cefd1625961b6",
-      "mtime": "2024-07-24T16:18:54+02:00"
+      "active": "84d6179a41f3d7a6",
+      "mtime": "2024-07-24T17:41:00+02:00"
     },
     "pv-a1": {
       "main": {
@@ -1030,7 +866,9 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w03-hall.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -9,
+                    "top": 405,
+                    "zoom": 1.785
                   }
                 }
               },
@@ -1053,20 +891,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L01-connectedness.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "cbecb27aedee9f2e",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/AuW/PV/summaries/AuW-summary-yannick.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 4,
+                    "left": -153,
+                    "top": 587,
+                    "zoom": 0.8271484375
                   }
                 }
               },
@@ -1077,10 +905,24 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L02-euler-tours.pdf",
-                    "page": 17,
-                    "left": -15,
-                    "top": 460,
-                    "zoom": 1.0458984375
+                    "page": 20,
+                    "left": -243,
+                    "top": 24,
+                    "zoom": 0.66
+                  }
+                }
+              },
+              {
+                "id": "cbecb27aedee9f2e",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/AuW/PV/summaries/AuW-summary-yannick.pdf",
+                    "page": 23,
+                    "left": -16,
+                    "top": 10,
+                    "zoom": 0.9541032676477925
                   }
                 }
               }
@@ -1114,7 +956,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/VRL/slides/AuW-L02-euler-tours.pdf"
+                    "file": "sem2/AuW/PV/summaries/AuW-summary-yannick.pdf"
                   }
                 }
               },
@@ -1143,7 +985,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/VRL/slides/AuW-L02-euler-tours.pdf",
+                    "file": "sem2/AuW/PV/summaries/AuW-summary-yannick.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1160,7 +1002,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/VRL/slides/AuW-L02-euler-tours.pdf",
+                    "file": "sem2/AuW/PV/summaries/AuW-summary-yannick.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1219,8 +1061,8 @@
           "omnisearch:Omnisearch": false,
           "cmdr:Export to PDF": false,
           "workspaces:Manage workspace layouts": false,
-          "graph:Open graph view": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
+          "graph:Open graph view": false,
           "switcher:Open quick switcher": true,
           "command-palette:Open command palette": true,
           "templates:Insert template": true,
@@ -1230,8 +1072,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "8e45314029a7d922",
-      "mtime": "2024-07-24T16:18:28+02:00"
+      "active": "cbecb27aedee9f2e",
+      "mtime": "2024-07-24T17:39:20+02:00"
     }
   },
   "active": "pv-auw"
