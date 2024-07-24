@@ -1,4 +1,12 @@
 
+> [!quote]+ Cheatsheet
+>>[!idea]- Stop Conditions DI Method
+>> - $0$ in D column
+>> - we can integrate a row
+>> - a row repeats (don't care sign)
+>
+> - different directions integrate / derivative
+>   
 
 
 ___
