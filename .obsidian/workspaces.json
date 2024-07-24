@@ -164,8 +164,8 @@
           "cmdr:Export to PDF": false,
           "workspaces:Manage workspace layouts": false,
           "switcher:Open quick switcher": true,
-          "graph:Open graph view": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
+          "graph:Open graph view": false,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
@@ -175,7 +175,7 @@
         }
       },
       "active": "2fe8bd73f837561b",
-      "mtime": "2024-07-24T16:18:26+02:00"
+      "mtime": "2024-07-24T16:18:57+02:00"
     },
     "HOME": {
       "main": {
@@ -240,7 +240,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "HOME.md"
+                  }
                 }
               },
               {
@@ -268,6 +270,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -284,6 +287,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -339,10 +343,10 @@
         "hiddenItems": {
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
+          "cmdr:Export to PDF": false,
           "workspaces:Manage workspace layouts": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
           "graph:Open graph view": false,
-          "cmdr:Export to PDF": false,
           "switcher:Open quick switcher": true,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
@@ -353,7 +357,7 @@
         }
       },
       "active": "414cefd1625961b6",
-      "mtime": "2024-07-24T15:22:23+02:00"
+      "mtime": "2024-07-24T16:18:54+02:00"
     },
     "pv-a1": {
       "main": {
@@ -570,8 +574,8 @@
           "omnisearch:Omnisearch": false,
           "cmdr:Export to PDF": false,
           "workspaces:Manage workspace layouts": false,
-          "graph:Open graph view": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
+          "graph:Open graph view": false,
           "switcher:Open quick switcher": true,
           "command-palette:Open command palette": true,
           "templates:Insert template": true,
@@ -582,7 +586,7 @@
         }
       },
       "active": "a55bc676f617597b",
-      "mtime": "2024-07-24T16:18:43+02:00"
+      "mtime": "2024-07-24T16:19:00+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -602,7 +606,7 @@
                     "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
                     "page": 6,
                     "left": -9,
-                    "top": 814,
+                    "top": 818,
                     "zoom": 1.7991654291454724
                   }
                 }
@@ -776,8 +780,8 @@
           "omnisearch:Omnisearch": false,
           "cmdr:Export to PDF": false,
           "workspaces:Manage workspace layouts": false,
-          "graph:Open graph view": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
+          "graph:Open graph view": false,
           "switcher:Open quick switcher": true,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
@@ -788,7 +792,7 @@
         }
       },
       "active": "7bb5751edd19196c",
-      "mtime": "2024-07-24T16:18:38+02:00"
+      "mtime": "2024-07-24T16:19:02+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -856,7 +860,7 @@
                     "file": "sem2/PProg/PV/exams/PProg-FS21-exam.pdf",
                     "page": 1,
                     "left": -119,
-                    "top": 523,
+                    "top": 527,
                     "zoom": 1.32
                   }
                 }
@@ -995,8 +999,8 @@
           "omnisearch:Omnisearch": false,
           "cmdr:Export to PDF": false,
           "workspaces:Manage workspace layouts": false,
-          "graph:Open graph view": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
+          "graph:Open graph view": false,
           "command-palette:Open command palette": true,
           "switcher:Open quick switcher": true,
           "templates:Insert template": true,
@@ -1007,7 +1011,7 @@
         }
       },
       "active": "95953c631190074f",
-      "mtime": "2024-07-24T16:18:33+02:00"
+      "mtime": "2024-07-24T16:19:04+02:00"
     },
     "pv-auw": {
       "main": {
@@ -1230,5 +1234,5 @@
       "mtime": "2024-07-24T16:18:28+02:00"
     }
   },
-  "active": "HOME"
+  "active": "pv-auw"
 }
