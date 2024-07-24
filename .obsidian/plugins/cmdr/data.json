@@ -36,6 +36,13 @@
       "name": "Split right",
       "mode": "desktop",
       "color": "#888888"
+    },
+    {
+      "id": "workspace:toggle-stacked-tabs",
+      "icon": "lucide-layers",
+      "name": "Toggle stacked tabs",
+      "mode": "any",
+      "color": "#888888"
     }
   ],
   "macros": [
