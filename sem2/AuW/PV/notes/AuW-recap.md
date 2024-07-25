@@ -33,4 +33,4 @@ ___
 
 
 intern knoten-disjunkte u-v-Pfade $\implies$ Kantendisjunkte u-v-Pfade
-$\;\not\!\!\!\implies$ 
+Kantendisjunkte u-v-Pfade $\;\not\!\!\!\implies$ intern knoten-disjunkte u-v-Pfade
