@@ -31,3 +31,6 @@ ___
 > ![[gray-codes.jpg]]
 
 
+
+intern knoten-disjunkte u-v-Pfade $\implies$ Kantendisjunkte u-v-Pfade
+$\;\not\!\!\!\implies$ 
