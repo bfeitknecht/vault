@@ -362,7 +362,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -406,6 +407,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "cmdr:Export to PDF": false,
@@ -422,7 +424,7 @@
         }
       },
       "active": "a55bc676f617597b",
-      "mtime": "2024-07-24T16:19:00+02:00"
+      "mtime": "2024-07-25T10:26:05+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -441,9 +443,9 @@
                   "state": {
                     "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
                     "page": 6,
-                    "left": -9,
-                    "top": 818,
-                    "zoom": 1.7991654291454724
+                    "left": -10,
+                    "top": 826,
+                    "zoom": 1.6227766615821908
                   }
                 }
               },
@@ -612,6 +614,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "cmdr:Export to PDF": false,
@@ -628,7 +631,7 @@
         }
       },
       "active": "7bb5751edd19196c",
-      "mtime": "2024-07-24T16:19:02+02:00"
+      "mtime": "2024-07-25T10:23:49+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -695,8 +698,8 @@
                   "state": {
                     "file": "sem2/PProg/PV/exams/PProg-FS21-exam.pdf",
                     "page": 1,
-                    "left": -119,
-                    "top": 527,
+                    "left": -80,
+                    "top": 535,
                     "zoom": 1.32
                   }
                 }
@@ -831,6 +834,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "cmdr:Export to PDF": false,
@@ -847,7 +851,7 @@
         }
       },
       "active": "95953c631190074f",
-      "mtime": "2024-07-24T16:19:04+02:00"
+      "mtime": "2024-07-25T10:23:51+02:00"
     },
     "pv-auw": {
       "main": {
@@ -926,9 +930,9 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w04-hopcroft-karp.pdf",
                     "page": 1,
-                    "left": -13,
+                    "left": -11,
                     "top": 852,
-                    "zoom": 1.2349999999999999
+                    "zoom": 1.41
                   }
                 }
               },
@@ -939,10 +943,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/PV/summaries/AuW-summary-yannick.pdf",
-                    "page": 30,
-                    "left": -18,
-                    "top": 27,
-                    "zoom": 0.8605637316038914
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               }
@@ -1093,8 +1095,8 @@
         }
       },
       "active": "25c8f63e8749b8cf",
-      "mtime": "2024-07-25T10:23:16+02:00"
+      "mtime": "2024-07-25T10:23:52+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "pv-auw"
 }
