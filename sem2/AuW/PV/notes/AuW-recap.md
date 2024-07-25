@@ -1,11 +1,16 @@
 
-> [!attention] Exam Points
-> 
-> 
+
+> [!attention]+ Exam Points
+> - 40p Moodle Quiz: ähnliche oder gleiche Fragen wie Miniquiz
+> - 20p Programmieren, vermutlich:
+> 	Eine Flow-Aufgabe
+> 	Eine Wahrscheinlichkeits-Aufgabe (bedingte Wahrscheinlichkeit und DP)
+> - 20p Schriftlich, vermutlich:
+> 	~10p Wahrscheinlichkeitsaufgabe (Erwartungswert, Varianz)
+> 	~10p Beweise 
+
 
 ## Connectedness
-
-
 >[!quote] Connectedness
 >
 > ![[AuW-L01-connectedness.pdf#page=18&rect=58,655,940,745|AuW-L01-connectedness, p.18]]
