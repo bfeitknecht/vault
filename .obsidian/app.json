@@ -17,7 +17,8 @@
     "LUTs"
   ],
   "showRibbon": true,
-  "propertiesInDocument": "visible",
+  "propertiesInDocument": "source",
   "trashOption": "local",
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "spellcheck": false
 }

@@ -10,7 +10,10 @@
 > 	~10p Beweise 
 
 
-## Connectedness
+___
+
+## Graphs
+
 >[!quote] Connectedness
 >
 > ![[AuW-L01-connectedness.pdf#page=18&rect=58,655,940,745|AuW-L01-connectedness, p.18]]
