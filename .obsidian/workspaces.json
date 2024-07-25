@@ -882,7 +882,9 @@
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L02-euler-tours.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -16,
+                    "top": 772,
+                    "zoom": 0.943359375
                   }
                 }
               },
@@ -894,7 +896,9 @@
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L04-matchings.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -28,
+                    "top": 1084,
+                    "zoom": 0.5578125
                   }
                 }
               },
@@ -906,7 +910,9 @@
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L05-satz-von-hall.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -31,
+                    "top": 1084,
+                    "zoom": 0.503125
                   }
                 }
               },
@@ -918,7 +924,9 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w03-hall.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -10,
+                    "top": 716,
+                    "zoom": 1.6099999999999999
                   }
                 }
               },
@@ -930,9 +938,9 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w04-hopcroft-karp.pdf",
                     "page": 1,
-                    "left": -11,
-                    "top": 852,
-                    "zoom": 1.41
+                    "left": -10,
+                    "top": 822,
+                    "zoom": 1.61
                   }
                 }
               },
@@ -948,8 +956,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 5
+            ]
           }
         ],
         "direction": "vertical"
@@ -978,7 +985,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w04-hopcroft-karp.pdf"
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md"
                   }
                 }
               },
@@ -1007,7 +1014,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w04-hopcroft-karp.pdf",
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1024,7 +1031,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w04-hopcroft-karp.pdf",
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1034,7 +1041,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1044,14 +1052,6 @@
             "id": "a9eab3abde570e06",
             "type": "tabs",
             "children": [
-              {
-                "id": "2be78f1a6e9d94d5",
-                "type": "leaf",
-                "state": {
-                  "type": "vertical-tabs-view",
-                  "state": {}
-                }
-              },
               {
                 "id": "d4d9e5cf2cd5e94b",
                 "type": "leaf",
@@ -1068,8 +1068,7 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
@@ -1094,9 +1093,9 @@
           "flashcards-obsidian:Generate flashcards": true
         }
       },
-      "active": "25c8f63e8749b8cf",
-      "mtime": "2024-07-25T10:23:52+02:00"
+      "active": "d5067995aa31e438",
+      "mtime": "2024-07-25T11:41:26+02:00"
     }
   },
-  "active": "pv-auw"
+  "active": "pv-a1"
 }
