@@ -60,6 +60,21 @@
       "name": "Toggle Status and Ribbon",
       "icon": "asterisk",
       "startup": false
+    },
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "editing-toolbar:hide-show-menu"
+        },
+        {
+          "action": 0,
+          "commandId": "snippet-commands-obsidian:snippet-command-view-header"
+        }
+      ],
+      "name": "Switch Edit Bar / View Header",
+      "icon": "star",
+      "startup": false
     }
   ],
   "explorer": [
