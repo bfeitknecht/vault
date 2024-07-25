@@ -7,7 +7,9 @@
   "showViewHeader": true,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
-    "page-breaks"
+    "page-breaks",
+    "card-tag",
+    "toggle-view-header"
   ],
   "monospaceFontFamily": "CommitMono Nerd Font Mono",
   "theme": "system",
