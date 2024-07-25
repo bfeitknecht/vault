@@ -6,7 +6,14 @@
 >> - a row repeats (don't care sign)
 >
 > - different directions integrate / derivative
->   
+> - monotonic & bounded $\iff$ convergent
+
+
+>[!attention] Study this more!
+> - fractional integration
+> - 
+
+
 
 
 ___
