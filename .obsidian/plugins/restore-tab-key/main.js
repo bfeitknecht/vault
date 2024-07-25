@@ -93,6 +93,41 @@ var localization = {
     "zh-CN": "Tab \u952E\u884C\u4E3A",
     "zh-TW": "Tab \u9375\u884C\u70BA"
   },
+  activateIn: {
+    "en-US": "Activate plugin in Markdown environment",
+    "zh-CN": "\u5728 Markdown \u73AF\u5883\u4E2D\u542F\u7528\u63D2\u4EF6",
+    "zh-TW": "\u5728 Markdown \u74B0\u5883\u4E2D\u555F\u7528\u63D2\u4EF6"
+  },
+  activateInDesc: {
+    "en-US": "On: Insert tab character. Off: Indent, or next cell for tables",
+    "zh-CN": "\u5F00\u542F\uFF1A\u63D2\u5165 Tab \u5B57\u7B26\u3002\u5173\u95ED\uFF1A\u7F29\u6392\uFF0C\u6216\u8005\u5728\u8868\u683C\u4E2D\u4E3A\u79FB\u81F3\u4E0B\u4E00\u683C",
+    "zh-TW": "\u958B\u555F\uFF1A\u63D2\u5165 Tab \u5B57\u5143\u3002\u95DC\u9589\uFF1A\u7E2E\u6392\uFF0C\u6216\u8005\u5728\u8868\u683C\u4E2D\u70BA\u79FB\u81F3\u4E0B\u4E00\u683C"
+  },
+  activateInCodeBlocks: {
+    "en-US": "Code blocks",
+    "zh-CN": "\u4EE3\u7801\u533A\u5757",
+    "zh-TW": "\u7A0B\u5F0F\u78BC\u5340\u584A"
+  },
+  activateInLists: {
+    "en-US": "Lists",
+    "zh-CN": "\u5217\u8868",
+    "zh-TW": "\u5217\u8868"
+  },
+  activateInTables: {
+    "en-US": "Tables",
+    "zh-CN": "\u8868\u683C",
+    "zh-TW": "\u8868\u683C"
+  },
+  activateInInlineCode: {
+    "en-US": "Inline code / Indented code",
+    "zh-CN": "\u884C\u5167\u4EE3\u7801\uFF08inline code\uFF09",
+    "zh-TW": "\u884C\u5167\u7A0B\u5F0F\u78BC\uFF08inline code\uFF09"
+  },
+  activateInOthers: {
+    "en-US": "Others",
+    "zh-CN": "\u5176\u4ED6",
+    "zh-TW": "\u5176\u4ED6"
+  },
   indentWhenSelectionNotEmpty: {
     "en-US": "Indents when selection is not empty",
     "zh-CN": "\u5728\u6709\u6587\u5B57\u88AB\u9009\u53D6\u65F6\u9032\u884C\u7F29\u6392",
@@ -117,16 +152,6 @@ var localization = {
     "en-US": "Allow exceptions for indenting",
     "zh-CN": "\u5141\u8BB8\u5BF9\u7F29\u8FDB\u8FDB\u884C\u4F8B\u5916\u5904\u7406",
     "zh-TW": "\u5C0D\u7E2E\u6392\u9032\u884C\u4F8B\u5916\u8655\u7406"
-  },
-  onlyInCodeBlocks: {
-    "en-US": "Only activate in code blocks",
-    "zh-CN": "\u4EC5\u5728\u4EE3\u7801\u533A\u5757\u5185\u6FC0\u6D3B",
-    "zh-TW": "\u50C5\u5728\u7A0B\u5F0F\u78BC\u5340\u584A\u5167\u555F\u7528"
-  },
-  onlyInCodeBlocksDesc: {
-    "en-US": "Will do nothing if the cursor is not in a code block and use default behavior (indent, or other plugins that uses the tab key, like Obsidian Tabout)",
-    "zh-CN": "\u5F53\u5149\u6807\u4E0D\u5728\u4EE3\u7801\u533A\u5757\u5185\u7684\u8BDD\uFF0C\u4F7F\u7528\u9ED8\u8BA4 Tab \u952E\u884C\u4E3A\uFF08\u7F29\u8FDB\uFF0C\u6216\u8005\u5176\u4ED6\u4F7F\u7528 Tab \u952E\u7684\u63D2\u4EF6\uFF0C\u5982 Obsidian Tabout\uFF09",
-    "zh-TW": "\u7576\u6E38\u6A19\u4E0D\u5728\u7A0B\u5F0F\u78BC\u5340\u584A\u5167\u7684\u8A71\uFF0C\u4F7F\u7528\u9810\u8A2D Tab \u9375\u884C\u70BA\uFF08\u7E2E\u6392\uFF0C\u6216\u8005\u5176\u4ED6\u4F7F\u7528 Tab \u9375\u7684\u63D2\u4EF6\uFF0C\u5982 Obsidian Tabout\uFF09"
   },
   allowExceptionDesc: {
     "en-US": "Indent line even when the selection is empty when the line matches the regex (For example, when cursor is on an empty list bullet)",
@@ -268,14 +293,13 @@ var localization = {
 // main.ts
 var import_obsidian = require("obsidian");
 var DEFAULT_SETTINGS = {
-  activateOnlyOnCodeBlocks: false,
   indentsIfSelection: true,
   indentsIfSelectionOnlyForMultipleLines: true,
   useSpaces: false,
   alignSpaces: true,
   useHardSpace: false,
   spacesCount: 4,
-  allowException: true,
+  allowException: false,
   exceptionRegex: "^[\\s\xA0]*(-|\\d+\\.)( \\[ \\])?\\s*$",
   useAdvancedTables: false,
   obsidianTableEditor: true,
@@ -288,7 +312,12 @@ var DEFAULT_SETTINGS = {
   braceCodeSetClose: '["^\\\\}", "^\\\\]", "^\\\\)", "^\\"", "^\'", "^`"]',
   braceMarkdownSetOpen: `["\\\\{$", "\\\\[$", "\\\\($", "\\"$", "'$", "\\\\$\\\\$$", "<.+>$", "\xA1$", "\xBF$"]`,
   braceMarkdownSetClose: `["^\\\\}", "^\\\\]", "^\\\\)", "^\\"", "^'", "^\\\\$\\\\$", "^<\\\\/\\\\w+>", "^!", "^?"]`,
-  indentCharacters: " 	"
+  indentCharacters: " 	",
+  activateInCodeBlocks: true,
+  activateInLists: false,
+  activateInTables: false,
+  activateInInlineCode: false,
+  activateInOthers: false
 };
 var TabKeyPlugin = class extends import_obsidian.Plugin {
   constructor() {
@@ -324,23 +353,32 @@ var TabKeyPlugin = class extends import_obsidian.Plugin {
           const sourceMode = view.getState().source;
           const token = this.getToken(editor.cm.state);
           this.log("Current token: " + token);
-          if (!token.includes("hmd-codeblock")) {
-            if (this.settings.activateOnlyOnCodeBlocks) {
-              this.log("Did not execute: Not a code block");
-              return false;
-            }
-          } else {
-            if (!this.settings.developerMode) {
-              this.settings.allowException = false;
-              this.settings.useAdvancedTables = false;
-              this.settings.obsidianTableEditor = false;
-              this.settings.useOutlinerBetterTab = false;
-            }
-          }
           const cursorFrom = editor.getCursor("from");
           const cursorTo = editor.getCursor("to");
           const somethingSelected = cursorFrom.line != cursorTo.line || cursorFrom.ch != cursorTo.ch;
           const app = this.app;
+          const isTable = RegExp(`^ *\\|`, "u").test(editor.getLine(cursorFrom.line)) || token.includes("HyperMD-table");
+          if (token.includes("inline-code")) {
+            if (!this.settings.activateInInlineCode) {
+              this.log("Did not execute: Inline code environment not activated");
+              return false;
+            }
+          } else if (token.includes("hmd-codeblock")) {
+            if (!this.settings.activateInCodeBlocks) {
+              this.log("Did not execute: Code block environment not activated");
+              return false;
+            }
+          } else if (token.includes("list-1")) {
+            if (!this.settings.activateInLists) {
+              this.log("Did not execute: List environment not activated");
+              return false;
+            }
+          } else if (!isTable) {
+            if (!this.settings.activateInOthers) {
+              this.log("Did not execute: Other environments not activated");
+              return false;
+            }
+          }
           if (this.settings.useOutlinerBetterTab && RegExp("^[\\s]*(-|\\d+\\.)", "u").test(editor.getLine(cursorFrom.line))) {
             const prevLine = editor.getLine(cursorFrom.line);
             outlinerIndenting = true;
@@ -352,7 +390,7 @@ var TabKeyPlugin = class extends import_obsidian.Plugin {
               return true;
             }
           }
-          if (RegExp(`^\\|`, "u").test(editor.getLine(cursorFrom.line))) {
+          if (isTable && !this.settings.activateInTables) {
             if (!sourceMode) {
               this.log("Table environment in Live Preview mode");
               if (this.settings.obsidianTableEditor) {
@@ -522,9 +560,25 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
     containerEl.createEl("h5", {
       text: localization["tabKeyBehavior"][lang]
     });
-    new import_obsidian.Setting(containerEl).setName(localization["onlyInCodeBlocks"][lang]).setDesc(localization["onlyInCodeBlocksDesc"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.activateOnlyOnCodeBlocks).onChange(async (value) => {
-      this.plugin.settings.activateOnlyOnCodeBlocks = value;
-      this.display();
+    new import_obsidian.Setting(containerEl).setName(localization["activateIn"][lang]).setDesc(localization["activateInDesc"][lang]);
+    new import_obsidian.Setting(containerEl).setName("\xA0\xA0\xA0\xA0" + localization["activateInCodeBlocks"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.activateInCodeBlocks).onChange(async (value) => {
+      this.plugin.settings.activateInCodeBlocks = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian.Setting(containerEl).setName("\xA0\xA0\xA0\xA0" + localization["activateInLists"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.activateInLists).onChange(async (value) => {
+      this.plugin.settings.activateInLists = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian.Setting(containerEl).setName("\xA0\xA0\xA0\xA0" + localization["activateInTables"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.activateInTables).onChange(async (value) => {
+      this.plugin.settings.activateInTables = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian.Setting(containerEl).setName("\xA0\xA0\xA0\xA0" + localization["activateInInlineCode"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.activateInInlineCode).onChange(async (value) => {
+      this.plugin.settings.activateInInlineCode = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian.Setting(containerEl).setName("\xA0\xA0\xA0\xA0" + localization["activateInOthers"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.activateInOthers).onChange(async (value) => {
+      this.plugin.settings.activateInOthers = value;
       await this.plugin.saveSettings();
     }));
     new import_obsidian.Setting(containerEl).setName(localization["indentWhenSelectionNotEmpty"][lang]).setDesc(localization["indentWhenSelectionNotEmptyDesc"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.indentsIfSelection).onChange(async (value) => {
@@ -538,7 +592,7 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
         await this.plugin.saveSettings();
       }));
     }
-    if (this.plugin.settings.developerMode || !this.plugin.settings.activateOnlyOnCodeBlocks) {
+    if (this.plugin.settings.developerMode) {
       new import_obsidian.Setting(containerEl).setName(localization["allowException"][lang]).setDesc(localization["allowExceptionDesc"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.allowException).onChange(async (value) => {
         this.plugin.settings.allowException = value;
         this.display();
@@ -599,7 +653,7 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
         await this.plugin.saveSettings();
       }));
     }
-    if (this.plugin.settings.developerMode || !this.plugin.settings.activateOnlyOnCodeBlocks) {
+    if (this.plugin.settings.developerMode) {
       containerEl.createEl("h5", {
         text: localization["pluginCompatibility"][lang]
       });
