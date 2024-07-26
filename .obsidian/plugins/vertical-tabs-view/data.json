@@ -1,0 +1,11 @@
+{
+  "defaultPosition": "right",
+  "showDirectory": false,
+  "showCloseIcon": true,
+  "showPinnedIcon": true,
+  "showPinIconIfNotPinned": false,
+  "showTabIcon": true,
+  "customizeTabIcon": false,
+  "defaultTabIcon": "file",
+  "tabIconRules": []
+}

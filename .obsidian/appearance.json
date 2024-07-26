@@ -9,8 +9,7 @@
   "enabledCssSnippets": [
     "page-breaks",
     "card-tag",
-    "toggle-view-header",
-    "view-header"
+    "toggle-view-header"
   ],
   "monospaceFontFamily": "CommitMono Nerd Font Mono",
   "theme": "system",
