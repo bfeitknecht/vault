@@ -67,7 +67,6 @@
       "key": "F2"
     }
   ],
-  "workspace:edit-file-title": [],
   "app:open-help": [],
   "app:toggle-right-sidebar": [
     {
@@ -119,6 +118,22 @@
         "Mod"
       ],
       "key": "L"
+    }
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "S"
+    }
+  ],
+  "workspace:edit-file-title": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "R"
     }
   ]
 }
