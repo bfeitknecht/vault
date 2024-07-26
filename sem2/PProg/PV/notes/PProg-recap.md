@@ -6,6 +6,12 @@
 	- [x] common types of locks ✅ 2024-07-22
 	- [x] problems with locking ✅ 2024-07-22
 
+
+semaphore, barriers, specific locks, etc. NICHT auswendig lernen
+aber konzeptuel (bakery lock: lexikographische ordnung, etc.)
+
+
+
 ## How to create and run a Thread
 
 In Java, there’s the `java.lang.Thread` class for managing Threads. The most important methods are:
