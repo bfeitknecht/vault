@@ -912,9 +912,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L02-euler-tours.pdf",
-                    "page": 1,
-                    "left": -16,
-                    "top": 772,
+                    "page": 21,
+                    "left": -72,
+                    "top": 588,
                     "zoom": 0.943359375
                   }
                 }
@@ -927,9 +927,7 @@
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L04-matchings.pdf",
                     "page": 1,
-                    "left": -28,
-                    "top": 1084,
-                    "zoom": 0.5578125
+                    "zoom": 1
                   }
                 }
               },
@@ -941,9 +939,21 @@
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L05-satz-von-hall.pdf",
                     "page": 1,
-                    "left": -31,
-                    "top": 1084,
                     "zoom": 0.503125
+                  }
+                }
+              },
+              {
+                "id": "5002d18ab3d7a442",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w01-cycles.pdf",
+                    "page": 11,
+                    "left": -9,
+                    "top": 549,
+                    "zoom": 1.785
                   }
                 }
               },
@@ -955,9 +965,9 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w03-hall.pdf",
                     "page": 1,
-                    "left": -10,
-                    "top": 716,
-                    "zoom": 1.6099999999999999
+                    "left": -9,
+                    "top": 720,
+                    "zoom": 1.785
                   }
                 }
               },
@@ -969,9 +979,23 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w04-hopcroft-karp.pdf",
                     "page": 1,
-                    "left": -10,
-                    "top": 822,
-                    "zoom": 1.61
+                    "left": -9,
+                    "top": 826,
+                    "zoom": 1.7850000000000001
+                  }
+                }
+              },
+              {
+                "id": "267dfe5581fd5caa",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/AuW/VRL/slides/AuW-L08-probability.pdf",
+                    "page": 5,
+                    "left": -33,
+                    "top": 11,
+                    "zoom": 1.01
                   }
                 }
               },
@@ -983,11 +1007,14 @@
                   "state": {
                     "file": "sem2/AuW/PV/summaries/AuW-summary-yannick.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -16,
+                    "top": 798,
+                    "zoom": 0.9541032676477926
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 7
           }
         ],
         "direction": "vertical"
@@ -1016,7 +1043,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/PV/notes/AuW-recap.md"
+                    "file": "sem2/AuW/VRL/slides/AuW-L08-probability.pdf"
                   }
                 }
               },
@@ -1045,7 +1072,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
+                    "file": "sem2/AuW/VRL/slides/AuW-L08-probability.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1062,7 +1089,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
+                    "file": "sem2/AuW/VRL/slides/AuW-L08-probability.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1108,6 +1135,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-comments:Show Comments Panel": false,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "cmdr:Export to PDF": false,
@@ -1124,9 +1152,9 @@
           "flashcards-obsidian:Generate flashcards": true
         }
       },
-      "active": "d5067995aa31e438",
-      "mtime": "2024-07-25T11:41:26+02:00"
+      "active": "267dfe5581fd5caa",
+      "mtime": "2024-07-26T09:52:39+02:00"
     }
   },
-  "active": "pv-auw"
+  "active": "pv-a1"
 }
