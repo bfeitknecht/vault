@@ -56,6 +56,11 @@
         "position": 3,
         "visible": true,
         "exists": true
+      },
+      "plugin-flashcards-obsidian;1": {
+        "position": 12,
+        "visible": false,
+        "exists": true
       }
     }
   },
