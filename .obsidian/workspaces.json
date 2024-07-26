@@ -212,9 +212,7 @@
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                     "page": 1,
-                    "left": 1,
-                    "top": 370,
-                    "zoom": 1.5
+                    "zoom": 1
                   }
                 }
               },
@@ -286,9 +284,7 @@
                   "state": {
                     "file": "sem2/A1/UE/e/A1-u01-e.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 846,
-                    "zoom": 1.7991654291454724
+                    "zoom": 1
                   }
                 }
               },
@@ -299,10 +295,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-04-taylor.pdf",
-                    "page": 8,
-                    "left": -84,
-                    "top": 424,
-                    "zoom": 1.14
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               }
@@ -455,7 +449,7 @@
         }
       },
       "active": "a55bc676f617597b",
-      "mtime": "2024-07-25T16:20:13+02:00"
+      "mtime": "2024-07-26T09:55:22+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1156,5 +1150,5 @@
       "mtime": "2024-07-26T09:52:39+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "pv-auw"
 }

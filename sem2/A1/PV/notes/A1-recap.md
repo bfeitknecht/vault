@@ -11,8 +11,8 @@
 
 >[!attention] Study this more!
 > - fractional integration
-> - complex number
->   ![[Screenshot 2024-07-26 at 09.52.32.png]]
+> - complex number representations
+>   ![[complex-number-formats.png]]
 
 
 
