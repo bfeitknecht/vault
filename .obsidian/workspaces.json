@@ -890,10 +890,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf",
-                    "page": 3,
-                    "left": -9,
-                    "top": 447,
-                    "zoom": 1.7850000000000001
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -904,9 +902,7 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-                    "page": 2,
-                    "left": -198,
-                    "top": 171,
+                    "page": 1,
                     "zoom": 1
                   }
                 }
@@ -918,9 +914,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w06-coupon-collector-DP.pdf",
-                    "page": 6,
+                    "page": 9,
                     "left": -115,
-                    "top": 414,
+                    "top": 752,
                     "zoom": 1.2
                   }
                 }
@@ -1072,8 +1068,8 @@
         }
       },
       "active": "f3a4249184710c69",
-      "mtime": "2024-07-26T14:28:11+02:00"
+      "mtime": "2024-07-26T14:39:56+02:00"
     }
   },
-  "active": "pv-auw"
+  "active": "pv-pprog"
 }
