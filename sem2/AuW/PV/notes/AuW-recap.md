@@ -38,4 +38,5 @@ Kantendisjunkte u-v-Pfade $\;\not\!\!\!\implies$ intern knoten-disjunkte u-v-Pfa
 
 ___
 
-## Quoz
+## Quizzes
+
