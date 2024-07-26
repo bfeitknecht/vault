@@ -384,8 +384,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -442,12 +441,11 @@
           "zk-prefixer:Create new unique note": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true,
-          "obsidian-comments:Show Comments Panel": false
+          "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "a55bc676f617597b",
-      "mtime": "2024-07-26T09:55:22+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-26T11:53:44+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -891,37 +889,9 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
+                    "file": "sem2/AuW/PV/notes/AuW-quizzes.md",
                     "mode": "source",
                     "source": false
-                  }
-                }
-              },
-              {
-                "id": "85737fb2ef78a80b",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                    "page": 91,
-                    "left": -399,
-                    "top": 128,
-                    "zoom": 0.79
-                  }
-                }
-              },
-              {
-                "id": "308c29ed6671987d",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/AuW/PV/extra/pvw/AuW-pvw-script.pdf",
-                    "page": 30,
-                    "left": -9,
-                    "top": 0,
-                    "zoom": 1.7991654291454724
                   }
                 }
               },
@@ -968,8 +938,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w01-cycles.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 11,
+                    "left": -11,
+                    "top": 553,
+                    "zoom": 1.41
                   }
                 }
               },
@@ -981,7 +953,9 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w03-hall.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -11,
+                    "top": 724,
+                    "zoom": 1.41
                   }
                 }
               },
@@ -993,7 +967,9 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w04-hopcroft-karp.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -11,
+                    "top": 805,
+                    "zoom": 1.41
                   }
                 }
               },
@@ -1004,10 +980,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L08-probability.pdf",
-                    "page": 39,
-                    "left": -548,
-                    "top": 764,
-                    "zoom": 0.52
+                    "page": 38,
+                    "left": -15,
+                    "top": 1,
+                    "zoom": 1.0781249999999998
                   }
                 }
               },
@@ -1018,13 +994,14 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/PV/summaries/AuW-summary-yannick.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 30,
+                    "left": -20,
+                    "top": 31,
+                    "zoom": 0.7536614046965756
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1053,7 +1030,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+                    "file": "sem2/AuW/PV/notes/AuW-quizzes.md"
                   }
                 }
               },
@@ -1082,7 +1059,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                    "file": "sem2/AuW/PV/notes/AuW-quizzes.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1099,7 +1076,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                    "file": "sem2/AuW/PV/notes/AuW-quizzes.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1109,8 +1086,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1120,6 +1096,14 @@
             "id": "a9eab3abde570e06",
             "type": "tabs",
             "children": [
+              {
+                "id": "8179def825a5ee12",
+                "type": "leaf",
+                "state": {
+                  "type": "vertical-tabs-view",
+                  "state": {}
+                }
+              },
               {
                 "id": "d4d9e5cf2cd5e94b",
                 "type": "leaf",
@@ -1145,7 +1129,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-comments:Show Comments Panel": false,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "cmdr:Export to PDF": false,
@@ -1162,8 +1145,8 @@
           "flashcards-obsidian:Generate flashcards": true
         }
       },
-      "active": "85737fb2ef78a80b",
-      "mtime": "2024-07-26T10:16:25+02:00"
+      "active": "d5067995aa31e438",
+      "mtime": "2024-07-26T11:53:35+02:00"
     }
   },
   "active": "pv-auw"
