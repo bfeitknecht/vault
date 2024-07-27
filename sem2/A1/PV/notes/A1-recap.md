@@ -42,12 +42,13 @@ $$
 \infty \\
 -\infty \\
 \\
-\overset{\infty}{\rightarrow}\infty \\
-\overset{\infty}{\rightarrow}1 \\
-\overset{-\infty}{\rightarrow}0 \\
-\overset{1}{\rightarrow} \\
-\overset{-1}{\rightarrow} \\
-\overset{\frac{\pi}{2}}{\rightarrow}
+& \overset{\infty}{\rightarrow}\infty \\
+& \overset{-\infty}{\rightarrow}0 \\
+& \overset{0}{\rightarrow}-\infty \\
+
+& \overset{1}{\rightarrow} \\
+& \overset{-1}{\rightarrow} \\
+& \overset{\frac{\pi}{2}}{\rightarrow}\text{n/a}
 \end{align}
 $$
 
