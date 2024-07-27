@@ -9,6 +9,8 @@
 > - monotonic & bounded $\iff$ convergent
 > - quotient / product rule for derivative
 > - general log / exp rules
+> - arc trig values
+>   
 
 
 >[!attention] Study this more!
