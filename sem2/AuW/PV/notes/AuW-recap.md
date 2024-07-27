@@ -17,9 +17,12 @@
 
 > [!attention]+ Study This
 > - matchings, perfect matchings
+> - augmenting paths
 > - low, dfs
 > - cut vertex, cut edge
-> - 
+> - coloring!!
+> - a "to the left of" bc
+> 
 
 ___
 
