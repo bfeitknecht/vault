@@ -17,7 +17,15 @@
 
 
 
-
+$$
+\begin{align}
+ & \text{Rectangular} & a+bi \\
+ & \text{Polar} & r(\cos(\theta)+i\sin(\theta)) \\
+ & \text{Exponential} & r \cdot e^{i\theta} \\
+ & \text{Modulus} & |z|=\sqrt{ a^2 +b^2} \\
+ & \text{Argument ($\theta$)} & \theta=\arctan()
+\end{align}
+$$
 
 
 
