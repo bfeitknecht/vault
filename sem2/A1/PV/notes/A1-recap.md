@@ -7,6 +7,8 @@
 >
 > - different directions integrate / derivative
 > - monotonic & bounded $\iff$ convergent
+> - quotient / product rule for derivative
+> - general log / exp rules
 
 
 >[!attention] Study this more!
@@ -14,7 +16,6 @@
 > - power series
 > - integration by parts
 > - convergence, convexity, monotonicity
-
 
 
 

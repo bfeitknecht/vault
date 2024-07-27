@@ -209,8 +209,22 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 8,
+                    "left": -13,
+                    "top": 22,
+                    "zoom": 1.27
+                  }
+                }
+              },
+              {
+                "id": "a769293961913d36",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem2/A1/PV/extra/A1-derivative-integral-rules.md",
+                    "mode": "source",
+                    "source": false
                   }
                 }
               },
@@ -234,7 +248,9 @@
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-01-seq&ser.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -9,
+                    "top": 852,
+                    "zoom": 1.785
                   }
                 }
               },
@@ -251,42 +267,6 @@
                 }
               },
               {
-                "id": "f51f8230a44948d3",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/A1/VRL/extra/maja/A1-w07-maja.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "22ec6d3cb455d708",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/A1/UE/e/A1-u07-e.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "c1798b6d87e2b186",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/A1/UE/e/A1-u01-e.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
                 "id": "c0aedc9104c9e522",
                 "type": "leaf",
                 "state": {
@@ -297,9 +277,23 @@
                     "zoom": 1
                   }
                 }
+              },
+              {
+                "id": "f51f8230a44948d3",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/VRL/extra/maja/A1-w07-maja.pdf",
+                    "page": 1,
+                    "left": -9,
+                    "top": 846,
+                    "zoom": 1.7991654291454724
+                  }
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -384,7 +378,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -418,8 +413,7 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
@@ -444,8 +438,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-26T11:53:44+02:00"
+      "active": "a55bc676f617597b",
+      "mtime": "2024-07-27T17:35:55+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1101,5 +1095,5 @@
       "mtime": "2024-07-27T10:18:37+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "pv-auw"
 }
