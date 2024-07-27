@@ -40,9 +40,17 @@ $$
 \\
 0 \\
 \infty \\
--\infty
+-\infty \\
+\\
+\overset{\infty}{\rightarrow}\infty \\
+\overset{\infty}{\rightarrow}1 \\
+\overset{-\infty}{\rightarrow}0 \\
+\overset{1}{\rightarrow} \\
+\overset{-1}{\rightarrow} \\
+\overset{\frac{\pi}{2}}{\rightarrow}
 \end{align}
 $$
+
 
 
 
