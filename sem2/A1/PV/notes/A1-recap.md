@@ -72,19 +72,19 @@ $$
 
 $$
 \begin{align}
-&\text{(Product Rule)} & \frac{d}{dx} [f(x) \cdot g(x)] &= f'(x) g(x) + f(x) g'(x) \\
-&\text{(Quotient Rule)} & \frac{d}{dx} \left[\frac{f(x)}{g(x)}\right] &= \frac{f'(x) g(x) - f(x) g'(x)}{[g(x)]^2} \\
-&\text{(Chain Rule)} & \frac{d}{dx} f(g(x)) &= f'(g(x)) \cdot g'(x) \\
-&\text{(Exponential Rule)} & \frac{d}{dx} e^x &= e^x \\
-&\text{(Logarithm Rule)} & \frac{d}{dx} \ln(x) &= \frac{1}{x} \\
-&\text{(General Exponential Rule)} & \frac{d}{dx} a^x &= a^x \ln(a) \\
-&\text{(General Logarithm Rule)} & \frac{d}{dx} \log_a(x) &= \frac{1}{x \ln(a)} \\
-&\text{(Integration by Parts)} & \int u \, dv &= uv - \int v \, du \\
-&\text{(Substitution Rule)} & \int f(g(x)) g'(x) \, dx &= \int f(u) \, du \quad (u = g(x)) \\
-&\text{(Exponential Rule)} & \int e^x \, dx &= e^x + C \\
-&\text{(General Exponential Rule)} & \int a^x \, dx &= \frac{a^x}{\ln(a)} + C \\
+& \frac{d}{dx} [f(x) \cdot g(x)] = f'(x) g(x) + f(x) g'(x) \\
+& \frac{d}{dx} \left[\frac{f(x)}{g(x)}\right] = \frac{f'(x) g(x) - f(x) g'(x)}{[g(x)]^2} \\
+& \frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x) \\
+& \frac{d}{dx} a^x = a^x \ln(a) \\
+& \frac{d}{dx} \log_a(x) = \frac{1}{x \ln(a)} \\
+ \\
+ \\
+& \int u \, dv = uv - \int v \, du \\
+& \int f(g(x)) g'(x) \, dx = \int f(u) \, du \\
+& \int a^x \, dx = \frac{a^x}{\ln(a)} + C \\
 \end{align}
 $$
+
 
 
 ## That's it
