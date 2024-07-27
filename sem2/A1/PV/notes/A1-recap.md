@@ -37,11 +37,6 @@ $$
 \frac{\pi}{2} \\
 \\
 - \frac{\pi}{2} \\
-\\
-0 \\
-\infty \\
--\infty \\
-\\
 \end{align}
 $$
 
@@ -57,6 +52,18 @@ $$
 \end{align}
 $$
 
+$$
+\begin{align}
+\exp(x) \\ \\
+\ln(x) \\ \\
+\sin(x) \\ \\
+\cos(x) \\ \\
+\tan(x) \\ \\
+\arcsin(x) \\ \\
+\arccos(x) \\ \\
+\arctan(x)
+\end{align}
+$$
 
 
 
