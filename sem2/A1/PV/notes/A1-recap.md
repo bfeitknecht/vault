@@ -19,12 +19,12 @@
 
 $$
 \begin{align}
- & \text{Rectangular:} & a+bi \\
- & \text{Polar:} & r(\cos(\theta)+i\sin(\theta)) \\
- & \text{Exponential} & r \cdot e^{i\theta} \\
+ & \text{Rectangular:} & z &= a+bi \\
+ & \text{Polar:} & z &= r(\cos(\theta)+i\sin(\theta)) \\
+ & \text{Exponential} & z &= r \cdot e^{i\theta} \\
  \\
-& \text{Modulus:} & r = |z| = \sqrt{ a^2 +b^2}  \\
-& \text{Argument:} & \theta = \arg(z) = \arctan\left( \frac{b}{a} \right) \\ 
+& \text{Modulus:} & r &= |z| = \sqrt{ a^2 +b^2}  \\
+& \text{Argument:} & \theta &= \arg(z) = \arctan\left( \frac{b}{a} \right) \\ 
 \end{align}
 $$
 
