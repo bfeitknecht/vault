@@ -29,6 +29,20 @@ $$
 $$
 
 
+$$
+\begin{align}
+\pi \\
+- \pi \\
+\\
+\frac{\pi}{2} \\
+\\
+- \frac{\pi}{2} \\
+\\
+0 \\
+\infty \\
+-\infty
+\end{align}
+$$
 
 
 
