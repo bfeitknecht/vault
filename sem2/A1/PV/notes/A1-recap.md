@@ -11,8 +11,9 @@
 
 >[!attention] Study this more!
 > - fractional integration
-> - complex number representations
->   ![[complex-number-formats.png]]
+> - power series
+> - integration by parts
+> - convergence, convexity, monotonicity
 
 
 
