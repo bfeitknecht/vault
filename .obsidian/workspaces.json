@@ -885,9 +885,7 @@
                   "state": {
                     "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf",
                     "page": 1,
-                    "left": -12,
-                    "top": 852,
-                    "zoom": 1.2575
+                    "zoom": 1
                   }
                 }
               },
@@ -899,9 +897,7 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
                     "page": 1,
-                    "left": -10,
-                    "top": 695,
-                    "zoom": 1.6099999999999999
+                    "zoom": 1
                   }
                 }
               },
@@ -912,10 +908,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w06-coupon-collector-DP.pdf",
-                    "page": 9,
-                    "left": -115,
-                    "top": 751,
-                    "zoom": 1.2
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -932,6 +926,18 @@
                 }
               },
               {
+                "id": "f48c082c88e24ef8",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/AuW/PV/extra/AuW-formulas.pdf",
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              },
+              {
                 "id": "52dc13b0a6f1abd4",
                 "type": "leaf",
                 "state": {
@@ -939,14 +945,12 @@
                   "state": {
                     "file": "sem2/AuW/UE/u/e/AuW-u01-e.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 722,
-                    "zoom": 1.7991654291454724
+                    "zoom": 1
                   }
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -975,7 +979,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/UE/u/e/AuW-u01-e.pdf"
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md"
                   }
                 }
               },
@@ -1004,7 +1008,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/UE/u/e/AuW-u01-e.pdf",
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1021,7 +1025,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/UE/u/e/AuW-u01-e.pdf",
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1031,8 +1035,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 282.5,
-        "collapsed": true
+        "width": 282.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1091,9 +1094,9 @@
           "flashcards-obsidian:Generate flashcards": true
         }
       },
-      "active": "52dc13b0a6f1abd4",
-      "mtime": "2024-07-27T10:18:37+02:00"
+      "active": "ac0073458c6e5f7f",
+      "mtime": "2024-07-27T17:55:59+02:00"
     }
   },
-  "active": "pv-auw"
+  "active": "pv-a1"
 }
