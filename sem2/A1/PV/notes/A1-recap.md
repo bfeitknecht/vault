@@ -17,6 +17,7 @@
 
 
 
+## Add to cheatsheet
 $$
 \begin{align}
  & \text{Rectangular:} & z &= a+bi \\
@@ -65,6 +66,7 @@ $$
 \end{align}
 $$
 
+## That's it
 
 
 
