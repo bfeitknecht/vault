@@ -10,6 +10,17 @@
 > 	~10p Beweise 
 
 
+> [!attention]+ Memorize This!
+> - CDF, PDF
+> - runtimes!!
+
+
+> [!attention]+ Study This
+> - matchings, perfect matchings
+> - low, dfs
+> - cut vertex, cut edge
+> - 
+
 ___
 
 ## Graphs
