@@ -690,9 +690,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
-                    "page": 10,
-                    "left": -11,
-                    "top": 455,
+                    "page": 26,
+                    "left": -76,
+                    "top": 779,
                     "zoom": 1.476625968458329
                   }
                 }
@@ -705,7 +705,9 @@
                   "state": {
                     "file": "sem2/PProg/PV/summaries/PProg-summary-rböhr.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -9,
+                    "top": 846,
+                    "zoom": 1.8000000000000003
                   }
                 }
               },
@@ -740,10 +742,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/exams/PProg-FS21-exam.pdf",
-                    "page": 21,
-                    "left": -47,
-                    "top": 243,
-                    "zoom": 1.32
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               }
@@ -832,7 +832,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -892,7 +893,7 @@
         }
       },
       "active": "a0693cb743107789",
-      "mtime": "2024-07-28T12:04:22+02:00"
+      "mtime": "2024-07-28T14:47:07+02:00"
     },
     "pv-auw": {
       "main": {
@@ -1127,5 +1128,5 @@
       "mtime": "2024-07-28T11:08:22+02:00"
     }
   },
-  "active": "pv-pprog"
+  "active": "pv-auw"
 }
