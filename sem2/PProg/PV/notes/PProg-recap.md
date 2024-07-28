@@ -1,15 +1,25 @@
+>[!todo]-
+> - [x] add gustafson's law ➕ 2024-07-08 ✅ 2024-07-09
+> - [x] add amdahl's law ➕ 2024-07-08 ✅ 2024-07-09
+> - [x] recap locks ➕ 2024-07-09 ✅ 2024-07-22
+>	- [x] what is a lock? ✅ 2024-07-22
+>	- [x] common types of locks ✅ 2024-07-22
+>	- [x] problems with locking ✅ 2024-07-22
+>
 
-- [x] add gustafson's law ➕ 2024-07-08 ✅ 2024-07-09
-- [x] add amdahl's law ➕ 2024-07-08 ✅ 2024-07-09
-- [x] recap locks ➕ 2024-07-09 ✅ 2024-07-22
-	- [x] what is a lock? ✅ 2024-07-22
-	- [x] common types of locks ✅ 2024-07-22
-	- [x] problems with locking ✅ 2024-07-22
 
 
 
 semaphore, barriers, specific locks, etc. NICHT auswendig lernen
 aber konzeptuel (bakery lock: lexikographische ordnung, etc.)
+
+
+___
+
+
+
+> [!quote]+ Thread State Model
+> ![[PProg-w03-benji.pdf#page=61&rect=149,54,834,413|PProg-w03-benji, p.61]]
 
 
 
@@ -52,7 +62,7 @@ Must override `run()` method!
 
 ## Thread-State-Model
 
-![[PProg-w03-benji.pdf#page=61&rect=149,54,834,413|PProg-w03-benji, p.61]]
+
 
 
 
