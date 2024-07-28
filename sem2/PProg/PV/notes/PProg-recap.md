@@ -35,20 +35,18 @@ In Java, there’s the `java.lang.Thread` class for managing Threads. The most i
 
 
 >[!quote]- Anonymous Inline
-![[PProg-u02-e.pdf#page=2&rect=86,125,289,216|PProg-u02-e, p.2]]
-Mainly applicable for small tasks.
+> ![[PProg-u02-e.pdf#page=2&rect=86,125,289,216|PProg-u02-e, p.2]]
+> Mainly applicable for small tasks.
 
-___
-### 2. Implementing Runnable Interface
-![[PProg-u02-e.pdf#page=3&rect=86,537,341,683|PProg-u02-e, p.3]]
-![[PProg-u02-e.pdf#page=3&rect=88,463,320,511|PProg-u02-e, p.3]]
-Most flexibility, greater control. This can come in handy if you have a computation that relies on a lot of shared state, but is at the same time fairly complicated. In that scenario, you want the class that implements your task to implement Runnable. Using this method, you can share a single task object between multiple threads.
+> [!quote]- Implementing Runnable Interface
+> ![[PProg-u02-e.pdf#page=3&rect=86,537,341,683|PProg-u02-e, p.3]]
+> ![[PProg-u02-e.pdf#page=3&rect=88,463,320,511|PProg-u02-e, p.3]]
+> Most flexibility, greater control. This can come in handy if you have a computation that relies on a lot of shared state, but is at the same time fairly complicated. In that scenario, you want the class that implements your task to implement Runnable. Using this method, you can share a single task object between multiple threads.
 
-___
-### 3. Inherit from Thread Class
-![[PProg-u02-e.pdf#page=3&rect=87,281,333,435|PProg-u02-e, p.3]]
-![[PProg-u02-e.pdf#page=3&rect=86,194,282,254|PProg-u02-e, p.3]]
-Must override `run()` method!
+>[!quote]- Inherit from Thread Class
+> ![[PProg-u02-e.pdf#page=3&rect=87,281,333,435|PProg-u02-e, p.3]]
+> ![[PProg-u02-e.pdf#page=3&rect=86,194,282,254|P Prog-u02-e, p.3]]
+> Must override `run()` method!
 
 
 > [!warning]
