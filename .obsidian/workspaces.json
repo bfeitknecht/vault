@@ -300,6 +300,26 @@
               }
             ],
             "currentTab": 2
+          },
+          {
+            "id": "0a3b52d5805d662b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9b9bb675f4aee7c7",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
+                    "page": 7,
+                    "left": 287,
+                    "top": 8,
+                    "zoom": 1.5
+                  }
+                }
+              }
+            ]
           }
         ],
         "direction": "vertical"
@@ -384,7 +404,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -443,8 +464,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-28T10:33:04+02:00"
+      "active": "a55bc676f617597b",
+      "mtime": "2024-07-28T14:08:12+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1106,5 +1127,5 @@
       "mtime": "2024-07-28T11:08:22+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "pv-pprog"
 }
