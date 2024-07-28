@@ -209,8 +209,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 8,
+                    "left": 112,
+                    "top": 552,
+                    "zoom": 1.5
                   }
                 }
               },
@@ -298,27 +300,6 @@
                   }
                 }
               }
-            ],
-            "currentTab": 2
-          },
-          {
-            "id": "0a3b52d5805d662b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9b9bb675f4aee7c7",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
-                    "page": 7,
-                    "left": 287,
-                    "top": 8,
-                    "zoom": 1.5
-                  }
-                }
-              }
             ]
           }
         ],
@@ -348,7 +329,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md"
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf"
                   }
                 }
               },
@@ -377,7 +358,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md",
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -394,7 +375,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md",
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -464,8 +445,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "a55bc676f617597b",
-      "mtime": "2024-07-28T14:08:12+02:00"
+      "active": "e3bb2946d88054c1",
+      "mtime": "2024-07-28T16:49:21+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1128,5 +1109,5 @@
       "mtime": "2024-07-28T15:10:00+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "pv-auw"
 }
