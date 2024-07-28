@@ -1,12 +1,11 @@
 >[!todo]-
-> - [x] add gustafson's law ➕ 2024-07-08 ✅ 2024-07-09
+> - [x] add gustafson's law ➕ 2024-07-08 ✅ 2024-07-09
 > - [x] add amdahl's law ➕ 2024-07-08 ✅ 2024-07-09
 > - [x] recap locks ➕ 2024-07-09 ✅ 2024-07-22
 >	- [x] what is a lock? ✅ 2024-07-22
 >	- [x] common types of locks ✅ 2024-07-22
 >	- [x] problems with locking ✅ 2024-07-22
 >
-
 
 
 
@@ -21,6 +20,12 @@ ___
 > [!quote]+ Thread State Model
 > ![[PProg-w03-benji.pdf#page=61&rect=149,54,834,413|PProg-w03-benji, p.61]]
 
+> [!quote]+ Concurrency vs Parallelism
+> 
+> ![[PProg-w02-benji.pdf#page=13&rect=34,214,845,501|PProg-w02-benji, p.13]]
+> → concurrency is possible with a single thread, parallelism isn't! 
+
+
 
 
 ## How to create and run a Thread
@@ -28,7 +33,8 @@ ___
 In Java, there’s the `java.lang.Thread` class for managing Threads. The most important methods are:
 ![[PProg-summary-rböhr.pdf#page=5&rect=99,151,556,237|PProg-abstract, p.5]]
 
-### 1. Anonymous Inline
+
+>[!quote]- Anonymous Inline
 ![[PProg-u02-e.pdf#page=2&rect=86,125,289,216|PProg-u02-e, p.2]]
 Mainly applicable for small tasks.
 
@@ -50,19 +56,8 @@ Must override `run()` method!
 ![[PProg-summary-rböhr.pdf#page=6&rect=82,497,543,545|PProg-abstract, p.6]]
 
 
-
-## Concurrency vs Parallelism 
-
-![[PProg-w02-benji.pdf#page=13&rect=34,214,845,501|PProg-w02-benji, p.13]]
-→ concurrency is possible with a single thread, parallelism not! 
-
-*Daemon* threads are out of the user scope (garbage collection, etc.). When all non-daemon threads terminate, the JVM terminates the program.
-
-
-
-## Thread-State-Model
-
-
+>[!note] FYI
+> *Daemon* threads are out of the user scope (garbage collection, etc.). When all non-daemon threads terminate, the JVM terminates the program.
 
 
 
