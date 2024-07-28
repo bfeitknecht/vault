@@ -669,10 +669,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
-                    "page": 6,
-                    "left": -9,
-                    "top": 397,
-                    "zoom": 1.7991654291454724
+                    "page": 10,
+                    "left": -11,
+                    "top": 455,
+                    "zoom": 1.476625968458329
                   }
                 }
               },
@@ -684,9 +684,7 @@
                   "state": {
                     "file": "sem2/PProg/PV/summaries/PProg-summary-rböhr.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 754,
-                    "zoom": 1.8000000000000003
+                    "zoom": 1
                   }
                 }
               },
@@ -715,29 +713,20 @@
                 }
               },
               {
-                "id": "95953c631190074f",
+                "id": "6d852a8909355856",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/exams/PProg-FS21-exam.pdf",
-                    "page": 22,
-                    "left": -119,
-                    "top": 781,
+                    "page": 21,
+                    "left": -47,
+                    "top": 243,
                     "zoom": 1.32
                   }
                 }
-              },
-              {
-                "id": "494e20b003b417c1",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
               }
-            ],
-            "currentTab": 5
+            ]
           }
         ],
         "direction": "vertical"
@@ -765,7 +754,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf"
+                  }
                 }
               },
               {
@@ -793,6 +784,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -809,6 +801,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -818,8 +811,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -878,8 +870,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "494e20b003b417c1",
-      "mtime": "2024-07-28T10:55:54+02:00"
+      "active": "a0693cb743107789",
+      "mtime": "2024-07-28T12:04:22+02:00"
     },
     "pv-auw": {
       "main": {
@@ -1114,5 +1106,5 @@
       "mtime": "2024-07-28T11:08:22+02:00"
     }
   },
-  "active": "pv-pprog"
+  "active": "pv-a1"
 }
