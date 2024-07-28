@@ -26,7 +26,6 @@ ___
 > [!quote]+ Thread State Model
 > ![[PProg-w03-benji.pdf#page=61&rect=149,54,834,413|PProg-w03-benji, p.61]]
 
-
 > [!quote]+ How to create and run a Thread
 > 
 >
@@ -69,12 +68,14 @@ ___
 
 
 ## Pipeline
+
 ![[PProg-w04-benji.pdf#page=58&rect=120,102,846,413|PProg-w04-benji, p.58]]
 ![[PProg-w05-benji.pdf#page=13&rect=91,36,610,331|PProg-w05-benji, p.13]]
 
 
 
 ## Amdahl's Law
+
 > [!quote]+ What is Amdahl's Law?
 >> [!idea]- Terminoligy
 >>"Specifies the maximum amount of speedup that can be achieved for a program with a given sequential part. The pessimistic view on scalability."
@@ -89,6 +90,7 @@ ___
 
 
 ## Gustafson's Law
+
 > [!quote]+ What is Gustafson's Law?
 >> [!idea]- Terminoligy
 >>"Specifies how much more work can be performed for a given fixed amount of time by adding more processors. The optimistic view on scalability."
