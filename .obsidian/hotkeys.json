@@ -160,5 +160,15 @@
       ],
       "key": "T"
     }
+  ],
+  "obsidian-shellcommands:shell-command-b48do41m1f": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "Z"
+    }
   ]
 }

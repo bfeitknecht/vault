@@ -7,6 +7,7 @@
 	- [x] problems with locking ✅ 2024-07-22
 
 
+
 semaphore, barriers, specific locks, etc. NICHT auswendig lernen
 aber konzeptuel (bakery lock: lexikographische ordnung, etc.)
 
