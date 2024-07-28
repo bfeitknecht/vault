@@ -972,14 +972,14 @@
                   "state": {
                     "file": "sem2/AuW/UE/u/e/AuW-u01-e.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 846,
-                    "zoom": 1.7991654291454724
+                    "left": -10,
+                    "top": 813,
+                    "zoom": 1.4438680544822908
                   }
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1008,7 +1008,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/UE/u/e/AuW-u01-e.pdf"
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md"
                   }
                 }
               },
@@ -1037,7 +1037,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/UE/u/e/AuW-u01-e.pdf",
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1054,7 +1054,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/UE/u/e/AuW-u01-e.pdf",
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1124,9 +1124,9 @@
           "flashcards-obsidian:Generate flashcards": true
         }
       },
-      "active": "52dc13b0a6f1abd4",
-      "mtime": "2024-07-28T11:08:22+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-28T15:10:00+02:00"
     }
   },
-  "active": "pv-auw"
+  "active": "pv-a1"
 }
