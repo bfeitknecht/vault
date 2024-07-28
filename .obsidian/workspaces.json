@@ -669,8 +669,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 6,
+                    "left": -9,
+                    "top": 397,
+                    "zoom": 1.7991654291454724
                   }
                 }
               },
@@ -682,7 +684,9 @@
                   "state": {
                     "file": "sem2/PProg/PV/summaries/PProg-summary-rböhr.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -9,
+                    "top": 754,
+                    "zoom": 1.8000000000000003
                   }
                 }
               },
@@ -718,14 +722,22 @@
                   "state": {
                     "file": "sem2/PProg/PV/exams/PProg-FS21-exam.pdf",
                     "page": 22,
-                    "left": -80,
-                    "top": 777,
+                    "left": -119,
+                    "top": 781,
                     "zoom": 1.32
                   }
                 }
+              },
+              {
+                "id": "494e20b003b417c1",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 5
           }
         ],
         "direction": "vertical"
@@ -753,9 +765,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "sem2/PProg/PV/exams/PProg-FS21-exam.pdf"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -783,7 +793,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/PProg/PV/exams/PProg-FS21-exam.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -800,7 +809,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/PProg/PV/exams/PProg-FS21-exam.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -870,8 +878,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "95953c631190074f",
-      "mtime": "2024-07-26T14:42:26+02:00"
+      "active": "494e20b003b417c1",
+      "mtime": "2024-07-28T10:55:54+02:00"
     },
     "pv-auw": {
       "main": {
@@ -1103,5 +1111,5 @@
       "mtime": "2024-07-27T17:55:59+02:00"
     }
   },
-  "active": "pv-pprog"
+  "active": "pv-auw"
 }
