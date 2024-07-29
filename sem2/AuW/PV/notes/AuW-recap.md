@@ -61,8 +61,6 @@ ___
 >
 
 
-
-
 >[!quote]- Matchings
 > 
 > ![[AuW-L04-matchings.pdf#page=6&rect=294,149,1347,454|AuW-L04-matchings, p.6]]
@@ -72,8 +70,18 @@ ___
 > ![[AuW-L05-satz-von-hall.pdf#page=12&rect=366,248,1541,335|AuW-L05-satz-von-hall, p.12]]
 > 
 
+
+
 intern knoten-disjunkte u-v-Pfade $\implies$ Kantendisjunkte u-v-Pfade
 Kantendisjunkte u-v-Pfade $\;\not\!\!\!\implies$ intern knoten-disjunkte u-v-Pfade
+
+
+
+>[!quote]- Coloring
+> ![[AuW-script.pdf#page=82&rect=113,245,487,371|AuW-script, p.82]]
+> 
+> 
+> 
 
 
 ___
