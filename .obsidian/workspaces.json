@@ -895,10 +895,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf",
-                    "page": 39,
-                    "left": -45,
-                    "top": 11,
-                    "zoom": 1.6
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -910,9 +908,7 @@
                   "state": {
                     "file": "sem2/AuW/PV/extra/pvw/AuW-pvw-script.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 846,
-                    "zoom": 1.7991654291454724
+                    "zoom": 1
                   }
                 }
               },
@@ -936,9 +932,7 @@
                   "state": {
                     "file": "sem2/AuW/PV/extra/AuW-formulas.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 846,
-                    "zoom": 1.7991654291454724
+                    "zoom": 1
                   }
                 }
               },
@@ -949,9 +943,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L04-matchings.pdf",
-                    "page": 13,
+                    "page": 1,
                     "left": -28,
-                    "top": 131,
+                    "top": 766,
                     "zoom": 0.5578125
                   }
                 }
@@ -964,9 +958,7 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 852,
-                    "zoom": 1.785
+                    "zoom": 1
                   }
                 }
               },
@@ -977,10 +969,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L03-TSP-PvsNP.pdf",
-                    "page": 5,
-                    "left": -15,
-                    "top": 406,
-                    "zoom": 1.0458984375
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -991,9 +981,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                    "page": 84,
+                    "page": 1,
                     "left": -9,
-                    "top": 711,
+                    "top": 846,
                     "zoom": 1.7991654291454724
                   }
                 }
@@ -1145,8 +1135,8 @@
         }
       },
       "active": "ac0073458c6e5f7f",
-      "mtime": "2024-07-29T12:31:13+02:00"
+      "mtime": "2024-07-29T13:41:34+02:00"
     }
   },
-  "active": "pv-auw"
+  "active": "pv-a1"
 }
