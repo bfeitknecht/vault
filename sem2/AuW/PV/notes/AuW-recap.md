@@ -32,6 +32,10 @@ ___
 >
 > ![[AuW-L01-connectedness.pdf#page=18&rect=58,655,940,745|AuW-L01-connectedness, p.18]]
 > 
+> ![[AuW-L03-TSP-PvsNP.pdf#page=7&rect=131,516,735,629|AuW-L03-TSP-PvsNP, p.7]]
+> 
+> ![[AuW-L04-matchings.pdf#page=9&rect=319,4,1652,957|AuW-L04-matchings, p.9]]
+> 
 >>[!quote]- k-vertex-connected
 >>![[AuW-w01-cycles.pdf#page=9&rect=77,548,449,732|AuW-w01-cycles, p.9]]
 >
