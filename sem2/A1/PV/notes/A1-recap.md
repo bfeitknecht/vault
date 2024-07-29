@@ -94,7 +94,13 @@ $$
 | $\cos(\theta)$ | $1$        | $\frac{\sqrt{ 3 }}{2}$        | $\frac{\sqrt{ 2 }}{2}$        | $\frac{1}{2}$                 | $0$                           | $-\frac{1}{2}$                  | $-\frac{\sqrt{ 3 }}{2}$         | $-1$                 | $0$                             |
 | $\tan(\theta)$ | $0$        | $\frac{\sqrt{ 3 }}{3}$        | $1$                           | $\sqrt{ 3 }$                  | $\text{n/a}$                  | $-\sqrt{ 3 }$                   | $-\frac{\sqrt{ 3 }}{3}$         | $0$                  | $\text{n/a}$                    |
 
-
+$$
+\begin{align}
+\lim_{ x \to 0 } x^x &= \lim_{ x \to 0 } e^{x\ln x} \rightarrow 1 \\
+ \\
+x^d = e^{a \ln x}
+\end{align}
+$$
 
 ## That's it
 
