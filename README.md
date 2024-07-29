@@ -82,3 +82,6 @@ customize <span style="background:#fff88f">editing toolbar</span> (don't need a 
 ```qrcode
 https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
+
+
+obsidian://advanced-uri?vault=vault&workspace=HOME

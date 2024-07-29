@@ -300,7 +300,7 @@
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -329,7 +329,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf"
+                    "file": "sem2/A1/PV/notes/A1-recap.md"
                   }
                 }
               },
@@ -358,7 +358,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf",
+                    "file": "sem2/A1/PV/notes/A1-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -375,7 +375,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf",
+                    "file": "sem2/A1/PV/notes/A1-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -385,8 +385,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -445,8 +444,8 @@
           "graph:Open graph view": false
         }
       },
-      "active": "7fb164604f2f9195",
-      "mtime": "2024-07-29T12:36:10+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-29T12:52:33+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1145,5 +1144,5 @@
       "mtime": "2024-07-29T12:31:13+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "HOME"
 }
