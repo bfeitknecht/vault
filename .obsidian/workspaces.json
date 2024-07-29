@@ -988,9 +988,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                    "page": 82,
+                    "page": 84,
                     "left": -9,
-                    "top": 390,
+                    "top": 711,
                     "zoom": 1.7991654291454724
                   }
                 }
@@ -1142,8 +1142,8 @@
         }
       },
       "active": "ac0073458c6e5f7f",
-      "mtime": "2024-07-29T11:18:47+02:00"
+      "mtime": "2024-07-29T12:31:13+02:00"
     }
   },
-  "active": "pv-auw"
+  "active": "pv-a1"
 }

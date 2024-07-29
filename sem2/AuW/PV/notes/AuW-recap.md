@@ -21,7 +21,7 @@
 > - low, dfs
 > - cut vertex, cut edge
 > - coloring!!
-> - a "to the left of" bc
+> - a "to the left of" bc partial order relation
 > 
 
 
@@ -74,7 +74,7 @@ ___
 
 >[!quote]- Coloring
 > ![[AuW-script.pdf#page=82&rect=113,245,487,371|AuW-script, p.82]]
-> 
+> ![[AuW-script.pdf#page=84&rect=110,477,484,600|AuW-script, p.84]]
 > 
 > 
 
