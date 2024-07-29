@@ -58,7 +58,7 @@ ___
 > ![[AuW-script.pdf#page=77&rect=113,294,481,348|AuW-script, p.77]]
 > ![[AuW-L05-satz-von-hall.pdf#page=12&rect=364,540,1467,635|AuW-L05-satz-von-hall, p.12]]
 > ![[AuW-L05-satz-von-hall.pdf#page=12&rect=366,803,1479,896|AuW-L05-satz-von-hall, p.12]]
-> 
+> ![[AuW-L05-satz-von-hall.pdf#page=12&rect=366,248,1541,335|AuW-L05-satz-von-hall, p.12]]
 > 
 
 intern knoten-disjunkte u-v-Pfade $\implies$ Kantendisjunkte u-v-Pfade
