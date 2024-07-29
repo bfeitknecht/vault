@@ -56,6 +56,9 @@ ___
 > 
 > ![[AuW-L04-matchings.pdf#page=6&rect=294,149,1347,454|AuW-L04-matchings, p.6]]
 > 
+> ![[AuW-summary-nwehrli.pdf#page=33&rect=55,41,483,79|AuW-summary-nwehrli, p.33]]
+> 
+> ![[AuW-script.pdf#page=78&rect=113,497,485,529|AuW-script, p.78]]
 
 
 intern knoten-disjunkte u-v-Pfade $\implies$ Kantendisjunkte u-v-Pfade
