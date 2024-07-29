@@ -98,7 +98,7 @@ $$
 \begin{align}
 \lim_{ x \to 0 } x^x &= \lim_{ x \to 0 } e^{x\ln x} \rightarrow 1 \\
  \\
-x^d = e^{a \ln x}
+x^k &= e^{k \ln x}, x>0
 \end{align}
 $$
 
