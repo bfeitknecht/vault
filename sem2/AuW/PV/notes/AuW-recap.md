@@ -39,11 +39,16 @@ ___
 >>![[AuW-w01-cycles.pdf#page=9&rect=88,64,476,205|AuW-w01-cycles, p.9]]
 >
 
-
-
 > [!quote]- d-hypercube
 > ![[gray-codes.jpg]]
 
+
+
+
+>[!quote]- Matchings
+> 
+> ![[AuW-L04-matchings.pdf#page=6&rect=294,149,1347,454|AuW-L04-matchings, p.6]]
+> 
 
 
 intern knoten-disjunkte u-v-Pfade $\implies$ Kantendisjunkte u-v-Pfade
