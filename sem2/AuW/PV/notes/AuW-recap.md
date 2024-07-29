@@ -55,11 +55,11 @@ ___
 >[!quote]- Matchings
 > 
 > ![[AuW-L04-matchings.pdf#page=6&rect=294,149,1347,454|AuW-L04-matchings, p.6]]
+> ![[AuW-script.pdf#page=77&rect=113,294,481,348|AuW-script, p.77]]
+> ![[AuW-L05-satz-von-hall.pdf#page=12&rect=364,540,1467,635|AuW-L05-satz-von-hall, p.12]]
+> ![[AuW-L05-satz-von-hall.pdf#page=12&rect=366,803,1479,896|AuW-L05-satz-von-hall, p.12]]
 > 
-> ![[AuW-summary-nwehrli.pdf#page=33&rect=55,41,483,79|AuW-summary-nwehrli, p.33]]
 > 
-> ![[AuW-script.pdf#page=78&rect=113,497,485,529|AuW-script, p.78]]
-
 
 intern knoten-disjunkte u-v-Pfade $\implies$ Kantendisjunkte u-v-Pfade
 Kantendisjunkte u-v-Pfade $\;\not\!\!\!\implies$ intern knoten-disjunkte u-v-Pfade
