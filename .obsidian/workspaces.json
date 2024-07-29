@@ -209,10 +209,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
-                    "page": 8,
-                    "left": 112,
-                    "top": 552,
-                    "zoom": 1.5
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -296,11 +294,14 @@
                   "state": {
                     "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -9,
+                    "top": 796,
+                    "zoom": 1.75
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 7
           }
         ],
         "direction": "vertical"
@@ -329,7 +330,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf"
+                    "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf"
                   }
                 }
               },
@@ -358,7 +359,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
+                    "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -375,7 +376,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
+                    "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -429,24 +430,24 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "flashcards-obsidian:Generate flashcards": true,
-          "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "cmdr:Export to PDF": false,
           "workspaces:Manage workspace layouts": false,
           "obsidian-statusbar-pomo:Start pomodoro": false,
-          "graph:Open graph view": false,
           "switcher:Open quick switcher": true,
           "command-palette:Open command palette": true,
           "templates:Insert template": true,
           "zk-prefixer:Create new unique note": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "obsidian-shellcommands:Shell commands: Custom variables": true,
+          "flashcards-obsidian:Generate flashcards": true,
+          "graph:Open graph view": false
         }
       },
-      "active": "e3bb2946d88054c1",
-      "mtime": "2024-07-28T16:49:21+02:00"
+      "active": "7fb164604f2f9195",
+      "mtime": "2024-07-29T12:36:10+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -465,8 +466,8 @@
                   "state": {
                     "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
                     "page": 6,
-                    "left": -10,
-                    "top": 826,
+                    "left": -42,
+                    "top": 838,
                     "zoom": 1.6227766615821908
                   }
                 }
@@ -653,7 +654,7 @@
         }
       },
       "active": "7bb5751edd19196c",
-      "mtime": "2024-07-25T10:23:49+02:00"
+      "mtime": "2024-07-29T12:36:13+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -1145,5 +1146,5 @@
       "mtime": "2024-07-29T12:31:13+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "HOME"
 }
