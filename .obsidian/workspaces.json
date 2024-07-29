@@ -892,32 +892,24 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 39,
+                    "left": -45,
+                    "top": 11,
+                    "zoom": 1.6
                   }
                 }
               },
               {
-                "id": "74501c9ea5a65f44",
+                "id": "b681e567de668d0f",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
+                    "file": "sem2/AuW/PV/extra/pvw/AuW-pvw-script.pdf",
                     "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "f3a4249184710c69",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w06-coupon-collector-DP.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "left": -9,
+                    "top": 846,
+                    "zoom": 1.7991654291454724
                   }
                 }
               },
@@ -941,26 +933,70 @@
                   "state": {
                     "file": "sem2/AuW/PV/extra/AuW-formulas.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -9,
+                    "top": 846,
+                    "zoom": 1.7991654291454724
                   }
                 }
               },
               {
-                "id": "52dc13b0a6f1abd4",
+                "id": "cb4e39347dffdd6e",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/AuW/UE/u/e/AuW-u01-e.pdf",
+                    "file": "sem2/AuW/VRL/slides/AuW-L04-matchings.pdf",
+                    "page": 13,
+                    "left": -28,
+                    "top": 131,
+                    "zoom": 0.5578125
+                  }
+                }
+              },
+              {
+                "id": "74501c9ea5a65f44",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
                     "page": 1,
-                    "left": -10,
-                    "top": 813,
-                    "zoom": 1.4438680544822908
+                    "left": -9,
+                    "top": 852,
+                    "zoom": 1.785
+                  }
+                }
+              },
+              {
+                "id": "2c9fa7d3c2ba6088",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/AuW/VRL/slides/AuW-L03-TSP-PvsNP.pdf",
+                    "page": 5,
+                    "left": -15,
+                    "top": 406,
+                    "zoom": 1.0458984375
+                  }
+                }
+              },
+              {
+                "id": "ceb2be71074127d7",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                    "page": 82,
+                    "left": -9,
+                    "top": 390,
+                    "zoom": 1.7991654291454724
                   }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1105,8 +1141,8 @@
           "flashcards-obsidian:Generate flashcards": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-28T15:10:00+02:00"
+      "active": "ac0073458c6e5f7f",
+      "mtime": "2024-07-29T11:18:47+02:00"
     }
   },
   "active": "pv-auw"

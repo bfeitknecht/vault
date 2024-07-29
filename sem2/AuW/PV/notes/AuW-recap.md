@@ -34,7 +34,7 @@ ___
 > 
 > ![[AuW-L03-TSP-PvsNP.pdf#page=7&rect=131,516,735,629|AuW-L03-TSP-PvsNP, p.7]]
 > 
-> ![[AuW-L04-matchings.pdf#page=9&rect=319,4,1652,957|AuW-L04-matchings, p.9]]
+>
 > 
 >>[!quote]- Satz von Hall
 >> $\exists M \in G=(A \uplus B, E) \iff \forall X \in A, |X| \leq |N(X)|$
@@ -63,6 +63,7 @@ ___
 
 >[!quote]- Matchings
 > 
+> ![[AuW-L04-matchings.pdf#page=9&rect=319,4,1652,957|AuW-L04-matchings, p.9]]
 > ![[AuW-L04-matchings.pdf#page=6&rect=294,149,1347,454|AuW-L04-matchings, p.6]]
 > ![[AuW-script.pdf#page=77&rect=113,294,481,348|AuW-script, p.77]]
 > ![[AuW-L05-satz-von-hall.pdf#page=12&rect=364,540,1467,635|AuW-L05-satz-von-hall, p.12]]
@@ -74,7 +75,6 @@ ___
 
 intern knoten-disjunkte u-v-Pfade $\implies$ Kantendisjunkte u-v-Pfade
 Kantendisjunkte u-v-Pfade $\;\not\!\!\!\implies$ intern knoten-disjunkte u-v-Pfade
-
 
 
 >[!quote]- Coloring
