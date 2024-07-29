@@ -24,11 +24,13 @@
 > - a "to the left of" bc
 > 
 
+
 ___
 
 ## Graphs
 
->[!quote] Connectedness
+
+>[!quote]- Connectedness
 >
 > ![[AuW-L01-connectedness.pdf#page=18&rect=58,655,940,745|AuW-L01-connectedness, p.18]]
 > 
@@ -45,8 +47,6 @@ ___
 >>[!quote]- k-edge-connected
 >>![[AuW-w01-cycles.pdf#page=9&rect=88,64,476,205|AuW-w01-cycles, p.9]]
 >
-
-
 
 
 >[!quote]- Hamilton Tour
@@ -72,11 +72,6 @@ ___
 > 
 
 
-
-intern knoten-disjunkte u-v-Pfade $\implies$ Kantendisjunkte u-v-Pfade
-Kantendisjunkte u-v-Pfade $\;\not\!\!\!\implies$ intern knoten-disjunkte u-v-Pfade
-
-
 >[!quote]- Coloring
 > ![[AuW-script.pdf#page=82&rect=113,245,487,371|AuW-script, p.82]]
 > 
@@ -88,3 +83,7 @@ ___
 
 ## Quizzes
 
+
+
+intern knoten-disjunkte u-v-Pfade $\implies$ Kantendisjunkte u-v-Pfade
+Kantendisjunkte u-v-Pfade $\;\not\!\!\!\implies$ intern knoten-disjunkte u-v-Pfade
