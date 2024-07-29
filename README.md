@@ -39,8 +39,6 @@ obsidian://advanced-uri?vault=vault&commandid=cmdr%253Amacro-0
 customize <span style="background:#fff88f">editing toolbar</span> (don't need a lot of stuff, other stuff is more important)
 
 
-<mark style="background: #FF5582A6;">abc</mark>
-
 
 ## Lazy Load Plugins
 
