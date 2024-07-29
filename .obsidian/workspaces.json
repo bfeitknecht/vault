@@ -28,7 +28,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "README.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "source": false
                   }
                 }
@@ -75,7 +75,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "HOME.md"
+                  }
                 }
               },
               {
@@ -103,6 +105,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -119,6 +122,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -189,8 +193,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "cca61d1e907ea60e",
-      "mtime": "2024-07-29T12:36:29+02:00"
+      "active": "84d6179a41f3d7a6",
+      "mtime": "2024-07-29T12:57:02+02:00"
     },
     "pv-a1": {
       "main": {
@@ -1144,5 +1148,5 @@
       "mtime": "2024-07-29T12:31:13+02:00"
     }
   },
-  "active": "HOME"
+  "active": "pv-auw"
 }
