@@ -46,14 +46,19 @@ ___
 >>![[AuW-w01-cycles.pdf#page=9&rect=88,64,476,205|AuW-w01-cycles, p.9]]
 >
 
-> [!quote]- d-hypercube
-> ![[gray-codes.jpg]]
+
 
 
 >[!quote]- Hamilton Tour
 > ![[AuW-L03-TSP-PvsNP.pdf#page=4&rect=128,92,835,610|AuW-L03-TSP-PvsNP, p.4]]
 > ![[AuW-L03-TSP-PvsNP.pdf#page=5&rect=121,111,914,185|AuW-L03-TSP-PvsNP, p.5]]
 > ![[AuW-L03-TSP-PvsNP.pdf#page=5&rect=119,11,931,87|AuW-L03-TSP-PvsNP, p.5]]
+>>[!quote]- $d$-hypercube
+>> Contains Hamilton tour, label vertices with $d$ bit long gray code schema, changing only one bit at a time.
+>> ![[gray-codes.jpg]]
+>> 
+>
+>
 
 
 
