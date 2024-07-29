@@ -36,6 +36,9 @@ ___
 > 
 > ![[AuW-L04-matchings.pdf#page=9&rect=319,4,1652,957|AuW-L04-matchings, p.9]]
 > 
+>>[!quote]- Satz von Hall
+>> $\exists M \in G=(A \uplus B, E) \iff \forall X \in A, |X| \leq |N(X)|$
+> 
 >>[!quote]- k-vertex-connected
 >>![[AuW-w01-cycles.pdf#page=9&rect=77,548,449,732|AuW-w01-cycles, p.9]]
 >
