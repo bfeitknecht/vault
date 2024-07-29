@@ -19,7 +19,7 @@
       "id": "obsidian-shellcommands:shell-command-s558cixu8a",
       "icon": "plus-circle",
       "name": "Git add all changes",
-      "mode": "desktop"
+      "mode": "any"
     }
   ],
   "pageHeader": [

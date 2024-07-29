@@ -173,7 +173,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-comments:Show Comments Panel": true,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -191,7 +190,7 @@
         }
       },
       "active": "cca61d1e907ea60e",
-      "mtime": "2024-07-26T10:25:14+02:00"
+      "mtime": "2024-07-29T12:36:29+02:00"
     },
     "pv-a1": {
       "main": {
@@ -1146,5 +1145,5 @@
       "mtime": "2024-07-29T12:31:13+02:00"
     }
   },
-  "active": "HOME"
+  "active": "pv-a1"
 }
