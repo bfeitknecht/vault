@@ -103,7 +103,7 @@ x^k &= e^{k \ln x}, x>0 \\
 \mathbf{1}_{\mathbb Q}(x) &= \begin{cases}
 1, x \in \mathbb Q \\
 0, x \not\in \mathbb Q
-\end{cases} \quad, \not\in
+\end{cases} \quad, \not\in C^{0}
 \end{align}
 $$
 
