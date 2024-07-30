@@ -98,9 +98,17 @@ $$
 \begin{align}
 \lim_{ x \to 0 } x^x &= \lim_{ x \to 0 } e^{x\ln x} \rightarrow 1 \\
  \\
-x^k &= e^{k \ln x}, x>0
+x^k &= e^{k \ln x}, x>0 \\
+ \\
+\mathbf{1}_{\mathbb Q}(x) &= \begin{cases}
+1, x \in \mathbb Q \\
+0, x \not\in \mathbb Q
+\end{cases} \quad, \not\in
 \end{align}
 $$
+
+
+
 
 ## That's it
 
