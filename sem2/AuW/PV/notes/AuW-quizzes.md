@@ -1,5 +1,5 @@
 ---
-cards-deck: sem2::AuW::quizzes
+cards-deck: var::test
 ---
 
 
@@ -9,6 +9,8 @@ cards-deck: sem2::AuW::quizzes
 > - need to delete deck before regeneration
 > - multi line answer works as long as no empty line break
 >   
+
+
 
 
 
