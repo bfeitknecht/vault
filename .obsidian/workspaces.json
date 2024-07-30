@@ -951,9 +951,7 @@
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L04-matchings.pdf",
                     "page": 1,
-                    "left": -28,
-                    "top": 766,
-                    "zoom": 0.5578125
+                    "zoom": 1
                   }
                 }
               },
@@ -977,7 +975,7 @@
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L03-TSP-PvsNP.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "zoom": -0.029296875
                   }
                 }
               },
@@ -989,14 +987,26 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                     "page": 1,
-                    "left": -9,
+                    "left": -10,
                     "top": 846,
-                    "zoom": 1.7991654291454724
+                    "zoom": 1.4438680544822908
+                  }
+                }
+              },
+              {
+                "id": "02c126700d8fbc24",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem2/AuW/PV/notes/AuW-quizzes.md",
+                    "mode": "source",
+                    "source": false
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 8
           }
         ],
         "direction": "vertical"
@@ -1025,7 +1035,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/PV/notes/AuW-recap.md"
+                    "file": "sem2/AuW/PV/notes/AuW-quizzes.md"
                   }
                 }
               },
@@ -1054,7 +1064,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
+                    "file": "sem2/AuW/PV/notes/AuW-quizzes.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1071,7 +1081,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
+                    "file": "sem2/AuW/PV/notes/AuW-quizzes.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1081,8 +1091,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 282.5,
-        "collapsed": true
+        "width": 282.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1141,9 +1150,9 @@
           "flashcards-obsidian:Generate flashcards": true
         }
       },
-      "active": "ac0073458c6e5f7f",
-      "mtime": "2024-07-29T13:41:34+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-30T14:44:54+02:00"
     }
   },
-  "active": "pv-auw"
+  "active": "pv-ddca"
 }
