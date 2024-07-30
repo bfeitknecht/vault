@@ -19,7 +19,7 @@
       "id": "obsidian-shellcommands:shell-command-s558cixu8a",
       "icon": "plus-circle",
       "name": "Git add all changes",
-      "mode": "any"
+      "mode": "desktop"
     }
   ],
   "pageHeader": [
@@ -41,7 +41,7 @@
       "id": "workspace:toggle-stacked-tabs",
       "icon": "lucide-layers",
       "name": "Toggle stacked tabs",
-      "mode": "any",
+      "mode": "desktop",
       "color": "#888888"
     }
   ],
@@ -57,7 +57,7 @@
           "commandId": "obsidian-hider:toggle-hider-status"
         }
       ],
-      "name": "Toggle Status and Ribbon",
+      "name": "Toggle Status Bar and Ribbon",
       "icon": "asterisk",
       "startup": false
     },
