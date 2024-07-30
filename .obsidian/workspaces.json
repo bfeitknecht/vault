@@ -75,9 +75,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -105,7 +103,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -122,7 +119,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -193,8 +189,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "84d6179a41f3d7a6",
-      "mtime": "2024-07-29T12:57:02+02:00"
+      "active": "cca61d1e907ea60e",
+      "mtime": "2024-07-30T15:10:13+02:00"
     },
     "pv-a1": {
       "main": {
@@ -1180,5 +1176,5 @@
       "mtime": "2024-07-30T14:44:54+02:00"
     }
   },
-  "active": "HOME"
+  "active": "pv-auw"
 }
