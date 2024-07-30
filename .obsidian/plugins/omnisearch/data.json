@@ -1,6 +1,6 @@
 {
   "useCache": false,
-  "hideExcluded": false,
+  "hideExcluded": true,
   "downrankedFoldersFilters": [
     "var"
   ],
