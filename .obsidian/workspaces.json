@@ -213,7 +213,9 @@
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -4,
+                    "top": 599,
+                    "zoom": 1.53
                   }
                 }
               },
@@ -261,7 +263,9 @@
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -9,
+                    "top": 474,
+                    "zoom": 1.785
                   }
                 }
               },
@@ -272,8 +276,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-04-taylor.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 4,
+                    "left": -9,
+                    "top": 394,
+                    "zoom": 1.785
                   }
                 }
               },
@@ -298,13 +304,13 @@
                     "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf",
                     "page": 1,
                     "left": -9,
-                    "top": 796,
+                    "top": 177,
                     "zoom": 1.75
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 7
           }
         ],
         "direction": "vertical"
@@ -333,7 +339,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md"
+                    "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf"
                   }
                 }
               },
@@ -362,7 +368,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md",
+                    "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -379,7 +385,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md",
+                    "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -389,7 +395,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -448,8 +455,8 @@
           "graph:Open graph view": false
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-29T12:52:33+02:00"
+      "active": "7fb164604f2f9195",
+      "mtime": "2024-07-30T12:08:58+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1138,5 +1145,5 @@
       "mtime": "2024-07-29T13:41:34+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "pv-auw"
 }

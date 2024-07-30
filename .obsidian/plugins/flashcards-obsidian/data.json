@@ -9,6 +9,6 @@
   "flashcardsTag": "card",
   "inlineSeparator": "::",
   "inlineSeparatorReverse": ":::",
-  "defaultAnkiTag": "obsidian",
+  "defaultAnkiTag": "obsidian$",
   "ankiConnectPermission": true
 }
