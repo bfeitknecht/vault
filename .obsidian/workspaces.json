@@ -474,10 +474,20 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
-                    "page": 6,
-                    "left": -42,
-                    "top": 838,
-                    "zoom": 1.6227766615821908
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              },
+              {
+                "id": "1d0948b7d09212a3",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jannis.pdf",
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -511,13 +521,16 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-jdickey-24.pdf",
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jdickey.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -4,
+                    "top": 599,
+                    "zoom": 1.0048821116492919
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -541,12 +554,27 @@
                 }
               },
               {
+                "id": "79183d52f5f3c9e9",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
                 "id": "0f56d709fdb24392",
                 "type": "leaf",
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf"
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jdickey.pdf"
                   }
                 }
               },
@@ -575,7 +603,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jdickey.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -592,7 +620,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jdickey.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -602,8 +630,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -662,8 +689,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "7bb5751edd19196c",
-      "mtime": "2024-07-29T12:36:13+02:00"
+      "active": "9c73f572ad9d43ee",
+      "mtime": "2024-07-30T15:03:29+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -683,7 +710,7 @@
                     "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
                     "page": 26,
                     "left": -76,
-                    "top": 779,
+                    "top": 492,
                     "zoom": 1.476625968458329
                   }
                 }
@@ -696,9 +723,7 @@
                   "state": {
                     "file": "sem2/PProg/PV/summaries/PProg-summary-rböhr.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 846,
-                    "zoom": 1.8000000000000003
+                    "zoom": 1
                   }
                 }
               },
@@ -738,7 +763,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -767,7 +793,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf"
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md"
                   }
                 }
               },
@@ -796,7 +822,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -813,7 +839,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -883,8 +909,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "a0693cb743107789",
-      "mtime": "2024-07-28T14:47:07+02:00"
+      "active": "0db6341d94fad4bf",
+      "mtime": "2024-07-30T15:02:50+02:00"
     },
     "pv-auw": {
       "main": {
@@ -1154,5 +1180,5 @@
       "mtime": "2024-07-30T14:44:54+02:00"
     }
   },
-  "active": "pv-ddca"
+  "active": "HOME"
 }
