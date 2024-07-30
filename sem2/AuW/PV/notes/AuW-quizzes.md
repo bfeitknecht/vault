@@ -2,10 +2,14 @@
 cards-deck: sem2::AuW::quizzes
 ---
 
-# Title
 
 
-## math
+> [!note] Note
+> - callout blocks make a list dot appear in question
+> - need to delete deck before regeneration
+> - multi line answer works as long as no empty line break
+>   
+
 
 
 ### hard 
@@ -14,32 +18,18 @@ cards-deck: sem2::AuW::quizzes
 wonder if this works
 
 
+## mid #card/reverse 
+my ass ain't stinky!
 
-
+___
 ### easy
 #card
 helloo
 
 
-
-## mid #card 
-my ass ain't stinky!
-
-
-
-
-
->[!quote]- Multiple Choice
-> - are you gay? :: yes
-> - is it hot? :: yup
-> 
-
-
-
-
-
-
 P=NP :: idfk..
 
 - P!=NP :: maybe
+- a = b :: hmm
+- dürüm oder kebab ?? ::: up to you
 
