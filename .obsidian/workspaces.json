@@ -71,30 +71,26 @@
                 }
               },
               {
+                "id": "70265419a98d8a68",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
                 "id": "0f56d709fdb24392",
                 "type": "leaf",
                 "state": {
                   "type": "outline",
                   "state": {}
-                }
-              },
-              {
-                "id": "b14014a5400a500b",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
-                }
-              },
-              {
-                "id": "ee946e358c8111ed",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
                 }
               },
               {
@@ -128,8 +124,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -148,6 +143,25 @@
                 }
               },
               {
+                "id": "b14014a5400a500b",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "ee946e358c8111ed",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
                 "id": "d4d9e5cf2cd5e94b",
                 "type": "leaf",
                 "state": {
@@ -163,13 +177,11 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -190,8 +202,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "cca61d1e907ea60e",
-      "mtime": "2024-07-30T16:10:48+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-30T16:41:17+02:00"
     },
     "pv-a1": {
       "main": {
@@ -210,9 +222,7 @@
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
                     "page": 1,
-                    "left": -4,
-                    "top": 599,
-                    "zoom": 1.53
+                    "zoom": 1
                   }
                 }
               },
@@ -260,9 +270,7 @@
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-03-limits.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 474,
-                    "zoom": 1.785
+                    "zoom": 1
                   }
                 }
               },
@@ -273,10 +281,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-04-taylor.pdf",
-                    "page": 4,
-                    "left": -9,
-                    "top": 394,
-                    "zoom": 1.785
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -300,9 +306,9 @@
                   "state": {
                     "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 177,
-                    "zoom": 1.75
+                    "left": -14,
+                    "top": 201,
+                    "zoom": 1.093137254901961
                   }
                 }
               }
@@ -331,31 +337,27 @@
                 }
               },
               {
+                "id": "a4d06b175b09ba53",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
                 "id": "0f56d709fdb24392",
                 "type": "leaf",
                 "state": {
                   "type": "outline",
                   "state": {
                     "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf"
-                  }
-                }
-              },
-              {
-                "id": "b14014a5400a500b",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
-                }
-              },
-              {
-                "id": "ee946e358c8111ed",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
                   }
                 }
               },
@@ -392,8 +394,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 236.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -412,6 +413,25 @@
                 }
               },
               {
+                "id": "b14014a5400a500b",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "ee946e358c8111ed",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
                 "id": "d4d9e5cf2cd5e94b",
                 "type": "leaf",
                 "state": {
@@ -427,15 +447,16 @@
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-advanced-slides:Show Slide Preview": false,
           "omnisearch:Omnisearch": false,
           "cmdr:Export to PDF": false,
           "workspaces:Manage workspace layouts": false,
@@ -452,8 +473,8 @@
           "graph:Open graph view": false
         }
       },
-      "active": "7fb164604f2f9195",
-      "mtime": "2024-07-30T12:08:58+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-30T16:41:51+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -520,14 +541,12 @@
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jdickey.pdf",
                     "page": 1,
-                    "left": -4,
-                    "top": 599,
-                    "zoom": 1.0048821116492919
+                    "zoom": 1
                   }
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -571,8 +590,59 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jdickey.pdf"
+                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf"
                   }
+                }
+              },
+              {
+                "id": "b3aff261bc292caf",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "2d28441159ca953f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 233.5
+      },
+      "right": {
+        "id": "4be59d580df31d93",
+        "type": "split",
+        "children": [
+          {
+            "id": "a9eab3abde570e06",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b8fb6a3151264e03",
+                "type": "leaf",
+                "state": {
+                  "type": "vertical-tabs-view",
+                  "state": {}
                 }
               },
               {
@@ -595,57 +665,6 @@
                 }
               },
               {
-                "id": "b3aff261bc292caf",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jdickey.pdf",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "2d28441159ca953f",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jdickey.pdf",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 346.5
-      },
-      "right": {
-        "id": "4be59d580df31d93",
-        "type": "split",
-        "children": [
-          {
-            "id": "a9eab3abde570e06",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b8fb6a3151264e03",
-                "type": "leaf",
-                "state": {
-                  "type": "vertical-tabs-view",
-                  "state": {}
-                }
-              },
-              {
                 "id": "d4d9e5cf2cd5e94b",
                 "type": "leaf",
                 "state": {
@@ -665,11 +684,12 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
+        "width": 257.5,
         "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-advanced-slides:Show Slide Preview": false,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -686,8 +706,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "9c73f572ad9d43ee",
-      "mtime": "2024-07-30T15:03:29+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-30T16:41:00+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -1177,5 +1197,5 @@
       "mtime": "2024-07-30T16:05:32+02:00"
     }
   },
-  "active": "pv-ddca"
+  "active": "pv-pprog"
 }
