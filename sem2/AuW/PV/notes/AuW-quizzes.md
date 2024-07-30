@@ -19,15 +19,15 @@ wonder if this works
 
 
 ### mid #card/reverse 
-my ass ain't stinky!
+lowkey
 
 ___
 ### easy
-#card
+#card/spaced
 helloo
 
 
-P=NP :: idfk..
+P=NP :: who knows
 
 - P!=NP :: maybe
 - a = b :: hmm
