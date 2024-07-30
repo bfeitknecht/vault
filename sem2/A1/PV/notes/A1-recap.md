@@ -100,14 +100,11 @@ $$
  \\
 x^k &= e^{k \ln x}, x>0 \\
  \\
-f(x) &= \begin{cases}
+D(x) &= \begin{cases}
 1, x \in \mathbb Q \\
 0, x \not\in \mathbb Q
 \end{cases} \quad, \not\in C^{0} \\
-f(x) &= \begin{cases}
-\frac{1}{q}, x=\frac{p}{q}, p \in \mathbb Z, q \in \mathbb N \\
-0, x \not\in \mathbb Q
-\end{cases}
+
 \end{align}
 $$
 
