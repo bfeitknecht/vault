@@ -23,7 +23,9 @@ helloo
 
 
 ## mid #card 
-my ass stinky
+my ass ain't stinky!
+
+
 
 
 
@@ -31,4 +33,13 @@ my ass stinky
 > - are you gay? :: yes
 > - is it hot? :: yup
 > 
+
+
+
+
+
+
+P=NP :: idfk..
+
+- P!=NP :: maybe
 
