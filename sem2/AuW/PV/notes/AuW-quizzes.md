@@ -13,7 +13,7 @@ This line will not be part of it, because there is an empty line above.
 ### This is a normal and reversed card #card-reverse
 Which means that two cards will be generated on Anki.
 
-### Also revers #card/reverse
+### Also reverse #card/reverse
 But this time it uses Obsidian hierarchical tags.
 
 ### This could be another question #card
@@ -35,3 +35,6 @@ My question :: My answer
 You can even use it in lists:
 - My question:: My answer
 
+
+
+abc::abc
