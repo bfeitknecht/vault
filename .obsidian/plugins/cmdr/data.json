@@ -91,13 +91,6 @@
       "name": "Open in default app",
       "mode": "desktop",
       "color": "#888888"
-    },
-    {
-      "id": "obsidian-shellcommands:shell-command-2vk5mhxxda",
-      "icon": "terminal-square",
-      "name": "Open File in Editor",
-      "mode": "desktop",
-      "color": "#888888"
     }
   ],
   "hide": {

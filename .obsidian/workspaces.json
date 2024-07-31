@@ -228,9 +228,9 @@
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf",
                     "page": 9,
-                    "left": 193,
-                    "top": 517,
-                    "zoom": 1.9
+                    "left": -251,
+                    "top": 271,
+                    "zoom": 0.82
                   }
                 }
               },
@@ -314,14 +314,11 @@
                   "state": {
                     "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf",
                     "page": 1,
-                    "left": -89,
-                    "top": 205,
-                    "zoom": 1.0931372549019607
+                    "zoom": 1
                   }
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -365,7 +362,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md"
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf"
                   }
                 }
               },
@@ -375,7 +372,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md",
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -392,7 +389,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md",
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -482,8 +479,8 @@
           "graph:Open graph view": false
         }
       },
-      "active": "a55bc676f617597b",
-      "mtime": "2024-07-31T14:15:16+02:00"
+      "active": "e3bb2946d88054c1",
+      "mtime": "2024-07-31T14:19:10+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1215,5 +1212,5 @@
       "mtime": "2024-07-31T14:16:25+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "pv-auw"
 }
