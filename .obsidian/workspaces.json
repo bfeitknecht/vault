@@ -228,9 +228,9 @@
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf",
                     "page": 9,
-                    "left": -251,
-                    "top": 271,
-                    "zoom": 0.82
+                    "left": -4,
+                    "top": 84,
+                    "zoom": 1.9
                   }
                 }
               },
@@ -480,7 +480,7 @@
         }
       },
       "active": "e3bb2946d88054c1",
-      "mtime": "2024-07-31T14:19:10+02:00"
+      "mtime": "2024-07-31T14:31:51+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1211,5 +1211,5 @@
       "mtime": "2024-07-31T14:23:41+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "pv-auw"
 }
