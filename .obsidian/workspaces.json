@@ -990,9 +990,7 @@
                   "state": {
                     "file": "sem2/AuW/PV/extra/AuW-formulas.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 696,
-                    "zoom": 1.7991654291454724
+                    "zoom": 1
                   }
                 }
               },
@@ -1021,33 +1019,21 @@
                 }
               },
               {
-                "id": "2c9fa7d3c2ba6088",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/AuW/VRL/slides/AuW-L03-TSP-PvsNP.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
                 "id": "d69b9f3b2d8d9abc",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                    "page": 76,
-                    "left": -43,
-                    "top": 794,
-                    "zoom": 1.34
+                    "page": 67,
+                    "left": -9,
+                    "top": 825,
+                    "zoom": 1.7991654291454724
                   }
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 6
           }
         ],
         "direction": "vertical"
@@ -1128,7 +1114,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 249.5
+        "width": 249.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1207,9 +1194,9 @@
           "flashcards-obsidian:Generate flashcards": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-31T15:47:46+02:00"
+      "active": "d69b9f3b2d8d9abc",
+      "mtime": "2024-07-31T21:16:09+02:00"
     }
   },
-  "active": "pv-auw"
+  "active": "HOME"
 }
