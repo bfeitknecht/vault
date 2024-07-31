@@ -85,3 +85,11 @@ https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 
 obsidian://advanced-uri?vault=vault&workspace=HOME
+
+
+
+
+> [!problem] git problem
+> when hotkey to launch terminal, not in git??
+> not a git directory, eth (top root) also not git
+> but if another session is active (navigate to vault or eth), git works
