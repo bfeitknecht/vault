@@ -91,6 +91,18 @@
       "name": "Open File in Editor",
       "mode": "desktop",
       "color": "#888888"
+    },
+    {
+      "id": "open-with-default-app:open",
+      "icon": "lucide-arrow-up-right",
+      "name": "Open in default app",
+      "mode": "any"
+    },
+    {
+      "id": "open-with-default-app:show",
+      "icon": "lucide-files",
+      "name": "Reveal in Finder",
+      "mode": "any"
     }
   ],
   "hide": {
