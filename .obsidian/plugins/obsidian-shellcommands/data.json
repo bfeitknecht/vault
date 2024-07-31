@@ -104,6 +104,10 @@
         "{{file_path}}": {
           "type": "value",
           "value": "/User/bf/home/eth/vault"
+        },
+        "{{caret_position}}": {
+          "type": "value",
+          "value": ""
         }
       }
     },
