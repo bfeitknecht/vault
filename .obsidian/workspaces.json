@@ -226,9 +226,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf",
+                    "page": 9,
+                    "left": 193,
+                    "top": 517,
+                    "zoom": 1.9
                   }
                 }
               },
@@ -312,14 +314,14 @@
                   "state": {
                     "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf",
                     "page": 1,
-                    "left": -14,
-                    "top": 201,
-                    "zoom": 1.093137254901961
+                    "left": -89,
+                    "top": 205,
+                    "zoom": 1.0931372549019607
                   }
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -363,7 +365,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf"
+                    "file": "sem2/A1/PV/notes/A1-recap.md"
                   }
                 }
               },
@@ -373,7 +375,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf",
+                    "file": "sem2/A1/PV/notes/A1-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -390,7 +392,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/A1/PV/exams/A1-HS20-exam.pdf",
+                    "file": "sem2/A1/PV/notes/A1-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -400,7 +402,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 236.5
+        "width": 319.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -458,11 +461,11 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-advanced-slides:Show Slide Preview": false,
           "omnisearch:Omnisearch": false,
           "cmdr:Export to PDF": false,
           "workspaces:Manage workspace layouts": false,
@@ -479,8 +482,8 @@
           "graph:Open graph view": false
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-30T16:41:51+02:00"
+      "active": "a55bc676f617597b",
+      "mtime": "2024-07-31T14:15:16+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -956,7 +959,9 @@
                   "state": {
                     "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -10,
+                    "top": 852,
+                    "zoom": 1.4975
                   }
                 }
               },
@@ -1041,13 +1046,12 @@
                     "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                     "page": 1,
                     "left": -10,
-                    "top": 837,
+                    "top": 819,
                     "zoom": 1.5093838824343668
                   }
                 }
               }
-            ],
-            "currentTab": 7
+            ]
           }
         ],
         "direction": "vertical"
@@ -1091,7 +1095,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+                    "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf"
                   }
                 }
               },
@@ -1101,7 +1105,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                    "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1118,7 +1122,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                    "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1204,12 +1208,11 @@
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "flashcards-obsidian:Generate flashcards": true,
-          "obsidian-advanced-slides:Show Slide Preview": false
+          "flashcards-obsidian:Generate flashcards": true
         }
       },
-      "active": "ceb2be71074127d7",
-      "mtime": "2024-07-30T16:43:13+02:00"
+      "active": "f383a0b62cca5145",
+      "mtime": "2024-07-31T14:16:25+02:00"
     }
   },
   "active": "pv-a1"
