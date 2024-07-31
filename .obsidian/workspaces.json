@@ -90,9 +90,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -101,7 +99,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -118,7 +115,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -128,7 +124,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 234.5,
+        "width": 240.5,
         "collapsed": true
       },
       "right": {
@@ -191,7 +187,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-advanced-slides:Show Slide Preview": false,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -208,8 +203,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-30T16:43:34+02:00"
+      "active": "cca61d1e907ea60e",
+      "mtime": "2024-07-31T09:52:36+02:00"
     },
     "pv-a1": {
       "main": {
@@ -535,7 +530,9 @@
                   "state": {
                     "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -11,
+                    "top": 515,
+                    "zoom": 1.373076923076923
                   }
                 }
               },
@@ -547,12 +544,28 @@
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jdickey.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -16,
+                    "top": 599,
+                    "zoom": 0.9585577589846082
+                  }
+                }
+              },
+              {
+                "id": "0b0454923456d926",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jannis.pdf",
+                    "page": 1,
+                    "left": -21,
+                    "top": 798,
+                    "zoom": 0.7202544275380394
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 5
           }
         ],
         "direction": "vertical"
@@ -596,7 +609,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf"
+                    "file": "HOME.md"
                   }
                 }
               },
@@ -606,7 +619,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
+                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -623,7 +636,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
+                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -633,7 +646,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 233.5
+        "width": 350.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -690,12 +703,11 @@
           }
         ],
         "direction": "horizontal",
-        "width": 257.5,
+        "width": 256.5,
         "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-advanced-slides:Show Slide Preview": false,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -709,11 +721,12 @@
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "command-palette:Open command palette": true
+          "command-palette:Open command palette": true,
+          "file-tree-alternative:File Tree Alternative Plugin": false
         }
       },
       "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-30T16:41:00+02:00"
+      "mtime": "2024-07-31T09:51:02+02:00"
     },
     "pv-pprog": {
       "main": {
