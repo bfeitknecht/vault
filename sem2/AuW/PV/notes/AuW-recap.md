@@ -1,3 +1,6 @@
+---
+cards-deck: sem2::AuW::misc
+---
 
 ## Misc
 
@@ -10,12 +13,6 @@
 > 	~10p Wahrscheinlichkeitsaufgabe (Erwartungswert, Varianz)
 > 	~10p Beweise 
 
-
-> [!attention]+ Memorize This!
-> - CDF, PDF
-> - runtimes!!
-
-
 > [!attention]+ Study This
 > - matchings, perfect matchings
 > - augmenting paths
@@ -26,10 +23,8 @@
 > 
 
 
-___
 
 ## Graphs
-
 
 >[!quote]- Connectedness
 >
@@ -49,7 +44,6 @@ ___
 >>![[AuW-w01-cycles.pdf#page=9&rect=88,64,476,205|AuW-w01-cycles, p.9]]
 >
 
-
 >[!quote]- Hamilton Tour
 > ![[AuW-L03-TSP-PvsNP.pdf#page=4&rect=128,92,835,610|AuW-L03-TSP-PvsNP, p.4]]
 > ![[AuW-L03-TSP-PvsNP.pdf#page=5&rect=121,111,914,185|AuW-L03-TSP-PvsNP, p.5]]
@@ -59,8 +53,6 @@ ___
 >> ![[gray-codes.jpg|200]]
 >> 
 >
->
-
 
 >[!quote]- Matchings
 > 
@@ -72,7 +64,6 @@ ___
 > ![[AuW-L05-satz-von-hall.pdf#page=12&rect=366,248,1541,335|AuW-L05-satz-von-hall, p.12]]
 > 
 
-
 >[!quote]- Coloring
 > ![[AuW-script.pdf#page=82&rect=113,245,487,371|AuW-script, p.82]]
 > ![[AuW-script.pdf#page=84&rect=110,477,484,600|AuW-script, p.84]]
@@ -80,13 +71,15 @@ ___
 > 
 
 
-___
-
 ## Probabilities
 
 
 
 
+
+
+
+___
 ## Quizzes
 
 
