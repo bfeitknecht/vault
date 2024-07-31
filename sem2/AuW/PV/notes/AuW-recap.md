@@ -1,6 +1,7 @@
 
+## Misc
 
-> [!attention]+ Exam Points
+> [!attention]- Exam Points
 > - 40p Moodle Quiz: ähnliche oder gleiche Fragen wie Miniquiz
 > - 20p Programmieren, vermutlich:
 > 	Eine Flow-Aufgabe
@@ -80,6 +81,9 @@ ___
 
 
 ___
+
+## Probabilities
+
 
 
 
