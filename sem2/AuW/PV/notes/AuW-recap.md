@@ -90,5 +90,7 @@ ___
 intern knoten-disjunkte u-v-Pfade :: $\implies$ Kantendisjunkte u-v-Pfade
 Kantendisjunkte u-v-Pfade :: $\;\not\!\!\!\implies$ intern knoten-disjunkte u-v-Pfade
 
+"Jeder Artikulationsknoten grenzt an mindestens eine Brücke." :: stimmt für unendlich viele zusammenhängenden Graphen nicht
 
-Die Aussage "Jeder Artikulationsknoten grenzt an mindestens eine Brücke." simmt für ::
+ "Jede Brücke hat mindestens einen Artikulationsknoten als Endpunkt" :: stimmt für alle zusammenhängenden Graphen ausser endlich vielen Ausnahmen
+
