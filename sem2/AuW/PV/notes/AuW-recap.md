@@ -87,5 +87,8 @@ ___
 
 
 
-intern knoten-disjunkte u-v-Pfade $\implies$ Kantendisjunkte u-v-Pfade
-Kantendisjunkte u-v-Pfade $\;\not\!\!\!\implies$ intern knoten-disjunkte u-v-Pfade
+intern knoten-disjunkte u-v-Pfade :: $\implies$ Kantendisjunkte u-v-Pfade
+Kantendisjunkte u-v-Pfade :: $\;\not\!\!\!\implies$ intern knoten-disjunkte u-v-Pfade
+
+
+Die Aussage "Jeder Artikulationsknoten grenzt an mindestens eine Brücke." simmt für ::
