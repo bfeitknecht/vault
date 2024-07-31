@@ -93,13 +93,6 @@
       "color": "#888888"
     },
     {
-      "id": "obsidian-shellcommands:shell-command-c40q7nlmrh",
-      "icon": "terminal",
-      "name": "Open Folder in iTerm",
-      "mode": "desktop",
-      "color": "#888888"
-    },
-    {
       "id": "obsidian-shellcommands:shell-command-2vk5mhxxda",
       "icon": "terminal-square",
       "name": "Open File in Editor",
