@@ -530,9 +530,7 @@
                   "state": {
                     "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
                     "page": 1,
-                    "left": -11,
-                    "top": 515,
-                    "zoom": 1.373076923076923
+                    "zoom": 1
                   }
                 }
               },
@@ -558,9 +556,9 @@
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jannis.pdf",
                     "page": 1,
-                    "left": -21,
+                    "left": -4,
                     "top": 798,
-                    "zoom": 0.7202544275380394
+                    "zoom": 0.89
                   }
                 }
               }
@@ -609,7 +607,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "HOME.md"
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jannis.pdf"
                   }
                 }
               },
@@ -619,7 +617,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jannis.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -636,7 +634,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jannis.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -646,7 +644,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 350.5
+        "width": 352.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -721,12 +719,11 @@
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "command-palette:Open command palette": true,
-          "file-tree-alternative:File Tree Alternative Plugin": false
+          "command-palette:Open command palette": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-07-31T09:51:02+02:00"
+      "active": "0b0454923456d926",
+      "mtime": "2024-07-31T10:11:18+02:00"
     },
     "pv-pprog": {
       "main": {
