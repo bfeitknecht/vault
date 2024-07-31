@@ -76,6 +76,9 @@ cards-deck: sem2::AuW::misc
 > [!quote]- Sätze, Definitionen
 > ![[AuW-script.pdf#page=106&rect=112,301,483,354|AuW-script, p.106]]
 > ![[AuW-script.pdf#page=104&rect=112,294,482,496|AuW-script, p.104]]
+> ![[AuW-script.pdf#page=124&rect=110,245,485,354|AuW-script, p.124]]
+> ![[AuW-script.pdf#page=125&rect=112,655,391,704|AuW-script, p.125]]
+> 
 
 
 
