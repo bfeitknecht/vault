@@ -55,7 +55,7 @@ cards-deck: sem2::AuW::misc
 >
 
 >[!quote]- Matchings
-> 
+> ![[AuW-script.pdf#page=65&rect=113,268,483,420|AuW-script, p.65]]
 > ![[AuW-L04-matchings.pdf#page=9&rect=319,4,1652,957|AuW-L04-matchings, p.9]]
 > ![[AuW-L04-matchings.pdf#page=6&rect=294,149,1347,454|AuW-L04-matchings, p.6]]
 > ![[AuW-script.pdf#page=77&rect=113,294,481,348|AuW-script, p.77]]
