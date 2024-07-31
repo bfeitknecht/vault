@@ -956,9 +956,9 @@
                   "state": {
                     "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf",
                     "page": 1,
-                    "left": -10,
+                    "left": -11,
                     "top": 852,
-                    "zoom": 1.4975
+                    "zoom": 1.4212500000000001
                   }
                 }
               },
@@ -1042,13 +1042,12 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                     "page": 1,
-                    "left": -10,
-                    "top": 819,
-                    "zoom": 1.5093838824343668
+                    "zoom": 1
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1092,7 +1091,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf"
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md"
                   }
                 }
               },
@@ -1102,7 +1101,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf",
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1119,7 +1118,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf",
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1129,7 +1128,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 230.5
+        "width": 249.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1208,9 +1207,9 @@
           "flashcards-obsidian:Generate flashcards": true
         }
       },
-      "active": "f383a0b62cca5145",
-      "mtime": "2024-07-31T14:16:25+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-07-31T14:23:41+02:00"
     }
   },
-  "active": "pv-auw"
+  "active": "pv-a1"
 }
