@@ -79,8 +79,22 @@
   ],
   "explorer": [
     {
-      "id": "obsidian-shellcommands:shell-command-c40q7nlmrh",
+      "id": "open-with-default-app:show",
       "icon": "folder-open",
+      "name": "Reveal in Finder",
+      "mode": "desktop",
+      "color": "#888888"
+    },
+    {
+      "id": "open-with-default-app:open",
+      "icon": "eye",
+      "name": "Open in default app",
+      "mode": "desktop",
+      "color": "#888888"
+    },
+    {
+      "id": "obsidian-shellcommands:shell-command-c40q7nlmrh",
+      "icon": "terminal",
       "name": "Open Folder in iTerm",
       "mode": "desktop",
       "color": "#888888"
@@ -91,18 +105,6 @@
       "name": "Open File in Editor",
       "mode": "desktop",
       "color": "#888888"
-    },
-    {
-      "id": "open-with-default-app:open",
-      "icon": "lucide-arrow-up-right",
-      "name": "Open in default app",
-      "mode": "any"
-    },
-    {
-      "id": "open-with-default-app:show",
-      "icon": "lucide-files",
-      "name": "Reveal in Finder",
-      "mode": "any"
     }
   ],
   "hide": {
