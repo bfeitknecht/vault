@@ -81,7 +81,6 @@ $$
  \\
  \\
 & \int u \, dv = uv - \int v \, du \\
-& \int f(g(x)) g'(x) \, dx = \int f(u) \, du \\
 & \int a^x \, dx = \frac{a^x}{\ln(a)} + C \\
 \end{align}
 $$
