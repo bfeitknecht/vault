@@ -33,8 +33,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "cc18e9c70282ea5d",
@@ -92,7 +91,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "README.md"
+                    "file": "HOME.md"
                   }
                 }
               },
@@ -102,7 +101,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "README.md",
+                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "README.md",
+                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -208,8 +207,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "c4761f644bfecbe1",
-      "mtime": "2024-07-31T10:23:23+02:00"
+      "active": "84d6179a41f3d7a6",
+      "mtime": "2024-07-31T21:25:12+02:00"
     },
     "pv-a1": {
       "main": {
@@ -1198,5 +1197,5 @@
       "mtime": "2024-07-31T21:16:09+02:00"
     }
   },
-  "active": "HOME"
+  "active": "pv-auw"
 }
