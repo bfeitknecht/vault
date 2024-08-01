@@ -9,3 +9,6 @@ sed -i '' -e '/"theme": "obsidian"/ s/"theme": "obsidian"/"theme": "moonstone"/'
           -e '/"theme": "moonstone"/ s/"theme": "moonstone"/"theme": "obsidian"/' "$FILE_PATH"
 
 
+open --background "obsidian://advanced-uri?vault=vault&commandid=theme%253Ause-dark"
+
+open --background "obsidian://advanced-uri?vault=vault&commandid=theme%253Ause-light"
