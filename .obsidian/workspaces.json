@@ -989,7 +989,9 @@
                   "state": {
                     "file": "sem2/AuW/PV/extra/AuW-formulas.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -10,
+                    "top": 846,
+                    "zoom": 1.4854454068364928
                   }
                 }
               },
@@ -1001,7 +1003,9 @@
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L04-matchings.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -469,
+                    "top": 1076,
+                    "zoom": 0.32
                   }
                 }
               },
@@ -1012,8 +1016,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 2,
+                    "left": -9,
+                    "top": 694,
+                    "zoom": 1.785
                   }
                 }
               },
@@ -1025,14 +1031,14 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                     "page": 69,
-                    "left": -11,
-                    "top": 20,
-                    "zoom": 1.3090566392732113
+                    "left": -9,
+                    "top": 754,
+                    "zoom": 1.7991654291454722
                   }
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1076,7 +1082,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md"
                   }
                 }
               },
@@ -1086,7 +1092,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1103,7 +1109,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1192,9 +1198,9 @@
           "flashcards-obsidian:Generate flashcards": true
         }
       },
-      "active": "d69b9f3b2d8d9abc",
-      "mtime": "2024-08-01T09:38:54+02:00"
+      "active": "ac0073458c6e5f7f",
+      "mtime": "2024-08-01T10:30:16+02:00"
     }
   },
-  "active": "pv-auw"
+  "active": "HOME"
 }
