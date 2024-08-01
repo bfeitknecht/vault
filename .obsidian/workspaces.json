@@ -509,7 +509,9 @@
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jannis.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": 79,
+                    "top": 661,
+                    "zoom": 1.39
                   }
                 }
               },
@@ -533,14 +535,14 @@
                   "state": {
                     "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
                     "page": 1,
-                    "left": -14,
+                    "left": -11,
                     "top": 544,
-                    "zoom": 1.0346153846153847
+                    "zoom": 1.373076923076923
                   }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -584,7 +586,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf"
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md"
                   }
                 }
               },
@@ -594,7 +596,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -611,7 +613,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
+                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -699,8 +701,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "30afe6b1ad02bdfe",
-      "mtime": "2024-08-01T10:39:02+02:00"
+      "active": "bc8f0dc41f8794f0",
+      "mtime": "2024-08-01T13:50:22+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -1189,5 +1191,5 @@
       "mtime": "2024-08-01T10:30:16+02:00"
     }
   },
-  "active": "pv-ddca"
+  "active": "pv-a1"
 }

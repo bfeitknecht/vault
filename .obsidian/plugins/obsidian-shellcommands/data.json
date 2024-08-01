@@ -73,7 +73,7 @@
     {
       "id": "s558cixu8a",
       "platform_specific_commands": {
-        "default": "sleep 1 && cd {{vault_path}} && git add .  # maybe debounce this?"
+        "default": "git add {{vault_path}}"
       },
       "shells": {},
       "alias": "Git add all changes",
@@ -105,7 +105,12 @@
           "enabled": true
         }
       },
-      "debounce": null,
+      "debounce": {
+        "executeEarly": false,
+        "executeLate": true,
+        "cooldownDuration": 0,
+        "prolongCooldown": false
+      },
       "command_palette_availability": "enabled",
       "preactions": [],
       "variable_default_values": {}
