@@ -93,3 +93,10 @@ obsidian://advanced-uri?vault=vault&workspace=HOME
 > when hotkey to launch terminal, not in git??
 > not a git directory, eth (top root) also not git
 > but if another session is active (navigate to vault or eth), git works
+
+
+
+
+obsidian://advanced-uri?vault=vault&commandid=theme%253Ause-dark
+
+obsidian://advanced-uri?vault=vault&commandid=theme%253Ause-light

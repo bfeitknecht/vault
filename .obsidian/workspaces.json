@@ -1024,10 +1024,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                    "page": 67,
-                    "left": -9,
-                    "top": 825,
-                    "zoom": 1.7991654291454724
+                    "page": 69,
+                    "left": -11,
+                    "top": 20,
+                    "zoom": 1.3090566392732113
                   }
                 }
               }
@@ -1113,8 +1113,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 249.5,
-        "collapsed": true
+        "width": 249.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1194,8 +1193,8 @@
         }
       },
       "active": "d69b9f3b2d8d9abc",
-      "mtime": "2024-07-31T21:16:09+02:00"
+      "mtime": "2024-08-01T09:38:54+02:00"
     }
   },
-  "active": "pv-auw"
+  "active": "HOME"
 }
