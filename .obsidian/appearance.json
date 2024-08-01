@@ -12,6 +12,6 @@
     "card-tag"
   ],
   "monospaceFontFamily": "CommitMono Nerd Font Mono",
-  "theme": "moonstone",
+  "theme": "system",
   "nativeMenus": false
 }
