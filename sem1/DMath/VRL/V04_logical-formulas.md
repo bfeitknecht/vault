@@ -41,13 +41,11 @@ prime(35) = 1 $\wedge$ 1
 
 
 
-###  #Informelle-Äquivalenz
 $\lnot \exists x \space P(x) \equiv \forall  x \lnot P(x)$
 Durch Äquivalenz-transformation 
 
 
 
-### #Transitivität
 $\exists x, \space\exists y, \space\exists z; \space (P(x, \space y) \wedge P(y, \space z) \rightarrow P(x, \space z))$
 
 
