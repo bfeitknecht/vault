@@ -1,8 +1,6 @@
 
 
 
-### #Prädikat
-
 >[!example] Prädikate:
 >Es gibt eine kleinste Zahl.
 >$\exists x \forall y; \space (x\leq y)$

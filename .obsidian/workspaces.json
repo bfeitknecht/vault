@@ -758,23 +758,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "6d852a8909355856",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/PProg/PV/exams/PProg-FS21-exam.pdf",
-                    "page": 1,
-                    "left": -13,
-                    "top": 846,
-                    "zoom": 1.1200686740268382
-                  }
-                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -818,7 +804,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/PProg/PV/exams/PProg-FS21-exam.pdf"
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md"
                   }
                 }
               },
@@ -828,7 +814,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/PProg/PV/exams/PProg-FS21-exam.pdf",
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -845,7 +831,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/PProg/PV/exams/PProg-FS21-exam.pdf",
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -855,7 +841,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 239.5
+        "width": 239.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -908,12 +895,12 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -933,8 +920,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "6d852a8909355856",
-      "mtime": "2024-07-31T15:48:02+02:00"
+      "active": "0db6341d94fad4bf",
+      "mtime": "2024-08-01T10:44:06+02:00"
     },
     "pv-auw": {
       "main": {
@@ -1202,5 +1189,5 @@
       "mtime": "2024-08-01T10:30:16+02:00"
     }
   },
-  "active": "pv-pprog"
+  "active": "pv-ddca"
 }

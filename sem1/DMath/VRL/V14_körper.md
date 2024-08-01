@@ -2,7 +2,6 @@
 
 
 
-### #homomorphismus
 2 dimensionaler plan von 3d raum, es kommt nicht drauf an, ob zuerst x plus y komponente für vektor und dann z komponente auf 0 oder zuerst z komponente auf 0 und dann x + y vektoren addieren.
 
 determinante einer matrix matrix auf reele zahlen
@@ -45,7 +44,6 @@ $|\mathbb{Z}^*_{pq}|=(p-1)(q-1)$
 
 
 
-### #Ring
  $\langle R; +, -, 0, \cdot, 1\rangle$
 
 1) $\langle R; +, -, 0\rangle$ ist (abelische) Gruppe 
