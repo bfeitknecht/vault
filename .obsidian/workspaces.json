@@ -226,10 +226,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf",
-                    "page": 7,
-                    "left": -15,
-                    "top": 60,
-                    "zoom": 0.9879556711684424
+                    "page": 8,
+                    "left": 92,
+                    "top": 513,
+                    "zoom": 3.3
                   }
                 }
               },
@@ -241,8 +241,8 @@
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-jdickey.pdf",
                     "page": 12,
-                    "left": 107,
-                    "top": 416,
+                    "left": 104,
+                    "top": 408,
                     "zoom": 1.8
                   }
                 }
@@ -279,9 +279,7 @@
                   "state": {
                     "file": "sem2/A1/PV/extra/pvw/A1-pvw-01-seq&ser.pdf",
                     "page": 1,
-                    "left": -11,
-                    "top": 852,
-                    "zoom": 1.38625
+                    "zoom": 1
                   }
                 }
               },
@@ -317,14 +315,11 @@
                   "state": {
                     "file": "sem2/A1/VRL/extra/maja/A1-w07-maja.pdf",
                     "page": 1,
-                    "left": -11,
-                    "top": 846,
-                    "zoom": 1.397251023054852
+                    "zoom": 1
                   }
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "vertical"
@@ -368,7 +363,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md"
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf"
                   }
                 }
               },
@@ -378,7 +373,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md",
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -395,7 +390,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md",
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -405,7 +400,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 319.5
+        "width": 319.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -484,8 +480,8 @@
           "graph:Open graph view": false
         }
       },
-      "active": "a55bc676f617597b",
-      "mtime": "2024-08-02T11:58:20+02:00"
+      "active": "e3bb2946d88054c1",
+      "mtime": "2024-08-02T16:52:06+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -985,9 +981,7 @@
                   "state": {
                     "file": "sem2/AuW/PV/extra/AuW-formulas.pdf",
                     "page": 1,
-                    "left": -10,
-                    "top": 846,
-                    "zoom": 1.4854454068364928
+                    "zoom": 1
                   }
                 }
               },
@@ -999,9 +993,7 @@
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L04-matchings.pdf",
                     "page": 1,
-                    "left": -469,
-                    "top": 1076,
-                    "zoom": 0.32
+                    "zoom": 1
                   }
                 }
               },
@@ -1012,10 +1004,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-                    "page": 2,
-                    "left": -9,
-                    "top": 694,
-                    "zoom": 1.785
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -1028,13 +1018,13 @@
                     "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                     "page": 69,
                     "left": -9,
-                    "top": 754,
-                    "zoom": 1.7991654291454722
+                    "top": 688,
+                    "zoom": 1.7991654291454724
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 6
           }
         ],
         "direction": "vertical"
@@ -1078,7 +1068,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/PV/notes/AuW-recap.md"
+                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
                   }
                 }
               },
@@ -1088,7 +1078,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
+                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1105,7 +1095,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
+                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1115,7 +1105,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 249.5
+        "width": 249.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1194,8 +1185,8 @@
           "flashcards-obsidian:Generate flashcards": true
         }
       },
-      "active": "ac0073458c6e5f7f",
-      "mtime": "2024-08-01T10:30:16+02:00"
+      "active": "d69b9f3b2d8d9abc",
+      "mtime": "2024-08-02T16:49:00+02:00"
     }
   },
   "active": "pv-auw"
