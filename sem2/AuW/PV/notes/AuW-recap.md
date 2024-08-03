@@ -3,7 +3,7 @@ cards-deck: sem2::AuW::misc
 ---
 
 
-$\mathbb{E}[]$
+$\mathcal O$
 ## Misc
 
 > [!attention]- Exam Points
