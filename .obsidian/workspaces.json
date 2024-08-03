@@ -40,7 +40,7 @@
             "type": "tabs",
             "children": [
               {
-                "id": "cca61d1e907ea60e",
+                "id": "b657787396dc19e7",
                 "type": "leaf",
                 "state": {
                   "type": "graph",
@@ -90,9 +90,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -101,7 +99,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -118,7 +115,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -207,8 +203,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "84d6179a41f3d7a6",
-      "mtime": "2024-08-02T11:59:19+02:00"
+      "active": "b657787396dc19e7",
+      "mtime": "2024-08-03T08:41:03+02:00"
     },
     "pv-a1": {
       "main": {
@@ -1004,8 +1000,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 15,
+                    "left": -10,
+                    "top": 259,
+                    "zoom": 1.52875
                   }
                 }
               },
@@ -1016,10 +1014,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                    "page": 69,
-                    "left": -9,
-                    "top": 688,
-                    "zoom": 1.7991654291454724
+                    "page": 107,
+                    "left": -10,
+                    "top": 770,
+                    "zoom": 1.4854454068364926
                   }
                 }
               }
@@ -1105,8 +1103,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 249.5,
-        "collapsed": true
+        "width": 249.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1185,8 +1182,8 @@
           "flashcards-obsidian:Generate flashcards": true
         }
       },
-      "active": "d69b9f3b2d8d9abc",
-      "mtime": "2024-08-02T16:49:00+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-08-03T08:39:37+02:00"
     }
   },
   "active": "pv-auw"
