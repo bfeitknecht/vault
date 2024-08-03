@@ -1,9 +1,8 @@
 ---
-cards-deck: sem2::AuW::misc
+cards-deck: var::test
 ---
 
 
-$\mathcal O$
 ## Misc
 
 > [!attention]- Exam Points
@@ -101,3 +100,10 @@ Kantendisjunkte u-v-Pfade :: $\;\not\!\!\!\implies$ intern knoten-disjunkte u-v-
 
  "Jede Brücke hat mindestens einen Artikulationsknoten als Endpunkt" :: stimmt für alle zusammenhängenden Graphen ausser endlich vielen Ausnahmen
 
+
+
+This is a way to define a ==cloze== by using the Obsidian highlight syntax in order to avoid making notes dirty.
+The alternative is this type of {cloze} that is totally equal to {1:cloze}. With the number you can specify the order {2:later cloze}.
+
+
+test #card 
