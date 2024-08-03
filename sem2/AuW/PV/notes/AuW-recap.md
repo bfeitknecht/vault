@@ -2,6 +2,8 @@
 cards-deck: sem2::AuW::misc
 ---
 
+
+$\mathbb{E}[]$
 ## Misc
 
 > [!attention]- Exam Points
