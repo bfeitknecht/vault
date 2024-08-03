@@ -1,5 +1,5 @@
 ---
-cards-deck: var::test
+cards-deck: var::misc
 ---
 
 
@@ -102,8 +102,3 @@ Kantendisjunkte u-v-Pfade :: $\;\not\!\!\!\implies$ intern knoten-disjunkte u-v-
 
 
 
-This is a way to define a ==cloze== by using the Obsidian highlight syntax in order to avoid making notes dirty.
-The alternative is this type of {cloze} that is totally equal to {1:cloze}. With the number you can specify the order {2:later cloze}.
-
-
-test #card 

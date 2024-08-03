@@ -35,3 +35,17 @@ P=NP :: who knows
 - a = b :: hmm
 - dürüm oder kebab ?? ::: up to you
 
+
+disco, disco, ==party==, party!
+
+a, b, c, {1:}
+
+
+This is a way to define a ==cloze== by using the Obsidian highlight syntax in order to avoid making notes dirty.
+The alternative is this type of {cloze} that is totally equal to {1:cloze}. With the number you can specify the order {2:later cloze}.
+
+
+test #card 
+abc
+
+
