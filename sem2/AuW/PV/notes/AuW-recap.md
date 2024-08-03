@@ -20,6 +20,9 @@ cards-deck: sem2::AuW::misc
 > - cut vertex, cut edge
 > - coloring!!
 > - a "to the left of" bc partial order relation
+> - convex hull
+> - algorithms (runtime, idea)
+> - 
 > 
 
 
