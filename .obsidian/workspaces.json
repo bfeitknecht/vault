@@ -226,10 +226,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf",
-                    "page": 8,
-                    "left": 92,
-                    "top": 513,
-                    "zoom": 3.3
+                    "page": 9,
+                    "left": 153,
+                    "top": 543,
+                    "zoom": 1.64
                   }
                 }
               },
@@ -240,10 +240,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-jdickey.pdf",
-                    "page": 12,
-                    "left": 104,
-                    "top": 408,
-                    "zoom": 1.8
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -481,7 +479,7 @@
         }
       },
       "active": "e3bb2946d88054c1",
-      "mtime": "2024-08-02T16:52:06+02:00"
+      "mtime": "2024-08-03T16:16:31+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1203,5 +1201,5 @@
       "mtime": "2024-08-03T15:08:39+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "pv-auw"
 }
