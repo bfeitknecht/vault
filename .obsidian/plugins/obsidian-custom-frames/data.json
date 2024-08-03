@@ -14,7 +14,7 @@
     },
     {
       "url": "https://track.toggl.com/timer",
-      "displayName": "Time Tracking",
+      "displayName": "Calendar",
       "icon": "calendar-clock",
       "hideOnMobile": true,
       "addRibbonIcon": false,
