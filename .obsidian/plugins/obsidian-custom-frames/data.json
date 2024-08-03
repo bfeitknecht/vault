@@ -3,10 +3,10 @@
     {
       "url": "https://ankiweb.net/decks",
       "displayName": "Anki",
-      "icon": "",
+      "icon": "zap",
       "hideOnMobile": true,
       "addRibbonIcon": false,
-      "openInCenter": false,
+      "openInCenter": true,
       "zoomLevel": 1,
       "forceIframe": false,
       "customCss": "",
