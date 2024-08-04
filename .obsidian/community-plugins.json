@@ -6,7 +6,6 @@
   "text-extractor",
   "restore-tab-key",
   "obsidian-latex-suite",
-  "editing-toolbar",
   "obsidian-editor-shortcuts",
   "pdf-plus",
   "folders2graph",
@@ -31,5 +30,6 @@
   "plugin-reloader",
   "flashcards-obsidian",
   "vertical-tabs-view",
-  "obsidian-custom-frames"
+  "obsidian-custom-frames",
+  "editing-toolbar"
 ]
