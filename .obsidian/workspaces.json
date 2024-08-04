@@ -208,7 +208,7 @@
         }
       },
       "active": "84d6179a41f3d7a6",
-      "mtime": "2024-08-03T10:29:01+02:00"
+      "mtime": "2024-08-04T10:15:46+02:00"
     },
     "pv-a1": {
       "main": {
@@ -955,9 +955,7 @@
                   "state": {
                     "file": "sem2/AuW/PV/extra/pvw/AuW-pvw-script.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 846,
-                    "zoom": 1.7991654291454724
+                    "zoom": -0.05039679073236617
                   }
                 }
               },
@@ -982,7 +980,7 @@
                     "file": "sem2/AuW/PV/extra/AuW-formulas.pdf",
                     "page": 2,
                     "left": -9,
-                    "top": 609,
+                    "top": 617,
                     "zoom": 1.7991654291454724
                   }
                 }
@@ -995,7 +993,9 @@
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L04-matchings.pdf",
                     "page": 1,
-                    "zoom": -0.015625
+                    "left": -28,
+                    "top": 1084,
+                    "zoom": 0.5578125
                   }
                 }
               },
@@ -1006,10 +1006,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-                    "page": 6,
-                    "left": -10,
-                    "top": 236,
-                    "zoom": 1.4737500000000001
+                    "page": 2,
+                    "zoom": -0.05
                   }
                 }
               },
@@ -1020,10 +1018,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                    "page": 222,
+                    "page": 131,
                     "left": -9,
-                    "top": 674,
-                    "zoom": 1.7991654291454722
+                    "top": 724,
+                    "zoom": 1.7991654291454724
                   }
                 }
               },
@@ -1036,7 +1034,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 7
           }
         ],
         "direction": "vertical"
@@ -1079,9 +1077,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "sem2/AuW/PV/extra/AuW-formulas.pdf"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -1090,7 +1086,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/PV/extra/AuW-formulas.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1107,7 +1102,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/PV/extra/AuW-formulas.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1117,8 +1111,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 249.5,
-        "collapsed": true
+        "width": 249.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1197,8 +1190,8 @@
           "flashcards-obsidian:Generate flashcards": true
         }
       },
-      "active": "f48c082c88e24ef8",
-      "mtime": "2024-08-03T15:08:39+02:00"
+      "active": "962cf89a5f7b2870",
+      "mtime": "2024-08-04T10:15:03+02:00"
     }
   },
   "active": "pv-auw"
