@@ -166,29 +166,10 @@
       ]
     },
     {
-      "id": "SubmenuCommands-lzf7vidjz",
+      "id": "SubmenuCommands-lzf8bnad4",
       "name": "submenu",
       "icon": "asterisk",
       "SubmenuCommands": [
-        {
-          "id": "editor:open-search-replace",
-          "name": "Search & replace in current file",
-          "icon": "regex",
-          "hotkeys": [
-            {
-              "modifiers": [
-                "Mod",
-                "Alt"
-              ],
-              "key": "F"
-            }
-          ]
-        },
-        {
-          "id": "obsidian-shellcommands:shell-command-dyyhnszent",
-          "name": "Shell commands: Execute: Toggle theme",
-          "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-eclipse\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 2a7 7 0 1 0 10 10\"/></svg>\n"
-        },
         {
           "id": "editor:fold-all",
           "name": "Fold all headings and lists",
@@ -204,6 +185,20 @@
           "allowProperties": true
         }
       ]
+    },
+    {
+      "id": "editor:open-search-replace",
+      "name": "Search & replace in current file",
+      "icon": "regex",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod",
+            "Alt"
+          ],
+          "key": "F"
+        }
+      ]
     }
   ],
   "appendMethod": "workspace",
@@ -211,7 +206,7 @@
   "cMenuVisibility": true,
   "cMenuBottomValue": 4.25,
   "cMenuNumRows": 12,
-  "cMenuWidth": 346,
+  "cMenuWidth": 348,
   "cMenuFontColor": "#2DC26B",
   "cMenuBackgroundColor": "#d3f8b6",
   "autohide": false,
