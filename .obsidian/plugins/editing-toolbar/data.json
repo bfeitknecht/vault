@@ -129,7 +129,7 @@
         {
           "id": "editing-toolbar:editor:attach-file",
           "name": "attach file",
-          "icon": "lucide-paperclip"
+          "icon": "paperclip"
         }
       ]
     },
