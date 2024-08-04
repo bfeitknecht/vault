@@ -31,7 +31,7 @@
         "default": "code --goto {{file_path:absolute}}:{{caret_position}}"
       },
       "shells": {},
-      "alias": "Open File in Editor",
+      "alias": "Open file in editor",
       "icon": "terminal-square",
       "confirm_execution": false,
       "ignore_error_codes": [],
@@ -121,7 +121,7 @@
         "default": "open --background \"obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave\""
       },
       "shells": {},
-      "alias": "Save Workspace before Close",
+      "alias": "Save workspace before close",
       "icon": "save",
       "confirm_execution": false,
       "ignore_error_codes": [],
@@ -161,7 +161,7 @@
         "default": "open -a iTerm {{folder_path:absolute}}"
       },
       "shells": {},
-      "alias": "Open Folder in Terminal",
+      "alias": "Open folder in terminal",
       "icon": "terminal",
       "confirm_execution": false,
       "ignore_error_codes": [],
@@ -197,7 +197,7 @@
         "default": "{{vault_path}}\\/.obsidian\\/scripts\\/toggle-theme.sh"
       },
       "shells": {},
-      "alias": "Toggle Theme",
+      "alias": "Toggle theme",
       "icon": "moon",
       "confirm_execution": false,
       "ignore_error_codes": [],
@@ -233,7 +233,7 @@
         "default": "rm -rf {{vault_path}}\\/.trash\\/*"
       },
       "shells": {},
-      "alias": "Empty Trash",
+      "alias": "Empty trash",
       "icon": "trash",
       "confirm_execution": false,
       "ignore_error_codes": [],

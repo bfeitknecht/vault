@@ -101,7 +101,7 @@
         },
         {
           "id": "editing-toolbar:editor:insert-mathblock",
-          "name": "Toggle MathBlock",
+          "name": "Toggle mathblock",
           "icon": "lucide-sigma-square"
         }
       ]
@@ -168,7 +168,7 @@
     {
       "id": "SubmenuCommands-lzf7vidjz",
       "name": "submenu",
-      "icon": "at-sign",
+      "icon": "asterisk",
       "SubmenuCommands": [
         {
           "id": "editor:open-search-replace",
@@ -186,7 +186,7 @@
         },
         {
           "id": "obsidian-shellcommands:shell-command-dyyhnszent",
-          "name": "Shell commands: Execute: Toggle Theme",
+          "name": "Shell commands: Execute: Toggle theme",
           "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-eclipse\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 2a7 7 0 1 0 10 10\"/></svg>\n"
         },
         {
@@ -195,15 +195,15 @@
           "icon": "chevrons-down-up",
           "allowPreview": true,
           "allowProperties": true
+        },
+        {
+          "id": "editor:unfold-all",
+          "name": "Unfold all headings and lists",
+          "icon": "chevrons-up-down",
+          "allowPreview": true,
+          "allowProperties": true
         }
       ]
-    },
-    {
-      "id": "editor:unfold-all",
-      "name": "Unfold all headings and lists",
-      "icon": "chevrons-up-down",
-      "allowPreview": true,
-      "allowProperties": true
     }
   ],
   "appendMethod": "workspace",
