@@ -226,10 +226,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf",
-                    "page": 9,
-                    "left": 143,
-                    "top": 342,
-                    "zoom": 1.64
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -399,8 +397,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 319.5,
-        "collapsed": true
+        "width": 319.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -480,7 +477,7 @@
         }
       },
       "active": "a55bc676f617597b",
-      "mtime": "2024-08-04T10:37:54+02:00"
+      "mtime": "2024-08-04T13:37:38+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1197,5 +1194,5 @@
       "mtime": "2024-08-04T11:01:30+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "pv-auw"
 }
