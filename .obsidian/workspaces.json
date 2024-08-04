@@ -1017,9 +1017,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                    "page": 130,
+                    "page": 80,
                     "left": -9,
-                    "top": 14,
+                    "top": 605,
                     "zoom": 1.7991654291454724
                   }
                 }
@@ -1033,7 +1033,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1077,7 +1077,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md"
                   }
                 }
               },
@@ -1087,7 +1087,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1104,7 +1104,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1114,8 +1114,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 249.5,
-        "collapsed": true
+        "width": 249.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1194,9 +1193,9 @@
           "flashcards-obsidian:Generate flashcards": true
         }
       },
-      "active": "d69b9f3b2d8d9abc",
-      "mtime": "2024-08-04T10:23:33+02:00"
+      "active": "ac0073458c6e5f7f",
+      "mtime": "2024-08-04T11:01:30+02:00"
     }
   },
-  "active": "pv-auw"
+  "active": "pv-a1"
 }
