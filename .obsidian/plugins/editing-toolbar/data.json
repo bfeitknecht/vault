@@ -65,40 +65,8 @@
       "icon": "highlight-glyph"
     },
     {
-      "id": "SubmenuCommands-lucdf3en5",
-      "name": "submenu",
-      "icon": "edit",
-      "SubmenuCommands": [
-        {
-          "id": "editing-toolbar:editor-copy",
-          "name": " copy ",
-          "icon": "lucide-copy"
-        },
-        {
-          "id": "editing-toolbar:editor-cut",
-          "name": " cut ",
-          "icon": "lucide-scissors"
-        },
-        {
-          "id": "editing-toolbar:editor-paste",
-          "name": "paste ",
-          "icon": "lucide-clipboard-type"
-        },
-        {
-          "id": "editing-toolbar:editor:swap-line-down",
-          "name": "swap line down",
-          "icon": "lucide-corner-right-down"
-        },
-        {
-          "id": "editing-toolbar:editor:swap-line-up",
-          "name": "swap line up",
-          "icon": "lucide-corner-right-up"
-        }
-      ]
-    },
-    {
       "id": "editing-toolbar:editor:insert-callout",
-      "name": "Toggle Callout ",
+      "name": "Toggle callout ",
       "icon": "lucide-quote"
     },
     {
@@ -118,7 +86,7 @@
         },
         {
           "id": "editing-toolbar:editor:toggle-code",
-          "name": "inline code",
+          "name": "Toggle inline code",
           "icon": "code-glyph"
         },
         {
@@ -139,11 +107,6 @@
       ]
     },
     {
-      "id": "editing-toolbar:editor:attach-file",
-      "name": "upload attach file",
-      "icon": "lucide-paperclip"
-    },
-    {
       "id": "SubmenuCommands-mdcmder",
       "name": "submenu",
       "icon": "<svg width=\"18\" height=\"18\" focusable=\"false\" fill=\"currentColor\"  viewBox=\"0 0 1024 1024\"><g transform=\"scale(1, -1) translate(0, -896) scale(0.9, 0.9) \"><path class=\"path\" d=\"M464 608 l0 -568 q0 -3 -2.5 -5.5 q-2.5 -2.5 -5.5 -2.5 l-80 0 q-3 0 -5.5 2.5 q-2.5 2.5 -2.5 5.5 l0 568 l-232 0 q-3 0 -5.5 2.5 q-2.5 2.5 -2.5 5.5 l0 80 q0 3 2.5 5.5 q2.5 2.5 5.5 2.5 l560 0 q3 0 5.5 -2.5 q2.5 -2.5 2.5 -5.5 l0 -80 q0 -3 -2.5 -5.5 q-2.5 -2.5 -5.5 -2.5 l-232 0 ZM864 696 q17 0 28.5 11.5 q11.5 11.5 11.5 28.5 q0 17 -11.5 28.5 q-11.5 11.5 -28.5 11.5 q-17 0 -28.5 -11.5 q-11.5 -11.5 -11.5 -28.5 q0 -17 11.5 -28.5 q11.5 -11.5 28.5 -11.5 ZM864 640 q-40 0 -68 28 q-28 28 -28 68 q0 40 28 68 q28 28 68 28 q40 0 68 -28 q28 -28 28 -68 q0 -40 -28 -68 q-28 -28 -68 -28 ZM576 322 l0 -63 q0 -3 2 -5 l89 -70 l-89 -70 q-2 -2 -2 -5 l0 -63 q0 -4 3.5 -5.5 q3.5 -1.5 6.5 0.5 l170 133 q4 3 4.5 8.5 q0.5 5.5 -2.5 9.5 l-2 2 l-170 133 q-3 2 -6.5 0.5 q-3.5 -1.5 -3.5 -5.5 ZM256 322 l0 -63 q0 -3 -2 -5 l-89 -70 l89 -70 q2 -2 2 -5 l0 -63 q0 -4 -3.5 -5.5 q-3.5 -1.5 -6.5 0.5 l-170 133 q-4 3 -4.5 8.5 q-0.5 5.5 2.5 9.5 l2 2 l170 133 q3 2 6.5 0.5 q3.5 -1.5 3.5 -5.5 Z\"></path></g></svg>",
@@ -161,7 +124,12 @@
         {
           "id": "editing-toolbar:editor:insert-link",
           "name": "insert link []()",
-          "icon": "link-glyph"
+          "icon": "link-2"
+        },
+        {
+          "id": "editing-toolbar:editor:attach-file",
+          "name": "attach file",
+          "icon": "lucide-paperclip"
         }
       ]
     },
@@ -203,7 +171,7 @@
   "cMenuVisibility": true,
   "cMenuBottomValue": 4.25,
   "cMenuNumRows": 12,
-  "cMenuWidth": 348,
+  "cMenuWidth": 294,
   "cMenuFontColor": "#2DC26B",
   "cMenuBackgroundColor": "#d3f8b6",
   "autohide": false,
