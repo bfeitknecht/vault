@@ -76,6 +76,8 @@ cards-deck: sem2::AuW::bf
 > 
 
 
+___
+
 ## Probabilities
 
 > [!quote]- Sätze, Definitionen
@@ -86,7 +88,13 @@ cards-deck: sem2::AuW::bf
 > 
 
 
-$\mathbb E[X]=n\cdot H_{n}$
+
+> [!quote]- Coupon collector
+> ![[AuW-script.pdf#page=131&rect=150,538,443,587|AuW-script, p.131]]
+> where $H_n := \sum_{i=1}^{n}{\frac{1}{i}}=1+\frac{1}{2}+\frac{1}{3}\cdots$ is the $n$-th harmonic number,
+
+
+
 
 
 ___
