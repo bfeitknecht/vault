@@ -119,7 +119,7 @@
         {
           "id": "editing-toolbar:editor:insert-embed",
           "name": "insert embed ![[]]",
-          "icon": "note-glyph"
+          "icon": "file"
         },
         {
           "id": "editing-toolbar:editor:insert-link",
