@@ -36,6 +36,13 @@
       "name": "Toggle stacked tabs",
       "mode": "desktop",
       "color": "#888888"
+    },
+    {
+      "id": "workspace:toggle-pin",
+      "icon": "lucide-pin",
+      "name": "Toggle pin",
+      "mode": "any",
+      "color": "#888888"
     }
   ],
   "macros": [

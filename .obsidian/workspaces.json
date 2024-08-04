@@ -943,7 +943,7 @@
                   "state": {
                     "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf",
                     "page": 1,
-                    "zoom": -0.05
+                    "zoom": 1
                   }
                 }
               },
@@ -955,20 +955,22 @@
                   "state": {
                     "file": "sem2/AuW/PV/extra/pvw/AuW-pvw-script.pdf",
                     "page": 1,
-                    "zoom": -0.05039679073236617
+                    "zoom": 1
                   }
                 }
               },
               {
                 "id": "ac0073458c6e5f7f",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
                     "file": "sem2/AuW/PV/notes/AuW-recap.md",
                     "mode": "source",
                     "source": false
-                  }
+                  },
+                  "pinned": true
                 }
               },
               {
@@ -978,10 +980,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/PV/extra/AuW-formulas.pdf",
-                    "page": 2,
-                    "left": -9,
-                    "top": 617,
-                    "zoom": 1.7991654291454724
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -993,9 +993,7 @@
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L04-matchings.pdf",
                     "page": 1,
-                    "left": -28,
-                    "top": 1084,
-                    "zoom": 0.5578125
+                    "zoom": 1
                   }
                 }
               },
@@ -1006,8 +1004,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
-                    "page": 2,
-                    "zoom": -0.05
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -1018,9 +1016,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                    "page": 131,
+                    "page": 130,
                     "left": -9,
-                    "top": 724,
+                    "top": 14,
                     "zoom": 1.7991654291454724
                   }
                 }
@@ -1034,7 +1032,7 @@
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 6
           }
         ],
         "direction": "vertical"
@@ -1077,7 +1075,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf"
+                  }
                 }
               },
               {
@@ -1086,6 +1086,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1102,6 +1103,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1111,7 +1113,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 249.5
+        "width": 249.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1190,9 +1193,9 @@
           "flashcards-obsidian:Generate flashcards": true
         }
       },
-      "active": "962cf89a5f7b2870",
-      "mtime": "2024-08-04T10:15:03+02:00"
+      "active": "d69b9f3b2d8d9abc",
+      "mtime": "2024-08-04T10:23:33+02:00"
     }
   },
-  "active": "pv-auw"
+  "active": "pv-a1"
 }
