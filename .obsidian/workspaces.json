@@ -227,8 +227,8 @@
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf",
                     "page": 9,
-                    "left": 153,
-                    "top": 543,
+                    "left": 143,
+                    "top": 342,
                     "zoom": 1.64
                   }
                 }
@@ -317,7 +317,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -361,7 +362,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf"
+                    "file": "sem2/A1/PV/notes/A1-recap.md"
                   }
                 }
               },
@@ -371,7 +372,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf",
+                    "file": "sem2/A1/PV/notes/A1-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -388,7 +389,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf",
+                    "file": "sem2/A1/PV/notes/A1-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -478,8 +479,8 @@
           "graph:Open graph view": false
         }
       },
-      "active": "e3bb2946d88054c1",
-      "mtime": "2024-08-03T16:16:31+02:00"
+      "active": "a55bc676f617597b",
+      "mtime": "2024-08-04T10:37:54+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1197,5 +1198,5 @@
       "mtime": "2024-08-04T10:23:33+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "pv-auw"
 }
