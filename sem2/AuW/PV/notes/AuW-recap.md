@@ -86,6 +86,7 @@ cards-deck: sem2::AuW::bf
 > 
 
 
+$\mathbb E[X]=n\cdot H_{n}$
 
 
 ___
