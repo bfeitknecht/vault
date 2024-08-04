@@ -92,7 +92,7 @@
         {
           "id": "editing-toolbar:codeblock",
           "name": "Toggle codeblock",
-          "icon": "codeblock-glyph"
+          "icon": "square-code"
         },
         {
           "id": "editing-toolbar:editor:toggle-inline-math",
