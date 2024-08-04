@@ -147,13 +147,23 @@
           "id": "editor:toggle-numbered-list",
           "name": "Toggle numbered list",
           "icon": "lucide-list-ordered"
+        },
+        {
+          "id": "editing-toolbar:indent-list",
+          "name": "Editing Toolbar: indent list",
+          "icon": "indent-glyph"
+        },
+        {
+          "id": "editing-toolbar:undent-list",
+          "name": "Editing Toolbar: unindent-list",
+          "icon": "unindent-glyph"
         }
       ]
     },
     {
       "id": "SubmenuCommands-lzf8bnad4",
       "name": "submenu",
-      "icon": "asterisk",
+      "icon": "align-justify",
       "SubmenuCommands": [
         {
           "id": "editor:fold-all",
@@ -184,16 +194,6 @@
           "key": "F"
         }
       ]
-    },
-    {
-      "id": "editing-toolbar:indent-list",
-      "name": "Editing Toolbar: indent list",
-      "icon": "indent-glyph"
-    },
-    {
-      "id": "editing-toolbar:undent-list",
-      "name": "Editing Toolbar: unindent-list",
-      "icon": "unindent-glyph"
     }
   ],
   "appendMethod": "workspace",

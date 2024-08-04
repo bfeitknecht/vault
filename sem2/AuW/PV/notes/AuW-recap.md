@@ -101,4 +101,3 @@ Kantendisjunkte u-v-Pfade :: $\;\not\!\!\!\implies$ intern knoten-disjunkte u-v-
  "Jede Brücke hat mindestens einen Artikulationsknoten als Endpunkt" :: stimmt für alle zusammenhängenden Graphen ausser endlich vielen Ausnahmen
 
 
-
