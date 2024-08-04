@@ -1,4 +1,5 @@
 
+
 > [!quote]+ Cheatsheet
 >>[!idea]- Stop Conditions DI Method
 >> - $0$ in D column
@@ -35,41 +36,6 @@ $$
 $$
 
 
-$$
-\begin{align}
-\pi \\
-- \pi \\
-\\
-\frac{\pi}{2} \\
-\\
-- \frac{\pi}{2} \\
-\end{align}
-$$
-
-$$
-\begin{align}
-& \overset{\infty}{\rightarrow}\infty \\
-& \overset{-\infty}{\rightarrow}0 \\
-& \overset{0}{\rightarrow}-\infty \\
-& \overset{\pm\frac{\pi}{2}}{\rightarrow}\text{n/a} \\
-& \overset{\pm\infty}{\rightarrow}\text{n/a} \\
-& \overset{\infty}{\rightarrow}\frac{\pi}{2} \\
-& \overset{-\infty}{\rightarrow}-\frac{\pi}{2} \\
-\end{align}
-$$
-
-$$
-\begin{align}
-\exp(x) \\ \\
-\ln(x) \\ \\
-\sin(x) \\ \\
-\cos(x) \\ \\
-\tan(x) \\ \\
-\arcsin(x) \\ \\
-\arccos(x) \\ \\
-\arctan(x)
-\end{align}
-$$
 
 $$
 \begin{align}

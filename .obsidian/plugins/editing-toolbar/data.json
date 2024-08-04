@@ -66,12 +66,12 @@
     },
     {
       "id": "editing-toolbar:editor:insert-callout",
-      "name": "Toggle callout ",
+      "name": "Insert callout ",
       "icon": "lucide-quote"
     },
     {
       "id": "editing-toolbar:editor:insert-table",
-      "name": "Toggle table",
+      "name": "Insert table",
       "icon": "lucide-table"
     },
     {
