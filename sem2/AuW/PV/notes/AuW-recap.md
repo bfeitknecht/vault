@@ -65,9 +65,11 @@ cards-deck: sem2::AuW::bf
 > ![[AuW-L04-matchings.pdf#page=6&rect=294,149,1347,454|AuW-L04-matchings, p.6]]
 > ![[AuW-script.pdf#page=77&rect=113,294,481,348|AuW-script, p.77]]
 > ![[AuW-L05-satz-von-hall.pdf#page=12&rect=364,540,1467,635|AuW-L05-satz-von-hall, p.12]]
+> counter example, k-regular but not bipartite $\;\not\!\!\!\implies$ there exists perfect matching
+> ![[AuW-script.pdf#page=79&rect=204,242,393,345|AuW-script, p.79]]
 > ![[AuW-L05-satz-von-hall.pdf#page=12&rect=366,803,1479,896|AuW-L05-satz-von-hall, p.12]]
 > ![[AuW-L05-satz-von-hall.pdf#page=12&rect=366,248,1541,335|AuW-L05-satz-von-hall, p.12]]
-> ![[AuW-script.pdf#page=79&rect=204,242,393,345|AuW-script, p.79]]
+> 
 > 
 > 
 
