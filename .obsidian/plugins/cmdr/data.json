@@ -17,6 +17,13 @@
   "statusBar": [],
   "pageHeader": [
     {
+      "id": "pdf-plus:toggle-adapt-to-theme",
+      "icon": "view",
+      "name": "Toggle \"adapt to theme\"",
+      "mode": "desktop",
+      "color": "#888888"
+    },
+    {
       "id": "workspace:split-horizontal",
       "icon": "lucide-separator-horizontal",
       "name": "Split down",
@@ -41,14 +48,8 @@
       "id": "workspace:toggle-pin",
       "icon": "lucide-pin",
       "name": "Toggle pin",
-      "mode": "any",
+      "mode": "desktop",
       "color": "#888888"
-    },
-    {
-      "id": "pdf-plus:toggle-adapt-to-theme",
-      "icon": "view",
-      "name": "Toggle \"adapt to theme\"",
-      "mode": "any"
     }
   ],
   "macros": [
@@ -61,9 +62,13 @@
         {
           "action": 0,
           "commandId": "obsidian-hider:toggle-hider-status"
+        },
+        {
+          "action": 0,
+          "commandId": "snippet-commands-obsidian:snippet-command-view-header"
         }
       ],
-      "name": "Toggle Status Bar and Ribbon",
+      "name": "Toggle Status Bar, Ribbon, View Header",
       "icon": "asterisk",
       "startup": false
     },
@@ -72,13 +77,9 @@
         {
           "action": 0,
           "commandId": "editing-toolbar:hide-show-menu"
-        },
-        {
-          "action": 0,
-          "commandId": "snippet-commands-obsidian:snippet-command-view-header"
         }
       ],
-      "name": "Switch Edit Bar / View Header",
+      "name": "Toggle Edit Bar",
       "icon": "star",
       "startup": false
     }
