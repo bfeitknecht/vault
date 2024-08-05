@@ -82,8 +82,10 @@ cards-deck: sem2::AuW::bf
 > 
 
 >[!quote]- TSP
->>[!quote]- Metric Approximation
->> we can get a 3/2 metric approximation if we do the following:
+>>[!quote]- Metrix 2 Approximation
+>> - find MST T in G
+>> - double every edge in 
+>>[!quote]- Metric 3/2 Approximation
 >> - find MST T in G
 >> - make set W of odd degree verices in T
 >> - find minimum weight matching M in W
