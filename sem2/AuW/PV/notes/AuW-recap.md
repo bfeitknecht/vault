@@ -67,6 +67,8 @@ cards-deck: sem2::AuW::bf
 > ![[AuW-L05-satz-von-hall.pdf#page=12&rect=364,540,1467,635|AuW-L05-satz-von-hall, p.12]]
 > ![[AuW-L05-satz-von-hall.pdf#page=12&rect=366,803,1479,896|AuW-L05-satz-von-hall, p.12]]
 > ![[AuW-L05-satz-von-hall.pdf#page=12&rect=366,248,1541,335|AuW-L05-satz-von-hall, p.12]]
+> ![[AuW-script.pdf#page=79&rect=204,242,393,345|AuW-script, p.79]]
+> 
 > 
 
 >[!quote]- Coloring
