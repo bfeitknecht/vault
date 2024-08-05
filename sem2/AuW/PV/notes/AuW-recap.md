@@ -58,13 +58,14 @@ cards-deck: sem2::AuW::bf
 > ![[AuW-script.pdf#page=66&rect=115,426,484,529|AuW-script, p.66]]
 > ![[AuW-L04-matchings.pdf#page=9&rect=319,4,1652,957|AuW-L04-matchings, p.9]]
 > ![[AuW-L04-matchings.pdf#page=6&rect=294,149,1347,454|AuW-L04-matchings, p.6]]
-> >>[!quote]- Satz von Hall
->> $\exists M \in G=(A \uplus B, E) \iff \forall X \in A, |X| \leq |N(X)|$
-> ![[AuW-script.pdf#page=76&rect=113,470,482,551|AuW-script, p.76]]
+>>[!quote]- Satz von Hall
+>> ![[AuW-script.pdf#page=76&rect=113,470,482,551|AuW-script, p.76]]
+>> $\exists M \in G=(A \uplus B, E), |M| = |A| \iff |X| \leq |N(X)|, \forall X \subseteq A$
+>> 
+> 
 > ![[AuW-script.pdf#page=77&rect=113,294,481,348|AuW-script, p.77]]
-> \
 > ![[AuW-L05-satz-von-hall.pdf#page=12&rect=364,540,1467,635|AuW-L05-satz-von-hall, p.12]]
-> counter example, k-regular but not bipartite $\;\not\!\!\!\implies$ there exists perfect matching
+> counter example for $G$ k-regular, not bipartite without perfect matching
 > ![[AuW-script.pdf#page=79&rect=204,242,393,345|AuW-script, p.79]]
 > ![[AuW-L05-satz-von-hall.pdf#page=12&rect=366,803,1479,896|AuW-L05-satz-von-hall, p.12]]
 > ![[AuW-L05-satz-von-hall.pdf#page=12&rect=366,248,1541,335|AuW-L05-satz-von-hall, p.12]]
