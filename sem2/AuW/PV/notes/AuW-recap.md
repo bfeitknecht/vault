@@ -81,14 +81,17 @@ cards-deck: sem2::AuW::bf
 > 
 > 
 
->[!quote] TSP
->>[!quote] Metric Approximation
+>[!quote]- TSP
+>>[!quote]- Metric Approximation
 >> we can get a 3/2 metric approximation if we do the following:
 >> - find MST T in G
 >> - make set W of odd degree verices in T
 >> - find minimum weight matching M in W
 >> - find euler tour E in multi graph M $\cup$ G
->> - 
+>> - make hamilton tour by skipping doubled nodes
+>>   
+>
+>%%- any 2 approximation is also a 4 approximation, however a  %%
 
 ___
 
