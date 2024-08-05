@@ -134,7 +134,7 @@
     },
     {
       "id": "write-file",
-      "visible": false
+      "visible": true
     },
     {
       "id": "annotation",

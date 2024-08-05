@@ -43,6 +43,12 @@
       "name": "Toggle pin",
       "mode": "any",
       "color": "#888888"
+    },
+    {
+      "id": "pdf-plus:toggle-adapt-to-theme",
+      "icon": "view",
+      "name": "Toggle \"adapt to theme\"",
+      "mode": "any"
     }
   ],
   "macros": [
