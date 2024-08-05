@@ -82,18 +82,25 @@ cards-deck: sem2::AuW::bf
 > 
 
 >[!quote]- TSP
+> metric condition: G fulfills triangle inequality, direct path is always shorter than indirect
+> general condition: ?? no colinearity
+> 
 >>[!quote]- Metrix 2 Approximation
 >> - find MST T in G
->> - double every edge in 
+>> - double every edge in T, -> G'
+>> - find euler tour in resulting multigraph G'
+>> - make hamilton tour by skipping doubled nodes
+>>   
+>
 >>[!quote]- Metric 3/2 Approximation
 >> - find MST T in G
 >> - make set W of odd degree verices in T
 >> - find minimum weight matching M in W
->> - find euler tour E in multi graph M $\cup$ G
+>> - find euler tour E in multi graph G' = M $\cup$ G
 >> - make hamilton tour by skipping doubled nodes
 >>   
 >
->%%- any 2 approximation is also a 4 approximation, however a  %%
+>%%- any 2 approximation is also a 4 approximation,  ??  %%
 
 ___
 
