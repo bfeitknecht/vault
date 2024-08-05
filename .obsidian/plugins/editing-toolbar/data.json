@@ -65,14 +65,14 @@
       "icon": "highlight-glyph"
     },
     {
-      "id": "editing-toolbar:editor:insert-callout",
-      "name": "Insert callout ",
-      "icon": "lucide-quote"
-    },
-    {
       "id": "editing-toolbar:editor:insert-table",
       "name": "Insert table",
       "icon": "lucide-table"
+    },
+    {
+      "id": "editing-toolbar:editor:insert-callout",
+      "name": "Insert callout ",
+      "icon": "lucide-quote"
     },
     {
       "id": "SubmenuCommands-luc8efull",
