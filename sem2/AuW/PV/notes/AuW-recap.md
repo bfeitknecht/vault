@@ -44,6 +44,8 @@ cards-deck: sem2::AuW::bf
 >
 
 >[!quote]- Hamilton Tour
+>![[AuW-script.pdf#page=60&rect=113,394,482,445|AuW-script, p.60]]
+>
 > ![[AuW-L03-TSP-PvsNP.pdf#page=4&rect=128,92,835,610|AuW-L03-TSP-PvsNP, p.4]]
 > ![[AuW-L03-TSP-PvsNP.pdf#page=5&rect=121,111,914,185|AuW-L03-TSP-PvsNP, p.5]]
 > ![[AuW-L03-TSP-PvsNP.pdf#page=5&rect=119,11,931,87|AuW-L03-TSP-PvsNP, p.5]]
@@ -79,6 +81,14 @@ cards-deck: sem2::AuW::bf
 > 
 > 
 
+>[!quote] TSP
+>>[!quote] Metric Approximation
+>> we can get a 3/2 metric approximation if we do the following:
+>> - find MST T in G
+>> - make set W of odd degree verices in T
+>> - find minimum weight matching M in W
+>> - find euler tour E in multi graph M $\cup$ G
+>> - 
 
 ___
 
