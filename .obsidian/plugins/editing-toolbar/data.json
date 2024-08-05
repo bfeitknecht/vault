@@ -103,6 +103,19 @@
           "id": "editing-toolbar:editor:insert-mathblock",
           "name": "Toggle mathblock",
           "icon": "lucide-sigma-square"
+        },
+        {
+          "id": "editor:toggle-comments",
+          "name": "Toggle comment",
+          "icon": "lucide-percent",
+          "hotkeys": [
+            {
+              "modifiers": [
+                "Mod"
+              ],
+              "key": "/"
+            }
+          ]
         }
       ]
     },
@@ -150,12 +163,12 @@
         },
         {
           "id": "editing-toolbar:indent-list",
-          "name": "Editing Toolbar: indent list",
+          "name": "Indent list",
           "icon": "indent-glyph"
         },
         {
           "id": "editing-toolbar:undent-list",
-          "name": "Editing Toolbar: unindent-list",
+          "name": "Unindent list",
           "icon": "unindent-glyph"
         }
       ]
