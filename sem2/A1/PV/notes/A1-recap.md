@@ -81,6 +81,7 @@ $$
 $$
 \begin{align}
 \overset{\frac{d}{dx}}{\rightarrow} \\
+ \\
 \overset{\int dx}{\leftarrow}
 \end{align}
 $$
