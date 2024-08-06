@@ -79,8 +79,6 @@ $$
 - a row repeats (don't care sign)
 
 
-
-
 ## That's it
 
 
