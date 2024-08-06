@@ -58,22 +58,22 @@ cards-deck: sem2::AuW::bf
 >[!quote]- Matchings
 > ![[AuW-script.pdf#page=65&rect=113,268,483,420|AuW-script, p.65]]
 > ![[AuW-script.pdf#page=66&rect=115,426,484,529|AuW-script, p.66]]
-> ![[AuW-L04-matchings.pdf#page=9&rect=319,4,1652,957|AuW-L04-matchings, p.9]]
-> ![[AuW-L04-matchings.pdf#page=6&rect=294,149,1347,454|AuW-L04-matchings, p.6]]
+> ![[AuW-L04-matchings.pdf#page=9&rect=319,4,1652,957|AuW-L04-matchings, p.9]]
+> ![[AuW-L04-matchings.pdf#page=6&rect=294,149,1347,454|AuW-L04-matchings, p.6]]
 >>[!quote]- Satz von Hall
 >> ![[AuW-script.pdf#page=76&rect=113,470,482,551|AuW-script, p.76]]
->> $\exists M \in G=(A \uplus B, E), |M| = |A| \iff |X| \leq |N(X)|, \forall X \subseteq A$
+>> $\exists M \in G=(A \uplus B, E), |M| = |A| \iff |X| \leq |N(X)|, \forall X \subseteq A$
 >> 
-> 
-> ![[AuW-script.pdf#page=77&rect=113,294,481,348|AuW-script, p.77]]
-> ![[AuW-L05-satz-von-hall.pdf#page=12&rect=364,540,1467,635|AuW-L05-satz-von-hall, p.12]]
-> counter example for $G$ k-regular, not bipartite without perfect matching
-> ![[AuW-script.pdf#page=79&rect=204,242,393,345|AuW-script, p.79]]
-> ![[AuW-L05-satz-von-hall.pdf#page=12&rect=366,803,1479,896|AuW-L05-satz-von-hall, p.12]]
-> ![[AuW-L05-satz-von-hall.pdf#page=12&rect=366,248,1541,335|AuW-L05-satz-von-hall, p.12]]
-> 
-> 
-> 
+> 
+> ![[AuW-script.pdf#page=77&rect=113,294,481,348|AuW-script, p.77]]
+> ![[AuW-L05-satz-von-hall.pdf#page=12&rect=364,540,1467,635|AuW-L05-satz-von-hall, p.12]]
+> counter example for $G$ k-regular, not bipartite without perfect matching
+> ![[AuW-script.pdf#page=79&rect=204,242,393,345|AuW-script, p.79]]
+> ![[AuW-L05-satz-von-hall.pdf#page=12&rect=366,803,1479,896|AuW-L05-satz-von-hall, p.12]]
+> ![[AuW-L05-satz-von-hall.pdf#page=12&rect=366,248,1541,335|AuW-L05-satz-von-hall, p.12]]
+> 
+> 
+> 
 
 >[!quote]- Coloring
 > ![[AuW-script.pdf#page=82&rect=113,245,487,371|AuW-script, p.82]]
@@ -133,6 +133,6 @@ Kantendisjunkte u-v-Pfade :: $\;\not\!\!\!\implies$ intern knoten-disjunkte u-v-
 
 "Jeder Artikulationsknoten grenzt an mindestens eine Brücke." :: stimmt für unendlich viele zusammenhängenden Graphen nicht
 
- "Jede Brücke hat mindestens einen Artikulationsknoten als Endpunkt" :: stimmt für alle zusammenhängenden Graphen ausser endlich vielen Ausnahmen
+ "Jede Brücke hat mindestens einen Artikulationsknoten als Endpunkt" :: stimmt für alle zusammenhängenden Graphen ausser endlich vielen Ausnahmen
 
 
