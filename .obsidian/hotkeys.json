@@ -207,5 +207,13 @@
       ],
       "key": "ArrowDown"
     }
+  ],
+  "editing-toolbar:underline": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "U"
+    }
   ]
 }

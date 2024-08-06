@@ -73,6 +73,11 @@ D(x) &= \begin{cases}
 \end{align}
 $$
 
+**stop conditions DI method**
+- zero in D column
+- we can integrate a row
+- a row repeats (don't care sign)
+
 
 
 
