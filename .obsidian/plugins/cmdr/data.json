@@ -62,13 +62,9 @@
         {
           "action": 0,
           "commandId": "obsidian-hider:toggle-hider-status"
-        },
-        {
-          "action": 0,
-          "commandId": "snippet-commands-obsidian:snippet-command-view-header"
         }
       ],
-      "name": "Toggle Status Bar, Ribbon, View Header",
+      "name": "Toggle Status Bar and Ribbon",
       "icon": "asterisk",
       "startup": false
     },
@@ -77,9 +73,13 @@
         {
           "action": 0,
           "commandId": "editing-toolbar:hide-show-menu"
+        },
+        {
+          "action": 0,
+          "commandId": "snippet-commands-obsidian:snippet-command-view-header"
         }
       ],
-      "name": "Toggle Edit Bar",
+      "name": "Switch Edit Bar / View Header",
       "icon": "star",
       "startup": false
     }
