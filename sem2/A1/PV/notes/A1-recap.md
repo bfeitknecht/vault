@@ -78,6 +78,12 @@ $$
 - we can integrate a row
 - a row repeats (don't care sign)
 
+$$
+\begin{align}
+\overset{\frac{d}{dx}}{\rightarrow} \\
+\overset{\int dx}{\leftarrow}
+\end{align}
+$$
 
 ## That's it
 
