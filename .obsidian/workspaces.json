@@ -941,7 +941,9 @@
                   "state": {
                     "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -18,
+                    "top": 852,
+                    "zoom": 0.8250000000000001
                   }
                 }
               },
@@ -953,22 +955,10 @@
                   "state": {
                     "file": "sem2/AuW/PV/extra/pvw/AuW-pvw-script.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -9,
+                    "top": 846,
+                    "zoom": 1.7991654291454722
                   }
-                }
-              },
-              {
-                "id": "ac0073458c6e5f7f",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
                 }
               },
               {
@@ -979,7 +969,9 @@
                   "state": {
                     "file": "sem2/AuW/PV/extra/AuW-formulas.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -9,
+                    "top": 625,
+                    "zoom": 1.7991654291454722
                   }
                 }
               },
@@ -990,8 +982,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L04-matchings.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 5,
+                    "left": -34,
+                    "top": 195,
+                    "zoom": 0.440625
                   }
                 }
               },
@@ -1003,26 +997,28 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -18,
+                    "top": 851,
+                    "zoom": 0.825
                   }
                 }
               },
               {
-                "id": "d69b9f3b2d8d9abc",
+                "id": "867af794b16f1cf5",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                    "page": 80,
+                    "page": 20,
                     "left": -9,
-                    "top": 605,
+                    "top": 422,
                     "zoom": 1.7991654291454724
                   }
                 }
               },
               {
-                "id": "962cf89a5f7b2870",
+                "id": "4810ef1b5b99b268",
                 "type": "leaf",
                 "state": {
                   "type": "custom-frames-anki",
@@ -1030,7 +1026,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1074,7 +1070,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/PV/notes/AuW-recap.md"
+                    "file": "sem2/AuW/PV/extra/pvw/AuW-pvw-script.pdf"
                   }
                 }
               },
@@ -1084,7 +1080,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
+                    "file": "sem2/AuW/PV/extra/pvw/AuW-pvw-script.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1101,7 +1097,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/PV/notes/AuW-recap.md",
+                    "file": "sem2/AuW/PV/extra/pvw/AuW-pvw-script.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1111,7 +1107,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 249.5
+        "width": 249.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1164,8 +1161,7 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 4
+            ]
           }
         ],
         "direction": "horizontal",
@@ -1187,12 +1183,13 @@
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "flashcards-obsidian:Generate flashcards": true
+          "flashcards-obsidian:Generate flashcards": true,
+          "terminal:Open terminal": false
         }
       },
-      "active": "ac0073458c6e5f7f",
-      "mtime": "2024-08-04T11:01:30+02:00"
+      "active": "b681e567de668d0f",
+      "mtime": "2024-08-06T18:34:57+02:00"
     }
   },
-  "active": "pv-auw"
+  "active": "pv-a1"
 }
