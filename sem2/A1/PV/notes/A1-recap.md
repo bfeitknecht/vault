@@ -87,7 +87,11 @@ $$
 \\
 \frac{u}{u-1} &= 1+\frac{1}{u-1} \\
 \\
-\frac{u-1}{u} &= 1-\frac{1}{u}
+\frac{u-1}{u} &= 1-\frac{1}{u} \\
+\\
+\sin(x)^2 &= \frac{1-\cos(2x)}{2} \\
+\\
+\cos(x)^2 &= \frac{1+\cos(2x)}{2}
 \end{align}
 $$
 
