@@ -76,7 +76,7 @@ $$
 **stop conditions DI method**
 - zero in D column
 - we can integrate a row
-- a row repeats (don't care sign)
+- a row repeats (total sign inverse)
 
 
 $$
@@ -97,7 +97,7 @@ $$
 
 \end{align}
 $$
-§
+
 ## That's it
 
 
