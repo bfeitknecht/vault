@@ -85,13 +85,16 @@ $$
 \\
 &\overset{\int dx}{\leftarrow} \\
 \\
-\frac{u}{u-1} &= 1+\frac{1}{u-1} \\
+\frac{u}{u\pm1} &= 1+\frac{1}{u\pm1} \\
 \\
-\frac{u-1}{u} &= 1-\frac{1}{u} \\
+\frac{u\pm1}{u} &= 1\pm\frac{1}{u} \\
 \\
 \sin(x)^2 &= \frac{1-\cos(2x)}{2} \\
 \\
-\cos(x)^2 &= \frac{1+\cos(2x)}{2}
+\cos(x)^2 &= \frac{1+\cos(2x)}{2} \\
+\\
+%% \frac{1}{(x+a)(x+b)} &= \frac{A}{(x+a)} + \frac{B}{(x+b)}
+
 \end{align}
 $$
 
