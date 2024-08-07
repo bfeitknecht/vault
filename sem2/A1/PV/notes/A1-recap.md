@@ -90,6 +90,7 @@ f_{e/o} \circ g_{e/o} &= h_{e/o}, \quad f_{e} \circ g_{o} = h_{e}, \quad f_{e/o}
 f_{e/o} &\implies f'_{o/e}
 \\
 \sqrt{ a \cdot b } &= \sqrt{ a } \cdot \sqrt{ b } , \ \sqrt{ \frac{a}{b} } = \frac{\sqrt{ a }}{\sqrt{ b }} \\
+\log_{b}(b^k) &=b^{\log_{b}(k)}=k
 
 \end{align}
 $$
