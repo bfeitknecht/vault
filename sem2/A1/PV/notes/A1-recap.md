@@ -7,7 +7,7 @@
 >> - a row repeats (don't care sign)
 >
 > - different directions integrate / derivative
-> - monotonic & bounded $\iff$ convergent
+> - monotonic & bounded $\implies$ convergent
 > - quotient / product rule for derivative
 > - general log / exp rules
 > - arc trig values
