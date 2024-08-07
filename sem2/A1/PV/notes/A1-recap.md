@@ -42,31 +42,26 @@ $$
 | $\cos(\theta)$ | $1$        | $\frac{\sqrt{ 3 }}{2}$        | $\frac{\sqrt{ 2 }}{2}$        | $\frac{1}{2}$                 | $0$                           | $-\frac{1}{2}$                  | $-\frac{\sqrt{ 3 }}{2}$         | $-1$                 | $0$                             |
 | $\tan(\theta)$ | $0$        | $\frac{\sqrt{ 3 }}{3}$        | $1$                           | $\sqrt{ 3 }$                  | $\text{n/a}$                  | $-\sqrt{ 3 }$                   | $-\frac{\sqrt{ 3 }}{3}$         | $0$                  | $\text{n/a}$                    |
 
-$$
-\begin{align}
-\lim_{ x \to 0 } x^x &= \lim_{ x \to 0 } e^{x\ln x} \rightarrow 1 \\
- \\
-x^k &= e^{k \ln x}, x>0 \\
- \\
-D(x) &= \begin{cases}
-1, x \in \mathbb Q \\
-0, x \not\in \mathbb Q
-\end{cases} \quad, \not\in C^{0} \\
-
-\end{align}
-$$
-
-
 **stop conditions DI method**
 - zero in D column
 - we can integrate a row
 - a row repeats (total sign inverse)
 
+	
 $$
 \begin{align}
-\overset{\frac{d}{dx}}{\rightarrow} \\
+&\overset{\frac{d}{dx}}{\rightarrow} \\
 \\
-\overset{\int dx}{\leftarrow} \\
+&\overset{\int dx}{\leftarrow} \\
+\\
+\lim_{ x \to 0 } x^x &= \lim_{ x \to 0 } e^{x\ln x} \rightarrow 1 \\
+\\
+x^k &= e^{k \ln x}, x>0 \\
+\\
+D(x) &= \begin{cases}
+1, x \in \mathbb Q \\
+0, x \not\in \mathbb Q
+\end{cases} \quad, \not\in C^{0} \\
 \\
 \frac{u}{u\pm 1} &= 1 \mp \frac{1}{u \pm 1} \\
 \\
