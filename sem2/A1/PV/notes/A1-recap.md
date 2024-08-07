@@ -75,7 +75,7 @@ $$
 
 $$
 \begin{align}
-f: X \rightarrow Y , g: Y\rightarrow Z
+f: X \overset{I}{\rightarrow} Y ,\ g: Y \overset{S}{\rightarrow} Z \implies f\circ g: X \overset{B}{\rightarrow} Z
 \end{align}
 $$
 
