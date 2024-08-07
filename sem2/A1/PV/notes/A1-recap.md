@@ -1,17 +1,4 @@
-
-
-> [!quote]+ Cheatsheet
->>[!idea]- Stop Conditions DI Method
->> - $0$ in D column
->> - we can integrate a row
->> - a row repeats (don't care sign)
->
-> - different directions integrate / derivative
-> - monotonic & bounded $\implies$ convergent
-> - quotient / product rule for derivative
-> - general log / exp rules
-> - arc trig values
->   
+  
 
 
 >[!attention] Study this more!
@@ -42,10 +29,6 @@ $$
 | $\cos(\theta)$ | $1$        | $\frac{\sqrt{ 3 }}{2}$        | $\frac{\sqrt{ 2 }}{2}$        | $\frac{1}{2}$                 | $0$                           | $-\frac{1}{2}$                  | $-\frac{\sqrt{ 3 }}{2}$         | $-1$                 | $0$                             |
 | $\tan(\theta)$ | $0$        | $\frac{\sqrt{ 3 }}{3}$        | $1$                           | $\sqrt{ 3 }$                  | $\text{n/a}$                  | $-\sqrt{ 3 }$                   | $-\frac{\sqrt{ 3 }}{3}$         | $0$                  | $\text{n/a}$                    |
 
-**stop conditions DI method**
-- zero in D column
-- we can integrate a row
-- a row repeats (total sign inverse)
 
 
 $$
