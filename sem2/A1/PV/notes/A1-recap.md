@@ -37,22 +37,6 @@ $$
 
 
 
-$$
-\begin{align}
-& \frac{d}{dx} [f(x) \cdot g(x)] = f'(x) g(x) + f(x) g'(x) \\
-& \frac{d}{dx} \left[\frac{f(x)}{g(x)}\right] = \frac{f'(x) g(x) - f(x) g'(x)}{[g(x)]^2} \\
-& \frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x) \\
-& \frac{d}{dx} a^x = a^x \ln(a) \\
-& \frac{d}{dx} \log_a(x) = \frac{1}{x \ln(a)} \\
- \\
- \\
-& \int u \, dv = uv - \int v \, du \\
-& \int a^x \, dx = \frac{a^x}{\ln(a)} + C \\
-\end{align}
-$$
-
-
-
 | $\theta$       | $0$<br>$0$ | $30^\circ$<br>$\frac{\pi}{6}$ | $45^\circ$<br>$\frac{\pi}{4}$ | $60^\circ$<br>$\frac{\pi}{3}$ | $90^\circ$<br>$\frac{\pi}{2}$ | $120^\circ$<br>$\frac{2\pi}{3}$ | $150^\circ$<br>$\frac{5\pi}{6}$ | $180^\circ$<br>$\pi$ | $270^\circ$<br>$\frac{3\pi}{2}$ |
 | -------------- | ---------- | ----------------------------- | ----------------------------- | ----------------------------- | ----------------------------- | ------------------------------- | ------------------------------- | -------------------- | ------------------------------- |
 | $\sin(\theta)$ | $0$        | $\frac{1}{2}$                 | $\frac{\sqrt{ 2 }}{2}$        | $\frac{\sqrt{ 3 }}{2}$        | $1$                           | $\frac{\sqrt{ 3 }}{2}$          | $\frac{1}{2}$                   | $0$                  | $-1$                            |
@@ -73,10 +57,11 @@ D(x) &= \begin{cases}
 \end{align}
 $$
 
+
 **stop conditions DI method**
 - zero in D column
 - we can integrate a row
-- a row repeats (don't care sign)
+- a row repeats (total sign inverse)
 
 $$
 \begin{align}
