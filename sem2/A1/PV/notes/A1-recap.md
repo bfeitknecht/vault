@@ -85,7 +85,7 @@ $$
 \\
 &\overset{\int dx}{\leftarrow} \\
 \\
-\frac{u}{u\pm1} &= 1+\frac{1}{u\pm1} \\
+\frac{u}{u\pm1} &= 1\mp\frac{1}{u\pm1} \\
 \\
 \frac{u\pm1}{u} &= 1\pm\frac{1}{u} \\
 \\
