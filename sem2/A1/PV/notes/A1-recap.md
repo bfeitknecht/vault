@@ -75,7 +75,10 @@ $$
 
 $$
 \begin{align}
-f: X \overset{I}{\rightarrow} Y ,\ g: Y \overset{S}{\rightarrow} Z \implies f\circ g: X \overset{B}{\rightarrow} Z
+&f: X \overset{I}{\rightarrow} Y ,\ g: Y \overset{S}{\rightarrow} Z \implies f\circ g: X \overset{B}{\rightarrow} Z \\
+ \\
+&\text{1. zero in $D$ column}
+&\text{1. zero in $D$ column}
 \end{align}
 $$
 
