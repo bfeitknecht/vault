@@ -76,7 +76,6 @@ $$
 $$
 \begin{align}
 f: X \overset{I}{\rightarrow} Y ,\ g: Y \overset{S}{\rightarrow} Z &\implies f\circ g: X \overset{B}{\rightarrow} Z \\
-f: X \overset{I}{\rightarrow} Y &\implies \exists g: Y \overset{I}{\rightarrow} X \\
 \\
 &\text{$DI$ Method:} \\ 
 &\text{0. don't integrate $\ln(x)$} \\
@@ -89,6 +88,9 @@ f_{e/o} \cdot g_{e/o} &= h_{e} ,\quad f_{e/o} \cdot g_{o/e} = h_{o} \\
 \frac{f_{e/o}}{g_{e/o}} &= h_{e} ,\quad \frac{f_{e/o}}{g_{o/e}} = h_{o} \\
 f_{e/o} \circ g_{e/o} &= h_{e/o}, \quad f_{e} \circ g_{o} = h_{e}, \quad f_{e/o} \circ g_{e} = h_{e} \\
 f_{e/o} &\implies f'_{o/e}
+\\
+\sqrt{ a \cdot b } &= \sqrt{ a } \cdot \sqrt{ b } , \ \sqrt{ \frac{a}{b} } = \frac{\sqrt{ a }}{\sqrt{ b }} \\
+
 \end{align}
 $$
 
