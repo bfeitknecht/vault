@@ -47,7 +47,7 @@ $$
 - we can integrate a row
 - a row repeats (total sign inverse)
 
-	
+
 $$
 \begin{align}
 &\overset{\frac{d}{dx}}{\rightarrow} \\
@@ -72,6 +72,15 @@ D(x) &= \begin{cases}
 \cos(x)^2 &= \frac{1+\cos(2x)}{2} \\
 \end{align}
 $$
+
+$$
+\begin{align}
+f: X \rightarrow Y , g: Y\rightarrow Z
+\end{align}
+$$
+
+
+
 
 
 ## That's it
