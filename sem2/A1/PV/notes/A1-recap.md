@@ -76,9 +76,14 @@ $$
 $$
 \begin{align}
 &f: X \overset{I}{\rightarrow} Y ,\ g: Y \overset{S}{\rightarrow} Z \implies f\circ g: X \overset{B}{\rightarrow} Z \\
- \\
-&\text{1. zero in $D$ column}
-&\text{1. zero in $D$ column}
+\\
+&\text{$DI$ Method:} \\ 
+& \text{0. don't integrate $\ln(x)$}
+\\
+&\text{1. zero in $D$ column} \\
+&\text{2. row repeats (sign inverse)} \\
+&\text{3. can integrate a row} \\
+
 \end{align}
 $$
 
