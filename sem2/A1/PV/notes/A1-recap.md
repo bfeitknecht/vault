@@ -66,8 +66,16 @@ $$
 $$
 \begin{align}
 \overset{\frac{d}{dx}}{\rightarrow} \\
- \\
-\overset{\int dx}{\leftarrow}
+\\
+\overset{\int dx}{\leftarrow} \\
+\\
+\frac{u}{u\pm 1} &= 1 \mp \frac{1}{u \pm 1} \\
+\\
+\frac{u\pm 1}{u} &= 1 \pm\frac{1}{u} \\
+\\
+\sin(x)^2 &= \frac{1-\cos(2x)}{2} \\
+\\
+\cos(x)^2 &= \frac{1+\cos(2x)}{2} \\
 \end{align}
 $$
 
