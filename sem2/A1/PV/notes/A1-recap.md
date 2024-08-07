@@ -1,13 +1,9 @@
 
 
 > [!quote]+ Cheatsheet
->>[!idea]- Stop Conditions DI Method
->> - $0$ in D column
->> - we can integrate a row
->> - a row repeats (don't care sign)
 >
 > - different directions integrate / derivative
-> - monotonic & bounded $\iff$ convergent
+> - monotonic & bounded $\implies$ convergent
 > - quotient / product rule for derivative
 > - general log / exp rules
 > - arc trig values
@@ -44,10 +40,6 @@ $$
 & \frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x) \\
 & \frac{d}{dx} a^x = a^x \ln(a) \\
 & \frac{d}{dx} \log_a(x) = \frac{1}{x \ln(a)} \\
- \\
- \\
-& \int u \, dv = uv - \int v \, du \\
-& \int a^x \, dx = \frac{a^x}{\ln(a)} + C \\
 \end{align}
 $$
 
