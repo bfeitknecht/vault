@@ -76,6 +76,7 @@ $$
 $$
 \begin{align}
 f: X \overset{I}{\rightarrow} Y ,\ g: Y \overset{S}{\rightarrow} Z &\implies f\circ g: X \overset{B}{\rightarrow} Z \\
+f: X \overset{I}{\rightarrow} Y &\implies \exists g: Y \overset{I}{\rightarrow} X \\
 \\
 &\text{$DI$ Method:} \\ 
 &\text{0. don't integrate $\ln(x)$} \\
