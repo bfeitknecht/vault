@@ -75,18 +75,36 @@ $$
 
 $$
 \begin{align}
-&f: X \overset{I}{\rightarrow} Y ,\ g: Y \overset{S}{\rightarrow} Z \implies f\circ g: X \overset{B}{\rightarrow} Z \\
+f: X \overset{I}{\rightarrow} Y ,\ g: Y \overset{S}{\rightarrow} Z &\implies f\circ g: X \overset{B}{\rightarrow} Z \\
 \\
-&\text{$DI$ Method:} \\ 
-& \text{0. don't integrate $\ln(x)$}
+\text{$DI$ Method:} \\ 
+\text{0. don't integrate $\ln(x)$} \\
+\text{1. zero in $D$ column} \\
+\text{2. row repeats (sign inverse)} \\
+\text{3. can integrate a row} \\
 \\
-&\text{1. zero in $D$ column} \\
-&\text{2. row repeats (sign inverse)} \\
-&\text{3. can integrate a row} \\
-
+f_{e/o} \pm g_{e/o} &= h_{e/o} \\
+f_{e/o} \cdot g_{e/o} &= h_{e/o}
 \end{align}
 $$
 
+
+- The [product](https://en.wikipedia.org/wiki/Multiplication "Multiplication") of two even functions is an even function.
+    - That implies that product of any number of even functions is an even function as well.
+- The product of two odd functions is an even function.
+- The product of an even function and an odd function is an odd function.
+- The [quotient](https://en.wikipedia.org/wiki/Division_(mathematics) "Division (mathematics)") of two even functions is an even function.
+- The quotient of two odd functions is an even function.
+- The quotient of an even function and an odd function is an odd function.
+
+### Composition
+
+[[edit](https://en.wikipedia.org/w/index.php?title=Even_and_odd_functions&action=edit&section=8 "Edit section: Composition")]
+
+- The [composition](https://en.wikipedia.org/wiki/Function_composition "Function composition") of two even functions is even.
+- The composition of two odd functions is odd.
+- The composition of an even function and an odd function is even.
+- The composition of any function with an even function is even (but not vice versa).
 
 
 
