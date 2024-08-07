@@ -86,17 +86,12 @@ f: X \overset{I}{\rightarrow} Y ,\ g: Y \overset{S}{\rightarrow} Z &\implies f\c
 f_{e/o} \pm g_{e/o} &= h_{e/o} \\
 f_{e/o} \cdot g_{e/o} &= h_{e} ,\quad f_{e/o} \cdot g_{o/e} = h_{o} \\
 \frac{f_{e/o}}{g_{e/o}} &= h_{e} ,\quad \frac{f_{e/o}}{g_{o/e}} = h_{o} \\
-
+f_{e/o} \circ g_{e/o} &= h_{e/o}, \quad f_{e} \circ g_{o} = h_{e}, \quad f_{e/o} \circ g_{e} = h_{e} \\
+f_{e/o} &\implies f'_{o/e}
 \end{align}
 $$
 
 
-
-
-- The [composition](https://en.wikipedia.org/wiki/Function_composition "Function composition") of two even functions is even.
-- The composition of two odd functions is odd.
-- The composition of an even function and an odd function is even.
-- The composition of any function with an even function is even (but not vice versa).
 
 
 
