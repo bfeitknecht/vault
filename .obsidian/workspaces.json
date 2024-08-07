@@ -226,8 +226,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 4,
+                    "left": -12,
+                    "top": 3,
+                    "zoom": 1.2721376901970567
                   }
                 }
               },
@@ -238,8 +240,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-jdickey.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 12,
+                    "left": -12,
+                    "top": 505,
+                    "zoom": 1.2721376901970567
                   }
                 }
               },
@@ -460,6 +464,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "terminal:Open terminal": false,
           "omnisearch:Omnisearch": false,
           "cmdr:Export to PDF": false,
           "workspaces:Manage workspace layouts": false,
@@ -477,7 +482,7 @@
         }
       },
       "active": "a55bc676f617597b",
-      "mtime": "2024-08-04T13:37:38+02:00"
+      "mtime": "2024-08-07T09:01:45+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -1191,5 +1196,5 @@
       "mtime": "2024-08-06T18:34:57+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "pv-auw"
 }
