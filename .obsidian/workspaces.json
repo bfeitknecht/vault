@@ -226,10 +226,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf",
-                    "page": 4,
-                    "left": -12,
-                    "top": 3,
-                    "zoom": 1.2721376901970567
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -240,10 +238,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-jdickey.pdf",
-                    "page": 12,
-                    "left": -12,
-                    "top": 505,
-                    "zoom": 1.2721376901970567
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -464,7 +460,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "terminal:Open terminal": false,
+          "terminal:Open terminal": true,
           "omnisearch:Omnisearch": false,
           "cmdr:Export to PDF": false,
           "workspaces:Manage workspace layouts": false,
@@ -482,7 +478,7 @@
         }
       },
       "active": "a55bc676f617597b",
-      "mtime": "2024-08-07T09:01:45+02:00"
+      "mtime": "2024-08-07T09:12:32+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -513,9 +509,7 @@
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jannis.pdf",
                     "page": 1,
-                    "left": 79,
-                    "top": 661,
-                    "zoom": 1.39
+                    "zoom": 1
                   }
                 }
               },
@@ -539,9 +533,7 @@
                   "state": {
                     "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
                     "page": 1,
-                    "left": -11,
-                    "top": 544,
-                    "zoom": 1.373076923076923
+                    "zoom": 1
                   }
                 }
               }
@@ -689,6 +681,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "terminal:Open terminal": true,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -706,7 +699,7 @@
         }
       },
       "active": "bc8f0dc41f8794f0",
-      "mtime": "2024-08-01T13:50:22+02:00"
+      "mtime": "2024-08-07T09:12:43+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -910,6 +903,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "terminal:Open terminal": true,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -927,7 +921,7 @@
         }
       },
       "active": "0db6341d94fad4bf",
-      "mtime": "2024-08-02T12:18:51+02:00"
+      "mtime": "2024-08-07T09:12:50+02:00"
     },
     "pv-auw": {
       "main": {
@@ -946,9 +940,7 @@
                   "state": {
                     "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf",
                     "page": 1,
-                    "left": -18,
-                    "top": 852,
-                    "zoom": 0.8250000000000001
+                    "zoom": 1
                   }
                 }
               },
@@ -960,9 +952,9 @@
                   "state": {
                     "file": "sem2/AuW/PV/extra/pvw/AuW-pvw-script.pdf",
                     "page": 1,
-                    "left": -9,
+                    "left": -4,
                     "top": 846,
-                    "zoom": 1.7991654291454722
+                    "zoom": 1.7991654291454724
                   }
                 }
               },
@@ -974,9 +966,7 @@
                   "state": {
                     "file": "sem2/AuW/PV/extra/AuW-formulas.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 625,
-                    "zoom": 1.7991654291454722
+                    "zoom": 1
                   }
                 }
               },
@@ -987,10 +977,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/slides/AuW-L04-matchings.pdf",
-                    "page": 5,
-                    "left": -34,
-                    "top": 195,
-                    "zoom": 0.440625
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -1002,9 +990,7 @@
                   "state": {
                     "file": "sem2/AuW/VRL/extra/nwehrli/AuW-w05-conditional.pdf",
                     "page": 1,
-                    "left": -18,
-                    "top": 851,
-                    "zoom": 0.825
+                    "zoom": 1
                   }
                 }
               },
@@ -1015,10 +1001,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                    "page": 20,
-                    "left": -9,
-                    "top": 422,
-                    "zoom": 1.7991654291454724
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -1075,7 +1059,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/AuW/PV/extra/pvw/AuW-pvw-script.pdf"
+                    "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf"
                   }
                 }
               },
@@ -1085,7 +1069,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/AuW/PV/extra/pvw/AuW-pvw-script.pdf",
+                    "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1102,7 +1086,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/AuW/PV/extra/pvw/AuW-pvw-script.pdf",
+                    "file": "sem2/AuW/PV/summaries/AuW-summary-nwehrli.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1112,8 +1096,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 249.5,
-        "collapsed": true
+        "width": 249.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1189,12 +1172,12 @@
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
           "flashcards-obsidian:Generate flashcards": true,
-          "terminal:Open terminal": false
+          "terminal:Open terminal": true
         }
       },
-      "active": "b681e567de668d0f",
-      "mtime": "2024-08-06T18:34:57+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-08-07T09:12:59+02:00"
     }
   },
-  "active": "pv-auw"
+  "active": "pv-a1"
 }

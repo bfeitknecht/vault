@@ -80,9 +80,12 @@ $$
 
 $$
 \begin{align}
-\overset{\frac{d}{dx}}{\rightarrow} \\
- \\
-\overset{\int dx}{\leftarrow}
+&\overset{\frac{d}{dx}}{\rightarrow} \\
+\\
+&\overset{\int dx}{\leftarrow} \\
+\frac{u}{u-1} &= 1+\frac{1}{u-1} \\
+\\
+\frac{u-1}{u} &= 1-\frac{1}{u}
 \end{align}
 $$
 
