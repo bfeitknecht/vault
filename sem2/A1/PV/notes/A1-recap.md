@@ -1,9 +1,13 @@
 
 
 > [!quote]+ Cheatsheet
+>>[!idea]- Stop Conditions DI Method
+>> - $0$ in D column
+>> - we can integrate a row
+>> - a row repeats (don't care sign)
 >
 > - different directions integrate / derivative
-> - monotonic & bounded $\implies$ convergent
+> - monotonic & bounded $\iff$ convergent
 > - quotient / product rule for derivative
 > - general log / exp rules
 > - arc trig values
@@ -40,6 +44,10 @@ $$
 & \frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x) \\
 & \frac{d}{dx} a^x = a^x \ln(a) \\
 & \frac{d}{dx} \log_a(x) = \frac{1}{x \ln(a)} \\
+ \\
+ \\
+& \int u \, dv = uv - \int v \, du \\
+& \int a^x \, dx = \frac{a^x}{\ln(a)} + C \\
 \end{align}
 $$
 
@@ -68,25 +76,13 @@ $$
 **stop conditions DI method**
 - zero in D column
 - we can integrate a row
-- a row repeats (total sign inverse)
-
+- a row repeats (don't care sign)
 
 $$
 \begin{align}
-&\overset{\frac{d}{dx}}{\rightarrow} \\
-\\
-&\overset{\int dx}{\leftarrow} \\
-\\
-\frac{u}{u\pm1} &= 1\mp\frac{1}{u\pm1} \\
-\\
-\frac{u\pm1}{u} &= 1\pm\frac{1}{u} \\
-\\
-\sin(x)^2 &= \frac{1-\cos(2x)}{2} \\
-\\
-\cos(x)^2 &= \frac{1+\cos(2x)}{2} \\
-\\
-%% \frac{1}{(x+a)(x+b)} &= \frac{A}{(x+a)} + \frac{B}{(x+b)}
-
+\overset{\frac{d}{dx}}{\rightarrow} \\
+ \\
+\overset{\int dx}{\leftarrow}
 \end{align}
 $$
 
