@@ -16,7 +16,7 @@
   "spellcheckDictionary": [
     "LUTs"
   ],
-  "showRibbon": false,
+  "showRibbon": true,
   "propertiesInDocument": "source",
   "trashOption": "local",
   "showUnsupportedFiles": false,
