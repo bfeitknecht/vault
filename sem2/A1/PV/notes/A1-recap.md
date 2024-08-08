@@ -80,6 +80,13 @@ $$
 
 
 
+$$
+\begin{align}
+P &= ax^2+bx+c  \\
+D &= b^2-4ac
+\end{align}
+$$
+
 
 
 
