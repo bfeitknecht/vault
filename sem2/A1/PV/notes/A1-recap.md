@@ -83,7 +83,11 @@ $$
 $$
 \begin{align}
 P &= ax^2+bx+c  \\
-D &= b^2-4ac
+D &= b^2-4ac, \quad \begin{cases}
+D < 0 \implies (x+a)^2+b^2 \\
+D = 0 \implies (x+a)^2 \\
+D > 0 \implies (x-a)(x-b)
+\end{cases}
 \end{align}
 $$
 
