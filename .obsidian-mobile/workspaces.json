@@ -13,6 +13,24 @@
                 "id": "414cefd1625961b6",
                 "type": "leaf",
                 "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "HOME.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "a54a89ada0d6b8b4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2c0fd76f8285e764",
+                "type": "leaf",
+                "state": {
                   "type": "graph",
                   "state": {}
                 }
@@ -75,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HOME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "HOME.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "HOME.md"
+              }
             }
           }
         ],
@@ -114,13 +136,14 @@
           "command-palette:Open command palette": false,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "switcher:Open quick switcher": false
         }
       },
       "active": "414cefd1625961b6",
-      "mtime": "2024-06-29T13:58:44+02:00"
+      "mtime": "2024-07-31T18:00:01+02:00"
     },
-    "pv - a1": {
+    "pv-a1": {
       "main": {
         "id": "ef0204964e2b9162",
         "type": "split",
@@ -187,7 +210,7 @@
                     "page": 1,
                     "left": 0,
                     "top": 842,
-                    "zoom": 1.7298698418884688
+                    "zoom": 1.3594534300055774
                   }
                 }
               }
@@ -227,18 +250,16 @@
             }
           },
           {
-            "id": "42c07f44c42622d6",
+            "id": "29224e4cae311926",
             "type": "leaf",
             "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ],
-        "currentTab": 0
+        "currentTab": 0,
+        "pinned": true
       },
       "right": {
         "id": "c78b528fca72c487",
@@ -297,9 +318,9 @@
         }
       },
       "active": "82273011004dfe6f",
-      "mtime": "2024-06-24T14:25:59+02:00"
+      "mtime": "2024-07-31T17:56:40+02:00"
     },
-    "pv - auw": {
+    "pv-auw": {
       "main": {
         "id": "ef0204964e2b9162",
         "type": "split",
@@ -319,17 +340,8 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "6d4e3106c2e866fa",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -375,7 +387,8 @@
             }
           }
         ],
-        "currentTab": 0
+        "currentTab": 0,
+        "pinned": true
       },
       "right": {
         "id": "c78b528fca72c487",
@@ -387,6 +400,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem2/AuW/PV/cx/tour-de-suisse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -403,6 +417,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sem2/AuW/PV/cx/tour-de-suisse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -413,7 +428,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sem2/AuW/PV/cx/tour-de-suisse.md"
+              }
             }
           }
         ],
@@ -429,9 +446,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "ecbc2e5b89ec0b52",
-      "mtime": "2024-06-29T13:58:08+02:00"
+      "active": "051c192f95b781e4",
+      "mtime": "2024-07-31T17:56:55+02:00"
     }
   },
-  "active": "pv - a1"
+  "active": "clean"
 }
