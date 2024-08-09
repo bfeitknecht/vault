@@ -153,7 +153,7 @@ ___
 >> The performance of the spinlock described above is quite poor for many threads, because all threads fight for the bus (memory bus) during the call of `getAndSet()` and the cache coherency protocol needs to invalidate cached copies of the lock on other processors. Therefore, we can improve performance by only calling `getAndSet()` / `compareAndSet()` when we noticed that the lock is available (i.e. testing first):
 >> ![[PProg-summary-rböhr.pdf#page=27&rect=90,630,415,740|PProg-summary-rböhr, p.27]]
 >> 
->>> [!idea]+ TATAS Lock with Backoff
+>>> [!idea]+ TATAS Lock with Backoff (BackOffLock)
 >>> In a TATAS lock, there are still too many threads fighting for access to the same resource. Therefore we set a thread to sleep for a random duration when the acquisition of the lock fails. With an exponential backoff, we double the duration every time the acquisition fails.
 >>> This leads to a heavy improvement in performance:
 >>> ![[PProg-summary-rböhr.pdf#page=27&rect=80,327,558,529|PProg-summary-rböhr, p.27]]
@@ -171,8 +171,11 @@ ___
 >> No work is done, but with constant state changes. Imagine two people in narrow hallway and continuously moving out of each other's way into each other's way. CPU usage high (due to constant locking mechanism state change)
 >> 
 >
->> [!idea]- Resource Starvation
+>> [!idea]- Starvation
 >> Situation where a process never gets the chance to run, by pure bad luck or by some of its property (low priority).
+>
+>> [!idea]- Unfairness
+>> Fair locks are FIFO (first come, first serve)
 
 
 
