@@ -86,8 +86,8 @@ ___
 >$$
 >Where, as the number of processors increases to infinity, the speedup approaches the reciprocal of the program's serial fraction. $P \overset{\infty}{\rightarrow} S_{\infty} \leq \frac{1}{\mathbf{f}}$.
 >Amdahl’s law is based on the assumption that the problem size is fixed and that the time is minimized.
-
-**A**
+>
+> **A**mdahl **P**essimisistic
 
 
 ## Gustafson's Law
@@ -103,8 +103,8 @@ ___
 >&= P - \mathbf{f}(P-1)
 >\end{align}
 >$$
-
-
+> 
+> **G**ustafson **O**ptimistic
 
 
 ## Locks
