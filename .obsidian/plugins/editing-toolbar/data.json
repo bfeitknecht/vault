@@ -26,16 +26,6 @@
           "id": "editing-toolbar:header4-text",
           "name": "Header 4",
           "icon": "header-4"
-        },
-        {
-          "id": "editing-toolbar:header5-text",
-          "name": "Header 5",
-          "icon": "header-5"
-        },
-        {
-          "id": "editing-toolbar:header6-text",
-          "name": "Header 6",
-          "icon": "header-6"
         }
       ]
     },

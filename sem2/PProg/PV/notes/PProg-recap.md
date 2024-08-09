@@ -228,7 +228,8 @@ ___
 
 ## Anki
 
-`ExecutorService` :: `submit(task)` returns `Future<T>`
+`ExecutorService` :: `submit(task)` returns `Future<T>`, 
 `Runnable` :: implements `void run()`, no return type
- `Callable<T>` :: implements `T call()` returns `T`
- 
+`Callable<T>` :: implements `T call()` returns `T`
+
+`ForkJoinPool` :: `invoke(task)`
