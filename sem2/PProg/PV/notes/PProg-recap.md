@@ -15,7 +15,6 @@ aber konzeptuel (bakery lock: lexikographische ordnung, etc.)
 
 ___
 
-	
 
 ## Threads, Concurrency, Parallelism
 
