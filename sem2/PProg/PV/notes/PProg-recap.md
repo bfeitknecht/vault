@@ -221,6 +221,14 @@ ___
 
 ## ExecutorService, ThreadPool, ForkJoin Framework
 
+> [!quote]- `ExecutorService`Framework
+> ![[PProg-pvw-script.pdf#page=12&rect=65,226,532,305|PProg-pvw-script, p.11]]
+> 
+> `ExecutorService` :: `submit(task) -> Future<T> result`, `try{result.get();} catch(Exception e){}`
+>
+> `Runnable` :: override `void run()`, start with `start()`
+> `Callable<T>` :: override `T call()`, start with `start()` 
+
 
 
 
@@ -228,10 +236,7 @@ ___
 
 ## Anki
 
-`ExecutorService` :: `submit(task) -> Future<T> result`, `try{result.get();} catch(Exception e){}`
 
-`Runnable` :: override `void run()`, start with `start()`
-`Callable<T>` :: override `T call()`, start with `start()`
 
 `ForkJoinPool` :: `invoke(task)`, start with `task.fork()`
 
