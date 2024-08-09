@@ -160,7 +160,10 @@ ___
 >>> 
 >
 >> [!idea]- Reentrant Lock
+>> ![[PProg-pvw-script.pdf#page=28&rect=69,268,527,294|PProg-pvw-script, p.27]]
 >> ![[PProg-summary-rböhr.pdf#page=23&rect=82,244,555,290|PProg-summary-rböhr, p.23]]
+>
+>
 
 
 
