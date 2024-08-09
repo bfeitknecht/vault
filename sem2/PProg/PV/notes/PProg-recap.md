@@ -227,5 +227,8 @@ ___
 
 
 ## Anki
- `Runnable` :: no return type
- `Call
+
+`ExecutorService` :: `submit(task)` returns `Future<T>`
+`Runnable` :: implements `void run()`, no return type
+ `Callable<T>` :: implements `T call()` returns `T`
+ 
