@@ -228,11 +228,13 @@ ___
 
 ## Anki
 
-`ExecutorService` :: `submit(task)`, call `run()` in task, returns `Future<T> result`, need to `try{result.get();} catch(Exception e){}
+`ExecutorService` :: `submit(task)`, `task.start() -> Future<T> result`, `try{result.get();} catch(Exception e){}`
+
 `Runnable` :: override `void run()`, no return type
 `Callable<T>` :: override `T call()` returns `T`
 
-`ForkJoinPool` :: `invoke(task)`
+`ForkJoinPool` :: `invoke(task)`, `task.fork() -> task.join()
+
 `RecursiveAction` :: override `compute()` no return type
 `RecursiveTask<T>` :: override `compute()` returns `T`
 
