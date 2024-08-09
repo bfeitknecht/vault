@@ -164,7 +164,7 @@ ___
 > [!quote]+ Problems with Locking
 > 
 >> [!idea]- Deadlock
->> Cycle exists in dependency graph, threads can't enter critical section because of mutual exclusion (blocking each other). Imagine, street crossing with cars at every road. No work is done. CPU usage will be low.
+>> Cycle exists in dependency graph, threads can't enter critical section because of mutual exclusion (blocking each other). Imagine, street crossing with cars at every road. No work is done. CPU usage will be low. Deadlock free means, "more than one thread wants a lock => one is guaranteed to acquire it within finite time"
 >>
 >
 >> [!idea]- Livelock
@@ -172,10 +172,14 @@ ___
 >> 
 >
 >> [!idea]- Starvation
->> Situation where a process never gets the chance to run, by pure bad luck or by some of its property (low priority).
+>> Situation where a thread never gets the chance to run, by pure bad luck or by some of its property (low priority). Starvation free means, "more than one thread wants lock => all threads that want it are guaranteed to acquire it <u>within finite time</u>"
+>> 
 >
 >> [!idea]- Unfairness
->> Fair locks are FIFO (first come, first serve)
+>> Fair locks are FIFO (first come, first serve). "We consider a thread P to be “first-in” compared to a competing thread Q, when P finishes its doorway section before Q starts its doorway section."
+>> 
+>
+>
 
 
 
