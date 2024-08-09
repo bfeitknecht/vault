@@ -141,7 +141,7 @@
         },
         {
           "id": "editing-toolbar:editor:attach-file",
-          "name": "attach file",
+          "name": "insert attachment []",
           "icon": "paperclip"
         }
       ]
