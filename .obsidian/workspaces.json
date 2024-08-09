@@ -220,19 +220,31 @@
             "type": "tabs",
             "children": [
               {
-                "id": "a769293961913d36",
+                "id": "a55bc676f617597b",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "pdf",
                   "state": {
-                    "file": "sem2/A1/PV/extra/A1-derivative-integral-rules.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf",
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
               {
-                "id": "a55bc676f617597b",
+                "id": "6322d2e6bb03babe",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "var/other/LATEX.pdf",
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              },
+              {
+                "id": "cea96903f7d6507a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -242,23 +254,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "eb671393942620db",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-dcamenisch.pdf",
-                    "page": 9,
-                    "left": 190,
-                    "top": 519,
-                    "zoom": 1.53
-                  }
-                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -339,7 +337,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 276.5
+        "width": 276.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -397,7 +396,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -417,8 +417,8 @@
           "graph:Open graph view": false
         }
       },
-      "active": "d4d9e5cf2cd5e94b",
-      "mtime": "2024-08-07T10:48:12+02:00"
+      "active": "cea96903f7d6507a",
+      "mtime": "2024-08-09T09:16:22+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -864,5 +864,5 @@
       "mtime": "2024-08-07T09:12:50+02:00"
     }
   },
-  "active": "pv-a1"
+  "active": "pv-pprog"
 }

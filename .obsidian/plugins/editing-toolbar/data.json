@@ -223,7 +223,7 @@
   "cMenuFontColor": "#2DC26B",
   "cMenuBackgroundColor": "#d3f8b6",
   "autohide": false,
-  "custom_bg1": "#FFB78B8C",
+  "custom_bg1": "#00000000",
   "custom_bg2": "#CDF4698C",
   "custom_bg3": "#A0CCF68C",
   "custom_bg4": "#F0A7D88C",
