@@ -157,7 +157,10 @@ ___
 >>> In a TATAS lock, there are still too many threads fighting for access to the same resource. Therefore we set a thread to sleep for a random duration when the acquisition of the lock fails. With an exponential backoff, we double the duration every time the acquisition fails.
 >>> This leads to a heavy improvement in performance:
 >>> ![[PProg-summary-rböhr.pdf#page=27&rect=80,327,558,529|PProg-summary-rböhr, p.27]]
+>>> 
 >
+>> [!idea]- Reentrant Lock
+>> ![[PProg-summary-rböhr.pdf#page=23&rect=82,244,555,290|PProg-summary-rböhr, p.23]]
 
 
 
