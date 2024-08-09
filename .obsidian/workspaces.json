@@ -90,9 +90,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -101,7 +99,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -118,7 +115,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -208,217 +204,7 @@
         }
       },
       "active": "84d6179a41f3d7a6",
-      "mtime": "2024-08-07T10:48:16+02:00"
-    },
-    "pv-a1": {
-      "main": {
-        "id": "ef0204964e2b9162",
-        "type": "split",
-        "children": [
-          {
-            "id": "f15d9de97348739a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a55bc676f617597b",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/A1/PV/cheatsheets/A1-cheatsheet-bf.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "6322d2e6bb03babe",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "var/other/LATEX.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "cea96903f7d6507a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 2
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "fe28d63e32c3168b",
-        "type": "split",
-        "children": [
-          {
-            "id": "fddab58c0769d063",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5f4cf158045f14fe",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "a4d06b175b09ba53",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "0f56d709fdb24392",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md"
-                  }
-                }
-              },
-              {
-                "id": "9555539c5a447147",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "c2e93a1f3197b81a",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "sem2/A1/PV/notes/A1-recap.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 276.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "4be59d580df31d93",
-        "type": "split",
-        "children": [
-          {
-            "id": "a9eab3abde570e06",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2be78f1a6e9d94d5",
-                "type": "leaf",
-                "state": {
-                  "type": "vertical-tabs-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "b14014a5400a500b",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
-                }
-              },
-              {
-                "id": "ee946e358c8111ed",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "d4d9e5cf2cd5e94b",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "6b868fb11112a06c",
-                "type": "leaf",
-                "state": {
-                  "type": "toggl-report",
-                  "state": {}
-                }
-              }
-            ],
-            "currentTab": 3
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "omnisearch:Omnisearch": false,
-          "cmdr:Export to PDF": false,
-          "workspaces:Manage workspace layouts": false,
-          "obsidian-statusbar-pomo:Start pomodoro": false,
-          "switcher:Open quick switcher": true,
-          "command-palette:Open command palette": true,
-          "templates:Insert template": true,
-          "zk-prefixer:Create new unique note": true,
-          "pdf-plus:PDF++: Toggle auto-copy": true,
-          "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true,
-          "obsidian-shellcommands:Shell commands: Custom variables": true,
-          "flashcards-obsidian:Generate flashcards": true,
-          "graph:Open graph view": false
-        }
-      },
-      "active": "cea96903f7d6507a",
-      "mtime": "2024-08-09T09:16:22+02:00"
+      "mtime": "2024-08-09T11:30:03+02:00"
     },
     "pv-ddca": {
       "main": {
