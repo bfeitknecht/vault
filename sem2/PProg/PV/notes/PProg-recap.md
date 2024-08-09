@@ -232,6 +232,6 @@ ___
 `Runnable` :: implements `void run()`, no return type
 `Callable<T>` :: implements `T call()` returns `T`
 
-`ForkJoinPool` :: `invoke(task)`, override `compute()` 
-`RecursiveAction` :: doesn't return anything
-`RecursiveTask<T>` :: returns `T`
+`ForkJoinPool` :: `invoke(task)`
+`RecursiveAction` :: override `compute()` doesn't return anything
+`RecursiveTask<T>` :: override `compute()` returns `T`
