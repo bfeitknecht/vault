@@ -219,7 +219,7 @@ ___
 >- Linearizability implies sequential consistency
 > 
 
-## ExecutorService, ThreadPool, ForkJoin Framework
+## ExecutorService, ForkJoinPool Framework
 
 > [!quote]- `ExecutorService`Framework
 > ![[PProg-pvw-script.pdf#page=12&rect=65,226,532,305|PProg-pvw-script, p.11]]
@@ -229,7 +229,13 @@ ___
 > `Runnable` :: override `void run()`, start with `start()`
 > `Callable<T>` :: override `T call()`, start with `start()` 
 
-
+> [!quote]- `ForkJoinPool` Framework
+>![[PProg-pvw-script.pdf#page=13&rect=62,73,537,231|PProg-pvw-script, p.12]]
+>
+> `ForkJoinPool` :: `invoke(task)`, start with `task.fork()`
+>
+> `RecursiveAction` :: override `compute()`, `fork() -> void join()`
+> `RecursiveTask<T>` :: override `compute()`, `fork() -> T join()`
 
 
 
@@ -238,9 +244,6 @@ ___
 
 
 
-`ForkJoinPool` :: `invoke(task)`, start with `task.fork()`
 
-`RecursiveAction` :: override `compute()`, `fork() -> void join()`
-`RecursiveTask<T>` :: override `compute()`, `fork() -> T join()`
 
 
