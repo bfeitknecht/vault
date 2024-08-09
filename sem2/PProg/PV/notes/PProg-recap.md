@@ -1,3 +1,8 @@
+---
+cards-deck: sem2::PProg::bf
+---
+
+
 >[!todo]-
 > - [x] add gustafson's law ➕ 2024-07-08 ✅ 2024-07-09
 > - [x] add amdahl's law ➕ 2024-07-08 ✅ 2024-07-09
@@ -219,3 +224,8 @@ ___
 
 
 
+
+
+## Anki
+ `Runnable` :: no return type
+ `Call
