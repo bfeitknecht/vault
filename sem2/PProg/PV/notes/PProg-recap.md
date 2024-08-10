@@ -263,7 +263,7 @@ Linarizability implies :: sequential consistency.
 
 Sequential consistency and quiescent consistency :: are incomparable!
 
-Locks guarantee: {1: mutual exclusion} and {2: deadlock freedom}, might optionally be {3: starvation free} and/or {4: fair (FIFO)}.
+Locks guarantee: {1: mutual exclusion}, {2: deadlock freedom} and {3: starvation freedom}. Might also be {4: fair (FIFO)}.
 
 Semaphore :: lock that allows up to $n$ threads in the critical section at a time. 
 

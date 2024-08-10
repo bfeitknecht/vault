@@ -262,7 +262,7 @@
   "newPDFFolderPath": "",
   "rectEmbedStaticImage": false,
   "rectImageFormat": "file",
-  "rectImageExtension": "webp",
+  "rectImageExtension": "jpg",
   "zoomToFitRect": false,
   "rectEmbedResolution": 100,
   "includeColorWhenCopyingRectLink": true,

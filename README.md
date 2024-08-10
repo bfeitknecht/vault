@@ -97,6 +97,10 @@ obsidian://advanced-uri?vault=vault&workspace=HOME
 
 
 
-obsidian://advanced-uri?vault=vault&commandid=theme%253Ause-dark
+problem with anki:
 
-obsidian://advanced-uri?vault=vault&commandid=theme%253Ause-light
+want to paste pdf selection as image, so it's synced to the web etc.
+
+hmm
+
+
