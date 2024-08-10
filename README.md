@@ -51,19 +51,17 @@ ___
 > snippet-commands-obsidian: 1ms
 
 
-
-
-
-> [!problem] git problem
+> [!problem]- launch terminal from obsidian messes up git
 > when hotkey to launch terminal, not in git??
 > not a git directory, eth (top root) also not git
 > but if another session is active (navigate to vault or eth), git works
+> 
+
+
+>[!note]- paste pdf selection as image to anki 
+> want to paste pdf selection as image, so it's synced to the web etc.
 
 
 
-
-problem with anki:
-want to paste pdf selection as image, so it's synced to the web etc.
-hmm
 
 
