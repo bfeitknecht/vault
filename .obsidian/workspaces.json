@@ -488,9 +488,7 @@
                   "state": {
                     "file": "sem2/PProg/VRL/extra/PProg-terminoligy.pdf",
                     "page": 1,
-                    "left": -10,
-                    "top": 846,
-                    "zoom": 1.4446350305657545
+                    "zoom": 1
                   }
                 }
               },
@@ -549,9 +547,21 @@
                   "type": "custom-frames-anki",
                   "state": {}
                 }
+              },
+              {
+                "id": "26f0e2a3cf820b2d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "var/other/Anki.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 8
           }
         ],
         "direction": "vertical"
@@ -595,7 +605,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/PProg/PV/notes/PProg-recap.md"
+                    "file": "var/other/Anki.md"
                   }
                 }
               },
@@ -605,7 +615,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
+                    "file": "var/other/Anki.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -622,7 +632,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
+                    "file": "var/other/Anki.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -632,7 +642,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 282.5
+        "width": 282.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -710,8 +721,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "0db6341d94fad4bf",
-      "mtime": "2024-08-10T21:08:01+02:00"
+      "active": "26f0e2a3cf820b2d",
+      "mtime": "2024-08-10T21:24:48+02:00"
     }
   },
   "active": "pv-pprog"

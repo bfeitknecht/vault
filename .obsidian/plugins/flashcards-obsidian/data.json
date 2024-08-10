@@ -6,7 +6,7 @@
   "contextSeparator": " > ",
   "deck": "var",
   "folderBasedDeck": true,
-  "flashcardsTag": "card",
+  "flashcardsTag": "anki",
   "inlineSeparator": "::",
   "inlineSeparatorReverse": ":::",
   "defaultAnkiTag": "",
