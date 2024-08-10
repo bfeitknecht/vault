@@ -256,7 +256,7 @@ Barrier on $n$ threads :: only lets all $n$ threads pass, when all $n$ have arri
 
 `ForkJoinPool` methods: {1: `invoke(RecursiveTask<T> || RecursiveAction)`} to start a task's implemented {2: `compute()`} method, which can call {3: `fork()`} to add work to the threadpool and {4: `join()`} to get the result (need to wrap in `try{}catch(){}` block!).
 
-`ExecutorService` methods: {1: `submit(Thread)`} to start a task's implemented {2: `void run()` or `T call()`} method, which can then {3: `exs.submit(t)` or `t.start()`} to spawn another task and {4: `t.get()`} (need to wrap in `try{}catch(){}` block!) to try to obtain the {5: `Future<T>`} that is the result of the spawned task `t`.
+`ExecutorService` methods: {1: `submit(Thread || Callable || Runnable<T>)`} to start a task's implemented {2: `void run()` or `T call()`} method, which can then {3: `exs.submit(t)` or `t.start()`} to spawn another task and {4: `t.get()`} (need to wrap in `try{}catch(){}` block!) to try to obtain the {5: `Future<T>`} that is the result of the spawned task `t`.
 
 
 ![[pprog-exs-fjp.png]]
