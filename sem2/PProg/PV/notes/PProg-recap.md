@@ -210,8 +210,9 @@ ___
 > [!quote]+ What is a History?
 > ![[pprog-history-criteria.png]]
 
-> [!quote]+ What is sequential consistency? #card
+> [!quote]+ What is sequential consistency? ::
 > ![[PProg-pvw-script.pdf#page=38&rect=75,90,520,230&color=01 yellow|PProg-pvw-script, p.37]]
+> 
 >- All instructions are executed in order
 >- Every write operation becomes instantaneously visible throughout the system
 >> [!idea]+ Inventor's two cents
@@ -263,9 +264,9 @@ Semaphore :: lock that allows up to $n$ threads in the critical section at a tim
 Barrier on $n$ threads :: only lets all $n$ threads pass, when all $n$ have arrived at barrier, like a checkpoint with a threshold.
 
 
-`ForkJoinPool` methods: {1: `invoke(RecursiveTask<T> || RecursiveAction)`} to start a task's implemented {2: `compute()`} method, which can call {3: `fork()`} to add work to the threadpool and {4: `join()` (returns `T`! for `RecursiveTask`)} to get the result (need to wrap in `try{}catch(){}` block!).
+`ForkJoinPool` methods: {1: `invoke(RecursiveTask<T> || RecursiveAction)`} to start a task's implemented {2: `compute()`} method, which can call {3: `fork()`} to add work to the threadpool and {4: `join()` (returns `T`! for `RecursiveTask`)} to get the result (need to wrap in try/catch block!).
 
-`ExecutorService` methods: {1: `submit(Thread || Callable || Runnable<T>)`} to start a task's implemented {2: `void run()` or `T call()`} method, which can then {3: `exs.submit(t)` or `t.start()`} to spawn another task and {4: `t.get()`} (need to wrap in `try{}catch(){}` block!) to try and obtain the {5: `Future<T>`} that represents the result of the spawned task `t`.
+`ExecutorService` methods: {1: `submit(Thread || Callable || Runnable<T>)`} to start a task's implemented {2: `void run()` or `T call()`} method, which can then {3: `exs.submit(t)` or `t.start()`} to spawn another task and {4: `t.get()`} (need to wrap in try/catch block!) to try and obtain the {5: `Future<T>`} that represents the result of the spawned task `t`.
 
 
 ![[pprog-exs-fjp.png]]
