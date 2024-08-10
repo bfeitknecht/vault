@@ -2,7 +2,7 @@
   "attachPath": {
     "attachmentRoot": "",
     "saveAttE": "obsFolder",
-    "attachmentPath": "${notepath}/${notename}",
+    "attachmentPath": "${notename}",
     "attachFormat": "IMG-${date}",
     "type": "GLOBAL"
   },

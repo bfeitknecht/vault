@@ -488,7 +488,9 @@
                   "state": {
                     "file": "sem2/PProg/VRL/extra/PProg-terminoligy.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -10,
+                    "top": 846,
+                    "zoom": 1.4446350305657545
                   }
                 }
               },
@@ -630,8 +632,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 282.5,
-        "collapsed": true
+        "width": 282.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -710,8 +711,8 @@
         }
       },
       "active": "0db6341d94fad4bf",
-      "mtime": "2024-08-10T20:52:57+02:00"
+      "mtime": "2024-08-10T21:08:01+02:00"
     }
   },
-  "active": "pv-pprog"
+  "active": "HOME"
 }
