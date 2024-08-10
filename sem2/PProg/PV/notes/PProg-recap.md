@@ -112,7 +112,7 @@ ___
 > **G**ustafson **O**ptimistic
 
 
-## Locks
+## Locks, Semaphores, Barriers
 
 > [!quote]+ What is a Lock?
 > Locks are primitives with atomic operations: 
@@ -171,7 +171,6 @@ ___
 >
 
 
-
 > [!quote]+ Problems with Locking
 > 
 >> [!idea]+ Deadlock
@@ -193,6 +192,16 @@ ___
 >> 
 >
 >
+
+
+>[!quote]- What is a Semaphore?
+
+>[!quote]- What is a Barrier?
+
+
+## Lock Methods `wait()`, `notify()`
+
+![[PProg-pvw-script.pdf#page=29&rect=68,410,528,530|PProg-pvw-script, p.28]]
 
 
 
