@@ -34,3 +34,6 @@ disco, disco, ==party==, party!
 a, b, c, {d}, {1:e}, {2:f}, g, ...
 
 
+
+it can't do cards in lists in callouts very well (it adds the list dot to the card)...
+

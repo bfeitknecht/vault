@@ -128,7 +128,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 240.5
+        "width": 240.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -190,7 +191,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -208,7 +208,7 @@
         }
       },
       "active": "84d6179a41f3d7a6",
-      "mtime": "2024-08-10T15:57:45+02:00"
+      "mtime": "2024-08-10T20:52:47+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -451,10 +451,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
-                    "page": 39,
-                    "left": -9,
-                    "top": 566,
-                    "zoom": 1.7991654291454724
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -700,7 +698,7 @@
         }
       },
       "active": "0db6341d94fad4bf",
-      "mtime": "2024-08-10T20:49:29+02:00"
+      "mtime": "2024-08-10T20:52:57+02:00"
     }
   },
   "active": "HOME"

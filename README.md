@@ -1,3 +1,7 @@
+---
+cards-deck: test
+---
+
 
 # vault
 
@@ -34,9 +38,6 @@ obsidian://advanced-uri?vault=vault&commandid=cmdr%253Amacro-0
 
 
 ```
-
-
-customize <span style="background:#fff88f">editing toolbar</span> (don't need a lot of stuff, other stuff is more important)
 
 
 
@@ -102,5 +103,8 @@ problem with anki:
 want to paste pdf selection as image, so it's synced to the web etc.
 
 hmm
+
+
+
 
 
