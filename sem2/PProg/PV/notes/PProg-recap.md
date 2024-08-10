@@ -235,16 +235,14 @@ ___
 > [!quote]- `ExecutorService`Framework
 > ![[PProg-pvw-script.pdf#page=12&rect=65,226,532,305|PProg-pvw-script, p.11]]
 > 
-> `ExecutorService` :: `submit(task) -> Future<T> result`, `try{result.get();} catch(Exception e){}`
->
-> `Runnable` :: override `void run()`, start with `start()`
+> Tasks:
+> `Runnable` :: `void run()`, start with `start()`
 > `Callable<T>` :: override `T call()`, start with `start()` 
 
 > [!quote]- `ForkJoinPool` Framework
 >![[PProg-pvw-script.pdf#page=13&rect=62,73,537,231|PProg-pvw-script, p.12]]
 >
-> `ForkJoinPool` :: `invoke(task)`, start with `task.fork()`
->
+>Tasks:
 > `RecursiveAction` :: override `compute()`, `fork() -> void join()`
 > `RecursiveTask<T>` :: override `compute()`, `fork() -> T join()`
 
@@ -264,9 +262,9 @@ Semaphore :: lock that allows up to $n$ threads in the critical section at a tim
 Barrier on $n$ threads :: only lets all $n$ threads pass, when all $n$ have arrived at barrier, like a checkpoint with a threshold.
 
 
-`ForkJoinPool` methods: {1: `invoke(RecursiveTask<T> || RecursiveAction)`} to start a task's implemented {2: `compute()`} method, which can call {3: `fork()`} to add work to the threadpool and {4: `join()` (returns `T`! for `RecursiveTask`)} to get the result (need to wrap in try/catch block!).
+`ForkJoinPool` methods: {1: `invoke(RecursiveTask<T> || RecursiveAction)`} to start a task's implemented {2: `compute()`} method, which can call {3: `fork()`} to add work to the threadpool and {4: `join()` (returns `T`! for `RecursiveTask`)} to get the result (need to wrap in try/catch block!).
 
-`ExecutorService` methods: {1: `submit(Thread || Callable || Runnable<T>)`} to start a task's implemented {2: `void run()` or `T call()`} method, which can then {3: `exs.submit(t)` or `t.start()`} to spawn another task and {4: `t.get()`} (need to wrap in try/catch block!) to try and obtain the {5: `Future<T>`} that represents the result of the spawned task `t`.
+`ExecutorService` methods: {1: `submit(Thread || Callable || Runnable<T>)`} to start a task's implemented {2: `void run()` or `T call()`} method, which can then {3: `exs.submit(t)` or `t.start()`} to spawn another task and {4: `t.get()`} (need to wrap in try/catch block!) to try and obtain the {5: `Future<T>`} that represents the result of the spawned task `t`.
 
 
 ![[pprog-exs-fjp.png]]
