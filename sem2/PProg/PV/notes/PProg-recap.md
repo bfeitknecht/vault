@@ -242,9 +242,14 @@ ___
 
 ## Anki
 
+Linarizability implies :: sequential consistency
+
+Barrier on $n$ threads :: lets threads pass, when n
+
+
 `ForkJoinPool` methods: {1: `invoke(RecursiveTask<T> || RecursiveAction)`} to start a task's implemented {2: `compute()`} method, which can call {3: `fork()`} to add work to the threadpool and {4: `join()`} to get the result (need to wrap in `try{}catch(){}` block!)
 
-`ExecutorService` methods: {1: `submit(Thread)`} to start a task's implemented {2: `run()`} method, which can call {} {}
+`ExecutorService` methods: {1: `submit(Thread)`} to start a task's implemented {2: `run()`} method, which can call {3: `submit()`} to spawn another task and {4: `t.get()`} (need to wrap in `try{}catch(){}` block!) to try to obtain the {5: `Future<T>`} that is the result of the spawned task.
 
 
-![[Screenshot 2024-08-09 at 20.03.07.png]]
+![[pprog-exs-fjp.png]]

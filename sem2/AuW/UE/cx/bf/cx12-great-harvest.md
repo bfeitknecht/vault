@@ -155,7 +155,7 @@ id4 ---|"?/13"| idT
 
 ```
 
-![[cx12-great-harvest-graph.png]]
+![[auw-cx12-great-harvest-graph.png]]
 
 
 ## Code

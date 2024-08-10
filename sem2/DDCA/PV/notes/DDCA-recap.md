@@ -227,7 +227,7 @@ ___
 >> wire[8:0] b; 	// b[0] .. b[7], little endian, only use for arrays
 >> ```
 >> little vs big endian
->> ![[endians.jpg]]
+>> ![[ddca-endians.jpg]]
 >> 
 >> Concatenating by `{}`
 >> ```verilog

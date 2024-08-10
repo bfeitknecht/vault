@@ -51,7 +51,7 @@ cards-deck: sem2::AuW::bf
 > ![[AuW-L03-TSP-PvsNP.pdf#page=5&rect=119,11,931,87|AuW-L03-TSP-PvsNP, p.5]]
 >>[!quote]+ $d$-hypercube
 >> Contains Hamilton tour, label vertices with $d$ bit long gray code schema, changing only one bit at a time.
->> ![[gray-codes.jpg|200]]
+>> ![[auw-gray-codes.jpg|200]]
 >> 
 >
 

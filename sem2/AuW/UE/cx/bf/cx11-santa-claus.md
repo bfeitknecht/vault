@@ -1,11 +1,11 @@
 
 ## Literature
-![[network-flow-multi-source&sink.png]]
-![[network-flow-multi-source&sink-img.png]]
+![[auw-network-flow-multi-source&sink.png]]
+![[auw-network-flow-multi-source&sink-img.png]]
 
 
-![[network-flow-vertex-capacity.png]]
-![[network-flow-vertex-capacity-img.png]]
+![[auw-network-flow-vertex-capacity.png]]
+![[auw-network-flow-vertex-capacity-img.png]]
 
 
 ## Graph
