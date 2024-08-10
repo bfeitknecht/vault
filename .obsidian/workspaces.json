@@ -227,9 +227,7 @@
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jannis.pdf",
                     "page": 1,
-                    "left": -16,
-                    "top": 798,
-                    "zoom": 0.9541032676477926
+                    "zoom": 1
                   }
                 }
               },
@@ -252,10 +250,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script-FS24.pdf",
-                    "page": 57,
-                    "left": -9,
-                    "top": 712,
-                    "zoom": 1.75
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -267,8 +263,8 @@
                   "state": {
                     "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
                     "page": 4,
-                    "left": -14,
-                    "top": 490,
+                    "left": -143,
+                    "top": 55,
                     "zoom": 1.0346153846153847
                   }
                 }
@@ -355,7 +351,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 352.5
+        "width": 352.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -436,7 +433,7 @@
         }
       },
       "active": "30afe6b1ad02bdfe",
-      "mtime": "2024-08-10T15:52:09+02:00"
+      "mtime": "2024-08-10T16:50:06+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -699,5 +696,5 @@
       "mtime": "2024-08-10T14:18:59+02:00"
     }
   },
-  "active": "pv-ddca"
+  "active": "pv-pprog"
 }
