@@ -215,8 +215,11 @@ ___
 > 
 >- All instructions are executed in order
 >- Every write operation becomes instantaneously visible throughout the system
+>  
 >> [!idea]+ Inventor's two cents
 >> "...the results of any execution is the same as if the operations of all the processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program."
+>
+>
 
 > [!quote]+ What is quiescent consistency?
 > - requires non-overlapping operations to appear to take effect in their realtime order, but overlapping operations might be reordered
@@ -225,6 +228,8 @@ ___
 > Sequential consistency and quiescent consistency are incomparable, there exist sequentially consistent executions that are not quiescently consistent, and vice versa.
 
 > [!quote]+ What is linearizability?
+> ![[PProg-pvw-script.pdf#page=39&rect=72,398,520,468|PProg-pvw-script, p.38]]
+> 
 >- Linearizability provides the illusion that each operation applied by concurrent processes takes effect instantaneously between its invocation and its response
 >- "can we project onto a single history without reordering"
 >- Linearizability implies sequential consistency
@@ -241,12 +246,13 @@ ___
 > `Callable<T>` :: override `T call()`, `Callable<T> c; c.start()` -> `Future<T> f` -> `f.get()` (try/catch!)
 > 
 
-> [!quote]- What is the ForkJoinPool Framework
->![[PProg-pvw-script.pdf#page=13&rect=62,73,537,231|PProg-pvw-script, p.12]]
+> [!quote]- What is the ForkJoinPool Framework?
+> `ForkJoinPool` Tasks :: ![[PProg-pvw-script.pdf#page=13&rect=62,73,537,231|PProg-pvw-script, p.12]]
 >
->Tasks:
 > `RecursiveAction` :: override `compute()`, `fork() -> void join()`
+> 
 > `RecursiveTask<T>` :: override `compute()`, `fork() -> T join()`
+> 
 
 
 
