@@ -219,6 +219,7 @@
   "pdf-plus:rectangular-selection": [
     {
       "modifiers": [
+        "Alt",
         "Ctrl"
       ],
       "key": "4"
