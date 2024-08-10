@@ -232,14 +232,16 @@ ___
 
 ## ExecutorService, ForkJoinPool Framework
 
-> [!quote]- `ExecutorService`Framework
-> ![[PProg-pvw-script.pdf#page=12&rect=65,226,532,305|PProg-pvw-script, p.11]]
+> [!quote]- What is the ExecutorService Framework?
 > 
-> Tasks:
-> `Runnable` :: `void run()`, start with `start()`
-> `Callable<T>` :: override `T call()`, start with `start()` 
+> `ExecutorService` Tasks :: ![[PProg-pvw-script.pdf#page=12&rect=65,226,532,305|PProg-pvw-script, p.11]]
+> 
+> `Runnable` :: override `void run()`, `Runnable r; r.start()` -> `Future<T> f` -> `f.get()`(try/catch!)
+> 
+> `Callable<T>` :: override `T call()`, `Callable<T> c; c.start()` -> `Future<T> f` -> `f.get()` (try/catch!)
+> 
 
-> [!quote]- `ForkJoinPool` Framework
+> [!quote]- What is the ForkJoinPool Framework
 >![[PProg-pvw-script.pdf#page=13&rect=62,73,537,231|PProg-pvw-script, p.12]]
 >
 >Tasks:
