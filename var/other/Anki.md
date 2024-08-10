@@ -1,5 +1,5 @@
 ---
-cards-deck: var::test
+card-deck: var::test
 ---
 
 
@@ -16,14 +16,14 @@ this is what it can do
 
 
 ### front 
-#card
+#anki
 back
 
-### from the front #card/reverse 
+### from the front #anki/reverse 
 from the back
 
 ### spacer
-take a breath. #card/spaced
+take a breath. #anki/spaced
 
 ### inside list
 - P=NP :: who knows
@@ -40,4 +40,9 @@ a, b, c, {d}, {1:e}, {2:f}, g, ...
 ### other
 
 regular images work.
+
+
+
+# test #card
+alright
 
