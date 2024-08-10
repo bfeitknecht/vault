@@ -500,33 +500,33 @@
                 }
               },
               {
-                "id": "8c190b64c3d16523",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/PProg/PV/summaries/PProg-summary-rböhr.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
                 "id": "8396abccad5e1f29",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/exams/PProg-FS20-exam.pdf",
-                    "page": 4,
-                    "left": -9,
-                    "top": 635,
-                    "zoom": 1.7991654291454724
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              },
+              {
+                "id": "6c6af225eed4bd0e",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/PProg/VRL/extra/kuhn/PProg-w05-kuhn.pdf",
+                    "page": 71,
+                    "left": -207,
+                    "top": 411,
+                    "zoom": 1
                   }
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -570,7 +570,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/PProg/PV/exams/PProg-FS20-exam.pdf"
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md"
                   }
                 }
               },
@@ -580,7 +580,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/PProg/PV/exams/PProg-FS20-exam.pdf",
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -597,7 +597,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/PProg/PV/exams/PProg-FS20-exam.pdf",
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -683,12 +683,13 @@
           "zk-prefixer:Create new unique note": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
         }
       },
-      "active": "8396abccad5e1f29",
-      "mtime": "2024-08-10T10:43:12+02:00"
+      "active": "0db6341d94fad4bf",
+      "mtime": "2024-08-10T14:18:59+02:00"
     }
   },
-  "active": "pv-pprog"
+  "active": "pv-ddca"
 }
