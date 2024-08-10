@@ -1,0 +1,1 @@
+{"path":"var/attachments/PProg-recap/IMG-20240810210644496.png","text":"Call from non-fork/join clients Call from within fork/join computations Arrange async execution execute(ForkJoinTask) fork() Await and obtain result invoke(ForkJoinTask) invoke() Arrange exec and obtain Future submit(ForkJoinTask) fork() (ForkJoinTasks are Futures)","libVersion":"0.3.2","langs":"deu+eng"}
