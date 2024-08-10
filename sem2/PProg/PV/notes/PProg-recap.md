@@ -244,7 +244,11 @@ ___
 
 Linarizability implies :: sequential consistency
 
-Barrier on $n$ threads :: lets threads pass, when n
+Barrier on $n$ threads :: only lets threads pass, when n are at barrier, like a checkpoint
+
+Semaphore :: idfk
+
+Locks guarantee {1: mutual exclusion} and {2: deadlock freedom} and {3: starvation freedom}. Might optionally be {4: fair, FIFO}.
 
 
 `ForkJoinPool` methods: {1: `invoke(RecursiveTask<T> || RecursiveAction)`} to start a task's implemented {2: `compute()`} method, which can call {3: `fork()`} to add work to the threadpool and {4: `join()`} to get the result (need to wrap in `try{}catch(){}` block!)
