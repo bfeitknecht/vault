@@ -1,7 +1,3 @@
----
-cards-deck: test
----
-
 
 # vault
 
@@ -14,36 +10,11 @@ git clone https://github.com/bs10x/vault.git
 ```
 
 
+___
 
+## Problems
 
-## Automation
-
-execute save workspace layout:
-```
-open --background "obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave"
-```
-
-
-```
-# tab title bar
-obsidian://advanced-uri?vault=vault&commandid=snippet-commands-obsidian%253Asnippet-command-toggle-view-header
-
-# edit bar
-obsidian://advanced-uri?vault=vault&commandid=editing-toolbar%253Ahide-show-menu
-
-# status and ribbon
-obsidian://advanced-uri?vault=vault&commandid=cmdr%253Amacro-0
-
-
-
-
-```
-
-
-
-## Lazy Load Plugins
-
->[!attention]- Time To Load
+>[!attention]- Time To Load Plugins
 > Total plugin setup: 639ms
 > code-styler: 64ms
 > cm-editor-syntax-highlight-obsidian: 60ms
@@ -80,13 +51,6 @@ obsidian://advanced-uri?vault=vault&commandid=cmdr%253Amacro-0
 > snippet-commands-obsidian: 1ms
 
 
-```qrcode
-https://www.youtube.com/watch?v=dQw4w9WgXcQ
-```
-
-
-obsidian://advanced-uri?vault=vault&workspace=HOME
-
 
 
 
@@ -99,13 +63,7 @@ obsidian://advanced-uri?vault=vault&workspace=HOME
 
 
 problem with anki:
-
 want to paste pdf selection as image, so it's synced to the web etc.
-
 hmm
 
 
-
-
-
-![[IMG-20240810210813614.png]]
