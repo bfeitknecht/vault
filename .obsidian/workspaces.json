@@ -220,18 +220,6 @@
             "type": "tabs",
             "children": [
               {
-                "id": "7bb5751edd19196c",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
                 "id": "1d0948b7d09212a3",
                 "type": "leaf",
                 "state": {
@@ -239,7 +227,9 @@
                   "state": {
                     "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jannis.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -16,
+                    "top": 798,
+                    "zoom": 0.9541032676477926
                   }
                 }
               },
@@ -256,19 +246,35 @@
                 }
               },
               {
+                "id": "a031790745939548",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script-FS24.pdf",
+                    "page": 57,
+                    "left": -9,
+                    "top": 712,
+                    "zoom": 1.75
+                  }
+                }
+              },
+              {
                 "id": "30afe6b1ad02bdfe",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 4,
+                    "left": -14,
+                    "top": 490,
+                    "zoom": 1.0346153846153847
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -312,7 +318,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md"
+                    "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf"
                   }
                 }
               },
@@ -322,7 +328,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
+                    "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -339,7 +345,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/PV/notes/DDCA-recap.md",
+                    "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -402,7 +408,8 @@
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
@@ -411,6 +418,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -427,8 +435,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "bc8f0dc41f8794f0",
-      "mtime": "2024-08-09T16:34:48+02:00"
+      "active": "30afe6b1ad02bdfe",
+      "mtime": "2024-08-10T15:52:09+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -691,5 +699,5 @@
       "mtime": "2024-08-10T14:18:59+02:00"
     }
   },
-  "active": "pv-ddca"
+  "active": "HOME"
 }
