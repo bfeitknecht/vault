@@ -8,5 +8,7 @@
   "minimal-style@@pdf-page-style": "pdf-shadows-on",
   "minimal-style@@file-header-visibility": "minimal-tab-title-hover",
   "minimal-style@@file-header-justify": "center",
-  "personal@@show-view-header": true
+  "personal@@show-view-header": true,
+  "pdf-plus@@hide-pdf-toolbar-in-hover-editor": true,
+  "pdf-plus@@hide-pdf-embed-toolbar": true
 }

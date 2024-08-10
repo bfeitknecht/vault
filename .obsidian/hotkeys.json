@@ -215,5 +215,13 @@
       ],
       "key": "U"
     }
+  ],
+  "pdf-plus:rectangular-selection": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "4"
+    }
   ]
 }
