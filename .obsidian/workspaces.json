@@ -442,38 +442,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
-                    "page": 13,
-                    "left": -9,
-                    "top": 367,
-                    "zoom": 1.7991654291454724
-                  }
-                }
-              },
-              {
-                "id": "8c190b64c3d16523",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/PProg/PV/summaries/PProg-summary-rböhr.pdf",
-                    "page": 23,
-                    "left": -9,
-                    "top": 401,
-                    "zoom": 1.8000000000000003
-                  }
-                }
-              },
-              {
-                "id": "e9dd04d300b3c28a",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/PProg/VRL/extra/PProg-terminoligy.pdf",
-                    "page": 2,
-                    "left": -9,
-                    "top": 670,
-                    "zoom": 1.8001211375636104
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -490,6 +460,18 @@
                 }
               },
               {
+                "id": "e9dd04d300b3c28a",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/PProg/VRL/extra/PProg-terminoligy.pdf",
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              },
+              {
                 "id": "9c6996071c5e3e2b",
                 "type": "leaf",
                 "state": {
@@ -497,9 +479,7 @@
                   "state": {
                     "file": "sem2/PProg/PV/extra/locks-overview.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 846,
-                    "zoom": 1.7991654291454722
+                    "zoom": 1
                   }
                 }
               },
@@ -511,9 +491,19 @@
                   "state": {
                     "file": "sem2/PProg/PV/extra/consistency-models.pdf",
                     "page": 1,
-                    "left": -10,
-                    "top": 833,
-                    "zoom": 1.4438680544822908
+                    "zoom": 1
+                  }
+                }
+              },
+              {
+                "id": "8c190b64c3d16523",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/PProg/PV/summaries/PProg-summary-rböhr.pdf",
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -524,15 +514,15 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/exams/PProg-FS20-exam.pdf",
-                    "page": 3,
+                    "page": 4,
                     "left": -9,
-                    "top": 836,
+                    "top": 635,
                     "zoom": 1.7991654291454724
                   }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 6
           }
         ],
         "direction": "vertical"
@@ -576,7 +566,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/PProg/PV/notes/PProg-recap.md"
+                    "file": "sem2/PProg/PV/exams/PProg-FS20-exam.pdf"
                   }
                 }
               },
@@ -586,7 +576,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
+                    "file": "sem2/PProg/PV/exams/PProg-FS20-exam.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -603,7 +593,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
+                    "file": "sem2/PProg/PV/exams/PProg-FS20-exam.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -692,9 +682,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "0db6341d94fad4bf",
-      "mtime": "2024-08-09T16:34:40+02:00"
+      "active": "8396abccad5e1f29",
+      "mtime": "2024-08-10T10:43:12+02:00"
     }
   },
-  "active": "pv-pprog"
+  "active": "HOME"
 }
