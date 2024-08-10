@@ -242,6 +242,9 @@ ___
 
 ## Anki
 
+`ForkJoinPool` methods: {1: `invoke(RecursiveTask<T> || RecursiveAction)`} to start a task's implemented {2: `compute()`} method, which can call {3: `fork()`} to add work to the threadpool and {4: `join()`} to get the result (need to wrap in `try{}catch(){}` block!)
+
+`ExecutorService` methods: {1: submit} {} {} {}
 
 
 
