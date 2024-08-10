@@ -172,7 +172,7 @@ ___
 
 
 > [!quote]+ Problems with Locking
-> 
+> ![[PProg-pvw-script.pdf#page=36&rect=66,657,534,769&color=01 yellow|PProg-pvw-script, p.35]]
 >> [!idea]+ Deadlock
 >> Cycle exists in dependency graph, threads can't enter critical section because of mutual exclusion (blocking each other). Imagine, street crossing with cars at every road. No work is done. CPU usage will be low.
 >> Deadlock free means, "more than one thread wants a lock => one is guaranteed to acquire it *within finite time*"
@@ -210,7 +210,8 @@ ___
 > [!quote]+ What is a History?
 > ![[pprog-history-criteria.png]]
 
-> [!quote]+ What is sequential consistency?
+> [!quote]+ What is sequential consistency? #card
+> ![[PProg-pvw-script.pdf#page=38&rect=75,90,520,230&color=01 yellow|PProg-pvw-script, p.37]]
 >- All instructions are executed in order
 >- Every write operation becomes instantaneously visible throughout the system
 >> [!idea]+ Inventor's two cents

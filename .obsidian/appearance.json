@@ -8,8 +8,7 @@
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "page-breaks",
-    "toggle-view-header",
-    "card-tag"
+    "toggle-view-header"
   ],
   "monospaceFontFamily": "CommitMono Nerd Font Mono",
   "theme": "system",
