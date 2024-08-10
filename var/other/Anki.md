@@ -1,5 +1,5 @@
 ---
-card-deck: var::test
+cards-deck: var::test
 ---
 
 
@@ -9,10 +9,6 @@ card-deck: var::test
 > - need to delete deck before regeneration
 > - multi line answer works as long as no empty line break
 >   
-
-
-___
-this is what it can do
 
 
 ### front 
@@ -38,11 +34,10 @@ a, b, c, {d}, {1:e}, {2:f}, g, ...
 
 
 ### other
-
 regular images work.
 
 
 
 # test #card
-alright
+alright, now this shouldn't make a card
 
