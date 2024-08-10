@@ -19,7 +19,7 @@ back
 from the back
 
 ### spacer
-take a breath. #anki/spaced
+take a break. #anki/spaced
 
 ### inside list
 - P=NP :: who knows
@@ -30,7 +30,12 @@ disco, disco, ==party==, party!
 
 a, b, c, {d}, {1:e}, {2:f}, g, ...
 
-
+### inside callout
+> [!quote]+ Sample Callout
+> hello from the :: callout
+> 
+> does a ==cloze== work here too?
+> 
 
 
 ### other
@@ -38,6 +43,6 @@ regular images work.
 
 
 
-# test #card
+### test #card
 alright, now this shouldn't make a card
 
