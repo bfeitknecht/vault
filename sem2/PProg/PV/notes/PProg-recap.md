@@ -278,3 +278,11 @@ Barrier on $n$ threads :: only lets all $n$ threads pass, when all $n$ have arri
 
 
 ![[pprog-exs-fjp.png]]
+
+
+Cosensus Protocol:
+
+Valid :: one of the submitted
+Wait-free :: finite time to conclusion
+Consistent :: all agree on the same
+
