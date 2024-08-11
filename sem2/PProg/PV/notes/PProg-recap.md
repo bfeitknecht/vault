@@ -147,6 +147,9 @@ ___
 >> The bakery algorithm works like the numbering system in a postal office. Every thread has a label indicating when he is allowed to enter the critical section (when he has the lowest label). It is possible that multiple processes have the same label, in which case the thread id gets compared.
 >> ![[PProg-summary-rböhr.pdf#page=26&rect=87,534,556,741|PProg-summary-rböhr, p.26]]
 >> 
+>> ![[PProg-pvw-script.pdf#page=26&rect=209,545,386,786|PProg-pvw-script, p.25]]
+>> 
+>> 
 >
 >> [!idea]- Spinlock
 >> It's very easy to implement spinlock with TAS:
@@ -278,6 +281,9 @@ Barrier on $n$ threads :: only lets all $n$ threads pass, when all $n$ have arri
 
 Cosensus protocol has to be: {1: valid, one of the applicable choices}, {2: wait-free, finite time to conclusion} and {3: consistent, all agree on the same choice}.
 
+Starvation freedom implies :: deadlock freedom.
+
+Deadlock freedom and fair implies :: starvation freedom.
 
 
 ![[pprog-exs-fjp.png]]
