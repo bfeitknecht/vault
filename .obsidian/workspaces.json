@@ -275,8 +275,8 @@
                   "state": {
                     "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
                     "page": 4,
-                    "left": -143,
-                    "top": 55,
+                    "left": -14,
+                    "top": 59,
                     "zoom": 1.0346153846153847
                   }
                 }
@@ -363,8 +363,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 352.5,
-        "collapsed": true
+        "width": 352.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -427,7 +426,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -444,8 +442,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "30afe6b1ad02bdfe",
-      "mtime": "2024-08-10T16:50:06+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-08-11T16:01:03+02:00"
     },
     "pv-pprog": {
       "main": {
@@ -463,10 +461,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
-                    "page": 14,
-                    "left": -9,
-                    "top": 761,
-                    "zoom": 1.7991654291454724
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -490,9 +486,7 @@
                   "state": {
                     "file": "sem2/PProg/VRL/extra/PProg-terminoligy.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 776,
-                    "zoom": 1.8001211375636101
+                    "zoom": 1
                   }
                 }
               },
@@ -533,16 +527,26 @@
                 }
               },
               {
+                "id": "a12e5d69b949434d",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/PProg/VRL/extra/kuhn/PProg-w06-kuhn.pdf",
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              },
+              {
                 "id": "6c6af225eed4bd0e",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/PProg/VRL/extra/kuhn/PProg-w05-kuhn.pdf",
+                    "file": "sem2/PProg/VRL/extra/kuhn/PProg-w07-kuhn.pdf",
                     "page": 1,
-                    "left": -11,
-                    "top": 409,
-                    "zoom": 1.4875000000000003
+                    "zoom": 1
                   }
                 }
               }
@@ -628,7 +632,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 282.5
+        "width": 382.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -707,7 +711,7 @@
         }
       },
       "active": "0db6341d94fad4bf",
-      "mtime": "2024-08-11T10:41:18+02:00"
+      "mtime": "2024-08-11T16:04:15+02:00"
     }
   },
   "active": "pv-pprog"
