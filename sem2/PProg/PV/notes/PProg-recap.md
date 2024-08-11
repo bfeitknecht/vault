@@ -277,7 +277,7 @@ Barrier on $n$ threads :: only lets all $n$ threads pass, when all $n$ have arri
 
 
 
-
+![[PProg-recap-927D452C15762F5F8869E97D075C8803.png]]
 
 
 ![[pprog-exs-fjp.png]]
