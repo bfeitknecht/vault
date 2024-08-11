@@ -126,6 +126,8 @@ ___
 > [!quote]+ Some Common Types of Locks
 >> [!idea]- Reentrant Lock
 >>  Re-entrant lock (recursive lock) stores the thread that currently holds it and a count. If the current holder calls acquire, it does not block but increments the count. On release, the count is decremented and if the count is 0, the lock becomes not held.
+>>  
+>> ![[PProg-pvw-script.pdf#page=28&rect=69,268,527,294|PProg-pvw-script, p.27]]
 >> 
 >
 >> [!idea]- Decker Lock
@@ -141,6 +143,7 @@ ___
 >> 2. Indicate that the other thread is allowed to go first. The thread that arrives at this statement first will enter the critical section first.
 >> 3. Wait until the other thread is either no longer interested in entering the critical section or until we’re allowed to go first.
 >> 4. Indicate that we’re no longer interested.
+>> 
 >> ![[PProg-pvw-script.pdf#page=24&rect=207,380,386,472|PProg-pvw-script, p.23]]
 >> It’s easy to see that the Peterson Lock satisfies the requirements for correct implementation of a critical section. In fact, it’s even starvation-free. One can prove this using a short proof by contradiction.
 >> 
@@ -166,7 +169,7 @@ ___
 >> When implementing mutual exclusion, there are two different choices on what to do when we cannot immediately acquire a lock. The first choice would be to continue trying to acquire the lock. This is called spinning or busy waiting. The FilterLock and BakeryLock are such spinlocks. As spinning takes up CPU cycles, this approach only makes sense on a multiprocessor system.
 >> The second choice would be to ask the operating system’s scheduler to schedule another thread on your processor until the lock becomes available again. This is called blocking. Because switching from thread to another is expensive, blocking only makes sense if you expect the lock delay to be long.
 >> 
->>>[!idea]- TASLock 
+>>> [!idea]- TASLock 
 >>> It's very easy to implement spinlock with TAS:
 >>> ![[PProg-summary-rböhr.pdf#page=26&rect=83,380,279,479|PProg-summary-rböhr, p.26]]
 >>> ![[PProg-pvw-script.pdf#page=26&rect=101,116,267,188|PProg-pvw-script, p.25]]
@@ -175,22 +178,18 @@ ___
 >>> ![[PProg-summary-rböhr.pdf#page=26&rect=81,242,362,341|PProg-summary-rböhr, p.26]]
 >>> Not fair.
 >> 
->
->> [!idea]- TATAS Lock
->> The performance of the spinlock described above is quite poor for many threads, because all threads fight for the bus (memory bus) during the call of `getAndSet()` and the cache coherency protocol needs to invalidate cached copies of the lock on other processors. Therefore, we can improve performance by only calling `getAndSet()` / `compareAndSet()` when we noticed that the lock is available (i.e. testing first):
->> ![[PProg-summary-rböhr.pdf#page=27&rect=90,630,415,740|PProg-summary-rböhr, p.27]]
->> ![[PProg-pvw-script.pdf#page=26&rect=327,108,495,191|PProg-pvw-script, p.25]]
->> 
->>> [!idea]+ TATAS Lock with Backoff (BackOffLock)
->>> In a TATAS lock, there are still too many threads fighting for access to the same resource. Therefore we set a thread to sleep for a random duration when the acquisition of the lock fails. With an exponential backoff, we double the duration every time the acquisition fails.
->>> This leads to a heavy improvement in performance:
->>> ![[PProg-summary-rböhr.pdf#page=27&rect=80,327,558,529|PProg-summary-rböhr, p.27]]
+>>
+>>> [!idea]- TATAS Lock
+>>> The performance of the spinlock described above is quite poor for many threads, because all threads fight for the bus (memory bus) during the call of `getAndSet()` and the cache coherency protocol needs to invalidate cached copies of the lock on other processors. Therefore, we can improve performance by only calling `getAndSet()` / `compareAndSet()` when we noticed that the lock is available (i.e. testing first):
+>>> ![[PProg-summary-rböhr.pdf#page=27&rect=90,630,415,740|PProg-summary-rböhr, p.27]]
+>>> ![[PProg-pvw-script.pdf#page=26&rect=327,108,495,191|PProg-pvw-script, p.25]]
 >>> 
->
->> [!idea]- Reentrant Lock
->> ![[PProg-pvw-script.pdf#page=28&rect=69,268,527,294|PProg-pvw-script, p.27]]
->> ![[PProg-summary-rböhr.pdf#page=23&rect=82,244,555,290|PProg-summary-rböhr, p.23]]
->
+>>>> [!idea]+ TATAS Lock with Backoff (BackOffLock)
+>>>> In a TATAS lock, there are still too many threads fighting for access to the same resource. Therefore we set a thread to sleep for a random duration when the acquisition of the lock fails. With an exponential backoff, we double the duration every time the acquisition fails.
+>>>> This leads to a heavy improvement in performance:
+>>>> ![[PProg-summary-rböhr.pdf#page=27&rect=80,327,558,529|PProg-summary-rböhr, p.27]]
+>>>
+>>
 >
 
 
