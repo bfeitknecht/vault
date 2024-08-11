@@ -3,7 +3,7 @@
     "attachmentRoot": "",
     "saveAttE": "obsFolder",
     "attachmentPath": "",
-    "attachFormat": "${notename}-${md5}",
+    "attachFormat": "${notename}-${md5}-${date}",
     "type": "GLOBAL"
   },
   "dateFormat": "",

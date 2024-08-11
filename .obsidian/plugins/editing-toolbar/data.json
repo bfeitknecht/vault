@@ -181,6 +181,11 @@
           "icon": "chevrons-up-down",
           "allowPreview": true,
           "allowProperties": true
+        },
+        {
+          "id": "obsidian-shellcommands:shell-command-blauwcovle",
+          "name": "Delete most recently added attachment",
+          "icon": "delete"
         }
       ]
     },
