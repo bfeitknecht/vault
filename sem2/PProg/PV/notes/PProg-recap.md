@@ -305,6 +305,9 @@ Starvation freedom implies :: deadlock freedom.
 Deadlock freedom and fair implies :: starvation freedom.
 
 
+Volatile :: a write to a volatile field *happens-before* alll subsequent reads of that field.
+
+
 ![[pprog-exs-fjp.png]]
 
 
