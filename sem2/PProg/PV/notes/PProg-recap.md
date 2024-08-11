@@ -199,7 +199,7 @@ ___
 >[!quote]- What is a Barrier?
 
 
-## Lock Methods `wait()`, `notify()`
+## Lock Methods, `wait()`, `notify()`
 
 ![[PProg-pvw-script.pdf#page=29&rect=68,410,528,530|PProg-pvw-script, p.28]]
 
@@ -268,7 +268,7 @@ Linarizability implies :: sequential consistency.
 
 Sequential consistency and quiescent consistency :: are incomparable!
 
-Locks guarantee: {1: mutual exclusion}, {2: deadlock freedom} and {3: starvation freedom}. Might also be {4: fair (FIFO)}.
+Locks guarantee: {1: mutual exclusion}, {2: deadlock freedom} and {3: starvation freedom}. Might also be {4: fair (FIFO, i.e. first-come-first-serve)}.
 
 Semaphore :: lock that allows up to $n$ threads in the critical section at a time. 
 
