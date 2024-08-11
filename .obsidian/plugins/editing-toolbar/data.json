@@ -3,33 +3,6 @@
   "positionStyle": "top",
   "menuCommands": [
     {
-      "id": "SubmenuCommands-header",
-      "name": "submenu",
-      "icon": "header-n",
-      "SubmenuCommands": [
-        {
-          "id": "editing-toolbar:header1-text",
-          "name": "Header 1",
-          "icon": "header-1"
-        },
-        {
-          "id": "editing-toolbar:header2-text",
-          "name": "Header 2",
-          "icon": "header-2"
-        },
-        {
-          "id": "editing-toolbar:header3-text",
-          "name": "Header 3",
-          "icon": "header-3"
-        },
-        {
-          "id": "editing-toolbar:header4-text",
-          "name": "Header 4",
-          "icon": "header-4"
-        }
-      ]
-    },
-    {
       "id": "editing-toolbar:editor:toggle-bold",
       "name": "Toggle bold",
       "icon": "bold-glyph"
@@ -60,15 +33,15 @@
       "icon": "lucide-table"
     },
     {
-      "id": "editing-toolbar:editor:insert-callout",
-      "name": "Insert callout ",
-      "icon": "lucide-quote"
-    },
-    {
       "id": "SubmenuCommands-luc8efull",
       "name": "submenu",
       "icon": "blocks",
       "SubmenuCommands": [
+        {
+          "id": "editing-toolbar:editor:insert-callout",
+          "name": "Insert callout ",
+          "icon": "lucide-quote"
+        },
         {
           "id": "editing-toolbar:editor:toggle-blockquote",
           "name": "Toggle blockquote",
@@ -164,9 +137,9 @@
       ]
     },
     {
-      "id": "SubmenuCommands-lzf8bnad4",
+      "id": "SubmenuCommands-lzpb6tarw",
       "name": "submenu",
-      "icon": "command",
+      "icon": "right-arrow",
       "SubmenuCommands": [
         {
           "id": "editor:fold-all",
@@ -181,11 +154,23 @@
           "icon": "chevrons-up-down",
           "allowPreview": true,
           "allowProperties": true
-        },
+        }
+      ]
+    },
+    {
+      "id": "SubmenuCommands-lzf8bnad4",
+      "name": "submenu",
+      "icon": "command",
+      "SubmenuCommands": [
         {
           "id": "obsidian-shellcommands:shell-command-blauwcovle",
-          "name": "Delete most recently added attachment",
+          "name": "Shell commands: Execute: Delete most recently added attachment",
           "icon": "delete"
+        },
+        {
+          "id": "obsidian-shellcommands:shell-command-wz8xn4kb1e",
+          "name": "Shell commands: Execute: Empty trash",
+          "icon": "trash"
         }
       ]
     },
@@ -206,10 +191,10 @@
   ],
   "appendMethod": "workspace",
   "shouldShowMenuOnSelect": false,
-  "cMenuVisibility": true,
+  "cMenuVisibility": false,
   "cMenuBottomValue": 4.25,
   "cMenuNumRows": 12,
-  "cMenuWidth": 374,
+  "cMenuWidth": 322,
   "cMenuFontColor": "#2DC26B",
   "cMenuBackgroundColor": "#d3f8b6",
   "autohide": false,
