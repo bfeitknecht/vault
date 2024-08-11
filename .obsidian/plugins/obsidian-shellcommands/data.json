@@ -103,6 +103,10 @@
       "events": {
         "on-layout-ready": {
           "enabled": true
+        },
+        "every-n-seconds": {
+          "enabled": true,
+          "seconds": 120
         }
       },
       "debounce": {

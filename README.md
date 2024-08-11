@@ -65,3 +65,5 @@ ___
 
 
 
+
+obsidian://advanced-uri?vault=vault&commandid=workspace%253Anew-tab
