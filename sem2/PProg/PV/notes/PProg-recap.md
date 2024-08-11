@@ -232,8 +232,9 @@ ___
 
 > [!quote]+ What is a History?
 > ![[pprog-history-criteria.png]]
+<div class="page-break" style="page-break-before: always;"></div>
 
-> [!quote]+ What is sequential consistency? ::
+> [!quote]+ What is sequential consistency?
 > ![[PProg-pvw-script.pdf#page=38&rect=75,90,520,230&color=01 yellow|PProg-pvw-script, p.37]]
 > 
 >- All instructions are executed in order
