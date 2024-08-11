@@ -79,7 +79,10 @@ ___
 
 
 
-## Amdahl's Law
+## Amdahl's and Gustafson's Laws
+
+![[PProg-w06-kuhn.pdf#page=6&rect=8,13,715,342|PProg-w06-kuhn, p.6]]
+
 
 > [!quote]+ What is Amdahl's Law?
 >> [!idea]- Terminoligy
@@ -94,8 +97,6 @@ ___
 >
 > **A**mdahl **P**essimisistic
 
-
-## Gustafson's Law
 
 > [!quote]+ What is Gustafson's Law?
 >> [!idea]- Terminoligy
