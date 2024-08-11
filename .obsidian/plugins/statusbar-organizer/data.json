@@ -1,5 +1,7 @@
 {
   "activePreset": "Default",
+  "activeFullscreenPreset": "Default",
+  "separateFullscreenPreset": false,
   "presets": {
     "Default": {
       "plugin-obsidian-toggl-integration;1": {
