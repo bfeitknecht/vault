@@ -164,17 +164,17 @@
       "SubmenuCommands": [
         {
           "id": "obsidian-shellcommands:shell-command-s558cixu8a",
-          "name": "Git add all changes",
+          "name": "Shell commands: Execute: Git add all changes",
           "icon": "plus-circle"
         },
         {
           "id": "obsidian-shellcommands:shell-command-blauwcovle",
-          "name": "Delete most recently added attachment",
+          "name": "Shell commands: Execute: Delete most recently added attachment",
           "icon": "delete"
         },
         {
           "id": "obsidian-shellcommands:shell-command-wz8xn4kb1e",
-          "name": "Empty trash",
+          "name": "Shell commands: Execute: Empty trash",
           "icon": "trash"
         }
       ]
