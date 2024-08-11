@@ -28,15 +28,15 @@
       "icon": "highlight-glyph"
     },
     {
-      "id": "editing-toolbar:editor:insert-table",
-      "name": "Insert table",
-      "icon": "lucide-table"
-    },
-    {
       "id": "SubmenuCommands-luc8efull",
       "name": "submenu",
       "icon": "blocks",
       "SubmenuCommands": [
+        {
+          "id": "editing-toolbar:editor:insert-table",
+          "name": "Insert table",
+          "icon": "lucide-table"
+        },
         {
           "id": "editing-toolbar:editor:insert-callout",
           "name": "Insert callout ",
@@ -163,13 +163,18 @@
       "icon": "command",
       "SubmenuCommands": [
         {
+          "id": "obsidian-shellcommands:shell-command-s558cixu8a",
+          "name": "Git add all changes",
+          "icon": "plus-circle"
+        },
+        {
           "id": "obsidian-shellcommands:shell-command-blauwcovle",
-          "name": "Shell commands: Execute: Delete most recently added attachment",
+          "name": "Delete most recently added attachment",
           "icon": "delete"
         },
         {
           "id": "obsidian-shellcommands:shell-command-wz8xn4kb1e",
-          "name": "Shell commands: Execute: Empty trash",
+          "name": "Empty trash",
           "icon": "trash"
         }
       ]
