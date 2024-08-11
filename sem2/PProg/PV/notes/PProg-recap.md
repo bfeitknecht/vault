@@ -114,6 +114,8 @@ ___
 
 ## Locks, Semaphores, Barriers
 
+
+
 > [!quote]+ What is a Lock?
 > Locks are primitives with atomic operations: 
 > - new: Make a new lock, initially “not held" 
