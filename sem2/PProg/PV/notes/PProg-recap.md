@@ -274,14 +274,12 @@ Semaphore :: lock that allows up to $n$ threads in the critical section at a tim
 
 Barrier on $n$ threads :: only lets all $n$ threads pass, when all $n$ have arrived at barrier, like a checkpoint with a threshold.
 
+Cosensus protocol has to be: {1: valid, one of the applicable choices}, {2: wait-free, finite time to conclusion} and {3: consistent, all agree on the same choice}.
 
 
 
 ![[pprog-exs-fjp.png]]
 
 
-Cosensus Protocol has to be:
 
-{1: valid}, {2: wait-free, finite time } :: finite time to conclusion
-Consistent :: all agree on the same
 
