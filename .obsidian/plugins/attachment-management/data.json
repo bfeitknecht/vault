@@ -6,7 +6,7 @@
     "attachFormat": "${notename}-${date}",
     "type": "GLOBAL"
   },
-  "dateFormat": "YYYY-MM-DDT",
+  "dateFormat": "YYYY-MM-DDTHH:mm",
   "excludeExtensionPattern": "",
   "autoRenameAttachment": true,
   "excludedPaths": "",
