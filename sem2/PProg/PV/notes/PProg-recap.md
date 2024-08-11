@@ -137,18 +137,29 @@ ___
 >> Peterson Lock is another way to ensure 2 process mutual exclusion. We again have two flags and a turn or victim variable:
 >> ![[PProg-summary-rböhr.pdf#page=24&rect=90,68,554,280|PProg-summary-rböhr, p.24]]
 >> 
->
->> [!idea]- Filter Lock
->> The Filter Lock is an extension of Peterson’s Lock to n processes. The idea is that every thread knows his level in the filter `level[t]`. In order to enter the critical section, a thread has to elevate all levels. For each level, we use Petersons’s mechanism to filter at most one thread if other threads are at higher level. For every level, there is one `victim[l]` that has to let other pass in case of conflicts. It is not fair, it's first come first serve.
->> ![[PProg-summary-rböhr.pdf#page=25&rect=88,404,562,634|PProg-summary-rböhr, p.25]]
+>> 1. Set our flag, thereby indicating that we’re interested in entering the critical section.
+>> 2. Indicate that the other thread is allowed to go first. The thread that arrives at this statement first will enter the critical section first.
+>> 3. Wait until the other thread is either no longer interested in entering the critical section or until we’re allowed to go first.
+>> 4. Indicate that we’re no longer interested.
+>> ![[PProg-pvw-script.pdf#page=24&rect=207,380,386,472|PProg-pvw-script, p.23]]
+>> It’s easy to see that the Peterson Lock satisfies the requirements for correct implementation of a critical section. In fact, it’s even starvation-free. One can prove this using a short proof by contradiction.
 >> 
 >
->> [!idea]- Baker's Lock
+>> [!idea]- Filter Lock
+>> The Filter Lock is an extension of Peterson’s Lock to n processes. The idea is that every thread knows his level in the filter `level[t]`. In order to enter the critical section, a thread has to elevate all levels. For each level, we use Petersons’s mechanism to filter at most one thread if other threads are at higher level. For every level, there is one `victim[l]` that has to let other pass in case of conflicts. It is not fair, as it's not first come first serve.
+>> ![[PProg-summary-rböhr.pdf#page=25&rect=88,404,562,634|PProg-summary-rböhr, p.25]]
+>> 
+>> ![[PProg-pvw-script.pdf#page=25&rect=196,571,402,785|PProg-pvw-script, p.24]]
+>> ![[PProg-pvw-script.pdf#page=25&rect=66,510,532,564|PProg-pvw-script, p.24]]
+>> 
+>> 
+>
+>> [!idea]- Bakery Lock
 >> The bakery algorithm works like the numbering system in a postal office. Every thread has a label indicating when he is allowed to enter the critical section (when he has the lowest label). It is possible that multiple processes have the same label, in which case the thread id gets compared.
 >> ![[PProg-summary-rböhr.pdf#page=26&rect=87,534,556,741|PProg-summary-rböhr, p.26]]
 >> 
 >> ![[PProg-pvw-script.pdf#page=26&rect=209,545,386,786|PProg-pvw-script, p.25]]
->> 
+>> ![[PProg-pvw-script.pdf#page=26&rect=66,417,531,535|PProg-pvw-script, p.25]]
 >> 
 >
 >> [!idea]- Spinlock
