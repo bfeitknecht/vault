@@ -279,6 +279,3 @@ Barrier on $n$ threads :: only lets all $n$ threads pass, when all $n$ have arri
 
 ![[pprog-exs-fjp.png]]
 
-
-
-![[Screenshot 2024-07-24 at 11.48.34.png]]
