@@ -139,7 +139,7 @@
     {
       "id": "SubmenuCommands-lzpb6tarw",
       "name": "submenu",
-      "icon": "right-arrow",
+      "icon": "plus-minus-glyph",
       "SubmenuCommands": [
         {
           "id": "editor:fold-all",
