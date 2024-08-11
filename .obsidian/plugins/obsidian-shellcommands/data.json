@@ -266,7 +266,7 @@
     {
       "id": "blauwcovle",
       "platform_specific_commands": {
-        "default": "mv \"$(ls -t {{vault_path}}\\/var\\/attachments | head -n 1)\" \"{{vault_path}}\\/.trash/\""
+        "default": "cd {{vault_path}}\\/var\\/attachments && mv \"$(ls -t | head -n 1)\" ../../.trash/"
       },
       "shells": {},
       "alias": "Delete most recently added attachment",
