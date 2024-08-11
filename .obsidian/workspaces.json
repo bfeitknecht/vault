@@ -463,8 +463,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem2/PProg/PV/extra/pvw/PProg-pvw-script.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 14,
+                    "left": -9,
+                    "top": 761,
+                    "zoom": 1.7991654291454724
                   }
                 }
               },
@@ -488,7 +490,9 @@
                   "state": {
                     "file": "sem2/PProg/VRL/extra/PProg-terminoligy.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -9,
+                    "top": 776,
+                    "zoom": 1.8001211375636101
                   }
                 }
               },
@@ -536,32 +540,14 @@
                   "state": {
                     "file": "sem2/PProg/VRL/extra/kuhn/PProg-w05-kuhn.pdf",
                     "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "f09d7a5e5105d861",
-                "type": "leaf",
-                "state": {
-                  "type": "custom-frames-anki",
-                  "state": {}
-                }
-              },
-              {
-                "id": "26f0e2a3cf820b2d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "var/other/Anki.md",
-                    "mode": "source",
-                    "source": false
+                    "left": -11,
+                    "top": 409,
+                    "zoom": 1.4875000000000003
                   }
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -605,7 +591,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "var/other/Anki.md"
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md"
                   }
                 }
               },
@@ -615,7 +601,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "var/other/Anki.md",
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -632,7 +618,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "var/other/Anki.md",
+                    "file": "sem2/PProg/PV/notes/PProg-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -642,8 +628,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 282.5,
-        "collapsed": true
+        "width": 282.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -721,8 +706,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "26f0e2a3cf820b2d",
-      "mtime": "2024-08-10T21:24:48+02:00"
+      "active": "0db6341d94fad4bf",
+      "mtime": "2024-08-11T10:41:18+02:00"
     }
   },
   "active": "pv-pprog"
