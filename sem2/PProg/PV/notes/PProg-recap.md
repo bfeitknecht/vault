@@ -256,7 +256,7 @@ ___
 > 
 > `RecursiveTask<T>` :: override `compute()`, `fork() -> T join()`
 > 
-> `ForkJoinPool` methods: {1: `invoke(ForkJoinTask<T>)`} to start a task's implemented {2: `compute()`} method, which can call {3: `fork()`} to add work to the threadpool and {4: `join()` (returns `T`! for `RecursiveTask`)} to get the result (need to wrap in try/catch block!).
+> `ForkJoinPool` methods: {1: `T invoke(ForkJoinTask<T>)`} to start a task's implemented {2: `compute()`} method, which can call {3: `fork()`} to add work to the threadpool and {4: `join()` (returns `T` for `RecursiveTask`!)} to get the result inside the task.
 > 
 
 
