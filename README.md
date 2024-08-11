@@ -65,5 +65,11 @@ ___
 
 
 
+```bash
+
+open --background docker
+ollama serve
 
 obsidian://advanced-uri?vault=vault&commandid=workspace%253Anew-tab
+obsidian://advanced-uri?vault=vault&commandid=obsidian-custom-frames%253Aopen-custom-frames-ollama
+```
