@@ -114,8 +114,6 @@ ___
 
 ## Locks, Semaphores, Barriers
 
-
-
 > [!quote]+ What is a Lock?
 > Locks are primitives with atomic operations: 
 > - new: Make a new lock, initially “not held" 
@@ -192,7 +190,6 @@ ___
 >>
 >
 
-
 > [!quote]+ Problems with Locking
 > ![[PProg-pvw-script.pdf#page=36&rect=66,657,534,769&color=01 yellow|PProg-pvw-script, p.35]]
 >> [!idea]+ Deadlock
@@ -218,12 +215,15 @@ ___
 
 >[!quote]- What is a Semaphore?
 
+
 >[!quote]- What is a Barrier?
 
 
 ## Lock Methods, `wait()`, `notify()`
 
-![[PProg-pvw-script.pdf#page=29&rect=68,410,528,530|PProg-pvw-script, p.28]]
+![[PProg-pvw-script.pdf#page=29&rect=78,684,533,786|PProg-pvw-script, p.28]]
+
+![[PProg-pvw-script.pdf#page=29&rect=69,409,528,530|PProg-pvw-script, p.28]]
 
 
 
