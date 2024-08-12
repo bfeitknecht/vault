@@ -373,8 +373,9 @@ LazyLocking makes {1: `contains()`} lock free
 
 java reentrant lock can be :: fair `ReentrantLock(boolean fair)`
 
-
+wait freedom implies :: lock freedom
 wait freedom implies :: starvation freedom
 starvation freedom implies :: deadlock freedom
 lock freedom implies :: deadlock freedom
-![[PProg-recap-1079FA93FFF8A738A31060F589C4F86D.png]]
+
+MPI default group :: MPI_COMM_WORLD
