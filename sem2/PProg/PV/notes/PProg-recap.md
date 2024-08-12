@@ -123,6 +123,9 @@ ___
 >
 
 > [!quote]+ Some Common Types of Locks
+> 
+> ![[locks-overview.pdf#page=1&rect=86,709,511,789|locks-overview, p.1]]
+> 
 >> [!idea]- Reentrant Lock
 >>  Re-entrant lock (recursive lock) stores the thread that currently holds it and a count. If the current holder calls acquire, it does not block but increments the count. On release, the count is decremented and if the count is 0, the lock becomes not held.
 >>  
