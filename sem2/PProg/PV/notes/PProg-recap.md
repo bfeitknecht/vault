@@ -96,6 +96,7 @@ ___
 >Amdahl’s law is based on the assumption that the problem size is fixed and that the time is minimized.
 >
 > **A**mdahl **P**essimisistic
+> e.g. sort an array
 
 
 > [!quote]+ What is Gustafson's Law?
@@ -111,6 +112,7 @@ ___
 >$$
 > 
 > **G**ustafson **O**ptimistic
+> e.g. render a 3d scene
 
 
 ## Locks, Semaphores, Barriers
