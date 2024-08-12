@@ -315,4 +315,5 @@ busy waiting (spinning) :: additional cpu cycles used
 blocking :: additional overhead from context switches
 
 
-
+TAS in java :: `getAndSet()`
+CAS in java :: `compareAndSwap()`
