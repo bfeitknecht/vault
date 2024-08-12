@@ -49,8 +49,23 @@ blocking :: additional overhead from context switches
 >
 
 ```pseudo
-int[] level(#threads)
-int[] last
+int threads = number of threads
+int[] level(threads)
+int[] lastEnter(threads)
+
+lock(me) {
+	for (i = 1, threads) {
+		level[me] = 1;
+		lastEnter[i] = me;
+		bool meLast = lastEnter[i] == me;
+		bool othersFirst = exists(k!=me), level[k] >= i;
+		while (lastMe && othersFirst) {}
+	}
+}
+
+unlock(me) {
+	level[me] = 0;
+}
 ```
 
 ![[scratch-E33326E0592FA0D9218CC5B6F1343004.png]]
