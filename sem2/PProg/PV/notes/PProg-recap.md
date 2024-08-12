@@ -315,16 +315,11 @@ busy waiting (spinning) :: additional cpu cycles used
 blocking :: additional overhead from context switches
 
 
-
-
-
 Atomic register locks :: bakery, peterson
 Atomic method locks :: TAS, CAS, TATAS, BackOff
 
 
 Atomic operations in theory: {1: `testAndSet()`} returns true if success, {2: `compareAndSwap()`} returns the old value.
 
+Atomic operations in java: {1: `getAndSet()`} returns old value {2: `compareAndSet()`} returns true if success.
 
-Atomic operations in java
-getAndSet :: returns old value
-compareAndSet :: returns true if success
