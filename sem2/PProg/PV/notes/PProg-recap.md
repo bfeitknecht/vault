@@ -378,4 +378,5 @@ wait freedom implies :: starvation freedom
 starvation freedom implies :: deadlock freedom
 lock freedom implies :: deadlock freedom
 
-MPI default group :: MPI_COMM_WORLD
+MPI default group :: MPI.COMM_WORLD
+
