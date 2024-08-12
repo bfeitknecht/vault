@@ -125,6 +125,7 @@ ___
 > [!quote]+ Some Common Types of Locks
 > 
 > ![[locks-overview.pdf#page=1&rect=86,709,511,789|locks-overview, p.1]]
+> ![[PProg-w11-kuhn.pdf#page=8&rect=49,94,656,285|PProg-w11-kuhn, p.8]]
 > 
 >> [!idea]- Reentrant Lock
 >>  Re-entrant lock (recursive lock) stores the thread that currently holds it and a count. If the current holder calls acquire, it does not block but increments the count. On release, the count is decremented and if the count is 0, the lock becomes not held.
@@ -358,4 +359,8 @@ Atomic method locks :: TAS, CAS, TATAS, BackOff
 Atomic operations in theory: {1: `testAndSet()`} returns true if success, {2: `compareAndSwap()`} returns the old value.
 
 Atomic operations in java: {1: `getAndSet()`} returns old value {2: `compareAndSet()`} returns true if success.
+
+think of lock conditions as distributing tickets with that name i.e. “notFull” tickets
+
+![[PProg-w10-kuhn.pdf#page=115&rect=95,148,634,253|PProg-w10-kuhn, p.115]]
 
