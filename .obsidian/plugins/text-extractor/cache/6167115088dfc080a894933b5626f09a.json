@@ -1,0 +1,1 @@
+{"path":"var/attachments/pprog-semaphore.jpg","text":"Consider a process list Q, associated with semaphore S acquire(S) {if S > 0 then dec(S) else put(Qs, self) block(self) end } release(S) {if Qs == @ then inc(S) else get(Qs, p) unblock(p) end }","libVersion":"0.3.2","langs":"deu+eng"}
