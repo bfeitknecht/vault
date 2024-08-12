@@ -19,29 +19,12 @@ Wait freedom implies :: lock freedom.
 busy waiting (spinning) :: additional cpu cycles used
 blocking :: additional overhead from context switches
 
- ```java
-public class SemaphoreBarrier {
-	private final int threads = 8;
-	
-	public synchronized void barrier() {
-		volatile int count = 0;
-		Semaphore s0 = new Semaphore(0);
-		Semaphore s1 = new Semaphore(1);
-		
-		count++;
-		if (count == threads) {
-			s1.acquire(); s0.release();
-		}
-		s0.acquire(); s0.release();
-		
-		count--;
-		if (count == 0) {
-			s0.acquire(); s1.release();
-		}
-		s1.acquire(); s0.release();
-	}
-}
-```
+>[!quote]- Locks
+>
+> ![[PProg-pvw-script.pdf#page=26&rect=101,116,267,188|PProg-pvw-script, p.25]]
+> ![[PProg-pvw-script.pdf#page=26&rect=327,108,495,191|PProg-pvw-script, p.25]]
+> 
+>
 
 
 ## Mixer
