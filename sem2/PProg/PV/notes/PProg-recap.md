@@ -311,5 +311,8 @@ A write to a volatile field {1: *happens-before*} (partial order) alll subsequen
 ![[pprog-exs-fjp.png]]
 
 
+busy waiting (spinning) :: additional cpu cycles used
+blocking :: additional overhead from context switches
+
 
 
