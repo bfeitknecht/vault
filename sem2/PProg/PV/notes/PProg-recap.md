@@ -215,6 +215,11 @@ ___
 
 
 >[!quote]- What is a Semaphore?
+> Up until now, locks have always ensured that only a single thread enters the critical section. Yet in some cases, this might not be what we want. 
+> If, for example, we have a server that can support up to 100 requests at a time, we want to be able to allow up to 100 threads into the critical section. This is where semaphores come into play.
+> 
+> ![[PProg-pvw-script.pdf#page=30&rect=66,184,530,296|PProg-pvw-script, p.29]]
+> 
 
 
 >[!quote]- What is a Barrier?
