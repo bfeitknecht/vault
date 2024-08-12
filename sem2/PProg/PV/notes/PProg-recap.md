@@ -366,3 +366,9 @@ think of lock conditions as distributing tickets with that name i.e. â€œnotFullâ
 
 
 LazyLocking makes {1: `contains()`} lock free
+
+
+![[PProg-w12-kuhn.pdf#page=130&rect=51,67,696,320|PProg-w12-kuhn, p.130]]
+
+
+java reentrant lock can be :: fair `ReentrantLock(boolean fair)
