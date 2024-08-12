@@ -228,6 +228,32 @@ ___
 >[!quote]- What is a Barrier?
 
 
+ ```java
+public class SemaphoreBarrier {
+	private final int threads = 8;
+	public synchronized void barrier() {
+		volatile int count = 0;
+		Semaphore s0 = new Semaphore(0);
+		Semaphore s1 = new Semaphore(1);
+		
+		count++;
+		if (count == threads) {
+			s1.acquire();
+			s0.release();
+		}
+		s1.acquire();
+		s1.release();
+		
+		count--;
+		if (count == 0) {
+			s1.aq
+		}
+		
+	}
+}
+```
+
+
 ## Lock Methods, `wait()`, `notify()`
 
 ![[PProg-pvw-script.pdf#page=29&rect=78,684,533,786|PProg-pvw-script, p.28]]

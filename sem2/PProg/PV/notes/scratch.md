@@ -1,7 +1,4 @@
 
-
-
-
 ## Atomicity
 Atomic register locks :: bakery, peterson
 Atomic method locks :: TAS, CAS, TATAS, BackOff
@@ -23,7 +20,8 @@ busy waiting (spinning) :: additional cpu cycles used
 blocking :: additional overhead from context switches
 
 
-##
+
+## Mixer
 Cosensus protocol has to be: {1: valid, one of the applicable choices}, {2: wait-free, finite time to conclusion} and {3: consistent, all agree on the same choice}.
 
 Linarizability implies :: sequential consistency.
