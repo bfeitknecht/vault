@@ -295,6 +295,8 @@ ___
 
 Linarizability implies :: sequential consistency.
 
+Not sequentially consistent implies :: not linearizable.
+
 Sequential consistency and quiescent consistency :: are incomparable!
 
 Locks guarantee: {1: mutual exclusion}, {2: deadlock freedom} and {3: starvation freedom}. Might also be {4: fair (FIFO, i.e. first-come-first-serve)}.
