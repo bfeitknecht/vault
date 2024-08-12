@@ -311,6 +311,7 @@ Starvation freedom implies :: deadlock freedom.
 
 Deadlock freedom and fair implies :: starvation freedom.
 
+Wait freedom implies :: lock freedom.
 
 A write to a volatile field {1: *happens-before*} (partial order) alll subsequent reads of that field. To get this partial order, we combine {2: (the transitive closure of) program order} and {3: "synchronizes with"}. All values we observe must obey this {1: *happens-before*} partial order!
 
