@@ -317,3 +317,7 @@ blocking :: additional overhead from context switches
 
 TAS in java :: `getAndSet()`
 CAS in java :: `compareAndSwap()`
+
+
+Atomic register locks :: bakery, peterson
+Atomic method locks :: TAS, CAS, TATAS, BackOff
