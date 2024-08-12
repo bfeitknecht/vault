@@ -226,32 +226,31 @@ ___
 
 
 >[!quote]- What is a Barrier?
-
-
- ```java
-public class SemaphoreBarrier {
-	private final int threads = 8;
-	public synchronized void barrier() {
-		volatile int count = 0;
-		Semaphore s0 = new Semaphore(0);
-		Semaphore s1 = new Semaphore(1);
-		
-		count++;
-		if (count == threads) {
-			s1.acquire();
-			s0.release();
-		}
-		s1.acquire();
-		s1.release();
-		
-		count--;
-		if (count == 0) {
-			s1.aq
-		}
-		
-	}
-}
-```
+> 
+> ```java
+> public class SemaphoreBarrier {
+> 	private final int threads = 8;
+> 	
+> 	public synchronized void barrier() {
+> 		volatile int count = 0;
+> 		Semaphore s0 = new Semaphore(0);
+> 		Semaphore s1 = new Semaphore(1);
+> 		
+> 		count++;
+> 		if (count == threads) {
+> 			s1.acquire(); s0.release();
+> 		}
+> 		s0.acquire(); s0.release();
+> 		
+> 		count--;
+> 		if (count == 0) {
+> 			s0.acquire(); s1.release();
+> 		}
+> 		s1.acquire(); s0.release();
+> 	}
+> }
+> ```
+> 
 
 
 ## Lock Methods, `wait()`, `notify()`
