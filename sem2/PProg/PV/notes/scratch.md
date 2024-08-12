@@ -48,6 +48,12 @@ blocking :: additional overhead from context switches
 > ```
 >
 
+```pseudo
+int[] level(#threads)
+int[] last
+```
+
+![[scratch-E33326E0592FA0D9218CC5B6F1343004.png]]
 
 ## History
 ![[pprog-history-criteria.png]]
