@@ -23,14 +23,37 @@ blocking :: additional overhead from context switches
 >
 > ![[PProg-pvw-script.pdf#page=26&rect=101,116,267,188|PProg-pvw-script, p.25]]
 > ![[PProg-pvw-script.pdf#page=26&rect=327,108,495,191|PProg-pvw-script, p.25]]
-> 
+> ```java
+> public class SemaphoreBarrier {
+> 	private final int threads = 8;
+> 	
+> 	public synchronized void barrier() {
+> 		volatile int count = 0;
+> 		Semaphore s0 = new Semaphore(0);
+> 		Semaphore s1 = new Semaphore(1);
+> 		
+> 		count++;
+> 		if (count == threads) {
+> 			s1.acquire(); s0.release();
+> 		}
+> 		s0.acquire(); s0.release();
+> 		
+> 		count--;
+> 		if (count == 0) {
+> 			s0.acquire(); s1.release();
+> 		}
+> 		s1.acquire(); s0.release();
+> 	}
+> }
+> ```
 >
 
 
-## Mixer
-Cosensus protocol has to be: {1: valid, one of the applicable choices}, {2: wait-free, finite time to conclusion} and {3: consistent, all agree on the same choice}.
-
+## History
+![[pprog-history-criteria.png]]
 Linarizability implies :: sequential consistency.
 Not sequentially consistent implies :: not linearizable.
 Sequential consistency and quiescent consistency :: are incomparable!
 
+
+Cosensus protocol has to be: {1: valid, one of the applicable choices}, {2: wait-free, finite time to conclusion} and {3: consistent, all agree on the same choice}.
