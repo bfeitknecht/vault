@@ -364,3 +364,5 @@ think of lock conditions as distributing tickets with that name i.e. â€œnotFullâ
 
 ![[PProg-w10-kuhn.pdf#page=115&rect=95,148,634,253|PProg-w10-kuhn, p.115]]
 
+
+LazyLocking makes {1: `contains()`} lock free
