@@ -19,7 +19,7 @@ Wait freedom implies :: lock freedom.
 busy waiting (spinning) :: additional cpu cycles used
 blocking :: additional overhead from context switches
 
->[!quote]- Locks
+>[!quote] Locks
 >
 > ![[PProg-pvw-script.pdf#page=26&rect=101,116,267,188|PProg-pvw-script, p.25]]
 > ![[PProg-pvw-script.pdf#page=26&rect=327,108,495,191|PProg-pvw-script, p.25]]
@@ -82,7 +82,6 @@ bakery lock
 CAS spinlock
 ![[scratch-DD292485FEAE5146478020051CDD616C.png]]
 
-<div class="page-break" style="page-break-before: always;"></div>
 
 ## History
 ![[pprog-history-criteria.png]]
