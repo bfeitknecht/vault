@@ -371,4 +371,10 @@ LazyLocking makes {1: `contains()`} lock free
 ![[PProg-w12-kuhn.pdf#page=130&rect=51,67,696,320|PProg-w12-kuhn, p.130]]
 
 
-java reentrant lock can be :: fair `ReentrantLock(boolean fair)
+java reentrant lock can be :: fair `ReentrantLock(boolean fair)`
+
+
+wait freedom implies :: starvation freedom
+starvation freedom implies :: deadlock freedom
+lock freedom implies :: deadlock freedom
+![[PProg-recap-1079FA93FFF8A738A31060F589C4F86D.png]]
