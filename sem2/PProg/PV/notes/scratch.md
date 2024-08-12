@@ -48,6 +48,7 @@ blocking :: additional overhead from context switches
 > ```
 >
 
+<!--
 ```pseudo
 int threads = number of threads
 int[] level(threads)
@@ -67,8 +68,21 @@ unlock(me) {
 	level[me] = 0;
 }
 ```
+-->
 
-![[scratch-E33326E0592FA0D9218CC5B6F1343004.png]]
+
+filter lock
+![[scratch-71CCD07AC60753C6A7D6B20686CD8AFB.png]]
+
+
+bakery lock
+![[scratch-319A2972C2E535FEBA780E4D659DDAE7.png]]
+
+
+CAS spinlock
+![[scratch-DD292485FEAE5146478020051CDD616C.png]]
+
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## History
 ![[pprog-history-criteria.png]]
