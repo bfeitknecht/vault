@@ -32,18 +32,6 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "577f215a60f9b430",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "var/Anki.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
               }
             ]
           },
@@ -58,8 +46,25 @@
                   "type": "graph",
                   "state": {}
                 }
+              },
+              {
+                "id": "992a2af1614bd7ce",
+                "type": "leaf",
+                "state": {
+                  "type": "custom-frames-calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "5b6f616b56729fb0",
+                "type": "leaf",
+                "state": {
+                  "type": "custom-frames-anki",
+                  "state": {}
+                }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -102,9 +107,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -113,7 +116,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -130,7 +132,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -219,8 +220,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "84d6179a41f3d7a6",
-      "mtime": "2024-08-10T21:13:49+02:00"
+      "active": "5b6f616b56729fb0",
+      "mtime": "2024-08-13T08:57:09+02:00"
     },
     "pv-ddca": {
       "main": {

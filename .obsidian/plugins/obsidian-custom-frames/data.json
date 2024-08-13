@@ -35,18 +35,6 @@
       "forceIframe": false,
       "customCss": "",
       "customJs": ""
-    },
-    {
-      "url": "https://time-stuff.com/timer-fullscreen.html",
-      "displayName": "Timer",
-      "icon": "",
-      "hideOnMobile": true,
-      "addRibbonIcon": false,
-      "openInCenter": true,
-      "zoomLevel": 1,
-      "forceIframe": false,
-      "customCss": "",
-      "customJs": ""
     }
   ],
   "padding": 5
