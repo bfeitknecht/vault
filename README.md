@@ -91,3 +91,6 @@ if (window.matchMedia) {
   // Default (when Media-Queries are not supported)
 }
 ```
+
+css styles need !important tag
+
