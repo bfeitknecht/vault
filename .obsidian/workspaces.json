@@ -32,6 +32,18 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "1bb835ec9bd956c8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "LICENSE.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
             ]
           },
@@ -212,7 +224,6 @@
           "omnisearch:Omnisearch": false,
           "cmdr:Export to PDF": false,
           "workspaces:Manage workspace layouts": false,
-          "obsidian-statusbar-pomo:Start pomodoro": false,
           "graph:Open graph view": false,
           "switcher:Open quick switcher": true,
           "templates:Insert template": true,
@@ -224,7 +235,7 @@
         }
       },
       "active": "84d6179a41f3d7a6",
-      "mtime": "2024-08-13T09:26:09+02:00"
+      "mtime": "2024-08-13T21:39:52+02:00"
     },
     "pv-ddca": {
       "main": {
@@ -236,12 +247,24 @@
             "type": "tabs",
             "children": [
               {
-                "id": "1d0948b7d09212a3",
+                "id": "8f38a4ea59911292",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jannis.pdf",
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jdickey.pdf",
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              },
+              {
+                "id": "a031790745939548",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script-FS24.pdf",
                     "page": 1,
                     "zoom": 1
                   }
@@ -260,33 +283,45 @@
                 }
               },
               {
-                "id": "a031790745939548",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/DDCA/PV/extra/pvw/DDCA-pvw-script-FS24.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
                 "id": "30afe6b1ad02bdfe",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
-                    "page": 4,
-                    "left": -14,
-                    "top": 59,
-                    "zoom": 1.0346153846153847
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              },
+              {
+                "id": "9478b36d9c9c8855",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/DDCA/VRL/slides/DDCA-L04a-combinational-circuits-theory.pdf",
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              },
+              {
+                "id": "204ac82f3949b303",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-simon.pdf",
+                    "page": 5,
+                    "left": -12,
+                    "top": 430,
+                    "zoom": 1.2721376901970567
                   }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 5
           }
         ],
         "direction": "vertical"
@@ -330,7 +365,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf"
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jdickey.pdf"
                   }
                 }
               },
@@ -340,7 +375,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jdickey.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -357,7 +392,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem2/DDCA/VRL/slides/DDCA-L06-arithmetic-circuits.pdf",
+                    "file": "sem2/DDCA/PV/cheatsheets/DDCA-cheatsheet-FS24-jdickey.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -367,7 +402,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 352.5
+        "width": 352.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -435,7 +471,6 @@
           "omnisearch:Omnisearch": false,
           "cmdr:Export to PDF": false,
           "workspaces:Manage workspace layouts": false,
-          "obsidian-statusbar-pomo:Start pomodoro": false,
           "graph:Open graph view": false,
           "switcher:Open quick switcher": true,
           "templates:Insert template": true,
@@ -447,8 +482,8 @@
         }
       },
       "active": "5f4cf158045f14fe",
-      "mtime": "2024-08-11T16:01:03+02:00"
+      "mtime": "2024-08-13T21:35:37+02:00"
     }
   },
-  "active": "pv-ddca"
+  "active": "HOME"
 }

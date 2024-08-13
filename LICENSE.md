@@ -1,6 +1,7 @@
+All external work (cheatsheets, summaries, etc.) copyright to their respective creators 
 All Rights Reserved
 
-Copyright (c) 2023 - 2024 Basil Feitknecht
+Copyright (c) 2024 Basil Feitknecht
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
