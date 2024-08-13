@@ -45,7 +45,7 @@
       "openInCenter": true,
       "zoomLevel": 1,
       "forceIframe": false,
-      "customCss": "body {\n\tbackground-color: transparent;\n}",
+      "customCss": "body {\n\tbackground-color: #fff;\n}",
       "customJs": ""
     }
   ],
