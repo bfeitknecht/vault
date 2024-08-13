@@ -451,4 +451,15 @@ ___
 
 ## Other
 
-![[DDCA-L06-arithmetic-circuits.pdf#page=8&rect=35,38,708,437|DDCA-L06-arithmetic-circuits, p.8]]
+> [!quote]- Arithmetic operation complexity
+> 
+> ![[DDCA-L06-arithmetic-circuits.pdf#page=8&rect=35,38,708,437|DDCA-L06-arithmetic-circuits, p.8]]
+> 
+> Addition is the most important so get it right!!
+> 
+
+
+>[!quote]- Carry save adder
+>
+> ![[DDCA-L06-arithmetic-circuits.pdf#page=19&rect=50,158,681,424|DDCA-L06-arithmetic-circuits, p.19]]
+> 
