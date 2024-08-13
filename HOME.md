@@ -20,10 +20,6 @@ other comment
 -->
 
 
-PProg:		2024-08-12
-DDCA: 	2024-08-14
-
-
 ```toggl
 SUMMARY PAST 10 DAYS
 
