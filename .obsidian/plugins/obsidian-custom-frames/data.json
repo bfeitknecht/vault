@@ -35,6 +35,18 @@
       "forceIframe": false,
       "customCss": "",
       "customJs": ""
+    },
+    {
+      "url": "https://terenc3.github.io/timer/#00:15:00",
+      "displayName": "Timer",
+      "icon": "timer",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "body {\n\tbackground-color: transparent;\n}",
+      "customJs": ""
     }
   ],
   "padding": 5
