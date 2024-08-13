@@ -444,3 +444,11 @@ ___
 > - i.e. Explain how the execute stage can be stalled and modify the block diagram of the processor to add the STALLD, STALLF and FLUSHE signals
 
 ___
+
+
+
+
+
+## Other
+
+![[DDCA-L06-arithmetic-circuits.pdf#page=8&rect=35,38,708,437|DDCA-L06-arithmetic-circuits, p.8]]
