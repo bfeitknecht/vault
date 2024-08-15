@@ -9,7 +9,7 @@ Atomic operations in java: {1: `getAndSet()`} returns old value {2: `compareAndS
 
 
 ## Locks
-![[locks-overview.pdf#page=1&rect=86,709,511,789|locks-overview, p.1]]
+![[PProg-scratch-AD8EFA79A56F1E6E8C45D6A65178F3CC.pdf#page=1&rect=86,709,511,789|locks-overview, p.1]]
 Locks guarantee: {1: mutual exclusion}, {2: deadlock freedom} and {3: starvation freedom}. Might also be {4: fair (FIFO, i.e. first-come-first-serve)}.
 
 Starvation freedom implies :: deadlock freedom.
@@ -21,8 +21,8 @@ blocking :: additional overhead from context switches
 
 >[!quote] Locks
 >
-> ![[PProg-pvw-script.pdf#page=26&rect=101,116,267,188|PProg-pvw-script, p.25]]
-> ![[PProg-pvw-script.pdf#page=26&rect=327,108,495,191|PProg-pvw-script, p.25]]
+> ![[PProg-scratch-B9125BBC7BBD7EDC0AAA93A686F7C3D7.pdf#page=26&rect=101,116,267,188|PProg-pvw-script, p.25]]
+> ![[PProg-scratch-B9125BBC7BBD7EDC0AAA93A686F7C3D7.pdf#page=26&rect=327,108,495,191|PProg-pvw-script, p.25]]
 > ```java
 > public class SemaphoreBarrier {
 > 	private final int threads = 8;
@@ -72,19 +72,19 @@ unlock(me) {
 
 
 filter lock
-![[scratch-71CCD07AC60753C6A7D6B20686CD8AFB.png]]
+![[PProg-scratch-71CCD07AC60753C6A7D6B20686CD8AFB.png]]
 
 
 bakery lock
-![[scratch-319A2972C2E535FEBA780E4D659DDAE7.png]]
+![[PProg-scratch-319A2972C2E535FEBA780E4D659DDAE7.png]]
 
 
 CAS spinlock
-![[scratch-DD292485FEAE5146478020051CDD616C.png]]
+![[PProg-scratch-DD292485FEAE5146478020051CDD616C.png]]
 
 
 ## History
-![[pprog-history-criteria.png]]
+![[PProg-scratch-C63E706ACA288EB9D0DC92F106BEAC5E.png]]
 Linarizability implies :: sequential consistency.
 Not sequentially consistent implies :: not linearizable.
 Sequential consistency and quiescent consistency :: are incomparable!

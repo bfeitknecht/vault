@@ -126,13 +126,13 @@ ___
 
 > [!quote]+ Some Common Types of Locks
 > 
-> ![[locks-overview.pdf#page=1&rect=86,709,511,789|locks-overview, p.1]]
+> ![[PProg-scratch-AD8EFA79A56F1E6E8C45D6A65178F3CC.pdf#page=1&rect=86,709,511,789|locks-overview, p.1]]
 > ![[PProg-w11-kuhn.pdf#page=8&rect=49,94,656,285|PProg-w11-kuhn, p.8]]
 > 
 >> [!idea]- Reentrant Lock
 >>  Re-entrant lock (recursive lock) stores the thread that currently holds it and a count. If the current holder calls acquire, it does not block but increments the count. On release, the count is decremented and if the count is 0, the lock becomes not held.
 >>  
->> ![[PProg-pvw-script.pdf#page=28&rect=69,268,527,294|PProg-pvw-script, p.27]]
+>> ![[PProg-scratch-B9125BBC7BBD7EDC0AAA93A686F7C3D7.pdf#page=28&rect=69,268,527,294|PProg-pvw-script, p.27]]
 >> 
 >
 >> [!idea]- Decker Lock
@@ -149,7 +149,7 @@ ___
 >> 3. Wait until the other thread is either no longer interested in entering the critical section or until we’re allowed to go first.
 >> 4. Indicate that we’re no longer interested.
 >> 
->> ![[PProg-pvw-script.pdf#page=24&rect=207,380,386,472|PProg-pvw-script, p.23]]
+>> ![[PProg-scratch-B9125BBC7BBD7EDC0AAA93A686F7C3D7.pdf#page=24&rect=207,380,386,472|PProg-pvw-script, p.23]]
 >> It’s easy to see that the Peterson Lock satisfies the requirements for correct implementation of a critical section. In fact, it’s even starvation-free. One can prove this using a short proof by contradiction.
 >> 
 >
@@ -157,8 +157,8 @@ ___
 >> The Filter Lock is an extension of Peterson’s Lock to n processes. The idea is that every thread knows his level in the filter `level[t]`. In order to enter the critical section, a thread has to elevate all levels. For each level, we use Petersons’s mechanism to filter at most one thread if other threads are at higher level. For every level, there is one `victim[l]` that has to let other pass in case of conflicts. It is not fair, as it's not first come first serve.
 >> ![[PProg-summary-rböhr.pdf#page=25&rect=88,404,562,634|PProg-summary-rböhr, p.25]]
 >> 
->> ![[PProg-pvw-script.pdf#page=25&rect=196,571,402,785|PProg-pvw-script, p.24]]
->> ![[PProg-pvw-script.pdf#page=25&rect=66,510,532,564|PProg-pvw-script, p.24]]
+>> ![[PProg-scratch-B9125BBC7BBD7EDC0AAA93A686F7C3D7.pdf#page=25&rect=196,571,402,785|PProg-pvw-script, p.24]]
+>> ![[PProg-scratch-B9125BBC7BBD7EDC0AAA93A686F7C3D7.pdf#page=25&rect=66,510,532,564|PProg-pvw-script, p.24]]
 >> 
 >> 
 >
@@ -166,8 +166,8 @@ ___
 >> The bakery algorithm works like the numbering system in a postal office. Every thread has a label indicating when he is allowed to enter the critical section (when he has the lowest label). It is possible that multiple processes have the same label, in which case the thread id gets compared.
 >> ![[PProg-summary-rböhr.pdf#page=26&rect=87,534,556,741|PProg-summary-rböhr, p.26]]
 >> 
->> ![[PProg-pvw-script.pdf#page=26&rect=209,545,386,786|PProg-pvw-script, p.25]]
->> ![[PProg-pvw-script.pdf#page=26&rect=66,417,531,535|PProg-pvw-script, p.25]]
+>> ![[PProg-scratch-B9125BBC7BBD7EDC0AAA93A686F7C3D7.pdf#page=26&rect=209,545,386,786|PProg-pvw-script, p.25]]
+>> ![[PProg-scratch-B9125BBC7BBD7EDC0AAA93A686F7C3D7.pdf#page=26&rect=66,417,531,535|PProg-pvw-script, p.25]]
 >> 
 >
 >> [!idea]- Spinlock
@@ -177,7 +177,7 @@ ___
 >>> [!idea]- TASLock 
 >>> It's very easy to implement spinlock with TAS:
 >>> ![[PProg-summary-rböhr.pdf#page=26&rect=83,380,279,479|PProg-summary-rböhr, p.26]]
->>> ![[PProg-pvw-script.pdf#page=26&rect=101,116,267,188|PProg-pvw-script, p.25]]
+>>> ![[PProg-scratch-B9125BBC7BBD7EDC0AAA93A686F7C3D7.pdf#page=26&rect=101,116,267,188|PProg-pvw-script, p.25]]
 >>> 
 >>> If we have a CAS(memref a, int old, int new) operation, it is also very easy to implement a spinlock:
 >>> ![[PProg-summary-rböhr.pdf#page=26&rect=81,242,362,341|PProg-summary-rböhr, p.26]]
@@ -187,7 +187,7 @@ ___
 >>> [!idea]- TATAS Lock
 >>> The performance of the spinlock described above is quite poor for many threads, because all threads fight for the bus (memory bus) during the call of `getAndSet()` and the cache coherency protocol needs to invalidate cached copies of the lock on other processors. Therefore, we can improve performance by only calling `getAndSet()` / `compareAndSet()` when we noticed that the lock is available (i.e. testing first):
 >>> ![[PProg-summary-rböhr.pdf#page=27&rect=90,630,415,740|PProg-summary-rböhr, p.27]]
->>> ![[PProg-pvw-script.pdf#page=26&rect=327,108,495,191|PProg-pvw-script, p.25]]
+>>> ![[PProg-scratch-B9125BBC7BBD7EDC0AAA93A686F7C3D7.pdf#page=26&rect=327,108,495,191|PProg-pvw-script, p.25]]
 >>> 
 >>>> [!idea]+ TATAS Lock with Backoff (BackOffLock)
 >>>> In a TATAS lock, there are still too many threads fighting for access to the same resource. Therefore we set a thread to sleep for a random duration when the acquisition of the lock fails. With an exponential backoff, we double the duration every time the acquisition fails.
@@ -198,7 +198,7 @@ ___
 >
 
 > [!quote]+ Problems with Locking
-> ![[PProg-pvw-script.pdf#page=36&rect=66,657,534,769&color=01 yellow|PProg-pvw-script, p.35]]
+> ![[PProg-scratch-B9125BBC7BBD7EDC0AAA93A686F7C3D7.pdf#page=36&rect=66,657,534,769&color=01 yellow|PProg-pvw-script, p.35]]
 >> [!idea]+ Deadlock
 >> Cycle exists in dependency graph, threads can't enter critical section because of mutual exclusion (blocking each other). Imagine, street crossing with cars at every road. No work is done. CPU usage will be low.
 >> Deadlock free means, "more than one thread wants a lock => one is guaranteed to acquire it *within finite time*"
@@ -224,7 +224,7 @@ ___
 > Up until now, locks have always ensured that only a single thread enters the critical section. Yet in some cases, this might not be what we want. 
 > If, for example, we have a server that can support up to 100 requests at a time, we want to be able to allow up to 100 threads into the critical section. This is where semaphores come into play.
 > 
-> ![[PProg-pvw-script.pdf#page=30&rect=66,184,530,296|PProg-pvw-script, p.29]]
+> ![[PProg-scratch-B9125BBC7BBD7EDC0AAA93A686F7C3D7.pdf#page=30&rect=66,184,530,296|PProg-pvw-script, p.29]]
 > 
 > ![[pprog-semaphore.jpg]]
 > 
@@ -260,20 +260,20 @@ ___
 
 ## Lock Methods, `wait()`, `notify()`
 
-![[PProg-pvw-script.pdf#page=29&rect=78,684,533,786|PProg-pvw-script, p.28]]
+![[PProg-scratch-B9125BBC7BBD7EDC0AAA93A686F7C3D7.pdf#page=29&rect=78,684,533,786|PProg-pvw-script, p.28]]
 
-![[PProg-pvw-script.pdf#page=29&rect=69,409,528,530|PProg-pvw-script, p.28]]
+![[PProg-scratch-B9125BBC7BBD7EDC0AAA93A686F7C3D7.pdf#page=29&rect=69,409,528,530|PProg-pvw-script, p.28]]
 
 
 
 ## Consistency Models
 
 > [!quote]+ What is a History?
-> ![[pprog-history-criteria.png]]
+> ![[PProg-scratch-C63E706ACA288EB9D0DC92F106BEAC5E.png]]
 
 
 > [!quote]+ What is sequential consistency?
-> ![[PProg-pvw-script.pdf#page=38&rect=75,90,520,230&color=01 yellow|PProg-pvw-script, p.37]]
+> ![[PProg-scratch-B9125BBC7BBD7EDC0AAA93A686F7C3D7.pdf#page=38&rect=75,90,520,230&color=01 yellow|PProg-pvw-script, p.37]]
 > 
 >- All instructions are executed in order
 >- Every write operation becomes instantaneously visible throughout the system
@@ -290,7 +290,7 @@ ___
 > Sequential consistency and quiescent consistency are incomparable, there exist sequentially consistent executions that are not quiescently consistent, and vice versa.
 
 > [!quote]+ What is linearizability?
-> ![[PProg-pvw-script.pdf#page=39&rect=72,398,520,468|PProg-pvw-script, p.38]]
+> ![[PProg-scratch-B9125BBC7BBD7EDC0AAA93A686F7C3D7.pdf#page=39&rect=72,398,520,468|PProg-pvw-script, p.38]]
 > 
 >- Linearizability provides the illusion that each operation applied by concurrent processes takes effect instantaneously between its invocation and its response
 >- "can we project onto a single history without reordering"
@@ -301,7 +301,7 @@ ___
 
 > [!quote]- What is the ExecutorService Framework?
 > 
-> `ExecutorService` Tasks :: ![[PProg-pvw-script.pdf#page=12&rect=65,226,532,305|PProg-pvw-script, p.11]]
+> `ExecutorService` Tasks :: ![[PProg-scratch-B9125BBC7BBD7EDC0AAA93A686F7C3D7.pdf#page=12&rect=65,226,532,305|PProg-pvw-script, p.11]]
 > 
 > `Runnable` :: override `void run()`, `Runnable r; r.start()` -> `Future<T> f` -> `f.get()`(try/catch!)
 > 
@@ -312,7 +312,7 @@ ___
 
 > [!quote]- What is the ForkJoinPool Framework?
 > 
-> `ForkJoinPool` Tasks :: ![[PProg-pvw-script.pdf#page=13&rect=62,73,537,231|PProg-pvw-script, p.12]]
+> `ForkJoinPool` Tasks :: ![[PProg-scratch-B9125BBC7BBD7EDC0AAA93A686F7C3D7.pdf#page=13&rect=62,73,537,231|PProg-pvw-script, p.12]]
 >
 > `RecursiveAction` :: override `compute()`, `fork() -> void join()`
 > 
