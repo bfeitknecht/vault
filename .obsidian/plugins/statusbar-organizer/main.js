@@ -180,7 +180,7 @@ async function showSettings(plugin, topContainer) {
   topContainer.appendChild(settingsContainer);
   await initializePresets(plugin, presetsContainer, settingsContainer);
   await initializeRows(plugin, settingsContainer);
-  new import_obsidian.Setting(topContainer).setName("Separate fullscreen and regular mode").setDesc("When enabled, the plugin will remember which preset was active for fullscreen mode and which for windowed mode and switch correspondingly. This is useful for example when you want to display more information in fullscreen mode, like a clock.").addToggle(
+  new import_obsidian.Setting(topContainer).setName("Separate fullscreen and windowed mode").setDesc("When enabled, the plugin will remember which preset was active for fullscreen mode and which for windowed mode and switch correspondingly. This is useful for example when you want to display more information in fullscreen mode, like a clock.").addToggle(
     (toggle) => toggle.setValue(plugin.settings.separateFullscreenPreset).onChange(async (value) => {
       plugin.settings.separateFullscreenPreset = value;
       plugin.saveSettings();
@@ -202,14 +202,14 @@ async function consolidateSettingsAndElements(plugin) {
   for (const [index, statusBarElement] of unorderedStatusBarElements.entries()) {
     defaultElementStatus[statusBarElement.id] = {
       position: index,
-      visible: true,
-      exists: true
+      visible: true
     };
   }
   const barStatus = {};
+  const existsStatus = {};
   for (const [index, status] of Object.entries(loadedElementStatus)) {
-    status.exists = index in defaultElementStatus;
     barStatus[index] = status;
+    existsStatus[index] = index in defaultElementStatus;
   }
   let insertPosition = Object.keys(barStatus).length + 1;
   for (const element of unorderedStatusBarElements) {
@@ -218,8 +218,9 @@ async function consolidateSettingsAndElements(plugin) {
     const status = defaultElementStatus[element.id];
     status.position = insertPosition++;
     barStatus[element.id] = status;
+    existsStatus[element.id] = true;
   }
-  const disabledStatusBarElements = Object.keys(loadedElementStatus).filter((x) => !barStatus[x].exists).map((x) => {
+  const disabledStatusBarElements = Object.keys(loadedElementStatus).filter((x) => !existsStatus[x]).map((x) => {
     const parsed = parseElementId(x);
     return {
       name: parsed.name,
@@ -232,7 +233,8 @@ async function consolidateSettingsAndElements(plugin) {
   plugin.spooler.spoolFix(0);
   return {
     rows,
-    barStatus
+    barStatus,
+    existsStatus
   };
 }
 
@@ -242,7 +244,7 @@ var dragging;
 async function initializeRows(plugin, settingsContainer) {
   settingsContainer.empty();
   dragging = false;
-  const { rows, barStatus } = await consolidateSettingsAndElements(plugin);
+  const { rows, barStatus, existsStatus } = await consolidateSettingsAndElements(plugin);
   const rowsContainer = document.createElement("div");
   rowsContainer.addClass("statusbar-organizer-rows-container");
   settingsContainer.appendChild(rowsContainer);
@@ -255,9 +257,10 @@ async function initializeRows(plugin, settingsContainer) {
   }
   for (const row of rows) {
     const currentStatus = barStatus[row.id];
+    const currentExists = existsStatus[row.id];
     const entry = document.createElement("div");
     entry.addClass("statusbar-organizer-row");
-    if (!currentStatus.exists)
+    if (!currentExists)
       entry.addClass("statusbar-organizer-row-disabled");
     if (!currentStatus.visible)
       entry.addClass("statusbar-organizer-row-hidden");
@@ -268,7 +271,7 @@ async function initializeRows(plugin, settingsContainer) {
     handle.addClass("statusbar-organizer-row-handle");
     handle.addEventListener(
       "mousedown",
-      (event) => handleMouseDown(event, plugin, barStatus, settingsContainer, rowsContainer, rows, row)
+      (event) => handleMouseDown(event, plugin, barStatus, existsStatus, settingsContainer, rowsContainer, rows, row)
     );
     entry.appendChild(handle);
     const formattedName = row.name.replace(/^plugin-(obsidian-)?/, "").split("-").map((x) => x.charAt(0).toUpperCase() + x.slice(1)).join(" ") + (nameCollisions[row.name] ? ` (${row.index})` : "");
@@ -277,19 +280,19 @@ async function initializeRows(plugin, settingsContainer) {
     entry.appendChild(titleSpan);
     const previewSpan = document.createElement("span");
     previewSpan.addClass("statusbar-organizer-row-preview");
-    if (currentStatus.exists) {
+    if (currentExists) {
       previewSpan.innerHTML = row.element.innerHTML;
     }
     entry.appendChild(previewSpan);
     const visibilitySpan = document.createElement("span");
     visibilitySpan.addClass("statusbar-organizer-row-visibility");
     visibilitySpan.onclick = () => {
-      if (currentStatus.exists)
+      if (currentExists)
         toggleVisibility(plugin, barStatus, row);
       else
         removeOrphan(plugin, rowsContainer, barStatus, row);
     };
-    (0, import_obsidian2.setIcon)(visibilitySpan, currentStatus.exists ? currentStatus.visible ? "eye" : "eye-off" : "trash-2");
+    (0, import_obsidian2.setIcon)(visibilitySpan, currentExists ? currentStatus.visible ? "eye" : "eye-off" : "trash-2");
     entry.appendChild(visibilitySpan);
   }
   return {
@@ -319,13 +322,13 @@ async function removeOrphan(plugin, rowsContainer, barStatus, row) {
     barStatus[entry.getAttribute("data-statusbar-organizer-id")].position = entryIndex;
   savePreset(plugin, barStatus);
 }
-function cloneRow(settingsContainer, barStatus, rowsContainer, event, row) {
+function cloneRow(settingsContainer, barStatus, existsStatus, rowsContainer, event, row) {
   const realEntry = row.entry;
   realEntry.addClass("statusbar-organizer-row-clone");
   const fauxEntry = document.createElement("div");
   fauxEntry.addClass("statusbar-organizer-row");
   fauxEntry.addClass("statusbar-organizer-row-drag");
-  if (!barStatus[row.id].exists)
+  if (!existsStatus[row.id])
     fauxEntry.addClass("statusbar-organizer-row-disabled");
   if (!barStatus[row.id].visible)
     fauxEntry.addClass("statusbar-organizer-row-hidden");
@@ -365,10 +368,10 @@ function calculateRowIndex(event, rowsContainer, movableRow, stationaryRow, offs
   }
   return index;
 }
-function handlePositionChange(barStatus, rowsContainer, rows, row, stationaryRow, newIndex) {
+function handlePositionChange(barStatus, existsStatus, rowsContainer, rows, row, stationaryRow, newIndex) {
   const passedEntry = rowsContainer.children[newIndex];
   const passedId = passedEntry.getAttribute("data-statusbar-organizer-id");
-  const statusBarChangeRequired = barStatus[row.id].exists && barStatus[passedId].exists;
+  const statusBarChangeRequired = existsStatus[row.id] && existsStatus[passedId];
   if (statusBarChangeRequired && row.element) {
     const passedElement = rows.filter((x) => x.id == passedId)[0].element;
     const temp = passedElement.style.order;
@@ -383,16 +386,16 @@ function handlePositionChange(barStatus, rowsContainer, rows, row, stationaryRow
   for (const [entryIndex, entry] of Array.from(rowsContainer.children).entries())
     barStatus[entry.getAttribute("data-statusbar-organizer-id")].position = entryIndex;
 }
-function handleMouseDown(event, plugin, barStatus, settingsContainer, rowsContainer, rows, row) {
+function handleMouseDown(event, plugin, barStatus, existsStatus, settingsContainer, rowsContainer, rows, row) {
   if (dragging)
     return;
   dragging = true;
-  let { stationaryRow, movableRow, offsetX, offsetY, index } = cloneRow(settingsContainer, barStatus, rowsContainer, event, row);
+  let { stationaryRow, movableRow, offsetX, offsetY, index } = cloneRow(settingsContainer, barStatus, existsStatus, rowsContainer, event, row);
   function handleMouseMove(event2) {
     plugin.spooler.disableObserver();
     const newIndex = calculateRowIndex(event2, rowsContainer, movableRow, stationaryRow, offsetX, offsetY, index);
     if (newIndex != index) {
-      handlePositionChange(barStatus, rowsContainer, rows, row, stationaryRow, newIndex);
+      handlePositionChange(barStatus, existsStatus, rowsContainer, rows, row, stationaryRow, newIndex);
       index = newIndex;
     }
     plugin.spooler.enableObserver();
@@ -591,6 +594,72 @@ function fixOrder(plugin) {
     element.style.order = (i + 1).toString();
 }
 
+// src/upgrade.ts
+var upgrades = /* @__PURE__ */ new Map();
+function ver(major, minor, patch) {
+  return { major, minor, patch };
+}
+function parseVersion(version) {
+  const [major, minor, patch] = version.split(".").map((x) => Number.parseInt(x));
+  return { major, minor, patch };
+}
+function registerUpdate(version, upgrade2) {
+  let majorCollection = upgrades.get(version.major);
+  if (!majorCollection) {
+    majorCollection = /* @__PURE__ */ new Map();
+    upgrades.set(version.major, majorCollection);
+  }
+  let minorCollection = majorCollection.get(version.minor);
+  if (!minorCollection) {
+    minorCollection = /* @__PURE__ */ new Map();
+    majorCollection.set(version.minor, minorCollection);
+  }
+  minorCollection.set(version.patch, upgrade2);
+}
+function filterCollections(collection, threshold) {
+  return [...collection.entries()].filter((x) => x[0] >= threshold).sort((a, b) => a[0] - b[0]);
+}
+function getUpgradeList(upgrades2, version) {
+  const upgradesList = [];
+  for (let majorUpgrades of filterCollections(upgrades2, version.major)) {
+    for (let minorUpgrades of filterCollections(majorUpgrades[1], version.minor)) {
+      for (let [patch, upgrade2] of filterCollections(minorUpgrades[1], version.patch)) {
+        if (majorUpgrades[0] === version.major && minorUpgrades[0] === version.minor && patch === version.patch) {
+          continue;
+        }
+        upgradesList.push({ version: { major: majorUpgrades[0], minor: minorUpgrades[0], patch }, upgrade: upgrade2 });
+      }
+    }
+  }
+  return upgradesList;
+}
+function upgrade(settings) {
+  const oldSettings = settings;
+  let version;
+  if ("version" in oldSettings) {
+    version = parseVersion(oldSettings.version);
+  } else {
+    version = ver(0, 0, 0);
+  }
+  getUpgradeList(upgrades, version).forEach((x) => x.upgrade(settings));
+  settings.version = "2.1.1";
+}
+registerUpdate(ver(2, 0, 0), (settings) => {
+  const oldSettings = settings;
+  if ("status" in oldSettings) {
+    oldSettings.presets.default = oldSettings.status;
+    delete oldSettings.status;
+    settings = oldSettings;
+  }
+});
+registerUpdate(ver(2, 1, 1), (settings) => {
+  Object.entries(settings.presets).forEach(([preset, presetSettings]) => {
+    Object.entries(presetSettings).forEach(([element, elementSettings]) => {
+      delete elementSettings["exists"];
+    });
+  });
+});
+
 // main.ts
 var DEFAULT_SETTINGS = {
   activePreset: "Default",
@@ -599,7 +668,8 @@ var DEFAULT_SETTINGS = {
   presets: {
     "Default": {}
   },
-  presetsOrder: ["Default"]
+  presetsOrder: ["Default"],
+  version: "2.1.1"
 };
 var StatusBarOrganizer = class extends import_obsidian4.Plugin {
   async onload() {
@@ -614,14 +684,12 @@ var StatusBarOrganizer = class extends import_obsidian4.Plugin {
     this.spooler.disableObserver();
   }
   async loadSettings() {
-    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
-    const oldSettings = this.settings;
-    if ("status" in oldSettings) {
-      oldSettings.presets.default = oldSettings.status;
-      delete oldSettings.status;
-      this.settings = oldSettings;
-      await this.saveSettings();
-    }
+    const savedData = await this.loadData();
+    if (Object.keys(savedData).length != 0 && !("version" in savedData))
+      savedData["version"] = "0.0.0";
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, savedData);
+    upgrade(this.settings);
+    await this.saveSettings();
   }
   async saveSettings() {
     await this.saveData(this.settings);

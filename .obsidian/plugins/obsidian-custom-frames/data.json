@@ -38,7 +38,7 @@
     },
     {
       "url": "https://terenc3.github.io/timer/#00:15:00",
-      "displayName": "Timer",
+      "displayName": "Timer (add js to match theme)",
       "icon": "timer",
       "hideOnMobile": true,
       "addRibbonIcon": false,
