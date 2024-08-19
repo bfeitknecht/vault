@@ -47,6 +47,18 @@
       "forceIframe": false,
       "customCss": "",
       "customJs": ""
+    },
+    {
+      "url": "https://github.com/bfeitknecht/vault",
+      "displayName": "Github",
+      "icon": "github",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
     }
   ],
   "padding": 5
