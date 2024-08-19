@@ -243,80 +243,14 @@
         "type": "split",
         "children": [
           {
-            "id": "530c567c42d9a199",
+            "id": "5e5f392451ad24f6",
             "type": "tabs",
             "children": [
               {
-                "id": "84d6179a41f3d7a6",
+                "id": "58be80d729364bb2",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "HOME.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "c4761f644bfecbe1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "README.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "1bb835ec9bd956c8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "LICENSE.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "cc18e9c70282ea5d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "4c71ec2288beccf3",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {}
-                }
-              },
-              {
-                "id": "992a2af1614bd7ce",
-                "type": "leaf",
-                "state": {
-                  "type": "custom-frames-calendar",
-                  "state": {}
-                }
-              },
-              {
-                "id": "5b6f616b56729fb0",
-                "type": "leaf",
-                "state": {
-                  "type": "custom-frames-anki",
-                  "state": {}
-                }
-              },
-              {
-                "id": "5afa6b93c7a9c6eb",
-                "type": "leaf",
-                "state": {
-                  "type": "custom-frames-github",
+                  "type": "empty",
                   "state": {}
                 }
               }
@@ -363,9 +297,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -374,7 +306,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -391,7 +322,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -401,8 +331,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -480,8 +409,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "84d6179a41f3d7a6",
-      "mtime": "2024-08-19T16:13:45+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-08-19T17:22:01+02:00"
     }
   },
   "active": "dmath"
