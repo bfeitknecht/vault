@@ -46,7 +46,7 @@
       "zoomLevel": 1,
       "forceIframe": false,
       "customCss": "",
-      "customJs": ""
+      "customJs": "if (window.matchMedia) {\n  if (window.matchMedia('(prefers-color-scheme: dark)').matches) {\n    // Dark mode\n    document.documentElement.style.setProperty('color', '#ffffff');\n    document.documentElement.style.setProperty('background-color', '#262626');\n  } else {\n    // Light mode\n    document.documentElement.style.setProperty('color', '#000000')\n    document.documentElement.style.setProperty'background-color', '#ffffff');\n  }\n} else {\n  // Default (when Media-Queries are not supported)\n  document.documentElement.style.setProperty('color', '#000000')\n  document.documentElement.style.setProperty'background-color', '#ffffff');\n}"
     },
     {
       "url": "https://github.com/bfeitknecht/vault",
