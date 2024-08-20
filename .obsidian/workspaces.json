@@ -243,18 +243,27 @@
         "type": "split",
         "children": [
           {
-            "id": "5e5f392451ad24f6",
+            "id": "cb6facf111ac980c",
             "type": "tabs",
             "children": [
               {
-                "id": "58be80d729364bb2",
+                "id": "d7afde8cdfdc1bf7",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
+                  "type": "graph",
+                  "state": {}
+                }
+              },
+              {
+                "id": "16a00f62db4c5286",
+                "type": "leaf",
+                "state": {
+                  "type": "custom-frames-timer-(add-js-to-match-theme)",
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -331,7 +340,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5
+        "width": 346.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -409,8 +419,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-08-19T17:22:01+02:00"
+      "active": "16a00f62db4c5286",
+      "mtime": "2024-08-20T21:12:16+02:00"
     }
   },
   "active": "dmath"
