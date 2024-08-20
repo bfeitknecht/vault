@@ -642,7 +642,7 @@ function upgrade(settings) {
     version = ver(0, 0, 0);
   }
   getUpgradeList(upgrades, version).forEach((x) => x.upgrade(settings));
-  settings.version = "2.1.1";
+  settings.version = "2.1.2";
 }
 registerUpdate(ver(2, 0, 0), (settings) => {
   const oldSettings = settings;
@@ -669,7 +669,7 @@ var DEFAULT_SETTINGS = {
     "Default": {}
   },
   presetsOrder: ["Default"],
-  version: "2.1.1"
+  version: "2.1.2"
 };
 var StatusBarOrganizer = class extends import_obsidian4.Plugin {
   async onload() {
@@ -684,7 +684,8 @@ var StatusBarOrganizer = class extends import_obsidian4.Plugin {
     this.spooler.disableObserver();
   }
   async loadSettings() {
-    const savedData = await this.loadData();
+    const savedData = await this.loadData() || {};
+    console.log(savedData);
     if (Object.keys(savedData).length != 0 && !("version" in savedData))
       savedData["version"] = "0.0.0";
     this.settings = Object.assign({}, DEFAULT_SETTINGS, savedData);
