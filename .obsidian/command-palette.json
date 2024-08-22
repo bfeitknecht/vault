@@ -1,3 +1,6 @@
 {
-  "pinned": null
+  "pinned": [
+    "pdf-plus:fit-width",
+    "pdf-plus:toggle-adapt-to-theme"
+  ]
 }
