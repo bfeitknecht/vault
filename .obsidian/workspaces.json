@@ -255,15 +255,85 @@
                 }
               },
               {
-                "id": "16a00f62db4c5286",
+                "id": "c8f95ab9d6245307",
                 "type": "leaf",
                 "state": {
-                  "type": "custom-frames-timer-(add-js-to-match-theme)",
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/DMath/VRL/extra/DMath-script.pdf",
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              },
+              {
+                "id": "546abe3f8da8bd20",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/DMath/UE/bf/corrections/DMath-u06-bf-c.pdf",
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              },
+              {
+                "id": "fbf768a1e302a4e7",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/DMath/UE/e/DMath-u06-e.pdf",
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              },
+              {
+                "id": "b0b4bf60727d7d57",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/DMath/UE/s/DMath-u06-s.pdf",
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              },
+              {
+                "id": "b003ac141a7f78d0",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/DMath/VRL/extra/leon/DMath-leon-w07.pdf",
+                    "page": 5,
+                    "left": -11,
+                    "top": 481,
+                    "zoom": 1.325980392156863
+                  }
+                }
+              },
+              {
+                "id": "925f7e41ebe00282",
+                "type": "leaf",
+                "state": {
+                  "type": "custom-frames-anki",
+                  "state": {}
+                }
+              },
+              {
+                "id": "6625b05ce95e73e8",
+                "type": "leaf",
+                "state": {
+                  "type": "custom-frames-github",
                   "state": {}
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 6
           }
         ],
         "direction": "vertical"
@@ -340,8 +410,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -419,9 +488,9 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "16a00f62db4c5286",
-      "mtime": "2024-08-20T21:12:16+02:00"
+      "active": "925f7e41ebe00282",
+      "mtime": "2024-08-24T17:09:04+02:00"
     }
   },
-  "active": "dmath"
+  "active": "HOME"
 }
