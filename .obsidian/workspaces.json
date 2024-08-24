@@ -490,7 +490,182 @@
       },
       "active": "925f7e41ebe00282",
       "mtime": "2024-08-24T17:09:04+02:00"
+    },
+    "scratch": {
+      "main": {
+        "id": "ef0204964e2b9162",
+        "type": "split",
+        "children": [
+          {
+            "id": "e0a4ceab5d9693f4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "549046e11c244b2f",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "fe28d63e32c3168b",
+        "type": "split",
+        "children": [
+          {
+            "id": "fddab58c0769d063",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5f4cf158045f14fe",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "70265419a98d8a68",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "0f56d709fdb24392",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b3aff261bc292caf",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "2d28441159ca953f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 346.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "4be59d580df31d93",
+        "type": "split",
+        "children": [
+          {
+            "id": "a9eab3abde570e06",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d39f74221ae34967",
+                "type": "leaf",
+                "state": {
+                  "type": "vertical-tabs-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b14014a5400a500b",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "ee946e358c8111ed",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "d4d9e5cf2cd5e94b",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "df8e8e11fe3e136a",
+                "type": "leaf",
+                "state": {
+                  "type": "toggl-report",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "flashcards-obsidian:Generate flashcards": true,
+          "obsidian-shellcommands:Shell commands: Custom variables": true,
+          "omnisearch:Omnisearch": false,
+          "cmdr:Export to PDF": false,
+          "workspaces:Manage workspace layouts": false,
+          "graph:Open graph view": false,
+          "switcher:Open quick switcher": true,
+          "templates:Insert template": true,
+          "zk-prefixer:Create new unique note": true,
+          "pdf-plus:PDF++: Toggle auto-copy": true,
+          "pdf-plus:PDF++: Toggle auto-focus": true,
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "command-palette:Open command palette": true
+        }
+      },
+      "active": "549046e11c244b2f",
+      "mtime": "2024-08-24T17:26:06+02:00"
     }
   },
-  "active": "HOME"
+  "active": "dmath"
 }
