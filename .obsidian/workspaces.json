@@ -298,42 +298,14 @@
                   "state": {
                     "file": "sem1/DMath/UE/s/DMath-u06-s.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -9,
+                    "top": 846,
+                    "zoom": 1.7991654291454724
                   }
-                }
-              },
-              {
-                "id": "b003ac141a7f78d0",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem1/DMath/VRL/extra/leon/DMath-leon-w07.pdf",
-                    "page": 5,
-                    "left": -11,
-                    "top": 481,
-                    "zoom": 1.325980392156863
-                  }
-                }
-              },
-              {
-                "id": "925f7e41ebe00282",
-                "type": "leaf",
-                "state": {
-                  "type": "custom-frames-anki",
-                  "state": {}
-                }
-              },
-              {
-                "id": "6625b05ce95e73e8",
-                "type": "leaf",
-                "state": {
-                  "type": "custom-frames-github",
-                  "state": {}
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -376,7 +348,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "sem1/DMath/UE/s/DMath-u06-s.pdf"
+                  }
                 }
               },
               {
@@ -385,6 +359,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "sem1/DMath/UE/s/DMath-u06-s.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -401,6 +376,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "sem1/DMath/UE/s/DMath-u06-s.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -410,7 +386,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5
+        "width": 346.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -488,8 +465,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "925f7e41ebe00282",
-      "mtime": "2024-08-24T17:09:04+02:00"
+      "active": "b0b4bf60727d7d57",
+      "mtime": "2024-08-24T19:53:38+02:00"
     },
     "scratch": {
       "main": {
