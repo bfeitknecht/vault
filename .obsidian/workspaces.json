@@ -261,57 +261,14 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem1/DMath/VRL/extra/DMath-script.pdf",
-                    "page": 79,
+                    "page": 96,
                     "left": -6,
-                    "top": 462,
+                    "top": 120,
                     "zoom": 2.5528689384260406
                   }
                 }
-              },
-              {
-                "id": "546abe3f8da8bd20",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem1/DMath/UE/bf/corrections/DMath-u06-bf-c.pdf",
-                    "page": 1,
-                    "left": -9,
-                    "top": 609,
-                    "zoom": 1.800121016538927
-                  }
-                }
-              },
-              {
-                "id": "fbf768a1e302a4e7",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem1/DMath/UE/e/DMath-u06-e.pdf",
-                    "page": 1,
-                    "left": -9,
-                    "top": 400,
-                    "zoom": 1.7991654291454724
-                  }
-                }
-              },
-              {
-                "id": "b0b4bf60727d7d57",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem1/DMath/UE/s/DMath-u06-s.pdf",
-                    "page": 1,
-                    "left": -9,
-                    "top": 800,
-                    "zoom": 1.7991654291454724
-                  }
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -354,9 +311,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "sem1/DMath/VRL/extra/DMath-script.pdf"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -365,7 +320,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem1/DMath/VRL/extra/DMath-script.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -382,7 +336,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem1/DMath/VRL/extra/DMath-script.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -471,8 +424,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "c8f95ab9d6245307",
-      "mtime": "2024-08-25T17:33:23+02:00"
+      "active": "d7afde8cdfdc1bf7",
+      "mtime": "2024-08-31T10:31:48+02:00"
     },
     "scratch": {
       "main": {
