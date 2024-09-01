@@ -261,10 +261,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem1/DMath/VRL/extra/DMath-script.pdf",
-                    "page": 96,
-                    "left": -6,
-                    "top": 120,
-                    "zoom": 2.5528689384260406
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               }
@@ -425,7 +423,7 @@
         }
       },
       "active": "d7afde8cdfdc1bf7",
-      "mtime": "2024-08-31T10:31:48+02:00"
+      "mtime": "2024-09-01T01:34:58+02:00"
     },
     "scratch": {
       "main": {
