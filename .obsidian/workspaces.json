@@ -219,6 +219,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-git:Open Git source control": true,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -235,7 +236,7 @@
         }
       },
       "active": "84d6179a41f3d7a6",
-      "mtime": "2024-08-15T14:42:06+02:00"
+      "mtime": "2024-09-03T21:22:31+02:00"
     },
     "dmath": {
       "main": {
@@ -247,23 +248,25 @@
             "type": "tabs",
             "children": [
               {
-                "id": "d7afde8cdfdc1bf7",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {}
-                }
-              },
-              {
                 "id": "c8f95ab9d6245307",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem1/DMath/VRL/extra/DMath-script.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 96,
+                    "left": -8,
+                    "top": 148,
+                    "zoom": 2.016551934555024
                   }
+                }
+              },
+              {
+                "id": "33872dbb2ff67d4b",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
                 }
               }
             ]
@@ -309,7 +312,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "sem1/DMath/VRL/extra/DMath-script.pdf"
+                  }
                 }
               },
               {
@@ -318,6 +323,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "sem1/DMath/VRL/extra/DMath-script.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -334,6 +340,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "sem1/DMath/VRL/extra/DMath-script.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -402,8 +409,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -419,11 +425,12 @@
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "command-palette:Open command palette": true
+          "command-palette:Open command palette": true,
+          "obsidian-git:Open Git source control": true
         }
       },
-      "active": "d7afde8cdfdc1bf7",
-      "mtime": "2024-09-01T01:34:58+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-09-03T21:22:12+02:00"
     },
     "scratch": {
       "main": {
@@ -582,6 +589,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-git:Open Git source control": true,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -598,7 +606,7 @@
         }
       },
       "active": "549046e11c244b2f",
-      "mtime": "2024-08-25T22:02:29+02:00"
+      "mtime": "2024-09-03T21:22:48+02:00"
     }
   },
   "active": "dmath"
