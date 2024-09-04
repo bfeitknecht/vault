@@ -93,16 +93,20 @@ public void flag(String s) {
 		flag += divider(l) + "\n";
 	}
 	else {
-		String space = " ";	// one space
-		for (int i = 0; i < l-2; i++) {
-			space += "  ";	// two space
+		String space = "   ";	// 3 space
+		for (int i = 0; i < l-3; i++) {
+			space += "    ";	// 4 space
 		}
+		
 		flag += divider(l) + "\n";
 		flag += cell(s) + "\n";
 		flag += divider(l) + "\n";
+		
 		for (int i = 1; i < l-2; i++) {
 			flag += cell((String)s.charAt(i));
-			
+			flag += space;
+			flag += cell((String)s.charAt(l-i-1));
+			flag += "\n";
 		}
 	}
 	System.out.prinln(flag);
