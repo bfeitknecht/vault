@@ -109,6 +109,7 @@ public void flag(String s) {
 			flag += "\n";
 		}
 	}
+	
 	System.out.prinln(flag);
 }
 
