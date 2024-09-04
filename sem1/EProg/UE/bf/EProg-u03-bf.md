@@ -4,6 +4,23 @@
 
 ```java
 public int decode(String s) {
+	boolean a = s.contains("a");
+	boolean b = s.contains("b");
+	boolean c = s.contains("c");
+	boolean d = s.contains("d");
+	boolean e = s.contains("e");
+	boolean f = s.contains("f");
+	boolean g = s.contains("g");
+	
+	if (b && c) return 1;
+	if (a && b && d && e && g) return 2;
+	if (a && b && c && d && g) return 3;
+	if (b && c && f && g) return 4;
+	if (a && c && d && f && g) return 5;
+	if (a && c && d && e && f && g) return 6;
+	if (a && b && c) return 7;
+	if (a && b && c && d && e && f && g) return 8;
+	if (a && b && c && d && f && g) return 9;
 	
 	return 0;
 }
