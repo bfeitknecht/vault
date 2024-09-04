@@ -1,5 +1,5 @@
 
-
+# Ex. 3
 ![[EProg-u03-e.pdf#page=2&rect=67,401,556,696|EProg-u03-e, p.2]]
 
 |       | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | total |
@@ -41,3 +41,7 @@ public int decode(String s) {
 ```
 
 
+
+
+# Ex. 5
+![[EProg-u03-e.pdf#page=3&rect=64,341,548,696|EProg-u03-e, p.3]]
