@@ -64,14 +64,16 @@ l == 2 => "
 "
 
 l >= 3 => "
-+---+---+---+
-| 0 | … | n |
-+---+---+---+
-| … |   | … |
-+---+---+---+
-| n | … | 0 |
-+---+---+---+
++---+---+---+---+
+| 0 | . | . | n |
++---+---+---+---+
+| . |       | .
++---+---+---+---+
+| n | . | 0 | .
++---+---+---+---+
 "
+
+
 
 ```
 
@@ -83,11 +85,11 @@ public void flag(String s) {
 	
 	if (l==1) {
 		flag += divider(l);
-		System.out.println(divider(l)));
-		System.out.println("| " + s + " |");
-		System.out.println(divider(l)));
+		flag += "| " + s + " |\n";
+		flag += divider(l);
 	}
 	
+	System.out.prinln(flag);
 }
 
 public String divider(int n) {
@@ -95,13 +97,13 @@ public String divider(int n) {
 	for (int i = 0; i < n; i++) {
 		divider += "+---";
 	}
-	divider += "+";
+	divider += "+\n";
 	return divider;
 }
 
-public String cell(String s, boolean single) {
+public String cell(String s) {
 	String cell = "| " + s;
-	if (single) cell += " |";
+	if (c.length()==1) cell += " |";
 	return cell;
 }
 
