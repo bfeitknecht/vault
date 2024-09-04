@@ -74,3 +74,27 @@ l >= 3 => "
 "
 
 ```
+
+```java
+public void flag(String s) {
+	int l = s.length();
+	int n = l-1;
+	S
+	if (l==1) {
+		System.out.println(divider(l)));
+		System.out.println("| " + s + " |");
+		System.out.println(divider(l)));
+	}
+	
+}
+
+public String divider(int n) {
+	String divider = "";
+	for (int i = 0; i < n; i++) {
+		divider += "+---";
+	}
+	divider += "+";
+	return divider;
+}
+
+```
