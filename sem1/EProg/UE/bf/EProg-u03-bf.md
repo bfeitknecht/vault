@@ -65,15 +65,15 @@ l == 2 => "
 
 l >= 3 => "
 +---+---+---+---+
-| 0 | . | . | n |
+| 0 | . | … | n |
 +---+---+---+---+
-| . |       | .
+| . |       | … |
++---+       +---+
+| … |       | . |
 +---+---+---+---+
-| n | . | 0 | .
+| n | … | . | 0 |
 +---+---+---+---+
 "
-
-
 
 ```
 
@@ -102,7 +102,10 @@ public String divider(int n) {
 }
 
 public String cell(String s) {
-	String cell = "| " + s;
+	String cell = "";
+	for (char c : s) {
+		cell += "| " + c;
+	}
 	if (c.length()==1) cell += " |";
 	return cell;
 }
