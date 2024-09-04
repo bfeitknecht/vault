@@ -68,7 +68,7 @@ l >= 3 => "
 | 0 | . | … | n |
 +---+---+---+---+
 | . |       | … |
-+---+       +---+
++---+  ...  +---+
 | … |       | . |
 +---+---+---+---+
 | n | … | . | 0 |
@@ -84,11 +84,13 @@ public void flag(String s) {
 	String flag = "";
 	
 	if (l==1) {
-		flag += divider(l);
-		flag += "| " + s + " |\n";
-		flag += divider(l);
+		flag += divider(l) + "\n";
+		flag += cell(s) + "\n";
+		flag += divider(l) + "\n";
 	}
-	
+	if (l==2) {
+		
+	}
 	System.out.prinln(flag);
 }
 
@@ -97,7 +99,7 @@ public String divider(int n) {
 	for (int i = 0; i < n; i++) {
 		divider += "+---";
 	}
-	divider += "+\n";
+	divider += "+";
 	return divider;
 }
 
@@ -106,7 +108,7 @@ public String cell(String s) {
 	for (char c : s) {
 		cell += "| " + c;
 	}
-	if (c.length()==1) cell += " |";
+	cell += " |";
 	return cell;
 }
 
