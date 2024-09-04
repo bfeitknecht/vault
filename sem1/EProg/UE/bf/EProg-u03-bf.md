@@ -10,7 +10,7 @@ public int decode(String s) {
 ```
 
 
-maximum number of `if` blocks == 9 (one for each possible pattern)
+`if` block for each possible pattern => max 9
 
 
 |       | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | total |
