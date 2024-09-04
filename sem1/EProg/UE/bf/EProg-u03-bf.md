@@ -81,33 +81,44 @@ l >= 3 => "
 ```java
 public void flag(String s) {
 	int l = s.length();
-	if (l==0) return;
+	if (n==0) {
+		System.out.println("+");
+		return;
+	}
 	
 	String flag = "";
 	
-	if (l>3) {
-		flag += divider(l) + "\n";
+	if (n>3) {
+		flag += divider(n) + "\n";
 		for (int i = 0; i < l; i++) {
 			flag += cell(s) + "\n";
 		}
-		flag += divider(l) + "\n";
+		flag += divider(n) + "\n";
 	}
 	else {
-		String space = "   ";	// 3 space
-		for (int i = 0; i < l-3; i++) {
-			space += "    ";	// 4 space
+		// spacer
+		String spacer = "   ";	// 3 space
+		for (int i = 0; i < n-3; i++) {
+			spacer += "    ";	// 4 space
 		}
 		
-		flag += divider(l) + "\n";
+		// upper strip
+		flag += divider(n) + "\n";
 		flag += cell(s) + "\n";
-		flag += divider(l) + "\n";
+		flag += divider(n) + "\n";
 		
-		for (int i = 1; i < l-2; i++) {
+		// inner strip
+		for (int i = 1; i < n-2; i++) {
 			flag += cell((String)s.charAt(i));
 			flag += space;
-			flag += cell((String)s.charAt(l-i-1));
+			flag += cell((String)s.charAt(n-i-1));
 			flag += "\n";
 		}
+		
+		// lower strip
+		flag += divider(l) + "\n";
+		flag += cell(reverse(s)) + "\n";
+		flag += divider(l) + "\n";
 	}
 	
 	System.out.prinln(flag);
@@ -129,6 +140,10 @@ public String cell(String s) {
 	}
 	cell += " |";
 	return cell;
+}
+
+public String reverse(String s) {
+	return new StringBuilder(str).reverse().toString();
 }
 
 ```
