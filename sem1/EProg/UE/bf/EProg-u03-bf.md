@@ -80,16 +80,24 @@ l >= 3 => "
 ```java
 public void flag(String s) {
 	int l = s.length();
-	int n = l-1;
+	if (l==0) return;
+	
 	String flag = "";
 	
-	if (l==1) {
+	if (l>3) {
+		flag += divider(l) + "\n";
+		for (int i = 0; i < l; i++) {
+			flag += cell(s) + "\n";
+		}
+		flag += divider(l) + "\n";
+	}
+	else {
 		flag += divider(l) + "\n";
 		flag += cell(s) + "\n";
 		flag += divider(l) + "\n";
-	}
-	if (l==2) {
-		
+		for (int i = 1; i < l-2; i++) {
+			
+		}
 	}
 	System.out.prinln(flag);
 }
