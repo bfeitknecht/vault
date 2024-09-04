@@ -50,27 +50,27 @@ public int decode(String s) {
 let l = s.length()
 
 l == 1 => "
-	+---+
-	| 0 |
-	+---+
++---+
+| 0 |
++---+
 "
 
 l == 2 => "
-	+---+---+
-	| 0 | 1 |
-	+---+---+
-	| 1 | 0 |
-	+---+---+
++---+---+
+| 0 | 1 |
++---+---+
+| 1 | 0 |
++---+---+
 "
 
 l >= 3 => "
-	+---+---+---+
-	| 0 | … | n |
-	+---+---+---+
-	| … |   | … |
-	+---+---+---+
-	| n | … | 0 |
-	+---+---+---+
++---+---+---+
+| 0 | … | n |
++---+---+---+
+| … |   | … |
++---+---+---+
+| n | … | 0 |
++---+---+---+
 "
 
 ```
@@ -79,8 +79,10 @@ l >= 3 => "
 public void flag(String s) {
 	int l = s.length();
 	int n = l-1;
-	S
+	String flag = "";
+	
 	if (l==1) {
+		flag += divider(l);
 		System.out.println(divider(l)));
 		System.out.println("| " + s + " |");
 		System.out.println(divider(l)));
@@ -95,6 +97,12 @@ public String divider(int n) {
 	}
 	divider += "+";
 	return divider;
+}
+
+public String cell(String s, boolean single) {
+	String cell = "| " + s;
+	if (single) cell += " |";
+	return cell;
 }
 
 ```
