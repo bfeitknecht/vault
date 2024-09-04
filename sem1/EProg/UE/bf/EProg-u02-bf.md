@@ -5,9 +5,13 @@
 ```java
 public int f(int a, int b) {
 	if (a/10 == b/10 || a/10 == b%10) {
+		return a/10;
 	}
-	if (a%10 == b/10 ||
-		a%10 == b%10)
+	if (a%10 == b/10 || a%10 == b%10) {
+		return a%10;
+	}
 	return -1;
 }
 ```
+
+
