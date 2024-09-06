@@ -68,7 +68,7 @@ l >= 3 => "
 | 0 | . | … | n |
 +---+---+---+---+
 | . |       | … |
-+---+  ...  +---+
++---+  *\s  +---+
 | … |       | . |
 +---+---+---+---+
 | n | … | . | 0 |
@@ -80,7 +80,7 @@ l >= 3 => "
 
 ```java
 public void flag(String s) {
-	int l = s.length();
+	int n = s.length();
 	if (n==0) {
 		System.out.println("+");
 		return;
@@ -90,7 +90,7 @@ public void flag(String s) {
 	
 	if (n>3) {
 		flag += divider(n) + "\n";
-		for (int i = 0; i < l; i++) {
+		for (int i = 0; i < n; i++) {
 			flag += cell(s) + "\n";
 		}
 		flag += divider(n) + "\n";
@@ -107,7 +107,7 @@ public void flag(String s) {
 		flag += cell(s) + "\n";
 		flag += divider(n) + "\n";
 		
-		// inner strip
+		// inner strips
 		for (int i = 1; i < n-2; i++) {
 			flag += cell((String)s.charAt(i));
 			flag += space;
@@ -116,9 +116,9 @@ public void flag(String s) {
 		}
 		
 		// lower strip
-		flag += divider(l) + "\n";
+		flag += divider(n) + "\n";
 		flag += cell(reverse(s)) + "\n";
-		flag += divider(l) + "\n";
+		flag += divider(n) + "\n";
 	}
 	
 	System.out.prinln(flag);
