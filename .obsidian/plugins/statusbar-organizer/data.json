@@ -3,7 +3,48 @@
   "activeFullscreenPreset": "Default",
   "separateFullscreenPreset": false,
   "presets": {
-    "Default": {}
+    "Default": {
+      "cmdr-cmdr-adder;1": {
+        "position": 0,
+        "visible": false
+      },
+      "plugin-better-word-count;1": {
+        "position": 1,
+        "visible": true
+      },
+      "plugin-obsidian-show-file-path;1": {
+        "position": 7,
+        "visible": true
+      },
+      "plugin-obsidian-cursor-location-plugin;1": {
+        "position": 2,
+        "visible": true
+      },
+      "plugin-obsidian-toggl-integration;1": {
+        "position": 3,
+        "visible": false
+      },
+      "plugin-obsidian-toggl-integration;2": {
+        "position": 4,
+        "visible": false
+      },
+      "plugin-flashcards-obsidian;1": {
+        "position": 5,
+        "visible": false
+      },
+      "plugin-backlink;1": {
+        "position": 6,
+        "visible": false
+      },
+      "plugin-editor-status;1": {
+        "position": 8,
+        "visible": true
+      },
+      "plugin-editing-toolbar-cMenuToolbar-statusbar-button;1": {
+        "position": 9,
+        "visible": false
+      }
+    }
   },
   "presetsOrder": [
     "Default"
