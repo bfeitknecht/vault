@@ -61,7 +61,7 @@ ___
 >[!note]- paste pdf selection as image to anki 
 > want to paste pdf selection as image, so it's synced to the web etc.
 
-
+$\eth \implies $ 
 
 
 
