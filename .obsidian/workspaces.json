@@ -175,7 +175,7 @@
         }
       },
       "active": "1ecea32dc9822744",
-      "mtime": "2024-09-12T17:33:19+02:00"
+      "mtime": "2024-09-15T19:23:03+02:00"
     },
     "00-home": {
       "main": {
@@ -211,14 +211,14 @@
                 }
               },
               {
-                "id": "1bb835ec9bd956c8",
+                "id": "c215682ac1e11587",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "pdf",
                   "state": {
-                    "file": "LICENSE.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "var/other/LATEX.pdf",
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               }
@@ -233,22 +233,6 @@
                 "type": "leaf",
                 "state": {
                   "type": "graph",
-                  "state": {}
-                }
-              },
-              {
-                "id": "992a2af1614bd7ce",
-                "type": "leaf",
-                "state": {
-                  "type": "custom-frames-calendar",
-                  "state": {}
-                }
-              },
-              {
-                "id": "5b6f616b56729fb0",
-                "type": "leaf",
-                "state": {
-                  "type": "custom-frames-anki",
                   "state": {}
                 }
               }
@@ -412,8 +396,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "84d6179a41f3d7a6",
-      "mtime": "2024-09-12T17:39:41+02:00"
+      "active": "4c71ec2288beccf3",
+      "mtime": "2024-09-15T19:22:35+02:00"
     },
     "sem1-aud": {
       "main": {
@@ -1165,5 +1149,5 @@
       "mtime": "2024-09-12T17:32:21+02:00"
     }
   },
-  "active": "00-home"
+  "active": "sem1-linalg"
 }
