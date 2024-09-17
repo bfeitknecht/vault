@@ -984,11 +984,52 @@
                 "id": "1ecea32dc9822744",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/LinAlg/VRL/extra/LinAlg-script-HS23.pdf",
+                    "page": 13,
+                    "left": -12,
+                    "top": 495,
+                    "zoom": 1.78
+                  }
+                }
+              },
+              {
+                "id": "be709537ea20eb80",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem1/LinAlg/VRL/notes/LinAlg.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "c134f7be226828f1",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
                   "state": {}
                 }
+              },
+              {
+                "id": "b1e9d6c9669ed583",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/LinAlg/VRL/slides/2nd/LinAlg-notes-1.pdf",
+                    "page": 5,
+                    "left": -11,
+                    "top": 533,
+                    "zoom": 1.325980392156863
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1031,7 +1072,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "sem1/LinAlg/VRL/slides/2nd/LinAlg-notes-1.pdf"
+                  }
                 }
               },
               {
@@ -1040,6 +1083,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "sem1/LinAlg/VRL/slides/2nd/LinAlg-notes-1.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1056,6 +1100,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "sem1/LinAlg/VRL/slides/2nd/LinAlg-notes-1.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1065,8 +1110,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1145,9 +1189,9 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "1ecea32dc9822744",
-      "mtime": "2024-09-12T17:32:21+02:00"
+      "active": "b1e9d6c9669ed583",
+      "mtime": "2024-09-17T07:44:31+02:00"
     }
   },
-  "active": "sem1-linalg"
+  "active": "00-clean"
 }
