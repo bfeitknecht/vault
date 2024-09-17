@@ -14,6 +14,12 @@ ___
 
 ## Problems
 
+>[!todo] rename stuff
+> AuD -> A&D
+> AuW -> A&W
+
+
+
 >[!attention]- Time To Load Plugins
 > Total plugin setup: 639ms
 > code-styler: 64ms
@@ -61,7 +67,7 @@ ___
 >[!note]- paste pdf selection as image to anki 
 > want to paste pdf selection as image, so it's synced to the web etc.
 
-$\eth \implies $ 
+
 
 
 
