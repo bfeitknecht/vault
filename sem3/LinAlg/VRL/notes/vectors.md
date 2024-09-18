@@ -10,4 +10,6 @@ A vector is just a list of numbers in $\mathbb R^m$, and can be interpreted as a
 
 ## Scalar Multiplication
 
+Let $\lambda \in \mathbb R$ 
+
 
