@@ -1,9 +1,10 @@
 
-
 > [!attention] Topics to revisit
 > - inheritance / polymorphism quiz
-> - loop invariants
+> - loop invariants, pre- / postconditions
 > - how to code quickly
-> - abstraction models complexity
+> - how abstraction models complexity
 > - 
 >   
+
+	
