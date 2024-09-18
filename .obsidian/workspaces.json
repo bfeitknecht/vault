@@ -585,32 +585,37 @@
         "type": "split",
         "children": [
           {
-            "id": "cb6facf111ac980c",
+            "id": "d9e8ae9c11d57e73",
             "type": "tabs",
             "children": [
               {
-                "id": "c8f95ab9d6245307",
+                "id": "a19f0859eb717208",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem1/DMath/VRL/extra/DMath-script.pdf",
-                    "page": 96,
+                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
+                    "page": 13,
                     "left": -6,
-                    "top": 164,
+                    "top": 138,
                     "zoom": 2.5528689384260406
                   }
                 }
               },
               {
-                "id": "33872dbb2ff67d4b",
+                "id": "39e39d44cd4e7353",
                 "type": "leaf",
                 "state": {
-                  "type": "graph",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/DMath/VRL/notes/DMath.md",
+                    "mode": "source",
+                    "source": false
+                  }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -654,7 +659,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem1/DMath/VRL/extra/DMath-script.pdf"
+                    "file": "sem3/DMath/VRL/notes/DMath.md"
                   }
                 }
               },
@@ -664,7 +669,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem1/DMath/VRL/extra/DMath-script.pdf",
+                    "file": "sem3/DMath/VRL/notes/DMath.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -681,7 +686,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem1/DMath/VRL/extra/DMath-script.pdf",
+                    "file": "sem3/DMath/VRL/notes/DMath.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -691,8 +696,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -771,8 +775,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-09-18T14:08:02+02:00"
+      "active": "39e39d44cd4e7353",
+      "mtime": "2024-09-18T16:32:51+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1368,5 +1372,5 @@
       "mtime": "2024-09-18T14:09:49+02:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-eprog"
 }
