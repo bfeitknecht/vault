@@ -784,37 +784,22 @@
         "type": "split",
         "children": [
           {
-            "id": "cb6facf111ac980c",
+            "id": "6b4f19d138297cb9",
             "type": "tabs",
             "children": [
               {
-                "id": "5e38631b2c9a81a9",
+                "id": "a8fc65879350d506",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem1/EProg/UE/bf/EProg-u03-bf.md",
+                    "file": "sem3/EProg/VRL/notes/EProg.md",
                     "mode": "source",
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "c8f95ab9d6245307",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem1/EProg/UE/e/EProg-u03-e.pdf",
-                    "page": 1,
-                    "left": -9,
-                    "top": 796,
-                    "zoom": 1.75
-                  }
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -858,7 +843,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem1/EProg/UE/e/EProg-u03-e.pdf"
+                    "file": "sem3/EProg/VRL/notes/EProg.md"
                   }
                 }
               },
@@ -868,7 +853,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem1/EProg/UE/e/EProg-u03-e.pdf",
+                    "file": "sem3/EProg/VRL/notes/EProg.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -885,7 +870,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem1/EProg/UE/e/EProg-u03-e.pdf",
+                    "file": "sem3/EProg/VRL/notes/EProg.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -895,8 +880,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -975,8 +959,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "c8f95ab9d6245307",
-      "mtime": "2024-09-18T14:08:16+02:00"
+      "active": "a8fc65879350d506",
+      "mtime": "2024-09-18T17:21:45+02:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1372,5 +1356,5 @@
       "mtime": "2024-09-18T14:09:49+02:00"
     }
   },
-  "active": "sem3-eprog"
+  "active": "sem3-dmath"
 }
