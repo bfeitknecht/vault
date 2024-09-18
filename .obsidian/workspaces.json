@@ -218,11 +218,14 @@
                   "state": {
                     "file": "var/other/LATEX.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -18,
+                    "top": 846,
+                    "zoom": 0.8743843192065531
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "cc18e9c70282ea5d",
@@ -265,7 +268,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "tag:/sem2/DDCA",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -280,7 +283,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "HOME.md"
+                    "file": "README.md"
                   }
                 }
               },
@@ -290,7 +293,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
+                    "file": "README.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -307,7 +310,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
+                    "file": "README.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -396,8 +399,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "4c71ec2288beccf3",
-      "mtime": "2024-09-15T19:22:35+02:00"
+      "active": "c4761f644bfecbe1",
+      "mtime": "2024-09-18T14:16:57+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1365,5 +1368,5 @@
       "mtime": "2024-09-18T14:09:49+02:00"
     }
   },
-  "active": "00-home"
+  "active": "sem3-dmath"
 }

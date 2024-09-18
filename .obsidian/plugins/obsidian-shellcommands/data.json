@@ -200,7 +200,7 @@
         },
         "{{folder_path}}": {
           "type": "value",
-          "value": ""
+          "value": "/Users/bf/home/eth/vault"
         }
       }
     },
