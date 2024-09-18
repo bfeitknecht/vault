@@ -10,8 +10,10 @@ A vector is just a list of numbers in $\mathbb R^m$, and can be interpreted as a
 
 ## Scalar Multiplication
 
-Let $\lambda \in \mathbb R$. For some $v = [a_{1}, \dots, a_{m}] \in \mathbb R^m$. Then $\lambda \cdot v =$
+Let $\lambda \in \mathbb R$. For some $v = [a_{1}, \dots, a_{m}] \in \mathbb R^m$, then $\lambda v = [\lambda a_{1}, \dots, \lambda a_{m}]$. Basically, stre
 
 ## Linear Combinations
+
+Combines scalar multiplication and vector addition
 
 
