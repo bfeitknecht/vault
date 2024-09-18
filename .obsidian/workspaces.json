@@ -158,6 +158,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian42-brat:BRAT": false,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -175,7 +176,7 @@
         }
       },
       "active": "1ecea32dc9822744",
-      "mtime": "2024-09-15T19:23:03+02:00"
+      "mtime": "2024-09-18T21:32:54+02:00"
     },
     "00-home": {
       "main": {
@@ -595,10 +596,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 13,
-                    "left": -6,
-                    "top": 138,
-                    "zoom": 2.5528689384260406
+                    "page": 19,
+                    "left": -79,
+                    "top": 280,
+                    "zoom": 1.46
                   }
                 }
               },
@@ -696,7 +697,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5
+        "width": 346.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -772,11 +774,12 @@
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
           "command-palette:Open command palette": true,
-          "obsidian-git:Open Git source control": true
+          "obsidian-git:Open Git source control": true,
+          "obsidian42-brat:BRAT": true
         }
       },
       "active": "39e39d44cd4e7353",
-      "mtime": "2024-09-18T16:32:51+02:00"
+      "mtime": "2024-09-18T21:32:52+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1356,5 +1359,5 @@
       "mtime": "2024-09-18T14:09:49+02:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "00-home"
 }
