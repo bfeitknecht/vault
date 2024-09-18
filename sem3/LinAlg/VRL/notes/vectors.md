@@ -5,7 +5,7 @@ A vector is just a list of numbers in $\mathbb R^m$, and can be interpreted as a
 
 # Vector Operations
 
-## Associativity
+## Vector Addition
 
-## Commutativity
+## Scalar Multiplication
 
