@@ -8,9 +8,13 @@ A vector is just a list of numbers in $\mathbb R^m$, and can be interpreted as a
 
 ## Vector Addition
 
+Let $v, w \in \mathbb R^m, v=[a_{1} \dots a_{m}], w=[b_{1} \dots b_{m}]$, then $v+w = [a_{1} + b_{1} \dots a_{m} + b_{m}]$. Basically, putting one arrow's base at the tip of the other and going to 
+
+
 ## Scalar Multiplication
 
-Let $\lambda \in \mathbb R$. For some $v = [a_{1}, \dots, a_{m}] \in \mathbb R^m$, then $\lambda v = [\lambda a_{1}, \dots, \lambda a_{m}]$. Basically, stre
+Let $\lambda \in \mathbb R$. For some $v = [a_{1} \dots a_{m}] \in \mathbb R^m$, then $\lambda v = [\lambda a_{1} \dots \lambda a_{m}]$. Basically, stretching or squishing a vector by some real amount.
+
 
 ## Linear Combinations
 
