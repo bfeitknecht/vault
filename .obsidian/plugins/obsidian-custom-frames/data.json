@@ -63,10 +63,10 @@
     {
       "url": "https://eduapp-app1.ethz.ch/student/2024W/clicker/1148433/300469",
       "displayName": "Clicker",
-      "icon": "",
+      "icon": "check-check",
       "hideOnMobile": true,
       "addRibbonIcon": false,
-      "openInCenter": false,
+      "openInCenter": true,
       "zoomLevel": 1,
       "forceIframe": false,
       "customCss": "",
