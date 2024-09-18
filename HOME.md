@@ -34,7 +34,3 @@ TITLE "Today"
 
 
 
-
-$$
-\newcommand{func}[3]{\overset{#1}{\mathbb{Z}}{}^{(#2)}_{\text{#3}}}
-$$

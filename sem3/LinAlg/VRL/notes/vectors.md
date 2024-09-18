@@ -22,6 +22,4 @@ Combines scalar multiplication and vector addition
 
 
 
-$$
-\func{a}{b}{c}
-$$
+
