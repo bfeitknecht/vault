@@ -31,5 +31,7 @@
   "vertical-tabs-view",
   "obsidian-custom-frames",
   "editing-toolbar",
-  "attachment-management"
+  "attachment-management",
+  "obsidian42-brat",
+  "mathjax-preamble-manager"
 ]
