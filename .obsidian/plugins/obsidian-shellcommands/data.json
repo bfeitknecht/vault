@@ -195,8 +195,12 @@
       "preactions": [],
       "variable_default_values": {
         "{{file_path}}": {
+          "type": "show-errors",
+          "value": ""
+        },
+        "{{folder_path}}": {
           "type": "value",
-          "value": "/Users/bf/HOME/eth/vault"
+          "value": ""
         }
       }
     },
