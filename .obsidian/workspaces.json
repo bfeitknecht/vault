@@ -414,11 +414,40 @@
                 "id": "1ecea32dc9822744",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/A&D/VRL/notes/A&D.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "1c3ba448be222a24",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/A&D/VRL/notes/algorithms.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "eece58145a5a31ef",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/A&D/VRL/notes/data-structures.md",
+                    "mode": "source",
+                    "source": false
+                  }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -461,7 +490,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "sem3/A&D/VRL/notes/algorithms.md"
+                  }
                 }
               },
               {
@@ -470,6 +501,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "sem3/A&D/VRL/notes/algorithms.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -486,6 +518,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "sem3/A&D/VRL/notes/algorithms.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -495,8 +528,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -576,8 +608,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "1ecea32dc9822744",
-      "mtime": "2024-09-18T21:35:41+02:00"
+      "active": "1c3ba448be222a24",
+      "mtime": "2024-09-19T15:47:30+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1394,5 +1426,5 @@
       "mtime": "2024-09-18T21:36:30+02:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-dmath"
 }
