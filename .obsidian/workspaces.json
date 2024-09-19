@@ -628,9 +628,7 @@
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 1,
-                    "left": -13,
-                    "top": 627,
-                    "zoom": 1.1798974085162373
+                    "zoom": 1
                   }
                 }
               },
@@ -641,6 +639,18 @@
                   "type": "markdown",
                   "state": {
                     "file": "sem3/DMath/VRL/notes/DMath.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "6ef7c8deb67fb4c4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "var/support/preambles/default-preamble.md",
                     "mode": "source",
                     "source": false
                   }
@@ -671,7 +681,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -715,7 +725,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/DMath.md"
+                    "file": "var/support/preambles/default-preamble.md"
                   }
                 }
               },
@@ -725,7 +735,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/DMath.md",
+                    "file": "var/support/preambles/default-preamble.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -742,7 +752,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/DMath.md",
+                    "file": "var/support/preambles/default-preamble.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -752,8 +762,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -832,8 +841,8 @@
           "obsidian42-brat:BRAT": true
         }
       },
-      "active": "a19f0859eb717208",
-      "mtime": "2024-09-19T17:12:17+02:00"
+      "active": "6ef7c8deb67fb4c4",
+      "mtime": "2024-09-19T17:27:27+02:00"
     },
     "sem3-eprog": {
       "main": {
