@@ -22,7 +22,7 @@ Cow wants to escape through a hole in an infinite fence, what is the best strate
 
 Algorithm to multiply two $n$ digit numbers in $\O(n^{\log_{2}3})$, instead of grade-schoo-algorithm which is in $\O(n^2)$ (conjectured by Kologorov to be asymptotically optimal for multiplication). 
 
-
+We arrive at the runtime through induction.
 
 
 # How to find algorithms?
