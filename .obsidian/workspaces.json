@@ -628,7 +628,9 @@
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -257,
+                    "top": 627,
+                    "zoom": 1.1798974085162373
                   }
                 }
               },
@@ -680,8 +682,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -725,7 +726,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "var/support/preambles/default-preamble.md"
+                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf"
                   }
                 }
               },
@@ -735,7 +736,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "var/support/preambles/default-preamble.md",
+                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -752,7 +753,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "var/support/preambles/default-preamble.md",
+                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -762,7 +763,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5
+        "width": 346.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -841,8 +843,8 @@
           "obsidian42-brat:BRAT": true
         }
       },
-      "active": "6ef7c8deb67fb4c4",
-      "mtime": "2024-09-19T17:27:27+02:00"
+      "active": "436bbe01cb56efd5",
+      "mtime": "2024-09-19T17:33:43+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1458,5 +1460,5 @@
       "mtime": "2024-09-19T16:47:36+02:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "00-home"
 }
