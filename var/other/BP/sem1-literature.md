@@ -9,7 +9,7 @@
 - R. Sedgewick und K. Wayne, "Einführung in die Programmierung mit Java", 2011, Pearson Higher Education, ISBN 978-3-86894-0476-3. Deutsche Übersetzung, auch auf Englisch (neuere Ausgabe!) erhältlich.  Enthält viele interessante Beispiele von Programmen die Anwendungsprobleme lösen. Auch in der Informatik Bibliothek vorhanden.
 
 
-**var**
+# Misc
 - the art of computer programming, knuth
 - SICP
 - the c programming language
