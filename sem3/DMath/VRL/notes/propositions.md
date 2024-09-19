@@ -1,11 +1,21 @@
 
 # What is a proposition?
 
-A (mathematical) proposition is a claim that can be true or false.
+A (mathematical) proposition is a claim that can be true or false. In order to work with propositions we need to understand what the claim is saying, what meaning it carries. Then, we need to determine if it is true or false and for what conditions.
+
+# Propositional Logic
+
+In propositional logic we want to evaluate propositions and the implications between them.
+
+> [!example]+ Example
+> - 91 is a prime number (has no divisors except 1 and itself, i.e. 91)
+> 	- Is it a mathematical proposition?
+> 	- Do we understand the proposition?
+> 	- Is it true / false?
+> - 
 
 
-
-***Mathematische Aussage:***
+# Examples
 
 - "91 ist eine Primzahl."
 	- Vermutung? ~~Theorem? Lemma?~~
