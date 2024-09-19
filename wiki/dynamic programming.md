@@ -13,7 +13,7 @@ F3 --> F2
 F3 --> F1
 ```
 
-The recursive execution (call stack) of computing the function looks as follows:
+The recursive execution (call stack) of computing the function is modelled by the following [[tree]]:
 
 ```mermaid
 flowchart TD
