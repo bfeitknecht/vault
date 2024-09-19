@@ -1,4 +1,9 @@
 
+# What is a proposition?
+
+A (mathematical) proposition is a claim that can be true or false.
+
+
 
 ***Mathematische Aussage:***
 
