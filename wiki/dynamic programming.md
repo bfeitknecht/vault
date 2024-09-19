@@ -5,12 +5,8 @@ Let $F_n, n\in\N$ be the $n$-th [[fibonacci number]]. The [[recurrence relation]
 flowchart TD
 
 
-F5 --> F4
-F5 --> F3
-F4 --> F3
-F4 --> F2
-F3 --> F2
-F3 --> F1
+F4 --> F3 & F2
+F3 --> F2 & F1
 ```
 
 The recursive execution (call stack) of computing the function is modelled by the following [[tree]]:
@@ -18,6 +14,13 @@ The recursive execution (call stack) of computing the function is modelled by th
 ```mermaid
 flowchart TD
 
+f1
+f2
+f3
+f
+
+F4 -->
+F3 --> F2 & F1
 
 ```
 
