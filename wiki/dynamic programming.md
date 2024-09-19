@@ -6,16 +6,8 @@ Let $F_n, n\in\N$ be the $n$-th fibonacci number. The recurrence relation can be
 ```mermaid
 flowchart TD
 
-f1
-f2
-f3
-f4
-f5
-
-
-f5 --> f3 & f4
-f4 --+ f2 & f3
-f3 --> f1 & f2
+f4 --- f2 & f3
+f3 --- f1 & f2
 ```
 
 
