@@ -34,5 +34,6 @@
   "mathjax-preamble-manager",
   "tabs",
   "open-in-new-tab",
-  "code-styler"
+  "code-styler",
+  "folder-note-plugin"
 ]
