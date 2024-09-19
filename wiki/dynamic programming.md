@@ -1,14 +1,18 @@
 
-Let $F_n, n\in\N$ be the $n$-th fibonacci number. The recurrence relation can be defined as follows:
-
-
+Let $F_n, n\in\N$ be the $n$-th fibonacci number. The [[recurrence relation]] can be defined as follows,
+$$
+F_{n} = F_{n-1} +F_{n-2}
+$$
+and is modelled by the following [[DAG]],
 
 ```mermaid
 flowchart TD
 
-f4 --- f2 & f3
-f3 --- f1 & f2
+F4 --- F2 & F3
+F3 --- F1 & F2
 ```
+
+
 
 
 
