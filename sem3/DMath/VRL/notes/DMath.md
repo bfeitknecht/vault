@@ -1,13 +1,18 @@
 
-# What does *discrete* mean?
+> [!quote]- About
+> # What does *discrete* mean?
+> 
+> Finite or countably finite systems where there are distinct states or objects. Graph theory, abstract algebras, etc.
+> 
+> 
+> # What is abstraction?
+> 
+> To model complexity in problems in order to break it down and then apply solutions to the model to the problem.
 
-Finite or countably finite systems where there are distinct states or objects. Graph theory, abstract algebras, etc.
+# Statements
 
-
-# What is abstraction?
-
-To model complexity in problems in order to break it down and then apply solutions to the model to the problem.
-
+![[dmath-script-hs24.pdf#page=19&rect=32,163,393,205|dmath-script-hs24, p.9]]
+Statements are mathematical [[propositions]] that can be true or false, i.e. a [[predicate]] $P$
 
 # To prove or disprove
 
