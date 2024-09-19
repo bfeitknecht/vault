@@ -1,4 +1,6 @@
 
-![[dynamic programming-AD29166EB0A9BC9C334788E427ECAAC9.png]]
+Let $F_n, n\in\N$ be the $n$-th fibonacci number. The recurrence relation can be defined as follows:
 
-![[dynamic programming-4EC5FBDAC7AF695742C8A45BDFA0204C.png]]
+```mermaid
+F(n) --> F(n-1)
+```
