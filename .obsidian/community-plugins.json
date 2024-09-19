@@ -22,9 +22,7 @@
   "obsidian-advanced-uri",
   "obsidian-style-settings",
   "snippet-commands-obsidian",
-  "code-styler",
   "obsidian-qrcode-plugin",
-  "cm-editor-syntax-highlight-obsidian",
   "obsidian-desmos",
   "plugin-reloader",
   "flashcards-obsidian",
@@ -35,5 +33,6 @@
   "obsidian42-brat",
   "mathjax-preamble-manager",
   "tabs",
-  "open-in-new-tab"
+  "open-in-new-tab",
+  "code-styler"
 ]
