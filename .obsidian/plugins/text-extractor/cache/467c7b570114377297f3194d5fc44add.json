@@ -1,0 +1,1 @@
+{"path":"var/support/attachments/PProg-scratch-DD292485FEAE5146478020051CDD616C.png","text":"int locked = 0; lock() { while(CAS(locked, 0, 1) != 0) { wait; } } unlock() { locked = 0; }","libVersion":"0.3.2","langs":"deu+eng"}

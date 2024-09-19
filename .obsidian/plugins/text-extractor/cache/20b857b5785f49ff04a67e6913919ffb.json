@@ -1,0 +1,1 @@
+{"path":"support/attachments/ddca-lab08b-block-diagram-modified.png","text":"eLKLD | ) IOWriteData O RESET [ P L Mem Wr dg ] —> IOWriteEn Branch 1) A JContro (] IOReadData „Ox7ff . Control . ) —> ı0Addr Unit IsIO ReadMemIO WE3 IsMemWrite Al RD1 ALUB . WE A JResu = A RD A2 RD2| Data A3 Memory WD3 WD N : []","libVersion":"0.3.2","langs":"deu+eng"}

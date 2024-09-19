@@ -1,0 +1,1 @@
+{"path":"var/support/attachments/PProg-scratch-71CCD07AC60753C6A7D6B20686CD8AFB.png","text":"int[] level(#threads) int[] lastToEnter(#threads) lock(me) { for(i = 1 to #threads) { levellme] = i; lastToEnter[i] = me; while(lastToEnter[i] == me && there exists k != me with levell[k] >= i) wait; } } unlock(me) { level[me] = 0; }","libVersion":"0.3.2","langs":"deu+eng"}
