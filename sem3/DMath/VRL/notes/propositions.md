@@ -9,9 +9,9 @@ In propositional logic we want to evaluate propositions and the implications bet
 
 > [!example]+ Example
 > - 91 is a prime number (has no divisors except 1 and itself, i.e. 91)
-> 	- Is it a mathematical proposition?
-> 	- Do we understand the proposition?
-> 	- Is it true / false?
+> 	- Is it a mathematical proposition? Yes
+> 	- Is it understood? Yes
+> 	- Is it true / false? $7 \cdot 13 \implies$ False
 > - 
 
 
