@@ -1,17 +1,25 @@
 
-Let $F_n, n\in\N$ be the $n$-th fibonacci number. The [[recurrence relation]] can be defined as follows,
-$$
-F_{n} = F_{n-1} +F_{n-2}
-$$
-and is modelled by the following [[DAG]],
+Let $F_n, n\in\N$ be the $n$-th [[fibonacci number]]. The [[recurrence relation]] is given by $F_{n} = F_{n-1} +F_{n-2}$ and is modelled by the following [[DAG]]:
 
 ```mermaid
 flowchart TD
 
-F4 --- F2 & F3
-F3 --- F1 & F2
+
+F5 --> F4
+F5 --> F3
+F4 --> F3
+F4 --> F2
+F3 --> F2
+F3 --> F1
 ```
 
+The recursive execution (call stack) of computing the function looks as follows:
+
+```mermaid
+flowchart TD
+
+
+```
 
 
 
