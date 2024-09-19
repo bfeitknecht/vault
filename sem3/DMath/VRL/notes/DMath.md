@@ -21,6 +21,6 @@ To prove a statement $S$ means, to irrefutably show that it is true in some well
 
 
 
-```java
-public
+```desmos-graph
+y = x
 ```
