@@ -20,6 +20,3 @@ Let $\lambda \in \mathbb R$. For some $v = [a_{1} \dots a_{m}] \in \mathbb R^m$,
 
 Combines scalar multiplication and vector addition
 
-
-
-![[default-preamble]]
