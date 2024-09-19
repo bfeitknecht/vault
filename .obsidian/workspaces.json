@@ -223,7 +223,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "cc18e9c70282ea5d",
@@ -281,7 +282,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "HOME.md"
+                    "file": "README.md"
                   }
                 }
               },
@@ -291,7 +292,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
+                    "file": "README.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -308,7 +309,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
+                    "file": "README.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -318,8 +319,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -398,8 +398,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "84d6179a41f3d7a6",
-      "mtime": "2024-09-19T16:47:24+02:00"
+      "active": "c4761f644bfecbe1",
+      "mtime": "2024-09-19T17:13:41+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -626,7 +626,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf"
+                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
+                    "page": 1,
+                    "left": -13,
+                    "top": 627,
+                    "zoom": 1.1798974085162373
                   }
                 }
               },
@@ -802,8 +806,7 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "horizontal",
@@ -830,7 +833,7 @@
         }
       },
       "active": "a19f0859eb717208",
-      "mtime": "2024-09-19T16:53:53+02:00"
+      "mtime": "2024-09-19T17:12:17+02:00"
     },
     "sem3-eprog": {
       "main": {

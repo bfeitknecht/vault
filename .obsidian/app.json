@@ -12,7 +12,7 @@
   },
   "showInlineTitle": true,
   "showLineNumber": false,
-  "newFileLocation": "current",
+  "newFileLocation": "folder",
   "spellcheckDictionary": [
     "LUTs"
   ],
@@ -20,5 +20,6 @@
   "propertiesInDocument": "source",
   "trashOption": "local",
   "showUnsupportedFiles": false,
-  "spellcheck": false
+  "spellcheck": false,
+  "newFileFolderPath": "/wiki"
 }
