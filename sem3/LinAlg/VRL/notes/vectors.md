@@ -22,4 +22,4 @@ Combines scalar multiplication and vector addition
 
 
 
-
+![[default-preamble]]
