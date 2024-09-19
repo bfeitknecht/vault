@@ -4,6 +4,7 @@
 Algorithms solve (hard) problems by systematically solving easier subproblems consisting of [[elementary-operation]]s.
 
 
+# Examples
 
 ## Pasture Break
 ![[pasture-break.png]]
@@ -17,7 +18,12 @@ Cow wants to escape through a hole in an infinite fence, what is the best strate
 - dito, but double the steps every time we switch directions --> in the worst case $2(2^{i+1}-1)+k$ steps are taken
 
 
-## Karatsuba
+## [Karatsuba](https://en.wikipedia.org/wiki/Karatsuba_algorithm)
 
 Algorithm to multiply two $n$ digit numbers in $\O(n^{\log_{2}3})$, instead of grade-schoo-algorithm which is in $\O(n^2)$ (conjectured by Kologorov to be asymptotically optimal for multiplication). 
+
+
+
+
+# How to find algorithms?
 
