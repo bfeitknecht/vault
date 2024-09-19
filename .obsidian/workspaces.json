@@ -399,7 +399,7 @@
         }
       },
       "active": "84d6179a41f3d7a6",
-      "mtime": "2024-09-19T08:24:10+02:00"
+      "mtime": "2024-09-19T16:47:24+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -609,7 +609,7 @@
         }
       },
       "active": "1c3ba448be222a24",
-      "mtime": "2024-09-19T15:47:30+02:00"
+      "mtime": "2024-09-19T16:48:08+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -621,21 +621,19 @@
             "type": "tabs",
             "children": [
               {
-                "id": "a19f0859eb717208",
+                "id": "436bbe01cb56efd5",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 19,
-                    "left": -79,
-                    "top": 280,
-                    "zoom": 1.46
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
               {
-                "id": "39e39d44cd4e7353",
+                "id": "a19f0859eb717208",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -645,9 +643,33 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "ecd1c341e35938d2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/DMath/VRL/notes/predicate.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "39e39d44cd4e7353",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/DMath/VRL/notes/propositions.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -691,7 +713,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/DMath.md"
+                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf"
                   }
                 }
               },
@@ -701,7 +723,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/DMath.md",
+                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -718,7 +740,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/DMath.md",
+                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -728,8 +750,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -809,8 +830,8 @@
           "obsidian42-brat:BRAT": true
         }
       },
-      "active": "39e39d44cd4e7353",
-      "mtime": "2024-09-18T21:32:52+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-09-19T16:47:33+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -995,7 +1016,7 @@
         }
       },
       "active": "a8fc65879350d506",
-      "mtime": "2024-09-18T21:36:07+02:00"
+      "mtime": "2024-09-19T16:48:07+02:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1423,7 +1444,7 @@
         }
       },
       "active": "661583128fc2c2e5",
-      "mtime": "2024-09-18T21:36:30+02:00"
+      "mtime": "2024-09-19T16:47:36+02:00"
     }
   },
   "active": "sem3-dmath"
