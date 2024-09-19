@@ -19,8 +19,3 @@ Statements are mathematical [[propositions]] that can be true or false, i.e. a [
 To prove a statement $S$ means, to irrefutably show that it is true in some well-defined context. Similarily, to disprove some statement $S'$ means to show that it is false, i.e. it cannot be true.
 
 
-
-
-```desmos-graph
-y = x
-```
