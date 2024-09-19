@@ -210,21 +210,8 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "c215682ac1e11587",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "var/other/LATEX.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "cc18e9c70282ea5d",
@@ -282,7 +269,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "README.md"
+                    "file": "HOME.md"
                   }
                 }
               },
@@ -292,7 +279,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "README.md",
+                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -309,7 +296,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "README.md",
+                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -319,7 +306,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5
+        "width": 346.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -398,8 +386,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "c4761f644bfecbe1",
-      "mtime": "2024-09-19T17:13:41+02:00"
+      "active": "84d6179a41f3d7a6",
+      "mtime": "2024-09-19T19:10:37+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1460,5 +1448,5 @@
       "mtime": "2024-09-19T16:47:36+02:00"
     }
   },
-  "active": "00-home"
+  "active": "00-clean"
 }
