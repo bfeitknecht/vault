@@ -158,7 +158,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian42-brat:BRAT": false,
+          "obsidian42-brat:BRAT": true,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -176,7 +176,7 @@
         }
       },
       "active": "1ecea32dc9822744",
-      "mtime": "2024-09-18T21:32:54+02:00"
+      "mtime": "2024-09-18T21:35:55+02:00"
     },
     "00-home": {
       "main": {
@@ -225,8 +225,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "cc18e9c70282ea5d",
@@ -284,7 +283,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "README.md"
+                    "file": "HOME.md"
                   }
                 }
               },
@@ -294,7 +293,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "README.md",
+                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -311,7 +310,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "README.md",
+                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -384,6 +383,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian42-brat:BRAT": true,
           "obsidian-git:Open Git source control": true,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
@@ -400,8 +400,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "c4761f644bfecbe1",
-      "mtime": "2024-09-18T14:16:57+02:00"
+      "active": "84d6179a41f3d7a6",
+      "mtime": "2024-09-18T21:35:30+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -561,6 +561,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian42-brat:BRAT": true,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -578,7 +579,7 @@
         }
       },
       "active": "1ecea32dc9822744",
-      "mtime": "2024-09-18T14:07:14+02:00"
+      "mtime": "2024-09-18T21:35:41+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -946,6 +947,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian42-brat:BRAT": true,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -963,7 +965,7 @@
         }
       },
       "active": "a8fc65879350d506",
-      "mtime": "2024-09-18T17:21:45+02:00"
+      "mtime": "2024-09-18T21:36:07+02:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1043,7 +1045,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/vectors.md"
+                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md"
                   }
                 }
               },
@@ -1053,7 +1055,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/vectors.md",
+                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1070,7 +1072,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/vectors.md",
+                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1143,6 +1145,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian42-brat:BRAT": true,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -1160,7 +1163,7 @@
         }
       },
       "active": "5f4cf158045f14fe",
-      "mtime": "2024-09-18T14:09:36+02:00"
+      "mtime": "2024-09-18T21:36:17+02:00"
     },
     "sem3-tin": {
       "main": {
@@ -1194,8 +1197,17 @@
                     "zoom": 1
                   }
                 }
+              },
+              {
+                "id": "661583128fc2c2e5",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1238,9 +1250,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "sem3/TIN/VRL/notes/TIN.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -1249,7 +1259,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/TIN.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1266,7 +1275,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/TIN.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1339,6 +1347,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian42-brat:BRAT": true,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -1355,8 +1364,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "65cc6977d876498e",
-      "mtime": "2024-09-18T14:09:49+02:00"
+      "active": "661583128fc2c2e5",
+      "mtime": "2024-09-18T21:36:30+02:00"
     }
   },
   "active": "00-home"
