@@ -21,9 +21,7 @@ For some specific choices for $\lambda, \mu$ these special cases of combinations
 
 
 ## Scalar Product / Dot Product
-Let $v, w \in \R^m$, then the scalar product (or dot product) of $v$ and $w$ is defined as
-![[LinAlg-plan-w1.pdf#page=2&rect=180,580,431,624|LinAlg-plan-w1, p.2]]
-and can be de
+
 
 ## Euclidian Norm
 Defines the "length" of a vector in an $m$-dimensional space.

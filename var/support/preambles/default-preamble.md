@@ -6,6 +6,7 @@ $$
 \newcommand{\C}{\mathbb C}
 \newcommand{\O}{\mathcal O}
 \newcommand{\etc}{\text{etc.}}
+\newcommand{\def}{\overset{\text{def.}}{=}}
 
 $$
 
