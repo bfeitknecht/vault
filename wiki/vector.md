@@ -37,7 +37,7 @@ A single vector $v$ in $m$-dimensional space is denoted as $v=\begin{bmatrix} v_
 ![[unit vector]]
 
 ## Zero Vector
-
+![[zero vector]]
 
 # Linear Independence
 ![[linear independence]]
