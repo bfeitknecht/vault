@@ -1,3 +1,3 @@
 
 # What is a matrix?
-A matrix is a vec
+A matrix is basically a [[vector]] of vectors.
