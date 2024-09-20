@@ -1,6 +1,6 @@
 {
   "pdf-plus-citation-link": true,
   "preview": true,
-  "editor": false,
-  "file-explorer": false
+  "file-explorer": false,
+  "editor": false
 }
