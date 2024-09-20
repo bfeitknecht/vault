@@ -6,25 +6,17 @@
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path:wiki  ",
-      "color": {
-        "a": 1,
-        "rgb": 14048348
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -1.7,
-  "nodeSizeMultiplier": 1.50663655598958,
-  "lineSizeMultiplier": 1.71299641927083,
-  "collapse-forces": true,
-  "centerStrength": 0.1854248046875,
-  "repelStrength": 17.9943949194549,
-  "linkStrength": 0.519919341522541,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.00279947916667,
+  "lineSizeMultiplier": 0.995222981770833,
+  "collapse-forces": false,
+  "centerStrength": 0.288004557291667,
+  "repelStrength": 20,
+  "linkStrength": 1,
   "linkDistance": 470,
-  "scale": 0.20022583007813916,
+  "scale": 0.03132583042268994,
   "close": false
 }
