@@ -1,0 +1,1 @@
+A [[set]] of [[vector|vectors]] is linearly independent if there exists no [[non-trivial]]

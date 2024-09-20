@@ -7,8 +7,8 @@ Linear Algebra concers itself with [[vector|vectors]], [[matrix|matrices]] and w
 
 > [!quote]- W00
 > 
-> - vectors
-> - how to operate on vectors ([[vector addition]], [[scalar multiplication]])
+> - [[vector|vectors]]
+> - basic vector operatations ([[vector addition]], [[scalar multiplication]])
 >   
 > > [!info]- Lecture Plan
 > > ![[LinAlg-plan-w0.pdf]]
