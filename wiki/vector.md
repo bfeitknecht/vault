@@ -1,6 +1,6 @@
 
 # What is a vector?
-A vector $v$ is just a list of $m$ [[real numbers]], $v \in \mathbb R^m$, and can be interpreted as an $m$-dimensional point or an arrow from the [[origin]] to that point (motion).
+A vector $v$ is just a list of $m$ [[real numbers]], $v \in \mathbb R^m$, and can be interpreted as an $m$-dimensional point or an arrow from the [[origin]] to that point (translation).
 
 
 # Notation
