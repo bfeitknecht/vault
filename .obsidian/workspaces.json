@@ -279,14 +279,14 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
                     "showSearch": false,
                     "searchQuery": "",
                     "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true,
-                    "file": "HOME.md"
+                    "unlinkedCollapsed": true
                   }
                 }
               },
@@ -296,9 +296,9 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "HOME.md",
                     "linksCollapsed": false,
-                    "unlinkedCollapsed": true,
-                    "file": "HOME.md"
+                    "unlinkedCollapsed": true
                   }
                 }
               }
@@ -386,8 +386,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "4c71ec2288beccf3",
-      "mtime": "2024-09-19T21:24:17+02:00"
+      "active": "84d6179a41f3d7a6",
+      "mtime": "2024-09-20T13:59:45+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1458,5 +1458,5 @@
       "mtime": "2024-09-20T10:27:33+02:00"
     }
   },
-  "active": "00-home"
+  "active": "sem3-linalg"
 }
