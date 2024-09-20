@@ -14,12 +14,11 @@ The recursive execution (call stack) of computing the function is modelled by th
 ```mermaid
 flowchart TD
 
-f1
-f2
-f3
-f
+f1((F1))
+f2((F2))
+f3((F3))
 
-F4 -->
+F4 --> f1
 F3 --> F2 & F1
 
 ```
