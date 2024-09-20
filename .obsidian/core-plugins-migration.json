@@ -7,7 +7,7 @@
   "canvas": false,
   "outgoing-link": true,
   "tag-pane": true,
-  "page-preview": false,
+  "page-preview": true,
   "daily-notes": false,
   "templates": true,
   "note-composer": true,
