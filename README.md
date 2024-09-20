@@ -17,6 +17,7 @@ ___
 >[!todo] rename stuff
 > AuD -> A&D
 > AuW -> A&W
+> TIN -> TI
 
 
 
@@ -70,33 +71,31 @@ ___
 
 
 
-
-```bash
-
-open --background docker
-ollama serve
-
-obsidian://advanced-uri?vault=vault&commandid=workspace%253Anew-tab
-obsidian://advanced-uri?vault=vault&commandid=obsidian-custom-frames%253Aopen-custom-frames-ollama
-```
-
+>[!note]- serve ollama
+> ```bash
+> open --background docker
+> ollama serve
+> 
+> 'obsidian://advanced-uri?vault=vault&commandid=workspace%253Anew-> tab'
+> 'obsidian://advanced-uri?vault=vault&commandid=obsidian-custom-> frames%253Aopen-custom-frames-ollama'
+> ```
 
 
 
-make timer web frame adapt to theme
-```javascript
-// Check to see if Media-Queries are supported
-if (window.matchMedia) {
-  // Check if the dark-mode Media-Query matches
-  if(window.matchMedia('(prefers-color-scheme: dark)').matches){
-    // Dark
-  } else {
-    // Light
-  }
-} else {
-  // Default (when Media-Queries are not supported)
-}
-```
+> [!note]- make timer web frame adapt to theme
+> ```javascript
+> // Check to see if Media-Queries are supported
+> if (window.matchMedia) {
+>   // Check if the dark-mode Media-Query matches
+>   if(window.matchMedia('(prefers-color-scheme: dark)').matches){
+>     // Dark
+>   } else {
+>     // Light
+>   }
+> } else {
+>   // Default (when Media-Queries are not supported)
+> }
+> ```
 
 css styles need !important tag
 
