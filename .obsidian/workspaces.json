@@ -1038,28 +1038,16 @@
                 }
               },
               {
-                "id": "49f6ddab502f5259",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/vector.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "c11e4b017f353854",
+                "id": "0114dfc203a5a41b",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w1.pdf",
-                    "page": 3,
-                    "left": -11,
-                    "top": 173,
-                    "zoom": 1.3259803921568627
+                    "page": 1,
+                    "left": -9,
+                    "top": 27,
+                    "zoom": 1.75
                   }
                 }
               }
@@ -1108,7 +1096,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/vector.md"
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w1.pdf"
                   }
                 }
               },
@@ -1118,7 +1106,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/vector.md",
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w1.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1135,7 +1123,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/vector.md",
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w1.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1145,7 +1133,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5
+        "width": 346.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1225,8 +1214,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "49f6ddab502f5259",
-      "mtime": "2024-09-20T15:33:49+02:00"
+      "active": "0114dfc203a5a41b",
+      "mtime": "2024-09-20T17:54:36+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1429,5 +1418,5 @@
       "mtime": "2024-09-20T10:27:33+02:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "00-clean"
 }
