@@ -1029,7 +1029,7 @@
             "type": "tabs",
             "children": [
               {
-                "id": "645a70cfb86a5eb1",
+                "id": "8fbf0bcd94bc22de",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -1041,24 +1041,12 @@
                 }
               },
               {
-                "id": "a4ca83eef162e3f9",
+                "id": "49f6ddab502f5259",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
                     "file": "wiki/vector.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "f211130186c9bd8a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/unit vector.md",
                     "mode": "source",
                     "source": false
                   }
@@ -1071,29 +1059,15 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w1.pdf",
-                    "page": 7,
+                    "page": 3,
                     "left": -11,
-                    "top": 457,
+                    "top": 173,
                     "zoom": 1.3259803921568627
-                  }
-                }
-              },
-              {
-                "id": "81e6fbc7f99ddda1",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/LinAlg/UE/e/LinAlg-u0-e.pdf",
-                    "page": 1,
-                    "left": -11,
-                    "top": 530,
-                    "zoom": 1.363233189310505
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1137,7 +1111,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/unit vector.md"
+                    "file": "wiki/vector.md"
                   }
                 }
               },
@@ -1147,7 +1121,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/unit vector.md",
+                    "file": "wiki/vector.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1164,7 +1138,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/unit vector.md",
+                    "file": "wiki/vector.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1254,8 +1228,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "f211130186c9bd8a",
-      "mtime": "2024-09-20T13:48:50+02:00"
+      "active": "49f6ddab502f5259",
+      "mtime": "2024-09-20T15:33:49+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1458,5 +1432,5 @@
       "mtime": "2024-09-20T10:27:33+02:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "00-clean"
 }
