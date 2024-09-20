@@ -93,12 +93,32 @@ ___
 
 # Miscellaneous
 
+
+
 >[!note]
->>[!summary]
->>>[!info]
->>>>[!todo]
->>>>>[!hint]
->>>>>>[!check]
->>>>>>>[he]
+
+>[!summary]
+
+>[!info]
+
+>[!todo]
+
+>[!hint]
+
+>[!check]
+
+>[!help]
+
+>[!warning]
+
+>[!fail]
+
+>[!danger]
+
+>[!bug]
+
+>[!example]
+
+>[!cite]
 
 
