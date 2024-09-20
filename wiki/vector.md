@@ -19,9 +19,9 @@ Combines scalar multiplication and vector addition.
 For some specific choices for $\lambda, \mu$ these special cases of combinations follow.
 ![[LinAlg-plan-w0.pdf#page=4&rect=96,379,517,512|LinAlg-plan-w0, p.4]]
 
+# Scalar Product / Dot Product
 
-## Scalar Product / Dot Product
-
+![[scalar product]]
 
 ## Euclidian Norm
 Defines the "length" of a vector in an $m$-dimensional space.
