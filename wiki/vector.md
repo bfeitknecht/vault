@@ -16,6 +16,8 @@ Let $v, w \in \mathbb R^m, v=[a_{1} \dots a_{m}], w=[b_{1} \dots b_{m}]$, then $
 Let $\lambda \in \mathbb R$. For some $v = [a_{1} \dots a_{m}] \in \mathbb R^m$, then $\lambda v = [\lambda a_{1} \dots \lambda a_{m}]$. Basically, stretching or squishing a vector by some real amount.
 
 
+
+
 ## Linear Combinations
 
 Combines scalar multiplication and vector addition
@@ -23,9 +25,6 @@ Combines scalar multiplication and vector addition
 
 # Notation
 
-## Set of vectors
+We can denote a set of vectors of [[order]] $n$ $\{v_{1}, v_{2}, \dots, v_{n}\} = \{v_{j} | j \in [n]\}$, where $[n] = \{1, 2, \dots, n\}$.
 
-We can denote a set of vectors of [[order]] $n$ $\{v_{1}, v_{2}, \dots, v_{n}\} = \{v_{j} | j \in [n]\}$, where $[n] = \{1, 2, \dots, n\}$
-
-
-$v=\begin{bmatrix} v_{1}\\ v_{2}\\ \vdots\\ v_{m} \end{bmatrix} =[v_{i}]^{m}_{i=1}$
+A single vector $v$ ind $m$-dimensional space is denoted $v=\begin{bmatrix} v_{1}\\ v_{2}\\ \vdots\\ v_{m} \end{bmatrix} =[v_{i}]^{m}_{i=1}$.
