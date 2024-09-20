@@ -10,7 +10,7 @@
   "loadSnippetVariablesFromFile": false,
   "snippetsFileLocation": "",
   "snippetVariablesFileLocation": "",
-  "concealEnabled": false,
+  "concealEnabled": true,
   "colorPairedBracketsEnabled": true,
   "highlightCursorBracketsEnabled": true,
   "mathPreviewEnabled": true,
