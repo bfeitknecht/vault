@@ -91,4 +91,14 @@ ___
 
 
 
+# Miscellaneous
+
+>[!note]
+>>[!summary]
+>>>[!info]
+>>>>[!todo]
+>>>>>[!hint]
+>>>>>>[!check]
+>>>>>>>[he]
+
 
