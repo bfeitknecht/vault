@@ -2,7 +2,6 @@
 # What is a vector?
 A vector $v$ is just a list of $m$ [[real numbers]], $v \in \mathbb R^m$, and can be interpreted as an $m$-dimensional point or an arrow from the [[origin]] to that point (motion).
 
-%% add observations about zero vector %%
 
 # What can you do with a vector?
 
@@ -17,13 +16,14 @@ Let $\lambda \in \mathbb R$. For some $v = [a_{1} \dots a_{m}] \in \mathbb R^m$,
 ## Linear Combinations
 Combines scalar multiplication and vector addition.
 
-![[LinAlg-plan-w0.pdf#page=4&rect=96,379,517,512|LinAlg-plan-w0, p.4]]
 For some specific choices for $\lambda, \mu$ these special cases of combinations follow.
+![[LinAlg-plan-w0.pdf#page=4&rect=96,379,517,512|LinAlg-plan-w0, p.4]]
 
 
-## Dot Product
-add sigma sum notation here in embed of wiki file
-
+## Scalar Product / Dot Product
+Let $v, w \in \R^m$, then the scalar product (or dot product) of $v$ and $w$ is defined as
+![[LinAlg-plan-w1.pdf#page=2&rect=180,580,431,624|LinAlg-plan-w1, p.2]]
+and can be de
 
 ## Euclidian Norm
 Defines the "length" of a vector in an $m$-dimensional space.
