@@ -18,10 +18,7 @@ A vector $v$ is just a list of $m$ [[real numbers]], $v \in \mathbb R^m$, and ca
 ![[scalar product]]
 
 ## Euclidian Norm
-Defines the "length" of a vector in an $m$-dimensional space.
-### Definition
-> ![[LinAlg-plan-w1.pdf#page=2&rect=158,425,435,461|LinAlg-plan-w1, p.2]]
-
+![[euclidian norm]]
 
 # Notation
 
