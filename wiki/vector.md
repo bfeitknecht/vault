@@ -36,3 +36,5 @@ A single vector $v$ ind $m$-dimensional space is denoted $v=\begin{bmatrix} v_{1
 # Unit Vector
 ![[unit vector]]
 
+# Linear Independence
+![[linear independence]]
