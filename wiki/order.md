@@ -1,0 +1,1 @@
+The order of a set $S$ is defines as the amount of elements $s$ in $S$

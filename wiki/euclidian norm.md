@@ -2,5 +2,5 @@ Let $v \in \R^m$, then the euclidian norm defines the "length" of a vector in it
 $$
 \|v\| \def \sqrt{ v\cdot v }
 $$
-### Definition
-> ![[LinAlg-plan-w1.pdf#page=2&rect=158,425,435,461|LinAlg-plan-w1, p.2]]
+and can be denoted $\|v\|$ or $|v|$.
+
