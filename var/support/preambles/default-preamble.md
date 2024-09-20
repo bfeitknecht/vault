@@ -1,4 +1,4 @@
-
+# \\newcommand{}{}
 $$
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\N}{\mathbb N}
@@ -9,7 +9,21 @@ $$
 \newcommand{\qed}{\square}
 \newcommand{\etc}{\text{etc.}}
 \newcommand{\def}{\overset{\text{def.}}{=}}
+\newcommand{\empty}{\varnothing}
 
-\qed
+
+
 $$
 
+$$
+//\Z
+\N
+\Q
+\R
+\Q
+\O
+\qed
+\etc
+\def
+\empty
+$$

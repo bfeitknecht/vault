@@ -188,18 +188,6 @@
             "type": "tabs",
             "children": [
               {
-                "id": "84d6179a41f3d7a6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "HOME.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "c4761f644bfecbe1",
                 "type": "leaf",
                 "state": {
@@ -210,8 +198,21 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "4a586b919d13321c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "HOME.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "cc18e9c70282ea5d",
@@ -268,9 +269,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -279,7 +278,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -296,7 +294,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -386,8 +383,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "84d6179a41f3d7a6",
-      "mtime": "2024-09-20T13:59:45+02:00"
+      "active": "4c71ec2288beccf3",
+      "mtime": "2024-09-20T16:34:44+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1432,5 +1429,5 @@
       "mtime": "2024-09-20T10:27:33+02:00"
     }
   },
-  "active": "00-home"
+  "active": "sem3-linalg"
 }
