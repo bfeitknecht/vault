@@ -14,12 +14,10 @@ ___
 
 ## Problems
 
->[!todo] rename stuff
+>[!todo]- rename stuff
 > AuD -> A&D
 > AuW -> A&W
 > TIN -> TI
-
-
 
 >[!attention]- Time To Load Plugins
 > Total plugin setup: 639ms
@@ -57,19 +55,14 @@ ___
 > remember-cursor-position: 1ms
 > snippet-commands-obsidian: 1ms
 
-
 > [!problem]- launch terminal from obsidian messes up git
 > when hotkey to launch terminal, not in git??
 > not a git directory, eth (top root) also not git
 > but if another session is active (navigate to vault or eth), git works
 > 
 
-
 >[!note]- paste pdf selection as image to anki 
 > want to paste pdf selection as image, so it's synced to the web etc.
-
-
-
 
 >[!note]- serve ollama
 > ```bash
@@ -79,8 +72,6 @@ ___
 > 'obsidian://advanced-uri?vault=vault&commandid=workspace%253Anew-> tab'
 > 'obsidian://advanced-uri?vault=vault&commandid=obsidian-custom-> frames%253Aopen-custom-frames-ollama'
 > ```
-
-
 
 > [!note]- make timer web frame adapt to theme
 > ```javascript
@@ -96,7 +87,8 @@ ___
 >   // Default (when Media-Queries are not supported)
 > }
 > ```
+> css styles need !important tag
 
-css styles need !important tag
+
 
 
