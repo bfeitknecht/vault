@@ -26,6 +26,8 @@ A vector $v$ is just a list of $m$ [[real numbers]], $v \in \mathbb R^m$, and ca
 ## Cauchy-Schwarz Inequality
 ![[cauchy-schwarz inequality]]
 
+
+
 # Notation
 We can denote a set of vectors of [[order]] $n$ $\{v_{1}, v_{2}, \dots, v_{n}\} = \{v_{j} | j \in [n]\}$, where $[n] = \{1, 2, \dots, n\}$.
 
@@ -35,6 +37,7 @@ A single vector $v$ ind $m$-dimensional space is denoted $v=\begin{bmatrix} v_{1
 
 # Unit Vector
 ![[unit vector]]
+
 
 # Linear Independence
 ![[linear independence]]
