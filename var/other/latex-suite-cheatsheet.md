@@ -52,3 +52,18 @@ When running a snippet that **moves the cursor inside brackets {}, press Tab 
 | @o      | \omega      |         |             |
 | ome     | \omega      |         |             |
 For Greek letters with short names (2-3 characters), just type their name, e.g. "pi" → "\pi".
+
+
+
+~~~tabs
+tab: python
+```python
+print("Hello Tabs")
+```
+
+tab: javascript
+```javascript
+console.log('Hello Tabs');
+```
+~~~
+
