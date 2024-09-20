@@ -20,3 +20,10 @@ Let $\lambda \in \mathbb R$. For some $v = [a_{1} \dots a_{m}] \in \mathbb R^m$,
 
 Combines scalar multiplication and vector addition
 
+
+## Set of vectors
+
+$\{v_{1}, v_{2}, \dots, v_{n}\} = \{v_{j} | j \in [n]\}$, where $[n] = \{1, 2, \dots, n\}$
+
+
+$v=\begin{bmatrix} v_{1}\\ v_{2}\\ \vdots\\ v_{m} \end{bmatrix} =[v_{i}]^{m}_{i=1}$
