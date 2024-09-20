@@ -7,10 +7,10 @@
 */
 
 .markdown-embed-link, .file-embed-link {
-    display: none;
-    /*opacity: 0.0;*/
+    /*display: none;*/
     
     /*
+    opacity: 0.0;
     position: absolute;
     top: 0em;
     right: -1em;
@@ -22,5 +22,5 @@
 
 /*
  * check out for more
- * https://github.com/1stprinciples/Obsidian-hacks/blob/main/Block_reference_embed.css#L1-L34
+ * https://github.com/1stprinciples/Obsidian-hacks/blob/main/Block_reference_embed.css
  */
