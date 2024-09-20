@@ -18,11 +18,17 @@ Let $\lambda \in \mathbb R$. For some $v = [a_{1} \dots a_{m}] \in \mathbb R^m$,
 Combines scalar multiplication and vector addition.
 
 ![[LinAlg-plan-w0.pdf#page=4&rect=96,379,517,512|LinAlg-plan-w0, p.4]]
-
+For some specific choices for $\lambda, \mu$ these special cases of combinations follow.
 
 
 ## Dot Product
 add sigma sum notation here in embed of wiki file
+
+
+## Euclidian Norm
+Defines the "length" of a vector in an $m$-dimensional space.
+**Def. 1.11**![[LinAlg-plan-w1.pdf#page=2&rect=159,424,436,462|LinAlg-plan-w1, p.2]]
+
 
 
 # Notation
