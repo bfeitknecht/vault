@@ -207,7 +207,7 @@
   "annotationPopupDrag": true,
   "showAnnotationPopupOnHover": true,
   "useCallout": true,
-  "calloutType": "PDF",
+  "calloutType": "pdf",
   "calloutIcon": "highlighter",
   "highlightBacklinksInEmbed": false,
   "highlightBacklinksInHoverPopover": false,

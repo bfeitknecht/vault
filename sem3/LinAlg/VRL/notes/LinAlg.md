@@ -11,7 +11,7 @@ Linear Algebra concers itself with [[vector]]s and what you can do with them. Th
 > - how to operate on vectors ([[vector addition]], [[scalar multiplication]])
 >   
 > > [!info]- Lecture Plan
-> > [[LinAlg-plan-w0.pdf]]
+> > ![[LinAlg-plan-w0.pdf]]
 
 > [!quote]- W01
 > 
@@ -106,19 +106,6 @@ Linear Algebra concers itself with [[vector]]s and what you can do with them. Th
 > 
 > > [!info]- Lecture Plan
 > > ![[LinAlg-plan-w13.pdf]]
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
