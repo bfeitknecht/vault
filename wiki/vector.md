@@ -4,29 +4,23 @@ A vector $v$ is just a list of $m$ [[real numbers]], $v \in \mathbb R^m$, and ca
 
 
 # What can you do with a vector?
-
 ## Vector Addition
-Let $v, w \in \mathbb R^m, v=[a_{1} \dots a_{m}], w=[b_{1} \dots b_{m}]$, then $v+w = [a_{1} + b_{1} \dots a_{m} + b_{m}]$. Basically, putting one arrow's base on the tip of the other and evaluating the result.
-
+![[vector addition]]
 
 ## Scalar Multiplication
-Let $\lambda \in \mathbb R$. For some $v = [a_{1} \dots a_{m}] \in \mathbb R^m$, then $\lambda v = [\lambda a_{1} \dots \lambda a_{m}]$. Basically, stretching or squishing a vector by some real amount.
+![[scalar multiplication]]
 
+## Linear Combination
+![[linear combination]]
 
-## Linear Combinations
-Combines scalar multiplication and vector addition.
-
-For some specific choices for $\lambda, \mu$ these special cases of combinations follow.
-![[LinAlg-plan-w0.pdf#page=4&rect=96,379,517,512|LinAlg-plan-w0, p.4]]
 
 # Scalar Product / Dot Product
-
 ![[scalar product]]
 
 ## Euclidian Norm
 Defines the "length" of a vector in an $m$-dimensional space.
-
-### Def. 1.11![[LinAlg-plan-w1.pdf#page=2&rect=158,425,435,461|LinAlg-plan-w1, p.2]]
+### Definition
+> ![[LinAlg-plan-w1.pdf#page=2&rect=158,425,435,461|LinAlg-plan-w1, p.2]]
 
 
 # Notation
