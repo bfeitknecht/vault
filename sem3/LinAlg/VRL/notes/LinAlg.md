@@ -3,13 +3,14 @@ Linear Algebra concers itself with [[vector]]s and what you can do with them.
 
 # Lectures
 > [!quote]- VRL0
-> 
-> ![[LinAlg-plan-w0.pdf]]
+> > [!info]- Lecture Plan
+> > ![[LinAlg-plan-w0.pdf]]
 > 
 > - [[vector]]s
 > - how to operate on vectors ([[vector addition]], [[scalar multiplication]])
 > - 
 
+> [!quote]- VRL1
 > [!quote]- VRL1
 > 
 > ![[LinAlg-plan-w1.pdf]]
