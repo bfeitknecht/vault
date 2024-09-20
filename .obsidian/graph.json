@@ -1,44 +1,23 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:sem2/AuW  ",
+      "query": "path:wiki  ",
       "color": {
         "a": 1,
-        "rgb": 14627892
-      }
-    },
-    {
-      "query": "path:sem2/DDCA",
-      "color": {
-        "a": 1,
-        "rgb": 16755200
-      }
-    },
-    {
-      "query": "path:sem2/PProg",
-      "color": {
-        "a": 1,
-        "rgb": 11206400
-      }
-    },
-    {
-      "query": "path:sem2/A1",
-      "color": {
-        "a": 1,
-        "rgb": 4076268
+        "rgb": 14048348
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0.2,
+  "textFadeMultiplier": -1.7,
   "nodeSizeMultiplier": 1.50663655598958,
   "lineSizeMultiplier": 1.71299641927083,
   "collapse-forces": true,
@@ -46,6 +25,6 @@
   "repelStrength": 17.9943949194549,
   "linkStrength": 0.519919341522541,
   "linkDistance": 470,
-  "scale": 0.029677257030503085,
-  "close": true
+  "scale": 0.20022583007813916,
+  "close": false
 }

@@ -2,13 +2,6 @@
 >[!quote] Why probability? RANDOMNESS!!
 >Makes a lot of stuff faster, more secure (polynomial prime test, simultaneous connection problem, O(1) hash tables).
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-
-
 
 
 >[!quote] Vertex connectivity:
@@ -32,7 +25,7 @@
 >
 >G ist $k$-zusammenhängend $\iff$ $\forall u,v \in V, u \neq v$ gibt es $k$ intern-knotendisjunkte u-v Pfade.
 
-%% TODO: extend %%
+
 
 
 
@@ -111,11 +104,6 @@ k-zsh. ≤ k-edge.zsh. ≤ $\delta(G)$
 # Probability
 
 
-
-
-
-
-$\mathfrak A$ 
 
 
 
