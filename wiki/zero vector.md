@@ -3,7 +3,8 @@ The zero vector is the [[neutral element]] in some [[vector space]] $\R^m$, i.e.
 $$
 \mathbf{0} =
 \begin{cases}
-\emptyset\quad,m=0 \\
+\empty\quad,m=0 \\
+ \\
 \end{cases}
 $$
 

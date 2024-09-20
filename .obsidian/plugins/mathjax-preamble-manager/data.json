@@ -2,13 +2,13 @@
   "preambles": {
     "preambles": [
       {
-        "path": "var/support/preambles/default-preamble.md"
+        "path": "var/support/preambles/preamble.md"
       }
     ],
     "folderPreambles": [
       {
         "folderPath": "/",
-        "preamblePath": "var/support/preambles/default-preamble.md"
+        "preamblePath": "var/support/preambles/preamble.md"
       }
     ]
   }

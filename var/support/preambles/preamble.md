@@ -1,4 +1,5 @@
-# \\newcommand{}{}
+
+# Definitions
 $$
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\N}{\mathbb N}
@@ -10,20 +11,19 @@ $$
 \newcommand{\etc}{\text{etc.}}
 \newcommand{\def}{\overset{\text{def.}}{=}}
 \newcommand{\empty}{\varnothing}
-
-
-
+$$
+# Test
+$$
+%%\Z
+%%\N
+%%\Q
+%%\R
+%%\Q
+%%\O
+%%\qed
+%%\etc
+%%\def
+%%\empty
 $$
 
-$$
-//\Z
-\N
-\Q
-\R
-\Q
-\O
-\qed
-\etc
-\def
-\empty
-$$
+
