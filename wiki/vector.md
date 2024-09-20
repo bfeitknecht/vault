@@ -27,8 +27,8 @@ add sigma sum notation here in embed of wiki file
 
 ## Euclidian Norm
 Defines the "length" of a vector in an $m$-dimensional space.
-**Def. 1.11**![[LinAlg-plan-w1.pdf#page=2&rect=159,424,436,462|LinAlg-plan-w1, p.2]]
 
+### Def. 1.11![[LinAlg-plan-w1.pdf#page=2&rect=158,425,435,461|LinAlg-plan-w1, p.2]]
 
 
 # Notation
