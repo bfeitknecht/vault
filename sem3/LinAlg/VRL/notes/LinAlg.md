@@ -1,3 +1,3 @@
 
-Linear Algebra concers itself with [[vectors]] and what you can do with them.
+Linear Algebra concers itself with [[vector]]s and what you can do with them.
 
