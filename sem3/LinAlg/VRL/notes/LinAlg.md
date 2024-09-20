@@ -19,6 +19,7 @@ Linear Algebra concers itself with [[vector|vectors]], [[matrix|matrices]] and w
 > - [[scalar product]]
 > - [[triangle inequality]], [[cauchy-schwarz inequality]]
 > - [[linear independence]]
+> - [[zero vector]]
 > 
 > > [!info]- Lecture Plan
  > > ![[LinAlg-plan-w1.pdf]]
