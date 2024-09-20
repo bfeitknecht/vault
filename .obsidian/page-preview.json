@@ -1,4 +1,6 @@
 {
   "pdf-plus-citation-link": true,
-  "search": false
+  "preview": true,
+  "editor": false,
+  "file-explorer": false
 }
