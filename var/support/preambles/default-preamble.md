@@ -5,13 +5,7 @@ $$
 \newcommand{\R}{\mathbb R}
 \newcommand{\C}{\mathbb C}
 \newcommand{\O}{\mathcal O}
-
+\newcommand{\etc}{\text{etc.}}
 
 $$
-
-
-
-> [!tldr]+ Title
-> Contents
-
 
