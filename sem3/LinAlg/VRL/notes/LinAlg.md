@@ -2,7 +2,7 @@
 Linear Algebra concers itself with [[vector]]s and what you can do with them.
 
 # Lectures
-> [!quote]- VRL0
+> [!quote]- W00
 > > [!info]- Lecture Plan
 > > ![[LinAlg-plan-w0.pdf]]
 > 
@@ -10,41 +10,76 @@ Linear Algebra concers itself with [[vector]]s and what you can do with them.
 > - how to operate on vectors ([[vector addition]], [[scalar multiplication]])
 > - 
 
-> [!quote]- VRL1
-> [!quote]- VRL1
+> [!quote]- W01
+> > [!info]- Lecture Plan
+> > ![[LinAlg-plan-w1.pdf]]
 > 
-> ![[LinAlg-plan-w1.pdf]]
 > 
 > - [[linear combination]]
 > - [[scalar product]]
 > - [[triangle inequality]], [[cauchy-schwarz inequality]]
 > - [[linear independence]]
 
-> [!quote]- VRL2
+> [!quote]- W02
+> > [!info]- Lecture Plan
+> > 
 
-> [!quote]- VRL3
+> [!quote]- W03
+> > [!info]- Lecture Plan
+> > 
 
-> [!quote]- VRL4
+> [!quote]- W04
+> > [!info]- Lecture Plan
+> > 
 
-> [!quote]- VRL5
+> [!quote]- W05
+> > [!info]- Lecture Plan
+> > 
 
-> [!quote]- VRL6
+> [!quote]- W06
+> > [!info]- Lecture Plan
+> > 
 
-> [!quote]- VRL7
+> [!quote]- W07
+> > [!info]- Lecture Plan
+> > 
 
-> [!quote]- VRL8
+> [!quote]- W08
+> > [!info]- Lecture Plan
+> > 
 
-> [!quote]- VRL9
+> [!quote]- W09
+> > [!info]- Lecture Plan
+> > 
 
-> [!quote]- VRL10
+> [!quote]- W10
+> > [!info]- Lecture Plan
+> > 
 
-> [!quote]- VRL11
+> [!quote]- W11
+> > [!info]- Lecture Plan
+> > 
 
-> [!quote]- VRL12
+> [!quote]- W12
+> > [!info]- Lecture Plan
+> > 
 
-> [!quote]- VRL13
+> [!quote]- W13
+> > [!info]- Lecture Plan
+> > 
 
 
 
 
-
+![[LinAlg-plan-w02.pdf]]
+![[LinAlg-plan-w03.pdf]]
+![[LinAlg-plan-w04.pdf]]
+![[LinAlg-plan-w05.pdf]]
+![[LinAlg-plan-w06.pdf]]
+![[LinAlg-plan-w07.pdf]]
+![[LinAlg-plan-w08.pdf]]
+![[LinAlg-plan-w09.pdf]]
+![[LinAlg-plan-w10.pdf]]
+![[LinAlg-plan-w11.pdf]]
+![[LinAlg-plan-w12.pdf]]
+![[LinAlg-plan-w13.pdf]]
