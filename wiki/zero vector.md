@@ -1,10 +1,11 @@
 
-The zero vector is the [[neutral element]] in some [[vector space]] $\R^m$, i.e. the [[vector]] that translates to nothing. It is denoted as $\mathbf{0}$ or $\vec{0}$.
+The zero vector is the [[neutral element]] in some [[vector space]] $\R^m$ with respect to [[vector addition]], i.e. the [[vector]] that doesn't translates. It is denoted as $\mathbf{0}$ or $\vec{0}$.
+
 $$
-\mathbf{0} =
+\mathbf{0} \def
 \begin{cases}
-\empty\quad,m=0 \\
- \\
+\empty, &m=0 \\
+[0]^{m}_{i=1}, &m > 0\\
 \end{cases}
 $$
 
