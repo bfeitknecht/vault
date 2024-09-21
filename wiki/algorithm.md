@@ -1,6 +1,4 @@
 
-# What's an algorithm?
-
 Algorithms solve (hard) problems by systematically solving easier subproblems consisting of [[elementary-operation]]s.
 
 
