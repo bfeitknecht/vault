@@ -1,7 +1,7 @@
 
-# Triggers
-
-| Trigger | Replacement      |
+~~~tabs
+tab: Triggers
+Trigger | Replacement      |
 | ------- | ---------------- |
 | mk      | $ $              |
 | dm      | $$  <br>  <br>$$ |
@@ -29,7 +29,7 @@
 When running a snippet that **moves the cursor inside brackets {}, press Tab to exit the brackets**.
 
 
-# Greek letters
+
 
 | Trigger | Replacement | Trigger | Replacement |
 | ------- | ----------- | ------- | ----------- |
@@ -52,5 +52,10 @@ When running a snippet that **moves the cursor inside brackets {}, press Tab 
 | @o      | \omega      |         |             |
 | ome     | \omega      |         |             |
 For Greek letters with short names (2-3 characters), just type their name, e.g. "pi" → "\pi".
+
+tab: Greek Letters
+
+~~~
+
 
 

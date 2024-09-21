@@ -94,10 +94,9 @@ ___
 # Miscellaneous
 
 
-
 >[!note]
 
->[!summary]
+>[!tldr]
 
 >[!info]
 
