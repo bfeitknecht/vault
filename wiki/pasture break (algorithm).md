@@ -1,5 +1,5 @@
 
-![[algorithm-72E5E20F76405E8EF1CC7C33FC756F4B.png]]
+![[pasture break (algorithm)-72E5E20F76405E8EF1CC7C33FC756F4B.png]]
 
 ## Problem
 Cow wants to escape through a hole in an infinite fence, what is the best strategy to take the least amount of steps to reach the hole?
