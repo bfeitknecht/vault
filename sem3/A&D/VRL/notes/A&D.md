@@ -1,2 +1,3 @@
 
-We use [[algorithms]] (mathematical procedures) and data-structures
+We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|data structures]
+]

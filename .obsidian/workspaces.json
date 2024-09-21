@@ -176,7 +176,7 @@
         }
       },
       "active": "d97887817325f8fe",
-      "mtime": "2024-09-21T09:19:16+02:00"
+      "mtime": "2024-09-21T14:14:24+02:00"
     },
     "00-home": {
       "main": {
@@ -268,9 +268,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -279,7 +277,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -296,7 +293,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -386,8 +382,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "4a586b919d13321c",
-      "mtime": "2024-09-21T09:20:15+02:00"
+      "active": "4c71ec2288beccf3",
+      "mtime": "2024-09-21T14:14:18+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1421,5 +1417,5 @@
       "mtime": "2024-09-20T10:27:33+02:00"
     }
   },
-  "active": "00-home"
+  "active": "sem3-a&d"
 }

@@ -1,5 +1,3 @@
-
-# Definitions
 $$
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\N}{\mathbb N}
