@@ -118,3 +118,12 @@ ___
 >[!example]
 
 >[!cite]
+
+
+%%
+comment
+%%
+
+<!--
+comment
+-->
