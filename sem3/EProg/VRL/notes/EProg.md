@@ -20,9 +20,10 @@
 >   
 
 
-%% ~~~tabs
+~~~tabs
 tab: About
-EProg is java for dummies.
+> [!quote]- 
+> we love to test
 
 tab: Info
 Submit to git
@@ -31,4 +32,3 @@ tab: Test
 - [ ] 📅 2024-09-23 🔁 every day 
 ~~~
 
- %%
