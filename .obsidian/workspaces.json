@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "b9247cf1ccb1928e",
+            "id": "f44d7d5cec6d8004",
             "type": "tabs",
             "children": [
               {
-                "id": "d97887817325f8fe",
+                "id": "b2bfb9cc471db7ce",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -94,8 +94,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -175,8 +174,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "d97887817325f8fe",
-      "mtime": "2024-09-21T14:14:24+02:00"
+      "active": "b2bfb9cc471db7ce",
+      "mtime": "2024-09-22T08:27:46+02:00"
     },
     "00-home": {
       "main": {
@@ -1406,5 +1405,5 @@
       "mtime": "2024-09-20T10:27:33+02:00"
     }
   },
-  "active": "00-clean"
+  "active": "00-home"
 }
