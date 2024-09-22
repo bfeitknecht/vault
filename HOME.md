@@ -46,3 +46,8 @@ TITLE "Today"
 > - LinAlg: every wednesday after lecture
 > - TI: every friday after lecture
 
+
+- [ ] 🔁 every week 
+```tasks
+
+```
