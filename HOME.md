@@ -19,7 +19,6 @@ EXCLUDE PROJECTS "other" %%
 other comment
 -->
 
-
 ```toggl
 SUMMARY PAST 10 DAYS
 

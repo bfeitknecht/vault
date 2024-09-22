@@ -1,6 +1,6 @@
 
 Algorithms solve (hard) problems by systematically solving easier subproblems consisting of [[elementary operation|elementary operation]].
-
+ 
 
 # Examples
 
