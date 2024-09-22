@@ -1,9 +1,8 @@
 
+> [!quote]- About
+
+
 Linear Algebra concers itself with [[vector|vectors]], [[matrix|matrices]] and what you can do with them. This enables us to model motion in space, efficiently compute with big data and much more. It is a powerful tool for [[abstraction]] in many different areas of math, computer science and engineering.
-
-
-> [!quote]- Info 
-> aa
 
 
 # Lectures

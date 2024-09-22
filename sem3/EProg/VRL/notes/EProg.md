@@ -3,7 +3,10 @@
 > 
 > > [!info]- Info
 > > - [ ] theory exercise 📅 2024-09-24 🔁 every week 
-
+> > - [ ] programming task 🛫 2024-10-15 🔁 every week 
+> 
+> 
+> 
 
 
 > [!attention] Topics to revisit
