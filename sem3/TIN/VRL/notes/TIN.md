@@ -2,12 +2,12 @@
 > [!quote]- About
 > 
 > > [!info]- Info
-> > - [ ]  
+> > - [ ] exercise sheet 📅 2024-09-27 🔁 every week 
+>  
+> 
 
->[!quote] Theorethische Informatik
-> "Eine Wissenschaft zur automatischen Verifikation von Information mit Algorithmen."
 
-
+"Eine Wissenschaft zur automatischen Verifikation von Information mit Algorithmen."
 
 
 
