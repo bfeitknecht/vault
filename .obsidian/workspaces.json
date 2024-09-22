@@ -504,8 +504,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -585,8 +584,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "545c4fe2911597d7",
-      "mtime": "2024-09-22T08:21:15+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-09-22T16:09:17+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1003,13 +1002,12 @@
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w1.pdf",
                     "page": 1,
                     "left": -9,
-                    "top": 27,
+                    "top": 35,
                     "zoom": 1.75
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1053,7 +1051,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w1.pdf"
+                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md"
                   }
                 }
               },
@@ -1063,7 +1061,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w1.pdf",
+                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1080,7 +1078,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w1.pdf",
+                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1090,8 +1088,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1171,8 +1168,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "0114dfc203a5a41b",
-      "mtime": "2024-09-20T17:54:36+02:00"
+      "active": "8fbf0bcd94bc22de",
+      "mtime": "2024-09-22T16:08:58+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1375,5 +1372,5 @@
       "mtime": "2024-09-20T10:27:33+02:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-dmath"
 }
