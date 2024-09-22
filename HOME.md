@@ -13,12 +13,11 @@
 
 
 %%
-INCLUDE PROJECTS "pv-a1", "pv-auw", "pv-ddca", "pv-pprog"
-EXCLUDE PROJECTS "other"
+comment
 %%
 
 <!--
-other comment
+comment
 -->
 
 ```toggl
@@ -26,6 +25,10 @@ SUMMARY PAST 10 DAYS
 
 TITLE "Past Week"
 ```
+%%
+INCLUDE PROJECTS "pv-a1", "pv-auw", "pv-ddca", "pv-pprog"
+EXCLUDE PROJECTS "other"
+%%
 ___
 
 ```toggl

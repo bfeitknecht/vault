@@ -93,7 +93,6 @@ ___
 
 # Miscellaneous
 
-
 >[!note]
 
 >[!tldr]
