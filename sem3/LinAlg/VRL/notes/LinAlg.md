@@ -1,8 +1,8 @@
 
 > [!quote]- About
 > > [!info]- Info
+> > - [ ] bonus quiz 🔁 every week 📅 2024-10-01
 > > - [x] bonus quiz 🔁 every week 📅 2024-09-24 ✅ 2024-09-22
-> > - [ ] bonus quiz 📅 2024-09-24 🔁 every week 
 > > - [ ] exercise sheet 📅 2024-09-24 🔁 every week 
 > 
 > 

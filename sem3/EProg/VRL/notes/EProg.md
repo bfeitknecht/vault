@@ -2,7 +2,7 @@
 > [!quote]- About
 > 
 > > [!info]- Info
-> > - [ ] theory exercise 📅 2024-09-24 🔁 every week 
+> > - [ ] theory exercise 🔁 every week 📅 2024-09-24
 > > - [ ] programming task 🛫 2024-10-15 🔁 every week 
 > 
 > 
