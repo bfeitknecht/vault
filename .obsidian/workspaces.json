@@ -193,7 +193,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "HOME.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "source": false
                   }
                 }
@@ -210,7 +210,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "cc18e9c70282ea5d",
@@ -268,7 +269,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "HOME.md"
+                    "file": "README.md"
                   }
                 }
               },
@@ -278,7 +279,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
+                    "file": "README.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -295,7 +296,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
+                    "file": "README.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -385,8 +386,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "4c71ec2288beccf3",
-      "mtime": "2024-09-22T09:19:14+02:00"
+      "active": "c4761f644bfecbe1",
+      "mtime": "2024-09-22T14:33:50+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -604,9 +605,9 @@
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 1,
-                    "left": -257,
-                    "top": 627,
-                    "zoom": 1.1798974085162373
+                    "left": -4,
+                    "top": 628,
+                    "zoom": 2.6315287656604567
                   }
                 }
               },
@@ -621,44 +622,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "6ef7c8deb67fb4c4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "var/support/preambles/default-preamble.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "ecd1c341e35938d2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/DMath/VRL/notes/predicate.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "39e39d44cd4e7353",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/DMath/VRL/notes/propositions.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -702,7 +668,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf"
+                    "file": "sem3/DMath/VRL/notes/DMath.md"
                   }
                 }
               },
@@ -712,7 +678,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
+                    "file": "sem3/DMath/VRL/notes/DMath.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -729,7 +695,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
+                    "file": "sem3/DMath/VRL/notes/DMath.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -819,8 +785,8 @@
           "obsidian42-brat:BRAT": true
         }
       },
-      "active": "436bbe01cb56efd5",
-      "mtime": "2024-09-19T17:33:43+02:00"
+      "active": "a19f0859eb717208",
+      "mtime": "2024-09-22T14:34:05+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1409,5 +1375,5 @@
       "mtime": "2024-09-20T10:27:33+02:00"
     }
   },
-  "active": "00-home"
+  "active": "sem3-linalg"
 }
