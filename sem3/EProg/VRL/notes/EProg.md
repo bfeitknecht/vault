@@ -18,3 +18,17 @@
 > - how abstraction models complexity
 > - 
 >   
+
+
+%% ~~~tabs
+tab: About
+EProg is java for dummies.
+
+tab: Info
+Submit to git
+
+tab: Test
+- [ ] 📅 2024-09-23 🔁 every day 
+~~~
+
+ %%

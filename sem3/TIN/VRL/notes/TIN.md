@@ -1,14 +1,13 @@
 
-- [ ] exercise sheet 📅 2024-09-27 🔁 every week 
-
 > [!quote]- About
 > 
+> > [!info]- Info
+> > - [ ] exercise sheet 📅 2024-09-27 🔁 every week 
 >  
 > 
 
 
 "Eine Wissenschaft zur automatischen Verifikation von Information mit Algorithmen."
-
 
 
 programm kann quatsch machen
