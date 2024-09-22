@@ -20,15 +20,20 @@
 >   
 
 
+
 ~~~tabs
 tab: About
 > [!quote]- 
 > we love to test
 
 tab: Info
-Submit to git
+Prof.: Thomas Gross
+When (Where): Tue. 10:15 - 12:00 (ML), Fri. 08:15 - 10:00 (ML)
+
 
 tab: Test
-- [ ] 📅 2024-09-23 🔁 every day 
+- [ ]  🔁 every day 📅 2024-09-25
+- [x]  🔁 every day 📅 2024-09-24 ✅ 2024-09-22
+- [x]  🔁 every day 📅 2024-09-23 ✅ 2024-09-22
 ~~~
 
