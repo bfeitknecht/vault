@@ -38,3 +38,11 @@ TITLE "Today"
 
 
 
+
+> [!w]- EX
+> - A&D: every monday after exercise class
+> - DMath: every friday morning
+> - EProg: every tuesday evening
+> - LinAlg: every wednesday after lecture
+> - TI: every friday after lecture
+
