@@ -47,7 +47,11 @@ TITLE "Today"
 > - TI: every friday after lecture
 
 
-- [ ] 🔁 every week 
-```tasks
+- [ ] A&D theory exercise 📅 2024-09-29 🔁 every week 
+- [ ] A&D peer grading 📅 2024-09-29 🔁 every week 
+- [ ] A&D moodle quiz 📅 2024-09-29  🔁 every week 
+- [ ] A&D code expert 📅 2024-09-26 🔁 every 2 weeks on Wednesday 
 
+```tasks
+filter undone
 ```
