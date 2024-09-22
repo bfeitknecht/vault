@@ -39,7 +39,7 @@ TITLE "Today"
 
 
 
-> [!w]- EX
+> [!warning]+ EX
 > - A&D: every monday after exercise class
 > - DMath: every friday morning
 > - EProg: every tuesday evening
