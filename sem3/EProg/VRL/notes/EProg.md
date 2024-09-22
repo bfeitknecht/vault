@@ -1,4 +1,11 @@
 
+> [!quote]- About
+> 
+> > [!info]- Info
+> > - [ ] theory exercise 📅 2024-09-24 🔁 every week 
+
+
+
 > [!attention] Topics to revisit
 > - inheritance / polymorphism quiz
 > - ebnf
