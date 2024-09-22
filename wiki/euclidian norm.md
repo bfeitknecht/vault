@@ -3,5 +3,5 @@ Let $v \in \R^m$, then the euclidian norm defines the "length" of a vector in it
 $$
 \|v\| \def \sqrt{ v\cdot v }
 $$
-and can be denoted $\|v\|$ or $|v|$.
+and can also be denoted as $|v|$.
 
