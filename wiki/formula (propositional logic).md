@@ -18,6 +18,7 @@ A formula $F$ can be satisfiable, meaning it can be true for some interpretation
 ![[dmath-script-hs24.pdf#page=34&rect=37,505,390,544|dmath-script-hs24, p.24]]
 ![[dmath-script-hs24.pdf#page=34&rect=36,390,388,428|dmath-script-hs24, p.24]]
 
-For example, $
+In particular, for any logical formula $F$ in propositional logic, $F\lor \neg F \equiv \top$ and $F\land \neg F \equiv \bot$ holds. Also, $F\equiv \bot \iff \neg F \equiv \top$.
+
 
 # More
