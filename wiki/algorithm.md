@@ -10,5 +10,3 @@ Algorithms solve (hard) problems by systematically solving easier subproblems co
 ## [Karatsuba](https://en.wikipedia.org/wiki/Karatsuba_algorithm)
 ![[karatsuba (algorithm)]]
 
-# How to find algorithms?
-
