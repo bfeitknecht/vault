@@ -1,5 +1,5 @@
 
-Discrete Math is about the study of concrete and well defined structures, behaviors and 
+Discrete mathematics is the study of mathematical structures that can be considered "discrete" (in a way analogous to discrete variables, having a [[bijection]] with the set of [[natural number|natural numbers]]) rather than "continuous" (analogously to continuous functions). Objects studied in discrete mathematics include integers, [[graph|graphs]], and [[statement|statements]] in [[logic]].
 
 
 # About
