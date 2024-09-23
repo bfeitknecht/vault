@@ -35,7 +35,7 @@ A & B & {A \lor B} \\
 1 & 1 & 1 \\
 \end{array} \\
 \\
-&\text{Implication (logical consequence)}
+&\text{Implication}
 &\begin{array}{c | c || c}
 A & B & {A \to B} \\
 \hline
@@ -48,4 +48,5 @@ A & B & {A \to B} \\
 $$
 Notice, that $A\to B \equiv \neg A \lor B$.
 
+Furthermore, we can combine $A\to B \land B \to A \equiv A\leftrightarrow B$
 

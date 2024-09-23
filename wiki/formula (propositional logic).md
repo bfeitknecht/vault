@@ -7,5 +7,5 @@ A **logical formula** $F$ in [[propositional logic]] is a [[arity|k-ary]] *[[fun
 ![[dmath-script-hs24.pdf#page=31&rect=36,456,389,505|dmath-script-hs24, p.21]]
 
 # Satisfiability
-A formula $f$ 
+A formula $F$ can be satisfiable, meaning it can be true for some interpretation. Alternatively it can be unsatisfiable, i.e. never true, which we denote $F\equiv \bot$ or always true (tautology), which we denote $F\equiv \top$.
 
