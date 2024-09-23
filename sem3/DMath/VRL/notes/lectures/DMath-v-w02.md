@@ -3,3 +3,11 @@
 - logical [[constant (propositional logic)|constants]], [[operation (propositional logic)|operators]] and [[formula (propositional logic)|formulas]]
 - [[implication]]
 - logical consequence
+
+
+> [!info]+ $\cancel{ F\models G\equiv }$
+> logical consequence takes two formulas and yields a statement, we cannot use the operations of logical formulas on it!
+
+
+
+
