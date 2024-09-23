@@ -18,7 +18,7 @@ Linear Algebra concers itself with [[vector|vectors]], [[matrix|matrices]] and w
 > - basic vector operatations ([[vector addition]], [[scalar multiplication]])
 >   
 > > [!info]- Lecture Plan
-> > ![[LinAlg-plan-w0.pdf]]
+> > ![[LinAlg-plan-w00.pdf]]
 
 > [!quote]- W01
 > 
@@ -29,7 +29,7 @@ Linear Algebra concers itself with [[vector|vectors]], [[matrix|matrices]] and w
 > - [[zero vector]]
 > 
 > > [!info]- Lecture Plan
- > > ![[LinAlg-plan-w1.pdf]]
+ > > ![[LinAlg-plan-w01.pdf]]
 
 > [!quote]- W02
 > 

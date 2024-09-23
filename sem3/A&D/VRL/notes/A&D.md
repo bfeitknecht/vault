@@ -6,4 +6,8 @@
 > > - [ ] moodle quiz 📅 2024-09-30  🔁 every week 
 > > - [ ] code expert 📅 2024-10-10 🔁 every 2 weeks on Wednesday 
 
+
 We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|data structures]] to solve problems efficiently in [[runtime]] and [[memory space]].
+
+
+# Lectures
