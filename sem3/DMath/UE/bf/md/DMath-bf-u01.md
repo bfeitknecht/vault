@@ -11,7 +11,7 @@ $$
 \begin{array}{c | c || c | c}
 A & B & {A \heartsuit B} & {B \, \heartsuit A} \\
 \hline
-0 & 0 & 1 & 0 \\
+0 & 0 & 1 & 1 \\
 0 & 1 & 0 & 1 \\
 1 & 0 & 1 & 0 \\
 1 & 1 & 1 & 1\\
@@ -40,4 +40,15 @@ ___
 ## b)
 ![[DMath-e-u01.pdf#page=2&rect=106,194,517,272|DMath-e-u01, p.2]]
 
-To make our life easier, we decompose the logical formulae into its components
+To make our life easier, we decompose the logical formulae into their components. First, let's simplify the left-hand-side formula.
+
+$$
+\begin{array}{c | c || c | c}
+A & B & {A \,\heartsuit B} & {\lnot A \, \heartsuit B} \\
+\hline
+0 & 0 & 1 & 1 \\
+0 & 1 & 0 & 1 \\
+1 & 0 & 1 & 0 \\
+1 & 1 & 1 & 1 \\
+\end{array}
+$$
