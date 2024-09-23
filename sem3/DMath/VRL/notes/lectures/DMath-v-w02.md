@@ -5,7 +5,7 @@
 - logical consequence
 
 
-> [!info]+ $\cancel{ F\models G\equiv }$
+> [!info]+ $\underbrace{ \cancel{ F\models G\equiv} }_{ \text{We don't do this.} }$
 > logical consequence takes two formulas and yields a statement, we cannot use the operations of logical formulas on it!
 
 
