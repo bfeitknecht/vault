@@ -398,7 +398,7 @@
             "type": "tabs",
             "children": [
               {
-                "id": "1ecea32dc9822744",
+                "id": "e7911976b677ac81",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -583,8 +583,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-09-22T16:09:17+02:00"
+      "active": "545c4fe2911597d7",
+      "mtime": "2024-09-23T12:08:48+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1369,5 +1369,5 @@
       "mtime": "2024-09-20T10:27:33+02:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-dmath"
 }
