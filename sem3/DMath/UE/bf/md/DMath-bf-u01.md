@@ -40,6 +40,8 @@ ___
 ## b)
 ![[DMath-e-u01.pdf#page=2&rect=106,194,517,272|DMath-e-u01, p.2]]
 
+Let's define the left-hand-side formula as $F\equiv (\neg A \heartsuit B$ 
+
 To make our life easier, we decompose the logical formulae into their components. First, let's cover the left-hand-side formula.
 $$
 \begin{array}{c | c || c | c | c}
@@ -82,7 +84,6 @@ A & B & {A \diamondsuit B} & {B \, \diamondsuit A} & { \neg(A \diamondsuit B)} \
 $$
 
 Now, we will go over the whole right-hand-side formula.
-
 $$
 \begin{array}{c | c | c || c | c }
 A & B & C & {\neg  (A \diamondsuit B)} & {\neg (B \diamondsuit C)} & {(\neg A \diamondsuit B) \,\heartsuit \, \neg(A \diamondsuit C)} \\
@@ -92,8 +93,10 @@ A & B & C & {\neg  (A \diamondsuit B)} & {\neg (B \diamondsuit C)} & {(\neg A \d
 0 & 1 & 0 & 1 & 1 & 1 \\
 0 & 1 & 1 & 1 & 0 & 1 \\
 1 & 0 & 0 & 1 & 0 & 1 \\
-1 & 0 & 1 & 1 & 1 & 0\\
+1 & 0 & 1 & 1 & 1 & 1\\
 1 & 1 & 0 & 0 & 1 & 0 \\
-1 & 1 & 1 & 0 & 0 & 0 \\
+1 & 1 & 1 & 0 & 0 & 1 \\
 \end{array}
 $$
+Since the function tables differ (e.g. the case of $A = B = C = 1$) we can conclude that 
+
