@@ -12,75 +12,10 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 
 # Lectures
 
-> [!quote]- W00
-> - [[algorithm|algorithms]] ([[karatsuba (algorithm)]], [[grade-school algorithm]])
-> - [[elementary operation]], [[asymptotic analyis]]
-> - [[induction]]
->   
+## W01
+![[A&D-v-w01]]
 
-> [!quote]- W01
-> 
-> 
-
-> [!quote]- W02
-> 
-> 
-> 
-
-> [!quote]- W03
-> 
-> 
-> 
-
-> [!quote]- W04
-> 
-> 
-> 
-
-> [!quote]- W05
-> 
-> 
-> 
-
-> [!quote]- W06
-> 
-> 
-> 
-
-> [!quote]- W07
-> 
-> 
-> 
-
-> [!quote]- W08
-> 
-> 
-> 
-
-> [!quote]- W09
-> 
-> 
-> 
-
-> [!quote]- W10
-> 
-> 
-> 
-
-> [!quote]- W11
-> 
-> 
-> 
-
-> [!quote]- W12
-> 
-> 
-> 
-
-> [!quote]- W13
-> 
-> 
-> 
+## W02
 
 
 
