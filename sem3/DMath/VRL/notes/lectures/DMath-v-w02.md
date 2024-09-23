@@ -1,2 +1,4 @@
 - ch.2.3 - 
+- introductions to [[propositional logic]]
 - logical [[logical constant|constants]], [[logical operator|operators]] and [[logical formula|formulas]]
+- 
