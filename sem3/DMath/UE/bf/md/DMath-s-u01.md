@@ -9,7 +9,7 @@
 Let us first cover the $\heartsuit$ operator.
 $$
 \begin{array}{c | c || c | c}
-A & B & {A \heartsuit B} & {B \ \heartsuit A} \\
+A & B & {A \heartsuit B} & {B \, \heartsuit A} \\
 \hline
 0 & 0 & 1 & 0 \\
 0 & 1 & 0 & 1 \\
@@ -17,7 +17,19 @@ A & B & {A \heartsuit B} & {B \ \heartsuit A} \\
 1 & 1 & 1 & 1\\
 \end{array}
 $$
-Since the function tables are not the same, $A \heartsuit B \not\equiv B \ \heartsuit A$, i.e. the $\heartsuit$ operator is not commutative.
+Since the function tables for $A \heartsuit B$ and $B \, \heartsuit A$ are not the same, $A \heartsuit B \not\equiv B \, \heartsuit A$, i.e. the $\heartsuit$ operator **is not** commutative.
 $\qed$
 
-Now, we cover the $\diamond$  
+
+Now, we cover the $\diamondsuit$ operator.
+$$
+\begin{array}{c | c || c | c}
+A & B & {A \diamondsuit B} & {B \,\diamondsuit A} \\
+\hline
+0 & 0 & 1 & 1 \\
+0 & 1 & 0 & 0 \\
+1 & 0 & 0 & 0 \\
+1 & 1 & 1 & 1\\
+\end{array}
+$$
+Since the function tables for $A \diamondsuit B$ and $B \, \diamondsuit A$ are the same, $A\diamondsuit B \equiv B \,\diamondsuit A$, i.e. the $\diamondsuit$ operator **<u>is</u>** commutative.
