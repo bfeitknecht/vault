@@ -107,4 +107,4 @@ ___
 ![[DMath-e-u01.pdf#page=3&rect=134,637,482,770|DMath-e-u01, p.3]]
 ![[DMath-e-u01.pdf#page=3&rect=104,587,521,635|DMath-e-u01, p.3]]
 
-
+$G\equiv (B \diamondsuit C) \heartsuit A$
