@@ -20,7 +20,7 @@
 
 
 $$
-\begin{array}{c c || c}
+\begin{array}{c | c || c}
 A & B & A \heartsuit B \\
 \hline
 0 & 0 & 1 \\
