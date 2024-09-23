@@ -12,45 +12,57 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 
 # Lectures
 
-## W01
+### W01
 ![[A&D-v-w01]]
 
-## W02
+### W02
 ![[A&D-v-w02]]
 
-## W03
+### W03
+![[A&D-v-w03]]
 
 
-## W04
+### W04
+![[A&D-v-w04]]
 
 
-## W05
+### W05
+![[A&D-v-w04]]
 
 
-## W06
+### W06
+![[A&D-v-w03]]
 
 
-## W07
+### W07
+![[A&D-v-w03]]
 
 
-## W08
+### W08
+![[A&D-v-w03]]
 
 
-## W09
+### W09
+![[A&D-v-w03]]
 
 
-## W10
+### W10
+![[A&D-v-w03]]
 
 
-## W11
+### W11
+![[A&D-v-w03]]
 
 
-## W12
+### W12
+![[A&D-v-w03]]
 
 
-## W13
+### W13
+![[A&D-v-w03]]
 
 
-## W14
+### W14
+![[A&D-v-w03]]
 
 
