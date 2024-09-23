@@ -8,17 +8,16 @@ Additionally,
 $$
 \begin{align}
 \text{less(x, y)} &= \begin{cases}
-1, & \text{if x<y} \\
+1, & \text{if x is less than y} \\
 0, & \text{else}
 \end{cases} \\
 \text{equal(x, y)} &= \begin{cases}
-1, & \text{if x=y} \\
+1, & \text{if x is equal to y} \\
 0, &\text{else}
 \end{cases} \\
-
+\text{divides(x, y)} &= \begin{cases}
+1, & \exists u \in U : \text{equal(mult(x, u), y)} \\
+0, & \text{else}
+\end{cases}
 \end{align}
 $$
-- less(x, y) is true when x\<y
-- equal(x, y) is true when x=y
-- prime(x) is true when x is prime
-- divides(x, y) def.: $\exists$ u, equal(mult(x, u), y)
