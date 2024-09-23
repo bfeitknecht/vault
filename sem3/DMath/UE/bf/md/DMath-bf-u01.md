@@ -41,6 +41,7 @@ ___
 ![[DMath-e-u01.pdf#page=2&rect=106,194,517,272|DMath-e-u01, p.2]]
 
 To make our life easier, we decompose the logical formulae into their components. First, let's simplify the left-hand-side formula.
+
 $$
 \begin{array}{c | c || c | c | c}
 A & B & {A \,\heartsuit B} & {B \, \heartsuit A} & {\lnot A \, \heartsuit B} \\
@@ -51,4 +52,20 @@ A & B & {A \,\heartsuit B} & {B \, \heartsuit A} & {\lnot A \, \heartsuit B} \\
 1 & 1 & 1 & 1 & 1 \\
 \end{array}
 $$
-As we can see, $\neg A \heartsuit B \equiv B\,\heartsuit A$. Thus the left-hand-side becomes $(B \, \heartsuit A) \, \diamondsuit \, (B \, \heartsuit A)$. As we know from the definition from the $\diamondsuit$ operator, it is $1 \iff A = B$ . 
+
+As we can see, $\neg A \heartsuit B \equiv B\,\heartsuit A$. Thus the left-hand-side becomes $(B \, \heartsuit A) \, \diamondsuit \, (B \, \heartsuit C)$. 
+
+$$
+\begin{array}{c | c | c || c}
+A & B & C & {(B \,\heartsuit A) \,\diamondsuit \,(B \,\heartsuit C)} \\
+\hline
+0 & 0 & 0 & 1 \\
+0 & 0 & 1 & 1 \\
+0 & 1 & 0 & 1 \\
+0 & 1 & 1 & 1 \\
+1 & 0 & 0 & 1 \\
+1 & 0 & 1 & 1 \\
+1 & 1 & 0 & 1 \\
+1 & 1 & 1 & 1 \\
+\end{array}
+$$
