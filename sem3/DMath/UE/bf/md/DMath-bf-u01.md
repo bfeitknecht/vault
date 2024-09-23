@@ -39,3 +39,5 @@ ___
 
 ## b)
 ![[DMath-e-u01.pdf#page=2&rect=106,194,517,272|DMath-e-u01, p.2]]
+
+To make our life easier, we decompose the logical formulae into its components
