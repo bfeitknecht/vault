@@ -1,6 +1,11 @@
 
 # 1.2
+![[DMath-e-u01.pdf#page=1&rect=76,225,477,363|DMath-e-u01, p.1]]
 
+$T\def\text{1 is the largest natural number}$
+$S\def n\text{ is the largest natural number}$
+
+The mistake in this proof is that $S$ is a false statement, there exists no largest number $n\in \N$. 
 
 # 1.5
 ![[DMath-e-u01.pdf#page=2&rect=78,346,417,452|DMath-e-u01, p.2]]
