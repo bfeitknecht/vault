@@ -56,16 +56,16 @@ $$
 As we can see, $\neg A \heartsuit B \equiv B\,\heartsuit A$. Thus the left-hand-side becomes $(B \, \heartsuit A) \, \diamondsuit \, (B \, \heartsuit C)$. 
 
 $$
-\begin{array}{c | c | c || c}
-A & B & C & {(B \,\heartsuit A) \,\diamondsuit \,(B \,\heartsuit C)} \\
+\begin{array}{c | c | c || c | c }
+A & B & C & {B \, \heartsuit A} & {B \,\heartsuit C} & {(B \,\heartsuit A) \,\diamondsuit \,(B \,\heartsuit C)} \\
 \hline
-0 & 0 & 0 & 1 \\
-0 & 0 & 1 & 1 \\
-0 & 1 & 0 & 1 \\
-0 & 1 & 1 & 1 \\
-1 & 0 & 0 & 1 \\
-1 & 0 & 1 & 1 \\
-1 & 1 & 0 & 1 \\
-1 & 1 & 1 & 1 \\
+0 & 0 & 0 & 1 & 1 & 1 \\
+0 & 0 & 1 & 1 & 0 & 0 \\
+0 & 1 & 0 & 1 & 1 & 1 \\
+0 & 1 & 1 & 1 & 1 & 1 \\
+1 & 0 & 0 & 0 & 1 & 0 \\
+1 & 0 & 1 & 0 & 0 & 1\\
+1 & 1 & 0 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 & 1 \\
 \end{array}
 $$
