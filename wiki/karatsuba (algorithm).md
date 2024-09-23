@@ -1,4 +1,4 @@
 
-Algorithm to multiply two $n$ digit numbers in $\O(n^{\log_{2}3})$, instead of grade-schoo-algorithm which is in $\O(n^2)$ (conjectured by Kologorov to be asymptotically optimal for multiplication). 
+An [[algorithm]] to multiply two $n$ digit numbers in $\O(n^{\log_{2}3})$, instead of the [[grade-school algorithm]] which is in $\O(n^2)$ (conjectured by Kolmogorov to be [[asymptotic analyis|asymptotically optimal]] for multiplication). 
 
-We arrive at the runtime through induction.
+We arrive at the runtime through [[induction]].
