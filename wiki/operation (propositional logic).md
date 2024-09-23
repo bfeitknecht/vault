@@ -48,5 +48,4 @@ A & B & {A \to B} \\
 $$
 Notice, that $A\to B \equiv \neg A \lor B$.
 
-Furthermore, we can combine $A\to B \land B \to A \equiv A\leftrightarrow B$
-
+Furthermore, we can denote two sided implication, $A\to B \land B \to A \equiv A\leftrightarrow B$. 
