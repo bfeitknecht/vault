@@ -1,10 +1,11 @@
 
-Discrete Math is about stuff
+Discrete Math is about the study of concrete and well defined structures, behaviors and 
 
 
 # About
 
-- [ ] exercise 📅 2024-09-26 🔁 every week 
+- [ ] exercise 🔁 every week 📅 2024-10-03
+- [x] exercise 🔁 every week 📅 2024-09-26 ✅ 2024-09-23
 
 
 # Lectures
