@@ -2,7 +2,7 @@
 > [!example]+ To Do
 > ```tasks
 > not done
-> due next week
+> due on or before next week
 > group by due
 > ```
 > 
