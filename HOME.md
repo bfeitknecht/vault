@@ -2,14 +2,14 @@
 > [!example]+ To Do
 > ```tasks
 > not done
-> due on or before next week
+> due on or before this week
 > group by due
 > ```
 > 
 
 >[!done]- Done this Week
 > ```tasks
-> done this week
+> done on or after last week
 > group by filename
 > ```
 
