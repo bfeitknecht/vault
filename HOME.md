@@ -1,10 +1,11 @@
 
->[!example]- To Do
->```tasks
+> [!example]+ To Do
+> ```tasks
 > not done
 > due next week
 > group by due
->```
+> ```
+> 
 
 >[!done]- Done this Week
 > ```tasks

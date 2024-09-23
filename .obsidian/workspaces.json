@@ -175,7 +175,7 @@
         }
       },
       "active": "b2bfb9cc471db7ce",
-      "mtime": "2024-09-22T08:27:46+02:00"
+      "mtime": "2024-09-22T21:18:36+02:00"
     },
     "00-home": {
       "main": {
@@ -193,7 +193,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "HOME.md",
-                    "mode": "source",
+                    "mode": "preview",
                     "source": false
                   }
                 }
@@ -210,8 +210,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "cc18e9c70282ea5d",
@@ -269,7 +268,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "README.md"
+                    "file": "HOME.md"
                   }
                 }
               },
@@ -279,7 +278,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "README.md",
+                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -296,7 +295,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "README.md",
+                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -386,8 +385,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "c4761f644bfecbe1",
-      "mtime": "2024-09-22T14:33:50+02:00"
+      "active": "4a586b919d13321c",
+      "mtime": "2024-09-22T21:19:08+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -795,7 +794,205 @@
             "type": "tabs",
             "children": [
               {
-                "id": "a8fc65879350d506",
+                "id": "317ab8f3e4cc6b30",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "HOME.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "2d819f308e40719a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "fe28d63e32c3168b",
+        "type": "split",
+        "children": [
+          {
+            "id": "fddab58c0769d063",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5f4cf158045f14fe",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "70265419a98d8a68",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "0f56d709fdb24392",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "HOME.md"
+                  }
+                }
+              },
+              {
+                "id": "b3aff261bc292caf",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "HOME.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "2d28441159ca953f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "HOME.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 346.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "4be59d580df31d93",
+        "type": "split",
+        "children": [
+          {
+            "id": "a9eab3abde570e06",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d39f74221ae34967",
+                "type": "leaf",
+                "state": {
+                  "type": "vertical-tabs-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b14014a5400a500b",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "ee946e358c8111ed",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "d4d9e5cf2cd5e94b",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "df8e8e11fe3e136a",
+                "type": "leaf",
+                "state": {
+                  "type": "toggl-report",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian42-brat:BRAT": true,
+          "flashcards-obsidian:Generate flashcards": true,
+          "obsidian-shellcommands:Shell commands: Custom variables": true,
+          "omnisearch:Omnisearch": false,
+          "cmdr:Export to PDF": false,
+          "workspaces:Manage workspace layouts": false,
+          "graph:Open graph view": false,
+          "switcher:Open quick switcher": true,
+          "templates:Insert template": true,
+          "zk-prefixer:Create new unique note": true,
+          "pdf-plus:PDF++: Toggle auto-copy": true,
+          "pdf-plus:PDF++: Toggle auto-focus": true,
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "command-palette:Open command palette": true,
+          "obsidian-git:Open Git source control": true
+        }
+      },
+      "active": "317ab8f3e4cc6b30",
+      "mtime": "2024-09-22T21:18:33+02:00"
+    },
+    "sem3-linalg": {
+      "main": {
+        "id": "ef0204964e2b9162",
+        "type": "split",
+        "children": [
+          {
+            "id": "1211d0e902f7e832",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "365a12749511fdcf",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -887,7 +1084,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5
+        "width": 346.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -967,207 +1165,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "a8fc65879350d506",
-      "mtime": "2024-09-19T16:48:07+02:00"
-    },
-    "sem3-linalg": {
-      "main": {
-        "id": "ef0204964e2b9162",
-        "type": "split",
-        "children": [
-          {
-            "id": "30aabbf0cc271b23",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8fbf0bcd94bc22de",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "0114dfc203a5a41b",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w1.pdf",
-                    "page": 1,
-                    "left": -9,
-                    "top": 35,
-                    "zoom": 1.75
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "fe28d63e32c3168b",
-        "type": "split",
-        "children": [
-          {
-            "id": "fddab58c0769d063",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5f4cf158045f14fe",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "70265419a98d8a68",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "0f56d709fdb24392",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md"
-                  }
-                }
-              },
-              {
-                "id": "b3aff261bc292caf",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "2d28441159ca953f",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 346.5
-      },
-      "right": {
-        "id": "4be59d580df31d93",
-        "type": "split",
-        "children": [
-          {
-            "id": "a9eab3abde570e06",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d39f74221ae34967",
-                "type": "leaf",
-                "state": {
-                  "type": "vertical-tabs-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "b14014a5400a500b",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
-                }
-              },
-              {
-                "id": "ee946e358c8111ed",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "d4d9e5cf2cd5e94b",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "df8e8e11fe3e136a",
-                "type": "leaf",
-                "state": {
-                  "type": "toggl-report",
-                  "state": {}
-                }
-              }
-            ],
-            "currentTab": 3
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "obsidian42-brat:BRAT": true,
-          "flashcards-obsidian:Generate flashcards": true,
-          "obsidian-shellcommands:Shell commands: Custom variables": true,
-          "omnisearch:Omnisearch": false,
-          "cmdr:Export to PDF": false,
-          "workspaces:Manage workspace layouts": false,
-          "graph:Open graph view": false,
-          "switcher:Open quick switcher": true,
-          "templates:Insert template": true,
-          "zk-prefixer:Create new unique note": true,
-          "pdf-plus:PDF++: Toggle auto-copy": true,
-          "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true,
-          "command-palette:Open command palette": true,
-          "obsidian-git:Open Git source control": true
-        }
-      },
-      "active": "8fbf0bcd94bc22de",
-      "mtime": "2024-09-22T16:08:58+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-09-22T21:18:51+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1370,5 +1369,5 @@
       "mtime": "2024-09-20T10:27:33+02:00"
     }
   },
-  "active": "sem3-eprog"
+  "active": "00-home"
 }
