@@ -6,9 +6,36 @@ They can be described by function tables for their respective truth assignments.
 
 
 # Examples
+$$
+\begin{align}
+&\text{Negation (logical not)}
+&\begin{array}{c || c}
+A & \neg A \\
+\hline
+1 & 0\\
+0 & 1 \\
+\end{array} \\
+\\
+\text{and (conjunction)}&\begin{array}{c | c || c}
+A & B & {A \land B} \\
+\hline
+0 & 0 & 0 \\
+0 & 1 & 0 \\
+1 & 0 & 0 \\
+1 & 1 & 1 \\
+\end{array} \\
+\\
+&\begin{array}{c | c || c}
+A & B & {A \lor B} \\
+\hline
+0 & 0 & 0 \\
+0 & 1 & 1 \\
+1 & 0 & 1 \\
+1 & 1 & 1 \\
+\end{array} \\
+\end{align}
 
 
 
-where $\neg$ is a function $\{0,1\} \to \{0,1\}$ and $\land$ and $\lor$ are functions $\{0,1\} \times \{0,1\} \to \{0,1\}$. These functions can be described by function tables, as follows:
+$$
 
-![[dmath-script-hs24.pdf#page=28&rect=66,149,355,218|dmath-script-hs24, p.18]]
