@@ -40,9 +40,9 @@ ___
 ## b)
 ![[DMath-e-u01.pdf#page=2&rect=106,194,517,272|DMath-e-u01, p.2]]
 
-Let's define the left-hand-side formula as $F\equiv (\neg A \heartsuit B$ 
+Let's define the left-hand-side formula as $F\equiv (\neg A \heartsuit B) \diamondsuit (B \,\heartsuit C)$ and the right-hand-side formula as $G \equiv \neg(A\diamondsuit B) \heartsuit \neg(A\diamondsuit C)$.
 
-To make our life easier, we decompose the logical formulae into their components. First, let's cover the left-hand-side formula.
+To make our life easier, we decompose the logical formulae into their components. First, let's cover $F$.
 $$
 \begin{array}{c | c || c | c | c}
 A & B & {A \,\heartsuit B} & {B \, \heartsuit A} & {\lnot A \, \heartsuit B} \\
@@ -54,7 +54,7 @@ A & B & {A \,\heartsuit B} & {B \, \heartsuit A} & {\lnot A \, \heartsuit B} \\
 \end{array}
 $$
  
- Then, we will go over the whole left-hand-side formula.
+ Then, we will go over $F$ as a whole.
 $$
 \begin{array}{c | c | c || c | c }
 A & B & C & {\neg A \, \heartsuit B} & {B \,\heartsuit C} & {(\neg A \heartsuit B) \,\diamondsuit \,(B \,\heartsuit C)} \\
@@ -71,7 +71,7 @@ A & B & C & {\neg A \, \heartsuit B} & {B \,\heartsuit C} & {(\neg A \heartsuit 
 $$
 
 
-Now that we have that, we need to look at the left-hand-side formula.
+Now that we have that, we need to look at $G$.
 $$
 \begin{array}{c | c || c | c | c}
 A & B & {A \diamondsuit B} & {B \, \diamondsuit A} & { \neg(A \diamondsuit B)} \\
@@ -83,7 +83,7 @@ A & B & {A \diamondsuit B} & {B \, \diamondsuit A} & { \neg(A \diamondsuit B)} \
 \end{array}
 $$
 
-Now, we will go over the whole right-hand-side formula.
+Then, we'll go over it as a whole.
 $$
 \begin{array}{c | c | c || c | c }
 A & B & C & {\neg  (A \diamondsuit B)} & {\neg (B \diamondsuit C)} & {(\neg A \diamondsuit B) \,\heartsuit \, \neg(A \diamondsuit C)} \\
@@ -98,5 +98,12 @@ A & B & C & {\neg  (A \diamondsuit B)} & {\neg (B \diamondsuit C)} & {(\neg A \d
 1 & 1 & 1 & 0 & 0 & 1 \\
 \end{array}
 $$
-Since the function tables differ (e.g. the case of $A = B = C = 1$) we can conclude that 
+Since the function tables differ (e.g. the case of $A = B = C = 1$) we can conclude that $F \not \equiv G$. Thus, the statement is disproven. $\qed$
+
+___
+
+## c)
+![[DMath-e-u01.pdf#page=2&rect=106,175,390,190|DMath-e-u01, p.2]]
+![[DMath-e-u01.pdf#page=3&rect=133,636,474,772|DMath-e-u01, p.3]]
+![[DMath-e-u01.pdf#page=3&rect=104,587,521,635|DMath-e-u01, p.3]]
 
