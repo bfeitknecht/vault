@@ -16,7 +16,8 @@ A & \neg A \\
 0 & 1 \\
 \end{array} \\
 \\
-\text{and (conjunction)}&\begin{array}{c | c || c}
+&\text{Conjunction (logical and)}
+&\begin{array}{c | c || c}
 A & B & {A \land B} \\
 \hline
 0 & 0 & 0 \\
@@ -25,6 +26,7 @@ A & B & {A \land B} \\
 1 & 1 & 1 \\
 \end{array} \\
 \\
+&\text{Disjunction (logical or)}
 &\begin{array}{c | c || c}
 A & B & {A \lor B} \\
 \hline
@@ -33,9 +35,17 @@ A & B & {A \lor B} \\
 1 & 0 & 1 \\
 1 & 1 & 1 \\
 \end{array} \\
+\\
+&\text{Implication (logical consequence)}
+&\begin{array}{c | c || c}
+A & B & {A \to B} \\
+\hline
+0 & 0 & 1 \\
+0 & 1 & 1 \\
+1 & 0 & 0 \\
+1 & 1 & 1 \\
+\end{array} \\
+&\text{Notice, that $A\to B \equiv \neg A \lor B$}
 \end{align}
-
-
-
 $$
 
