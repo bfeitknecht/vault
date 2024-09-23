@@ -1,9 +1,9 @@
 
 # 1.5
-![[DMath-bf-u01-19AD9AF9698CB87E5EDA7F248D0BC34C.pdf#page=2&rect=76,348,414,453|DMath-e-u01, p.2]]
+![[DMath-e-u01.pdf#page=2&rect=78,346,417,452|DMath-e-u01, p.2]]
 
 ## a)
-![[DMath-bf-u01-19AD9AF9698CB87E5EDA7F248D0BC34C.pdf#page=2&rect=107,271,414,340|DMath-e-u01, p.2]]
+![[DMath-e-u01.pdf#page=2&rect=105,274,416,339|DMath-e-u01, p.2]]
 
 ### i)
 Let us first cover the $\heartsuit$ operator.
@@ -107,4 +107,5 @@ ___
 ![[DMath-e-u01.pdf#page=3&rect=134,637,482,770|DMath-e-u01, p.3]]
 ![[DMath-e-u01.pdf#page=3&rect=104,587,521,635|DMath-e-u01, p.3]]
 
-$G\equiv (B \diamondsuit C) \heartsuit A$
+$G\equiv (A \diamondsuit C) \heartsuit B$
+$\qed$
