@@ -21,48 +21,36 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 ### W03
 ![[A&D-v-w03]]
 
-
 ### W04
 ![[A&D-v-w04]]
-
 
 ### W05
 ![[A&D-v-w05]]
 
-
 ### W06
 ![[A&D-v-w06]]
-
 
 ### W07
 ![[A&D-v-w07]]
 
-
 ### W08
 ![[A&D-v-w08]]
-
 
 ### W09
 ![[A&D-v-w09]]
 
-
 ### W10
 ![[A&D-v-w10]]
 
-
 ### W11
-![[A&D-v-w03]]
-
+![[A&D-v-w11]]
 
 ### W12
-![[A&D-v-w03]]
-
+![[A&D-v-w12]]
 
 ### W13
-![[A&D-v-w03]]
-
+![[A&D-v-w13]]
 
 ### W14
-![[A&D-v-w03]]
-
+![[A&D-v-w14]]
 
