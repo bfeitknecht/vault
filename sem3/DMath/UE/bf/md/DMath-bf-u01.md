@@ -85,15 +85,15 @@ Now, we will go over the whole right-hand-side formula.
 
 $$
 \begin{array}{c | c | c || c | c }
-A & B & C & {\neg A \, \heartsuit B} & {B \,\heartsuit C} & {(\neg A \heartsuit B) \,\diamondsuit \,(B \,\heartsuit C)} \\
+A & B & C & {\neg  (A \diamondsuit B)} & {\neg (B \diamondsuit C)} & {(\neg A \diamondsuit B) \,\heartsuit \, \neg(A \diamondsuit C)} \\
 \hline
-0 & 0 & 0 & 1 & 1 & 1 \\
-0 & 0 & 1 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 1 \\
+0 & 0 & 1 & 0 & 1 & 0 \\
 0 & 1 & 0 & 1 & 1 & 1 \\
-0 & 1 & 1 & 1 & 1 & 1 \\
-1 & 0 & 0 & 1 & 1 & 1 \\
-1 & 0 & 1 & 1 & 0 & 0\\
+0 & 1 & 1 & 1 & 0 & 1 \\
+1 & 0 & 0 & 1 & 0 & 1 \\
+1 & 0 & 1 & 1 & 1 & 0\\
 1 & 1 & 0 & 0 & 1 & 0 \\
-1 & 1 & 1 & 0 & 1 & 0 \\
+1 & 1 & 1 & 0 & 0 & 0 \\
 \end{array}
 $$
