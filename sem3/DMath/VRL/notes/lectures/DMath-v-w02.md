@@ -1,2 +1,2 @@
 - ch.2.3 - 
-- 
+- logical [[logical constant|constants]], [[logical operator|operators]] and [[logical formula|formulas]]
