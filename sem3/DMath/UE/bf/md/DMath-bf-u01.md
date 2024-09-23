@@ -41,7 +41,6 @@ ___
 ![[DMath-e-u01.pdf#page=2&rect=106,194,517,272|DMath-e-u01, p.2]]
 
 To make our life easier, we decompose the logical formulae into their components. First, let's cover the left-hand-side formula.
-
 $$
 \begin{array}{c | c || c | c | c}
 A & B & {A \,\heartsuit B} & {B \, \heartsuit A} & {\lnot A \, \heartsuit B} \\
@@ -54,7 +53,6 @@ A & B & {A \,\heartsuit B} & {B \, \heartsuit A} & {\lnot A \, \heartsuit B} \\
 $$
  
  Then, we will go over the whole left-hand-side formula.
- 
 $$
 \begin{array}{c | c | c || c | c }
 A & B & C & {\neg A \, \heartsuit B} & {B \,\heartsuit C} & {(\neg A \heartsuit B) \,\diamondsuit \,(B \,\heartsuit C)} \\
@@ -72,14 +70,30 @@ $$
 
 
 Now that we have that, we need to look at the left-hand-side formula.
-
 $$
 \begin{array}{c | c || c | c | c}
-A & B & {A \diamondsuit B} & {B \, \heartsuit A} & {\lnot A \, \heartsuit B} \\
+A & B & {A \diamondsuit B} & {B \, \diamondsuit A} & { \neg(A \diamondsuit B)} \\
 \hline
-0 & 0 & 1 & 1 & 1 \\
-0 & 1 & 0 & 1 & 1 \\
-1 & 0 & 1 & 0 & 1 \\
+0 & 0 & 1 & 1 & 0 \\
+0 & 1 & 0 & 0 & 1 \\
+1 & 0 & 0 & 0 & 1 \\
 1 & 1 & 1 & 1 & 0 \\
+\end{array}
+$$
+
+Now, we will go over the whole right-hand-side formula.
+
+$$
+\begin{array}{c | c | c || c | c }
+A & B & C & {\neg A \, \heartsuit B} & {B \,\heartsuit C} & {(\neg A \heartsuit B) \,\diamondsuit \,(B \,\heartsuit C)} \\
+\hline
+0 & 0 & 0 & 1 & 1 & 1 \\
+0 & 0 & 1 & 1 & 0 & 0 \\
+0 & 1 & 0 & 1 & 1 & 1 \\
+0 & 1 & 1 & 1 & 1 & 1 \\
+1 & 0 & 0 & 1 & 1 & 1 \\
+1 & 0 & 1 & 1 & 0 & 0\\
+1 & 1 & 0 & 0 & 1 & 0 \\
+1 & 1 & 1 & 0 & 1 & 0 \\
 \end{array}
 $$
