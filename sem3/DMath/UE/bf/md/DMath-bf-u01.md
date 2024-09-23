@@ -1,4 +1,7 @@
 
+# 1.2
+
+
 # 1.5
 ![[DMath-e-u01.pdf#page=2&rect=78,346,417,452|DMath-e-u01, p.2]]
 
@@ -107,5 +110,5 @@ ___
 ![[DMath-e-u01.pdf#page=3&rect=134,637,482,770|DMath-e-u01, p.3]]
 ![[DMath-e-u01.pdf#page=3&rect=104,587,521,635|DMath-e-u01, p.3]]
 
-$G\equiv (A \diamondsuit C) \heartsuit B$
+$G\equiv A \diamondsuit C \heartsuit B$
 $\qed$

@@ -4,20 +4,18 @@ A **predicate** is a [[arity|k-ary]] [[function]] on some [[empty set|non-empty]
 
 # Examples
 ![[dmath-script-hs24.pdf#page=35&rect=31,97,394,159|dmath-script-hs24, p.25]]
-Additionally,
+
+We can also define some binary predicates on $\N$.
 $$
 \begin{align}
 \text{less(x, y)} &= \begin{cases}
-1, & \text{if x is less than y} \\
+1, & \text{if x < y} \\
 0, & \text{else}
 \end{cases} \\
 \text{equal(x, y)} &= \begin{cases}
-1, & \text{if x is equal to y} \\
+1, & \text{if x = y} \\
 0, &\text{else}
 \end{cases} \\
-\text{divides(x, y)} &= \begin{cases}
-1, & \exists u \in U : \text{equal(mult(x, u), y)} \\
-0, & \text{else}
-\end{cases}
+\etc
 \end{align}
 $$
