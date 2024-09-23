@@ -103,7 +103,8 @@ Since the function tables differ (e.g. the case of $A = B = C = 1$) we can concl
 ___
 
 ## c)
-![[DMath-e-u01.pdf#page=2&rect=106,175,390,190|DMath-e-u01, p.2]]
-![[DMath-e-u01.pdf#page=3&rect=133,636,474,772|DMath-e-u01, p.3]]
+![[DMath-e-u01.pdf#page=2&rect=105,173,519,190|DMath-e-u01, p.2]]
+![[DMath-e-u01.pdf#page=3&rect=134,637,482,770|DMath-e-u01, p.3]]
 ![[DMath-e-u01.pdf#page=3&rect=104,587,521,635|DMath-e-u01, p.3]]
+
 
