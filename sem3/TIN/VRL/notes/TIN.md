@@ -1,13 +1,10 @@
 
 "Eine Wissenschaft zur automatischen Verifikation von Information mit Algorithmen."
 
+	
 # About
-> [!quote]- About
-> 
-> > [!info]- Info
-> > - [ ] exercise sheet 📅 2024-09-27 🔁 every week 
->  
-> 
+
+- [ ] exercise sheet 📅 2024-09-27 🔁 every week 
 
 
 # Lectures

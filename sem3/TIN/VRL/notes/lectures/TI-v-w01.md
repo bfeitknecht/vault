@@ -1,3 +1,9 @@
+
+- [[alphabet]]
+- [[word]], [[language]]
+- [[concatination]]
+
+
 programm kann quatsch machen
 
 
