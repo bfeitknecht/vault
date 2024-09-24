@@ -1,11 +1,15 @@
 
+
 > [!example]+ To Do
 > ```tasks
 > not done
 > due on or before this week
-> show due date
+> sort by due
+> group by due
 > hide postpone button
-> short mode
+> hide edit button
+> hide due date
+> hide recurrence rule
 > ```
 > 
 
@@ -14,6 +18,10 @@
 > done on or after last week
 > group by filename
 > hide backlink
+> hide recurrence rule
+> hide postpone button
+> hide due date
+> hide edit button
 > ```
 
 
