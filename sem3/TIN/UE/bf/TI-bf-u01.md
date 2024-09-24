@@ -10,7 +10,7 @@ bca
 cba
 cab
 
-next(abc) -> () {
+next(abc) {
 %%
 Xabc, aXbc, abXc, abcX 
 %%
