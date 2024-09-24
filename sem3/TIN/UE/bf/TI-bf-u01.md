@@ -51,9 +51,9 @@ ___
 $|L_{1}|=k,\ |L_{1}L_{2}|=k+1$
 $$
 \begin{align}
-\Sigma &=\{ a\}  \\
-L_{1} &= \{  w \mid w \in \Sigma^k \} \\
-L_{2} &= \{ \lambda, a \}
+\Sigma &=\{ x \}  \\
+L_{1} &= \{  x^{n} \mid n \in [k]  \} \\
+L_{2} &= \Sigma
 \end{align}
 $$
 
