@@ -4,6 +4,7 @@
 > not done
 > due on or before this week
 > group by due
+> hide backlink
 > ```
 > 
 
@@ -11,6 +12,7 @@
 > ```tasks
 > done on or after last week
 > group by filename
+> hide backlink
 > ```
 
 
