@@ -417,8 +417,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -462,7 +461,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/algorithm.md"
+                    "file": "sem3/A&D/VRL/notes/A&D.md"
                   }
                 }
               },
@@ -472,7 +471,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/algorithm.md",
+                    "file": "sem3/A&D/VRL/notes/A&D.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -489,7 +488,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/algorithm.md",
+                    "file": "sem3/A&D/VRL/notes/A&D.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -499,7 +498,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5
+        "width": 346.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -579,8 +579,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "545c4fe2911597d7",
-      "mtime": "2024-09-23T12:08:48+02:00"
+      "active": "e7911976b677ac81",
+      "mtime": "2024-09-24T17:01:20+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -654,7 +654,7 @@
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 38,
                     "left": -4,
-                    "top": 437,
+                    "top": 441,
                     "zoom": 1.3
                   }
                 }
@@ -833,7 +833,7 @@
         }
       },
       "active": "a19f0859eb717208",
-      "mtime": "2024-09-24T16:38:14+02:00"
+      "mtime": "2024-09-24T17:01:31+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -852,8 +852,8 @@
                   "state": {
                     "file": "sem3/EProg/VRL/extra/slides/EProg-slides-w02.pdf",
                     "page": 48,
-                    "left": -21,
-                    "top": 156,
+                    "left": -10,
+                    "top": 160,
                     "zoom": 0.7458333333333333
                   }
                 }
@@ -1051,7 +1051,7 @@
         }
       },
       "active": "148dbc07cd73966c",
-      "mtime": "2024-09-24T13:14:59+02:00"
+      "mtime": "2024-09-24T16:58:31+02:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1063,18 +1063,43 @@
             "type": "tabs",
             "children": [
               {
-                "id": "365a12749511fdcf",
+                "id": "5e147ae0102336c7",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/EProg/VRL/notes/EProg.md",
+                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "676724055d4f3dbe",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w00.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "0b80606e9d0a0af1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w01.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1118,7 +1143,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/EProg/VRL/notes/EProg.md"
+                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w01.md"
                   }
                 }
               },
@@ -1128,7 +1153,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/EProg/VRL/notes/EProg.md",
+                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w01.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1145,7 +1170,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/EProg/VRL/notes/EProg.md",
+                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w01.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1155,8 +1180,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1236,8 +1260,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-09-22T21:18:51+02:00"
+      "active": "0b80606e9d0a0af1",
+      "mtime": "2024-09-24T16:58:29+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1255,10 +1279,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
-                    "page": 33,
-                    "left": -155,
-                    "top": 355,
-                    "zoom": 1.4
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -1306,9 +1328,7 @@
                   "state": {
                     "file": "sem3/TIN/UE/e/TI-e-u01.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 66,
-                    "zoom": 1.7991654291454722
+                    "zoom": 1
                   }
                 }
               }
@@ -1476,8 +1496,8 @@
         }
       },
       "active": "e79319518bb608f4",
-      "mtime": "2024-09-24T16:15:56+02:00"
+      "mtime": "2024-09-24T16:58:34+02:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-eprog"
 }

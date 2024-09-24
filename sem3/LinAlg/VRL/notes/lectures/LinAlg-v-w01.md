@@ -8,4 +8,4 @@
 
 # Lecture Plan
 
-![[LinAlg-plan-w00.pdf]]
+![[LinAlg-plan-w01.pdf]]

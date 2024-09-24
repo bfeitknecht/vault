@@ -2,7 +2,7 @@
 We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|data structures]] to solve problems efficiently in [[runtime]] and [[memory space]].
 
 
-# About
+# Info
 
 - [ ] theory exercise 📅 2024-09-29 🔁 every week 
 - [ ] peer grading 📅 2024-09-30 🔁 every week 
