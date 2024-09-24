@@ -14,51 +14,21 @@ A symbol is legal according to a rule if, and only if all characters in the symb
 
 > [!info] Rules
 > 
+> *b* <- b
+> *a* <- a
+>
 > **Sequence**
-> *l* <- "l"
-> *h* <- "h"
-> *s* <- "s"
-> *lhs* <- l h s
-> 
+> *lhs* <- a b
+>
 > **Decision**
+> *lhs* <- a | \[b\] | $\varepsilon$
 > 
 > **Repetition**
+> *lhs* <- {a}
 > 
 > **Recurison**
+> *lhs* <- a | lhs
 > 
-> 
 
-
-
-
-
-
-> [!example]+ RHS: Kontrollelemente
-> ##### Aufreihung
->  *one* $\Leftarrow$ *zero*  *one*
->  ten $\Leftarrow$ *one*  *zero*
-> ##### Auswahl
-> *dig* $\Leftarrow$ 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 $\rightarrow$ | = or
-> *bin* $\Leftarrow$ *one* | *zero* $\rightarrow$ | = or
-> 
-> abc1 $\Leftarrow$ a (b | c) $\rightarrow$ () = and
-> abc2 $\Leftarrow$ (a b) | c $\rightarrow$ () = and
-> abc1 $\neq$ abc2
-> 
-> init1 $\Leftarrow$ B [A] R  $\rightarrow$ [] = optional
-> init2 $\Leftarrow$ B (A | $\epsilon$) R $\rightarrow$ $\epsilon$ = nothing
-> init1 = init2
-
-
-
-
-
-
-> [!example]+ RHS: EBNF Kontrollelemente
-> ##### Wiederholung
-> ones $\Leftarrow$ {1} $\longrightarrow$ $0$..$\infty$ Wiederholungen
-> **zeros** $\Leftarrow$ {0} $\longrightarrow$ $0$..$\infty$ Wiederholungen
-> **digits** $\Leftarrow$ **digit** {**digit**} $\longrightarrow$ $1$..$\infty$ Wiederholungen
-> **integer** $\Leftarrow$ [+|-] **digits**
 
 
