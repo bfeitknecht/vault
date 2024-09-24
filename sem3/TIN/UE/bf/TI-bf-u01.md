@@ -32,7 +32,10 @@ Xabc, aXbc, abXc, abcX
 ## (a)
 Let $f:\N \to \N$ denote the number of words of length $n\in \N$ over $\Sigma$ that contain each of the three letters at least once.
 
-We need to find words $w\in \Sigma^n$ of length $n$, i.e. $|w|=n$ such that $\forall x \in \Sigma : |w|_x \geq 1$. It is known that for some $n$, there exist $|\Sigma|^n$ words of length $n$. Next, we just subtract all words that do not contain each letter at least once.
+We need to find words $w\in \Sigma^n$ of length $n$, i.e. $|w|=n$ such that $\forall x \in \Sigma : |w|_x \geq 1$. It is known that for some $n$, there exist $|\Sigma|^n$ words of length $n$. 
+
+
+Next, we just subtract all words that do not contain each letter at least once.
 
 $3^{n-2}\cdot2$
 $$
