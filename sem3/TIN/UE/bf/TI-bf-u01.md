@@ -53,4 +53,11 @@ $|L_{1}|=k,\ |L_{2}|=l,\ |L_{1}L_{2}|=k\cdot l$
 ## (d)
 $|L_{1}|=k,\ |L_{2}|=l,\ |\Sigma|=1,\ |L_{1}L_{2}|=k\cdot l$
 
+$$
+\begin{align}
+\Sigma &\def \{ \alpha\} \\
+L_{1} &\def \{ \alpha^k \} \\
+
+\end{align}
+$$
 
