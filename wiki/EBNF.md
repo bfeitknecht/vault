@@ -1,25 +1,14 @@
 
-**E**xtended **B**ackus **N**aur **F**orm is an abstract syntax description for programming language specifications. It consists of four major tools:
+**EBNF** (extended backus naur form) is an abstract syntax specification for language description. It consists of four major parts:
 - sequence
 - decision
 - repetition
 - [[recursion]]
 
-It gives a set of symbols and allows for the verification of symbols
-
-
-
-
-- Beschreibt die Syntax einer Sprache
-	- Liefert eine Menge von Symbolen - Konstruktion
-	- Erlaubt die Prüfung von Symbolen - Verifikation
-
-
-Menge von EBNF Regeln wobei die Reihenfolge unwichtig ist.
-
-
-LHS (Left Hand Side) $\Leftarrow$ RHS (Right Hand Side)
-
+It allows for the construction and verification of symbols through a set or EBNF rules. A typical EBNF assignment is of the form
+$$
+\text{<LHS> (left-hand-side)}<LHS> (left-hand-side) \<\= RHS (right-hand-side)
+$$
 
 > [!example]+ RHS: Wert
 >  *zero* $\Leftarrow$ 0
