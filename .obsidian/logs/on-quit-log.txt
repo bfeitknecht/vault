@@ -1,2 +1,1 @@
-/Users/bf/HOME/eth/vault/.obsidian/scripts/on-quit.sh: line 7: cd: \/Users\/bf\/HOME\/eth\/vault: No such file or directory
 /Users/bf/HOME/eth/vault
