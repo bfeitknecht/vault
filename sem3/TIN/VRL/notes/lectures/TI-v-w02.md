@@ -8,4 +8,5 @@
 
 # Notes
 
-We *could* compress every message into length one, bu 
+every message can at most be compressed to the length of its compression plus the compression algorithm.
+ 
