@@ -4,11 +4,9 @@
 open --background "obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave"
 
 # change to vault root
-cd "$1" || {
-  echo "Error changing directory!"
-  echo $(pwd)
-  exit 1
-}
+cd "$1"
+
+echo $(pwd)
 
 # stage all changes
 git add .
