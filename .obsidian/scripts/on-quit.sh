@@ -6,7 +6,7 @@ open --background "obsidian://advanced-uri?vault=vault&commandid=workspaces%253A
 # change to vault root
 cd "$1" || {
   echo "Error changing directory!"
-  touch ~/foo-obsy
+  echo $(pwd)
   exit 1
 }
 
