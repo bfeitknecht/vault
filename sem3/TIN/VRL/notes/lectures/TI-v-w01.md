@@ -7,8 +7,8 @@
 - [[algorithm]] is special program that solves some problem and yields result
 
 
-programm kann quatsch machen
+# Notes
 
+Programm kann quatsch machen!
 
-begriff programm ist nicht gebunden an was getan werden soll oder wird
-algorithmus nimmt immer bezug auf problem lösung, also auch korrekt / inkorrekt
+Der Begriff programm ist nicht gebunden an was getan werden soll oder wird. Algorithmus nimmt immer Bezug auf Problem und dessen  Lösung, also auch ob das Verfahren korrekt / inkorrekt ist.

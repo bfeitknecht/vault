@@ -4,3 +4,7 @@
 - [[information]]
 - shannon [[entropy]]
 - 
+
+
+# Notes
+
