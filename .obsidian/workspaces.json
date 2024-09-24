@@ -217,7 +217,7 @@
             "type": "tabs",
             "children": [
               {
-                "id": "4c71ec2288beccf3",
+                "id": "17b30e600b56201d",
                 "type": "leaf",
                 "state": {
                   "type": "graph",
@@ -267,7 +267,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "HOME.md"
+                  }
                 }
               },
               {
@@ -276,6 +278,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -292,6 +295,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -381,8 +385,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "4a586b919d13321c",
-      "mtime": "2024-09-24T11:09:12+02:00"
+      "active": "17b30e600b56201d",
+      "mtime": "2024-09-24T18:13:25+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1511,5 +1515,5 @@
       "mtime": "2024-09-24T18:04:05+02:00"
     }
   },
-  "active": "00-home"
+  "active": "sem3-ti"
 }
