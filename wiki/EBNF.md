@@ -12,21 +12,21 @@ $$
 
 A symbol is legal according to a rule if, and only if all characters in the symbol correspond with the elements in the rule.
 
-> [!info] Rules
+> [!info]+ Rules
 > 
-> *b* <- b
-> *a* <- a
+> *b* ← b
+> *a* ← a
 >
 > **Sequence**
-> *lhs* <- a b
+> *lhs* ← a b
 >
 > **Decision**
-> *lhs* <- a | \[b\] | $\varepsilon$
+> *lhs* ← a | \[b\] | $\varepsilon$
 > 
 > **Repetition**
-> *lhs* <- {a}
+> *lhs* ← {a}
 > 
 > **Recurison**
-> *lhs* <- a | lhs
+> *lhs* ← a | lhs
 > 
 

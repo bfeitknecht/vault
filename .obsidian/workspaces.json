@@ -859,12 +859,12 @@
                 }
               },
               {
-                "id": "cafe43fdac90b67d",
+                "id": "0b11ffbad3d7cba5",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/EProg/VRL/notes/lectures/EProg-v-w01.md",
+                    "file": "wiki/EBNF.md",
                     "mode": "source",
                     "source": false
                   }
@@ -883,15 +883,19 @@
                 }
               },
               {
-                "id": "0f8ba6a95d0a24ee",
+                "id": "6c78176b903f6e30",
                 "type": "leaf",
                 "state": {
-                  "type": "graph",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "source",
+                    "source": false
+                  }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -934,7 +938,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "wiki/EBNF.md"
+                  }
                 }
               },
               {
@@ -943,6 +949,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "wiki/EBNF.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -959,6 +966,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "wiki/EBNF.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1048,8 +1056,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "d39f74221ae34967",
-      "mtime": "2024-09-24T11:06:49+02:00"
+      "active": "0b11ffbad3d7cba5",
+      "mtime": "2024-09-24T11:27:24+02:00"
     },
     "sem3-linalg": {
       "main": {
