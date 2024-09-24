@@ -847,34 +847,55 @@
         "type": "split",
         "children": [
           {
-            "id": "6b4f19d138297cb9",
+            "id": "a49b010c150e9408",
             "type": "tabs",
             "children": [
               {
-                "id": "317ab8f3e4cc6b30",
+                "id": "cd9fd9b429b3070d",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "HOME.md",
+                    "file": "sem3/EProg/VRL/notes/EProg.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "2d819f308e40719a",
+                "id": "cafe43fdac90b67d",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "README.md",
+                    "file": "sem3/EProg/VRL/notes/lectures/EProg-v-w01.md",
                     "mode": "source",
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "148dbc07cd73966c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/EProg/VRL/notes/lectures/EProg-v-w02.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "0f8ba6a95d0a24ee",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -917,9 +938,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -928,7 +947,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -945,7 +963,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1009,8 +1026,7 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "horizontal",
@@ -1036,8 +1052,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "317ab8f3e4cc6b30",
-      "mtime": "2024-09-22T21:18:33+02:00"
+      "active": "d39f74221ae34967",
+      "mtime": "2024-09-24T11:06:49+02:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1450,5 +1466,5 @@
       "mtime": "2024-09-24T10:15:31+02:00"
     }
   },
-  "active": "sem3-eprog"
+  "active": "00-home"
 }
