@@ -13,5 +13,5 @@ git add .
 
 # commit with on quit message
 t=$(date -Iseconds)
-git commit -m "backup(quit): $t on quit from MacBook Pro (echo)"
+git commit -m "backup: $t on quit from MacBook Pro (echo)"
 
