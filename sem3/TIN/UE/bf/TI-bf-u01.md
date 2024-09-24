@@ -37,7 +37,7 @@ We need to find words $w\in \Sigma^n$ of length $n$, i.e. $|w|=n$ such that $\fo
 $$
 f(n) \def \begin{cases}
 0, & n < 3 \\
-3^n - 3 \cdot 2^{n-1} - 3 \cdot 1^{n-2}, & n \geq 3
+n+f(n-1), & n \geq 3
 \end{cases}
 $$
 
