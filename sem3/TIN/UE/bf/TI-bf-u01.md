@@ -10,10 +10,8 @@ bca
 cba
 cab
 
-next(abc) {
-%%
 Xabc, aXbc, abXc, abcX 
-%%
+next(abc) {
 	aabc
 	~~aabc~~
 	abac
