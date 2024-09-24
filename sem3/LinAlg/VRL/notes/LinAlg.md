@@ -11,21 +11,14 @@ Linear Algebra concers itself with [[vector|vectors]], [[matrix|matrices]] and w
 
 # Lectures
 
-> [!quote]- W00
-> 
-> - [[vector|vectors]]
-> - basic vector operatations ([[vector addition]], [[scalar multiplication]])
->   
-> > [!info]- Lecture Plan
-> > ![[LinAlg-plan-w00.pdf]]
 
 > [!quote]- W01
 > 
-> - [[linear combination]]
-> - [[scalar product]]
-> - [[triangle inequality]], [[cauchy-schwarz inequality]]
-> - [[linear independence]]
-> - [[zero vector]]
+> 
+> 
+> 
+> 
+> 
 > 
 > > [!info]- Lecture Plan
  > > ![[LinAlg-plan-w01.pdf]]
