@@ -4,7 +4,9 @@
 
 Let $f:\N \to \N$ denote the number of words of length $n\in \N$ over $\Sigma$ that contain each of the three letters in the alphabet at least once.
 
-Let $L_{n} \def \{ w \in \Sigma^* \mid \forall x\in \Sigma \ |w|_{x}\geq 1, |w|=n \}$ denote the language of words of length $n$ that contain each letter at least once. It is know that there exists  $|\Sigma|^n$ words of length $n$. Now we just subtract all words that do not contain each letter at least once.
+Let $L_{n} \def \{ w \in \Sigma^* \mid \forall x\in \Sigma \ |w|_{x}\geq 1, |w|=n \}$ denote the language of words of length $n$ that contain each letter at least once. It is know that there exists  $|\Sigma|^n$ words of length $n$. 
+
+Now we just subtract all words that do not contain each letter at least once.
 
 $$
 f(n) \def \begin{cases}
@@ -78,8 +80,9 @@ $$
 \Sigma &=\{ a, b\}  \\
 L_{1} &= \{ a^{i} \mid i \in [k] \} &\text{(1)} \\
 L_{2} &= \{  b^{j} \mid j \in [l] \} &\text{(2)} \\
-tex \\
-L_{1} \cap L_{2} &= \empty \implies 
+ \\
+\text{(1), (2)} &\implies |L_{1}| = k, \ |L_{2}| = l  &\text{(3)}\\
+L_{1} \cap L_{2} = \empty \text{, (3)} &\implies |L_{1}L_{2}| = k\cdot l 
 \end{align}
 $$
 $\qed$
