@@ -30,5 +30,3 @@ A symbol is legal according to a rule if, and only if all characters in the symb
 > *lhs* <- a | lhs
 > 
 
-
-

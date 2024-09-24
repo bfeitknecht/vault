@@ -267,9 +267,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -278,7 +276,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -295,7 +292,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -386,7 +382,7 @@
         }
       },
       "active": "4a586b919d13321c",
-      "mtime": "2024-09-23T09:35:03+02:00"
+      "mtime": "2024-09-24T11:09:12+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1466,5 +1462,5 @@
       "mtime": "2024-09-24T10:15:31+02:00"
     }
   },
-  "active": "00-home"
+  "active": "sem3-eprog"
 }
