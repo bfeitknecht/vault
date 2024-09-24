@@ -1,7 +1,7 @@
 
 "Eine Wissenschaft zur automatischen Verifikation von Information mit Algorithmen."
 
-	
+
 # About
 
 - [ ] exercise sheet 📅 2024-09-27 🔁 every week 

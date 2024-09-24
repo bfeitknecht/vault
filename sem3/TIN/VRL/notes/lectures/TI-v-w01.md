@@ -2,6 +2,9 @@
 - [[alphabet]]
 - [[word]], [[language]]
 - [[concatination]]
+- [[problem]] depends on [[encoding]]
+- [[program]] is a valid word in the [[language]] of some programming language
+- [[algorithm]] is special program that solves some problem and yields result
 
 
 programm kann quatsch machen

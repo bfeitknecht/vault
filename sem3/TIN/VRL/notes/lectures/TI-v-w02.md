@@ -1,9 +1,6 @@
 
-- [[problem]] depends on "[[encoding]]"
-- [[program]] is a valid word in the [[language]] of some programming language (C, Python, etc.)
-- [[algorithm|algorithms]] are special programs that solve some problem and yield a result
 - [[decision problem]]
-- [[function]], [[relation]] definitions
-- what is [[information]]?
-- [[entropy|shannon entropy]]
+- [[function]], [[relation]]
+- [[information]]
+- shannon [[entropy]]
 - 
