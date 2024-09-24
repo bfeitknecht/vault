@@ -10,6 +10,23 @@ bca
 cba
 cab
 
+abc -(add one)-> {
+// prefix
+// a.b, b.c, 
+// suffix
+	aabc
+	~~aabc~~
+	abac
+	abca
+	babc
+	abbc
+	~~abbc~~
+	abcb
+	cabc
+	acbc
+	abcc
+	~~abcc~~
+}
 
 
 ## (a)
