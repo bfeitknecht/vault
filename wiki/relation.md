@@ -15,3 +15,10 @@ $\rho \subseteq A \times B,\quad \sigma \subseteq B\times C$
 
 $\rho \circ \sigma \overset{def.}{=} \{\exists b\quad a\rho b \wedge b\sigma  c\}$
 
+
+
+# Theoretical Computer Science
+
+$$
+R \subseteq \Sigma^*
+$$
