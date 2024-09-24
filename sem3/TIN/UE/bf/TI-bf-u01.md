@@ -51,20 +51,37 @@ ___
 $|L_{1}|=k,\ |L_{1}L_{2}|=k+1$
 $$
 \begin{align}
-\Sigma &=\{ x \}  \\
-L_{1} &= \{ x\} \\
-L_{2} &= \{  x^{n} \mid n \in [k] \} \cup L_{\lambda} \\
+\Sigma &=\{ a \}  \\
+L_{1} &= \{ a\} \\
+L_{2} &= \{  a^{n} \mid n \in [k] \} \cup L_{\lambda} \\
 \end{align}
 $$
+$\qed$
 
 
 ## (b)
 $|L_{1}|=k,\ |L_{1}L_{2}|=k+5$
-same as above
+$$
+\begin{align}
+\Sigma &=\{ a \}  \\
+L_{1} &= \{ a^i \mid i \leq 5\} \\
+L_{2} &= \{  a^{n} \mid n \in [k] \} \cup L_{\lambda} \\
+\end{align}
+$$
+$\qed$
+
 
 ## (c)
 $|L_{1}|=k,\ |L_{2}|=l,\ |L_{1}L_{2}|=k\cdot l$
-disjunct
+$$
+\begin{align}
+\Sigma &=\{ a, b\}  \\
+L_{1} &= \{ a^{i} \mid i \leq k\} \\
+L_{2} &= \{  b^{j} \mid j \leq k \} \\
+\end{align}
+$$
+$\qed$
+
 
 ## (d)
 $|L_{1}|=k,\ |L_{2}|=l,\ |\Sigma|=1,\ |L_{1}L_{2}|=k\cdot l$
