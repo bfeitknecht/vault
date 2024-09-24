@@ -1,33 +1,8 @@
 # 1
-![[TI-e-u01.pdf#page=1&rect=73,311,531,386|TI-e-u01, p.1]]
-
-
-case n=3
-abc
-acb
-bac
-bca
-cba
-cab
-
-Xabc, aXbc, abXc, abcX 
-next(abc) {
-	aabc
-	~~aabc~~
-	abac
-	abca
-	babc
-	abbc
-	~~abbc~~
-	abcb
-	cabc
-	acbc
-	abcc
-	~~abcc~~
-}
-
 
 ## (a)
+![[TI-e-u01.pdf#page=1&rect=73,353,529,386|TI-e-u01, p.1]]
+
 Let $f:\N \to \N$ denote the number of words of length $n\in \N$ over $\Sigma$ that contain each of the three letters at least once.
 
 We need to find words $w\in \Sigma^n$ of length $n$, i.e. $|w|=n$ such that $\forall x \in \Sigma : |w|_x \geq 1$. It is known that for some $n$, there exist $|\Sigma|^n$ words of length $n$. 
@@ -43,3 +18,7 @@ n!, & n \geq 3
 \end{cases}
 $$
 
+
+
+## (b)
+![[TI-e-u01.pdf#page=1&rect=97,314,529,346|TI-e-u01, p.1]]
