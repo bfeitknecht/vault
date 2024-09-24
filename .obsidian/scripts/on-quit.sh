@@ -18,3 +18,8 @@ git commit -m "backup: $t on quit from MacBook Pro (echo)"
 
 # try to push new local commits
 git push
+
+
+# add this to shell command for log
+# &> /Users/bf/home/eth/vault/.obsidian/logs/on-quit-log.txt
+

@@ -354,7 +354,7 @@
     {
       "id": "zfx8g3jgck",
       "platform_specific_commands": {
-        "default": "{{vault_path}}/.obsidian/scripts/on-quit.sh \"{{vault_path}}\" &> /Users/bf/home/eth/vault/.obsidian/logs/on-quit-log.txt"
+        "default": "{{vault_path}}/.obsidian/scripts/on-quit.sh \"{{vault_path}}\""
       },
       "shells": {},
       "alias": "On quit",
