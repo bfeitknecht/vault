@@ -38,7 +38,7 @@ $3^{n-2}\cdot2$
 $$
 f(n) \def \begin{cases}
 0, & n < 3 \\
-n!+f(n-1), & n \geq 3
+n!, & n \geq 3
 \end{cases}
 $$
 
