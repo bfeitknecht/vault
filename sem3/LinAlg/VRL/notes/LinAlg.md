@@ -1,13 +1,12 @@
 
-> [!quote]- About
-> > [!info]- Info
-> > - [ ] bonus quiz 🔁 every week 📅 2024-10-01
-> > - [x] bonus quiz 🔁 every week 📅 2024-09-24 ✅ 2024-09-22
-> > - [ ] exercise sheet 📅 2024-09-24 🔁 every week 
-> 
-> 
-
 Linear Algebra concers itself with [[vector|vectors]], [[matrix|matrices]] and what you can do with them. This enables us to model motion in space, efficiently compute with big data and much more. It is a powerful tool for [[abstraction]] in many different areas of math, computer science and engineering.
+
+
+# Info
+
+- [ ] bonus quiz 🔁 every week 📅 2024-10-01
+- [x] bonus quiz 🔁 every week 📅 2024-09-24 ✅ 2024-09-22
+- [ ] exercise sheet 📅 2024-09-24 🔁 every week 
 
 
 # Lectures

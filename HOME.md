@@ -3,10 +3,9 @@
 > ```tasks
 > not done
 > due on or before this week
-> group by due
-> hide backlink
-> hide due
-> 
+> show due date
+> hide postpone button
+> short mode
 > ```
 > 
 
