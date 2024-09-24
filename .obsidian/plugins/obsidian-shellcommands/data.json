@@ -354,7 +354,7 @@
     {
       "id": "zfx8g3jgck",
       "platform_specific_commands": {
-        "default": "./{{vault_path}}/.obsidian/snippets/on-quit.sh"
+        "default": "./{{vault_path}}/.obsidian/snippets/on-quit.sh \"{{vault_path}}\""
       },
       "shells": {},
       "alias": "On quit",
@@ -381,7 +381,11 @@
       "output_channel_order": "stdout-first",
       "output_handling_mode": "buffered",
       "execution_notification_mode": null,
-      "events": {},
+      "events": {
+        "on-quit": {
+          "enabled": true
+        }
+      },
       "debounce": null,
       "command_palette_availability": "enabled",
       "preactions": [],
