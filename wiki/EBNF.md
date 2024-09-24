@@ -1,13 +1,14 @@
 
+**E**xtended **B**ackus **N**aur **F**orm is an abstract syntax description for programming language specifications. It consists of four major tools:
+- sequence
+- decision
+- repetition
+- [[recursion]]
+
+It gives a set of symbols and allows for the verification of symbols
 
 
-- Aufreihung - Sequence
-- Entscheidung - Decision
-- Wiederholung - Repetition
-- Rekursion - Recursion
 
-
-Extended Backus (Forscher) Naur (Forscher) Form
 
 - Beschreibt die Syntax einer Sprache
 	- Liefert eine Menge von Symbolen - Konstruktion
