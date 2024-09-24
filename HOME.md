@@ -5,6 +5,8 @@
 > due on or before this week
 > group by due
 > hide backlink
+> hide due
+> 
 > ```
 > 
 
