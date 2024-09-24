@@ -37,82 +37,46 @@ Linear Algebra concers itself with [[vector|vectors]], [[matrix|matrices]] and w
 > > [!info]- Lecture Plan
 > > ![[LinAlg-plan-w02.pdf]]
 
-> [!quote]- W03
-> 
-> 
-> 
-> > [!info]- Lecture Plan
-> > ![[LinAlg-plan-w03.pdf]]
 
-> [!quote]- W04
-> 
-> 
-> 
-> > [!info]- Lecture Plan
-> > ![[LinAlg-plan-w04.pdf]]
+### W01
+![[LinAlg-v-w01]]
 
-> [!quote]- W05
-> 
-> 
-> 
-> > [!info]- Lecture Plan
-> > ![[LinAlg-plan-w05.pdf]]
+### W02
+![[LinAlg-v-w02]]
 
-> [!quote]- W06
-> 
-> 
-> 
-> > [!info]- Lecture Plan
-> > ![[LinAlg-plan-w06.pdf]]
+### W03
+![[LinAlg-v-w03]]
 
-> [!quote]- W07
-> 
-> 
-> 
-> > [!info]- Lecture Plan
-> > ![[LinAlg-plan-w07.pdf]]
+### W04
+![[LinAlg-v-w04]]
 
-> [!quote]- W08
-> 
-> 
-> 
-> > [!info]- Lecture Plan
-> > ![[LinAlg-plan-w08.pdf]]
+### W05
+![[LinAlg-v-w05]]
 
-> [!quote]- W09
-> 
-> 
-> 
-> > [!info]- Lecture Plan
-> > ![[LinAlg-plan-w09.pdf]]
+### W06
+![[LinAlg-v-w06]]
 
-> [!quote]- W10
-> 
-> 
-> 
-> > [!info]- Lecture Plan
-> > ![[LinAlg-plan-w10.pdf]]
+### W07
+![[LinAlg-v-w07]]
 
-> [!quote]- W11
-> 
-> 
-> 
-> > [!info]- Lecture Plan
-> > ![[LinAlg-plan-w11.pdf]]
+### W08
+![[LinAlg-v-w08]]
 
-> [!quote]- W12
-> 
-> 
-> 
-> > [!info]- Lecture Plan
-> > ![[LinAlg-plan-w12.pdf]]
+### W09
+![[LinAlg-v-w09]]
 
-> [!quote]- W13
-> 
-> 
-> 
-> > [!info]- Lecture Plan
-> > ![[LinAlg-plan-w13.pdf]]
+### W10
+![[LinAlg-v-w10]]
 
+### W11
+![[LinAlg-v-w11]]
 
+### W12
+![[LinAlg-v-w12]]
+
+### W13
+![[LinAlg-v-w13]]
+
+### W14
+![[LinAlg-v-w14]]
 
