@@ -843,6 +843,26 @@
         "type": "split",
         "children": [
           {
+            "id": "a31f07fe136b07a0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bfe5916284c80395",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/EProg/VRL/extra/slides/EProg-slides-w02.pdf",
+                    "page": 48,
+                    "left": -21,
+                    "top": 156,
+                    "zoom": 0.7458333333333333
+                  }
+                }
+              }
+            ]
+          },
+          {
             "id": "a49b010c150e9408",
             "type": "tabs",
             "children": [
@@ -859,36 +879,12 @@
                 }
               },
               {
-                "id": "0b11ffbad3d7cba5",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/EBNF.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "148dbc07cd73966c",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
                     "file": "sem3/EProg/VRL/notes/lectures/EProg-v-w02.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "6c78176b903f6e30",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "README.md",
                     "mode": "source",
                     "source": false
                   }
@@ -939,7 +935,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/EBNF.md"
+                    "file": "sem3/EProg/VRL/notes/lectures/EProg-v-w02.md"
                   }
                 }
               },
@@ -949,7 +945,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/EBNF.md",
+                    "file": "sem3/EProg/VRL/notes/lectures/EProg-v-w02.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -966,7 +962,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/EBNF.md",
+                    "file": "sem3/EProg/VRL/notes/lectures/EProg-v-w02.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1056,8 +1052,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "0b11ffbad3d7cba5",
-      "mtime": "2024-09-24T11:27:24+02:00"
+      "active": "148dbc07cd73966c",
+      "mtime": "2024-09-24T13:14:59+02:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1470,5 +1466,5 @@
       "mtime": "2024-09-24T10:15:31+02:00"
     }
   },
-  "active": "sem3-eprog"
+  "active": "sem3-ti"
 }
