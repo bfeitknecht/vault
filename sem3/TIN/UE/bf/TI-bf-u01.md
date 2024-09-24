@@ -1,5 +1,4 @@
 # 1
-
 ## (a)
 ![[TI-e-u01.pdf#page=1&rect=97,354,529,385|TI-e-u01, p.1]]
 
@@ -13,16 +12,31 @@ f(n) \def \begin{cases}
 3^{n} - 3 \cdot 2^n+3, & n \geq 3
 \end{cases}
 $$
-
+$\qed$
 
 
 ## (b)
 ![[TI-e-u01.pdf#page=1&rect=97,314,529,346|TI-e-u01, p.1]]
 
-
-
+___
 
 # 2
+## (a)
+![[TI-e-u01.pdf#page=1&rect=98,195,533,238|TI-e-u01, p.1]]
+
+
+## (b)
+![[TI-e-u01.pdf#page=1&rect=98,143,534,187|TI-e-u01, p.1]]
+
+
+___
+
+# 3
+![[TI-e-u01.pdf#page=2&rect=68,744,529,776|TI-e-u01, p.]]
+![[TI-e-u01.pdf#page=2&rect=76,639,347,737|TI-e-u01, p.]]
 
 ## (a)
-![[TI-e-u01.pdf#page=1&rect=98,195,374,238|TI-e-u01, p.1]]
+$|L_{1}|=k, |L_{1}L_{2}|=k$
+## (b)
+## (c)
+## (d)
