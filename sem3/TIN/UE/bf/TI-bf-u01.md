@@ -39,8 +39,8 @@ $|L_{1}|=k,\ |L_{1}L_{2}|=k+1$
 $$
 \begin{align}
 \Sigma &=\{ a\}  \\
-L_{1} &= a^k \\
-L_{2} &= 
+L_{1} &= \{  w \mid w \in \Sigma^k \} \\
+L_{2} &= \{ \lambda, a \}
 \end{align}
 $$
 
