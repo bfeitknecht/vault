@@ -5,11 +5,33 @@
 - repetition
 - [[recursion]]
 
-It allows for the construction and verification of symbols through a set or EBNF rules. A typical EBNF assignment is of the form $\text{<LHS> (left-hand-side)} \leftarrow \text{RHS (right-hand-side)}$.
+It allows for the construction and verification of symbols through a set or EBNF rules. A typical EBNF assignment is of the form below.
+$$
+\text{<LHS> (left-hand-side)} \leftarrow \text{RHS (right-hand-side)}
+$$
 
-**Sequence**
-$l \leftarrow \text 
-$\text{lhs} \leftarrow \text{l h s}$
+A symbol is legal according to a rule if, and only if all characters in the symbol correspond with the elements in the rule.
+
+> [!info] Rules
+> 
+> **Sequence**
+> *l* <- "l"
+> *h* <- "h"
+> *s* <- "s"
+> *lhs* <- l h s
+> 
+> **Decision**
+> 
+> **Repetition**
+> 
+> **Recurison**
+> 
+> 
+
+
+
+
+
 
 > [!example]+ RHS: Kontrollelemente
 > ##### Aufreihung
@@ -40,9 +62,3 @@ $\text{lhs} \leftarrow \text{l h s}$
 > **integer** $\Leftarrow$ [+|-] **digits**
 
 
-Einfache (ganze) Sprache mit 
-- **unwichtiger** Reihenfolge (Konvention **Einfach** $\rightarrow$ **Komplex**)
-- **unwichtigem** Namen (Namen sind **exklusiv** und gehören nur zu einer Regel)
-
-
-A symbol is legal according to a rule if, and only if all characters in the symbol correspond with the elements in the rule.
