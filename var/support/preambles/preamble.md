@@ -9,6 +9,7 @@ $$
 \newcommand{\etc}{\text{etc.}}
 \newcommand{\def}{\overset{\text{def.}}{=}}
 \newcommand{\empty}{\varnothing}
+\newcommand{\E}{\mathbb E}
 $$
 # Test
 $$

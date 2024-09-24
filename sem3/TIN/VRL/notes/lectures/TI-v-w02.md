@@ -5,4 +5,5 @@
 - [[decision problem]]
 - [[function]], [[relation]] definitions
 - what is [[information]]?
+- [[entropy|shannon entropy]]
 - 
