@@ -52,8 +52,8 @@ $|L_{1}|=k,\ |L_{1}L_{2}|=k+1$
 $$
 \begin{align}
 \Sigma &=\{ x \}  \\
-L_{1} &= \{  x^{n} \mid n \in [k]  \} \\
-L_{2} &= \Sigma
+L_{1} &= \{ x\} \\
+L_{2} &= \{  x^{n} \mid n \in [k] \} \cup L_{\lambda} \\
 \end{align}
 $$
 

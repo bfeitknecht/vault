@@ -11,25 +11,8 @@ Linear Algebra concers itself with [[vector|vectors]], [[matrix|matrices]] and w
 
 # Lectures
 
-
-> [!quote]- W01
-> 
-> 
-> 
-> 
-> 
-> 
-> 
-> > [!info]- Lecture Plan
- > > ![[LinAlg-plan-w01.pdf]]
-
-> [!quote]- W02
-> 
-> 
-> 
-> > [!info]- Lecture Plan
-> > ![[LinAlg-plan-w02.pdf]]
-
+### W00
+![[LinAlg-v-w00]]
 
 ### W01
 ![[LinAlg-v-w01]]
