@@ -107,6 +107,9 @@
         "every-n-seconds": {
           "enabled": false,
           "seconds": 120
+        },
+        "on-quit": {
+          "enabled": true
         }
       },
       "debounce": {

@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "f44d7d5cec6d8004",
+            "id": "f93232e02b3a91dc",
             "type": "tabs",
             "children": [
               {
-                "id": "b2bfb9cc471db7ce",
+                "id": "df826bca2d65055b",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -46,7 +46,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "tag:#todo  ",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -94,7 +94,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5
+        "width": 346.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -174,8 +175,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "b2bfb9cc471db7ce",
-      "mtime": "2024-09-22T21:18:36+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-09-24T18:23:03+02:00"
     },
     "00-home": {
       "main": {
@@ -1528,5 +1529,5 @@
       "mtime": "2024-09-24T18:17:40+02:00"
     }
   },
-  "active": "00-clean"
+  "active": "00-home"
 }
