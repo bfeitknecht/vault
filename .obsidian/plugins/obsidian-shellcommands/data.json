@@ -357,7 +357,7 @@
         "default": "./{{vault_path}}/.obsidian/snippets/on-quit.sh"
       },
       "shells": {},
-      "alias": "",
+      "alias": "On quit",
       "icon": null,
       "confirm_execution": false,
       "ignore_error_codes": [],
