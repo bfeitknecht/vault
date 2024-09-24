@@ -18,6 +18,23 @@ $\qed$
 ## (b)
 ![[TI-e-u01.pdf#page=1&rect=97,314,529,346|TI-e-u01, p.1]]
 
+Let $g:\N \to \N$ denote the number of words of length $n\in \N$ over $\Sigma^n$ that do not contain $11$ as a subword.
+
+übung
+$$
+d(n) \def \begin{cases}
+3, & n=1 \\
+8, & n=2 \\
+2\cdot d(n-1) + 2\cdot d(n-1), & n\geq 3
+\end{cases}
+$$
+
+$$
+\begin{align}
+
+\end{align}
+$$
+
 ___
 
 # 2
