@@ -1,4 +1,7 @@
 
+"Eine Wissenschaft zur automatischen Verifikation von Information mit Algorithmen."
+
+# About
 > [!quote]- About
 > 
 > > [!info]- Info
@@ -7,12 +10,47 @@
 > 
 
 
-"Eine Wissenschaft zur automatischen Verifikation von Information mit Algorithmen."
+# Lectures
 
+### W01
+![[TI-v-w01]]
 
-programm kann quatsch machen
+### W02
+![[TI-v-w02]]
 
+### W03
+![[TI-v-w03]]
 
-begriff programm ist nicht gebunden an was getan werden soll oder wird
-algorithmus nimmt immer bezug auf problem lösung, also auch korrekt / inkorrekt
+### W04
+![[TI-v-w04]]
+
+### W05
+![[TI-v-w05]]
+
+### W06
+![[TI-v-w06]]
+
+### W07
+![[TI-v-w07]]
+
+### W08
+![[TI-v-w08]]
+
+### W09
+![[TI-v-w09]]
+
+### W10
+![[TI-v-w10]]
+
+### W11
+![[TI-v-w11]]
+
+### W12
+![[TI-v-w12]]
+
+### W13
+![[TI-v-w13]]
+
+### W14
+![[TI-v-w14]]
 
