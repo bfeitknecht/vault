@@ -19,7 +19,4 @@ $$
 ## (b)
 ![[TI-e-u01.pdf#page=1&rect=97,314,529,346|TI-e-u01, p.1]]
 
-
-1 -> 0
-2 -> 1
-3 -> 2
+We define $L_{n} \def \{ vw | v\}$
