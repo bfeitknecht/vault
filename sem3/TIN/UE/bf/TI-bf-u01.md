@@ -22,22 +22,18 @@ Let $g:\N \to \N$ denote the number of words of length $n\in \N$ over $\Sigma^n$
 
 übung
 $$
-d(n) \def \begin{cases}
+g(n) \def \begin{cases}
 3, & n=1 \\
 8, & n=2 \\
-2\cdot d(n-1) + 2\cdot d(n-1), & n\geq 3
+2\cdot g(n-1) + 2\cdot g(n-1), & n\geq 3
 \end{cases}
 $$
 
-$$
-\begin{align}
-
-\end{align}
-$$
 
 ___
 
 # 2
+Prove or disprove.
 ## (a)
 ![[TI-e-u01.pdf#page=1&rect=98,195,533,238|TI-e-u01, p.1]]
 
