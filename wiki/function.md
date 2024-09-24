@@ -6,6 +6,5 @@ Functions are a special type of [[relation]], namely they are ...
 
 # Theoretical Computer Science
 
-$$
-f:\Sigma^* \to \Gamma^*
-$$
+$f:\Sigma^* \to \Gamma^*$
+$A$ computes $f \iff$

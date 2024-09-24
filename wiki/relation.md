@@ -19,6 +19,5 @@ $\rho \circ \sigma \overset{def.}{=} \{\exists b\quad a\rho b \wedge b\sigma  c\
 
 # Theoretical Computer Science
 
-$$
-R \subseteq \Sigma^*
-$$
+$R \subseteq \Sigma^* \times \Gamma^*$
+$A$ computes $R \iff \forall x \in \Sigma^*, \ A(x)=y, \ y \in \Gamma^*$

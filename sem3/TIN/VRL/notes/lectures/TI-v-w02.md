@@ -4,4 +4,5 @@
 - [[algorithm|algorithms]] are special programs that solve some problem and yield a result
 - [[decision problem]]
 - [[function]], [[relation]] definitions
+- what is [[information]]?
 - 
