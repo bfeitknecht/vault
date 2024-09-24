@@ -1,2 +1,3 @@
+#todo
 
-A **substring** is some [[word]] made up of consecutive  can be a **prefix**, **infix** or a **suffix**.
+A **substring** $s$ of some [[word]] $w$ is consecutive sequence of symbols in $w$. It can be a **prefix**, **infix** or a **suffix**
