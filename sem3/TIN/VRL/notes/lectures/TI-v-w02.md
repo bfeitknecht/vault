@@ -8,3 +8,4 @@
 
 # Notes
 
+We *could* compress every message into length one, bu 
