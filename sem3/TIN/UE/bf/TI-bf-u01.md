@@ -64,7 +64,7 @@ $|L_{1}|=k,\ |L_{1}L_{2}|=k+5$
 $$
 \begin{align}
 \Sigma &=\{ a \}  \\
-L_{1} &= \{ a^i \mid i \leq 5\} \\
+L_{1} &= \{ a^i \mid i \in [5] \} \\
 L_{2} &= \{  a^{n} \mid n \in [k] \} \cup L_{\lambda} \\
 \end{align}
 $$
@@ -76,8 +76,10 @@ $|L_{1}|=k,\ |L_{2}|=l,\ |L_{1}L_{2}|=k\cdot l$
 $$
 \begin{align}
 \Sigma &=\{ a, b\}  \\
-L_{1} &= \{ a^{i} \mid i \leq k\} \\
-L_{2} &= \{  b^{j} \mid j \leq k \} \\
+L_{1} &= \{ a^{i} \mid i \in [k] \} &\text{(1)} \\
+L_{2} &= \{  b^{j} \mid j \in [l] \} &\text{(2)} \\
+tex \\
+L_{1} \cap L_{2} &= \empty \implies 
 \end{align}
 $$
 $\qed$
