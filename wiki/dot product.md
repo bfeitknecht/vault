@@ -8,15 +8,17 @@ and can be denoted with $\langle v, w \rangle$ or $v \cdot w$.
 
 If $v$ and $w$ are [[row and column vectors|column vectors]], the dot product can also be denoted as $v \cdot w =v^\top w$, where $v^\top$ denotes the [[transpose]] of $v$.
 $$
-v \cdot w =
+\begin{align}
+v \cdot w &=
 \begin{bmatrix}
-v_{1} \dots v_{n} \\
+v_{1}, \dots, v_{m} \\
 
 \end{bmatrix}
 \cdot
 \begin{bmatrix}
-w_{1} \\
+w_{1}, \\
 \vdots \\
-w_{n}
+w_{m}
 \end{bmatrix}
+\end{align}
 $$
