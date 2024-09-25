@@ -7,10 +7,13 @@ $T\def S \land n=1$
 $S \nimpl T$
 
 The mistake in this proof is that $S$ is a false statement, there exists no largest number $n\in \N$. Additionally, $T$ is a compound statement from $S$ and the the binding of its $n=1$. 
+$\qed$
+
+___
 
 # 1.4
 ## (a)
-![[DMath-e-u01.pdf#page=2&rect=123,527,490,570|DMath-e-u01, p.2]]
+![[DMath-e-u01.pdf#page=2&rect=106,525,512,569|DMath-e-u01, p.2]]
 
 We define the formula $F \equiv(B\to C)\to(\neg(A\to C) \wedge \neg(A \vee B))$. Now we will simplify $F$ through a series of equivalence transformations.
 $$
@@ -29,14 +32,29 @@ F &\equiv(B\to C)\to(\neg(A\to C) \wedge \neg(A \vee B)) &\text{(def. $\to$)} \\
 \end{align}
 $$
 
-We arrive at the conclusion that $F\equiv A\vee B$, since we can freely rename the variables now that there exists no conflicts.
-
-
+We arrive at the conclusion that $F\equiv A\vee B$, since we can freely rename the variables now that there exists no conflicts. The function table for $F$ is
 $$
-\begin{align}
-
-\end{align}
+\begin{array}{c | c || c}
+A & B & {F} \\
+\hline
+0 & 0 & 0 \\
+0 & 1 & 1 \\
+1 & 0 & 1 \\
+1 & 1 & 1 \\
+\end{array}
 $$
+$\qed$
+
+___
+
+## (b)
+![[DMath-e-u01.pdf#page=2&rect=106,488,521,517|DMath-e-u01, p.2]]
+
+We use the formula derived from subpart (a), namely $G\equiv A\vee B$.
+$\qed$
+
+___
+
 
 # 1.5
 ![[DMath-e-u01.pdf#page=2&rect=78,346,417,452|DMath-e-u01, p.2]]
