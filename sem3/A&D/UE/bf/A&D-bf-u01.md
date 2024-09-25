@@ -37,9 +37,12 @@ ___
 ![[A&D-e-u01.pdf#page=2&rect=86,756,422,770|A&D-e-u01, p.2]]
 $$
 \begin{align}
-\lim_{ m \to \infty } \frac{10m^5+90m^4}{100m^5} &= 
+\lim_{ m \to \infty } \frac{10m^5+90m^4}{100m^5} &= \frac{\cancel{ m^4 }(10m +1)}{\cancel{ m^4 }(100m)} \\
+&\overset{\text{l'Hôpital}} =\frac{10}{100} =10
 \end{align}
 $$
+
+
 
 
 ## (b)
