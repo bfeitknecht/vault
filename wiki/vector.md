@@ -23,7 +23,7 @@ A single vector $v$ in $m$-dimensional space is denoted as $v=\begin{bmatrix} v_
 ![[linear combination]]
 
 ## Scalar Product / Dot Product
-![[scalar product]]
+![[dot product]]
 
 ## Euclidian Norm
 ![[euclidian norm]]
