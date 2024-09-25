@@ -13,7 +13,6 @@ The mistake in this proof is that $S$ is a false statement, there exists no larg
 ![[DMath-e-u01.pdf#page=2&rect=123,527,490,570|DMath-e-u01, p.2]]
 
 We define the formula $F \equiv(B\to C)\to(\neg(A\to C) \wedge \neg(A \vee B))$. Now we will simplify $F$ through a series of equivalence transformations.
-
 $$
 \begin{align}
 F &\equiv(B\to C)\to(\neg(A\to C) \wedge \neg(A \vee B)) &\text{(def. $\to$)} \\
@@ -26,9 +25,11 @@ F &\equiv(B\to C)\to(\neg(A\to C) \wedge \neg(A \vee B)) &\text{(def. $\to$)} \\
 &\equiv \neg(B \to C) \vee \bot &\text{(def. $\to$)} \\
 &\equiv \neg \neg(B \vee C) \vee \bot &\text{(dito)} \\
 &\equiv (B \vee C) \vee \bot &\text{(double negation)} \\
-&\equiv B \vee C \vee \bot &\text{(associativity of $\vee$)} \\
+&\equiv B \vee C &\text{(unsatisfiability)} \\
 \end{align}
 $$
+
+We arrive at the conclusion that $F\equiv A\vee B$, since we can freely rename the variables now that there exists no conflicts.
 
 
 $$
