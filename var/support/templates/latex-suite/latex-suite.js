@@ -1,37 +1,38 @@
 /*
 {
-  trigger: string | RegExp,
-  replacement: string,
-  options: string,
-  priority?: number,
-  description?: string,
-  flags?: string,
+trigger: string | RegExp,
+replacement: string,
+options: string,
+priority?: number,
+description?: string,
+flags?: string,
 }
 
-trigger : 					The text that triggers this snippet. Triggers can also be regular expressions.
-replacement : 				The text to replace the trigger with. Replacements can also be JavaScript functions.
-options : 					See below.
-priority (optional) :		This snippet's priority. Snippets with higher priority are run first. Can be negative. Defaults to 0.
-description (optional) :	A description for this snippet.
-flags (optional) : 			Flags for regex snippets.
+trigger :                     The text that triggers this snippet. Triggers can also be regular expressions.
+replacement :                 The text to replace the trigger with. Replacements can also be JavaScript functions.
+options :                     See below.
+priority (optional) :         This snippet's priority. Snippets with higher priority are run first. Can be negative. Defaults to 0.
+description (optional) :      A description for this snippet.
+flags (optional) :            Flags for regex snippets.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=====================================================================================================================================
 options :
-	t : Text mode. Only run this snippet outside math
-	m : Math mode. Only run this snippet inside math. Shorthand for both M and n
-	M : Block math mode. Only run this snippet inside a $$ ... $$ block
-	n : Inline math mode. Only run this snippet inside a $ ... $ block
-	A : Auto. Expand this snippet as soon as the trigger is typed. If omitted, the Tab key must be pressed to expand the snippet
-	r : Regex. The trigger will be treated as a regular expression
-	v : Visual. Only run this snippet on a selection. The trigger should be a single character
-	w : Word boundary. Only run this snippet when the trigger is preceded (and followed by) a word delimiter, such as ., ,, or -.
-	c : Code mode. Only run this snippet inside a ``` ... ``` block
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    t : Text mode. Only run this snippet outside math
+    m : Math mode. Only run this snippet inside math. Shorthand for both M and n
+    M : Block math mode. Only run this snippet inside a $$ ... $$ block
+    n : Inline math mode. Only run this snippet inside a $ ... $ block
+    A : Auto. Expand this snippet as soon as the trigger is typed. If omitted, the Tab key must be pressed to expand the snippet
+    r : Regex. The trigger will be treated as a regular expression
+    v : Visual. Only run this snippet on a selection. The trigger should be a single character
+    w : Word boundary. Only run this snippet when the trigger is preceded (and followed by) a word delimiter, such as ., ,, or -.
+    c : Code mode. Only run this snippet inside a ``` ... ``` block
+=====================================================================================================================================
 
 Insert tabstops for the cursor to jump to by writing "$0", "$1", etc. in the replacement.
 */
 
 
+/* Snippets for LaTeX Suite Plugin */
 [
     // Math mode
     {trigger: "mk", replacement: "$$0$", options: "tA"},
@@ -100,10 +101,10 @@ Insert tabstops for the cursor to jump to by writing "$0", "$1", etc. in the rep
 
     // More operations
     
-	/* i need my hat */
+    /* i need my hat */
     //{trigger: "([a-zA-Z])hat", replacement: "\\hat{[[0]]}", options: "rmA"},
     
-	{trigger: "([a-zA-Z])bar", replacement: "\\bar{[[0]]}", options: "rmA"},
+    {trigger: "([a-zA-Z])bar", replacement: "\\bar{[[0]]}", options: "rmA"},
     {trigger: "([a-zA-Z])dot", replacement: "\\dot{[[0]]}", options: "rmA", priority: -1},
     {trigger: "([a-zA-Z])ddot", replacement: "\\ddot{[[0]]}", options: "rmA", priority: 1},
     {trigger: "([a-zA-Z])tilde", replacement: "\\tilde{[[0]]}", options: "rmA"},
@@ -180,10 +181,10 @@ Insert tabstops for the cursor to jump to by writing "$0", "$1", etc. in the rep
     {trigger: "sup=", replacement: "\\supseteq", options: "mA"},
     {trigger: "eset", replacement: "\\varnothing", options: "mA"},
     
-	/* set is used too often in text */
-	//{trigger: "set", replacement: "\\{ $0 \\}$1", options: "mA"},
+    /* set is used too often in text */
+    //{trigger: "set", replacement: "\\{ $0 \\}$1", options: "mA"},
     
-	{trigger: "e\\xi sts", replacement: "\\exists", options: "mA", priority: 1},
+    {trigger: "e\\xi sts", replacement: "\\exists", options: "mA", priority: 1},
 
     {trigger: "LL", replacement: "\\mathcal{L}", options: "mA"},
     {trigger: "HH", replacement: "\\mathcal{H}", options: "mA"},
