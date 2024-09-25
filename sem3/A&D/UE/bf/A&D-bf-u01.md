@@ -42,9 +42,11 @@ We make use of the fact that $\log(m^3) =3\log m$.
 $$
 \begin{align}
 \lim_{ m \to \infty } \frac{3(\log m)}{(\log m)^3} &= \frac{3}{(\log m)^2} &\text{(l'Hôpital)} \\
-&= \frac{1}{\frac{2(\log m)}{m}}
+&= \frac{1}{\frac{2(\log m)}{m}} = \frac{m}{2(\log m)} &\text{(l'Hôpital)} \\
+&=\frac{1}{\frac{2}{m}} = \frac{m}{2} \overset{\infty}{\to} \infty &\qed \\
 \end{align}
 $$
+Since $\lim_{ m \to \infty } \frac{f(m)}{g_{8}}$
 
 
 ## (d)
