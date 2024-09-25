@@ -49,13 +49,14 @@ $\qed$
 ![[A&D-e-u01.pdf#page=2&rect=87,734,486,753|A&D-e-u01, p.2]]
 
 First, we cancel like terms $\frac{80\cdot2^m \log (m)-2^m}{5\cdot 2^m \log(m)^2} =\frac{80\log(m)-1}{5\log(m)^2}$.
-
 $$
 \begin{align}
-\lim_{ m \to \infty } \frac{80\log(m)-1}{5\log(m)^2}  \overset{\text{l'Hôpital}}{=} \frac{ \frac{80}{m}}{\frac{10\log(m)}{m}}\\
- \\
+\lim_{ m \to \infty } \frac{80\log(m)-1}{5\log(m)^2}  \overset{\text{l'Hôpital}}{=} \frac{ \frac{80}{m}}{\frac{10\log(m)}{m}} = \frac{8}{\log(m)} \overset{\infty}{\to} 0 \\
 \end{align}
 $$
+Since the limit as $m$ approaches infinity equals zero, $f$ grows asymptotically slower than $g$.
+$\qed$
+
 
 ## (c)
 ![[A&D-e-u01.pdf#page=2&rect=87,714,406,732|A&D-e-u01, p.2]]
