@@ -1115,14 +1115,28 @@
                 }
               },
               {
-                "id": "676724055d4f3dbe",
+                "id": "0b80606e9d0a0af1",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w00.md",
+                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w01.md",
                     "mode": "source",
                     "source": false
+                  }
+                }
+              },
+              {
+                "id": "d9ba69bc08857479",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w01.pdf",
+                    "page": 6,
+                    "left": -11,
+                    "top": 273,
+                    "zoom": 1.325980392156863
                   }
                 }
               },
@@ -1139,14 +1153,16 @@
                 }
               },
               {
-                "id": "0b80606e9d0a0af1",
+                "id": "c89580225c63f63c",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "pdf",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w01.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "sem3/LinAlg/VRL/extra/LinAlg-lecture-notes-pt.01.pdf",
+                    "page": 19,
+                    "left": -11,
+                    "top": 754,
+                    "zoom": 1.3259803921568627
                   }
                 }
               }
@@ -1195,7 +1211,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/vector.md"
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w01.pdf"
                   }
                 }
               },
@@ -1205,7 +1221,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/vector.md",
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w01.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1222,7 +1238,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/vector.md",
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w01.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1232,8 +1248,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1313,8 +1328,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "83ff73cd61777361",
-      "mtime": "2024-09-24T17:42:03+02:00"
+      "active": "d9ba69bc08857479",
+      "mtime": "2024-09-25T11:07:50+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1565,5 +1580,5 @@
       "mtime": "2024-09-24T18:17:40+02:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-a&d"
 }
