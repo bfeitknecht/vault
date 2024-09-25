@@ -96,8 +96,8 @@ unary (strichlistä), simply count to k then mod k+1 up to l
 
 $$
 \begin{align}
-\Sigma &= \{ \} \\
-L_{1} &= \{  \} \\
+\Sigma &= \{ a\} \\
+L_{1} &= \{ a^i \mid i \in [k] \} \\
 L_{2} &= \{ \} \\
 \end{align}
 $$
