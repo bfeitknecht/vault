@@ -17,7 +17,10 @@ We define the formula $F \equiv(B\to C)\to(\neg(A\to C) \wedge \neg(A \vee B))$.
 $$
 \begin{align}
 F &\equiv(B\to C)\to(\neg(A\to C) \wedge \neg(A \vee B)) &\text{(def. $\to$)} \\
-&\equiv (B \to C)\to(\neg(\neg A \vee B) \wedge \neg(A\vee B))
+&\equiv (B \to C)\to(\neg(\neg A \vee B) \wedge \neg(A\vee B)) &\text{(de Morgan)} \\
+&\equiv (B \to C)\to \neg((\neg A \vee B) \vee (A\vee B)) &\text{(associativity of $\vee$)} \\
+&\equiv (B \to C)\to \neg(\neg A \vee B \vee A\vee B) &\text{(idempotence)} \\
+&\equiv (B \to C)\to \neg(\neg A \vee A\vee B) &\text{(idempotence)}
 \end{align}
 $$
 
