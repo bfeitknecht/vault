@@ -4,7 +4,7 @@
 - [[implication]]
 - logical consequence
 - [[quantifiers]]
-- [[satisfiability]]
+- [[satisfiability]] problem
 
 
 > [!info]+ $\cancel{ F\models G \equiv } \text{!! We don't do this.}$
