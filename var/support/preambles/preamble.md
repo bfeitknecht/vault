@@ -10,6 +10,8 @@ $$
 \newcommand{\def}{\overset{\text{def.}}{=}}
 \newcommand{\empty}{\varnothing}
 \newcommand{\E}{\mathbb E}
+\newcommand{\nimpl}{\kern.6em\not\kern -.6em \implies}
+
 $$
 # Test
 $$
