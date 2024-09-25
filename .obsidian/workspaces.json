@@ -13,8 +13,12 @@
                 "id": "df826bca2d65055b",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/dynamic programming.md",
+                    "mode": "source",
+                    "source": false
+                  }
                 }
               }
             ]
@@ -60,7 +64,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "wiki/dynamic programming.md"
+                  }
                 }
               },
               {
@@ -69,6 +75,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "wiki/dynamic programming.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -85,6 +92,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "wiki/dynamic programming.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -94,8 +102,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -175,8 +182,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-09-24T18:23:03+02:00"
+      "active": "df826bca2d65055b",
+      "mtime": "2024-09-25T08:28:20+02:00"
     },
     "00-home": {
       "main": {
@@ -1529,5 +1536,5 @@
       "mtime": "2024-09-24T18:17:40+02:00"
     }
   },
-  "active": "00-clean"
+  "active": "sem3-a&d"
 }
