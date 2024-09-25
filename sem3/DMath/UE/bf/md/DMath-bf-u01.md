@@ -2,7 +2,7 @@
 # 1.2
 ![[DMath-e-u01.pdf#page=1&rect=76,225,477,363|DMath-e-u01, p.1]]
 
-$T\def\text{1 is the largest natural number}$
+$T\def S \ln$
 $S\def n\text{ is the largest natural number}$ 
 $S \implies T$
 
