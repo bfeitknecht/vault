@@ -1,7 +1,7 @@
 
-# 1.
+# 1.1
 
-# (a)
+## (a)
 ![[A&D-e-u01.pdf#page=1&rect=87,463,528,526|A&D-e-u01, p.1]]
 
 
@@ -20,3 +20,32 @@ $$
 
 ## (b)
 ![[A&D-e-u01.pdf#page=1&rect=85,403,528,457|A&D-e-u01, p.1]]
+
+
+
+# 1.3
+![[A&D-e-u01.pdf#page=1&rect=68,70,536,86|A&D-e-u01, p.1]]
+
+## (a)
+![[A&D-e-u01.pdf#page=2&rect=86,756,422,770|A&D-e-u01, p.2]]
+
+
+## (b)
+![[A&D-e-u01.pdf#page=2&rect=87,734,486,753|A&D-e-u01, p.2]]
+
+
+## (c)
+![[A&D-e-u01.pdf#page=2&rect=87,714,406,732|A&D-e-u01, p.2]]
+
+We make use of the fact that $\log(m^3) =3\log m$.
+
+$$
+\begin{align}
+\lim_{ m \to \infty } \frac{3\log m}{\log m}
+\end{align}
+$$
+
+
+## (d)
+![[A&D-e-u01.pdf#page=2&rect=87,694,406,711|A&D-e-u01, p.2]]
+
