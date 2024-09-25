@@ -1135,10 +1135,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w01.pdf",
-                    "page": 6,
+                    "page": 2,
                     "left": -11,
-                    "top": 273,
-                    "zoom": 1.325980392156863
+                    "top": 743,
+                    "zoom": 1.3259803921568627
                   }
                 }
               },
@@ -1163,13 +1163,25 @@
                     "file": "sem3/LinAlg/VRL/extra/LinAlg-lecture-notes-pt.01.pdf",
                     "page": 19,
                     "left": -11,
-                    "top": 754,
+                    "top": 718,
                     "zoom": 1.3259803921568627
+                  }
+                }
+              },
+              {
+                "id": "a108b5558788bc4e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/dot product.md",
+                    "mode": "source",
+                    "source": false
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -1213,7 +1225,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w01.pdf"
+                    "file": "sem3/LinAlg/VRL/extra/LinAlg-lecture-notes-pt.01.pdf"
                   }
                 }
               },
@@ -1223,7 +1235,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w01.pdf",
+                    "file": "sem3/LinAlg/VRL/extra/LinAlg-lecture-notes-pt.01.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1240,7 +1252,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w01.pdf",
+                    "file": "sem3/LinAlg/VRL/extra/LinAlg-lecture-notes-pt.01.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1330,8 +1342,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "d9ba69bc08857479",
-      "mtime": "2024-09-25T11:07:50+02:00"
+      "active": "c89580225c63f63c",
+      "mtime": "2024-09-25T13:53:28+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1582,5 +1594,5 @@
       "mtime": "2024-09-24T18:17:40+02:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-dmath"
 }

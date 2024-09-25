@@ -1,4 +1,4 @@
-#todo 
+
 
 The **dot product** (or *scalar product* – not to be confused with [[scalar multiplication]]) of two [[vector|vectors]] $v, w \in \R^m$ is defined as
 $$
@@ -24,9 +24,11 @@ w_{m}
 $$
 
 # Geometric definition
+> In [[euclidian space]], the dot product of two vectors $v$ and $w$ is defined by $v \cdot w = \|v\| \ \|w\| \cos\theta$, where $\theta$ is the angle between them.
+> 
+> In particular, if the vectors $v$ and $w$ are [[orthogonal]] (i.e., their [[angle]] is $\frac{\pi}{2} =90^\circ$), then $\cos \frac{\pi}{2}=0$, which implies that $v\cdot w =0$
+> 
+> On the other extreme, if they are [[codirectional]] then the angle between them is zero with $\cos 0=1$ and $v\cdot w=\|v\| \ \|w\|$. 
+> 
+> This implies that the dot product of a vector $v$ with itself is $v\cdot v=\|v\|^2$ which gives $\|v\|=\sqrt{ v\cdot v }$ the formula for the [[euclidian norm]].
 
-In [[euclidian space]], the dot product of two vectors $v$ and $w$ is defined by $v \cdot w = \|v\| \|w\| \cos\theta$, where $\theta$ is the angle between them.
-
-In particular, if the vectors $v$ and $w$ are [[orthogonal]] (i.e., their [[angle]] is $\frac{\pi}{2} =90^\circ$), then $\cos \frac{\pi}{2}=0$, which implies that $v\cdot w =0$
-
-On the other extreme, if they are [[codirectional]] then the angle between them is zero with $\cos 0=1$ and $v\cdot w=\|v\|$
