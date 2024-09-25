@@ -12,7 +12,16 @@ The mistake in this proof is that $S$ is a false statement, there exists no larg
 ## (a)
 ![[DMath-e-u01.pdf#page=2&rect=123,527,490,570|DMath-e-u01, p.2]]
 
-We define the formula $F \equiv(B\to C)\to(\neg(A\to C))$
+We define the formula $F \equiv(B\to C)\to(\neg(A\to C) \wedge \neg(A \vee B))$. Now we will simplify $F$ through a series of equivalence transformations.
+
+$$
+\begin{align}
+F &\equiv(B\to C)\to(\neg(A\to C) \wedge \neg(A \vee B)) &\text{(def. $\to$)} \\
+&\equiv (B \to C)\to(\neg(\neg A \vee B) \wedge \neg(A\vee B))
+\end{align}
+$$
+
+
 $$
 \begin{align}
 
