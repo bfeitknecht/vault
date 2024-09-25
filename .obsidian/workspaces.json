@@ -428,8 +428,37 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "604073e574433da0",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/A&D/UE/e/A&D-e-u00.pdf",
+                    "page": 1,
+                    "left": -11,
+                    "top": 638,
+                    "zoom": 1.363233189310505
+                  }
+                }
+              },
+              {
+                "id": "d449cb303d449257",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/A&D/UE/e/A&D-e-u01.pdf",
+                    "page": 1,
+                    "left": -9,
+                    "top": 82,
+                    "zoom": 1.7991654291454722
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -473,7 +502,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/A&D/VRL/notes/A&D.md"
+                    "file": "sem3/A&D/UE/e/A&D-e-u01.pdf"
                   }
                 }
               },
@@ -483,7 +512,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/A&D/VRL/notes/A&D.md",
+                    "file": "sem3/A&D/UE/e/A&D-e-u01.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -500,7 +529,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/A&D/VRL/notes/A&D.md",
+                    "file": "sem3/A&D/UE/e/A&D-e-u01.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -591,8 +620,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "e7911976b677ac81",
-      "mtime": "2024-09-24T17:01:20+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-09-25T10:14:58+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1536,5 +1565,5 @@
       "mtime": "2024-09-24T18:17:40+02:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-linalg"
 }
