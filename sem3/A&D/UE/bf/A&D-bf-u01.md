@@ -10,10 +10,12 @@ $$
 0 &\geq 0 &\text{(b.c., $n\leftarrow0$)} \\
 \sum_{i=0}^{n} (2n+1) &\geq (n+1)^2, \forall n\geq 0 &\text{(i.h.)} \\
 \sum_{i=0}^{n+1} (2n+1) &\geq (n+2)^2 &\text{(i.s., $n\leftarrow n+1$)} \\
-\bigg(\sum_{i=0}^{n} (2n+1)\bigg) + (2n+3) &\geq n^2+4n+4 &\bigg|\text{$-(2n+3)$} \\
-\sum_{i=0}^{n} (2n+1) &\geq n^2+2n+1 &\bigg|\text{$-(2n+3)$} \\
+\bigg(\sum_{i=0}^{n} (2n+1)\bigg) + (2n+3) &\geq n^2+4n+4 &\text{(subtract like terms)} \\
+\sum_{i=0}^{n} (2n+1) &\geq n^2+2n+1 &\text{(collect the square)} \\
+\sum_{i=0}^{n} (2n+1) &\overset{\text{i.h.}}{\geq} (n+1)^2 &\qed \\
 \end{align}
 $$
+
 
 
 ## (b)
