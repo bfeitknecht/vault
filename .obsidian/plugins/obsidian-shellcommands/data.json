@@ -358,7 +358,7 @@
       },
       "shells": {},
       "alias": "On quit",
-      "icon": null,
+      "icon": "skull",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
@@ -387,7 +387,7 @@
         }
       },
       "debounce": null,
-      "command_palette_availability": "enabled",
+      "command_palette_availability": "disabled",
       "preactions": [],
       "variable_default_values": {}
     }
