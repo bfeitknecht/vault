@@ -2,26 +2,26 @@
 
 > [!example]+ To Do
 > ```tasks
-> not done
-> due on or before this week
-> sort by due
-> group by due
-> hide postpone button
-> hide edit button
-> hide due date
-> hide recurrence rule
+> NOT DONE
+> DUE ON OR BEFORE THIS WEEK
+> SORT BY DUE
+> GROUP BY DUE
+> HIDE POSTPONE BUTTON
+> HIDE EDIT BUTTON
+> HIDE DUE DATE
+> HIDE RECURRENCE RULE
 > ```
-> 
+>
 
 >[!done]- Done this Week
 > ```tasks
-> done on or after last week
-> group by filename
-> hide backlink
-> hide recurrence rule
-> hide postpone button
-> hide due date
-> hide edit button
+> DONE ON OR AFTER LAST WEEK
+> GROUP BY FILENAME
+> HIDE BACKLINK
+> HIDE RECURRENCE RULE
+> HIDE POSTPONE BUTTON
+> HIDE DUE DATE
+> HIDE EDIT BUTTON
 > ```
 
 
@@ -38,9 +38,7 @@ LIST TODAY
 TITLE "Today"
 ```
 %%
-^^
+^^ doesn't seem to work
 INCLUDE PROJECTS "pv-a1", "pv-auw", "pv-ddca", "pv-pprog"
 EXCLUDE PROJECTS "other"
 %%
-
-

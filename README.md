@@ -5,7 +5,7 @@ My obsidian markdown notes
 
 To use, follow these steps:
 
-```
+```sh
 git clone https://github.com/bs10x/vault.git
 ```
 
@@ -59,16 +59,16 @@ ___
 > when hotkey to launch terminal, not in git??
 > not a git directory, eth (top root) also not git
 > but if another session is active (navigate to vault or eth), git works
-> 
+>
 
->[!note]- paste pdf selection as image to anki 
+>[!note]- paste pdf selection as image to anki
 > want to paste pdf selection as image, so it's synced to the web etc.
 
 >[!note]- serve ollama
 > ```bash
 > open --background docker
 > ollama serve
-> 
+>
 > 'obsidian://advanced-uri?vault=vault&commandid=workspace%253Anew-> tab'
 > 'obsidian://advanced-uri?vault=vault&commandid=obsidian-custom-> frames%253Aopen-custom-frames-ollama'
 > ```
@@ -127,6 +127,3 @@ comment
 <!--
 comment
 -->
-
-
-
