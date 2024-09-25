@@ -1350,10 +1350,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
-                    "page": 29,
-                    "left": -6,
-                    "top": 512,
-                    "zoom": 2.318256268111377
+                    "page": 39,
+                    "left": -52,
+                    "top": 318,
+                    "zoom": 1.9
                   }
                 }
               },
@@ -1401,7 +1401,9 @@
                   "state": {
                     "file": "sem3/TIN/UE/e/TI-e-u01.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -9,
+                    "top": 202,
+                    "zoom": 1.7991654291454722
                   }
                 }
               },
@@ -1418,7 +1420,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1462,7 +1464,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/substring.md"
+                    "file": "sem3/TIN/UE/bf/TI-bf-u01.md"
                   }
                 }
               },
@@ -1472,7 +1474,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/substring.md",
+                    "file": "sem3/TIN/UE/bf/TI-bf-u01.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1489,7 +1491,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/substring.md",
+                    "file": "sem3/TIN/UE/bf/TI-bf-u01.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1499,7 +1501,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5
+        "width": 346.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1579,9 +1582,9 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "5f039bcb0391bdde",
-      "mtime": "2024-09-24T18:17:40+02:00"
+      "active": "e79319518bb608f4",
+      "mtime": "2024-09-25T19:56:44+02:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-a&d"
 }
