@@ -6,7 +6,7 @@ Let $f:\N \to \N$ denote the number of words of length $n\in \N$ over $\Sigma$ t
 
 Let $L_{n} \def \{ w \in \Sigma^* \mid \forall x\in \Sigma \ |w|_{x}\geq 1, |w|=n \}$ denote the language of words of length $n$ that contain each letter at least once. It is know that there exists  $|\Sigma|^n$ words of length $n$. 
 
-Now we just subtract all words that do not contain each letter at least once.
+Now we just subtract all words that do not contain each letter at least once using the sieve formula.
 
 $$
 f(n) \def \begin{cases}
