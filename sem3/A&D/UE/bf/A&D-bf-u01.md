@@ -41,7 +41,8 @@ We make use of the fact that $\log(m^3) =3\log m$.
 
 $$
 \begin{align}
-\lim_{ m \to \infty } \frac{3\log m}{\log m}
+\lim_{ m \to \infty } \frac{3(\log m)}{(\log m)^3} &= \frac{3}{(\log m)^2} &\text{(l'Hôpital)} \\
+&= \frac{1}{\frac{2(\log m)}{m}}
 \end{align}
 $$
 
