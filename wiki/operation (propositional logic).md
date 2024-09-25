@@ -4,7 +4,7 @@ They can be described by function tables for their respective truth assignments.
 
 
 # Examples
-![[dmath-script-hs24.pdf#page=28&rect=36,269,388,361|dmath-script-hs24, p.18]]
+![[predicate (predicate logic)-F8AFDFB68D2CE546F5356933B1663A6E.pdf#page=28&rect=36,269,388,361|dmath-script-hs24, p.18]]
 $$
 \begin{align}
 &\text{Negation (logical not)}

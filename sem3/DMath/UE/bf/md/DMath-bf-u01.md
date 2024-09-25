@@ -10,6 +10,7 @@ The mistake in this proof is that $S$ is a false statement, there exists no larg
 $\qed$
 
 ___
+<div class="page-break" style="page-break-before: always;"></div>
 
 # 1.4
 ## (a)
@@ -54,7 +55,7 @@ We use the formula derived from subpart (a), namely $G\equiv A\vee B$.
 $\qed$
 
 ___
-
+<div class="page-break" style="page-break-before: always;"></div>
 
 # 1.5
 ![[DMath-e-u01.pdf#page=2&rect=78,346,417,452|DMath-e-u01, p.2]]
@@ -93,6 +94,7 @@ Since the function tables for $A \diamondsuit B$ and $B \, \diamondsuit A$ are t
 $\qed$
 
 ___
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## b)
 ![[DMath-e-u01.pdf#page=2&rect=106,194,517,272|DMath-e-u01, p.2]]
@@ -158,6 +160,7 @@ $$
 Since the function tables differ (e.g. the case of $A = B = C = 1$) we can conclude that $F \not \equiv G$. Thus, the statement is disproven. $\qed$
 
 ___
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## c)
 ![[DMath-e-u01.pdf#page=2&rect=105,173,519,190|DMath-e-u01, p.2]]
