@@ -12,7 +12,7 @@ The mistake in this proof is that $S$ is a false statement, there exists no larg
 ## (a)
 ![[DMath-e-u01.pdf#page=2&rect=123,527,490,570|DMath-e-u01, p.2]]
 
-We define the formula $F \equiv(B\to C)\to(\neg(A-<C))$
+We define the formula $F \equiv(B\to C)\to(\neg(A\to C))$
 $$
 \begin{align}
 
