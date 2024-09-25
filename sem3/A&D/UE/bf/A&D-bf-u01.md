@@ -48,11 +48,12 @@ $\qed$
 ## (b)
 ![[A&D-e-u01.pdf#page=2&rect=87,734,486,753|A&D-e-u01, p.2]]
 
-First, we cancel like terms $\lim_{ m \to \infty } \frac{80\cdot2^m \log (m)-2^m}{5\cdot 2^m \log(m)^2} = \lim_{ m \to \infty } \frac{\cancel{ 2^m }(80\log(m)-1)}{\cancel{ 2^m }5\log(m)^2}$.
+First, we cancel like terms $\frac{80\cdot2^m \log (m)-2^m}{5\cdot 2^m \log(m)^2} =\frac{80\log(m)-1}{5\log(m)^2}$.
 
 $$
 \begin{align}
-\lim_{ m \to \infty } \frac{80\cdot2^m \log (m)-2^m}{5\cdot 2^m \log(m)^2} = \lim_{ m \to \infty } \frac{\cancel{ 2^m }(80\log(m)-1)}{\cancel{ 2^m }5\log(m)^2}  \\
+\lim_{ m \to \infty } \frac{80\log(m)-1}{5\log(m)^2}  \overset{\text{l'Hôpital}}{=} \frac{ \frac{80}{m}}{\frac{10\log(m)}{m}}\\
+ \\
 \end{align}
 $$
 
