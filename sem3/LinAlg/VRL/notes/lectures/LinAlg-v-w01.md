@@ -4,6 +4,7 @@
 - [[triangle inequality]], [[cauchy-schwarz inequality]]
 - [[linear independence]]
 - [[zero vector]]
+- 
 
 
 # Lecture Plan
