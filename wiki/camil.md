@@ -1,7 +1,5 @@
 
 
-$$
-\begin{bmatrix}
-a & b & 
-\end{bmatrix}
-$$
+
+abc hoi numbers are [[]]
+
