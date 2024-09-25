@@ -20,12 +20,12 @@ $\qed$
 ## (b)
 ![[TI-e-u01.pdf#page=1&rect=97,314,529,346|TI-e-u01, p.1]]
 
-Let $g:\N \to \N$ denote the number of words of length $n\in \N$ over $\Sigma^n$ that do not contain $11$ as a subword.
+Let $g:\N \to \N$ denote the number of words of length $n\in \N$ over $\Sigma^n$ that do not contain $11$ as a subword. Since for the case of $n=1$
 
 $$
 g(n) \def \begin{cases}
-0, & n=1 \\
-1, & n=2 \\
+2, & n=1 \\
+3, & n=2 \\
 g(n-1) + g(n-2), & n\geq 3
 \end{cases}
 $$
