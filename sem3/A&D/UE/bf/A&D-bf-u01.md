@@ -27,7 +27,7 @@ a_{1} &= 2, a_{n\geq1} = 6a_{n}-2 &\text{(def. $a_{n}$)} \\
 
 \end{align}
 $$
-
+...
 ___
 
 # 1.3
@@ -41,8 +41,8 @@ $$
 &\overset{\text{l'Hôpital}} =\frac{10}{100} =10
 \end{align}
 $$
-
-
+Since $\lim_{ m \to \infty } \frac{f(m)}{g(m)} \neq 0$, $f$ grows asymptotically faster than $g$.
+$\qed$
 
 
 ## (b)
