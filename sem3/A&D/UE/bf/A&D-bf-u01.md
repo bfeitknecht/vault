@@ -48,9 +48,11 @@ $\qed$
 ## (b)
 ![[A&D-e-u01.pdf#page=2&rect=87,734,486,753|A&D-e-u01, p.2]]
 
+First, we cancel like terms $\lim_{ m \to \infty } \frac{80\cdot2^m \log (m)-2^m}{5\cdot 2^m \log(m)^2} = \lim_{ m \to \infty } \frac{\cancel{ 2^m }(80\log(m)-1)}{\cancel{ 2^m }5\log(m)^2}$.
+
 $$
 \begin{align}
-\lim_{ m \to \infty } (80\cdot2^m \log (m)-2^m) 
+\lim_{ m \to \infty } \frac{80\cdot2^m \log (m)-2^m}{5\cdot 2^m \log(m)^2} = \lim_{ m \to \infty } \frac{\cancel{ 2^m }(80\log(m)-1)}{\cancel{ 2^m }5\log(m)^2}  \\
 \end{align}
 $$
 
@@ -61,7 +63,7 @@ We make use of the fact that $\log(m^3) =3\log m$ and apply l'Hôpital's rule.
 $$
 \begin{align}
 \lim_{ m \to \infty } \frac{3\log (m)}{\log (m)^3} &\overset{\text{l'Hôpital}}{=} \frac{3}{\log (m)^2} \\
-&\overset{\text{l'Hôpital}}{=} \frac{1}{\frac{2\log m)}{m}} = \frac{m}{2(\log m)} \\
+&\overset{\text{l'Hôpital}}{=} \frac{1}{\frac{2\log (m)}{m}} = \frac{m}{2\log (m)} \\
 &\overset{\text{l'Hôpital}}{=} \frac{1}{\frac{2}{m}} = \frac{m}{2} \overset{\infty}{\to} \infty \\
 \end{align}
 $$
