@@ -41,13 +41,18 @@ $$
 &\overset{\text{l'Hôpital}} =\frac{10}{100} =10
 \end{align}
 $$
-Since $\lim_{ m \to \infty } \frac{f(m)}{g(m)} \neq 0$, $f$ grows asymptotically faster than $g$.
+Since $\lim_{ m \to \infty } \frac{f(m)}{g(m)} \neq 0$ but also $\lim_{ m \to \infty } \frac{g(m)}{f(m)} \neq 0$, $f$ and $g$ grow asymptotically equal.
 $\qed$
 
 
 ## (b)
 ![[A&D-e-u01.pdf#page=2&rect=87,734,486,753|A&D-e-u01, p.2]]
 
+$$
+\begin{align}
+\lim_{ m \to \infty }  
+\end{align}
+$$
 
 ## (c)
 ![[A&D-e-u01.pdf#page=2&rect=87,714,406,732|A&D-e-u01, p.2]]
