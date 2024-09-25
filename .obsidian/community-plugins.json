@@ -15,7 +15,6 @@
   "statusbar-organizer",
   "obsidian-show-file-path",
   "cmdr",
-  "obsidian-cursor-location-plugin",
   "obsidian-shellcommands",
   "obsidian-toggl-integration",
   "remember-cursor-position",
@@ -34,5 +33,6 @@
   "mathjax-preamble-manager",
   "tabs",
   "open-in-new-tab",
-  "code-styler"
+  "code-styler",
+  "obsidian-cursor-location-plugin"
 ]

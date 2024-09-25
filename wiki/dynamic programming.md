@@ -4,19 +4,19 @@
 
 # Strategy
 
-![[dp-1 1.png]]
+![[dynamic programming-D26234AB47D40327315318E1F4B6BAD0.png]]
 
-![[dp-2 1.png]]
+![[dynamic programming-A6FA78974EB6E8CF14F7C2482FB9872A.png]]
 
-![[dp-3 1.png]]
+![[dynamic programming-C1D26022405AD335CD9EB694214BD84C.png]]
 
-![[dp-4 1.png]]
+![[dynamic programming-86166970D704B3CBA69493E5C4914BDD.png]]
 
-![[dp-5 1.png]]
+![[dynamic programming-8AB62AE22FD8EC2A37BCC437ACEDDE07.png]]
 
-![[dp-6 1.png]]
+![[dynamic programming-6F371C185D9F29035ADF6DCB3C56CA67.png]]
 
-![[dp-7 1.png]]
+![[dynamic programming-0CBA3320759712D0CF61236C471010EB.png]]
 
 # Examples
 
