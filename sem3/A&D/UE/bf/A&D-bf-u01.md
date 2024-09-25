@@ -7,8 +7,10 @@
 
 $$
 \begin{align}
-0 &\geq 0 &n<-\text{(b.c.)} \\
-\sum_{i=0}^{n} (2n+1) &\geq (n+1)^2, \forall n\geq 0 &\text{(i.h.)}
+0 &\geq 0 &\text{(b.c., $n\leftarrow0$)} \\
+\sum_{i=0}^{n} (2n+1) &\geq (n+1)^2, \forall n\geq 0 &\text{(i.h.)} \\
+\sum_{i=0}^{n+1} (2n+1) &\geq (n+2)^2 &\text{(i.s., $n\leftarrow n+1$)} \\
+\bigg(\sum_{i=0}^{n} (2n+1)\bigg) + (2n+3) &\geq (n+2)^2 &\text{} \\
 \end{align}
 $$
 
