@@ -6,7 +6,18 @@ $S\def n\text{ is the largest natural number}$
 $T\def S \land n=1$
 $S \nimpl T$
 
-The mistake in this proof is that $S$ is a false statement, there exists no largest number $n\in \N$. Additionally, $T$ is a compount statement from $S$ and the the binding of its $n=1$. 
+The mistake in this proof is that $S$ is a false statement, there exists no largest number $n\in \N$. Additionally, $T$ is a compound statement from $S$ and the the binding of its $n=1$. 
+
+# 1.4
+## (a)
+![[DMath-e-u01.pdf#page=2&rect=123,527,490,570|DMath-e-u01, p.2]]
+
+We define the formula $F \equiv(B\to C)\to(\neg(A-<C))$
+$$
+\begin{align}
+
+\end{align}
+$$
 
 # 1.5
 ![[DMath-e-u01.pdf#page=2&rect=78,346,417,452|DMath-e-u01, p.2]]
