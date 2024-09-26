@@ -31,10 +31,12 @@ $$
 \end{align}
 $$
 
-Lastly, we can show that for some distinct  $x, y, z \in \Sigma$, $L_{x}=\Sigma^n\setminus \{ L_{y} \cup L_{z}\}$
+Where, in $\text{(4)}$ we use the fact that $|L_{1}\cup L_{2}\cup L_{3}|=|\Sigma^n|$, since the union of all languages that contain at least one given symbol is equal to the language of all words of length $n$.
 
-Where we use the fact that $|L_{1}\cup L_{2}\cup L_{3}|=|\Sigma^n|$, since the union of all languages that contain at least one given symbol is equal to the language of all words of length $n$.
 
+Lastly, we can show that for some distinct  $x, y, z \in \Sigma$, $L_{x}=\Sigma^n\setminus $
+
+La := ("all n long words with at least one a)
 
 
 
