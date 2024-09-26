@@ -1,5 +1,5 @@
 
-- [[vector|vectors]]
+- what is a [[vector]]?
 - basic vector operatations ([[vector addition]], [[scalar multiplication]])
 
 
