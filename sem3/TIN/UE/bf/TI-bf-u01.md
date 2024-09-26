@@ -76,6 +76,10 @@ Prove or disprove.
 ## (a)
 ![[TI-e-u01.pdf#page=1&rect=98,195,533,238|TI-e-u01, p.1]]
 
+Proof by contradiction
+
+Assume for the sake of contradiciton, there exists a language $L\neq$ s.t. $L^2\subseteq L \nimpl$
+
 
 ## (b)
 ![[TI-e-u01.pdf#page=1&rect=98,143,534,187|TI-e-u01, p.1]]
