@@ -24,6 +24,13 @@ $$
 
 
 $$
+|A_1 \cap A_2 \cap \cdots \cap A_m| = \sum_{k=1}^{m} (-1)^{k+1} \sum_{\substack{I \subseteq \{1, 2, \dots, m\} \\ |I| = k}} \left| \bigcap_{i \in I} A_i \right|
+$$
+
+
+
+
+$$
 f(n) \def \begin{cases}
 0, & n < 3 \\
 3^{n} - 3 \cdot 2^n+3, & n \geq 3
