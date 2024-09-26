@@ -83,7 +83,8 @@ assumption
 Assume for the sake of contradiciton, there exists a language $L\neq\empty, L\neq L_{\lambda}, |L|\neq \infty$ s.t. $L^2\subseteq L$. 
 
 apply definition of language concat
-
+case distinction
+uv in L -> wuv -/> in L
 w.o.l.g.
 
 therefore, our assumption must be wrong and the statement is proven.
