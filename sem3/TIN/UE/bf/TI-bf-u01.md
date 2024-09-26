@@ -31,7 +31,7 @@ $$
 Where, in $\text{(4)}$ we use the fact that $|L_{a}\cup L_{b}\cup L_{c}|=|\Sigma^n| =3^n$, since the union of all languages that contain at least one given symbol is equal to the language of all words of length $n$.
 
 
-Lastly, we can show that for some distinct $x, y, z \in \Sigma$ it holds that $L_{x}=\Sigma^n \setminus \Gamma^n$, where, w.l.o.g., $\Gamma = \Sigma\setminus\{x\}$. With this we can construct
+Lastly, we can show that for some distinct $x, y, z \in \Sigma$ it holds that $L_{x}=\Sigma^n \setminus \Gamma^n$, where, w.l.o.g., $\Gamma = \Sigma\setminus\{x\}$. In words, the language $L_{x}$ is equal to the language of all $n$ long words minus all $n$ long words from only $y$ and $z$. With this we can construct
 
 
 
