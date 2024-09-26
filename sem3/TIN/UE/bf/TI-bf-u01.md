@@ -10,7 +10,7 @@ Now we just subtract all words that do not contain each letter at least once usi
 $$
 \begin{align}
 &\boxed{
-\Bigg|\bigcup_{i\in[m]} L_{i}\Bigg| =\sum_{J\subseteq [m]}^{m}(-1)^{l+1} \sum_{i_{l}\in[m]} \bigg|\bigcap_{j\in[i_{l}]} L_{j}\bigg|, \quad m \geq2
+\Bigg|\bigcup_{i\in[m]} L_{i}\Bigg| =\sum_{J\subseteq [m]}(-1)^{|J|+1} \bigg|\bigcap_{j\in J} L_{j}\bigg|, \quad m \geq2
 }
 \end{align}
 $$
