@@ -1,5 +1,5 @@
 
-## Literature
+## Problem
 ![[auw-network-flow-multi-source&sink.png]]
 ![[auw-network-flow-multi-source&sink-img.png]]
 
