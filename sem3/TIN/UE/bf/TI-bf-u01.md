@@ -22,7 +22,22 @@ $$
 $$
 
 
-Solving for $|L_{a,b,c}|$ in $(2)$ finally yields the formula we need.
+Solving for $|L_{a,b,c}| = |L_{a}\cap L_{b}\cap L_{c}|$ in $(2)$ finally yields the formula we need.
+$$
+\begin{align}
+|L_{a}\cap L_{b}\cap L_{c}| &= |L_{a}\cup L_{b}\cup L_{c}| - |L_{a}| - |L_{b}| - |L_{c}| + |L_{a}\cap L_{b}| + |L_{a}\cap L_{c}| +|L_{b}\cap L_{c}| &\text{(3)}
+\end{align}
+$$
+
+We also need the formula for $|L_{x,y}|=|L_{x}\cap L_{y}|$.
+$$
+\begin{align}
+|L_{x} \cap L_{y}| &= |L_{x}|+|L_{y}|-|L_{x} \cup L_{y}| &\text{(4)}
+\end{align}
+$$
+
+Now we substitute what we have in $\text{(3)}$.
+
 
 $$
 \begin{align}
@@ -32,7 +47,7 @@ $$
 $$
 
 
-$|L_{x} \cap L_{y}| &= |L_{x}|+|L_{y}|-|L_{x} \cup L_{y}|$
+
 Where, in $\text{(4)}$ we use the fact that $|L_{a}\cup L_{b}\cup L_{c}|=|\Sigma^n| =3^n$, since the union of all languages that contain at least one given symbol is equal to the language of all words of length $n$.
 
 
