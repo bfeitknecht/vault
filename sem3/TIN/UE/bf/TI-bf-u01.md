@@ -42,10 +42,10 @@ Now we substitute what we have in $\text{(3)}$.
 $$
 \begin{align}
 |L_{a}\cap L_{b}\cap L_{c}| &= \overbrace{ |L_{a}\cup L_{b}\cup L_{c}| }^{ \text{(5)} } \underbrace{ - |L_{a}| - |L_{b}| - |L_{c}| }_{ \text{(6)} } \overbrace{ + |L_{a}\cap L_{b}| + |L_{a}\cap L_{c}| +|L_{b}\cap L_{c}| }^{ \text{(7)} } \\
-\text{(5)} &= 3^n \\
-\text{(6)} &= -3\cdot(3^n-2^n) \\
-\text{(7)} &= |L_{a}|+|L_{b}|-|L_{a} \cup L_{b}| + |L_{a}|+|L_{c}|-|L_{a} \cup L_{c}| +|L_{b}|+|L_{c}|-|L_{b} \cup L_{c}| \\
-&= 6\cdot(3^n-2^n) -6\cdot(2^n)
+%%\text{(5)} &= 3^n \\
+%%\text{(6)} &= -3\cdot(3^n-2^n) \\
+\text{(6), (7)} &= \cancel{ |L_{a}| }\cancel{ +|L_{b}| }-|L_{a} \cup L_{b}| + |L_{a}|\cancel{ +|L_{c}| }-|L_{a} \cup L_{c}| +|L_{b}|+|L_{c}|-|L_{b} \cup L_{c}| \\
+&= |L_{a}| + |L_{b}| + |L_{c}| -
 \end{align}
 $$
 
