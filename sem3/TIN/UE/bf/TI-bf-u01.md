@@ -3,6 +3,7 @@
 ![[TI-e-u01.pdf#page=1&rect=97,354,529,385|TI-e-u01, p.1]]
 
 
+
 It is know that there exists  $|\Sigma|^n$ words of length $n$. We just subtract all words that do not contain each letter at least once using the sieve formula over $m$ sets, since we want to account for duplicates.
 $$
 \begin{align}
