@@ -4,6 +4,7 @@
     "pdf-plus:toggle-adapt-to-theme",
     "persistent-graph:restore-node-positions",
     "persistent-graph:save-node-positions",
+    "editor:fold-all",
     "persistent-graph:run-graph-simulation",
     "persistent-graph:stop-graph-simulation"
   ]
