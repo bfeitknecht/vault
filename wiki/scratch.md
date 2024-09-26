@@ -1,10 +1,19 @@
 
-We pove this by a simple Case Distingtion.
-### Case 1: $L = \emptyset$
-If $L = \emptyset$, then $L^2 = \emptyset$ and clearly $\emptyset \subseteq \emptyset$. This trivially proves the first part of the implication.
-### Case 2: $L=\{\lambda\}$
-If $L = \{\lambda\}$, then $L^2 = \{\lambda\lambda\} = \{\lambda\}$. Since $L = L^2 \implies L^2 \subseteq L$
+We pove this by case distinction.
+
+### Case $L = \emptyset$
+Let $L = \emptyset$, then $L^2 = \emptyset$ and clearly $\emptyset \subseteq \emptyset$. Thus $L^2 \subseteq L$.
+
+### Case $L=\{\lambda\}$
+Let $L = \{\lambda\}$, then $L^2 = \{\lambda\lambda\} = \{\lambda\}$. Since $L = L^2 \implies L^2 \subseteq L$
 This trivially proves the second part of the implication. 
+
+### Case $|L|=\infty$
+To prove this case we show that $L$ cannot be finite yet still fulfill $L^2 \subseteq L$.
+Assuming $L$ contains as least one non-empty word $w \in L$ then $L^2$ has to contain the cconcatenation of that word with itself, i.e. $ww \in L^2$.
+
+To fulfill $L^2 \subseteq L$, we have to add $ww \in L$. This forces $wwww \in L^2$ creating an infinite loop and thus infinite number of unique words.
+This is only possible if $L$ is infinite and proves the third part of the implication.
 
 
 
@@ -40,11 +49,9 @@ Since both inclusions are now proven because of definition we can say $L_{2} * (
 
 
 
-### Case 3: 
-To prove Case 3 we prove that $L$ cannot be finite to fulfill $L^2 \subseteq L$.
-Assuming $L$ contains as least one non-empty word $w \in L$ then $L^2$ has to contain the cconcatenation of $w$ $ww \in L^2$.
-To fulfill $L^2 \subseteq L$, we have to add $ww \in L$. This forces $wwww \in L^2$ creating an infinite loop and thus infinite number of unique words.
-This is only possible if $L$ is infinite and proofes the third part of the implication.
+
+
+
 
 das isch no 3d:
 $$
