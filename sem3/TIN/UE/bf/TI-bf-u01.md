@@ -34,7 +34,7 @@ $$
 Where, in $\text{(4)}$ we use the fact that $|L_{1}\cup L_{2}\cup L_{3}|=|\Sigma^n|$, since the union of all languages that contain at least one given symbol is equal to the language of all words of length $n$.
 
 
-Lastly, we can show that for some distinct  $x, y, z \in \Sigma$, $L_{x}=\Sigma^n \setminus \Sigma-\{y, z\}^n$
+Lastly, we can show that for some distinct $x, y, z \in \Sigma$ it holds that $L_{x}=\Sigma^n \setminus \Gamma^n$, where, w.l.o.g., $\Gamma = \Sigma\setminus\{x\}$. With this we can construct
 
 La := ("all n long words with at least one a)
 
