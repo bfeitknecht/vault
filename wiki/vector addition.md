@@ -1,2 +1,2 @@
 
-Let $v, w \in \mathbb R^m, v=[a_{1} \dots a_{m}], w=[b_{1} \dots b_{m}]$, then $v+w = [a_{1} + b_{1} \dots a_{m} + b_{m}]$. Basically, putting one arrow's base on the tip of the other and evaluating the result.
+Let $\mathbf{v}, \mathbf{w} \in \mathbb R^m, \mathbf{v}=[v_{1}, \dots, v_{m}], \mathbf{w}=[w_{1}, \dots, w_{m}]$, then $\mathbf{v}+\mathbf{w} = [v_{1} + w_{1} \dots v_{m} + w_{m}]$. Basically, putting one arrow's base on the tip of the other and evaluating the result.

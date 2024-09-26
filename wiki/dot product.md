@@ -30,5 +30,6 @@ $$
 > 
 > On the other extreme, if they are [[codirectional]] then the angle between them is zero with $\cos 0=1$ and $\mathbf{v}\cdot \mathbf{w}=\|\mathbf{v}\| \ \|\mathbf{w}\|$. 
 > 
-> This implies that the dot product of a vector $\mathbf{v}$ with itself is $\mathbf{v}\cdot \mathbf{v}=\|\mathbf{v}\|^2$ which gives $\|\mathbf{v}\|=\sqrt{ \mathbf{v}\cdot \mathbf{v} }=\sum_{{i=1}}$ the formula for the [[euclidian norm]].
+> This implies that the dot product of a vector $\mathbf{v}$ with itself is $\mathbf{v}\cdot \mathbf{v}=\|\mathbf{v}\|^2$ which gives $\|\mathbf{v}\|=\sqrt{ \mathbf{v}\cdot \mathbf{v} }$ the formula for the [[euclidian norm]].
+
 
