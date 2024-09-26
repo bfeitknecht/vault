@@ -27,11 +27,11 @@ Solving for $|L_{a}\cap L_{b}\cap L_{c}|$ in $(2)$ finally yields the formula we
 
 $$
 \begin{align}
-|L_{a}\cap L_{b}\cap L_{c}| &= |L_{a}\cup L_{b}\cup L_{c}| - |L_{a}| - |L_{b}| - |L_{c}| + |L_{a}\cap L_{b}| + |L_{a}\cap L_{c}| +|L_{b}\cap L_{c}| &\text{(3)}
+|L_{a}\cap L_{b}\cap L_{c}| &= \overbrace{ |L_{a}\cup L_{b}\cup L_{c}| }^{ =|\Sigma| } - |L_{a}| - |L_{b}| - |L_{c}| + |L_{a}\cap L_{b}| + |L_{a}\cap L_{c}| +|L_{b}\cap L_{c}| &\text{(3)}
 \end{align}
 $$
 
-Where, $|L_{1}\cup L_{2}\cup L_{3}|=|\Sigma^n|$, since the union of all languages that contain at least one given symbol is equal to the language of all words of length $n$.
+Where we use the fact that $|L_{1}\cup L_{2}\cup L_{3}|=|\Sigma^n|$, since the union of all languages that contain at least one given symbol is equal to the language of all words of length $n$.
 
 
 
