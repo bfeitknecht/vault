@@ -9,6 +9,11 @@ Let $L_{n} \def \{ w \in \Sigma^* \mid \forall x\in \Sigma \ |w|_{x}\geq 1, |w|=
 Now we just subtract all words that do not contain each letter at least once using the sieve formula, since we want to account for duplicates.
 
 $$
+\begin{align}
+\Bigg|\bigcup_{i=1}^n \mathcal A_{i}\Bigg|
+\end{align}
+$$
+$$
 f(n) \def \begin{cases}
 0, & n < 3 \\
 3^{n} - 3 \cdot 2^n+3, & n \geq 3
