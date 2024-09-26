@@ -45,13 +45,13 @@ $$
 \text{(5)} &= 3^n \\
 \text{(6)} &= -3\cdot(3^n-2^n) \\
 \text{(7)} &= |L_{a}|+|L_{b}|-|L_{a} \cup L_{b}| + |L_{a}|+|L_{c}|-|L_{a} \cup L_{c}| +|L_{b}|+|L_{c}|-|L_{b} \cup L_{c}| \\
-&= 6\cdot(3^n-2^n) -3\cdot()
+&= 6\cdot(3^n-2^n) -6\cdot(2^n)
 \end{align}
 $$
 
 
 
-Where, in $\text{(4)}$ we use the fact that $|L_{a}\cup L_{b}\cup L_{c}|=|\Sigma^n| =3^n$, since the union of all languages that contain at least one given symbol is equal to the language of all words of length $n$.
+Where, in $\text{(5)}$ we use the fact that $|L_{a}\cup L_{b}\cup L_{c}|=|\Sigma^n| =3^n$, since the union of all languages that contain at least one given symbol is equal to the language of all words of length $n$.
 
 
 Lastly, we can show that for some distinct $x, y, z \in \Sigma$ it holds that $L_{x}=\Sigma^n \setminus \Gamma^n$, where, w.l.o.g., $\Gamma = \Sigma\setminus\{x\}$. In words, the language $L_{x}$ is equal to the language of all $n$ long words minus all $n$ long words from only $y$ and $z$. With this we can construct
@@ -64,7 +64,6 @@ Lastly, we can show that for some distinct $x, y, z \in \Sigma$ it holds that $L
 
 La := ("all n long words with at least one a)
 
-$\text{(5)} = -3^{n+1}+3\cdot2^n$ 
 
 $$
 \begin{align}
