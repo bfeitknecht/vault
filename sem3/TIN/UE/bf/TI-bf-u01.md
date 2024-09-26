@@ -4,7 +4,7 @@
 
 Let $f:\N \to \N$ denote the number of words of length $n\in \N$ over $\Sigma$ that contain each of the three letters in the alphabet at least once.
 
-Let $L_{n} \def \{ w \in \Sigma^* \mid \forall x\in \Sigma \ |w|_{x}\geq 1, |w|=n \}$ denote the language of words of length $n$ that contain each letter at least once. It is know that there exists  $|\Sigma|^n$ words of length $n$. 
+Let $L \def \{ w \in \Sigma^n \mid \forall x\in \Sigma \ |w|_{x}\geq 1 \}$ denote the language of words of length $n$ that contain each letter at least once. It is know that there exists  $|\Sigma|^n$ words of length $n$. 
 
 Now we just subtract all words that do not contain each letter at least once using the sieve formula over $m$ sets, since we want to account for duplicates.
 $$
