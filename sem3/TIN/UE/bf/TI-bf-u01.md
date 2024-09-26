@@ -10,7 +10,8 @@ Now we just subtract all words that do not contain each letter at least once usi
 
 $$
 \begin{align}
-\Bigg|\bigcup_{i=1}^n L_{i}\Bigg| =\sum_{l=1}^{n}(-1)^{l+1} \sum_{i_{l}\in[n]} \bigg|\bigcap_{} L_{j}\bigg|
+\Bigg|\bigcup_{i=1}^n L_{i}\Bigg| &=\sum_{l=1}^{n}(-1)^{l+1} \sum_{i_{l}\in[n]} \bigg|\bigcap_{j\in[i_{l}]} L_{j}\bigg| \\
+&= |L_{1}| + |L_{2}| + |L_{3}| - |L_{1}\cap L_{2}| - |L_{1}\cap L_{3}| -|L_{2}\cap L_{3}| + &\text{(for $n=3$)}
 \end{align}
 $$
 $$
