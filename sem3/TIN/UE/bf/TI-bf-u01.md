@@ -106,6 +106,20 @@ Prove or disprove.
 ## (a)
 ![[TI-e-u01.pdf#page=1&rect=98,195,533,238|TI-e-u01, p.1]]
 
+We pove this by case distinction.
+### Case $L = \emptyset$
+Let $L = \emptyset$, then $L^2 = \emptyset$ and clearly $\emptyset \subseteq \emptyset$. Thus $L^2 \subseteq L$.
+
+### Case $L=\{\lambda\}$
+Let $L = \{\lambda\}$, then $L^2 = \{\lambda\lambda\} = \{\lambda\}$. Since $L = L^2 \implies L^2 \subseteq L$
+
+### Case $|L|=\infty$
+
+We prove this case by contradiction. Assume for the sake of contradiction, that the order of our language is finite, i.e. $|L|\neq\infty$. Let $w \in L$ be an arbitrary word, s.t. $w\neq\lambda$.
+
+Now, since we assume the statement to be true for some finite order language, there must be some word $v\in L^2$ s.t. $v=w^2$. However, since we assume $L^2 \subseteq L$, there must also be some word $u\in L^2$ s.t. $u=v^2$.
+
+We have arrived at a contradiction, since $L$ cannot be finite but fulfill the implication. Thus $|L
 
 Proof by contradiction
 
