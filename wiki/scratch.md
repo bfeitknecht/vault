@@ -81,19 +81,11 @@ Since both inclusions are now proven because of definition we can say $L_{2} * (
 
 To solve this, we use the principle of inclusion-exclusion.
 
-It is known, that there are $|\Sigma|^n$ words of length $n$ over the alphabet $\Sigma$.
+It is known, that there are $|\Sigma|^n$ words of length $n$ over the alphabet $\Sigma$, in our case $3^n$.
 
-Now we need to subtract all words that are missing one letter, i.e. $w\in\Gamma^n$, where $\Gamma=\Sigma-\{s\}$ for some $s\in \Sigma$. Since these words consist of only two letters, there are $2^n
+Now we need to subtract all words that are missing one letter, i.e. $w\in\Gamma^n$, where $\Gamma=\Sigma-\{s\}$ for some $s\in \Sigma$. Since these words consist of only two letters, there are $2^n$ of them in the three different possible languages. Let $\Gamma_{a, b}^n, \Gamma_{a,c}^n, \Gamma_{b,c}^n$ be the languages of words of words of length $n$ consisting only of the denoted letters. Therefore, w.o.l.g. $|\Gamma_{x, y}^n|=2^n$, and since there are three such sets, we need to subtract $3\cdot 2^n$ from our total.
 
-	•	Words that miss the letter  a : These words are made up of only  b  and  c . The number of such words is  2^n .
-	•	Words that miss the letter  b : These words are made up of only  a  and  c , so there are also  2^n  such words.
-	•	Words that miss the letter  c : These words are made up of only  a  and  b , which again gives  2^n  words.
-
-By the inclusion-exclusion principle, the total number of words missing at least one letter is:
-
-3 \times 2^n
-
-since there are 3 possible letters to be missing.
+Finally, let's add back the words that were subtracted multiple times, i.e. words missing two symbols. There are only $3$ such words, namely $a^n, b^n, c^n$. Thus we arrive at the final number $
 
 Step 3: Add back words missing two letters
 
