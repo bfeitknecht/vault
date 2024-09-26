@@ -41,8 +41,10 @@ Now we substitute what we have in $\text{(3)}$.
 
 $$
 \begin{align}
-|L_{a}\cap L_{b}\cap L_{c}| &= \overbrace{ |L_{a}\cup L_{b}\cup L_{c}| }^{ \text{(4)} } \underbrace{ - |L_{a}| - |L_{b}| - |L_{c}| }_{ \text{(5)} } \overbrace{ + |L_{a}\cap L_{b}| + |L_{a}\cap L_{c}| +|L_{b}\cap L_{c}| }^{ \text{(6)} } &\text{(3)} \\
-
+|L_{a}\cap L_{b}\cap L_{c}| &= \overbrace{ |L_{a}\cup L_{b}\cup L_{c}| }^{ \text{(5)} } \underbrace{ - |L_{a}| - |L_{b}| - |L_{c}| }_{ \text{(6)} } \overbrace{ + |L_{a}\cap L_{b}| + |L_{a}\cap L_{c}| +|L_{b}\cap L_{c}| }^{ \text{(7)} } \\
+\text{(5)} &= 3^n \\
+\text{(6)} &= -3\cdot(3^n-2^n) \\
+\text{(7)} &= |L_{a}|+|L_{b}|-|L_{a} \cup L_{b}| + |L_{x}|+|L_{y}|-|L_{x} \cup L_{y}| +|L_{b}\cap L_{c}|
 \end{align}
 $$
 
