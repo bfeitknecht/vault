@@ -10,7 +10,7 @@ Now we just subtract all words that do not contain each letter at least once usi
 $$
 \begin{align}
 &\boxed{
-\Bigg|\bigcup_{i=1}^m L_{i}\Bigg| =\sum_{l=1}^{m}(-1)^{l+1} \sum_{i_{l}\in[m]} \bigg|\bigcap_{j\in[i_{l}]} L_{j}\bigg|, \quad m \geq2
+\Bigg|\bigcup_{i\in[m]} L_{i}\Bigg| =\sum_{J\subseteq [m]}^{m}(-1)^{l+1} \sum_{i_{l}\in[m]} \bigg|\bigcap_{j\in[i_{l}]} L_{j}\bigg|, \quad m \geq2
 }
 \end{align}
 $$
@@ -18,7 +18,7 @@ $$
 We define $L_{i\in[3]}$ as the language of words of length $n$ containing **at least** one symbol $s_{i}\in \Sigma$ of index $i$ in the alphabet. So $L_1$ corresponds to all words of length $n$ that contain at least one $a$, $L_2$ to the language containing words of length $n$ with at least one $b$, etc. The sieve formula for $m=3=|\Sigma|$  is as follows.
 $$
 \boxed{
-|L_{1}| + |L_{2}| + |L_{3}| - |L_{1}\cap L_{2}| - |L_{1}\cap L_{3}| -|L_{2}\cap L_{3}| +|L_{1}\cap L_{2}\cap L_{3}|
+|L_{1}\cup L_{2}\cup L_{3}| = |L_{1}| + |L_{2}| + |L_{3}| - |L_{1}\cap L_{2}| - |L_{1}\cap L_{3}| -|L_{2}\cap L_{3}| +|L_{1}\cap L_{2}\cap L_{3}|
 }
 $$
 
