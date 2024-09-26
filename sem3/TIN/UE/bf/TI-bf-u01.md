@@ -10,7 +10,7 @@ Now we just subtract all words that do not contain each letter at least once usi
 
 $$
 \begin{align}
-\Bigg|\bigcup_{i=1}^n \mathcal A_{i}\Bigg|
+\Bigg|\bigcup_{i=1}^n L_{i}\Bigg| =\sum_{l=1}^{n}(-1)^{l+1} \sum_{i_{l}\in[n]} \bigg|\bigcap_{} L_{j}\bigg|
 \end{align}
 $$
 $$
