@@ -106,6 +106,7 @@ Prove or disprove.
 ## (a)
 ![[TI-e-u01.pdf#page=1&rect=98,195,533,238|TI-e-u01, p.1]]
 
+
 Proof by contradiction
 
 assumption
@@ -113,7 +114,14 @@ assumption
 Assume for the sake of contradiciton, there exists a language $L\neq\empty, L\neq L_{\lambda}, |L|\neq \infty$ s.t. $L^2\subseteq L$. 
 
 apply definition of language concat
+
 case distinction
+case L=ø
+
+case L = $\lambda$
+
+case |L|=infinite
+
 uv in L -> wuv -/> in L
 w.o.l.g.
 
