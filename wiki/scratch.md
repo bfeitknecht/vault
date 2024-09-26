@@ -1,0 +1,56 @@
+
+We pove this by a simple Case Distingtion.
+### Case 1: $L = \emptyset$
+If $L = \emptyset$, then $L^2 = \emptyset$ and clearly $\emptyset \subseteq \emptyset$. This trivially proves the first part of the implication.
+### Case 2: $L=\{\lambda\}$
+If $L = \{\lambda\}$, then $L^2 = \{\lambda\lambda\} = \{\lambda\}$. Since $L = L^2 \implies L^2 \subseteq L$
+This trivially proves the second part of the implication. 
+
+
+
+
+Try 2
+
+To show that two Languages are equal we need to show that $L_1 \subseteq L_2$ and $L_2 \subseteq L_1$.
+
+Lets start with:
+$L_2 * (L_2 - L_1) \subseteq (L_2)^2 - L_2 * L_1$
+
+Let $z \in L_2 * (L_2 - L_1)$.
+Because of the definition of concatination we can say:
+$z = xy\qquad where\qquad x \in L_2\; and \; y \in L_2 - L_1$
+$\implies x \in L_2$ and $y \in L_{2}$ but $y \notin L_1$
+
+Now lets check if this is a subset or equal the right set.
+Lets split the right side into $(L_2)^2$ and $L_2 * L_1$.
+We need to check that $z \in (L_2)^2$ and $z \notin L_2 * L_1$.
+$x,y \in L_2 \implies z \in (L_{2})^2$
+$x \in L_2$ and $y \notin L_1$ $\implies z \notin L_2 * L_1$
+
+Now lets show:
+$(L_2)^2 - L_2 * L_1 \subseteq L_2 * (L_2 - L_1)$
+Let $z \in (L_2)^2 - L_2 * L_1$.
+$z = xy\qquad where\qquad x,y \in L_2\;  and\; z \notin L_{2} * L_1$
+$z \notin L_{2} * L_1 \implies y \notin L_1$ because for $z$ to be in $L_2*L_1$ $y$ (the second element) needs to be in $L_1$.
+Now with $x \in L_2$ and $y \in L_2 - L_{1}$
+Now concatinating $x$ and $y$ we get the set $L_2 * (L_2 - L_1)$.
+And because $z = xy$ we can say that $z \subseteq L_2 * (L_2 - L_1)$.
+
+Since both inclusions are now proven because of definition we can say $L_{2} * (L_{2} - L_{1}) = (L_{2})^2 - L_{2} * L_{1}$.
+
+
+
+### Case 3: 
+To prove Case 3 we prove that $L$ cannot be finite to fulfill $L^2 \subseteq L$.
+Assuming $L$ contains as least one non-empty word $w \in L$ then $L^2$ has to contain the cconcatenation of $w$ $ww \in L^2$.
+To fulfill $L^2 \subseteq L$, we have to add $ww \in L$. This forces $wwww \in L^2$ creating an infinite loop and thus infinite number of unique words.
+This is only possible if $L$ is infinite and proofes the third part of the implication.
+
+das isch no 3d:
+$$
+\begin{align}
+&L_1 = \bigcup_{i=1}^{i=k} a^{\max(k,l) \cdot i} \\
+&L_2 = \bigcup_{i=1}^{i=l} a^i \\
+&\Sigma = \{a\}
+\end{align}
+$$
