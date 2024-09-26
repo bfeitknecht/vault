@@ -1,15 +1,15 @@
 
 
-The **dot product** (or *scalar product* – not to be confused with [[scalar multiplication]]) of two [[vector|vectors]] $v, w \in \R^m$ is defined as
+The **dot product** (or *scalar product* – not to be confused with [[scalar multiplication]]) of two [[vector|vectors]] $\mathbf{v}, \mathbf{w} \in \R^m$ is defined as
 $$
-v \cdot w \def \sum_{i=1}^{m}{v_{i}w_{i}}
+\mathbf{v} \cdot \mathbf{w} \def \sum_{i=1}^{m}{v_{i}w_{i}}
 $$
-and can be denoted with $\langle v, w \rangle$ or $v \cdot w$.
+and can be denoted with $\langle \mathbf{v}, \mathbf{w} \rangle$ or $\mathbf{v} \cdot \mathbf{w}$.
 
-If $v$ and $w$ are [[row and column vectors|column vectors]], the dot product can also be denoted as $v \cdot w =v^\top w$, where $v^\top$ denotes the [[transpose]] of $v$.
+If $\mathbf{v}$ and $\mathbf{w}$ are [[row and column vectors|column vectors]], the dot product can also be denoted as $\mathbf{v} \cdot \mathbf{w} =\mathbf{v}^\top \mathbf{w}$, where $\mathbf{v}^\top$ denotes the [[transpose]] of $\mathbf{v}$.
 $$
 \begin{align}
-v \cdot w &=
+\mathbf{v} \cdot \mathbf{w} &=
 \begin{bmatrix}
 v_{1}, \dots, v_{m} \\
 

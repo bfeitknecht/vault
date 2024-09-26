@@ -30,7 +30,8 @@ A single vector $v$ in $m$-dimensional space is denoted as $\mathbf{v}=\begin{bm
 
 
 
-# Vector 
+# Vector Properties
+
 ## Triangle Inequality
 ![[triangle inequality]]
 
@@ -44,6 +45,5 @@ A single vector $v$ in $m$-dimensional space is denoted as $\mathbf{v}=\begin{bm
 ![[zero vector]]
 
 
-
-# Linear Independence
+## Linear Independence
 ![[linear independence]]
