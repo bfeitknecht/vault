@@ -27,7 +27,7 @@ Solving for $|L_{a}\cap L_{b}\cap L_{c}|$ in $(2)$ finally yields the formula we
 
 $$
 \begin{align}
-|L_{a}\cap L_{b}\cap L_{c}| &= \overbrace{ |L_{a}\cup L_{b}\cup L_{c}| }^{ =|\Sigma| } - |L_{a}| - |L_{b}| - |L_{c}| + |L_{a}\cap L_{b}| + |L_{a}\cap L_{c}| +|L_{b}\cap L_{c}| &\text{(3)}
+|L_{a}\cap L_{b}\cap L_{c}| &= \overbrace{ |L_{a}\cup L_{b}\cup L_{c}| }^{ \text{(4)} } \underbrace{ - |L_{a}| - |L_{b}| - |L_{c}| }_{ \text{(5)} } + \overbrace{ |L_{a}\cap L_{b}| + |L_{a}\cap L_{c}| +|L_{b}\cap L_{c}| }^{ \text{(6)} } &\text{(3)}
 \end{align}
 $$
 
