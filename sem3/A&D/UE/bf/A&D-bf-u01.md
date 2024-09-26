@@ -14,7 +14,7 @@ $$
 }
 $$
 
-Now, we will formulate the **inductive hypothesis**, for some $n\in \mathbb N$
+Now, we will formulate the **inductive hypothesis**, for some arbitrary $n\in \mathbb N$
 $$
 \boxed{
 \begin{align}
@@ -23,16 +23,19 @@ $$
 }
 $$
 
-
+In the **inductive step**, we let $n\leftarrow n+1$, i.e. 
 $$
-\boxed{
+\boxed{\sum_{k=0}^{n+1} (2k+1) \geq (n+2)^2}
+$$
+
+All that remains is to simplify and apply the inductive hypothesis.
+$$
 \begin{align}
-\sum_{i=0}^{n+1} (2n+1) &\geq (n+2)^2 &\text{(i.s., $n\leftarrow n+1$)} \\
+\sum_{k=0}^{n+1} (2k+1) &\geq (n+2)^2 &\text{(split the sum)} \\
 \bigg(\sum_{i=0}^{n} (2n+1)\bigg) + (2n+3) &\geq n^2+4n+4 &\text{(subtract like terms)} \\
 \sum_{i=0}^{n} (2n+1) &\geq n^2+2n+1 &\text{(collect the square)} \\
 \sum_{i=0}^{n} (2n+1) &\overset{\text{i.h.}}{\geq} (n+1)^2 &\qed \\
 \end{align}
-}
 $$
 
 
