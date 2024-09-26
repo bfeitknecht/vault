@@ -20,6 +20,8 @@ $$
 \end{align}
 $$
 
+For convenience and readability, we will use the notation $L_{a, b, c} = L_{a}\cap L_{b}\cap L_{c}$, as well as $L_{x, y} =L_{x}\cap L_{y}$, for some $x,y \in \Sigma, x\neq y$.
+
 Solving for $|L_{a}\cap L_{b}\cap L_{c}|$ in $(2)$ finally yields the formula we will use.
 
 $$
@@ -37,7 +39,7 @@ Lastly, we can show that for some distinct $x, y, z \in \Sigma$ it holds that $L
 
 
 %%%%%%%%%%%%
-![[AuW-script.pdf#page=55&rect=203,193,393,217|AuW-script, p.55]]
+
 
 La := ("all n long words with at least one a)
 
@@ -45,7 +47,7 @@ $\text{(5)} = -3^{n+1}+3\cdot2^n$
 
 $$
 \begin{align}
-|L_{x} \cap L_{y}| = |L_{x}|+|L_{y}|-|L_{x} \cap L_{y}|
+|L_{x} \cap L_{y}| = |L_{x}|+|L_{y}|-|L_{x} \cup L_{y}|
 \end{align}
 $$
 
