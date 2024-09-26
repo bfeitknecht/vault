@@ -19,15 +19,15 @@ We define $L_{s\in\Sigma}$ as the language of words of length $n$ containing **a
 
 $$
 \begin{align}
-|L_{1}\cup L_{2}\cup L_{3}| &= |L_{1}| + |L_{2}| + |L_{3}| - |L_{1}\cap L_{2}| - |L_{1}\cap L_{3}| -|L_{2}\cap L_{3}| +|L_{1}\cap L_{2}\cap L_{3}|, &\text{(2)}
+|L_{a}\cup L_{b}\cup L_{c}| &= |L_{a}| + |L_{b}| + |L_{c}| - |L_{a}\cap L_{b}| - |L_{a}\cap L_{c}| -|L_{b}\cap L_{c}| +|L_{a}\cap L_{b}\cap L_{c}|, &\text{(2)}
 \end{align}
 $$
 
-Solving for $|L_{1}\cap L_{2}\cap L_{3}|$ in $(2)$ finally yields the formula we will use.
+Solving for $|L_{a}\cap L_{b}\cap L_{c}|$ in $(2)$ finally yields the formula we will use.
 
 $$
 \begin{align}
-|L_{1}\cap L_{2}\cap L_{3}| &= |L_{1}\cup L_{2}\cup L_{3}| - |L_{1}| - |L_{2}| - |L_{3}| + |L_{1}\cap L_{2}| + |L_{1}\cap L_{3}| +|L_{2}\cap L_{3}| &\text{(3)}
+|L_{a}\cap L_{b}\cap L_{c}| &= |L_{a}\cup L_{b}\cup L_{c}| - |L_{a}| - |L_{b}| - |L_{c}| + |L_{a}\cap L_{b}| + |L_{a}\cap L_{c}| +|L_{b}\cap L_{c}| &\text{(3)}
 \end{align}
 $$
 
