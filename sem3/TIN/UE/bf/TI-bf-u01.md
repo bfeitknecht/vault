@@ -11,16 +11,20 @@ $$
 \begin{align}
 &\boxed{
 \Bigg|\bigcup_{i\in[m]} L_{i}\Bigg| =\sum_{J\subseteq [m]}(-1)^{|J|+1} \bigg|\bigcap_{j\in J} L_{j}\bigg|, \quad m \geq2
-}
+} &\text{(1)}
 \end{align}
 $$
 
-We define $L_{i\in[3]}$ as the language of words of length $n$ containing **at least** one symbol $s_{i}\in \Sigma$ of index $i$ in the alphabet. So $L_1$ corresponds to all words of length $n$ that contain at least one $a$, $L_2$ to the language containing words of length $n$ with at least one $b$, etc. The sieve formula for $m=3=|\Sigma|$  is as follows, $|L_{1}\cup L_{2}\cup L_{3}| = |L_{1}| + |L_{2}| + |L_{3}| - |L_{1}\cap L_{2}| - |L_{1}\cap L_{3}| -|L_{2}\cap L_{3}| +|L_{1}\cap L_{2}\cap L_{3}|$, where, after solving for $|L_{1}\cap L_{2}\cap L_{3}|$ finally yields the formula we will use.
+We define $L_{i\in[3]}$ as the language of words of length $n$ containing **at least** one symbol $s_{i}\in \Sigma$ of index $i$ in the alphabet. So $L_1$ corresponds to all words of length $n$ that contain at least one $a$, $L_2$ to the language containing words of length $n$ with at least one $b$, etc. The sieve formula for $m=3=|\Sigma|$  is as follows, 
 
 $$
-\boxed{
-|L_{1}\cap L_{2}\cap L_{3}| = |L_{1}\cup L_{2}\cup L_{3}| - |L_{1}| - |L_{2}| - |L_{3}| + |L_{1}\cap L_{2}| + |L_{1}\cap L_{3}| +|L_{2}\cap L_{3}|
-}
+|L_{1}\cup L_{2}\cup L_{3}| = |L_{1}| + |L_{2}| + |L_{3}| - |L_{1}\cap L_{2}| - |L_{1}\cap L_{3}| -|L_{2}\cap L_{3}| +|L_{1}\cap L_{2}\cap L_{3}|
+$$, where, after solving for $|L_{1}\cap L_{2}\cap L_{3}|$ finally yields the formula we will use.
+
+$$
+\begin{align}
+|L_{1}\cap L_{2}\cap L_{3}| &= |L_{1}\cup L_{2}\cup L_{3}| - |L_{1}| - |L_{2}| - |L_{3}| + |L_{1}\cap L_{2}| + |L_{1}\cap L_{3}| +|L_{2}\cap L_{3}| &\text{(2)}
+\end{align}
 $$
 
 Where, $|L_{1}\cup L_{2}\cup L_{3}|=|\Sigma^n|$, since the union of all languages that contain at least one given symbol is equal to the language of all words of length $n$.
