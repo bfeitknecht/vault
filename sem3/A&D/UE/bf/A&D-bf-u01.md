@@ -4,25 +4,29 @@
 ## (a)
 ![[A&D-e-u01.pdf#page=1&rect=87,463,528,526|A&D-e-u01, p.1]]
 
-The **base case** for $k\leftarrow n=0$ is trivial, both sides are equal to one.
+The **base case** for $n\leftarrow0$ is trivial, both sides are equal to one.
 $$
 \boxed{
 \begin{align}
-\overbrace{ \sum_{i=0}^k (2k+1)}^{ 1 } &\leq \overbrace{ (k+1)^2 }^{ 1 }  \\
+\overbrace{ \sum_{k=0}^{n} (2k+1)}^{ 1 } &\leq \overbrace{ (n+1)^2 }^{ 1 }  \\
 1 &= 1
 \end{align}
 }
 $$
 
-Now, we will formulate the **inductive hypothesis**,
-
+Now, we will formulate the **inductive hypothesis**, for some $n\in \mathbb N$
+$$
+\boxed{
+\begin{align}
+\sum_{k=0}^{n} (2k+1) &\geq (n+1)^2, &\forall n\geq 0 \\
+\end{align}
+}
+$$
 
 
 $$
 \boxed{
 \begin{align}
-0 &\geq 0 &\text{(b.c., $n\leftarrow0$)} \\
-\sum_{i=0}^{n} (2n+1) &\geq (n+1)^2, \forall n\geq 0 &\text{(i.h.)} \\
 \sum_{i=0}^{n+1} (2n+1) &\geq (n+2)^2 &\text{(i.s., $n\leftarrow n+1$)} \\
 \bigg(\sum_{i=0}^{n} (2n+1)\bigg) + (2n+3) &\geq n^2+4n+4 &\text{(subtract like terms)} \\
 \sum_{i=0}^{n} (2n+1) &\geq n^2+2n+1 &\text{(collect the square)} \\
