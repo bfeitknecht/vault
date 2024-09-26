@@ -4,14 +4,19 @@
 ## (a)
 ![[A&D-e-u01.pdf#page=1&rect=87,463,528,526|A&D-e-u01, p.1]]
 
-The base case for $k\leftarrow n=1$ is trivial,
+The **base case** for $k\leftarrow n=0$ is trivial, both sides are equal to one.
 $$
 \boxed{
 \begin{align}
-\sum_{i=0}^k (2k)1
+\overbrace{ \sum_{i=0}^k (2k+1)}^{ 1 } &\leq \overbrace{ (k+1)^2 }^{ 1 }  \\
+1 &= 1
 \end{align}
 }
 $$
+
+Now, we will formulate the **inductive hypothesis**,
+
+
 
 $$
 \boxed{
