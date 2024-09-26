@@ -78,7 +78,17 @@ Prove or disprove.
 
 Proof by contradiction
 
-Assume for the sake of contradiciton, there exists a language $L\neq$ s.t. $L^2\subseteq L \nimpl$
+assumption
+
+Assume for the sake of contradiciton, there exists a language $L\neq\empty, L\neq L_{\lambda}, |L|\neq \infty$ s.t. $L^2\subseteq L$. 
+
+apply definition of language concat
+
+w.o.l.g.
+
+therefore, our assumption must be wrong and the statement is proven.
+
+
 
 
 ## (b)
