@@ -35,11 +35,19 @@ Lastly, we can show that for some distinct $x, y, z \in \Sigma$ it holds that $L
 
 
 
+
 %%%%%%%%%%%%
+![[AuW-script.pdf#page=55&rect=203,193,393,217|AuW-script, p.55]]
+
 La := ("all n long words with at least one a)
 
 $\text{(5)} = -3^{n+1}+3\cdot2^n$ 
 
+$$
+\begin{align}
+|L_{x} \cap L_{y}| = |L_{x}|+|L_{y}|-|L_{x} \cap L_{y}|
+\end{align}
+$$
 
 Let $L \def \{ w \in \Sigma^n \mid \forall x\in \Sigma \ |w|_{x}\geq 1 \}$ denote the language of words of length $n$ that contain each letter at least once.
 %%%%%%%%%%%%%%%%
