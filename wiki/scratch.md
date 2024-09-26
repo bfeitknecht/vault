@@ -12,7 +12,7 @@ This trivially proves the second part of the implication.
 To prove this case we show that $L$ cannot be finite yet still fulfill $L^2 \subseteq L$.
 Assuming $L$ contains as least one non-empty word $w \in L$ then $L^2$ has to contain the cconcatenation of that word with itself, i.e. $ww \in L^2$.
 
-To fulfill $L^2 \subseteq L$, we have to add $ww \in L$. This forces $wwww \in L^2$ creating an infinite loop and thus infinite number of unique words.
+To fulfill $L^2 \subseteq L$, there has to be some  $v=ww \in L$. This forces $wwww \in L^2$ creating an infinite loop and thus infinite number of unique words.
 This is only possible if $L$ is infinite and proves the third part of the implication.
 
 
@@ -49,15 +49,3 @@ Since both inclusions are now proven because of definition we can say $L_{2} * (
 
 
 
-
-
-
-
-das isch no 3d:
-$$
-\begin{align}
-&L_1 = \bigcup_{i=1}^{i=k} a^{\max(k,l) \cdot i} \\
-&L_2 = \bigcup_{i=1}^{i=l} a^i \\
-&\Sigma = \{a\}
-\end{align}
-$$

@@ -183,15 +183,14 @@ $\qed$
 ## (d)
 $|L_{1}|=k,\ |L_{2}|=l,\ |\Sigma|=1,\ |L_{1}L_{2}|=k\cdot l$
 
-unary (strichlistä), simply count to k then mod k+1 up to l 
-
 $$
 \begin{align}
 \Sigma &= \{ a\} \\
-L_{1} &= \{ a^i \mid i \in [k] \} \\
-L_{2} &= \{ \} \\
+L_1 &= \bigcup_{i=1}^{k} a^{l \cdot i} \\
+L_2 &= \bigcup_{i=1}^{l} a^i \\
 \end{align}
 $$
+$\qed$
 
 
 
