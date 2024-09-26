@@ -24,11 +24,11 @@ w_{m}
 $$
 
 # Geometric definition
-> In [[euclidian space]], the dot product of two vectors $v$ and $w$ is defined by $v \cdot w = \|v\| \ \|w\| \cos\theta$, where $\theta$ is the angle between them.
+> In [[euclidian space]], the dot product of two vectors $\mathbf{v}$ and $\mathbf{w}$ is defined by $\mathbf{v} \cdot \mathbf{w} = \|\mathbf{v}\| \ \|\mathbf{w}\| \cos\theta$, where $\theta$ is the angle between them.
 > 
-> In particular, if the vectors $v$ and $w$ are [[orthogonal]] (i.e., their [[angle]] is $\frac{\pi}{2} =90^\circ$), then $\cos \frac{\pi}{2}=0$, which implies that $v\cdot w =0$
+> In particular, if the vectors are [[orthogonal]] (i.e., their [[angle]] is $\frac{\pi}{2} =90^\circ$), then $\cos \frac{\pi}{2}=0$, which implies that $\mathbf{v}\cdot \mathbf{w} =0$
 > 
-> On the other extreme, if they are [[codirectional]] then the angle between them is zero with $\cos 0=1$ and $v\cdot w=\|v\| \ \|w\|$. 
+> On the other extreme, if they are [[codirectional]] then the angle between them is zero with $\cos 0=1$ and $\mathbf{v}\cdot \mathbf{w}=\|\mathbf{v}\| \ \|\mathbf{w}\|$. 
 > 
-> This implies that the dot product of a vector $v$ with itself is $v\cdot v=\|v\|^2$ which gives $\|v\|=\sqrt{ v\cdot v }$ the formula for the [[euclidian norm]].
+> This implies that the dot product of a vector $\mathbf{v}$ with itself is $\mathbf{v}\cdot \mathbf{v}=\|\mathbf{v}\|^2$ which gives $\|\mathbf{v}\|=\sqrt{ \mathbf{v}\cdot \mathbf{v} }=\sum_{{i=1}}$ the formula for the [[euclidian norm]].
 
