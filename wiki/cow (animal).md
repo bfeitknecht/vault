@@ -1,0 +1,1 @@
+![[cow (animal)-72E5E20F76405E8EF1CC7C33FC756F4B.png]]
