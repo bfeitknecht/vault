@@ -6,22 +6,23 @@ Let $f:\N \to \N$ denote the number of words of length $n\in \N$ over $\Sigma$ t
 
 Let $L_{n} \def \{ w \in \Sigma^* \mid \forall x\in \Sigma \ |w|_{x}\geq 1, |w|=n \}$ denote the language of words of length $n$ that contain each letter at least once. It is know that there exists  $|\Sigma|^n$ words of length $n$. 
 
-Now we just subtract all words that do not contain each letter at least once using the sieve formula, since we want to account for duplicates.
+Now we just subtract all words that do not contain each letter at least once using the sieve formula over $m$ sets, since we want to account for duplicates.
 $$
 \begin{align}
 &\boxed{
-\Bigg|\bigcup_{i=1}^n L_{i}\Bigg| =\sum_{l=1}^{n}(-1)^{l+1} \sum_{i_{l}\in[n]} \bigg|\bigcap_{j\in[i_{l}]} L_{j}\bigg|, \quad n \geq2
+\Bigg|\bigcup_{i=1}^m L_{i}\Bigg| =\sum_{l=1}^{m}(-1)^{l+1} \sum_{i_{l}\in[m]} \bigg|\bigcap_{j\in[i_{l}]} L_{j}\bigg|, \quad m \geq2
 }
 \end{align}
 $$
-We define $L_{i\in[3]}$ as the language of words containing **at least** one symbol $s\in \Sigma$ of index $i$ 
 
+We define $L_{i\in[3]}$ as the language of words of length $n$ containing **at least** one symbol $s_{i}\in \Sigma$ of index $i$ in the alphabet. So $L_1$ corresponds to all words of length $n$ that contain at least one $a$, $L_2$ to the language containing words of length $n$ with at least one $b$, etc. The sieve formula for $m=3=|\Sigma|$  is as follows.
 $$
-\begin{align}
- \\
-|L_{1}| + |L_{2}| + |L_{3}| - |L_{1}\cap L_{2}| - |L_{1}\cap L_{3}| -|L_{2}\cap L_{3}| +|L_{1}\cap L_{2}\cap L_{3}| &\text{(for $n=3$)}
-\end{align}
+\boxed{
+|L_{1}| + |L_{2}| + |L_{3}| - |L_{1}\cap L_{2}| - |L_{1}\cap L_{3}| -|L_{2}\cap L_{3}| +|L_{1}\cap L_{2}\cap L_{3}|
+}
 $$
+
+
 $$
 f(n) \def \begin{cases}
 0, & n < 3 \\
