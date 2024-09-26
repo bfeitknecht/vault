@@ -19,9 +19,11 @@ We define $L_{i\in[3]}$ as the language of words of length $n$ containing **at l
 
 $$
 \boxed{
-|L_{1}\cup L_{2}\cup L_{3}| = |L_{1}| + |L_{2}| + |L_{3}| - |L_{1}\cap L_{2}| - |L_{1}\cap L_{3}| -|L_{2}\cap L_{3}| +|L_{1}\cap L_{2}\cap L_{3}|
+\overbrace{ |L_{1}\cap L_{2}\cap L_{3}| }^{ L_{abc} } = |L_{1}\cup L_{2}\cup L_{3}| - |L_{1}| - |L_{2}| - |L_{3}| + |L_{1}\cap L_{2}| + |L_{1}\cap L_{3}| +|L_{2}\cap L_{3}|
 }
 $$
+
+
 
 
 
