@@ -119,29 +119,7 @@ We prove this case by contradiction. Assume for the sake of contradiction, that 
 
 Now, since we assume the statement to be true for some finite order language, there must be some word $v\in L^2$ s.t. $v=w^2$. However, since we assume $L^2 \subseteq L$, there must also be some word $u\in L^2$ s.t. $u=v^2$.
 
-We have arrived at a contradiction, since $L$ cannot be finite but fulfill the implication. Thus $|L
-
-Proof by contradiction
-
-assumption
-
-Assume for the sake of contradiciton, there exists a language $L\neq\empty, L\neq L_{\lambda}, |L|\neq \infty$ s.t. $L^2\subseteq L$. 
-
-apply definition of language concat
-
-case distinction
-case L=ø
-
-case L = $\lambda$
-
-case |L|=infinite
-
-uv in L -> wuv -/> in L
-w.o.l.g.
-
-therefore, our assumption must be wrong and the statement is proven.
-
-
+We have arrived at a contradiction, since $L$ cannot be finite but fulfill the implication. Thus $|L|=\infty$ in order for $L^2\subseteq L$.
 
 
 ## (b)

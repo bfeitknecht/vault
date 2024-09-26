@@ -1,3 +1,25 @@
+%% 
+Proof by contradiction
+
+assumption
+
+Assume for the sake of contradiciton, there exists a language $L\neq\empty, L\neq L_{\lambda}, |L|\neq \infty$ s.t. $L^2\subseteq L$. 
+
+apply definition of language concat
+
+case distinction
+case L=ø
+
+case L = $\lambda$
+
+case |L|=infinite
+
+uv in L -> wuv -/> in L
+w.o.l.g.
+
+therefore, our assumption must be wrong and the statement is proven.
+
+
 
 We pove this by case distinction.
 
@@ -14,7 +36,7 @@ To prove this case we show that $L$ cannot be finite yet still fulfill $L^2 \sub
 Assuming $L$ contains as least one non-empty word $w \in L$ then $L^2$ has to contain the cconcatenation of that word with itself, i.e. $ww \in L^2$.
 
 To fulfill $L^2 \subseteq L$, there has to be some  $v=ww \in L$. This now makes it so that $vv \in L^2$ also has to be in $L^2$ creating an infinite loop and thus infinite number of unique words.
-This is only possible if $L$ is infinite and proves the third part of the implication.
+This is only possible if $L$ is infinite and proves the third part of the implication. %%
 
 
 
