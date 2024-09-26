@@ -27,7 +27,7 @@ Solving for $|L_{a}\cap L_{b}\cap L_{c}|$ in $(2)$ finally yields the formula we
 
 $$
 \begin{align}
-|L_{a}\cap L_{b}\cap L_{c}| &= \overbrace{ |L_{a}\cup L_{b}\cup L_{c}| }^{ \text{(4)} } \underbrace{ - |L_{a}| - |L_{b}| - |L_{c}| }_{ \text{(5)} } + \overbrace{ |L_{a}\cap L_{b}| + |L_{a}\cap L_{c}| +|L_{b}\cap L_{c}| }^{ \text{(6)} } &\text{(3)}
+|L_{a}\cap L_{b}\cap L_{c}| &= \overbrace{ |L_{a}\cup L_{b}\cup L_{c}| }^{ \text{(4)} } \underbrace{ - |L_{a}| - |L_{b}| - |L_{c}| }_{ \text{(5)} } \overbrace{ + |L_{a}\cap L_{b}| + |L_{a}\cap L_{c}| +|L_{b}\cap L_{c}| }^{ \text{(6)} } &\text{(3)}
 \end{align}
 $$
 
@@ -37,7 +37,6 @@ Where, in $\text{(4)}$ we use the fact that $|L_{1}\cup L_{2}\cup L_{3}|=|\Sigma
 Lastly, we can show that for some distinct $x, y, z \in \Sigma$ it holds that $L_{x}=\Sigma^n \setminus \Gamma^n$, where, w.l.o.g., $\Gamma = \Sigma\setminus\{x\}$. With this we can construct
 
 La := ("all n long words with at least one a)
-
 
 
 
