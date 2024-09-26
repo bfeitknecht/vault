@@ -2,7 +2,7 @@
 A **vector** $\mathbf{v}$ is just a list of $m$ [[real number]], $\mathbf{v} \in \mathbb R^m$, and can be interpreted as an $m$-dimensional point or an arrow from the [[origin]] to that point (translation).
 
 
-# Notation
+# Vector Notation
 
 We can denote a [[sequence]] of vectors of length $n$, i.e. $\mathbf{v}_{1}, \mathbf{v}_{2}, \dots, \mathbf{v}_{n} = (\mathbf{v}_{1}, \mathbf{v}_{2}, \dots, \mathbf{v}_{n})$ as $(\mathbf{v}_{j})^{n}_{j=1}$
 
