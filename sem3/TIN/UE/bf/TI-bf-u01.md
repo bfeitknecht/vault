@@ -19,9 +19,11 @@ We define $L_{i\in[3]}$ as the language of words of length $n$ containing **at l
 
 $$
 \boxed{
-|L_{1}\cap L_{2}\cap L_{3}|O = \overbrace{ |L_{1}\cup L_{2}\cup L_{3}| }^{ \Sigma^n } - \underbrace{ |L_{1}| }_{ L_{bc} } - \overbrace{ |L_{2}| }^{ L_{ac} } - \underbrace{ |L_{3}| }_{ L_{ab} } + |L_{1}\cap L_{2}| + |L_{1}\cap L_{3}| +|L_{2}\cap L_{3}|
+|L_{1}\cap L_{2}\cap L_{3}| = |L_{1}\cup L_{2}\cup L_{3}| - |L_{1}| - |L_{2}| - |L_{3}| + |L_{1}\cap L_{2}| + |L_{1}\cap L_{3}| +|L_{2}\cap L_{3}|
 }
 $$
+
+Where, $|L_{1}\cup L_{2}\cup L_{3}|=|\Sigma^n|$, since the union of all languages that contain at least one given symbol is equal to the language of all words of length $n$.
 
 
 
