@@ -15,7 +15,7 @@ $$
 \end{align}
 $$
 
-We define $L_{i\in[3]}$ as the language of words of length $n$ containing **at least** one symbol $s_{i}\in \Sigma$ of index $i$ in the alphabet. So $L_1$ corresponds to all words of length $n$ that contain at least one $a$, $L_2$ to the language containing words of length $n$ with at least one $b$, etc. The sieve formula for $m=3=|\Sigma|$  in our case is as follows.
+We define $L_{i\in[3]}$ as the language of words of length $n$ containing **at least** one symbol $s_{i}\in \Sigma$ of index $i$ in the alphabet. So $L_1$ corresponds to all words of length $n$ that contain at least one $a$, $L_2$ to the language containing words of length $n$ with at least one $b$, etc. The sieve formula for $m=3=|\Sigma|$  in our case is as follows. We define $L_{1} \widehat= L_{a}$, $L_{1} \widehat= L_{b}$
 
 $$
 \begin{align}
