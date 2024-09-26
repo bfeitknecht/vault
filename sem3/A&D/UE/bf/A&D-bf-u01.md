@@ -31,13 +31,12 @@ $$
 All that remains is to simplify and apply the inductive hypothesis.
 $$
 \begin{align}
-\sum_{k=0}^{n+1} (2k+1) &\geq (n+2)^2 &\text{(split the sum)} \\
-\bigg(\sum_{i=0}^{n} (2n+1)\bigg) + (2n+3) &\geq n^2+4n+4 &\text{(subtract like terms)} \\
-\sum_{i=0}^{n} (2n+1) &\geq n^2+2n+1 &\text{(collect the square)} \\
-\sum_{i=0}^{n} (2n+1) &\overset{\text{i.h.}}{\geq} (n+1)^2 &\qed \\
+\sum_{k=0}^{n+1} (2k+1) &\geq (n+2)^2 &\text{(split the sum, expand the square)} \\
+\bigg(\sum_{k=0}^{n} (2k+1)\bigg) + (2n+3) &\geq n^2+4n+4 &\text{(subtract like terms)} \\
+\sum_{k=0}^{n} (2k+1) &\geq n^2+2n+1 &\text{(collect the square)} \\
+\sum_{k=0}^{n} (2k+1) &\overset{\text{i.h.}}{\geq} (n+1)^2 &\qed \\
 \end{align}
 $$
-
 
 
 ## (b)
