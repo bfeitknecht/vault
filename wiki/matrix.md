@@ -43,6 +43,9 @@ We can do this.
 ## Triangular Matrix
 ![[triangular matrix]]
 
+## Identitiy Matrix
+![[identity matrix]]
+
 ## Zero Matrix
 ![[zero matrix]]
 
@@ -53,8 +56,8 @@ We can do this.
 
 ___
 
-## Identitiy Matrix
-![[identity matrix]]
+
+
 
 ## Rotation Matrix
 ![[rotation matrix]]
