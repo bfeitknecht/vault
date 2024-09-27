@@ -18,11 +18,24 @@ We can do this.
 ## Scalar Multiplication
 ![[matrix muliplication]]
 
+## Matrix Transpose
+![[matrix transposition]]
+
 ## Matrix Transformation
 ![[matrix transformation]]
 
 
+
 # Matrix Types
+
+## Square Matrix
+![[square matrix]]
+
+## Diagonal Matrix
+![[diagonal matrix]]
+
+## Symetric Matrix
+![[symetric matrix]]
 
 ## Zero Matrix
 ![[zero matrix]]
@@ -30,17 +43,15 @@ We can do this.
 ## Identitiy Matrix
 ![[identity matrix]]
 
-## Symetric Matrix
-![[symetric matrix]]
-
-## Square Matrix
-![[square matrix]]
-
 ## Triangular Matrix
 ![[triangular matrix]]
 
 ## Rotation Matrix
 ![[rotation matrix]]
 
-## Skew Matrix
+## Shear Matrix
 ![[skew matrix]]
+
+## Skew-Symetric Matrix
+![[skew symetric matrix]]
+
