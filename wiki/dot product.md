@@ -1,6 +1,6 @@
 
 
-The **dot product** (or *scalar product* – not to be confused with [[scalar multiplication (vector)]]) of two [[vector|vectors]] $\mathbf{v}, \mathbf{w} \in \R^m$ is defined as
+The **dot product** (or *scalar product* – not to be confused with [[scalar multiplication]]) of two [[vector|vectors]] $\mathbf{v}, \mathbf{w} \in \R^m$ is defined as
 $$
 \mathbf{v} \cdot \mathbf{w} \def \sum_{i=1}^{m}{v_{i}w_{i}}
 $$

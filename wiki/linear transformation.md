@@ -1,3 +1,5 @@
 #todo 
 
-A **linear transformation**, also known as a **linear map**, is applying a matrix type to another matrix.
+A **linear transformation**, also known as a **linear map**, is applying some [[matrix]] to another matrix. Specific matrix types result in unique transformations.
+
+

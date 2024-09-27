@@ -16,13 +16,10 @@ We can do this.
 ![[matrix addition]]
 
 ## Scalar Multiplication
-![[scalar multiplication (matrix)]]
+![[scalar multiplication]]
 
 ## Matrix Transpose
 ![[matrix transpose]]
-
-## Matrix Transformation
-![[matrix transformation]]
 
 ## Matrix multiplication
 ![[matrix multiplication]]
