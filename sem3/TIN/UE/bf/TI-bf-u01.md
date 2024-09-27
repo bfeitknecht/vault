@@ -63,12 +63,8 @@ $\qed$
 
 Let $A=L_{2}\cdot(L_{2}-L_{1})$ and $B = (L_{2})^2-L_{2} \cdot L_{1}$. To show that the equality holds, we need to prove that $A\subseteq B$ and $B\subseteq A$.
 
-Lets start with $A\subseteq B$. Let $z \in A$ be arbitrarily chosen. 
-
-Let $z \in L_2 * (L_2 - L_1)$.
-Because of the definition of concatination we can say:
-$z = xy\qquad where\qquad x \in L_2\; and \; y \in L_2 - L_1$
-$\implies x \in L_2$ and $y \in L_{2}$ but $y \notin L_1$
+Lets start with $A\subseteq B$. Let $z \in A$ be arbitrarily chosen. Applying the definition of the concatination o flanguages gives us $z=xy$, where $x\in L_{2}$ and $y\in L_{2}-L_{1}$, i.e. $y\not\in L_1$.
+ To prove $A\subseteq B$ we need to show that $z\in B$. 
 
 Now lets check if this is a subset or equal the right set.
 Lets split the right side into $(L_2)^2$ and $L_2 * L_1$.
