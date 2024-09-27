@@ -34,20 +34,27 @@ We can do this.
 ## Square Matrix
 ![[square matrix]]
 
+## Symetric Matrix
+![[symetric matrix]]
+
 ## Diagonal Matrix
 ![[diagonal matrix]]
 
-## Symetric Matrix
-![[symetric matrix]]
+## Triangular Matrix
+![[triangular matrix]]
 
 ## Zero Matrix
 ![[zero matrix]]
 
+## Skew-Symetric Matrix
+![[skew symetric matrix]]
+
+
+
+___
+
 ## Identitiy Matrix
 ![[identity matrix]]
-
-## Triangular Matrix
-![[triangular matrix]]
 
 ## Rotation Matrix
 ![[rotation matrix]]
@@ -55,6 +62,5 @@ We can do this.
 ## Shear Matrix
 ![[skew matrix]]
 
-## Skew-Symetric Matrix
-![[skew symetric matrix]]
+
 
