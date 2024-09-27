@@ -45,10 +45,10 @@ $$
 We determine $m$ through computing the first few terms.
 $$
 \begin{align}
-2 &< 2^2=4 &\text{$(m=1)$}\\
-10 &< 2^4 = 16 &\text{$(m=2)$} \\
-58 &< 2^6 = 164 &\text{$(m=3)$} \\
-346 &> 2^8 = 256 &\text{$(m=4)$} \\
+2 &< 2^2=4 &\text{($m=1$)}\\
+10 &< 2^4 = 16 &\text{($m=2$)} \\
+58 &< 2^6 = 164 &\text{($m=3$)} \\
+346 &> 2^8 = 256 &\text{(b.c., $m=4$)} \\
 \end{align}
 $$
 
@@ -56,9 +56,17 @@ This yields $m=4$. We use this computation as **base case** for our induction. a
 $$
 \boxed{
 \begin{align}
-a_{n} \geq_{2}^{2n}, &\forall n\geq m \\
+a_{n} &\geq_{2}^{2n}, &\forall n\geq m \\
 \end{align}
 }
+$$
+
+Now to the **induction step**.
+$$
+\begin{align}
+6\cdot a_{n}-2 &\geq 2^{2n+2} &\text{(substitute i.h.)} \\
+6\cdot 2^n-2 &\geq 2^{2n+2} \frac{&}
+\end{align}
 $$
 
 
