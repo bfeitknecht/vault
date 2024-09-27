@@ -64,8 +64,12 @@ $$
 Now to the **induction step**.
 $$
 \begin{align}
-6\cdot a_{n}-2 &\geq 2^{2n+2} &\text{(substitute i.h.)} \\
-6\cdot 2^n-2 &\geq 2^{2n+2} \frac{&}
+6\cdot a_{n}-2 &\geq 2^{2n+2} &\text{(substitute $\mathbf{i.h.}$)} \\
+6\cdot 2^n-2 &\geq 2^{2n+2} &\text{(expand power, add two)} \\
+6\cdot 2^n &\geq 4\cdot 2^{2n}+2 &\text{(subtract $4\cdot2^{2n}$)} \\
+2\cdot 2^{2n} &\geq 2 &\text{(divide by two)}
+2^{}
+
 \end{align}
 $$
 
