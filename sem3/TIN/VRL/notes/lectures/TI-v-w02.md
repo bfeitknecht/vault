@@ -3,6 +3,7 @@
 - [[function]], [[relation]]
 - [[information]]
 - shannon [[entropy]]
+- [[kolmogorov complexity]]
 - 
 
 
