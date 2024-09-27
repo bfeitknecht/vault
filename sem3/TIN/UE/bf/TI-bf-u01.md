@@ -24,7 +24,7 @@ $\qed$
 ## (b)
 ![[TI-e-u01.pdf#page=1&rect=97,314,529,346|TI-e-u01, p.1]]
 
-Let $g:\N \to \N$ denote the number of words of length $n\in \N$ over $\Sigma^n$ that do not contain $11$ as a subword. Since for the case of $n=1$
+Let $g:\N \to \N$ denote the number of words of length $n\in \N$ over $\Sigma^n$ that do not contain $11$ as a subword. The function follows the fibonacci sequence. Thus,
 
 $$
 g(n) \def \begin{cases}
@@ -73,8 +73,8 @@ $|L_{1}|=k,\ |L_{1}L_{2}|=k+1$
 $$
 \begin{align}
 \Sigma &=\{ a \}  \\
-L_{1} &= \{ a\} \\
-L_{2} &= \{  a^{n} \mid n \in [k] \} \cup L_{\lambda} \\
+L_{1} &= \{ a\} \cup L_{\lambda} \\
+L_{2} &= \{  a^{n} \mid n \in [k] \} \\
 \end{align}
 $$
 $\qed$
@@ -86,8 +86,8 @@ $|L_{1}|=k,\ |L_{1}L_{2}|=k+5$
 $$
 \begin{align}
 \Sigma &=\{ a \}  \\
-L_{1} &= \{ a^i \mid i \in [5] \} \\
-L_{2} &= \{  a^{n} \mid n \in [k] \} \cup L_{\lambda} \\
+L_{1} &= \{ a^i \mid i \in [5] \} \cup L_{\lambda} \\
+L_{2} &= \{  a^{n} \mid n \in [k] \} \\
 \end{align}
 $$
 $\qed$
