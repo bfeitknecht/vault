@@ -82,16 +82,9 @@ $\qed$
 ## (c)
 ![[A&D-e-u01.pdf#page=2&rect=87,714,406,732|A&D-e-u01, p.2]]
 
-We make use of the fact that $\log(m^3) =3\log m$ and further reduce the fraction in the limit $\frac{3\cancel{ \log (m) }}{\log (m)^\cancelto{ 2 }{ 3 }}=\frac{3}{\log(m)^3}$. 
-$$
-\begin{align}
-\lim_{ m \to \infty } \frac{3}{\log (m)^2} &\overset{\text{l'Hôpital}}{=}  \frac{1}{\frac{2\log (m)}{m}} = \frac{m}{2\log (m)} \\
-&\overset{\text{l'Hôpital}}{=} \frac{1}{\frac{2}{m}} = \frac{m}{2} \overset{\infty}{\to} \infty \\
-\end{align}
-$$
+We make use of the fact that $\log(m^3) =3\log m$ and further reduce the fraction in the limit $\frac{3\cancel{ \log (m) }}{\log (m)^\cancelto{ 2 }{ 3 }}=\frac{3}{\log(m)^3}$. Since the limit of a constant divided by a monotonically increasing function is zero, $f$ does in fact grow asymptotically slower than $g$.
+$\square$
 
-Since $\lim_{ m \to \infty } \frac{f(m)}{g(m)} = \infty$, $f$ grows asymptotically faster than $g$.
-$\qed$
 
 ## (d)
 ![[A&D-e-u01.pdf#page=2&rect=87,694,406,711|A&D-e-u01, p.2]]
