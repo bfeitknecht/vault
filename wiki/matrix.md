@@ -8,6 +8,7 @@ spaltenvektor == column vector, $\mathrm{v} \in R^m$: $1 \times n$- matrix
 
 # Matrix Notation
 
+We can do this.
 
 # Matrix Operations
 
@@ -17,6 +18,29 @@ spaltenvektor == column vector, $\mathrm{v} \in R^m$: $1 \times n$- matrix
 ## Scalar Multiplication
 ![[matrix muliplication]]
 
+## Matrix Transformation
+![[matrix transformation]]
 
 
-# Matrix Properties
+# Matrix Types
+
+## Zero Matrix
+![[zero matrix]]
+
+## Identitiy Matrix
+![[identity matrix]]
+
+## Symetric Matrix
+![[symetric matrix]]
+
+## Square Matrix
+![[square matrix]]
+
+## Triangular Matrix
+![[triangular matrix]]
+
+## Rotation Matrix
+![[rotation matrix]]
+
+## Skew Matrix
+![[skew matrix]]
