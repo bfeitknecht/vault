@@ -4,7 +4,8 @@
 
 # Info
 
-- [ ] exercise sheet 📅 2024-09-27 🔁 every week 
+- [ ] exercise sheet 🔁 every week 📅 2024-10-04
+- [x] exercise sheet 🔁 every week 📅 2024-09-27 ✅ 2024-09-27
 
 
 # Lectures
