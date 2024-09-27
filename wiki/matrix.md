@@ -10,6 +10,10 @@ spaltenvektor == column vector, $\mathrm{v} \in R^m$: $1 \times n$- matrix
 
 We can do this.
 
+# Matrix Properties
+
+The [[rank]] of some matrix is the number of [[linear independence|linearly independent]] [[row and column vectors|row or column vectors]]. The 
+
 # Matrix Operations
 
 ## Matrix Addition
@@ -57,13 +61,11 @@ We can do this.
 ___
 
 
-
+## Scalar Matrix
 
 ## Rotation Matrix
-![[rotation matrix]]
 
 ## Shear Matrix
-![[skew matrix]]
 
 
 
