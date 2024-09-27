@@ -1,3 +1,7 @@
+Camil Schmid 23-944-234 
+Dennis Küenzi 21-559-315
+
+
 # 1
 ## (a)
 ![[TI-e-u01.pdf#page=1&rect=97,354,529,385|TI-e-u01, p.1]]
@@ -66,20 +70,10 @@ Let $A=L_{2}\cdot(L_{2}-L_{1})$ and $B = (L_{2})^2-L_{2} \cdot L_{1}$. To show t
 Let's start with $A\subseteq B$. Let $z \in A$ be arbitrarily chosen. Applying the definition of the concatination of languages gives us $z=xy$, where $x\in L_{2}$ and $y\in L_{2}-L_{1}$, i.e. $y\not\in L_1$.
 To prove $A\subseteq B$ we need to show that $z\in B$, i.e. $z\in (L_{2})^2$ but $z\not\in L_{2}\cdot L_{1}$. Let $v, w\in L_{2}$, $w\not\in L_{1}$ be arbitrary, which implies $z=vw$, but $vw\not\in L_{2} \cdot L_{1}$ by definition. Thus $A\subseteq B$ is proven.
 
-
 Let's now show $B\subseteq A$. Let $z\in B$ be arbitrarily chosen, i.e. $z=xy$, where $x,y\in L_{2}$, $y\not\in L_{1}$. Filling in the definition for $A$, gives us that $z\subseteq L_{2}\cdot(L_{2}-L_{1})$. Thus $z=vw$, where $v\in L_{2}$ and $w \in L_{2}-L_{1}$. This corresponds to our initial definition of $z$, w.o.l.g. let $v=x$ and $w=y$. Thus $B\subseteq A$ is proven.
 
-Since $A\subseteq B \wedge B$
-
-
-$z \notin L_{2} * L_1 \implies y \notin L_1$ because for $z$ to be in $L_2*L_1$ $y$ (the second element) needs to be in $L_1$.
-Now with $x \in L_2$ and $y \in L_2 - L_{1}$
-Now concatinating $x$ and $y$ we get the set $L_2 * (L_2 - L_1)$.
-And because $z = xy$ we can say that $z \subseteq L_2 * (L_2 - L_1)$.
-
-Since both inclusions are now proven because of definition we can say $L_{2} * (L_{2} - L_{1}) = (L_{2})^2 - L_{2} * L_{1}$.
-
-
+Since $A\subseteq B,B\subseteq A \implies A=B$, as was to be proven.
+$\qed$
 
 
 ___
