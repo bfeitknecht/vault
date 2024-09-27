@@ -70,14 +70,14 @@ $$
 a_{n+1} &\geq 2^{2(n+1)} &\text{(def. $a_{n}$, distribute power)}\\
 6\cdot a_{n}-2 &\geq 2^{2n+2} &\text{(decompose power)} \\
 6\cdot a_{n}-2 &\geq 2^{2}\cdot2^{2n} &\text{(increase l.h.s.)} \\
-6\cdot a_{n} &\geq 4\cdot 2^{2n} &\text{(divide by four)} \\
-\frac{3}{2} \cdot a_{n} \geq a_{n }&\geq 2^{2n} &\text{(substitute $\mathbf{i.h.}$)} \\
+6\cdot a_{n} &\geq 4\cdot 2^{2n} &\text{(substitute $\mathbf{i.h.}$)} \\
+6 \cdot 2^{2n} &\geq 4\cdot2^{2n} &\text{(divide by $2^{2n}$)} \\
+6 &\geq 4 &\square
 \end{align}
 $$
-$\square$
 
+<div class="page-break" style="page-break-before: always;"></div>
 
-___
 
 # 1.3
 ![[A&D-e-u01.pdf#page=1&rect=68,70,536,86|A&D-e-u01, p.1]]
@@ -93,7 +93,6 @@ $$
 Since $\lim_{ m \to \infty } \frac{f(m)}{g(m)} \neq 0$ but also $\lim_{ m \to \infty } \frac{g(m)}{f(m)} \neq 0$, $f$ and $g$ grow asymptotically equal.
 $\square$
 
-
 ## (b)
 ![[A&D-e-u01.pdf#page=2&rect=87,734,486,753|A&D-e-u01, p.2]]
 
@@ -106,13 +105,13 @@ $$
 Since the limit as $m$ approaches infinity equals zero, $f$ grows asymptotically slower than $g$.
 $\square$
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## (c)
 ![[A&D-e-u01.pdf#page=2&rect=87,714,406,732|A&D-e-u01, p.2]]
 
 We make use of the fact that $\log(m^3) =3\log m$ and further reduce the fraction in the limit $\frac{3\cancel{ \log (m) }}{\log (m)^\cancelto{ 2 }{ 3 }}=\frac{3}{\log(m)^3}$. Since the limit of a constant divided by a monotonically increasing function is zero, $f$ indeed grows asymptotically slower than $g$.
 $\square$
-
 
 ## (d)
 ![[A&D-e-u01.pdf#page=2&rect=87,694,406,711|A&D-e-u01, p.2]]

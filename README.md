@@ -89,6 +89,10 @@ ___
 > ```
 > css styles need !important tag
 
+> [!note] var/attachment
+> attachment management fucked shit up and put normal pdfs into the wrong folder
+> 
+
 
 
 # Miscellaneous

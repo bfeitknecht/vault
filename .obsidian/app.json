@@ -4,10 +4,10 @@
   "vimMode": false,
   "attachmentFolderPath": "var/attachments",
   "pdfExportSettings": {
-    "includeName": true,
+    "includeName": false,
     "pageSize": "A4",
     "landscape": false,
-    "margin": "0",
+    "margin": "2",
     "downscalePercent": 100
   },
   "showInlineTitle": true,

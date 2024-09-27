@@ -11,7 +11,6 @@ The primes are quite dense. The original proof is complicated and relies on the 
 
 
 # Number of Primes
-
 ![[hromkovic-TIN.pdf#page=56&rect=45,70,438,111|hromkovic-TIN, p.41]]
-
+	
 The proof idea is, that we need infinitely many primes to decompose the infinitely many, increasing random numbers.

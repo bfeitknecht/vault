@@ -6,19 +6,15 @@
         "type": "split",
         "children": [
           {
-            "id": "f93232e02b3a91dc",
+            "id": "c805054c999702e7",
             "type": "tabs",
             "children": [
               {
-                "id": "df826bca2d65055b",
+                "id": "954feeddf07b41e8",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/dynamic programming.md",
-                    "mode": "source",
-                    "source": false
-                  }
+                  "type": "empty",
+                  "state": {}
                 }
               }
             ]
@@ -64,9 +60,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "wiki/dynamic programming.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -75,7 +69,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/dynamic programming.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -92,7 +85,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/dynamic programming.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -102,7 +94,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5
+        "width": 346.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -182,8 +175,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "df826bca2d65055b",
-      "mtime": "2024-09-25T08:28:20+02:00"
+      "active": "954feeddf07b41e8",
+      "mtime": "2024-09-27T20:48:12+02:00"
     },
     "00-home": {
       "main": {
@@ -275,9 +268,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -286,7 +277,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -303,7 +293,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -393,8 +382,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "4a586b919d13321c",
-      "mtime": "2024-09-24T22:24:57+02:00"
+      "active": "17b30e600b56201d",
+      "mtime": "2024-09-27T20:48:04+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -441,8 +430,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -486,7 +474,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/pasture break (algorithm).md"
+                    "file": "sem3/A&D/VRL/notes/A&D.md"
                   }
                 }
               },
@@ -496,7 +484,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/pasture break (algorithm).md",
+                    "file": "sem3/A&D/VRL/notes/A&D.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -513,7 +501,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/pasture break (algorithm).md",
+                    "file": "sem3/A&D/VRL/notes/A&D.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -604,8 +592,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "b4c1219365d2fb9f",
-      "mtime": "2024-09-27T17:22:02+02:00"
+      "active": "e7911976b677ac81",
+      "mtime": "2024-09-27T19:22:09+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -897,7 +885,7 @@
                     "file": "sem3/EProg/VRL/extra/slides/EProg-slides-w02.pdf",
                     "page": 1,
                     "left": -10,
-                    "top": 409,
+                    "top": 240,
                     "zoom": 0.7458333333333333
                   }
                 }
@@ -1064,7 +1052,7 @@
         }
       },
       "active": "bfe5916284c80395",
-      "mtime": "2024-09-27T10:08:17+02:00"
+      "mtime": "2024-09-27T20:34:31+02:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1148,12 +1136,12 @@
                 }
               },
               {
-                "id": "8aac3f49db6692c9",
+                "id": "d47d7a6a5e6f97a6",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/vector.md",
+                    "file": "wiki/linear combination.md",
                     "mode": "source",
                     "source": false
                   }
@@ -1204,7 +1192,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/vector.md"
+                    "file": "wiki/linear combination.md"
                   }
                 }
               },
@@ -1214,7 +1202,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/vector.md",
+                    "file": "wiki/linear combination.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1231,7 +1219,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/vector.md",
+                    "file": "wiki/linear combination.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1322,8 +1310,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "8aac3f49db6692c9",
-      "mtime": "2024-09-27T17:19:17+02:00"
+      "active": "d47d7a6a5e6f97a6",
+      "mtime": "2024-09-27T20:51:57+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1341,10 +1329,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
-                    "page": 53,
-                    "left": 22,
-                    "top": 581,
-                    "zoom": 1.32
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -1373,7 +1359,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "5d43564b056e30c1",
@@ -1403,8 +1389,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1448,7 +1433,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w02.md"
+                    "file": "sem3/TIN/VRL/notes/TIN.md"
                   }
                 }
               },
@@ -1458,7 +1443,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w02.md",
+                    "file": "sem3/TIN/VRL/notes/TIN.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1475,7 +1460,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w02.md",
+                    "file": "sem3/TIN/VRL/notes/TIN.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1566,9 +1551,9 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "4792cbe552cf2439",
-      "mtime": "2024-09-27T10:08:16+02:00"
+      "active": "65cc6977d876498e",
+      "mtime": "2024-09-27T19:22:03+02:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-a&d"
 }
