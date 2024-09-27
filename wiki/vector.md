@@ -1,7 +1,7 @@
 
 A **vector** $\mathbf{v}\in \mathbb R^m$ describes a point in an $m$-dimensional [[euclidian space]] with some magnitude from the [[origin]] and direction (translation). Vectors can be added and scaled to form a [[vector space]]. We can interpret it as an ordered list of $m$ [[real number|real numbers]] 
 
-
+ 
 # Vector Notation
 
 We can denote a [[sequence]] of vectors of length $n$, i.e. $\mathbf{v}_{1}, \mathbf{v}_{2}, \dots, \mathbf{v}_{n} = (\mathbf{v}_{1}, \mathbf{v}_{2}, \dots, \mathbf{v}_{n})$ as $(\mathbf{v}_{j})^{n}_{j=1}$

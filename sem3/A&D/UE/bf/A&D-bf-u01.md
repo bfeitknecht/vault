@@ -97,3 +97,8 @@ $\qed$
 ## (d)
 ![[A&D-e-u01.pdf#page=2&rect=87,694,406,711|A&D-e-u01, p.2]]
 
+$$
+\begin{align}
+\lim_{ m \to \infty } 4^{m^2}
+\end{align}
+$$
