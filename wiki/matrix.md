@@ -18,7 +18,7 @@ We can do this.
 ## Scalar Multiplication
 ![[scalar multiplication]]
 
-## Matrix Transpose
+## Matrix Transposition
 ![[matrix transpose]]
 
 ## Matrix multiplication
