@@ -45,7 +45,10 @@ $$
 We arrive at a value for $m$ through computing the first few terms.
 $$
 \begin{align}
-\
+2 &< 2^2=4 &\text{$(m=1)$}\\
+10 &< 2^4 = 16 &\text{$(m=2)$} \\
+10 &< 2^4 = 16 &\text{$(m=2)$} \\
+10 &< 2^4 = 16 &\text{$(m=2)$} \\
 \end{align}
 $$
 $$
