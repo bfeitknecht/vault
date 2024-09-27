@@ -4,6 +4,7 @@
 - [[information]]
 - shannon [[entropy]]
 - [[kolmogorov complexity]]
+- [[random]]
 - 
 
 
