@@ -82,7 +82,7 @@ $\qed$
 ## (c)
 ![[A&D-e-u01.pdf#page=2&rect=87,714,406,732|A&D-e-u01, p.2]]
 
-We make use of the fact that $\log(m^3) =3\log m$ and further reduce the fraction in the limit $\frac{3\cancel{ \log (m) }}{\log (m)^\cancelto{ 2 }{ 3 }}=\frac{3}{\log(m)^3}$. Since the limit of a constant divided by a monotonically increasing function is zero, $f$ does in fact grow asymptotically slower than $g$.
+We make use of the fact that $\log(m^3) =3\log m$ and further reduce the fraction in the limit $\frac{3\cancel{ \log (m) }}{\log (m)^\cancelto{ 2 }{ 3 }}=\frac{3}{\log(m)^3}$. Since the limit of a constant divided by a monotonically increasing function is zero, $f$ grows asymptotically slower than $g$.
 $\square$
 
 
@@ -91,7 +91,8 @@ $\square$
 
 $$
 \begin{align}
-\lim_{ m \to \infty } \frac{4^{m^2+m+ 1}}{2^{3m^2}} &= \lim_{ m \to \infty } \frac{2^{\cancel{ 2m^2 }+2m+2}}{2^{\cancel{ 3 }m^2}}
+\lim_{ m \to \infty } \frac{4^{m^2+m+ 1}}{2^{3m^2}} &= \lim_{ m \to \infty } \frac{2^{\cancel{ 2m^2 }+2m+2}}{2^{\cancel{ 3 }m^2}} \\
+&=\lim_{ m \to \infty } 2^{2m+2-m^2}
 \end{align}
 $$
 This
