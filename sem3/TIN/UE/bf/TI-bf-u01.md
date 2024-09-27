@@ -1,11 +1,12 @@
-Camil Schmid 23-944-234 
-Dennis Küenzi 21-559-315
+
+Basil Feitknecht, 23-922-099
+Camil Schmid, 23-944-234
+Dennis Küenzi, 21-559-315
 
 
 # 1
 ## (a)
 ![[TI-e-u01.pdf#page=1&rect=97,354,529,385|TI-e-u01, p.1]]
-
 
 Let $L \def \{ w \in \Sigma^n \mid \forall x\in \Sigma \ |w|_{x}\geq 1 \}$ denote the language of words of length $n$ that contain each letter at least once.
 
@@ -61,6 +62,7 @@ Now, since we assume the statement to be true for some finite order language, th
 
 We have arrived at a contradiction, since $L$ cannot be finite but fulfill the implication. Thus $|L|=\infty$ in order for $L^2\subseteq L$.
 $\qed$
+
 
 ## (b)
 ![[TI-e-u01.pdf#page=1&rect=98,143,534,187|TI-e-u01, p.1]]
