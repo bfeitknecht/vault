@@ -34,7 +34,7 @@ $$
 \sum_{k=0}^{n+1} (2k+1) &\geq (n+2)^2 &\text{(split the sum, expand the square)} \\
 \bigg(\sum_{k=0}^{n} (2k+1)\bigg) + (2n+3) &\geq n^2+4n+4 &\text{(subtract like terms)} \\
 \sum_{k=0}^{n} (2k+1) &\geq n^2+2n+1 &\text{(collect the square)} \\
-\sum_{k=0}^{n} (2k+1) &\overset{\text{i.h.}}{\geq} (n+1)^2 &\qed \\
+\sum_{k=0}^{n} (2k+1) &\overset{\text{i.h.}}{\geq} (n+1)^2 &\square \\
 \end{align}
 $$
 
@@ -42,6 +42,12 @@ $$
 ## (b)
 ![[A&D-e-u01.pdf#page=1&rect=85,403,528,457|A&D-e-u01, p.1]]
 
+We arrive at a value for $m$ through computing the first few terms.
+$$
+\begin{align}
+\
+\end{align}
+$$
 $$
 \begin{align}
 a_{1} &= 2, a_{n\geq1} = 6a_{n}-2 &\text{(def. $a_{n}$)} \\
@@ -63,7 +69,7 @@ $$
 \end{align}
 $$
 Since $\lim_{ m \to \infty } \frac{f(m)}{g(m)} \neq 0$ but also $\lim_{ m \to \infty } \frac{g(m)}{f(m)} \neq 0$, $f$ and $g$ grow asymptotically equal.
-$\qed$
+$\square$
 
 
 ## (b)
@@ -76,13 +82,13 @@ $$
 \end{align}
 $$
 Since the limit as $m$ approaches infinity equals zero, $f$ grows asymptotically slower than $g$.
-$\qed$
+$\square$
 
 
 ## (c)
 ![[A&D-e-u01.pdf#page=2&rect=87,714,406,732|A&D-e-u01, p.2]]
 
-We make use of the fact that $\log(m^3) =3\log m$ and further reduce the fraction in the limit $\frac{3\cancel{ \log (m) }}{\log (m)^\cancelto{ 2 }{ 3 }}=\frac{3}{\log(m)^3}$. Since the limit of a constant divided by a monotonically increasing function is zero, $f$ grows asymptotically slower than $g$.
+We make use of the fact that $\log(m^3) =3\log m$ and further reduce the fraction in the limit $\frac{3\cancel{ \log (m) }}{\log (m)^\cancelto{ 2 }{ 3 }}=\frac{3}{\log(m)^3}$. Since the limit of a constant divided by a monotonically increasing function is zero, $f$ indeed grows asymptotically slower than $g$.
 $\square$
 
 
@@ -92,7 +98,9 @@ $\square$
 $$
 \begin{align}
 \lim_{ m \to \infty } \frac{4^{m^2+m+ 1}}{2^{3m^2}} &= \lim_{ m \to \infty } \frac{2^{\cancel{ 2m^2 }+2m+2}}{2^{\cancel{ 3 }m^2}} \\
-&=\lim_{ m \to \infty } 2^{2m+2-m^2}
+&=\lim_{ m \to \infty } 2^{\cancelto{ -\infty }{ 2m+2-m^2 }} \\
+&=0
 \end{align}
 $$
-This
+This proves, that $f$ does in fact grow asymptotically slower than $g$.
+$\square$
