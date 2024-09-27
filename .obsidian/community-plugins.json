@@ -17,7 +17,6 @@
   "cmdr",
   "obsidian-shellcommands",
   "obsidian-toggl-integration",
-  "remember-cursor-position",
   "obsidian-advanced-uri",
   "obsidian-style-settings",
   "snippet-commands-obsidian",
@@ -34,5 +33,6 @@
   "tabs",
   "open-in-new-tab",
   "code-styler",
-  "obsidian-cursor-location-plugin"
+  "obsidian-cursor-location-plugin",
+  "remember-cursor-position"
 ]

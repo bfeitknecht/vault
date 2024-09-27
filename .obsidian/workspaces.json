@@ -447,11 +447,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/A&D/UE/e/A&D-e-u01.pdf",
-                    "page": 1,
-                    "left": -9,
-                    "top": 411,
-                    "zoom": 1.7991654291454724
+                    "file": "sem3/A&D/UE/e/A&D-e-u01.pdf"
                   }
                 }
               },
@@ -631,7 +627,7 @@
         }
       },
       "active": "446911ae39a6dba1",
-      "mtime": "2024-09-26T10:48:23+02:00"
+      "mtime": "2024-09-27T08:24:32+02:00"
     },
     "sem3-dmath": {
       "main": {
