@@ -1,5 +1,5 @@
 
-A **vector** $\mathbf{v}$ is just a list of $m$ [[real number]], $\mathbf{v} \in \mathbb R^m$, and can be interpreted as an $m$-dimensional point or an arrow from the [[origin]] to that point (translation).
+A (euclidian) **vector** is a geometrical object that has magnitude and direction. They can be added and scaled to form a [[vector space]]. a list of $m$ [[real number]], $\mathbf{v} \in \mathbb R^m$, and can be interpreted as an $m$-dimensional point or an arrow from the [[origin]] to that point (translation).
 
 
 # Vector Notation
