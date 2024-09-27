@@ -56,7 +56,7 @@ This yields $m=4$. We use this computation as **base case** for our induction. a
 $$
 \boxed{
 \begin{align}
-a_{n} &\geq_{2}^{2n}, &\forall n\geq m \\
+a_{n} &\geq2^{2n}, &\forall n\geq m \\
 \end{align}
 }
 $$
@@ -64,24 +64,19 @@ $$
 Now to the **induction step**.
 $$
 \begin{align}
+a_{n+1} &\geq 2^{2(n+1)} &\text{(def. $a_{n}$, distribute power)}\\
 6\cdot a_{n}-2 &\geq 2^{2n+2} &\text{(substitute $\mathbf{i.h.}$)} \\
-6\cdot 2^n-2 &\geq 2^{2n+2} &\text{(expand power, add two)} \\
+6\cdot a_{n} -2 &\geq 2^{2n+2} &\text{(expand power, add two)} \\
 6\cdot 2^n &\geq 4\cdot 2^{2n}+2 &\text{(subtract $4\cdot2^{2n}$)} \\
-2\cdot 2^{2n} &\geq 2 &\text{(divide by two)}
-2^{}
-
+2\cdot 2^{2n} &\geq 2 &\text{(divide by two)} \\
+2^{2n} &\geq 1
 \end{align}
 $$
 
+Which is true for all $n\geq 0$.
+$\square$
 
 
-$$
-\begin{align}
-a_{1} &= 2, a_{n\geq1} = 6a_{n}-2 &\text{(def. $a_{n}$)} \\
-
-\end{align}
-$$
-...
 ___
 
 # 1.3
