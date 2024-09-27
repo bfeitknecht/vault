@@ -13,7 +13,7 @@ A single vector $v$ in $m$-dimensional space is denoted as $\mathbf{v}=\begin{bm
 
 # Vector Operations
 
-## Vector Addition
+## Addition
 ![[vector addition]]
 
 ## Scalar Multiplication
