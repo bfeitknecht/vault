@@ -61,6 +61,34 @@ $\qed$
 ## (b)
 ![[TI-e-u01.pdf#page=1&rect=98,143,534,187|TI-e-u01, p.1]]
 
+Let $A=L_{2}\cdot(L_{2}-L_{1})$ and $B = (L_{2})^2-L_{2} \cdot L_{1}$. To show that the equality holds, we need to prove that $A\subseteq B$ and $B\subseteq A$.
+
+Lets start with $A\subseteq B$. Let $z \in A$ be arbitrarily chosen. 
+
+Let $z \in L_2 * (L_2 - L_1)$.
+Because of the definition of concatination we can say:
+$z = xy\qquad where\qquad x \in L_2\; and \; y \in L_2 - L_1$
+$\implies x \in L_2$ and $y \in L_{2}$ but $y \notin L_1$
+
+Now lets check if this is a subset or equal the right set.
+Lets split the right side into $(L_2)^2$ and $L_2 * L_1$.
+We need to check that $z \in (L_2)^2$ and $z \notin L_2 * L_1$.
+$x,y \in L_2 \implies z \in (L_{2})^2$
+$x \in L_2$ and $y \notin L_1$ $\implies z \notin L_2 * L_1$
+
+Now lets show:
+$(L_2)^2 - L_2 * L_1 \subseteq L_2 * (L_2 - L_1)$
+Let $z \in (L_2)^2 - L_2 * L_1$.
+$z = xy\qquad where\qquad x,y \in L_2\;  and\; z \notin L_{2} * L_1$
+$z \notin L_{2} * L_1 \implies y \notin L_1$ because for $z$ to be in $L_2*L_1$ $y$ (the second element) needs to be in $L_1$.
+Now with $x \in L_2$ and $y \in L_2 - L_{1}$
+Now concatinating $x$ and $y$ we get the set $L_2 * (L_2 - L_1)$.
+And because $z = xy$ we can say that $z \subseteq L_2 * (L_2 - L_1)$.
+
+Since both inclusions are now proven because of definition we can say $L_{2} * (L_{2} - L_{1}) = (L_{2})^2 - L_{2} * L_{1}$.
+
+
+
 
 ___
 
