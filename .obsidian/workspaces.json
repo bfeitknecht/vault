@@ -440,35 +440,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "d449cb303d449257",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/A&D/UE/e/A&D-e-u01.pdf",
-                    "page": 1,
-                    "left": -18,
-                    "top": 606,
-                    "zoom": 0.8315470470840418
-                  }
-                }
-              },
-              {
-                "id": "446911ae39a6dba1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u01.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -512,7 +486,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u01.md"
+                    "file": "wiki/pasture break (algorithm).md"
                   }
                 }
               },
@@ -522,7 +496,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u01.md",
+                    "file": "wiki/pasture break (algorithm).md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -539,7 +513,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u01.md",
+                    "file": "wiki/pasture break (algorithm).md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -630,8 +604,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "446911ae39a6dba1",
-      "mtime": "2024-09-27T08:25:58+02:00"
+      "active": "b4c1219365d2fb9f",
+      "mtime": "2024-09-27T17:22:02+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1133,9 +1107,7 @@
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w01.pdf",
                     "page": 1,
-                    "left": -109,
-                    "top": 796,
-                    "zoom": 1.3259803921568627
+                    "zoom": 1
                   }
                 }
               },
@@ -1146,10 +1118,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/LinAlg-lecture-notes-pt.01.pdf",
-                    "page": 20,
-                    "left": -9,
-                    "top": 740,
-                    "zoom": 1.75
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -1353,7 +1323,7 @@
         }
       },
       "active": "8aac3f49db6692c9",
-      "mtime": "2024-09-27T15:37:04+02:00"
+      "mtime": "2024-09-27T17:19:17+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1600,5 +1570,5 @@
       "mtime": "2024-09-27T10:08:16+02:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-linalg"
 }
