@@ -59,7 +59,7 @@ ___
 $$
 \begin{align}
 \lim_{ m \to \infty } \frac{10m^5+90m^4}{100m^5} &= \frac{\cancel{ m^4 }(10m +1)}{\cancel{ m^4 }(100m)} \\
-&\overset{\text{l'Hôpital}} =\frac{10}{100} =10
+&\overset{\text{l'Hôpital}} =\frac{10}{100} =0.1
 \end{align}
 $$
 Since $\lim_{ m \to \infty } \frac{f(m)}{g(m)} \neq 0$ but also $\lim_{ m \to \infty } \frac{g(m)}{f(m)} \neq 0$, $f$ and $g$ grow asymptotically equal.
@@ -82,11 +82,10 @@ $\qed$
 ## (c)
 ![[A&D-e-u01.pdf#page=2&rect=87,714,406,732|A&D-e-u01, p.2]]
 
-We make use of the fact that $\log(m^3) =3\log m$ and apply l'Hôpital's rule.
+We make use of the fact that $\log(m^3) =3\log m$ and further reduce the fraction in the limit $\frac{3\log (m)}{\log (m)^3}=\frac{3}{\log(m)^3}$.and apply l'Hôpital's rule.
 $$
 \begin{align}
-\lim_{ m \to \infty } \frac{3\log (m)}{\log (m)^3} &\overset{\text{l'Hôpital}}{=} \frac{3}{\log (m)^2} \\
-&\overset{\text{l'Hôpital}}{=} \frac{1}{\frac{2\log (m)}{m}} = \frac{m}{2\log (m)} \\
+\lim_{ m \to \infty } \frac{3}{\log (m)^2} &\overset{\text{l'Hôpital}}{=}  \frac{1}{\frac{2\log (m)}{m}} = \frac{m}{2\log (m)} \\
 &\overset{\text{l'Hôpital}}{=} \frac{1}{\frac{2}{m}} = \frac{m}{2} \overset{\infty}{\to} \infty \\
 \end{align}
 $$
@@ -99,6 +98,7 @@ $\qed$
 
 $$
 \begin{align}
-\lim_{ m \to \infty } \frac{4^{m^2+m+ 1}}{2^{3m^2}} &= \lim_{ m \to \infty } \frac{2^{\cancel{ 2m^2 }+2m+2}}{2^{\cancel{ 3 }m^2}}  \\
+\lim_{ m \to \infty } \frac{4^{m^2+m+ 1}}{2^{3m^2}} &= \lim_{ m \to \infty } \frac{2^{\cancel{ 2m^2 }+2m+2}}{2^{\cancel{ 3 }m^2}}
 \end{align}
 $$
+This
