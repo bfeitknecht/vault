@@ -65,10 +65,10 @@ Now to the **induction step**.
 $$
 \begin{align}
 a_{n+1} &\geq 2^{2(n+1)} &\text{(def. $a_{n}$, distribute power)}\\
-6\cdot a_{n}-2 &\geq 2^{2n+2} &\text{(substitute $\mathbf{i.h.}$)} \\
+6\cdot a_{n}-2 &\geq 2^{2n+2} &\text{(decompose power)} \\
 6\cdot a_{n}-2 &\geq 2^{2}\cdot2^{2n} &\text{(increase l.h.s.)} \\
-6\cdot a_{n} &\geq 4\cdot 2^{2n} &\text{(subtract $4\cdot2^{2n}$)} \\
-2\cdot 2^{2n} &\geq 2 &\text{(divide by two)} \\
+6\cdot a_{n} &\geq 4\cdot 2^{2n} &\text{(divide by four)} \\
+\frac{3}{2}\cdot a_{n} \geq a_{n }&\geq 2^{2n} &\text{(substitute $\mathbf{i.h.}$)} \\
 2^{2n} &\geq 1
 \end{align}
 $$
