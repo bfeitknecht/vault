@@ -99,6 +99,6 @@ $\qed$
 
 $$
 \begin{align}
-\lim_{ m \to \infty } 4^{m^2}
+\lim_{ m \to \infty } \frac{4^{m^2+m+ 1}}{2^{3m^2}} &= \lim_{ m \to \infty } \frac{2^{\cancel{ 2m^2 }+2m+2}}{2^{\cancel{ 3 }m^2}}  \\
 \end{align}
 $$
