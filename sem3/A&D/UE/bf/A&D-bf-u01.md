@@ -42,15 +42,27 @@ $$
 ## (b)
 ![[A&D-e-u01.pdf#page=1&rect=85,403,528,457|A&D-e-u01, p.1]]
 
-We arrive at a value for $m$ through computing the first few terms.
+We determine $m$ through computing the first few terms.
 $$
 \begin{align}
 2 &< 2^2=4 &\text{$(m=1)$}\\
 10 &< 2^4 = 16 &\text{$(m=2)$} \\
-10 &< 2^4 = 16 &\text{$(m=2)$} \\
-10 &< 2^4 = 16 &\text{$(m=2)$} \\
+58 &< 2^6 = 164 &\text{$(m=3)$} \\
+346 &> 2^8 = 256 &\text{$(m=4)$} \\
 \end{align}
 $$
+
+This yields $m=4$. We use this computation as **base case** for our induction. and formulate the **inductive hypothesis** for some $m\leq n\in \mathbb N$.
+$$
+\boxed{
+\begin{align}
+a_{n} \geq_{2}^{2n}, &\forall n\geq m \\
+\end{align}
+}
+$$
+
+
+
 $$
 \begin{align}
 a_{1} &= 2, a_{n\geq1} = 6a_{n}-2 &\text{(def. $a_{n}$)} \\
