@@ -149,3 +149,114 @@ $$
 
 
 
+
+
+
+
+
+
+
+# 1
+## (a)
+![[TheInf-Exe-01.pdf#page=1&rect=97,344,530,376|TheInf-Exe-01, p.1]]
+
+Let $f:\mathbb N \to \mathbb N$ denote the number of words of length $n\in \mathbb N$ over $\Sigma$ that contain each of the three letters in the alphabet at least once.
+Let $L_{n} = \{ w \in \Sigma^* \mid \forall x\in \Sigma \ |w|_{x}\geq 1, |w|=n \}$ denote the language of words of length $n$ that contain each letter at least once. It is know that there exists  $|\Sigma|^n$ words of length $n$. 
+
+Now we just subtract all words that do not contain each letter at least once using the sieve formula.
+
+$$
+f(n) = \begin{cases}
+0, & n < 3 \\
+3^{n} - 3 \cdot 2^n+3, & n \geq 3
+\end{cases}
+$$
+$\square$
+
+## (b)
+![[TheInf-Exe-01.pdf#page=1&rect=97,310,531,339|TheInf-Exe-01, p.1]]
+
+Let $g:\mathbb N \to \mathbb N$ denote the number of words of length $n\in \mathbb N$ over $\Sigma^n$ that do not contain $11$ as a subword. Since for the case of $n=1$
+
+$$
+g(n) = \begin{cases}
+1, & n=0 \\
+2, & n=1 \\
+g(n-1) + g(n-2), & n\geq 2
+\end{cases}
+$$
+$\square$
+
+___
+# 2
+Prove or disprove.
+## (a)
+![[TheInf-Exe-01.pdf#page=1&rect=98,194,531,233|TheInf-Exe-01, p.1]]
+
+We pove this by a simple Case Distingtion.
+### Case 1: $L = \emptyset$
+If $L = \emptyset$, then $L^2 = \emptyset$ and clearly $\emptyset \subseteq \emptyset$. This trivially proves the first part of the implication.
+### Case 2: $L=\{\lambda\}$
+If $L = \{\lambda\}$, then $L^2 = \{\lambda\lambda\} = \{\lambda\}$. Since $L = L^2 \implies L^2 \subseteq L$
+This trivially proves the second part of the implication. 
+
+### Case 3: 
+To prove Case 3 we prove that $L$ cannot be finite to fulfill $L^2 \subseteq L$.
+Assuming $L$ contains as least one non-empty word $w \in L$ then $L^2$ has to contain the cconcatenation of $w$ $ww \in L^2$.
+To fulfill $L^2 \subseteq L$, we have to add $ww \in L$. This forces $wwww \in L^2$ creating an infinite loop and thus infinite number of unique words.
+This is only possible if $L$ is infinite and proofes the third part of the implication.
+
+## (b)
+![[TheInf-Exe-01.pdf#page=1&rect=98,138,531,184|TheInf-Exe-01, p.1]]
+
+
+___
+
+# 3
+![[TheInf-Exe-01.pdf#page=2&rect=69,746,528,778|TheInf-Exe-01, p.]]
+## (a)
+![[TheInf-Exe-01.pdf#page=2&rect=97,718,531,738|TheInf-Exe-01, p.]]
+
+$|L_{1}|=k,\ |L_{1}L_{2}|=k+1$
+
+$$
+\begin{align}
+\Sigma &=\{ a \}  \\
+L_{1} &= \{  a^{n} \mid n \in\mathbb{N} \land 1 \leq n \leq k \} \\
+L_{2} &= \{ a, \lambda\} \\
+\end{align}
+$$
+$\square$
+
+## (b)
+![[TheInf-Exe-01.pdf#page=2&rect=98,693,531,712|TheInf-Exe-01, p.]]
+
+$|L_{1}|=k,\ |L_{1}L_{2}|=k+5$
+
+$$
+\begin{align}
+\Sigma &=\{a\}  \\
+L_{1}  &=\{a^{n} \mid n \in\mathbb{N} \land 1 \leq n \leq k \} \\
+L_{2}  &=\{a^{i} \mid i \in\mathbb{N} \land 0 \leq 5\} \\
+\end{align}
+$$
+$\square$
+
+## (c)
+![[TheInf-Exe-01.pdf#page=2&rect=99,669,530,687|TheInf-Exe-01, p.]]
+
+$|L_{1}|=k,\ |L_{2}|=l,\ |L_{1}L_{2}|=k\cdot l$
+$$
+\begin{align}
+\Sigma &=\{a\ b\}  \\
+L_{1}  &=\{a^{n} \mid n \in\mathbb{N} \land 1 \leq n \leq k \} \\
+L_{2}  &=\{b^{n} \mid n \in\mathbb{N} \land 1 \leq n \leq l \} \\ 
+\end{align}
+$$
+$\square$
+
+## (d)
+![[TheInf-Exe-01.pdf#page=2&rect=99,643,530,663|TheInf-Exe-01, p.]]
+
+$|L_{1}|=k,\ |L_{2}|=l,\ |\Sigma|=1,\ |L_{1}L_{2}|=k\cdot l$
+
