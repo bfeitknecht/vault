@@ -16,15 +16,19 @@ We can do this.
 ![[matrix addition]]
 
 ## Scalar Multiplication
-![[matrix muliplication]]
+![[scalar multiplication (matrix)]]
 
 ## Matrix Transpose
-![[matrix transposition]]
+![[matrix transpose]]
 
 ## Matrix Transformation
 ![[matrix transformation]]
 
+## Matrix multiplication
+![[matrix multiplication]]
 
+## Linear Transformation
+![[linear transformation]]
 
 # Matrix Types
 

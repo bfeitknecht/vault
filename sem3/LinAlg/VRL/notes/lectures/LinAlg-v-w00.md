@@ -1,6 +1,6 @@
 
 - what is a [[vector]]?
-- basic vector operatations ([[vector addition]], [[scalar multiplication]])
+- basic vector operatations ([[vector addition]], [[scalar multiplication (vector)]])
 
 
 # Lecture Plan

@@ -1,6 +1,6 @@
 #todo 
 
-A **linear combination** of some [[set]] of [[vector|vectors]] is the result of [[scalar multiplication]] and [[vector addition]] with vectors in that set.
+A **linear combination** of some [[set]] of [[vector|vectors]] is the result of [[scalar multiplication (vector)]] and [[vector addition]] with vectors in that set.
 
 ![[LinAlg-plan-w01.pdf#page=1&rect=206,441,403,483|LinAlg-plan-w01, p.1]]
 

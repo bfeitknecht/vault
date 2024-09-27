@@ -17,7 +17,7 @@ A single vector $v$ in $m$-dimensional space is denoted as $\mathbf{v}=\begin{bm
 ![[vector addition]]
 
 ## Scalar Multiplication
-![[scalar multiplication]]
+![[scalar multiplication (vector)]]
 
 ## Linear Combination
 ![[linear combination]]
