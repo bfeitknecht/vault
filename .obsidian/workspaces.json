@@ -1101,30 +1101,6 @@
                 }
               },
               {
-                "id": "d9ba69bc08857479",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w01.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
-                "id": "c89580225c63f63c",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/LinAlg/VRL/extra/LinAlg-lecture-notes-pt.01.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
                 "id": "33b1f2eed5349ba9",
                 "type": "leaf",
                 "state": {
@@ -1159,9 +1135,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "2ebe47757ab79201",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/LinAlg/UE/e/LinAlg-e-u01.pdf"
+                  }
+                }
+              },
+              {
+                "id": "09f96aa79e6fcc2f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/cauchy-schwarz inequality.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 6
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1205,7 +1203,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/linear combination.md"
+                    "file": "wiki/row, column vectors.md"
                   }
                 }
               },
@@ -1215,7 +1213,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/linear combination.md",
+                    "file": "wiki/row, column vectors.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1232,7 +1230,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/linear combination.md",
+                    "file": "wiki/row, column vectors.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1323,8 +1321,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "d47d7a6a5e6f97a6",
-      "mtime": "2024-09-27T20:51:57+02:00"
+      "active": "7e1afa49e833dd21",
+      "mtime": "2024-09-29T16:47:05+02:00"
     },
     "sem3-ti": {
       "main": {
