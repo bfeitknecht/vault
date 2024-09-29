@@ -1142,7 +1142,9 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/LinAlg/UE/e/LinAlg-e-u01.pdf"
+                    "file": "sem3/LinAlg/UE/e/LinAlg-e-u01.pdf",
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -1322,7 +1324,7 @@
         }
       },
       "active": "7e1afa49e833dd21",
-      "mtime": "2024-09-29T16:56:17+02:00"
+      "mtime": "2024-09-29T16:56:40+02:00"
     },
     "sem3-ti": {
       "main": {
