@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # save workspace
-open "obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave"
+#open --background "obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave"
 
 # change to vault root
 cd "$1" &> /dev/null
