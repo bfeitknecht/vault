@@ -123,46 +123,6 @@
       "variable_default_values": {}
     },
     {
-      "id": "cz6yqm01nx",
-      "platform_specific_commands": {
-        "default": "open --background \"obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave\""
-      },
-      "shells": {},
-      "alias": "Save workspace before close",
-      "icon": "save",
-      "confirm_execution": false,
-      "ignore_error_codes": [],
-      "input_contents": {
-        "stdin": null
-      },
-      "output_handlers": {
-        "stdout": {
-          "handler": "ignore",
-          "convert_ansi_code": true
-        },
-        "stderr": {
-          "handler": "notification",
-          "convert_ansi_code": true
-        }
-      },
-      "output_wrappers": {
-        "stdout": null,
-        "stderr": null
-      },
-      "output_channel_order": "stdout-first",
-      "output_handling_mode": "buffered",
-      "execution_notification_mode": null,
-      "events": {
-        "on-quit": {
-          "enabled": true
-        }
-      },
-      "debounce": null,
-      "command_palette_availability": "enabled",
-      "preactions": [],
-      "variable_default_values": {}
-    },
-    {
       "id": "b48do41m1f",
       "platform_specific_commands": {
         "default": "open -a iTerm {{folder_path:absolute}}"
