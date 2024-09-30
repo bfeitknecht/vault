@@ -25,7 +25,6 @@
 > ```
 
 
-
 ```toggl
 SUMMARY PAST 10 DAYS
 
