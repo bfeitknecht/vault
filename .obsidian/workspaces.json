@@ -431,15 +431,11 @@
                 }
               },
               {
-                "id": "4003f2a3ad21b722",
+                "id": "2110d6b0d6ab4165",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u01.md",
-                    "mode": "source",
-                    "source": false
-                  }
+                  "type": "empty",
+                  "state": {}
                 }
               }
             ],
@@ -486,9 +482,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u01.md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -497,7 +491,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u01.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -514,7 +507,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u01.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -605,8 +597,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "4003f2a3ad21b722",
-      "mtime": "2024-09-27T21:38:39+02:00"
+      "active": "2110d6b0d6ab4165",
+      "mtime": "2024-09-30T09:52:13+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1580,5 +1572,5 @@
       "mtime": "2024-09-27T19:22:03+02:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "00-home"
 }

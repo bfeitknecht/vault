@@ -7,7 +7,8 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 - [ ] theory exercise 🔁 every week 📅 2024-10-06
 - [x] theory exercise 🔁 every week 📅 2024-09-29 ✅ 2024-09-27
 - [ ] peer grading 📅 2024-09-30 🔁 every week 
-- [ ] moodle quiz 📅 2024-09-30  🔁 every week 
+- [ ] moodle quiz 🔁 every week 📅 2024-10-07
+- [x] moodle quiz 🔁 every week 📅 2024-09-30 ✅ 2024-09-30
 - [ ] code expert 📅 2024-10-10 🔁 every 2 weeks on Wednesday 
 
 
