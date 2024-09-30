@@ -6,7 +6,7 @@
 $$
 \begin{align}
 F &= \big( (B\vee C)\to((A\vee \neg B)\wedge C)\big)\vee(A\wedge \neg C)) &\text{(1., def. $\to$)} \\
-&\equiv \big( \neg(B\vee C) \vee((A\vee \neg B)\wedge C)\big) \vee (A\wedge \neg C)
-
+&\equiv \big( \neg(B\vee C) \vee((A\vee \neg B)\wedge C)\big) \vee (A\wedge \neg C) &\text{(2., de Morgan)} \\
+&\equiv \big( \neg(B\vee C) \vee((A\vee \neg B)\wedge C)\big) \vee (A\wedge \neg C) &\text{()} \\
 \end{align}
 $$
