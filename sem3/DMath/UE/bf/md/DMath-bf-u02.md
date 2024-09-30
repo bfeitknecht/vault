@@ -1,7 +1,6 @@
 
 # 2.3
 ![[DMath-e-u02.pdf#page=1&rect=77,254,518,336|DMath-e-u02, p.1]]
-![[dmath-script-hs24.pdf#page=32&rect=36,389,390,530|dmath-script-hs24, p.22]]
 
 $$
 \begin{align}

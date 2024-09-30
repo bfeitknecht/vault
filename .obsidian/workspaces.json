@@ -195,7 +195,7 @@
                   "state": {
                     "file": "HOME.md",
                     "mode": "preview",
-                    "source": false
+                    "source": true
                   }
                 }
               },
@@ -387,7 +387,7 @@
         }
       },
       "active": "4a586b919d13321c",
-      "mtime": "2024-09-30T14:46:13+02:00"
+      "mtime": "2024-09-30T18:22:53+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1590,5 +1590,5 @@
       "mtime": "2024-09-27T19:22:03+02:00"
     }
   },
-  "active": "00-home"
+  "active": "sem3-dmath"
 }
