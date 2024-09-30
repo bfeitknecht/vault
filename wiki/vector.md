@@ -2,7 +2,6 @@
 A **vector** $\mathbf{v}\in \mathbb R^m$ describes a point in an $m$-dimensional [[euclidian space]] with some magnitude from the [[origin]] and direction (translation). Vectors can be added and scaled to form a [[vector space]]. We can interpret it as an ordered list of $m$ [[real number|real numbers]] 
 
 
-abc [[matrix]] [[dog]] 
  
 # Vector Notation
 

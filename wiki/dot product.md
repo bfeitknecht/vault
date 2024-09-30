@@ -6,7 +6,7 @@ $$
 $$
 and can be denoted with $\langle \mathbf{v}, \mathbf{w} \rangle$ or $\mathbf{v} \cdot \mathbf{w}$.
 
-If $\mathbf{v}$ and $\mathbf{w}$ are [[row, column vectors|column vectors]], the dot product can also be denoted as $\mathbf{v} \cdot \mathbf{w} =\mathbf{v}^\top \mathbf{w}$, where $\mathbf{v}^\top$ denotes the [[transpose]] of $\mathbf{v}$.
+If $\mathbf{v}$ and $\mathbf{w}$ are [[row and column vectors|column vectors]], the dot product can also be denoted as $\mathbf{v} \cdot \mathbf{w} =\mathbf{v}^\top \mathbf{w}$, where $\mathbf{v}^\top$ denotes the [[transpose]] of $\mathbf{v}$.
 $$
 \begin{align}
 \mathbf{v} \cdot \mathbf{w} &=

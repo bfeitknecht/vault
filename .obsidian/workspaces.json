@@ -1113,12 +1113,24 @@
                 }
               },
               {
+                "id": "d040d576b355810c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/vector.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "7e1afa49e833dd21",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/row, column vectors.md",
+                    "file": "wiki/row and column vectors.md",
                     "mode": "source",
                     "source": false
                   }
@@ -1142,7 +1154,9 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/LinAlg/UE/e/LinAlg-e-u01.pdf"
+                    "file": "sem3/LinAlg/UE/e/LinAlg-e-u01.pdf",
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -1203,7 +1217,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/row, column vectors.md"
+                    "file": "wiki/vector.md"
                   }
                 }
               },
@@ -1213,7 +1227,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/row, column vectors.md",
+                    "file": "wiki/vector.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1230,7 +1244,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/row, column vectors.md",
+                    "file": "wiki/vector.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1321,8 +1335,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "7e1afa49e833dd21",
-      "mtime": "2024-09-29T16:56:48+02:00"
+      "active": "d040d576b355810c",
+      "mtime": "2024-09-30T09:05:50+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1566,5 +1580,5 @@
       "mtime": "2024-09-27T19:22:03+02:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-a&d"
 }

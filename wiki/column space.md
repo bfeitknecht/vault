@@ -1,2 +1,2 @@
 
-The **column space** of some [[matrix]] $A\in \mathbb R^{m\times n}$, is the **[[span]]** of its [[row, column vectors|column vectors]].
+The **column space** of some [[matrix]] $A\in \mathbb R^{m\times n}$, is the **[[span]]** of its [[row and column vectors|column vectors]].
