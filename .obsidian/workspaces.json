@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "a31cfdfb574d1fbd",
+            "id": "0b224b8e86bc3a8d",
             "type": "tabs",
             "children": [
               {
-                "id": "2950db54d80972b6",
+                "id": "4aee8d212d807fbf",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -64,6 +64,64 @@
                 }
               },
               {
+                "id": "ee946e358c8111ed",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "b14014a5400a500b",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 346.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "4be59d580df31d93",
+        "type": "split",
+        "children": [
+          {
+            "id": "a9eab3abde570e06",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d39f74221ae34967",
+                "type": "leaf",
+                "state": {
+                  "type": "vertical-tabs-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "d4d9e5cf2cd5e94b",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "df8e8e11fe3e136a",
+                "type": "leaf",
+                "state": {
+                  "type": "toggl-report",
+                  "state": {}
+                }
+              },
+              {
                 "id": "b3aff261bc292caf",
                 "type": "leaf",
                 "state": {
@@ -88,63 +146,6 @@
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 346.5
-      },
-      "right": {
-        "id": "4be59d580df31d93",
-        "type": "split",
-        "children": [
-          {
-            "id": "a9eab3abde570e06",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d39f74221ae34967",
-                "type": "leaf",
-                "state": {
-                  "type": "vertical-tabs-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "b14014a5400a500b",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
-                }
-              },
-              {
-                "id": "ee946e358c8111ed",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "d4d9e5cf2cd5e94b",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "df8e8e11fe3e136a",
-                "type": "leaf",
-                "state": {
-                  "type": "toggl-report",
-                  "state": {}
                 }
               }
             ],
@@ -174,8 +175,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "2950db54d80972b6",
-      "mtime": "2024-10-01T14:19:25+02:00"
+      "active": "4aee8d212d807fbf",
+      "mtime": "2024-10-01T14:25:23+02:00"
     },
     "00-home": {
       "main": {
@@ -1575,5 +1576,5 @@
       "mtime": "2024-10-01T14:21:04+02:00"
     }
   },
-  "active": "00-clean"
+  "active": "sem3-ti"
 }
