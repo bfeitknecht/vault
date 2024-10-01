@@ -1405,7 +1405,7 @@
                     "file": "sem3/TIN/UE/e/TI-e-u02.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 709,
+                    "top": 714,
                     "zoom": 0.8743843192065531
                   }
                 }
@@ -1454,7 +1454,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/TIN/UE/e/TI-e-u02.pdf"
+                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w02.md"
                   }
                 }
               },
@@ -1464,7 +1464,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/TIN/UE/e/TI-e-u02.pdf",
+                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w02.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1481,7 +1481,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/TIN/UE/e/TI-e-u02.pdf",
+                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w02.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1572,9 +1572,9 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "60f4b5c14e0b8857",
-      "mtime": "2024-10-01T14:21:04+02:00"
+      "active": "4792cbe552cf2439",
+      "mtime": "2024-10-01T14:33:46+02:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "00-clean"
 }
