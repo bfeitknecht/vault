@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "8e42278b7fd83d4e",
+            "id": "bf71baea37a02267",
             "type": "tabs",
             "children": [
               {
-                "id": "75a12dc7601c8339",
+                "id": "dd8fab05261971ab",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -86,7 +86,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5
+        "width": 346.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -148,11 +149,12 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -173,8 +175,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "75a12dc7601c8339",
-      "mtime": "2024-10-01T15:08:04+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-10-01T15:19:26+02:00"
     },
     "00-home": {
       "main": {
@@ -1604,5 +1606,5 @@
       "mtime": "2024-10-01T15:07:24+02:00"
     }
   },
-  "active": "00-clean"
+  "active": "00-home"
 }
