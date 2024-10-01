@@ -2,7 +2,7 @@
 
 The **kolmogorov complexity** of some [[word]] measures the length of the shortest [[program]] that generates that word.
 
-There exists no simple program that can compute the exact kolmogorov complexity for an infinite amount of words.
+There exists no simple program that can compute the exact kolmogorov complexity for an infinite amount of words.****
 
 # Intuition
 
