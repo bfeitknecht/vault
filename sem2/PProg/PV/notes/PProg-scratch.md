@@ -72,19 +72,19 @@ unlock(me) {
 
 
 filter lock
-![[PProg-scratch-71CCD07AC60753C6A7D6B20686CD8AFB.png]]
+![[PProg-filter-lock.png]]
 
 
 bakery lock
-![[PProg-scratch-319A2972C2E535FEBA780E4D659DDAE7.png]]
+![[PProg-bakery-lock.png]]
 
 
 CAS spinlock
-![[PProg-scratch-DD292485FEAE5146478020051CDD616C.png]]
+![[PProg-spin-lock.png]]
 
 
 ## History
-![[PProg-scratch-C63E706ACA288EB9D0DC92F106BEAC5E.png]]
+![[PProg-history.png]]
 Linarizability implies :: sequential consistency.
 Not sequentially consistent implies :: not linearizable.
 Sequential consistency and quiescent consistency :: are incomparable!

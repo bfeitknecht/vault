@@ -269,7 +269,7 @@ ___
 ## Consistency Models
 
 > [!quote]+ What is a History?
-> ![[PProg-scratch-C63E706ACA288EB9D0DC92F106BEAC5E.png]]
+> ![[PProg-history.png]]
 
 
 > [!quote]+ What is sequential consistency?
