@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "0b224b8e86bc3a8d",
+            "id": "8e42278b7fd83d4e",
             "type": "tabs",
             "children": [
               {
-                "id": "4aee8d212d807fbf",
+                "id": "75a12dc7601c8339",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -175,8 +175,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "4aee8d212d807fbf",
-      "mtime": "2024-10-01T14:25:23+02:00"
+      "active": "75a12dc7601c8339",
+      "mtime": "2024-10-01T14:50:04+02:00"
     },
     "00-home": {
       "main": {
@@ -1576,5 +1576,5 @@
       "mtime": "2024-10-01T14:33:46+02:00"
     }
   },
-  "active": "00-clean"
+  "active": "sem3-ti"
 }
