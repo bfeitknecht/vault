@@ -412,6 +412,18 @@
                 }
               },
               {
+                "id": "b4c1219365d2fb9f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w03.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "545c4fe2911597d7",
                 "type": "leaf",
                 "state": {
@@ -424,27 +436,39 @@
                 }
               },
               {
-                "id": "b4c1219365d2fb9f",
+                "id": "21f8a35fb8c028a9",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/pasture break (algorithm).md",
+                    "file": "sem3/A&D/UE/bf/A&D-bf-u02.md",
                     "mode": "source",
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "2110d6b0d6ab4165",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
               }
             ],
             "currentTab": 3
+          },
+          {
+            "id": "55af38eb7e78e103",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "db608fa49433ca34",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/A&D/UE/e/A&D-e-u02.pdf",
+                    "page": 1,
+                    "left": -4,
+                    "top": 846,
+                    "zoom": 1.363233189310505
+                  }
+                }
+              }
+            ]
           }
         ],
         "direction": "vertical"
@@ -487,7 +511,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "sem3/A&D/UE/bf/A&D-bf-u02.md"
+                  }
                 }
               },
               {
@@ -496,6 +522,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "sem3/A&D/UE/bf/A&D-bf-u02.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -512,6 +539,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "sem3/A&D/UE/bf/A&D-bf-u02.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -602,8 +630,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "2110d6b0d6ab4165",
-      "mtime": "2024-09-30T09:52:13+02:00"
+      "active": "21f8a35fb8c028a9",
+      "mtime": "2024-10-01T15:45:50+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1593,5 +1621,5 @@
       "mtime": "2024-10-01T15:37:25+02:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-ti"
 }
