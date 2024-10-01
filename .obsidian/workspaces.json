@@ -673,7 +673,7 @@
                     "file": "sem3/DMath/UE/e/DMath-e-u02.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 681,
+                    "top": 685,
                     "zoom": 0.8743843192065531
                   }
                 }
@@ -852,7 +852,7 @@
         }
       },
       "active": "216614f3cd04851d",
-      "mtime": "2024-09-30T18:31:53+02:00"
+      "mtime": "2024-10-01T13:48:31+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1390,33 +1390,23 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "5d43564b056e30c1",
             "type": "tabs",
             "children": [
               {
-                "id": "b219c383a6ea45ab",
+                "id": "60f4b5c14e0b8857",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "pdf",
                   "state": {
-                    "file": "wiki/random.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "4fd14fb3d94f4324",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/kolmogorov complexity.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "sem3/TIN/UE/e/TI-e-u02.pdf",
+                    "page": 1,
+                    "left": -18,
+                    "top": 704,
+                    "zoom": 0.8743843192065529
                   }
                 }
               }
@@ -1464,7 +1454,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/TIN.md"
+                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w02.md"
                   }
                 }
               },
@@ -1474,7 +1464,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/TIN.md",
+                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w02.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1491,7 +1481,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/TIN.md",
+                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w02.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1582,9 +1572,9 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "65cc6977d876498e",
-      "mtime": "2024-09-27T19:22:03+02:00"
+      "active": "4792cbe552cf2439",
+      "mtime": "2024-10-01T13:47:59+02:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "00-home"
 }

@@ -1,4 +1,4 @@
-
+#todo 
 
 The **kolmogorov complexity** of some [[word]] measures the length of the shortest [[program]] that generates that word.
 
