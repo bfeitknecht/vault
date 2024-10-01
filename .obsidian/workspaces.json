@@ -1365,10 +1365,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
-                    "page": 52,
-                    "left": -14,
-                    "top": 556,
-                    "zoom": 1.0929822351014236
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -1379,18 +1377,6 @@
                   "type": "markdown",
                   "state": {
                     "file": "sem3/TIN/VRL/notes/TI.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "4792cbe552cf2439",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w02.md",
                     "mode": "source",
                     "source": false
                   }
@@ -1421,7 +1407,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 2
           },
           {
             "id": "5d43564b056e30c1",
@@ -1435,9 +1421,9 @@
                   "state": {
                     "file": "sem3/TIN/UE/e/TI-e-u02.pdf",
                     "page": 1,
-                    "left": -23,
+                    "left": -18,
                     "top": 846,
-                    "zoom": 0.6564181992890693
+                    "zoom": 0.8743843192065532
                   }
                 }
               }
@@ -1485,7 +1471,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/kolmogorov complexity.md"
+                    "file": "sem3/TIN/UE/e/TI-e-u02.pdf"
                   }
                 }
               },
@@ -1495,7 +1481,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/kolmogorov complexity.md",
+                    "file": "sem3/TIN/UE/e/TI-e-u02.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1512,7 +1498,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/kolmogorov complexity.md",
+                    "file": "sem3/TIN/UE/e/TI-e-u02.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1522,7 +1508,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5
+        "width": 346.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1602,9 +1589,9 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "35512239f76bcee6",
-      "mtime": "2024-10-01T15:07:24+02:00"
+      "active": "60f4b5c14e0b8857",
+      "mtime": "2024-10-01T15:37:25+02:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-a&d"
 }
