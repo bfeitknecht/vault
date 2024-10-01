@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "c805054c999702e7",
+            "id": "a31cfdfb574d1fbd",
             "type": "tabs",
             "children": [
               {
-                "id": "954feeddf07b41e8",
+                "id": "2950db54d80972b6",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -94,8 +94,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -175,8 +174,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "954feeddf07b41e8",
-      "mtime": "2024-09-30T18:08:42+02:00"
+      "active": "2950db54d80972b6",
+      "mtime": "2024-10-01T14:19:25+02:00"
     },
     "00-home": {
       "main": {
@@ -1405,8 +1404,8 @@
                     "file": "sem3/TIN/UE/e/TI-e-u02.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 704,
-                    "zoom": 0.8743843192065529
+                    "top": 709,
+                    "zoom": 0.8743843192065531
                   }
                 }
               }
@@ -1454,7 +1453,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w02.md"
+                    "file": "sem3/TIN/UE/e/TI-e-u02.pdf"
                   }
                 }
               },
@@ -1464,7 +1463,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w02.md",
+                    "file": "sem3/TIN/UE/e/TI-e-u02.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1481,7 +1480,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w02.md",
+                    "file": "sem3/TIN/UE/e/TI-e-u02.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1572,8 +1571,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "4792cbe552cf2439",
-      "mtime": "2024-10-01T13:47:59+02:00"
+      "active": "60f4b5c14e0b8857",
+      "mtime": "2024-10-01T14:21:04+02:00"
     }
   },
   "active": "00-clean"
