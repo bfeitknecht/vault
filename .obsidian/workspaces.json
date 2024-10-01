@@ -86,8 +86,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -153,8 +152,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -176,7 +174,7 @@
         }
       },
       "active": "75a12dc7601c8339",
-      "mtime": "2024-10-01T14:50:04+02:00"
+      "mtime": "2024-10-01T15:08:04+02:00"
     },
     "00-home": {
       "main": {
@@ -268,34 +266,28 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
+                  "state": {
+                    "file": "HOME.md"
+                  }
+                }
+              },
+              {
+                "id": "ee946e358c8111ed",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "b14014a5400a500b",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
                   "state": {}
-                }
-              },
-              {
-                "id": "b3aff261bc292caf",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "2d28441159ca953f",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
                 }
               }
             ]
@@ -322,25 +314,6 @@
                 }
               },
               {
-                "id": "b14014a5400a500b",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
-                }
-              },
-              {
-                "id": "ee946e358c8111ed",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
                 "id": "d4d9e5cf2cd5e94b",
                 "type": "leaf",
                 "state": {
@@ -355,8 +328,38 @@
                   "type": "toggl-report",
                   "state": {}
                 }
+              },
+              {
+                "id": "b3aff261bc292caf",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "HOME.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "2d28441159ca953f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "HOME.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
@@ -383,7 +386,7 @@
         }
       },
       "active": "5f4cf158045f14fe",
-      "mtime": "2024-10-01T13:50:22+02:00"
+      "mtime": "2024-10-01T15:09:07+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1360,8 +1363,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 52,
+                    "left": -14,
+                    "top": 556,
+                    "zoom": 1.0929822351014236
                   }
                 }
               },
@@ -1371,7 +1376,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/TIN.md",
+                    "file": "sem3/TIN/VRL/notes/TI.md",
                     "mode": "source",
                     "source": false
                   }
@@ -1388,9 +1393,33 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "51af9fa2d3ccc945",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w03.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "35512239f76bcee6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/kolmogorov complexity.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 4
           },
           {
             "id": "5d43564b056e30c1",
@@ -1404,9 +1433,9 @@
                   "state": {
                     "file": "sem3/TIN/UE/e/TI-e-u02.pdf",
                     "page": 1,
-                    "left": -18,
-                    "top": 714,
-                    "zoom": 0.8743843192065531
+                    "left": -23,
+                    "top": 846,
+                    "zoom": 0.6564181992890693
                   }
                 }
               }
@@ -1454,7 +1483,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w02.md"
+                    "file": "wiki/kolmogorov complexity.md"
                   }
                 }
               },
@@ -1464,7 +1493,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w02.md",
+                    "file": "wiki/kolmogorov complexity.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1481,7 +1510,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w02.md",
+                    "file": "wiki/kolmogorov complexity.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1491,8 +1520,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1572,9 +1600,9 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "4792cbe552cf2439",
-      "mtime": "2024-10-01T14:33:46+02:00"
+      "active": "35512239f76bcee6",
+      "mtime": "2024-10-01T15:07:24+02:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "00-clean"
 }

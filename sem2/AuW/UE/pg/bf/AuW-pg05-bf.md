@@ -1,5 +1,5 @@
 
-![[AuW-pg05-e.pdf#page=1&rect=86,404,521,548|AuW-pg05-e, p.1]]
+![[AuW-e-pg05.pdf#page=1&rect=86,404,521,548|AuW-pg05-e, p.1]]
 
 We recall the definition for a network is a tuple $N = (V, A, c, s, t)$, such that
 $$
