@@ -16,7 +16,7 @@ The kolmogorov complexity of some word measures the length of the shortest progr
 
 Programs (which are [[word|words]] over some [[alphabet]]) can be "translated" between programming languages, since both are just computing models, i.e. they are equivalent in the class of problems they can solve. Additionally, the kolmogorov complexity is also only affected by some constant entirely dependent on the programming languages, not the words they use.
 
-![[hromkovic-TIN.pdf#page=53&rect=41,329,434,398|hromkovic-TIN, p.38]]
+
 
 
 
