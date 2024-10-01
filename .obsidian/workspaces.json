@@ -1160,7 +1160,9 @@
                   "state": {
                     "file": "sem3/LinAlg/UE/e/LinAlg-e-u01.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -9,
+                    "top": 355,
+                    "zoom": 1.7991654291454724
                   }
                 }
               },
@@ -1177,7 +1179,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 6
           }
         ],
         "direction": "vertical"
@@ -1221,7 +1223,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/vector.md"
+                    "file": "sem3/LinAlg/UE/e/LinAlg-e-u01.pdf"
                   }
                 }
               },
@@ -1231,7 +1233,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/vector.md",
+                    "file": "sem3/LinAlg/UE/e/LinAlg-e-u01.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1248,7 +1250,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/vector.md",
+                    "file": "sem3/LinAlg/UE/e/LinAlg-e-u01.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1339,8 +1341,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "d040d576b355810c",
-      "mtime": "2024-09-30T19:00:45+02:00"
+      "active": "2ebe47757ab79201",
+      "mtime": "2024-10-01T13:42:53+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1584,5 +1586,5 @@
       "mtime": "2024-09-27T19:22:03+02:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-ti"
 }
