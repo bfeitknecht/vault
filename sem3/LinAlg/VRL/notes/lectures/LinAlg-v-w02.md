@@ -1,8 +1,8 @@
 
 - [[matrix]]
-- [[linear transformation]]
+- [[linear combination]]
 - [[hyperplane]]
-- 
+- [[CR decomposition]]
 
 
 # Lecture Plan
