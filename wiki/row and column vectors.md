@@ -12,7 +12,7 @@ a_{m_{1}} &a_{m_{2}} &\dots &a_{mn}
 \end{bmatrix}
 $$
 
-Then its 
+Then its row and column vectors are given by:
 $$
 A =
 \begin{bmatrix}
