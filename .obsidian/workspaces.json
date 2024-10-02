@@ -706,7 +706,7 @@
                     "file": "sem3/DMath/UE/e/DMath-e-u02.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 690,
+                    "top": 694,
                     "zoom": 0.8743843192065531
                   }
                 }
@@ -885,7 +885,7 @@
         }
       },
       "active": "216614f3cd04851d",
-      "mtime": "2024-10-01T15:28:17+02:00"
+      "mtime": "2024-10-02T10:28:51+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1681,5 +1681,5 @@
       "mtime": "2024-10-02T07:25:15+02:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-linalg"
 }
