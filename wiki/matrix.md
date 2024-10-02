@@ -11,6 +11,10 @@ We can do this.
 
 # Matrix Properties
 
+## Shape
+![[LinAlg-plan-w02.pdf#page=2&rect=163,602,454,709|LinAlg-plan-w02, p.2]]
+
+
 ## Rank
 ![[rank]]
 
@@ -24,7 +28,7 @@ We can do this.
 ![[scalar multiplication]]
 
 ## Transposition
-![[matrix transpose]]
+![[transpose]]
 
 ## Multiplication
 ![[matrix multiplication]]
