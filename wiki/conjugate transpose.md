@@ -4,13 +4,4 @@ $a$ and $b$ are real numbers then the complex conjugate of $a+bi$ is $a-bi$. The
 
 In polar form, if $r$ and $\theta$ are real numbers then the conjugate of $re^{i\theta}$ is $re^{-i\theta}$. This can be shown using Euler's formula.
 
-The product of a complex number and its conjugate is a real number, $a^2+b^2
-a
-2
-+
-b
-2
-{\displaystyle a^{2}+b^{2}} (or 
-r
-2
-{\displaystyle r^{2}} in polar coordinates).
+The product of a complex number and its conjugate is a real number, $a^2+b^2$ or $\theta^2$ in polar form.

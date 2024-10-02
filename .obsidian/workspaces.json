@@ -1133,9 +1133,7 @@
                   "state": {
                     "file": "sem3/LinAlg/UE/e/LinAlg-e-u01.pdf",
                     "page": 1,
-                    "left": -9,
-                    "top": 363,
-                    "zoom": 1.7991654291454724
+                    "zoom": 1
                   }
                 }
               },
@@ -1154,51 +1152,14 @@
               {
                 "id": "6d966ca6a9b4ac07",
                 "type": "leaf",
-                "dimension": 25,
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w02.pdf",
-                    "page": 4,
-                    "left": 144,
-                    "top": 58,
-                    "zoom": 1.98
-                  }
-                }
-              },
-              {
-                "id": "099781e377ca4aa9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/transpose.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "6112e2af143bd5d4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/row and column space.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "f22c4367709f2321",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/vector.md",
-                    "mode": "source",
-                    "source": false
+                    "page": 1,
+                    "left": 52,
+                    "top": 175,
+                    "zoom": 1.01
                   }
                 }
               }
@@ -1222,6 +1183,18 @@
                 }
               },
               {
+                "id": "d607effa9e130224",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/conjugate transpose.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "961ba363ea826ee6",
                 "type": "leaf",
                 "state": {
@@ -1234,12 +1207,24 @@
                 }
               },
               {
-                "id": "6ec2597095e4698f",
+                "id": "f22c4367709f2321",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/row and column vectors.md",
+                    "file": "wiki/vector.md",
+                    "mode": "source",
+                    "source": true
+                  }
+                }
+              },
+              {
+                "id": "19d27987b5acfd2c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/matrix.md",
                     "mode": "source",
                     "source": false
                   }
@@ -1290,7 +1275,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/row and column space.md"
+                    "file": "wiki/conjugate transpose.md"
                   }
                 }
               },
@@ -1300,7 +1285,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/row and column space.md",
+                    "file": "wiki/conjugate transpose.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1317,7 +1302,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/row and column space.md",
+                    "file": "wiki/conjugate transpose.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1408,8 +1393,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "961ba363ea826ee6",
-      "mtime": "2024-10-02T10:13:06+02:00"
+      "active": "d607effa9e130224",
+      "mtime": "2024-10-02T12:58:15+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1681,5 +1666,5 @@
       "mtime": "2024-10-02T07:25:15+02:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-dmath"
 }
