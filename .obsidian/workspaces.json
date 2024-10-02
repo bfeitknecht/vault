@@ -1194,7 +1194,7 @@
                     "file": "sem3/LinAlg/UE/e/LinAlg-e-u01.pdf",
                     "page": 1,
                     "left": -9,
-                    "top": 355,
+                    "top": 359,
                     "zoom": 1.7991654291454724
                   }
                 }
@@ -1375,7 +1375,7 @@
         }
       },
       "active": "2ebe47757ab79201",
-      "mtime": "2024-10-01T13:42:53+02:00"
+      "mtime": "2024-10-02T07:28:58+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1385,6 +1385,7 @@
           {
             "id": "f95d461f281c19da",
             "type": "tabs",
+            "dimension": 50,
             "children": [
               {
                 "id": "863aa1cf19e4e3a1",
@@ -1433,13 +1434,38 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "6fae6ae7cd65930c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/how to kolmogorov.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "71c7cf23f39dc982",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/TIN/UE/bf/TI-bf-u02.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 5
           },
           {
             "id": "5d43564b056e30c1",
             "type": "tabs",
+            "dimension": 50,
             "children": [
               {
                 "id": "60f4b5c14e0b8857",
@@ -1450,8 +1476,8 @@
                     "file": "sem3/TIN/UE/e/TI-e-u02.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 846,
-                    "zoom": 0.8743843192065532
+                    "top": 737,
+                    "zoom": 0.8743843192065531
                   }
                 }
               }
@@ -1499,7 +1525,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/TIN/UE/e/TI-e-u02.pdf"
+                    "file": "sem3/TIN/UE/bf/TI-bf-u02.md"
                   }
                 }
               },
@@ -1509,7 +1535,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/TIN/UE/e/TI-e-u02.pdf",
+                    "file": "sem3/TIN/UE/bf/TI-bf-u02.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1526,7 +1552,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/TIN/UE/e/TI-e-u02.pdf",
+                    "file": "sem3/TIN/UE/bf/TI-bf-u02.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1617,9 +1643,9 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "60f4b5c14e0b8857",
-      "mtime": "2024-10-01T15:37:25+02:00"
+      "active": "71c7cf23f39dc982",
+      "mtime": "2024-10-02T07:25:15+02:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-eprog"
 }
