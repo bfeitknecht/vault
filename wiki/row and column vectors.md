@@ -26,8 +26,12 @@ A =
 \ \textemdash &\mathbf{u}_{2} &\textemdash\ \\
 &\vdots \\
 \ \textemdash &\mathbf{u}_{m} &\textemdash\
-\end{bmatrix}
+\end{bmatrix}.
 $$
 
-similarily for some vector $\mathbf{w}\in \mathbb R^m$, $\mathbf{w=\begin{bmatrix}w_{1}
-\end{bmatrix}}$
+
+similarily, for some *column vector* $\mathbf{w}\in \mathbb R^m$, 
+$$
+\mathbf{w=\begin{bmatrix}w_{1}\\ w_{2}\\ \vdots\\ w_{m} \end{bmatrix}},
+$$
+it's [[transpose]] $\mathbf{w}^\top=\begin{bmatrix}w_{1}, &w_{2}, &\dots, &w_{m }\end{bmatrix}$ is a *row vector* and vice versa.
