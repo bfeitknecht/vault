@@ -692,38 +692,6 @@
               }
             ],
             "currentTab": 3
-          },
-          {
-            "id": "75c28e05cf4c2e6b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "098b7b183a980afb",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/DMath/UE/e/DMath-e-u02.pdf",
-                    "page": 1,
-                    "left": -18,
-                    "top": 694,
-                    "zoom": 0.8743843192065531
-                  }
-                }
-              },
-              {
-                "id": "c267248db1b62740",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              }
-            ]
           }
         ],
         "direction": "vertical"
@@ -885,7 +853,7 @@
         }
       },
       "active": "216614f3cd04851d",
-      "mtime": "2024-10-02T10:28:51+02:00"
+      "mtime": "2024-10-02T13:05:01+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1157,8 +1125,8 @@
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w02.pdf",
                     "page": 1,
-                    "left": 52,
-                    "top": 175,
+                    "left": 48,
+                    "top": 179,
                     "zoom": 1.01
                   }
                 }
@@ -1184,6 +1152,18 @@
               },
               {
                 "id": "d607effa9e130224",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/complex conjugate.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "68388521913d63c8",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -1231,7 +1211,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1393,8 +1373,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "d607effa9e130224",
-      "mtime": "2024-10-02T12:58:15+02:00"
+      "active": "68388521913d63c8",
+      "mtime": "2024-10-02T13:04:06+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1666,5 +1646,5 @@
       "mtime": "2024-10-02T07:25:15+02:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-linalg"
 }
