@@ -5,7 +5,6 @@
 - [[linear independence]]
 - [[zero vector]]
 - [[matrix]]
-- 
 
 
 # Lecture Plan

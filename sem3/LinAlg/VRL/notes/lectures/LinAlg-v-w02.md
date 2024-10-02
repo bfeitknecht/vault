@@ -1,4 +1,7 @@
 
+- [[matrix]]
+- [[linear transformation]]
+- [[hyperplane]]
 - 
 
 

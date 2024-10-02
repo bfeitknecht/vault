@@ -462,7 +462,7 @@
                   "state": {
                     "file": "sem3/A&D/UE/e/A&D-e-u02.pdf",
                     "page": 1,
-                    "left": -4,
+                    "left": 74,
                     "top": 846,
                     "zoom": 1.363233189310505
                   }
@@ -631,7 +631,7 @@
         }
       },
       "active": "21f8a35fb8c028a9",
-      "mtime": "2024-10-01T15:45:50+02:00"
+      "mtime": "2024-10-02T07:37:06+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -909,7 +909,7 @@
                 }
               },
               {
-                "id": "148dbc07cd73966c",
+                "id": "1301536b59d15a1c",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -933,9 +933,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/EProg/VRL/extra/slides/EProg-slides-w02.pdf",
-                    "page": 1,
+                    "page": 4,
                     "left": -10,
-                    "top": 244,
+                    "top": 214,
                     "zoom": 0.7458333333333333
                   }
                 }
@@ -984,7 +984,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/EProg/VRL/extra/slides/EProg-slides-w02.pdf"
+                    "file": "sem3/EProg/VRL/notes/EProg.md"
                   }
                 }
               },
@@ -994,7 +994,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/EProg/VRL/extra/slides/EProg-slides-w02.pdf",
+                    "file": "sem3/EProg/VRL/notes/EProg.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1011,7 +1011,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/EProg/VRL/extra/slides/EProg-slides-w02.pdf",
+                    "file": "sem3/EProg/VRL/notes/EProg.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1101,8 +1101,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "bfe5916284c80395",
-      "mtime": "2024-09-30T14:46:16+02:00"
+      "active": "cd9fd9b429b3070d",
+      "mtime": "2024-10-02T07:36:56+02:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1647,5 +1647,5 @@
       "mtime": "2024-10-02T07:25:15+02:00"
     }
   },
-  "active": "sem3-eprog"
+  "active": "sem3-linalg"
 }
