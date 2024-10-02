@@ -1,11 +1,14 @@
 
 A **column [[vector]]**, $\mathbf{v} \in \mathbb R^m$ is a $m\times 1$ [[matrix]], whereas a **row vector** $\mathbf{u} \in \mathbb R^m$ is a $1\times n$ matrix.
 
+Let 
 $$
+A =
 \begin{bmatrix}
-a &a &a \\
-a &a &a \\
-a&a&a
+a_{11} &a_{12} &\dots &a_{1n} \\
+a_{21} &a_{22} &\dots &a_{2n} \\
+\vdots &\vdots &\ddots &\vdots \\
+a_{m_{1}} &a_{m_{2}} &\dots &a_{mn}
 \end{bmatrix}
 $$
 
