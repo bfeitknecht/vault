@@ -12,7 +12,7 @@ a_{m_{1}} &a_{m_{2}} &\dots &a_{mn}
 \end{bmatrix}
 $$
 
-Then its row and column vectors are given by:
+Then its row and column vectors are given by,
 $$
 A =
 \begin{bmatrix}
@@ -29,3 +29,5 @@ A =
 \end{bmatrix}
 $$
 
+similarily for some vector $\mathbf{w}\in \mathbb R^m$, $\mathbf{w=\begin{bmatrix}w_{1}
+\end{bmatrix}}$
