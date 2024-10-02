@@ -59,7 +59,7 @@ We can do this.
 ![[zero matrix]]
 
 ## Skew-Symetric Matrix
-![[skew symetric matrix]]
+![[skew-symetric matrix]]
 
 ## Sub-Matrix
 ![[sub-matrix]]

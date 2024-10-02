@@ -4,10 +4,11 @@ Let $A=[a_{ij}]$ be an $m\times n$ [[matrix]], then the **transpose** of $A$ is 
 
 # Matrix Definitions w/ Transpose
 
-A [[square matrix]] whose transpose is equal to itself is called a [[symetric matrix]]; that is, $A$ is symmetric if
-$$
-A=A^\top
-$$
-- $A$ is a [[symetric matrix]] $\iff A = A^\top$
+Let $A$ be a [[square matrix]].
+- $A$ is [[symetric matrix|symetric]] $\iff A^\top = A$
+- $A$ is [[skew-symetric matrix|skew-symetric]] $\iff A^\top=-A$
+- $A$ is [[orthogonal matrix]] $\iff A^\top=A^{-1}$
+
+Let $A$ be a square [[complex matrix]].
 
 
