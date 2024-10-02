@@ -10,6 +10,12 @@ Linear Algebra concers itself with [[vector|vectors]], [[matrix|matrices]] and w
 - [ ] exercise sheet 🔁 every week 📅 2024-10-01
 - [x] exercise sheet 🔁 every week 📅 2024-09-24 ✅ 2024-09-27
 
+**Script pt. 1**
+[[LinAlg-lecture-notes-pt.01.pdf]]
+
+**Script pt. 2 (bandeira, hs23)**
+[[LinAlg-lecture-notes-2.pdf]]
+
 
 # Lectures
 
