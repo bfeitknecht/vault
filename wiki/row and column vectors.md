@@ -1,7 +1,7 @@
 
-A **column [[vector]]**, $\mathbf{v} \in \mathbb R^m$ is a $m\times 1$ [[matrix]], whereas a **row vector** $\mathbf{u} \in \mathbb R^m$ is a $1\times n$ matrix.
+Since a [[vector]] is just a one dimensional [[matrix]], there are two forms a vector can take. A **column vector**, $\mathbf{v} \in \mathbb R^m$ is a $m\times 1$ matrix, whereas a **row vector** $\mathbf{u} \in \mathbb R^n$ is a $1\times n$ matrix. 
 
-Let 
+Let $A\in\mathbb R^{m\times n}$ be some matrix,
 $$
 A =
 \begin{bmatrix}
@@ -12,6 +12,7 @@ a_{m_{1}} &a_{m_{2}} &\dots &a_{mn}
 \end{bmatrix}
 $$
 
+Then its 
 $$
 A =
 \begin{bmatrix}
