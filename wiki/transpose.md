@@ -10,5 +10,5 @@ Let $A$ be a [[square matrix]].
 - $A$ is [[orthogonal matrix]] $\iff A^\top=A^{-1}$
 
 Let $A$ be a square [[complex matrix]].
-
+- 
 
