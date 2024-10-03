@@ -126,12 +126,14 @@ Per our initial assumption, the two complexities must be equal, i.e. $K_{P}(w)=K
 $$
 \begin{align}
 K_{P}(w) &> n-8 &\text{(substitute complexity)}\\
-K_{Q}(w) &> n-8  &\text{(definition of $K_{Q}(n)$)}\\
-\log_{2}(n)+c' &> n &\text{(take limit of RHS)}\\
-c' &> \underbrace{ n - \log_{2}(n) }_{ \lim_{ n  } = \infty } \\
-c' &\overset{!}{>} \infty
+K_{Q}(w) &> n-8  &\text{(definition of $K_{Q}$)} \\
+\lfloor \log_{2}(n) \rfloor +c' &> n-8 &\text{(absorb additive constants)} \\
+\lfloor \log_{2}(n) \rfloor +c'' &> n &\text{(rearrange terms)} \\
+c'' &> n - \lfloor \log_{2}(n) \rfloor \\
 \end{align}
 $$
+
+This leaves us with the inequality, that some constant $c''$ (independent from $n$) must be greater than $n-\lfloor \log_{2}(n) \rfloor$. The RHS grows unbounded, since the 
 
 However, doing so leads to a **contradiction**, as no additive constant can be bigger than infinity. Thus there exists no such program $P$.
 $\square$
