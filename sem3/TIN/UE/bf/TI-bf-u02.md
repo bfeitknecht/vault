@@ -121,11 +121,12 @@ end
 
 The kolmogorov complexity of the generated word $w$ with $Q$ is denoted by $K_{Q}(w)=\lfloor \log_{2}(n) \rfloor + 1 +c = \lfloor \log_{2}(n) \rfloor +c'$. This follows from the fact that we only need to encode the variable part $n$ in binary, plus some constant $c$ independent of the input size $n$, which denotes the encoding length of the invariable part of $Q$.
 
-Because the kolmogorov complexity of $w$ is defined as the length of the shortest program generating it, the two representations must be equal, i.e. $K_{P}(w)=K_{Q}(w)$.
+Per our initial assumption, the two complexities must be equal, i.e. $K_{P}(w)=K_{Q}(w)$, since the kolmogorov complexity of $w$ is defined as the length of the shortest program generating it and we assume that the length of this shortest program is greater than $n-8$.
+
 $$
 \begin{align}
-K_{P}(w) &> n-8 &\text{(substitute $K_{Q}(w)$ in LHS)}\\
-\log_{2}(n)+c &> n-8  &\text{(absorb additive constants on LHS)}\\
+K_{P}(w) &> n-8 &\text{(substitute complexity)}\\
+K_{Q}(w) &> n-8  &\text{(definition of $K_{Q}(n)$)}\\
 \log_{2}(n)+c' &> n &\text{(take limit of RHS)}\\
 c' &> \underbrace{ n - \log_{2}(n) }_{ \lim_{ n  } = \infty } \\
 c' &\overset{!}{>} \infty
