@@ -1,4 +1,7 @@
 
+Basil Feitknecht, 23-922-099
+Camil Schmid, 23-944-234
+Dennis Küenzi, 21-559-315
 
 # 4
 ## (a)
@@ -85,6 +88,7 @@ $$
 for some constant $c$.
 $\square$
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 # 5
 ![[TI-e-u02.pdf#page=1&rect=69,333,528,368|TI-e-u02, p.1]]
@@ -105,6 +109,7 @@ $$
 The ratio between words fulfilling the requirement $K(w)$ and all existing programs is more than 99%, thus we arrive at a **contradiction** which proves the statement.
 $\square$
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 # 6
 ![[TI-e-u02.pdf#page=1&rect=66,257,529,295|TI-e-u02, p.1]]
@@ -133,8 +138,6 @@ c'' &> n - \lfloor \log_{2}(n) \rfloor \\
 \end{align}
 $$
 
-This leaves us with the inequality, that some constant $c''$ (independent from $n$) must be greater than $n-\lfloor \log_{2}(n) \rfloor$. The RHS grows unbounded, since the 
-
-However, doing so leads to a **contradiction**, as no additive constant can be bigger than infinity. Thus there exists no such program $P$.
+This leaves us with the inequality, that some constant $c''$ (independent from $n$) must be greater than $n-\lfloor \log_{2}(n) \rfloor$. The RHS is unbounded, since the asymptotic growth of a linear function dominates the logarithmic growth, however the LHS is constant. This results in a contradiction, as $c'' \overset{!}{>} \infty$ is impossible and thus there exists no such program $P$.
 $\square$
 
