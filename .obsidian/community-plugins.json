@@ -1,5 +1,4 @@
 [
-  "obsidian-git",
   "break-page",
   "obsidian-hider",
   "omnisearch",
@@ -34,5 +33,5 @@
   "obsidian-cursor-location-plugin",
   "remember-cursor-position",
   "restore-tab-key",
-  "obsidian-file-cleaner"
+  "obsidian-git"
 ]

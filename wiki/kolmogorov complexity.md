@@ -16,7 +16,7 @@ The first string has a short English-language description, namely "write ab 16 t
 ![[how to kolmogorov]]
 
 
-# Lemma
+# Lemmas
 
 ![[hromkovic-TIN.pdf#page=52&rect=43,437,416,475|hromkovic-TIN, p.37]]
 Proof by contradiction, let $C(x_{i\in[2^n]})$ be the shortest [[bitstring]] that generates $x_{i\in[2^n]}$. 

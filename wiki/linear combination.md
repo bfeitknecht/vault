@@ -14,3 +14,4 @@ For some specific choices for $\lambda, \mu$ these special cases of a linear com
 
 **Uniqueness of linear combination**
 ![[LinAlg-plan-w01.pdf#page=6&rect=70,236,547,347|LinAlg-plan-w01, p.6]]
+

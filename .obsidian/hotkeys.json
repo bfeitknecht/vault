@@ -153,16 +153,6 @@
       "key": "T"
     }
   ],
-  "obsidian-shellcommands:shell-command-b48do41m1f": [
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl",
-        "Mod"
-      ],
-      "key": "Z"
-    }
-  ],
   "editor:toggle-comments": [
     {
       "modifiers": [
@@ -239,6 +229,16 @@
         "Ctrl"
       ],
       "key": "D"
+    }
+  ],
+  "obsidian-shellcommands:shell-command-apnw0a1zoz": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "Z"
     }
   ]
 }

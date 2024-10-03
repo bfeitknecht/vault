@@ -30,8 +30,9 @@ In [[euclidian space]], the dot product of two vectors $\mathbf{v}$ and $\math
 
 In particular, if the vectors are [[orthogonal]] (i.e., their [[angle]] is $\frac{\pi}{2} =90^\circ$), then $\cos \frac{\pi}{2}=0$, which implies that $\mathbf{v}\cdot \mathbf{w} =0$
 
-On the other extreme, if they are [[codirectional]] then the angle between them is zero with $\cos 0=1$ and $\mathbf{v}\cdot \mathbf{w}=\|\mathbf{v}\| \ \|\mathbf{w}\|$. 
+If they are [[codirectional]] then the angle between them is zero with $\cos 0=1$ and $\mathbf{v}\cdot \mathbf{w}=\|\mathbf{v}\| \ \|\mathbf{w}\|$. 
 
 This implies that the dot product of a vector $\mathbf{v}$ with itself is $\mathbf{v}\cdot \mathbf{v}=\|\mathbf{v}\|^2$ which gives $\|\mathbf{v}\|=\sqrt{ \mathbf{v}\cdot \mathbf{v} }$ the formula for the [[euclidian norm]].
+
 
 

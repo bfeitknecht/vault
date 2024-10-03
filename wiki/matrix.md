@@ -1,13 +1,12 @@
-y#todo 
 
-A **matrix** $A$ is an $m\times n$ table of [[real number|real numbers]] with $m$ rows and $n$ columns. In a sense it is a [[vector]] of vectors. It can be denotes as $A=[a_{i,j}]_{i=1, j=1}^{n, m}=\begin{bmatrix}a_{11}\end{bmatrix}$
-
-
+A **matrix** $A$ is an $m\times n$ table of [[real number|real numbers]] with $m$ rows and $n$ columns. In a sense it is a [[vector]] of vectors.
 
 
 # Matrix Notation
 
-We can do this.
+A matrix $A\in\mathbb R^{m\times n}$ can be denotes as $A=[a_{ij}]_{i, j}^{n, m}=\begin{bmatrix} a_{11} &a_{12} &\dots &a_{1n} \\ a_{21} &a_{22} &\dots &a_{2n} \\ \vdots &\vdots &\ddots &\vdots \\ a_{m_{1}} &a_{m_{2}} &\dots &a_{mn} \end{bmatrix}$
+
+
 
 # Matrix Properties
 

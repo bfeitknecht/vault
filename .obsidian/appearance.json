@@ -1,6 +1,6 @@
 {
   "accentColor": "#7f7f7f",
-  "baseFontSize": 16,
+  "baseFontSize": 14,
   "cssTheme": "Minimal",
   "interfaceFontFamily": "Helvetica Neue",
   "textFontFamily": "Helvetica Neue",
@@ -9,7 +9,8 @@
   "enabledCssSnippets": [
     "page-breaks",
     "toggle-view-header",
-    "embed-filename"
+    "embed-filename",
+    "view-header"
   ],
   "monospaceFontFamily": "CommitMono Nerd Font Mono",
   "theme": "system",
