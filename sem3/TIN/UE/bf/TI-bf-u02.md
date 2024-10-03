@@ -57,6 +57,7 @@ K(w_{n}) &\leq \log_2\left(\frac{\sqrt[2]{|w_{n}| - 100'000}}{4}\right)+c'  \\
 $$
 $\square$
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## (b)
 ![[TI-e-u02.pdf#page=1&rect=97,439,531,500|TI-e-u02, p.1]]
