@@ -109,18 +109,18 @@ $\square$
 # 6
 ![[TI-e-u02.pdf#page=1&rect=66,257,529,295|TI-e-u02, p.1]]
 
-For the sake of contradiction, let's assume there exists some program $P$ that takes any arbitrary number $n \in \mathbb N$ and prints a bitstring $w\in\{0, 1\}^n$, where $K_{P}(w) > n-8$ denotes its kolmogorov complexity generated through $P$.
+For the sake of contradiction, let's assume there exists some program $P$ that takes any arbitrary number $n \in \mathbb N$ and prints a bitstring $w\in\{0, 1\}^n$, where $K_{P}(w) > n-8$ denotes its kolmogorov complexity of $w$ generated through $P$.
 
-We define another program, $Q$, which takes as input some $n$ and calls $P$ with it, returning the word $P$ produces.
+We define another program, $Q$, which takes as input some $n$ and returns the word $P(n)$ generates.
 
 ```pascal
 begin
 	x := n;
-	Q(x);
+	P(x);
 end
 ```
 
-We can define the kolmogorov complexity of the generated word with the new program $Q$ as $K_{Q}(w)=\log_{2}(n)+c$, since we need to binary encode the variable part $n$ plus some constant $c$, independent of $n$.
+We can define the kolmogorov complexity of the generated word with the new program $Q$ as $K_{Q}(w)=\log_{2}(n)+c$, since we only need to binary encode the variable part $n$ plus some constant $c$, independent of $n$.
 
 Becaus the kolmogorov complexity of $w$ is tied to the shortest programing generating it, the two representations must be equal.
 $$
