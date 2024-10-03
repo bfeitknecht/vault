@@ -122,13 +122,13 @@ end
 
 We can define the kolmogorov complexity of the generated word with the new program $Q$ as $K_{Q}(w)=\log_{2}(n)+c$, since we need to binary encode the variable part $n$ plus some constant $c$, independent of $n$.
 
-Becaus the kolmogorov complexity of $w$ is tied to the shortest program generating it, the two representations must be equal.
+Becaus the kolmogorov complexity of $w$ is tied to the shortest programing generating it, the two representations must be equal.
 $$
 \begin{align}
 K_{P}(w) &> n-8 &\text{(substitute $K_{Q}(w)$ in LHS)}\\
 \log_{2}(n)+c &> n-8  &\text{(absorb additive constants on LHS)}\\
-\log_{2}(n)+c' &> n &\text{(asymptotic analysis of RHS)}\\
-c' &> \underbrace{ n - \log_{2}(n) }_{ \to \infty } \\
+\log_{2}(n)+c' &> n &\text{(take limit of RHS)}\\
+c' &> \underbrace{ n - \log_{2}(n) }_{ \lim_{ n  } = \infty } \\
 c' &\overset{!}{>} \infty
 \end{align}
 $$
