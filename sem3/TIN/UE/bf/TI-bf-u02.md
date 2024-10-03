@@ -109,7 +109,7 @@ $\square$
 # 6
 ![[TI-e-u02.pdf#page=1&rect=66,257,529,295|TI-e-u02, p.1]]
 
-For the sake of contradiction, let's assume there exists some program $P$ that takes any arbitrary number $n \in \mathbb N$ and prints a bitstring $w\in\{0, 1\}^n$, where $K_{P}(w) > n-8$ denotes its kolmogorov complexity of $w$ generated with $P$.
+For the sake of contradiction, let's assume there exists some program $P$ that takes any arbitrary number $n \in \mathbb N$ and prints a bitstring $w\in\{0, 1\}^n$, where $K_{P}(w) > n-8$ denotes the kolmogorov complexity of $w$ generated with $P$.
 
 We define another program, $Q$, which takes as input some $n\in \mathbb N$ and returns the word $w$ that $P(n)$ generates.
 ```pascal
