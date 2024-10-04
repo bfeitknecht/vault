@@ -108,7 +108,8 @@ $\square$
 ## (b)
 ![[A&D-e-u02.pdf#page=3&rect=85,339,535,367|A&D-e-u02, p.3]]
 
-In the **inductive step** our friend decreases the RHS of the inequality by 
+In the **inductive step** our friend falsly decreases the RHS of the inequality. 
+
 
 $$
 \begin{align}
