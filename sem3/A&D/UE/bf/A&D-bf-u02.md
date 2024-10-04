@@ -5,6 +5,7 @@ Alex Vance, 24-943-763
 
 ![[A&D-e-u02.pdf#page=2&rect=66,596,537,694|A&D-e-u02, p.2]]
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 # 2.2
 ![[A&D-e-u02.pdf#page=2&rect=67,369,529,403|A&D-e-u02, p.2]]
@@ -41,6 +42,7 @@ $$
 Since the numerator approaches infinity and the denominator is constant, the limit is equal to infinity and thus $f\not\leq O(g)$ but $g\leq O(f)$.
 $\square$
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## (c)
 $\boxed{2^{2n}\leq O(e^{ n })}$
@@ -93,9 +95,9 @@ The direction of the implications is incorrect, $e^{f(n)} \leq O(e^n) \implies f
 Specifically in the **final step** (4), our friend falsly denotes that $f(n) \leq O(n) \overset{\text{ !}}{\iff} f(n) \leq \log C+n$. Per definition 1, we know that $f(n) \leq O(n) \iff f(n) \leq C \cdot n$. The last step should only have the implication in the $\implies$ direction, as the other direction is wrong as shown here.
 $\square$
 
+<div class="page-break" style="page-break-before: always;"></div>
 
-
-# 2.3
+# 2.4
 ![[A&D-e-u02.pdf#page=3&rect=63,392,533,627|A&D-e-u02, p.3]]
 
 ## (a)
@@ -118,4 +120,5 @@ n! &\overset{\text{!}}\leq_{\text{IH}} 2^n
 \end{align}
 $$
 
-Specifically, the RHS inequalities must all be true for all values of $n\geq1$ to apply transitivity and conclude with the inductive hypothesis. However, for $n\geq3$, the inequality $n! \geq \frac{2^{n+1}}{n+1}$ doesn't hold.
+Specifically, the RHS inequalities must all be true for all values of $n\geq1$ to apply transitivity and conclude with the inductive hypothesis. However, for $n\geq3$, the inequality $n! \geq \frac{2^{n+1}}{n+1}$ doesn't hold. Thus the proof is wrong, as was to be shown.
+$\square$
