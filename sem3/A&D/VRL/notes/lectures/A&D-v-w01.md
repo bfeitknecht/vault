@@ -1,4 +1,4 @@
 
-- [[algorithm|algorithms]] ([[karatsuba (algorithm)]], [[grade-school algorithm]])
-- [[elementary operation]], [[asymptotic analyis]]
+- [[algorithm|algorithms]]
+- [[elementary operation]]
 - [[induction]]
