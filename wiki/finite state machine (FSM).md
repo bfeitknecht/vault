@@ -30,8 +30,6 @@ $\vdash_{M}^*$
 
 
 
-$x\sststile{M}{*}y$
 
 $\typing[x : A, \Gamma]{M}{B}$
 
-$\b$ 
