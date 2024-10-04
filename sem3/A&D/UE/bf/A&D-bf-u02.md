@@ -112,7 +112,9 @@ In the **inductive step** our friend decreases the RHS of the inequality by
 
 $$
 \begin{align}
+n! &\leq_{\text{IH}} 2^n \\ \\
+
 (n+1)! &\leq 2^{n+1} \\
-n!()
+n!(n+1) &\leq 2^n \cdot 2
 \end{align}
 $$
