@@ -49,6 +49,15 @@ The functions are $f=2^{2n}$ and $g=e^{ n }$. We again take the limit.
 $$
 \begin{align}
 \lim_{ n \to \infty } \frac{f(n)}{g(n)} &= \lim_{ n \to \infty } \frac{2^{2n}}{e^n} =\lim_{ n \to \infty } \frac{4^n}{e^n} \\
-&= \lim_{ n \to \infty } \frac{e^{ n \ln(4) }}{e^n} = \lim_{ n \to \infty } e^{ n(\ln(4)-1) }
+&= \lim_{ n \to \infty } \frac{e^{ n \ln(4) }}{e^n} = \lim_{ n \to \infty } e^{ n(\ln(4)-1) } \\
+&= \infty
 \end{align}
 $$
+Since the limit approaches infinity, $f \not \leq O(g)$ but $g \leq O(f)$.
+$\square$
+
+
+## (d)
+$\boxed{n^{\frac{6n+10}{3n+2}} \leq O(n^3)}$
+
+We define $f=n^{\frac{6n+10}{3n+2}}$ and $g=n^3$. To determ
