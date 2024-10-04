@@ -113,7 +113,7 @@ $$
 \begin{align}
 (n+1)! &\leq 2^{n+1} \\
 n! \cdot (n+1) &\leq 2^n \cdot 2 \\
-2^n \cdot (n+1) &\leq_{\text{IH}} 2^n \cdot 2 \\
+n! \cdot &\leq \frac{2^n \cdot 2}{n+1} \\
 n+1 &\leq 2 \\
 n &\overset{\text{!}}{\leq} 1
 \end{align}
