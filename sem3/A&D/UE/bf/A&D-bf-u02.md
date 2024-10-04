@@ -89,9 +89,9 @@ $\square$
 ## (b)
 ![[A&D-e-u02.pdf#page=3&rect=86,671,537,704|A&D-e-u02, p.3]]
 
-The direction of the implications is incorrect, $e^{f(n)} \leq O(e^n) \implies f(n) \leq O(n)$, but $f(n) \leq O(n) \nimpl e^{ f(n) } \leq O(e^n)$. Specifically in the **final step** (4), our friend falsly denotes that $f(n) \leq O(n) \overset{\text{ !}}{\iff} f(n) \leq \log C+n$.
-Per definition 1, we know that $f(n) \leq O(n) \iff f(n) \leq C \cdot n$ 
-
+The direction of the implications is incorrect, $e^{f(n)} \leq O(e^n) \implies f(n) \leq O(n)$, but $f(n) \leq O(n) \nimpl e^{ f(n) } \leq O(e^n)$.
+Specifically in the **final step** (4), our friend falsly denotes that $f(n) \leq O(n) \overset{\text{ !}}{\iff} f(n) \leq \log C+n$. Per definition 1, we know that $f(n) \leq O(n) \iff f(n) \leq C \cdot n$. The last step should only have the implication in the $\implies$ direction, as the other direction is wrong as shown here.
+$\square$
 
 
 
@@ -109,3 +109,10 @@ $\square$
 ![[A&D-e-u02.pdf#page=3&rect=85,339,535,367|A&D-e-u02, p.3]]
 
 In the **inductive step** our friend decreases the RHS of the inequality by 
+
+$$
+\begin{align}
+(n+1)! &\leq 2^{n+1} \\
+n!()
+\end{align}
+$$
