@@ -118,7 +118,7 @@ n! &\not\leq_{\text{IH}} 2^n
 \end{align}
 $$
 
-Specifically, the RHS inequality reduces to
+Specifically, the RHS inequality reduces to $\frac{2^{n+1}}{n+1}\leq 2^n \implies$
 
 
 
