@@ -705,18 +705,6 @@
             "type": "tabs",
             "children": [
               {
-                "id": "45aea325282d685d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u02.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "6cded826760a3d75",
                 "type": "leaf",
                 "state": {
@@ -725,7 +713,7 @@
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 32,
                     "left": -13,
-                    "top": 600,
+                    "top": 604,
                     "zoom": 1.2406800022882858
                   }
                 }
@@ -738,9 +726,9 @@
                   "state": {
                     "file": "sem3/DMath/UE/e/DMath-e-u02.pdf",
                     "page": 1,
-                    "left": 94,
-                    "top": 407,
-                    "zoom": 1.25
+                    "left": -186,
+                    "top": 532,
+                    "zoom": 0.57
                   }
                 }
               }
@@ -888,7 +876,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-file-cleaner:Clean files": false,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -907,7 +894,7 @@
         }
       },
       "active": "216614f3cd04851d",
-      "mtime": "2024-10-03T09:16:25+02:00"
+      "mtime": "2024-10-04T10:03:02+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1644,5 +1631,5 @@
       "mtime": "2024-10-04T09:40:58+02:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-a&d"
 }
