@@ -108,14 +108,13 @@ $\square$
 ## (b)
 ![[A&D-e-u02.pdf#page=3&rect=85,339,535,367|A&D-e-u02, p.3]]
 
-In the **inductive step** (5) our friend fails to correctly apply the inductive hypothesis. They instead reinduce and instead decreases the RHS of the inequality. 
-
-
+In the **inductive step** (5) our friend fails to correctly apply the inductive hypothesis. The induction hypothesis is $k! \leq 2^k$ for a positive integer $k\geq 1$.
 $$
 \begin{align}
-n! &\leq_{\text{IH}} 2^n \\ \\
-
 (n+1)! &\leq 2^{n+1} \\
+(n+1) \cdot 2^n &\leq_{\text{IH}} 2 \cdot 2^n \\
+n+1 &\leq 2 \\
+ \\
 (n+1)\cdot n! &\leq 2 \cdot 2^n \\
 n! &\leq \frac{2 \cdot 2^n}{n+1} \leq 2^n
 \end{align}
