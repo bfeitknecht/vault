@@ -11,4 +11,7 @@ A **configuration** of $M$ is an element from $Q\times\Sigma^*$ and denots that 
 
 A configuration $(q_{0}, x)\in \{q_{0}\} \times\Sigma^*$ is called **initial configuration** of $M$ on $x$. Every configuration in $Q\times \{\lambda \}$ is called an **end configuration**.
 
-A **step** of $M$ is a [[relation]] on configurations, $\vdash_{M}$
+A **step** of $M$ is a [[relation]] on configurations, $\vdash_{M} \subseteq (Q\times\Sigma^*)\times(Q\times\Sigma^*)$, defined by
+$$
+(q, w) \underset{M}{\vdash}\vdash_{M}
+$$
