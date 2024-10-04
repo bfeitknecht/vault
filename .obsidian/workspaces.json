@@ -6,15 +6,19 @@
         "type": "split",
         "children": [
           {
-            "id": "40ea8d056bda12c6",
+            "id": "98b7bc2248b8efdb",
             "type": "tabs",
             "children": [
               {
-                "id": "9e7b892f74601648",
+                "id": "b350d083ce1d3266",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/scratch.md",
+                    "mode": "source",
+                    "source": false
+                  }
                 }
               }
             ]
@@ -60,7 +64,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "wiki/scratch.md"
+                  }
                 }
               },
               {
@@ -127,6 +133,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "wiki/scratch.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -143,6 +150,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "wiki/scratch.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -158,8 +166,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-file-cleaner:Clean files": false,
-          "obsidian42-brat:BRAT": true,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -176,8 +182,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "9e7b892f74601648",
-      "mtime": "2024-10-03T22:05:38+02:00"
+      "active": "b350d083ce1d3266",
+      "mtime": "2024-10-04T22:22:16+02:00"
     },
     "00-home": {
       "main": {
@@ -1652,5 +1658,5 @@
       "mtime": "2024-10-04T19:29:53+02:00"
     }
   },
-  "active": "00-clean"
+  "active": "sem3-ti"
 }
