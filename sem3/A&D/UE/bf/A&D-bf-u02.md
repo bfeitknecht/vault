@@ -108,7 +108,7 @@ $\square$
 ## (b)
 ![[A&D-e-u02.pdf#page=3&rect=85,339,535,367|A&D-e-u02, p.3]]
 
-In the **inductive step** (5) our friend falsly decreases the RHS of the inequality. 
+In the **inductive step** (5) our friend fails to correctly apply the inductive hypothesis. They instead reinduce and instead decreases the RHS of the inequality. 
 
 
 $$
