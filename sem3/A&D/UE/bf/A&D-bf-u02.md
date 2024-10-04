@@ -108,14 +108,18 @@ $\square$
 ## (b)
 ![[A&D-e-u02.pdf#page=3&rect=85,339,535,367|A&D-e-u02, p.3]]
 
-In the **inductive step** (5) our friend fails to correctly apply the inductive hypothesis.
+In the **inductive step** (5) our friend incorrectly upperbounds the RHS. The proof takes the following steps.
 $$
 \begin{align}
 (n+1)! &\leq 2^{n+1} \\
-n! \cdot (n+1) &\leq 2^n \cdot 2 \\
-n! &\leq \frac{2^n \cdot 2}{n+1} \leq 2^n \cancel{ \cdot \frac{2}{2} } \\
-n! &\leq_{\text{IH}} 2^n
+n! \cdot (n+1) &\leq 2^{n+1} \\
+n! &\leq \frac{2^{n+1}}{n+1} \overset{\text{!}}\leq 2^n \\
+n! &\not\leq_{\text{IH}} 2^n
 \end{align}
 $$
+
+Specifically, the RHS inequality reduces to
+
+
 
 Thus we have an induction hypothesis that is assumed to hold for some $n\geq1$ and an induction step that proves it for some $n\leq1$, which together implies that the assumption only holds for $n=1$.
