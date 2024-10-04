@@ -89,7 +89,8 @@ $\square$
 ## (b)
 ![[A&D-e-u02.pdf#page=3&rect=86,671,537,704|A&D-e-u02, p.3]]
 
-The arrows are wrong, 
+The direction of the implications is incorrect, $e^{f(n)} \leq O(e^n) \implies f(n) \leq O(n)$, but $f(n) \leq O(n) \nimpl e^{ f(n) } \leq O(e^n)$.
+
 
 
 In the **final step** (4), our friend increases the RHS of the inequality with the assumption that it was correct. However, this is not necessarily the case. Thus
