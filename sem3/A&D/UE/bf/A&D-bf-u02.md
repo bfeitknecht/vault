@@ -98,12 +98,11 @@ $\square$
 ## (a)
 ![[A&D-e-u02.pdf#page=3&rect=84,372,534,387|A&D-e-u02, p.3]]
 
-Let $n=4$, thus $n! = 24$ and $2^n= 16$, ho
-$$
-\begin{align}
-24=4! \not \leq 2^4 =16
-\end{align}
-$$
+We assume $n! \leq 2^n$. Let $n=4$, so $n! = 24$ and $2^n= 16$, however $24 \overset{\text{!}}{\geq} 16$. This is a contradiction and thus the statement is disproven.
+$\square$
+
 
 ## (b)
 ![[A&D-e-u02.pdf#page=3&rect=85,339,535,367|A&D-e-u02, p.3]]
+
+In the **inductive step** our friend decreases the RHS of the inequality by 
