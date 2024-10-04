@@ -3,7 +3,7 @@ Basil Feitknecht, 23-922-099
 Alex Vance, 24-943-763
 
 
-![[A&D-e-u02.pdf#page=2&rect=65,600,531,692|A&D-e-u02, p.2]]
+![[A&D-e-u02.pdf#page=2&rect=66,596,537,694|A&D-e-u02, p.2]]
 
 
 # 2.2
@@ -29,7 +29,7 @@ $\square$
 ## (b)
 $\boxed{n^{10}-10n^9-100n^8 \leq O\left(1000n^7\right)}$
 
-This gives $f=n^{10}-10n^9-100n^8$ and $g=1000n^7$. We compute the limit,
+This gives $f=n^{10}-10n^9-100n^8$ and $g=1000n^7$. We compute the limit to determine the asymptotic relation.
 $$
 \begin{align}
 \lim_{ n \to \infty } \frac{f(n)}{g(n)} &= \lim_{ n \to \infty } \frac{n^{10}-10n^9-100n^8}{1000n^7} \\
@@ -45,4 +45,10 @@ $\square$
 ## (c)
 $\boxed{2^{2n}\leq O(e^{ n })}$
 
-The functions are $f=2^{2n}$ and $g=e^{ n }$.
+The functions are $f=2^{2n}$ and $g=e^{ n }$. We again take the limit.
+$$
+\begin{align}
+\lim_{ n \to \infty } \frac{f(n)}{g(n)} &= \lim_{ n \to \infty } \frac{2^{2n}}{e^n} =\lim_{ n \to \infty } \frac{4^n}{e^n} \\
+&= \lim_{ n \to \infty } \frac{e^{ n \ln(4) }}{e^n} = \lim_{ n \to \infty } e^{ n(\ln(4)-1) }
+\end{align}
+$$
