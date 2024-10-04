@@ -28,5 +28,3 @@ The class of all languages accepted by finite state machines is denoted by $\mat
 $\vdash_{M}^*$
 
 
-$\Z \O$
-
