@@ -1382,18 +1382,6 @@
             "type": "tabs",
             "children": [
               {
-                "id": "863aa1cf19e4e3a1",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
-              {
                 "id": "65cc6977d876498e",
                 "type": "leaf",
                 "state": {
@@ -1418,6 +1406,18 @@
                 }
               },
               {
+                "id": "6f3d27397d4deeae",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/finite state machine (FSM).md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "35512239f76bcee6",
                 "type": "leaf",
                 "state": {
@@ -1430,19 +1430,64 @@
                 }
               },
               {
-                "id": "f10dea08139a755a",
+                "id": "42228644c5b108e2",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/TIN/UE/bf/TI-bf-u02.md",
+                    "file": "sem3/TIN/UE/bf/TI-bf-u03.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 2
+          },
+          {
+            "id": "334b80dc2ab3a841",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "fd1cbc5e550853e7",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/TIN/UE/e/TI-e-u03.pdf",
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              },
+              {
+                "id": "863aa1cf19e4e3a1",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
+                    "page": 68,
+                    "left": -14,
+                    "top": 16,
+                    "zoom": 1.0929822351014236
+                  }
+                }
+              },
+              {
+                "id": "989e97a7413ef1a8",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "var/other/LATEX.pdf",
+                    "page": 1,
+                    "zoom": 1
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1486,7 +1531,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/TIN/UE/bf/TI-bf-u02.md"
+                    "file": "wiki/finite state machine (FSM).md"
                   }
                 }
               },
@@ -1496,7 +1541,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/TIN/UE/bf/TI-bf-u02.md",
+                    "file": "wiki/finite state machine (FSM).md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1513,7 +1558,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/TIN/UE/bf/TI-bf-u02.md",
+                    "file": "wiki/finite state machine (FSM).md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1587,7 +1632,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian42-brat:BRAT": true,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -1604,9 +1648,9 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "f10dea08139a755a",
-      "mtime": "2024-10-04T09:40:58+02:00"
+      "active": "6f3d27397d4deeae",
+      "mtime": "2024-10-04T19:29:53+02:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "00-clean"
 }
