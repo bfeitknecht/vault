@@ -10,7 +10,7 @@ Alex Vance, 24-943-763
 ![[A&D-e-u02.pdf#page=2&rect=67,369,529,403|A&D-e-u02, p.2]]
 
 ## (a)
-$\boxed{n^5+4n^4 \leq \mathcal O\left( \frac{n^6}{5}\right)}$
+$\boxed{n^5+4n^4 \leq O\left( \frac{n^6}{5}\right)}$
 
 Per definition, $f=n^5 + 4n^4$ and $g=\frac{n^6}{5}$. We apply the theorem and compute the limit.
 $$
@@ -22,8 +22,16 @@ $$
 &= 0 \\
 \end{align}
 $$
-Since the limit is zero, $f\leq\mathcal O(g)$.
+Since the limit is zero, $f\leq O(g)$.
 $\square$
 
 ## (b)
-$\boxed{}$
+$\boxed{n^{10}-10n^9-100n^8 \geq O\left(1000n^7\right)}$
+
+This gives $f=n^{10}-10n^9-100n^8$ and $g=1000n^7$. We compute the limit,
+$$
+\begin{align}
+\lim_{ n \to \infty } \frac{f(n)}{g(n)} &= \lim_{ n \to \infty } \frac{n^{10}-10n^9-100n^8}{1000n^7} \\
+&= \lim_{ n \to \infty } \frac{n^{10}-10n^9-100n^8}{n^7 (1000)}
+\end{align}
+$$
