@@ -116,6 +116,7 @@ $$
 n! &\leq_{\text{IH}} 2^n \\ \\
 
 (n+1)! &\leq 2^{n+1} \\
-n!(n+1) &\leq 2^n \cdot 2
+(n+1)n! &\leq 2 \cdot 2^n \\
+n! &\leq \frac{2 \cdot 2^n}{n+1} \leq 2^n
 \end{align}
 $$
