@@ -109,12 +109,13 @@ $\square$
 ![[A&D-e-u02.pdf#page=3&rect=85,339,535,367|A&D-e-u02, p.3]]
 
 In the **inductive step** (5) our friend incorrectly upperbounds the RHS. The proof takes the following steps.
+\overset{\text{!}}
 $$
 \begin{align}
 (n+1)! &\leq 2^{n+1} \\
 n! \cdot (n+1) &\leq 2^{n+1} \\
-n! &\leq \frac{2^{n+1}}{n+1} \overset{\text{!}}\leq 2^n \\
-n! &\not\leq_{\text{IH}} 2^n
+n! &\leq \frac{2^{n+1}}{n+1} \leq 2^n \\
+n! &\leq_{\text{IH}} 2^n
 \end{align}
 $$
 
