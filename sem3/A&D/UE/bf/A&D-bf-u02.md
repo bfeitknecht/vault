@@ -63,8 +63,11 @@ $\boxed{n^{\frac{6n+10}{3n+2}} \leq O(n^3)}$
 We define $f=n^{\frac{6n+10}{3n+2}}$ and $g=n^3$. To determine the asymptotic relation, we compute the limit.
 $$
 \begin{align}
-\lim_{ n \to \infty } \frac{f(n)}{g(n)} &= \lim_{ n \to \infty } \frac{n^{\frac{6n+10}{3n+2}}}{n^3} \\
-&= \lim_{ n \to \infty } \frac{6n+10}{3n+2} -3 \\
-&= \lim_{ n \to \infty } -\frac{3n+4}{3n+2} \overset{\text{l'Hôpital}}{=} -1
+\lim_{ n \to \infty } \frac{f(n)}{g(n)}
+&= \lim_{ n \to \infty } \frac{n^{\frac{6n+10}{3n+2}}}{n^3}  \\
+&= \lim_{ n \to \infty } n^{\frac{6n+10}{3n+2}-3}\\
+&= \lim_{ n \to \infty } n^{-\frac{3n+4}{3n+2}} \\
+&= \lim_{ n \to \infty } \frac{1}{n} \\
+&= 0
 \end{align}
 $$
