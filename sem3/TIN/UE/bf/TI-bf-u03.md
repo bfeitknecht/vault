@@ -9,7 +9,7 @@ Dennis Küenzi, 21-559-315
 
 
 # 8
-![[TI-e-u03.pdf#page=1&rect=66,408,531,490|TI-e-u03, p.1]]
+![[TI-e-u03.pdf#page=1&rect=64,386,532,491|TI-e-u03, p.1]]
 
 
 # 9
