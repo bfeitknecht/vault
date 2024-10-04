@@ -33,6 +33,5 @@ $\vdash_{M}^*$
 
 $\typing[x : A, \Gamma]{M}{B}$
 
-
 $\b$
 
