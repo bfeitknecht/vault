@@ -89,14 +89,8 @@ $\square$
 ## (b)
 ![[A&D-e-u02.pdf#page=3&rect=86,671,537,704|A&D-e-u02, p.3]]
 
-The direction of the implications is incorrect, $e^{f(n)} \leq O(e^n) \implies f(n) \leq O(n)$, but $f(n) \leq O(n) \nimpl e^{ f(n) } \leq O(e^n)$.
-
-
-
-In the **final step** (4), our friend increases the RHS of the inequality with the assumption that it was correct. However, this is not necessarily the case. Thus
-
-
-![[Pasted image 20241004113249.png]]
+The direction of the implications is incorrect, $e^{f(n)} \leq O(e^n) \implies f(n) \leq O(n)$, but $f(n) \leq O(n) \nimpl e^{ f(n) } \leq O(e^n)$. Specifically in the **final step** (4), our friend falsly denotes that $f(n) \leq O(n) \overset{\text{ !}}{\iff} f(n) \leq \log C+n$.
+Per definition 1, we know that $f(n) \leq O(n) \iff f(n) \leq C \cdot n$ 
 
 
 
