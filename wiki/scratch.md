@@ -7,7 +7,7 @@ $\vdash_{M}^*$
 $$
 \begin{align}
 \R \\
-a \sststile{M}{*}
+\sdtstile
 \end{align}
 $$
 
