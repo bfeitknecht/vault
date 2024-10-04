@@ -66,8 +66,19 @@ $$
 \lim_{ n \to \infty } \frac{f(n)}{g(n)}
 &= \lim_{ n \to \infty } \frac{n^{\frac{6n+10}{3n+2}}}{n^3}  \\
 &= \lim_{ n \to \infty } n^{\frac{6n+10}{3n+2}-3}\\
-&= \lim_{ n \to \infty } n^{-\frac{3n+4}{3n+2}} \\
-&= \lim_{ n \to \infty } \frac{1}{n} \\
+&= \lim_{ n \to \infty } n^{\overbrace{ -\frac{3n+4}{3n+2} }^{ \to -1 }} = \lim_{ n \to \infty } \frac{1}{n} \\
 &= 0
 \end{align}
 $$
+Since the limit equals zero, $f\leq O(g)$.
+$\square$
+
+<div class="page-break" style="page-break-before: always;"></div>
+
+# 2.3
+![[A&D-e-u02.pdf#page=2&rect=66,198,531,247|A&D-e-u02, p.2]]
+![[A&D-e-u02.pdf#page=2&rect=66,97,531,195|A&D-e-u02, p.2]]
+![[A&D-e-u02.pdf#page=3&rect=63,742,529,772|A&D-e-u02, p.3]]
+
+## (a)
+![[A&D-e-u02.pdf#page=3&rect=85,705,537,739|A&D-e-u02, p.3]]
