@@ -64,6 +64,7 @@ We define $f=n^{\frac{6n+10}{3n+2}}$ and $g=n^3$. To determine the asymptotic re
 $$
 \begin{align}
 \lim_{ n \to \infty } \frac{f(n)}{g(n)} &= \lim_{ n \to \infty } \frac{n^{\frac{6n+10}{3n+2}}}{n^3} \\
-&= \lim_{ n \to \infty } \frac{6n+10}{3n+2} -3
+&= \lim_{ n \to \infty } \frac{6n+10}{3n+2} -3 \\
+&= \lim_{ n \to \infty } -\frac{3n+4}{3n+2} \overset{\text{l'Hôpital}}{=} -1
 \end{align}
 $$
