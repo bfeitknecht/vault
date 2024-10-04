@@ -108,13 +108,15 @@ $\square$
 ## (b)
 ![[A&D-e-u02.pdf#page=3&rect=85,339,535,367|A&D-e-u02, p.3]]
 
-In the **inductive step** (5) our friend fails to correctly apply the inductive hypothesis. The induction hypothesis assumes $k! \leq 2^k$ for a positive integer $k\geq 1$.
+In the **inductive step** (5) our friend fails to correctly apply the inductive hypothesis.
 $$
 \begin{align}
 (n+1)! &\leq 2^{n+1} \\
 n! \cdot (n+1) &\leq 2^n \cdot 2 \\
 2^n \cdot (n+1) &\leq_{\text{IH}} 2^n \cdot 2 \\
 n+1 &\leq 2 \\
-n \leq 1
+n &\overset{\text{!}}{\leq} 1
 \end{align}
 $$
+
+Thus we have an induction hypothesis that is assumed to hold for some $n\geq1$ and an induction step that proves it for some $n\leq1$, which together implies that the assumption only holds for $n=1$.
