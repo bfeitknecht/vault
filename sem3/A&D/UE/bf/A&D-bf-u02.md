@@ -82,3 +82,5 @@ $\square$
 
 ## (a)
 ![[A&D-e-u02.pdf#page=3&rect=85,705,537,739|A&D-e-u02, p.3]]
+
+l
