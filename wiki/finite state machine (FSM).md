@@ -13,5 +13,5 @@ A configuration $(q_{0}, x)\in \{q_{0}\} \times\Sigma^*$ is called **initial con
 
 A **step** of $M$ is a [[relation]] on configurations, $\vdash_{M} \subseteq (Q\times\Sigma^*)\times(Q\times\Sigma^*)$, defined by
 $$
-(q, w) \underset{M}{\vdash}\vdash_{M}
+(q, w) \vdash_{M} (p, x) \iff w=ax, \ a \in \Sigma, \ \delta(q, a) = p
 $$
