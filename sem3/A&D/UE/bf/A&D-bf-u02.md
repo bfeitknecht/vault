@@ -87,3 +87,23 @@ Let $f(n)=2n$. Obviously, $f\leq O(n)$, for $C=2$. However, $e^{f(n)} \not \leq 
 $\square$
 
 ## (b)
+![[A&D-e-u02.pdf#page=3&rect=86,671,537,704|A&D-e-u02, p.3]]
+
+
+
+
+# 2.3
+![[A&D-e-u02.pdf#page=3&rect=63,392,533,627|A&D-e-u02, p.3]]
+
+## (a)
+![[A&D-e-u02.pdf#page=3&rect=84,372,534,387|A&D-e-u02, p.3]]
+
+Let $n=4$, thus $n! = 24$ and $2^n= 16$, ho
+$$
+\begin{align}
+24=4! \not \leq 2^4 =16
+\end{align}
+$$
+
+## (b)
+![[A&D-e-u02.pdf#page=3&rect=85,339,535,367|A&D-e-u02, p.3]]
