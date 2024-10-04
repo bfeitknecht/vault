@@ -23,4 +23,4 @@ It's noted that $M$ has exactly one computation for every input $x\in\Sigma^*$.
 
 The [[language]] $L(M)$ *accepted* by $M$ is defined as the set of all words in $w\in\Sigma^*$ such that the computation on $w$ is accepted, i.e. it ends in some end configuration $(q, \lambda)$ with $q\in F$.
 
-The class of all languages accepted by finite state machines is denoted by $\mathcal L_{EA}$. It's also called the *class of regular languages* and every language $L$ in $\mathcal L_{}$
+The class of all languages accepted by finite state machines is denoted by $\mathcal L_{EA}$. It's also called the *class of regular languages* and every language $L$ in $\mathcal L_{EA}$ is called *regular*.
