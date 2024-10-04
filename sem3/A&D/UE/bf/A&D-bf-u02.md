@@ -113,13 +113,9 @@ $$
 \begin{align}
 (n+1)! &\leq 2^{n+1} \\
 n! \cdot (n+1) &\leq 2^{n+1} \\
-n! &\leq \frac{2^{n+1}}{n+1} \overset{\text{!}}\leq 2^n \\
-n! &\leq_{\text{IH}} 2^n
+n! &\leq \frac{2^{n+1}}{n+1} \leq 2^n \\
+n! &\overset{\text{!}}\leq_{\text{IH}} 2^n
 \end{align}
 $$
 
-Specifically, the RHS inequality $\frac{2^{n+1}}{n+1}\leq 2^n$ implies
-
-
-
-Thus we have an induction hypothesis that is assumed to hold for some $n\geq1$ and an induction step that proves it for some $n\leq1$, which together implies that the assumption only holds for $n=1$.
+Specifically, the RHS inequalities must all be true for all values of $n\geq1$ to apply transitivity and conclude with the inductive hypothesis. However, for $n\geq3$, the inequality $n! \geq \frac{2^{n+1}}{n+1}$ doesn't hold.
