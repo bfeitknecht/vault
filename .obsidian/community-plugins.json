@@ -32,5 +32,6 @@
   "remember-cursor-position",
   "restore-tab-key",
   "obsidian-git",
-  "obsidian-latex"
+  "obsidian-latex",
+  "mathjax-preamble-manager"
 ]
