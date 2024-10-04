@@ -1,2 +1,3 @@
 
+- [[kolmogorov complexity]]
 - 

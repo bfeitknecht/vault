@@ -418,6 +418,18 @@
                 }
               },
               {
+                "id": "f1e7fa6d7ed788e7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w02.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "b4c1219365d2fb9f",
                 "type": "leaf",
                 "state": {
@@ -440,41 +452,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "21f8a35fb8c028a9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u02.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
               }
             ],
             "currentTab": 3
-          },
-          {
-            "id": "55af38eb7e78e103",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "db608fa49433ca34",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/A&D/UE/e/A&D-e-u02.pdf",
-                    "page": 1,
-                    "left": -15,
-                    "top": 765,
-                    "zoom": 0.88
-                  }
-                }
-              }
-            ]
           }
         ],
         "direction": "vertical"
@@ -518,7 +498,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u02.md"
+                    "file": "wiki/algorithm.md"
                   }
                 }
               },
@@ -528,7 +508,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u02.md",
+                    "file": "wiki/algorithm.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -545,7 +525,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u02.md",
+                    "file": "wiki/algorithm.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -619,7 +599,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-file-cleaner:Clean files": false,
           "obsidian42-brat:BRAT": true,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
@@ -637,8 +616,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "21f8a35fb8c028a9",
-      "mtime": "2024-10-03T20:27:29+02:00"
+      "active": "545c4fe2911597d7",
+      "mtime": "2024-10-04T16:24:15+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1161,8 +1140,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "740ad403278fbd52",
@@ -1273,7 +1251,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/outer product.md"
+                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md"
                   }
                 }
               },
@@ -1283,7 +1261,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/outer product.md",
+                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1300,7 +1278,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/outer product.md",
+                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1388,12 +1366,11 @@
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
           "command-palette:Open command palette": true,
-          "obsidian-git:Open Git source control": true,
-          "obsidian-file-cleaner:Clean files": false
+          "obsidian-git:Open Git source control": true
         }
       },
-      "active": "22481eadd76644aa",
-      "mtime": "2024-10-03T20:27:35+02:00"
+      "active": "5e147ae0102336c7",
+      "mtime": "2024-10-04T16:22:58+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1631,5 +1608,5 @@
       "mtime": "2024-10-04T09:40:58+02:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-ti"
 }
