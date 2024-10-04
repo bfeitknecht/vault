@@ -1466,7 +1466,7 @@
                 }
               },
               {
-                "id": "71c7cf23f39dc982",
+                "id": "f10dea08139a755a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -1479,50 +1479,6 @@
               }
             ],
             "currentTab": 4
-          },
-          {
-            "id": "04a165ce77a9bd24",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "76148e1882ca05b8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/kolmogorov complexity.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "68009acd638c92f0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/how to kolmogorov.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "9c96008596549c6a",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/TIN/UE/e/TI-e-u02.pdf",
-                    "page": 1,
-                    "left": -18,
-                    "top": 751,
-                    "zoom": 0.8743843192065531
-                  }
-                }
-              }
-            ]
           }
         ],
         "direction": "vertical"
@@ -1667,7 +1623,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-file-cleaner:Clean files": false,
           "obsidian42-brat:BRAT": true,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
@@ -1685,9 +1640,9 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "71c7cf23f39dc982",
-      "mtime": "2024-10-03T20:23:28+02:00"
+      "active": "f10dea08139a755a",
+      "mtime": "2024-10-04T09:40:58+02:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-dmath"
 }

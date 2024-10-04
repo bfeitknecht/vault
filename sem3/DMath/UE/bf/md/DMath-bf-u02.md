@@ -6,7 +6,8 @@ Let $G= A \vee \neg B$, proven to be equivalent to $F$ by equivalence transforma
 
 $$
 \begin{align}
-F &= \big( (B \vee C) \to A \vee \neg B) \wedge C) \big) \vee (A \wedge \neg C) &\text{(1., def. $\to$)} \\
+G &\equiv F \\
+&\equiv \big( (B \vee C) \to A \vee \neg B) \wedge C) \big) \vee (A \wedge \neg C) &\text{(1., def. $\to$)} \\
 &\equiv \big( \neg(B \vee C) \vee ((A \vee \neg B) \wedge C) \big) \vee (A \wedge \neg C) &\text{(2., de Morgan)} \\
 &\equiv \big( (\neg B \wedge \neg C) \vee ((A \vee \neg B) \wedge C) \big) \vee (A \wedge \neg C) &\text{(3., commutativity of $\vee$)} \\
 &\equiv (A \wedge \neg C) \vee \big( (\neg B \wedge \neg C) \vee ((A \vee \neg B) \wedge C) \big) &\text{(4., associativity)} \\
@@ -17,8 +18,7 @@ F &= \big( (B \vee C) \to A \vee \neg B) \wedge C) \big) \vee (A \wedge \neg C) 
 &\equiv \big((A \vee \neg B) \wedge \neg C \big) \vee ((A \vee \neg B) \wedge C) &\text{(9., first distributive law)} \\
 &\equiv (A \vee \neg B) \wedge (\neg C \vee C) &\text{(10., $F \vee \neg F \equiv \top$)} \\
 &\equiv (A \vee \neg B) \wedge \top &\text{(11., $F \wedge \top \equiv F$)} \\
-&\equiv A \vee \neg B \\
-&\equiv G &\square
+&\equiv A \vee \neg B &\square \\
 \end{align}
 $$
 
