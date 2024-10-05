@@ -1,6 +1,6 @@
-![[AuW-u02-e.pdf]]
 
-<div style="page-break-after: always;"></div>
+
+![[A&W-e-u02.pdf#page=1&rect=87,476,519,633|A&W-e-u02, p.1]]
 
 # a)
 
