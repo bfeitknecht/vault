@@ -30,13 +30,14 @@ The class of all languages accepted by finite state machines is denoted by $\mat
 
 $$
 \begin{align}
-{\large{\vdash}}_{M}^* \\
-{\Large{\vdash}}_{M}^* \\
-{\Large{\vdash}}_{M}^* \\
-{\Large{\vdash}}_{M}^* \\ \\
-\setminus\setminus\
+(q, w) \mathrel{\large{\vdash}}_{M}^* (q, \lambda) \\
+(q, w) \mathrel{\Large{\vdash}}_{M}^* (q, \lambda) \\
+(q, w) \mathrel{\huge{\vdash}}_{M}^* (q, \lambda) \\
+(q, w) \mathrel{\Huge{\vdash}}_{M}^* (q, \lambda) \\ \\
+\\ \\ \\ \\
 \newcommand{\step}{\mathrel{{\Large \vdash}}} \\
 \newcommand{\step}{\mathrel{{\Huge \vdash}}} \\
-A \step_{M}^* B
+A \step_{M}^{*} B \\
+A \underset{M}\step
 \end{align}
 $$
