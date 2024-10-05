@@ -45,17 +45,23 @@ $$
 
 
 
-```
-
-(q, w) \step_{\kern -1em \smash{\raise .33em \tiny{M}}}^{\kern -.73em {\tiny *}} (q, \lambda) \\
+```latex
+\newcommand{\step}[1]{\mathrel{ \\
+{\Large \vdash}_{\kern -1em \smash{\raise .33em \tiny{#1}}}
+}}
+\newcommand{\steps}[1]{\mathrel{ \\
+\step{#1}^{\kern -.88em {\tiny *}}
+}}
 ```
 
 $$
 \begin{align}
 \newcommand{\step}[1]{\mathrel{ \\
-{\Large \vdash}_{\kern -1em \smash{\raise .33em \tiny{#1}}#1}
-}} \\
- \\
-a \step{M} b
+{\Large \vdash}_{\kern -1em \smash{\raise .33em \tiny{#1}}}
+}}
+\newcommand{\steps}[1]{\mathrel{ \\
+\step{#1}^{\kern -.88em {\tiny *}}
+}}
+a \step{M} b \\ a \steps{M} b
 \end{align}
 $$

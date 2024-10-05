@@ -1,0 +1,12 @@
+%% the step relation on the given argument #1
+\newcommand{\step}[1]{\mathrel{ \\
+{\Large \vdash}_{\kern -1em \smash{\raise .33em \tiny{#1}}}
+}}
+
+%% the reflexive and transitive closure of the step relation on #1
+\newcommand{\steps}[1]{\mathrel{ \\
+\step{#1}^{\kern -.88em {\tiny *}}
+}}
+
+%% negated implication
+\newcommand{\nimpl}{\kern.6em\not\kern -.6em \implies}
