@@ -25,24 +25,3 @@ The [[language]] $L(M)$ *accepted* by $M$ is defined as the set of all words in 
 
 The class of all languages accepted by finite state machines is denoted by $\mathcal L_{EA}$. It's also called the *class of regular languages* and every language $L$ in $\mathcal L_{EA}$ is called *regular*.
 
-
-
-
-$$
-\begin{align}
-(q, w) \mathrel{\large{\vdash}}_{M}^* (q, \lambda) \\
-(q, w) \mathrel{\Large{\vdash}}_{M}^* (q, \lambda) \\
-(q, w) \mathrel{\huge{\vdash}}_{M}^* (q, \lambda) \\
-(q, w) \mathrel{\Huge{\vdash}}_{M}^* (q, \lambda) \\ \\
-\\ \\ \\ \\
-\newcommand{\step}{\mathrel{{\Large \vdash}}} \\
-\newcommand{\step}{\mathrel{{\Huge \vdash}}} \\
-A \step_{M}^{*} B \\
-A \underset{M}\step \\
-\underset{\scriptstyle \kern 0.3em M}{\Huge \vdash} \\ \\
- \\
-
-\newcommand{\step}{\mathrel{\overset{ \kern 0.2em \smash{\raise -0.7em {\tiny *}}}{\underset{\kern 0.2em \smash{\raise 0.83em {\tiny M}}}{\Large \vdash}}}} \\
-(q, w)\step (q, \lambda)
-\end{align}
-$$
