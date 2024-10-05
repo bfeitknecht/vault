@@ -32,6 +32,11 @@ $$
 \begin{align}
 A \overset{*}{\Large{\vdash}} B \\
 A \underset{M}{\Large{\vdash}} B \\ \\
-A {\Large{\vdash}}_{M}^* B \\
+A {\Large{\vdash}}_{M}^* B \\ \\
+ \\
+
+\newcommand{\step}{\mathrel{{\Large \vdash}}} \\
+
+A \step_{M}^* B
 \end{align}
 $$
