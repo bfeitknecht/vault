@@ -23,8 +23,13 @@ mathjax can't import arbitrary latex packages because their sty files rely on on
 $$
 \begin{align}
 \newcommand{\step}[2]{\mathrel{
-\overset{ \kern 0.2em \smash{\raise -0.7em {\tiny #1}}}{\underset{\kern 0.2em \smash{\raise 0.83em {\tiny M}}}{\Large \vdash}}}
-}
+
+\overset
+    {\kern 0.2em \smash{\raise -0.7em {\tiny #2}}}
+    {\underset
+        {\kern 0.2em \smash{\raise 0.83em {\tiny #1}}}
+        {\Large \vdash}}
+}}
  \\
  \\
 (q, w) \step{M}{*} (q, \lambda)
