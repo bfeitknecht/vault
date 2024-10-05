@@ -38,6 +38,9 @@ $$
 \newcommand{\step}{\mathrel{{\Large \vdash}}} \\
 \newcommand{\step}{\mathrel{{\Huge \vdash}}} \\
 A \step_{M}^{*} B \\
-A \underset{M}\step
+A \underset{M}\step \\
+\underset{\scriptstyle \kern 0.3em M}{\Large \vdash} \\
+\newcommand{\step}{\mathrel{\underset{\smash{\raise 2ex{M}}}{\Large \vdash}}} \\
+\step
 \end{align}
 $$
