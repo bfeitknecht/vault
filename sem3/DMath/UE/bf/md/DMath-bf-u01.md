@@ -43,7 +43,7 @@ A & B & {F} \\
 1 & 1 & 1 \\
 \end{array}
 $$
-$\qed$
+$\square$
 
 ___
 
@@ -51,7 +51,7 @@ ___
 ![[DMath-e-u01.pdf#page=2&rect=106,488,521,517|DMath-e-u01, p.2]]
 
 We use the formula derived from subpart (a), namely $G\equiv A\vee B$.
-$\qed$
+$\square$
 
 ___
 
@@ -74,7 +74,7 @@ A & B & {A \heartsuit B} & {B \, \heartsuit A} \\
 \end{array}
 $$
 Since the function tables for $A \heartsuit B$ and $B \, \heartsuit A$ are not the same, $A \heartsuit B \not\equiv B \, \heartsuit A$, i.e. the $\heartsuit$ operator **is not** commutative.
-$\qed$
+$\square$
 
 ### ii)
 Now, we cover the $\diamondsuit$ operator.
@@ -89,7 +89,7 @@ A & B & {A \diamondsuit B} & {B \,\diamondsuit A} \\
 \end{array}
 $$
 Since the function tables for $A \diamondsuit B$ and $B \, \diamondsuit A$ are the same, $A\diamondsuit B \equiv B \,\diamondsuit A$, i.e. the $\diamondsuit$ operator **is** commutative.
-$\qed$
+$\square$
 
 ___
 
@@ -154,7 +154,7 @@ A & B & C & {\neg  (A \diamondsuit B)} & {\neg (B \diamondsuit C)} & {(\neg A \d
 1 & 1 & 1 & 0 & 0 & 1 \\
 \end{array}
 $$
-Since the function tables differ (e.g. the case of $A = B = C = 1$) we can conclude that $F \not \equiv G$. Thus, the statement is disproven. $\qed$
+Since the function tables differ (e.g. the case of $A = B = C = 1$) we can conclude that $F \not \equiv G$. Thus, the statement is disproven. $\square$
 
 ___
 
@@ -164,4 +164,4 @@ ___
 ![[DMath-e-u01.pdf#page=3&rect=104,587,521,635|DMath-e-u01, p.3]]
 
 $G\equiv A \diamondsuit C \heartsuit B$
-$\qed$
+$\square$

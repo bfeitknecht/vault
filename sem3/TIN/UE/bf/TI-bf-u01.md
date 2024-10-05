@@ -135,8 +135,3 @@ L_2 &= \bigcup_{i=1}^{l} a^i \\
 \end{align}
 $$
 $\square$
-
-
-
-
-

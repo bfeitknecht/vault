@@ -1,25 +1,24 @@
 #!/usr/bin/env bash
 
-# save workspace
-#open --background "obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave"
+# on-quit &> /Users/bf/home/eth/vault/.obsidian/logs/on-quit-log.txt
 
-# change to vault root
-cd "$1" &> /dev/null
+on-quit () {
+  # save workspace
+  #open --background "obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave"
 
-# for log purposes (we don't do this)
-# echo $(pwd)
+  # change to vault root
+  cd "$1" &> /dev/null
 
-# stage all changes
-git add .
+  # for log purposes (we don't do this)
+  # echo $(pwd)
 
-# commit with on quit message
-t=$(date -Iseconds)
-git commit -m "backup: $t on quit from MacBook Pro (echo)"
+  # stage all changes
+  git add .
 
-# try to push new local commits
-git push
+  # commit with on quit message
+  t=$(date -Iseconds)
+  git commit -m "backup: $t on quit from MacBook Pro (echo)"
 
-
-# add this to shell command for log
-# &> /Users/bf/home/eth/vault/.obsidian/logs/on-quit-log.txt
-
+  # try to push new local commits
+  git push
+}
