@@ -1,0 +1,15 @@
+{
+  "preambles": {
+    "preambles": [
+      {
+        "path": "var/support/preambles/preamble.md"
+      }
+    ],
+    "folderPreambles": [
+      {
+        "folderPath": "/",
+        "preamblePath": "var/support/preambles/preamble.md"
+      }
+    ]
+  }
+}
