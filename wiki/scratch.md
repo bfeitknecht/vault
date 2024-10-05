@@ -35,7 +35,7 @@ $$
 {\Large \vdash}}}
 \\ \\
 
-(q, w) \step_{\kern -1em M}^{\kern -.7em *} (q, \lambda) \\
+(q, w) \step_{\kern -1em \smash{\raise .33em \tiny{M}}}^{\kern -.8em {\tiny *}} (q, \lambda) \\
 (q, w) \step_{M}^{*} (q, \lambda) \\
 \end{align}
 $$
