@@ -33,7 +33,9 @@ $$
 \\ \\
 \newcommand{\step}{\mathrel{
 {\Large \vdash}}}
- \\ \\
-(q, w) \step{M}{*} (q, \lambda) \\
+\\ \\
+
+(q, w) \step_{\kern -1em M}^{\kern -.7em *} (q, \lambda) \\
+(q, w) \step_{M}^{*} (q, \lambda) \\
 \end{align}
 $$
