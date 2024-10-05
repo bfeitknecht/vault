@@ -30,13 +30,13 @@ The class of all languages accepted by finite state machines is denoted by $\mat
 
 $$
 \begin{align}
-A \overset{*}{\Large{\vdash}} B \\
-A \underset{M}{\Large{\vdash}} B \\ \\
-A {\Large{\vdash}}_{M}^* B \\ \\
- \\
-
+{\large{\vdash}}_{M}^* \\
+{\Large{\vdash}}_{M}^* \\
+{\Large{\vdash}}_{M}^* \\
+{\Large{\vdash}}_{M}^* \\ \\
+\setminus\setminus\
 \newcommand{\step}{\mathrel{{\Large \vdash}}} \\
-
+\newcommand{\step}{\mathrel{{\Huge \vdash}}} \\
 A \step_{M}^* B
 \end{align}
 $$
