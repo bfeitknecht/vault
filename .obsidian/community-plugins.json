@@ -33,5 +33,6 @@
   "restore-tab-key",
   "obsidian-git",
   "obsidian-latex",
-  "mathjax-preamble-manager"
+  "mathjax-preamble-manager",
+  "global-search-and-replace"
 ]
