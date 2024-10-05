@@ -40,7 +40,7 @@ $$
 A \step_{M}^{*} B \\
 A \underset{M}\step \\
 \underset{\scriptstyle \kern 0.3em M}{\Large \vdash} \\
-\newcommand{\step}{\mathrel{\underset{\smash{\raise 2ex{M}}}{\Large \vdash}}} \\
+\newcommand{\step}{\mathrel{\overset{\raise -1em *}{\underset{\kern 0.3em \smash{\raise 0.5em M}}{\Large \vdash}}}} \\
 \step
 \end{align}
 $$
