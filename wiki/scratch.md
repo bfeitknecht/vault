@@ -31,11 +31,12 @@ $$
 }} \\
 (q, w) \step{M}{*} (q, \lambda) \\
 \\ \\
-\newcommand{\step}{\mathrel{
-{\Large \vdash}}}
+\newcommand{\step}[1]{\mathrel{
+{\Large \vdash}_{}}}
 \\ \\
-
-(q, w) \step_{\kern -1em \smash{\raise .33em \tiny{M}}}^{\kern -.8em {\tiny *}} (q, \lambda) \\
+ \\
+ \\
+(q, w) \step_{\kern -1em \smash{\raise .33em \tiny{M}}}^{\kern -.73em {\tiny *}} (q, \lambda) \\
 (q, w) \step_{M}^{*} (q, \lambda) \\
 \end{align}
 $$
