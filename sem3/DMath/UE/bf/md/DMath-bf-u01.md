@@ -7,7 +7,7 @@ $T\def S \land n=1$
 $S \nimpl T$
 
 The mistake in this proof is that $S$ is a false statement, there exists no largest number $n\in \N$. Additionally, $T$ is a compound statement from $S$ and the the binding of its $n=1$. 
-$\qed$
+$\square$
 
 ___
 

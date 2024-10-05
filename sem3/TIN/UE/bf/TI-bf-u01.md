@@ -23,7 +23,7 @@ f(n) \def \begin{cases}
 3^{n} - 3 \cdot 2^n+3, & n \geq 3
 \end{cases}
 $$
-$\qed$
+$\square$
 
 
 ## (b)
@@ -38,7 +38,7 @@ g(n) \def \begin{cases}
 g(n-1) + g(n-2), & n\geq 2
 \end{cases}
 $$
-$\qed$
+$\square$
 
 ___
 
@@ -61,7 +61,7 @@ We prove this case by contradiction. Assume for the sake of contradiction, that 
 Now, since we assume the statement to be true for some finite order language, there must be some word $v\in L^2$ s.t. $v=w^2$. However, since we assume $L^2 \subseteq L$, there must also be some word $u\in L^2$ s.t. $u=v^2$.
 
 We have arrived at a contradiction, since $L$ cannot be finite but fulfill the implication. Thus $|L|=\infty$ in order for $L^2\subseteq L$.
-$\qed$
+$\square$
 
 
 ## (b)
@@ -75,7 +75,7 @@ To prove $A\subseteq B$ we need to show that $z\in B$, i.e. $z\in (L_{2})^2$ but
 Let's now show $B\subseteq A$. Let $z\in B$ be arbitrarily chosen, i.e. $z=xy$, where $x,y\in L_{2}$, $y\not\in L_{1}$. Filling in the definition for $A$, gives us that $z\subseteq L_{2}\cdot(L_{2}-L_{1})$. Thus $z=vw$, where $v\in L_{2}$ and $w \in L_{2}-L_{1}$. This corresponds to our initial definition of $z$, w.o.l.g. let $v=x$ and $w=y$. Thus $B\subseteq A$ is proven.
 
 Since $A\subseteq B,B\subseteq A \implies A=B$, as was to be proven.
-$\qed$
+$\square$
 
 
 ___
@@ -93,7 +93,7 @@ L_{1} &= \{ a\} \cup L_{\lambda} \\
 L_{2} &= \{  a^{n} \mid n \in [k] \} \\
 \end{align}
 $$
-$\qed$
+$\square$
 
 
 ## (b)
@@ -106,7 +106,7 @@ L_{1} &= \{ a^i \mid i \in [5] \} \cup L_{\lambda} \\
 L_{2} &= \{  a^{n} \mid n \in [k] \} \\
 \end{align}
 $$
-$\qed$
+$\square$
 
 
 ## (c)
@@ -121,7 +121,7 @@ L_{2} &= \{  b^{j} \mid j \in [l] \} &\text{(2)} \\
 L_{1} \cap L_{2} = \empty \text{, (3)} &\implies |L_{1}L_{2}| = k\cdot l 
 \end{align}
 $$
-$\qed$
+$\square$
 
 
 ## (d)
@@ -134,7 +134,7 @@ L_1 &= \bigcup_{i=1}^{k} a^{l \cdot i} \\
 L_2 &= \bigcup_{i=1}^{l} a^i \\
 \end{align}
 $$
-$\qed$
+$\square$
 
 
 
