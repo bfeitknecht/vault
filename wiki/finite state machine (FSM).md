@@ -39,8 +39,10 @@ $$
 \newcommand{\step}{\mathrel{{\Huge \vdash}}} \\
 A \step_{M}^{*} B \\
 A \underset{M}\step \\
-\underset{\scriptstyle \kern 0.3em M}{\Large \vdash} \\
-\newcommand{\step}{\mathrel{\overset{\raise -1em *}{\underset{\kern 0.3em \smash{\raise 0.5em M}}{\Large \vdash}}}} \\
-\step
+\underset{\scriptstyle \kern 0.3em M}{\Huge \vdash} \\ \\
+ \\
+
+\newcommand{\step}{\mathrel{\overset{ \kern 0.2em \smash{\raise -0.7em {\tiny *}}}{\underset{\kern 0.2em \smash{\raise 0.83em {\tiny M}}}{\Large \vdash}}}} \\
+(q, w)\step (q, \lambda)
 \end{align}
 $$
