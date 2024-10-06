@@ -23,6 +23,7 @@ f(n) \def \begin{cases}
 3^{n} - 3 \cdot 2^n+3, & n \geq 3
 \end{cases}
 $$
+
 $\square$
 
 
@@ -38,6 +39,7 @@ g(n) \def \begin{cases}
 g(n-1) + g(n-2), & n\geq 2
 \end{cases}
 $$
+
 $\square$
 
 ___
@@ -52,7 +54,7 @@ We pove this by case distinction.
 Let $L = \emptyset$, then $L^2 = \emptyset$ and clearly $\emptyset \subseteq \emptyset$. Thus $L^2 \subseteq L$.
 
 ### Case $L=\{\lambda\}$
-Let $L = \{\lambda\}$, then $L^2 = \{\lambda\lambda\} = \{\lambda\}$. Since $L = L^2 \implies L^2 \subseteq L$
+Let $L = \{ \lambda \}$, then $L^2 = \{\lambda\lambda\} = \{\lambda\}$. Since $L = L^2 \implies L^2 \subseteq L$
 
 ### Case $|L|=\infty$
 

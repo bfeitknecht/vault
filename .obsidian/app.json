@@ -1,25 +1,4 @@
 {
   "promptDelete": false,
-  "alwaysUpdateLinks": true,
-  "vimMode": false,
-  "attachmentFolderPath": "var/attachments",
-  "pdfExportSettings": {
-    "includeName": false,
-    "pageSize": "A4",
-    "landscape": false,
-    "margin": "2",
-    "downscalePercent": 100
-  },
-  "showInlineTitle": true,
-  "showLineNumber": false,
-  "newFileLocation": "folder",
-  "spellcheckDictionary": [
-    "LUTs"
-  ],
-  "showRibbon": true,
-  "propertiesInDocument": "source",
-  "trashOption": "local",
-  "showUnsupportedFiles": false,
-  "spellcheck": false,
-  "newFileFolderPath": "wiki"
+  "alwaysUpdateLinks": true
 }

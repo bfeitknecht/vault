@@ -20,8 +20,33 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "8d66446cb1141e94",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/TIN/UE/bf/TI-bf-u01.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "c564a0a2b4524384",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u01.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -65,7 +90,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/scratch.md"
+                    "file": "sem3/TIN/UE/bf/TI-bf-u01.md"
                   }
                 }
               },
@@ -133,7 +158,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/scratch.md",
+                    "file": "sem3/TIN/UE/bf/TI-bf-u01.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -150,7 +175,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/scratch.md",
+                    "file": "sem3/TIN/UE/bf/TI-bf-u01.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -166,6 +191,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian42-brat:BRAT": true,
           "flashcards-obsidian:Generate flashcards": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -178,12 +204,11 @@
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "command-palette:Open command palette": true,
-          "obsidian-git:Open Git source control": true
+          "command-palette:Open command palette": true
         }
       },
-      "active": "b350d083ce1d3266",
-      "mtime": "2024-10-04T22:22:16+02:00"
+      "active": "8d66446cb1141e94",
+      "mtime": "2024-10-05T13:23:38+02:00"
     },
     "00-home": {
       "main": {
@@ -459,8 +484,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "vertical"
@@ -504,7 +528,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/algorithm.md"
+                    "file": "sem3/A&D/VRL/notes/A&D.md"
                   }
                 }
               },
@@ -514,7 +538,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/algorithm.md",
+                    "file": "sem3/A&D/VRL/notes/A&D.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -531,7 +555,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/algorithm.md",
+                    "file": "sem3/A&D/VRL/notes/A&D.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -618,12 +642,11 @@
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "command-palette:Open command palette": true,
-          "obsidian-git:Open Git source control": true
+          "command-palette:Open command palette": true
         }
       },
-      "active": "545c4fe2911597d7",
-      "mtime": "2024-10-04T16:24:15+02:00"
+      "active": "e7911976b677ac81",
+      "mtime": "2024-10-05T13:20:08+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1140,9 +1163,7 @@
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w02.pdf",
                     "page": 1,
-                    "left": -19,
-                    "top": 796,
-                    "zoom": 0.8504901960784313
+                    "zoom": 1
                   }
                 }
               }
@@ -1213,7 +1234,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1257,7 +1278,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md"
+                    "file": "wiki/matrix.md"
                   }
                 }
               },
@@ -1267,7 +1288,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
+                    "file": "wiki/matrix.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1284,7 +1305,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
+                    "file": "wiki/matrix.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1371,12 +1392,11 @@
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "command-palette:Open command palette": true,
-          "obsidian-git:Open Git source control": true
+          "command-palette:Open command palette": true
         }
       },
-      "active": "5e147ae0102336c7",
-      "mtime": "2024-10-04T16:22:58+02:00"
+      "active": "19d27987b5acfd2c",
+      "mtime": "2024-10-05T13:20:20+02:00"
     },
     "sem3-ti": {
       "main": {

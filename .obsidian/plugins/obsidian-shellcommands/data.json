@@ -73,7 +73,7 @@
     {
       "id": "s558cixu8a",
       "platform_specific_commands": {
-        "default": "git add {{vault_path}}"
+        "default": "# git add {{vault_path}}"
       },
       "shells": {},
       "alias": "Git add all changes",

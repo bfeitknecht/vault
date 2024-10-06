@@ -89,8 +89,5 @@ old preamble:
 
 
 
-$$
-\begin{align}
 
-\end{align}
-$$
+`\{` produces $\{$, wtf?

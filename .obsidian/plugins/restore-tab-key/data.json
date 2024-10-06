@@ -1,8 +1,7 @@
 {
-  "activateOnlyOnCodeBlocks": false,
   "indentsIfSelection": true,
   "indentsIfSelectionOnlyForMultipleLines": true,
-  "useSpaces": false,
+  "useSpaces": true,
   "alignSpaces": true,
   "useHardSpace": false,
   "spacesCount": 4,
@@ -19,5 +18,11 @@
   "braceCodeSetClose": "[\"^\\\\}\", \"^\\\\]\", \"^\\\\)\", \"^\\\"\", \"^'\", \"^`\"]",
   "braceMarkdownSetOpen": "[\"\\\\{$\", \"\\\\[$\", \"\\\\($\", \"\\\"$\", \"'$\", \"\\\\$\\\\$$\", \"<.+>$\", \"¡$\", \"¿$\"]",
   "braceMarkdownSetClose": "[\"^\\\\}\", \"^\\\\]\", \"^\\\\)\", \"^\\\"\", \"^'\", \"^\\\\$\\\\$\", \"^<\\\\/\\\\w+>\", \"^!\", \"^?\"]",
-  "indentCharacters": " \t"
+  "indentCharacters": " \t",
+  "activateInCodeBlocks": true,
+  "activateInLists": false,
+  "activateInTables": false,
+  "activateInInlineCode": false,
+  "activateInOthers": false,
+  "activateOnlyOnCodeBlocks": false
 }
