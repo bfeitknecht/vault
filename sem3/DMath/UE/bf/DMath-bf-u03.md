@@ -12,7 +12,7 @@
 ![[DMath-e-u03.pdf#page=1&rect=107,208,523,225|DMath-e-u03, p.1]]
 $$
 \begin{align}
-\forall x(\exists y(x\cdot y=1)\to x=1)
+\forall x(y | x)\to x=1)
 \end{align}
 $$
 
