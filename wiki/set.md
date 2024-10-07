@@ -9,7 +9,7 @@ E(x,y) = \begin{cases}
 0, &\text{else}
 \end{cases}
 $$
-We write that x is element of y in [[infix notation]] as $x \in y$ for $E(x,y)=1$ and $x \not\in y$ for the case that x is not element of y, i.e. $E(x,y)=0$.
+We write that x is element of y in [[infix notation]] as $x \in y$ for $E(x,y)=1$ and $x \not\in y$ for the case that x is not element of y, i.e. $E(x,y)=0$. We define the *cardinality* of some set as the number of elements it contains, which we denote $|S|$.
 
 ![[dmath-script-hs24.pdf#page=54&rect=36,284,388,303|dmath-script-hs24, p.44]]
 A set is completely specified by its elements, regardless of how it is described. There is no other relevant information about a set than what its elements are. This implies that two sets that share all elements are the same set, which we can write using the [[transitive]] [[subset]] relation $(A \subseteq B) \wedge (B \subseteq A) \iff A=B$.
@@ -19,13 +19,16 @@ $$
 (a, b) \overset{\text{def.}}= \{ \{a\}, \{a, b\}\}
 $$
 
-We define the *cardinality* of some set as the number of elements it contains, which we denote $|S|$.
-
-
-The **union** and **intersection** of two sets $A, B$ are defined as,
+The **union** and **intersection** of two sets $A, B$ are defined as all elements that are in one or the 
 ![[dmath-script-hs24.pdf#page=56&rect=36,213,387,297|dmath-script-hs24, p.46]]
-which we can extend from two to an arbitrary collection of sets. Let $\mathca$
-
+which we can extend from two to an arbitrary collection of sets. Let $\mathcal A$ be a non-empty set of sets, each with finite or infinite cardinality. Then we define the union of all sets in $\mathcal A$ as the set of all $x$ that are an element of at least one of the sets in $\mathcal A$,
+$$
+\bigcup \mathcal A \overset{\text{def.}}{=} \{x \mid \exists A \in \mathcal A, x \in A\}
+$$
+Similarly, we define the intersection of all sets in $\mathcal A$,
+$$
+\bigcap \mathcal A \overset{\text{def.}}{=} \{ x \mid \exists A \in \mathcal A, x \in A\}
+$$
 
 
 
