@@ -1,10 +1,8 @@
 
+To proof a statement $S$ by contradiction, we assume that it's false and implies a suitable statement $T$ which we can prove is false, thus we arrive at a contradiction. 
+
+$(\neg S \to B) \wedge \neg B \models S$
+
+
 ![[dmath-script-hs24.pdf#page=44&rect=36,222,389,299|dmath-script-hs24, p.34]]
 
-
-$$
-\begin{align}
-S \implies T \implies R \\
-S \implies R
-\end{align}
-$$
