@@ -12,7 +12,7 @@
 ![[DMath-e-u03.pdf#page=1&rect=107,208,523,225|DMath-e-u03, p.1]]
 $$
 \begin{align}
-\forall x(y | x)\to x=1)
+\forall x((y \mid x)\to x = y = 1)
 \end{align}
 $$
 
@@ -27,3 +27,6 @@ $$
 Let $S$ be the statement to prove, i.e. $n \mid m \ \text{and} \ n \mid (m+1) \implies n=1$.
 For the sake of contradiction, let's assume that $S$ is false, 
 
+
+
+n divides m and n divides m plus one implies n is equal to one
