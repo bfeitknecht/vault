@@ -24,8 +24,11 @@ $$
 ![[DMath-e-u03.pdf#page=3&rect=77,576,525,687|DMath-e-u03, p.3]]
 
 
-Let $S$ be the statement to prove, i.e. $n \mid m \ \text{and} \ n \mid (m+1) \implies n=1$.
-For the sake of contradiction, let's assume that $S$ is false, 
+
+Let $S$ be the left hand side of the statement to prove, i.e. $n \mid m \ \text{and} \ n \mid (m+1)$.
+Let $T$ be the right hand side, i.e. $n=1$.
+
+For the sake of contradiction, let's assume that $S$ is true and $T$ is false, i.e. $\neg(n=1)$ 
 
 
 
