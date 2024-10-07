@@ -1,5 +1,5 @@
 
-A **predicate** $P$ on some [[empty set|non-empty]] set $U$ as the universe is a [[arity|k-ary]] [[function]], $P:U^k \to\{0, 1\}$.
+In [[predicate logic]], a **predicate** $P$ on some [[empty set|non-empty]] set $U$ as the universe is a [[arity|k-ary]] [[function]], $P:U^k \to\{0, 1\}$.
 
 ![[dmath-script-hs24.pdf#page=35&rect=35,197,346,214|dmath-script-hs24, p.25]]
 
