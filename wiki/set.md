@@ -1,6 +1,13 @@
 #todo 
 
-A **set** $S$ is a *collection of distinct [[element|elemens]]*. 
+A **set** $S$ is a *collection of distinct [[element|elements]]*. Examples include the set of [[natural numbers]] $\mathbb N$ or, some [[alphabet]] $\Sigma$ of [[symbols]]. Importantly, the elements of a set can be arbitrarily chosen from some *universe* $U$.
+
+We define the *cardinality* of some set as the number of elements it contains, which we denote $|S$
+
+
+
+
+[[russell's paradox]]
 
 A ~ B def.: es gibt eine bijektion von A $\rightarrow$ B und B $\rightarrow$ A 
 
