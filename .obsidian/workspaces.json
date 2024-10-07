@@ -163,7 +163,7 @@
         }
       },
       "active": "bf127e72dc0ba343",
-      "mtime": "2024-10-07T14:23:22+02:00"
+      "mtime": "2024-10-07T22:10:56+02:00"
     },
     "00-home": {
       "main": {
@@ -608,36 +608,36 @@
                 }
               },
               {
-                "id": "849bc487a8897386",
+                "id": "acdf2b7061cc66a2",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/lectures/DMath-v-w02.md",
+                    "file": "sem3/DMath/VRL/notes/lectures/DMath-v-w04.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "fd3ce497a697a72d",
+                "id": "bcae261fece647e9",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/predicate (predicate logic).md",
+                    "file": "wiki/formula (propositional logic).md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "216614f3cd04851d",
+                "id": "89339d0368cec8a6",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u02.md",
+                    "file": "sem3/DMath/UE/bf/DMath-bf-u03.md",
                     "mode": "source",
                     "source": false
                   }
@@ -657,26 +657,29 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 1,
-                    "left": -13,
-                    "top": 628,
-                    "zoom": 1.2406800022882858
+                    "page": 60,
+                    "left": -12,
+                    "top": 185,
+                    "zoom": 1.2800099159054938
                   }
                 }
               },
               {
-                "id": "33186dee745cf37c",
+                "id": "95a7ba5b7ca2650c",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/DMath/UE/e/DMath-e-u02.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "file": "sem3/DMath/UE/e/DMath-e-u03.pdf",
+                    "page": 3,
+                    "left": -4,
+                    "top": 730,
+                    "zoom": 0.97
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -728,7 +731,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/DMath.md"
+                    "file": "sem3/DMath/UE/e/DMath-e-u03.pdf"
                   }
                 }
               }
@@ -753,7 +756,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/DMath.md",
+                    "file": "sem3/DMath/UE/e/DMath-e-u03.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -770,7 +773,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/DMath.md",
+                    "file": "sem3/DMath/UE/e/DMath-e-u03.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -825,8 +828,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-10-07T13:28:00+02:00"
+      "active": "95a7ba5b7ca2650c",
+      "mtime": "2024-10-07T22:10:52+02:00"
     },
     "sem3-eprog": {
       "main": {
