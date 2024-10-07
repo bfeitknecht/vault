@@ -50,9 +50,6 @@ Analogous to the lemmas regarding logical operators, we can define the following
 ___
 
 
-
-
-
 [[russell's paradox]]
 
 
