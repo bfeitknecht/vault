@@ -19,17 +19,23 @@ $$
 (a, b) \overset{\text{def.}}= \{ \{a\}, \{a, b\}\}
 $$
 
-The **union** and **intersection** of two sets $A, B$ are defined as all elements that are in one or the 
-![[dmath-script-hs24.pdf#page=56&rect=36,213,387,297|dmath-script-hs24, p.46]]
-which we can extend from two to an arbitrary collection of sets. Let $\mathcal A$ be a non-empty set of sets, each with finite or infinite cardinality. Then we define the union of all sets in $\mathcal A$ as the set of all $x$ that are an element of at least one of the sets in $\mathcal A$,
+The **union** and **intersection** of two sets $A, B$ are defined as all elements that are in $A$ *or* $B$ and all elements that are in $A$ *and* $B$.
+$$
+\begin{align}
+A \cup B &\overset{\text{def.}}{=} \{ x \mid x \in A \vee x \in B\} \\
+A \cap B &\overset{\text{def.}}{=} \{ x \mid x \in A \wedge x \in B\}
+\end{align}
+$$
+We can extend this definition from two to an arbitrary collection of sets. Let $\mathcal A$ be a non-empty set of sets, each with finite or infinite cardinality. Then we define the union of all sets in $\mathcal A$ as the set of all $x$ that are an element of at least one of the sets in $\mathcal A$.
 $$
 \bigcup \mathcal A \overset{\text{def.}}{=} \{x \mid \exists A \in \mathcal A, x \in A\}
 $$
-Similarly, we define the intersection of all sets in $\mathcal A$,
+Similarly, we define the intersection of all sets in $\mathcal A$.
 $$
 \bigcap \mathcal A \overset{\text{def.}}{=} \{ x \mid \exists A \in \mathcal A, x \in A\}
 $$
 
+The difference of two sets, denoted with $B \setminus A$ or $B -A$is the collection of elements in $B$ that are not in $A$.
 
 
 
