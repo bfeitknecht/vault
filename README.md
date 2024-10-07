@@ -133,3 +133,21 @@ comment
 -->
 
 
+> [!info]- utility plugin list
+> 
+> - automatic table of content  
+> - language tool integration
+> - zotero integration
+> - open in new tab
+> - flashcards
+>   
+
+
+> [!info]- usage plugin list
+> 
+> - global search and replace
+> - folder notes
+> - user plugin
+> - style settings
+
+

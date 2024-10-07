@@ -2,15 +2,15 @@
   "workspaces": {
     "00-clean": {
       "main": {
-        "id": "4c37640d370c8530",
+        "id": "4763ad736ef261ec",
         "type": "split",
         "children": [
           {
-            "id": "fc271f91f6d030f0",
+            "id": "8eee30e350e862b5",
             "type": "tabs",
             "children": [
               {
-                "id": "5bd23e59494a00a6",
+                "id": "d09ae2a9c3fbc856",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -27,15 +27,15 @@
         "direction": "vertical"
       },
       "left": {
-        "id": "48884efa0095f873",
+        "id": "efb17e73f268e472",
         "type": "split",
         "children": [
           {
-            "id": "6bc54cac6cc3b15b",
+            "id": "b56a227625459490",
             "type": "tabs",
             "children": [
               {
-                "id": "a967d7543915fe86",
+                "id": "101f80529ee4afa6",
                 "type": "leaf",
                 "state": {
                   "type": "file-explorer",
@@ -45,7 +45,7 @@
                 }
               },
               {
-                "id": "9de330f3702edc78",
+                "id": "64b3c91b9116661d",
                 "type": "leaf",
                 "state": {
                   "type": "search",
@@ -60,40 +60,29 @@
                 }
               },
               {
-                "id": "f58cad5b6a16dbdd",
+                "id": "f416d57575e2a5d3",
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
                   "state": {}
-                }
-              },
-              {
-                "id": "533d53e4c0be9e2d",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "regen.md"
-                  }
                 }
               }
             ]
           }
         ],
         "direction": "horizontal",
-        "width": 234.5,
-        "collapsed": true
+        "width": 300
       },
       "right": {
-        "id": "841476eca9d29ce3",
+        "id": "9b1edfcc52ee9d52",
         "type": "split",
         "children": [
           {
-            "id": "50406a5c590e7a35",
+            "id": "212bc989731203a9",
             "type": "tabs",
             "children": [
               {
-                "id": "e5c250276ac50496",
+                "id": "0d397edd797aa99f",
                 "type": "leaf",
                 "state": {
                   "type": "backlink",
@@ -110,7 +99,7 @@
                 }
               },
               {
-                "id": "e114c3e72b19efb5",
+                "id": "5bcf2a8959bccd82",
                 "type": "leaf",
                 "state": {
                   "type": "outgoing-link",
@@ -122,56 +111,48 @@
                 }
               },
               {
-                "id": "543c835249bfc341",
+                "id": "73b078a558950ed7",
                 "type": "leaf",
                 "state": {
-                  "type": "git-view",
-                  "state": {}
+                  "type": "outline",
+                  "state": {
+                    "file": "regen.md"
+                  }
                 }
               },
               {
-                "id": "50dce17b135e5819",
+                "id": "583976f75b5fc795",
                 "type": "leaf",
                 "state": {
                   "type": "toggl-report",
                   "state": {}
                 }
-              },
-              {
-                "id": "7c67f137bd261f69",
-                "type": "leaf",
-                "state": {
-                  "type": "vertical-tabs-view",
-                  "state": {}
-                }
               }
-            ],
-            "currentTab": 4
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 244.5,
-        "collapsed": true
+        "width": 300
       },
       "left-ribbon": {
         "hiddenItems": {
-          "switcher:Open quick switcher": true,
-          "omnisearch:Omnisearch": false,
+          "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
-          "command-palette:Open command palette": true,
           "templates:Insert template": false,
-          "pdf-plus:PDF++: Toggle auto-copy": true,
-          "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true,
-          "obsidian-shellcommands:Shell commands: Custom variables": true,
-          "cmdr:Open in default app": false,
-          "obsidian-git:Open Git source control": true,
+          "command-palette:Open command palette": false,
+          "workspaces:Manage workspace layouts": false,
           "cmdr:Export to PDF": false,
-          "workspaces:Manage workspace layouts": false
+          "cmdr:Open in default app": false,
+          "pdf-plus:PDF++: Toggle auto-copy": false,
+          "pdf-plus:PDF++: Toggle auto-focus": false,
+          "pdf-plus:PDF++: Toggle auto-paste": false,
+          "obsidian-shellcommands:Shell commands: Custom variables": false,
+          "omnisearch:Omnisearch": false,
+          "obsidian-git:Open Git source control": false
         }
       },
-      "active": "5bd23e59494a00a6",
-      "mtime": "2024-10-07T13:28:45+02:00"
+      "active": "d09ae2a9c3fbc856",
+      "mtime": "2024-10-07T13:59:34+02:00"
     },
     "00-home": {
       "main": {
@@ -371,7 +352,7 @@
         }
       },
       "active": "d39f74221ae34967",
-      "mtime": "2024-10-07T13:29:35+02:00"
+      "mtime": "2024-10-07T13:59:38+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1390,7 +1371,9 @@
                   "state": {
                     "file": "sem3/TIN/UE/e/TI-e-u03.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -26,
+                    "top": 846,
+                    "zoom": 0.5669638957391194
                   }
                 }
               },
@@ -1402,9 +1385,9 @@
                   "state": {
                     "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
                     "page": 70,
-                    "left": -14,
-                    "top": 661,
-                    "zoom": 1.0929822351014236
+                    "left": -22,
+                    "top": 665,
+                    "zoom": 0.7087060602242661
                   }
                 }
               },
@@ -1420,8 +1403,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1473,7 +1455,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/TI.md"
+                    "file": "sem3/TIN/UE/e/TI-e-u03.pdf"
                   }
                 }
               }
@@ -1498,7 +1480,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/TI.md",
+                    "file": "sem3/TIN/UE/e/TI-e-u03.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1515,7 +1497,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/TI.md",
+                    "file": "sem3/TIN/UE/e/TI-e-u03.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1570,8 +1552,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-10-07T13:28:07+02:00"
+      "active": "fd1cbc5e550853e7",
+      "mtime": "2024-10-07T13:59:20+02:00"
     }
   },
   "active": "00-clean"
