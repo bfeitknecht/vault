@@ -19,5 +19,5 @@
 ![[DMath-e-u03.pdf#page=3&rect=77,576,525,687|DMath-e-u03, p.3]]
 
 
-For the sake of contradiction, let's assume that 
+For the sake of contradiction, let's assume that $S$ is false, 
 

@@ -1,3 +1,3 @@
 #todo 
 
-In **predicate logic** we evaluate predicates on some universe is the logic of predicates. We also call it second order logic.
+In **predicate logic**, we evaluate predicates on some [[empty set|non-empty]] universe. We also call it second order logic.
