@@ -1,46 +1,12 @@
 
-problem: $\vdash_{M}^*$ looks bad!
+problem: $\vdash_{M}^*$ looks kinda bad!
 solution:
 
 
 ___
 
-
-$$
-\begin{align}
-\newcommand{\b}[2]{\mathrel{
-\overset
-    {\kern 0.2em \smash{\raise -0.7em {\tiny #2}}}
-    {\underset
-        {\kern 0.2em \smash{\raise 0.83em {\tiny #1}}}
-        {\Large \vdash}}
-}} \\
-(q, w) \b{M}{*} (q, \lambda) \\
-\end{align}
-$$
-
-$$
-\begin{align}
-(q, w) \mathrel{\huge{\vdash}}_{M}^* (q, \lambda) \\
-\\ \\
-
-\end{align}
-$$
-
-
-
-
-
-
-
-$$
-\begin{align}
-\newcommand{\step}{\mathrel{{\Large \vdash}}} \\
- \\
-
-(q, w) \step_{\kern -1em \smash{\raise .33em \tiny{M}}}^{\kern -.73em {\tiny *}} (q, \lambda) \\
-\end{align}
-$$
+`(q, w) \mathrel{\huge{\vdash}}_{M}^* (q, \lambda)` 
+$(q, w) \mathrel{\huge{\vdash}}_{M}^* (q, \lambda)$
 
 
 
@@ -55,12 +21,6 @@ $$
 
 $$
 \begin{align}
-\newcommand{\step}[1]{\mathrel{ \\
-{\Large \vdash}_{\kern -1em \smash{\raise .19em \tiny{#1}}}
-}}
-\newcommand{\steps}[1]{\mathrel{ \\
-\step{#1}^{\kern -.88em {\tiny *}}
-}}
 a \step{M} b \\ a \steps{M} b
 \end{align}
 $$
