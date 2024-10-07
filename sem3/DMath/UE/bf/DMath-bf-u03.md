@@ -26,13 +26,13 @@ $$
 
 Let $S$ be the left hand side of the statement, $n \mid m \ \text{and} \ n \mid (m+1)$.
 Let $T$ be the right hand side, $n=1$. 
-Let $W$ be the statement to prove, $S \implies T$. From the script we know that $W$, which we defined as $S \implies T$ is false if $S$ is true and $T$ is false.
+Let $W$ be the statement to prove, $S \implies T$. From the script we know that $W$, which we defined as $S \implies T$ is false if and only if $S$ is true and $T$ is false.
 
 Now we will assume $S$ to be true and $T$ to be false and show that it leads to a contradiction.
 
 
 
-n divides two adjacent numbers 
+n divides two adjacent numbers but n is not 1
 
 n divides m and n divides m plus one implies n is equal to one
 
