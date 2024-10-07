@@ -11,6 +11,7 @@
 ## iii)
 ![[DMath-e-u03.pdf#page=1&rect=107,208,523,225|DMath-e-u03, p.1]]
 
+
 ## iv)
 ![[DMath-e-u03.pdf#page=1&rect=107,172,524,204|DMath-e-u03, p.1]]
 
@@ -19,5 +20,6 @@
 ![[DMath-e-u03.pdf#page=3&rect=77,576,525,687|DMath-e-u03, p.3]]
 
 
+Let $S$ be the statement to prove, i.e. $n \mid m \ \text{and} \ n \mid (m+1) \implies n=1$.
 For the sake of contradiction, let's assume that $S$ is false, 
 
