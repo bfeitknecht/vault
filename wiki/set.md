@@ -40,9 +40,9 @@ $$
 B \setminus A \overset{\text{def.}}{=} \{x \in B \mid x \not\in A\}
 $$
 
-The **empty set** $\varnothing$ is the set with no elements, $\forall x \neg (x \in \varnothing)$. There is only one empty set and it is subset of every non-empty set, i.e. $\forall A(\varnothing \subseteq A)$.
+![[empty set]]
 
-
+The **power set** of some set $A$ is the set of all subsets of $A$, which we denote by $\mathcal P(A) \overset{\text{def.}}{=} \{S \mid S \subseteq A\}$.
 
 
 
