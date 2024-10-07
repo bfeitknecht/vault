@@ -2,5 +2,12 @@
   "cssTheme": "Minimal",
   "interfaceFontFamily": "Helvetica Neue",
   "textFontFamily": "Helvetica Neue",
-  "monospaceFontFamily": "CommitMono Nerd Font Mono"
+  "monospaceFontFamily": "CommitMono Nerd Font Mono",
+  "accentColor": "#7f7f7f",
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "embed-filename",
+    "view-header"
+  ],
+  "showViewHeader": true
 }

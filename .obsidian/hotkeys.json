@@ -1,177 +1,4 @@
 {
-  "obsidian-fullscreen-plugin:fullscreen-focus": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "M"
-    }
-  ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "S"
-    }
-  ],
-  "editor:save-file": [],
-  "templater-obsidian:var/support/templates/page-breaks.css": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "P"
-    }
-  ],
-  "templater-obsidian:var/support/templates/page-break.template.md": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "P"
-    }
-  ],
-  "editor:delete-paragraph": [],
-  "file-explorer:new-file-in-new-pane": [],
-  "editor:toggle-checklist-status": [],
-  "editor:open-link-in-new-leaf": [],
-  "break-page:insert-break-page": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Enter"
-    }
-  ],
-  "obsidian-editor-shortcuts:insertLineBelow": [],
-  "command-palette:open": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": " "
-    }
-  ],
-  "obsidian-theme-toggler:theme-toggle-light": [
-    {
-      "modifiers": [],
-      "key": "F2"
-    }
-  ],
-  "app:open-help": [],
-  "app:toggle-right-sidebar": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "B"
-    }
-  ],
-  "workspaces:save-and-load": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Tab"
-    }
-  ],
-  "cycle-through-panes:cycle-through-panes": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "Tab"
-    }
-  ],
-  "cmdr:macro-0": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "S"
-    }
-  ],
-  "cmdr:macro-1": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "E"
-    }
-  ],
-  "obsidian-editor-shortcuts:selectLine": [],
-  "editor:insert-wikilink": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "L"
-    }
-  ],
-  "omnisearch:show-modal": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "S"
-    }
-  ],
-  "workspace:edit-file-title": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "R"
-    }
-  ],
-  "workspace:next-tab": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "Tab"
-    }
-  ],
-  "workspace:previous-tab": [
-    {
-      "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "Tab"
-    }
-  ],
-  "workspace:toggle-stacked-tabs": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "T"
-    }
-  ],
-  "editor:toggle-comments": [
-    {
-      "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "7"
-    },
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "7"
-    }
-  ],
-  "editing-toolbar:header0-text": [],
-  "editing-toolbar:fullscreen-focus": [],
-  "workspace:close-window": [],
   "editor:add-cursor-above": [
     {
       "modifiers": [
@@ -190,21 +17,79 @@
       "key": "ArrowDown"
     }
   ],
-  "editing-toolbar:underline": [
+  "editor:insert-wikilink": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "U"
+      "key": "L"
     }
   ],
-  "pdf-plus:rectangular-selection": [
+  "obsidian-editor-shortcuts:copyLineDown": [],
+  "obsidian-editor-shortcuts:copyLineUp": [],
+  "command-palette:open": [
     {
       "modifiers": [
-        "Alt",
         "Ctrl"
       ],
-      "key": "4"
+      "key": " "
+    }
+  ],
+  "cmdr:macro-1": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "cmdr:macro-0": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "break-page:insert-break-page": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "obsidian-editor-shortcuts:insertLineBelow": [],
+  "editor:open-link-in-new-leaf": [],
+  "editor:toggle-checklist-status": [],
+  "obsidian-editor-shortcuts:selectLine": [],
+  "editor:toggle-comments": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "7"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "editor:save-file": [],
+  "workspace:edit-file-title": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "R"
     }
   ],
   "markdown:toggle-preview": [
@@ -223,14 +108,24 @@
       "key": "E"
     }
   ],
-  "workspace:split-vertical": [
+  "app:toggle-right-sidebar": [
     {
       "modifiers": [
-        "Ctrl"
+        "Mod",
+        "Shift"
       ],
-      "key": "D"
+      "key": "B"
     }
   ],
+  "workspaces:save-and-load": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "templater-obsidian:jump-to-next-cursor-location": [],
   "obsidian-shellcommands:shell-command-apnw0a1zoz": [
     {
       "modifiers": [
@@ -239,6 +134,75 @@
         "Mod"
       ],
       "key": "Z"
+    }
+  ],
+  "pdf-plus:rectangular-selection": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "4"
+    }
+  ],
+  "obsidian-editor-shortcuts:insertLineAbove": [],
+  "editing-toolbar:underline": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "U"
+    }
+  ],
+  "editing-toolbar:fullscreen-focus": [],
+  "editing-toolbar:workplace-fullscreen-focus": [],
+  "editing-toolbar:header0-text": [],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "app:open-help": [],
+  "editor:open-link-in-new-window": [],
+  "templater-obsidian:create-new-note-from-template": [],
+  "templater-obsidian:insert-templater": [],
+  "templater-obsidian:replace-in-file-templater": [],
+  "workspace:split-horizontal": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "2"
+    }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
+  "obsidian-tasks-plugin:edit-task": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
     }
   ]
 }

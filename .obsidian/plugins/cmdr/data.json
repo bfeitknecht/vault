@@ -1,6 +1,6 @@
 {
   "confirmDeletion": false,
-  "showAddCommand": true,
+  "showAddCommand": false,
   "debug": false,
   "editorMenu": [],
   "fileMenu": [],
@@ -9,6 +9,12 @@
       "id": "workspace:export-pdf",
       "icon": "printer",
       "name": "Export to PDF",
+      "mode": "desktop"
+    },
+    {
+      "id": "open-with-default-app:open",
+      "icon": "eye",
+      "name": "Open in default app",
       "mode": "any"
     }
   ],
@@ -17,23 +23,9 @@
   "statusBar": [],
   "pageHeader": [
     {
-      "id": "pdf-plus:toggle-adapt-to-theme",
-      "icon": "view",
-      "name": "Toggle \"adapt to theme\"",
-      "mode": "desktop",
-      "color": "#888888"
-    },
-    {
-      "id": "workspace:split-horizontal",
-      "icon": "lucide-separator-horizontal",
-      "name": "Split down",
-      "mode": "desktop",
-      "color": "#888888"
-    },
-    {
-      "id": "workspace:split-vertical",
-      "icon": "lucide-separator-vertical",
-      "name": "Split right",
+      "id": "workspace:toggle-pin",
+      "icon": "lucide-pin",
+      "name": "Toggle pin",
       "mode": "desktop",
       "color": "#888888"
     },
@@ -41,13 +33,6 @@
       "id": "workspace:toggle-stacked-tabs",
       "icon": "lucide-layers",
       "name": "Toggle stacked tabs",
-      "mode": "desktop",
-      "color": "#888888"
-    },
-    {
-      "id": "workspace:toggle-pin",
-      "icon": "lucide-pin",
-      "name": "Toggle pin",
       "mode": "desktop",
       "color": "#888888"
     }
@@ -84,29 +69,7 @@
       "startup": false
     }
   ],
-  "explorer": [
-    {
-      "id": "open-with-default-app:show",
-      "icon": "folder-open",
-      "name": "Reveal in Finder",
-      "mode": "desktop",
-      "color": "#888888"
-    },
-    {
-      "id": "open-with-default-app:open",
-      "icon": "eye",
-      "name": "Open in default app",
-      "mode": "desktop",
-      "color": "#888888"
-    },
-    {
-      "id": "obsidian-shellcommands:shell-command-s558cixu8a",
-      "icon": "plus-circle",
-      "name": "Git add all changes",
-      "mode": "any",
-      "color": "#888888"
-    }
-  ],
+  "explorer": [],
   "hide": {
     "statusbar": [],
     "leftRibbon": []

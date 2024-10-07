@@ -21,5 +21,14 @@
   "obsidian-show-file-path",
   "obsidian-shellcommands",
   "code-styler",
-  "restore-tab-key"
+  "restore-tab-key",
+  "global-search-and-replace",
+  "list-style",
+  "omnisearch",
+  "obsidian-editor-shortcuts",
+  "break-page",
+  "obsidian-style-settings",
+  "obsidian-toggl-integration",
+  "obsidian-cursor-location-plugin",
+  "obsidian-git"
 ]

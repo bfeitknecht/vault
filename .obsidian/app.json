@@ -1,4 +1,11 @@
 {
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "trashOption": "local",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "wiki",
+  "attachmentFolderPath": "var/attachments",
+  "propertiesInDocument": "source",
+  "strictLineBreaks": true,
+  "showRibbon": true
 }

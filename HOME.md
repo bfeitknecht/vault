@@ -1,5 +1,4 @@
 
-
 > [!example]+ To Do
 > ```tasks
 > NOT DONE
@@ -24,18 +23,18 @@
 > HIDE EDIT BUTTON
 > ```
 
-
+___
 ```toggl
 SUMMARY PAST 10 DAYS
 
 TITLE "Past Week"
 ```
 ___
-
 ```toggl
 LIST TODAY
 TITLE "Today"
 ```
+
 %%
 ^^ doesn't seem to work
 INCLUDE PROJECTS "pv-a1", "pv-auw", "pv-ddca", "pv-pprog"
