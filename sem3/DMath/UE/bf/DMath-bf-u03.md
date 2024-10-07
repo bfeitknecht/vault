@@ -29,8 +29,8 @@ Let $S$ be the left hand side of the statement to prove, i.e. $n \mid m \ \text{
 Let $T$ be the right hand side, i.e. $n=1$. 
 Now we will assume $S$ to be true and $T$ to be false and show that it leads to a contradiction.
 
-For the sake of contradiction, let's assume that $S$ is false and $T$ is false, i.e. $\neg(n=1)$ 
 
 
+n divides two adjacent numbers 
 
 n divides m and n divides m plus one implies n is equal to one
