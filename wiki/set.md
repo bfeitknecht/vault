@@ -11,8 +11,9 @@ E(x,y) = \begin{cases}
 $$
 We write that x is element of y in [[infix notation]] as $x \in y$ for $E(x,y)=1$ and $x \not\in y$ for the case that x is not element of y, i.e. $E(x,y)=0$.
 
-A set is completely specified by its elements, regardless of how it is described. There is no other relevant information about a set than what its elements are. This implies that two sets that share all elements are the same set, $A \subseteq B \wedge B\subseteq A \iff A=B$.
 ![[dmath-script-hs24.pdf#page=54&rect=36,284,388,303|dmath-script-hs24, p.44]]
+A set is completely specified by its elements, regardless of how it is described. There is no other relevant information about a set than what its elements are. This implies that two sets that share all elements are the same set, which we can write using the [[subset]] relation $(A \subseteq B) \wedge (B \subseteq A) \iff A=B$.
+
 
 Sets are *unordered*, i.e. $\{a, b\} = \{b, a\}$. To denote an **ordered list**, we use pairing.
 $$
