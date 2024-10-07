@@ -6,19 +6,15 @@
         "type": "split",
         "children": [
           {
-            "id": "8eee30e350e862b5",
+            "id": "9af22a4303e58b81",
             "type": "tabs",
             "children": [
               {
-                "id": "d09ae2a9c3fbc856",
+                "id": "fb7190990ea8a582",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "regen.md",
-                    "mode": "source",
-                    "source": false
-                  }
+                  "type": "empty",
+                  "state": {}
                 }
               }
             ]
@@ -66,12 +62,21 @@
                   "type": "bookmarks",
                   "state": {}
                 }
+              },
+              {
+                "id": "73b078a558950ed7",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {}
+                }
               }
             ]
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "right": {
         "id": "9b1edfcc52ee9d52",
@@ -87,7 +92,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "regen.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -104,19 +108,8 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "regen.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "73b078a558950ed7",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "regen.md"
                   }
                 }
               },
@@ -127,32 +120,50 @@
                   "type": "toggl-report",
                   "state": {}
                 }
+              },
+              {
+                "id": "f2198c9a695665bf",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "a0cb524ab973e20b",
+                "type": "leaf",
+                "state": {
+                  "type": "vertical-tabs-view",
+                  "state": {}
+                }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "horizontal",
-        "width": 300
+        "width": 300,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
-          "switcher:Open quick switcher": false,
+          "switcher:Open quick switcher": true,
+          "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
           "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "workspaces:Manage workspace layouts": false,
-          "cmdr:Export to PDF": false,
+          "command-palette:Open command palette": true,
           "cmdr:Open in default app": false,
-          "pdf-plus:PDF++: Toggle auto-copy": false,
-          "pdf-plus:PDF++: Toggle auto-focus": false,
-          "pdf-plus:PDF++: Toggle auto-paste": false,
-          "obsidian-shellcommands:Shell commands: Custom variables": false,
-          "omnisearch:Omnisearch": false,
-          "obsidian-git:Open Git source control": false
+          "cmdr:Export to PDF": false,
+          "workspaces:Manage workspace layouts": false,
+          "pdf-plus:PDF++: Toggle auto-copy": true,
+          "pdf-plus:PDF++: Toggle auto-focus": true,
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "obsidian-shellcommands:Shell commands: Custom variables": true,
+          "obsidian-git:Open Git source control": true
         }
       },
-      "active": "d09ae2a9c3fbc856",
-      "mtime": "2024-10-07T13:59:34+02:00"
+      "active": "fb7190990ea8a582",
+      "mtime": "2024-10-07T14:02:55+02:00"
     },
     "00-home": {
       "main": {
@@ -1556,5 +1567,5 @@
       "mtime": "2024-10-07T13:59:20+02:00"
     }
   },
-  "active": "00-clean"
+  "active": "00-home"
 }
