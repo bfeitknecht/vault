@@ -1,36 +1,6 @@
 
-problem: $\vdash_{M}^*$ looks kinda bad!
-solution:
 
-
-___
-
-`(q, w) \mathrel{\huge{\vdash}}_{M}^* (q, \lambda)` 
-$(q, w) \mathrel{\huge{\vdash}}_{M}^* (q, \lambda)$
-
-
-
-```latex
-\newcommand{\step}[1]{\mathrel{ \\
-{\Large \vdash}_{\kern -1em \smash{\raise .19em \tiny{#1}}}
-}}
-\newcommand{\steps}[1]{\mathrel{ \\
-\step{#1}^{\kern -.88em {\tiny *}}
-}}
-```
-
-$$
-\begin{align}
-a \step{M} b \\ a \steps{M} b
-\end{align}
-$$
-
-
-
-
-
-
-old preamble:
+old mathjax preamble:
 ```latex
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\N}{\mathbb N}
@@ -45,6 +15,3 @@ old preamble:
 \newcommand{\E}{\mathbb E}
 \newcommand{\nimpl}{\kern.6em\not\kern -.6em \implies}
 ```
-
-
-
