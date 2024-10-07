@@ -2,12 +2,20 @@
 
 A **set** $S$ is a *collection of distinct [[element|elements]]*. Examples include the set of [[natural numbers]] $\mathbb N$ or, some [[alphabet]] $\Sigma$ of [[symbols]]. Importantly, the elements of a set can be arbitrarily chosen from some *universe* $U$.
 
-We define the *cardinality* of some set as the number of elements it contains, which we denote $|S$
+A set is completely specified by its elements, regardless of how it is described. There is no other relevant information about a set than what its elements are. This implies that two sets that share all elements are the same set, $\forall x(x\in A \leftrightarrow x \in B) \iff A \subseteq B \wedge B\subseteq A \iff A=B$.
+
+![[dmath-script-hs24.pdf#page=54&rect=36,284,388,303|dmath-script-hs24, p.44]]
+
+We define the *cardinality* of some set as the number of elements it contains, which we denote $|S|$.
 
 
 
+
+[[power set]] 
 
 [[russell's paradox]]
+
+
 
 A ~ B def.: es gibt eine bijektion von A $\rightarrow$ B und B $\rightarrow$ A 
 
