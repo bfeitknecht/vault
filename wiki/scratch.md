@@ -1,31 +1,36 @@
 
-problem:looks bad!
-
-$$
-\begin{align}
-(q, w) \mathrel{\huge{\vdash}}_{M}^* (q, \lambda) \\
-\\ \\
-\newcommand{\step}{\mathrel{{\Large \vdash}}} \\
-A \step_{M}^{*} B \\
-\end{align}
-$$
+problem: $\vdash_{M}^*$ looks bad!
+solution:
 
 
-
+___
 
 
 $$
 \begin{align}
-\newcommand{\step}[2]{\mathrel{
+\newcommand{\b}[2]{\mathrel{
 \overset
     {\kern 0.2em \smash{\raise -0.7em {\tiny #2}}}
     {\underset
         {\kern 0.2em \smash{\raise 0.83em {\tiny #1}}}
         {\Large \vdash}}
 }} \\
-(q, w) \step{M}{*} (q, \lambda) \\
+(q, w) \b{M}{*} (q, \lambda) \\
 \end{align}
 $$
+
+$$
+\begin{align}
+(q, w) \mathrel{\huge{\vdash}}_{M}^* (q, \lambda) \\
+\\ \\
+
+\end{align}
+$$
+
+
+
+
+
 
 
 $$
@@ -41,7 +46,7 @@ $$
 
 ```latex
 \newcommand{\step}[1]{\mathrel{ \\
-{\Large \vdash}_{\kern -1em \smash{\raise .33em \tiny{#1}}}
+{\Large \vdash}_{\kern -1em \smash{\raise .19em \tiny{#1}}}
 }}
 \newcommand{\steps}[1]{\mathrel{ \\
 \step{#1}^{\kern -.88em {\tiny *}}
@@ -51,7 +56,7 @@ $$
 $$
 \begin{align}
 \newcommand{\step}[1]{\mathrel{ \\
-{\Large \vdash}_{\kern -1em \smash{\raise .33em \tiny{#1}}}
+{\Large \vdash}_{\kern -1em \smash{\raise .19em \tiny{#1}}}
 }}
 \newcommand{\steps}[1]{\mathrel{ \\
 \step{#1}^{\kern -.88em {\tiny *}}
