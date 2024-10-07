@@ -26,9 +26,10 @@ $$
 
 
 Let $S$ be the left hand side of the statement to prove, i.e. $n \mid m \ \text{and} \ n \mid (m+1)$.
-Let $T$ be the right hand side, i.e. $n=1$.
+Let $T$ be the right hand side, i.e. $n=1$. 
+Now we will assume $S$ to be true and $T$ to be false and show that it leads to a contradiction.
 
-For the sake of contradiction, let's assume that $S$ is true and $T$ is false, i.e. $\neg(n=1)$ 
+For the sake of contradiction, let's assume that $S$ is false and $T$ is false, i.e. $\neg(n=1)$ 
 
 
 
