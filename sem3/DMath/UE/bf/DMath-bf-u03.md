@@ -19,3 +19,5 @@
 ![[DMath-e-u03.pdf#page=3&rect=77,576,525,687|DMath-e-u03, p.3]]
 
 
+For the sake o
+
