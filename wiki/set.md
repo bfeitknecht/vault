@@ -19,28 +19,17 @@ $$
 (a, b) \overset{\text{def.}}= \{ \{a\}, \{a, b\}\}
 $$
 
-The **union** and **intersection** of two sets $A, B$ are defined as all elements that are in $A$ *or* $B$ and all elements that are in $A$ *and* $B$.
-$$
-\begin{align}
-A \cup B &\overset{\text{def.}}{=} \{ x \mid x \in A \vee x \in B\} \\
-A \cap B &\overset{\text{def.}}{=} \{ x \mid x \in A \wedge x \in B\}
-\end{align}
-$$
-We can extend this definition from two to an arbitrary collection of sets. Let $\mathcal A$ be a non-empty set of sets, each with finite or infinite cardinality. Then we define the union of all sets in $\mathcal A$ as the set of all $x$ that are an element of at least one of the sets in $\mathcal A$.
-$$
-\bigcup \mathcal A \overset{\text{def.}}{=} \{x \mid \exists A \in \mathcal A, x \in A\}
-$$
-Similarly, we define the intersection of all sets in $\mathcal A$.
-$$
-\bigcap \mathcal A \overset{\text{def.}}{=} \{ x \mid \exists A \in \mathcal A, x \in A\}
-$$
+# Union
+![[union (set)]]
 
-The difference of two sets, denoted with $B \setminus A$ or $B -A$ is the collection of elements in $B$ that are not in $A$.
-$$
-B \setminus A \overset{\text{def.}}{=} \{x \in B \mid x \not\in A\}
-$$
+# Intersection
+![[intersection (set)]]
+
+# Difference
+![[difference (set)]]
 
 ![[empty set]]
+
 
 The **power set** of some set $A$ is the set of all subsets of $A$, which we denote by $\mathcal P(A) \overset{\text{def.}}{=} \{S \mid S \subseteq A\}$.
 
