@@ -14,7 +14,7 @@ We write that x is element of y in [[infix notation]] as $x \in y$ for $E(x,y)=1
 ![[dmath-script-hs24.pdf#page=54&rect=36,284,388,303|dmath-script-hs24, p.44]]
 A set is completely specified by its elements, regardless of how it is described. There is no other relevant information about a set than what its elements are. This implies that two sets that share all elements are the same set, which we can write using the [[transitive]] [[subset]] relation $(A \subseteq B) \wedge (B \subseteq A) \iff A=B$.
 
-Sets are *unordered*, i.e. $\{a, b\} = \{b, a\}$. To denote an **ordered list**, we use pairing.
+Sets are *unordered*, i.e. $\{a, b\} = \{b, a\}$. To denote an *ordered list*, we use pairing.
 $$
 (a, b) \overset{\text{def.}}= \{ \{a\}, \{a, b\}\}
 $$
@@ -35,7 +35,12 @@ $$
 \bigcap \mathcal A \overset{\text{def.}}{=} \{ x \mid \exists A \in \mathcal A, x \in A\}
 $$
 
-The difference of two sets, denoted with $B \setminus A$ or $B -A$is the collection of elements in $B$ that are not in $A$.
+The difference of two sets, denoted with $B \setminus A$ or $B -A$ is the collection of elements in $B$ that are not in $A$.
+$$
+B \setminus A \overset{\text{def.}}{=} \{x \in B \mid x \not\in A\}
+$$
+
+The **empty set** $\varnothing$ is the set with no elements, $\forall x \neg (x \in \varnothing)$. There is only one empty set and it is subset of every non-empty set, i.e. $\forall A(\varnothing \subseteq A)$.
 
 
 
