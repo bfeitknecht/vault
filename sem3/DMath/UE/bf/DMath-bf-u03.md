@@ -1,13 +1,15 @@
 
 # 3.2
 ![[DMath-e-u03.pdf#page=1&rect=76,280,521,364|DMath-e-u03, p.1]]
-
+For the sake of brevity, let $p$ denote an arbitrary prime number, i.e. $\forall p, \texttt{prime}(p)=1$.
 ## i)
 ![[DMath-e-u03.pdf#page=1&rect=106,253,522,270|DMath-e-u03, p.1]]
 
 ## ii)
 ![[DMath-e-u03.pdf#page=1&rect=106,231,523,248|DMath-e-u03, p.1]]
-
+$$
+\forall p((1 \mid p) \wedge p \mid p)
+$$
 ## iii)
 ![[DMath-e-u03.pdf#page=1&rect=107,208,523,225|DMath-e-u03, p.1]]
 $$
@@ -19,7 +21,7 @@ $$
 ## iv)
 ![[DMath-e-u03.pdf#page=1&rect=107,172,524,204|DMath-e-u03, p.1]]
 $$
-\forall n, m(\texttt{prime}(x) \mid n\cdot m ↔ \texttt{prime}(x) \mid n \vee \texttt{prime}(x) \mid m)
+\forall n, m((p \mid n\cdot m) ↔ (p \mid n \vee p \mid m))
 $$
 
 # 3.8
