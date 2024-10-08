@@ -23,7 +23,14 @@ Dennis Küenzi, 21-559-315
 $aa^y b^x bb^z$
 
 
-Let $M = \{ Q, \Sigma, \delta_{M}, q_{0}, F \}$ be a finite state machine, where  $Q=\{ q_{0}, q_{1}, q_{2}, q_{3}, q_{4}  \}$ denotes the set of states, $\Sigma=\{ a, b \}$ is the input alphabet, $q_{0}$ is the initial state, $\delta_{M}$ is the transition function between states and $F=\{ q_{0}, q_{3} \}$ is the set of accepted states. The language accepted by $M$ can be defined as $L(M) = \{ w = y^ix^jz^k \mid i, j, k \in \mathbb N  \}$, where $y=aa$, $x=b$ and $z=bb$.
+Let $M = \{ Q, \Sigma, \delta_{M}, q_{0}, F \}$ be a finite state machine, where  $Q=\{ q_{0}, q_{1}, q_{2}, q_{3}, q_{4}  \}$ denotes the set of states, $\Sigma=\{ a, b \}$ is the input alphabet, $q_{0}$ is the initial state, $\delta_{M}$ is the transition function between states and $F=\{ q_{0}, q_{3} \}$ is the set of accepted states. The language accepted by $M$ can be defined as $L(M) = \{ w = y^ix^j \mid i, j \in \mathbb N  \}$, where $y=aa$ and $x=bb$.
+
+We can further define the equivalence classes of the states.
+$$
+\begin{align}
+\mathrm{Kl}[]
+\end{align}
+$$
 
 
 
