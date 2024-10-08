@@ -898,9 +898,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/EProg/VRL/extra/slides/EProg-slides-w04.pdf",
-                    "page": 23,
+                    "page": 22,
                     "left": -22,
-                    "top": 409,
+                    "top": 7,
                     "zoom": 0.7229166666666667
                   }
                 }
@@ -1055,7 +1055,7 @@
         }
       },
       "active": "25e5d66ffc741f13",
-      "mtime": "2024-10-08T11:26:37+02:00"
+      "mtime": "2024-10-08T12:33:06+02:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1589,5 +1589,5 @@
       "mtime": "2024-10-08T11:37:43+02:00"
     }
   },
-  "active": "sem3-eprog"
+  "active": "sem3-ti"
 }
