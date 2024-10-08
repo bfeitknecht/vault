@@ -22,13 +22,20 @@ Dennis Küenzi, 21-559-315
 ```mermaid
 flowchart LR
 
+classDef hidden display: none;
+
+S:::hidden
 id0((q0))
 id1(((q1)))
 
 %%%%%%%%
 
-id0 -->|"a"| id1 -->|"a"| id0
-id0 -->|"b"| id1 -->|"b"| id0
+S --> id0
+id0 -->|"a"| id1
+id0 -->|"b"| id1
+
+id1 -->|"a"| id0
+id1 -->|"b"| id0
 ```
 
 
