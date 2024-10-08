@@ -642,6 +642,20 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "33b37e2e9d14e0ee",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "var/other/LATEX.pdf",
+                    "page": 1,
+                    "left": -17,
+                    "top": 170,
+                    "zoom": 0.9021025541093545
+                  }
+                }
               }
             ],
             "currentTab": 3
@@ -657,10 +671,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 60,
-                    "left": -12,
-                    "top": 185,
-                    "zoom": 1.2800099159054938
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -671,10 +683,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/UE/e/DMath-e-u03.pdf",
-                    "page": 3,
-                    "left": -4,
-                    "top": 730,
-                    "zoom": 0.97
+                    "page": 2,
+                    "left": -17,
+                    "top": 770,
+                    "zoom": 0.9021025541093545
                   }
                 }
               }
@@ -731,7 +743,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/DMath/UE/e/DMath-e-u03.pdf"
+                    "file": "sem3/DMath/UE/bf/DMath-bf-u03.md"
                   }
                 }
               }
@@ -756,7 +768,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/DMath/UE/e/DMath-e-u03.pdf",
+                    "file": "sem3/DMath/UE/bf/DMath-bf-u03.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -773,7 +785,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/DMath/UE/e/DMath-e-u03.pdf",
+                    "file": "sem3/DMath/UE/bf/DMath-bf-u03.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -828,8 +840,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "95a7ba5b7ca2650c",
-      "mtime": "2024-10-07T22:10:52+02:00"
+      "active": "89339d0368cec8a6",
+      "mtime": "2024-10-08T08:45:31+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1569,5 +1581,5 @@
       "mtime": "2024-10-07T13:59:20+02:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-ti"
 }
