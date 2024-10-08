@@ -24,6 +24,6 @@ aa bbb
 
 $$
 \begin{align}
-L(M) = \{ \}
+L(M) = \{  \} 
 \end{align}
 $$

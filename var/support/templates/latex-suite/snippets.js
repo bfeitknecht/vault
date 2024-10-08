@@ -182,7 +182,7 @@ Insert tabstops for the cursor to jump to by writing "$0", "$1", etc. in the rep
     {trigger: "eset", replacement: "\\varnothing", options: "mA"},
     
     /* set is used too often in text */
-    //{trigger: "set", replacement: "\\{ $0 \\}$1", options: "mA"},
+    {trigger: "set", replacement: "\\{ $0 \\}$1", options: "mA"},
     
     {trigger: "e\\xi sts", replacement: "\\exists", options: "mA", priority: 1},
 
@@ -246,6 +246,7 @@ Insert tabstops for the cursor to jump to by writing "$0", "$1", etc. in the rep
     {trigger: "U", replacement: "\\underbrace{ ${VISUAL} }_{ $0 }", options: "mA"},
     {trigger: "O", replacement: "\\overbrace{ ${VISUAL} }^{ $0 }", options: "mA"},
     {trigger: "B", replacement: "\\underset{ $0 }{ ${VISUAL} }", options: "mA"},
+    {trigger: "A", replacement: "\\overset{ $0 }{ ${VISUAL} }", options: "mA"},
     {trigger: "C", replacement: "\\cancel{ ${VISUAL} }", options: "mA"},
     {trigger: "K", replacement: "\\cancelto{ $0 }{ ${VISUAL} }", options: "mA"},
     {trigger: "S", replacement: "\\sqrt{ ${VISUAL} }", options: "mA"},
