@@ -30,7 +30,7 @@ $$
 ![[DMath-e-u03.pdf#page=3&rect=77,576,525,687|DMath-e-u03, p.3]]
 
 
-Let $S$ be the left hand side of the statement, $n \mid m \ \text{and} \ n \mid (m+1)$ and let $T$ be the right hand side, $n=1$. 
+Let $S$ be the left hand side of the statement, written as a formula in predicate logic $S \overset{ \text{def.} }{ \iff } n \mid m \wedge n \mid (m+1)$ and let $T$ be the right hand side, $n=1$. 
 Let $U$ be the statement to prove, $S \implies T$. From the script we know that $U$, which we defined as $S \implies T$ is false if and only if $S$ is true and $T$ is false.
 
 For the sake of contradiction, let us assume that's the case, i.e. $S$ is true and $T$ is false.
