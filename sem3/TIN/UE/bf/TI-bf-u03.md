@@ -21,7 +21,9 @@ Dennis Küenzi, 21-559-315
 
 ## (b)
 
-Informally, this language $L_{2}$ describes all words that contain a different parity amount of $a$ and $b$. This implies that all words in $L_{2}$ have odd length, since the sum of an even and odd number is itself odd. Formally, we define a FSM $M_{2} = \{ Q, \Sigma, \delta_{M_{2}}, q_{0}, F \}$, where $Q=\{ q_{0}, q_{1} \}$, $\Sigma=\{ a, b \}$ and $F=\{ q_{0} \}$. The transition function is defines for some $(p, x) \in Q \times \Sigma$.
+Informally, this language $L_{2}$ describes all words that contain a different parity amount of $a$ and $b$. This implies that all words in $L_{2}$ have odd length, since the sum of an even and odd number is itself odd.
+
+Formally, we define a FSM $M_{2} = \{ Q, \Sigma, \delta_{M_{2}}, q_{0}, F \}$, where $Q=\{ q_{0}, q_{1} \}$, $\Sigma=\{ a, b \}$ and $F=\{ q_{0} \}$. The transition function is defines for some $(p, x) \in Q \times \Sigma$.
 $$
 \delta_{M_{2}}(p, x) = \begin{cases}
 q_{0}, &\text{if $p=q_{1}$} \\
@@ -49,12 +51,14 @@ id1 -->|"a"| id0
 id1 -->|"b"| id0
 ```
 
-The equivalence classes of $M_{2}$ are
+The equivalence classes of $M_{2}$ are all words with different parities of $a$ and $b$ and equal parities of $a$ and $b$, respectively.
 $$
 \begin{align}
-\mathrm{Kl}[q_{0}] = \{  \}
+\mathrm{Kl}[q_{0}] &= \{ w \in \Sigma^* \mid |w|_{a} \not\equiv_{2} |w|_{b} \} \\
+\mathrm{Kl}[q_{1}] &= \{ w \in \Sigma^* \mid |w|_{a} \equiv_{2} |w|_{b}  \}
 \end{align}
 $$
+
 
 # 9
 ![[TI-e-u03.pdf#page=1&rect=68,127,533,349|TI-e-u03, p.1]]
