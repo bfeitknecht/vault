@@ -219,6 +219,14 @@
                   "type": "graph",
                   "state": {}
                 }
+              },
+              {
+                "id": "5ef6da2522f7d7ad",
+                "type": "leaf",
+                "state": {
+                  "type": "custom-frames-calendar",
+                  "state": {}
+                }
               }
             ]
           }
@@ -271,9 +279,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
+                  "state": {}
                 }
               }
             ]
@@ -297,7 +303,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -314,7 +319,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -369,8 +373,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "4a586b919d13321c",
-      "mtime": "2024-10-07T14:07:47+02:00"
+      "active": "a0612fa75848bec0",
+      "mtime": "2024-10-08T16:27:52+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1565,5 +1569,5 @@
       "mtime": "2024-10-08T16:18:55+02:00"
     }
   },
-  "active": "00-home"
+  "active": "sem3-dmath"
 }
