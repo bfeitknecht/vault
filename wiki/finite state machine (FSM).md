@@ -28,7 +28,21 @@ The class of all languages accepted by finite state machines is denoted by $\mat
 
 
 
-The [[equivalence class|equivalence cla]]
+
+
+___
+#todo 
+
+
+The [[equivalence class|equivalence classes]] of the "step before" relation on two different steps
 ![[hromkovic-TIN.pdf#page=70&rect=139,458,340,615|hromkovic-TIN, p.55|200]]
 
 ![[hromkovic-TIN.pdf#page=70&rect=45,176,434,361|hromkovic-TIN, p.55]]
+
+
+# Simulation
+[[simulation]]
+
+
+
+ch.3.4
