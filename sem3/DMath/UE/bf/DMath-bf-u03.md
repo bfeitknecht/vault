@@ -24,11 +24,10 @@ $$
 ![[DMath-e-u03.pdf#page=3&rect=77,576,525,687|DMath-e-u03, p.3]]
 
 
-Let $S$ be the left hand side of the statement, $n \mid m \ \text{and} \ n \mid (m+1)$.
-Let $T$ be the right hand side, $n=1$. 
-Let $W$ be the statement to prove, $S \implies T$. From the script we know that $W$, which we defined as $S \implies T$ is false if and only if $S$ is true and $T$ is false.
+Let $S$ be the left hand side of the statement, $n \mid m \ \text{and} \ n \mid (m+1)$ and let $T$ be the right hand side, $n=1$. 
+Let $U$ be the statement to prove, $S \implies T$. From the script we know that $U$, which we defined as $S \implies T$ is false if and only if $S$ is true and $T$ is false.
 
-Now we will assume $S$ to be true and $T$ to be false and show that it leads to a contradiction.
+Now we will assume $U$ to be false, i.e. $S$ to be true and $T$ to be false and show that it leads to a contradiction.
 
 
 

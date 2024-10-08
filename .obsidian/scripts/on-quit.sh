@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# on-quit &> /Users/bf/home/eth/vault/.obsidian/logs/on-quit-log.txt
+on-quit &> /Users/bf/home/eth/vault/.obsidian/logs/on-quit-log.txt
 
 on-quit () {
   # save workspace
