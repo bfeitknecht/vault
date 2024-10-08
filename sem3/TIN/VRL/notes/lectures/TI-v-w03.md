@@ -3,4 +3,4 @@
 - [[finite state machine (FSM)]]
 
 
-currently in book on page 53
+**Points:** 24/30

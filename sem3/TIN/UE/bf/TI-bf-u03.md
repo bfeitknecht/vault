@@ -20,6 +20,7 @@ Dennis Küenzi, 21-559-315
 
 ## (a)
 
+The graph representation 
 
 ## (b)
 
