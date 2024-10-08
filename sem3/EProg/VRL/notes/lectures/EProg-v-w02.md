@@ -5,4 +5,4 @@
 
 # Slides
 
-![[EProg-slides-w02.pdf]]
+[[EProg-slides-w02.pdf]]
