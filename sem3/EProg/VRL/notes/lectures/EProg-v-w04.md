@@ -22,3 +22,16 @@
 `s.charAt(i)` returns `char` symbol at index `i` (zero indexed)
 
 
+**Variable Binding through Assignment Operators**
+- variable: `=` 
+- addition: `+=`
+- subtraction: `-=`
+- multiplication: `*=`
+- division: `/=`
+- modulo: `%=`
+- bitwise and: `&=`
+- bitwise or: `|=`
+- bitwise xor: `^=`
+- logical right shift: `>>=`
+- logical left shift: `<<=`
+
