@@ -3,4 +3,4 @@
 - [[finite state machine (FSM)]]
 
 
-**Points:** 24/30
+**24/30 pts.**

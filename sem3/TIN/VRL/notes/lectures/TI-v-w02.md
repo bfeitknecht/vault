@@ -7,7 +7,7 @@
 - [[random]]
 
 
-**Points:** 11/30
+**11/30 pts.**
 
 
 # Notes
