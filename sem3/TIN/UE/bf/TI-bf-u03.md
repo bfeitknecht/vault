@@ -79,9 +79,10 @@ $$
 \mathrm{Kl}[q_{1}] &= \{ a^n \mid n \in \mathbb N, n \equiv_{2}1 \} \\
 \mathrm{Kl}[q_{2}] &= \{ (aa)^nb^m \mid n, m \in \mathbb N , m\equiv_{2}1\} \\
 \mathrm{Kl}[q_{3}] &= \{ (aa)^n(bb)^m \mid n,m \in \mathbb N, m\geq1 \} \\
-\mathrm{Kl}[q_{4}] &= \Sigma^* \setminus \bigcup_{i \in [4]} \mathrm{Kl}[p]
+\mathrm{Kl}[q_{4}] &= \Sigma^* \setminus \bigcup_{i=0}^3 \mathrm{Kl}[q_{i}]
 \end{align}
 $$
+
 
 
 
