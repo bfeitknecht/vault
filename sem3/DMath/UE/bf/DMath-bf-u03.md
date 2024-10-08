@@ -37,7 +37,7 @@ For the sake of contradiction, let us assume that's the case, i.e. $S$ is true a
 $$
 \begin{align}
 S &\overset{ \text{def.} }{ \iff } \exists m \big(n \mid m \wedge n \mid (m+1)\big) &\text{(definition of $\texttt{divides}$)}\\
-&\overset{ \cdot }{ \iff } \exists m, k,l( k\cdot n=m \wedge l\cdot n=m+1)
+&\overset{ \cdot }{ \iff } \exists m \exists k \exists l( k\cdot n=m \wedge l\cdot n=m+1)
 \end{align}
 $$
 
