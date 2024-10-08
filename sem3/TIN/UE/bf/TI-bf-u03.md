@@ -8,6 +8,8 @@ Dennis Küenzi, 21-559-315
 
 
 ![[hromkovic-TIN.pdf#page=54&rect=41,302,434,330|hromkovic-TIN, p.39]]
+
+
 ![[hromkovic-TIN.pdf#page=56&rect=42,453,432,504|hromkovic-TIN, p.41]]
 
 
@@ -76,7 +78,7 @@ $$
 \mathrm{Kl}[q_{1}] &= \{ a^n \mid n \in \mathbb N, n \equiv_{2}1 \} \\
 \mathrm{Kl}[q_{2}] &= \{ (aa)^nb^m \mid n, m \in \mathbb N , m\equiv_{2}1\} \\
 \mathrm{Kl}[q_{3}] &= \{ (aa)^n(bb)^m \mid n,m \in \mathbb N \} \\
-\mathrm{Kl}[q_{4}] &= \{  \mid n \in \mathbb N \} \\
+\mathrm{Kl}[q_{4}] &= \{ ? \} \\
 \end{align}
 $$
 
