@@ -76,9 +76,12 @@ $$
 \mathrm{Kl}[q_{1}] &= \{ a^n \mid n \in \mathbb N, n \equiv_{2}1 \} \\
 \mathrm{Kl}[q_{2}] &= \{ (aa)^nb^m \mid n, m \in \mathbb N , m\equiv_{2}1\} \\
 \mathrm{Kl}[q_{3}] &= \{ (aa)^n(bb)^m \mid n,m \in \mathbb N \} \\
-\mathrm{Kl}[q_{4}] &= \{ (aa)^n \mid n \in \mathbb N \} \\
+\mathrm{Kl}[q_{4}] &= \{  \mid n \in \mathbb N \} \\
 \end{align}
 $$
+
+
+
 
 
 
