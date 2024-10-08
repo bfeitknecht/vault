@@ -7,17 +7,17 @@ A ([[deterministic]]) **finite state machine** (FSM) is a [[tuple|quintuple]] $M
 4. $q_{0}\in Q$ is the *initial state*
 5. $F\subseteq Q$ is the set of *accepted states*
 
-A *configuration* of $M$ is a [[tuple]] of *state* $q$ and input word $w$ in the cartesian product of all possible states and all possible input words $(q, w) \in Q\times\Sigma^*$ and denotes that $M$ exists in the *state* $(q, w) \in Q \times \Sigma^*$ but has yet to read the [[substring|suffix]] $w$ of the input [[word]].
+A *configuration* of $M$ is a [[tuple]] of *state* $q$ and *input word* $w$ in the cartesian product of all possible states and all possible input words, i.e. $(q, w) \in Q\times\Sigma^*$. It denotes that $M$ exists in state $q$ and will read the [[substring|suffix]] of the input [[word]] $w$.
 
 A configuration $(q_{0}, x)\in \{q_{0}\} \times\Sigma^*$ is called *initial configuration* of $M$ on $x$.
 Every configuration in $Q\times \{\lambda \}$ is called an *end configuration*.
 
-A *step* of $M$ is a [[relation]] on configurations, $\vdash_{M} \subseteq (Q\times\Sigma^*)\times(Q\times\Sigma^*)$, defined by
-$(q, w) \vdash_{M} (p, x) \iff w=ax, a \in \Sigma$, where $\delta(q, a) = p$. A step corresponds to evaluating the transition function on the current configuration of $M$ (meaning it's in state $q$ and reads the input symbol $a$), resulting in a transition to state $p$.
+A *step* of $M$ is a [[relation]] on configurations, $\step{M} \subseteq (Q\times\Sigma^*)\times(Q\times\Sigma^*)$, defined by
+$(q, w) \step{M} (p, x) \iff w=ax, a \in \Sigma$, where $\delta(q, a) = p$. A step corresponds to evaluating the transition function on the current configuration of $M$ (meaning it's in state $q$ and reads the input symbol $a$), resulting in a transition to state $p$.
 
-A *computation* $C$ of $M$ is a finite [[sequence]] of steps $C=(C_{i})_{i=0}^n$ of configurations, where $C_{i}\vdash_{M}C_{i+1},\forall i\in[n-1]$.
+A *computation* $C$ of $M$ is a finite [[sequence]] of steps $C=(C_{i})_{i=0}^n$ of configurations, where $C_{i}\step{M}C_{i+1},\forall i\in[n-1]$.
 We call $C$ a computation of $M$ *on the input* $x\in\Sigma^*$ if $C_{0}=(q_{0},x)$ and $Q_{n}\in Q \times \{\lambda\}$ is an end configuration.
-If $C_{n}\in F\times\{\lambda\}$ we say that $C$ is an *accepting computation* of $M$ on $x$ and that $M$ *accepts*the word $x$. In the case that $C_{n}\in (Q-F) \times\{\lambda\}$ we say that $C$ is a *rejecting* computation of $M$ on $x$ and that $M$ *rejects* (doesn't accept) the word $x$.
+If $C_{n}\in F\times\{\lambda\}$ we say that $C$ is an *accepting computation* of $M$ on $x$ and that $M$ *accepts* the word $x$. In the case that $C_{n}\in (Q-F) \times\{\lambda\}$ we say that $C$ is a *rejecting* computation of $M$ on $x$ and that $M$ *rejects* (doesn't accept) the word $x$.
 
 It's noted that $M$ has exactly one computation for every input $x\in\Sigma^*$.
 
@@ -32,6 +32,15 @@ The class of all languages accepted by finite state machines is denoted by $\mat
 
 ___
 #todo 
+
+
+reflexive and transitive closure of step relation on M
+![[hromkovic-TIN.pdf#page=69&rect=39,178,435,368|hromkovic-TIN, p.54]]
+
+
+
+
+
 
 
 The [[equivalence class|equivalence classes]] of the "step before" relation on two different steps
