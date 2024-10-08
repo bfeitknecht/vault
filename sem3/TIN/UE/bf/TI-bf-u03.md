@@ -20,18 +20,15 @@ Dennis Küenzi, 21-559-315
 ![[TI-e-u03.pdf#page=1&rect=68,127,533,349|TI-e-u03, p.1]]
 
 
-$aa^y b^x bb^z$
-
-
-Let $M = \{ Q, \Sigma, \delta_{M}, q_{0}, F \}$ be a finite state machine, where  $Q=\{ q_{0}, q_{1}, q_{2}, q_{3}, q_{4}  \}$ denotes the set of states, $\Sigma=\{ a, b \}$ is the input alphabet, $q_{0}$ is the initial state, $\delta_{M}$ is the transition function between states and $F=\{ q_{0}, q_{3} \}$ is the set of accepted states. The language accepted by $M$ can be defined as $L(M) = \{ w = y^ix^j \mid i, j \in \mathbb N  \}$, where $y=aa$ and $x=bb$.
+Let $M = \{ Q, \Sigma, \delta_{M}, q_{0}, F \}$ be a finite state machine, where  $Q=\{ q_{0}, q_{1}, q_{2}, q_{3}, q_{4}  \}$ denotes the set of states, $\Sigma=\{ a, b \}$ is the input alphabet, $q_{0}$ is the initial state, $\delta_{M}$ is the transition function between states and $F=\{ q_{0}, q_{3} \}$ is the set of accepted states. The language accepted by $M$ can be defined as $L(M) = \{ (aa)^n(bb)^m \mid n,m \in \mathbb N  \}$.
 
 We can further define the equivalence classes of the states.
 $$
 \begin{align}
 \mathrm{Kl}[q_{0}] &= \{ (aa)^n \mid n \in \mathbb N \} \\
 \mathrm{Kl}[q_{1}] &= \{ a^n \mid n \in \mathbb N, n \equiv_{2}1 \} \\
-\mathrm{Kl}[q_{2}] &= \{ (aa)^n \mid n \in \mathbb N \} \\
-\mathrm{Kl}[q_{3}] &= \{ (aa)^n \mid n \in \mathbb N \} \\
+\mathrm{Kl}[q_{2}] &= \{ (aa)^nb^m \mid n, m \in \mathbb N , m\equiv_{2}1\} \\
+\mathrm{Kl}[q_{3}] &= \{ (aa)^n(bb)^m \mid n,m \in \mathbb N \} \\
 \mathrm{Kl}[q_{4}] &= \{ (aa)^n \mid n \in \mathbb N \} \\
 \end{align}
 $$
