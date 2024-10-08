@@ -21,6 +21,15 @@ Dennis Küenzi, 21-559-315
 ## (a)
 
 The graph representation of $M_{1}$ is
+```mermaid
+flowchart LR
+
+classDef hidden display: none;
+
+S:::hidden
+q0((q0))
+
+```
 
 ## (b)
 
@@ -74,16 +83,17 @@ Let $M = \{ Q, \Sigma, \delta_{M}, q_{0}, F \}$ be a finite state machine, where
 
 The language accepted by $M$ can be defined as $L(M) = \{ (aa)^n(bb)^m \mid n,m \in \mathbb N  \}$, i.e. all the words that contain an even number of $a$ or $b$, all the words that contain an even amount of $a$ followed by an even amount of $b$ or the empty word $\lambda$.
 
-We can further define the equivalence classes of the states.
+Furthermore, we define the equivalence classes of all the states.
 $$
 \begin{align}
 \mathrm{Kl}[q_{0}] &= \{ (aa)^n \mid n \in \mathbb N \} \\
 \mathrm{Kl}[q_{1}] &= \{ a^n \mid n \in \mathbb N, n \equiv_{2}1 \} \\
 \mathrm{Kl}[q_{2}] &= \{ (aa)^nb^m \mid n, m \in \mathbb N , m\equiv_{2}1\} \\
 \mathrm{Kl}[q_{3}] &= \{ (aa)^n(bb)^m \mid n,m \in \mathbb N, m\geq1 \} \\
-\mathrm{Kl}[q_{4}] &= \Sigma^* \setminus \bigcup_{p} \mathrm{Kl}[q_{i}]
+\mathrm{Kl}[q_{4}] &= \Sigma^* \setminus \bigcup_{q_{4}\neq p \in Q} \mathrm{Kl}[q_{i}]
 \end{align}
 $$
+
 
 
 
