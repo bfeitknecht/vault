@@ -28,7 +28,7 @@ Let $M = \{ Q, \Sigma, \delta_{M}, q_{0}, F \}$ be a finite state machine, where
 We can further define the equivalence classes of the states.
 $$
 \begin{align}
-\mathrm{Kl}[]
+
 \end{align}
 $$
 
