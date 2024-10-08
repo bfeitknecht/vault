@@ -33,7 +33,7 @@ $$
 Let $S$ be the left hand side of the statement, $n \mid m \ \text{and} \ n \mid (m+1)$ and let $T$ be the right hand side, $n=1$. 
 Let $U$ be the statement to prove, $S \implies T$. From the script we know that $U$, which we defined as $S \implies T$ is false if and only if $S$ is true and $T$ is false.
 
-Now we will assume $U$ to be false, i.e. $S$ to be true and $T$ to be false and show that it leads to a contradiction.
+For the sake of contradiction, let us assume that's the case, i.e. $S$ is true and $T$ is false.
 
 
 
