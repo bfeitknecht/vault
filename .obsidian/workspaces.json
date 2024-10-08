@@ -1341,24 +1341,12 @@
                 }
               },
               {
-                "id": "51af9fa2d3ccc945",
+                "id": "dc6d515664aa5984",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w03.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "35512239f76bcee6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/kolmogorov complexity.md",
+                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w04.md",
                     "mode": "source",
                     "source": false
                   }
@@ -1377,7 +1365,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "334b80dc2ab3a841",
@@ -1392,7 +1380,7 @@
                     "file": "sem3/TIN/UE/e/TI-e-u03.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 704,
+                    "top": 737,
                     "zoom": 0.8743843192065531
                   }
                 }
@@ -1404,9 +1392,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
-                    "page": 84,
-                    "left": 29,
-                    "top": 18,
+                    "page": 83,
+                    "left": 23,
+                    "top": 292,
                     "zoom": 1.22
                   }
                 }
@@ -1549,7 +1537,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
@@ -1574,8 +1562,8 @@
         }
       },
       "active": "42228644c5b108e2",
-      "mtime": "2024-10-08T13:17:20+02:00"
+      "mtime": "2024-10-08T16:18:55+02:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "00-home"
 }
