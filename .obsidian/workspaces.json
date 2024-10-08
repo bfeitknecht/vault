@@ -15,7 +15,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/gross.md",
+                    "file": "wiki/email an gross.md",
                     "mode": "source",
                     "source": false
                   }
@@ -73,7 +73,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/gross.md"
+                    "file": "wiki/email an gross.md"
                   }
                 }
               }
@@ -98,7 +98,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/gross.md",
+                    "file": "wiki/email an gross.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/gross.md",
+                    "file": "wiki/email an gross.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -171,7 +171,7 @@
         }
       },
       "active": "bf127e72dc0ba343",
-      "mtime": "2024-10-08T09:06:57+02:00"
+      "mtime": "2024-10-08T09:19:52+02:00"
     },
     "00-home": {
       "main": {
@@ -1588,5 +1588,5 @@
       "mtime": "2024-10-08T09:07:57+02:00"
     }
   },
-  "active": "00-clean"
+  "active": "sem3-ti"
 }
