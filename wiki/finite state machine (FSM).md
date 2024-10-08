@@ -56,3 +56,7 @@ ch.3.4, proof of non-existence
 ![[hromkovic-TIN.pdf#page=83&rect=38,150,445,249|hromkovic-TIN, p.68]]
 
 what it's saying is, that given two inputs (different) that end in the same configuration, we can add an arbitrary identical suffix and the end configuration will be the same
+
+
+$a^nb^n$ is not regular language := proven by contradiction using lemma 3.3.
+
