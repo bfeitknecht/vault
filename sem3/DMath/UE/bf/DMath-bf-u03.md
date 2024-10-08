@@ -18,7 +18,9 @@ $$
 
 ## iv)
 ![[DMath-e-u03.pdf#page=1&rect=107,172,524,204|DMath-e-u03, p.1]]
-
+$$
+\texttt{asd}
+$$
 
 # 3.8
 ![[DMath-e-u03.pdf#page=3&rect=77,576,525,687|DMath-e-u03, p.3]]
