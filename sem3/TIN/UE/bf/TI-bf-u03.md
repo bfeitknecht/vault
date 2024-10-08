@@ -41,17 +41,17 @@ flowchart LR
 classDef hidden display: none;
 
 S:::hidden
-id0((q0))
-id1(((q1)))
+q0((q0))
+q1(((q1)))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-S --> id0
-id0 -->|"a"| id1
-id0 -->|"b"| id1
+S --> q0
+q0 -->|"a"| q1
+q0 -->|"b"| q1
 
-id1 -->|"a"| id0
-id1 -->|"b"| id0
+q1 -->|"a"| q0
+q1 -->|"b"| q0
 ```
 
 The equivalence classes of $M_{2}$ are all words with different parities of $a$ and $b$ and equal parities of $a$ and $b$, respectively.
@@ -70,7 +70,7 @@ $\square$
 ![[TI-e-u03.pdf#page=1&rect=68,127,533,349|TI-e-u03, p.1]]
 
 
-Let $M = \{ Q, \Sigma, \delta_{M}, q_{0}, F \}$ be a finite state machine, where  $Q=\{ q_{0}, q_{1}, q_{2}, q_{3}, q_{4}  \}$ denotes the set of states, $\Sigma=\{ a, b \}$ is the input alphabet, $q_{0}$ is the initial state, $\delta_{M}$ is the transition function between states and $F=\{ q_{0}, q_{3} \}$ is the set of accepted states. The language accepted by $M$ can be defined as $L(M) = \{ (aa)^n(bb)^m \mid n,m \in \mathbb N  \}$.
+Let $M = \{ Q, \Sigma, \delta_{M}, q_{0}, F \}$ be a finite state machine, where  $Q=\{ q_{0}, q_{1}, q_{2}, q_{3}, q_{4}  \}$ denotes the set of states, $\Sigma=\{ a, b \}$ is the input alphabet, $q_{0}$ is the initial state, $\delta_{M}$ is the transition function between states and $F=\{ q_{0}, q_{3} \}$ is the set of accepted states. The language accepted by $M$ can be defined as $L(M) = \{ (aa)^n(bb)^m \mid n,m \in \mathbb N  \}$, i.e. all the words that contain an even number of $a$, all the words that contain an even amount of $a$ and an even amount of $b$ or the empty word $\lambda$.
 
 We can further define the equivalence classes of the states.
 $$
