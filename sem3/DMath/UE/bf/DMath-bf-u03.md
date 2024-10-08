@@ -19,7 +19,7 @@ $$
 ## iv)
 ![[DMath-e-u03.pdf#page=1&rect=107,172,524,204|DMath-e-u03, p.1]]
 $$
-\texttt{asd}
+\forall n, m(\texttt{prime}(x) \mid n\cdot m ↔ \texttt{prime}(x) \mid n \vee \texttt{prime}(x) \mid m)
 $$
 
 # 3.8
