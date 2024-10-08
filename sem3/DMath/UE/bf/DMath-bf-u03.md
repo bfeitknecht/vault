@@ -33,11 +33,12 @@ $$
 Let $S$ be the left hand side of the statement, written as a formula in predicate logic $S \overset{ \text{def.} }{ \iff } \exists m \big(n \mid m \wedge n \mid (m+1)\big)$ and let $T$ be the right hand side, $T \overset{ \text{def.} }{ \iff } n=1$. 
 Let $U$ be the statement to prove, $S \implies T$. From the script we know that $U$, which we defined as $S \implies T$ is false if and only if $S$ is true and $T$ is false.
 
-For the sake of contradiction, let us assume that's the case, i.e. $S$ is true and $T$ is false.
+For the sake of contradiction, let us assume that is the case, i.e. $S$ is true and $T$ is false.
 $$
 \begin{align}
-S &\overset{ \text{def.} }{ \iff } \exists m \big(n \mid m \wedge n \mid (m+1)\big) &\text{(definition of $\texttt{divides}$)}\\
-&\overset{ \cdot }{ \iff } \exists m \exists k \exists l( k\cdot n=m \wedge l\cdot n=m+1)
+S &\overset{ \text{def.} }{ \iff } \exists m \big(n \mid m \wedge n \mid (m+1)\big) &\text{(definition of $\texttt{divides}$)} \\
+&\overset{ \cdot }{ \iff } \exists m \exists k \exists l( k\cdot n=m \wedge l\cdot n=m+1) &\text{()} \\
+&\overset{ \cdot }{ \iff } \exists m \exists k \exists l( k\cdot n=m \wedge l\cdot n=(k\cdot n)+1) &\text{()} \\
 \end{align}
 $$
 
@@ -47,4 +48,5 @@ n divides two adjacent numbers but n is not 1
 n divides m and n divides m plus one implies n is equal to one
 
 
+$\forall n(x\cdot n=1 \to x=1)$
 The statement S =⇒ T is false if S is true and T is false, and in all other three cases, S =⇒ T is true.
