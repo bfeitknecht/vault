@@ -326,7 +326,6 @@ Insert tabstops for the cursor to jump to by writing "$0", "$1", etc. in the rep
     // {trigger: /([A-Za-z]=\d+)([\n\s.,?!:'])/, replacement: "$[[0]]$[[1]]", options: "rtAw"},
     // {trigger: /([A-Za-z]=[A-Za-z][+-]\d+)([\n\s.,?!:'])/, replacement: "$[[0]]$[[1]]", options: "tAw"},
 
-
     // Snippet replacements can have placeholders.
     {trigger: "tayl", replacement: "${0:f}(${1:x} + ${2:h}) = ${0:f}(${1:x}) + ${0:f}'(${1:x})${2:h} + ${0:f}''(${1:x}) \\frac{${2:h}^{2}}{2!} + \\dots$3", options: "mA", description: "Taylor expansion"},
 
@@ -347,4 +346,9 @@ Insert tabstops for the cursor to jump to by writing "$0", "$1", etc. in the rep
         output = `\\begin{pmatrix}\n${output}\n\\end{pmatrix}`;
         return output;
     }, options: "mA", description: "N x N identity matrix"},
+
+
+    // Custom
+    {trigger: "Kl", replacement: "\\mathrm{Kl}[$0]", options: "mA"},
+
 ]

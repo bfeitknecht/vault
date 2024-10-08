@@ -28,7 +28,11 @@ Let $M = \{ Q, \Sigma, \delta_{M}, q_{0}, F \}$ be a finite state machine, where
 We can further define the equivalence classes of the states.
 $$
 \begin{align}
-
+\mathrm{Kl}[q_{0}] &= \{ (aa)^n \mid n \in \mathbb N \} \\
+\mathrm{Kl}[q_{1}] &= \{ a^n \mid n \in \mathbb N, n \equiv_{2}1 \} \\
+\mathrm{Kl}[q_{2}] &= \{ (aa)^n \mid n \in \mathbb N \} \\
+\mathrm{Kl}[q_{3}] &= \{ (aa)^n \mid n \in \mathbb N \} \\
+\mathrm{Kl}[q_{4}] &= \{ (aa)^n \mid n \in \mathbb N \} \\
 \end{align}
 $$
 
