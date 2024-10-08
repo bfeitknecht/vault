@@ -1417,8 +1417,8 @@
                   "state": {
                     "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
                     "page": 84,
-                    "left": 15,
-                    "top": 467,
+                    "left": 10,
+                    "top": 472,
                     "zoom": 1.22
                   }
                 }
@@ -1586,8 +1586,8 @@
         }
       },
       "active": "6f3d27397d4deeae",
-      "mtime": "2024-10-08T10:12:30+02:00"
+      "mtime": "2024-10-08T11:37:43+02:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-eprog"
 }

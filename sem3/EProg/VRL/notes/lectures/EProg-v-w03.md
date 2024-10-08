@@ -1,7 +1,7 @@
 
 - control structures
 - `if () {} else {}`
-- `for () {}`, `while () {}` /  `do {} while ()`
+- `for () {}`, `while () {}` /  `do {} while ();`
 - ternary operation `? : ;`
 - [[operation (propositional logic)|boolean logic operation]]
 
