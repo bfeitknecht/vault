@@ -6,4 +6,4 @@
 
 # Slides
 
-![[EProg-slides-w01.pdf]]
+[[EProg-slides-w01.pdf]] 

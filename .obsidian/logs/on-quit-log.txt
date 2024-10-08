@@ -1,0 +1,1 @@
+/Users/bf/HOME/eth/vault/.obsidian/scripts/on-quit.sh: line 3: on-quit: command not found
