@@ -23,7 +23,7 @@ Dennis Küenzi, 21-559-315
 
 Informally, this language $L_{2}$ describes all words that contain a different parity amount of $a$ and $b$. This implies that all words in $L_{2}$ have odd length, since the sum of an even and odd number is itself odd.
 
-Formally, we define a FSM $M_{2} = \{ Q, \Sigma, \delta_{M_{2}}, q_{0}, F \}$, where $Q=\{ q_{0}, q_{1} \}$, $\Sigma=\{ a, b \}$ and $F=\{ q_{0} \}$. The transition function is defines for some $(p, x) \in Q \times \Sigma$.
+Formally, we define a finite automaton $M_{2} = \{ Q, \Sigma, \delta_{M_{2}}, q_{0}, F \}$, where $Q=\{ q_{0}, q_{1} \}$, $\Sigma=\{ a, b \}$ and $F=\{ q_{0} \}$. The transition function is defines for some $(p, x) \in Q \times \Sigma$.
 $$
 \delta_{M_{2}}(p, x) = \begin{cases}
 q_{0}, &\text{if $p=q_{1}$} \\
@@ -58,6 +58,9 @@ $$
 \mathrm{Kl}[q_{1}] &= \{ w \in \Sigma^* \mid |w|_{a} \equiv_{2} |w|_{b}  \}
 \end{align}
 $$
+
+In particular one notes, that all words of odd length are in $\mathrm{Kl}[q_{0}]$ and all words of even length are in $\mathrm{Kl}[q_{1}]$.
+$\square$
 
 
 # 9
