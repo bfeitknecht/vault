@@ -18,7 +18,11 @@ Dennis Küenzi, 21-559-315
 
 ## (a)
 
+
 ## (b)
+
+Informally, this language $L_{2}$ describes all words that contain a different parity amount of $a$ and $b$. This implies that all words in $L_{2}$ have odd length, since the sum of an even and odd number is itself odd. Formally, we define a FSM $M_{2} = \{ Q, \Sigma, \delta_{M_{2}}, \}$
+
 ```mermaid
 flowchart LR
 
@@ -28,7 +32,7 @@ S:::hidden
 id0((q0))
 id1(((q1)))
 
-%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 S --> id0
 id0 -->|"a"| id1
