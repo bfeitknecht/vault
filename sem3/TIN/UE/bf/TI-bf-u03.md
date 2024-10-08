@@ -22,8 +22,13 @@ Dennis Küenzi, 21-559-315
 
 aa bbb
 
+
+Let $A = \{ Q, \Sigma, \delta_{A}, q_{0}, F \}$ be a finite state machine, where $Q=\{ q_{i} \mid i \in [4] \}$, $\Sigma=\{ a, b \}$,
+
+
+
 $$
 \begin{align}
-L(M) = \{  \} 
+L(M) = \{ w = yxz \mid  \}
 \end{align}
 $$
