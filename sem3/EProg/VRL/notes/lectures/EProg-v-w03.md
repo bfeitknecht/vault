@@ -4,7 +4,6 @@
 - `for () {}`
 - ternary operation `? : ;`
 - [[operation (propositional logic)|boolean logic operation]]
-- 
 
 
 # Slides
