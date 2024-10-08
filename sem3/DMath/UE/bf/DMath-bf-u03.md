@@ -30,14 +30,14 @@ $$
 ![[DMath-e-u03.pdf#page=3&rect=77,576,525,687|DMath-e-u03, p.3]]
 
 
-Let $S$ be the left hand side of the statement, written as a formula in predicate logic $S \overset{ \text{def.} }{ \iff } n \mid m \wedge n \mid (m+1)$ and let $T$ be the right hand side, $n=1$. 
+Let $S$ be the left hand side of the statement, written as a formula in predicate logic $S \overset{ \text{def.} }{ \iff } \exists m \big(n \mid m \wedge n \mid (m+1)\big)$ and let $T$ be the right hand side, $T \overset{ \text{def.} }{ \iff } n=1$. 
 Let $U$ be the statement to prove, $S \implies T$. From the script we know that $U$, which we defined as $S \implies T$ is false if and only if $S$ is true and $T$ is false.
 
 For the sake of contradiction, let us assume that's the case, i.e. $S$ is true and $T$ is false.
 $$
 \begin{align}
-S &\overset{ \text{def.} }{ \iff } n \mid m \wedge n \mid (m+1) \\
-&\overset{ \cdot }{ \iff } \exists k,l( k\cdot n=m \wedge l\cdot n=m+1)
+S &\overset{ \text{def.} }{ \iff } \exists m \big(n \mid m \wedge n \mid (m+1)\big) &\text{(definition of $\texttt{divides}$)}\\
+&\overset{ \cdot }{ \iff } \exists m, k,l( k\cdot n=m \wedge l\cdot n=m+1)
 \end{align}
 $$
 
