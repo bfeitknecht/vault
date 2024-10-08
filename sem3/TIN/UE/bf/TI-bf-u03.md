@@ -20,15 +20,15 @@ Dennis Küenzi, 21-559-315
 ![[TI-e-u03.pdf#page=1&rect=68,127,533,349|TI-e-u03, p.1]]
 
 
-aa bbb
+$aa^y b^x bb^z$
 
 
-Let $A = \{ Q, \Sigma, \delta_{A}, q_{0}, F \}$ be a finite state machine, where $Q=\{ q_{i} \mid i \in [4] \}$, $\Sigma=\{ a, b \}$,
+Let $A = \{ Q, \Sigma, \delta_{A}, q_{0}, F \}$ be a finite state machine, where  $Q=\{ q_{0}, q_{1}, q_{2}, q_{3}, q_{4}  \}$ denotes the set of states, $\Sigma=\{ a, b \}$ is the input alphabet, $q_{0}$ is the initial state, $\delta_{A}$ is the transition function between states and $F=\{ q_{0}, q_{3} \}$ is the set of accepted states.
 
 
 
 $$
 \begin{align}
-L(M) = \{ w = yxz \mid  \}
+L(M) = \{ w = yxz \mid  y=(aa)^i, x=b^j, z=(bb)^k, i, j, k  \}
 \end{align}
 $$
