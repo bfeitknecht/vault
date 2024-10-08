@@ -34,7 +34,12 @@ Let $S$ be the left hand side of the statement, $n \mid m \ \text{and} \ n \mid 
 Let $U$ be the statement to prove, $S \implies T$. From the script we know that $U$, which we defined as $S \implies T$ is false if and only if $S$ is true and $T$ is false.
 
 For the sake of contradiction, let us assume that's the case, i.e. $S$ is true and $T$ is false.
-
+$$
+\begin{align}
+S &\overset{ \text{def.} }{ \iff } n \mid m \wedge n \mid (m+1) \\
+&\overset{ \cdot }{ \iff } \exists k,l( k\cdot n=m \wedge l\cdot n=m+1)
+\end{align}
+$$
 
 
 n divides two adjacent numbers but n is not 1
