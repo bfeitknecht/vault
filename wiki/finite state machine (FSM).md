@@ -58,5 +58,10 @@ ch.3.4, proof of non-existence
 what it's saying is, that given two inputs (different) that end in the same configuration, we can add an arbitrary identical suffix and the end configuration will be the same
 
 
-$a^nb^n$ is not regular language := proven by contradiction using lemma 3.3.
+$a^nb^n$ is not regular language := proven by contradiction using lemma 3.3. construct FSM and use pigeon hole principle on equivalence classes in Q
+
+becasue we define more words than the FSM has configurations, exists two natural numbers i, j in \[|Q|+1] i < j
+
+![[hromkovic-TIN.pdf#page=84&rect=42,173,440,341|hromkovic-TIN, p.69]]
+
 
