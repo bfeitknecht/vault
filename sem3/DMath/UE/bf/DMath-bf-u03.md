@@ -4,11 +4,13 @@
 For the sake of brevity, let $p$ denote an arbitrary prime number, i.e. $\forall p, \texttt{prime}(p)=1$.
 ## i)
 ![[DMath-e-u03.pdf#page=1&rect=106,253,522,270|DMath-e-u03, p.1]]
-
+$$
+(x \mid n \land x \mid m) \to x \mid n+m
+$$
 ## ii)
 ![[DMath-e-u03.pdf#page=1&rect=106,231,523,248|DMath-e-u03, p.1]]
 $$
-\forall p((1 \mid p) \wedge p \mid p)
+\forall p(1 \mid p \wedge p \mid p)
 $$
 ## iii)
 ![[DMath-e-u03.pdf#page=1&rect=107,208,523,225|DMath-e-u03, p.1]]
