@@ -43,6 +43,11 @@ The [[equivalence class|equivalence classes]] of the "step before" relation on t
 # Simulation
 [[simulation]]
 
+![[hromkovic-TIN.pdf#page=78&rect=39,66,436,119|hromkovic-TIN, p.63]]
+![[hromkovic-TIN.pdf#page=79&rect=38,159,413,322|hromkovic-TIN, p.64]]
+
+
+
 
 
 
