@@ -4,6 +4,7 @@
 - sequence types (`String`, arrays `T[]`)
 - pre- / post-increment / decrement
 - off-by-one errors
+- sentinel for loop control
 
 
 # Slides

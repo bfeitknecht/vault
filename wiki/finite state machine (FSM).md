@@ -60,8 +60,15 @@ what it's saying is, that given two inputs (different) that end in the same conf
 
 $a^nb^n$ is not regular language := proven by contradiction using lemma 3.3. construct FSM and use pigeon hole principle on equivalence classes in Q
 
-becasue we define more words than the FSM has configurations, exists two natural numbers i, j in \[|Q|+1] i < j
+becasue we define more words than the FSM has configurations, exists two natural numbers i, j in \[|Q|+1] i < j such that the word $0^i 1^i$ is in the language but $0^j 1^i$ isn't
+
 
 ![[hromkovic-TIN.pdf#page=84&rect=42,173,440,341|hromkovic-TIN, p.69]]
 
 
+
+```mermaid
+flowchart LR
+
+id0((S)) --> id1((T))
+```
