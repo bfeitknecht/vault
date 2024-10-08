@@ -20,7 +20,10 @@ Dennis Küenzi, 21-559-315
 
 ## (a)
 
-The graph representation 
+The graph representation of $M_{1}$ is
+```mermaid
+
+```
 
 ## (b)
 
