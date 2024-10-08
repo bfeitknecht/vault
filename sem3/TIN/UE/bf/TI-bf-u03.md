@@ -15,27 +15,20 @@ Dennis Küenzi, 21-559-315
 # 8
 ![[TI-e-u03.pdf#page=1&rect=64,386,532,491|TI-e-u03, p.1]]
 
+
+## (a)
+
+## (b)
 ```mermaid
 flowchart LR
 
 id0((q0))
 id1(((q1)))
-id2((q2))
 
 %%%%%%%%
 
-id0 -->|"a"| id1
-id0 -->|"b"| id1
-
-id1 -->|"a"| id1
-id2 -->|"b"| id1
-
-id1 -->|"a"| id2
-id2 -->|"b"| id1
-
-%% id1 -->|"a"| id2 -->|"b"| id1
-%% id1 -->|"a"| id2 -->|"b"| id1
-
+id0 -->|"a"| id1 -->|"a"| id0
+id0 -->|"b"| id1 -->|"b"| id0
 ```
 
 
