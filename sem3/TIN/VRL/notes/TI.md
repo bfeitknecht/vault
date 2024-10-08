@@ -9,6 +9,7 @@
 - [x] exercise sheet 🔁 every week 📅 2024-09-27 ✅ 2024-09-27
 
 
+
 # Lectures
 
 ### W01
