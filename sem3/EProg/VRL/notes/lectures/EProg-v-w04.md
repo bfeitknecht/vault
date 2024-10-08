@@ -3,6 +3,7 @@
 - method overloading
 - sequence types (`String`, arrays `T[]`)
 - pre- / post-increment / decrement
+- off-by-one errors
 
 
 # Slides

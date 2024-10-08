@@ -171,7 +171,7 @@
         }
       },
       "active": "bf127e72dc0ba343",
-      "mtime": "2024-10-08T09:19:52+02:00"
+      "mtime": "2024-10-08T11:22:15+02:00"
     },
     "00-home": {
       "main": {
@@ -861,7 +861,7 @@
             "type": "tabs",
             "children": [
               {
-                "id": "cd9fd9b429b3070d",
+                "id": "9b904aa7a2c38d72",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -873,34 +873,35 @@
                 }
               },
               {
-                "id": "1301536b59d15a1c",
+                "id": "25e5d66ffc741f13",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/EProg/VRL/notes/lectures/EProg-v-w02.md",
+                    "file": "sem3/EProg/VRL/notes/lectures/EProg-v-w04.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
-            "id": "a49b010c150e9408",
+            "id": "96a399e7d24357db",
             "type": "tabs",
             "children": [
               {
-                "id": "bfe5916284c80395",
+                "id": "bac4a95ce4aeef78",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/EProg/VRL/extra/slides/EProg-slides-w02.pdf",
-                    "page": 1,
-                    "left": -222,
-                    "top": 410,
-                    "zoom": 0.4739583333333333
+                    "file": "sem3/EProg/VRL/extra/slides/EProg-slides-w04.pdf",
+                    "page": 23,
+                    "left": -22,
+                    "top": 407,
+                    "zoom": 0.7229166666666668
                   }
                 }
               }
@@ -956,7 +957,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/EProg/VRL/notes/EProg.md"
+                    "file": "sem3/EProg/VRL/notes/lectures/EProg-v-w04.md"
                   }
                 }
               }
@@ -964,7 +965,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 239.5,
+        "width": 318.5,
         "collapsed": true
       },
       "right": {
@@ -981,7 +982,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/EProg/VRL/notes/EProg.md",
+                    "file": "sem3/EProg/VRL/notes/lectures/EProg-v-w04.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -998,7 +999,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/EProg/VRL/notes/EProg.md",
+                    "file": "sem3/EProg/VRL/notes/lectures/EProg-v-w04.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1029,7 +1030,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
@@ -1053,8 +1054,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-10-07T13:28:03+02:00"
+      "active": "25e5d66ffc741f13",
+      "mtime": "2024-10-08T11:22:11+02:00"
     },
     "sem3-linalg": {
       "main": {
