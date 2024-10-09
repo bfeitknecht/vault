@@ -29,10 +29,10 @@ $$
 
 ## iv)
 ![[DMath-e-u03.pdf#page=1&rect=107,172,524,204|DMath-e-u03, p.1]]
+
 $$
-\begin{align} \\
-\texttt{prime}(x) \wedge x \mid n \cdot m \iff \texttt{prime}(x) \wedge (x \mid n \vee x \mid m) \\
-\forall x ( \texttt{prime}(x) \wedge ((x \mid n \cdot m) ↔ (x \mid n \vee x \mid m)) )
+\begin{align}
+\forall x \big( \texttt{prime}(x) \to ((x \mid n \cdot m) ↔ ((x \mid n) \vee( x \mid m))) \big)
 \end{align}
 $$
 
