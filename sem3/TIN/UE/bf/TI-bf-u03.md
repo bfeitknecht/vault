@@ -56,11 +56,18 @@ q5 -->|"a, b"| q5
 ```
 
 
+$$
+\begin{align}
+\mathrm{Kl}[q_{5}] = \{ yabbax \mid y, x \in  \}
+\end{align}
+$$
+
+
 ## (b)
 
 Informally, this language $L_{2}$ describes all words that contain a different parity amount of $a$ and $b$. This implies that all words in $L_{2}$ have odd length, since the sum of an even and odd number is itself odd.
 
-Formally, we define a finite automaton $M_{2} = ( Q, \Sigma, \delta, q_{0}, F )$, where $Q=\{ q_{0}, q_{1} \}$, $\Sigma=\{ a, b \}$ and $F=\{ q_{1} \}$. The transition function is defines for some $(p, x) \in Q \times \Sigma$.
+Formally, we define a finite automaton $M_{2} = ( Q, \Sigma, \delta, q_{0}, F )$, where $Q=\{ q_{0}, q_{1} \}$, $\Sigma=\{ a, b \}$ and $F=\{ q_{1} \}$. The transition function is defined for $(p, x) \in Q \times \Sigma$.
 $$
 \delta(p, x) = \begin{cases}
 q_{1}, &\text{if $p=q_{0}$} \\
