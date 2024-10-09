@@ -20,8 +20,21 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "c957f965b149ffc2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/scratch.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -73,7 +86,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/email an gross.md"
+                    "file": "wiki/scratch.md"
                   }
                 }
               }
@@ -98,7 +111,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/email an gross.md",
+                    "file": "wiki/scratch.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/email an gross.md",
+                    "file": "wiki/scratch.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -170,8 +183,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "bf127e72dc0ba343",
-      "mtime": "2024-10-09T13:15:46+02:00"
+      "active": "c957f965b149ffc2",
+      "mtime": "2024-10-09T14:21:07+02:00"
     },
     "00-home": {
       "main": {
@@ -1574,5 +1587,5 @@
       "mtime": "2024-10-08T16:18:55+02:00"
     }
   },
-  "active": "00-clean"
+  "active": "sem3-dmath"
 }
