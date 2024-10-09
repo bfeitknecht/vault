@@ -1,29 +1,29 @@
 
 # 3.2
 ![[DMath-e-u03.pdf#page=1&rect=76,280,521,364|DMath-e-u03, p.1]]
-For the sake of brevity, let $p$ denote an arbitrary prime number, i.e. $\forall p, \texttt{prime}(p)=1$.
+
 ## i)
 ![[DMath-e-u03.pdf#page=1&rect=106,253,522,270|DMath-e-u03, p.1]]
+
 $$
 \begin{align}
-x \mid n \wedge x \mid m \implies x \mid n+m \\
 \forall x((x \mid n \land x \mid m) \to x \mid n+m)
 \end{align}
 $$
 ## ii)
 ![[DMath-e-u03.pdf#page=1&rect=106,231,523,248|DMath-e-u03, p.1]]
+
 $$
 \begin{align}
-p \implies 1 \mid p \wedge p \mid p  \\
 \forall x( \texttt{prime}(x) \to (1 \mid p \wedge p \mid p))
 \end{align}
 $$
 ## iii)
 ![[DMath-e-u03.pdf#page=1&rect=107,208,523,225|DMath-e-u03, p.1]]
+
 $$
 \begin{align}
-x \mid y \wedge y \mid x \iff x=y=1 \\
-\forall x((y \mid x)\to x = y = 1)
+\forall x ( ((x \mid y) \wedge (y \mid x)) \to x = y = 1 )
 \end{align}
 $$
 
@@ -46,7 +46,7 @@ Let $U$ be the statement to prove, $S \implies T$. From the script we know that 
 For the sake of contradiction, let's assume that is the case, i.e. $S$ is true and $T$ is false.
 $$
 \begin{align}
-S &\overset{ \text{def.} }{ \iff } \exists m \big(n \mid m \wedge n \mid (m+1)\big) &\text{(definition of $\texttt{divides}$)} \\
+S &\overset{ \text{def.} }{ \iff } \exists n \big(n \mid m \wedge n \mid (m+1)\big) &\text{(definition of $\texttt{divides}$)} \\
 &\overset{ \cdot }{ \iff } \exists m \exists k \exists l( k\cdot n=m \wedge l\cdot n=m+1) &\text{()} \\
 &\overset{ \cdot }{ \iff } \exists m \exists k \exists l( k\cdot n=m \wedge l\cdot n=(k\cdot n)+1) &\text{()} \\
 \end{align}
