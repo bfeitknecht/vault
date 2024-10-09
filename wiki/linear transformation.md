@@ -11,7 +11,7 @@ Furthermore, every linear transformation exhibits [[commutativity]] under [[vect
 
 Every linear transformation can be realized through a *unique* matrix.
 
-The [[composition]] of linear transformations is achieved through [[matrix multiplication]], let $T_{A}:\mathbb{R}^n \to \mathbb{R}^a$ and $T_{B}: \mathbb{R}^b \to \mathbb{R}^n$ be two linear transformations. The proof is given by the [[associativity]] of matrix multiplication.
+The [[composition]] of linear transformations is achieved through [[matrix multiplication]], let $T_{A}:\mathbb{R}^n \to \mathbb{R}^a$ and $T_{B}: \mathbb{R}^b \to \mathbb{R}^n$ be two linear transformations. The proof is given by applying the [[associativity]] of matrix multiplication and the function definitions.
 $$
 T_{A}(T_{B}(\mathrm{x})) = T_{AB}(x)
 $$
