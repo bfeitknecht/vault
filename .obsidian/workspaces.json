@@ -171,7 +171,7 @@
         }
       },
       "active": "bf127e72dc0ba343",
-      "mtime": "2024-10-08T11:22:15+02:00"
+      "mtime": "2024-10-09T13:15:46+02:00"
     },
     "00-home": {
       "main": {
@@ -188,8 +188,8 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "HOME.md",
-                    "mode": "preview",
+                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
+                    "mode": "source",
                     "source": false
                   }
                 }
@@ -280,7 +280,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "HOME.md"
+                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md"
                   }
                 }
               }
@@ -305,7 +305,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
+                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -322,7 +322,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
+                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -378,7 +378,7 @@
         }
       },
       "active": "4a586b919d13321c",
-      "mtime": "2024-10-09T11:56:58+02:00"
+      "mtime": "2024-10-09T13:15:44+02:00"
     },
     "sem3-a&d": {
       "main": {

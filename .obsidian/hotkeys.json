@@ -200,7 +200,8 @@
   "obsidian-tasks-plugin:edit-task": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Shift"
       ],
       "key": "M"
     }
