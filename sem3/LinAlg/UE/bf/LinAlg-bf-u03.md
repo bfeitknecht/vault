@@ -6,4 +6,16 @@
 
 
 
-linear map from n dimensions to m dimensions, where $v_{i \in[n]}$
+linear map from n dimensions to m dimensions, where $\mathrm{v}_{i \in[n]}$ is the $i$-th base vector from $\mathbb R^n$ after the linear transformation in $\mathbb{R}^m$
+
+prove two directions of implication arrow:
+
+
+
+$T$ is linear transformation $\implies$ $$
+
+
+
+
+
+$\impliedby$ 
