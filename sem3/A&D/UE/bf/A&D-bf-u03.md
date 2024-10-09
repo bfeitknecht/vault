@@ -36,20 +36,15 @@ Prove the following statements.
 ![[A&D-e-u03.pdf#page=2&rect=86,556,530,669|A&D-e-u03, p.2]]
 
 ### (1)
-Let $f : n \mapsto \sqrt{ n^2 +n +1 }$ and $g : n\mapsto n$. We will show that $\lim_{ n \to \infty } \frac{f(n)}{g}$
-
-Per definition of $\Theta$ we will show, that $f \leq O(g)$ and $g \leq O(f)$.
-
-
+Let $f(n) = \sqrt{ n^2 +n +1 }$ and $g(n)=n$. We will show that $\lim_{ n \to \infty } \frac{f(n)}{g(n)} = C \in \mathbb{R}^+$ and thus $f=\Theta(g)$.
 $$
 \begin{align}
-\lim_{ n \to \infty } \frac{\sqrt{ n^2+n+1 }}{n} &= \lim_{ n \to \infty } \frac{\sqrt{ n^2\left( 1+\frac{1}{n} +\frac{1}{n^2}\right) }}{n} \\
+\lim_{ n \to \infty } \frac{\sqrt{ n^2+n+1 }}{n} &= \lim_{ n \to \infty } \frac{\sqrt{ n^2\left( 1+\frac{1}{n} +\frac{1}{n^2}\right) }}{n} \\ \\
 &= \lim_{ n \to \infty } \frac{\cancel{ n} \sqrt{ 1+\frac{1}{n} + \frac{1}{n^2} }}{\cancel{ n }} \\
 &= \sqrt{ 1 } = 1
 \end{align}
 $$
-
-
+$\square$
 
 
 ### (2)
@@ -74,8 +69,6 @@ Em
 
 ## (b)
 ![[A&D-e-u03.pdf#page=4&rect=65,612,533,775|A&D-e-u03, p.4]]
-B
 
-
-$\sum_{i=1}^{2n} \sum_{j=1}^{i^3} n$
+The exact number of calls to the function $f$ is given by $\sum_{i=1}^{2n} \sum_{j=1}^{i^3} n$.
  
