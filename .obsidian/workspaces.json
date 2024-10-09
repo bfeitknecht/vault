@@ -686,8 +686,8 @@
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 45,
-                    "left": -12,
-                    "top": 598,
+                    "left": -6,
+                    "top": 602,
                     "zoom": 1.2800099159054938
                   }
                 }
@@ -699,10 +699,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/UE/e/DMath-e-u03.pdf",
-                    "page": 2,
-                    "left": -8,
-                    "top": 803,
-                    "zoom": 0.9021025541093545
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               }
@@ -856,7 +854,7 @@
         }
       },
       "active": "6cded826760a3d75",
-      "mtime": "2024-10-09T10:20:35+02:00"
+      "mtime": "2024-10-09T13:13:37+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1105,9 +1103,9 @@
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w03.pdf",
                     "page": 4,
-                    "left": -18,
-                    "top": 287,
-                    "zoom": 0.8774509803921569
+                    "left": -19,
+                    "top": 306,
+                    "zoom": 0.8504901960784315
                   }
                 }
               },
@@ -1328,7 +1326,7 @@
         }
       },
       "active": "4c59b76160ee4ce7",
-      "mtime": "2024-10-09T11:47:16+02:00"
+      "mtime": "2024-10-09T13:13:04+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1576,5 +1574,5 @@
       "mtime": "2024-10-08T16:18:55+02:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "00-home"
 }
