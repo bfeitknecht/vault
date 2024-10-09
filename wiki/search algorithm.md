@@ -5,6 +5,8 @@ A **search algorithm** is an [[algorithm]] designed to solve a [[search problem]
 # Examples
 
 ## Linear Search
+
+For *linear search* we just iterate through all elements until we find the one we want. Since we iterate at most as many times as there are elements, this is $O(n)$.
 ```
 begin
     for element in collection
@@ -14,3 +16,8 @@ begin
     end
 end
 ```
+
+
+## Binary Search
+
+If our data structure implements some sort of comparison, i.e. a [[partial order relation]], we can use *binary search*. This is a [[divide and conquer]]
