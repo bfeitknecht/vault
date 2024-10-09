@@ -54,12 +54,11 @@ q4 -->|"a, b"| q4
 
 $$
 \begin{align}
-\mathrm{Kl}[q_{0}] &= \{ \lambda \} \\
+\mathrm{Kl}[q_{0}] &= \{ b \}^* \cup \{ yabb \mid y \in \Sigma^* \} \\
 \mathrm{Kl}[q_{1}] &= \{ yabb \mid y \in \Sigma^* \} \\
-\mathrm{Kl}[q_{2}] &= \{ b \}^* \cup \{ yabb \mid y \in \Sigma^* \} \\
 \mathrm{Kl}[q_{3}] &= \{ yab \mid y \in \Sigma^* \} \\
 \mathrm{Kl}[q_{4}] &= \{ yabb \mid y \in \Sigma^* \} \\
-\mathrm{Kl}[q_{5}] &= \{ yabbaz \mid y, z \in  \Sigma^* \}
+\mathrm{Kl}[q_{4}] &= \{ yabbaz \mid y, z \in  \Sigma^* \}
 \end{align}
 $$
 
