@@ -37,7 +37,7 @@ $$
 
 # Theorem
 
-Analogous to the lemmas regarding [[operation]], we can define the following theorem for operations on sets in set theory.
+Analogous to the lemmas regarding [[operation (propositional logic)|operations]] in [[propositional logic]], we can define the following theorem for operations on sets.
 ![[dmath-script-hs24.pdf#page=57&rect=36,196,389,349|dmath-script-hs24, p.47]]
 
 
