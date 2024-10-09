@@ -7,5 +7,11 @@
   "attachmentFolderPath": "var/attachments",
   "propertiesInDocument": "source",
   "strictLineBreaks": true,
-  "showRibbon": true
+  "showRibbon": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  }
 }

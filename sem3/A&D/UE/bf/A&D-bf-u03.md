@@ -1,6 +1,6 @@
 
-Basil Feitknecht, 23-922-099
-Alex Vance, 24-943-763
+Basil Feitknecht 23-922-099 
+Alex Vance 24-943-763
 
 
 ![[A&D-e-u03.pdf#page=1&rect=65,151,522,247|A&D-e-u03, p.1]]
@@ -15,9 +15,16 @@ Prove or disprove the following statements. Justify your answer.
 ![[A&D-e-u03.pdf#page=2&rect=85,688,526,774|A&D-e-u03, p.2]]
 
 ### (1)
+B
+
 ### (2)
+Em
+
 ### (3)
+B
+
 ### (4)
+Em
 
 
 <div class="page-break" style="page-break-before: always;"></div>
@@ -27,8 +34,13 @@ Prove the following statements.
 ![[A&D-e-u03.pdf#page=2&rect=86,556,530,669|A&D-e-u03, p.2]]
 
 ### (1)
+B
+
 ### (2)
+Em
+
 ### (3)
+B
 
 
 <div class="page-break" style="page-break-before: always;"></div>
@@ -42,6 +54,7 @@ Prove the following statements.
 
 Em
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## (b)
 ![[A&D-e-u03.pdf#page=4&rect=65,612,533,775|A&D-e-u03, p.4]]
