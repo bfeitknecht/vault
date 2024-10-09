@@ -32,8 +32,7 @@ $$
 $$
 \begin{align} \\
 \texttt{prime}(x) \wedge x \mid n \cdot m \iff \texttt{prime}(x) \wedge (x \mid n \vee x \mid m) \\
-\forall x \ \texttt{prime}(x) ()\\
-n, m((p \mid n\cdot m) ↔ (p \mid n \vee p \mid m))
+\forall x ( \texttt{prime}(x) \wedge ((x \mid n \cdot m) ↔ (x \mid n \vee x \mid m)) )
 \end{align}
 $$
 
