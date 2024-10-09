@@ -188,7 +188,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
+                    "file": "HOME.md",
                     "mode": "source",
                     "source": false
                   }
@@ -280,7 +280,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md"
+                    "file": "HOME.md"
                   }
                 }
               }
@@ -305,7 +305,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
+                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -322,7 +322,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
+                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -378,7 +378,7 @@
         }
       },
       "active": "4a586b919d13321c",
-      "mtime": "2024-10-09T13:15:44+02:00"
+      "mtime": "2024-10-09T13:24:47+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1574,5 +1574,5 @@
       "mtime": "2024-10-08T16:18:55+02:00"
     }
   },
-  "active": "00-home"
+  "active": "00-clean"
 }
