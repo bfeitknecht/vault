@@ -8,3 +8,34 @@ Alex Vance, 24-943-763
 
 # 3.1
 For all the following functions $n \in \mathbb{N}$ and $n \geq 2$.
+
+## (a)
+![[A&D-e-u03.pdf#page=2&rect=85,688,526,774|A&D-e-u03, p.2]]
+
+### (1)
+### (2)
+### (3)
+### (4)
+
+
+
+## (b)
+![[A&D-e-u03.pdf#page=2&rect=86,555,530,636|A&D-e-u03, p.2]]
+
+### (1)
+### (2)
+### (3)
+
+
+
+# 3.3
+![[A&D-e-u03.pdf#page=3&rect=67,410,529,493|A&D-e-u03, p.3]]
+![[A&D-e-u03.pdf#page=4&rect=65,579,537,598|A&D-e-u03, p.4]]
+
+## (a)
+![[A&D-e-u03.pdf#page=3&rect=68,259,529,404|A&D-e-u03, p.3]]
+
+
+
+## (b)
+![[A&D-e-u03.pdf#page=4&rect=65,612,533,775|A&D-e-u03, p.4]]
