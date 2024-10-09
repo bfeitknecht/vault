@@ -194,6 +194,7 @@
           {
             "id": "530c567c42d9a199",
             "type": "tabs",
+            "dimension": 48.63760217983651,
             "children": [
               {
                 "id": "4a586b919d13321c",
@@ -222,11 +223,12 @@
             ]
           },
           {
-            "id": "7101a329c626f5d5",
+            "id": "fc33b84cd6874565",
             "type": "tabs",
+            "dimension": 51.36239782016349,
             "children": [
               {
-                "id": "a0612fa75848bec0",
+                "id": "a32f2b17e7352064",
                 "type": "leaf",
                 "state": {
                   "type": "graph",
@@ -234,7 +236,7 @@
                 }
               },
               {
-                "id": "5ef6da2522f7d7ad",
+                "id": "dc943bc110ae8945",
                 "type": "leaf",
                 "state": {
                   "type": "custom-frames-calendar",
@@ -392,7 +394,7 @@
         }
       },
       "active": "4a586b919d13321c",
-      "mtime": "2024-10-09T15:51:34+02:00"
+      "mtime": "2024-10-09T22:20:34+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -682,10 +684,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 45,
-                    "left": -6,
-                    "top": 606,
-                    "zoom": 1.2800099159054938
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -864,7 +864,7 @@
         }
       },
       "active": "89339d0368cec8a6",
-      "mtime": "2024-10-09T15:15:23+02:00"
+      "mtime": "2024-10-09T22:20:36+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1583,5 +1583,5 @@
       "mtime": "2024-10-09T21:43:35+02:00"
     }
   },
-  "active": "00-home"
+  "active": "sem3-ti"
 }
