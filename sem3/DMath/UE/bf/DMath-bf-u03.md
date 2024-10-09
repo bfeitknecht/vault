@@ -22,6 +22,7 @@ $$
 ![[DMath-e-u03.pdf#page=1&rect=107,208,523,225|DMath-e-u03, p.1]]
 $$
 \begin{align}
+x \mid y \wedge y \mid x \iff x=y=1 \\
 \forall x((y \mid x)\to x = y = 1)
 \end{align}
 $$
