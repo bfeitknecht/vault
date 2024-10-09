@@ -12,10 +12,11 @@ prove two directions of implication arrow:
 
 
 
-$T$ is linear transformation $\implies$ $$
+$T$ is linear transformation $\implies$ $\mathrm{v}_{n+1}=0$
+- use axioms of linear transformation
 
 
 
 
+$T$ is linear transformation $\impliedby$ $\mathrm{v}_{n+1}=0$
 
-$\impliedby$ 
