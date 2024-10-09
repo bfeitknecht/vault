@@ -58,7 +58,12 @@ q5 -->|"a, b"| q5
 
 $$
 \begin{align}
-\mathrm{Kl}[q_{5}] = \{ yabbax \mid y, x \in  \}
+\mathrm{Kl}[q_{0}] &= \{ \lambda \} \\
+\mathrm{Kl}[q_{1}] &= \{ yabb \mid y \in \Sigma^* \} \\
+\mathrm{Kl}[q_{2}] &= \{ yabb \mid y \in \Sigma^* \} \\
+\mathrm{Kl}[q_{3}] &= \{ yab \mid y \in \Sigma^* \} \\
+\mathrm{Kl}[q_{4}] &= \{ yabb \mid y \in \Sigma^* \} \\
+\mathrm{Kl}[q_{5}] &= \{ yabbax \mid y, x \in  \Sigma^* \}
 \end{align}
 $$
 
