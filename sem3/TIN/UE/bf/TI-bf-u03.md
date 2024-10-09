@@ -30,32 +30,22 @@ S:::hidden
 q0((q0))
 q1((q1))
 q2((q2))
-
+q3((q3))
 
 S --> q0
 
-q0 --->|"a"| q0
+q0 -->|"a"| q1
+q0 -->|"b"| q2
 
-q1 -->|"a"| q0
+q1 -->|"a"| q1
+q2 -->|"b"| q2
 
-```
-
-
-```mermaid
-flowchart LR
-
-q0((q0))
-
-q1((q1))
-
-q2((q2))
-
-  
-  
-
-q0 --> q0 --> q1 --> q2
+q1 --> q3
+q2 --> q1
 
 ```
+
+
 ## (b)
 
 Informally, this language $L_{2}$ describes all words that contain a different parity amount of $a$ and $b$. This implies that all words in $L_{2}$ have odd length, since the sum of an even and odd number is itself odd.
