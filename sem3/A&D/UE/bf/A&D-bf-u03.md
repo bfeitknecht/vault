@@ -36,6 +36,9 @@ Prove the following statements.
 ### (1)
 B
 
+Let $f(n)=\sqrt{ n^2 +n +1 }$ and $g : \to$
+We will show, that 
+
 ### (2)
 Em
 
