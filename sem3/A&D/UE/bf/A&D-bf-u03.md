@@ -36,12 +36,21 @@ Prove the following statements.
 ![[A&D-e-u03.pdf#page=2&rect=86,556,530,669|A&D-e-u03, p.2]]
 
 ### (1)
-Let $f : n \mapsto \sqrt{ n^2 +n +1 }$ and $g : n\mapsto n$. Per definition of $\Theta$ we will show, that $f \leq O(g)$ and $g \leq O(f)$.
+Let $f : n \mapsto \sqrt{ n^2 +n +1 }$ and $g : n\mapsto n$. We will show that $\lim_{ n \to \infty } \frac{f(n)}{g}$
+
+Per definition of $\Theta$ we will show, that $f \leq O(g)$ and $g \leq O(f)$.
+
+
 $$
 \begin{align}
-\lim_{ n \to \infty } \frac{\sqrt{ n^2+n+1 }}{n} &= \sqrt{ n^2\left( 1+\frac{1}{n} \right) +\frac{1}{n^2}}
+\lim_{ n \to \infty } \frac{\sqrt{ n^2+n+1 }}{n} &= \lim_{ n \to \infty } \frac{\sqrt{ n^2\left( 1+\frac{1}{n} +\frac{1}{n^2}\right) }}{n} \\
+&= \lim_{ n \to \infty } \frac{\cancel{ n} \sqrt{ 1+\frac{1}{n} + \frac{1}{n^2} }}{\cancel{ n }} \\
+&= \sqrt{ 1 } = 1
 \end{align}
 $$
+
+
+
 
 ### (2)
 Em
