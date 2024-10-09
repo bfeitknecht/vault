@@ -69,7 +69,7 @@ $$
 
 
 
-$M=(Q, \Pi, \delta, q_{0}, F)$, where $Q=\{ q_{0}, q_{1}, q_{2} \}$, $\Pi = \{ uv \mid \}$
+$M=(Q, \Pi, \delta, q_{0}, F)$, where $Q=\{ q_{0}, q_{1}, q_{2} \}$, $\Pi = \Sigma^2 \setminus \{ aa, bb\}$ and $F=\{ q_{2} \}$. 
 
 ```mermaid
 flowchart LR
