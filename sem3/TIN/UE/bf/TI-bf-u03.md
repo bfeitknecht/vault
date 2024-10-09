@@ -69,7 +69,7 @@ $$
 
 
 
-$M=(Q, \Pi, \delta, q_{0}, F)$, where $Q=\{ q_{0}, q_{1}, q_{2} \}$, $\Pi = \Sigma^2 \setminus \{ aa, bb\}$ and $F=\{ q_{2} \}$. 
+$M=(Q, \Pi, \delta, q_{0}, F)$, where $Q=\{ q_{0}, q_{1}, q_{2} \}$, $\Pi = \Sigma^2 - \{ aa, bb\}$ and $F=\{ q_{2} \}$. 
 
 ```mermaid
 flowchart LR
@@ -91,6 +91,8 @@ q0 -->|"ba"| q0
 
 q2 -->|"ab, ba"| q2
 ```
+
+salüü, dörf me so öpis mache, aka. en EA wo e sprach L söt erkenne definiere mitnem input alphabet us wörter vum alphabet vu dr sprach L
 
 
 ## (b)
