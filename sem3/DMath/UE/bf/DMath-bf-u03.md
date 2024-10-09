@@ -15,7 +15,7 @@ $$
 $$
 \begin{align}
 p \implies 1 \mid p \wedge p \mid p  \\
-\forall p(1 \mid p \wedge p \mid p)
+\forall x( \texttt{prime}(x) \to (1 \mid p \wedge p \mid p))
 \end{align}
 $$
 ## iii)
