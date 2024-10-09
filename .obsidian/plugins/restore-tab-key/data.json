@@ -20,9 +20,9 @@
   "braceMarkdownSetClose": "[\"^\\\\}\", \"^\\\\]\", \"^\\\\)\", \"^\\\"\", \"^'\", \"^\\\\$\\\\$\", \"^<\\\\/\\\\w+>\", \"^!\", \"^?\"]",
   "indentCharacters": " \t",
   "activateInCodeBlocks": true,
-  "activateInLists": false,
-  "activateInTables": false,
-  "activateInInlineCode": false,
-  "activateInOthers": false,
+  "activateInLists": true,
+  "activateInTables": true,
+  "activateInInlineCode": true,
+  "activateInOthers": true,
   "activateOnlyOnCodeBlocks": false
 }
