@@ -37,6 +37,11 @@ Prove the following statements.
 
 ### (1)
 Let $f : n \mapsto \sqrt{ n^2 +n +1 }$ and $g : n\mapsto n$. Per definition of $\Theta$ we will show, that $f \leq O(g)$ and $g \leq O(f)$.
+$$
+\begin{align}
+\lim_{ n \to \infty } \frac{\sqrt{ n^2+n+1 }}{n} &= \sqrt{ n^2\left( 1+\frac{1}{n} \right) +\frac{1}{n^2}}
+\end{align}
+$$
 
 ### (2)
 Em
