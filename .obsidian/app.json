@@ -7,5 +7,5 @@
   "attachmentFolderPath": "var/attachments",
   "propertiesInDocument": "source",
   "strictLineBreaks": true,
-  "showRibbon": false
+  "showRibbon": true
 }
