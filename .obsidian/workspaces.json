@@ -241,7 +241,8 @@
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -391,7 +392,7 @@
         }
       },
       "active": "4a586b919d13321c",
-      "mtime": "2024-10-09T13:24:47+02:00"
+      "mtime": "2024-10-09T15:51:34+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -415,12 +416,12 @@
                 }
               },
               {
-                "id": "f1e7fa6d7ed788e7",
+                "id": "091bc098d8264be2",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w02.md",
+                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w04.md",
                     "mode": "source",
                     "source": false
                   }
@@ -439,31 +440,39 @@
                 }
               },
               {
-                "id": "545c4fe2911597d7",
+                "id": "97f460969ba12f8e",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/algorithm.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "ca607d9c5a6e5678",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u02.md",
+                    "file": "sem3/A&D/UE/bf/A&D-bf-u03.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
+          },
+          {
+            "id": "15a48b386ddaf1c5",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a4d631a275a91a55",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/A&D/UE/e/A&D-e-u03.pdf",
+                    "page": 1,
+                    "left": -18,
+                    "top": 622,
+                    "zoom": 0.874384319206553
+                  }
+                }
+              }
+            ]
           }
         ],
         "direction": "vertical"
@@ -515,7 +524,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u02.md"
+                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w04.md"
                   }
                 }
               }
@@ -523,7 +532,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 223.5,
+        "width": 261.5,
         "collapsed": true
       },
       "right": {
@@ -540,7 +549,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u02.md",
+                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w04.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -557,7 +566,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u02.md",
+                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w04.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -588,7 +597,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
@@ -612,8 +621,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "ca607d9c5a6e5678",
-      "mtime": "2024-10-07T13:27:57+02:00"
+      "active": "091bc098d8264be2",
+      "mtime": "2024-10-09T15:37:33+02:00"
     },
     "sem3-dmath": {
       "main": {

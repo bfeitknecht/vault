@@ -1,2 +1,4 @@
 
+- [[dynamic programming]]
+- [[asymptotic analyis]]
 - 
