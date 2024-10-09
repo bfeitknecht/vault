@@ -69,6 +69,7 @@ $$
 
 
 
+$M=(Q, \Pi, \delta, q_{0}, F)$, where $Q=\{ q_{0}, q_{1}, q_{2} \}$, $\Pi = \{ uv \mid \}$
 
 ```mermaid
 flowchart LR
@@ -78,18 +79,17 @@ classDef hidden display: none;
 S:::hidden
 q0((q0))
 q1((q1))
-q2((q2))
-q3((q3))
+q2(((q2)))
 
-S --> q22
+S --> q0
 
 q1 -->|"ab"| q1
-q1 -->|"ba"| q3
+q1 -->|"ba"| q2
 
-q22 -->|"ab"| q1
-q22 -->|"ba"| q22
+q0 -->|"ab"| q1
+q0 -->|"ba"| q0
 
-q3 -->|"ab, ba"| q3
+q2 -->|"ab, ba"| q2
 ```
 
 
@@ -97,7 +97,7 @@ q3 -->|"ab, ba"| q3
 
 Informally, this language $L_{2}$ describes all words that contain a different parity amount of $a$ and $b$. This implies that all words in $L_{2}$ have odd length, since the sum of an even and odd number is itself odd.
 
-Formally, we define a finite automaton $M_{2} = ( Q, \Sigma, \delta, q_{0}, F )$, where $Q=\{ q_{0}, q_{1} \}$, $\Sigma=\{ a, b \}$ and $F=\{ q_{1} \}$. The transition function is defined for $(p, x) \in Q \times \Sigma$.
+Formally, we define a finite automaton $M = ( Q, \Sigma, \delta, q_{0}, F )$, where $Q=\{ q_{0}, q_{1} \}$, $\Sigma=\{ a, b \}$ and $F=\{ q_{1} \}$. The transition function is defined for $(p, x) \in Q \times \Sigma$.
 $$
 \delta(p, x) = \begin{cases}
 q_{1}, &\text{if $p=q_{0}$} \\
