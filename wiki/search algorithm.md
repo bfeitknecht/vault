@@ -1,6 +1,6 @@
 #todo 
 
-A **search algorithm** is an [[algorithm]] designed to solve a [[search problem]], i.e. to retrieve information stored within particular [[data structure]], or calculated in the search space of a problem domain, with either discrete or continuous values.
+A **search algorithm** is an [[algorithm]] designed to solve a [[search problem]], i.e. to retrieve information stored within particular [[data structure]], or calculated in the search space of a problem domain, with either discrete or continuous values. The lower bound for searching is 
 
 # Examples
 
@@ -20,4 +20,9 @@ end
 
 ## Binary Search
 
-If our data structure implements some sort of comparison, i.e. a [[partial order relation]], we can use *binary search*. This is a [[divide and conquer]]
+If our data structure implements some sort of comparison, i.e. a [[partial order relation]], we can use *binary search*. This is a [[divide and conquer]] algorithm, that iteratively splits up the workload, halving it in each step.
+```
+begin
+    
+end
+```
