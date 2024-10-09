@@ -1,7 +1,9 @@
 
-Basil Feitknecht 23-922-099 
-Alex Vance 24-943-763
+Basil Feitknecht, 23-922-099,
+Alex Vance, 24-943-763
 
+
+![[A&D-e-u03.pdf#page=1&rect=63,278,526,504|A&D-e-u03, p.1]]
 
 ![[A&D-e-u03.pdf#page=1&rect=65,151,522,247|A&D-e-u03, p.1]]
 
@@ -15,13 +17,13 @@ Prove or disprove the following statements. Justify your answer.
 ![[A&D-e-u03.pdf#page=2&rect=85,688,526,774|A&D-e-u03, p.2]]
 
 ### (1)
-B
+false, $f \not\leq O(g)$.
 
 ### (2)
 Em
 
 ### (3)
-B
+True, constants don't matter.
 
 ### (4)
 Em
