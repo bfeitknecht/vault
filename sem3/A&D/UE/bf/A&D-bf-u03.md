@@ -34,16 +34,13 @@ Prove the following statements.
 ![[A&D-e-u03.pdf#page=2&rect=86,556,530,669|A&D-e-u03, p.2]]
 
 ### (1)
-B
-
-Let $f(n)=\sqrt{ n^2 +n +1 }$ and $g : \to$
-We will show, that 
+Let $f : n \mapsto \sqrt{ n^2 +n +1 }$ and $g : n\mapsto n$. Per definition of $\Theta$ we will show, that $f \leq O(g)$ and $g \leq O(f)$.
 
 ### (2)
 Em
 
 ### (3)
-B
+Let $f : n \mapsto \log(n^2 + n)$ and $g : n\mapsto \log(n+1)$. Per definition of $\Theta$ we will show, that $f \leq O(g)$ and $g \leq O(f)$.
 
 
 <div class="page-break" style="page-break-before: always;"></div>
