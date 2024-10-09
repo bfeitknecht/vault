@@ -9,7 +9,6 @@
   "obsidian-advanced-uri",
   "folders2graph",
   "obsidian-hider",
-  "obsidian-latex-suite",
   "pdf-plus",
   "persistent-graph",
   "plugin-reloader",
@@ -31,5 +30,6 @@
   "obsidian-toggl-integration",
   "obsidian-cursor-location-plugin",
   "obsidian-git",
-  "open-in-new-tab"
+  "open-in-new-tab",
+  "obsidian-latex-suite"
 ]
