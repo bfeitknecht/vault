@@ -30,7 +30,11 @@ $$
 ## iv)
 ![[DMath-e-u03.pdf#page=1&rect=107,172,524,204|DMath-e-u03, p.1]]
 $$
-\forall n, m((p \mid n\cdot m) ↔ (p \mid n \vee p \mid m))
+\begin{align} \\
+\texttt{prime}(x) \wedge x \mid n \cdot m \iff \texttt{prime}(x) \wedge (x \mid n \vee x \mid m) \\
+\forall x \ \texttt{prime}(x) ()\\
+n, m((p \mid n\cdot m) ↔ (p \mid n \vee p \mid m))
+\end{align}
 $$
 
 # 3.8
