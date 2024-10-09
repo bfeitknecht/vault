@@ -152,3 +152,7 @@ comment
 > - style settings
 
 
+>[!info]- toggl hide ugly big header
+> - delete div `<div class="css-1a5pxsz-TopResponsiveBarContainer e2h8eq20">` 
+> - disable `:root { --top-responsive-bar-height: 80px; }`
+

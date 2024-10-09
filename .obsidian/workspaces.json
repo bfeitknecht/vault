@@ -1082,35 +1082,62 @@
                 }
               },
               {
-                "id": "99f907c76ceff051",
+                "id": "09ac32ba79310e4e",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w02.md",
+                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w03.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "6d966ca6a9b4ac07",
+                "id": "a594b79b7c65a4d2",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w02.pdf",
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w03.pdf",
+                    "page": 4,
+                    "left": -18,
+                    "top": 287,
+                    "zoom": 0.8774509803921569
+                  }
+                }
+              },
+              {
+                "id": "deda5522988f046a",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/LinAlg/UE/e/LinAlg-e-u03.pdf",
                     "page": 1,
                     "zoom": 1
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "740ad403278fbd52",
             "type": "tabs",
             "children": [
+              {
+                "id": "4c59b76160ee4ce7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/LinAlg/UE/bf/LinAlg-bf-u03.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
               {
                 "id": "f22c4367709f2321",
                 "type": "leaf",
@@ -1118,18 +1145,6 @@
                   "type": "markdown",
                   "state": {
                     "file": "wiki/vector.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "22481eadd76644aa",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/outer product.md",
                     "mode": "source",
                     "source": false
                   }
@@ -1148,24 +1163,12 @@
                 }
               },
               {
-                "id": "78a86db3472ea2bf",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/row and column vectors.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "24d8c03927088155",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/outer product.md",
+                    "file": "wiki/linear transformation.md",
                     "mode": "source",
                     "source": false
                   }
@@ -1223,7 +1226,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/vector.md"
+                    "file": "sem3/LinAlg/UE/bf/LinAlg-bf-u03.md"
                   }
                 }
               }
@@ -1248,7 +1251,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/vector.md",
+                    "file": "sem3/LinAlg/UE/bf/LinAlg-bf-u03.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1265,7 +1268,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/vector.md",
+                    "file": "sem3/LinAlg/UE/bf/LinAlg-bf-u03.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1320,8 +1323,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "f22c4367709f2321",
-      "mtime": "2024-10-08T12:48:02+02:00"
+      "active": "4c59b76160ee4ce7",
+      "mtime": "2024-10-09T11:47:16+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1569,5 +1572,5 @@
       "mtime": "2024-10-08T16:18:55+02:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "00-home"
 }
