@@ -31,27 +31,23 @@ q0((q0))
 q1((q1))
 q2((q2))
 q3((q3))
-q4((q4))
-q5(((q5)))
+q4(((q4)))
 
 S --> q0
 
-q0 -->|"a"| q1
-q0 -->|"b"| q2
-
 q1 -->|"a"| q1
-q1 -->|"b"| q3
+q1 -->|"b"| q2
+
+q0 -->|"a"| q1
+q0 -->|"b"| q0
 
 q2 -->|"a"| q1
-q2 -->|"b"| q2
+q2 -->|"b"| q3
 
-q3 -->|"a"| q1
-q3 -->|"b"| q4
+q3 -->|"a"| q4
+q3 -->|"b"| q0
 
-q4 -->|"a"| q5
-q4 -->|"b"| q2
-
-q5 -->|"a, b"| q5
+q4 -->|"a, b"| q4
 
 ```
 
@@ -66,6 +62,8 @@ $$
 \mathrm{Kl}[q_{5}] &= \{ yabbaz \mid y, z \in  \Sigma^* \}
 \end{align}
 $$
+
+
 
 
 
@@ -154,7 +152,7 @@ $$
 \mathrm{Kl}[q_{1}] &= \{ a^n \mid n \in \mathbb N, n \equiv_{2}1 \} \\
 \mathrm{Kl}[q_{2}] &= \{ (aa)^nb^m \mid n, m \in \mathbb N , m\equiv_{2}1\} \\
 \mathrm{Kl}[q_{3}] &= \{ (aa)^n(bb)^m \mid n,m \in \mathbb N, m\geq1 \} \\
-\mathrm{Kl}[q_{4}] &= \Sigma^* \setminus \bigcup_{q_{4}\neq p \in Q} \mathrm{Kl}[q_{i}]
+\mathrm{Kl}[q_{4}] &= \Sigma^* - \bigcup_{q_{4}\neq p \in Q} \mathrm{Kl}[p]
 \end{align}
 $$
 
