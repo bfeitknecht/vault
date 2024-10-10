@@ -20,7 +20,9 @@ Let $P$ be a program that takes some $i \in \mathbb{N}^+$ and generates the $i$-
 begin
 	N := i;
 	for x = 1 to N;
-	   P(x);
+	   p := P(x);
+	   write(p);
+	   
 end
 ```
 
