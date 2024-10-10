@@ -66,7 +66,7 @@ $$
 
 
 
-$M=(Q, \Pi, \delta, q_{0}, F)$, where $Q=\{ q_{0}, q_{1}, q_{2} \}$, $\Pi = \Sigma^2 - \{ aa, bb\}$ and $F=\{ q_{2} \}$. 
+$M=(Q, \Pi, \delta, q_{0}, F)$, where $Q=\{ q_{0}, q_{1}, q_{2} \}$ is the set of states, $\Pi = \Sigma^2 - \{ aa, bb\}$ and $F=\{ q_{2} \}$. 
 
 ```mermaid
 flowchart LR
