@@ -17,7 +17,7 @@ Prove or disprove the following statements. Justify your answer.
 ![[A&D-e-u03.pdf#page=2&rect=85,688,526,774|A&D-e-u03, p.2]]
 
 ### (1)
-False, let $f(n) =3n^5+5n^3$ and $g(n)=4n^4$. We will show that $f \neq \Theta(g)$. Since the highest power in
+False, let $f(n) =3n^5+5n^3$ and $g(n)=4n^4$. We will show that $f \neq \Theta(g)$. Since the highest power dominates the term
 $$
 \begin{align}
 \lim_{ n \to \infty }  \frac{f(n)}{g(n)} &= \lim_{ n \to \infty } \frac{3n^5 + 5n^3}{4n^4} \\
