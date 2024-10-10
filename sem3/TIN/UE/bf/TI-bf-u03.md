@@ -11,11 +11,11 @@ Dennis Küenzi, 21-559-315
 > $\lim_{ n \to \infty} \frac{\mathrm{Prim}(n)}{n /\ln n} =1$
 
 
-The idea of the proof is, that as $N \to \infty$ the number of primes up to $N$ that are not random approaches infinity.
+The idea of the proof is, that for some $N \in \mathbb{N}$, the number of primes up to $N$ that are not random approaches infinity as $N \to \infty$.
 
 Proof by contradiction. Let's assume for the sake of it that there is an infinite amount of random prime numbers.
 
-Let $P$ be a program that takes some $i \in \mathbb{N}^+$ and generates the $i$-th prime number. Now we'll construct a program $Q_{n}$ for every $n \in \mathbb{N}^+$ that generates all primes up to $n$. Since $n$ is the only variable part in $Q_{n}$, it can be upperbounded by $\log_2(i)+c$.
+Let $P$ be a program that takes some $i \in \mathbb{N}^+$ and generates the $i$-th prime number. Now we'll construct a program $Q_{n}$ for every $n \in \mathbb{N}^+$ that generates all primes up to $n$. Since $n$ is the only variable part in $Q_{n}$, its kolmogorov complexity is at most $\log_2(n)+c$.
 ```pascal
 begin
 	N := i;
