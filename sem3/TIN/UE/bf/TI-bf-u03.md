@@ -8,12 +8,16 @@ Dennis Küenzi, 21-559-315
 > A number $n$ in binary representation is called *random* if $K(n) \geq \lceil \log_{2} (n+1) \rceil -1$.
 > 
 > **Prime Number Theorem**
-> $\lim_{ n \to \infty} \frac{\mathrm{Prim}(n)}{n /\ln n} =1$
+> $\lim_{ n \to \infty} \frac{\mathrm{Prim}(n)}{n /\ln n} =1$, which can be strengthened for all $n\geq 67$ to
+> $\ln(n)-\frac{3}{2} \frac{<n}{\mathrm{Prin}(n)}< \ln(n)-\frac{1}{2}$
+
 
 
 The idea of the proof is, that for some $N \in \mathbb{N}$, the number of primes up to $N$ that are not random approaches infinity as $N \to \infty$.
 
-Proof by contradiction. Let's assume there is an infinite amount of random primes.
+Proof by contradiction. Let $P$ 
+
+Let's assume there is an infinite amount of random primes.
 
 Let $P$ be a program that takes some $i \in \mathbb{N}^+$ and generates the $i$-th prime number. Now we'll construct a program $Q_{n}$ for every $n \in \mathbb{N}^+$ that generates the primes up to $n$. Since $n$ is the only variable part in $Q_{n}$, its kolmogorov complexity is at most $\log_2(n)+c$.
 ```pascal
