@@ -17,7 +17,17 @@ Prove or disprove the following statements. Justify your answer.
 ![[A&D-e-u03.pdf#page=2&rect=85,688,526,774|A&D-e-u03, p.2]]
 
 ### (1)
-false, $f \not\leq O(g)$.
+False, let $f(n) =3n^5+5n^3$ and $g(n)=4n^4$. We will show that $f \neq \Theta(g)$. Since the highest power in
+$$
+\begin{align}
+\lim_{ n \to \infty }  \frac{f(n)}{g(n)} &= \lim_{ n \to \infty } \frac{3n^5 + 5n^3}{4n^4} \\
+&= \lim_{ n \to \infty } \frac{\cancel{ n^4 }\left( 3n + \frac{5}{n} \right)}{4\cancel{ n^4 }} \\
+&= \lim_{ n \to \infty } \frac{3n}{4} \\
+&= \infty
+\end{align}
+$$
+$\square$
+
 
 ### (2)
 Em
@@ -51,19 +61,18 @@ $\square$
 Em
 
 ### (3)
-Let $f : n \mapsto \log(n^2 + n)$ and $g : n\mapsto \log(n+1)$. Per definition of $\Theta$ we will show, that $f \leq O(g)$ and $g \leq O(f)$.
-
+Let $f(n)=\log(n^2 + n)$ and $g(n) =\log(n+1)$. We will show that $\lim_{ n \to \infty } \frac{f(n)}{g(n)} =C \in \mathbb{R}^+$ and thus $f = \Theta(g)$.
 $$
 \begin{align}
 \lim_{ n \to \infty } \frac{f(n)}{g(n)} &= \lim_{ n \to \infty } \frac{\log(n^2 +n)}{\log (n+1)} \\
 &= \lim_{ n \to \infty } \frac{\log (n) + \log(n+1)}{\log(n+1)} &\text{(l'Hôpital)}\\
 &= \lim_{ n \to \infty } \frac{\frac{1}{n}+\frac{1}{n+1}}{\frac{1}{n+1}}  \\
-&= \lim_{ n \to \infty } \left( \frac{1}{n} +\frac{1}{n+1} \right) \cdot (n+1) \\
-&= \lim_{ n \to \infty } \frac{n+1}{n} + 1\\
-&= \lim_{ n \to \infty } \frac{(n+1)^2 +n+1}{n+1}  = \lim_{ n \to \infty } \frac{n^2 +3n+2}{n+1} 
+&= \lim_{ n \to \infty } \left( \frac{1}{n} +\frac{1}{n+1} \right) \cdot (n+1) = \lim_{ n \to \infty } \left(\frac{n+1}{n} + 1 \right) \\
+&= \lim_{ n \to \infty } \frac{2n+1}{n} &\text{(l'Hôpital)} \\
+&= 2 \\
 \end{align}
 $$
-
+$\square$
 
 <div class="page-break" style="page-break-before: always;"></div>
 
