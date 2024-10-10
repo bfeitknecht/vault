@@ -1,4 +1,3 @@
-
 Basil Feitknecht, 23-922-099
 Camil Schmid, 23-944-234
 Dennis Küenzi, 21-559-315
@@ -10,7 +9,6 @@ Dennis Küenzi, 21-559-315
 > 
 > **Prime Number Theorem**
 > $\lim_{ n \to \infty} \frac{\mathrm{Prim}(n)}{n /\ln n} =1$
-
 
 Proof by contradiction. Let's assume for the sake of it that there is an infinite amount of random prime numbers.
 
@@ -29,50 +27,6 @@ The Prime Number Theorem states that the index $n$ of any prime number $p$ is at
 
 Since $c$ must be finite, we have arrived at a contradiction which implies that the ratio of random primes to primes up to $n$ approaches zero as n approaches infinity, i.e. there are at most a finite amount of random primes per definition 2.19.
 $\square$
-
-
-
-
-Since $\log_2 (p)$ grows faster than $\log_2(p /\ln p)$ our constant $c$ can become infinitly larger for large prime numbers. 
-Since $c$ can't go to infinity at some point  $log_2(n)+c < n /\ln n$ creating an upperbount to all possible random primes, making them finite.
-
-
-
-Lets proove this by creating a program $P$ that takes any number $i \in \mathbb N$ and prints the i-th prime number.
-
-With program P we define following programms $Q_i$ for every $i \in \mathbb N$:
-```pascal
-begin
-	x := i;
-	P(x);
-end
-```
-Since $i$ is the only variable part all progamms can be upperbounded by $log_2(i)+c$.
-
-The Prime Number Theorem states that the index $i$ of any prime $p$ is at most $p /\ln p$ but its lenght is still $\log_2 p$.
-
-Since $\log_2 (p)$ grows faster than $\log_2(p /\ln p)$ our constant $c$ can become infinitly larger for large prime numbers. 
-Since $c$ can't go to infinity at some point  $log_2(n)+c < n /\ln n$ creating an upperbount to all possible random primes, making them finite.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div class="page-break" style="page-break-before: always;"></div>
 
