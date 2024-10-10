@@ -11,13 +11,15 @@ A *configuration* of $M$ is a [[tuple]] of *state* $q$ and *input word* $w$ in t
 
 A configuration $(q_{0}, x)\in \{q_{0}\} \times\Sigma^*$ is called *initial configuration* of $M$ on $x$. Every configuration $(q, \lambda) \in Q\times \{\lambda \}$ is called an *end configuration*.
 
-The *state transition function* $\delta$ takes $M$ from state $q$ to $p$, depending on the suffix $x$ of the input word $w$.
+The *state transition function* defined the behavior between states depending
+
+$\delta(q, x)=p$ takes $M$ from state $q$ to $p$, if it reads the suffix $x$ of the input word $w$.
 
 A *step* of $M$ is a [[relation]] on configurations, $\step{M} \subseteq (Q\times\Sigma^*)\times(Q\times\Sigma^*)$, defined by
 $(q, w) \step{M} (p, x) \iff w=ax, a \in \Sigma$, where $\delta(q, a) = p$. A step corresponds to evaluating the transition function on the current configuration of $M$ (meaning it's in state $q$ and reads the input symbol $a$), resulting in a transition to state $p$.
 
 A *computation* $C$ of $M$ is a finite [[sequence]] of steps $C=(C_{i})_{i=0}^n$ between configurations, where $C_{i}\step{M}C_{i+1},\forall i\in[n-1]$.
-We call $C$ a computation of $M$ *on the input* $x\in\Sigma^*$ if $C_{0}=(q_{0},x)$ and $Q_{n}\in Q \times \{\lambda\}$ is an end configuration.
+We call $C$ a computation of $M$ *on the input* $x\in\Sigma^*$ if $C_{0}=(q_{0},x)$ and $C_{n}\in Q \times \{\lambda\}$ is an end configuration.
 If $C_{n}\in F\times\{\lambda\}$ we say that $C$ is an *accepting computation* of $M$ on $x$ and that $M$ *accepts* the word $x$. In the case that $C_{n}\in (Q-F) \times\{\lambda\}$ we say that $C$ is a *rejecting* computation of $M$ on $x$ and that $M$ *rejects* (doesn't accept) the word $x$.
 
 It's noted that $M$ has exactly one computation for every input $x\in\Sigma^*$.
