@@ -39,58 +39,16 @@ $$
 # 3.8
 ![[DMath-e-u03.pdf#page=3&rect=77,576,525,687|DMath-e-u03, p.3]]
 
-Let $I \overset{ \text{def.} }{ \iff } S \to T$ be the statement to prove, where $S \overset{ \text{def.} }{ = } (n \mid m) \wedge (n \mid m+1)$ and $T \overset{ \text{def.} }{ = } n=1$. Namely $I$ states, that for arbitrary $n, m \in \mathbb{N}$, if $n$ divides $m$ and $m+1$, then $n$ must be equal to one.
+Let $I \overset{ \text{def.} }{ \iff } S \to T$ be the statement to prove, where $S \overset{ \text{def.} }{ \iff } (n \mid m) \wedge (n \mid m+1)$ and $T \overset{ \text{def.} }{ \iff } n=1$. Namely $I$ states, that for arbitrary $n, m \in \mathbb{N}$, if $n$ divides $m$ and $m+1$, then $n$ must be equal to one.
 
 For the sake of contradiction, let's assume $I$ is false, i.e. $\neg (S \to T) \equiv S \wedge \neg T$.
 $$
 \begin{align}
-S &\overset{ \cdot }{ \iff } (n \mid m) \wedge (n \mid m+1) \\
-&\overset{ \cdot }{ \iff } \exists k,l(k\cdot n=m \wedge l\cdot n=m+1) &\text{(definition of $\texttt{divides}$)}
+S &\overset{ \cdot }{ \iff } (n \mid m) \wedge (n \mid m+1) &\text{(definition of $\texttt{divides}$)} \\
+&\overset{ \cdot }{ \iff } \exists k,l(k\cdot n=m \wedge l\cdot n=m+1) &\text{(substitute)} \\
 
 \end{align}
 $$
 
 
 
-
-
-
-
-
-
-
-Let $S$ be the statement to prove, written in predicate logic $S \overset{ \text{def.} }{ \iff } \forall n \big( (n \mid m) \wedge (n \mid (m+1)) \to n=1 \big)$.
-
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%
-
-
-
-
-
-
-
-
-Let $S$ be the left hand side of the statement, written as a formula in predicate logic $S \overset{ \text{def.} }{ \iff } \exists n \big(n \mid m \wedge n \mid (m+1)\big)$ and let $T$ be the right hand side, $T \overset{ \text{def.} }{ \iff } n=1$. 
-Let $I$ be the statement to prove, $S \implies T$. From the script we know that $I$ is false if and only if $S$ is true and $T$ is false.
-
-For the sake of contradiction, let's assume that is the case, i.e. $S$ is true and $T$ is false.
-$$
-\begin{align}
-S &\overset{ \text{def.} }{ \iff } \exists n \big( (n \mid m) \wedge (n \mid (m+1)) \big) &\text{(definition of $\texttt{divides}$)} \\
-&\overset{ \cdot }{ \iff } \exists m \exists k \exists l( k\cdot n=m \wedge l\cdot n=m+1) &\text{()} \\
-&\overset{ \cdot }{ \iff } \exists m \exists k \exists l( k\cdot n=m \wedge l\cdot n=(k\cdot n)+1) &\text{()} \\
-\end{align}
-$$
-
-
-n divides two adjacent numbers but n is not 1
-
-n divides m and n divides m plus one implies n is equal to one
-
-
-$\forall n \exists m(n\cdot m=1 \to n=1)$
-The statement S =⇒ T is false if S is true and T is false, and in all other three cases, S =⇒ T is true.
