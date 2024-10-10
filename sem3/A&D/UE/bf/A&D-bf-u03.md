@@ -55,7 +55,8 @@ Let $f : n \mapsto \log(n^2 + n)$ and $g : n\mapsto \log(n+1)$. Per definition o
 
 $$
 \begin{align}
-\lim_{ n \to \infty } \frac{f(n)}{g(n)} &= \log(n^2 +n)
+\lim_{ n \to \infty } \frac{f(n)}{g(n)} &= \lim_{ n \to \infty } \frac{\log(n^2 +n)}{\log (n+1)} \\
+&= \lim_{ n \to \infty } \frac{\log (n) + \log(n+1)}{\log(n+1)}
 \end{align}
 $$
 
