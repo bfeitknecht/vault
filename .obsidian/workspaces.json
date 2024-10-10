@@ -1431,7 +1431,9 @@
                   "state": {
                     "file": "sem3/TIN/UE/e/TI-e-u03.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -15,
+                    "top": 723,
+                    "zoom": 0.9839973390494495
                   }
                 }
               },
@@ -1442,8 +1444,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 56,
+                    "left": -12,
+                    "top": 228,
+                    "zoom": 1.2299987400781152
                   }
                 }
               },
@@ -1610,8 +1614,8 @@
         }
       },
       "active": "6f3d27397d4deeae",
-      "mtime": "2024-10-10T18:38:01+02:00"
+      "mtime": "2024-10-10T19:42:44+02:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "00-clean"
 }

@@ -22,3 +22,7 @@ last page feedback qr code
 
 
 
+$$
+(q, w) \step{M} (p, v)
+$$
+
