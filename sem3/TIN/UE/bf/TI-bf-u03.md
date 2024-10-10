@@ -69,7 +69,7 @@ $\square$
 
 ## (b)
 
-Informally, this language $L_{2}$ describes all words that contain a different parity amount of $a$ and $b$. This implies that all words in $L_{2}$ have odd length, since the sum of an even and odd number is itself odd.
+Informally, this language $L_{2}$ describes all words that contain a different parity amount of $a$ and $b$. This implies that all words in $L_{2}$ have odd length, since the sum of an even and odd number is, again odd.
 
 Formally, we define a finite automaton $M = ( Q, \Sigma, \delta, q_{0}, F )$, where $Q=\{ q_{0}, q_{1} \}$, $\Sigma=\{ a, b \}$ and $F=\{ q_{1} \}$. The transition function is defined for $(p, x) \in Q \times \Sigma$.
 $$
@@ -99,15 +99,15 @@ q1 -->|"a"| q0
 q1 -->|"b"| q0
 ```
 
-The equivalence classes of $M_{2}$ are all words with different parities of $a$ and $b$ and equal parities of $a$ and $b$, respectively.
+The equivalence classes of $M_{2}$ are all words with equal parity occurrences of $a$ and $b$, and different parity occurrences of $a$ and $b$, respectively.
 $$
 \begin{align}
-\mathrm{Kl}[q_{0}] &= \{ w \in \Sigma^* \mid |w|_{a} \not\equiv_{2} |w|_{b} \} \\
-\mathrm{Kl}[q_{1}] &= \{ w \in \Sigma^* \mid |w|_{a} \equiv_{2} |w|_{b}  \}
+\mathrm{Kl}[q_{0}] &= \{ w \in \Sigma^* \mid |w|_{a} \equiv_{2} |w|_{b} \} \\
+\mathrm{Kl}[q_{1}] &= \{ w \in \Sigma^* \mid |w|_{a} \not\equiv_{2} |w|_{b}  \}
 \end{align}
 $$
 
-In particular one notes, that all words of odd length are in $\mathrm{Kl}[q_{0}]$ and all words of even length are in $\mathrm{Kl}[q_{1}]$.
+In particular one notes, that all words of even length are in $\mathrm{Kl}[q_{0}]$ and all words of odd length are in $\mathrm{Kl}[q_{1}]$.
 $\square$
 
 
