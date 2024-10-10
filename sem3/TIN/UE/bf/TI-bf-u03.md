@@ -20,8 +20,10 @@ Dennis Küenzi, 21-559-315
 
 ## (a)
 
-Let's construct a finite automaton $M$ that accepts
-The graph representation of $M$ that produces $L_{1}$, i.e. $L(M)=L_{1}$ is
+We will construct a finite automaton that accepts $L_{1}$, i.e. $L(M)=L_{1}$.
+Let $M=(Q, \Sigma, \delta, q_{0}, F)$, where $Q=\{ q_{0}, q_{1}, q_{2}, q_{3}, q_{4} \}$ is the set of all states, $\Sigma = \{ a,b\}$ is the input alphabet, and $F=\{ q_{4} \}$ is the set of accepted states. 
+
+The graph representation of $M$ follows.
 ```mermaid
 flowchart LR
 
@@ -53,6 +55,7 @@ q4 -->|"a, b"| q4
 ```
 
 
+The equivalence classes of the states is given by 
 $$
 \begin{align}
 \mathrm{Kl}[q_{0}] &= \Sigma^* - \bigcup_{q_{0}\neq p \in Q} \mathrm{Kl}[p]  \\
