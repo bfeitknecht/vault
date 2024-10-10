@@ -28,7 +28,7 @@ end
 ```
 
 
-The Prime Number Theorem states that the index $i$ of any prime number $p_{i}$ is at most $p_{i} /\ln (p_{i})$ but its length in binary encoding is bounded by $\log_2 (p_{i})$. Since the $i$-th prime number's kolmogorov complexity, $\log_2 (p_{i})$, grows asymptotically faster than $\log_2(p /\ln(p) )$ our constant $c$ gets infinitely large as we approach $n\to \infty$.
+The Prime Number Theorem states that the index $i$ of any prime number $p_{i}$ is at most $p_{i} /\ln (p_{i})$ but its length in binary encoding is bounded by $\log_2 (p_{i})$. Since the $i$-th prime number's kolmogorov complexity, $\log_2 (p_{i})$, grows asymptotically faster than kolmogorov complexity  $\log_2(p /\ln(p) )$ our constant $c$ gets infinitely large as we approach $n\to \infty$.
 
 Since $c$ must be finite, we have arrived at a contradiction which implies that the ratio of random primes to primes up to $n$ approaches zero as n approaches infinity, i.e. there are at most a finite amount of random primes per definition 2.19.
 $\square$
