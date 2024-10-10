@@ -55,7 +55,7 @@ Let $S$ be the statement to prove, written in predicate logic $S \overset{ \text
 
 
 Let $S$ be the left hand side of the statement, written as a formula in predicate logic $S \overset{ \text{def.} }{ \iff } \exists n \big(n \mid m \wedge n \mid (m+1)\big)$ and let $T$ be the right hand side, $T \overset{ \text{def.} }{ \iff } n=1$. 
-Let $U$ be the statement to prove, $S \implies T$. From the script we know that $U$, which we defined as $S \implies T$ is false if and only if $S$ is true and $T$ is false.
+Let $I$ be the statement to prove, $S \implies T$. From the script we know that $I$ is false if and only if $S$ is true and $T$ is false.
 
 For the sake of contradiction, let's assume that is the case, i.e. $S$ is true and $T$ is false.
 $$
