@@ -71,4 +71,5 @@ Em
 ![[A&D-e-u03.pdf#page=4&rect=65,612,533,775|A&D-e-u03, p.4]]
 
 The exact number of calls to the function $f$ is given by $\sum_{i=1}^{2n} \sum_{j=1}^{i^3} n$.
- 
+
+ $n \cdot \sum_{i=1}^{2n}i^3=$
