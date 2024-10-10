@@ -243,8 +243,7 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -295,9 +294,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "HOME.md"
-                  }
+                  "state": {}
                 }
               }
             ]
@@ -321,7 +318,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -338,7 +334,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -393,8 +388,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "4a586b919d13321c",
-      "mtime": "2024-10-09T22:20:34+02:00"
+      "active": "a32f2b17e7352064",
+      "mtime": "2024-10-10T10:43:57+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1399,7 +1394,9 @@
                   "state": {
                     "file": "sem3/TIN/UE/e/TI-e-u03.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -18,
+                    "top": 846,
+                    "zoom": 0.8743843192065531
                   }
                 }
               },
@@ -1410,9 +1407,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
-                    "page": 83,
+                    "page": 66,
                     "left": -14,
-                    "top": 296,
+                    "top": 348,
                     "zoom": 1.0929822351014236
                   }
                 }
@@ -1482,7 +1479,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/TIN/UE/bf/TI-bf-u03.md"
+                    "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf"
                   }
                 }
               }
@@ -1507,7 +1504,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/TIN/UE/bf/TI-bf-u03.md",
+                    "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1524,7 +1521,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/TIN/UE/bf/TI-bf-u03.md",
+                    "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1579,8 +1576,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "42228644c5b108e2",
-      "mtime": "2024-10-09T21:43:35+02:00"
+      "active": "863aa1cf19e4e3a1",
+      "mtime": "2024-10-10T10:43:32+02:00"
     }
   },
   "active": "sem3-ti"

@@ -20,7 +20,7 @@ Dennis Küenzi, 21-559-315
 
 ## (a)
 
-The graph representation of $M_{1}$ is
+The graph representation of a finite automaton $M$ that produces $L_{1}$, i.e. $L(M)=L_{1}$ is
 ```mermaid
 flowchart LR
 
