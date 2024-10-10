@@ -54,8 +54,7 @@ q4 -->|"a, b"| q4
 
 ```
 
-
-The equivalence classes of the states for some prefix $w \in \Sigma^*$ that does not contain the substring $abb$.
+The equivalence classes of the states for some prefix words $v,w \in \Sigma^*$, where $v$ does not contain the substring $abb$ and $w$ does not contain the subword $abba$.
 $$
 \begin{align}
 \mathrm{Kl}[q_{0}] &= \Sigma^* - \bigcup_{q_{0}\neq p \in Q} \mathrm{Kl}[p]  \\
@@ -65,6 +64,7 @@ $$
 \mathrm{Kl}[q_{4}] &= \{ yabbaz \mid y, z \in  \Sigma^* \}
 \end{align}
 $$
+$\square$
 
 
 ## (b)
@@ -130,6 +130,8 @@ $$
 \end{align}
 $$
 
+Here, $\mathrm{Kl}[q_{0}]$ denotes the empty word $\lambda$ all words that begin with an even amount of $a$, $\mathrm{Kl}[q_{1}]$ denotes all words that begin with an odd amount of $a$, $\mathrm{Kl}[q_{2}]$
+$\square$
 
 
 
