@@ -6,11 +6,14 @@ Dennis Küenzi, 21-559-315
 # 7
 ![[TI-e-u03.pdf#page=1&rect=67,525,529,575|TI-e-u03, p.1]]
 
+**Definition 2.19**
+A number $n$ is called *random* if, in binary representation, its kolmogorov complexity is greater than
 ![[hromkovic-TIN.pdf#page=54&rect=41,302,434,330|hromkovic-TIN, p.39]]
 
 ![[hromkovic-TIN.pdf#page=56&rect=42,453,432,504|hromkovic-TIN, p.41]]
 
-Let $P = \{ p_{i} \mid i \in \mathbb{N}^+,K(p) \geq \lfloor \log_{2} (n+1) \rfloor +1  \}$, where $p_{i}$ denotes the $i$-th prime number
+
+Let $P = \{ p_{i} \mid i \in \mathbb{N}^+,K(p) \geq \lceil \log_{2}(n+1) \rceil -1  \}$ denote the set of all random primes, where $p_{i}$ is the $i$-th prime number.
 
 
 Proof by contradiction. Let's assume that $|P|=\infty$  
