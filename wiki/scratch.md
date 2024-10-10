@@ -24,8 +24,8 @@ last page feedback qr code
 
 $$
 \newcommand{\step}[1]{
-\mathrel{\smash{ \raise -.2em {
-{\Large \vdash}_{\kern -1em \smash{\raise .19em {\tiny #1}}}
+\mathrel{\smash{\raise{-.2em}{
+{\Large \vdash}_{\kern{-1em}{\smash{\raise .19em {\tiny #1}}}}
 }}}}
 
 \newcommand{\steps}[1]{
