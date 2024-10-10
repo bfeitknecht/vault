@@ -8,7 +8,7 @@ Dennis Küenzi, 21-559-315
 > A number $n$ in binary representation is called *random* if $K(n) \geq \lceil \log_{2} (n+1) \rceil -1$.
 > 
 > **Prime Number Theorem**
-> $\lim_{ n \to \infty} \frac{\mathrm{Prim}(n)}{n /\ln n} =1$, which can be strengthened to
+> $\lim_{ n \to \infty} \frac{\mathrm{Prim}(n)}{n /\ln (n)} =1$, which can be strengthened to
 > $\ln(n)-\frac{3}{2} <\frac{n}{\mathrm{Prin}(n)}< \ln(n)-\frac{1}{2}$, for all $n\geq 67$ 
 
 
