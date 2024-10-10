@@ -72,4 +72,10 @@ Em
 
 The exact number of calls to the function $f$ is given by $\sum_{i=1}^{2n} \sum_{j=1}^{i^3} n$.
 
- $n \cdot \sum_{i=1}^{2n}i^3=$
+ $$
+\begin{align}
+n \cdot \sum_{i=1}^{2n}i^3 &= n \cdot \left( \frac{2n(2n+1)}{2} \right)^2 \\
+&= n \cdot (2n^2 + n)^2 \\
+&=4n^5 + 4n^4 + n^3
+\end{align}
+$$
