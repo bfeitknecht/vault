@@ -55,7 +55,7 @@ q4 -->|"a, b"| q4
 ```
 
 
-The equivalence classes of the states for some prefix $w \in \Sigma^*$
+The equivalence classes of the states for some prefix $w \in \Sigma^*$ that does not contain the substring $abb$.
 $$
 \begin{align}
 \mathrm{Kl}[q_{0}] &= \Sigma^* - \bigcup_{q_{0}\neq p \in Q} \mathrm{Kl}[p]  \\
@@ -65,34 +65,6 @@ $$
 \mathrm{Kl}[q_{4}] &= \{ yabbaz \mid y, z \in  \Sigma^* \}
 \end{align}
 $$
-
-
-
-
-
-$M=(Q, \Pi, \delta, q_{0}, F)$, where $Q=\{ q_{0}, q_{1}, q_{2} \}$ is the set of states, $\Pi = \Sigma^2 - \{ aa, bb\}$ is the input alphabet for $M$ with $\Sigma=\{ a, b \}$ being the alphabet of $L_{1}$, and $F=\{ q_{2} \}$ is the set of accepted states. 
-
-```mermaid
-flowchart LR
-
-classDef hidden display: none;
-
-S:::hidden
-q0((q0))
-q1((q1))
-q2(((q2)))
-
-S --> q0
-
-q1 -->|"ab"| q1
-q1 -->|"ba"| q2
-
-q0 -->|"ab"| q1
-q0 -->|"ba"| q0
-
-q2 -->|"ab, ba"| q2
-```
-
 
 
 ## (b)
