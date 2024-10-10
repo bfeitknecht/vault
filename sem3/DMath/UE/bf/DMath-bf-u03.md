@@ -7,7 +7,7 @@
 
 $$
 \begin{align}
-\forall x \big( ((x \mid n) \land (x \mid m)) \to x \mid n+m \big)
+\forall x \big( (x \mid n \land x \mid m) \to x \mid n+m \big)
 \end{align}
 $$
 ## ii)
@@ -32,12 +32,22 @@ $$
 
 $$
 \begin{align}
-\forall x \big( \texttt{prime}(x) \to ((x \mid n \cdot m) ↔ ((x \mid n) \vee( x \mid m))) \big)
+\forall x \big( \texttt{prime}(x) \to ((x \mid n \cdot m) ↔ (x \mid n \vee x \mid m)) \big)
 \end{align}
 $$
 
 # 3.8
 ![[DMath-e-u03.pdf#page=3&rect=77,576,525,687|DMath-e-u03, p.3]]
+
+Let $I$ be the statement to prove, namely that for arbitrary $n, m \in \mathbb{N}$ if $n$ divides $m$ and $m+1$, then 
+
+
+
+
+
+
+
+
 
 Let $S$ be the statement to prove, written in predicate logic $S \overset{ \text{def.} }{ \iff } \forall n \big( (n \mid m) \wedge (n \mid (m+1)) \to n=1 \big)$.
 
