@@ -6,11 +6,33 @@ Dennis Küenzi, 21-559-315
 # 7
 ![[TI-e-u03.pdf#page=1&rect=67,525,529,575|TI-e-u03, p.1]]
 
-
 ![[hromkovic-TIN.pdf#page=54&rect=41,302,434,330|hromkovic-TIN, p.39]]
 
-
 ![[hromkovic-TIN.pdf#page=56&rect=42,453,432,504|hromkovic-TIN, p.41]]
+
+$P = \{ p \mid K(p) \geq \lfloor \log_{2} (n+1) \rfloor +1  \}$
+
+
+Proof by contradiction. Let's assume that 
+
+
+
+
+
+Let's prove this by constructing a program $P$ that takes any number $n \in \mathbb N$ and prints the $n$-th prime number.
+
+With program P we define following programms $Q_n$ for every $n \in \mathbb N$:
+```pascal
+begin
+	x := n;
+	P(x);
+end
+```
+Since $n$ is the only variable part all progamms can be upperbounded by $log_2(n)+c$.
+
+From the Prime Number Theorem we know that pime numbers appear by a rate of $n /\log n$.
+Since $n /\log n$ grows much faster than $\log_2 (n)$ our constant $c$ can become infinitly larger. 
+Since $c$ can't go to infinity at some point  $log_2(n)+c < n /\log n$ creating an upperbount to all possible random primes, making them finite.
 
 
 <div class="page-break" style="page-break-before: always;"></div>
