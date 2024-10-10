@@ -10,12 +10,6 @@ Dennis Küenzi, 21-559-315
 ![[hromkovic-TIN.pdf#page=54&rect=41,302,434,330|hromkovic-TIN, p.39]]
 
 
-
-```desmos-graph
-
-f(x) = x / \ln(x)
-```
-
 ![[hromkovic-TIN.pdf#page=56&rect=42,453,432,504|hromkovic-TIN, p.41]]
 
 
