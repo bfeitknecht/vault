@@ -36,6 +36,8 @@ $$
 \end{align}
 $$
 
+<div class="page-break" style="page-break-before: always;"></div>
+
 # 3.8
 ![[DMath-e-u03.pdf#page=3&rect=77,576,525,687|DMath-e-u03, p.3]]
 
@@ -50,7 +52,7 @@ S &\overset{ \cdot }{ \iff } (n \mid m) \wedge (n \mid m+1) &\text{(definition o
 &\overset{ \cdot }{ \iff } \exists k,l((l\cdot n) -  (k\cdot n) = 1) &\text{(rearrange)} \\
 &\overset{ \cdot }{ \iff } \exists k,l((l-k) \cdot n = 1) &\text{(definition of $\texttt{divides}$)} \\
 &\overset{ \cdot }{ \iff } n \mid 1 &\text{(3.2 $\mathbf{iii}$.)} \\
-&\overset{ \cdot }{ \implies } n \overset{ \lightning }{ = } 1 &\text{(contradiction!)} \\
+&\overset{ \cdot }{ \implies } n = 1 &\text{(contradiction! $\lightning$)} \\
 \end{align}
 $$
 
