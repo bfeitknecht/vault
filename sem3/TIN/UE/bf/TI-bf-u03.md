@@ -54,7 +54,7 @@ q4 -->|"a, b"| q4
 
 $$
 \begin{align}
-\mathrm{Kl}[q_{0}] &= \{ b \}^* \cup \{ yabb \mid y \in \Sigma^* \} \\
+\mathrm{Kl}[q_{0}] &= \{ wb \mid \text{w} \}^* \cup \{ yabb \mid y \in \Sigma^* \} \\
 \mathrm{Kl}[q_{1}] &= \{ yabb \mid y \in \Sigma^* \} \\
 \mathrm{Kl}[q_{2}] &= \{  \} \\
 \mathrm{Kl}[q_{3}] &= \{ (a^nbb)^m \mid y \in \Sigma^* \} \\
@@ -66,7 +66,7 @@ $$
 
 
 
-$M=(Q, \Pi, \delta, q_{0}, F)$, where $Q=\{ q_{0}, q_{1}, q_{2} \}$ is the set of states, $\Pi = \Sigma^2 - \{ aa, bb\}$ and $F=\{ q_{2} \}$. 
+$M=(Q, \Pi, \delta, q_{0}, F)$, where $Q=\{ q_{0}, q_{1}, q_{2} \}$ is the set of states, $\Pi = \Sigma^2 - \{ aa, bb\}$ is the input alphabet for $M$ with $\Sigma=\{ a, b \}$ being the alphabet of $L_{1}$, and $F=\{ q_{2} \}$ is the set of accepted states. 
 
 ```mermaid
 flowchart LR
