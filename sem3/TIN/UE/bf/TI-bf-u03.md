@@ -12,9 +12,9 @@ Dennis Küenzi, 21-559-315
 > $\lim_{ n \to \infty} \frac{\mathrm{Prim}(n)}{n /\ln n} =1$
 
 
-Proof by contradiction. Let $P$ be a program that takes some $n \in \mathbb{N}^+$ and generates the $n$-th prime number.
+Proof by contradiction. Let's assume for the sake of it that there is an infinite amount of random prime numbers.
 
-Let's now construct $Q_{i}$, a program that generates the primes up to index $i \in \mathbb{N}^+$. Since $i$ is the only variable part in $Q_{i}$, it can be upperbounded by $\log_2(i)+c$.
+Let $P$ be a program that takes some $n \in \mathbb{N}^+$ and generates the $n$-th prime number. Now we'll construct $Q_{i}$, a program that generates the primes up to index $i \in \mathbb{N}^+$. Since $i$ is the only variable part in $Q_{i}$, it can be upperbounded by $\log_2(i)+c$.
 ```pascal
 begin
 	N := i;
@@ -23,14 +23,11 @@ begin
 end
 ```
 
+The idea is now, that as $i\to \infty$ the number of (non-random) primes $p$ up to $i$ with $K(p) < \lceil \log_{2} (p+1) \rceil +1$ approaches infinity.
 
-%% The idea is, that as $i\to \infty$ the number of primes $p$ up to $i$ with $K(p) < \lceil \log_{2} (p+1) \rceil +1$ approaches infinity. %%
+The Prime Number Theorem states that the index $n$ of any prime number $p$ is at most $p /\ln (p)$ but its length in binary encoding is $\log_2 (p)$. Since $\log_2 (p)$ grows asymptotically faster than $\log_2(p /\ln(p) )$ our constant $c$ gets infinitely large as we approach $n\to \infty$.
 
-The Prime Number Theorem states that the index $n$ of any prime number $p$ is at most $p /\ln (p)$ but its length in binary encoding is $\log_2 (p)$. 
-
-Since $\log_2 (p)$ grows asymptotically faster than $\log_2(p /\ln(p) )$ our constant $c$ gets infinitely large as we approach $n\to \infty$.
-
-Since $c$ must be finite, we have arrived at a contradiction which implies that the ratio of random primes to primes approaches zero .
+Since $c$ must be finite, we have arrived at a contradiction which implies that the ratio of random primes to primes up to $n$ approaches zero as n approaches infinity, i.e. there are at most a finite amount of random primes per definition 2.19.
 $\square$
 
 
