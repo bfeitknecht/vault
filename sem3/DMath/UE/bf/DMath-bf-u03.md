@@ -42,6 +42,13 @@ $$
 Let $I \overset{ \text{def.} }{ \iff } S \to T$ be the statement to prove, where $S \overset{ \text{def.} }{ = } (n \mid m) \wedge (n \mid m+1)$ and $T \overset{ \text{def.} }{ = } n=1$. Namely $I$ states, that for arbitrary $n, m \in \mathbb{N}$, if $n$ divides $m$ and $m+1$, then $n$ must be equal to one.
 
 For the sake of contradiction, let's assume $I$ is false, i.e. $\neg (S \to T) \equiv S \wedge \neg T$.
+$$
+\begin{align}
+S &\overset{ \cdot }{ \iff } (n \mid m) \wedge (n \mid m+1) \\
+&\overset{ \cdot }{ \iff } \exists k,l(k\cdot n=m \wedge l\cdot n=m+1) &\text{(definition of $\texttt{divides}$)}
+
+\end{align}
+$$
 
 
 
