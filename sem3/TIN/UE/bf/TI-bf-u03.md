@@ -130,7 +130,11 @@ $$
 \end{align}
 $$
 
-Here, $\mathrm{Kl}[q_{0}]$ denotes words that consist of an even number of $a$ and the empty word $\lambda$, $\mathrm{Kl}[q_{1}]$ denotes all words that consist of an odd number of $a$, $\mathrm{Kl}[q_{2}]$ is all words that begin with an even number of $a$ followed by an odd number of $b$ or words that begin
+Here,
+- $\mathrm{Kl}[q_{0}]$ contains the words that consist of an even number of $a$, and the empty word $\lambda$
+- $\mathrm{Kl}[q_{1}]$ is defined as the words that consist of an odd number of only $a$
+- $\mathrm{Kl}[q_{2}]$ is the words that consist of an even number of $a$ followed by an odd number of $b$ or words that consist of an odd number of only $b$
+- $\mathrm{Kl}[q_{3}]$ is the words that consist of an even number of $a$ followed by an even number of $b$
 $\square$
 
 
