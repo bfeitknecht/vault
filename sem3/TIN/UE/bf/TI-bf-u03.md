@@ -8,14 +8,14 @@ Dennis Küenzi, 21-559-315
 > A number $n$ in binary representation is called *random* if $K(n) \geq \lceil \log_{2} (n+1) \rceil -1$.
 > 
 > **Prime Number Theorem**
-> $\lim_{ n \to \infty} \frac{\mathrm{Prim}(n)}{n /\ln n} =1$, which can be strengthened for all $n\geq 67$ to
-> $\ln(n)-\frac{3}{2} \frac{<n}{\mathrm{Prin}(n)}< \ln(n)-\frac{1}{2}$
+> $\lim_{ n \to \infty} \frac{\mathrm{Prim}(n)}{n /\ln n} =1$, which can be strengthened to
+> $\ln(n)-\frac{3}{2} <\frac{n}{\mathrm{Prin}(n)}< \ln(n)-\frac{1}{2}$, for all $n\geq 67$ 
 
 
 
 The idea of the proof is, that for some $N \in \mathbb{N}$, the number of primes up to $N$ that are not random approaches infinity as $N \to \infty$.
 
-Proof by contradiction. Let $P$ 
+Proof by contradiction.
 
 Let's assume there is an infinite amount of random primes.
 
