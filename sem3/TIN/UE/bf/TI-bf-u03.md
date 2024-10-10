@@ -13,6 +13,7 @@ Dennis Küenzi, 21-559-315
 ![[hromkovic-TIN.pdf#page=56&rect=42,453,432,504|hromkovic-TIN, p.41]]
 
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 # 8
 ![[TI-e-u03.pdf#page=1&rect=64,386,532,491|TI-e-u03, p.1]]
@@ -137,9 +138,9 @@ $$
 - $\mathrm{Kl}[q_{2}]$ is the words that consist of an even number of $a$ followed by an odd number of $b$ and words that consist of an odd number of only $b$
 - $\mathrm{Kl}[q_{3}]$ is words that consist of an even number of $a$ followed by an even number of $b$ and words that consist of an even number of only $b$
 - $\mathrm{Kl}[q_{4}]$ is all rest, i.e. all the words that are not in any of the other classes (\*)
-
+%% 
 (\*) 
-- words that begin with an even number of $a$ followed by a single $b$
+- words that begin with an even number of $a$ followed by a $b$
 - words that begin with an odd number of $b$ followed by an $a$
-- words that start with an even number of $b$ followed by an $a$
+- words that start with an even number of $b$ followed by an $a$ %%
 $\square$
