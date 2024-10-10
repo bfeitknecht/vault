@@ -19,7 +19,7 @@ Dennis Küenzi, 21-559-315
 •⁠  ⁠use that n in primzahlsatz
 
 
-For the sake of contradiction, let's assume there exists an infinite number of random prime numbers $p$ with $K(p) \geq \lceil \log_{2} (n+1)\rceil -1$. Let $P$ be the set of all prime numbers with $p_{n}$ being the $n$-th prime number. Since there exists an algorithm that can solve this decision problem
+For the sake of contradiction, let's assume there are an infinite amount of random prime numbers. Let $P$ be the set of all prime numbers with $p_{n}$ being the $n$-th prime number. Since there exists a program that can solve this decision problem, 
 
 
 
