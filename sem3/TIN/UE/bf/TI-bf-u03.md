@@ -55,7 +55,7 @@ q4 -->|"a, b"| q4
 ```
 
 
-The equivalence classes of the states is given by 
+The equivalence classes of the states for some prefix $w \in \Sigma^*$
 $$
 \begin{align}
 \mathrm{Kl}[q_{0}] &= \Sigma^* - \bigcup_{q_{0}\neq p \in Q} \mathrm{Kl}[p]  \\
