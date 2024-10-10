@@ -19,10 +19,11 @@ Let $P$ be a program that takes some $i \in \mathbb{N}^+$ and generates the $i$-
 ```pascal
 begin
 	N := i;
-	for x = 1 to N;
+	for x := 1 to N do
+	begin
 	   p := P(x);
 	   write(p);
-	   
+	end
 end
 ```
 
