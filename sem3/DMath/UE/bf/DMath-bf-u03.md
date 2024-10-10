@@ -45,8 +45,10 @@ For the sake of contradiction, let's assume $I$ is false, i.e. $\neg (S \to T) \
 $$
 \begin{align}
 S &\overset{ \cdot }{ \iff } (n \mid m) \wedge (n \mid m+1) &\text{(definition of $\texttt{divides}$)} \\
-&\overset{ \cdot }{ \iff } \exists k,l(k\cdot n=m \wedge l\cdot n=m+1) &\text{(substitute)} \\
-
+&\overset{ \cdot }{ \iff } \exists k,l(k\cdot n=m \wedge l\cdot n=m+1) &\text{(substitute $m$)} \\
+&\overset{ \cdot }{ \iff } \exists k,l(l\cdot n = (k\cdot n)+1) &\text{(rearrange)} \\
+&\overset{ \cdot }{ \iff } \exists k,l((l\cdot n) -  (k\cdot n) = 1) &\text{(rearrange)} \\
+&\overset{ \cdot }{ \iff } \exists k,l((l-k) \cdot n = 1) &\text{(definition of $\texttt{divides}$)} \\
 \end{align}
 $$
 
