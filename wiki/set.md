@@ -20,19 +20,20 @@ $$
 (a, b) \overset{\text{def.}}= \{ \{a\}, \{a, b\}\}
 $$
 
-# Union
+# Operations
+## Union
 ![[union (set)]]
 
-# Intersection
+## Intersection
 ![[intersection (set)]]
 
-# Difference
+## Difference
 ![[difference (set)]]
 
-# Empty Set
+## Empty Set
 ![[empty set]]
 
-# Power Set
+## Power Set
 ![[power set]]
 
 # Theorem

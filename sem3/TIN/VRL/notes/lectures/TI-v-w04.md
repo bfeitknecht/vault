@@ -1,8 +1,10 @@
 
 - simulation
-- graph representation of [[finite state machine (FSM)]]
-- set operations on [[finite state machine (FSM)]]
+- [[finite state machine (FSM)]]
+- [[graph]] representation of FSM
+- [[set#operations]] operations on FSM
 - pumping lemma
+- regularity of [[language]] $\iff$ exists FSM that accepts language
 
 
 **/30 pts.**
@@ -16,5 +18,4 @@ Per pigeon hole principle, w.o.l.g there exists two different words, $a, b \in \
 
 Then, per Lemma 3.3., $az \in L \iff bz \in L$ for all $z \in \Sigma^*$.
 Thus we have arrived at a **contradiction**, since, per construction, $az \in L$ but $bz \not\in L$.
-$\lightning$
-
+$\contradiction$
