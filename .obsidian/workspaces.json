@@ -1414,7 +1414,7 @@
                     "page": 1,
                     "left": -15,
                     "top": 846,
-                    "zoom": 0.9839973390494494
+                    "zoom": 0.9839973390494495
                   }
                 }
               },
@@ -1425,10 +1425,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
-                    "page": 71,
-                    "left": -14,
-                    "top": 46,
-                    "zoom": 1.0929822351014236
+                    "page": 67,
+                    "left": -8,
+                    "top": 53,
+                    "zoom": 1.25
                   }
                 }
               },
@@ -1444,7 +1444,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1496,7 +1497,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/TIN/UE/bf/TI-bf-u03.md"
+                    "file": "wiki/finite state machine (FSM).md"
                   }
                 }
               }
@@ -1521,7 +1522,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/TIN/UE/bf/TI-bf-u03.md",
+                    "file": "wiki/finite state machine (FSM).md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1538,7 +1539,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/TIN/UE/bf/TI-bf-u03.md",
+                    "file": "wiki/finite state machine (FSM).md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1593,9 +1594,9 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "434ee478f73c5957",
-      "mtime": "2024-10-10T14:27:04+02:00"
+      "active": "6f3d27397d4deeae",
+      "mtime": "2024-10-10T16:35:03+02:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-a&d"
 }
