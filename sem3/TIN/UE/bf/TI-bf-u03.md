@@ -117,7 +117,7 @@ $\square$
 
 Let $M = \{ Q, \Sigma, \delta_{M}, q_{0}, F \}$ be a finite state machine, where  $Q=\{ q_{0}, q_{1}, q_{2}, q_{3}, q_{4}  \}$ denotes the set of states, $\Sigma=\{ a, b \}$ is the input alphabet, $q_{0}$ is the initial state, $\delta_{M}$ is the transition function between states and $F=\{ q_{0}, q_{3} \}$ is the set of accepted states.
 
-The language accepted by $M$ can be defined as $L(M) = \{ (aa)^n(bb)^m \mid n,m \in \mathbb N  \}$, i.e. all the words that contain an even number of $a$ or $b$, all the words that contain an even amount of $a$ followed by an even amount of $b$ or the empty word $\lambda$.
+The language accepted by $M$ can be defined as $L(M) = \{ (aa)^n(bb)^m \mid n,m \in \mathbb N  \}$, i.e. all the words that consist of an even number of only $a$ or $b$, all the words that consist of an even number of $a$ followed by an even number of $b$ or the empty word $\lambda$.
 
 Furthermore, we define the equivalence classes of all the states.
 $$
@@ -130,7 +130,7 @@ $$
 \end{align}
 $$
 
-Here, $\mathrm{Kl}[q_{0}]$ denotes the empty word $\lambda$ all words that begin with an even amount of $a$, $\mathrm{Kl}[q_{1}]$ denotes all words that begin with an odd amount of $a$, $\mathrm{Kl}[q_{2}]$
+Here, $\mathrm{Kl}[q_{0}]$ denotes words that consist of an even number of $a$ and the empty word $\lambda$, $\mathrm{Kl}[q_{1}]$ denotes all words that consist of an odd number of $a$, $\mathrm{Kl}[q_{2}]$ is all words that begin with an even number of $a$ followed by an odd number of $b$ or words that begin
 $\square$
 
 
