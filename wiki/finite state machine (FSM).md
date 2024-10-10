@@ -78,10 +78,3 @@ becasue we define more words than the FSM has configurations, exists two natural
 
 ![[hromkovic-TIN.pdf#page=84&rect=42,173,440,341|hromkovic-TIN, p.69]]
 
-
-
-```mermaid
-flowchart LR
-
-id0((S)) --> id1((T))
-```

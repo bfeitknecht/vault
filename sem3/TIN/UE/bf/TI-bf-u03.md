@@ -23,10 +23,11 @@ end
 
 Since $i$ is the only variable part for all programs $Q_{i}$, they can be upperbounded by $\log_2(i)+c$.
 
-The Prime Number Theorem states that the index $n$ of any prime number $p$ is at most $p /\ln (p)$ but its length in binary encoding is $\log_2 (p)$. 
+The Prime Number Theorem states that the index $n$ of any prime number $p$ is at most $n /\ln (n)$ but its length in binary encoding is $\log_2 (p)$. 
 
-Since $\log_2 (p)$ grows faster than $\log_2(p /\ln p)$ our constant $c$ can become infinitly larger for large prime numbers. 
-Since $c$ can't go to infinity at some point  $log_2(n)+c < n /\ln n$ creating an upperbount to all possible random primes, making them finite.
+Since $\log_2 (p_{n})$ grows asymptotically faster than $\log_2(n /\ln(n) )$ our constant $c$ gets infinitely large as we approach $n\to \infty$.
+
+Since $c$ must be finite, at some point the inequality $\log_2(n)+c < n /\ln n$ creating an upperbount to all possible random primes, making them finite.
 
 
 
