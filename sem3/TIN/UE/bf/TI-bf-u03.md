@@ -10,10 +10,12 @@ Dennis Küenzi, 21-559-315
 
 ![[hromkovic-TIN.pdf#page=56&rect=42,453,432,504|hromkovic-TIN, p.41]]
 
-$P = \{ p \mid K(p) \geq \lfloor \log_{2} (n+1) \rfloor +1  \}$
+Let $P = \{ p_{i} \mid i \in \mathbb{N}^+,K(p) \geq \lfloor \log_{2} (n+1) \rfloor +1  \}$, where $p_{i}$ denotes the $i$-th prime number
 
 
 Proof by contradiction. Let's assume that $|P|=\infty$  
+
+
 
 
 
