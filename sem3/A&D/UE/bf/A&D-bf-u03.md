@@ -33,7 +33,13 @@ $\square$
 Em
 
 ### (3)
-True, constants don't matter. Let $f(n)=\frac{n^6}{6}+10n^4+100n^3$ and $g(n)=$
+True, constants don't matter. Let $f(n)=\frac{n^6}{6}+10n^4+100n^3$ and $g(n)=6n^6$. Let's compute the limit to show that it's a constant and thus prove that $f = \Theta(g)$.
+$$
+\begin{align}
+\lim_{ n \to \infty } \frac{f(n)}{g(n)} &= \lim_{ n \to \infty } \frac{\frac{n^6}{6}+10n^4+100n^3}{6n^6} \\
+&= \frac{n^6\left( \frac{1}{6} +\frac{10}{n^2} \right)}{6n^6}
+\end{align}
+$$
 
 ### (4)
 Em
