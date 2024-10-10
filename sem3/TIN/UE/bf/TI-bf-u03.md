@@ -54,13 +54,13 @@ q4 -->|"a, b"| q4
 
 ```
 
-The equivalence classes of the states for some prefix words $v,w \in \Sigma^*$, where $v$ does not contain the substring $abb$ and $w$ does not contain the subword $abba$.
+The equivalence classes of the states for some prefix words $w \in \Sigma^*$, where $w$ does not contain the substring $abb$.
 $$
 \begin{align}
 \mathrm{Kl}[q_{0}] &= \Sigma^* - \bigcup_{q_{0}\neq p \in Q} \mathrm{Kl}[p]  \\
-\mathrm{Kl}[q_{1}] &= \{ wa \mid \text{$w$ does not contain $abba$} \} \\
-\mathrm{Kl}[q_{2}] &= \{ wab \mid \text{$w$ does not contain $abba$} \} \\
-\mathrm{Kl}[q_{3}] &= \{ wabb \mid \text{$w$ does not contain $abba$} \} \\
+\mathrm{Kl}[q_{1}] &= \{ wa \mid  \} \\
+\mathrm{Kl}[q_{2}] &= \{ wab \mid  \} \\
+\mathrm{Kl}[q_{3}] &= \{ wabb \mid  \} \\
 \mathrm{Kl}[q_{4}] &= \{ yabbaz \mid y, z \in  \Sigma^* \}
 \end{align}
 $$
@@ -130,18 +130,9 @@ $$
 \end{align}
 $$
 
-Here,
 - $\mathrm{Kl}[q_{0}]$ contains the words that consist of an even number of $a$, and the empty word $\lambda$
 - $\mathrm{Kl}[q_{1}]$ is defined as the words that consist of an odd number of only $a$
 - $\mathrm{Kl}[q_{2}]$ is the words that consist of an even number of $a$ followed by an odd number of $b$ and words that consist of an odd number of only $b$
 - $\mathrm{Kl}[q_{3}]$ is words that consist of an even number of $a$ followed by an even number of $b$ and words that consist of an even number of only $b$
-- $\mathrm{Kl}[q_{4}]$ is all the words that begin with an even number of $a$ followed by a single $b$, words that begin with an even number of $b$ followed by an $a$, and words that begin with an odd number of $b$ followed by an $a$.
+- $\mathrm{Kl}[q_{4}]$ is all the words that begin with an even number of $a$ followed by a single $b$, words that begin with an odd number of $b$ followed by an $a$, and words that start with an even number of $b$ followed by an $a$.
 $\square$
-
-
-
-
-
-
-
-
