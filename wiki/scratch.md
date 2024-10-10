@@ -25,13 +25,13 @@ last page feedback qr code
 $$
 \newcommand{\step}[1]{
 \mathrel{\smash{ \raise -.2em {
-{\Large \vdash}_{\kern -1em \smash{\raise .19em \tiny{#1}}}
+{\Large \vdash}_{\kern -1em \smash{\raise .19em {\tiny #1}}}
 }}}}
 
 \newcommand{\steps}[1]{
-\mathrel{\smash{ \raise -.2em {
-\step{#1}^{\kern -.88em {\tiny *}}
-}}}}
+\mathrel{
+\step{#1}^{\kern -.88em \smash{\raise -.1em {\tiny *}}}
+}}
 
 \begin{align}
 \underline{(q, w) \step{M} (p, v)} \\
