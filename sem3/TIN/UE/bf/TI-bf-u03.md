@@ -12,7 +12,6 @@ Dennis Küenzi, 21-559-315
 > $\ln(n)-\frac{3}{2} <\frac{n}{\mathrm{Prin}(n)}< \ln(n)-\frac{1}{2}$, for all $n\geq 67$ 
 
 
-
 The idea of the proof is, that for some $N \in \mathbb{N}$, the number of primes up to $N$ that are not random approaches infinity as $N \to \infty$.
 
 Proof by contradiction. Let's assume there is an infinite amount of random primes.
@@ -26,7 +25,6 @@ begin
 	   write(P(i));
 end
 ```
-
 
 The Prime Number Theorem states that the index $i$ of any prime number $p_{i}$ is at most $p_{i} /\ln (p_{i})$ but its length in binary encoding is bounded by $\log_2 (p_{i})$. Since the $i$-th prime number's kolmogorov complexity, $\log_2 (p_{i})$, grows asymptotically faster than kolmogorov complexity  $\log_2(p /\ln(p) )$ our constant $c$ gets infinitely large as we approach $n\to \infty$.
 
