@@ -5,31 +5,23 @@ Dennis Küenzi, 21-559-315
 
 # 7
 ![[TI-e-u03.pdf#page=1&rect=67,525,529,575|TI-e-u03, p.1]]
+> **Definition 2.19**
+> A number $n$ in binary representation is called *random* if $K(n) \geq \lceil \log_{2} (n+1) \rceil -1$.
+> 
+> **Prime Number Theorem**
+> $\lim_{ n \to \infty} \frac{\mathrm{Prim}(n)}{n /\ln n} =1$
 
-**Definition 2.19**
-A number $n$ in binary representation is called *random* if $K(n) \geq \lceil \log_{2} (n+1) \rceil -1$.
+Proof by contradiction. Let $P$ be a program that takes some $n \in \mathbb{N}^+$ and generates the $n$-th prime number.
 
-**Prime Number Theorem**
-$\lim_{ n \to \infty} \frac{\mathrm{Prim}(n)}{n /\ln n} =1$
-
-
-Let $P = \{ p_{i} \mid i \in \mathbb{N}^+,K(p) \geq \lceil \log_{2}(n+1) \rceil -1  \}$ denote the set of all random primes, where $p_{i}$ is the $i$-th prime number.
-
-
-Proof by contradiction. Let's assume a program $P$ that generates $P$. Show, by pigeonhole principle, that at least one
-
-
-
-Lets prove this by creating a program $P$ that takes any number $i \in \mathbb N$ and prints the $i$-th prime number.
-
-With program P we define following programs $Q_i$ for every $i \in \mathbb N$:
+Now let's construct infinitely many programs $Q_{i}$ for every $i \in \mathbb{N}^+$.
 ```pascal
 begin
 	x := i;
 	P(x);
 end
 ```
-Since $i$ is the only variable part all programs can be upperbounded by $log_2(i)+c$.
+
+Since $i$ is the only variable part all for all programs $Q_{i}$ can be upperbounded by $log_2(i)+c$.
 
 The Prime Number Theorem states that the index $i$ of any prime $p$ is at most $p /\ln p$ but its length is still $\log_2 p$.
 
