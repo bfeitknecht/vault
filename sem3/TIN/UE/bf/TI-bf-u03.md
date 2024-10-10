@@ -15,7 +15,7 @@ The idea of the proof is, that for some $N \in \mathbb{N}$, the number of primes
 
 Proof by contradiction. Let's assume for the sake of it that there is an infinite amount of random prime numbers.
 
-Let $P$ be a program that takes some $i \in \mathbb{N}^+$ and generates the $i$-th prime number. Now we'll construct a program $Q_{n}$ for every $n \in \mathbb{N}^+$ that generates all primes up to $n$. Since $n$ is the only variable part in $Q_{n}$, its kolmogorov complexity is at most $\log_2(n)+c$.
+Let $P$ be a program that takes some $i \in \mathbb{N}^+$ and generates the $i$-th prime number. Now we'll construct a program $Q_{n}$ for every $n \in \mathbb{N}^+$ that generates the primes up to $n$. Since $n$ is the only variable part in $Q_{n}$, its kolmogorov complexity is at most $\log_2(n)+c$.
 ```pascal
 begin
 	N := i;
@@ -26,7 +26,7 @@ end
 
 
 
-The Prime Number Theorem states that the index $n$ of any prime number $p$ is at most $p /\ln (p)$ but its length in binary encoding is $\log_2 (p)$. Since $\log_2 (p)$ grows asymptotically faster than $\log_2(p /\ln(p) )$ our constant $c$ gets infinitely large as we approach $n\to \infty$.
+The Prime Number Theorem states that the index $i$ of any prime number $p$ is at most $p /\ln (p)$ but its length in binary encoding is $\log_2 (p)$. Since $\log_2 (p)$ grows asymptotically faster than $\log_2(p /\ln(p) )$ our constant $c$ gets infinitely large as we approach $n\to \infty$.
 
 Since $c$ must be finite, we have arrived at a contradiction which implies that the ratio of random primes to primes up to $n$ approaches zero as n approaches infinity, i.e. there are at most a finite amount of random primes per definition 2.19.
 $\square$
