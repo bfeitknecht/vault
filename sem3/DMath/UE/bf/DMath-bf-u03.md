@@ -15,7 +15,7 @@ $$
 
 $$
 \begin{align}
-\forall x( \texttt{prime}(x) \to ((1 \mid x) \wedge (x \mid x)))
+\forall x \big( \texttt{prime}(x) \to (n \mid x \to (n =1 \vee n=x)) \big)
 \end{align}
 $$
 ## iii)
