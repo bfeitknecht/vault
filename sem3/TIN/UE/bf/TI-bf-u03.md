@@ -16,33 +16,22 @@ $\lim_{ n \to \infty} \frac{\mathrm{Prim}(n)}{n /\ln n} =1$
 Let $P = \{ p_{i} \mid i \in \mathbb{N}^+,K(p) \geq \lceil \log_{2}(n+1) \rceil -1  \}$ denote the set of all random primes, where $p_{i}$ is the $i$-th prime number.
 
 
-Proof by contradiction. Let's assume that $|P|=\infty$. Construct program that generates $P$. Show, by pigeonhole principle, that at least one
+Proof by contradiction. Let's assume a program $P$ that generates $P$. Show, by pigeonhole principle, that at least one
 
 
 
+Lets prove this by creating a program $P$ that takes any number $i \in \mathbb N$ and prints the $i$-th prime number.
 
-
-?induction:
-
-
-
-
-
-
-
-
-Lets prove this by creating a program $P$ that takes any number $i \in \mathbb N$ and prints the i-th prime number.
-
-With program P we define following programms $Q_i$ for every $i \in \mathbb N$:
+With program P we define following programs $Q_i$ for every $i \in \mathbb N$:
 ```pascal
 begin
 	x := i;
 	P(x);
 end
 ```
-Since $i$ is the only variable part all progamms can be upperbounded by $log_2(i)+c$.
+Since $i$ is the only variable part all programs can be upperbounded by $log_2(i)+c$.
 
-The Prime Number Theorem states that the index $i$ of any prime $p$ is at most $p /\ln p$ but its lenght is still $\log_2 p$.
+The Prime Number Theorem states that the index $i$ of any prime $p$ is at most $p /\ln p$ but its length is still $\log_2 p$.
 
 Since $\log_2 (p)$ grows faster than $\log_2(p /\ln p)$ our constant $c$ can become infinitly larger for large prime numbers. 
 Since $c$ can't go to infinity at some point  $log_2(n)+c < n /\ln n$ creating an upperbount to all possible random primes, making them finite.
