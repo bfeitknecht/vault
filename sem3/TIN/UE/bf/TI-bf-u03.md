@@ -31,20 +31,21 @@ Proof by contradiction. Let's assume that $|P|=\infty$. Construct program that g
 
 
 
-Let's prove this by constructing a program $P$ that takes any number $n \in \mathbb N$ and prints the $n$-th prime number.
+Lets prove this by creating a program $P$ that takes any number $i \in \mathbb N$ and prints the i-th prime number.
 
-With program P we define following programms $Q_n$ for every $n \in \mathbb N$:
+With program P we define following programms $Q_i$ for every $i \in \mathbb N$:
 ```pascal
 begin
-	x := n;
+	x := i;
 	P(x);
 end
 ```
-Since $n$ is the only variable part all progamms can be upperbounded by $log_2(n)+c$.
+Since $i$ is the only variable part all progamms can be upperbounded by $log_2(i)+c$.
 
-From the Prime Number Theorem we know that pime numbers appear by a rate of $n /\log n$.
-Since $n /\log n$ grows much faster than $\log_2 (n)$ our constant $c$ can become infinitly larger. 
-Since $c$ can't go to infinity at some point  $log_2(n)+c < n /\log n$ creating an upperbount to all possible random primes, making them finite.
+The Prime Number Theorem states that the index $i$ of any prime $p$ is at most $p /\ln p$ but its lenght is still $\log_2 p$.
+
+Since $\log_2 (p)$ grows faster than $\log_2(p /\ln p)$ our constant $c$ can become infinitly larger for large prime numbers. 
+Since $c$ can't go to infinity at some point  $log_2(n)+c < n /\ln n$ creating an upperbount to all possible random primes, making them finite.
 
 
 <div class="page-break" style="page-break-before: always;"></div>
