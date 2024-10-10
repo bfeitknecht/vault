@@ -7,7 +7,7 @@
 
 $$
 \begin{align}
-\forall x((x \mid n \land x \mid m) \to x \mid n+m)
+\forall x \big( (x \mid n \land x \mid m) \to x \mid n+m \)
 \end{align}
 $$
 ## ii)
@@ -15,7 +15,7 @@ $$
 
 $$
 \begin{align}
-\forall x( \texttt{prime}(x) \to (1 \mid p \wedge p \mid p))
+\forall x( \texttt{prime}(x) \to (1 \mid x \wedge x \mid x))
 \end{align}
 $$
 ## iii)
