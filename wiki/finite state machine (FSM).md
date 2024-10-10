@@ -11,9 +11,8 @@ A *configuration* of $M$ is a [[tuple]] of *state* $q$ and *input word* $w$ in t
 
 A configuration $(q_{0}, x)\in \{q_{0}\} \times\Sigma^*$ is called *initial configuration* of $M$ on $x$. Every configuration $(q, \lambda) \in Q\times \{\lambda \}$ is called an *end configuration*.
 
-The *state transition function* defined the behavior between states depending
-
-$\delta(q, x)=p$ takes $M$ from state $q$ to $p$, if it reads the suffix $x$ of the input word $w$.
+The *state transition function* defines how $M$ transitions between states depending on the current configuration, i.e. $\delta(q, x)=p$ means, that reading the suffix $x \in \Sigma$ of the input word $w$ for some configuration $(q, wx) \in Q \times \Sigma^*$ results in $M$ transitioning to the configuration $(p, w)$.
+For ease of working with FSM, we define $\hat{\delta}$
 
 A *step* of $M$ is a [[relation]] on configurations, $\step{M} \subseteq (Q\times\Sigma^*)\times(Q\times\Sigma^*)$, defined by
 $(q, w) \step{M} (p, x) \iff w=ax, a \in \Sigma$, where $\delta(q, a) = p$. A step corresponds to evaluating the transition function on the current configuration of $M$ (meaning it's in state $q$ and reads the input symbol $a$), resulting in a transition to state $p$.
