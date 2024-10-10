@@ -11,7 +11,7 @@ Dennis Küenzi, 21-559-315
 > $\lim_{ n \to \infty} \frac{\mathrm{Prim}(n)}{n /\ln (n)} =1$, which can be strengthened to
 > $\ln(n)-\frac{3}{2} <\frac{n}{\mathrm{Prin}(n)}< \ln(n)-\frac{1}{2}$, for all $n\geq 67$ 
 
-
+%%
 The idea of the proof is, that for some $N \in \mathbb{N}$, the number of primes up to $N$ that are not random approaches infinity as $N \to \infty$.
 
 Proof by contradiction. Let's assume there is an infinite amount of random primes.
@@ -30,6 +30,18 @@ The Prime Number Theorem states that the index $i$ of any prime number $p_{i}$ i
 
 Since $c$ must be finite, we have arrived at a contradiction which implies that the ratio of random primes to primes up to $n$ approaches zero as n approaches infinity, i.e. there are at most a finite amount of random primes per definition 2.19.
 $\square$
+%%
+
+•⁠  ⁠proof by contradiction
+•⁠  ⁠satz 2.2
+•⁠  ⁠get to this: log(p_n) =< K(p_n) =< log(n)  (i just sent a screenshot)
+•⁠  ⁠solve the above eq. for n 
+•⁠  ⁠use that n in primzahlsatz
+
+
+For the sake of contradiction, let's assume there exists an infinite number of prime numbers $p$ with 
+We prove this by contradiction.
+
 
 <div class="page-break" style="page-break-before: always;"></div>
 
