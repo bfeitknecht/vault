@@ -15,7 +15,9 @@ The *state transition function* defines how $M$ transitions between states depen
 For ease of working with FSM, we define $\hat{\delta}:Q\times\Sigma^* \to Q$ as the *[[transitive closure]]* of the state transition function, with $\hat\delta(q, w)=p$ meaning that if $M$ starts reading the input word $w \in \Sigma^*$, in some state $q$, it reaches an end configuration in state $p$.
 
 A *step* of $M$ is a [[relation]] on configurations, $\step{M} \subseteq (Q\times\Sigma^*)\times(Q\times\Sigma^*)$, defined by
-$(q, w) \step{M} (p, x) \iff w=ax, a \in \Sigma$, where $\delta(q, a) = p$. A step corresponds to evaluating the transition function on the current configuration of $M$, resulting in a transition to state $p$.
+$(q, w) \step{M} (p, x) \iff w=ax, a \in \Sigma$, where $\delta(q, a) = p$. 
+
+~~A step corresponds to evaluating the transition function on the current configuration of $M$, resulting in a transition to state $p$.~~
 
 A *computation* $C$ of $M$ is a finite [[sequence]] of steps $C=(C_{i})_{i=0}^n$ between configurations, where $C_{i}\step{M}C_{i+1},\forall i\in[n-1]$.
 We call $C$ a computation of $M$ *on the input* $x\in\Sigma^*$ if $C_{0}=(q_{0},x)$ and $C_{n}\in Q \times \{\lambda\}$ is an end configuration.
