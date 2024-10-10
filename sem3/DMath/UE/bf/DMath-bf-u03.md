@@ -7,7 +7,7 @@
 
 $$
 \begin{align}
-\forall x \big( (x \mid n \land x \mid m) \to x \mid n+m \)
+\forall x \big( ((x \mid n) \land (x \mid m)) \to x \mid n+m \big)
 \end{align}
 $$
 ## ii)
@@ -15,7 +15,7 @@ $$
 
 $$
 \begin{align}
-\forall x( \texttt{prime}(x) \to (1 \mid x \wedge x \mid x))
+\forall x( \texttt{prime}(x) \to ((1 \mid x) \wedge (x \mid x)))
 \end{align}
 $$
 ## iii)
@@ -45,6 +45,7 @@ Let $S$ be the statement to prove, written in predicate logic $S \overset{ \text
 
 
 
+%%%%%%%%%%%%%%%%%%%%
 
 
 
