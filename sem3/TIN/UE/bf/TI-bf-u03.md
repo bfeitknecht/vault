@@ -136,5 +136,10 @@ $$
 - $\mathrm{Kl}[q_{1}]$ is defined as the words that consist of an odd number of only $a$
 - $\mathrm{Kl}[q_{2}]$ is the words that consist of an even number of $a$ followed by an odd number of $b$ and words that consist of an odd number of only $b$
 - $\mathrm{Kl}[q_{3}]$ is words that consist of an even number of $a$ followed by an even number of $b$ and words that consist of an even number of only $b$
-- $\mathrm{Kl}[q_{4}]$ is all the words that begin with an even number of $a$ followed by a single $b$, words that begin with an odd number of $b$ followed by an $a$, and words that start with an even number of $b$ followed by an $a$.
+- $\mathrm{Kl}[q_{4}]$ is all rest, i.e. all the words that are not in any of the other classes (\*)
+
+(\*) 
+- words that begin with an even number of $a$ followed by a single $b$
+- words that begin with an odd number of $b$ followed by an $a$
+- words that start with an even number of $b$ followed by an $a$
 $\square$
