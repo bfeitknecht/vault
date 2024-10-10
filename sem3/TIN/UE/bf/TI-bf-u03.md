@@ -13,7 +13,14 @@ Dennis Küenzi, 21-559-315
 $P = \{ p \mid K(p) \geq \lfloor \log_{2} (n+1) \rfloor +1  \}$
 
 
-Proof by contradiction. Let's assume that 
+Proof by contradiction. Let's assume that $|P|=\infty$  
+
+
+
+?induction:
+
+
+
 
 
 
