@@ -57,7 +57,7 @@ q4 -->|"a, b"| q4
 The equivalence classes of the states for some prefix words $w \in \Sigma^*$, where $w$ does not contain the substring $abba$ and doesn't end in $abb$.
 $$
 \begin{align}
-\mathrm{Kl}[q_{0}] &= \Sigma^* - \bigcup_{q_{0}\neq p \in Q} \mathrm{Kl}[p]  \\
+\mathrm{Kl}[q_{0}] &= \Sigma^* - \bigcup_{p \in Q - \{ q_{0} \}} \mathrm{Kl}[p]  \\
 \mathrm{Kl}[q_{1}] &= \{ wa \} \\
 \mathrm{Kl}[q_{2}] &= \{ wab \} \\
 \mathrm{Kl}[q_{3}] &= \{ wabb \} \\
@@ -126,7 +126,7 @@ $$
 \mathrm{Kl}[q_{1}] &= \{ a^n \mid n \in \mathbb N, n \equiv_{2}1 \} \\
 \mathrm{Kl}[q_{2}] &= \{ (aa)^nb^m \mid n, m \in \mathbb N , m\equiv_{2}1\} \\
 \mathrm{Kl}[q_{3}] &= \{ (aa)^n(bb)^m \mid n,m \in \mathbb N, m\geq1 \} \\
-\mathrm{Kl}[q_{4}] &= \Sigma^* - \bigcup_{q_{4}\neq p \in Q} \mathrm{Kl}[p]
+\mathrm{Kl}[q_{4}] &= \Sigma^* - \bigcup_{p \in Q - \{ q_{4} \}} \mathrm{Kl}[p]
 \end{align}
 $$
 
