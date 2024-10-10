@@ -15,7 +15,7 @@ The idea of the proof is, that as $N \to \infty$ the number of primes up to $N$ 
 
 Proof by contradiction. Let's assume for the sake of it that there is an infinite amount of random prime numbers.
 
-Let $P$ be a program that takes some $n \in \mathbb{N}^+$ and generates the $n$-th prime number. Now we'll construct a program $Q_{i}$, a program that generates the primes up to index $i \in \mathbb{N}^+$. Since $i$ is the only variable part in $Q_{i}$, it can be upperbounded by $\log_2(i)+c$.
+Let $P$ be a program that takes some $i \in \mathbb{N}^+$ and generates the $i$-th prime number. Now we'll construct a program $Q_{n}$ for every $n \in \mathbb{N}^+$ that generates all primes up to $n$. Since $n$ is the only variable part in $Q_{n}$, it can be upperbounded by $\log_2(i)+c$.
 ```pascal
 begin
 	N := i;
