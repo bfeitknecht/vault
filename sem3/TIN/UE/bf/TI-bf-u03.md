@@ -10,9 +10,12 @@ Dennis Küenzi, 21-559-315
 > **Prime Number Theorem**
 > $\lim_{ n \to \infty} \frac{\mathrm{Prim}(n)}{n /\ln n} =1$
 
+
+The idea of the proof is, that as $N \to \infty$ the number of primes up to $N$ that are not random approaches infinity.
+
 Proof by contradiction. Let's assume for the sake of it that there is an infinite amount of random prime numbers.
 
-Let $P$ be a program that takes some $n \in \mathbb{N}^+$ and generates the $n$-th prime number. Now we'll construct $Q_{i}$, a program that generates the primes up to index $i \in \mathbb{N}^+$. Since $i$ is the only variable part in $Q_{i}$, it can be upperbounded by $\log_2(i)+c$.
+Let $P$ be a program that takes some $n \in \mathbb{N}^+$ and generates the $n$-th prime number. Now we'll construct a program $Q_{i}$, a program that generates the primes up to index $i \in \mathbb{N}^+$. Since $i$ is the only variable part in $Q_{i}$, it can be upperbounded by $\log_2(i)+c$.
 ```pascal
 begin
 	N := i;
@@ -21,7 +24,7 @@ begin
 end
 ```
 
-The idea of the proof is now, that as $i\to \infty$ the number of (non-random) primes $p$ up to $i$ with $K(p) < \lceil \log_{2} (p+1) \rceil +1$ approaches infinity.
+
 
 The Prime Number Theorem states that the index $n$ of any prime number $p$ is at most $p /\ln (p)$ but its length in binary encoding is $\log_2 (p)$. Since $\log_2 (p)$ grows asymptotically faster than $\log_2(p /\ln(p) )$ our constant $c$ gets infinitely large as we approach $n\to \infty$.
 
