@@ -17,7 +17,7 @@ Prove or disprove the following statements. Justify your answer.
 ![[A&D-e-u03.pdf#page=2&rect=85,688,526,774|A&D-e-u03, p.2]]
 
 ### (1)
-False, let $f(n) =3n^5+5n^3$ and $g(n)=4n^4$. We will show that $f \neq \Theta(g)$. Since the highest power dominates the term
+False, let $f(n) =3n^5+5n^3$ and $g(n)=4n^4$. We will show that $f \neq \Theta(g)$. Since the highest power dominating the terms are not equal, specifically $f$ grows asymptotically faster than $g$, the limit will diverge.
 $$
 \begin{align}
 \lim_{ n \to \infty }  \frac{f(n)}{g(n)} &= \lim_{ n \to \infty } \frac{3n^5 + 5n^3}{4n^4} \\
@@ -33,7 +33,7 @@ $\square$
 Em
 
 ### (3)
-True, constants don't matter.
+True, constants don't matter. Let $f(n)=\frac{n^6}{6}+10n^4+100n^3$ and $g(n)=$
 
 ### (4)
 Em
