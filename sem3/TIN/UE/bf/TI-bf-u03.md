@@ -54,10 +54,10 @@ q4 -->|"a, b"| q4
 
 $$
 \begin{align}
-\mathrm{Kl}[q_{0}] &= \{ wb \mid \text{w} \}^* \cup \{ yabb \mid y \in \Sigma^* \} \\
-\mathrm{Kl}[q_{1}] &= \{ yabb \mid y \in \Sigma^* \} \\
-\mathrm{Kl}[q_{2}] &= \{  \} \\
-\mathrm{Kl}[q_{3}] &= \{ (a^nbb)^m \mid y \in \Sigma^* \} \\
+\mathrm{Kl}[q_{0}] &= \Sigma^* - \bigcup_{q_{0}\neq p \in Q} \mathrm{Kl}[p]  \\
+\mathrm{Kl}[q_{1}] &= \{ wa \mid \text{$w$ does not contain $abba$} \} \\
+\mathrm{Kl}[q_{2}] &= \{ wab \mid \text{$w$ does not contain $abba$} \} \\
+\mathrm{Kl}[q_{3}] &= \{ wabb \mid \text{$w$ does not contain $abba$} \} \\
 \mathrm{Kl}[q_{4}] &= \{ yabbaz \mid y, z \in  \Sigma^* \}
 \end{align}
 $$
