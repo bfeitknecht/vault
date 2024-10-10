@@ -1,4 +1,3 @@
-
 Basil Feitknecht, 23-922-099,
 Alex Vance, 24-943-763
 
@@ -28,6 +27,7 @@ $$
 $$
 $\square$
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### (2)
 Em
@@ -37,9 +37,11 @@ True, constants don't matter. Let $f(n)=\frac{n^6}{6}+10n^4+100n^3$ and $g(n)=6n
 $$
 \begin{align}
 \lim_{ n \to \infty } \frac{f(n)}{g(n)} &= \lim_{ n \to \infty } \frac{\frac{n^6}{6}+10n^4+100n^3}{6n^6} \\
-&= \frac{n^6\left( \frac{1}{6} +\frac{10}{n^2} \right)}{6n^6}
+&= \lim_{ n \to \infty } \frac{\cancel{ n^6 }\left( \frac{1}{6} + \frac{10}{n^2} + \frac{100}{n^3}\right)}{6\cancel{ n^6 }} \\
+&= \frac{1}{36}
 \end{align}
 $$
+$\square$
 
 ### (4)
 Em
@@ -65,6 +67,8 @@ $\square$
 
 ### (2)
 Em
+
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### (3)
 Let $f(n)=\log(n^2 + n)$ and $g(n) =\log(n+1)$. We will show that $\lim_{ n \to \infty } \frac{f(n)}{g(n)} =C \in \mathbb{R}^+$ and thus $f = \Theta(g)$.

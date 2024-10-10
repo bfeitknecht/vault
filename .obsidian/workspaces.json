@@ -439,8 +439,29 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "f2483669ca08b803",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "var/attachments/sigma-sums-1.jpeg"
+                  }
+                }
+              },
+              {
+                "id": "aedf9560a90fa33d",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "var/attachments/log-properties-2.png"
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "15a48b386ddaf1c5",
@@ -454,8 +475,8 @@
                   "state": {
                     "file": "sem3/A&D/UE/e/A&D-e-u03.pdf",
                     "page": 1,
-                    "left": -18,
-                    "top": 603,
+                    "left": -48,
+                    "top": 607,
                     "zoom": 0.8743843192065531
                   }
                 }
@@ -512,7 +533,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/A&D/VRL/notes/A&D.md"
+                    "file": "sem3/A&D/UE/bf/A&D-bf-u03.md"
                   }
                 }
               }
@@ -537,7 +558,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/A&D/VRL/notes/A&D.md",
+                    "file": "sem3/A&D/UE/bf/A&D-bf-u03.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -554,7 +575,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/A&D/VRL/notes/A&D.md",
+                    "file": "sem3/A&D/UE/bf/A&D-bf-u03.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -609,8 +630,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "e7911976b677ac81",
-      "mtime": "2024-10-09T21:43:32+02:00"
+      "active": "97f460969ba12f8e",
+      "mtime": "2024-10-10T17:47:19+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1598,5 +1619,5 @@
       "mtime": "2024-10-10T16:35:03+02:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-dmath"
 }
