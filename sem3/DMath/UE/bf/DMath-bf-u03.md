@@ -46,9 +46,11 @@ $$
 \begin{align}
 S &\overset{ \cdot }{ \iff } (n \mid m) \wedge (n \mid m+1) &\text{(definition of $\texttt{divides}$)} \\
 &\overset{ \cdot }{ \iff } \exists k,l(k\cdot n=m \wedge l\cdot n=m+1) &\text{(substitute $m$)} \\
-&\overset{ \cdot }{ \iff } \exists k,l(l\cdot n = (k\cdot n)+1) &\text{(rearrange)} \\
+&\overset{ \cdot }{ \implies } \exists k,l(l\cdot n = (k\cdot n)+1) &\text{(rearrange)} \\
 &\overset{ \cdot }{ \iff } \exists k,l((l\cdot n) -  (k\cdot n) = 1) &\text{(rearrange)} \\
 &\overset{ \cdot }{ \iff } \exists k,l((l-k) \cdot n = 1) &\text{(definition of $\texttt{divides}$)} \\
+&\overset{ \cdot }{ \iff } n \mid 1 &\text{(3.2 $\mathbf{iii}$.)} \\
+&\overset{ \cdot }{ \iff } n = 1 &\text{(contradiction!)} \\
 \end{align}
 $$
 
