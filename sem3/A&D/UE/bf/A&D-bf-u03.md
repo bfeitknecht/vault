@@ -58,7 +58,8 @@ $$
 \lim_{ n \to \infty } \frac{f(n)}{g(n)} &= \lim_{ n \to \infty } \frac{\log(n^2 +n)}{\log (n+1)} \\
 &= \lim_{ n \to \infty } \frac{\log (n) + \log(n+1)}{\log(n+1)} &\text{(l'Hôpital)}\\
 &= \lim_{ n \to \infty } \frac{\frac{1}{n}+\frac{1}{n+1}}{\frac{1}{n+1}}  \\
-= \lim_{ n \to \infty } \frac{n+1}{n} + 1\\
+&= \lim_{ n \to \infty } \left( \frac{1}{n} +\frac{1}{n+1} \right) \cdot (n+1) \\
+&= \lim_{ n \to \infty } \frac{n+1}{n} + 1\\
 &= \lim_{ n \to \infty } \frac{(n+1)^2 +n+1}{n+1}  = \lim_{ n \to \infty } \frac{n^2 +3n+2}{n+1} 
 \end{align}
 $$
