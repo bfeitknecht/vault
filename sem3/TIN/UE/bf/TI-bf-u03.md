@@ -66,6 +66,7 @@ $$
 $$
 $\square$
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## (b)
 
@@ -110,6 +111,7 @@ $$
 In particular one notes, that all words of even length are in $\mathrm{Kl}[q_{0}]$ and all words of odd length are in $\mathrm{Kl}[q_{1}]$.
 $\square$
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 # 9
 ![[TI-e-u03.pdf#page=1&rect=68,127,533,349|TI-e-u03, p.1]]

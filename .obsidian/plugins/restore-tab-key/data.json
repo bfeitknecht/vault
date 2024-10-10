@@ -3,7 +3,7 @@
   "indentsIfSelectionOnlyForMultipleLines": true,
   "useSpaces": true,
   "alignSpaces": true,
-  "useHardSpace": false,
+  "useHardSpace": true,
   "spacesCount": 4,
   "allowException": true,
   "exceptionRegex": "^[\\s ]*(-|\\d+\\.)( \\[ \\])?\\s*$",
