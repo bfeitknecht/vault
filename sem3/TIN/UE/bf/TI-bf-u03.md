@@ -23,14 +23,14 @@ begin
 end
 ```
 
-
-The idea is, that as $i\to \infty$ the number of primes with $K(p) < \lceil \log_{2} (p+1) \rceil +1$ approaches infinity.
-
 Since $i$ is the only variable part in every program $Q_{i}$, they can be upperbounded by $\log_2(i)+c$.
 
-The Prime Number Theorem states that the index $n$ of any prime number $p$ is at most $n /\ln (n)$ but its length in binary encoding is $\log_2 (p)$. 
+The idea is, that as $i\to \infty$ the number of primes $p$ up to $i$ with $K(p) < \lceil \log_{2} (p+1) \rceil +1$ approaches infinity.
 
-Since $\log_2 (p_{n})$ grows asymptotically faster than $\log_2(n /\ln(n) )$ our constant $c$ gets infinitely large as we approach $n\to \infty$.
+
+The Prime Number Theorem states that the index $n$ of any prime number $p$ is at most $p /\ln (p)$ but its length in binary encoding is $\log_2 (p)$. 
+
+Since $\log_2 (p_{n})$ grows asymptotically faster than $\log_2(p /\ln(p) )$ our constant $c$ gets infinitely large as we approach $n\to \infty$.
 
 Since $c$ must be finite, at some point the inequality $\log_2(n)+c < n /\ln (n)$ holds, which implies that there are only a finite amount of random primes.
 $\square$
