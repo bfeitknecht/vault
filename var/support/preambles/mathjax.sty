@@ -1,16 +1,24 @@
 %% the step relation on the given argument #1
-\newcommand{\step}[1]{\mathrel{
-{\Large \vdash}_{\kern -1em \smash{\raise .19em \tiny{#1}}}
-}}
+\newcommand{\step}[1]{\mathrel{\smash{\raise{-.2em}{
+    {\Large \vdash}_{
+        \kern{-1em}{
+            \smash{\raise{.2em}{\tiny #1}}
+        }
+    }
+}}}}
 
 %% the reflexive and transitive closure of the step relation on #1
 \newcommand{\steps}[1]{\mathrel{
-\step{#1}^{\kern -.88em {\tiny *}}
+    \step{#1}^{
+        \kern{-.88em}{
+            \smash{\raise{-.3em}{\tiny *}}
+        }
+    }
 }}
 
 %% negated implication
-\newcommand{\nimpl}{\kern.6em\not\kern -.6em \implies}
+\newcommand{\nimpl}{\kern{.6em}{\not\kern{-.6em}{\implies}}}
 
 %% contradiction lightning bolt symbol
-\newcommand{\lightning}{↯}
+\newcommand{\contradiction}{↯}
 
