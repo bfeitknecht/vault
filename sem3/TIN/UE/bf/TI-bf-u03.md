@@ -23,7 +23,10 @@ begin
 end
 ```
 
-Since $i$ is the only variable part for all programs $Q_{i}$, they can be upperbounded by $\log_2(i)+c$.
+
+The idea is, that as $i\to \infty$ the number of primes with $K(p) < \lceil \log_{2} (p+1) \rceil +1$ approaches infinity.
+
+Since $i$ is the only variable part in every program $Q_{i}$, they can be upperbounded by $\log_2(i)+c$.
 
 The Prime Number Theorem states that the index $n$ of any prime number $p$ is at most $n /\ln (n)$ but its length in binary encoding is $\log_2 (p)$. 
 
