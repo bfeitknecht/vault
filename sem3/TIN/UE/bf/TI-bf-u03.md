@@ -15,9 +15,7 @@ Dennis Küenzi, 21-559-315
 
 The idea of the proof is, that for some $N \in \mathbb{N}$, the number of primes up to $N$ that are not random approaches infinity as $N \to \infty$.
 
-Proof by contradiction.
-
-Let's assume there is an infinite amount of random primes.
+Proof by contradiction. Let's assume there is an infinite amount of random primes.
 
 Let $P$ be a program that takes some $i \in \mathbb{N}^+$ and generates the $i$-th prime number. Now we'll construct a program $Q_{n}$ for every $n \in \mathbb{N}^+$ that generates the primes up to $n$. Since $n$ is the only variable part in $Q_{n}$, its kolmogorov complexity is at most $\log_2(n)+c$.
 ```pascal
@@ -32,6 +30,13 @@ end
 ```
 
 
+
+```desmos-graph
+
+f(x) = \log(x)
+g(x) = \ln(x)-0.5
+
+```
 
 The Prime Number Theorem states that the index $i$ of any prime number $p$ is at most $p /\ln (p)$ but its length in binary encoding is $\log_2 (p)$. Since $\log_2 (p)$ grows asymptotically faster than $\log_2(p /\ln(p) )$ our constant $c$ gets infinitely large as we approach $n\to \infty$.
 
