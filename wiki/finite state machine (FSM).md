@@ -12,6 +12,8 @@ A *configuration* of $M$ is a [[tuple]] of *state* $q$ and *input word* $w$ in t
 A configuration $(q_{0}, x)\in \{q_{0}\} \times\Sigma^*$ is called *initial configuration* of $M$ on $x$.
 Every configuration in $Q\times \{\lambda \}$ is called an *end configuration*.
 
+The *state transition function* $\delta$
+
 A *step* of $M$ is a [[relation]] on configurations, $\step{M} \subseteq (Q\times\Sigma^*)\times(Q\times\Sigma^*)$, defined by
 $(q, w) \step{M} (p, x) \iff w=ax, a \in \Sigma$, where $\delta(q, a) = p$. A step corresponds to evaluating the transition function on the current configuration of $M$ (meaning it's in state $q$ and reads the input symbol $a$), resulting in a transition to state $p$.
 
