@@ -7,17 +7,16 @@ A ([[deterministic]]) **finite state machine** (FSM) is a [[tuple|quintuple]] $M
 4. $q_{0}\in Q$ is the *initial state*
 5. $F\subseteq Q$ is the set of *accepted states*
 
-A *configuration* of $M$ is a [[tuple]] of *state* $q$ and *input word* $w$ in the cartesian product of all possible states and all possible input words, i.e. $(q, w) \in Q\times\Sigma^*$. It denotes that $M$ exists in state $q$ and will read the [[substring|suffix]] of the input [[word]] $w$.
+A *configuration* of $M$ is a [[tuple]] of *state* $q$ and *input word* $w$ in the cartesian product of all possible states and all possible input words, i.e. $(q, w) \in Q\times\Sigma^*$. It denotes that $M$ is in state $q$ and will read the [[substring|suffix]] of the input [[word]] $w$ next.
 
-A configuration $(q_{0}, x)\in \{q_{0}\} \times\Sigma^*$ is called *initial configuration* of $M$ on $x$.
-Every configuration in $Q\times \{\lambda \}$ is called an *end configuration*.
+A configuration $(q_{0}, x)\in \{q_{0}\} \times\Sigma^*$ is called *initial configuration* of $M$ on $x$. Every configuration $(q, \lambda) \in Q\times \{\lambda \}$ is called an *end configuration*.
 
-The *state transition function* $\delta$
+The *state transition function* $\delta$ takes $M$ from state $q$ to $p$, depending on the suffix $x$ of the input word $w$.
 
 A *step* of $M$ is a [[relation]] on configurations, $\step{M} \subseteq (Q\times\Sigma^*)\times(Q\times\Sigma^*)$, defined by
 $(q, w) \step{M} (p, x) \iff w=ax, a \in \Sigma$, where $\delta(q, a) = p$. A step corresponds to evaluating the transition function on the current configuration of $M$ (meaning it's in state $q$ and reads the input symbol $a$), resulting in a transition to state $p$.
 
-A *computation* $C$ of $M$ is a finite [[sequence]] of steps $C=(C_{i})_{i=0}^n$ of configurations, where $C_{i}\step{M}C_{i+1},\forall i\in[n-1]$.
+A *computation* $C$ of $M$ is a finite [[sequence]] of steps $C=(C_{i})_{i=0}^n$ between configurations, where $C_{i}\step{M}C_{i+1},\forall i\in[n-1]$.
 We call $C$ a computation of $M$ *on the input* $x\in\Sigma^*$ if $C_{0}=(q_{0},x)$ and $Q_{n}\in Q \times \{\lambda\}$ is an end configuration.
 If $C_{n}\in F\times\{\lambda\}$ we say that $C$ is an *accepting computation* of $M$ on $x$ and that $M$ *accepts* the word $x$. In the case that $C_{n}\in (Q-F) \times\{\lambda\}$ we say that $C$ is a *rejecting* computation of $M$ on $x$ and that $M$ *rejects* (doesn't accept) the word $x$.
 
