@@ -14,7 +14,7 @@ Dennis Küenzi, 21-559-315
 
 Proof by contradiction. Let $P$ be a program that takes some $n \in \mathbb{N}^+$ and generates the $n$-th prime number.
 
-Let's now construct $Q_{i}$, a program that generates the primes up to index $i \in \mathbb{N}^+$.
+Let's now construct $Q_{i}$, a program that generates the primes up to index $i \in \mathbb{N}^+$. Since $i$ is the only variable part in $Q_{i}$, it can be upperbounded by $\log_2(i)+c$.
 ```pascal
 begin
 	N := i;
@@ -23,22 +23,21 @@ begin
 end
 ```
 
-Since $i$ is the only variable part in every program $Q_{i}$, they can be upperbounded by $\log_2(i)+c$.
 
-The idea is, that as $i\to \infty$ the number of primes $p$ up to $i$ with $K(p) < \lceil \log_{2} (p+1) \rceil +1$ approaches infinity.
-
+%% The idea is, that as $i\to \infty$ the number of primes $p$ up to $i$ with $K(p) < \lceil \log_{2} (p+1) \rceil +1$ approaches infinity. %%
 
 The Prime Number Theorem states that the index $n$ of any prime number $p$ is at most $p /\ln (p)$ but its length in binary encoding is $\log_2 (p)$. 
 
-Since $\log_2 (p_{n})$ grows asymptotically faster than $\log_2(p /\ln(p) )$ our constant $c$ gets infinitely large as we approach $n\to \infty$.
+Since $\log_2 (p)$ grows asymptotically faster than $\log_2(p /\ln(p) )$ our constant $c$ gets infinitely large as we approach $n\to \infty$.
 
-Since $c$ must be finite, at some point the inequality $\log_2(n)+c < n /\ln (n)$ holds, which implies that there are only a finite amount of random primes.
+Since $c$ must be finite, we have arrived at a contradiction which implies that the ratio of random primes to primes approaches zero .
 $\square$
 
 
 
 
-
+Since $\log_2 (p)$ grows faster than $\log_2(p /\ln p)$ our constant $c$ can become infinitly larger for large prime numbers. 
+Since $c$ can't go to infinity at some point  $log_2(n)+c < n /\ln n$ creating an upperbount to all possible random primes, making them finite.
 
 
 
