@@ -39,7 +39,7 @@ Prove the following statements.
 Let $f(n) = \sqrt{ n^2 +n +1 }$ and $g(n)=n$. We will show that $\lim_{ n \to \infty } \frac{f(n)}{g(n)} = C \in \mathbb{R}^+$ and thus $f=\Theta(g)$.
 $$
 \begin{align}
-\lim_{ n \to \infty } \frac{\sqrt{ n^2+n+1 }}{n} &= \lim_{ n \to \infty } \frac{\sqrt{ n^2\left( 1+\frac{1}{n} +\frac{1}{n^2}\right) }}{n} \\ \\
+\lim_{ n \to \infty } \frac{\sqrt{ n^2+n+1 }}{n} &= \lim_{ n \to \infty } \frac{\sqrt{ n^2\left( 1+\frac{1}{n} +\frac{1}{n^2}\right) }}{n} \\
 &= \lim_{ n \to \infty } \frac{\cancel{ n} \sqrt{ 1+\frac{1}{n} + \frac{1}{n^2} }}{\cancel{ n }} \\
 &= \sqrt{ 1 } = 1
 \end{align}
@@ -52,6 +52,12 @@ Em
 
 ### (3)
 Let $f : n \mapsto \log(n^2 + n)$ and $g : n\mapsto \log(n+1)$. Per definition of $\Theta$ we will show, that $f \leq O(g)$ and $g \leq O(f)$.
+
+$$
+\begin{align}
+\lim_{ n \to \infty } \frac{f(n)}{g(n)} &= \log(n^2 +n)
+\end{align}
+$$
 
 
 <div class="page-break" style="page-break-before: always;"></div>
@@ -70,12 +76,16 @@ Em
 ## (b)
 ![[A&D-e-u03.pdf#page=4&rect=65,612,533,775|A&D-e-u03, p.4]]
 
-The exact number of calls to the function $f$ is given by $\sum_{i=1}^{2n} \sum_{j=1}^{i^3} n$.
 
+The exact number of calls to $f$ in sum notation and computed exactly is given below.
  $$
 \begin{align}
-n \cdot \sum_{i=1}^{2n}i^3 &= n \cdot \left( \frac{2n(2n+1)}{2} \right)^2 \\
+\sum_{i=1}^{2n} \sum_{j=1}^{i^3} n &= \sum_{i=1}^{2n}  (i^3 \cdot n) = n \cdot \sum_{i=1}^{2n}i^3  \\
+&= n \cdot \left( \frac{2n(2n+1)}{2} \right)^2 \\
 &= n \cdot (2n^2 + n)^2 \\
 &=4n^5 + 4n^4 + n^3
 \end{align}
 $$
+
+Since the highest power term dominates the rest of the expression as $n\to \infty$, the number of calls to $f$ is in $\Theta(n^5)$.
+$\square$
