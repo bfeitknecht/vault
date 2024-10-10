@@ -21,7 +21,7 @@ begin
 end
 ```
 
-The idea is now, that as $i\to \infty$ the number of (non-random) primes $p$ up to $i$ with $K(p) < \lceil \log_{2} (p+1) \rceil +1$ approaches infinity.
+The idea of the proof is now, that as $i\to \infty$ the number of (non-random) primes $p$ up to $i$ with $K(p) < \lceil \log_{2} (p+1) \rceil +1$ approaches infinity.
 
 The Prime Number Theorem states that the index $n$ of any prime number $p$ is at most $p /\ln (p)$ but its length in binary encoding is $\log_2 (p)$. Since $\log_2 (p)$ grows asymptotically faster than $\log_2(p /\ln(p) )$ our constant $c$ gets infinitely large as we approach $n\to \infty$.
 
@@ -152,7 +152,7 @@ $$
 - $\mathrm{Kl}[q_{1}]$ is defined as the words that consist of an odd number of only $a$
 - $\mathrm{Kl}[q_{2}]$ is the words that consist of an even number of $a$ followed by an odd number of $b$ and words that consist of an odd number of only $b$
 - $\mathrm{Kl}[q_{3}]$ is words that consist of an even number of $a$ followed by an even number of $b$ and words that consist of an even number of only $b$
-- $\mathrm{Kl}[q_{4}]$ is all rest, i.e. all the words that are not in any of the other classes (\*)
+- $\mathrm{Kl}[q_{4}]$ is all the rest, i.e. all the words that are not in any of the other classes
 $\square$
 
 %% 
