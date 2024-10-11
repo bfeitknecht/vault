@@ -17,10 +17,8 @@ Linear Algebra concers itself with [[vector|vectors]], [[matrix|matrices]] and w
 
 # Script
 
-**Script pt. 1**
+## First Part
 [[LinAlg-lecture-notes-pt.01.pdf]]
-
-
 
 
 # Lectures
