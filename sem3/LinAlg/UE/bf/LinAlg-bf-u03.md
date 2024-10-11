@@ -5,9 +5,9 @@
 
 It's noted that $A = \begin{bmatrix} \ \textemdash &\mathbf{u}_{1} &\textemdash\ \\ \ \textemdash &\mathbf{u}_{2} &\textemdash\ \\ &\vdots \\ \ \textemdash &\mathbf{u}_{m} &\textemdash\ \end{bmatrix}$ can also be written in row vector form, for $\mathrm{u}_{j \in [m]} \in \mathbb{R}^{n+1}$.
 
-Using the definition (def. 2.4) of matrix-vector multiplication, we can also write the function $T$ as a linear combination of column vectors in $A$, i.e. $T(\mathrm{x}) = \left( \sum_{j=1}^{n}x_{j}\mathrm{v}_{j} \right)+\mathrm{v}_{n+1}$.
+Using the definition (def. 2.4) of matrix-vector multiplication, we can also write the function $T$ as a linear combination of column vectors in $A$, i.e. $T(\mathrm{x}) = \left( \sum_{i=1}^{n}x_{i}\mathrm{v}_{i} \right)+\mathrm{v}_{n+1}$.
 
-Alternatively, we can also write it as a vector of scalar products between the row vectors and the modified argument, thus $T(\mathrm{x}) =[\mathrm{u}_{j} \cdot \mathrm{x}']_{m}$. 
+Alternatively, we can also write it as a vector of scalar products between the row vectors and the modified argument, thus $T(\mathrm{x}) =[\mathrm{u}_{j} \cdot \mathrm{x}']_{j \in [m]}$. 
 
 
 <div class="page-break" style="page-break-before: always;"></div>
@@ -19,6 +19,19 @@ To begin, let's consider the **if** direction, i.e. the statement "*if the $(n+1
 To prove that $T$ is a linear transformation, we need to show that it's closed under vector addition and scalar multiplication. To do this, we will show that $T(\mathrm{x} + \mathrm{y})= T(\mathrm{x})+ T(\mathrm{y})$ and $T(\lambda\mathrm{x}) =\lambda T(\mathrm{x})$ hold for arbitrary vectors $\mathrm{x}, \mathrm{y} \in \mathbb{R}^{n}$ and some scalar $\lambda \in \mathbb{R}$.
 
 First, we'll cover linearity, i.e., $T(\mathrm{x} + \mathrm{y})= T(\mathrm{x})+ T(\mathrm{y})$. Let $\mathrm{z} = \mathrm{x} + \mathrm{y} \in \mathbb{R}^{n}$ be the result of vector addition for two arbitrary vectors. 
+
+
+$$
+\begin{align}
+T(\mathrm{z}) &= A \begin{bmatrix}
+z_{1} \\
+\vdots \\
+z_{n} \\
+1
+\end{bmatrix} = [\mathrm{u}_{j} \cdot \mathrm{z}']_{j \in [m]}
+\end{align}
+$$
+
 
 To start out, let's cover $T(\mathrm{z})$.
 $$
