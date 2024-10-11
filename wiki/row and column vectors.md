@@ -12,7 +12,7 @@ a_{m_{1}} &a_{m_{2}} &\dots &a_{mn}
 \end{bmatrix}
 $$
 
-Then its row and column vectors are given by,
+Then its row and column vectors are given below.
 $$
 A =
 \begin{bmatrix}
@@ -26,7 +26,7 @@ A =
 \ \textemdash &\mathbf{u}_{2} &\textemdash\ \\
 &\vdots \\
 \ \textemdash &\mathbf{u}_{m} &\textemdash\
-\end{bmatrix}.
+\end{bmatrix}
 $$
 
 

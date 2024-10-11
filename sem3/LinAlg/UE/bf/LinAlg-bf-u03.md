@@ -11,7 +11,19 @@ To begin, let's consider the **if** direction, i.e. the statement "*if the $(n+1
 
 To prove that $T$ is a linear transformation, we need to show that it's closed under vector addition and scalar multiplication. To do this, we will show that $T(\mathrm{x} + \mathrm{y})= T(\mathrm{x})+ T(\mathrm{y})$ and $T(\lambda\mathrm{x}) =\lambda T(\mathrm{x})$ hold for arbitrary vectors $\mathrm{x}, \mathrm{y} \in \mathbb{R}^{n}$ and some scalar $\lambda \in \mathbb{R}$.
 
-First, we'll cover linearity, i.e., $T(\mathrm{x} + \mathrm{y})= T(\mathrm{x})+ T(\mathrm{y})$. Let $\mathrm{z} = \mathrm{x} + \mathrm{y} \in \mathbb{R}^{n}$ be the result of vector addition for two arbitrary vectors. Then we evaluate the function with $\mathrm{z}$ as input. We use the notation $\sum_{v \in \mathrm{v}}v$ to write the sum of all elements $v \in \mathbb{R}$ of some vector $\mathrm{v}$.
+First, we'll cover linearity, i.e., $T(\mathrm{x} + \mathrm{y})= T(\mathrm{x})+ T(\mathrm{y})$. Let $\mathrm{z} = \mathrm{x} + \mathrm{y} \in \mathbb{R}^{n}$ be the result of vector addition for two arbitrary vectors. It's noted that $A$ can also be written in row vector form, for $\mathrm{u}_{j \in \mathbb{R}^{n+1}}$.
+$$
+A = \begin{bmatrix}
+\ \textemdash &\mathbf{u}_{1} &\textemdash\ \\
+\ \textemdash &\mathbf{u}_{2} &\textemdash\ \\
+&\vdots \\
+\ \textemdash &\mathbf{u}_{m} &\textemdash\
+\end{bmatrix}.
+$$
+
+
+
+We use the notation $\sum_{v \in \mathrm{v}}v$ to write the sum of all elements $v \in \mathbb{R}$ of some vector $\mathrm{v}$.
 
 To start out, let's cover $T(\mathrm{z})$.
 $$
