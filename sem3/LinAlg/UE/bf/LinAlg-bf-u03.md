@@ -13,7 +13,7 @@ A = \begin{bmatrix}
 \ \textemdash &\mathbf{u}_{m} &\textemdash\
 \end{bmatrix}
 $$
-We denote $\mathrm{x}' \in \mathbb{R}^{n+1}$ as the modified vector argument 
+We denote $\mathrm{x}' \in \mathbb{R}^{n+1}$ as the modified argument vector $\mathrm{x} \in \mathbb{R}^{n}$, i.e. $\mathrm{x}'=\begin{bmatrix} x_{1} \\ \vdots \\ x_{n} \\ 1 \end{bmatrix} \in \mathbb{R}^{n+1}$ for all $\mathrm{x}=\begin{bmatrix} x_{1} \\ \vdots \\ x_{n} \end{bmatrix}$.
 
 Using the definition (def. 2.4) of matrix-vector multiplication, we can also write the function as a linear combination of column vectors in $A$, i.e. $T(\mathrm{x}) = \left( \sum_{j=1}^{n}x_{j}\mathrm{v}_{j} \right)+\mathrm{v}_{n+1}$.
 
