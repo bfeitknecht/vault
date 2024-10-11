@@ -2,11 +2,13 @@
 
 on_quit() {
   # log date and time
-  echo $(date)
+  msg="$(date)\n"
+  echo -e $msg 
 
   # save workspace
   # CAUSES THE WINDOW TO REOPEN
-  open --background "obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave"
+  uri="obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave"
+  open --background $uri
 
   # change to vault root
   cd "$1" &> /dev/null
@@ -25,5 +27,6 @@ on_quit() {
   git push
 }
 
+# run on quit and redirect stdout and stderr to log file
 on_quit &> /Users/bf/home/eth/vault/.obsidian/logs/on-quit-log.txt
 
