@@ -1,1 +1,1 @@
-.obsidian/scripts/on-quit.sh: line 3: on_quit: command not found
+Fri Oct 11 12:18:16 CEST 2024

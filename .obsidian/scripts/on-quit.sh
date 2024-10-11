@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
 
-on_quit &> /Users/bf/home/eth/vault/.obsidian/logs/on-quit-log.txt
-
-on_quit () {
+on_quit() {
   # log date and time
   echo $(date)
-  
+
   # save workspace
   # CAUSES THE WINDOW TO REOPEN
   open --background "obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave"
@@ -26,3 +24,6 @@ on_quit () {
   # try to push new local commits
   git push
 }
+
+on_quit &> /Users/bf/home/eth/vault/.obsidian/logs/on-quit-log.txt
+
