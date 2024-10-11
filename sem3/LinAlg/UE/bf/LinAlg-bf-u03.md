@@ -21,7 +21,7 @@ To begin, let's consider the **if** direction, i.e. the statement "*if the $(n+1
 
 If the last column vector is the zero, it is a trivial linear combination of any vector $\mathrm{w} \in \mathbb{R}^{m}$. Thus, we note that the rank of the matrix $A$ is at most $n$, i.e. $\mathrm{rank}(A) \leq n$.
 
-To prove that $T$ is a linear transformation, we need to show that it's closed under vector addition and scalar multiplication.
+To prove that $T$ is a linear transformation, we need to show that it's closed under vector addition and scalar multiplication. To do this, we will show that $T(\lambda \mathrm{x}+\mu \mathrm{y})=\lambda T(\mathrm{x})+\mu T(\mathrm{y})$ holds for arbitrary vectors $\mathrm{x}, \mathrm{y} \in \mathbb{R}^{n}$ and scalars $\lambda, \mu \in \mathbb{R}$.
 
 
 
