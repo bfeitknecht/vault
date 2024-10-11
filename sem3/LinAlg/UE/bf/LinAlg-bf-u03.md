@@ -14,9 +14,9 @@ A = \begin{bmatrix}
 \end{bmatrix}.
 $$
 
- $\sigma(\mathrm{u})=\overline{\mathrm{u}} = \sum_{i=1}^{n+1}u_{i}$  
+ $\sigma(\mathrm{u}) =\overline{\mathrm{u}} = \sum_{i=1}^{n+1}u_{i}$  
 
-We use the notation $\sum_{v \in \mathrm{v}}v$ to write the sum of all elements $v \in \mathbb{R}$ of some vector $\mathrm{v}$.
+We define the use of as notation $\sum_{v \in \mathrm{v}}v$ to write the sum of all elements $v \in \mathbb{R}$ of some vector $\mathrm{v}$.
 
 
 
