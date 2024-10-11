@@ -23,17 +23,14 @@ If the last column vector is the zero, it is a trivial linear combination of any
 
 To prove that $T$ is a linear transformation, we need to show that it's closed under vector addition and scalar multiplication. To do this, we will show that $T(\mathrm{x} + \mathrm{y})= T(\mathrm{x})+ T(\mathrm{y})$ and $T(\lambda\mathrm{x}) =\lambda T(\mathrm{x})$ hold for arbitrary vectors $\mathrm{x}, \mathrm{y} \in \mathbb{R}^{n}$ and some scalar $\lambda \in \mathbb{R}$.
 
-
+First, we'll cover linearity. Let $\mathrm{x} + \mathrm{y}= \mathrm{z} \in \mathbb{R}$
 
 
 
 
 Now we'll cover the other direction of the implication, namely the **only if**, i.e. "*if $T$ is a linear transformation, then the $(n+1)$-th column vector of $A$ is the zero vector*".
 
-...
-
-use axioms of linear transformation
-
+Contradiction?
 
 
 
