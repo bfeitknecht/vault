@@ -12,7 +12,11 @@ A = \begin{bmatrix}
 \mid &\mid & &\mid &\mid
 \end{bmatrix}
 $$ 
-Let $T:\mathbb{R}^{n}\to \mathbb{R}^{m}$ be the function defined by $T(\mathrm{x}) = A \begin{bmatrix}\mid \\ \dot{v} \\  \\ 1\end{bmatrix}$
+Let $T:\mathbb{R}^{n}\to \mathbb{R}^{m}$ be the function defined by $T(\mathrm{x}) = A \begin{bmatrix} x_{1} \\ \vdots \\  x_{n} \\ 1 \end{bmatrix}$ for all $\mathrm{x}\in \mathbb{R}^{n}$.
+
+We will prove the statement by showing that the implication is true for both "directions".
+
+To begin, let's consider the *if* direction
 
 
 linear map from n dimensions to m dimensions, where $\mathrm{v}_{i \in[n]}$ is the $i$-th base vector from $\mathbb R^n$ after the linear transformation in $\mathbb{R}^m$
