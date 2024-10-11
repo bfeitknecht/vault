@@ -20,7 +20,7 @@ To begin, let's consider the **if** direction, i.e. the statement "*if the $(n+1
 
 To prove that $T$ is a linear transformation, we need to show that it's closed under vector addition and scalar multiplication. To do this, we will show that $T(\mathrm{x} + \mathrm{y})= T(\mathrm{x})+ T(\mathrm{y})$ and $T(\lambda\mathrm{x}) =\lambda T(\mathrm{x})$ hold for arbitrary vectors $\mathrm{x}, \mathrm{y} \in \mathbb{R}^{n}$ and some scalar $\lambda \in \mathbb{R}$.
 
-First, we'll cover linearity. Let $\mathrm{x} + \mathrm{y}= \mathrm{z} \in \mathbb{R}^{n}$ be the result of vector addition for two arbitrary vectors. Then we evaluate the function with $\mathrm{z}$ as input. We use the notation $\sum_{v \in \mathrm{v}}v$ to denote the sum of 
+First, we'll cover linearity. Let $\mathrm{x} + \mathrm{y}= \mathrm{z} \in \mathbb{R}^{n}$ be the result of vector addition for two arbitrary vectors. Then we evaluate the function with $\mathrm{z}$ as input. We use the notation $\sum_{v \in \mathrm{v}}v$ to denote the sum of all elements in some vector.
 $$
 \begin{align}
 T(\mathrm{z}) &= A \begin{bmatrix}
@@ -33,10 +33,44 @@ z_{n} \\
 z_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
 \vdots \\
 z_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
-\sum_{v \in \mathrm{v}_{n+1}} v = 0
-\end{bmatrix} &\text{(def. matrix-vector product and $\mathrm{v}_{n+1} = \mathbf{0}$)}
+\sum_{v \in \mathrm{v}_{n+1}} v
+\end{bmatrix} &\text{(def. matrix-vector product)} \\
+&=
 \end{align}
 $$
+
+Now, let's evaluate $T(\mathrm{x})+T(\mathrm{y})$.
+$$
+\begin{align}
+T(\mathrm{x}) + T(\mathrm{y}) &= A \begin{bmatrix}
+x_{1} \\
+\vdots \\
+x_{n} \\
+1
+\end{bmatrix}
++ A \begin{bmatrix}
+y_{1} \\
+\vdots \\
+y_{n} \\
+1
+\end{bmatrix} &\text{(def. matrix-vector product)} \\
+&= \begin{bmatrix}
+x_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
+\vdots \\
+x_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
+\sum_{v \in \mathrm{v}_{n+1}} v
+\end{bmatrix}
++ \begin{bmatrix}
+y_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
+\vdots \\
+y_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
+\sum_{v \in \mathrm{v}_{n+1}} v
+\end{bmatrix} &\text{(def. vector addition)} \\
+
+\end{align}
+$$
+
+ 
 
 
 
