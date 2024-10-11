@@ -460,8 +460,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "15a48b386ddaf1c5",
@@ -476,7 +475,7 @@
                     "file": "sem3/A&D/UE/e/A&D-e-u03.pdf",
                     "page": 1,
                     "left": -48,
-                    "top": 607,
+                    "top": 611,
                     "zoom": 0.8743843192065531
                   }
                 }
@@ -533,7 +532,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u03.md"
+                    "file": "sem3/A&D/VRL/notes/A&D.md"
                   }
                 }
               }
@@ -558,7 +557,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u03.md",
+                    "file": "sem3/A&D/VRL/notes/A&D.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -575,7 +574,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u03.md",
+                    "file": "sem3/A&D/VRL/notes/A&D.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -630,8 +629,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "97f460969ba12f8e",
-      "mtime": "2024-10-10T17:47:19+02:00"
+      "active": "e7911976b677ac81",
+      "mtime": "2024-10-11T17:07:36+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1632,5 +1631,5 @@
       "mtime": "2024-10-11T12:56:28+02:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "00-home"
 }
