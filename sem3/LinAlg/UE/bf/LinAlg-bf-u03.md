@@ -28,12 +28,6 @@ z_{1} \\
 \vdots \\
 z_{n} \\
 1
-\end{bmatrix} 
-= \begin{bmatrix}
-z_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
-\vdots \\
-z_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
-\sum_{v \in \mathrm{v}_{n+1}} v
 \end{bmatrix} &\text{(def. matrix-vector product and $\mathrm{v}_{n+1}=\mathbf{0}$)} \\ \\
 &= \begin{bmatrix}
 z_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
@@ -46,18 +40,18 @@ z_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
 \vdots \\
 (x_{n} + y_{n}) \cdot \sum_{v \in \mathrm{v}_{n}} v \\
 0
-\end{bmatrix} &\text{(def. vector addition and $\mathrm{v}_{n+1}=\mathbf{0}$)} \\ \\
+\end{bmatrix} &\text{(def. vector addition)} \\ \\
 &= \begin{bmatrix}
 x_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
 \vdots \\
 x_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
-\sum_{v \in \mathrm{v}_{n+1}} v
+0
 \end{bmatrix}
 + \begin{bmatrix}
 y_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
 \vdots \\
 y_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
-\sum_{v \in \mathrm{v}_{n+1}} v
+0
 \end{bmatrix} &\text{(def. matrix-vector product)} \\ \\
 &= A \begin{bmatrix}
 x_{1} \\
