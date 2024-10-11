@@ -1,6 +1,8 @@
 
-- [[linear transformation]]
 - [[zero vector]]
+- [[CR decomposition]]
+- [[linear transformation]]
+- [[system of linear equations]]
 
 
 # Lecture Plan
@@ -11,7 +13,7 @@
 
 # Notes
 
-explain the CR decomposition
+CR decomposition
 linear transformations, visualizing linear transformations in 2d
 properties of linear transformations
 matrix representation of linear transformations

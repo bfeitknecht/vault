@@ -1,8 +1,9 @@
 
-- [[matrix]]
 - [[linear combination]]
 - [[hyperplane]]
-- [[CR decomposition]]
+- [[matrix]]
+- [[matrix-vector multiplication]]
+- [[matrix mutliplication]]
 
 
 # Lecture Plan
