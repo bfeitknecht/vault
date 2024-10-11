@@ -4,7 +4,7 @@
 ![[LinAlg-e-u03.pdf#page=1&rect=79,69,477,326|LinAlg-e-u03, p.1]]
 
 
-It's noted that $A$ can also be written in row vector form, for $\mathrm{u}_{j \in [m]} \in \mathbb{R}^{n+1}$. $\overline{\mathrm{u}} = \sum_{i}u_{i}$  
+It's noted that $A$ can also be written in row vector form, for $\mathrm{u}_{j \in [m]} \in \mathbb{R}^{n+1}$.
 $$
 A = \begin{bmatrix}
 \ \textemdash &\mathbf{u}_{1} &\textemdash\ \\
@@ -13,6 +13,11 @@ A = \begin{bmatrix}
 \ \textemdash &\mathbf{u}_{m} &\textemdash\
 \end{bmatrix}.
 $$
+
+ $\sigma(\mathrm{u})=\overline{\mathrm{u}} = \sum_{i=1}^{n+1}u_{i}$  
+
+We use the notation $\sum_{v \in \mathrm{v}}v$ to write the sum of all elements $v \in \mathbb{R}$ of some vector $\mathrm{v}$.
+
 
 
 
