@@ -1140,7 +1140,17 @@
                 }
               },
               {
-                "id": "39ca236cef69f764",
+                "id": "f7644828b4387ddb",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w02.pdf"
+                  }
+                }
+              },
+              {
+                "id": "2f2f71519d0108f8",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -1150,23 +1160,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "f7644828b4387ddb",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w02.pdf",
-                    "page": 3,
-                    "left": 54,
-                    "top": 761,
-                    "zoom": 1.15
-                  }
-                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           },
           {
             "id": "740ad403278fbd52",
@@ -1370,8 +1366,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "39ca236cef69f764",
-      "mtime": "2024-10-11T12:54:08+02:00"
+      "active": "2f2f71519d0108f8",
+      "mtime": "2024-10-11T13:29:32+02:00"
     },
     "sem3-ti": {
       "main": {

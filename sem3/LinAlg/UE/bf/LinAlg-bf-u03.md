@@ -30,7 +30,7 @@ z_{n} \\
 1
 \end{bmatrix} \\
 &= \begin{bmatrix}
-z_{i} \sum \mathrm{v}_{i} 
+z_{i} \sum_{j \in}^{m} \mathrm{v}_{i} 
 \end{bmatrix}_{i\in{n+1}}
 \end{align}
 $$
