@@ -114,7 +114,12 @@ x_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
 x_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
 0
 \end{bmatrix} &\text{(def. scalar multiplication, def. $T$)} \\ \\
-&= \lambda T(\mathrm{x})
+&= \lambda A \begin{bmatrix}
+x_{1} \\
+\vdots \\
+x_{n} \\
+1
+\end{bmatrix} = \lambda T(\mathrm{x})
 \end{align}
 $$
 
