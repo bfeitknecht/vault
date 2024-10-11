@@ -30,10 +30,14 @@ z_{n} \\
 1
 \end{bmatrix} \\
 &= \begin{bmatrix}
-z_{i} \sum_{j \in}^{m} \mathrm{v}_{i} 
-\end{bmatrix}_{i\in{n+1}}
+z_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
+\vdots \\
+z_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
+\sum_{v \in \mathrm{v}_{n+1}} v
+\end{bmatrix}
 \end{align}
 $$
+
 
 
 
