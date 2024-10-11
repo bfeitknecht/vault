@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
 
-on-quit &> /Users/bf/home/eth/vault/.obsidian/logs/on-quit-log.txt
+on_quit &> /Users/bf/home/eth/vault/.obsidian/logs/on-quit-log.txt
 
-on-quit () {
+on_quit () {
+  # log date and time
+  echo $(date)
+  
   # save workspace
-  #open --background "obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave"
+  # CAUSES THE WINDOW TO REOPEN
+  open --background "obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave"
 
   # change to vault root
   cd "$1" &> /dev/null

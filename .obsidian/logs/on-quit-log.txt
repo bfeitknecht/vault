@@ -1,1 +1,1 @@
-/Users/bf/HOME/eth/vault/.obsidian/scripts/on-quit.sh: line 3: on-quit: command not found
+.obsidian/scripts/on-quit.sh: line 3: on_quit: command not found
