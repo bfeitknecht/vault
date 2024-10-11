@@ -23,12 +23,25 @@ First, we'll cover linearity, i.e., $T(\mathrm{x} + \mathrm{y})= T(\mathrm{x})+ 
 
 $$
 \begin{align}
-T(\mathrm{x} + ) &= A \begin{bmatrix}
-z_{1} \\
+T(\mathrm{x} + \mathrm{y}) &= A \begin{bmatrix}
+x_{1} + y_{1} \\
 \vdots \\
-z_{n} \\
+x_{n} + y_{n} \\
 1
-\end{bmatrix} = \sum_{j=1}^{n}(x_{j}+y_{j})\mathrm{v}_{j}
+\end{bmatrix}  \\
+&= \sum_{j=1}^{n}(x_{j}+y_{j})\mathrm{v}_{j} \\ \\
+&= \sum_{j=1}^{n}x_{j}\mathrm{v}_{j} + \sum_{j=1}^{n}y_{j}\mathrm{v}_{j}  \\ \\
+&= A \begin{bmatrix}
+x_{1} \\
+\vdots \\
+x_{n} \\
+1
+\end{bmatrix} + A \begin{bmatrix}
+y_{1} \\
+\vdots \\
+y_{n} \\
+1
+\end{bmatrix} = T(\mathrm{x}) + T(\mathrm{y})
 \end{align}
 $$
 
