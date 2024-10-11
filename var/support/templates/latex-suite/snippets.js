@@ -351,5 +351,7 @@ Insert tabstops for the cursor to jump to by writing "$0", "$1", etc. in the rep
     // Custom
     {trigger: "Kl", replacement: "\\mathrm{Kl}[$0]", options: "mA"},
     {trigger: "qed", replacement: "\\square", options: "mA"},
+    {trigger: "top", replacement: "\\top", options: "mA"},
+    {trigger: "bot", replacement: "\\bot", options: "mA"},
 
 ]
