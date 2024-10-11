@@ -5,9 +5,9 @@
 
 It's noted that $A = \begin{bmatrix} \ \textemdash &\mathbf{u}_{1} &\textemdash\ \\ \ \textemdash &\mathbf{u}_{2} &\textemdash\ \\ &\vdots \\ \ \textemdash &\mathbf{u}_{m} &\textemdash\ \end{bmatrix}$ can also be written in row vector form, for $\mathrm{u}_{j \in [m]} \in \mathbb{R}^{n+1}$.
 
-Using the definition (def. 2.4) of matrix-vector multiplication, we can also write the function $T$ as a linear combination of column vectors in $A$, i.e. $T(\mathrm{x}) = \left( \sum_{i=1}^{n}x_{i}\mathrm{v}_{i} \right)+\mathrm{v}_{n+1}$.
+Using the definition (def. 2.4) of matrix-vector multiplication, we can also write the function $T$ as a linear combination of column vectors in $A$, i.e. $T(\mathrm{x}) = \left( \sum_{j=1}^{n}x_{j}\mathrm{v}_{j} \right)+\mathrm{v}_{n+1}$.
 
-Alternatively, we can also write it as a vector of scalar products between the row vectors and the modified argument, thus $T(\mathrm{x}) =[\mathrm{u}_{j} \cdot \mathrm{x}']_{j \in [m]}$. 
+Alternatively, we can also write it as a vector of scalar products between the row vectors and the modified argument, thus $T(\mathrm{x}) =[\mathrm{u}_{i} \cdot \mathrm{x}']_{i \in [m]}$. 
 
 
 <div class="page-break" style="page-break-before: always;"></div>
@@ -23,12 +23,12 @@ First, we'll cover linearity, i.e., $T(\mathrm{x} + \mathrm{y})= T(\mathrm{x})+ 
 
 $$
 \begin{align}
-T(\mathrm{z}) &= A \begin{bmatrix}
+T(\mathrm{x} + ) &= A \begin{bmatrix}
 z_{1} \\
 \vdots \\
 z_{n} \\
 1
-\end{bmatrix} = [\mathrm{u}_{j} \cdot \mathrm{z}']_{j \in [m]}
+\end{bmatrix} = \sum_{j=1}^{n}(x_{j}+y_{j})\mathrm{v}_{j}
 \end{align}
 $$
 
