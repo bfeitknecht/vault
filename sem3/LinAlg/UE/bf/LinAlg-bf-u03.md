@@ -3,15 +3,8 @@
 # 2.
 ![[LinAlg-e-u03.pdf#page=1&rect=79,69,477,326|LinAlg-e-u03, p.1]]
 
-<div class="page-break" style="page-break-before: always;"></div>
 
-We will prove that $T: \mathbb{R}^{n} \to \mathbb{R}^{m}$ is a linear transformation if and only if $\mathrm{v}_{n+1}=\mathbf{0}$, by showing that the implication is true for both "directions".
-
-To begin, let's consider the **if** direction, i.e. the statement "*if the $(n+1)$-th column vector of $A$ is the zero vector, then $T$ is a linear transformation*".
-
-To prove that $T$ is a linear transformation, we need to show that it's closed under vector addition and scalar multiplication. To do this, we will show that $T(\mathrm{x} + \mathrm{y})= T(\mathrm{x})+ T(\mathrm{y})$ and $T(\lambda\mathrm{x}) =\lambda T(\mathrm{x})$ hold for arbitrary vectors $\mathrm{x}, \mathrm{y} \in \mathbb{R}^{n}$ and some scalar $\lambda \in \mathbb{R}$.
-
-First, we'll cover linearity, i.e., $T(\mathrm{x} + \mathrm{y})= T(\mathrm{x})+ T(\mathrm{y})$. Let $\mathrm{z} = \mathrm{x} + \mathrm{y} \in \mathbb{R}^{n}$ be the result of vector addition for two arbitrary vectors. It's noted that $A$ can also be written in row vector form, for $\mathrm{u}_{j \in [m]} \in \mathbb{R}^{n+1}$. $\overline{\mathrm{u}}$ 
+It's noted that $A$ can also be written in row vector form, for $\mathrm{u}_{j \in [m]} \in \mathbb{R}^{n+1}$. $\overline{\mathrm{u}} = \sum_{i}u_{i}$  
 $$
 A = \begin{bmatrix}
 \ \textemdash &\mathbf{u}_{1} &\textemdash\ \\
@@ -23,7 +16,15 @@ $$
 
 
 
-We use the notation $\sum_{v \in \mathrm{v}}v$ to write the sum of all elements $v \in \mathbb{R}$ of some vector $\mathrm{v}$.
+<div class="page-break" style="page-break-before: always;"></div>
+
+We will prove that $T: \mathbb{R}^{n} \to \mathbb{R}^{m}$ is a linear transformation if and only if $\mathrm{v}_{n+1}=\mathbf{0}$, by showing that the implication is true for both "directions".
+
+To begin, let's consider the **if** direction, i.e. the statement "*if the $(n+1)$-th column vector of $A$ is the zero vector, then $T$ is a linear transformation*".
+
+To prove that $T$ is a linear transformation, we need to show that it's closed under vector addition and scalar multiplication. To do this, we will show that $T(\mathrm{x} + \mathrm{y})= T(\mathrm{x})+ T(\mathrm{y})$ and $T(\lambda\mathrm{x}) =\lambda T(\mathrm{x})$ hold for arbitrary vectors $\mathrm{x}, \mathrm{y} \in \mathbb{R}^{n}$ and some scalar $\lambda \in \mathbb{R}$.
+
+First, we'll cover linearity, i.e., $T(\mathrm{x} + \mathrm{y})= T(\mathrm{x})+ T(\mathrm{y})$. Let $\mathrm{z} = \mathrm{x} + \mathrm{y} \in \mathbb{R}^{n}$ be the result of vector addition for two arbitrary vectors. 
 
 To start out, let's cover $T(\mathrm{z})$.
 $$
