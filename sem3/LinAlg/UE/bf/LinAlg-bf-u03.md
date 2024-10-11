@@ -77,9 +77,14 @@ $\square$
 
 Now we'll cover the other direction of the implication, namely the **only if**, i.e. "*if $T$ is a linear transformation, then the $(n+1)$-th column vector of $A$ is the zero vector*".
 
-Contradiction?
+We prove this by contradiction. Let's assume that $T$ is a linear transformation and the last column vector is an arbitrary non-zero vector, i.e. $\mathrm{v}_{n+1} \neq \mathbf{0}$.
 
-If the last column vector is the zero, it is a trivial linear combination of any vector $\mathrm{w} \in \mathbb{R}^{m}$. Thus, we note that the rank of the matrix $A$ is at most $n$, i.e. $\mathrm{rank}(A) \leq n$.
+Let's evaluate the function at the zero vector.
+$$
+\begin{align}
+T(\mathbf{0}) 
+\end{align}
+$$
 
 
 
