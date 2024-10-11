@@ -2,10 +2,10 @@
 
 A **linear transformation**, also known as a **linear map**, is applying some [[matrix]] $A \in \mathbb{R}^{m\times n}$ to an element in a [[vector space]], i.e. a [[vector]] $\mathrm{v} \in \mathbb{R}^n$. Specific matrix types result in unique transformations.
 
-Such a map can be defined as a [[function]] $T_{A}:\mathbb{R}^n \to \mathbb{R}^m$ and exhibits two properties.
-(i)     linearity (closure under [[vector addition|addition]]): $T_{A}(\mathrm{x}+\mathrm{y}) = T_{A}(\mathrm{x})+T_{A}(\mathrm{y})$
-(ii)    homogeneity (closure under [[scalar multiplication|multiplication]]): $T_{A}(\lambda \mathrm{x})=\lambda T_{A}(\mathrm{x})$
-(\*iii)   combination: $T_{A}(\lambda \mathrm{x}+ \mu \mathrm{y})=\lambda T_{A}(\mathrm{x})+ \mu T_{A}(\mathrm{y})$
+Such a map can be defined as a [[function]] $T:\mathbb{R}^n \to \mathbb{R}^m$ and exhibits two properties.
+(i)     linearity (closure under [[vector addition|addition]]): $T(\mathrm{x}+\mathrm{y}) = T(\mathrm{x})+T(\mathrm{y})$
+(ii)    homogeneity (closure under [[scalar multiplication|multiplication]]): $T(\lambda \mathrm{x})=\lambda T(\mathrm{x})$
+(\*iii)   combination: $T(\lambda \mathrm{x}+ \mu \mathrm{y})=\lambda T(\mathrm{x})+ \mu T(\mathrm{y})$
 
 Furthermore, every linear transformation exhibits [[commutativity]] under vector addition and scalar multiplication.
 ![[LinAlg-plan-w03.pdf#page=2&rect=77,254,537,370|LinAlg-plan-w03, p.2]]
