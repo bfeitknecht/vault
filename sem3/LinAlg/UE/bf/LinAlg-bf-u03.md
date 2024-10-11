@@ -16,14 +16,16 @@ Let $T:\mathbb{R}^{n}\to \mathbb{R}^{m}$ be the function defined by $T(\mathrm{x
 
 We will prove the statement by showing that the implication is true for both "directions".
 
-
 To begin, let's consider the **if** direction, i.e. the statement "*if the $(n+1)$-th column vector of $A$ is the zero vector, then $T$ is a linear transformation*".
-
-If the last column vector is the zero, it is a trivial linear combination of any vector $\mathrm{w} \in \mathbb{R}^{m}$. Thus, we note that the rank of the matrix $A$ is at most $n$, i.e. $\mathrm{rank}(A) \leq n$.
 
 To prove that $T$ is a linear transformation, we need to show that it's closed under vector addition and scalar multiplication. To do this, we will show that $T(\mathrm{x} + \mathrm{y})= T(\mathrm{x})+ T(\mathrm{y})$ and $T(\lambda\mathrm{x}) =\lambda T(\mathrm{x})$ hold for arbitrary vectors $\mathrm{x}, \mathrm{y} \in \mathbb{R}^{n}$ and some scalar $\lambda \in \mathbb{R}$.
 
-First, we'll cover linearity. Let $\mathrm{x} + \mathrm{y}= \mathrm{z} \in \mathbb{R}$
+First, we'll cover linearity. Let $\mathrm{x} + \mathrm{y}= \mathrm{z} \in \mathbb{R}^{n}$ be the result of vector addition for two arbitrary vectors. Then we evaluate the function with $\mathrm{z}$ as input.
+$$
+\begin{align}
+T(\mathrm{z}) &= 
+\end{align}
+$$
 
 
 
@@ -32,7 +34,7 @@ Now we'll cover the other direction of the implication, namely the **only if**, 
 
 Contradiction?
 
-
+If the last column vector is the zero, it is a trivial linear combination of any vector $\mathrm{w} \in \mathbb{R}^{m}$. Thus, we note that the rank of the matrix $A$ is at most $n$, i.e. $\mathrm{rank}(A) \leq n$.
 
 
 
