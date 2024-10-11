@@ -40,25 +40,13 @@ z_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
 \vdots \\
 z_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
 0
-\end{bmatrix}
-\end{align}
-$$
-
-Now, let's evaluate $T(\mathrm{x})+T(\mathrm{y})$.
-$$
-\begin{align}
-T(\mathrm{x}) + T(\mathrm{y}) &= A \begin{bmatrix}
-x_{1} \\
+\end{bmatrix}  &\text{(def. $\mathrm{z} = \mathrm{x}+\mathrm{y}$)} \\ \\
+&= \begin{bmatrix}
+(x_{1} + y_{1}) \cdot \sum_{v \in \mathrm{v}_{1}} v \\
 \vdots \\
-x_{n} \\
-1
-\end{bmatrix}
-+ A \begin{bmatrix}
-y_{1} \\
-\vdots \\
-y_{n} \\
-1
-\end{bmatrix} &\text{(def. matrix-vector product)} \\ \\
+(x_{n} + y_{n}) \cdot \sum_{v \in \mathrm{v}_{n}} v \\
+0
+\end{bmatrix} &\text{(def. vector addition and $\mathrm{v}_{n+1}=\mathbf{0}$)} \\ \\
 &= \begin{bmatrix}
 x_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
 \vdots \\
@@ -70,23 +58,29 @@ y_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
 \vdots \\
 y_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
 \sum_{v \in \mathrm{v}_{n+1}} v
-\end{bmatrix} &\text{(def. vector addition and $\mathrm{v}_{n+1}=\mathbf{0}$)} \\ \\
-&= \begin{bmatrix}
-(x_{1} + y_{1}) \cdot \sum_{v \in \mathrm{v}_{1}} v \\
+\end{bmatrix} &\text{(def. matrix-vector product)} \\ \\
+&= A \begin{bmatrix}
+x_{1} \\
 \vdots \\
-(x_{n} + y_{n}) \cdot \sum_{v \in \mathrm{v}_{n}} v \\
-0
-\end{bmatrix} &\text{(def. $\mathrm{z} = \mathrm{x}+\mathrm{y}$)} \\ \\
-&= \begin{bmatrix}
-z_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
-\vdots \\
-z_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
-0
+x_{n} \\
+1
 \end{bmatrix}
++ A \begin{bmatrix}
+y_{1} \\
+\vdots \\
+y_{n} \\
+1
+\end{bmatrix} = T(\mathrm{x}) + T(\mathrm{y})
 \end{align}
 $$
 
+
+
 Since $T(\mathrm{x}+\mathrm{y})=T(\mathrm{x})+T(\mathrm{y})$, linearity is proven.
+
+
+
+
 
 
 Now, let's prove homogeneity, i.e. $T(\lambda\mathrm{x}) =\lambda T(\mathrm{x})$. Let $\lambda \in \mathbb{R}$ be some scalar.
