@@ -87,10 +87,36 @@ z_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
 $$
 
 Since $T(\mathrm{x}+\mathrm{y})=T(\mathrm{x})+T(\mathrm{y})$, linearity is proven.
- 
-Now let's prove homogeneity, i.e. $T(\lambda\mathrm{x}) =\lambda T(\mathrm{x})$. Let $\lambda \in \mathbb{R}$ be some scalar.
 
 
+Now, let's prove homogeneity, i.e. $T(\lambda\mathrm{x}) =\lambda T(\mathrm{x})$. Let $\lambda \in \mathbb{R}$ be some scalar.
+$$
+\begin{align}
+T(\lambda \mathrm{x}) &= A \lambda \begin{bmatrix}
+x_{1} \\
+\vdots \\
+x_{n} \\
+1
+\end{bmatrix} = A \begin{bmatrix}
+\lambda x_{1} \\
+\vdots \\
+\lambda x_{n} \\
+\lambda
+\end{bmatrix} &\text{(def. scalar multiplication, def. $T$)} \\ \\
+&= \begin{bmatrix}
+\lambda x_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
+\vdots \\
+\lambda x_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
+0
+\end{bmatrix} = \lambda \begin{bmatrix}
+x_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
+\vdots \\
+x_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
+0
+\end{bmatrix} &\text{(def. scalar multiplication, def. $T$)} \\ \\
+&= \lambda T(\mathrm{x})
+\end{align}
+$$
 
 
 
