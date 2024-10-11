@@ -1210,14 +1210,14 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/rank.md",
+                    "file": "wiki/row and column vectors.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1367,7 +1367,7 @@
         }
       },
       "active": "2f2f71519d0108f8",
-      "mtime": "2024-10-11T13:29:32+02:00"
+      "mtime": "2024-10-11T15:01:02+02:00"
     },
     "sem3-ti": {
       "main": {
