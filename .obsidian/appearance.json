@@ -8,5 +8,6 @@
   "enabledCssSnippets": [
     "embed-filename"
   ],
-  "showViewHeader": true
+  "showViewHeader": true,
+  "baseFontSize": 14
 }

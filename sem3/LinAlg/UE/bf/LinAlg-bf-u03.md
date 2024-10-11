@@ -1,21 +1,11 @@
 
 
 # 2.
-![[LinAlg-e-u03.pdf#page=1&rect=79,69,477,326|LinAlg-e-u03, p.1]]
+![[LinAlg-e-u03.pdf#page=1&rect=79,69,477,326|LinAlg-e-u03, p.1]]We denote $\mathrm{x}' \in \mathbb{R}^{n+1}$ as the modified argument vector, i.e. $\mathrm{x}'=\begin{bmatrix} x_{1} \\ \vdots \\ x_{n} \\ 1 \end{bmatrix}$ for all $\mathrm{x}=\begin{bmatrix} x_{1} \\ \vdots \\ x_{n} \end{bmatrix}\in \mathbb{R}^{n}$.
 
+It's noted that $A = \begin{bmatrix} \ \textemdash &\mathbf{u}_{1} &\textemdash\ \\ \ \textemdash &\mathbf{u}_{2} &\textemdash\ \\ &\vdots \\ \ \textemdash &\mathbf{u}_{m} &\textemdash\ \end{bmatrix}$ can also be written in row vector form, for $\mathrm{u}_{j \in [m]} \in \mathbb{R}^{n+1}$.
 
-It's noted that $A$ can also be written in row vector form, for $\mathrm{u}_{j \in [m]} \in \mathbb{R}^{n+1}$.
-$$
-A = \begin{bmatrix}
-\ \textemdash &\mathbf{u}_{1} &\textemdash\ \\
-\ \textemdash &\mathbf{u}_{2} &\textemdash\ \\
-&\vdots \\
-\ \textemdash &\mathbf{u}_{m} &\textemdash\
-\end{bmatrix}
-$$
-We denote $\mathrm{x}' \in \mathbb{R}^{n+1}$ as the modified argument vector $\mathrm{x} \in \mathbb{R}^{n}$, i.e. $\mathrm{x}'=\begin{bmatrix} x_{1} \\ \vdots \\ x_{n} \\ 1 \end{bmatrix} \in \mathbb{R}^{n+1}$ for all $\mathrm{x}=\begin{bmatrix} x_{1} \\ \vdots \\ x_{n} \end{bmatrix}$.
-
-Using the definition (def. 2.4) of matrix-vector multiplication, we can also write the function as a linear combination of column vectors in $A$, i.e. $T(\mathrm{x}) = \left( \sum_{j=1}^{n}x_{j}\mathrm{v}_{j} \right)+\mathrm{v}_{n+1}$.
+Using the definition (def. 2.4) of matrix-vector multiplication, we can also write the function $T$ as a linear combination of column vectors in $A$, i.e. $T(\mathrm{x}) = \left( \sum_{j=1}^{n}x_{j}\mathrm{v}_{j} \right)+\mathrm{v}_{n+1}$.
 
 Alternatively, we can also write it as a vector of scalar products between the row vectors and the modified argument, thus $T(\mathrm{x}) =[\mathrm{u}_{j} \cdot \mathrm{x}']_{m}$. 
 
