@@ -18,9 +18,7 @@ To begin, let's consider the **if** direction, i.e. the statement "*if the $(n+1
 
 To prove that $T$ is a linear transformation, we need to show that it's closed under vector addition and scalar multiplication. To do this, we will show that $T(\mathrm{x} + \mathrm{y})= T(\mathrm{x})+ T(\mathrm{y})$ and $T(\lambda\mathrm{x}) =\lambda T(\mathrm{x})$ hold for arbitrary vectors $\mathrm{x}, \mathrm{y} \in \mathbb{R}^{n}$ and some scalar $\lambda \in \mathbb{R}$.
 
-First, we'll cover linearity, i.e., $T(\mathrm{x} + \mathrm{y})= T(\mathrm{x})+ T(\mathrm{y})$. Let $\mathrm{z} = \mathrm{x} + \mathrm{y} \in \mathbb{R}^{n}$ be the result of vector addition for two arbitrary vectors. 
-
-
+First, we'll cover linearity, i.e., $T(\mathrm{x} + \mathrm{y})= T(\mathrm{x})+ T(\mathrm{y})$.
 $$
 \begin{align}
 T(\mathrm{x} + \mathrm{y}) &= A \begin{bmatrix}
@@ -29,8 +27,8 @@ x_{1} + y_{1} \\
 x_{n} + y_{n} \\
 1
 \end{bmatrix}  &\text{(def. $T$)} \\
-&= \sum_{j=1}^{n}(x_{j}+y_{j})\mathrm{v}_{j} &\text{(commutativity scalar mult., vector add.)} \\
-&= \sum_{j=1}^{n}x_{j}\mathrm{v}_{j} + \sum_{j=1}^{n}y_{j}\mathrm{v}_{j}  \\
+&= \sum_{j=1}^{n}(x_{j}+y_{j})\mathrm{v}_{j} &\text{(comm. scalar multiplication)} \\
+&= \sum_{j=1}^{n}x_{j}\mathrm{v}_{j} + \sum_{j=1}^{n}y_{j}\mathrm{v}_{j} &\text{(def. $T$)} \\
 &= A \begin{bmatrix}
 x_{1} \\
 \vdots \\
@@ -42,75 +40,6 @@ y_{1} \\
 y_{n} \\
 1
 \end{bmatrix} = T(\mathrm{x}) + T(\mathrm{y})
-\end{align}
-$$
-
-
-To start out, let's cover $T(\mathrm{z})$.
-$$
-\begin{align}
-T(\mathrm{z}) &= A \begin{bmatrix}
-z_{1} \\
-\vdots \\
-z_{n} \\
-1
-\end{bmatrix} 
-= \begin{bmatrix}
-z_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
-\vdots \\
-z_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
-\sum_{v \in \mathrm{v}_{n+1}} v
-\end{bmatrix} &\text{(def. matrix-vector product and $\mathrm{v}_{n+1}=\mathbf{0}$)} \\ \\
-&= \begin{bmatrix}
-z_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
-\vdots \\
-z_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
-0
-\end{bmatrix}
-\end{align}
-$$
-
-<div class="page-break" style="page-break-before: always;"></div>
-
-Now let's evaluate $T(\mathrm{x})+T(\mathrm{y})$.
-$$
-\begin{align}
-T(\mathrm{x}) + T(\mathrm{y}) &= A \begin{bmatrix}
-x_{1} \\
-\vdots \\
-x_{n} \\
-1
-\end{bmatrix}
-+ A \begin{bmatrix}
-y_{1} \\
-\vdots \\
-y_{n} \\
-1
-\end{bmatrix} &\text{(def. matrix-vector product)} \\ \\
-&= \begin{bmatrix}
-x_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
-\vdots \\
-x_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
-\sum_{v \in \mathrm{v}_{n+1}} v
-\end{bmatrix}
-+ \begin{bmatrix}
-y_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
-\vdots \\
-y_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
-\sum_{v \in \mathrm{v}_{n+1}} v
-\end{bmatrix} &\text{(def. vector addition and $\mathrm{v}_{n+1}=\mathbf{0}$)} \\ \\
-&= \begin{bmatrix}
-(x_{1} + y_{1}) \cdot \sum_{v \in \mathrm{v}_{1}} v \\
-\vdots \\
-(x_{n} + y_{n}) \cdot \sum_{v \in \mathrm{v}_{n}} v \\
-0
-\end{bmatrix} &\text{(def. $\mathrm{z} = \mathrm{x}+\mathrm{y}$)} \\ \\
-&= \begin{bmatrix}
-z_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
-\vdots \\
-z_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
-0
-\end{bmatrix}
 \end{align}
 $$
 
@@ -132,17 +61,7 @@ x_{n} \\
 \lambda x_{n} \\
 \lambda
 \end{bmatrix} &\text{(def. scalar multiplication, def. $T$)} \\ \\
-&= \begin{bmatrix}
-\lambda x_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
-\vdots \\
-\lambda x_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
-0
-\end{bmatrix} = \lambda \begin{bmatrix}
-x_{1} \cdot \sum_{v \in \mathrm{v}_{1}} v \\
-\vdots \\
-x_{n} \cdot \sum_{v \in \mathrm{v}_{n}} v \\
-0
-\end{bmatrix} &\text{(def. scalar multiplication, def. $T$)} \\ \\
+&= a = λ b &\text{(def. scalar multiplication, def. $T$)} \\ \\
 &= \lambda A \begin{bmatrix}
 x_{1} \\
 \vdots \\
