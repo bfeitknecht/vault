@@ -75,7 +75,7 @@ Now we'll cover the other direction of the implication, namely the **only if**, 
 
 We prove this by contradiction. Let's assume that $T$ is a linear transformation satisfying that $T(\mathbf{0})=\mathbf{0}$, but the last column vector is an arbitrary non-zero vector, i.e. $\mathbf{v}_{n+1} \neq \mathbf{0}$.
 
-Let's evaluate the function.
+Let's evaluate the function for the zero vector.
 $$
 \begin{align}
 T(\mathbf{0}) &= \cancel{ \sum_{i=1}^{n} 0\mathbf{v}_{j} } + \mathbf{v}_{n+1}\\
@@ -83,3 +83,7 @@ T(\mathbf{0}) &= \cancel{ \sum_{i=1}^{n} 0\mathbf{v}_{j} } + \mathbf{v}_{n+1}\\
 \end{align}
 $$
 We have arrived at a contradiction, since we assumed that the last column is an arbitrary **non-zero** vector, which leads to a violation of the second axiom of a linear transformation.
+$\square$
+
+
+Thus we have proven that $T$ is a linear transformation if and only if $\mathbf{v}_{n+1}=\mathbf{0}$.
