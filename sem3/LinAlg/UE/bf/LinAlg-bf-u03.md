@@ -28,9 +28,9 @@ x_{1} + y_{1} \\
 \vdots \\
 x_{n} + y_{n} \\
 1
-\end{bmatrix}  \\
-&= \sum_{j=1}^{n}(x_{j}+y_{j})\mathrm{v}_{j} \\ \\
-&= \sum_{j=1}^{n}x_{j}\mathrm{v}_{j} + \sum_{j=1}^{n}y_{j}\mathrm{v}_{j}  \\ \\
+\end{bmatrix}  &\text{(def. $T$)} \\
+&= \sum_{j=1}^{n}(x_{j}+y_{j})\mathrm{v}_{j} &\text{(commutativity scalar mult., vector add.)} \\
+&= \sum_{j=1}^{n}x_{j}\mathrm{v}_{j} + \sum_{j=1}^{n}y_{j}\mathrm{v}_{j}  \\
 &= A \begin{bmatrix}
 x_{1} \\
 \vdots \\
