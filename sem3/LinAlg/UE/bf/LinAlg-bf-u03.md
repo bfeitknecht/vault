@@ -13,11 +13,11 @@ A = \begin{bmatrix}
 \ \textemdash &\mathbf{u}_{m} &\textemdash\
 \end{bmatrix}
 $$
+We denote $\mathrm{x}' \in \mathbb{R}^{n+1}$ as the modified vector argument 
 
 Using the definition (def. 2.4) of matrix-vector multiplication, we can also write the function as a linear combination of column vectors in $A$, i.e. $T(\mathrm{x}) = \left( \sum_{j=1}^{n}x_{j}\mathrm{v}_{j} \right)+\mathrm{v}_{n+1}$.
-Alternatively, we can also write it as a vector of scalar products between the row vectors and the modified argument.
 
-Thus, $T(\mathrm{x}) =[\mathrm{u}_{j} \cdot \mathrm{x}]_{m}$ 
+Alternatively, we can also write it as a vector of scalar products between the row vectors and the modified argument, thus $T(\mathrm{x}) =[\mathrm{u}_{j} \cdot \mathrm{x}']_{m}$. 
 
 
 <div class="page-break" style="page-break-before: always;"></div>
