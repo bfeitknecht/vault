@@ -11,15 +11,17 @@ A = \begin{bmatrix}
 \ \textemdash &\mathbf{u}_{2} &\textemdash\ \\
 &\vdots \\
 \ \textemdash &\mathbf{u}_{m} &\textemdash\
-\end{bmatrix}.
+\end{bmatrix}
 $$
 
- $\sigma(\mathrm{u}) =\overline{\mathrm{u}} = \sum_{i=1}^{n+1}u_{i}$  
+Using the definition (def. 2.4) for matrix-vector multiplication, we can rewrite 
+
+Thus, $T(\mathrm{x}) =[\mathrm{u}_{j} \cdot \mathrm{x}]_{m}$ 
+
 
 We use the notation $\sum_{v \in \mathrm{v}}v$ to write the sum of all elements $v \in \mathbb{R}$ of some vector $\mathrm{v}$.
 
 
-$\widetilde{\mathrm{u}}$
 
 
 <div class="page-break" style="page-break-before: always;"></div>
