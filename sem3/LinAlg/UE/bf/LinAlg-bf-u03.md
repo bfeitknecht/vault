@@ -55,8 +55,8 @@ x_{n} \\
 \lambda x_{n} \\
 \lambda
 \end{bmatrix} &\text{(def. scalar multiplication, def. $T$)} \\
-&= \sum_{j=1}^{n+1}\lambda x_{j}\mathbf{v}_{j} &\text{(comm. scalar multiplication)} \\
-&= λ \sum_{j=1}^{n+1}x_{j}\mathbf{v}_{j} &\text{(def. $T$)} \\
+&= \sum_{j=1}^{n+1}\lambda x'_{j}\mathbf{v}_{j} &\text{(comm. scalar multiplication)} \\
+&= λ \sum_{j=1}^{n+1}x'_{j}\mathbf{v}_{j} &\text{(def. $T$)} \\
 &= \lambda A \begin{bmatrix}
 x_{1} \\
 \vdots \\
@@ -78,7 +78,8 @@ We prove this by contradiction. Let's assume that $T$ is a linear transformation
 Let's evaluate the function for the zero vector.
 $$
 \begin{align}
-T(\mathbf{0}) &= \cancel{ \sum_{i=1}^{n} 0\mathbf{v}_{j} } + \mathbf{v}_{n+1} &\text{($x'_{n+1}=1$)}\\
+T(\mathbf{0}) &= \sum_{j=1}^{n+1} x'_{j}\mathbf{v}_{j} \\
+&= \cancel{ \sum_{j=1}^{n} 0\mathbf{v}_{j} } + \mathbf{v}_{n+1} &\text{($x'_{j \in [n]}=0$ and $x'_{n+1}=1$)}\\
 &= \mathbf{v}_{n+1} &\contradiction
 \end{align}
 $$
