@@ -12,9 +12,7 @@ Dennis Küenzi, 21-559-315
 > $\ln(n)-\frac{3}{2} <\frac{n}{\mathrm{Prin}(n)}< \ln(n)-\frac{1}{2}$, for all $n\geq 67$ 
 
 
-The idea of the proof is, that for some $N \in \mathbb{N}$, the number of primes up to $N$ that are not random approaches infinity as $N \to \infty$. This implies that the ratio of primes to random primes is at
-
-Proof by contradiction. Let's assume there is an infinite amount of random primes and thus, more specifically, a
+The idea of the proof is, that for some $N \in \mathbb{N}$, the number of primes up to $N$ that are not random approaches infinity as $N \to \infty$. This implies that the ratio of primes to random primes is at most finite. Proof by contradiction. Let's assume there is an infinite amount of random primes and thus, more specifically, a
 
 Let $P$ be a program that takes some $i \in \mathbb{N}^+$ and generates the $i$-th prime number. Now we'll construct a program $Q_{n}$ for every $n \in \mathbb{N}^+$ that generates the primes up to $n$. Since $n$ is the only variable part in $Q_{n}$, its kolmogorov complexity is at most $\log_2(n)+c$.
 
@@ -26,20 +24,10 @@ begin
 end
 ```
 
-The Prime Number Theorem states that the index $i$ of any prime number $p_{i}$ is at most $p_{i} /\ln (p_{i})$ but its length in binary encoding is bounded by $\log_2 (p_{i})$. Since the $i$-th prime number's kolmogorov complexity, $\log_2 (p_{i})$, grows asymptotically faster than kolmogorov complexity  $\log_2(p /\ln(p) )$ our constant $c$ gets infinitely large as we approach $n\to \infty$.
+The Prime Number Theorem states that the index $i$ of any prime number $p_{i}$ is at most $p_{i} /\ln (p_{i})$ but its length in binary encoding is bounded by $\log_2 (p_{i})$. Since the $i$-th prime number's kolmogorov complexity, $\log_2 (p_{i})$, grows asymptotically faster than the kolmogorov complexity,  $\log_2(p_{i} /\ln(p_{i}) )$ of the program $Q_{i}$ generating all primes up to $i$. Assuming there are infinitely many random primes, our constant $c$ gets infinitely large as we approach $n\to \infty$.
 
-Since $c$ must be finite, we have arrived at a contradiction which implies that the ratio of random primes to primes up to $n$ approaches zero as n approaches infinity, i.e. there are at most a finite amount of random primes per definition 2.19.
+Since $c$ must be finite, we have arrived at a contradiction which implies that the ratio of random primes to primes up to $n$ approaches zero as $n$ approaches infinity, i.e. there are at most a finite amount of random primes per definition 2.19.
 $\square$
-
-<!--
-•⁠  ⁠proof by contradiction
-•⁠  ⁠satz 2.2
-•⁠  ⁠get to this: log(p_n) =< K(p_n) =< log(n)  (i just sent a screenshot)
-•⁠  ⁠solve the above eq. for n 
-•⁠  ⁠use that n in primzahlsatz
-
-For the sake of contradiction, let's assume there are an infinite amount of random prime numbers. Let $P$ be the set of all prime numbers with $p_{n}$ being the $n$-th prime number. Since there exists a program that can solve this decision problem, 
--->
 
 <div class="page-break" style="page-break-before: always;"></div>
 
