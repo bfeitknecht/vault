@@ -203,7 +203,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "HOME.md",
-                    "mode": "source",
+                    "mode": "preview",
                     "source": false
                   }
                 }
@@ -393,7 +393,7 @@
         }
       },
       "active": "4a586b919d13321c",
-      "mtime": "2024-10-10T14:29:03+02:00"
+      "mtime": "2024-10-11T11:10:20+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1621,5 +1621,5 @@
       "mtime": "2024-10-11T10:57:28+02:00"
     }
   },
-  "active": "00-home"
+  "active": "sem3-linalg"
 }
