@@ -7,7 +7,7 @@
   "attachmentFolderPath": "var/attachments",
   "propertiesInDocument": "source",
   "strictLineBreaks": false,
-  "showRibbon": true,
+  "showRibbon": false,
   "pdfExportSettings": {
     "pageSize": "A4",
     "landscape": false,
