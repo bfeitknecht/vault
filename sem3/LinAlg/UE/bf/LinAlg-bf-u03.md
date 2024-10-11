@@ -3,7 +3,7 @@
 # 2.
 ![[LinAlg-e-u03.pdf#page=1&rect=79,69,477,326|LinAlg-e-u03, p.1]]We denote $\mathbf{x}' \in \mathbb{R}^{n+1}$ as the modified argument vector, i.e. $\mathbf{x}'=\begin{bmatrix} x_{1} \\ \vdots \\ x_{n} \\ 1 \end{bmatrix}$ for all $\mathbf{x}=\begin{bmatrix} x_{1} \\ \vdots \\ x_{n} \end{bmatrix}\in \mathbb{R}^{n}$.
 
-Using the definition (def. 2.4) of matrix-vector multiplication, we can also write the function $T$ as a linear combination of column vectors in $A$, i.e. $T(\mathbf{x}) = \left( \sum_{j=1}^{n}x_{j}\mathbf{v}_{j} \right)+\mathbf{v}_{n+1}$, since $x'_{n+1}=1$, which is the multiplicative identity.
+Using the definition (def. 2.4) of matrix-vector multiplication, we can also write the function $T$ as a linear combination of column vectors in $A$, i.e. $T(\mathbf{x}) = \sum_{j=1}^{n+1}x'_{j}\mathbf{v}_{j}$.
 
 <div class="page-break" style="page-break-before: always;"></div>
 
@@ -22,8 +22,8 @@ x_{1} + y_{1} \\
 x_{n} + y_{n} \\
 1
 \end{bmatrix}  &\text{(def. $T$)} \\
-&= \sum_{j=1}^{n}(x_{j}+y_{j})\mathbf{v}_{j} &\text{(comm. scalar multiplication)} \\
-&= \sum_{j=1}^{n}x_{j}\mathbf{v}_{j} + \sum_{j=1}^{n}y_{j}\mathbf{v}_{j} &\text{(def. $T$)} \\
+&= \sum_{j=1}^{n+1}(x'_{j}+y'_{j})\mathbf{v}_{j} &\text{(comm. scalar multiplication)} \\
+&= \sum_{j=1}^{n+1}x'_{j}\mathbf{v}_{j} + \sum_{j=1}^{n+1}y'_{j}\mathbf{v}_{j} &\text{(def. $T$)} \\
 &= A \begin{bmatrix}
 x_{1} \\
 \vdots \\
@@ -55,8 +55,8 @@ x_{n} \\
 \lambda x_{n} \\
 \lambda
 \end{bmatrix} &\text{(def. scalar multiplication, def. $T$)} \\
-&= \sum_{j=1}^{n}\lambda x_{j}\mathbf{v}_{j} &\text{(comm. scalar multiplication)} \\
-&= λ \sum_{j=1}^{n}x_{j}\mathbf{v}_{j} &\text{(def. $T$)} \\
+&= \sum_{j=1}^{n+1}\lambda x_{j}\mathbf{v}_{j} &\text{(comm. scalar multiplication)} \\
+&= λ \sum_{j=1}^{n+1}x_{j}\mathbf{v}_{j} &\text{(def. $T$)} \\
 &= \lambda A \begin{bmatrix}
 x_{1} \\
 \vdots \\
@@ -78,7 +78,7 @@ We prove this by contradiction. Let's assume that $T$ is a linear transformation
 Let's evaluate the function for the zero vector.
 $$
 \begin{align}
-T(\mathbf{0}) &= \cancel{ \sum_{i=1}^{n} 0\mathbf{v}_{j} } + \mathbf{v}_{n+1}\\
+T(\mathbf{0}) &= \cancel{ \sum_{i=1}^{n} 0\mathbf{v}_{j} } + \mathbf{v}_{n+1} &\text{($x'_{n+1}=1$)}\\
 &= \mathbf{v}_{n+1} &\contradiction
 \end{align}
 $$
