@@ -7,8 +7,7 @@ It's noted that $A = \begin{bmatrix} \ \textemdash &\mathbf{u}_{1} &\textemdash\
 
 Using the definition (def. 2.4) of matrix-vector multiplication, we can also write the function $T$ as a linear combination of column vectors in $A$, i.e. $T(\mathrm{x}) = \left( \sum_{j=1}^{n}x_{j}\mathrm{v}_{j} \right)+\mathrm{v}_{n+1}$.
 
-Alternatively, we can also write it as a vector of scalar products between the row vectors and the modified argument, thus $T(\mathrm{x}) =[\mathrm{u}_{i} \cdot \mathrm{x}']_{i \in [m]}$. 
-
+Alternatively, we can also write it as a vector of scalar products between the row vectors and the modified argument, thus $T(\mathrm{x}) =[\mathrm{u}_{i} \cdot \mathrm{x}']_{i \in [m]}$.
 
 <div class="page-break" style="page-break-before: always;"></div>
 
@@ -39,7 +38,7 @@ y_{1} \\
 \vdots \\
 y_{n} \\
 1
-\end{bmatrix} = T(\mathrm{x}) + T(\mathrm{y})
+\end{bmatrix} = T(\mathrm{x}) + T(\mathrm{y}) &\square
 \end{align}
 $$
 
@@ -67,11 +66,9 @@ x_{1} \\
 \vdots \\
 x_{n} \\
 1
-\end{bmatrix} = \lambda T(\mathrm{x})
+\end{bmatrix} = \lambda T(\mathrm{x}) &\square
 \end{align}
 $$
-
-Thus, $T(\lambda \mathrm{x})=\lambda T(\mathrm{x})$ is proven.
 
 Since, the function $T$ preserves vector addition and scalar multiplication if $\mathrm{v}_{n+1}=\mathbf{0}$, it is a linear transformation. Thus the first direction of the implication is proven.
 $\square$
