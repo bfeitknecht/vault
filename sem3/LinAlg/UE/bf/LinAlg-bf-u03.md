@@ -25,11 +25,6 @@ Now we'll cover the other direction of the implication, namely the *only if*, i.
 
 ...
 
-
-
-
-
-
 use axioms of linear transformation
 
 
