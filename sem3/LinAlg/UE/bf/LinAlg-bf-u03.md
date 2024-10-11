@@ -16,9 +16,10 @@ $$
 
  $\sigma(\mathrm{u}) =\overline{\mathrm{u}} = \sum_{i=1}^{n+1}u_{i}$  
 
-We define the use of as notation $\sum_{v \in \mathrm{v}}v$ to write the sum of all elements $v \in \mathbb{R}$ of some vector $\mathrm{v}$.
+We use the notation $\sum_{v \in \mathrm{v}}v$ to write the sum of all elements $v \in \mathbb{R}$ of some vector $\mathrm{v}$.
 
 
+$\widetilde{\mathrm{u}}$
 
 
 <div class="page-break" style="page-break-before: always;"></div>
