@@ -23,7 +23,15 @@ To prove that $T$ is a linear transformation, we need to show that it's closed u
 First, we'll cover linearity. Let $\mathrm{x} + \mathrm{y}= \mathrm{z} \in \mathbb{R}^{n}$ be the result of vector addition for two arbitrary vectors. Then we evaluate the function with $\mathrm{z}$ as input.
 $$
 \begin{align}
-T(\mathrm{z}) &= 
+T(\mathrm{z}) &= A \begin{bmatrix}
+z_{1} \\
+\vdots \\
+z_{n} \\
+1
+\end{bmatrix} \\
+&= \begin{bmatrix}
+z_{i} \sum \mathrm{v}_{i} 
+\end{bmatrix}_{i\in{n+1}}
 \end{align}
 $$
 
