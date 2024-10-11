@@ -14,14 +14,10 @@ A = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-Using the definition (def. 2.4) for matrix-vector multiplication, we can rewrite 
+Using the definition (def. 2.4) of matrix-vector multiplication, we can also write the function as a linear combination of column vectors in $A$, i.e. $T(\mathrm{x}) = \left( \sum_{j=1}^{n}x_{j}\mathrm{v}_{j} \right)+\mathrm{v}_{n+1}$.
+Alternatively, we can also write it as a vector of scalar products between the row vectors and the modified argument.
 
 Thus, $T(\mathrm{x}) =[\mathrm{u}_{j} \cdot \mathrm{x}]_{m}$ 
-
-
-We use the notation $\sum_{v \in \mathrm{v}}v$ to write the sum of all elements $v \in \mathbb{R}$ of some vector $\mathrm{v}$.
-
-
 
 
 <div class="page-break" style="page-break-before: always;"></div>
