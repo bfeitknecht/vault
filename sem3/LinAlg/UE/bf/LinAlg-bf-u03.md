@@ -73,19 +73,13 @@ $\square$
 
 Now we'll cover the other direction of the implication, namely the **only if**, i.e. "*if $T$ is a linear transformation, then the $(n+1)$-th column vector of $A$ is the zero vector*".
 
-We prove this by contradiction. Let's assume that $T$ is a linear transformation and the last column vector is an arbitrary non-zero vector, i.e. $\mathbf{v}_{n+1} \neq \mathbf{0}$.
+We prove this by contradiction. Let's assume that $T$ is a linear transformation satisfying that $T(\mathbf{0})=\mathbf{0}$, but the last column vector is an arbitrary non-zero vector, i.e. $\mathbf{v}_{n+1} \neq \mathbf{0}$.
 
-Let's evaluate the function at the zero vector.
+Let's evaluate the function.
 $$
 \begin{align}
-T(\mathbf{0}) &= \mathbf{v}_{n+1} &\contradiction
+T(\mathbf{0}) &= \cancel{ \sum_{i=1}^{n} 0\mathbf{v}_{j} } + \mathbf{v}_{n+1}\\
+&= \mathbf{v}_{n+1} &\contradiction
 \end{align}
 $$
-We have arrived at a contradiction, since 
-
-
-
-
-
-
-linear map from n dimensions to m dimensions, where $\mathbf{v}_{i \in[n]}$ is the $i$-th base vector from $\mathbb R^n$ after the linear transformation in $\mathbb{R}^m$
+We have arrived at a contradiction, since we assumed that the last column is an arbitrary **non-zero** vector, which leads to a violation of the second axiom of a linear transformation.
