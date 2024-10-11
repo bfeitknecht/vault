@@ -45,9 +45,8 @@ $$
 
 Since $T(\mathrm{x}+\mathrm{y})=T(\mathrm{x})+T(\mathrm{y})$, linearity is proven.
 
-<div class="page-break" style="page-break-before: always;"></div>
 
-Let's now prove homogeneity, i.e. $T(\lambda\mathrm{x}) =\lambda T(\mathrm{x})$. Let $\lambda \in \mathbb{R}$ be some scalar.
+Let's now prove homogeneity, i.e. $T(\lambda\mathrm{x}) =\lambda T(\mathrm{x})$. Let $\lambda \in \mathbb{R}$ be some arbitrary scalar.
 $$
 \begin{align}
 T(\lambda \mathrm{x}) &= A \lambda \begin{bmatrix}
@@ -60,8 +59,9 @@ x_{n} \\
 \vdots \\
 \lambda x_{n} \\
 \lambda
-\end{bmatrix} &\text{(def. scalar multiplication, def. $T$)} \\ \\
-&= a = λ b &\text{(def. scalar multiplication, def. $T$)} \\ \\
+\end{bmatrix} &\text{(def. scalar multiplication, def. $T$)} \\
+&= \sum_{j=1}^{n}\lambda x_{j}\mathrm{v}_{j} &\text{(comm. scalar multiplication)} \\
+&= λ \sum_{j=1}^{n}x_{j}\mathrm{v}_{j} &\text{(def. $T$)} \\
 &= \lambda A \begin{bmatrix}
 x_{1} \\
 \vdots \\
@@ -70,6 +70,8 @@ x_{n} \\
 \end{bmatrix} = \lambda T(\mathrm{x})
 \end{align}
 $$
+
+Thus, $T(\lambda \mathrm{x})=\lambda T(\mathrm{x})$ is proven.
 
 Since, the function $T$ preserves vector addition and scalar multiplication if $\mathrm{v}_{n+1}=\mathbf{0}$, it is a linear transformation. Thus the first direction of the implication is proven.
 $\square$
