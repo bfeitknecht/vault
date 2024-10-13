@@ -1133,10 +1133,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w03.pdf",
-                    "page": 3,
-                    "left": -16,
-                    "top": 68,
-                    "zoom": 0.9387254901960785
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -1152,7 +1150,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           },
           {
             "id": "740ad403278fbd52",
@@ -1193,37 +1192,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "1aae57700eda4e72",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "var/other/LATEX.pdf",
-                    "page": 1,
-                    "left": -14,
-                    "top": 807,
-                    "zoom": 1.0646322042212353
-                  }
-                }
-              },
-              {
-                "id": "906077b9641a8262",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/LinAlg/VRL/extra/LinAlg-lecture-notes-pt.01.pdf",
-                    "page": 60,
-                    "left": -16,
-                    "top": 322,
-                    "zoom": 0.9387254901960785
-                  }
-                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1275,7 +1246,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md"
+                    "file": "sem3/LinAlg/UE/bf/LinAlg-bf-u03.md"
                   }
                 }
               }
@@ -1300,7 +1271,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
+                    "file": "sem3/LinAlg/UE/bf/LinAlg-bf-u03.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1317,7 +1288,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
+                    "file": "sem3/LinAlg/UE/bf/LinAlg-bf-u03.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1372,8 +1343,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "5e147ae0102336c7",
-      "mtime": "2024-10-11T17:03:17+02:00"
+      "active": "2f2f71519d0108f8",
+      "mtime": "2024-10-13T18:11:41+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1631,5 +1602,5 @@
       "mtime": "2024-10-11T12:56:28+02:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-a&d"
 }
