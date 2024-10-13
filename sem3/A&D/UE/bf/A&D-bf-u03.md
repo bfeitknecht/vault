@@ -83,7 +83,7 @@ $\square$
 
 
 ### (2)
-False. We can simplify $\sum_{}\log (i^{i})=i \log (i)$ 
+False. We can simplify $\sum_{i=1}^{n}\log (i^{i})=\sum_{i=1}^{n}i \log (i)$. Only considering the second half of the sum, i.e. $\sum_{i=\left\lceil  \frac{n}{2}  \right\rceil}^ni\log(i)$, we note that the smallest term in it is $\left\lceil  \frac{n}{2}  \right\rceil\log\left( \left\lceil  \frac{n}{2}  \right\rceil \right) \approx \frac{n}{2}$
 
 <div class="page-break" style="page-break-before: always;"></div>
 
