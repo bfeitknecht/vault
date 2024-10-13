@@ -27,8 +27,6 @@ $$
 $$
 $\square$
 
-<div class="page-break" style="page-break-before: always;"></div>
-
 ### (2)
 False. Let $f(n)=n^{2}+n\log(n)$ and $g(n)=n^{2}\log(n)$ Then we evaluate $\lim_{ n \to \infty }\frac{f(n)}{g(n)}$ to show that $g \leq\Omega(f)$.
 $$
@@ -40,6 +38,8 @@ $$
 \end{align}
 $$
 $\square$
+
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### (3)
 True, constants don't matter. Let $f(n)=\frac{n^6}{6}+10n^4+100n^3$ and $g(n)=6n^6$. Let's compute the limit to show that it's a constant and thus prove that $f = \Theta(g)$.
