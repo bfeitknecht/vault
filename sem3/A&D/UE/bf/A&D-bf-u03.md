@@ -83,7 +83,8 @@ $\square$
 
 
 ### (2)
-False. We can simplify $\sum_{i=1}^{n}\log (i^{i})=\sum_{i=1}^{n}i \log (i)$. Only considering the second half of the sum, i.e. $\sum_{i=\left\lceil  \frac{n}{2}  \right\rceil}^ni\log(i)$, we note that the smallest term in it is $\left\lceil  \frac{n}{2}  \right\rceil\log\left( \left\lceil  \frac{n}{2}  \right\rceil \right)$ and there are $\left\lceil  \frac{n}{2}  \right\rceil$ strictly greater terms after it. Thus $\sum_{i=\left\lceil  \frac{n}{2}  \right\rceil}^ni\log(i) \approx \frac{n}{2 } \cdot\frac{n}{2}\log\left( \frac{n}{2} \right)$.
+False. We can simplify $\sum_{i=1}^{n}\log (i^{i})=\sum_{i=1}^{n}i \log (i)$. Only considering the second half of the sum, i.e. $\sum_{i=\left\lceil  \frac{n}{2}  \right\rceil}^ni\log(i)$, we note that the smallest term in it is $\left\lceil  \frac{n}{2}  \right\rceil\log\left( \left\lceil  \frac{n}{2}  \right\rceil \right)$ and there are $\left\lceil  \frac{n}{2}  \right\rceil$ strictly greater terms after it. Also, $\log\left( \frac{n}{2} \right) =\log(n)-\log(2)$, where $\log(2)$ is a constant. Thus the upper half of the  sum approximates to $\sum_{i=\left\lceil  \frac{n}{2}  \right\rceil}^ni\log(i) \approx \frac{n^{2}\log (n)}{4}$. Since, with the lower half of the sum also contributing this is already only a constant multiple of $n^{2}\log(n)$, the statement is proven. 
+$\square$
 
 <div class="page-break" style="page-break-before: always;"></div>
 
