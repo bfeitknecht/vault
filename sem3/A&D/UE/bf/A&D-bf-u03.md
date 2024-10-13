@@ -53,13 +53,15 @@ $$
 $\square$
 
 ### (4)
-True. Let $f(n) = 3^{n}$ and $g(n)=n^{3/\ln(n)}e^{ n }$. Then we will show that $g \leq O(f)$ and thus 
-
+True. Let $f(n) = 3^{n}$ and $g(n)=n^{3/\ln(n)}e^{ n }$. Then we will show that $f \geq \Omega(g)$.
 $$
 \begin{align}
-\lim_{ n \to \infty } \frac{f(n)}{g(n)} &= \frac{3^{n}}{n^{3/\ln(n)}}e^{ n }
+\lim_{ n \to \infty } \frac{f(n)}{g(n)} &= \lim_{ n \to \infty } \frac{3^{n}}{\cancel{ n^{3/\ln(n)}K }e^{ n }} \\
+&= \lim_{ n \to \infty } \left( \frac{3}{e} \right)^{n} \\
+&= \infty
 \end{align}
 $$
+$\square$
 
 
 <div class="page-break" style="page-break-before: always;"></div>
