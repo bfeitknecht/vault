@@ -33,7 +33,9 @@ $\square$
 True. Let $f(n)=n^{2}+n\log(n)$ and $g(n)=n^{2}\log(n)$ Then we evaluate $\lim_{ n \to \infty }\frac{f(n)}{g(n)}$ to show that $f \not\leq\Omega(g)$.
 $$
 \begin{align}
-\lim_{ n \to \infty }  \frac{f(n)}{g(n)}&= n^{2+nlo}
+\lim_{ n \to \infty }  \frac{f(n)}{g(n)} &= \lim_{ n \to \infty }  \frac{n^{2}+n\log(n)}{n^{2}\log(n)} \\
+&= \lim_{ n \to \infty } \frac{\cancel{ n^{2} }\left( 1+\frac{\log(n)}{n} \right)}{\cancel{ n^{2} }\log(n)} \\
+&= \lim_{ n \to \infty } 
 \end{align}
 $$
 
