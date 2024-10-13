@@ -83,7 +83,7 @@ $\square$
 
 
 ### (2)
-Em
+
 
 <div class="page-break" style="page-break-before: always;"></div>
 
@@ -110,13 +110,21 @@ $\square$
 ## (a)
 ![[A&D-e-u03.pdf#page=3&rect=68,259,529,404|A&D-e-u03, p.3]]
 
-Em
+The exact number of calls to $f$ is presented below.
+$$
+\begin{align}
+\sum_{i=0}^{n}\left( 1+\sum_{j+1}^{n}2 \right) &=\sum_{i=0}^{n}(2n+1) \\
+&=2n^2+3n+1
+\end{align}
+$$
+
+This program is thus in $\Theta(n^{2})$.
+$\square$
 
 <div class="page-break" style="page-break-before: always;"></div>
 
 ## (b)
 ![[A&D-e-u03.pdf#page=4&rect=65,612,533,775|A&D-e-u03, p.4]]
-
 
 The exact number of calls to $f$ in sum notation and computed exactly is given below.
  $$
@@ -128,5 +136,5 @@ The exact number of calls to $f$ in sum notation and computed exactly is given b
 \end{align}
 $$
 
-Since the highest power term dominates the rest of the expression as $n\to \infty$, the number of calls to $f$ is in $\Theta(n^5)$.
+Since the highest power term dominates the rest of the expression as $n\to \infty$, the number of function calls to $f$ is in $\Theta(n^5)$.
 $\square$
