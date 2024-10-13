@@ -83,7 +83,7 @@ $\square$
 
 
 ### (2)
-We disprove this by mathematical induction.
+False. We can simplify $\sum_{}\log (i^{i})=i \log (i)$ 
 
 <div class="page-break" style="page-break-before: always;"></div>
 
