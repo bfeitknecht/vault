@@ -13,7 +13,10 @@ False. Let $A=B=C=\{ \varnothing \}$.
 
 $$
 \begin{align}
-(A \cup(B \setminus C)) \cap (B \cap C) &= \varnothing
+(A \cup(B \setminus C)) \cap (B \cap C) &=  \\
+&= (A \cup \varnothing) \cap (B \cap C) &\text{(def. $\setminus$)} \\
+&= A \cap \{ \varnothing \} &\text{(def. $\cup$, def. $\cap$)} \\
+&= \{  \varnothing \} \neq \varnothing&\text{(def. $A$, def. $\cap$)} \\
 \end{align}
 $$
 
