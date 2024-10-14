@@ -6,15 +6,15 @@ A ([[arity|binary]]) **relation** $\rho$ from some [[set]] $A$ (domain) to anoth
 
 # Properties
 
-[[reflexive]]
+[[reflexive relation]]
 
-[[irreflexive]]
+[[irreflexive relation]]
 
-[[symetric]]
+[[symetric relation]]
 
-[[antisymetric]]
+[[antisymetric relation]]
 
-[[transitive]]
+[[transitive relation]]
 
 
 
