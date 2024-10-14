@@ -70,6 +70,8 @@ $$
 **Induction Step**
 $n=m+1$
 
+Let $C'=\begin{cases}\mathcal{P}(A') \times \mathcal{P}(B), &|A'|=k+1 \\ \mathcal{P}(A) \times \mathcal{P}(B'), & |B'| = l+1\end{cases}$  be the set 
+
 $$
 \begin{align}
 a = b
