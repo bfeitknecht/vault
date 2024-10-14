@@ -6,27 +6,32 @@ A ([[arity|binary]]) **relation** $\rho$ from some [[set]] $A$ (domain) to anoth
 
 # Properties
 
-[[reflexive relation]]
+## Reflexivity
+![[reflexive relation]]
 
-[[irreflexive relation]]
+## Irreflexivity
+![[irreflexive relation]]
 
-[[symmetric relation]]
+## Symmetry
+![[symmetric relation]]
 
-[[antisymmetric relation]]
+## Antisymmetry
+![[antisymmetric relation]]
 
-[[transitive relation]]
+## Transitivity
+![[transitive relation]]
 
 
 
 # Operations
 
-union
+[[union (set)]]
 
 [[intersection (set)]]
 
 [[composition]]
 
-inverse
+inverse relation
 
 
 
