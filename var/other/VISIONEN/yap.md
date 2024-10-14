@@ -1,0 +1,103 @@
+
+Title:
+Author: Basil Feitknecht
+Byline: \* no affiliation with big yapÎ
+Lead:
+
+
+How, why and when to yap like a girlboss
+To yap or not to yap?
+
+  
+
+It was a dark and stormy night; on a whim, some wretched crumb of serotonin must have docked the wrong synapse in the author’s brain to hit him with inspiration, the force of a thousand suns. YAP. What glorious purpose in an age of apathy towards anything and everything apart from superficial, sometimes even artificial drama sold to you by big data™.
+
+  
+
+The reader might ask themselves, what exactly is it that you’re reading right now? And the answer is, it will not be revealed. In fact, one might argue that this article won’t make a contribution to the expansion of anyone’s horizon. But that would be wrong. Yapping, or as it’s often falsely reduced to “bullshitting”, is an integral part in the daily life of a 
+
+  
+
+  
+  
+
+yap
+
+  
+
+sigma girlboss yap
+
+  
+
+it was a dark and stormy night when inspiration hit me like a dumptruck
+
+  
+
+yap: eset -> eset
+
+  
+
+void only side effect
+
+  
+
+boilerplate
+
+  
+
+much rhetorical questions
+
+  
+
+definition according to llm, internet duden, etc
+
+  
+
+…
+
+  
+
+every now and then yap turn into rap
+
+  
+  
+  
+  
+  
+  
+
+grug
+
+  
+
+imperative system management very yap, although declarative not much better
+
+induction, dp very anti yap
+
+  
+
+harfbuzz
+
+foo bar
+
+  
+
+category theory and formal logic
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+article as text msg dialogue with (between) chatbot**
