@@ -7,16 +7,11 @@ Prove or disprove the following statements.
 ![[DMath-e-u04.pdf#page=2&rect=105,706,520,722|DMath-e-u04, p.2]]
 
 False. Let $A=B=C=\{ \varnothing \}$.
-
-
-
-
 $$
 \begin{align}
 (A \cup(B \setminus C)) \cap (B \cap C) &= (\{ \varnothing \} \cup (\{ \varnothing \} \setminus \{ \varnothing \} ) \cap(\{ \varnothing \} \cap \{ \varnothing \}) &\text{(def. $\setminus$, def. $\cap$)} \\
 &= (\{ \varnothing \} \cup \varnothing) \cap \{ \varnothing \} &\text{(def. $\cup$, def. $\cap$)} \\
-&= A \cap \{ \varnothing \}  \\
-&= \{  \varnothing \} \neq \varnothing&\text{(def. $A$, def. $\cap$)} \\
+&= \{  \varnothing \} \neq \varnothing &\square
 \end{align}
 $$
 
