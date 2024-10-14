@@ -13,6 +13,8 @@ Urban Dictionary defines yapping as "The act of speaking without discretion at l
 
 The reader might ask themselves, what exactly is it that you’re reading right now? And the answer is, it will not be revealed. In fact, one might argue that this article won’t make a contribution to the expansion of anyone’s horizon. But that would be wrong. Yapping, or as it’s often falsely reduced to “bullshitting”, is an integral part in the daily life of someone with the exaggerated swagger of a person that can get the old family printer to work. 
 
+In fact, there exists a dual (of course), where every now and then the no return (void ) all side effect expression of yapping turns into *rap*, full succinct to the point, .
+
   
 
   
