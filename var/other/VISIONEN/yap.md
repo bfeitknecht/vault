@@ -7,8 +7,9 @@ Have you ever wondered, what goes on inside the head of a professional girlboss?
 
 It was a dark and stormy night; on a whim, some wretched crumb of serotonin must have docked the wrong synapse in this poor author’s brain to hit them with inspiration, the force of a thousand suns. YAP. What glorious purpose in an age of apathy towards anything and everything apart from superficial, sometimes even artificial drama sold to you by big doomscroll™. 
 
-  
-The reader might ask themselves, what exactly is it that you’re reading right now? And the answer is, it will not be revealed. In fact, one might argue that this article won’t make a contribution to the expansion of anyone’s horizon. But that would be wrong. Yapping, or as it’s often falsely reduced to “bullshitting”, is an integral part in the daily life of someoone with the exaggerated swagger of a computer science nerd.
+Urban Dictionary online
+
+The reader might ask themselves, what exactly is it that you’re reading right now? And the answer is, it will not be revealed. In fact, one might argue that this article won’t make a contribution to the expansion of anyone’s horizon. But that would be wrong. Yapping, or as it’s often falsely reduced to “bullshitting”, is an integral part in the daily life of someone with the exaggerated swagger of a person that can get the old family printer to work.
 
   
 
