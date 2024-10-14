@@ -1,6 +1,6 @@
 #todo 
 
-A  **relation** is a [[set]] of [[ordered pair]]
+A ([[arity|binary]]) **relation** $\rho$ from a [[set]] $A$ (domain) to another set $B$ (codomain) a is a subset of $A \times B$, i.e. a set of [[tuple|2-tuples]].
 
 $\rho \subseteq S \times F$ (S, F)-Relation
 $\rho = \{(s_1,\,f_1),\,(s_1,\,f_2),\,(s_1,\,f_3),\,(etc.)\}$
