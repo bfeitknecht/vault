@@ -19,7 +19,7 @@ True. Let $A=B=\varnothing$ be the empty set, which is the set with the smallest
 $$
 \begin{align}
 |\mathcal{P}(\mathcal{P}(A) \times \mathcal{P}(B))| &= |\mathcal{P}(\{ \varnothing \} \times \{ \varnothing \})| &\text{(def. $\mathcal{P}(\cdot)$, def. $\times$)} \\
-&= |\mathcal{P}(\{ \{ \varnothing \} \})| &\text{(def. $\mathcal{P}(\cdot)$)} \\
+&= |\mathcal{P}(\{ \varnothing \})| &\text{(def. $\mathcal{P}(\cdot)$)} \\
 &= |\{ \varnothing, \{ \varnothing \}\}| &\text{(def. $|\cdot|$)}\\
 &= 2
 \end{align}
