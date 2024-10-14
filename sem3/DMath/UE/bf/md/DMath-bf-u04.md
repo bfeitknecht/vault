@@ -44,6 +44,8 @@ True. Let $A, B$, be finite sets where $|A|=k$ and $|B|=l$. We prove this by mat
 **Base Case**
 $n=0$
 
+Let $A=B=\varnothing$, thus $|A|=|B|=0$ and $k+l=0$.
+
 $$
 \begin{align}
 |\mathcal{P}(\mathcal{P}(A) \times \mathcal{P}(B))| &= |\mathcal{P}(\{ \varnothing \} \times \{ \varnothing \})| &\text{(def. $\mathcal{P}(\cdot)$, def. $\times$)} \\
@@ -59,6 +61,16 @@ $$
 **Induction Hypothesis**
 $n=m$
 
+Let $|A|=k$ and $|B|=l$. Let $C=\mathcal{P}(A) \times \mathcal{P}(B)$, where $|C|=2^{k} \cdot 2^{l} =2^{k+l}$, by the definition of the cartesian product.
+
+$$
+\begin{align}
+|\mathcal{P}(\mathcal{P}(A) \times \mathcal{P}(B))| &= |\mathcal{P}(\{ \varnothing \} \times \{ \varnothing \})| &\text{(def. $\mathcal{P}(\cdot)$, def. $\times$)} \\
+&= |\mathcal{P}(\{ \varnothing \})| &\text{(def. $\mathcal{P}(\cdot)$)} \\
+&= |\{ \varnothing, \{ \varnothing \}\}| &\text{(def. $|\cdot|$)}\\
+&= 2 &\text{\contradiction}
+\end{align}
+$$
 
 **Induction Step**
 $n=k+1$
