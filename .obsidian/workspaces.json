@@ -417,27 +417,90 @@
                 }
               },
               {
-                "id": "7c6649d6400aa5fd",
+                "id": "baa8d332bb4a46d1",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "pdf",
                   "state": {
-                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w05.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "sem1/AuD/PV/summaries/AuD-summary-jannis.pdf",
+                    "page": 7,
+                    "left": -9,
+                    "top": 345,
+                    "zoom": 1.7991654291454724
                   }
                 }
               },
               {
-                "id": "153405ed0d4ba520",
+                "id": "bd5445c1793f2bbe",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/AuD/PV/summaries/AuD-summary-algorithms.pdf",
+                    "page": 5,
+                    "left": -11,
+                    "top": 741,
+                    "zoom": 1.3958333333333337
+                  }
+                }
+              },
+              {
+                "id": "f58f3145fe76821d",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/AuD/PV/summaries/AuD-summary-graphs-kenji.pdf",
+                    "page": 1,
+                    "left": -11,
+                    "top": 618,
+                    "zoom": 1.3958333333333333
+                  }
+                }
+              },
+              {
+                "id": "295a522bffb8b0dc",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/AuD/PV/summaries/AuD-summary-soelmicheletti.pdf",
+                    "page": 6,
+                    "left": -10,
+                    "top": 446,
+                    "zoom": 1.4350486161041267
+                  }
+                }
+              },
+              {
+                "id": "dfcab43c6e2c78bf",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/AuD/PV/summaries/AuD-summary-lbehric.pdf",
+                    "page": 1,
+                    "left": -10,
+                    "top": 761,
+                    "zoom": 1.4350486161041267
+                  }
+                }
+              },
+              {
+                "id": "9bf6790517e0d5a2",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/AuD/PV/summaries/AuD-summary-danny.pdf",
+                    "page": 2,
+                    "left": -7,
+                    "top": 41,
+                    "zoom": 1.881276427061311
+                  }
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -488,14 +551,17 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "sem3/A&D/VRL/notes/A&D.md"
+                  }
                 }
               }
             ]
           }
         ],
         "direction": "horizontal",
-        "width": 289.5
+        "width": 289.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -511,6 +577,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "sem3/A&D/VRL/notes/A&D.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -527,6 +594,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "sem3/A&D/VRL/notes/A&D.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -581,8 +649,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "153405ed0d4ba520",
-      "mtime": "2024-10-14T09:13:05+02:00"
+      "active": "e7911976b677ac81",
+      "mtime": "2024-10-14T10:22:17+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1367,7 +1435,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           },
           {
             "id": "334b80dc2ab3a841",
@@ -1463,7 +1531,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/TIN/UE/bf/TI-bf-u03.md"
+                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w04.md"
                   }
                 }
               }
@@ -1488,7 +1556,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/TIN/UE/bf/TI-bf-u03.md",
+                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w04.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1505,7 +1573,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/TIN/UE/bf/TI-bf-u03.md",
+                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w04.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1560,8 +1628,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "434ee478f73c5957",
-      "mtime": "2024-10-11T12:56:28+02:00"
+      "active": "dc6d515664aa5984",
+      "mtime": "2024-10-14T10:22:29+02:00"
     }
   },
   "active": "sem3-a&d"

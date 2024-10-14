@@ -7,7 +7,7 @@
 - regularity of [[language]] $\iff$ exists FSM that accepts language
 
 
-**/30 pts.**
+**19/30 pts.**
 
 
 # Proof of non-regularity of some language $L$
