@@ -20,6 +20,8 @@ $$
 ![[DMath-e-u04.pdf#page=2&rect=107,685,521,700|DMath-e-u04, p.2]]
 
 True. Let $A= \{ a, ab, abc \}$, $B=\{ ab, abc \}$ and $C=\{ abc \}$.
+// TODO !!
+
 $$
 \begin{align}
 A \cap (B \setminus C) &= \{ x \mid x \in A \land x \in \{ B \setminus C \} \} \\
@@ -36,7 +38,7 @@ $$
 ## c)
 ![[DMath-e-u04.pdf#page=2&rect=107,661,523,680|DMath-e-u04, p.2]]
 
-True. We prove this by induction for all $n \in \mathbb{N}$, where $n = |A| + |B|$.
+True. We prove this by induction for all finite sets $A, B$, where $|A|=k$, $|B|=l$ and $k+l=n$.
 
 **Base Case**
 $n=0$
