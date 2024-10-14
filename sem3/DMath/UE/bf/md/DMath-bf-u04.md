@@ -24,7 +24,8 @@ $$
 \begin{align}
 A \cap (B \setminus C) &= \{ x \mid x \in A \land x \in \{ B \setminus C \} \} \\
 &= \{ x \mid x \in A \land x \in \{ y \in B \mid y \not\in C \} \} \\
-&= \{ x \mid x \in A \land x \in B \land \neg(x \in B \land x \in C) \} \\
+&= \{ x \mid x \in A \land \neg(x \in B \land x \in C) \} \\
+&= \{ x \mid x \in A \land x \not\in B \lor x \not\in C \}
 \end{align}
 $$
 $$
