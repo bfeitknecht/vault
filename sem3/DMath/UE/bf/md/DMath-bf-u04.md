@@ -19,6 +19,12 @@ $$
 ## b)
 ![[DMath-e-u04.pdf#page=2&rect=107,685,521,700|DMath-e-u04, p.2]]
 
+False. Let $A= \{ a, ab, abc \}$, $B=\{ b, abc \}$ and $C=\{ abc \}$. 
+$$
+\begin{align}
+
+\end{align}
+$$
 
 ## c)
 ![[DMath-e-u04.pdf#page=2&rect=107,661,523,680|DMath-e-u04, p.2]]
