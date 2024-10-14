@@ -417,18 +417,6 @@
                 }
               },
               {
-                "id": "091bc098d8264be2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w04.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "97f460969ba12f8e",
                 "type": "leaf",
                 "state": {
@@ -437,46 +425,6 @@
                     "file": "sem3/A&D/UE/bf/A&D-bf-u03.md",
                     "mode": "source",
                     "source": false
-                  }
-                }
-              },
-              {
-                "id": "f2483669ca08b803",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "var/attachments/sigma-sums-1.jpeg"
-                  }
-                }
-              },
-              {
-                "id": "aedf9560a90fa33d",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "var/attachments/log-properties-2.png"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "15a48b386ddaf1c5",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a4d631a275a91a55",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/A&D/UE/e/A&D-e-u03.pdf",
-                    "page": 1,
-                    "left": -48,
-                    "top": 611,
-                    "zoom": 0.8743843192065531
                   }
                 }
               }
@@ -540,8 +488,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 289.5,
-        "collapsed": true
+        "width": 289.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -630,7 +577,7 @@
         }
       },
       "active": "e7911976b677ac81",
-      "mtime": "2024-10-11T17:07:36+02:00"
+      "mtime": "2024-10-14T08:57:37+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1602,5 +1549,5 @@
       "mtime": "2024-10-11T12:56:28+02:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-dmath"
 }
