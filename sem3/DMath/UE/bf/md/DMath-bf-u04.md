@@ -41,6 +41,10 @@ $$
 True. Let $A, B$, be finite sets where $|A|=k$ and $|B|=l$. Let $C=\mathcal{P}(A) \times \mathcal{P}(B)$. It's noted that $|C|=2^{k} \cdot 2^{l} = 2^{k+l} = 2 ^{n}$, by definition of the power set. We will prove by mathematical induction that $|\mathcal{P}(C)|\geq 2$, for all $n \in \mathbb{N}$, where $n=k+l$.
 
 
+DIRECT PROOF
+
+
+
 **Base Case**
 $n=0$
 
