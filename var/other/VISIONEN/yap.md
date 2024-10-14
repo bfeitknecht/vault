@@ -1,14 +1,10 @@
 
-Title:
+Title: girlboss level yap
 Author: Basil Feitknecht
-Byline: \* no affiliation with big yapÎ
+Byline: \*absolutely no affiliation with big yap™ whatsoever
 Lead:
+Have you ever wondered, what goes on inside the head of a professional girlboss? Me too. Sometimes it keeps me up at night, knowing there are things i'll never know. Like, how much abstraction is too much abstraction. Is math
 
-
-How, why and when to yap like a girlboss
-To yap or not to yap?
-
-  
 
 It was a dark and stormy night; on a whim, some wretched crumb of serotonin must have docked the wrong synapse in the author’s brain to hit him with inspiration, the force of a thousand suns. YAP. What glorious purpose in an age of apathy towards anything and everything apart from superficial, sometimes even artificial drama sold to you by big data™.
 
