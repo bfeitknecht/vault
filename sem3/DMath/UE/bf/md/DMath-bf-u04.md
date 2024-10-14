@@ -14,11 +14,13 @@ t
 ## c)
 ![[DMath-e-u04.pdf#page=2&rect=107,661,523,680|DMath-e-u04, p.2]]
 
-True, for the sake of contradiction let $A=B=\varnothing$.
+True, for the sake of contradiction let $A=B=\varnothing$ be the empty set, which is the set with the smallest cardinality.
+
 $$
 \begin{align}
 |\mathcal{P}(\mathcal{P}(A) \times \mathcal{P}(B))| &= |\mathcal{P}(\{ \varnothing \} \times \{ \varnothing \})| &\text{(def. $\mathcal{P}(\cdot)$, def. $\times$)} \\
 &= |\mathcal{P}(\{ \varnothing, \{ \varnothing \} \})| &\text{(def. $\mathcal{P}(\cdot)$)} \\
-&= |
+&= |\{ \varnothing, \{ \varnothing \}, \{ \{ \varnothing \} \}, \{ \varnothing, \{ \varnothing \} \} \}| \\
+&= 4
 \end{align}
 $$
