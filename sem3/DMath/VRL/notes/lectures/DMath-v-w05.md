@@ -1,3 +1,3 @@
 
 - [[relation]]
-- [[reflexive]], [[irrefl]]
+- [[reflexive]], [[irreflexive]], 
