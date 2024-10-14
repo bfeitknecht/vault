@@ -38,17 +38,18 @@ $$
 ## c)
 ![[DMath-e-u04.pdf#page=2&rect=107,661,523,680|DMath-e-u04, p.2]]
 
-True. Let $A, B$, be finite sets where $|A|=k$ and $|B|=l$. Let $C=\mathcal{P}(A) \times \mathcal{P}(B)$. We will prove that $|\mathcal{P}(C)|\geq 2$ by mathematical induction for all $n \in \mathbb{N}$, where $n=k+l$.
+True. Let $A, B$, be finite sets where $|A|=k$ and $|B|=l$. Let $C=\mathcal{P}(A) \times \mathcal{P}(B)$. We will prove by mathematical induction that $|\mathcal{P}(C)|\geq 2$, for all $n \in \mathbb{N}$, where $n=k+l$.
 
 
 **Base Case**
 $n=0$
 
-Let $A=B=\varnothing$, thus $|A|=|B|=0$ and $k+l=0$.
+Let $A=B=\varnothing$, thus $|A|=|B|=0$ and $n=k+l=0$.
 
 $$
 \begin{align}
-|\mathcal{P}(\mathcal{P}(A) \times \mathcal{P}(B))| &= |\mathcal{P}(\{ \varnothing \} \times \{ \varnothing \})| &\text{(def. $\mathcal{P}(\cdot)$, def. $\times$)} \\
+|\mathcal{P}(C)||\mathcal{P}(\mathcal{P}(A) \times \mathcal{P}(B))| &=  \\
+&=|\mathcal{P}(\{ \varnothing \} \times \{ \varnothing \})| &\text{(def. $\mathcal{P}(\cdot)$, def. $\times$)} \\
 &= |\mathcal{P}(\{ \varnothing \})| &\text{(def. $\mathcal{P}(\cdot)$)} \\
 &= |\{ \varnothing, \{ \varnothing \}\}| &\text{(def. $|\cdot|$)}\\
 &= 2
