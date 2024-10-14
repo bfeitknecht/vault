@@ -417,18 +417,27 @@
                 }
               },
               {
-                "id": "97f460969ba12f8e",
+                "id": "7c6649d6400aa5fd",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u03.md",
+                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w05.md",
                     "mode": "source",
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "153405ed0d4ba520",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -479,9 +488,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "sem3/A&D/VRL/notes/A&D.md"
-                  }
+                  "state": {}
                 }
               }
             ]
@@ -504,7 +511,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/A&D/VRL/notes/A&D.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -521,7 +527,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/A&D/VRL/notes/A&D.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -576,8 +581,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "e7911976b677ac81",
-      "mtime": "2024-10-14T08:57:37+02:00"
+      "active": "153405ed0d4ba520",
+      "mtime": "2024-10-14T09:13:05+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1540,5 +1545,5 @@
       "mtime": "2024-10-11T12:56:28+02:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-linalg"
 }
