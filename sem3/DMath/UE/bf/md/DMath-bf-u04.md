@@ -60,7 +60,7 @@ $$
 **Induction Hypothesis**
 $n=m$
 
-Let $|A|=k$ and $|B|=l$ be arbitrary finite sets. 
+Let $|A|=k$ and $|B|=l$ be arbitrary finite sets. We note that
 $$
 \begin{align}
 |\mathcal{P}(C)| &\geq 2
@@ -70,7 +70,7 @@ $$
 **Induction Step**
 $n=m+1$
 
-Let $C'=\begin{cases}\mathcal{P}(A') \times \mathcal{P}(B), &|A'|=k+1 \\ \mathcal{P}(A) \times \mathcal{P}(B'), & |B'| = l+1\end{cases}$  be the set 
+Let $C'=\mathcal{P}(A) \times \mathcal{P}(B')$ be the cartesian product between two sets, where w.l.o.g., $|A|=k$ and $|B'|=l+1$.
 
 $$
 \begin{align}
