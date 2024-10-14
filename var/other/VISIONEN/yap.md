@@ -3,7 +3,7 @@ Title: girlboss level yap
 Author: Basil Feitknecht
 Byline: \*absolutely no affiliation with big yap™ whatsoever
 Lead:
-Have you ever wondered, what goes on inside the head of a professional girlboss? Me too. How do they get their hair so shiny? Why don't they drink enough water? Maybe, through a venture into 
+Have you ever wondered, what goes on inside the head of a professional girlboss? Me too. How do they get their hair so shiny? Why don't they drink enough water? In this article, we investigate such intriguing behavioral exhibits and explore a basis of reasoning hypothesized to entail the secret to it all, 
 
 Littered with questions, I embarked upon a quest to reach a literary destiny through metaphorical means of transport.
 
