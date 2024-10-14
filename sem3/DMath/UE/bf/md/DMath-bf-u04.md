@@ -19,12 +19,12 @@ $$
 ## b)
 ![[DMath-e-u04.pdf#page=2&rect=107,685,521,700|DMath-e-u04, p.2]]
 
-False. Let $A= \{ a, ab, abc \}$, $B=\{ ab, abc \}$ and $C=\{ abc \}$.
+True. Let $A= \{ a, ab, abc \}$, $B=\{ ab, abc \}$ and $C=\{ abc \}$.
 $$
 \begin{align}
 A \cap (B \setminus C) &= \{ x \mid x \in A \land x \in \{ B \setminus C \} \} \\
 &= \{ x \mid x \in A \land x \in \{ y \in B \mid y \not\in C \} \} \\
-&= \{ x \mid x \in A \land x \in B \land \neg(x \in C) \} \\
+&= \{ x \mid x \in A \land x \in B \land \neg(x \in B \land x \in C) \} \\
 \end{align}
 $$
 $$
