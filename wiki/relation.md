@@ -1,5 +1,7 @@
 #todo 
 
+A  **relation** is a [[set]] of [[ordered pair]]
+
 $\rho \subseteq S \times F$ (S, F)-Relation
 $\rho = \{(s_1,\,f_1),\,(s_1,\,f_2),\,(s_1,\,f_3),\,(etc.)\}$
 $(s_1,\,f_1) \in \rho$
