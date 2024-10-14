@@ -423,10 +423,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem1/AuD/PV/summaries/AuD-summary-jannis.pdf",
-                    "page": 7,
-                    "left": -9,
-                    "top": 345,
-                    "zoom": 1.7991654291454724
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -437,10 +435,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem1/AuD/PV/summaries/AuD-summary-algorithms.pdf",
-                    "page": 5,
-                    "left": -11,
-                    "top": 741,
-                    "zoom": 1.3958333333333337
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -452,9 +448,7 @@
                   "state": {
                     "file": "sem1/AuD/PV/summaries/AuD-summary-graphs-kenji.pdf",
                     "page": 1,
-                    "left": -11,
-                    "top": 618,
-                    "zoom": 1.3958333333333333
+                    "zoom": 1
                   }
                 }
               },
@@ -465,10 +459,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem1/AuD/PV/summaries/AuD-summary-soelmicheletti.pdf",
-                    "page": 6,
-                    "left": -10,
-                    "top": 446,
-                    "zoom": 1.4350486161041267
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -480,9 +472,7 @@
                   "state": {
                     "file": "sem1/AuD/PV/summaries/AuD-summary-lbehric.pdf",
                     "page": 1,
-                    "left": -10,
-                    "top": 761,
-                    "zoom": 1.4350486161041267
+                    "zoom": 1
                   }
                 }
               },
@@ -493,10 +483,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem1/AuD/PV/summaries/AuD-summary-danny.pdf",
-                    "page": 2,
-                    "left": -7,
-                    "top": 41,
-                    "zoom": 1.881276427061311
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               }
@@ -560,8 +548,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 289.5,
-        "collapsed": true
+        "width": 289.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -650,7 +637,7 @@
         }
       },
       "active": "e7911976b677ac81",
-      "mtime": "2024-10-14T10:22:17+02:00"
+      "mtime": "2024-10-14T10:44:18+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1632,5 +1619,5 @@
       "mtime": "2024-10-14T10:22:29+02:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-linalg"
 }
