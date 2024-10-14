@@ -186,12 +186,17 @@ Insert tabstops for the cursor to jump to by writing "$0", "$1", etc. in the rep
     
     {trigger: "e\\xi sts", replacement: "\\exists", options: "mA", priority: 1},
 
+    {trigger: "II", replacement: "\\mathcal{I}", options: "mA"},
+    {trigger: "JJ", replacement: "\\mathcal{J}", options: "mA"},
+    {trigger: "PP", replacement: "\\mathcal{P}", options: "mA"},
     {trigger: "LL", replacement: "\\mathcal{L}", options: "mA"},
     {trigger: "HH", replacement: "\\mathcal{H}", options: "mA"},
-    {trigger: "CC", replacement: "\\mathbb{C}", options: "mA"},
-    {trigger: "RR", replacement: "\\mathbb{R}", options: "mA"},
-    {trigger: "ZZ", replacement: "\\mathbb{Z}", options: "mA"},
+    
     {trigger: "NN", replacement: "\\mathbb{N}", options: "mA"},
+    {trigger: "ZZ", replacement: "\\mathbb{Z}", options: "mA"},
+    {trigger: "QQ", replacement: "\\mathbb{Q}", options: "mA"},
+    {trigger: "RR", replacement: "\\mathbb{R}", options: "mA"},
+    {trigger: "CC", replacement: "\\mathbb{C}", options: "mA"},
 
     // Handle spaces and backslashes
 
