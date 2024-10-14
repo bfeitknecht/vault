@@ -10,7 +10,7 @@ A ([[arity|binary]]) **relation** $\rho$ from some [[set]] $A$ (domain) to anoth
 
 [[irreflexive]]
 
-symetric
+[[symetric]]
 
 [[antisymetric]]
 
