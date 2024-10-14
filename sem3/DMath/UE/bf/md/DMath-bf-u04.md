@@ -22,7 +22,7 @@ $$
 False. Let $A= \{ a, ab, abc \}$, $B=\{ ab, abc \}$ and $C=\{ abc \}$.
 $$
 \begin{align}
-A \cap (B \setminus C) &= \{ a, ab, abc \} \cap(\{ ab, abc \} \setminus \{ abc \}) &\text{(def. $\setminus$)}
+A \cap (B \setminus C) &= \{ x \mid x \in A \land x \in \{ B \setminus C \} \}
 \end{align}
 $$
 $$
