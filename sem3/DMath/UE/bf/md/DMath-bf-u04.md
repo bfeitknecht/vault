@@ -75,7 +75,7 @@ Let $C'=\mathcal{P}(A) \times \mathcal{P}(B')$ be the cartesian product between 
 
 $$
 \begin{align}
-a = b
+|\mathcal{P}(C')|
 \end{align}
 $$
 
