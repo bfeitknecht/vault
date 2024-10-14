@@ -14,13 +14,13 @@ t
 ## c)
 ![[DMath-e-u04.pdf#page=2&rect=107,661,523,680|DMath-e-u04, p.2]]
 
-True. Let $A=B=\varnothing$ be the empty set, which is the set with the smallest cardinality. For the sake of contradiction, assume that $|\mathcal{P}(\mathcal{P}(A) \times \mathcal{P}(B))| \leq 2$.
+True. Let $A=B=\varnothing$ be the empty set, which is the set with the smallest cardinality. For the sake of contradiction, assume that $|\mathcal{P}(\mathcal{P}(A) \times \mathcal{P}(B))| < 2$.
 
 $$
 \begin{align}
 |\mathcal{P}(\mathcal{P}(A) \times \mathcal{P}(B))| &= |\mathcal{P}(\{ \varnothing \} \times \{ \varnothing \})| &\text{(def. $\mathcal{P}(\cdot)$, def. $\times$)} \\
-&= |\mathcal{P}(\{ \varnothing, \{ \varnothing \} \})| &\text{(def. $\mathcal{P}(\cdot)$)} \\
-&= |\{ \varnothing, \{ \varnothing \}, \{ \{ \varnothing \} \}, \{ \varnothing, \{ \varnothing \} \} \}| &\text{(def. $|\cdot|$)}\\
-&= 4
+&= |\mathcal{P}(\{ \{ \varnothing \} \})| &\text{(def. $\mathcal{P}(\cdot)$)} \\
+&= |\{ \varnothing, \{ \varnothing \}\}| &\text{(def. $|\cdot|$)}\\
+&= 2
 \end{align}
 $$
