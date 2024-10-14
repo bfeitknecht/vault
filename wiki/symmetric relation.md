@@ -9,5 +9,5 @@ In [[matrix]] representation of relations, symmetric means that the matrix is a 
 
 # Examples
 
-The modulo relation $\equiv_{m}$ on $\mathbb{Z}$ is symetric.
+The modulo relation $\equiv_{m}$ on $\mathbb{Z}$ is symmetric.
 

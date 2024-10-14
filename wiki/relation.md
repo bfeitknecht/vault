@@ -10,9 +10,9 @@ A ([[arity|binary]]) **relation** $\rho$ from some [[set]] $A$ (domain) to anoth
 
 [[irreflexive relation]]
 
-[[symetric relation]]
+[[symmetric relation]]
 
-[[antisymetric relation]]
+[[antisymmetric relation]]
 
 [[transitive relation]]
 
