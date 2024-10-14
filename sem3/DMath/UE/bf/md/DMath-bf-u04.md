@@ -17,6 +17,8 @@ t
 True, for the sake of contradiction let $A=B=\varnothing$.
 $$
 \begin{align}
-|\mathcal{P}(\mathcal{P}(A) \times \mathcal{P}(B))| &= \mathcal{P}(\{ \varnothing \} \times \{ \varnothing \}) &\text{(def. $\mathcal{P}(\cdot)$)}
+|\mathcal{P}(\mathcal{P}(A) \times \mathcal{P}(B))| &= |\mathcal{P}(\{ \varnothing \} \times \{ \varnothing \})| &\text{(def. $\mathcal{P}(\cdot)$, def. $\times$)} \\
+&= |\mathcal{P}(\{ \varnothing, \{ \varnothing \} \})| &\text{(def. $\mathcal{P}(\cdot)$)} \\
+&= |
 \end{align}
 $$
