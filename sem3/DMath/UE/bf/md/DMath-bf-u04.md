@@ -38,7 +38,8 @@ $$
 ## c)
 ![[DMath-e-u04.pdf#page=2&rect=107,661,523,680|DMath-e-u04, p.2]]
 
-True. We prove this by induction for all finite sets $A, B$, where $|A|=k$, $|B|=l$ and $k+l=n$.
+True. Let $A, B$, be finite sets where $|A|=k$ and $|B|=l$. We prove this by mathematical induction for all $n \in \mathbb{N}$, where $n=k+l$.
+
 
 **Base Case**
 $n=0$
@@ -56,7 +57,7 @@ $$
 
 
 **Induction Hypothesis**
-$n=k$
+$n=m$
 
 
 **Induction Step**
