@@ -19,7 +19,12 @@ $$
 ## b)
 ![[DMath-e-u04.pdf#page=2&rect=107,685,521,700|DMath-e-u04, p.2]]
 
-False. Let $A= \{ a, ab, abc \}$, $B=\{ b, abc \}$ and $C=\{ abc \}$. 
+False. Let $A= \{ a, ab, abc \}$, $B=\{ ab, abc \}$ and $C=\{ abc \}$.
+$$
+\begin{align}
+A \cap (B \setminus C) &= \{ a, ab, abc \} \cap(\{ ab, abc \} \setminus \{ abc \}) &\text{(def. $\setminus$)}
+\end{align}
+$$
 $$
 \begin{align}
 
