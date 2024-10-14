@@ -9,30 +9,14 @@ In this article, we explore a range of topics abstractly associated with the con
 
 It was a dark and stormy night; on a whim, some wretched crumb of serotonin must have docked the wrong synapse in this poor author’s brain to hit them with inspiration, the force of a thousand suns. YAP. What glorious purpose in an age of apathy towards anything and everything apart from superficial, sometimes even artificial drama sold to you by big doomscroll™. 
 
-Urban Dictionary defines yapping as "The act of speaking without discretion at length to an uninterested audience resulting in discomfort, annoyance, and/or discontent." We define it as $\mathrm{yap} :\varnothing \to \varnothing$ 
+Urban Dictionary defines yapping as "The act of speaking without discretion at length to an uninterested audience resulting in discomfort, annoyance, and/or discontent." ChatGPT defines it as "Yapping is a monoid in the category of idle endofunctors, where the unit is silence, and concatenation is just more yapping."
 
-The reader might ask themselves, what exactly is it that you’re reading right now? And the answer is, it will not be revealed. In fact, one might argue that this article won’t make a contribution to the expansion of anyone’s horizon. But that would be wrong. Yapping, or as it’s often falsely reduced to “bullshitting”, is an integral part in the daily life of someone with the exaggerated swagger of a person that can get the old family printer to work.
-
-  
-
-  
-  
-
-yap
+The reader might ask themselves, what exactly is it that you’re reading right now? And the answer is, it will not be revealed. In fact, one might argue that this article won’t make a contribution to the expansion of anyone’s horizon. But that would be wrong. Yapping, or as it’s often falsely reduced to “bullshitting”, is an integral part in the daily life of someone with the exaggerated swagger of a person that can get the old family printer to work. 
 
   
 
-sigma girlboss yap
-
   
 
-it was a dark and stormy night when inspiration hit me like a dumptruck
-
-  
-
-yap: eset -> eset
-
-  
 
 void only side effect
 
@@ -45,12 +29,6 @@ boilerplate
 much rhetorical questions
 
   
-
-definition according to llm, internet duden, etc
-
-  
-
-…
 
   
 

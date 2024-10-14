@@ -604,6 +604,18 @@
                 }
               },
               {
+                "id": "acdf2b7061cc66a2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/DMath/VRL/notes/lectures/DMath-v-w04.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "92c9f64dfbfcc09f",
                 "type": "leaf",
                 "state": {
@@ -616,12 +628,12 @@
                 }
               },
               {
-                "id": "acdf2b7061cc66a2",
+                "id": "70991d5c8bca3912",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/lectures/DMath-v-w04.md",
+                    "file": "wiki/relation.md",
                     "mode": "source",
                     "source": false
                   }
@@ -640,7 +652,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           },
           {
             "id": "f002029a56c7a80a",
@@ -654,8 +666,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 65,
+                    "left": -12,
+                    "top": 5,
+                    "zoom": 1.2639204057893634
                   }
                 }
               },
@@ -668,7 +682,7 @@
                     "file": "sem3/DMath/UE/e/DMath-e-u04.pdf",
                     "page": 1,
                     "left": -17,
-                    "top": 846,
+                    "top": 391,
                     "zoom": 0.8907632761945721
                   }
                 }
@@ -685,8 +699,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -738,7 +751,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/lectures/DMath-v-w05.md"
+                    "file": "wiki/relation.md"
                   }
                 }
               }
@@ -763,7 +776,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/lectures/DMath-v-w05.md",
+                    "file": "wiki/relation.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -780,7 +793,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/lectures/DMath-v-w05.md",
+                    "file": "wiki/relation.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -835,8 +848,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "92c9f64dfbfcc09f",
-      "mtime": "2024-10-14T08:59:48+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-10-14T21:02:00+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1561,5 +1574,5 @@
       "mtime": "2024-10-14T10:22:29+02:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "00-clean"
 }

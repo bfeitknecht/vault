@@ -18,4 +18,3 @@ maybe rolling release online?
 
 last page feedback qr code
 
-w
