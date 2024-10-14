@@ -2,6 +2,5 @@
 
 A **composition** is the chaining of some mathematical objects, i.e. [[matrix|matrices]], [[function|functions]], [[relation|relations]], etc.
 
-![[commutative-diagram.png]]
-
+![[commutative-diagram.png|200]]
 
