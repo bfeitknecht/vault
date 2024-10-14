@@ -38,7 +38,7 @@ $$
 ## c)
 ![[DMath-e-u04.pdf#page=2&rect=107,661,523,680|DMath-e-u04, p.2]]
 
-True. Let $A, B$, be finite sets where $|A|=k$ and $|B|=l$. Let $C=\mathcal{P}(A) \times \mathcal{P}(B)$. We will prove by mathematical induction that $|\mathcal{P}(C)|\geq 2$, for all $n \in \mathbb{N}$, where $n=k+l$.
+True. Let $A, B$, be finite sets where $|A|=k$ and $|B|=l$. Let $C=\mathcal{P}(A) \times \mathcal{P}(B)$. It's noted that $|C|=2^{k} \cdot 2^{l} = 2^{k+l} = 2 ^{n}$, by definition of the power set. We will prove by mathematical induction that $|\mathcal{P}(C)|\geq 2$, for all $n \in \mathbb{N}$, where $n=k+l$.
 
 
 **Base Case**
@@ -60,17 +60,18 @@ $$
 **Induction Hypothesis**
 $n=m$
 
-Let $|A|=k$ and $|B|=l$ be arbitrary finite sets. We note that
+Let $|A|=k$ and $|B|=l$ be arbitrary finite sets. 
 $$
 \begin{align}
-|\mathcal{P}(C)| &\geq 2
+|\mathcal{P}(C)| &= 2^{2^{m}}
+\geq 2
 \end{align}
 $$
 
 **Induction Step**
 $n=m+1$
 
-Let $C'=\mathcal{P}(A) \times \mathcal{P}(B')$ be the cartesian product between two sets, where w.l.o.g., $|A|=k$ and $|B'|=l+1$.
+Let $C'=\mathcal{P}(A) \times \mathcal{P}(B')$ be the cartesian product between two sets, where w.l.o.g., $|A|=k$ and $|B'|=l+1$. Thus $|C'|=2^{m+1}$.
 
 $$
 \begin{align}
