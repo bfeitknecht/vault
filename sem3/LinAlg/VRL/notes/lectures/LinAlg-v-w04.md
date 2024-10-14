@@ -8,4 +8,4 @@
 
 # Notes
 
-probably matrix stuff
+probably matrix stuff, RREF, gauss elimination, etc.
