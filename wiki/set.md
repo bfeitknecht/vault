@@ -10,6 +10,7 @@ E(x,y) = \begin{cases}
 \end{cases}
 $$
 We write that $x$ is element of y in [[infix notation]] as $x \in y$ for $E(x,y)=1$ and $x \not\in y$ for the case that $x$ is not element of y, i.e. $E(x,y)=0$.
+
 We define the *cardinality* of some set as the number of elements it contains, which we denote $|S|$.
 
 ![[dmath-script-hs24.pdf#page=54&rect=36,284,388,303|dmath-script-hs24, p.44]]

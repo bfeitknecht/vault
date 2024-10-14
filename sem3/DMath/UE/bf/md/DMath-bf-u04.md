@@ -6,6 +6,11 @@ Prove or disprove the following statements.
 ## a)
 ![[DMath-e-u04.pdf#page=2&rect=105,706,520,722|DMath-e-u04, p.2]]
 
+$$
+\begin{align}
+(A \cup(B \setminus C)) \cap (B \cap C) &= \varnothing
+\end{align}
+$$
 
 
 ## b)
