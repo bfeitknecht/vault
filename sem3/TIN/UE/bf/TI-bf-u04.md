@@ -44,7 +44,7 @@ Its states' equivalence classes are the following.
 $$
 \begin{align}
 \mathrm{Kl}[q\_] &= L_{\lambda} \\
-\mathrm{Kl}[q_{00}] &= \mathrm{Kl}[q_{010}] \cdot \{ 0 \}^{n\geq1} \cup \{ 0 \}^{*} \\
+\mathrm{Kl}[q_{00}] &= \mathrm{Kl}[q_{010}] \cdot \{ 0 \} \cdot \{ 0 \}^{*} \cup \{ 0 \}^{*} \\
 \mathrm{Kl}[q_{01}] &= \{ 0w1 \mid w \in \Sigma^{*} \} \\
 \mathrm{Kl}[q_{010}] &= \mathrm{Kl}[q_{01}] \cdot \{ 0 \} \\
 \mathrm{Kl}[q_{10}] &= \{ 1w0 \mid w \in \Sigma^{*} \} \\
@@ -57,6 +57,7 @@ $\square$
 # 11
 ![[TI-e-u04.pdf#page=1&rect=66,354,531,451|TI-e-u04, p.1]]
 
+We define a finite automaton $M=M_{1} \cdot M_{2}$, such that $L=L$
 
 $M_{1}$
 ```mermaid
@@ -78,7 +79,7 @@ $$
 \mathrm{Kl}[q_{0}] &= L_{\lambda} \\
 \mathrm{Kl}[q_{1}] &= \Sigma^{1} \\
 \mathrm{Kl}[q_{2}] &= \Sigma^{2} \\
-\mathrm{Kl}[q_{3}] &= \Sigma^{n\geq3}
+\mathrm{Kl}[q_{3}] &= \Sigma^{3} \cdot \Sigma^{*}
 \end{align}
 $$
 
