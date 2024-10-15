@@ -10,6 +10,10 @@
 - For every deterministic FSM, there exists a non-deterministic FSM and vice versa
 - We can't write transitions with $\lambda$!! state transition function is only defined on $Q \times \Sigma$
 - Define equivalence classes of states based on each other (concat) but **don't make a cycle!!**
+- non-regularity by contradiction with pumping lemma:
+	- show first two laws hold for all words ($|yx|\leq n_{0}$ and $|x|\geq 1$)
+	- show that no words that are left over satisfy the last rule
+- 
 
 
 
