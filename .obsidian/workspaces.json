@@ -680,8 +680,8 @@
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 65,
                     "left": -12,
-                    "top": 5,
-                    "zoom": 1.2639204057893634
+                    "top": 13,
+                    "zoom": 1.2639204057893632
                   }
                 }
               },
@@ -693,9 +693,7 @@
                   "state": {
                     "file": "sem3/DMath/UE/e/DMath-e-u04.pdf",
                     "page": 1,
-                    "left": -17,
-                    "top": 391,
-                    "zoom": 0.8907632761945721
+                    "zoom": 1
                   }
                 }
               },
@@ -860,8 +858,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-10-14T21:02:00+02:00"
+      "active": "70991d5c8bca3912",
+      "mtime": "2024-10-15T08:37:09+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1586,5 +1584,5 @@
       "mtime": "2024-10-14T10:22:29+02:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-ti"
 }
