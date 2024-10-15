@@ -41,7 +41,10 @@ q4 -->|"0"| q0
 Its states' equivalence classes are the following.
 $$
 \begin{align}
-\mathrm{Kl}[]
+\mathrm{Kl}[q\_] &= L_{\lambda} \\
+\mathrm{Kl}[q_{0}] &= \{ 0 \}^{*} \cup \mathrm{Kl}[q_{4}] \cdot \{ 0 \} \\
+\mathrm{Kl}[q_{1}] &= \{ 1 \} \\
+\mathrm{Kl}[q_{2}] &= \{  \}
 \end{align}
 $$
 
