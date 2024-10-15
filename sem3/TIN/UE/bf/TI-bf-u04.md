@@ -44,11 +44,11 @@ Its states' equivalence classes are the following.
 $$
 \begin{align}
 \mathrm{Kl}[q\_] &= L_{\lambda} \\
-\mathrm{Kl}[q_{00}] &= \{ 0 \}^{*} \cup \mathrm{Kl}[q_{010}] \cdot \{ 0 \} \\
+\mathrm{Kl}[q_{00}] &= \mathrm{Kl}[q_{010}] \cdot \{ 0 \}^{n\geq1} \cup \{ 0 \}^{*} \\
 \mathrm{Kl}[q_{01}] &= \{ 0w1 \mid w \in \Sigma^{*} \} \\
 \mathrm{Kl}[q_{010}] &= \mathrm{Kl}[q_{01}] \cdot \{ 0 \} \\
 \mathrm{Kl}[q_{10}] &= \{ 1w0 \mid w \in \Sigma^{*} \} \\
-\mathrm{Kl}[q_{11}] &= \{ 1 \}^{*} \cup \mathrm{Kl}[q_{10}]\cdot \{ 1 \}
+\mathrm{Kl}[q_{11}] &= \mathrm{Kl}[q_{10}]\cdot \{ 1 \} \cdot \{ 1 \}^{*} \cup \{ 1 \}^{*}
 \end{align}
 $$
 $\square$
@@ -57,10 +57,6 @@ $\square$
 # 11
 ![[TI-e-u04.pdf#page=1&rect=66,354,531,451|TI-e-u04, p.1]]
 
-mod 3:
-0
-1
-2
 
 $M_{1}$
 ```mermaid
@@ -82,9 +78,10 @@ $$
 \mathrm{Kl}[q_{0}] &= L_{\lambda} \\
 \mathrm{Kl}[q_{1}] &= \Sigma^{1} \\
 \mathrm{Kl}[q_{2}] &= \Sigma^{2} \\
-\mathrm{Kl}[q_{3}] &= 
+\mathrm{Kl}[q_{3}] &= \Sigma^{n\geq3}
 \end{align}
 $$
+
 
 $M_{2}$
 ```mermaid
