@@ -7,7 +7,8 @@
   "nativeMenus": false,
   "enabledCssSnippets": [
     "embed-filename",
-    "png-white-bg"
+    "png-white-bg",
+    "view-header"
   ],
   "showViewHeader": true,
   "baseFontSize": 14
