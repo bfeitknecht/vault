@@ -3,11 +3,22 @@
 - [[pumping lemma]]
 
 
+# Notes
+
+For every deterministic FSM, there exists a non-deterministic FSM and vice versa.
+
+
+
+
+
+
+
+
+
+
 Look at vis exams midterm pumping lemma proof structure (ask basil)
 
-We can't write transitions with $\lambda$, that's not allowed!! state transition function is defined on $Q \times \Sigma$.
-
-
+We can't write transitions with $\lambda$!! state transition function is only defined on $Q \times \Sigma$.
 
 
 ![[hromkovic-TIN.pdf#page=93&rect=44,232,438,259|hromkovic-TIN, p.78]]
