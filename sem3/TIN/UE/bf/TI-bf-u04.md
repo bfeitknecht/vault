@@ -77,7 +77,14 @@ q3((q3))
 
 S --> q0 -->|"a, b"| q1 -->|"a, b"| q2 -->|"a, b"| q3 -->|"a, b"| q3
 ```
-
+$$
+\begin{align}
+\mathrm{Kl}[q_{0}] &= L_{\lambda} \\
+\mathrm{Kl}[q_{1}] &= \Sigma^{1} \\
+\mathrm{Kl}[q_{2}] &= \Sigma^{2} \\
+\mathrm{Kl}[q_{3}] &= 
+\end{align}
+$$
 
 $M_{2}$
 ```mermaid
@@ -98,7 +105,8 @@ q2 -->|"a, b"| q2
 $$
 \begin{align}
 \mathrm{Kl}[q_{0}] &= \{ b \}^{*} \\
-
+\mathrm{Kl}[q_{1}] &=\mathrm{Kl}[q_{0}] \cdot \{ a \} \cdot \{ b \}^{*} \\
+\mathrm{Kl}[q_{3}] &= \Sigma^{*} - (\mathrm{Kl}[q_{0}] \cup \mathrm{Kl}[q_{1}])
 \end{align}
 $$
 
