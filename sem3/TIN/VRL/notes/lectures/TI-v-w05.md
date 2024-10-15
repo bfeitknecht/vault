@@ -1,15 +1,16 @@
 
 - [[non-deterministic]] [[finite state machine (FSM)]] 
 - [[pumping lemma]]
-- [[P vs.    NP]]
+- [[P vs. NP]]
+- 
 
 
 # Notes
 
 - For every deterministic FSM, there exists a non-deterministic FSM and vice versa
 - We can't write transitions with $\lambda$!! state transition function is only defined on $Q \times \Sigma$
-- Define equivalence classes of states based on each other but **don't make a cycle!!**
-- 
+- Define equivalence classes of states based on each other (concat) but **don't make a cycle!!**
+
 
 
 
