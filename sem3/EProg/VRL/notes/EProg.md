@@ -3,11 +3,12 @@ Introduction to programming with Java.
 
 # Info
 
-- [ ] exercise sheet 🔁 every week 📅 2024-10-15
+- [ ] exercise sheet 🔁 every week 📅 2024-10-22
+- [x] exercise sheet 🔁 every week 📅 2024-10-15 ✅ 2024-10-15
 - [x] exercise sheet 🔁 every week 📅 2024-10-08 ✅ 2024-10-09
 - [x] exercise sheet 🔁 every week 📅 2024-10-01 ✅ 2024-09-27
 - [x] exercise sheet 🔁 every week 📅 2024-09-24 ✅ 2024-09-22
-- [ ] programming task 🛫 2024-10-15 🔁 every week 
+
 
 > [!attention] Topics to revisit
 > - inheritance / polymorphism quiz
