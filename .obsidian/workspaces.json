@@ -1336,7 +1336,7 @@
           {
             "id": "f95d461f281c19da",
             "type": "tabs",
-            "dimension": 48.82133995037221,
+            "dimension": 48.705722070844686,
             "children": [
               {
                 "id": "65cc6977d876498e",
@@ -1351,7 +1351,7 @@
                 }
               },
               {
-                "id": "dc6d515664aa5984",
+                "id": "3cc4ad6f007c3a68",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -1363,49 +1363,38 @@
                 }
               },
               {
-                "id": "6f415bb2bb280a5c",
+                "id": "0a097ce890cfaa7a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/set.md",
+                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w05.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "434ee478f73c5957",
+                "id": "7502edb8b6587adf",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/TIN/UE/bf/TI-bf-u03.md",
+                    "file": "sem3/TIN/UE/bf/TI-bf-u04.md",
                     "mode": "source",
-                    "source": false
+                    "source": true
                   }
-                }
+                },
+                "group": "31d43634ddb4f210"
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "334b80dc2ab3a841",
             "type": "tabs",
-            "dimension": 51.17866004962779,
+            "dimension": 51.29427792915532,
             "children": [
-              {
-                "id": "fd1cbc5e550853e7",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/TIN/UE/e/TI-e-u03.pdf",
-                    "page": 1,
-                    "zoom": 1
-                  }
-                }
-              },
               {
                 "id": "863aa1cf19e4e3a1",
                 "type": "leaf",
@@ -1413,8 +1402,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 85,
+                    "left": -14,
+                    "top": 558,
+                    "zoom": 1.1197555751543404
                   }
                 }
               },
@@ -1429,6 +1420,19 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "e2f68ba09cc26fa9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/TIN/UE/bf/TI-bf-u04.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                },
+                "group": "31d43634ddb4f210"
               }
             ],
             "currentTab": 2
@@ -1483,7 +1487,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w04.md"
+                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w05.md"
                   }
                 }
               }
@@ -1508,7 +1512,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w04.md",
+                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w05.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1525,7 +1529,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w04.md",
+                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w05.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1580,9 +1584,9 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "dc6d515664aa5984",
-      "mtime": "2024-10-14T10:22:29+02:00"
+      "active": "0a097ce890cfaa7a",
+      "mtime": "2024-10-15T17:45:50+02:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "00-clean"
 }

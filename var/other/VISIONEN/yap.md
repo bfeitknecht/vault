@@ -3,7 +3,7 @@ Title: girlboss level yap
 Author: Basil Feitknecht
 Byline: \*absolutely no affiliation with big yap™ whatsoever
 Lead:
-Have you ever wondered, what goes on inside the head of a professional girlboss How do they get their hair so shiny? Why don't they drink enough water? Is this really a five minuet read?
+Have you ever wondered, what goes on inside the head of a professional girlboss How do they get their hair so shiny? Why don't they drink enough water? Is this really a five minuet read? Let's delve  into it!
 
 In this article, we explore a range of topics abstractly associated with the concepts mentioned above and investigate a basis of reasoning hypothesized to entail the secret to it all, *nothing in particular*. 
 
@@ -22,59 +22,23 @@ In fact, there exists a dual (of course), where every now and then the no return
 
 void only side effect
 
-  
-
 boilerplate
-
-  
 
 much rhetorical questions
 
-  
-
-  
-
 every now and then yap turn into rap
 
-  
-  
-  
-  
-  
-  
-
 grug
-
-  
 
 imperative system management very yap, although declarative not much better
 
 induction, dp very anti yap
 
-  
-
 harfbuzz
 
 foo bar
 
-  
-
 category theory and formal logic
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 
 article as text msg dialogue with (between) chatbot**
