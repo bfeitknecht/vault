@@ -7,19 +7,7 @@ Dennis Küenzi, 21-559-315
 # 10
 ![[TI-e-u04.pdf#page=1&rect=67,489,533,572|TI-e-u04, p.1]]
 
-
-mod 4 : 0, 1, 2, 3
-
-0
-11
-00
-101
-000
-1...01
-0...00
-
-where $\mathrm{Number}(\lambda)=0$
-
+We interpret $\mathrm{Number}(\lambda)=0$.
 
 ```mermaid
 flowchart LR
@@ -51,9 +39,28 @@ q0 -->|"0"| q0 -->|"1"| q2
 q2 -->|"1"| q2
 q2 -->|"0"| q4 -->|"1"| q2
 q4 -->|"0"| q0
+```
+
+
+```mermaid
+flowchart LR
+
+classDef hidden display: none;
+
+S:::hidden
+
+q_((q_))
+q0(((q0)))
+q1((q1))
+
+S --> q_
+q_ -->|"0"| q0 -->|"0"| q0
+q_ -->|"1"| q1 -->|"1"| 
+
 
 
 ```
+
 
 
 # 11
