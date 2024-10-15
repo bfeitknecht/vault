@@ -85,4 +85,4 @@ becasue we define more words than the FSM has configurations, exists two natural
 
 
 
-In contrast, a [[non-deterministic]] FSM
+In contrast, a [[non-deterministic]] FSM is the same (quintuple), but the state transition function maps to the [[power set]] of states, i.e.  there may be multiple arrows with the same symbol going out from a node. the FSM accepts all words such that there exists a path that ends in an accepting state.
