@@ -8,6 +8,8 @@
 
 - For every deterministic FSM, there exists a non-deterministic FSM and vice versa
 - We can't write transitions with $\lambda$!! state transition function is only defined on $Q \times \Sigma$
+- Define equivalence classes of states based on each other but **don't make a cycle!!**
+- 
 
 
 
