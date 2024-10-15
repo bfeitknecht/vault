@@ -86,3 +86,8 @@ becasue we define more words than the FSM has configurations, exists two natural
 
 
 In contrast, a [[non-deterministic]] FSM is the same (quintuple), but the state transition function maps to the [[power set]] of states, i.e.  there may be multiple arrows with the same symbol going out from a node. the FSM accepts all words such that there exists a path that ends in an accepting state.
+
+
+The computation tree $\mathcal{B}_{M}(x)$ of $M$ on $x$ describes all the possible "decision" we can take. The nodes of the tree are the configurations, the root is the initial configuration
+
+![[hromkovic-TIN.pdf#page=93&rect=44,406,420,624|hromkovic-TIN, p.78]]
