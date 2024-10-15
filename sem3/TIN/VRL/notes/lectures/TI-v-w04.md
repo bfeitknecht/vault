@@ -1,6 +1,6 @@
 
 - simulation
-- [[finite state machine (FSM)]]
+- [[deterministic]] [[finite state machine (FSM)]]
 - [[graph]] representation of FSM
 - [[set#operations]] operations on FSM
 - pumping lemma
