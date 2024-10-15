@@ -14,7 +14,8 @@
 	- assume language is regular
 	- show first two laws hold for all words ($|yx|\leq n_{0}$ and $|x|\geq 1$)
 	- show that no words that are left over satisfy the last rule
-- 
+- we can only choose the word, not the constant $n_{0}$!
+
 
 
 

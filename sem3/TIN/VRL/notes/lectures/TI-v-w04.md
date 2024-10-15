@@ -3,8 +3,8 @@
 - [[deterministic]] [[finite state machine (FSM)]]
 - [[graph]] representation of FSM
 - [[set#operations]] operations on FSM
-- pumping lemma
-- regularity of [[language]] $\iff$ exists FSM that accepts language
+- [[pumping lemma]]
+- [[language]] [[regularity]] $\iff$ exists FSM that accepts language
 
 
 **19/30 pts.**
