@@ -17,41 +17,39 @@ classDef hidden display: none;
 S:::hidden
 
 q_((q_))
-q000(((q000)))
+q00(((q00)))
 q01((q01))
 q010((q010))
 q10((q10))
-q100(((q100)))
+q11(((q11)))
 
 
 S --> q_
-q_ -->|"0"| q000
+q_ -->|"0"| q00
 q_ -->|"1"| q10
 
-q000 -->|"0"| q000
-q000 -->|"1"| q01
+q00 -->|"0"| q00
+q00 -->|"1"| q01
 q01 -->|"1"| q01
 q01 -->|"0"| q010
 q010 -->|"1"| q01
-q010 -->|"0"| q000
+q010 -->|"0"| q00
 
-q10 -->|"1"| q100
-q100 -->|"1"| q100
-q100 -->|"0"| q10
+q10 -->|"1"| q11
+q11 -->|"1"| q11
+q11 -->|"0"| q10
 q10 -->|"0"| q10
-
 ```
 
 Its states' equivalence classes are the following.
 $$
 \begin{align}
 \mathrm{Kl}[q\_] &= L_{\lambda} \\
-\mathrm{Kl}[q_{0}] &= \{ 0 \}^{*} \cup \mathrm{Kl}[q_{4}] \cdot \{ 0 \} \\
-\mathrm{Kl}[q_{1}] &= \{ 1 \} \\
-\mathrm{Kl}[q_{2}] &= \{  \} \\
-\mathrm{Kl}[q_{3}] &= \{ 0 \}^{*} \cup \mathrm{Kl}[q_{5}]\cdot \{ 1 \}  \\
-\mathrm{Kl}[q_{4}] &= \{  \} \\
-\mathrm{Kl}[q_{5}] &= \{  \}
+\mathrm{Kl}[q_{00}] &= \{ 0 \}^{*} \cup \mathrm{Kl}[q_{010}] \cdot \{ 0 \} \\
+\mathrm{Kl}[q_{01}] &= \{ \} \\
+\mathrm{Kl}[q_{010}] &= \{  \} \\
+\mathrm{Kl}[q_{10}] &= \{ 1w0 \mid w \in \Sigma^{*} \} \\
+\mathrm{Kl}[q_{11}] &= \{ 1 \}^{*} \cup \mathrm{Kl}[]
 \end{align}
 $$
 
