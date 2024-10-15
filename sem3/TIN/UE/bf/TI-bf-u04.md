@@ -59,7 +59,7 @@ $\square$
 
 We define two partial finite automata $M_{1}, M_{2}$, such that $L=L(M_{1})\cup L(M_{2})$. The partial automata are defined over the same input alphabet $\Sigma=\{ a, b \}$. 
 
-$M_{1}$
+The graph representation of $M_{1}$ is as follows.
 ```mermaid
 flowchart LR
 
@@ -74,6 +74,8 @@ q3((q3))
 
 S --> q0 -->|"a, b"| q1 -->|"a, b"| q2 -->|"a, b"| q3 -->|"a, b"| q3
 ```
+
+With its states' equivalence classes being defined as below.
 $$
 \begin{align}
 \mathrm{Kl}[q_{0}] &= L_{\lambda} \\
@@ -84,7 +86,7 @@ $$
 $$
 
 
-$M_{2}$
+For the second partial automaton, $M_{2}$ its graph representation is this.
 ```mermaid
 flowchart LR
 classDef hidden display: none;
@@ -100,9 +102,11 @@ q0 -->|"b"| q0
 q1 -->|"b"| q1
 q2 -->|"b"| q2
 ```
+
+And the classes on its states are then this.
 $$
 \begin{align}
-\mathrm{Kl}[q_{0}] &= \{ b \}^{*} \\
+\mathrm{Kl}[q_{0}] &= \{ b \}^{*} \cup \{ w \in \Sigma^{*} \mid |w|_{a}\equiv_{3}0 \} \\
 \mathrm{Kl}[q_{1}] &=\mathrm{Kl}[q_{0}] \cdot \{ a \} \cdot \{ b \}^{*} \\
 \mathrm{Kl}[q_{3}] &= \Sigma^{*} - (\mathrm{Kl}[q_{0}] \cup \mathrm{Kl}[q_{1}])
 \end{align}
