@@ -15,7 +15,7 @@ classDef hidden display: none;
 
 S:::hidden
 
-q_((q_))
+q0((q0))
 q00(((q00)))
 q01((q01))
 q010((q010))
@@ -23,9 +23,9 @@ q10((q10))
 q11(((q11)))
 
 
-S --> q_
-q_ -->|"0"| q00
-q_ -->|"1"| q10
+S --> q0
+q0 -->|"0"| q00
+q0 -->|"1"| q10
 
 q00 -->|"0"| q00
 q00 -->|"1"| q01
@@ -43,7 +43,7 @@ q10 -->|"0"| q10
 Its states' equivalence classes are the following.
 $$
 \begin{align}
-\mathrm{Kl}[q\_] &= L_{\lambda} \\
+\mathrm{Kl}[q_{0}] &= L_{\lambda} \\
 \mathrm{Kl}[q_{00}] &= \mathrm{Kl}[q_{010}] \cdot \{ 0 \} \cdot \{ 0 \}^{*} \cup \{ 0 \}^{*} \\
 \mathrm{Kl}[q_{01}] &= \{ 0w1 \mid w \in \Sigma^{*} \} \\
 \mathrm{Kl}[q_{010}] &= \mathrm{Kl}[q_{01}] \cdot \{ 0 \} \\

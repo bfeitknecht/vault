@@ -1388,7 +1388,7 @@
                 "group": "31d43634ddb4f210"
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "334b80dc2ab3a841",
@@ -1402,10 +1402,8 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
-                    "page": 85,
-                    "left": -14,
-                    "top": 558,
-                    "zoom": 1.1197555751543404
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -1487,7 +1485,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w05.md"
+                    "file": "sem3/TIN/UE/bf/TI-bf-u04.md"
                   }
                 }
               }
@@ -1512,7 +1510,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w05.md",
+                    "file": "sem3/TIN/UE/bf/TI-bf-u04.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1529,7 +1527,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w05.md",
+                    "file": "sem3/TIN/UE/bf/TI-bf-u04.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1584,9 +1582,9 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "0a097ce890cfaa7a",
-      "mtime": "2024-10-15T17:45:50+02:00"
+      "active": "7502edb8b6587adf",
+      "mtime": "2024-10-15T21:19:43+02:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-linalg"
 }
