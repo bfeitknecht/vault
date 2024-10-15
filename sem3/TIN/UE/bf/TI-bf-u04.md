@@ -57,7 +57,7 @@ $\square$
 # 11
 ![[TI-e-u04.pdf#page=1&rect=66,354,531,451|TI-e-u04, p.1]]
 
-We define a finite automaton $M=M_{1} \cdot M_{2}$, such that $L=L$
+We define two partial finite automata $M_{1}, M_{2}$, such that $L=L(M_{1})\cup L(M_{2})$. The partial automata are defined over the same input alphabet $\Sigma=\{ a, b \}$. 
 
 $M_{1}$
 ```mermaid
@@ -95,10 +95,10 @@ q0((q0))
 q1(((q1)))
 q2((q2))
 
-S --> q0 -->|"a"| q1 -->|"a"| q2
+S --> q0 -->|"a"| q1 -->|"a"| q2 -->|"a"| q0
 q0 -->|"b"| q0
 q1 -->|"b"| q1
-q2 -->|"a, b"| q2
+q2 -->|"b"| q2
 ```
 $$
 \begin{align}
