@@ -1,6 +1,7 @@
 
 - [[non-deterministic]] [[finite state machine (FSM)]] 
 - [[pumping lemma]]
+- [[P vs. NP]]
 
 
 # Notes
