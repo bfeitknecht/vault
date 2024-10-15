@@ -8,7 +8,6 @@ Dennis Küenzi, 21-559-315
 ![[TI-e-u04.pdf#page=1&rect=67,489,533,572|TI-e-u04, p.1]]
 
 We interpret $\mathrm{Number}(\lambda)=0$. Thus the graph representation of a finite automaton $M$ that accepts the given language, i.e. $L=L(M)$ is given below.
-
 ```mermaid
 flowchart LR
 
@@ -46,12 +45,13 @@ $$
 \begin{align}
 \mathrm{Kl}[q\_] &= L_{\lambda} \\
 \mathrm{Kl}[q_{00}] &= \{ 0 \}^{*} \cup \mathrm{Kl}[q_{010}] \cdot \{ 0 \} \\
-\mathrm{Kl}[q_{01}] &= \{ \} \\
-\mathrm{Kl}[q_{010}] &= \{  \} \\
+\mathrm{Kl}[q_{01}] &= \{ 0w1 \mid w \in \Sigma^{*} \} \\
+\mathrm{Kl}[q_{010}] &= \mathrm{Kl}[q_{01}] \cdot \{ 0 \} \\
 \mathrm{Kl}[q_{10}] &= \{ 1w0 \mid w \in \Sigma^{*} \} \\
-\mathrm{Kl}[q_{11}] &= \{ 1 \}^{*} \cup \mathrm{Kl}[]
+\mathrm{Kl}[q_{11}] &= \{ 1 \}^{*} \cup \mathrm{Kl}[q_{10}]\cdot \{ 1 \}
 \end{align}
 $$
+
 
 
 
