@@ -7,7 +7,7 @@ Dennis Küenzi, 21-559-315
 # 10
 ![[TI-e-u04.pdf#page=1&rect=67,489,533,572|TI-e-u04, p.1]]
 
-We interpret $\mathrm{Number}(\lambda)=0$.
+We interpret $\mathrm{Number}(\lambda)=0$. Thus the graph representation of a finite automaton $M$ that accepts the given language, i.e. $L=L(M)$ is given below.
 
 ```mermaid
 flowchart LR
@@ -38,6 +38,12 @@ q2 -->|"0"| q4 -->|"1"| q2
 q4 -->|"0"| q0
 ```
 
+Its states' equivalence classes are the following.
+$$
+\begin{align}
+\mathrm{Kl}[]
+\end{align}
+$$
 
 
 
