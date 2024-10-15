@@ -53,6 +53,7 @@ $$
 $$
 $\square$
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 # 11
 ![[TI-e-u04.pdf#page=1&rect=66,354,531,451|TI-e-u04, p.1]]
@@ -111,6 +112,10 @@ $$
 \mathrm{Kl}[q_{3}] &= \Sigma^{*} - (\mathrm{Kl}[q_{0}] \cup \mathrm{Kl}[q_{1}])
 \end{align}
 $$
+$\square$
+
+<div class="page-break" style="page-break-before: always;"></div>
+
 
 # 12
 
@@ -119,3 +124,4 @@ $$
 
 
 ![[TI-e-u04.pdf#page=1&rect=76,157,533,224|TI-e-u04, p.1]]
+
