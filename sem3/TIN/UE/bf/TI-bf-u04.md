@@ -51,10 +51,7 @@ $$
 \mathrm{Kl}[q_{11}] &= \{ 1 \}^{*} \cup \mathrm{Kl}[q_{10}]\cdot \{ 1 \}
 \end{align}
 $$
-
-
-
-
+$\square$
 
 
 # 11
