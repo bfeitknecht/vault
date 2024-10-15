@@ -57,6 +57,41 @@ $\square$
 # 11
 ![[TI-e-u04.pdf#page=1&rect=66,354,531,451|TI-e-u04, p.1]]
 
+mod 3:
+0
+1
+2
+
+$M_{1}$
+```mermaid
+flowchart LR
+
+classDef hidden display: none;
+
+S:::hidden
+
+q0((q0))
+q1((q1))
+q2(((q2)))
+q3((q3))
+
+S --> q0 -->|"a, b"| q1 -->|"a, b"| q2 -->|"a, b"| q3 -->|"a, b"| q3
+```
+
+
+$M_{2}$
+```mermaid
+flowchart LR
+classDef hidden display: none;
+
+S:::hidden
+
+q0((q0))
+q1(((q1)))
+
+S --> q0 -->|"a, b"| q1
+
+```
 
 
 # 12
