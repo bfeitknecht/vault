@@ -8,6 +8,18 @@ Dennis Küenzi, 21-559-315
 ![[TI-e-u04.pdf#page=1&rect=67,489,533,572|TI-e-u04, p.1]]
 
 
+mod 4 : 0, 1, 2, 3
+
+1...01
+0...00
+
+
+```mermaid
+flowchart LR
+
+q0(((q0)))
+```
+
 
 # 11
 ![[TI-e-u04.pdf#page=1&rect=66,354,531,451|TI-e-u04, p.1]]
