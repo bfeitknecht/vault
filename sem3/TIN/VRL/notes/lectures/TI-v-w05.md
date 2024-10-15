@@ -3,3 +3,6 @@
 - [[pumping lemma]]
 
 
+Look at vis exams midterm pumping lemma proof structure (ask basil)
+
+
