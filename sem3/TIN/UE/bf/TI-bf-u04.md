@@ -44,8 +44,9 @@ $$
 \mathrm{Kl}[q\_] &= L_{\lambda} \\
 \mathrm{Kl}[q_{0}] &= \{ 0 \}^{*} \cup \mathrm{Kl}[q_{4}] \cdot \{ 0 \} \\
 \mathrm{Kl}[q_{1}] &= \{ 1 \} \\
-\mathrm{Kl}[q_{2}] &= \{  \mid w \in \Sigma^{*} \} \\
-\mathrm{Kl}[q_{3}] &= \{  \}  \\
+\mathrm{Kl}[q_{2}] &= \{  \} \\
+\mathrm{Kl}[q_{3}] &= \{ 0 \}^{*} \cup \mathrm{Kl}[q_{5}]\cdot \{ 1 \}  \\
+\mathrm{Kl}[q_{4}] &= \{  \} \\
 \mathrm{Kl}[q_{5}] &= \{  \}
 \end{align}
 $$
