@@ -28,5 +28,6 @@ The identity matrix serves as the [[multiplicative identity]] of the [[matrix ri
 When $m \times m$ matrices are used to represent [[linear transformation]] from an $n$-dimensional [[vector space]]
 to itself, the identity matrix $I_{m}$ represents the identity function, $\mathsf{id}$ for whatever [[basis]] was used in this representation.
 
-The $i$-th [[row and column vectors|column]] of an identity matrix is the [[unit vector]] $e_{i}$, a vector whose $i$-th entry is $1$ and $0$ elsewhere. The [[determinant]] of the identity matrix is $1$, and its trace
+The $i$-th [[row and column vectors|column]] of an identity matrix is the [[unit vector]] $e_{i}$, a vector whose $i$-th entry is $1$ and $0$ elsewhere. The [[determinant]] of the identity matrix $I_{m}$ is $1$, and its [[trace]] is $m$.
+
 
