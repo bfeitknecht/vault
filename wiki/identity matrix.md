@@ -1,15 +1,26 @@
 
-
-The **identity matrix**, often denoted by $I_{m}$ is the [[diagonal matrix|diagonal]], [[square matrix]] defined by having entries equal to zero everywhere except for the diagonal, where they are one. In some contexts, such as [[group theory]] or [[category theory]] it's also denoted by $\mathbf{1}_{m}$.
+The **identity matrix**, often denoted by $I_{m}$ is the [[diagonal matrix|diagonal]], [[square matrix]] defined by having entries equal to zero everywhere except for the diagonal, where they are one. In some contexts, such as [[group theory]] or [[category theory]] where it's also denoted by $\mathbf{1}_{m}$.
 $$
-I_{m} =
-\begin{bmatrix}
-1 &\dots &0 \\
+\begin{align}
+I_{1} &= \begin{bmatrix}
+1
+\end{bmatrix} \\ \\
 
+I_{2} &= \begin{bmatrix}
+1 &0 \\
+0 &1
+\end{bmatrix} \\ \\
+
+I_{m} &=
+\begin{bmatrix}
+1 &0 &\dots &0 \\
+0 &1 &\dots &0 \\
 \vdots &\vdots &\ddots &\vdots  \\
 0 &0 &\dots &1
 \end{bmatrix}
+\end{align}
 $$
 
+It can concisely be denoted using the [[kronecker delta]]  $I_{m} = [\delta_{ij}]_{m}$.
 
-It can concisely be denoted using the [[kronecker delta]]  $I_{m} = [\delta]_{i,j}^m$.
+The identity matrix serves as the [[multiplicative identity]] of the [[matrix ring]] of all $m \times m$ matrices.
