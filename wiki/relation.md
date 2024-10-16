@@ -44,3 +44,5 @@ totality
 [[equivalence relation]]
 
 [[partial order relation]]
+
+[[identity relation]]

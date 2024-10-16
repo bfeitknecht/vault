@@ -12,12 +12,12 @@
     /* */
     /* display: hidden; */
     visibility: hidden;
-    opacity: 0.0;
-    position: absolute;
-    top: 0em;
-    right: -1em;
-    color: none;
-    cursor: pointer;
+    /* opacity: 0.0; */
+    /* position: absolute; */
+    /* top: 0em; */
+    /* right: -1em; */
+    /* color: none; */
+    /* cursor: pointer; */
     /* */
 }
 
