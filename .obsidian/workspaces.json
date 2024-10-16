@@ -638,19 +638,31 @@
                 }
               },
               {
-                "id": "2bc97911a2928bf6",
+                "id": "47639851dca31a52",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/equivalence relation.md",
+                    "file": "wiki/partial order relation.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "4eb06cfd7ec25c72",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/partially ordered set (poset).md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 5
           },
           {
             "id": "f002029a56c7a80a",
@@ -663,7 +675,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf"
+                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
+                    "page": 70,
+                    "left": -12,
+                    "top": 56,
+                    "zoom": 1.2639204057893632
                   }
                 }
               },
@@ -673,7 +689,9 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/DMath/UE/e/DMath-e-u04.pdf"
+                    "file": "sem3/DMath/UE/e/DMath-e-u04.pdf",
+                    "page": 1,
+                    "zoom": 1
                   }
                 }
               },
@@ -689,8 +707,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -742,7 +759,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/relation.md"
+                    "file": "wiki/partially ordered set (poset).md"
                   }
                 }
               }
@@ -767,7 +784,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/relation.md",
+                    "file": "wiki/partially ordered set (poset).md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -784,7 +801,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/relation.md",
+                    "file": "wiki/partially ordered set (poset).md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -839,8 +856,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "70991d5c8bca3912",
-      "mtime": "2024-10-16T15:29:48+02:00"
+      "active": "4eb06cfd7ec25c72",
+      "mtime": "2024-10-16T16:13:23+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1549,5 +1566,5 @@
       "mtime": "2024-10-15T21:19:43+02:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "00-clean"
 }
