@@ -20,3 +20,5 @@ $$
 \end{bmatrix}
 \end{align}
 $$
+
+The zero matrix has [[rank]] zero, i.e. $\mathrm{rank}(0_{m,n})=0$.
