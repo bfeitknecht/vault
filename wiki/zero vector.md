@@ -4,7 +4,7 @@ The zero vector is the [[neutral element]] in some [[vector space]] $\mathbb{R}^
 $$
 \mathbf{0} \overset{\text{def.}}{=}
 \begin{cases}
-\empty, &m=0 \\
+\varnothing, &m=0 \\
 [0]^{m}_{i=1}, &m > 0\\
 \end{cases}
 $$

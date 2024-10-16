@@ -1102,11 +1102,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w03.pdf",
-                    "page": 1,
-                    "left": -19,
-                    "top": 734,
-                    "zoom": 0.8504901960784313
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w03.pdf"
                   }
                 }
               },
@@ -1116,16 +1112,12 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w04.pdf",
-                    "page": 1,
-                    "left": -23,
-                    "top": 796,
-                    "zoom": 0.6384803921568627
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w04.pdf"
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "740ad403278fbd52",
@@ -1156,24 +1148,60 @@
                 }
               },
               {
-                "id": "24d8c03927088155",
+                "id": "ec7ce0acb64dacb0",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/linear transformation.md",
+                    "file": "wiki/scalar multiplication.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "7e57612e14d63f55",
+                "id": "d9978dcb75a2941d",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/LinAlg/UE/bf/LinAlg-bf-u03.md",
+                    "file": "wiki/zero vector.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "c3a26e7f54e1945c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/invertible matrix.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "2eaa7e207369dd4b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/identity matrix.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "bbd745ef307c4c91",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/gauss elimination.md",
                     "mode": "source",
                     "source": false
                   }
@@ -1232,7 +1260,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/LinAlg/UE/bf/LinAlg-bf-u03.md"
+                    "file": "wiki/zero vector.md"
                   }
                 }
               }
@@ -1257,7 +1285,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/LinAlg/UE/bf/LinAlg-bf-u03.md",
+                    "file": "wiki/zero vector.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1274,7 +1302,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/LinAlg/UE/bf/LinAlg-bf-u03.md",
+                    "file": "wiki/zero vector.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1329,8 +1357,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "7e57612e14d63f55",
-      "mtime": "2024-10-16T08:24:43+02:00"
+      "active": "d9978dcb75a2941d",
+      "mtime": "2024-10-16T11:39:39+02:00"
     },
     "sem3-ti": {
       "main": {
