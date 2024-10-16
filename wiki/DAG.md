@@ -1,3 +1,0 @@
-#todo 
-
-directed [[acyclic]] [[graph]]
