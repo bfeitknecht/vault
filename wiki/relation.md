@@ -20,6 +20,11 @@ A ([[arity|binary]]) **relation** $\rho$ from some [[set]] $A$ (domain) to anoth
 ## Transitivity
 ![[transitive relation]]
 
+## Uniqueness #todo
+
+
+## Totality #todo
+
 
 ___
 
@@ -40,9 +45,6 @@ ___
 ___
 
 # Types of binary relations
-
-uniqueness #todo
-totality #todo
 
 ## Equivalence relation
 ![[equivalence relation]]
