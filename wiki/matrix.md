@@ -27,6 +27,9 @@ A matrix $A\in\mathbb R^{m\times n}$ can be denotes as $A=[a_{ij}]_{i, j}^{n, m}
 ## Transposition
 ![[transpose]]
 
+# Inversion
+![[invertible matrix]]
+
 ## Multiplication
 ![[matrix multiplication]]
 
