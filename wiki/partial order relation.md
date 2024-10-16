@@ -9,6 +9,8 @@ A **partial order** [[relation]] on a [[set]] $A$ is a [[reflexive relation|refl
 ## Hasse diagram
 ![[hasse diagram]]
 
+## Comparability
+> 
 
 
 
@@ -16,4 +18,7 @@ A **partial order** [[relation]] on a [[set]] $A$ is a [[reflexive relation|refl
 # Examples
 
 - the relations $\leq$ and $\geq$ are partial orders on $\mathbb{Z}$, $\mathbb{Q}$ and $\mathbb{R}$
-- the relation $<$ and $>$ are **not** partial orders
+- the relation $<$ and $>$ are *not* partial orders, since they aren't reflexive
+- the divides relation $|$ is a partial order on $\mathbb{N}-\{ 0 \}$ or any subset of it
+- the [[subset]] relation $\subseteq$ on the [[power set]] of any set $A$ is a partial order, $(\mathcal{P}(A); \subseteq)$ is a [[partially ordered set (poset)|poset]]
+- 
