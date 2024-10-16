@@ -8,7 +8,7 @@ A ([[arity|binary]]) **relation** $\rho$ from some [[set]] $A$ (domain) to anoth
 ## Reflexivity
 ![[reflexive relation]]
 
-## Ireflexivity
+## Irreflexivity
 ![[irreflexive relation]]
 
 ## Symmetry
@@ -24,13 +24,17 @@ A ([[arity|binary]]) **relation** $\rho$ from some [[set]] $A$ (domain) to anoth
 
 # Operations
 
-[[union (set)]]
+## Union
+![[union (set)]]
 
-[[intersection (set)]]
+## Intersection
+![[intersection (set)]]
 
-[[composition]]
+## Composition
+![[composition]]
 
-inverse relation
+## Inversion
+![[inverse relation]]
 
 
 
@@ -45,4 +49,5 @@ totality
 
 [[partial order relation]]
 
-[[identity relation]]
+## Identity 
+![[identity relation]]

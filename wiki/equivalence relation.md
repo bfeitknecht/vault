@@ -17,4 +17,5 @@ A [[relation]] on a [[set]] $A$ is called **equivalence relation** if it is [[re
 
 # Examples
 
-The relation $\equiv_{m}$ is an equivalence relation on $\mathbb{Z}$.
+- the relation $\equiv_{m}$ is an equivalence relation on $\mathbb{Z}$
+- the intersection of $\equiv_{5}$ and $\equiv_{3}$ is $\equiv_{15}$
