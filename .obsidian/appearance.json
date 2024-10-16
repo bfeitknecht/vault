@@ -6,7 +6,6 @@
   "accentColor": "#7f7f7f",
   "nativeMenus": false,
   "enabledCssSnippets": [
-    "embed-filename",
     "png-white-bg"
   ],
   "showViewHeader": true,
