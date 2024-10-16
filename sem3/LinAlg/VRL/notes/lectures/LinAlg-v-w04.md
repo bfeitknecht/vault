@@ -10,3 +10,5 @@
 # Notes
 
 gauss elimination works $\iff$ linear transformation matrix is linearly independent
+
+
