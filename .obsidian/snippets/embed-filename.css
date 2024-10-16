@@ -10,12 +10,13 @@
     /* display: none; */
     
     /* */
-    display: hidden;
+    /* display: hidden; */
+    visibility: hidden;
     opacity: 0.0;
     position: absolute;
     top: 0em;
     right: -1em;
-    /* color: #000000; */
+    color: none;
     cursor: pointer;
     /* */
 }
