@@ -45,9 +45,11 @@ uniqueness
 
 totality
 
-[[equivalence relation]]
+## Equivalence relation
+![[equivalence relation]]
 
-[[partial order relation]]
+## Partial order relation
+![[partial order relation]]
 
-## Identity 
+## Identity relation
 ![[identity relation]]
