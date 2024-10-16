@@ -1,4 +1,4 @@
-#todo 
+
 
 The **rank** of some matrix $A\in \mathbb R^{m\times n}$ is the number of [[linear independence|linearly independent]] [[row and column vectors|row or column vectors]] and is denoted with $\mathrm{rank}(A)$. It measures the dimension of the image of the [[linear transformation]] described by $A$.
 
