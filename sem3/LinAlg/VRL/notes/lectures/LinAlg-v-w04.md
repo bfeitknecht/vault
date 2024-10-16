@@ -1,5 +1,5 @@
 
-- 
+- gauss elimination
 
 # Lecture Plan
 
