@@ -673,11 +673,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 65,
-                    "left": -12,
-                    "top": 13,
-                    "zoom": 1.2639204057893632
+                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf"
                   }
                 }
               },
@@ -687,9 +683,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/DMath/UE/e/DMath-e-u04.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "file": "sem3/DMath/UE/e/DMath-e-u04.pdf"
                   }
                 }
               },
@@ -855,7 +849,7 @@
         }
       },
       "active": "70991d5c8bca3912",
-      "mtime": "2024-10-15T08:37:09+02:00"
+      "mtime": "2024-10-16T14:11:38+02:00"
     },
     "sem3-eprog": {
       "main": {

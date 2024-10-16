@@ -8,7 +8,7 @@ A ([[arity|binary]]) **relation** $\rho$ from some [[set]] $A$ (domain) to anoth
 ## Reflexivity
 ![[reflexive relation]]
 
-## Irreflexivity
+## Ireflexivity
 ![[irreflexive relation]]
 
 ## Symmetry
