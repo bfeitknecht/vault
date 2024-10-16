@@ -208,10 +208,40 @@
             "type": "tabs",
             "children": [
               {
-                "id": "978ea95838e4be81",
+                "id": "162e7a61651e562a",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
+                  "type": "markdown",
+                  "state": {
+                    "file": "HOME.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "5bdf1a60b706d1d5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "0ebd819d6578fced",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c1d4bca0b23a015c",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
                   "state": {}
                 }
               }
@@ -360,8 +390,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "978ea95838e4be81",
-      "mtime": "2024-10-16T15:11:15+02:00"
+      "active": "c1d4bca0b23a015c",
+      "mtime": "2024-10-16T15:12:45+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1562,5 +1592,5 @@
       "mtime": "2024-10-15T21:19:43+02:00"
     }
   },
-  "active": "00-home"
+  "active": "sem3-dmath"
 }
