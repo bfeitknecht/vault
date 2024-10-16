@@ -9,8 +9,6 @@ A **partial order** [[relation]] on a [[set]] $A$ is a [[reflexive relation|refl
 ## Hasse diagram
 ![[hasse diagram]]
 
-## Comparability
-> 
 
 
 
