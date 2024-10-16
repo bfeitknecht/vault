@@ -638,7 +638,7 @@
                 }
               },
               {
-                "id": "fe5a8197439e2975",
+                "id": "2bc97911a2928bf6",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -648,33 +648,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "ba96ef10afc2a251",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/partition.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "37a71e6de8c44041",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/identity relation.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
               }
             ],
-            "currentTab": 5
+            "currentTab": 3
           },
           {
             "id": "f002029a56c7a80a",
@@ -687,11 +663,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 68,
-                    "left": -12,
-                    "top": 191,
-                    "zoom": 1.2639204057893632
+                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf"
                   }
                 }
               },
@@ -701,11 +673,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/DMath/UE/e/DMath-e-u04.pdf",
-                    "page": 1,
-                    "left": -17,
-                    "top": 183,
-                    "zoom": 0.8907632761945721
+                    "file": "sem3/DMath/UE/e/DMath-e-u04.pdf"
                   }
                 }
               },
@@ -720,20 +688,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "0c9c545e1cb8fa97",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/set.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -785,7 +742,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "wiki/partition.md"
+                    "file": "wiki/relation.md"
                   }
                 }
               }
@@ -810,7 +767,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/partition.md",
+                    "file": "wiki/relation.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -827,7 +784,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "wiki/partition.md",
+                    "file": "wiki/relation.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -882,8 +839,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "ba96ef10afc2a251",
-      "mtime": "2024-10-16T15:10:04+02:00"
+      "active": "70991d5c8bca3912",
+      "mtime": "2024-10-16T15:29:48+02:00"
     },
     "sem3-eprog": {
       "main": {

@@ -21,6 +21,7 @@ A ([[arity|binary]]) **relation** $\rho$ from some [[set]] $A$ (domain) to anoth
 ![[transitive relation]]
 
 
+___
 
 # Operations
 
@@ -36,14 +37,12 @@ A ([[arity|binary]]) **relation** $\rho$ from some [[set]] $A$ (domain) to anoth
 ## Inversion
 ![[inverse relation]]
 
-
-
+___
 
 # Types of binary relations
 
-uniqueness
-
-totality
+uniqueness #todo
+totality #todo
 
 ## Equivalence relation
 ![[equivalence relation]]
