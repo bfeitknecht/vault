@@ -1108,12 +1108,28 @@
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w03.pdf",
                     "page": 1,
-                    "zoom": 1
+                    "left": -19,
+                    "top": 734,
+                    "zoom": 0.8504901960784313
+                  }
+                }
+              },
+              {
+                "id": "91a0e2b66f6e407f",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w04.pdf",
+                    "page": 1,
+                    "left": -23,
+                    "top": 796,
+                    "zoom": 0.6384803921568627
                   }
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "740ad403278fbd52",
@@ -1165,14 +1181,6 @@
                     "mode": "source",
                     "source": false
                   }
-                }
-              },
-              {
-                "id": "2bb26bd5835350e9",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
                 }
               }
             ],
@@ -1228,7 +1236,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w04.md"
+                    "file": "sem3/LinAlg/UE/bf/LinAlg-bf-u03.md"
                   }
                 }
               }
@@ -1253,7 +1261,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w04.md",
+                    "file": "sem3/LinAlg/UE/bf/LinAlg-bf-u03.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1270,7 +1278,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w04.md",
+                    "file": "sem3/LinAlg/UE/bf/LinAlg-bf-u03.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1325,8 +1333,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "a971efc5cc5fe352",
-      "mtime": "2024-10-14T10:50:27+02:00"
+      "active": "7e57612e14d63f55",
+      "mtime": "2024-10-16T08:24:43+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1586,5 +1594,5 @@
       "mtime": "2024-10-15T21:19:43+02:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-eprog"
 }

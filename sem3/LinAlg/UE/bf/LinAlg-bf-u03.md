@@ -78,9 +78,10 @@ We prove this by contradiction. Let's assume that $T$ is a linear transformation
 Let's evaluate the function for the zero vector.
 $$
 \begin{align}
-T(\mathbf{0}) &= \sum_{j=1}^{n+1} x'_{j}\mathbf{v}_{j} &\text{($x'_{j \in [n]}=0$ and $x'_{n+1}=1$)} \\
-&= \cancel{ \sum_{j=1}^{n} 0\mathbf{v}_{j} } + \mathbf{v}_{n+1} &\text{($0\mathbf{v}=\mathbf{0}, \forall\mathbf{v}$)} \\
-&= \mathbf{v}_{n+1} &\contradiction
+T(\mathbf{0}) &= \sum_{j=1}^{n+1} x'_{j}\mathbf{v}_{j} &\text{($x'_{j \in [n]}=0$, $x'_{n+1}=1$)} \\
+&= \sum_{j=1}^{n} 0\mathbf{v}_{j}  + \mathbf{v}_{n+1} &\text{(comm. scalar multiplication)}\\
+&= \cancel{ 0 \sum_{j=1}^{n} \mathbf{v}_{j} } + \mathbf{v}_{n+1} &\text{($0\mathbf{v}=\mathbf{0}$)} \\
+&= \mathbf{v}_{n+1} \neq \mathbf{0} &\contradiction
 \end{align}
 $$
 We have arrived at a contradiction, since we assumed that the last column is an arbitrary **non-zero** vector, which leads to a violation of the second axiom of a linear transformation.
