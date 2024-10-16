@@ -1,3 +1,5 @@
 
 - [[relation]]
-- [[reflexive relation]], [[irreflexive relation]], 
+- [[relation#Properties]]
+- [[equivalence relation]]
+- [[equivalence class]]
