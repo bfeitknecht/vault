@@ -1,5 +1,6 @@
 
-- gauss elimination
+- [[gauss elimination]]
+- [[linear system of equations (LSE)]]
 
 # Lecture Plan
 
@@ -8,4 +9,4 @@
 
 # Notes
 
-probably matrix stuff, RREF, gauss elimination, etc.
+gauss elimination works $\iff$ linear transformation matrix is linearly independent
