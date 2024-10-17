@@ -1,6 +1,7 @@
 
 - [[gauss elimination]]
 - [[linear system of equations (LSE)]]
+- [[inner product]] vs. [[outer product]]
 
 # Lecture Plan
 
