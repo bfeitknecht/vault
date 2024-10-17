@@ -411,7 +411,9 @@
                     "file": "sem3/A&D/VRL/notes/A&D.md",
                     "mode": "source",
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "A&D"
                 }
               },
               {
@@ -423,7 +425,9 @@
                     "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w05.md",
                     "mode": "source",
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "A&D-v-w05"
                 }
               }
             ],
@@ -447,7 +451,9 @@
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
                 }
               },
               {
@@ -462,7 +468,9 @@
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
                 }
               },
               {
@@ -470,7 +478,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
                 }
               },
               {
@@ -480,15 +490,16 @@
                   "type": "outline",
                   "state": {
                     "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w05.md"
-                  }
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of A&D-v-w05"
                 }
               }
             ]
           }
         ],
         "direction": "horizontal",
-        "width": 289.5,
-        "collapsed": true
+        "width": 289.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -512,7 +523,9 @@
                     "searchQuery": "",
                     "backlinkCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for A&D-v-w05"
                 }
               },
               {
@@ -524,7 +537,9 @@
                     "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w05.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from A&D-v-w05"
                 }
               },
               {
@@ -532,7 +547,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "git-view",
-                  "state": {}
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
                 }
               },
               {
@@ -540,7 +557,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "toggl-report",
-                  "state": {}
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Toggl Report"
                 }
               },
               {
@@ -548,7 +567,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "vertical-tabs-view",
-                  "state": {}
+                  "state": {},
+                  "icon": "list",
+                  "title": "Vertical Tabs"
                 }
               }
             ],
@@ -576,8 +597,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "2e5ac05a53791427",
-      "mtime": "2024-10-15T20:28:41+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-10-17T08:43:05+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1083,7 +1104,9 @@
                     "file": "sem3/LinAlg/VRL/notes/LinAlg.md",
                     "mode": "source",
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "LinAlg"
                 }
               },
               {
@@ -1095,7 +1118,9 @@
                     "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w04.md",
                     "mode": "source",
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "LinAlg-v-w04"
                 }
               },
               {
@@ -1107,7 +1132,9 @@
                     "file": "wiki/outer product.md",
                     "mode": "source",
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "outer product"
                 }
               },
               {
@@ -1116,8 +1143,12 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w04.pdf"
-                  }
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w04.pdf",
+                    "page": 1,
+                    "zoom": 1
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LinAlg-plan-w04"
                 }
               }
             ],
@@ -1136,7 +1167,9 @@
                     "file": "wiki/vector.md",
                     "mode": "source",
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "vector"
                 }
               },
               {
@@ -1148,7 +1181,9 @@
                     "file": "wiki/dot product.md",
                     "mode": "source",
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "dot product"
                 }
               },
               {
@@ -1160,7 +1195,9 @@
                     "file": "wiki/matrix.md",
                     "mode": "source",
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "matrix"
                 }
               },
               {
@@ -1172,7 +1209,9 @@
                     "file": "wiki/scalar multiplication.md",
                     "mode": "source",
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "scalar multiplication"
                 }
               }
             ],
@@ -1196,7 +1235,9 @@
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
                 }
               },
               {
@@ -1211,7 +1252,9 @@
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
                 }
               },
               {
@@ -1219,7 +1262,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
                 }
               },
               {
@@ -1229,7 +1274,9 @@
                   "type": "outline",
                   "state": {
                     "file": "wiki/dot product.md"
-                  }
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of dot product"
                 }
               }
             ]
@@ -1261,7 +1308,9 @@
                     "searchQuery": "",
                     "backlinkCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for dot product"
                 }
               },
               {
@@ -1273,7 +1322,9 @@
                     "file": "wiki/dot product.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from dot product"
                 }
               },
               {
@@ -1281,7 +1332,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "git-view",
-                  "state": {}
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
                 }
               },
               {
@@ -1289,7 +1342,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "toggl-report",
-                  "state": {}
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Toggl Report"
                 }
               },
               {
@@ -1297,7 +1352,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "vertical-tabs-view",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               }
             ],
@@ -1326,7 +1383,7 @@
         }
       },
       "active": "22332498d763517c",
-      "mtime": "2024-10-17T08:26:51+02:00"
+      "mtime": "2024-10-17T08:42:55+02:00"
     },
     "sem3-ti": {
       "main": {
