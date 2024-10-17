@@ -1380,6 +1380,16 @@
                   "icon": "lucide-file",
                   "title": "Plugin no longer active"
                 }
+              },
+              {
+                "id": "1210738296ae3f82",
+                "type": "leaf",
+                "state": {
+                  "type": "toggl-report",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Toggl Report"
+                }
               }
             ],
             "currentTab": 1
@@ -1399,11 +1409,15 @@
           "cmdr:Export to PDF": false,
           "switcher:Open quick switcher": true,
           "command-palette:Open command palette": true,
-          "workspaces:Manage workspace layouts": false
+          "workspaces:Manage workspace layouts": false,
+          "omnisearch:Omnisearch": false,
+          "pdf-plus:PDF++: Toggle auto-copy": false,
+          "pdf-plus:PDF++: Toggle auto-focus": false,
+          "pdf-plus:PDF++: Toggle auto-paste": false
         }
       },
       "active": "5ff0e59835722244",
-      "mtime": "2024-10-17T08:58:43+02:00"
+      "mtime": "2024-10-17T09:03:49+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1663,5 +1677,5 @@
       "mtime": "2024-10-15T21:19:43+02:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-dmath"
 }
