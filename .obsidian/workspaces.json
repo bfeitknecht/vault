@@ -1307,7 +1307,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5
+        "width": 346.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1406,7 +1407,7 @@
         }
       },
       "active": "5ff0e59835722244",
-      "mtime": "2024-10-17T08:45:24+02:00"
+      "mtime": "2024-10-17T08:49:35+02:00"
     },
     "sem3-ti": {
       "main": {
