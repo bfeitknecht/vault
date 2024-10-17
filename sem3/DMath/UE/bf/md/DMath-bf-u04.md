@@ -24,9 +24,7 @@ True. Let $A= \{ a, ab, abc \}$, $B=\{ ab, abc \}$ and $C=\{ abc \}$.
 
 $$
 \begin{align}
-A \cap (B \setminus C) &= \{ x \mid x \in A \land x \in \{ B \setminus C \} \} \\
-&= \{ x \mid x \in A \land \neg(x \in B \land x \in C) \} \\
-&= \{ x \mid x \in A \land x \not\in B \lor x \not\in C \}
+(A \cap B) \setminus ((A \cap B) \cap C) &= 
 \end{align}
 $$
 $$
@@ -38,7 +36,9 @@ $$
 ## c)
 ![[DMath-e-u04.pdf#page=2&rect=107,661,523,680|DMath-e-u04, p.2]]
 
-True. Let $A, B$, be finite sets where $|A|=k$ and $|B|=l$. Let $C=\mathcal{P}(A) \times \mathcal{P}(B)$. It's noted that $|C|=2^{k} \cdot 2^{l} = 2^{k+l} = 2 ^{n}$, by definition of the power set. We will prove by mathematical induction that $|\mathcal{P}(C)|\geq 2$, for all $n \in \mathbb{N}$, where $n=k+l$.
+True. Let $A, B$, be finite sets where $|A|=k$ and $|B|=l$. Let $C=\mathcal{P}(A) \times \mathcal{P}(B)$ denote the cartesian product of their power sets. We note that its cardinality is $|C|=2^{k} \cdot 2^{l} = 2^{k+l}$, by definition of the power set (def. 3.7).
+
+Now, let $A, B= \varnothing$ be the empty set, which is the set with smallest cardinality, namely zero. We will prove by mathematical induction that $|\mathcal{P}(C)|\geq 2$, for all $n \in \mathbb{N}$, where $n=k+l$.
 
 
 DIRECT PROOF
