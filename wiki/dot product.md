@@ -1,11 +1,11 @@
 
-The **dot product** (or *scalar product* – not to be confused with [[scalar multiplication]]) of two [[vector|vectors]] $\mathbf{v}, \mathbf{w} \in \mathbb{R}^m$ is defined as
+The **dot product** (or *scalar product* – not to be confused with [[scalar multiplication]]) of two [[vector|vectors]] $m$-dimensional vectors $\mathbf{v}, \mathbf{w}$ is defined as
 $$
 \mathbf{v} \cdot \mathbf{w} = \sum_{i=1}^{m}{v_{i}w_{i}}
 $$
 and can be denoted with $\langle \mathbf{v}, \mathbf{w} \rangle$ or $\mathbf{v} \cdot \mathbf{w}$. It is [[commutative]], that is $\mathbf{v}\cdot \mathbf{w}=\mathbf{w}\cdot \mathbf{v}$.
 
-If $\mathbf{v}$ and $\mathbf{w}$ are [[row and column vectors|column vectors]], the dot product can also be denoted as the [[inner product]] $\mathbf{v} \cdot \mathbf{w} =\mathbf{v}^\top \mathbf{w}$, where $\mathbf{v}^\top$ denotes the [[transpose]] of $\mathbf{v}$.
+The dot product can also be denoted as the [[inner product]] $\mathbf{v} \cdot \mathbf{w} =\mathbf{v}^\top \mathbf{w}$, where $\mathbf{v}^\top$ denotes the [[transpose]] of $\mathbf{v}$.
 $$
 \begin{align}
 \mathbf{v} \cdot \mathbf{w} &=
@@ -31,7 +31,7 @@ In particular, if the vectors are [[orthogonal]] (i.e., their [[angle]] is $\fr
 
 If they are [[codirectional]] then the angle between them is zero with $\cos 0=1$ and $\mathbf{v}\cdot \mathbf{w}=\|\mathbf{v}\| \ \|\mathbf{w}\|$. 
 
-This implies that the dot product of a vector $\mathbf{v}$ with itself is $\mathbf{v}\cdot \mathbf{v}=\|\mathbf{v}\|^2$ which gives $\|\mathbf{v}\|=\sqrt{ \mathbf{v}\cdot \mathbf{v} }$ the formula for the [[euclidian norm]].
+This implies that the dot product of a vector $\mathbf{v}$ with itself is $\mathbf{v}\cdot \mathbf{v}=\|\mathbf{v}\|^2$ which gives the formula $\|\mathbf{v}\|=\sqrt{ \mathbf{v}\cdot \mathbf{v} }$ for the [[euclidian norm]].
 
 
 
