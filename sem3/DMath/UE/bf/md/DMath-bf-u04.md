@@ -43,6 +43,7 @@ True. Let $A, B$, be finite sets where $|A|=k$ and $|B|=l$. Let $C=\mathcal{P}(A
 
 DIRECT PROOF
 
+def. 3.7.
 
 
 **Base Case**
