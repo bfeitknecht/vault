@@ -731,7 +731,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf"
+                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
+                    "page": 60,
+                    "left": -12,
+                    "top": 607,
+                    "zoom": 1.2639204057893632
                   },
                   "icon": "lucide-file-text",
                   "title": "dmath-script-hs24"
@@ -906,6 +910,16 @@
                   "icon": "lucide-file",
                   "title": "Plugin no longer active"
                 }
+              },
+              {
+                "id": "315d47609478a67f",
+                "type": "leaf",
+                "state": {
+                  "type": "toggl-report",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Toggl Report"
+                }
               }
             ],
             "currentTab": 1
@@ -918,6 +932,7 @@
       "left-ribbon": {
         "hiddenItems": {
           "obsidian-shellcommands:Shell commands: Custom variables": true,
+          "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
@@ -925,11 +940,14 @@
           "workspaces:Manage workspace layouts": false,
           "switcher:Open quick switcher": true,
           "command-palette:Open command palette": true,
-          "obsidian-git:Open Git source control": true
+          "obsidian-git:Open Git source control": true,
+          "pdf-plus:PDF++: Toggle auto-copy": true,
+          "pdf-plus:PDF++: Toggle auto-focus": true,
+          "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
       "active": "d58b113a149fade0",
-      "mtime": "2024-10-17T10:12:17+02:00"
+      "mtime": "2024-10-17T10:14:43+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1724,5 +1742,5 @@
       "mtime": "2024-10-15T21:19:43+02:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "00-clean"
 }

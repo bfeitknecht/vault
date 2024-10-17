@@ -46,73 +46,12 @@ A, B = \varnothing &\overset{ \cdot }{ \iff } |C|=1 \\
 \end{align}
 $$
 
-For the general case, we write the following, which holds since $k, l \geq 0$ for all 
+For the general case, we write the following, which holds since $k, l \geq 0$ for any finite sets $A, B$.
 $$
 \begin{align}
 |\mathcal{P}(\mathcal{P}(A) \times \mathcal{P}(B))| &= |\mathcal{P}(C)| &\text{(def. $C$)} \\
 &= 2^{|C|} &\text{(def. $\mathcal{P}(\cdot)$)} \\
-&= 2^{2^{k+l}} \geq 2
+&= 2^{2^{k+l}} \geq 2 &\square
 \end{align}
 $$
 
-
-
-DIRECT PROOF
-
-def. 3.7.
-
-
-**Base Case**
-$n=0$
-
-Let $A=B=\varnothing$, thus $|A|=|B|=0$ and $n=k+l=0$.
-$$
-\begin{align}
-|\mathcal{P}(C)| &= |\mathcal{P}(\mathcal{P}(A) \times \mathcal{P}(B))| &\text{(def. $\mathcal{P}(\cdot)$)} \\
-&=|\mathcal{P}(\{ \varnothing \} \times \{ \varnothing \})| &\text{(def. $\times$)} \\
-&= |\mathcal{P}(\{ \varnothing \})| &\text{(def. $\mathcal{P}(\cdot)$)} \\
-&= |\{ \varnothing, \{ \varnothing \}\}| &\text{(def. $|\cdot|$)}\\
-&= 2
-\end{align}
-$$
-
-
-
-**Induction Hypothesis**
-$n=m$
-
-Let $|A|=k$ and $|B|=l$ be arbitrary finite sets. 
-$$
-\begin{align}
-|\mathcal{P}(C)| &= 2^{2^{m}}
-\geq 2
-\end{align}
-$$
-
-**Induction Step**
-$n=m+1$
-
-Let $C'=\mathcal{P}(A) \times \mathcal{P}(B')$ be the cartesian product between two sets, where w.l.o.g., $|A|=k$ and $|B'|=l+1$. Thus $|C'|=2^{m+1}$.
-
-$$
-\begin{align}
-|\mathcal{P}(C')|
-\end{align}
-$$
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-True. Let $A=B=\varnothing$ be the empty set, which is the set with the smallest cardinality. For the sake of contradiction, assume that $|\mathcal{P}(\mathcal{P}(A) \times \mathcal{P}(B))| < 2$.
-
-$$
-\begin{align}
-|\mathcal{P}(\mathcal{P}(A) \times \mathcal{P}(B))| &= |\mathcal{P}(\{ \varnothing \} \times \{ \varnothing \})| &\text{(def. $\mathcal{P}(\cdot)$, def. $\times$)} \\
-&= |\mathcal{P}(\{ \varnothing \})| &\text{(def. $\mathcal{P}(\cdot)$)} \\
-&= |\{ \varnothing, \{ \varnothing \}\}| &\text{(def. $|\cdot|$)}\\
-&= 2 &\text{\contradiction}
-\end{align}
-$$
-
-This is a contradiction, hence the claim follows.
-$\square$

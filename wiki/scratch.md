@@ -31,7 +31,7 @@ last page feedback qr code
 
 
 
-600mm x 420mm x 54mm (VILICHT)
+600mm x 420mm x 40mm
 
 
 
