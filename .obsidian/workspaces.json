@@ -453,9 +453,25 @@
                   "icon": "lucide-file",
                   "title": "A&D-v-w05"
                 }
+              },
+              {
+                "id": "120f31de5bcc7ebb",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/A&D/UE/e/A&D-e-u03.pdf",
+                    "page": 1,
+                    "left": -10,
+                    "top": 549,
+                    "zoom": 1.4350486161041267
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "A&D-e-u03"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -621,8 +637,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-10-17T08:43:05+02:00"
+      "active": "120f31de5bcc7ebb",
+      "mtime": "2024-10-17T09:15:30+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1714,5 +1730,5 @@
       "mtime": "2024-10-15T21:19:43+02:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-linalg"
 }
