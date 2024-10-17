@@ -23,5 +23,13 @@
   "obsidian-style-settings",
   "obsidian-cursor-location-plugin",
   "obsidian-git",
-  "open-in-new-tab"
+  "open-in-new-tab",
+  "pdf-plus",
+  "obsidian-desmos",
+  "obsidian-latex-suite",
+  "obsidian-latex",
+  "omnisearch",
+  "text-extractor",
+  "code-styler",
+  "obsidian-toggl-integration"
 ]
