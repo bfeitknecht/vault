@@ -46,7 +46,7 @@ A, B = \varnothing &\overset{ \cdot }{ \iff } |C|=1 \\
 \end{align}
 $$
 
-For the general case, we write the following, which holds since $k, l\geq 0$
+For the general case, we write the following, which holds since $k, l \geq 0$ for all 
 $$
 \begin{align}
 |\mathcal{P}(\mathcal{P}(A) \times \mathcal{P}(B))| &= |\mathcal{P}(C)| &\text{(def. $C$)} \\
