@@ -1362,20 +1362,20 @@
                 }
               },
               {
-                "id": "df8e8e11fe3e136a",
-                "type": "leaf",
-                "state": {
-                  "type": "toggl-report",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Toggl Report"
-                }
-              },
-              {
                 "id": "d39f74221ae34967",
                 "type": "leaf",
                 "state": {
                   "type": "vertical-tabs-view",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
+                }
+              },
+              {
+                "id": "0284a62b72d73176",
+                "type": "leaf",
+                "state": {
+                  "type": "toggl-report",
                   "state": {},
                   "icon": "lucide-file",
                   "title": "Plugin no longer active"
@@ -1392,22 +1392,18 @@
       "left-ribbon": {
         "hiddenItems": {
           "obsidian-git:Open Git source control": true,
-          "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "cmdr:Export to PDF": false,
           "switcher:Open quick switcher": true,
-          "pdf-plus:PDF++: Toggle auto-copy": true,
-          "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true,
           "command-palette:Open command palette": true,
           "workspaces:Manage workspace layouts": false
         }
       },
       "active": "5ff0e59835722244",
-      "mtime": "2024-10-17T08:49:35+02:00"
+      "mtime": "2024-10-17T08:58:43+02:00"
     },
     "sem3-ti": {
       "main": {
