@@ -36,14 +36,20 @@ $$
 ## c)
 ![[DMath-e-u04.pdf#page=2&rect=107,661,523,680|DMath-e-u04, p.2]]
 
-True. Let $A, B$, be finite sets where $|A|=k$ and $|B|=l$. Let $C=\mathcal{P}(A) \times \mathcal{P}(B)$ denote the cartesian product of their power sets. We note that its cardinality, by definition of the power set (def. 3.7) is $|C|=2^{k} \cdot 2^{l} = 2^{k+l}$.
+True. Let $A, B$, be finite sets where $|A|=k$ and $|B|=l$. Let's construct a set $C=\mathcal{P}(A) \times \mathcal{P}(B)$ to denote the cartesian product of their power sets. We note that its cardinality, by definition of the power set (def. 3.7) is $|C|=2^{k} \cdot 2^{l} = 2^{k+l}$.
 
-Now, let $A, B= \varnothing$ be the empty set, which has cardinality zero. This implies (both ways) that the constructed set $C$ has cardinality one $|C|=2^{0}=1$. This implies that 
+Now, let $A, B= \varnothing$ be the empty set, which has cardinality zero. This implies (both ways) that the constructed set $C$ has cardinality one $|C|=2^{0}=1$. Then the cardinality of its power set $|\mathcal{P}(C)|=2^{|C|}=2^{1}$ is exactly two. Since $A, B$ were chosen as the finite set with smallest cardinality, $|\mathcal{P}(C)| \geq 2$ for any $A, B$.
 
 $$
 \begin{align}
 A, B = \varnothing &\overset{ \cdot }{ \iff } |C|=1 \\
 &\overset{ \cdot }{ \iff } |\mathcal{P}(C)| = 2
+\end{align}
+$$
+
+$$
+\begin{align}
+
 \end{align}
 $$
 
