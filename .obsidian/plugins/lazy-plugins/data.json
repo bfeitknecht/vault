@@ -1,9 +1,9 @@
 {
-  "dualConfigs": false,
+  "dualConfigs": true,
   "showConsoleLog": false,
   "desktop": {
-    "shortDelaySeconds": 5,
-    "longDelaySeconds": 15,
+    "shortDelaySeconds": 2,
+    "longDelaySeconds": 10,
     "delayBetweenPlugins": 40,
     "defaultStartupType": null,
     "showDescriptions": true,
@@ -21,7 +21,7 @@
         "startupType": "instant"
       },
       "code-styler": {
-        "startupType": "instant"
+        "startupType": "short"
       },
       "cmdr": {
         "startupType": "instant"
@@ -36,13 +36,13 @@
         "startupType": "instant"
       },
       "obsidian-desmos": {
-        "startupType": "instant"
+        "startupType": "short"
       },
       "editing-toolbar": {
         "startupType": "instant"
       },
       "obsidian-latex": {
-        "startupType": "instant"
+        "startupType": "short"
       },
       "flashcards-obsidian": {
         "startupType": "disabled"
@@ -63,13 +63,13 @@
         "startupType": "disabled"
       },
       "obsidian-latex-suite": {
-        "startupType": "instant"
+        "startupType": "short"
       },
       "mehrmaid": {
         "startupType": "instant"
       },
       "omnisearch": {
-        "startupType": "instant"
+        "startupType": "short"
       },
       "open-in-new-tab": {
         "startupType": "instant"
@@ -81,7 +81,7 @@
         "startupType": "instant"
       },
       "pdf-plus": {
-        "startupType": "instant"
+        "startupType": "short"
       },
       "persistent-graph": {
         "startupType": "instant"
@@ -114,10 +114,10 @@
         "startupType": "instant"
       },
       "text-extractor": {
-        "startupType": "instant"
+        "startupType": "short"
       },
       "obsidian-toggl-integration": {
-        "startupType": "instant"
+        "startupType": "short"
       },
       "vertical-tabs-view": {
         "startupType": "instant"
