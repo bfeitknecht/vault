@@ -19,19 +19,19 @@ $$
 ## b)
 ![[DMath-e-u04.pdf#page=2&rect=107,685,521,700|DMath-e-u04, p.2]]
 
-True. Let $A= \{ a, ab, abc \}$, $B=\{ ab, abc \}$ and $C=\{ abc \}$.
-// TODO !!
-
+True. We prove this by a series of equivalence transformations. We note that an element not being in the intersection of sets is logical consequence of the element not being in any one of the sets, i.e. $x \not\in C \models x \not\in (A \cap B \cap C)$. We will refer to this fact by $1$.
 $$
 \begin{align}
-(A \cap B) \setminus ((A \cap B) \cap C) &= 
+A \cap (B \setminus C) &= \{ x \mid x \in A \land x \not\in(B \setminus C) \} &\text{(def. $\setminus$,)} \\
+&= \{ x \mid x \in A \land x \in B \land x \not\in C \} &\text{(1, rearrange)} \\
+&= \{ x \in A \land x \in B \mid x \not\in((A \cap B) \cap C) \} &\text{(def. $\cap$)} \\
+&= \{ x \in (A \cap B) \mid x \not\in ((A \cap B) \cap C) \} &\text{(def. $\setminus$)} \\
+&= (A \cap B) \setminus ((A \cap B)\cap C) &\square
 \end{align}
 $$
-$$
-\begin{align}
 
-\end{align}
-$$
+Thus, we have shown the equivalence of the two sets.
+
 
 ## c)
 ![[DMath-e-u04.pdf#page=2&rect=107,661,523,680|DMath-e-u04, p.2]]

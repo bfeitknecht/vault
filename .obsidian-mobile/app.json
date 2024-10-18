@@ -1,8 +1,9 @@
 {
   "showFrontmatter": true,
   "alwaysUpdateLinks": true,
-  "trashOption": "system",
-  "newFileLocation": "current",
+  "trashOption": "local",
+  "newFileLocation": "folder",
   "promptDelete": false,
-  "attachmentFolderPath": "var/attachments"
+  "attachmentFolderPath": "var/attachments",
+  "newFileFolderPath": "wiki"
 }

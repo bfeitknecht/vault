@@ -2,5 +2,6 @@
   "accentColor": "#858585",
   "cssTheme": "Minimal",
   "interfaceFontFamily": "Helvetica Neue",
-  "textFontFamily": "Helvetica Neue"
+  "textFontFamily": "Helvetica Neue",
+  "theme": "moonstone"
 }

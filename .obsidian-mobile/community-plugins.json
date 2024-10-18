@@ -3,5 +3,8 @@
   "pdf-plus",
   "restore-tab-key",
   "full-screen-cross-platform",
-  "persistent-graph"
+  "persistent-graph",
+  "obsidian-latex-suite",
+  "obsidian-editor-shortcuts",
+  "obsidian-export-image"
 ]
