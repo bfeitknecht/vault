@@ -22,13 +22,13 @@ The algorithm doesn‘t iterate, since $j \not> 1$. However, any one element arr
 **Induction Hypothesis**
 $j=k$
 
-We assume the invariant to hold, i.e. $I(k)$ is true for an arbitrary $k\in \mathbb{N}$. This means that after $k$ iterations of the algorithm, the first $k$ elements of the array are now sorted, $A[1] \leq A[2] \leq \dots \leq A[k]$, while the next $n-k$ elements are still unsorted.
+We assume the invariant to hold, i.e. $I(k)$ is true for an arbitrary $k\in \mathbb{N}_{+}$. This means that after $k$ iterations of the algorithm, the first $k$ elements of the array are now sorted, $A[1] \leq A[2] \leq \dots \leq A[k]$, while the next $n-k$ elements are still unsorted.
 
 
 **Inductive Step**
 $j=k+1$
 
-We need to prove that the invariant $I(k+1)$ holds. To do this, let‘s assume we are at the $k$-th iteration of the algorithm. According the $\mathrm{IH}$, this implies that the first $k$ elements of the array are sorted, i.e. $I(k)$ holds.
+We need to prove that the invariant $I(k+1)$ holds. To do this, let‘s assume we are at the $k$-th iteration of the algorithm. According to the $\mathrm{IH}$, this implies that the first $k$ elements of the array are sorted, i.e. $I(k)$ holds.
 
 For the next iteration of the algorithm, we use a case distinction.
 
@@ -39,8 +39,7 @@ First, it gets swapped with the element at index $k$. This restores the invarian
 
 
 **Case $A[k+1] \not< A[k] \implies A[k+1] \geq A[k]$** 
-This is the case that the element at index $k+1$ is greater than or equal the $k$-th element, which means the first $k+1$ elements are sorted and the invariant $I(k+1)$ holds.
-
+This is the case that the element at index $k+1$ is greater than or equal the $k$-th element, which means the first $k+1$ elements are sorted and the invariant $I(k+1)$ trivially holds.
 
 Thus, we have proven the correctness of insertion sort through induction.
 $\square$
@@ -54,12 +53,13 @@ $\square$
 ## (a)
 ![[A&D-e-u04.pdf#page=3&rect=87,418,532,517|A&D-e-u04, p.3]]
 
-We find the pivot $k$ in the given weird array $A$ using a modification of the binary search algorithm. As a nice side effect, we sort the array in constant time after having found the pivot.
+We find the pivot $k$ in a given weird array $A$ using a modification of the binary search algorithm. As a nice side effect, we sort the array in constant time after having found the pivot.
 
 The correctness of the algorithm is given by the fact that the weird array contains only unique elements and the subarrays induced by the pivot are sorted in ascending order. This implies that the pivot is exactly the index of the element that is greater than the element directly proceeding it. Since we half the search range in every iteration, the algorithm’s runtime is in $O(\log n)$.
 
 ```
-// algorithm to sort weird array based on modified binary search
+// algorithm to determine pivot element in weird array
+// based on modified binary search
 // runtime:		O(log n)
 // input:		integer array A of length n
 // output: 		integer pivot
@@ -99,7 +99,7 @@ To determine if a given weird array $A$ contains an element $l$, we first sort t
 The correctness of the algorithm is given by the fact that the array is now sorted and the correctness of binary search. Its runtime is that of the algorithm from subtask (a) plus that of binary search, $O(\log n) + O(\log n) = O(2\log n) \leq O(\log n)$.
 
 ```
-// algorithm to determine if weird array contains element
+// algorithm to determine if weird array contains given element
 // runtime:		O(log n)
 // input:		integer l, integer array A of length n
 // output:		boolean contains
@@ -109,7 +109,7 @@ function weird-contains(l, A) begin
 	weird-sort(A)
 	
 	// find element l if it exists using binary search
-	return binary-search(A, l) == l
+	return binary-search(l, A) == l
 end
 ```
 $\square$
@@ -125,12 +125,14 @@ $\square$
 ![[A&D-e-u04.pdf#page=3&rect=68,114,530,235|A&D-e-u04, p.3]]
 ![[A&D-e-u04.pdf#page=4&rect=65,706,523,774|A&D-e-u04, p.4]]
 
+// TODO // modify to change range
+
 The number of function calls to $f$ is given below.
 $$
 \begin{align}
 T(n) &= \sum_{i=1}^{n} \sum_{j=1}^{n^{i}} 1 &\text{(constant sum)} \\
 &= \sum_{i=1}^{n} n^{i} &\text{(finite geometric series, $n\geq 10$)} \\
-&=\frac{n^{n+1}-1}{n-1}
+&=\frac{n^{n+1}-1}{n-1} - 1
 \end{align}
 $$
 

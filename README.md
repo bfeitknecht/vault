@@ -177,3 +177,12 @@ old mathjax preamble:
 \newcommand{\E}{\mathbb E}
 \newcommand{\nimpl}{\kern.6em\not\kern -.6em \implies}
 ```
+
+
+git tricks:
+ ```bash
+git clone <URL> --depth=N	# shallow clone only HEAD~N
+git lfs pull --include “FILE“	# git-lfs pull only FILE
+```
+
+
