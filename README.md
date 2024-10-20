@@ -181,8 +181,7 @@ old mathjax preamble:
 
 git tricks:
  ```bash
-git clone <URL> --depth=N	# shallow clone only HEAD~N
-git lfs pull --include “FILE“	# git-lfs pull only FILE
+GIT_LFS_SKIP_SMUDGE=1 git clone <URL>   # skip lfs blobs
+git clone <URL> --depth=N	      # shallow clone only HEAD~N
+git lfs pull --include “GLOB“	  # git-lfs pull only GLOB
 ```
-
-

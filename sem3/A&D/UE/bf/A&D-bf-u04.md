@@ -1,4 +1,5 @@
 
+Antonia Tomova, 23-957-590,
 Basil Feitknecht, 23-922-099
 
 
@@ -12,33 +13,27 @@ $$
 I(j) = \text{"after $j$ iterations the first $j$ elements are sorted“}
 $$
 
-
-**Base Case**
-$j = 1$
+**Base Case** $j = 1$
 
 The algorithm doesn‘t iterate, since $j \not> 1$. However, any one element array is sorted. Thus, the invariant holds.
 
 
-**Induction Hypothesis**
-$j=k$
+**Induction Hypothesis** $j=k$
 
 We assume the invariant to hold, i.e. $I(k)$ is true for an arbitrary $k\in \mathbb{N}_{+}$. This means that after $k$ iterations of the algorithm, the first $k$ elements of the array are now sorted, $A[1] \leq A[2] \leq \dots \leq A[k]$, while the next $n-k$ elements are still unsorted.
 
 
-**Inductive Step**
-$j=k+1$
+**Inductive Step** $j=k+1$
 
-We need to prove that the invariant $I(k+1)$ holds. To do this, let‘s assume we are at the $k$-th iteration of the algorithm. According to the $\mathrm{IH}$, this implies that the first $k$ elements of the array are sorted, i.e. $I(k)$ holds.
+We need to prove that the invariant $I(k+1)$ holds. To do this, let‘s assume we are at the $k$-th iteration of the algorithm. According to the $\mathrm{IH}$, this implies that the first $k$ elements of the array are sorted, i.e. $I(k)$ holds. For the next iteration of the algorithm, we use a case distinction.
 
-For the next iteration of the algorithm, we use a case distinction.
-
-**Case $A[k+1] < A[k]$**
+*Case* $A[k+1] < A[k]$
 This is the case where the element at index $k+1$ is smaller than the $k$-th element, which means it needs to be *inserted* at the correct index $l \in [k]$ in the first $k$ elements such that $A[l-1] \leq A[l] \leq A[l+1]$.
 
 First, it gets swapped with the element at index $k$. This restores the invariant for the last two of the first $k$ elements. In the next $k-1$ iterations of the inner loop, it gets pushed back to its correct position through a series of swaps based on the condition, that $A[i+1]< A[i]$. That is, the invariant gets restored from the end of the first $k$ elements. At $i=1$, all the first $k+1$ elements are sorted again and the invariant $I(k+1)$ holds.
 
 
-**Case $A[k+1] \not< A[k] \implies A[k+1] \geq A[k]$** 
+*Case* $A[k+1] \not< A[k] \implies A[k+1] \geq A[k]$
 This is the case that the element at index $k+1$ is greater than or equal the $k$-th element, which means the first $k+1$ elements are sorted and the invariant $I(k+1)$ trivially holds.
 
 Thus, we have proven the correctness of insertion sort through induction.
@@ -125,23 +120,23 @@ $\square$
 ![[A&D-e-u04.pdf#page=3&rect=68,114,530,235|A&D-e-u04, p.3]]
 ![[A&D-e-u04.pdf#page=4&rect=65,706,523,774|A&D-e-u04, p.4]]
 
-// TODO // modify to change range
-
 The number of function calls to $f$ is given below.
 $$
 \begin{align}
 T(n) &= \sum_{i=1}^{n} \sum_{j=1}^{n^{i}} 1 &\text{(constant sum)} \\
-&= \sum_{i=1}^{n} n^{i} &\text{(finite geometric series, $n\geq 10$)} \\
-&=\frac{n^{n+1}-1}{n-1} - 1
+&= \sum_{i=1}^{n} n^{i} &\text{(adjust range)} \\
+&= \left( \sum_{i=0}^{n}n^{i} \right) -1 &\text{(finite geometric series, $n \neq 1$)} \\
+&= \frac{n^{n+1}-1}{n-1} - 1 = \frac{n^{n+1}-n}{n-1} \\
+%% &= \frac{n(n^{n}-1)}{n\left( 1-\frac{1}{n} \right)} = \frac{n^{n}-1}{1-\frac{1}{n}}
 \end{align}
 $$
 
 We will now show that $T(n) = \Theta(n^{n})$, by definition of $\Theta$. Let $g(n)=n^{n}$.
 $$
 \begin{align}
-\lim_{ n \to \infty } \frac{T(n)}{g(n)} &= \lim_{ n \to \infty } \frac{\frac{n^{n+1}-1}{n-1}}{n^{n}} \\
-&= \lim_{ n \to \infty } \frac{n^{n+1}-1}{n^{n}(n-1)} \\
-&= \lim_{ n \to \infty } \frac{\cancel{ n^{n+1} }\left( 1-\frac{1}{n^{n+1}} \right)}{\cancel{ n^{n+1} }\left( 1-\frac{1}{n} \right)} \\
+\lim_{ n \to \infty } \frac{T(n)}{g(n)} &= \lim_{ n \to \infty } \frac{\frac{n^{n+1}-n}{n-1}}{n^{n}} \\
+&= \lim_{ n \to \infty } \frac{n^{n+1}-n}{n^{n}(n-1)} \\
+&= \lim_{ n \to \infty } \frac{\cancel{ n^{n+1} }\left( 1-\frac{1}{n^{n}} \right)}{\cancel{ n^{n+1} }\left( 1-\frac{1}{n} \right)} \\
 &= \lim_{ n \to \infty } \frac{1 \cancel{ - \frac{1}{n^{n+1} }}}{1 \cancel{ - \frac{1}{n} }} \\
 &= 1 \in \mathbb{R} \implies T(n) = \Theta(n^{n}) &\square
 \end{align}
