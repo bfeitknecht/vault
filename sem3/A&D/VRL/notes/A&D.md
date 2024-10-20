@@ -4,7 +4,8 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 
 # Info
 
-- [ ] theory exercise 🔁 every week 📅 2024-10-20
+- [ ] theory exercise 🔁 every week 📅 2024-10-27
+- [x] theory exercise 🔁 every week 📅 2024-10-20 ✅ 2024-10-20
 - [x] theory exercise 🔁 every week 📅 2024-10-13 ✅ 2024-10-14
 - [x] theory exercise 🔁 every week 📅 2024-10-06 ✅ 2024-10-04
 - [x] theory exercise 🔁 every week 📅 2024-09-29 ✅ 2024-09-27
