@@ -41,5 +41,17 @@
       "key": "B"
     }
   ],
-  "editor:delete-paragraph": []
+  "editor:delete-paragraph": [],
+  "break-page:insert-break-page": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "markdown:add-metadata-property": [],
+  "obsidian-editor-shortcuts:insertLineBelow": [],
+  "obsidian-editor-shortcuts:insertLineAbove": [],
+  "editor:open-link-in-new-leaf": []
 }
