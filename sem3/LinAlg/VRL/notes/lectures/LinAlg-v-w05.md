@@ -9,3 +9,7 @@
 
 # Notes
 
+- minor (determinant of special submatrix)
+- cofactor matrix (matrix of signed minors)
+- adjugate matrix (transpose of cofactor matrix)
+- inverse matrix is reciprocal of determinant times adjugate matrix

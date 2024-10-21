@@ -229,61 +229,54 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 63,
-                    "left": -70,
-                    "top": 219,
-                    "zoom": 0.92
+                    "page": 78,
+                    "left": -18,
+                    "top": 328,
+                    "zoom": 1.13
                   },
                   "icon": "lucide-file-text",
                   "title": "dmath-script-hs24"
                 }
               },
               {
-                "id": "71a9a7acdec10657",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/symmetric relation.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "symmetric relation"
-                }
-              },
-              {
-                "id": "cec237fe80ae3b99",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/antisymmetric relation.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "antisymmetric relation"
-                }
-              },
-              {
                 "id": "06c41ab3b38cef5c",
                 "type": "leaf",
                 "state": {
-                  "type": "pdf",
+                  "type": "markdown",
                   "state": {
-                    "file": "sem3/DMath/UE/e/DMath-e-u05.pdf",
-                    "page": 1,
-                    "left": 71,
-                    "top": 45,
-                    "zoom": 1.05
+                    "file": "wiki/relation.md",
+                    "mode": "source",
+                    "source": false
                   },
-                  "icon": "lucide-file-text",
-                  "title": "DMath-e-u05"
+                  "icon": "lucide-file",
+                  "title": "relation"
+                }
+              },
+              {
+                "id": "87a31ed61ef05fd4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/hasse diagram.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "hasse diagram"
+                }
+              },
+              {
+                "id": "908fd3651102c40d",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -332,8 +325,7 @@
             }
           }
         ],
-        "currentTab": 0,
-        "pinned": true
+        "currentTab": 0
       },
       "right": {
         "id": "ccfbf1dce7c49978",
@@ -345,7 +337,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem3/DMath/UE/bf/md/DMath-bf-u04.md",
+                "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -398,8 +390,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "71a9a7acdec10657",
-      "mtime": "2024-10-21T13:58:34+02:00"
+      "active": "186db56dc38447f1",
+      "mtime": "2024-10-21T15:57:18+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -445,8 +437,25 @@
                   "icon": "lucide-file-text",
                   "title": "A&D-e-u04"
                 }
+              },
+              {
+                "id": "dfeee2996f66a272",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/A&D/UE/e/A&D-e-u05.pdf",
+                    "page": 4,
+                    "left": 0,
+                    "top": 685,
+                    "zoom": 0.8655648808283889
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "A&D-e-u05"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -495,8 +504,7 @@
             }
           }
         ],
-        "currentTab": 0,
-        "pinned": true
+        "currentTab": 0
       },
       "right": {
         "id": "ccfbf1dce7c49978",
@@ -561,8 +569,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": false
         }
       },
-      "active": "e8699cf07c750231",
-      "mtime": "2024-10-21T13:58:24+02:00"
+      "active": "dfeee2996f66a272",
+      "mtime": "2024-10-21T16:48:02+02:00"
     },
     "00-clean": {
       "main": {
@@ -651,7 +659,8 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": true,
+                "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w04.pdf"
               },
               "icon": "links-coming-in",
               "title": "Backlinks"
@@ -915,12 +924,81 @@
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w05.pdf",
                     "page": 1,
-                    "left": 0,
+                    "left": -33,
                     "top": 792,
-                    "zoom": 1.682598039215686
+                    "zoom": 0.76
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-plan-w05"
+                }
+              }
+            ],
+            "currentTab": 2
+          },
+          {
+            "id": "36814cfe3db8ae59",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5fb3cf6938f528c3",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/LinAlg/UE/e/LinAlg-e-u04.pdf",
+                    "page": 1,
+                    "left": -16,
+                    "top": 676,
+                    "zoom": 0.82
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LinAlg-e-u04"
+                }
+              },
+              {
+                "id": "1361308b81648f45",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/invertible matrix.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "invertible matrix"
+                }
+              },
+              {
+                "id": "5f364ebd9dd8fdcb",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w04.pdf",
+                    "page": 6,
+                    "left": 0,
+                    "top": 507,
+                    "zoom": 0.8419117647058824
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LinAlg-plan-w04"
+                }
+              },
+              {
+                "id": "b78021fe0bc33f65",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w03.pdf",
+                    "page": 1,
+                    "left": 0,
+                    "top": 792,
+                    "zoom": 0.8419117647058824
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LinAlg-plan-w03"
                 }
               }
             ],
@@ -985,6 +1063,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w04.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1037,9 +1116,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "16cda7fecaa2c390",
-      "mtime": "2024-10-21T13:58:56+02:00"
+      "active": "5f364ebd9dd8fdcb",
+      "mtime": "2024-10-21T16:45:35+02:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-linalg"
 }
