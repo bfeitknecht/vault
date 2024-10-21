@@ -12,6 +12,14 @@ git clone https://github.com/bs10x/vault.git
 
 ___
 
+## Tips and Tricks
+
+ ```shell
+GIT_LFS_SKIP_SMUDGE=1 git clone <URL>   # skip lfs blobs
+git clone <URL> --depth=N	      # shallow clone only HEAD~N
+git lfs pull --include “GLOB“	  # git-lfs pull only GLOB
+```
+
 
 ## Problems
 
@@ -95,6 +103,44 @@ ___
 > 
 
 
+> [!info]- utility plugin list
+> 
+> - automatic table of content  
+> - language tool integration
+> - zotero integration
+> - open in new tab
+> - flashcards
+>   
+
+> [!info]- usage plugin list
+> 
+> - global search and replace
+> - folder notes
+> - user plugin
+> - style settings
+
+>[!info]- toggl hide ugly big header
+> - delete div `<div class="css-1a5pxsz-TopResponsiveBarContainer e2h8eq20">` 
+> - disable `:root { --top-responsive-bar-height: 80px; }`
+
+
+old mathjax preamble:
+```latex
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+\newcommand{\O}{\mathcal O}
+\newcommand{\square}{\square}
+\newcommand{\etc}{\text{etc.}}
+\newcommand{\def}{\overset{\text{def.}}{=}}
+\newcommand{\empty}{\varnothing}
+\newcommand{\E}{\mathbb E}
+\newcommand{\nimpl}{\kern.6em\not\kern -.6em \implies}
+```
+
+
 
 # Miscellaneous
 
@@ -124,7 +170,6 @@ ___
 
 >[!cite]
 
-
 ```
 %%
 comment
@@ -133,55 +178,4 @@ comment
 <!--
 comment
 -->
-```
-
-
-
-> [!info]- utility plugin list
-> 
-> - automatic table of content  
-> - language tool integration
-> - zotero integration
-> - open in new tab
-> - flashcards
->   
-
-
-> [!info]- usage plugin list
-> 
-> - global search and replace
-> - folder notes
-> - user plugin
-> - style settings
-
-
->[!info]- toggl hide ugly big header
-> - delete div `<div class="css-1a5pxsz-TopResponsiveBarContainer e2h8eq20">` 
-> - disable `:root { --top-responsive-bar-height: 80px; }`
-
-
-
-
-old mathjax preamble:
-```latex
-\newcommand{\Z}{\mathbb Z}
-\newcommand{\N}{\mathbb N}
-\newcommand{\Q}{\mathbb Q}
-\newcommand{\R}{\mathbb R}
-\newcommand{\C}{\mathbb C}
-\newcommand{\O}{\mathcal O}
-\newcommand{\square}{\square}
-\newcommand{\etc}{\text{etc.}}
-\newcommand{\def}{\overset{\text{def.}}{=}}
-\newcommand{\empty}{\varnothing}
-\newcommand{\E}{\mathbb E}
-\newcommand{\nimpl}{\kern.6em\not\kern -.6em \implies}
-```
-
-
-git tricks:
- ```bash
-GIT_LFS_SKIP_SMUDGE=1 git clone <URL>   # skip lfs blobs
-git clone <URL> --depth=N	      # shallow clone only HEAD~N
-git lfs pull --include “GLOB“	  # git-lfs pull only GLOB
 ```

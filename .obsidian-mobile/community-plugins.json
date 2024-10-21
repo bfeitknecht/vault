@@ -6,6 +6,6 @@
   "persistent-graph",
   "obsidian-latex-suite",
   "obsidian-editor-shortcuts",
-  "obsidian-export-image",
-  "break-page"
+  "break-page",
+  "obsidian-tasks-plugin"
 ]

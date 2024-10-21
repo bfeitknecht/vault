@@ -4,7 +4,8 @@ Linear Algebra concers itself with [[vector|vectors]], [[matrix|matrices]] and w
 
 # Info
 
-- [ ] bonus quiz 🔁 every week 📅 2024-10-22
+- [ ] bonus quiz 🔁 every week 📅 2024-10-29
+- [x] bonus quiz 🔁 every week 📅 2024-10-22 ✅ 2024-10-21
 - [-] bonus quiz 🔁 every week 📅 2024-10-15 ❌ 2024-10-11
 - [x] bonus quiz 🔁 every week 📅 2024-10-08 ✅ 2024-10-03
 - [x] bonus quiz 🔁 every week 📅 2024-10-01 ✅ 2024-09-25

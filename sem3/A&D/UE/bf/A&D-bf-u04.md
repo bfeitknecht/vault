@@ -3,6 +3,7 @@ Antonia Tomova, 23-957-590,
 Basil Feitknecht, 23-922-099
 
 
+
 # 4.3
 Prove the correctness of *insertion sort* by mathematical induction.
 ![[A&D-e-u04.pdf#page=3&rect=67,677,530,779|A&D-e-u04, p.3]]
