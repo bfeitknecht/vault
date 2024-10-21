@@ -298,7 +298,8 @@
             }
           }
         ],
-        "currentTab": 0
+        "currentTab": 0,
+        "pinned": true
       },
       "right": {
         "id": "ccfbf1dce7c49978",
@@ -351,17 +352,17 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "switcher:Open quick switcher": false,
+          "switcher:Open quick switcher": true,
           "graph:Open graph view": false,
-          "command-palette:Open command palette": false,
+          "command-palette:Open command palette": true,
           "workspaces:Manage workspace layouts": false,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "16cda7fecaa2c390",
-      "mtime": "2024-10-18T08:18:14+02:00"
+      "active": "f0e3eca8272cc4e1",
+      "mtime": "2024-10-21T10:30:00+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -822,5 +823,5 @@
       "mtime": "2024-10-21T10:07:52+02:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "00-clean"
 }
