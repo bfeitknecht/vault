@@ -5,5 +5,17 @@
   "newFileLocation": "folder",
   "promptDelete": false,
   "attachmentFolderPath": "var/attachments",
-  "newFileFolderPath": "wiki"
+  "newFileFolderPath": "wiki",
+  "showRibbon": true,
+  "showInlineTitle": true,
+  "mobileToolbarCommands": [
+    "editor:insert-callout",
+    "editor:insert-codeblock",
+    "editor:fold-all",
+    "editor:unfold-all",
+    "editor:toggle-keyboard",
+    "command-palette:open",
+    "editor:configure-toolbar"
+  ],
+  "mobilePullAction": ""
 }

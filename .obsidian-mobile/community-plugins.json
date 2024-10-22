@@ -7,5 +7,8 @@
   "obsidian-latex-suite",
   "obsidian-editor-shortcuts",
   "break-page",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "obsidian-excalidraw-plugin",
+  "open-in-new-tab",
+  "remember-cursor-position"
 ]

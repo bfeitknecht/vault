@@ -96,5 +96,21 @@
       ],
       "key": "M"
     }
+  ],
+  "editor:toggle-keyboard": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Escape"
+    }
+  ],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-new-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "D"
+    }
   ]
 }

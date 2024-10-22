@@ -3,5 +3,6 @@
   "cssTheme": "Minimal",
   "interfaceFontFamily": "Helvetica Neue",
   "textFontFamily": "Helvetica Neue",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "showViewHeader": false
 }

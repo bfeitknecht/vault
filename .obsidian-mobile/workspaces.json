@@ -1,12 +1,12 @@
 {
   "workspaces": {
-    "sem3-ti": {
+    "00-clean": {
       "main": {
         "id": "aade628fc1d15b08",
         "type": "split",
         "children": [
           {
-            "id": "91ebf7d493894821",
+            "id": "8616886ab4ff0b8c",
             "type": "tabs",
             "children": [
               {
@@ -15,52 +15,44 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/TIN/UE/bf/TI-bf-u04.md",
+                    "file": "wiki/minor.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "TI-bf-u04"
-                },
-                "group": "7d4b559f8b93f3aa"
+                  "title": "minor"
+                }
               },
               {
-                "id": "1186852ac3eb3176",
+                "id": "8bbcb9b96a771ef6",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/scratch.md",
+                    "file": "wiki/cofactor.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "scratch"
+                  "title": "cofactor"
+                }
+              },
+              {
+                "id": "2b144f36ffa9ca11",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/adjugate matrix.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "adjugate matrix"
                 }
               }
             ],
-            "currentTab": 1
-          },
-          {
-            "id": "b9449cfb461d923a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0b133c161b3953f3",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/TIN/UE/bf/TI-bf-u04.md",
-                    "mode": "preview",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "TI-bf-u04"
-                },
-                "group": "7d4b559f8b93f3aa"
-              }
-            ]
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -122,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem3/TIN/UE/bf/TI-bf-u04.md",
+                "file": "wiki/adjugate matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,8 +155,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "canvas:Create new canvas": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "obsidian-excalidraw-plugin:Create new drawing": true,
           "switcher:Open quick switcher": true,
           "graph:Open graph view": false,
           "templates:Insert template": false,
@@ -175,8 +166,229 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "1186852ac3eb3176",
-      "mtime": "2024-10-21T13:58:29+02:00"
+      "active": "2b144f36ffa9ca11",
+      "mtime": "2024-10-22T17:46:14+02:00"
+    },
+    "sem3-a&d": {
+      "main": {
+        "id": "aade628fc1d15b08",
+        "type": "split",
+        "children": [
+          {
+            "id": "0727950bd69cb4bf",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "87d2958b65401bdf",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/A&D/VRL/notes/A&D.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "A&D"
+                }
+              },
+              {
+                "id": "2edf3685c5ff5fe1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w05.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "A&D-v-w05"
+                }
+              },
+              {
+                "id": "65173d7c5fbfa763",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w06.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "A&D-v-w06"
+                }
+              },
+              {
+                "id": "e8699cf07c750231",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/A&D/UE/bf/A&D-bf-u05.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "A&D-bf-u05"
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "7771889dbebe82a9",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7176c1e24a0da1b6",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/A&D/UE/e/A&D-e-u04.pdf",
+                    "page": 1,
+                    "left": 0,
+                    "top": 842,
+                    "zoom": 0.6803566748869433
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "A&D-e-u04"
+                }
+              },
+              {
+                "id": "dfeee2996f66a272",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/A&D/UE/e/A&D-e-u05.pdf",
+                    "page": 3,
+                    "left": 67,
+                    "top": 792,
+                    "zoom": 1.03
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "A&D-e-u05"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "009d7ba229c05310",
+        "type": "mobile-drawer",
+        "children": [
+          {
+            "id": "f0e3eca8272cc4e1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7c1492e98b96625a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cfadfe854d1aac46",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 0
+      },
+      "right": {
+        "id": "ccfbf1dce7c49978",
+        "type": "mobile-drawer",
+        "children": [
+          {
+            "id": "5ad458342f1358d2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "sem3/A&D/UE/bf/A&D-bf-u05.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "61b437e26628a7b5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "57eda279b365ef80",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 0
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": false,
+          "command-palette:Open command palette": true,
+          "templates:Insert template": false,
+          "workspaces:Manage workspace layouts": false,
+          "pdf-plus:PDF++: Toggle auto-copy": true,
+          "pdf-plus:PDF++: Toggle auto-focus": true,
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "obsidian-excalidraw-plugin:Create new drawing": true
+        }
+      },
+      "active": "e8699cf07c750231",
+      "mtime": "2024-10-22T17:48:48+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -378,8 +590,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "canvas:Create new canvas": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "obsidian-excalidraw-plugin:Create new drawing": true,
           "switcher:Open quick switcher": true,
           "graph:Open graph view": false,
           "command-palette:Open command palette": true,
@@ -390,199 +601,20 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "186db56dc38447f1",
-      "mtime": "2024-10-21T15:57:18+02:00"
+      "active": "16cda7fecaa2c390",
+      "mtime": "2024-10-22T17:48:43+02:00"
     },
-    "sem3-a&d": {
+    "sem3-eprog": {
       "main": {
         "id": "aade628fc1d15b08",
         "type": "split",
         "children": [
           {
-            "id": "0727950bd69cb4bf",
+            "id": "884632734627f505",
             "type": "tabs",
             "children": [
               {
-                "id": "e8699cf07c750231",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u04.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "A&D-bf-u04"
-                }
-              }
-            ]
-          },
-          {
-            "id": "7771889dbebe82a9",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "7176c1e24a0da1b6",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/A&D/UE/e/A&D-e-u04.pdf",
-                    "page": 1,
-                    "left": 0,
-                    "top": 842,
-                    "zoom": 0.6803566748869433
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "A&D-e-u04"
-                }
-              },
-              {
-                "id": "dfeee2996f66a272",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/A&D/UE/e/A&D-e-u05.pdf",
-                    "page": 4,
-                    "left": 0,
-                    "top": 685,
-                    "zoom": 0.8655648808283889
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "A&D-e-u05"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "009d7ba229c05310",
-        "type": "mobile-drawer",
-        "children": [
-          {
-            "id": "f0e3eca8272cc4e1",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
-          {
-            "id": "7c1492e98b96625a",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
-          {
-            "id": "cfadfe854d1aac46",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          }
-        ],
-        "currentTab": 0
-      },
-      "right": {
-        "id": "ccfbf1dce7c49978",
-        "type": "mobile-drawer",
-        "children": [
-          {
-            "id": "5ad458342f1358d2",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "sem3/A&D/UE/e/A&D-e-u04.pdf",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks"
-            }
-          },
-          {
-            "id": "61b437e26628a7b5",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links"
-            }
-          },
-          {
-            "id": "57eda279b365ef80",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {},
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          }
-        ],
-        "currentTab": 0
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Open quick switcher": true,
-          "graph:Open graph view": false,
-          "command-palette:Open command palette": true,
-          "templates:Insert template": false,
-          "workspaces:Manage workspace layouts": false,
-          "pdf-plus:PDF++: Toggle auto-copy": true,
-          "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true,
-          "canvas:Create new canvas": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false
-        }
-      },
-      "active": "dfeee2996f66a272",
-      "mtime": "2024-10-21T16:48:02+02:00"
-    },
-    "00-clean": {
-      "main": {
-        "id": "aade628fc1d15b08",
-        "type": "split",
-        "children": [
-          {
-            "id": "8616886ab4ff0b8c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "16cda7fecaa2c390",
+                "id": "b05f44c6c6e54017",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -640,178 +672,6 @@
             }
           }
         ],
-        "currentTab": 0,
-        "pinned": true
-      },
-      "right": {
-        "id": "ccfbf1dce7c49978",
-        "type": "mobile-drawer",
-        "children": [
-          {
-            "id": "5ad458342f1358d2",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true,
-                "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w04.pdf"
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks"
-            }
-          },
-          {
-            "id": "61b437e26628a7b5",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links"
-            }
-          },
-          {
-            "id": "57eda279b365ef80",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {},
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          }
-        ],
-        "currentTab": 0
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "canvas:Create new canvas": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
-          "switcher:Open quick switcher": true,
-          "graph:Open graph view": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": true,
-          "workspaces:Manage workspace layouts": false,
-          "pdf-plus:PDF++: Toggle auto-copy": true,
-          "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
-        }
-      },
-      "active": "16cda7fecaa2c390",
-      "mtime": "2024-10-21T13:58:40+02:00"
-    },
-    "00-home": {
-      "main": {
-        "id": "aade628fc1d15b08",
-        "type": "split",
-        "children": [
-          {
-            "id": "af976fa24e2c7acb",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "12d47d9f1543c1dc",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "HOME.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "HOME"
-                }
-              },
-              {
-                "id": "c4a62ed8c434c6ac",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "README.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "README"
-                }
-              }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "5543fd7123bb232f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3e16af323ac728f5",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {},
-                  "icon": "lucide-git-fork",
-                  "title": "Graph view"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "009d7ba229c05310",
-        "type": "mobile-drawer",
-        "children": [
-          {
-            "id": "f0e3eca8272cc4e1",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
-          {
-            "id": "7c1492e98b96625a",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
-          {
-            "id": "cfadfe854d1aac46",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          }
-        ],
         "currentTab": 0
       },
       "right": {
@@ -824,6 +684,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "wiki/adjugate matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -864,8 +725,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "canvas:Create new canvas": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "obsidian-excalidraw-plugin:Create new drawing": true,
           "switcher:Open quick switcher": true,
           "graph:Open graph view": false,
           "templates:Insert template": false,
@@ -876,8 +736,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "3e16af323ac728f5",
-      "mtime": "2024-10-21T13:58:46+02:00"
+      "active": "b05f44c6c6e54017",
+      "mtime": "2024-10-22T17:48:39+02:00"
     },
     "sem3-linalg": {
       "main": {
@@ -992,7 +852,7 @@
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w04.pdf",
                     "page": 6,
                     "left": -208,
-                    "top": 353,
+                    "top": 429,
                     "zoom": 0.5
                   },
                   "icon": "lucide-file-text",
@@ -1102,8 +962,197 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "canvas:Create new canvas": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "obsidian-excalidraw-plugin:Create new drawing": true,
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": true,
+          "pdf-plus:PDF++: Toggle auto-copy": true,
+          "pdf-plus:PDF++: Toggle auto-focus": true,
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "5f364ebd9dd8fdcb",
+      "mtime": "2024-10-22T17:48:51+02:00"
+    },
+    "sem3-ti": {
+      "main": {
+        "id": "aade628fc1d15b08",
+        "type": "split",
+        "children": [
+          {
+            "id": "ca60680a781c9864",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5fb92dd13c928ac1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/TIN/VRL/notes/TI.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "TI"
+                }
+              },
+              {
+                "id": "c660b18bcf90ba23",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w06.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "TI-v-w06"
+                }
+              },
+              {
+                "id": "1608afb0040c9017",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/turing machine.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "turing machine"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "9ebda4c0298df8f0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "179c01061b9496c4",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
+                    "page": 126,
+                    "left": -64,
+                    "top": 592,
+                    "zoom": 0.8504472722691193
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "hromkovic-TIN"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "009d7ba229c05310",
+        "type": "mobile-drawer",
+        "children": [
+          {
+            "id": "f0e3eca8272cc4e1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7c1492e98b96625a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cfadfe854d1aac46",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 0
+      },
+      "right": {
+        "id": "ccfbf1dce7c49978",
+        "type": "mobile-drawer",
+        "children": [
+          {
+            "id": "5ad458342f1358d2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "sem3/TIN/VRL/notes/lectures/TI-v-w06.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "61b437e26628a7b5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "57eda279b365ef80",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 0
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-excalidraw-plugin:Create new drawing": true,
           "switcher:Open quick switcher": true,
           "graph:Open graph view": false,
           "templates:Insert template": false,
@@ -1114,9 +1163,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "5f364ebd9dd8fdcb",
-      "mtime": "2024-10-21T19:34:21+02:00"
+      "active": "c660b18bcf90ba23",
+      "mtime": "2024-10-22T17:49:58+02:00"
     }
   },
-  "active": "00-clean"
+  "active": "sem3-linalg"
 }
