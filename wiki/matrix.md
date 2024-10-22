@@ -62,7 +62,7 @@ A matrix $A\in\mathbb R^{m\times n}$ can be denotes as $A=[a_{ij}]_{i, j}^{n, m}
 ![[skew-symetric matrix]]
 
 ## Sub-Matrix
-![[sub-matrix]]
+![[submatrix]]
 
 
 
