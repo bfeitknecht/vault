@@ -61,7 +61,7 @@
         },
         {
           "action": 0,
-          "commandId": "snippet-commands-obsidian:snippet-command-view-header"
+          "commandId": "snippet-commands-obsidian:snippet-command-hide-view-header"
         }
       ],
       "name": "Switch Edit Bar / View Header",
