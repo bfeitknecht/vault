@@ -55,7 +55,10 @@ id
 
 $$
 \begin{align}
-T(n) &= \sum_{i=0}^{n-1} i \\
-&=
+T(n) &= T(n-1) + (n-1) \\
+&= \big(T(n-2) + (n-2)\big) + (n-1) \\
+&=\bigg(\big(T(n-3)+(n-3)+(n-2)+(n-1))) \\
+&= \sum_{i=0}^{n-1} i \\
+&= \frac{(n-1)n}{2}
 \end{align}
 $$
