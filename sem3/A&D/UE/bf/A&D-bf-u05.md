@@ -49,16 +49,27 @@ id
 ## (a)
 ![[A&D-e-u05.pdf#page=3&rect=85,666,538,776|A&D-e-u05, p.3]]
 
+n-1
+assumption that partition makes $r-l$ comparisons, not $l-r$.
 
 ## (b)
 ![[A&D-e-u05.pdf#page=3&rect=84,580,537,663|A&D-e-u05, p.3]]
 
+We note, that for $n\geq2$, blabla
+
 $$
 \begin{align}
-T(n) &= T(n-1) + (n-1) \\
-&= \big(T(n-2) + (n-2)\big) + (n-1) \\
-&=\bigg(\big(T(n-3)+(n-3)+(n-2)+(n-1))) \\
-&= \sum_{i=0}^{n-1} i \\
-&= \frac{(n-1)n}{2}
+T(n) &= \sum_{i=0}^{n-1} i \\
+&= \frac{(n-1)\cdot n}{2} = \frac{n^{2}-n}{2}
 \end{align}
 $$
+
+and thus $T(n) = \Theta(n^{2})$
+
+
+# 5.4
+
+![[A&D-e-u05.pdf#page=3&rect=66,412,530,539|A&D-e-u05, p.3]]
+
+## (a)
+induction on invariant, base case $n=2$ nodes and level $l=2$,
