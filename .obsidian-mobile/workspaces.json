@@ -233,6 +233,18 @@
                   "icon": "lucide-file",
                   "title": "A&D-bf-u05"
                 }
+              },
+              {
+                "id": "b7b2c546e961e8d3",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "var/attachments/sigma-sums-1.jpeg"
+                  },
+                  "icon": "lucide-image",
+                  "title": "sigma-sums-1"
+                }
               }
             ],
             "currentTab": 3
@@ -264,13 +276,29 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/A&D/UE/e/A&D-e-u05.pdf",
-                    "page": 1,
-                    "left": 55,
-                    "top": 495,
-                    "zoom": 1.03
+                    "page": 2,
+                    "left": 56,
+                    "top": 488,
+                    "zoom": 1.05
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-e-u05"
+                }
+              },
+              {
+                "id": "2c356d948a3700de",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/A&D/VRL/script/A&D-script-w05-ADT.pdf",
+                    "page": 11,
+                    "left": 0,
+                    "top": 242,
+                    "zoom": 0.865564880828389
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "A&D-script-w05-ADT"
                 }
               }
             ],
@@ -388,7 +416,7 @@
         }
       },
       "active": "e8699cf07c750231",
-      "mtime": "2024-10-23T13:04:42+02:00"
+      "mtime": "2024-10-23T14:18:20+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1161,5 +1189,5 @@
       "mtime": "2024-10-22T17:49:58+02:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-dmath"
 }
