@@ -5,7 +5,7 @@ The **identity relation** $\mathrel{\mathsf{id}}$ is the easiest case of an [[eq
 It's [[graph]] representation is given below.
 
 ```mermaid
-flowchart TD
+graph TD
 
 s1((s1))
 s2((s2))

@@ -4,5 +4,9 @@
   "interfaceFontFamily": "Helvetica Neue",
   "textFontFamily": "Helvetica Neue",
   "theme": "obsidian",
-  "showViewHeader": false
+  "showViewHeader": false,
+  "enabledCssSnippets": [
+    "hide-embed-filename",
+    "style-embed"
+  ]
 }
