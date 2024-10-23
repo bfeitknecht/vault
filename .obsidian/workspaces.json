@@ -452,19 +452,64 @@
                 }
               },
               {
-                "id": "c920cc81e68f147a",
+                "id": "7b155fdd6501c232",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w06.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "A&D-v-w06"
+                }
+              },
+              {
+                "id": "33053773432b9e7c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/A&D/UE/bf/A&D-bf-u05.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "A&D-bf-u05"
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "b892157de5799d94",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1fb66da19203fb12",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w05.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "A&D-v-w05"
+                }
+              },
+              {
+                "id": "12e58d0759c72e68",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/A&D/UE/e/A&D-e-u04.pdf",
-                    "page": 1,
-                    "left": -10,
-                    "top": 846,
-                    "zoom": 1.4350486161041267
+                    "file": "sem3/A&D/UE/e/A&D-e-u05.pdf"
                   },
                   "icon": "lucide-file-text",
-                  "title": "A&D-e-u04"
+                  "title": "A&D-e-u05"
                 }
               }
             ],
@@ -606,8 +651,8 @@
                 "state": {
                   "type": "vertical-tabs-view",
                   "state": {},
-                  "icon": "list",
-                  "title": "Vertical Tabs"
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               }
             ],
@@ -636,8 +681,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "2e5ac05a53791427",
-      "mtime": "2024-10-23T18:01:44+02:00"
+      "active": "33053773432b9e7c",
+      "mtime": "2024-10-23T18:44:13+02:00"
     },
     "sem3-dmath": {
       "main": {

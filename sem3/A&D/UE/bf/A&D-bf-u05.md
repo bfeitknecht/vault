@@ -46,10 +46,13 @@ id
 <div class="page-break" style="page-break-before: always;"></div>
 
 # 5.3
+![[A&D-e-u05.pdf#page=2&rect=65,378,530,472|A&D-e-u05, p.2]]
+___
+![[A&D-e-u05.pdf#page=2&rect=67,114,528,160|A&D-e-u05, p.2]]
+
 ## (a)
 ![[A&D-e-u05.pdf#page=3&rect=85,666,538,776|A&D-e-u05, p.3]]
 
-![[A&D-e-u05.pdf#page=2&rect=65,378,530,472|A&D-e-u05, p.2]]
 
 T(1)=0 because if condition not held
 n-1 in first level plus T(n-1) because we skip one element
@@ -59,7 +62,7 @@ assumption that partition makes $r-l$ comparisons, not $l-r$!!
 ## (b)
 ![[A&D-e-u05.pdf#page=3&rect=84,580,537,663|A&D-e-u05, p.3]]
 
-We note, that for $n\geq2$, blabla
+We note, that for $n\geq2$, blabla recursive formula to closed form 
 
 $$
 \begin{align}
