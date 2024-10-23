@@ -6,102 +6,21 @@
         "type": "split",
         "children": [
           {
-            "id": "d9e8ae9c11d57e73",
+            "id": "0e5c9127739af627",
             "type": "tabs",
-            "dimension": 49.13151364764268,
             "children": [
               {
-                "id": "a19f0859eb717208",
+                "id": "cd6ee1a4e8752e63",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/DMath.md",
+                    "file": "HOME.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "DMath"
-                }
-              },
-              {
-                "id": "92c9f64dfbfcc09f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/DMath/VRL/notes/lectures/DMath-v-w05.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMath-v-w05"
-                }
-              },
-              {
-                "id": "d58b113a149fade0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u04.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMath-bf-u04"
-                }
-              }
-            ],
-            "currentTab": 2
-          },
-          {
-            "id": "f002029a56c7a80a",
-            "type": "tabs",
-            "dimension": 50.86848635235732,
-            "children": [
-              {
-                "id": "6cded826760a3d75",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 60,
-                    "left": -12,
-                    "top": 631,
-                    "zoom": 1.2639204057893632
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "dmath-script-hs24"
-                }
-              },
-              {
-                "id": "70991d5c8bca3912",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/relation.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "relation"
-                }
-              },
-              {
-                "id": "47639851dca31a52",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/partial order relation.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "partial order relation"
+                  "title": "HOME"
                 }
               }
             ]
@@ -208,12 +127,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u04.md",
+                    "file": "HOME.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-going-out",
-                  "title": "Outgoing links from DMath-bf-u04"
+                  "title": "Outgoing links from HOME"
                 }
               },
               {
@@ -227,26 +146,6 @@
                 }
               },
               {
-                "id": "df8e8e11fe3e136a",
-                "type": "leaf",
-                "state": {
-                  "type": "toggl-report",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
-                }
-              },
-              {
-                "id": "d39f74221ae34967",
-                "type": "leaf",
-                "state": {
-                  "type": "vertical-tabs-view",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
-                }
-              },
-              {
                 "id": "315d47609478a67f",
                 "type": "leaf",
                 "state": {
@@ -255,9 +154,19 @@
                   "icon": "clock",
                   "title": "Toggl Report"
                 }
+              },
+              {
+                "id": "8421fb8be31bcbf5",
+                "type": "leaf",
+                "state": {
+                  "type": "vertical-tabs-view",
+                  "state": {},
+                  "icon": "list",
+                  "title": "Vertical Tabs"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
@@ -278,11 +187,12 @@
           "obsidian-git:Open Git source control": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "d58b113a149fade0",
-      "mtime": "2024-10-23T17:55:59+02:00"
+      "active": "cd6ee1a4e8752e63",
+      "mtime": "2024-10-23T18:01:36+02:00"
     },
     "00-home": {
       "main": {
@@ -485,6 +395,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-excalidraw-plugin:Create new drawing": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
           "templates:Insert template": false,
@@ -501,7 +412,7 @@
         }
       },
       "active": "c1d4bca0b23a015c",
-      "mtime": "2024-10-23T17:56:01+02:00"
+      "mtime": "2024-10-23T18:01:24+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -709,6 +620,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-excalidraw-plugin:Create new drawing": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
           "obsidian-git:Open Git source control": true,
@@ -725,7 +637,7 @@
         }
       },
       "active": "2e5ac05a53791427",
-      "mtime": "2024-10-23T17:56:03+02:00"
+      "mtime": "2024-10-23T18:01:44+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -764,23 +676,9 @@
                   "icon": "lucide-file",
                   "title": "DMath-v-w05"
                 }
-              },
-              {
-                "id": "d58b113a149fade0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u04.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMath-bf-u04"
-                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "f002029a56c7a80a",
@@ -796,7 +694,7 @@
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 60,
                     "left": -12,
-                    "top": 611,
+                    "top": 615,
                     "zoom": 1.2639204057893632
                   },
                   "icon": "lucide-file-text",
@@ -993,6 +891,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-excalidraw-plugin:Create new drawing": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
@@ -1008,8 +907,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "d58b113a149fade0",
-      "mtime": "2024-10-23T17:56:05+02:00"
+      "active": "92c9f64dfbfcc09f",
+      "mtime": "2024-10-23T18:01:57+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1064,7 +963,7 @@
                     "file": "sem3/EProg/VRL/extra/slides/EProg-slides-w04.pdf",
                     "page": 49,
                     "left": -22,
-                    "top": 66,
+                    "top": 70,
                     "zoom": 0.7229166666666667
                   },
                   "icon": "lucide-file-text",
@@ -1223,6 +1122,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-excalidraw-plugin:Create new drawing": true,
           "obsidian-git:Open Git source control": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
@@ -1239,7 +1139,7 @@
         }
       },
       "active": "25e5d66ffc741f13",
-      "mtime": "2024-10-23T17:56:07+02:00"
+      "mtime": "2024-10-23T18:02:01+02:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1552,6 +1452,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-excalidraw-plugin:Create new drawing": true,
           "obsidian-git:Open Git source control": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
@@ -1568,7 +1469,7 @@
         }
       },
       "active": "5ff0e59835722244",
-      "mtime": "2024-10-23T17:56:09+02:00"
+      "mtime": "2024-10-23T18:02:03+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1860,5 +1761,5 @@
       "mtime": "2024-10-23T17:56:14+02:00"
     }
   },
-  "active": "00-clean"
+  "active": "sem3-ti"
 }
