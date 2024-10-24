@@ -20,25 +20,36 @@ $\square$
 True. By the symmetry of the relation $\rho$ on $A$ (definition 3.15) we have $a \mathrel{\rho} b \iff b \mathrel{\rho} a$ for all $a, b \in A$. Then by antisymmetry (definition 3.16), we have $a \mathrel{\rho} b \land b \mathrel{\rho} a \implies a=b$. We note that the left hand side of the implication is exactly given by symmetry of the relation, i.e. $\rho = \{ (a, a) \mid \forall a \in A \} = \mathsf{id}_{A}$.
 $\square$
 
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## c)
 ![[DMath-e-u05.pdf#page=2&rect=106,613,519,679|DMath-e-u05, p.2]]
 
-True. Let $a, b, c \in \mathbb{Z}$. Then we can denote the given relations using set builder notation as $\rho_{1} = \{ (a,b) \mid a+1=b \}$ and $\rho_{2} = \{ (a, b) \mid a \equiv_{2} b\}$. Thus the relation defined as their union is given by $\rho = \rho_{1} \cup \rho_{2} = \{ (a, b) \mid (a, b) \in \rho_{1} \lor (a,b) \in \rho_{2} \}$.
+True. We can denote the given relations using set builder notation. The first one is $\rho_{1} = \{ (a,b) \mid a,b \in \mathbb{Z} : b=a+1 \}$ and the second one $\rho_{2} = \{ (c, d) \mid c,d \in \mathbb{Z} : c \equiv_{2} d\}$.
+Then their union is $\rho = \rho_{1} \cup \rho_{2} = \{ (x, y) \mid x,y \in \mathbb{Z} : x \mathrel{\rho_{1}} y \lor x \mathrel{\rho_{2}} y \}$.
+Furthermore, we have $\rho^{2} = \{ (x,z) \mid x,z \in \mathbb{Z}, \exists y \in \mathbb{Z} : x \mathrel\rho y \land y \mathrel \rho z \}$ 
 
-We will now show that $\rho^{2}=\mathbb{Z} \times \mathbb{Z}$ by a series of equivalence transformations.
+
+First, we will show that $\rho^{2} \subseteq \mathbb{Z} \times \mathbb{Z}$. 
 $$
 \begin{align}
-\rho^{2} &= \{ (a, c) \mid (a, c) \in \mathbb{Z}^{2}, \exists b \in \mathbb{Z} : (a, b), (b, c) \in \rho \} &\text{(def. $\rho$)} \\
-&= \{  (a, c) \mid (a, c) \in \mathbb{Z}^{2},  \exists b \in \mathbb{Z} : (a,b), (b,c) \in \rho_{1} \lor (a, b), (b, c) \in \rho_{2}\} &\text{(def. $\rho_{1}, \rho_{2}$)} \\
-&= \{ (a, c) \mid (a, c) \in \mathbb{Z}^{2},  \exists b \in \mathbb{Z}: (a+1=b \land b+1=c) \lor(a\equiv_{2}b \land b\equiv_{2}c) \} &\text{(def. $\mathbb{Z}$)} \\
-&= \{ (a, c) \mid  \top \} = \mathbb{Z} \times \mathbb{Z} &\square
+\rho^{2} \subseteq \mathbb{Z} \times \mathbb{Z} &\overset{ \cdot }{ \iff } \forall (x,z) \big( (x,z) \in \rho^{2} \to (x,z) \in \mathbb{Z} \times \mathbb{Z} \big) &\text{(def. $\subseteq$)} \\
+&\overset{ \cdot }{ \iff } \forall (x,z) \big( (x,z) \not\in \rho^{2} \lor (x,z) \in \mathbb{Z} \times \mathbb{Z} \big) &\text{(def. $\times$)} \\
+&\overset{ \cdot }{ \iff } \top &\square
 \end{align}
 $$
 
+Now we will show that $\mathbb{Z} \times \mathbb{Z} \subseteq \rho^{2}$. For this we will use fact $(1)$ that $F \implies F \lor G$.
+$$
+\begin{align}
+\mathbb{Z} \times \mathbb{Z} \subseteq \rho^{2} &\overset{ \cdot }{ \iff } \forall (x,z) \big( (x,z) \in \mathbb{Z} \times \mathbb{Z} \to (x,z) \in \rho^{2} \big) &\text{(def. $\subseteq$)} \\
+&\overset{ \cdot }{ \iff } \forall (x,z)\Big( \big((x,z) \not\in \mathbb{Z} \times \mathbb{Z} \big) \lor (x,z) \in \rho^{2} \Big) &\text{(1)} \\
+&\overset{ \cdot }{ \iff } \forall (x,z)\big( (x,z) \in \rho^{2} \big) &\text{(def. $\rho^{2}$)} \\
+&\overset{ \cdot }{ \iff } \forall (x,z)\big( (x,z) \in \{ (x,z) \mid x,z \in \mathbb{Z}, \exists y \in \mathbb{Z} : x \mathrel\rho y \land y \mathrel \rho z \} \big) &\text{(def. $\rho$)} \\
+&\overset{ \cdot }{ \iff } \forall (x,z)\big( (x,z) \in \{ (x,z) \mid x,z \in \mathbb{Z}, \top\} \big) &\text{(tautology)} \\
+&\overset{ \cdot }{ \iff } \forall (x,z)\big( (x,z) \in \{ (x,z) \mid x,z \in \mathbb{Z} \} \big) &\square
+\end{align}
+$$
 
-First, we will show that $\rho^{2} \subseteq \mathbb{Z} \times \mathbb{Z}$.
-
-
-Now we will show that $\mathbb{Z} \times \mathbb{Z} \subseteq \rho^{2}$
-
-
+Thus we have shown that $\rho^{2}= \mathbb{Z} \times \mathbb{Z}$.
+$\square$
