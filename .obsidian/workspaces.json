@@ -506,7 +506,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/A&D/UE/e/A&D-e-u05.pdf"
+                    "file": "sem3/A&D/UE/e/A&D-e-u05.pdf",
+                    "page": 2,
+                    "left": -18,
+                    "top": 548,
+                    "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-e-u05"
@@ -682,7 +686,7 @@
         }
       },
       "active": "33053773432b9e7c",
-      "mtime": "2024-10-23T18:44:13+02:00"
+      "mtime": "2024-10-24T08:17:39+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1805,5 +1809,5 @@
       "mtime": "2024-10-23T18:10:38+02:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-linalg"
 }
