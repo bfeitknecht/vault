@@ -1269,7 +1269,8 @@
                   "title": "matrix decompositions"
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           },
           {
             "id": "740ad403278fbd52",
@@ -1332,7 +1333,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1530,8 +1531,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "5e147ae0102336c7",
-      "mtime": "2024-10-24T08:43:28+02:00"
+      "active": "f125f4fe910367d4",
+      "mtime": "2024-10-24T09:19:04+02:00"
     },
     "sem3-ti": {
       "main": {
@@ -1837,5 +1838,5 @@
       "mtime": "2024-10-24T08:50:16+02:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-a&d"
 }

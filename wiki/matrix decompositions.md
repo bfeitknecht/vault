@@ -1,4 +1,6 @@
 
+![[matrix-decompositions.jpeg]]
+
 $$
 \begin{align}
 A &= CR \\
