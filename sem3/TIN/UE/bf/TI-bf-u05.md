@@ -8,7 +8,8 @@ Dennis Küenzi, 21-559-315
 ## (a)
 ![[TI-e-u05.pdf#page=1&rect=95,510,533,570|TI-e-u05, p.1]]
 
-Assume $L_1$ be regular.
+For the sake of contradiction, let's assume $L_{1}$ to be regular.
+
 We consider the language
 $$
 \begin{align}
