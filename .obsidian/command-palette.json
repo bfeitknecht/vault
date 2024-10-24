@@ -6,6 +6,7 @@
     "persistent-graph:save-node-positions",
     "editor:fold-all",
     "persistent-graph:run-graph-simulation",
-    "persistent-graph:stop-graph-simulation"
+    "persistent-graph:stop-graph-simulation",
+    "obsidian-shellcommands:shell-command-blauwcovle"
   ]
 }
