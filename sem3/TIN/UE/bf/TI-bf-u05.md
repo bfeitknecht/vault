@@ -13,7 +13,7 @@ For the sake of contradiction, let's assume $L_{1}$ to be regular.
 We consider the language
 $$
 \begin{align}
-L_{w^2} = \{y|wwy\in L_{1}\} 
+L_{w^2} = \{y \mid wwy\in L_{1}\} 
 \end{align}
 $$
 Since
@@ -34,6 +34,7 @@ The number of all programs whose length is less than or equal to $1+c$ is finite
 But there are an infinite amount of words of the type $0^{2n+2}$, so this is a contradiction.
 
 Therefore, $L_1$ is not regular.
+
 $\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\blacksquare$
 ## (b)
 ![[TI-e-u05.pdf#page=1&rect=96,463,534,507|TI-e-u05, p.1]]
