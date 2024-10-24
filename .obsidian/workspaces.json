@@ -477,7 +477,8 @@
                   },
                   "icon": "lucide-file",
                   "title": "A&D-bf-u05"
-                }
+                },
+                "group": "0162ffddee71e6b1"
               }
             ],
             "currentTab": 3
@@ -487,37 +488,37 @@
             "type": "tabs",
             "children": [
               {
-                "id": "1fb66da19203fb12",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w05.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "A&D-v-w05"
-                }
-              },
-              {
                 "id": "12e58d0759c72e68",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem3/A&D/UE/e/A&D-e-u05.pdf",
-                    "page": 2,
-                    "left": -38,
-                    "top": 556,
-                    "zoom": 0.3981346467856927
+                    "page": 3,
+                    "left": -18,
+                    "top": 784,
+                    "zoom": 0.874384319206553
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-e-u05"
                 }
+              },
+              {
+                "id": "d6bed0047af24fa1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/A&D/UE/bf/A&D-bf-u05.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "A&D-bf-u05"
+                },
+                "group": "0162ffddee71e6b1"
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -686,7 +687,7 @@
         }
       },
       "active": "33053773432b9e7c",
-      "mtime": "2024-10-24T09:35:36+02:00"
+      "mtime": "2024-10-24T11:03:14+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1010,8 +1011,7 @@
                   "title": "EProg-v-w04"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "96a399e7d24357db",
@@ -1026,14 +1026,31 @@
                     "file": "sem3/EProg/VRL/extra/slides/EProg-slides-w04.pdf",
                     "page": 49,
                     "left": -22,
-                    "top": 70,
+                    "top": 75,
                     "zoom": 0.7229166666666667
                   },
                   "icon": "lucide-file-text",
                   "title": "EProg-slides-w04"
                 }
+              },
+              {
+                "id": "9ec6c14364afc776",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/EProg/UE/e/EProg-e-u05.pdf",
+                    "page": 6,
+                    "left": -19,
+                    "top": 774,
+                    "zoom": 0.8504901960784313
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "EProg-e-u05"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1201,8 +1218,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "25e5d66ffc741f13",
-      "mtime": "2024-10-23T18:02:01+02:00"
+      "active": "9b904aa7a2c38d72",
+      "mtime": "2024-10-24T12:50:20+02:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1838,5 +1855,5 @@
       "mtime": "2024-10-24T08:50:16+02:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-dmath"
 }
