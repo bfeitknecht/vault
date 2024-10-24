@@ -60,7 +60,7 @@ $$
 &>1
 \end{align}
 $$
-The strict inequality holds because when $p>2$ the next primenumber $p' \geq p+2$.
+The strict inequality holds because when $p>2$ the next prime number $p' \geq p+2$.
 Thus follows
 $$
 \begin{align}
@@ -69,22 +69,69 @@ $$
 $$
 It follows $yx^2z\not\in L_{2}$, while $yxz\in L_{2}$, contradicting (iii).
 $\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\blacksquare$
+
 # 14
 ## (a)
 ![[TI-e-u05.pdf#page=1&rect=97,334,531,392|TI-e-u05, p.1]]
 
-$q_{0}$ represents $x$, the edge from $q_{0}$ to $q_{1}$ is for the first $0$ in $w$. Because $y$ is two long there are $q_2$ and $q_3$ for that and then the edge to $q_4$ is the second $0$. And finally the loop with 0 and 1 is for the word $z$.
+The graph representation for a finite automaton accepting $L_{1}$ is given below.
 
+```mermaid
+flowchart LR
 
+classDef hidden display: none;
+
+S:::hidden
+q0((q0))
+q1((q1))
+q2((q2))
+q3((q3))
+q4(((q4)))
+
+S --> q0
+q0 -->|"0,1"| q0
+q0 -->|"0"| q1
+q1 -->|"0,1"| q2 -->|"0,1"| q3
+q3 -->|"0"| q4
+q4 -->|"0,1"| q4
+```
+
+The state $q_{0}$ represents the state that contains all words $x \in \{ 0,1 \}^{*}$.
+Then, $q_{1}$ contains all words $x0$, where $x \in \{ 0,1 \}*$ i.e. $\mathrm{Kl}[q_{0}] \cdot \{ 0 \}$.
+Furthermore $q_{2}$ captures the words $\mathrm{Kl}[q_{1}] \cdot \{ 0,1 \}$ and the state $q_{3}$ is composed of all words $x0y$, where $x \in \{ 0,1 \}^{*}$ and $z \in \{ 0,1 \}^{2}$ i.e. $\mathrm{Kl}[q_{1}]\cdot \{ 0,1 \}^{2}$.
+Finally, $q_{4}$ contains all words of the form $x0y0z$, where $x,z \in \{ 0,1 \}^{*}$ and $y \in \{ 0,1 \}^{2}$, i.e. the accepted language $\mathrm{Kl}[q_{4}]=L_{1}$.
+$\square$
 
 ## (b) 
 ![[TI-e-u05.pdf#page=1&rect=96,269,532,332|TI-e-u05, p.1]]
 
+We first draw the (deterministic) finite automaton accepting the language $L_{2}$.
 
+```mermaid
+flowchart LR
 
-We first draw the (deterministic) finite automaton.
+classDef hidden display: none;
 
-Let's assume for contradiction that there exists a finite automaton that accepts $L_{2}$ and has fewer than 6 states.
+S:::hidden
+
+q0((q0))
+q1((q1))
+q2(((q2)))
+q3((q3))
+q4((q4))
+qx((qx))
+
+S --> q0
+q0 -->|"a"| q1 -->|"a"| qx
+q0 -->|"b"| qx -->|"a,b"| qx
+q1 -->|"b"| q2
+q2 -->|"a"| q2 -->|"b"| q3
+q3 -->|"a"| q3 -->|"b"| q4
+q4 -->|"a"| q4 -->|"b"| q2
+```
+
+Let's assume for the sake of contradiction that there exists a finite automaton that accepts $L_{2}$ and has fewer than six states.
+
 We choose the words $B = \{\lambda,a,ab,abb,abbb,b\}$.
 According to the pigeonhole principle, there exist two words $w_{i},w_{j}\in B, w_{i}\neq w_{j}$, so that
 $$
@@ -122,4 +169,4 @@ $$
 \end{align}
 $$
 Thus, our assumption is false, and $L$ is not regular.
-$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\blacksquare$
+$\square$
