@@ -28,13 +28,17 @@ True. Let $a, b, c \in \mathbb{Z}$. Then we can denote the given relations using
 We will now show that $\rho^{2}=\mathbb{Z} \times \mathbb{Z}$ by a series of equivalence transformations.
 $$
 \begin{align}
-\rho^{2} &= \{ (a, c) \mid \exists b \in \mathbb{Z} : (a, b), (b, c) \in \rho \} &\text{(def. $\rho$)} \\
-&= \{  (a, c) \mid \exists b \in \mathbb{Z} : (a,b), (b,c) \in \rho_{1} \lor (a, b), (b, c) \in \rho_{2}\} &\text{(def. $\rho_{1}, \rho_{2}$)} \\
-&= \{ (a, c) \mid \exists b \in \mathbb{Z}: (a+1=b \land b+1=c) \lor(a\equiv_{2}b \land b\equiv_{2}c) \} &\text{(def. $\mathbb{Z}$)} \\
-&= \{ (a, c) \mid \top \} = \mathbb{Z} \times \mathbb{Z} &\square
+\rho^{2} &= \{ (a, c) \mid (a, c) \in \mathbb{Z}^{2}, \exists b \in \mathbb{Z} : (a, b), (b, c) \in \rho \} &\text{(def. $\rho$)} \\
+&= \{  (a, c) \mid (a, c) \in \mathbb{Z}^{2},  \exists b \in \mathbb{Z} : (a,b), (b,c) \in \rho_{1} \lor (a, b), (b, c) \in \rho_{2}\} &\text{(def. $\rho_{1}, \rho_{2}$)} \\
+&= \{ (a, c) \mid (a, c) \in \mathbb{Z}^{2},  \exists b \in \mathbb{Z}: (a+1=b \land b+1=c) \lor(a\equiv_{2}b \land b\equiv_{2}c) \} &\text{(def. $\mathbb{Z}$)} \\
+&= \{ (a, c) \mid  \top \} = \mathbb{Z} \times \mathbb{Z} &\square
 \end{align}
 $$
 
 
-First, we will show that $\rho^{2} \subseteq$
+First, we will show that $\rho^{2} \subseteq \mathbb{Z} \times \mathbb{Z}$.
+
+
+Now we will show that $\mathbb{Z} \times \mathbb{Z} \subseteq \rho^{2}$
+
 
