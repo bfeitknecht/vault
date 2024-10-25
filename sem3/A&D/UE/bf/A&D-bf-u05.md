@@ -157,10 +157,18 @@ This trivially holds, as the nodes at level $\mathrm{height}(T)$ are all leaves 
 
 **Induction Hypothesis** $h = t+1$
 
-We assume that the invariant $I(h)$ holds for some $t \leq \mathrm{height}(T)-1$.
+We assume that the invariant $I(t+1)$ holds for some $t \leq \mathrm{height}(T)-1$, i.e. all nodes in levels from $t+1$ down to $\mathrm{height}(T)$ fulfill the heap condition.
 
 
 **Induction Step** $h=t$
+
+Now we consider an iteration of the algorithm at an arbitrary level $t \leq \mathrm{height}(T)-1$. For each node $N$ at this level $t$, we check it's two children $C_{1}, C_{2}$ at level $t+1$, if they exist. Then we make the following case distinction.
+
+*Case* $\mathrm{key}(N)\geq \mathrm{key}(C_{1}), \mathrm{key}(C_{2})$
+In this case the children of $N$ fulfill the heap condition and we can move on.
+
+*Case* $\mathrm{key}(N) < \mathrm{key}(C)$
+Without loss of generality, let $C$ denote a child node of $N$ such that the above holds. In this case, the algorithm swaps the nodes $N$ and $C$ during the execution of the appropriate `if` statement. 
 
 
 
