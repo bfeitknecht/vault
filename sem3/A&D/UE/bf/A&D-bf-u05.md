@@ -144,8 +144,21 @@ $\square$
 ![[A&D-e-u05.pdf#page=3&rect=66,139,534,173|A&D-e-u05, p.3]]
 
 ## (a)
-Prove that executing $\mathrm{Heapify}(T )$ returns a valid heap.
+Prove that executing $\mathrm{heapify}(T )$ returns a valid heap.
 ![[A&D-e-u05.pdf#page=4&rect=84,727,531,773|A&D-e-u05, p.4]]
 
+We prove the statement by process of mathematical induction on the given invariant $I(t)$ after $t$ iterations of the outermost `for` loop.
 
-induction on invariant, base case $n=2$ nodes and level $l=1$,
+
+**Base Case** $n=2$
+
+We use a distinction on the case, that the binary tree $T$ already fulfills the heap condition. In this case, $\mathrm{heapify}(T)$ trivially returns valid $H$.
+
+In the case that $T$ does not fulfill the heap condition, the outermost `for` loop iterates once, since the variable $t=\mathrm{height}(T)-1=0$ describing the level iteration is at the root. The node $N$ is then the root, per definition the only node at level $l=0$. Thus the innermost `for` loop also only iterates once.
+
+From our assumption that $T$ does not fulfill the heap condition, it follows that the root node $N$ has a child $C$ such that $\mathrm{key}(C)>\mathrm{key}(N)$. Without loss of generality, let $C_{1} \leftarrow C$. Since $N$ does not have any other children, $\mathrm{key}(C_{2})=-\infty$. Then the first `if` statement executes and swaps $N$ and $C_{1}$ and their keys, restoring the heap condition.
+
+Thus, $I(0)$ holds after executing $\mathrm{heapify}(T)$ on some binary tree $T$ with $n=2$ nodes.
+
+
+**Induction Hypothesis** $n=k$
