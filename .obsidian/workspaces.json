@@ -411,8 +411,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "c1d4bca0b23a015c",
-      "mtime": "2024-10-23T18:10:50+02:00"
+      "active": "162e7a61651e562a",
+      "mtime": "2024-10-25T08:56:26+02:00"
     },
     "sem3-a&d": {
       "main": {
@@ -496,8 +496,8 @@
                     "file": "sem3/A&D/UE/e/A&D-e-u05.pdf",
                     "page": 3,
                     "left": -18,
-                    "top": 784,
-                    "zoom": 0.874384319206553
+                    "top": 789,
+                    "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-e-u05"
@@ -510,7 +510,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "sem3/A&D/UE/bf/A&D-bf-u05.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
@@ -687,7 +687,7 @@
         }
       },
       "active": "33053773432b9e7c",
-      "mtime": "2024-10-24T11:03:14+02:00"
+      "mtime": "2024-10-25T08:56:55+02:00"
     },
     "sem3-dmath": {
       "main": {
@@ -773,8 +773,8 @@
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 33,
                     "left": -12,
-                    "top": 129,
-                    "zoom": 1.2710712991743103
+                    "top": 133,
+                    "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
                   "title": "dmath-script-hs24"
@@ -815,7 +815,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "sem3/DMath/UE/bf/md/DMath-bf-u05.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
@@ -1012,7 +1012,7 @@
         }
       },
       "active": "194a3fc7aee36cbe",
-      "mtime": "2024-10-24T16:14:03+02:00"
+      "mtime": "2024-10-25T08:58:51+02:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1642,7 +1642,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "334b80dc2ab3a841",
@@ -1876,9 +1876,9 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "85e1274371d7ad64",
-      "mtime": "2024-10-25T08:43:59+02:00"
+      "active": "b4902097fba66c9b",
+      "mtime": "2024-10-25T08:58:58+02:00"
     }
   },
-  "active": "00-home"
+  "active": "sem3-a&d"
 }

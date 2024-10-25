@@ -2,8 +2,9 @@
 - [[turing machine]]
 - [[mutli tape turing machine]]
 - [[recursive language]]
-- equivalence of turing machine
+- equivalence of turing machines
 - FSM and TM as turing complete computational model
+- MTM, TM, NTM, etc. all equivalent in computational "power"
 
 # Notes
 
