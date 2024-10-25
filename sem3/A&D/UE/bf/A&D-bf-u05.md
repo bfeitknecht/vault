@@ -148,4 +148,4 @@ Prove that executing $\mathrm{Heapify}(T )$ returns a valid heap.
 ![[A&D-e-u05.pdf#page=4&rect=84,727,531,773|A&D-e-u05, p.4]]
 
 
-induction on invariant, base case $n=2$ nodes and level $l=2$,
+induction on invariant, base case $n=2$ nodes and level $l=1$,
