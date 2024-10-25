@@ -1699,9 +1699,9 @@
                   "state": {
                     "file": "sem3/TIN/UE/e/TI-e-u05.pdf",
                     "page": 1,
-                    "left": -69,
-                    "top": 841,
-                    "zoom": 0.77
+                    "left": -18,
+                    "top": 846,
+                    "zoom": 0.898322794804427
                   },
                   "icon": "lucide-file-text",
                   "title": "TI-e-u05"
@@ -1846,8 +1846,8 @@
                 "state": {
                   "type": "vertical-tabs-view",
                   "state": {},
-                  "icon": "list",
-                  "title": "Vertical Tabs"
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               }
             ],
@@ -1877,8 +1877,8 @@
         }
       },
       "active": "85e1274371d7ad64",
-      "mtime": "2024-10-24T22:14:10+02:00"
+      "mtime": "2024-10-25T08:43:59+02:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "00-home"
 }
