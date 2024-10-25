@@ -114,9 +114,9 @@ q4 -->|"a"| q4 -->|"b"| q2
 
 For the sake of contradiction, let's assume there exists a finite automaton $M$ that accepts $L_{2}$ and has fewer than six states.
 
-Now we choose the words $B = \{\lambda,a,ab,abb,abbb,b\}$. According to the pigeonhole principle, there exist two words $w_{i},w_{j}\in B, w_{i}\neq w_{j}$, such that $\hat{\delta}(q_0, w_i) = \hat{\delta}(q_0, w_j)$. According to Lemma 3.3, it follows that $\forall z \in \Sigma^* : w_i z \in L \iff w_j z \in L$.
+Now we choose the words $B = \{\lambda,a,ab,abb,abbb,b\}$.
 
-We observe the following table with suffixes.
+According to the pigeonhole principle, there exist two words $w_{i},w_{j}\in B, w_{i}\neq w_{j}$, such that $\hat{\delta}(q_0, w_i) = \hat{\delta}(q_0, w_j)$. According to Lemma 3.3, it follows that $\forall z \in \Sigma^* : w_i z \in L \iff w_j z \in L$. We observe the following table with suffixes.
 
 |           | $a$ | $ab$      | $abb$     | $abbb$    | $b$       |
 | --------- | --- | --------- | --------- | --------- | --------- |
@@ -125,9 +125,9 @@ We observe the following table with suffixes.
 | $ab$      |     |           | $\lambda$ | $\lambda$ | $\lambda$ |
 | $abb$     |     |           |           | $b$       | $bb$      |
 | $abbb$    |     |           |           |           | $b$       |
-This shows the existence of a suffix $z\in \Sigma^{*}$ for each pair of words $x,y \in B, x\neq y$ , s.t.  $(xz \in L \land yz \notin L) \lor (xz \notin L \land yz \in L)$ holds. This can easily be verified with the given suffixes and the specified EA.
+This shows the existence of a suffix $z\in \Sigma^{*}$ for each pair of words $x,y \in B, x\neq y$ , such that $(xz \in L \land yz \notin L) \lor (xz \notin L \land yz \in L)$ holds. This can easily be verified with the given suffixes and the specified EA.
 
 However this contradicts the assumption that there exists a pair of words $w_i, w_j \in B,w_{i}\neq w_{j}$, such that $\forall z \in \Sigma^* : w_i z \in L \iff w_j z \in L$.
 
-Thus, our initial assumption is false, and $L_{2}$ is not regular.
+Thus, our initial assumption is false and there exists no finite automaton $M$ that accepts $L_{2}$ which has less than six states.
 $\square$
