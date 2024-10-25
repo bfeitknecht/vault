@@ -319,6 +319,7 @@ Insert tabstops for the cursor to jump to by writing "$0", "$1", etc. in the rep
 
 
     // Misc
+    {trigger: "bb", replacement: "\\mathbb{$0}", options: "mA"},
 
     // Automatically convert standalone letters in text to math (except a, A, I).
     // (Un-comment to enable)

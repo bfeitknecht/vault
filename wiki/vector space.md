@@ -1,5 +1,5 @@
 
-A **vector space** or a **linear space** is a [[set]] whose elements, often called [[vector|vectors]], can be *added* together and *multiplied* by some *scalars*. The operations of [[vector addition]] and [[scalar multiplication]] must satisfy the vector axioms listed below. The associated scalars can be elements of any [[field]]. Formally, we can construct vector spaces over any field $F$.
+A **vector space** or a **linear space** is a [[set]] whose elements, often called [[vector|vectors]], can be *added* together and *multiplied* by some *scalars*. The operations of [[vector addition]] and [[scalar multiplication]] must satisfy the vector axioms listed below. The associated scalars can be elements of any [[field]]. Formally, we can construct vector spaces over any field $\mathbb{F}$.
 
 ![[LinAlg-plan-w06.pdf#page=1&rect=68,245,510,448|LinAlg-plan-w06, p.1]]
 
