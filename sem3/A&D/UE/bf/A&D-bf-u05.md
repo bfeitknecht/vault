@@ -154,9 +154,9 @@ We prove the correctness of $\mathrm{heapify}(T)$ for some binary tree $T$ with 
 
 
 
-**Induction Hypothesis** $h = t-1$
+**Induction Hypothesis** $h >t$
 
-We assume that the invariant $I(h)$ holds for some $1 \leq t \leq \mathrm{height}(T)$
+We assume that the invariant $I(h)$ holds for some $1 \leq t \leq \mathrm{height}(T)-2$ 
 
 
 
