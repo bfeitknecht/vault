@@ -152,15 +152,16 @@ We prove the correctness of $\mathrm{heapify}(T)$ for some binary tree $T$ with 
 
 **Base Case** $h=\mathrm{height}(T)$
 
+This trivially holds, as the nodes at level $\mathrm{height}(T)$ are all leaves and thus fulfill the heap condition, since they have no children. Thus the invariant $I(\mathrm{height}(T))$ is proven.
 
 
-**Induction Hypothesis** $h >t$
+**Induction Hypothesis** $h = t+1$
 
-We assume that the invariant $I(h)$ holds for some $1 \leq t \leq \mathrm{height}(T)-2$ 
-
+We assume that the invariant $I(h)$ holds for some $t \leq \mathrm{height}(T)-1$.
 
 
 **Induction Step** $h=t$
+
 
 
 
