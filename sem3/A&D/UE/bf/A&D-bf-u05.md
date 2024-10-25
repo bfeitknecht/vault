@@ -95,7 +95,6 @@ To do this, we apply a case distinction on $n$.
 **Case** $n=1$
 
 The condition `if l < r` evaluates to false so the algorithm makes no comparisons, thus $T(1)=0$.
-$\square$
 
 
 **Case** $n\geq2$
