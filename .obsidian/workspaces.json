@@ -1283,31 +1283,15 @@
                 }
               },
               {
-                "id": "6b61f32934ab0bdc",
+                "id": "2d1eb6ec3855c7f5",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "pdf",
                   "state": {
-                    "file": "wiki/LU decomposition.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w06.pdf"
                   },
-                  "icon": "lucide-file",
-                  "title": "LU decomposition"
-                }
-              },
-              {
-                "id": "f125f4fe910367d4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/matrix decompositions.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "matrix decompositions"
+                  "icon": "lucide-file-text",
+                  "title": "LinAlg-plan-w06"
                 }
               }
             ],
@@ -1372,9 +1356,37 @@
                   "icon": "lucide-file",
                   "title": "scalar multiplication"
                 }
+              },
+              {
+                "id": "c4d416dad2ef767d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/vector space.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "vector space"
+                }
+              },
+              {
+                "id": "cea4ac865f90d99d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/vector subspace.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "vector subspace"
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 5
           }
         ],
         "direction": "vertical"
@@ -1572,8 +1584,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "6b61f32934ab0bdc",
-      "mtime": "2024-10-24T09:36:15+02:00"
+      "active": "cea4ac865f90d99d",
+      "mtime": "2024-10-25T10:49:54+02:00"
     },
     "sem3-ti": {
       "main": {
