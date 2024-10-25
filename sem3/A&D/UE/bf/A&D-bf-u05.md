@@ -159,35 +159,19 @@ This trivially holds, as the nodes at level $\mathrm{height}(T)$ are all leaves 
 
 We assume that the invariant $I(t+1)$ holds for some $t \leq \mathrm{height}(T)-1$, i.e. all nodes in levels from $t+1$ down to $\mathrm{height}(T)$ fulfill the heap condition.
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 **Induction Step** $h=t$
 
-Now we consider an iteration of the algorithm at an arbitrary level $t \leq \mathrm{height}(T)-1$. For each node $N$ at this level $t$, we check it's two children $C_{1}, C_{2}$ at level $t+1$, if they exist. Then we make the following case distinction.
+Now we consider an iteration of the algorithm at an arbitrary level $t \leq \mathrm{height}(T)-1$. For each node $N$ at this level $t$, we check its two children $C_{1}, C_{2}$ in level $t+1$, if they exist. From our induction hypothesis we know that all subtrees rooted at this level fulfill the heap condition. Then we make the following case distinction.
 
 *Case* $\mathrm{key}(N)\geq \mathrm{key}(C_{1}), \mathrm{key}(C_{2})$
-In this case the children of $N$ fulfill the heap condition and we can move on.
+> In this case the children of $N$ fulfill the heap condition and we can move on.
 
 *Case* $\mathrm{key}(N) < \mathrm{key}(C)$
-Without loss of generality, let $C$ denote a child node of $N$ such that the above holds. In this case, the algorithm swaps the nodes $N$ and $C$ during the execution of the appropriate `if` statement. 
+> Without loss of generality, let $C$ denote a child node of $N$ such that the above holds. In this case, the algorithm swaps the nodes $N$ and $C$ during the execution of the appropriate `if` statement. 
+> 
+> After this, we restore the heap condition in the subtrees rooted at $C_{1}, C_{2}$, repeating the procedure described above, pushing the node $N$ down to a level such that its parent's node $P$ key is greater than its own $\mathrm{key}(P)\geq \mathrm{key}(N)$.
 
-
-
-
-
-
-
-
-
-
-
-___
-
-
-We use a distinction on the case, that $T$ already fulfills the heap condition. In this case, $\mathrm{heapify}(T)$ trivially returns valid $H$.
-
-In the case that $T$ does not fulfill the heap condition, the outermost `for` loop iterates once, since the variable $t=\mathrm{height}(T)-1=0$ describing the level iteration is at the root. The node $N$ is then the root, per definition the only node at level $l=0$. Thus the innermost `for` loop also only iterates once.
-
-From our assumption that $T$ does not fulfill the heap condition, it follows that the root node $N$ has a child $C$ such that $\mathrm{key}(C)>\mathrm{key}(N)$. Without loss of generality, let $C_{1} \leftarrow C$. Since $N$ does not have any other children, $\mathrm{key}(C_{2})=-\infty$. Then the first `if` statement executes and swaps $N$ and $C_{1}$ and their keys, restoring the heap condition.
-
-Thus, $I(0)$ holds after executing $\mathrm{heapify}(T)$ on some binary tree $T$ with $n=2$ nodes.
-
+Then it follows that $I(0)$ and thus we've shown the correctness of the algorithm $\mathrm{heapify}(T)$, returning a valid heap $H$.
+$\square$
