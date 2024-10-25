@@ -147,11 +147,32 @@ $\square$
 Prove that executing $\mathrm{heapify}(T )$ returns a valid heap.
 ![[A&D-e-u05.pdf#page=4&rect=84,727,531,773|A&D-e-u05, p.4]]
 
-We prove the correctness of $\mathrm{heapify}(T)$ for some binary tree $T$ with $n\geq2$ nodes by process of mathematical induction. To do this, we use the given invariant $I(t)$ on the iterations of the outermost `for` loop though the 
+We prove the correctness of $\mathrm{heapify}(T)$ for some binary tree $T$ with $n\geq2$ nodes by process of mathematical induction. To do this, we use the given invariant $I(t)$ on the levels of $T$, i.e. we show that $I(0)$ holds after executing the algorithm.
 
-**Base Case** $h=1$
 
-There are two possible binary trees of height
+**Base Case** $h=\mathrm{height}(T)$
+
+
+
+**Induction Hypothesis** $h = t-1$
+
+We assume that the invariant $I(h)$ holds for some $1 \leq t \leq \mathrm{height}(T)$
+
+
+
+**Induction Step** $h=t$
+
+
+
+
+
+
+
+
+
+
+___
+
 
 We use a distinction on the case, that $T$ already fulfills the heap condition. In this case, $\mathrm{heapify}(T)$ trivially returns valid $H$.
 
@@ -161,5 +182,3 @@ From our assumption that $T$ does not fulfill the heap condition, it follows tha
 
 Thus, $I(0)$ holds after executing $\mathrm{heapify}(T)$ on some binary tree $T$ with $n=2$ nodes.
 
-
-**Induction Hypothesis** $n=k$
