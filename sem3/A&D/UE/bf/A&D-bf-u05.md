@@ -147,12 +147,13 @@ $\square$
 Prove that executing $\mathrm{heapify}(T )$ returns a valid heap.
 ![[A&D-e-u05.pdf#page=4&rect=84,727,531,773|A&D-e-u05, p.4]]
 
-We prove the statement by process of mathematical induction on the given invariant $I(t)$ after $t$ iterations of the outermost `for` loop.
+We prove the correctness of $\mathrm{heapify}(T)$ for some binary tree $T$ with $n\geq2$ nodes by process of mathematical induction. To do this, we use the given invariant $I(t)$ on the iterations of the outermost `for` loop though the 
 
+**Base Case** $h=1$
 
-**Base Case** $n=2$
+There are two possible binary trees of height
 
-We use a distinction on the case, that the binary tree $T$ already fulfills the heap condition. In this case, $\mathrm{heapify}(T)$ trivially returns valid $H$.
+We use a distinction on the case, that $T$ already fulfills the heap condition. In this case, $\mathrm{heapify}(T)$ trivially returns valid $H$.
 
 In the case that $T$ does not fulfill the heap condition, the outermost `for` loop iterates once, since the variable $t=\mathrm{height}(T)-1=0$ describing the level iteration is at the root. The node $N$ is then the root, per definition the only node at level $l=0$. Thus the innermost `for` loop also only iterates once.
 
