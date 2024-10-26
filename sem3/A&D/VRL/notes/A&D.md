@@ -4,7 +4,8 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 
 # Info
 
-- [ ] theory exercise 🔁 every week 📅 2024-10-27
+- [ ] theory exercise 🔁 every week 📅 2024-11-03
+- [x] theory exercise 🔁 every week 📅 2024-10-27 ✅ 2024-10-26
 - [x] theory exercise 🔁 every week 📅 2024-10-20 ✅ 2024-10-20
 - [x] theory exercise 🔁 every week 📅 2024-10-13 ✅ 2024-10-14
 - [x] theory exercise 🔁 every week 📅 2024-10-06 ✅ 2024-10-04
@@ -19,7 +20,8 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 - [x] moodle quiz 🔁 every week 📅 2024-10-14 ✅ 2024-10-15
 - [-] moodle quiz 🔁 every week 📅 2024-10-07 ❌ 2024-10-07
 - [x] moodle quiz 🔁 every week 📅 2024-09-30 ✅ 2024-09-30
-- [ ] code expert 🔁 every 2 weeks 📅 2024-10-25
+- [ ] code expert 🔁 every 2 weeks 📅 2024-11-08
+- [x] code expert 🔁 every 2 weeks 📅 2024-10-25 ✅ 2024-10-26
 
 
 # Lectures
