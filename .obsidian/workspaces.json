@@ -6,21 +6,17 @@
         "type": "split",
         "children": [
           {
-            "id": "0e5c9127739af627",
+            "id": "36593eb93aff2264",
             "type": "tabs",
             "children": [
               {
-                "id": "cd6ee1a4e8752e63",
+                "id": "a907a92a1d627b3d",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "HOME.md",
-                    "mode": "source",
-                    "source": false
-                  },
+                  "type": "empty",
+                  "state": {},
                   "icon": "lucide-file",
-                  "title": "HOME"
+                  "title": "New tab"
                 }
               }
             ]
@@ -191,8 +187,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "cd6ee1a4e8752e63",
-      "mtime": "2024-10-27T18:35:35+01:00"
+      "active": "a907a92a1d627b3d",
+      "mtime": "2024-10-27T18:35:45+01:00"
     },
     "00-home": {
       "main": {
@@ -698,20 +694,6 @@
                 }
               },
               {
-                "id": "92c9f64dfbfcc09f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/DMath/VRL/notes/lectures/DMath-v-w05.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMath-v-w05"
-                }
-              },
-              {
                 "id": "d1f52e9d83a22a7d",
                 "type": "leaf",
                 "state": {
@@ -724,24 +706,9 @@
                   "icon": "lucide-file",
                   "title": "DMath-v-w06"
                 }
-              },
-              {
-                "id": "194a3fc7aee36cbe",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u05.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMath-bf-u05"
-                },
-                "group": "f8110924e3bd35d7"
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           },
           {
             "id": "f002029a56c7a80a",
@@ -757,7 +724,7 @@
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 33,
                     "left": -12,
-                    "top": 133,
+                    "top": 149,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -790,31 +757,6 @@
                   },
                   "icon": "lucide-file",
                   "title": "subset"
-                }
-              },
-              {
-                "id": "a6e2665e32b31ceb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u05.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMath-bf-u05"
-                },
-                "group": "f8110924e3bd35d7"
-              },
-              {
-                "id": "87bde37244ac165e",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
                 }
               }
             ]
@@ -885,7 +827,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 240.5,
+        "width": 304.5,
         "collapsed": true
       },
       "right": {
@@ -995,8 +937,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "194a3fc7aee36cbe",
-      "mtime": "2024-10-25T08:58:51+02:00"
+      "active": "d1f52e9d83a22a7d",
+      "mtime": "2024-10-27T18:37:52+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1822,5 +1764,5 @@
       "mtime": "2024-10-27T18:13:53+01:00"
     }
   },
-  "active": "00-clean"
+  "active": "00-home"
 }
