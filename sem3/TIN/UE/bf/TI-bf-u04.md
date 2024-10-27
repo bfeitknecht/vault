@@ -120,41 +120,51 @@ $$
 \end{align}
 $$
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 The graph representation of the product automaton $M$ is given below.
-%%
 ```mermaid
-flowchart LR
+graph TD
 
 classDef hidden display: none;
 
 S:::hidden
 
 q00((q00))
-q01((q01))
-q02((q02))
+q01(q01)
+q02(q02)
 q10((q10))
-q11((q11))
-q12((q12))
-q20((q20))
-q21((q21))
-q22((q22))
+q11(((q11)))
+q12(q12)
+q20(((q20)))
+q21(((q21)))
+q22(((q22)))
 q30((q30))
-q31((q31))
+q31(((q31)))
 q32((q32))
 
 S --> q00
 
-q00 -->|"a"| q11 -->|"a"| q22
-q00 -->|"b"| q10 -->|"b"| q20 -->|"b"| q30
-q01 -->|"b"| q11 -->|"b"| q21 -->|"b"| q31
-q02 -->|"b"| q12 -->|"b"| q22 -->|"b"| q32
-q02 -->|"a"| q10
-q01 -->|"a"| q12
-```
-%%
+q00 -->|"b"| q10 -->|"b"| q20 -->|"b"| q20
+q01 -->|"b"| q11 -->|"b"| q21 -->|"b"| q21
+q02 -->|"b"| q12 -->|"b"| q22 -->|"b"| q22
 
-![[product-automaton-dkueenzi.jpg]]
+q00 -->|"a"| q11 
+q01 -->|"a"| q12
+q02 -->|"a"| q10
+
+q10 -->|"a"| q21
+q11 -->|"a"| q22
+q12 -->|"a"| q20
+
+q20 -->|"a"| q31
+q21 -->|"a"| q32
+q22 -->|"a"| q30
+
+q30 -->|"a"| q31
+q31 -->|"a"| q32
+q32 -->|"a"| q30
+```
 $\square$
 
 <div class="page-break" style="page-break-before: always;"></div>

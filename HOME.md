@@ -37,6 +37,7 @@ TITLE "Today"
 
 %%
 ^^ doesn't seem to work
+!!! need to find toggl project id
 INCLUDE PROJECTS "pv-a1", "pv-auw", "pv-ddca", "pv-pprog"
 EXCLUDE PROJECTS "other"
 %%
