@@ -18,6 +18,7 @@
   "vimLikeNavigationShortcut": false,
   "ribbonIcon": true,
   "showExcerpt": false,
+  "maxEmbeds": 5,
   "renderLineReturnInExcerpts": true,
   "showCreateButton": false,
   "highlight": true,
