@@ -274,7 +274,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:/sem2/DDCA",
+                    "query": "tag:/sem1/AuD/UE/e",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -305,7 +305,8 @@
                   "title": "Outline"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
@@ -407,8 +408,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "162e7a61651e562a",
-      "mtime": "2024-10-25T08:56:26+02:00"
+      "active": "c1d4bca0b23a015c",
+      "mtime": "2024-10-27T20:16:56+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1764,5 +1765,5 @@
       "mtime": "2024-10-27T18:13:53+01:00"
     }
   },
-  "active": "00-home"
+  "active": "sem3-ti"
 }
