@@ -161,8 +161,8 @@
                 "state": {
                   "type": "vertical-tabs-view",
                   "state": {},
-                  "icon": "list",
-                  "title": "Vertical Tabs"
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               }
             ],
@@ -192,7 +192,7 @@
         }
       },
       "active": "cd6ee1a4e8752e63",
-      "mtime": "2024-10-23T18:01:36+02:00"
+      "mtime": "2024-10-27T18:35:35+01:00"
     },
     "00-home": {
       "main": {
