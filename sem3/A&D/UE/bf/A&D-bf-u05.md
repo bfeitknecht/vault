@@ -162,7 +162,7 @@ We assume that the invariant $I(t+1)$ holds for some $t \leq \mathrm{height}(T)-
 
 **Induction Step** $h=t$
 
-Now we consider an iteration of the algorithm at an arbitrary level $t \leq \mathrm{height}(T)-1$. For each node $N$ at this level $t$, we check its two children $C_{1}, C_{2}$ in level $t+1$, if they exist. From our induction hypothesis we know that all subtrees rooted at this level fulfill the heap condition. Then we make the following case distinction.
+Now we consider an iteration of the algorithm at an arbitrary level $t \leq \mathrm{height}(T)-1$. For each node $N$ at this level $t$, we check its two children $C_{1}, C_{2}$ in level $t+1$, if they exist. From our induction hypothesis we know that all subtrees rooted at level $t+1$ fulfill the heap condition. Then we make the following case distinction.
 
 *Case* $\mathrm{key}(N)\geq \mathrm{key}(C_{1}), \mathrm{key}(C_{2})$
 > In this case the children of $N$ fulfill the heap condition and we can move on.
@@ -172,5 +172,5 @@ Now we consider an iteration of the algorithm at an arbitrary level $t \leq \mat
 > 
 > After this, we restore the heap condition in the subtrees rooted at $C_{1}, C_{2}$, repeating the procedure described above, pushing the node $N$ down to a level such that its parent's node $P$ key is greater than its own $\mathrm{key}(P)\geq \mathrm{key}(N)$.
 
-Then it follows that $I(0)$ and thus we've shown the correctness of the algorithm $\mathrm{heapify}(T)$, returning a valid heap $H$.
+Then it follows that $I(0)$ holds and thus we've shown the correctness of the algorithm $\mathrm{heapify}(T)$, returning a valid heap $H$.
 $\square$
