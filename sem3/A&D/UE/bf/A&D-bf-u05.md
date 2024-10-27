@@ -165,12 +165,15 @@ We assume that the invariant $I(t+1)$ holds for some $t \leq \mathrm{height}(T)-
 Now we consider an iteration of the algorithm at an arbitrary level $t \leq \mathrm{height}(T)-1$. For each node $N$ at this level $t$, we check its two children $C_{1}, C_{2}$ in level $t+1$, if they exist. From our induction hypothesis we know that all subtrees rooted at level $t+1$ fulfill the heap condition. Then we make the following case distinction.
 
 *Case* $\mathrm{key}(N)\geq \mathrm{key}(C_{1}), \mathrm{key}(C_{2})$
-> In this case the children of $N$ fulfill the heap condition and we can move on.
+> In this case, $N$ and its children fulfill the heap condition and we can move on.
 
 *Case* $\mathrm{key}(N) < \mathrm{key}(C)$
-> Without loss of generality, let $C$ denote a child node of $N$ such that the above holds. In this case, the algorithm swaps the nodes $N$ and $C$ during the execution of the appropriate `if` statement. 
+> Without loss of generality, let $C$ denote a child node of $N$ such that the above condition holds. In this case, the algorithm *swaps* the nodes $N$ and $C$ during the execution of the appropriate `if` statement. 
 > 
-> After this, we restore the heap condition in the subtrees rooted at $C_{1}, C_{2}$, repeating the procedure described above, pushing the node $N$ down to a level such that its parent's node $P$ key is greater than its own $\mathrm{key}(P)\geq \mathrm{key}(N)$.
+> After this, it restores the heap condition in the subtree rooted at $N$ in level $t+1$, repeating the procedure described above. This *pushes* the node $N$ down to a level such that the key of its parent node $P$ is greater than or equal to its own $\mathrm{key}(P)\geq \mathrm{key}(N)$.
+> 
 
-Then it follows that $I(0)$ holds and thus we've shown the correctness of the algorithm $\mathrm{heapify}(T)$, returning a valid heap $H$.
+Iterating over all nodes at level $t$ results in the invariant $I(t)$. Specifically, happens in every iteration of the outermost `for` loop, converting the binary tree to a valid heap from bottom up.
+
+Then it follows that the invariant $I(0)$ holds for an arbitrary complete binary tree $T$ with $n \geq 2$ nodes and thus we've shown the correctness of the algorithm $\mathrm{heapify}(T)$, returning a valid heap $H$.
 $\square$
