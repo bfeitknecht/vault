@@ -24,7 +24,7 @@ i.h.
 
 induction on $l$ 
 
-set of predicates on $\mathbb{N}$ s.t. for all  sequences from zero of length k, at most 1+(k/l) is true
+set of predicates on $\mathbb{N}$ s.t. for all sequences from zero of length k, at most 1+(k/l) is true
 
 
 theorem 3.23
