@@ -8,7 +8,8 @@
   "enabledCssSnippets": [
     "png-white-bg",
     "embed-filename",
-    "style-embed"
+    "style-embed",
+    "hide-view-header"
   ],
   "showViewHeader": true,
   "baseFontSize": 13

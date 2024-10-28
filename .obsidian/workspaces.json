@@ -738,7 +738,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "f002029a56c7a80a",
@@ -751,7 +751,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf"
+                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
+                    "page": 78,
+                    "left": -12,
+                    "top": 529,
+                    "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
                   "title": "dmath-script-hs24"
@@ -766,7 +770,7 @@
                     "file": "sem3/DMath/UE/e/DMath-e-u06.pdf",
                     "page": 1,
                     "left": -46,
-                    "top": 487,
+                    "top": 491,
                     "zoom": 0.82
                   },
                   "icon": "lucide-file-text",
@@ -774,16 +778,19 @@
                 }
               },
               {
-                "id": "b35369aee5b67def",
+                "id": "43c38d4802c04c55",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
+                  "type": "pdf",
+                  "state": {
+                    "file": "var/other/LATEX.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LATEX"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -961,8 +968,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "761fa5002be93fcd",
-      "mtime": "2024-10-28T13:26:52+01:00"
+      "active": "d1f52e9d83a22a7d",
+      "mtime": "2024-10-28T14:20:44+01:00"
     },
     "sem3-eprog": {
       "main": {
