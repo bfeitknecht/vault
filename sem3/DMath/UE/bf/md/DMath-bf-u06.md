@@ -1,6 +1,5 @@
 Basil Feitknecht, 23-922-099
 
-
 # 6.5
 Prove that for all $l\in \mathbb{N}$ with $l\geq1$ the set $A_{l}$ is uncountable.
 $$
@@ -19,29 +18,25 @@ g(n) & \text{if $\exists n \in \mathbb{N}$ s.t. }\  i=n(l+1) \\
 \end{cases}, \quad \forall i \in \mathbb{N}
 $$
 
-Now we show that any such function is in fact in $A_{l}$. Let $n(l+1) \leq k < (n+1)(l+1)$ for some $n \in \mathbb{N}$.
-
+Now we show that such a function $f_{g}$ is in fact in $A_{l}$.
 $$
 \begin{align}
-\exists n \in \mathbb{N},\ n(l+1) \leq k < (n+1)(l+1)  \\
- \\
- \\
-& \overset{ \cdot }{ \implies } \sum_{i=0}^{k}f(i) \leq n+1 \\
-& \overset{ \cdot }{ \implies } \sum_{i=0}^{k}f(i) \leq \frac{k}{l}+1
+\exists n \in \mathbb{N},\ \overbrace{ n(l+1) \leq k < (n+1)(l+1) }^{ \text{(a)} }
+& \overset{ \cdot }{ \implies } \sum_{i=0}^{k}f(i) \leq n+1 & \text{(definition $f_{g}$), (a)} \\
+& \overset{ \cdot }{ \implies } \sum_{i=0}^{k}f(i) \leq \frac{k}{l}+1 & \text{(definition $A_{l}$)} \\
+& \overset{ \cdot }{ \implies } f_{g} \in A_{l}
 \end{align}
 $$
 
- Per definition of $f_{g}$ we have at most $\sum_{i=0}^{k}f(i) \leq n+1$, which implies that the function fulfills the inequality constraint, since $n(l+1) \leq k \implies n+1 \leq \frac{k}{l}+1$. ==(?)==
-
-
-Then we must show that $\psi$ is injective, i.e. for some $g_{1}, g_{2} \in A$ we have $g_{1} \neq g_{2} \implies \psi(g_{1}) \neq \psi(g_{2})$.
+Then we must show that $\psi$ is injective.
 $$
 \begin{align}
-g_{1} \neq g_{2} & \overset{ \cdot }{ \implies } \exists n  \in \mathbb{N},\ g_{1}(n) \neq g_{2}(n) & \text{(definition of $f_{g}$)}\\
-& \overset{ \cdot }{ \implies } f_{g_{1}}\big(n(l+1)\big) \neq f_{g_{2}}\big(n(l+1)\big) & \text{(definition of $\psi$)} \\
-& \overset{ \cdot }{ \implies } \psi(g_{1}) \neq \psi(g_{2}) & \text{(definition injective)}
+g_{1} \neq g_{2} & \overset{ \cdot }{ \implies } \exists n  \in \mathbb{N},\ g_{1}(n) \neq g_{2}(n) & \text{(definition $f_{g}$)}\\
+& \overset{ \cdot }{ \implies } f_{g_{1}}\big(n(l+1)\big) \neq f_{g_{2}}\big(n(l+1)\big) & \text{(definition $\psi$)} \\
+& \overset{ \cdot }{ \implies } \psi(g_{1}) \neq \psi(g_{2}) & \text{(definition injective)} \\
+& \overset{ \cdot }{ \implies } \psi \text{ injective}
 \end{align}
 $$
 
-Thus we have constructed an injective function from an uncountable set into $A_{l}$ and hence shown that it is uncountable itself.
+Thus we have constructed an injective function from an uncountable set into $A_{l}$ and hence shown that it is uncountable.
 $\square$
