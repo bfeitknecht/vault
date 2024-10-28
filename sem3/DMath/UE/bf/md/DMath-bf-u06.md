@@ -16,11 +16,23 @@ Let $g_{l} : \{ 0,1 \}^{\infty} \to A_{l}$ denote an injective function, i.e. fo
 b.c. 
 $l=1$
 
+The set $A_{1} = \left\{  f : \mathbb{N} \to \{ 0,1 \} \ \Big| \ \forall k\in \mathbb{N},\ \sum_{i=0}^{k}f(i) \leq k+1 \right\}$ is uncountable.
 
-i.s.
+Trivial, since sum can be at most $k+1$, thus all functions in the set satisfy the condition.
+ so we can take the identity function
+
 
 
 i.h.
+$l=n$
+
+The set $A_{n} = \left\{  f : \mathbb{N} \to \{ 0,1 \} \ \Big| \ \forall k\in \mathbb{N},\ \sum_{i=0}^{k}f(i) \leq \frac{k}{n}+1 \right\}$ is uncountable.
+
+
+i.s.
+$l=n+1$
+
+The set $A_{n+1} = \left\{  f : \mathbb{N} \to \{ 0,1 \} \ \Big| \ \forall k\in \mathbb{N},\ \sum_{i=0}^{k}f(i) \leq \frac{k}{n+1}+1 \right\}$ is uncountable.
 
 
 
