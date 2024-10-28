@@ -752,7 +752,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           },
           {
             "id": "f002029a56c7a80a",
@@ -766,9 +766,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 98,
+                    "page": 82,
                     "left": -12,
-                    "top": 392,
+                    "top": 78,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -776,22 +776,21 @@
                 }
               },
               {
-                "id": "95315824ed651b49",
+                "id": "252010a9a4780e6f",
                 "type": "leaf",
                 "state": {
-                  "type": "pdf",
+                  "type": "markdown",
                   "state": {
-                    "file": "sem3/DMath/UE/e/DMath-e-u06.pdf",
-                    "page": 1,
-                    "left": -46,
-                    "top": 495,
-                    "zoom": 0.82
+                    "file": "wiki/function.md",
+                    "mode": "source",
+                    "source": false
                   },
-                  "icon": "lucide-file-text",
-                  "title": "DMath-e-u06"
+                  "icon": "lucide-file",
+                  "title": "function"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -969,8 +968,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "761fa5002be93fcd",
-      "mtime": "2024-10-28T14:36:30+01:00"
+      "active": "d1f52e9d83a22a7d",
+      "mtime": "2024-10-28T18:31:44+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1768,5 +1767,5 @@
       "mtime": "2024-10-28T09:21:55+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-a&d"
 }
