@@ -9,6 +9,9 @@ $$
 **Hint:** For all $l \geq 1$ explicitly write an injection from a known uncountable set into $A_{l}$.
 
 
+Let $g: \{ 0,1 \}^{\infty} \to A_{l}$ denote an injective function, i.e. for $a \neq b \implies g(a) \neq g(b)$.
+
+
 
 b.c. 
 $l=1$
