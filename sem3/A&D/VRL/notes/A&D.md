@@ -15,7 +15,8 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 - [x] peer grading 🔁 every week 📅 2024-10-14 ✅ 2024-10-09
 - [x] peer grading 🔁 every week 📅 2024-10-07 ✅ 2024-10-08
 - [x] peer grading 🔁 every week 📅 2024-09-30 ✅ 2024-09-30
-- [ ] moodle quiz 🔁 every week 📅 2024-10-28
+- [ ] moodle quiz 🔁 every week 📅 2024-11-04
+- [x] moodle quiz 🔁 every week 📅 2024-10-28 ✅ 2024-10-28
 - [x] moodle quiz 🔁 every week 📅 2024-10-21 ✅ 2024-10-21
 - [x] moodle quiz 🔁 every week 📅 2024-10-14 ✅ 2024-10-15
 - [-] moodle quiz 🔁 every week 📅 2024-10-07 ❌ 2024-10-07
