@@ -1,9 +1,9 @@
 
 - [[function]], special type of [[relation]]
 - [[domain]], [[codomain]], [[image]], [[range]]
-- set equinumerosity ([[equivalence relation]]) by bijection
-- set domination ([[transitive relation]]) by injection
-- finite, countably infinite and uncountably infinite
+- [[set equinumerosity]] ([[equivalence relation]]) by [[bijection]]
+- [[set domination]] ([[transitive relation]]) by [[injection]]
+- [[finite]], [[countably infinite]] and [[uncountably infinite]]
 
 # Notes
 
