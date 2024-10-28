@@ -9,11 +9,18 @@ $$
 **Hint:** For all $l \geq 1$ explicitly write an injection from a known uncountable set into $A_{l}$.
 
 
-induction
+b.c.
 
+
+
+
+induction on $l$ 
+
+set of predicates on $\mathbb{N}$ s.t. for all  sequences from zero of length k, at most 1+(k/l) is true
 
 
 theorem 3.23
 
 the set $\{ 0,1 \}^{\infty}$ is uncountable.
 the set of functions $f : \mathbb{N} \to \{ 0,1 \}$ is uncountable
+
