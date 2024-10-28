@@ -11,7 +11,7 @@ $$
 
 Let $A = \{ f : \mathbb{N} \to \{ 0,1 \} \}$.
 
-Let $g_{l} : \{ 0,1 \}^{\infty} \to A_{l}$ denote an injective function, i.e. for $a \neq b \implies g_{l}(a) \neq g_{l}(b)$.
+Let $g_{l} : A \to A_{l}$ denote an injective function, i.e. for $a \neq b \implies g_{l}(a) \neq g_{l}(b)$.
 
 
 
@@ -21,25 +21,7 @@ $l=1$
 The set $A_{1} = \left\{  f : \mathbb{N} \to \{ 0,1 \} \ \Big| \ \forall k\in \mathbb{N},\ \sum_{i=0}^{k}f(i) \leq k+1 \right\}$ is uncountable.
 
 Trivial, since sum can be at most $k+1$, thus all functions in the set satisfy the condition.
- so we can take the identity function
 
-
-
-i.h.
-$l=n$
-
-The set $A_{n} = \left\{  f : \mathbb{N} \to \{ 0,1 \} \ \Big| \ \forall k\in \mathbb{N},\ \sum_{i=0}^{k}f(i) \leq \frac{k}{n}+1 \right\}$ is uncountable.
-
-
-i.s.
-$l=n+1$
-
-The set $A_{n+1} = \left\{  f : \mathbb{N} \to \{ 0,1 \} \ \Big| \ \forall k\in \mathbb{N},\ \sum_{i=0}^{k}f(i) \leq \frac{k}{n+1}+1 \right\}$ is uncountable.
-
-
-
-
-induction on $l$ 
 
 set of predicates on $\mathbb{N}$ s.t. for all sequences from zero of length k, at most 1+(k/l) is true
 
