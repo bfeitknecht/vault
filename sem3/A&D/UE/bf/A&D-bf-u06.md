@@ -27,16 +27,14 @@ For $k=3$ there are two non-leaf nodes to consider. Per definition of fibonacci 
 
 **Induction Hypothesis** $k = h$
 
-We assume that $\exists h \in \mathbb{N}$ such that $I(h)$ holds.
+We assume that $\exists h \in \mathbb{N}$ such that $I(h)$ holds for $T_{h}$.
 
 
 **Induction Step** $k = h+1$
 
-We now show that $I(h+1)$ holds.
+We now show that $I(h+1)$ holds. The induction hypothesis that we assume to be true, guarantees that the root's left and right subtrees fulfill the invariants $I(k)$ and $I(k-1)$ respectively, per definition of fibonacci trees. 
 
-For this, we must only consider the root, since its left and right subtrees fulfill the invariants $I(k)$ and $I(k-1)$ respectively, per definition of fibonacci trees.
 
-The induction hypothesis that we assume to be true thus guarantees that 
 
 
 ## (f)
