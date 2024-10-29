@@ -409,7 +409,7 @@
         }
       },
       "active": "c1d4bca0b23a015c",
-      "mtime": "2024-10-28T14:40:25+01:00"
+      "mtime": "2024-10-29T09:57:55+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1234,8 +1234,8 @@
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w06.pdf",
                     "page": 2,
                     "left": -19,
-                    "top": 36,
-                    "zoom": 0.8504901960784315
+                    "top": 41,
+                    "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-plan-w06"
@@ -1476,7 +1476,7 @@
         }
       },
       "active": "cea4ac865f90d99d",
-      "mtime": "2024-10-25T13:37:39+02:00"
+      "mtime": "2024-10-29T09:58:04+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1544,7 +1544,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf"
+                    "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
+                    "page": 148,
+                    "left": -14,
+                    "top": 510,
+                    "zoom": 1.1229053798664481
                   },
                   "icon": "lucide-file-text",
                   "title": "hromkovic-TIN"
@@ -1696,8 +1700,8 @@
                 "state": {
                   "type": "git-view",
                   "state": {},
-                  "icon": "git-pull-request",
-                  "title": "Source Control"
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               },
               {
@@ -1706,8 +1710,8 @@
                 "state": {
                   "type": "toggl-report",
                   "state": {},
-                  "icon": "clock",
-                  "title": "Toggl Report"
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               },
               {
@@ -1718,6 +1722,16 @@
                   "state": {},
                   "icon": "lucide-file",
                   "title": "Plugin no longer active"
+                }
+              },
+              {
+                "id": "a9c4a9be6b92a53f",
+                "type": "leaf",
+                "state": {
+                  "type": "toggl-report",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Toggl Report"
                 }
               }
             ],
@@ -1730,8 +1744,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-excalidraw-plugin:Create new drawing": true,
-          "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
           "templates:Insert template": false,
@@ -1739,15 +1751,17 @@
           "cmdr:Export to PDF": false,
           "workspaces:Manage workspace layouts": false,
           "switcher:Open quick switcher": true,
+          "command-palette:Open command palette": true,
+          "obsidian-shellcommands:Shell commands: Custom variables": true,
+          "obsidian-git:Open Git source control": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "command-palette:Open command palette": true,
-          "obsidian-git:Open Git source control": true
+          "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
       "active": "460a120215f2d340",
-      "mtime": "2024-10-29T08:51:58+01:00"
+      "mtime": "2024-10-29T09:58:03+01:00"
     }
   },
   "active": "sem3-ti"

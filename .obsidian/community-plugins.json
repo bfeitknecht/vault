@@ -23,14 +23,14 @@
   "obsidian-cursor-location-plugin",
   "obsidian-git",
   "open-in-new-tab",
-  "pdf-plus",
   "obsidian-desmos",
-  "obsidian-latex-suite",
   "obsidian-latex",
   "omnisearch",
   "text-extractor",
   "code-styler",
   "obsidian-toggl-integration",
   "obsidian-excalidraw-plugin",
-  "vertical-tabs-view"
+  "vertical-tabs-view",
+  "obsidian-latex-suite",
+  "pdf-plus"
 ]
