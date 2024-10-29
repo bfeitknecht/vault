@@ -11,7 +11,8 @@ Linear Algebra concers itself with [[vector|vectors]], [[matrix|matrices]] and w
 - [x] bonus quiz 🔁 every week 📅 2024-10-08 ✅ 2024-10-03
 - [x] bonus quiz 🔁 every week 📅 2024-10-01 ✅ 2024-09-25
 - [x] bonus quiz 🔁 every week 📅 2024-09-24 ✅ 2024-09-22
-- [ ] exercise sheet 🔁 every week 📅 2024-10-29
+- [ ] exercise sheet 🔁 every week 📅 2024-11-05
+- [-] exercise sheet 🔁 every week 📅 2024-10-29 ❌ 2024-10-29
 - [x] exercise sheet 🔁 every week 📅 2024-10-22 ✅ 2024-10-23
 - [x] exercise sheet 🔁 every week 📅 2024-10-15 ✅ 2024-10-11
 - [-] exercise sheet 🔁 every week 📅 2024-10-08 ❌ 2024-10-09
