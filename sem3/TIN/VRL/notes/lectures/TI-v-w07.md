@@ -20,3 +20,4 @@ diagonalization argument to show that there is a language $L_{\text{dia}}$ with 
 - let $M=M_{i}$ be the canonical $i$-th TM
 - let $w_{i}$ be the canonical $i$-th word
 - contradiction: $w_{i}$ can't be in $L(m_{i})$ and $L_{\text{dia}}$ per definition
+
