@@ -45,7 +45,8 @@ Formally we define this as $M=(Q,\Gamma,\delta,q_{0M},F)$, where $Q=Q_{1} \cup Q
 
 countable union of finite sets is countable
 
-injection
+canonical ordering of chocolates yields bijection from N to C implies C~N
+
 
 just eat all the chocolates. if unclear ask dimi. put in queue and start eating, 
 
