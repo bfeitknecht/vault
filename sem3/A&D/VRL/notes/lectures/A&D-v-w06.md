@@ -6,5 +6,7 @@
 
 # Notes
 
-- bottom up generally more performant because tail call overhead of recursion
-- 
+- bottom up generally more performant because tail call recursion overhead
+- there might be multiple solutions to subproblems
+
+

@@ -408,8 +408,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "c1d4bca0b23a015c",
-      "mtime": "2024-10-29T11:18:46+01:00"
+      "active": "162e7a61651e562a",
+      "mtime": "2024-10-29T16:18:34+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1573,7 +1573,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "334b80dc2ab3a841",
@@ -1633,7 +1633,7 @@
                     "file": "sem3/TIN/UE/e/TI-e-u06.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 316,
+                    "top": 321,
                     "zoom": 0.898322794804427
                   },
                   "icon": "lucide-file-text",
@@ -1641,7 +1641,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1819,9 +1819,9 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "460a120215f2d340",
-      "mtime": "2024-10-29T15:49:50+01:00"
+      "active": "69231184b8d9bfd0",
+      "mtime": "2024-10-29T16:04:54+01:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-a&d"
 }
