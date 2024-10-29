@@ -46,9 +46,18 @@ Formally we define this as $M=(Q,\Gamma,\delta,q_{0M},F)$, where $Q=Q_{1} \cup Q
 diagonalization argument
 
 
+$$
+\begin{align}
+\begin{array}{a & & &}
+a
+\end{array}
+\end{align}
+$$
+
+
 ## (b)
 ![[TI-e-u06.pdf#page=2&rect=98,571,534,619|TI-e-u06, p.2]]
 
 dito
 
-This works because the kleenian star preserves set numerosity, i.e. $A^{*} \sim A$ 
+This works because the kleenian star operator preserves set numerosity, i.e. $A^{*} \sim A$ 
