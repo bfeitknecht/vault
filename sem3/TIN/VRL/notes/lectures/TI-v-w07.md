@@ -8,7 +8,7 @@
 homomorphism from $\mathrm{Code(\cdot)}$ to $\mathrm{Kod}(\cdot)$, i.e. alphabet $\{ 0, 1, \# \}$ to $\{ 0,1 \}$:
 - write $1$ as $11$
 - write $0$ as $00$
-- write $\#$ as $01$ or $10$
+- write $\#$ as either $01$ or $10$
 
 how to enumerate "all programs" of X:
 - enumerate over all words in alphabet of X
@@ -23,4 +23,7 @@ diagonalization argument to show that there is a language $L_{\text{dia}}$ with 
 
 TM only has one accepting state and one rejecting state!!
 this is because after we reach one of those states, we stop the computation
+
+
+
 
