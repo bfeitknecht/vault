@@ -43,22 +43,19 @@ Formally we define this as $M=(Q,\Gamma,\delta,q_{0M},F)$, where $Q=Q_{1} \cup Q
 ## (a)
 ![[TI-e-u06.pdf#page=2&rect=96,623,533,765|TI-e-u06, p.2]]
 
-diagonalization argument
+countable union of finite sets is countable
+
+injection
+
+just eat all the chocolates. if unclear ask dimi. put in queue and start eating, 
 
 
-$$
-\begin{align}
-\begin{array}{a & & &}
-a
-\end{array}
-\end{align}
-$$
 
 
 ## (b)
 ![[TI-e-u06.pdf#page=2&rect=98,571,534,619|TI-e-u06, p.2]]
 
-dito
+diagonalization
 
 because the union of a countably infinite list of countably infinite sets is countable per dmath
 

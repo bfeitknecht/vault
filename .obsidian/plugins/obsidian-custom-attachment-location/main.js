@@ -8729,6 +8729,9 @@ var EventWrapper = class {
       return "Note" /* Note */;
     }
     if (this.event.target.closest(".canvas-wrapper")) {
+      if (this.event.target.isContentEditable) {
+        return "Unsupported" /* Unsupported */;
+      }
       return "Canvas" /* Canvas */;
     }
     const canvasView = this.plugin.app.workspace.getActiveFileView();
