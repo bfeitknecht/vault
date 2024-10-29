@@ -22,17 +22,20 @@ Dennis Küenzi, 21-559-315
 
 Let $M_{1}, M_{2}$ be two non-deterministic finite automata such that $L_{1}=L(M_{1})$ and $L_{2}=L(M_{2})$. Then we construct a non-deterministic finite automaton $M$ as a product of $M_{1}$ and $M_{2}$ such that $L=L(M)$.
 
-Formally we define this as $M=(Q,\Gamma,\delta,q_{0M},F)$, where $Q=Q_{1} \cup Q_{2}$ denotes the finite set of states, $\Gamma= \{ a,b,c \}$ denotes the input alphabet, $\delta: Q \times \Gamma \to \mathcal{P}(Q)$ is the state transition function, $q_{0}=q_{0M_{1}}$ is the initial state and $F = \{ q_{c} \} \times F_{2}$ is the set of accepted states.
+Formally we define this as $M=(Q,\Gamma,\delta,q_{0M},F)$, where $Q=Q_{1} \cup Q_{2}$ denotes the finite set of states, $\Gamma= \{ a,b,c \}$ denotes the input alphabet, $\delta: Q \times \Gamma \to \mathcal{P}(Q)$ is the state transition function, $q_{0}=q_{0M_{1}}$ is the initial state and $F = F_{2}$ is the set of accepted states.
 
 
 
-M_1 and M_2 NEA 
-
-q0 is initial state of M_2, q_c is initial state of M_2
-
-state transition function from q in Q_1 to q_c with "c"
-
-informally this is correct because for any word to be accepted by M it has to be accepted in M_1 (is in L_1), then have a "c" (concat with "c") and then end with a word that is accepted (is in L_2). Thus M accepts L and thus L is regular
+> M_1 and M_2 NEA 
+> 
+> q0 is initial state of M_2
+> q_c is initial state of M_2
+> 
+> delta from q in Q_1 to q_c with "c"
+> otherwise delta_1 for q in Q_1
+> and delta_2 for q in Q_2
+> 
+> informally this is correct because for any word to be accepted by M it has to be accepted in M_1 (is in L_1), then have a "c" (concat with "c") and then end with a word that is accepted (is in L_2). Thus M accepts L and thus L is regular
 
 <div class="page-break" style="page-break-before: always;"></div>
 
