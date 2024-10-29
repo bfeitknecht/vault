@@ -21,3 +21,6 @@ diagonalization argument to show that there is a language $L_{\text{dia}}$ with 
 - let $w_{i}$ be the canonical $i$-th word
 - contradiction: $w_{i}$ can't be in $L(m_{i})$ and $L_{\text{dia}}$ per definition
 
+TM only has one accepting state and one rejecting state!!
+this is because after we reach one of those states, we stop the computation
+
