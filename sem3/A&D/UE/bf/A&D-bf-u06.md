@@ -2,12 +2,11 @@
 Antonia Tomova, 23-957-590,
 Basil Feitknecht, 23-922-099
 
-
 # 6.1
 ![[A&D-e-u06.pdf#page=1&rect=68,300,533,497|A&D-e-u06, p.1]]
 
 ## (e)
-![[A&D-e-u06.pdf#page=1&rect=84,117,533,168|A&D-e-u06, p.1]]
+![[A&D-e-u06.pdf#page=1&rect=84,95,534,148|A&D-e-u06, p.1]]
 
 We use induction on $h = \mathrm{height}(T_{k})$ to prove that the statement holds for all $k \in \mathbb{N}$.
 
@@ -34,18 +33,18 @@ exists a height s.t. equality holds for left and right subtree
 
 
 ## (f)
-![[A&D-e-u06.pdf#page=1&rect=87,80,534,113|A&D-e-u06, p.1]]
-![[A&D-e-u06.pdf#page=2&rect=86,756,523,773|A&D-e-u06, p.2]]
+![[A&D-e-u06.pdf#page=2&rect=84,722,527,772|A&D-e-u06, p.2]]
+
 
 probably something with the last tree..
 
 
 
 # 6.3
-![[A&D-e-u06.pdf#page=2&rect=65,126,525,233|A&D-e-u06, p.2]]
+![[A&D-e-u06.pdf#page=2&rect=66,87,527,199|A&D-e-u06, p.2]]
 
 ## (a)
-![[A&D-e-u06.pdf#page=2&rect=85,96,526,126|A&D-e-u06, p.2]]
+![[A&D-e-u06.pdf#page=3&rect=85,740,526,772|A&D-e-u06, p.3]]
 
 ```
 function A(n)
@@ -62,33 +61,39 @@ end
 
 
 ## (b)
-![[A&D-e-u06.pdf#page=3&rect=84,755,524,772|A&D-e-u06, p.3]]
+![[A&D-e-u06.pdf#page=3&rect=85,720,527,741|A&D-e-u06, p.3]]
+
 
 probably $2^{n}$
 
 
 ## (c)
-![[A&D-e-u06.pdf#page=3&rect=85,720,526,750|A&D-e-u06, p.3]]
+![[A&D-e-u06.pdf#page=3&rect=84,687,527,718|A&D-e-u06, p.3]]
+
 
 ## (d)
-![[A&D-e-u06.pdf#page=3&rect=85,528,532,717|A&D-e-u06, p.3]]
+![[A&D-e-u06.pdf#page=3&rect=84,490,528,682|A&D-e-u06, p.3]]
+
 
 
 
 
 # 6.4
-![[A&D-e-u06.pdf#page=3&rect=64,297,532,423|A&D-e-u06, p.3]]
+![[A&D-e-u06.pdf#page=3&rect=65,265,531,392|A&D-e-u06, p.3]]
+
 
 ## (a)
-![[A&D-e-u06.pdf#page=3&rect=84,116,533,295|A&D-e-u06, p.3]]
+![[A&D-e-u06.pdf#page=3&rect=83,90,531,265|A&D-e-u06, p.3]]
+
 
 
 
 ## (b)
-![[A&D-e-u06.pdf#page=4&rect=83,570,537,774|A&D-e-u06, p.4]]
+![[A&D-e-u06.pdf#page=4&rect=83,575,529,771|A&D-e-u06, p.4]]
 
 
 
 ## (c)
-![[A&D-e-u06.pdf#page=4&rect=84,406,538,569|A&D-e-u06, p.4]]
+![[A&D-e-u06.pdf#page=4&rect=84,405,529,570|A&D-e-u06, p.4]]
+
 
