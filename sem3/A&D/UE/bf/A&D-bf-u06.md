@@ -8,28 +8,35 @@ Basil Feitknecht, 23-922-099
 ## (e)
 ![[A&D-e-u06.pdf#page=1&rect=84,95,534,148|A&D-e-u06, p.1]]
 
-We use induction on $h = \mathrm{height}(T_{k})$ to prove that the statement holds for all $k \in \mathbb{N}$.
+To begin we'll formulate the statement to prove as an invariant. Let's define the invariant that denotes for any non-leaf node in the tree $T_{k}$, the absolute difference between its left and right subtrees' heights is exactly equal to one as follows.
+$$
+I(k) = \forall u \in T_{k}, \mathrm{deg}_{\text{out}}(u) \neq 0 : |h_{l}(u)-h_{r}(u)|=1
+$$
 
-formulate invariant $I(h) = \text{"blabla"}$
-
-
-
-**Base Case** $h \leq 3$
-
-no leafs -> trivially holds (T_1) :: n = 1
-only one child -> only one subtree -> holds :: n = 2
-two children -> holds per n=2 and root also holds :: n = 3
+We use the fact from $\text{(c)}$ that $\forall k \in \mathbb{N} : \mathrm{height}(T_{k}) = k$ and prove $I(k)$ by induction on $k$.
 
 
-**Induction Hypothesis** $h = h'$
+**Base Case** $k \leq 3$
 
-exists a height s.t. equality holds for left and right subtree
+For $k=1$ we have only one node, namely the root, which is a leaf. Hence $I(1)$ holds trivially.
+
+For $k=2$, we have the root node which is not a leaf. It's left subtree consists of a single leaf, whereas its right subtree doesn't exist and thus has height zero. Then $|1-0|=1$ and $I(2)$ holds.
+
+For $k=3$ there are two non-leaf nodes to consider. Per definition of fibonacci trees, the invariant holds for the subtree rooted at the left child of the root in $T_{3}$, since it's identical to $T_{2}$, which we've just covered before. Then for the root, we consider the absolute difference of its left and right subtrees' heights, which is $|2-1|=1$ so the invariant also holds. Thus $I(3)$ holds.
 
 
+**Induction Hypothesis** $k = h$
 
-**Induction Step** $h = h'+1$
+We assume that $\exists h \in \mathbb{N}$ such that $I(h)$ holds.
 
 
+**Induction Step** $k = h+1$
+
+We now show that $I(h+1)$ holds.
+
+For this, we must only consider the root, since its left and right subtrees fulfill the invariants $I(k)$ and $I(k-1)$ respectively, per definition of fibonacci trees.
+
+The induction hypothesis that we assume to be true thus guarantees that 
 
 
 ## (f)
