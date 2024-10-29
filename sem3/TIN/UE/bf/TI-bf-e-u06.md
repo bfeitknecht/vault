@@ -60,4 +60,7 @@ $$
 
 dito
 
+because the union of a countably infinite list of countably infinite sets is countable per dmath
+
+
 This works because the kleenian star operator preserves set numerosity, i.e. $A^{*} \sim A$ 
