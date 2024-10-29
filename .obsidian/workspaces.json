@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "36593eb93aff2264",
+            "id": "12faf9e954122148",
             "type": "tabs",
             "children": [
               {
-                "id": "a907a92a1d627b3d",
+                "id": "a5c8ae8156d011c9",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -187,8 +187,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "a907a92a1d627b3d",
-      "mtime": "2024-10-27T18:35:45+01:00"
+      "active": "a5c8ae8156d011c9",
+      "mtime": "2024-10-29T15:53:04+01:00"
     },
     "00-home": {
       "main": {
@@ -1586,7 +1586,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf"
+                    "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
+                    "page": 88,
+                    "left": -14,
+                    "top": 372,
+                    "zoom": 1.1229053798664483
                   },
                   "icon": "lucide-file-text",
                   "title": "hromkovic-TIN"
@@ -1629,30 +1633,15 @@
                     "file": "sem3/TIN/UE/e/TI-e-u06.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 312,
+                    "top": 316,
                     "zoom": 0.898322794804427
                   },
                   "icon": "lucide-file-text",
                   "title": "TI-e-u06"
                 }
-              },
-              {
-                "id": "0b1d7e4f61e48430",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "var/other/LATEX.pdf",
-                    "page": 4,
-                    "left": -18,
-                    "top": 717,
-                    "zoom": 0.898322794804427
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "LATEX"
-                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1831,7 +1820,7 @@
         }
       },
       "active": "460a120215f2d340",
-      "mtime": "2024-10-29T14:31:43+01:00"
+      "mtime": "2024-10-29T15:49:50+01:00"
     }
   },
   "active": "sem3-ti"
