@@ -1,5 +1,5 @@
 
-- [[turing machine]]
+- [[turing machine (TM)]]
 - [[mutli tape turing machine]]
 - [[recursive language]]
 - equivalence of turing machines
