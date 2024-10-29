@@ -1,6 +1,6 @@
 
 - encoding of TM
-- 
+- non-recursive language by diagonalization argument
 
 
 # Notes
@@ -15,3 +15,10 @@ how to enumerate "all programs" of X:
 - test syntax correctness (with compiler, static analysis)
 - whenever pass, increment lexicographical order counter
 
+diagonalization argument to show that there is a language $L_{\text{dia}}$ with no TM, i.e. $l_{\text{dia}} \not\in \mathcal{L}_{\text{RE}}$.
+- assume there exists a TM $M$ s.t. $L(M) = L_{\text{dia}}$
+- let $M=M_{i}$ be the canonical $i$-th TM
+- let $w_{i}$ be the canonical $i$-th word
+- contradiction: $w_{i}$ can't be in $L(m_{i})$ and $L_{\text{dia}}$ per definition
+
+ 
