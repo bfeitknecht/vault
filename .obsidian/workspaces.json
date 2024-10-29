@@ -1503,20 +1503,6 @@
                 }
               },
               {
-                "id": "0a097ce890cfaa7a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w05.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "TI-v-w05"
-                }
-              },
-              {
                 "id": "b4902097fba66c9b",
                 "type": "leaf",
                 "state": {
@@ -1528,6 +1514,20 @@
                   },
                   "icon": "lucide-file",
                   "title": "TI-v-w06"
+                }
+              },
+              {
+                "id": "460a120215f2d340",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w07.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "TI-v-w07"
                 }
               }
             ],
@@ -1544,9 +1544,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf"
                   },
                   "icon": "lucide-file-text",
                   "title": "hromkovic-TIN"
@@ -1572,16 +1570,15 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/turing machine.md",
+                    "file": "wiki/turing machine (TM).md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "turing machine"
+                  "title": "turing machine (TM)"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -1749,8 +1746,8 @@
           "obsidian-git:Open Git source control": true
         }
       },
-      "active": "cce861cb746acb6a",
-      "mtime": "2024-10-28T09:21:55+01:00"
+      "active": "460a120215f2d340",
+      "mtime": "2024-10-29T08:51:58+01:00"
     }
   },
   "active": "sem3-ti"
