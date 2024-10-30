@@ -116,10 +116,10 @@ Its runtime is now linear, $T(n)=\Theta(n)$.
 $\square$
 
 ## (d)
-![[A&D-e-u06.pdf#page=3&rect=84,490,528,682|A&D-e-u06, p.3]]
+![[A&D-e-u06.pdf#page=3&rect=85,667,513,682|A&D-e-u06, p.3]]
 
 1. The *dimensions* of the DP table are $1 \times n$
-2. The *entry* $A[i]$ is the term $A_{i}$
+2. The *entry* $A[i]$ denotes the term $A_{i}$
 3. The *recurrence relation* is given by $A[i]=\begin{cases} i,&\text{if }i\leq2\\ \frac{A[i-1]+A[i-2]}{2},&\text{if }2<i\equiv_{2}1 \\ \frac{2}{\frac{1}{A[i-2]}+\frac{1}{A[i-1]}},&\text{else}\end{cases}$
 4. The *calculation order* is the canonical order of $i \in \mathbb{N}$
 5. The *solution* can be extracted from $A[n]$ after the calculations
@@ -134,10 +134,11 @@ $\square$
 ## (a)
 ![[A&D-e-u06.pdf#page=3&rect=83,90,531,265|A&D-e-u06, p.3]]
 
-$R[1..n ] = [3, 5, 3, 4, 2, -1, 4, 5, -2, 4]$
-
-
-
+The array $R[1..n]$ is given below.
+$$
+R[1..n ] = [3, 5, 3, 4, 2, -1, 4, 5, -2, 4]
+$$
+$\square$
 
 ## (b)
 ![[A&D-e-u06.pdf#page=4&rect=83,575,529,771|A&D-e-u06, p.4]]
@@ -148,4 +149,7 @@ $R[1..n ] = [3, 5, 3, 4, 2, -1, 4, 5, -2, 4]$
 ## (c)
 ![[A&D-e-u06.pdf#page=4&rect=84,405,529,570|A&D-e-u06, p.4]]
 
-
+The array $S[1..n]$ is given below.
+$$
+S[1..n] = [5, 2, 0, 2, 1, 3, 6, 2, 1, 4]
+$$
