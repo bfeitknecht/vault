@@ -10,3 +10,5 @@
 ![[LinAlg-plan-w06.pdf]]
 
 # Notes
+
+every finite vector space has a finite dimension, i.e. every base that spans (generates) the vector space has the same cardinality
