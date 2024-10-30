@@ -242,8 +242,19 @@
                   "icon": "lucide-git-fork",
                   "title": "Graph view"
                 }
+              },
+              {
+                "id": "82aba008232549f1",
+                "type": "leaf",
+                "state": {
+                  "type": "custom-frames-calendar",
+                  "state": {},
+                  "icon": "lucide-calendar-clock",
+                  "title": "Calendar"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -378,8 +389,8 @@
                 "state": {
                   "type": "vertical-tabs-view",
                   "state": {},
-                  "icon": "list",
-                  "title": "Vertical Tabs"
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               }
             ],
@@ -392,7 +403,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-excalidraw-plugin:Create new drawing": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
           "templates:Insert template": false,
@@ -408,8 +418,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "c1d4bca0b23a015c",
-      "mtime": "2024-10-30T11:15:00+01:00"
+      "active": "82aba008232549f1",
+      "mtime": "2024-10-30T11:15:39+01:00"
     },
     "sem3-a&d": {
       "main": {
