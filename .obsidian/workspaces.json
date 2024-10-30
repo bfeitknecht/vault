@@ -754,7 +754,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "f002029a56c7a80a",
@@ -767,11 +767,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 82,
-                    "left": -12,
-                    "top": 78,
-                    "zoom": 1.27107129917431
+                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf"
                   },
                   "icon": "lucide-file-text",
                   "title": "dmath-script-hs24"
@@ -790,9 +786,24 @@
                   "icon": "lucide-file",
                   "title": "function"
                 }
+              },
+              {
+                "id": "e1eccf4db2f37aca",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/DMath/UE/e/DMath-e-u06.pdf",
+                    "page": 1,
+                    "left": -12,
+                    "top": 735,
+                    "zoom": 0.91
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "DMath-e-u06"
+                }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -954,7 +965,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-excalidraw-plugin:Create new drawing": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
@@ -970,8 +980,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "d1f52e9d83a22a7d",
-      "mtime": "2024-10-30T11:16:34+01:00"
+      "active": "54108993f3595715",
+      "mtime": "2024-10-30T15:47:53+01:00"
     },
     "sem3-eprog": {
       "main": {
