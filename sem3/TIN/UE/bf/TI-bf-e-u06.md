@@ -47,16 +47,17 @@ To prove that there is a strategy that *the taster* can use to eat all chocolate
 
 Let $i \in \mathbb{N}$ denote the $i$-th round of the game and $C_{i}=\{ c_{j \in [n_{i}]} \}$ be the set of $|C_{i}|=n_{i} \in \mathbb{N}$ chocolates served in that round. Then $C =\bigcup_{i \in \mathbb{N}}C_{i}$ denotes the set of all chocolates served during the whole game. So we denote the $j$-th chocolate in the $i$-th round with $c_{ij}=c_{j} \in C_{i}$. 
 
-
-Define lexicographic order which implies Total order 
-
-
-Then we define the injection $f : C \to \mathbb{N}$ as follows.
+We define the lexicographic total order on $C$ below.
 $$
-f(c_{ij}) = 
+c_{ij} \leq_{\text{lex}} c_{i'j'} \iff i < i' \lor (i = i' \land j < j')
 $$
 
-Thus $C \sim \mathbb{N}$.
+Since this passes as a canonical order also, we define the injection $f : C \to \mathbb{N}$ as follows.
+$$
+f(c_{ij}) = \text{"canonical index $k \in \mathbb{N}$ of $c_{ij}$"}
+$$
+
+Thus it follows that $C \sim \mathbb{N}$ and hence the strategy described above is corr
 
 
 
