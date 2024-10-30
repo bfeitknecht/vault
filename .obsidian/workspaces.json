@@ -409,7 +409,7 @@
         }
       },
       "active": "162e7a61651e562a",
-      "mtime": "2024-10-30T11:16:31+01:00"
+      "mtime": "2024-10-30T17:52:53+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1594,12 +1594,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/TIN/UE/bf/TI-bf-e-u06.md",
+                    "file": "sem3/TIN/UE/bf/TI-bf-u06.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "TI-bf-e-u06"
+                  "title": "TI-bf-u06"
                 }
               }
             ],
@@ -1616,7 +1616,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf"
+                    "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
+                    "page": 142,
+                    "left": -14,
+                    "top": 130,
+                    "zoom": 1.1229053798664481
                   },
                   "icon": "lucide-file-text",
                   "title": "hromkovic-TIN"
@@ -1648,38 +1652,6 @@
                   },
                   "icon": "lucide-file",
                   "title": "turing machine (TM)"
-                }
-              },
-              {
-                "id": "b4782571f81cd99b",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/TIN/UE/e/TI-e-u06.pdf",
-                    "page": 1,
-                    "left": -18,
-                    "top": 331,
-                    "zoom": 0.898322794804427
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "TI-e-u06"
-                }
-              },
-              {
-                "id": "3253d8499fead2e9",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 73,
-                    "left": -12,
-                    "top": 612,
-                    "zoom": 1.2746467458667836
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "dmath-script-hs24"
                 }
               }
             ]
@@ -1856,12 +1828,13 @@
           "obsidian-git:Open Git source control": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "69231184b8d9bfd0",
-      "mtime": "2024-10-30T17:30:01+01:00"
+      "active": "863aa1cf19e4e3a1",
+      "mtime": "2024-10-30T17:57:34+01:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-a&d"
 }
