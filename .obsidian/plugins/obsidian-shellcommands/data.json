@@ -113,8 +113,8 @@
         }
       },
       "debounce": {
-        "executeEarly": false,
-        "executeLate": true,
+        "executeEarly": true,
+        "executeLate": false,
         "cooldownDuration": 0,
         "prolongCooldown": false
       },

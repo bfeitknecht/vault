@@ -507,8 +507,8 @@
                   "state": {
                     "file": "sem3/A&D/UE/e/A&D-e-u06.pdf",
                     "page": 3,
-                    "left": -18,
-                    "top": 537,
+                    "left": -4,
+                    "top": 542,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
@@ -584,8 +584,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 289.5,
-        "collapsed": true
+        "width": 289.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -684,8 +683,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "bb49af5047bb51c6",
-      "mtime": "2024-10-30T14:14:10+01:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-10-30T16:30:34+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -767,7 +766,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf"
+                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
+                    "page": 97,
+                    "left": -12,
+                    "top": 543,
+                    "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
                   "title": "dmath-script-hs24"
@@ -977,11 +980,12 @@
           "obsidian-git:Open Git source control": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "obsidian-excalidraw-plugin:Create new drawing": false
         }
       },
       "active": "54108993f3595715",
-      "mtime": "2024-10-30T15:47:53+01:00"
+      "mtime": "2024-10-30T15:57:55+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1849,5 +1853,5 @@
       "mtime": "2024-10-30T11:16:38+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-ti"
 }

@@ -43,9 +43,21 @@ Formally we define this as $M=(Q,\Gamma,\delta,q_{0M},F)$, where $Q=Q_{1} \cup Q
 ## (a)
 ![[TI-e-u06.pdf#page=2&rect=96,623,533,765|TI-e-u06, p.2]]
 
-countable union of finite sets is countable
+To prove that there is a strategy that *the taster* can use to eat all chocolates, we must show that the set of chocolates served to her is equinumerous to the number of rounds.
 
-canonical ordering of chocolates yields bijection from N to C implies C~N
+Let $i \in \mathbb{N}$ denote the $i$-th round of the game and $C_{i}=\{ c_{j \in [n_{i}]} \}$ be the set of $|C_{i}|=n_{i} \in \mathbb{N}$ chocolates served in that round. Then $C =\bigcup_{i \in \mathbb{N}}C_{i}$ denotes the set of all chocolates served during the whole game. So we denote the $j$-th chocolate in the $i$-th round with $c_{ij}=c_{j} \in C_{i}$. 
+
+
+Define lexicographic order which implies Total order 
+
+
+Then we define the injection $f : C \to \mathbb{N}$ as follows.
+$$
+f(c_{ij}) = 
+$$
+
+Thus $C \sim \mathbb{N}$.
+
 
 
 just eat all the chocolates. if unclear ask dimi. put in queue and start eating, 
@@ -62,3 +74,23 @@ because the union of a countably infinite list of countably infinite sets is cou
 
 
 This works because the kleenian star operator preserves set numerosity, i.e. $A^{*} \sim A$ 
+
+
+
+
+## (a)
+I will give each chocolate in each round an id. chocolate$_{i,j}$ where $i$ is the round number and $j$ is the x-th chocolate that the chocolatier brings out. Now I start eating from chocholate$_{1,1}$ till chocolate$_{1,n}$ where n is the amount of chocolates that the chocolatier brought out in the round. And because there are infinite round I will eat all of the chocolate.
+
+
+## (b)
+Instead eating all the chocolates from the first round and then the second and then the third ...
+We could eat them in a different order. We make a table out of the chocolates with $i$ being the row and $j$ being the column. Then we eat them in a diagonal order:
+First chocolate$_{1,1}$ then chocolate$_{2,1}$ then chocolate$_{1,2}$ then chocolate$_{3,1}$ then chocolate$_{2,2}$ ...
+
+| (1,1)    | (1,2)    | (1,3)    | $\dots$  |
+| -------- | -------- | -------- | -------- |
+| (2,1)    | (2,2)    | (2,3)    | $\dots$  |
+| (3,1)    | (3,2)    | (3,3)    | $\dots$  |
+| $\vdots$ | $\vdots$ | $\vdots$ | $\ddots$ |
+
+So because we eat infinitly long we will eat all the chocolate that the chocolatier brings us.
