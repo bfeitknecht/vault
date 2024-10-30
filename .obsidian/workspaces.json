@@ -1263,8 +1263,8 @@
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w06.pdf",
                     "page": 1,
-                    "left": -19,
-                    "top": 756,
+                    "left": -4,
+                    "top": 766,
                     "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
@@ -1321,7 +1321,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1520,7 +1520,7 @@
         }
       },
       "active": "490cb4cdb013deb3",
-      "mtime": "2024-10-30T11:16:36+01:00"
+      "mtime": "2024-10-30T12:54:47+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1839,5 +1839,5 @@
       "mtime": "2024-10-30T11:16:38+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-a&d"
 }
