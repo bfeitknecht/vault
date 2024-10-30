@@ -477,7 +477,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "b892157de5799d94",
@@ -508,7 +508,7 @@
                     "file": "sem3/A&D/UE/e/A&D-e-u06.pdf",
                     "page": 3,
                     "left": -18,
-                    "top": 533,
+                    "top": 537,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
@@ -684,8 +684,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "7b155fdd6501c232",
-      "mtime": "2024-10-30T11:16:40+01:00"
+      "active": "bb49af5047bb51c6",
+      "mtime": "2024-10-30T14:14:10+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1839,5 +1839,5 @@
       "mtime": "2024-10-30T11:16:38+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-dmath"
 }
