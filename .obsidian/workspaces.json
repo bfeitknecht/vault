@@ -1616,11 +1616,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
-                    "page": 88,
-                    "left": -14,
-                    "top": 372,
-                    "zoom": 1.1229053798664483
+                    "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf"
                   },
                   "icon": "lucide-file-text",
                   "title": "hromkovic-TIN"
@@ -1663,15 +1659,30 @@
                     "file": "sem3/TIN/UE/e/TI-e-u06.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 326,
+                    "top": 331,
                     "zoom": 0.898322794804427
                   },
                   "icon": "lucide-file-text",
                   "title": "TI-e-u06"
                 }
+              },
+              {
+                "id": "3253d8499fead2e9",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
+                    "page": 73,
+                    "left": -12,
+                    "top": 612,
+                    "zoom": 1.2746467458667836
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "dmath-script-hs24"
+                }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "vertical"
@@ -1845,12 +1856,11 @@
           "obsidian-git:Open Git source control": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true,
-          "obsidian-excalidraw-plugin:Create new drawing": true
+          "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
       "active": "69231184b8d9bfd0",
-      "mtime": "2024-10-30T11:16:38+01:00"
+      "mtime": "2024-10-30T17:30:01+01:00"
     }
   },
   "active": "sem3-ti"
