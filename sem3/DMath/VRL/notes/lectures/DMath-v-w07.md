@@ -6,6 +6,7 @@
 - remainder of division in the real numbers, $R_{m}(a)$
 - greatest common divisor (gcd)
 - least common multiple (lcm)
+- chinese remainder theorem
 
 
 
@@ -14,3 +15,4 @@
 a ring is a set closed under two binary operations with inverse element
 
 congruence per modulo over ring
+
