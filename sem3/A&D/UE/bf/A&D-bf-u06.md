@@ -144,7 +144,7 @@ $\square$
 ![[A&D-e-u06.pdf#page=4&rect=83,575,529,771|A&D-e-u06, p.4]]
 
 
-
+#todo
 
 ## (c)
 ![[A&D-e-u06.pdf#page=4&rect=84,405,529,570|A&D-e-u06, p.4]]
@@ -153,3 +153,4 @@ The array $S[1..n]$ is given below.
 $$
 S[1..n] = [5, 2, 0, 2, 1, 3, 6, 2, 1, 4]
 $$
+#todo 

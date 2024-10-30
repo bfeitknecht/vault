@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "12faf9e954122148",
+            "id": "a9a229cc754e3d06",
             "type": "tabs",
             "children": [
               {
-                "id": "a5c8ae8156d011c9",
+                "id": "a4fd1789921ffdfe",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -187,8 +187,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "a5c8ae8156d011c9",
-      "mtime": "2024-10-29T15:53:04+01:00"
+      "active": "a4fd1789921ffdfe",
+      "mtime": "2024-10-30T11:15:13+01:00"
     },
     "00-home": {
       "main": {
@@ -408,8 +408,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "162e7a61651e562a",
-      "mtime": "2024-10-29T16:18:34+01:00"
+      "active": "c1d4bca0b23a015c",
+      "mtime": "2024-10-30T11:15:00+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -477,7 +477,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "b892157de5799d94",
@@ -491,9 +491,9 @@
                   "state": {
                     "file": "sem3/A&D/VRL/script/A&D-script-w05-ADT.pdf",
                     "page": 21,
-                    "left": -23,
-                    "top": 300,
-                    "zoom": 0.6916959528017257
+                    "left": 40,
+                    "top": 330,
+                    "zoom": 1.26
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-script-w05-ADT"
@@ -506,10 +506,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/A&D/UE/e/A&D-e-u06.pdf",
-                    "page": 1,
-                    "left": -18,
-                    "top": 564,
-                    "zoom": 0.8743843192065531
+                    "page": 3,
+                    "left": 50,
+                    "top": 524,
+                    "zoom": 1.1
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-e-u06"
@@ -684,8 +684,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "bb49af5047bb51c6",
-      "mtime": "2024-10-29T20:47:46+01:00"
+      "active": "7b155fdd6501c232",
+      "mtime": "2024-10-30T10:58:58+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1264,7 +1264,7 @@
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w06.pdf",
                     "page": 1,
                     "left": -19,
-                    "top": 796,
+                    "top": 756,
                     "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
@@ -1520,7 +1520,7 @@
         }
       },
       "active": "490cb4cdb013deb3",
-      "mtime": "2024-10-29T11:19:30+01:00"
+      "mtime": "2024-10-30T11:10:59+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1839,5 +1839,5 @@
       "mtime": "2024-10-29T16:04:54+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "00-home"
 }
