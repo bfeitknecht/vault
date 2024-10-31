@@ -1278,9 +1278,9 @@
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w06.pdf",
                     "page": 5,
-                    "left": -23,
-                    "top": 91,
-                    "zoom": 0.6384803921568627
+                    "left": -19,
+                    "top": 49,
+                    "zoom": 0.8504901960784316
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-plan-w06"
@@ -1336,22 +1336,6 @@
                 }
               },
               {
-                "id": "e46c240e8106d0a8",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem1/LinAlg/VRL/extra/kzheng/LinAlg-w06-kai.pdf",
-                    "page": 11,
-                    "left": -23,
-                    "top": 23,
-                    "zoom": 0.6562374042724707
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "LinAlg-w06-kai"
-                }
-              },
-              {
                 "id": "354b99c8eff49866",
                 "type": "leaf",
                 "state": {
@@ -1359,12 +1343,26 @@
                   "state": {
                     "file": "sem1/LinAlg/VRL/extra/kzheng/LinAlg-w07-kai.pdf",
                     "page": 12,
-                    "left": -3,
-                    "top": 378,
-                    "zoom": 0.7
+                    "left": 11,
+                    "top": 302,
+                    "zoom": 0.99
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-w07-kai"
+                }
+              },
+              {
+                "id": "d9b23b27c084ac74",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/gauss-jordan elimination.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "gauss-jordan elimination"
                 }
               }
             ],
@@ -1436,7 +1434,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5
+        "width": 346.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1565,8 +1564,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "354b99c8eff49866",
-      "mtime": "2024-10-31T07:09:06+01:00"
+      "active": "d9b23b27c084ac74",
+      "mtime": "2024-10-31T10:20:22+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1868,5 +1867,5 @@
       "mtime": "2024-10-30T17:57:34+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-a&d"
 }
