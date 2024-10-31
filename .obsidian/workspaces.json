@@ -491,8 +491,8 @@
                   "state": {
                     "file": "sem3/A&D/VRL/script/A&D-script-w05-ADT.pdf",
                     "page": 21,
-                    "left": 40,
-                    "top": 330,
+                    "left": 36,
+                    "top": 334,
                     "zoom": 1.26
                   },
                   "icon": "lucide-file-text",
@@ -500,19 +500,29 @@
                 }
               },
               {
-                "id": "c113a1fb34c7a594",
+                "id": "153406daa848d6dc",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/A&D/UE/e/A&D-e-u06.pdf",
-                    "page": 4,
-                    "left": -18,
-                    "top": 810,
-                    "zoom": 0.8743843192065531
+                    "file": "sem3/A&D/UE/e/A&D-e-u06.pdf"
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-e-u06"
+                }
+              },
+              {
+                "id": "8cd6fd7d2f9075ec",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/A&D/UE/e/A&D-e-u05.pdf",
+                    "page": 2,
+                    "zoom": -0.05039679073236617
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "A&D-e-u05"
                 }
               }
             ],
@@ -584,8 +594,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 289.5,
-        "collapsed": true
+        "width": 289.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -680,12 +689,11 @@
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
           "command-palette:Open command palette": true,
-          "workspaces:Manage workspace layouts": false,
-          "obsidian-excalidraw-plugin:Create new drawing": true
+          "workspaces:Manage workspace layouts": false
         }
       },
       "active": "bb49af5047bb51c6",
-      "mtime": "2024-10-30T22:12:18+01:00"
+      "mtime": "2024-10-31T10:22:33+01:00"
     },
     "sem3-dmath": {
       "main": {
