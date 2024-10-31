@@ -409,7 +409,7 @@
         }
       },
       "active": "162e7a61651e562a",
-      "mtime": "2024-10-31T07:09:10+01:00"
+      "mtime": "2024-10-31T11:37:20+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -505,7 +505,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/A&D/UE/e/A&D-e-u06.pdf"
+                    "file": "sem3/A&D/UE/e/A&D-e-u06.pdf",
+                    "page": 1,
+                    "left": -18,
+                    "top": 402,
+                    "zoom": 0.874384319206553
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-e-u06"
@@ -692,11 +696,12 @@
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
           "command-palette:Open command palette": true,
-          "workspaces:Manage workspace layouts": false
+          "workspaces:Manage workspace layouts": false,
+          "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
       "active": "bb49af5047bb51c6",
-      "mtime": "2024-10-31T11:35:54+01:00"
+      "mtime": "2024-10-31T11:37:12+01:00"
     },
     "sem3-dmath": {
       "main": {
