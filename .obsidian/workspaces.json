@@ -409,7 +409,7 @@
         }
       },
       "active": "162e7a61651e562a",
-      "mtime": "2024-10-30T17:52:53+01:00"
+      "mtime": "2024-10-31T07:09:10+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -506,9 +506,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/A&D/UE/e/A&D-e-u06.pdf",
-                    "page": 3,
-                    "left": -4,
-                    "top": 542,
+                    "page": 4,
+                    "left": -18,
+                    "top": 810,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
@@ -584,7 +584,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 289.5
+        "width": 289.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -683,8 +684,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2024-10-30T16:30:34+01:00"
+      "active": "bb49af5047bb51c6",
+      "mtime": "2024-10-30T22:12:18+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1276,17 +1277,17 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w06.pdf",
-                    "page": 1,
-                    "left": -4,
-                    "top": 766,
-                    "zoom": 0.8504901960784313
+                    "page": 5,
+                    "left": -23,
+                    "top": 91,
+                    "zoom": 0.6384803921568627
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-plan-w06"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "740ad403278fbd52",
@@ -1333,9 +1334,41 @@
                   "icon": "lucide-file",
                   "title": "LU decomposition"
                 }
+              },
+              {
+                "id": "e46c240e8106d0a8",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/LinAlg/VRL/extra/kzheng/LinAlg-w06-kai.pdf",
+                    "page": 11,
+                    "left": -23,
+                    "top": 23,
+                    "zoom": 0.6562374042724707
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LinAlg-w06-kai"
+                }
+              },
+              {
+                "id": "354b99c8eff49866",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/LinAlg/VRL/extra/kzheng/LinAlg-w07-kai.pdf",
+                    "page": 12,
+                    "left": -3,
+                    "top": 378,
+                    "zoom": 0.7
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LinAlg-w07-kai"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -1403,8 +1436,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1533,8 +1565,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "490cb4cdb013deb3",
-      "mtime": "2024-10-30T12:54:47+01:00"
+      "active": "354b99c8eff49866",
+      "mtime": "2024-10-31T07:09:06+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1836,5 +1868,5 @@
       "mtime": "2024-10-30T17:57:34+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-linalg"
 }

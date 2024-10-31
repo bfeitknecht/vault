@@ -3,5 +3,7 @@ The process of **LU decomposition** $A=LU$ for some $m \times n$ [[matrix]] $A$,
 
 In the lower triangular matrix all elements above the diagonal are zero, in the upper triangular matrix, all the elements below the diagonal are zero.
 
-
 ![[LinAlg-plan-w05.pdf#page=1&rect=69,281,453,610|LinAlg-plan-w05, p.1]]
+
+
+
