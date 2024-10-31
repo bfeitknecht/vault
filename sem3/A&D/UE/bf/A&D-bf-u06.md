@@ -180,13 +180,18 @@ R[1..n ] = [3, 5, 3, 4, 2, -1, 4, 5, 2, 6]
 $$
 $\square$
 
+
 ## (b)
 ![[A&D-e-u06.pdf#page=4&rect=83,592,529,771|A&D-e-u06, p.4]]
 
 The array $R'[1..n]$ is given below.
 $$
-R'[1..n] = [0, 0, -2, 1, -1, -2, 3, 4, 1, 8]
+R'[1..n] = [0, 0, 1, 6, 4, 3, 7, 8, 5, 9]
 $$
+
+To compute the solution to the maximum almost subarray problem, we find the maximum of $R[1..n]$ and $R'[1..n]$, i.e. $A'[k] = \max \{ R[k], R'[k] \}$. Then our solution can be extracted at $A'[n]$.
+$\square$
+
 
 ## (c)
 ![[A&D-e-u06.pdf#page=4&rect=84,420,529,590|A&D-e-u06, p.4]]
