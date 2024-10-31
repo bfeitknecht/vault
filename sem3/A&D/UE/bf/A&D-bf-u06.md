@@ -102,8 +102,8 @@ function f(n)
 	if n <= 2 then return n end     // guard arm
 	 
 	if n % 2 == 1 then
-		return (f(n-1) + f(n-2)) / 2
-	else
+        return (f(n-1) + f(n-2)) / 2
+    else
 		return 2 / ((1 / f(n-2)) + (1 / f(n-1)))
 	end
 end
