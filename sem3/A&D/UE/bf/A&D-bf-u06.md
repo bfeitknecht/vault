@@ -5,17 +5,18 @@ Basil Feitknecht, 23-922-099
 # 6.1
 ![[A&D-e-u06.pdf#page=1&rect=68,300,533,497|A&D-e-u06, p.1]]
 
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## (e)
 ![[A&D-e-u06.pdf#page=1&rect=84,95,534,148|A&D-e-u06, p.1]]
 
-To begin we'll formulate the statement to prove as an invariant. Let's define the invariant that denotes for any non-leaf node in the tree $T_{k}$, the absolute difference between its left and right subtrees' heights is exactly equal to one as follows.
+To begin we'll formulate the statement to prove as an invariant. Let's define the invariant that denotes for any non-leaf node in the tree $T_{k}$, the absolute difference between its left and right subtrees' heights is exactly equal to one, as follows.
 $$
 I(k) = \forall u \in T_{k}, \mathrm{deg}_{\text{out}}(u) \neq 0 : |h_{l}(u)-h_{r}(u)|=1
 $$
 
 We use the fact from $\text{(c)}$ that $\forall k \in \mathbb{N} : \mathrm{height}(T_{k}) = k$ and prove $I(k)$ by induction on $k$.
 
-<div class="page-break" style="page-break-before: always;"></div>
 
 **Base Case** $k \leq 3$
 
@@ -50,21 +51,43 @@ We show this by induction on $n\geq1$ for all fibonacci trees $T_{2n+1}$ with $2
 
 **Base Case** $n=1$
 
-For this, we consider $T_{3}$, the first fibonacci tree with $k\geq3, k\equiv_{2}1$.
-
+For this, we consider $T_{3}$, the fibonacci tree with $2n+1 = k\equiv_{2}1$. As we can see, there is a leaf at depth $\frac{3-1}{2} = 1 = n$, namely the node with key $3$. Thus the base case holds.
+$\square$
 ```mermaid
 graph TD
 
 0((0))
 1((1))
 2((2))
-3{3}
+3(((3)))
 
 2 --> 1 & 3
 1 --> 0
 ```
 
 
+**Induction Hypothesis** $n=m$
+
+For some $m \geq 1$ we assume that $T_{2m+1}$ has a leaf at depth $\frac{\cancel{ 2 }m\cancel{ +1-1 }}{\cancel{ 2 }}= m$.
+
+
+**Inductive Step** $n=m+1$
+
+Now we consider the tree $T_{2m+3}$. Per definition, its right subtree is exactly $T_{2m+1}$, with some modification to the keys that don't concern us.
+
+The induction hypothesis we assume to be true then guarantees that $T_{2m+1}$ has a leaf at depth $m$. Evaluating the statement to prove yields the result presented below.
+$$
+\begin{align} \\
+\frac{k-1}{2} & = \frac{2m+3-1}{2}  = \frac{2m+2}{2}  \\
+& = \frac{\cancel{ 2 }(m+1)}{\cancel{ 2 }} = m+1
+\end{align}
+$$
+
+Intuitively, the statement is true because the right subtree of every fibonacci tree with $3 \leq k \equiv_{2} 1$ is exactly the previous odd subtree, which has a leaf at depth $m$. Since it's the subtree of the root, it has only one more predecessor, i.e. $m+1$. Hence, the proof is complete and the statement correct.
+$\square$
+
+
+<div class="page-break" style="page-break-before: always;"></div>
 
 # 6.3
 ![[A&D-e-u06.pdf#page=2&rect=66,87,527,199|A&D-e-u06, p.2]]
@@ -76,14 +99,13 @@ Below is a top-down implementation of the sequence as a recursive function.
 
 ```
 function f(n)
-    if n <= 2 then return n
-    else
-        if n % 2 == 1 then
-            return (f(n-1) + f(n-2)) / 2
-        else
-            return 2 / ((1/f(n-2)) + (1/f(n-1)))
-        end
-    end
+	if n <= 2 then return n end     // guard arm
+	 
+	if n % 2 == 1 then
+		return (f(n-1) + f(n-2)) / 2
+	else
+		return 2 / ((1 / f(n-2)) + (1 / f(n-1)))
+	end
 end
 ```
 
@@ -113,19 +135,20 @@ $\square$
 The improved implementation is given below.
 ```
 function f(n)
-    if n <= 2 then return n end
-    
-    f1 = 1
-    f2 = 2
-    f3
-    for i = 3 .. n do
-        if i % 2 == 1 then
-            f3 = (f1 + f2) / 2
-        else
-            f3 = 2 / ((1/f2) + (1/f1))
-        end
-        (f1, f2) = (f2, f3)
-    end 
+	if n <= 2 then return n end     // guard arm
+	
+	f1 = 1
+	f2 = 2
+	f3          // variable declaration
+	
+	for i = 3 .. n do
+		if i % 2 == 1 then
+			f3 = (f1 + f2) / 2      // odd index
+		else
+			f3 = 2 / ((1 / f2) + (1 / f1))      // even index
+		end
+		(f1, f2) = (f2, f3)         // swap values up
+	end 
 end
 ```
 
