@@ -1,7 +1,7 @@
 {
   "indentsIfSelection": true,
   "indentsIfSelectionOnlyForMultipleLines": true,
-  "useSpaces": false,
+  "useSpaces": true,
   "alignSpaces": true,
   "useHardSpace": true,
   "spacesCount": 4,
