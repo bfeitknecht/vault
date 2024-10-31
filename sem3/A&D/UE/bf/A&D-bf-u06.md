@@ -45,8 +45,25 @@ $\square$
 ## (f)
 ![[A&D-e-u06.pdf#page=2&rect=84,722,527,772|A&D-e-u06, p.2]]
 
+We show this by induction on $n\geq1$ for all fibonacci trees $T_{2n+1}$ with $2n+1 = k\geq 3$.
 
-#todo 
+
+**Base Case** $n=1$
+
+For this, we consider $T_{3}$, the first fibonacci tree with $k\geq3, k\equiv_{2}1$.
+
+```mermaid
+graph TD
+
+0((0))
+1((1))
+2((2))
+3{3}
+
+2 --> 1 & 3
+1 --> 0
+```
+
 
 
 # 6.3
@@ -141,13 +158,15 @@ $$
 $\square$
 
 ## (b)
-![[A&D-e-u06.pdf#page=4&rect=83,575,529,771|A&D-e-u06, p.4]]
+![[A&D-e-u06.pdf#page=4&rect=83,592,529,771|A&D-e-u06, p.4]]
 
-
-#todo
+The array $R'[1..n]$ is given below.
+$$
+R'[1..n] = [0, 0, -2, 1, -1, -2, 3, 4, 0, 4]
+$$
 
 ## (c)
-![[A&D-e-u06.pdf#page=4&rect=84,405,529,570|A&D-e-u06, p.4]]
+![[A&D-e-u06.pdf#page=4&rect=84,420,529,590|A&D-e-u06, p.4]]
 
 The array $S[1..n]$ is given below.
 $$
