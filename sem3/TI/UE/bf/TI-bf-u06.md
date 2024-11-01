@@ -3,6 +3,7 @@ Basil Feitknecht, 23-922-099,
 Camil Schmid, 23-944-234,
 Dennis Küenzi, 21-559-315
 
+
 # 16
 ![[TI-e-u06.pdf#page=1&rect=68,339,530,571|TI-e-u06, p.1]]
 
@@ -14,7 +15,7 @@ For the sake of contradiction, let us assume that $L$ is regular. According to t
 	$(ii)$  $|x| \geq 1$ and
 	$(iii)$  either $\{yx^kz | k \in \mathbb N\} \subseteq L$ or $\{yx^kz | k \in \mathbb N\} \cap L = \varnothing$ 
 
-We choose the word $w = \{ab^{n_0}c^{n_0}\}$. Obviously $|w| \geq n_0$ hence there exists a partition $w = yxz$. From $(i)$ we get $y = ab^i$ and $x=b^j$, where $i,j \in \mathbb{N}, i+j-1 \leq n_0$. Then, in accordance with $(ii)$, we know that $j > 1$.
+We choose the word $w = ab^{n_0}c^{n_0}$. Obviously $|w| \geq n_0$ hence there exists a partition $w = yxz$. From $(i)$ we get $y = ab^i$ and $x=c^j$, where $i,j \in \mathbb{N}, i+j-1 \leq n_0$. Then, in accordance with $(ii)$, we know that $j > 1$.
 
 However, this leads to the following contradiction of $(iii)$.
 $$
@@ -24,13 +25,27 @@ yx^{1}z \in L, && yx^{2}z\not\in L && \contradiction
 $$
 $\square$
 
+
 ## (b)
 ![[TI-e-u06.pdf#page=1&rect=96,292,532,311|TI-e-u06, p.1]]
 
++ case distinction on word type
 
 
 
+Then there exists a partition $w=yxz$ such that the weakened pumping lemma holds. One such decomposition is given below.
+$$
+\begin{align}
+y &= \lambda \\
+x &= a \\
+z &= b^{n_{0}}c^{n_{0}}
+\end{align}
+$$
 
+Hence $\{ yx^{k}z \mid k \in \mathbb{N} \} \subseteq L$, i.e. all pumped words are in the language.
+$\square$
+
+<div class="page-break" style="page-break-before: always;"></div>
 
 
 ## 17
@@ -40,7 +55,7 @@ Let $M_{1}, M_{2}$ be two non-deterministic finite automata such that $L_{1}=L(M
 
 Then we construct a non-deterministic finite automaton $M$ as a product of $M_{1}$ and $M_{2}$ such that $L=L(M)$. Formally we define this as $M=(Q,\Gamma,\delta,q_{0},F)$, where $Q=Q_{1} \cup Q_{2}$ denotes the finite set of states, $\Gamma= \{ a,b,c \}$ is the input alphabet, $\delta: Q \times \Gamma \to \mathcal{P}(Q)$ the state transition function, $q_{0}$ is the initial state and $F = F_{2}$ is the set of accepted states.
 
-The state transition function $\delta$ of $M$ is the union of $\delta_{1}$ and $\delta_{2}$, where we define $(q, c) \in F_{1} \times \{ c \}$ to transition to $\langle q_{c} \rangle \in \mathcal{P}(Q_{2})$.
+The state transition function $\delta$ of $M$ is the union of $\delta_{1}$ and $\delta_{2}$, with the additional definition, that $(q, c) \in F_{1} \times \{ c \}$ transitions to $\langle \{ q_{c} \} \rangle \in \mathcal{P}(Q_{2})$.
 
 Informally this is correct because, per construction any word $w \in L(M)$ has to have a prefix $w_{1}$ that is accepted by $M_{1}$, i.e. $w_{1} \in L(M_{1})$, then have the infix "$c$" and end in a suffix $w_{2}$ that is accepted by $M_{2}$, i.e. $w_{2} \in L(M_{2})$. Thus $M$ accepts exactly all words in $L = L_{1} \cdot \{ c \}  \cdot L_{2}$. Since there exist a finite automaton that accepts $L$, we have shown that it is regular.
 $\square$
