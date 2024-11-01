@@ -8,7 +8,7 @@ From the previous exercise we know the following.
 
 To arrive at the dimension of $S^{\mathbf{v}}$, we will show that it is a hyperplane of the vector space $V = \mathbb{R}^{2 \times m}$.
 
-First, let's show that $V$ is indeed a vector space.
+First, let's show that $V$ is indeed a vector space. For this, 
 
 
 Thus, $2m-1$.
