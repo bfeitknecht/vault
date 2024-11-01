@@ -9,30 +9,27 @@ Dennis Küenzi, 21-559-315
 ## (a)
 ![[TI-e-u06.pdf#page=1&rect=98,316,531,337|TI-e-u06, p.1]]
 
+For the sake of contradiction, let us assume that $L$ is regular. According to the pumping lemma, there exists a constant $n_0 \in \mathbb N$ such that every word $w \in \{a,b,c\}^*$ with $|w| \geq n_0$ can be partitioned into three parts $y, x, z$ such that
+	$(i)$   $|yx| \leq n_0$,
+	$(ii)$  $|x| \geq 1$ and
+	$(iii)$  either $\{yx^kz | k \in \mathbb N\} \subseteq L$ or $\{yx^kz | k \in \mathbb N\} \cap L = \varnothing$ 
+
+We choose the word $w = \{ab^{n_0}c^{n_0}\}$. Obviously $|w| \geq n_0$ hence there exists a partition $w = yxz$. From $(i)$ we get $y = ab^i$ and $x=b^j$, where $i,j \in \mathbb{N}, i+j-1 \leq n_0$. Then, in accordance with $(ii)$, we know that $j > 1$.
+
+However, this leads to the following contradiction of $(iii)$.
+$$
+\begin{align}
+yx^{1}z \in L, && yx^{2}z\not\in L && \contradiction
+\end{align}
+$$
+$\square$
 
 ## (b)
 ![[TI-e-u06.pdf#page=1&rect=96,292,532,311|TI-e-u06, p.1]]
 
 
 
-Assume that $L$ is regular. Following the PL lemma there exists a constant $n_0 \in \mathbb N$ such that every word $w \in \{a,b,c\}^*$ with $|w| \geq n_0$ can be partitioned into tree parts $y, x, z$ such that
-	1. $|yx| \leq n_0$,
-	2. $|x| \geq 1, and$
-	3. either $\{yx^kz | k \in \mathbb N\} \subseteq L$ or $\{yx^kz | k \in \mathbb N\} \cap L = \emptyset$ 
 
-We choose the word $w = \{ab^{n_0}c^{n_0}\}$. 
-Obviously $|w| \geq n_0$ hence there exists a partition $w = yxz$. 
-From (i) we get $y = ab^i$ and $x=b^j$ for $l,m \in \mathbb N \wedge i+j-1 \leq n_0$ and following (ii) we know that $j > 1$.
-
-But (iii) gives us the following contradiction:
-$yx^1z \in L$ but $yx^2z \notin L$
-
-___
-## (b)
-![[TheInf-Exe-06.pdf#page=1&rect=94,289,562,312|TheInf-Exe-06, p.1]]
-L
-
-$\{yx^kz | k \in \mathbb N\}\subseteq L$
 
 
 
