@@ -7,6 +7,7 @@ Basil Feitknecht, 23-922-099
 
 <div class="page-break" style="page-break-before: always;"></div>
 
+
 ## (e)
 ![[A&D-e-u06.pdf#page=1&rect=84,95,534,148|A&D-e-u06, p.1]]
 
@@ -42,6 +43,7 @@ Hence, the invariant $I(h+1)$ holds and the statement is proven.
 $\square$
 
 <div class="page-break" style="page-break-before: always;"></div>
+
 
 ## (f)
 ![[A&D-e-u06.pdf#page=2&rect=84,722,527,772|A&D-e-u06, p.2]]
@@ -86,8 +88,8 @@ $$
 Intuitively, the statement is true because the right subtree of every fibonacci tree with $3 \leq k \equiv_{2} 1$ is exactly the previous odd subtree, which has a leaf at depth $m$. Since it's the subtree of the root, it has only one more predecessor, i.e. $m+1$. Hence, the proof is complete and the statement correct.
 $\square$
 
-
 <div class="page-break" style="page-break-before: always;"></div>
+
 
 # 6.3
 ![[A&D-e-u06.pdf#page=2&rect=66,87,527,199|A&D-e-u06, p.2]]
@@ -129,6 +131,7 @@ $\square$
 
 <div class="page-break" style="page-break-before: always;"></div>
 
+
 ## (c)
 ![[A&D-e-u06.pdf#page=3&rect=84,687,527,718|A&D-e-u06, p.3]]
 
@@ -155,6 +158,7 @@ end
 Its runtime is now linear, $T(n)=\Theta(n)$.
 $\square$
 
+
 ## (d)
 ![[A&D-e-u06.pdf#page=3&rect=85,667,513,682|A&D-e-u06, p.3]]
 
@@ -166,6 +170,7 @@ $\square$
 6. The *runtime* is linear, i.e. $\Theta(n)$
 
 <div class="page-break" style="page-break-before: always;"></div>
+
 
 # 6.4
 ![[A&D-e-u06.pdf#page=3&rect=65,265,531,392|A&D-e-u06, p.3]]
@@ -192,6 +197,7 @@ $$
 To compute the solution to the maximum almost subarray problem, we find the maximum of $R[1..n]$ and $R'[1..n]$, i.e. $A'[k] = \max \{ R[k], R'[k] \}$. Then our solution can be extracted at $A'[n]$.
 $\square$
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## (c)
 ![[A&D-e-u06.pdf#page=4&rect=84,420,529,590|A&D-e-u06, p.4]]

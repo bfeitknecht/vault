@@ -506,10 +506,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/A&D/UE/e/A&D-e-u06.pdf",
-                    "page": 1,
-                    "left": -18,
-                    "top": 420,
-                    "zoom": 0.8743843192065531
+                    "page": 3,
+                    "left": 39,
+                    "top": 96,
+                    "zoom": 0.99
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-e-u06"
@@ -701,7 +701,7 @@
         }
       },
       "active": "bb49af5047bb51c6",
-      "mtime": "2024-10-31T11:38:44+01:00"
+      "mtime": "2024-11-01T08:16:31+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1664,9 +1664,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
-                    "page": 142,
+                    "page": 85,
                     "left": -14,
-                    "top": 134,
+                    "top": 330,
                     "zoom": 1.1229053798664481
                   },
                   "icon": "lucide-file-text",
@@ -1879,9 +1879,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "863aa1cf19e4e3a1",
-      "mtime": "2024-10-31T11:39:14+01:00"
+      "active": "69231184b8d9bfd0",
+      "mtime": "2024-11-01T08:19:02+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "00-home"
 }
