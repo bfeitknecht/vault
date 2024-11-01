@@ -31,6 +31,10 @@
       "plugin-obsidian-toggl-integration;2": {
         "position": 6,
         "visible": false
+      },
+      "plugin-obsidian-cursor-location-plugin;1": {
+        "position": 8,
+        "visible": true
       }
     }
   },

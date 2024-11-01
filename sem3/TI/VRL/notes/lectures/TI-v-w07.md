@@ -1,7 +1,7 @@
 
 - encoding of TM
 - non-recursive language by diagonalization argument
-- reductions
+- reductions (recursively enumerable, ==input enumerable==) #todo 
 
 
 # Notes
@@ -25,4 +25,3 @@ diagonalization argument to show that there is a language $L_{\text{diag}}$ with
 TM only has one accepting state and one rejecting state!!
 this is because after we reach one of those states, we stop the computation
 
-recus

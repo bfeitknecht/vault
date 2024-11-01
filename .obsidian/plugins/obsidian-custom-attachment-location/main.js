@@ -3358,6 +3358,9 @@ var require_RenameDeleteHandler = __commonJS({
           if (!shouldInvokeHandler(app, pluginId)) {
             return;
           }
+          if (!(0, import_FileSystem4.isFile)(file)) {
+            return;
+          }
           const newPath = file.path;
           handleRename(app, oldPath, newPath);
         })
