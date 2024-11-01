@@ -10,44 +10,54 @@ Dennis Küenzi, 21-559-315
 ## (a)
 ![[TI-e-u06.pdf#page=1&rect=98,316,531,337|TI-e-u06, p.1]]
 
-We prove this with lemma 3.3.
+We prove that the language $L$ is not regular using lemma 3.3.
 
+For the sake of contradiction, let's suppose that $L$ is regular. Then there exists a finite automaton $A = (Q,\{a,b,c\},\delta,p_0,F)$ such that $L(A)=L$.
 
-For the sake of contradiction, let us assume that $L$ is regular. According to the pumping lemma, there exists a constant $n_0 \in \mathbb N$ such that every word $w \in \{a,b,c\}^*$ with $|w| \geq n_0$ can be partitioned into three parts $y, x, z$ such that
-	$(i)$   $|yx| \leq n_0$,
-	$(ii)$  $|x| \geq 1$ and
-	$(iii)$  either $\{yx^kz | k \in \mathbb N\} \subseteq L$ or $\{yx^kz | k \in \mathbb N\} \cap L = \varnothing$ 
-
-We choose the word $w = ab^{n_0}c^{n_0}$. Obviously $|w| \geq n_0$ hence there exists a partition $w = yxz$. From $(i)$ we get $y = ab^i$ and $x=c^j$, where $i,j \in \mathbb{N}, i+j-1 \leq n_0$. Then, in accordance with $(ii)$, we know that $j > 1$.
-
-However, this leads to the following contradiction of $(iii)$.
+Let $k = |Q|$ denote the number of states in this finite automaton. Now we consider the words $a, ab, ab^{2}, \dots ab^{k+1}$. Since these are more words that $A$ has states, per pigeonhole principle there must exist $i, j \in [k+1]$ with $i \neq j$ such that for $x = ab^{i}, y = ab ^{j}$ the following holds.
 $$
-\begin{align}
-yx^{1}z \in L, && yx^{2}z\not\in L && \contradiction
-\end{align}
+\hat \delta (q_{0}, x) = \hat \delta (g_{0}, y)
 $$
+
+Then, per lemma 3.3, $\forall x \in \{ a,b,c \}^{*}$ the below holds.
+$$
+xz \in L(A) \iff yz \in L(A)
+$$
+
+However, for $z = c^{i}$, this leads to a contradiction, since $xz = ab^{i}c^{i} \in L(A)$ but $yz= ab^{j}c^{i} \not\in L(A)$, since $i \neq j$. Hence the assumption is false and we have proven that $L$ is not regular.
 $\square$
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## (b)
 ![[TI-e-u06.pdf#page=1&rect=96,292,532,311|TI-e-u06, p.1]]
 
-We consider a case distinction on the word, since the language $L$ is the union of two languages.
-
-+ case distinction on word type because of language union
+Let $n_{0} = |\Sigma| = 3$. Then, for some $w \in L$ with $|w| \geq n_{0}$ and $w=w_{1}w_{2}w_{3}u$, we show that the language $L$ fulfills the weakened pumping lemma. We make a case distinction on the word, since $L$ is the union of two languages.
 
 
+**Case** $w \in \{ a^{m}b^{n}c^{n} \mid m,n \in \mathbb{N}, m \geq 1 \}$
 
-Then there exists a partition $w=yxz$ such that the weakened pumping lemma holds. One such decomposition is given below.
-$$
-\begin{align}
-y &= \lambda \\
-x &= a \\
-z &= b^{n_{0}}c^{n_{0}}
-\end{align}
-$$
+This is the case, where the word $w$ contains at least one $a$, i.e. $|w|_{a} \geq1$. From the construction of $L$, this implies that $w_{1} = a$.
 
-Hence $\{ yx^{k}z \mid k \in \mathbb{N} \} \subseteq L$, i.e. all pumped words are in the language.
+Let $y=\lambda$, $x=w_{1}$ and $z=w_{2}w_{3}u$. Then $|yx| \leq n_{0}$, condition $(i)$ holds. The second requirement $(ii)$ also holds, since $|x| \geq 1$.
+
+Now, we pump. All that remains is to show that the condition $(iii)$ also holds, i.e. $\{ yx^{k}z \mid k \in \mathbb{N} \} = \{ a^{k}w_{2}w_{3}u \mid k \in \mathbb{N} \} \subseteq L$. A simple case distinction on $k$ leads to the following.
+
+For $k=0$, we get words of the form $w = yx^{0}z = \lambda\lambda w_{2}w_{3}u$. Per definition of $L$, we know that $w = a^{m-1}b^{n}c^{n}$, since the first symbol, which must be an $a$, is pumped to lambda, we have one less of it. This word is trivially in $L$ for $m > 1$. For $m = 1$, this word is in $\{ b,c \}^{*}$ and hence also in $L$.
+
+For $k \neq 0$, we have words $w=\lambda w_{1}^{k}w_{2}w_{3}u$. Then the pumped word $w=a^{m+k}b^{n}c^{n}$ must be in $L$ also.
+
+Thus $(i), (ii)$ and $(iii)$ hold.
+
+
+**Case** $w \in \{ b,c \}^{*}$
+
+This is the case where the word $w$ does not contain any symbol $a$, i.e. it contains only $|w|_{b}=i$ and $|w|_{c} = j$. Let $y=\lambda$, $x = w_{1}$ and $z = w_{2}w_{3}u$. Then we have $|yx| \leq n_{0}$, so condition $(i)$ holds. Also $|x| \geq 1$, thus requirement $(ii)$ holds too.
+
+Then, no matter the symbol $w_{1}$, when we pump, we get a word of only $b$ and $c$. Thus $\forall k \in \mathbb{N},\ yx^{k}z \in L$ and condition $(iii)$ holds.
+
+
+Thus we have shown that $L$ fulfills the weakened pumping lemma.
 $\square$
 
 <div class="page-break" style="page-break-before: always;"></div>
