@@ -10,6 +10,9 @@ Dennis Küenzi, 21-559-315
 ## (a)
 ![[TI-e-u06.pdf#page=1&rect=98,316,531,337|TI-e-u06, p.1]]
 
+We prove this with lemma 3.3.
+
+
 For the sake of contradiction, let us assume that $L$ is regular. According to the pumping lemma, there exists a constant $n_0 \in \mathbb N$ such that every word $w \in \{a,b,c\}^*$ with $|w| \geq n_0$ can be partitioned into three parts $y, x, z$ such that
 	$(i)$   $|yx| \leq n_0$,
 	$(ii)$  $|x| \geq 1$ and
@@ -29,7 +32,9 @@ $\square$
 ## (b)
 ![[TI-e-u06.pdf#page=1&rect=96,292,532,311|TI-e-u06, p.1]]
 
-+ case distinction on word type
+We consider a case distinction on the word, since the language $L$ is the union of two languages.
+
++ case distinction on word type because of language union
 
 
 
