@@ -1599,7 +1599,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/TI.md",
+                    "file": "sem3/TI/VRL/notes/TI.md",
                     "mode": "source",
                     "source": false
                   },
@@ -1608,26 +1608,12 @@
                 }
               },
               {
-                "id": "b4902097fba66c9b",
+                "id": "ea5b4dda271e4bfd",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w06.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "TI-v-w06"
-                }
-              },
-              {
-                "id": "460a120215f2d340",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/TIN/VRL/notes/lectures/TI-v-w07.md",
+                    "file": "sem3/TI/VRL/notes/lectures/TI-v-w07.md",
                     "mode": "source",
                     "source": false
                   },
@@ -1641,7 +1627,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/TIN/UE/bf/TI-bf-u06.md",
+                    "file": "sem3/TI/UE/bf/TI-bf-u06.md",
                     "mode": "source",
                     "source": false
                   },
@@ -1650,7 +1636,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "334b80dc2ab3a841",
@@ -1663,14 +1649,10 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/TIN/VRL/extra/hromkovic-TIN.pdf",
-                    "page": 85,
-                    "left": -14,
-                    "top": 330,
-                    "zoom": 1.1229053798664481
+                    "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf"
                   },
                   "icon": "lucide-file-text",
-                  "title": "hromkovic-TIN"
+                  "title": "hromkovic-TI"
                 }
               },
               {
@@ -1865,7 +1847,6 @@
         "hiddenItems": {
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
           "cmdr:Export to PDF": false,
@@ -1880,7 +1861,7 @@
         }
       },
       "active": "69231184b8d9bfd0",
-      "mtime": "2024-11-01T08:19:02+01:00"
+      "mtime": "2024-11-01T09:24:07+01:00"
     }
   },
   "active": "sem3-ti"
