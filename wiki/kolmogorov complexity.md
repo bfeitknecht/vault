@@ -11,12 +11,12 @@ There exists no simple program that can compute the exact kolmogorov complexity 
 
 # Lemmas
 
-![[hromkovic-TIN.pdf#page=52&rect=43,437,416,475|hromkovic-TIN, p.37]]
+![[hromkovic-TI.pdf#page=52&rect=43,437,416,475|hromkovic-TIN, p.37]]
 Proof by contradiction, let $C(x_{i\in[2^n]})$ be the shortest [[bitstring]] that generates $x_{i\in[2^n]}$. 
 
 
 
-![[hromkovic-TIN.pdf#page=53&rect=41,329,434,398|hromkovic-TIN, p.38]]
+![[hromkovic-TI.pdf#page=53&rect=41,329,434,398|hromkovic-TIN, p.38]]
 
 
 

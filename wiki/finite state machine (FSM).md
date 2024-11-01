@@ -39,7 +39,7 @@ ___
 
 
 reflexive and transitive closure of step relation on M
-![[hromkovic-TIN.pdf#page=69&rect=39,178,435,368|hromkovic-TIN, p.54]]
+![[hromkovic-TI.pdf#page=69&rect=39,178,435,368|hromkovic-TIN, p.54]]
 
 
 
@@ -48,16 +48,16 @@ reflexive and transitive closure of step relation on M
 
 
 The [[equivalence class|equivalence classes]] of the "step before" relation on two different steps
-![[hromkovic-TIN.pdf#page=70&rect=139,458,340,615|hromkovic-TIN, p.55|200]]
+![[hromkovic-TI.pdf#page=70&rect=139,458,340,615|hromkovic-TIN, p.55|200]]
 
-![[hromkovic-TIN.pdf#page=70&rect=45,176,434,361|hromkovic-TIN, p.55]]
+![[hromkovic-TI.pdf#page=70&rect=45,176,434,361|hromkovic-TIN, p.55]]
 
 
 # Simulation
 [[simulation]]
 
-![[hromkovic-TIN.pdf#page=78&rect=39,66,436,119|hromkovic-TIN, p.63]]
-![[hromkovic-TIN.pdf#page=79&rect=38,159,413,322|hromkovic-TIN, p.64]]
+![[hromkovic-TI.pdf#page=78&rect=39,66,436,119|hromkovic-TIN, p.63]]
+![[hromkovic-TI.pdf#page=79&rect=38,159,413,322|hromkovic-TIN, p.64]]
 
 
 
@@ -66,7 +66,7 @@ The [[equivalence class|equivalence classes]] of the "step before" relation on t
 
 ch.3.4, proof of non-existence
 
-![[hromkovic-TIN.pdf#page=83&rect=38,150,445,249|hromkovic-TIN, p.68]]
+![[hromkovic-TI.pdf#page=83&rect=38,150,445,249|hromkovic-TIN, p.68]]
 
 what it's saying is, that given two inputs (different) that end in the same configuration, we can add an arbitrary identical suffix and the end configuration will be the same
 
@@ -76,7 +76,7 @@ $a^nb^n$ is not regular language := proven by contradiction using lemma 3.3. con
 becasue we define more words than the FSM has configurations, exists two natural numbers i, j in \[|Q|+1] i < j such that the word $0^i 1^i$ is in the language but $0^j 1^i$ isn't
 
 
-![[hromkovic-TIN.pdf#page=84&rect=42,173,440,341|hromkovic-TIN, p.69]]
+![[hromkovic-TI.pdf#page=84&rect=42,173,440,341|hromkovic-TIN, p.69]]
 
 
 
@@ -90,7 +90,7 @@ In contrast, a [[non-deterministic]] FSM is the same (quintuple), but the state 
 
 The computation tree $\mathcal{B}_{M}(x)$ of $M$ on $x$ describes all the possible "decision" we can take. The nodes of the tree are the configurations, the root is the initial configuration
 
-![[hromkovic-TIN.pdf#page=93&rect=44,406,420,624|hromkovic-TIN, p.78]]
+![[hromkovic-TI.pdf#page=93&rect=44,406,420,624|hromkovic-TIN, p.78]]
 
 
 

@@ -15,6 +15,25 @@ Dennis Küenzi, 21-559-315
 
 
 
+Assume that $L$ is regular. Following the PL lemma there exists a constant $n_0 \in \mathbb N$ such that every word $w \in \{a,b,c\}^*$ with $|w| \geq n_0$ can be partitioned into tree parts $y, x, z$ such that
+	1. $|yx| \leq n_0$,
+	2. $|x| \geq 1, and$
+	3. either $\{yx^kz | k \in \mathbb N\} \subseteq L$ or $\{yx^kz | k \in \mathbb N\} \cap L = \emptyset$ 
+
+We choose the word $w = \{ab^{n_0}c^{n_0}\}$. 
+Obviously $|w| \geq n_0$ hence there exists a partition $w = yxz$. 
+From (i) we get $y = ab^i$ and $x=b^j$ for $l,m \in \mathbb N \wedge i+j-1 \leq n_0$ and following (ii) we know that $j > 1$.
+
+But (iii) gives us the following contradiction:
+$yx^1z \in L$ but $yx^2z \notin L$
+
+___
+## (b)
+![[TheInf-Exe-06.pdf#page=1&rect=94,289,562,312|TheInf-Exe-06, p.1]]
+L
+
+$\{yx^kz | k \in \mathbb N\}\subseteq L$
+
 
 
 ## 17
@@ -57,7 +76,7 @@ The previously described strategy no longer works, since the number of chocolate
 We define the set $C$ similar to before, where $C_{i}= \{ c_{j \in \mathbb{N}} \}$ denotes the countably infinite set of chocolates served in round $i \in \mathbb{N}$. 
 
 The diagram below illustrates the order in which we eat the chocolates, where the rows denote the $i$-th round and the columns represent the $j$-th chocolate.
-![[hromkovic-TIN.pdf#page=143&rect=44,388,433,621|hromkovic-TIN, p.130]]
+![[hromkovic-TI.pdf#page=143&rect=44,388,433,621|hromkovic-TIN, p.130]]
 
 In this way we enumerate over all chocolates served in all rounds, hence $C \sim \mathbb{N}$ and thus the strategy is correct.
 $\square$

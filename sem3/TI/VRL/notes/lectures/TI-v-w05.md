@@ -30,7 +30,7 @@
 Look at vis exams midterm pumping lemma proof structure (ask basil)
 
 
-![[hromkovic-TIN.pdf#page=93&rect=44,232,438,259|hromkovic-TIN, p.78]]
+![[hromkovic-TI.pdf#page=93&rect=44,232,438,259|hromkovic-TIN, p.78]]
 ```mermaid
 flowchart LR
 
