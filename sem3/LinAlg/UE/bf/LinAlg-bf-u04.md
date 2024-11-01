@@ -13,7 +13,8 @@ C &= \begin{bmatrix}
 C_{11} & C_{12} & C_{13} \\
 C_{21} & C_{22} & C_{23} \\
 C_{31} & C_{32} &  C_{33}
-\end{bmatrix} \\
+\end{bmatrix} \\ \\
+
 &= \begin{bmatrix}
 1 & 0 & 0 \\
 -b & a & 0 \\
@@ -25,12 +26,13 @@ $$
 Then, we find the adjugate matrix, which is equal to the cofactor‘s matrix transpose, $\mathrm{adj}(A)=C^{\top}$ and multiply it with the scalar $\frac{1}{\det(A)}$.
 $$
 \begin{align}
-A^{-1} &= \frac{1}{\det(A)} \cdot \mathrm{adj(A)} &\text{(def. det and adj)}\\
+A^{-1} &= \frac{1}{\det(A)} \cdot \mathrm{adj(A)} &\text{(def. det and adj)} \\ \\
 &= \frac{1}{a} \cdot \begin{bmatrix}
 1 & -b & bd-c \\
 0 & a & -ad \\
 0 & 0 & a 
-\end{bmatrix} &\text{(scalar multiplication)} \\
+\end{bmatrix} &\text{(scalar multiplication)} \\ \\
+
 &= \begin{bmatrix}
 \frac{1}{a} & -\frac{b}{a} & \frac{bd-c}{a} \\
 0 & 1 & -d \\
