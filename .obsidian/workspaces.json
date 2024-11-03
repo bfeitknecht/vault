@@ -242,6 +242,16 @@
                   "icon": "lucide-git-fork",
                   "title": "Graph view"
                 }
+              },
+              {
+                "id": "eb37342e4b713be8",
+                "type": "leaf",
+                "state": {
+                  "type": "custom-frames-calendar",
+                  "state": {},
+                  "icon": "lucide-calendar-clock",
+                  "title": "Calendar"
+                }
               }
             ]
           }
@@ -408,8 +418,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "162e7a61651e562a",
-      "mtime": "2024-11-01T08:21:53+01:00"
+      "active": "c1d4bca0b23a015c",
+      "mtime": "2024-11-03T09:16:04+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1087,7 +1097,7 @@
                     "file": "sem3/EProg/UE/e/EProg-e-u06.pdf",
                     "page": 7,
                     "left": -19,
-                    "top": 108,
+                    "top": 113,
                     "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
@@ -1264,7 +1274,7 @@
         }
       },
       "active": "9f760ce10cde2a26",
-      "mtime": "2024-11-01T12:21:24+01:00"
+      "mtime": "2024-11-03T09:19:20+01:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1312,8 +1322,8 @@
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w06.pdf",
                     "page": 4,
                     "left": -19,
-                    "top": 124,
-                    "zoom": 0.8504901960784316
+                    "top": 128,
+                    "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-plan-w06"
@@ -1334,7 +1344,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "740ad403278fbd52",
@@ -1419,15 +1429,14 @@
                     "file": "sem3/LinAlg/UE/e/LinAlg-e-u06.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 708,
-                    "zoom": 0.8743843192065529
+                    "top": 526,
+                    "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-e-u06"
                 }
               }
-            ],
-            "currentTab": 5
+            ]
           }
         ],
         "direction": "vertical"
@@ -1625,8 +1634,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "2d1eb6ec3855c7f5",
-      "mtime": "2024-11-01T11:00:54+01:00"
+      "active": "d56a9b6aa133d6f7",
+      "mtime": "2024-11-03T09:11:12+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1942,5 +1951,5 @@
       "mtime": "2024-11-01T10:33:31+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-a&d"
 }

@@ -110,11 +110,8 @@ var require_implementations = __commonJS({
         }
         values.remove(value);
         if (values.length === 0) {
-          this.removeKey(key);
+          this.clear(key);
         }
-      }
-      removeKey(key) {
-        this.data.delete(key);
       }
       get(key) {
         return this.data.get(key) || null;
@@ -123,7 +120,7 @@ var require_implementations = __commonJS({
         return Array.from(this.data.keys());
       }
       clear(key) {
-        this.removeKey(key);
+        this.data.delete(key);
       }
       clearAll() {
         this.data.clear();
@@ -1402,7 +1399,8 @@ var require_AttachmentPath = __commonJS({
     __export2(AttachmentPath_exports, {
       getAttachmentFilePath: () => getAttachmentFilePath,
       getAttachmentFolderPath: () => getAttachmentFolderPath2,
-      getAvailablePathForAttachments: () => getAvailablePathForAttachments2
+      getAvailablePathForAttachments: () => getAvailablePathForAttachments2,
+      hasOwnAttachmentFolder: () => hasOwnAttachmentFolder
     });
     module2.exports = __toCommonJS2(AttachmentPath_exports);
     var import_implementations2 = require_implementations();
@@ -1453,6 +1451,11 @@ var require_AttachmentPath = __commonJS({
       path = path.replace(/([\\/])+/g, "/");
       path = path.replace(/(^\/+|\/+$)/g, "");
       return path || "/";
+    }
+    async function hasOwnAttachmentFolder(app, path) {
+      const attachmentFolderPath = await getAttachmentFolderPath2(app, path);
+      const dummyAttachmentFolderPath = await getAttachmentFolderPath2(app, (0, import_Path5.join)((0, import_Path5.dirname)(path), "DUMMY_FILE.md"));
+      return attachmentFolderPath !== dummyAttachmentFolderPath;
     }
   }
 });
@@ -2022,7 +2025,14 @@ var require_Async = __commonJS({
         let attempt = 0;
         for (; ; ) {
           attempt++;
-          if (await fn()) {
+          let isSuccess;
+          try {
+            isSuccess = await fn();
+          } catch (error) {
+            (0, import_Error3.printError)(error);
+            isSuccess = false;
+          }
+          if (isSuccess) {
             if (attempt > 1) {
               console.debug(`Retry completed successfully after ${attempt.toString()} attempts`);
             }
@@ -2355,6 +2365,7 @@ var require_MetadataCache = __commonJS({
       tempRegisterFileAndRun: () => tempRegisterFileAndRun
     });
     module2.exports = __toCommonJS2(MetadataCache_exports);
+    var import_obsidian5 = require("obsidian");
     var import_implementations2 = require_implementations();
     var import_Async2 = require_Async();
     var import_Function = require_Function();
@@ -2504,9 +2515,8 @@ var require_MetadataCache = __commonJS({
       }
       const path = (0, import_FileSystem4.getPath)(pathOrFile);
       for (const leaf of app.workspace.getLeavesOfType("markdown")) {
-        const view = leaf.view;
-        if (view.file?.path === path) {
-          await view.save();
+        if (leaf.view instanceof import_obsidian5.MarkdownView && leaf.view.file?.path === path) {
+          await leaf.view.save();
         }
       }
     }
@@ -2659,7 +2669,7 @@ var require_Vault = __commonJS({
       if ((0, import_FileSystem4.isFile)(file)) {
         const backlinks = await (0, import_MetadataCache2.getBacklinksForFileSafe)(app, file);
         if (deletedNotePath) {
-          backlinks.removeKey(deletedNotePath);
+          backlinks.clear(deletedNotePath);
         }
         if (backlinks.count() !== 0) {
           if (shouldReportUsedAttachments) {
@@ -3534,6 +3544,9 @@ var require_RenameDeleteHandler = __commonJS({
       if (!attachmentFolder) {
         return;
       }
+      if (!await (0, import_AttachmentPath5.hasOwnAttachmentFolder)(app, path)) {
+        return;
+      }
       await (0, import_Vault3.deleteSafe)(app, attachmentFolder, path, false, settings.shouldDeleteEmptyFolders);
     }
     async function fillRenameMap(app, oldPath, newPath, renameMap) {
@@ -3544,7 +3557,6 @@ var require_RenameDeleteHandler = __commonJS({
       const settings = getSettings(app);
       const oldAttachmentFolderPath = await (0, import_AttachmentPath5.getAttachmentFolderPath)(app, oldPath);
       const newAttachmentFolderPath = settings.shouldRenameAttachmentFolder ? await (0, import_AttachmentPath5.getAttachmentFolderPath)(app, newPath) : oldAttachmentFolderPath;
-      const dummyOldAttachmentFolderPath = await (0, import_AttachmentPath5.getAttachmentFolderPath)(app, (0, import_Path5.join)((0, import_Path5.dirname)(oldPath), "DUMMY_FILE.md"));
       const oldAttachmentFolder = (0, import_FileSystem4.getFolderOrNull)(app, oldAttachmentFolderPath);
       if (!oldAttachmentFolder) {
         return;
@@ -3553,7 +3565,7 @@ var require_RenameDeleteHandler = __commonJS({
         return;
       }
       const oldAttachmentFiles = [];
-      if (oldAttachmentFolderPath === dummyOldAttachmentFolderPath) {
+      if (!await (0, import_AttachmentPath5.hasOwnAttachmentFolder)(app, oldPath)) {
         const oldCache = await (0, import_MetadataCache2.getCacheSafe)(app, oldPath);
         if (!oldCache) {
           return;
