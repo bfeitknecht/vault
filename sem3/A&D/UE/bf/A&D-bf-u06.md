@@ -194,7 +194,7 @@ $$
 R'[1..n] = [0, 0, 1, 6, 4, 3, 7, 8, 5, 9]
 $$
 
-To compute the solution to the maximum almost subarray problem, we find the maximum of $R[1..n]$ and $R'[1..n]$, i.e. $A'[k] = \max \{ R[k], R'[k] \}$. Then our solution can be extracted at $A'[n]$.
+To compute the solution to the maximum almost subarray problem, we find the maximum of $R[1..n]$ and $R'[1..n]$, so the solution is given by $\max \{ R[1..n], R'[1..n] \}$.
 $\square$
 
 <div class="page-break" style="page-break-before: always;"></div>
@@ -206,4 +206,3 @@ The array $S[1..n]$ is given below.
 $$
 S[1..n] = [5, 2, 0, 2, 1, 3, 6, 2, 1, 4]
 $$
-#todo 
