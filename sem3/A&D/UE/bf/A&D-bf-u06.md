@@ -1,15 +1,12 @@
-
 Antonia Tomova, 23-957-590,
 Basil Feitknecht, 23-922-099
 
-# 6.1
-![[A&D-e-u06.pdf#page=1&rect=68,300,533,497|A&D-e-u06, p.1]]
+# 6.1 ![[A&D-e-u06.pdf#page=1&rect=68,300,533,497|A&D-e-u06, p.1]]
 
 <div class="page-break" style="page-break-before: always;"></div>
 
 
-## (e)
-![[A&D-e-u06.pdf#page=1&rect=84,95,534,148|A&D-e-u06, p.1]]
+## (e) ![[A&D-e-u06.pdf#page=1&rect=84,95,534,148|A&D-e-u06, p.1]]
 
 To begin we'll formulate the statement to prove as an invariant. Let's define the invariant that denotes for any non-leaf node in the tree $T_{k}$, the absolute difference between its left and right subtrees' heights is exactly equal to one, as follows.
 $$
@@ -45,8 +42,7 @@ $\square$
 <div class="page-break" style="page-break-before: always;"></div>
 
 
-## (f)
-![[A&D-e-u06.pdf#page=2&rect=84,722,527,772|A&D-e-u06, p.2]]
+## (f) ![[A&D-e-u06.pdf#page=2&rect=84,722,527,772|A&D-e-u06, p.2]]
 
 We show this by induction on $n\geq1$ for all fibonacci trees $T_{2n+1}$ with $2n+1 = k\geq 3$.
 
@@ -91,11 +87,9 @@ $\square$
 <div class="page-break" style="page-break-before: always;"></div>
 
 
-# 6.3
-![[A&D-e-u06.pdf#page=2&rect=66,87,527,199|A&D-e-u06, p.2]]
+# 6.3 ![[A&D-e-u06.pdf#page=2&rect=66,87,527,199|A&D-e-u06, p.2]]
 
-## (a)
-![[A&D-e-u06.pdf#page=3&rect=85,740,526,772|A&D-e-u06, p.3]]
+## (a) ![[A&D-e-u06.pdf#page=3&rect=85,740,526,772|A&D-e-u06, p.3]]
 
 Below is a top-down implementation of the sequence as a recursive function.
 
@@ -112,8 +106,7 @@ end
 ```
 
 
-## (b)
-![[A&D-e-u06.pdf#page=3&rect=85,720,527,741|A&D-e-u06, p.3]]
+## (b) ![[A&D-e-u06.pdf#page=3&rect=85,720,527,741|A&D-e-u06, p.3]]
 
 Let $T(n)$ denote the number of function calls to $f$ for computing $A_{n}$. Then the following holds.
 $$
@@ -132,8 +125,7 @@ $\square$
 <div class="page-break" style="page-break-before: always;"></div>
 
 
-## (c)
-![[A&D-e-u06.pdf#page=3&rect=84,687,527,718|A&D-e-u06, p.3]]
+## (c) ![[A&D-e-u06.pdf#page=3&rect=84,687,527,718|A&D-e-u06, p.3]]
 
 The improved implementation is given below.
 ```
@@ -159,8 +151,7 @@ Its runtime is now linear, $T(n)=\Theta(n)$.
 $\square$
 
 
-## (d)
-![[A&D-e-u06.pdf#page=3&rect=85,667,513,682|A&D-e-u06, p.3]]
+## (d) ![[A&D-e-u06.pdf#page=3&rect=85,667,513,682|A&D-e-u06, p.3]]
 
 1. The *dimensions* of the DP table are $1 \times n$
 2. The *entry* $A[i]$ denotes the term $A_{i}$
@@ -172,12 +163,10 @@ $\square$
 <div class="page-break" style="page-break-before: always;"></div>
 
 
-# 6.4
-![[A&D-e-u06.pdf#page=3&rect=65,265,531,392|A&D-e-u06, p.3]]
+# 6.4 ![[A&D-e-u06.pdf#page=3&rect=65,265,531,392|A&D-e-u06, p.3]]
 
 
-## (a)
-![[A&D-e-u06.pdf#page=3&rect=83,90,531,265|A&D-e-u06, p.3]]
+## (a) ![[A&D-e-u06.pdf#page=3&rect=83,90,531,265|A&D-e-u06, p.3]]
 
 The array $R[1..n]$ is given below.
 $$
@@ -185,24 +174,37 @@ R[1..n ] = [3, 5, 3, 4, 2, -1, 4, 5, 2, 6]
 $$
 $\square$
 
+<div class="page-break" style="page-break-before: always;"></div>
 
-## (b)
-![[A&D-e-u06.pdf#page=4&rect=83,592,529,771|A&D-e-u06, p.4]]
+## (b) ![[A&D-e-u06.pdf#page=4&rect=83,592,529,771|A&D-e-u06, p.4]]
 
 The array $R'[1..n]$ is given below.
 $$
 R'[1..n] = [0, 0, 1, 6, 4, 3, 7, 8, 5, 9]
 $$
 
-To compute the solution to the maximum almost subarray problem, we find the maximum of $R[1..n]$ and $R'[1..n]$, so the solution is given by $\max \{ R[1..n], R'[1..n] \}$.
+To compute the solution to the maximum almost subarray problem, we take the maximum of $R[1..n]$ and $R'[1..n]$, so the solution is given by $\max \{ R[1..n], R'[1..n] \}$. 
+
+```
+R  =  [  0,  3,  5,  3,  4,  2, -1,  4,  5,  2,  6  ]
+R' =  [  0,  0,  0,  1,  6,  4,  3,  7,  8,  5,  9  ]
+T  =  [      3,  5,  3,  6,  4,  3,  7,  8,  7,  9  ]
+```
 $\square$
 
-<div class="page-break" style="page-break-before: always;"></div>
 
-## (c)
-![[A&D-e-u06.pdf#page=4&rect=84,420,529,590|A&D-e-u06, p.4]]
+## (c) ![[A&D-e-u06.pdf#page=4&rect=84,420,529,590|A&D-e-u06, p.4]]
 
-The array $S[1..n]$ is given below.
+The array $S[1..n]$ is given as follows.
 $$
 S[1..n] = [5, 2, 0, 2, 1, 3, 6, 2, 1, 4]
 $$
+
+The solution array $T$ defined by the formula $T[k] = R[k-1] + S[k+1]$ for the index $1\leq k < n$ is given below. Then, to find the solution for the maximum almost subarray sum, we simply extract the maximum $\max_{k} \{ T[k] \}$.
+
+```
+R  =  [  0,  3,  5,  3,  4,  2, -1,  4,  5,  2,  6  ]
+S  =  [      5,  2,  0,  2,  1,  3,  6,  2,  1,  4, 0  ]
+T  =  [      2,  3,  7,  4,  7,  8,  1,  5,  9,  2  ]
+```
+$\square$
