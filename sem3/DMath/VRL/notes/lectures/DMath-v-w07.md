@@ -1,12 +1,11 @@
 
-- [[algebra]]
 - [[ring]]
 - $\mathbb{Z}[i]$, whole numbers complemented with imaginary unit forms the complex numbers $\mathbb{C}$
 - [[ideal]]
 - remainder of division in the real numbers, $R_{m}(a)$
-- greatest common divisor (gcd)
-- least common multiple (lcm)
-- chinese remainder theorem
+- [[greatest common divisor (gcd)]]
+- [[least common multiple (lcm)]]
+- [[chinese remainder theorem]]
 
 
 

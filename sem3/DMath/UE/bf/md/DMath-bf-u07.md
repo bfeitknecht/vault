@@ -8,12 +8,8 @@ $\square$
 
 ## b) ![[DMath-e-u07.pdf#page=1&rect=106,281,529,325|DMath-e-u07, p.1]]
 
-Assuming $a,b \neq 0$
-
 True. We prove this via double set inclusion. First we show that $(a) \cap (b) \subseteq (\mathrm{lcm} (a,b))$. 
 
-
-(b) ?= 
 
 $$
 \begin{align}

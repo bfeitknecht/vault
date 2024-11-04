@@ -8,9 +8,11 @@ From the previous exercise we know the following.
 
 To arrive at the dimension of $S^{\mathbf{v}}$, we will show that it is a hyperplane of the vector space $V = \mathbb{R}^{2 \times m}$.
 
-First, let's show that $V$ is indeed a vector space. For this, 
+First, let's show that $V$ is indeed a vector space. For this, we need to prove that the axioms of a vector space hold.
 
 
-Thus, $2m-1$.
+Then, we need to prove that $S^{\mathbf{v}}$ is a hyperplane, for an arbitrary non-zero vector $\mathbf{v} \in V$.
+
+Thus, $\dim(S^{\mathbf{v}}) = 2m-1$.
 $\square$
 
