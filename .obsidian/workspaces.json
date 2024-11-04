@@ -419,7 +419,7 @@
         }
       },
       "active": "162e7a61651e562a",
-      "mtime": "2024-11-03T19:33:34+01:00"
+      "mtime": "2024-11-04T20:18:12+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1271,17 +1271,17 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w06.pdf",
-                    "page": 4,
+                    "page": 7,
                     "left": -19,
-                    "top": 128,
-                    "zoom": 0.8504901960784313
+                    "top": 758,
+                    "zoom": 0.8504901960784316
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-plan-w06"
                 }
               },
               {
-                "id": "d56a9b6aa133d6f7",
+                "id": "03c484fae4e1a0f2",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -1294,13 +1294,26 @@
                   "title": "LinAlg-bf-u06"
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           },
           {
             "id": "740ad403278fbd52",
             "type": "tabs",
             "children": [
+              {
+                "id": "199447fcba021479",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/linear transformation.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "linear transformation"
+                }
+              },
               {
                 "id": "c4d416dad2ef767d",
                 "type": "leaf",
@@ -1330,49 +1343,21 @@
                 }
               },
               {
-                "id": "e11629484207758c",
+                "id": "5ac699bc7ac40866",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/row and column space.md",
+                    "file": "wiki/row and column vectors.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "row and column space"
+                  "title": "row and column vectors"
                 }
               },
               {
-                "id": "06abf8f17f1bdd79",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/LU decomposition.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "LU decomposition"
-                }
-              },
-              {
-                "id": "d9b23b27c084ac74",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/gauss-jordan elimination.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "gauss-jordan elimination"
-                }
-              },
-              {
-                "id": "d7ef7926f4f8c61b",
+                "id": "c329249a48419fad",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
@@ -1380,14 +1365,15 @@
                     "file": "sem3/LinAlg/UE/e/LinAlg-e-u06.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 526,
+                    "top": 724,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-e-u06"
                 }
               }
-            ]
+            ],
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -1585,8 +1571,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "d56a9b6aa133d6f7",
-      "mtime": "2024-11-04T14:15:26+01:00"
+      "active": "c329249a48419fad",
+      "mtime": "2024-11-04T20:14:17+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1610,6 +1596,20 @@
                   },
                   "icon": "lucide-file",
                   "title": "TI"
+                }
+              },
+              {
+                "id": "ebc0a62d675f6c4d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/TI/VRL/notes/lectures/TI-v-w08.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "TI-v-w08"
                 }
               },
               {
@@ -1640,8 +1640,7 @@
                   "title": "TI-bf-u06"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "334b80dc2ab3a841",
@@ -1657,7 +1656,7 @@
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
                     "page": 83,
                     "left": -14,
-                    "top": 308,
+                    "top": 270,
                     "zoom": 1.1229053798664481
                   },
                   "icon": "lucide-file-text",
@@ -1898,9 +1897,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "ea5b4dda271e4bfd",
-      "mtime": "2024-11-01T10:33:31+01:00"
+      "active": "65cc6977d876498e",
+      "mtime": "2024-11-04T20:17:53+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-ti"
 }

@@ -4,7 +4,8 @@
 
 # Info
 
-- [ ] exercise sheet 🔁 every week 📅 2024-11-08
+- [ ] exercise sheet 🔁 every week 📅 2024-11-15
+- [-] exercise sheet 🔁 every week 📅 2024-11-08 ❌ 2024-11-04
 - [x] exercise sheet 🔁 every week 📅 2024-11-01 ✅ 2024-11-01
 - [x] exercise sheet 🔁 every week 📅 2024-10-25 ✅ 2024-10-25
 - [x] exercise sheet 🔁 every week 📅 2024-10-18 ✅ 2024-10-20
