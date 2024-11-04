@@ -691,31 +691,17 @@
                 }
               },
               {
-                "id": "54108993f3595715",
+                "id": "8e2451ef2a829207",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/lectures/DMath-v-w07.md",
+                    "file": "sem3/DMath/VRL/notes/lectures/DMath-v-w08.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "DMath-v-w07"
-                }
-              },
-              {
-                "id": "761fa5002be93fcd",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u06.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMath-bf-u06"
+                  "title": "DMath-v-w08"
                 }
               },
               {
@@ -733,7 +719,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           },
           {
             "id": "f002029a56c7a80a",
@@ -747,9 +733,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 89,
+                    "page": 107,
                     "left": -12,
-                    "top": 599,
+                    "top": 619,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -757,51 +743,48 @@
                 }
               },
               {
-                "id": "252010a9a4780e6f",
+                "id": "064544ae25433303",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/function.md",
+                    "file": "wiki/abstract algebra.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "function"
+                  "title": "abstract algebra"
                 }
               },
               {
-                "id": "c26f5587b390d29a",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/DMath/UE/e/DMath-e-u07.pdf",
-                    "page": 1,
-                    "left": -18,
-                    "top": 696,
-                    "zoom": 0.8958029552678087
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "DMath-e-u07"
-                }
-              },
-              {
-                "id": "1398136b9fe6b713",
+                "id": "5503c92733e5fe87",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/subset.md",
+                    "file": "wiki/identity element (neutral element).md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "subset"
+                  "title": "identity element (neutral element)"
+                }
+              },
+              {
+                "id": "4c9594022fc61795",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/operation.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "operation"
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "vertical"
@@ -979,8 +962,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "d05f8b0e65ff0092",
-      "mtime": "2024-11-04T14:09:49+01:00"
+      "active": "6cded826760a3d75",
+      "mtime": "2024-11-04T17:10:11+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1919,5 +1902,5 @@
       "mtime": "2024-11-01T10:33:31+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-linalg"
 }

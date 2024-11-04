@@ -6,6 +6,8 @@ An **abstract algebra** is [[tuple|2-tuple]] $\langle S; \Omega \rangle$ of a no
 
 ## Equational Axioms
 
+An axiom of an algebraic structure often has the form of an [[identity]], that is, an equation such that the two sides are [[expressions]] that involve operations of the algebraic structure and [[variable|variables]]. If the variables in the identity are replaced by arbitrary elements of the algebraic structure, the equality must remain true.
+
 ### Commutativity
 ![[commutativity]]
 
@@ -18,6 +20,10 @@ An **abstract algebra** is [[tuple|2-tuple]] $\langle S; \Omega \rangle$ of a no
 
 ## Existential Axioms
 
+Some common axioms contain an existential clause. In general, such a clause can be avoided by introducing further operations, and replacing the existential clause by an identity involving the new operation. We don't do this.
+
 ### Identity Element, Neutral Element
+![[identity element (neutral element)]]
+
 
 ### Inverse Element

@@ -2,7 +2,7 @@
 # 7.3 ![[DMath-e-u07.pdf#page=1&rect=79,378,525,409|DMath-e-u07, p.1]]
 ## a) ![[DMath-e-u07.pdf#page=1&rect=108,336,527,377|DMath-e-u07, p.1]]
 
-False. Let $a=2$ and $b=3$. Then $\gcd(a, b) = 1$ and thus the RHS is $(1) = \mathbb{Z}$. However, on the LHS we have $1 \not\in (2) \cup (3)$. Hence $(a) \cup (b) \neq (\gcd(a, b))$.
+False. Consider the following counterexample. Let $a=2$ and $b=3$. Then $\gcd(a, b) = 1$ and thus the RHS is $(1) = \mathbb{Z}$. Thus, trivially $1 \in \mathbb{Z}$. However, on the LHS we have $1 \not\in \big( (2) \cup (3) \big)$. Hence $(a) \cup (b) \neq (\gcd(a, b))$.
 $\square$
 
 
