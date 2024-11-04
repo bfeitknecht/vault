@@ -1,4 +1,7 @@
 
+![[DMath-e-u07.pdf#page=1&rect=73,280,528,426|DMath-e-u07, p.1]]
+
+
 
 ![[dmath-script-hs24.pdf#page=89&rect=33,243,388,307|dmath-script-hs24, p.79]]
 
