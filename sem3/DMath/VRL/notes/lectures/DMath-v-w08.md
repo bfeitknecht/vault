@@ -8,7 +8,7 @@
 
 # Notes
 
-- $\langle \Sigma^{*}; \cdot, \lambda \rangle$, where $\cdot$ denotes the concatenation $\mathrm{concat(\cdot, \cdot)}$ and $\lambda$ denotes the empty word is a monoid
+- $\langle \Sigma^{*}; \cdot, \lambda \rangle$, where $\cdot$ denotes the concatenation $\mathrm{concat(\cdot, \cdot)}$ and $\lambda$ denotes the empty word is a (non-commutative) monoid
 - $\langle \mathbb{Q} \setminus \{ 0 \}; \cdot, {^{-1}}, 1 \rangle$ is a group
 - $\langle \mathbb{Z}; +, -, 0 \rangle$ is a group
 - $\langle \mathbb{Z}_{m}; \oplus_{m}, \ominus_{m}, 0 \rangle$ is a group
