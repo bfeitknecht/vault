@@ -10,10 +10,16 @@ $\square$
 
 Assuming $a,b \neq 0$
 
-True. We prove this via double set inclusion.
+True. We prove this via double set inclusion. First we show that $(a) \cap (b) \subseteq (\mathrm{lcm} (a,b))$. 
 
 
 (b) ?= 
+
+$$
+\begin{align}
+(\mathrm{lcm}(a,b)) &= \{ kl \mid k \in \mathbb{Z}, l = \mathrm{lcm}(a,b) \}
+\end{align}
+$$
 
 $$
 \begin{align}
@@ -28,7 +34,6 @@ $$
 
 
 ![[dmath-script-hs24.pdf#page=89&rect=33,243,388,307|dmath-script-hs24, p.79]]
-
 
 
 ![[dmath-script-hs24.pdf#page=88&rect=30,258,392,347|dmath-script-hs24, p.78]]
