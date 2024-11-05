@@ -16,6 +16,7 @@
 
 #todo: scrape class diagram of languages from hand drawn pdf notes
 
+
 # Lectures
 
 ### W01

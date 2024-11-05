@@ -1,6 +1,8 @@
 
-- [[halting problem]], [[decision problem]] on halting [[language]] $L_{\mathrm{H}} = \{ \mathrm{Kod}(M)\#x \mid x \in \{ 0,1 \}^{*}, M \text{ halts on } x \}$
-- 
+- [[halting problem]], [[decision problem]] of $(\{ 0,1 \# \}, L_{\mathrm{H}})$
+- undecidability of halting problem
+- undecidability of *pretty much everything*
+- $L_{\mathrm{H}} \leq_{\mathrm{EE}} L_{\mathrm{U}}$, $L_{\mathrm{U}} \leq_{\mathrm{EE}} L_{\mathrm{H}}$, i.e. halting problem and universal TM problem equivalent
 
 
 # Notes
