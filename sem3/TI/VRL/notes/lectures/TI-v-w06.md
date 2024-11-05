@@ -7,6 +7,8 @@
 - FSM and TM as turing complete computational model
 - MTM, TM, NTM, etc. all equivalent in computational "power"
 
+**20/30 pts.**
+
 # Notes
 
 two turing machines $A, B$ equivalent $\implies$ accepted languages $L(A) = L(B)$ identical

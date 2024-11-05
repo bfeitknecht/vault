@@ -17,7 +17,7 @@
 > [!danger] #todo 
 > - [ ] scrape class diagram of languages from hand drawn pdf notes
 > - [ ] create boolean set note, boolean matrix
-> - [ ] add points of weekly submissions
+> - [x] add points of weekly submissions ✅ 2024-11-05
 > - [ ] 
 
 

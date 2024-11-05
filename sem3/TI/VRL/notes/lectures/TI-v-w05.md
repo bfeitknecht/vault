@@ -2,7 +2,8 @@
 - [[non-deterministic]] [[finite state machine (FSM)]] 
 - [[pumping lemma]]
 - [[P vs. NP]]
-- 
+
+**25/30 pts.**
 
 
 # Notes

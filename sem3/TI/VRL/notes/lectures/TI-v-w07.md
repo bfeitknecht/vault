@@ -3,6 +3,7 @@
 - non-recursive language by diagonalization argument
 - reductions (recursively enumerable, ==input enumerable==) #todo 
 
+**23/30 pts.**
 
 # Notes
 
