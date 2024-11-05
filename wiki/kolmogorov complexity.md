@@ -11,6 +11,10 @@ K(n) = K(\mathrm{Bin}(n)) =\lfloor \log_{2}(n) \rfloor + 1 = \lceil \log_{2}(n+1
 $$
 
 
+# Properties
+
+
+
 
 # How to Kolmogorov
 ![[how to kolmogorov]]
@@ -25,5 +29,8 @@ Proof by contradiction, let $C(x_{i\in[2^n]})$ be the shortest [[bitstring]] tha
 
 ![[hromkovic-TI.pdf#page=53&rect=41,329,434,398|hromkovic-TIN, p.38]]
 
+
+
+# Examples
 
 

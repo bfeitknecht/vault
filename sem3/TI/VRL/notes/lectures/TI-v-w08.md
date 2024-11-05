@@ -19,10 +19,14 @@
 - [ ] turing machine, informal understanding
 - [ ] minimum number of states required for FSM accepting given language
 - [ ] prime number stuff
-- [ ] kolmogorov in gerneral
+- [ ] kolmogorov in general
 
 
 # Notes
 
-- $L_{\mathrm{H}} \leq_{\mathrm{EE}} L_{\mathrm{U}}$, $L_{\mathrm{U}} \leq_{\mathrm{EE}} L_{\mathrm{H}}$
+- when writing tight bound of kolmogorov complexity in terms of length of word, just come to the form with roots etc.
+- given bound on complexity, find sequence of words: mention canonical order by length of word!!
+- if outermost logarithm is not base two, take its base into the power tower, work inside out
+- if unclear, just take the biggest base log
+
 
