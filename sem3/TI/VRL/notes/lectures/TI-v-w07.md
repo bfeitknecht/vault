@@ -17,7 +17,7 @@ how to enumerate "all programs" of X:
 - test syntax correctness (with compiler, static analysis)
 - whenever pass, increment lexicographical order counter
 
-diagonalization argument to show that there is a language $L_{\text{diag}}$ with no TM, i.e. $l_{\text{diag}} \not\in \mathcal{L}_{\text{RE}}$.
+diagonalization argument to show that there is a language $L_{\text{diag}}$ with no TM, i.e. $T_{\text{diag}} \not\in \mathcal{L}_{\text{RE}}$.
 - assume there exists a TM $M$ s.t. $L(M) = L_{\text{diag}}$
 - let $M=M_{i}$ be the canonical $i$-th TM
 - let $w_{i}$ be the canonical $i$-th word

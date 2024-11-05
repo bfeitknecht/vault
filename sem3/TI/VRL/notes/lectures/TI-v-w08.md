@@ -2,10 +2,8 @@
 - [[halting problem]], [[decision problem]] of $(\{ 0,1 \# \}, L_{\mathrm{H}})$
 - undecidability of halting problem
 - undecidability of *pretty much everything*
-- $L_{\mathrm{H}} \leq_{\mathrm{EE}} L_{\mathrm{U}}$, $L_{\mathrm{U}} \leq_{\mathrm{EE}} L_{\mathrm{H}}$, i.e. halting problem and universal TM problem equivalent
+- halting problem and universal TM problem equivalent
 
-
-# Notes
 
 > [!info]- midterm
 > Die erste freiwillige Zwischenprüfung wird hauptsächlich den Stoff, der durch die Aufgabenblätter 1-6 abgedeckt ist, beinhalten. Das heisst, alles bis zum Ende von Kapitel 3 über endliche Automaten ist auf jeden Fall prüfungsrelevant. Die einzige Ausnahme ist der Beweis des Primzahlensatzes (Satz 2.4).
@@ -15,12 +13,16 @@
 > Von Kapitel 5 gehört nur der Abschnitt 5.2 über die Diagonalisierungsmethode zum Prüfungsstoff.
 
 
-> [!todo]- topics to revisit 
-> - power set construction of NFSM from FSM
-> - non-regularity of language by lemma 3.3, pumping lemma, kolmogorov complexity
-> - turing machine, informal understanding
-> - minimum number of states required for FSM accepting given language
-> - prime number stuff
-> - kolmogorov in gerneral
+#todo **revisit:**
+- [ ] power set construction of NFSM from FSM
+- [ ] non-regularity of language by lemma 3.3, pumping lemma, kolmogorov complexity
+- [ ] turing machine, informal understanding
+- [ ] minimum number of states required for FSM accepting given language
+- [ ] prime number stuff
+- [ ] kolmogorov in gerneral
 
+
+# Notes
+
+- $L_{\mathrm{H}} \leq_{\mathrm{EE}} L_{\mathrm{U}}$, $L_{\mathrm{U}} \leq_{\mathrm{EE}} L_{\mathrm{H}}$
 
