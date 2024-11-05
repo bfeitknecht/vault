@@ -15,6 +15,7 @@ exactly one $l \times b$ treasure area
 
 ## 2
 ![[EProg-e-u06.pdf#page=7&rect=95,283,548,424|EProg-e-u06, p.7]]
+![[EProg-e-u06.pdf#page=8&rect=93,624,547,682|EProg-e-u06, p.8]]
 
 - place exactly $h$ robots, if not possible return null
 - treasure area at least one cell big
