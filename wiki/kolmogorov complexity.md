@@ -13,6 +13,10 @@ $$
 
 # Properties
 
+Let $A, B$ be programming languages, Then there exists a constant $c_{A, B}$ only depending on $A$ and $B$ such that the kolmogorov complexity in the two programming languages differ by at most that constant, for all words over the boolean alphabet.
+$$
+| K_{A}(x) - K_{B}(x) | \leq c_{A, B}, \quad \forall x \in \Sigma_{\mathbb{B}}^{*}
+$$
 
 
 
@@ -26,8 +30,6 @@ $$
 Proof by contradiction, let $C(x_{i\in[2^n]})$ be the shortest [[bitstring]] that generates $x_{i\in[2^n]}$. 
 
 
-
-![[hromkovic-TI.pdf#page=53&rect=41,329,434,398|hromkovic-TIN, p.38]]
 
 
 
