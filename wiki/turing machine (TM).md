@@ -1,5 +1,5 @@
 
-A **turing machine** $M$ is a [[tuple|septuple]], $M=(Q, \Sigma, \Gamma, \delta, q_{0}, q_{\checkmark}, q_{\mathsf{x}})$, where
+A **turing machine** $M$ is a 7-[[tuple]], $M=(Q, \Sigma, \Gamma, \delta, q_{0}, q_{\checkmark}, q_{\mathsf{x}})$, where
 1. $Q$ is the finite *[[set]] of states* of $M$
 2. $\Sigma$ is the *input alphabet*, where $¢, \textvisiblespace \not\in \Sigma$ 
 3. $\Gamma$ is an [[alphabet]] called *working alphabet*, where $\Sigma \subseteq \Gamma$, $¢, \textvisiblespace \in \Gamma$ and $\Gamma \cap Q = \varnothing$

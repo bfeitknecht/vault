@@ -1,4 +1,5 @@
 
+- [[halting problem]], [[decision problem]] on halting [[language]] $L_{\mathrm{H}} = \{ \mathrm{Kod}(M)\#x \mid x \in \{ 0,1 \}^{*}, M \text{ holds on } x \}$
 - 
 
 
