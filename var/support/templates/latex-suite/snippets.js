@@ -197,6 +197,7 @@ Insert tabstops for the cursor to jump to by writing "$0", "$1", etc. in the rep
     {trigger: "QQ", replacement: "\\mathbb{Q}", options: "mA"},
     {trigger: "RR", replacement: "\\mathbb{R}", options: "mA"},
     {trigger: "CC", replacement: "\\mathbb{C}", options: "mA"},
+    {trigger: "BB", replacement: "\\mathbb{B}", options: "mA"},
 
     // Handle spaces and backslashes
 
