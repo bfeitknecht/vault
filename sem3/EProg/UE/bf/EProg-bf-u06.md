@@ -11,7 +11,7 @@ exactly one $l \times b$ treasure area
 ![[EProg-e-u06.pdf#page=7&rect=93,636,548,723|EProg-e-u06, p.7]]
 
 - return coordinates of robot that blocks another, if none return null
-
+- DONE
 
 ## 2
 ![[EProg-e-u06.pdf#page=7&rect=95,283,548,424|EProg-e-u06, p.7]]
@@ -23,4 +23,5 @@ exactly one $l \times b$ treasure area
 ## 3
 ![[EProg-e-u06.pdf#page=8&rect=93,439,548,618|EProg-e-u06, p.8]]
 
+- place $h-n$ more robots so that the whole area is protected or null if not possible
 - treasure area at least one cell big
