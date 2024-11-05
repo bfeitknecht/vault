@@ -7,6 +7,9 @@ A [[natural number]] $n\in \mathbb N$ is random, if $K(n)=K(\mathrm{Bin}(n))\geq
 
 
 
+
+
+
 # Density of Primes
 $$
 \lim_{ n \to \infty } \frac{p_{n}}{n\ln(n)}=1
