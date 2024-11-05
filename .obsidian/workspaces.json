@@ -188,7 +188,7 @@
         }
       },
       "active": "a4fd1789921ffdfe",
-      "mtime": "2024-10-31T11:38:34+01:00"
+      "mtime": "2024-11-05T09:20:42+01:00"
     },
     "00-home": {
       "main": {
@@ -418,8 +418,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "162e7a61651e562a",
-      "mtime": "2024-11-04T20:18:12+01:00"
+      "active": "c1d4bca0b23a015c",
+      "mtime": "2024-11-05T09:20:37+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1294,7 +1294,8 @@
                   "title": "LinAlg-bf-u06"
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           },
           {
             "id": "740ad403278fbd52",
@@ -1365,7 +1366,7 @@
                     "file": "sem3/LinAlg/UE/e/LinAlg-e-u06.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 724,
+                    "top": 729,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
@@ -1571,8 +1572,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "c329249a48419fad",
-      "mtime": "2024-11-04T20:14:17+01:00"
+      "active": "03c484fae4e1a0f2",
+      "mtime": "2024-11-05T09:16:58+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1599,20 +1600,6 @@
                 }
               },
               {
-                "id": "ebc0a62d675f6c4d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/TI/VRL/notes/lectures/TI-v-w08.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "TI-v-w08"
-                }
-              },
-              {
                 "id": "ea5b4dda271e4bfd",
                 "type": "leaf",
                 "state": {
@@ -1627,20 +1614,21 @@
                 }
               },
               {
-                "id": "69231184b8d9bfd0",
+                "id": "ebc0a62d675f6c4d",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/TI/UE/bf/TI-bf-u06.md",
+                    "file": "sem3/TI/VRL/notes/lectures/TI-v-w08.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "TI-bf-u06"
+                  "title": "TI-v-w08"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "334b80dc2ab3a841",
@@ -1654,9 +1642,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
-                    "page": 83,
+                    "page": 155,
                     "left": -14,
-                    "top": 270,
+                    "top": 656,
                     "zoom": 1.1229053798664481
                   },
                   "icon": "lucide-file-text",
@@ -1689,34 +1677,6 @@
                   },
                   "icon": "lucide-file",
                   "title": "turing machine (TM)"
-                }
-              },
-              {
-                "id": "bba86572008eb275",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/TI/VRL/extra/TI Ex 6.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "TI Ex 6"
-                }
-              },
-              {
-                "id": "cc028c3a19de3a99",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/TI/VRL/extra/TheInf-Exe-06 (2).md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "TheInf-Exe-06 (2)"
                 }
               }
             ]
@@ -1897,8 +1857,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "65cc6977d876498e",
-      "mtime": "2024-11-04T20:17:53+01:00"
+      "active": "ebc0a62d675f6c4d",
+      "mtime": "2024-11-05T09:07:13+01:00"
     }
   },
   "active": "sem3-ti"
