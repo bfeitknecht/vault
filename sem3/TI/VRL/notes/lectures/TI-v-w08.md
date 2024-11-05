@@ -15,3 +15,12 @@
 > Von Kapitel 5 gehört nur der Abschnitt 5.2 über die Diagonalisierungsmethode zum Prüfungsstoff.
 
 
+> [!todo]- topics to revisit 
+> - power set construction of NFSM from FSM
+> - non-regularity of language by lemma 3.3, pumping lemma, kolmogorov complexity
+> - turing machine, informal understanding
+> - minimum number of states required for FSM accepting given language
+> - prime number stuff
+> - kolmogorov in gerneral
+
+
