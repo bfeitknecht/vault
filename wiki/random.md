@@ -1,6 +1,10 @@
 #todo 
 
-A [[word]] $x\in\{0,1\}^*$ is **random** if its [[kolmogorov complexity]] is as least as long as the word itself, i.e. $K(x)\geq|x|$. A number $n\in \mathbb N$ is random, if $K(n)=K(\mathrm{Bin}(n))\geq \lceil \log_{2}(n+1) \rceil -1$.
+A [[word]] $x\in \Sigma_{\mathbb{B}}^{*}$ is **random** if its [[kolmogorov complexity]] is greater or equal to its length, i.e. $K(x)\geq|x|$.
+
+A [[natural number]] $n\in \mathbb N$ is random, if $K(n)=K(\mathrm{Bin}(n))\geq \lceil \log_{2}(n+1) \rceil -1$.
+
+
 
 
 # Density of Primes
@@ -12,5 +16,5 @@ The primes are quite dense. The original proof is complicated and relies on the 
 
 # Number of Primes
 ![[hromkovic-TI.pdf#page=56&rect=45,70,438,111|hromkovic-TIN, p.41]]
-	
+
 The proof idea is, that we need infinitely many primes to decompose the infinitely many, increasing random numbers.
