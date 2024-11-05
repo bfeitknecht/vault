@@ -14,6 +14,7 @@
 - [x] exercise sheet 🔁 every week 📅 2024-09-27 ✅ 2024-09-27
 
 
+#todo: scrape class diagram of languages from hand drawn pdf notes
 
 # Lectures
 
