@@ -12,7 +12,7 @@ For every [[non-deterministic finite state machine (NFSM)|NFSM]] $M = (Q_{M}, \S
 
 
 
-
+ 
 
 
 
