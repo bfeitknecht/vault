@@ -19,7 +19,6 @@
   "obsidian-editor-shortcuts",
   "break-page",
   "obsidian-style-settings",
-  "obsidian-cursor-location-plugin",
   "obsidian-git",
   "open-in-new-tab",
   "obsidian-desmos",
@@ -33,5 +32,6 @@
   "pdf-plus",
   "find-unlinked-files",
   "editing-toolbar",
-  "obsidian-tikzjax"
+  "obsidian-tikzjax",
+  "obsidian-cursor-location-plugin"
 ]

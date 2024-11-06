@@ -4,6 +4,24 @@ For every [[non-deterministic finite state machine (NFSM)|NFSM]] $M = (Q_{M}, \S
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![[hromkovic-TI.pdf#page=92&rect=46,548,437,614|hromkovic-TI, p.77]]
 
 
