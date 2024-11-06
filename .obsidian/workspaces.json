@@ -1657,22 +1657,6 @@
                 }
               },
               {
-                "id": "dbfc957b626981bf",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/TI/PV/midterm/cheatsheets/TI-cheatsheet-kenji.pdf",
-                    "page": 3,
-                    "left": 39,
-                    "top": 61,
-                    "zoom": 1
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "TI-cheatsheet-kenji"
-                }
-              },
-              {
                 "id": "34cee5863b3ba7b3",
                 "type": "leaf",
                 "state": {
@@ -1699,37 +1683,9 @@
                   "icon": "lucide-file",
                   "title": "random"
                 }
-              },
-              {
-                "id": "dbb48cf432c6546c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/non-deterministic finite state machine (NFSM).md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "non-deterministic finite state machine (NFSM)"
-                }
-              },
-              {
-                "id": "053ad96d98b8b2f7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/power set construction (NFSM).md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "power set construction (NFSM)"
-                }
               }
             ],
-            "currentTab": 7
+            "currentTab": 4
           },
           {
             "id": "334b80dc2ab3a841",
@@ -1743,9 +1699,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
-                    "page": 96,
+                    "page": 85,
                     "left": -14,
-                    "top": 356,
+                    "top": 447,
                     "zoom": 1.1229053798664481
                   },
                   "icon": "lucide-file-text",
@@ -1957,9 +1913,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "053ad96d98b8b2f7",
-      "mtime": "2024-11-06T17:44:17+01:00"
+      "active": "863aa1cf19e4e3a1",
+      "mtime": "2024-11-06T19:43:13+01:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-dmath"
 }

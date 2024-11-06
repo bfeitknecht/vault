@@ -9,18 +9,19 @@ $\square$
 ## b) ![[DMath-e-u07.pdf#page=1&rect=106,281,529,325|DMath-e-u07, p.1]]
 
 True. We prove this via double set inclusion. First we show that $(a) \cap (b) \subseteq (\mathrm{lcm} (a,b))$. 
-
-
 $$
 \begin{align}
-(\mathrm{lcm}(a,b)) &= \{ kl \mid k \in \mathbb{Z}, l = \mathrm{lcm}(a,b) \}
+(a) \cap (b) &\subseteq (\mathrm{lcm}(a,b)) \\
+\{ ua \mid u \in \mathbb{Z} \} \cap \{ vb \mid v \in \mathbb{Z} \} &\subseteq \{ kl \mid k \in \mathbb{Z}, l = \mathrm{lcm}(a,b) \} \\
+\{ x \mid u,v \in \mathbb{Z} : x = ua \land x = vb \} &\subseteq \Big\{ kl \mid k, l, m \in \mathbb{Z} : a |l \land b |l \land \forall m \big( (a | m \land b | m) \to l |m \big)  \Big\} \\
+\{ x \mid a | x \land b |x \} &\subseteq 
 \end{align}
 $$
 
+Then we show that $(\mathrm{lcm}(a,b)) \subseteq (a) \cap (b)$.
 $$
 \begin{align}
-(a) \cap (b) &= \{ ua \mid u \in \mathbb{Z} \} \cap \{ vb \mid v \in \mathbb{Z} \} \\
-&= \{ x \mid u,v \in \mathbb{Z}, x = ua \land x = vb \}
+(\mathrm{lcm}(a,b)) &\subseteq (a) \cap (b) \\
 \end{align}
 $$
 
