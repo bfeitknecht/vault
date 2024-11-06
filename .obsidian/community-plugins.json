@@ -33,5 +33,6 @@
   "obsidian-latex-suite",
   "pdf-plus",
   "find-unlinked-files",
-  "editing-toolbar"
+  "editing-toolbar",
+  "obsidian-tikzjax"
 ]
