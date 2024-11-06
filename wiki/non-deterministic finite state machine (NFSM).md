@@ -9,7 +9,8 @@ A **[[non-deterministic]] [[finite state machine (FSM)|finite state machine]]** 
 
 Similar to the deterministic variant, we define all languages accepted by an NFSM as $\mathcal{L}_{\mathrm{NEA}} = \{ L(M) \mid M \text{ is NFSM} \}$.
 
-The computing power of an FSM $M_{1}$ and an NFSM $M_{2}$ is equal, i.e. their accepted languages are equal $\mathcal{L}_{\mathrm{EA}} = \mathcal{L}_{\mathrm{NEA}}$. We say that FSM $M_{1}$ is *equivalent* to NFSM $M_{2}$
+The computing power of an FSM $M_{1}$ and an NFSM $M_{2}$ is equal, i.e. their accepted languages are equal $\mathcal{L}_{\mathrm{EA}} = \mathcal{L}_{\mathrm{NEA}}$.
 
-Furthermore, we can construct a FSM $M_{1}$ from any NFSM $M_{2}$.
-![[power set construction]]
+
+Furthermore, we can construct a FSM $A$ from any NFSM $M$ such that they are equivalent, i.e. $L(A) = L(M)$.
+![[power set construction (NFSM)]]
