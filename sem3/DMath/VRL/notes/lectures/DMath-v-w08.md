@@ -3,10 +3,14 @@
 - [[monoid]], set with [[associativity|associative]] [[operation]] and identity element
 - [[group]], monoid with inverse
 - commutative group (abelian group)
-- symmetric group, group of bijections corresponding to [[permutation|permutations]] of elements
+- additive group
+- multiplicative group
+- cyclic group
+- symmetric group
 - (non-)minimality of group axioms
 - [[group homomorphism]]
 - isomorphism (group)
+- cyclic group of prime order
 
 group [[algebra]] is a monoid $\langle M; \star \rangle$ such that the operation has an inverse
 
@@ -21,6 +25,10 @@ group [[algebra]] is a monoid $\langle M; \star \rangle$ such that the operation
 - $\langle \mathbb{Z}^{*}_{m}, \odot_{m}, {\widehat{\phantom{n}}}  , 1 \rangle$ is a *finite*, *multiplicative* group, where ${\widehat{\phantom{n}}}$ denotes the multiplicative inverse modulo $m$
 - the set of invertible $m \times m$ matrices forms a (non-commutative for $m \geq 2$) group under [[matrix multiplication]] with the identity matrix as identity element
 - $\langle S_{n}; \circ, {^{-1}}, id \rangle$, the *symmetric group* of $n$ elements is non-commutative for $n \geq 3$
+
+- symmetric group $S_{n}$ is given by bijections corresponding to [[permutation|permutations]] of $n$ elements
+- every element in $\mathbb{Z}_{2} \times \mathbb{Z}_{2} \times \mathbb{Z}_{2}$ is its own inverse
+- $\mathbb{Z}_{15}^{*} \simeq \mathbb{Z}_{2} \times \mathbb{Z}_{4}$
 
 
 When we consider the monoid $\langle A^{A}; \circ, \mathrm{d} \rangle$, a function $f \in A^{A}$ has a left inverse only if it is injective, and has a right inverse only if it is surjective. Hence $f$ has an inverse $f^{-1}$ if and only it is injective.
