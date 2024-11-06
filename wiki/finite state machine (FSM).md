@@ -7,7 +7,7 @@ A [[deterministic]] **finite state machine** (FSM) is a 5-[[tuple]] $M =(Q, \Sig
 4. $q_{0}\in Q$ is the *initial state*
 5. $F\subseteq Q$ is the set of *accepted states*
 
-A *configuration* of $M$ is a [[tuple]] of *state* $q$ and *input word* $w$ in the cartesian product of all possible states and all possible input words, i.e. $(q, w) \in Q\times\Sigma^*$. It denotes that $M$ is in state $q$ and will read the [[substring|suffix]] of the input [[word]] $w$ next.
+A *configuration* of $M$ is a 2-[[tuple]] of *state* $q$ and *input word* $w$, i.e. $(q, w) \in Q\times\Sigma^*$. It denotes that $M$ is in state $q$ and will read the [[substring|suffix]] of the input [[word]] $w$ next.
 
 A configuration $(q_{0}, x)\in \{q_{0}\} \times\Sigma^*$ is called *initial configuration* of $M$ on $x$. Every configuration $(q, \lambda) \in Q\times \{\lambda \}$ is called an *end configuration*.
 
@@ -23,7 +23,7 @@ A *computation* $C$ of $M$ is a finite [[sequence]] of steps $C=(C_{i})_{i=0}^n$
 We call $C$ a computation of $M$ *on the input* $x\in\Sigma^*$ if $C_{0}=(q_{0},x)$ and $C_{n}\in Q \times \{\lambda\}$ is an end configuration.
 If $C_{n}\in F\times\{\lambda\}$ we say that $C$ is an *accepting computation* of $M$ on $x$ and that $M$ *accepts* the word $x$. In the case that $C_{n}\in (Q-F) \times\{\lambda\}$ we say that $C$ is a *rejecting* computation of $M$ on $x$ and that $M$ *rejects* (doesn't accept) the word $x$.
 
-It's noted that $M$ has exactly one computation for every input $x\in\Sigma^*$.
+It's noted that $M$ has **exactly one** computation for every input $x\in\Sigma^*$.
 
 The [[language]] $L(M)$ *accepted* by $M$ is defined as the set of all words in $w\in\Sigma^*$ such that the computation on $w$ is accepted, i.e. it ends in some end configuration $(q, \lambda)$ with $q\in F$.
 

@@ -12,5 +12,8 @@ Similar to the deterministic variant, we define all languages accepted by an NFS
 The computing power of an FSM $M_{1}$ and an NFSM $M_{2}$ is equal, i.e. their accepted languages are equal $\mathcal{L}_{\mathrm{EA}} = \mathcal{L}_{\mathrm{NEA}}$.
 
 
+# Power Set Construction
+
 Furthermore, we can construct a FSM $A$ from any NFSM $M$ such that they are equivalent, i.e. $L(A) = L(M)$.
+
 ![[power set construction (NFSM)]]
