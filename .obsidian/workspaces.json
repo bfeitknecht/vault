@@ -1048,7 +1048,7 @@
                     "file": "sem3/EProg/UE/e/EProg-e-u06.pdf",
                     "page": 7,
                     "left": -19,
-                    "top": 113,
+                    "top": 497,
                     "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
@@ -1225,7 +1225,7 @@
         }
       },
       "active": "9f760ce10cde2a26",
-      "mtime": "2024-11-03T09:19:20+01:00"
+      "mtime": "2024-11-06T11:16:45+01:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1634,9 +1634,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/PV/midterm/cheatsheets/TI-cheatsheet-kenji.pdf",
-                    "page": 5,
-                    "left": 41,
-                    "top": 94,
+                    "page": 3,
+                    "left": 39,
+                    "top": 61,
                     "zoom": 1
                   },
                   "icon": "lucide-file-text",
@@ -1672,7 +1672,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           },
           {
             "id": "334b80dc2ab3a841",
@@ -1686,9 +1686,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
-                    "page": 51,
+                    "page": 53,
                     "left": -14,
-                    "top": 319,
+                    "top": 675,
                     "zoom": 1.1229053798664481
                   },
                   "icon": "lucide-file-text",
@@ -1901,9 +1901,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "dbfc957b626981bf",
-      "mtime": "2024-11-05T21:49:27+01:00"
+      "active": "34cee5863b3ba7b3",
+      "mtime": "2024-11-06T15:01:19+01:00"
     }
   },
-  "active": "sem3-eprog"
+  "active": "sem3-dmath"
 }

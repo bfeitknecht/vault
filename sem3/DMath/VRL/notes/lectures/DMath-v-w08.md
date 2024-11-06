@@ -2,8 +2,13 @@
 - [[abstract algebra]], set with operations
 - [[monoid]], set with [[associativity|associative]] [[operation]] and identity element
 - [[group]], monoid with inverse
+- commutative group (abelian group)
 - symmetric group, group of bijections corresponding to [[permutation|permutations]] of elements
 - (non-)minimality of group axioms
+- [[group homomorphism]]
+- isomorphism (group)
+
+group [[algebra]] is a monoid $\langle M; \star \rangle$ such that the operation has an inverse
 
 
 # Notes

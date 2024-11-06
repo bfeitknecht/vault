@@ -1,7 +1,6 @@
 [
   "cmdr",
   "obsidian-custom-frames",
-  "editing-toolbar",
   "better-word-count",
   "obsidian-advanced-uri",
   "folders2graph",
@@ -33,5 +32,6 @@
   "vertical-tabs-view",
   "obsidian-latex-suite",
   "pdf-plus",
-  "find-unlinked-files"
+  "find-unlinked-files",
+  "editing-toolbar"
 ]
