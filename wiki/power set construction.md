@@ -1,4 +1,4 @@
-#todo 
+
 
 
 ![[hromkovic-TI.pdf#page=92&rect=46,548,437,614|hromkovic-TI, p.77]]
