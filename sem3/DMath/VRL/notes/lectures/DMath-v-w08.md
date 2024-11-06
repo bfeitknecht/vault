@@ -1,6 +1,6 @@
 
 - [[abstract algebra]], set with operations
-- [[monoid]], set with [[associativity|associative]] [[operation]] and identity element
+- [[monoid]], set with closed [[associativity|associative]] [[operation]] and identity element
 - [[group]], monoid with inverse
 - commutative group (abelian group)
 - additive group
@@ -12,12 +12,12 @@
 - isomorphism (group)
 - cyclic group of prime order
 
-group [[algebra]] is a monoid $\langle M; \star \rangle$ such that the operation has an inverse
+
 
 
 # Notes
 
-- $\langle \Sigma^{*}; \cdot, \lambda \rangle$, where $\cdot$ denotes the concatenation $\mathrm{concat(\cdot, \cdot)}$ and $\lambda$ denotes the empty word is a (non-commutative) monoid
+- $\langle \Sigma^{*}; \cdot, \lambda \rangle$, where $\cdot$ denotes concatenation $\mathrm{concat(\cdot, \cdot)}$ and $\lambda$ denotes the empty word is a non-commutative monoid
 - $\langle A^{A}; \circ, \mathrm{id} \rangle$, where $A^{A}$ denotes the set of functions $\{ f : A \to A \}$ forms a monoid under [[function composition]]
 - $\langle \mathbb{Q} \setminus \{ 0 \}; \cdot, {^{-1}}, 1 \rangle$ is a *multiplicative* group
 - $\langle \mathbb{Z}; +, -, 0 \rangle$ is an *additive* group
