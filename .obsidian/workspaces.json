@@ -1279,16 +1279,32 @@
                 }
               },
               {
+                "id": "6f3ca2fe892d73c5",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w07.pdf",
+                    "page": 3,
+                    "left": 52,
+                    "top": 554,
+                    "zoom": 1.01
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LinAlg-plan-w07"
+                }
+              },
+              {
                 "id": "2d1eb6ec3855c7f5",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w06.pdf",
-                    "page": 7,
+                    "page": 6,
                     "left": -19,
-                    "top": 758,
-                    "zoom": 0.8504901960784316
+                    "top": 71,
+                    "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-plan-w06"
@@ -1309,7 +1325,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "740ad403278fbd52",
@@ -1380,8 +1396,8 @@
                     "file": "sem3/LinAlg/UE/e/LinAlg-e-u06.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 733,
-                    "zoom": 0.8743843192065531
+                    "top": 748,
+                    "zoom": 0.8743843192065532
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-e-u06"
@@ -1573,7 +1589,6 @@
           "obsidian-git:Open Git source control": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
@@ -1586,8 +1601,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "03c484fae4e1a0f2",
-      "mtime": "2024-11-05T10:53:16+01:00"
+      "active": "6f3ca2fe892d73c5",
+      "mtime": "2024-11-06T17:47:42+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1727,7 +1742,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf"
+                    "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
+                    "page": 96,
+                    "left": -14,
+                    "top": 356,
+                    "zoom": 1.1229053798664481
                   },
                   "icon": "lucide-file-text",
                   "title": "hromkovic-TI"
@@ -1939,7 +1958,7 @@
         }
       },
       "active": "053ad96d98b8b2f7",
-      "mtime": "2024-11-06T17:27:38+01:00"
+      "mtime": "2024-11-06T17:44:17+01:00"
     }
   },
   "active": "sem3-ti"
