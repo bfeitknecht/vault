@@ -15,3 +15,5 @@ $$
 $$
 
 
+# Multi Tape Turing Machine (MTM)
+![[multi-tape turing machine (MTM)]]
