@@ -13,16 +13,20 @@
 > Von Kapitel 5 gehört nur der Abschnitt 5.2 über die Diagonalisierungsmethode zum Prüfungsstoff.
 
 
-#todo **revisit:**
+# Topics #todo
+
 - [x] power set construction of NFSM from FSM ✅ 2024-11-07
 - [ ] non-regularity of language by
 	- [x] lemma 3.3, ✅ 2024-11-07
-	- [ ] pumping lemma,
+	- [x] pumping lemma, ✅ 2024-11-07
 	- [ ] kolmogorov complexity
 - [ ] turing machine, informal understanding
 - [x] minimum number of states required for FSM accepting given language ✅ 2024-11-07
 - [ ] prime number stuff
 - [ ] show number of words with given kolmogorov
+- [x] diagonalization argument for uncountability ✅ 2024-11-07
+- [ ] 
+
 
 
 # Notes
