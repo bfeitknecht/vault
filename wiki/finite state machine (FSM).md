@@ -7,15 +7,27 @@ A [[deterministic]] **finite state machine** (FSM) is a 5-[[tuple]] $M =(Q, \Sig
 4. $q_{0}\in Q$ is the *initial state*
 5. $F\subseteq Q$ is the set of *accepted states*
 
+
 A *configuration* of $M$ is a 2-[[tuple]] of *state* $q$ and *input word* $w$, i.e. $(q, w) \in Q\times\Sigma^*$. It denotes that $M$ is in state $q$ and will read the [[substring|suffix]] of the input [[word]] $w$ next.
 
 A configuration $(q_{0}, x)\in \{q_{0}\} \times\Sigma^*$ is called *initial configuration* of $M$ on $x$. Every configuration $(q, \lambda) \in Q\times \{\lambda \}$ is called an *end configuration*.
 
 The *state transition function* defines how $M$ transitions between states depending on the current input symbol, i.e. $\delta(q, x)=p$ means, that reading the symbol $x \in \Sigma$ in state $q$ transitions $M$ to state $p$ for some $q, p \in Q$.
-For ease of working with FSM, we define $\hat{\delta}:Q\times\Sigma^* \to Q$ as the *[[transitive closure]]* of the state transition function, with $\hat\delta(q, w)=p$ meaning that if $M$ starts reading the input word $w \in \Sigma^*$, in some state $q$, it reaches an end configuration in state $p$.
+
+We denote its [[transitive closure]] as $\hat\delta : Q \times \Sigma^{*} \to Q$, defined as follows.
+$$
+\begin{align}
+\hat\delta(q, \lambda) &= q, & \forall q \in Q \\
+\hat\delta(q, wa) &= \delta (\hat\delta(q, w), a) & \forall w \in \Sigma^{*}, a \in \Sigma, q \in Q
+\end{align}
+$$
+
 
 A *step* of $M$ is a [[relation]] on configurations, $\step{M} \subseteq (Q\times\Sigma^*)\times(Q\times\Sigma^*)$, defined by
 $(q, w) \step{M} (p, x) \iff w=ax, a \in \Sigma$, where $\delta(q, a) = p$. 
+
+
+~~For ease of working with FSM, we define $\hat{\delta}:Q\times\Sigma^* \to Q$ as the *[[transitive closure]]* of the state transition function, with $\hat\delta(q, w)=p$ meaning that if $M$ starts reading the input word $w \in \Sigma^*$, in some state $q$, it reaches an end configuration in state $p$.~~
 
 ~~A step corresponds to evaluating the transition function on the current configuration of $M$, resulting in a transition to state $p$.~~
 
@@ -23,7 +35,7 @@ A *computation* $C$ of $M$ is a finite [[sequence]] of steps $C=(C_{i})_{i=0}^n$
 We call $C$ a computation of $M$ *on the input* $x\in\Sigma^*$ if $C_{0}=(q_{0},x)$ and $C_{n}\in Q \times \{\lambda\}$ is an end configuration.
 If $C_{n}\in F\times\{\lambda\}$ we say that $C$ is an *accepting computation* of $M$ on $x$ and that $M$ *accepts* the word $x$. In the case that $C_{n}\in (Q-F) \times\{\lambda\}$ we say that $C$ is a *rejecting* computation of $M$ on $x$ and that $M$ *rejects* (doesn't accept) the word $x$.
 
-It's noted that $M$ has **exactly one** computation for every input $x\in\Sigma^*$.
+It's noted that $M$ has *exactly one* computation for every input $x\in\Sigma^*$.
 
 The [[language]] $L(M)$ *accepted* by $M$ is defined as the set of all words in $w\in\Sigma^*$ such that the computation on $w$ is accepted, i.e. it ends in some end configuration $(q, \lambda)$ with $q\in F$.
 

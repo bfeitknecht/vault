@@ -1,6 +1,6 @@
 
-- [[halting problem]], [[decision problem]] of $(\{ 0,1 \# \}, L_{\mathrm{H}})$
-- undecidability of halting problem
+- [[halting problem]]
+- [[undecidability]] of halting problem
 - undecidability of *pretty much everything*
 - halting problem and universal TM problem equivalent
 
