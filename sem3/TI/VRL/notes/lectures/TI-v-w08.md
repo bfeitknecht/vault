@@ -23,7 +23,6 @@
 - [x] minimum number of states required for FSM accepting given language ✅ 2024-11-07
 - [ ] prime number stuff
 - [ ] show number of words with given kolmogorov
-- [ ] 
 
 
 # Notes
