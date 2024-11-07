@@ -8,22 +8,28 @@ $\square$
 
 ## b) ![[DMath-e-u07.pdf#page=1&rect=106,281,529,325|DMath-e-u07, p.1]]
 
-True. We prove this via double set inclusion. First we show that $(a) \cap (b) \subseteq (\mathrm{lcm} (a,b))$. 
+True. We prove this via double set inclusion. First, we show that $(\mathrm{lcm}(a,b)) \subseteq (a) \cap (b)$.
 $$
 \begin{align}
-(a) \cap (b) &\subseteq (\mathrm{lcm}(a,b)) \\
-\{ ua \mid u \in \mathbb{Z} \} \cap \{ vb \mid v \in \mathbb{Z} \} &\subseteq \{ kl \mid k \in \mathbb{Z}, l = \mathrm{lcm}(a,b) \} \\
-\{ x \mid u,v \in \mathbb{Z} : x = ua \land x = vb \} &\subseteq \Big\{ kl \mid k, l, m \in \mathbb{Z} : a |l \land b |l \land \forall m \big( (a | m \land b | m) \to l |m \big)  \Big\} \\
+(\mathrm{lcm}(a,b)) &\subseteq (a) \cap (b) &\text{(def. $\mathrm{lcm}$, def. ideal)} \\
+\{ k \cdot \mathrm{lcm}(a,b) \mid k \in \mathbb{Z} \} &\subseteq \{ ua \mid u \in \mathbb{Z} \} \cap \{ vb \mid v \in \mathbb{Z} \} &\text{(def. $\cap$)} \\
+\{ k \cdot \mathrm{lcm}(a,b) \mid k \in \mathbb{Z} \} &\subseteq \{ x \mid u,v \in \mathbb{Z} : x = ua \land x = vb \} &\text{(def. $\mathrel|$)} \\
+\{ k \cdot \mathrm{lcm}(a,b) \mid k \in \mathbb{Z} \} &\subseteq \{ x \mid a|x \land b|x \} &\text{(def. $\subseteq$)} \\
+\forall x (\exists k(x = k \cdot \mathrm{lcm}(a, b)) &\to a|x \land b|x) &\text{(def. $\mathrm{lcm}$)}
+\end{align}
+$$
+
+Then we show that $(a) \cap (b) \subseteq (\mathrm{lcm} (a,b))$. 
+$$
+\begin{align}
+(a) \cap (b) &\subseteq (\mathrm{lcm}(a,b)) &\text{(def. ideal)} \\
+\{ ua \mid u \in \mathbb{Z} \} \cap \{ vb \mid v \in \mathbb{Z} \} &\subseteq \{ kl \mid k \in \mathbb{Z}, l = \mathrm{lcm}(a,b) \} &\text{(def. $\cap$, def. $\mathrm{lcm}$)} \\
+\{ x \mid u,v \in \mathbb{Z} : x = ua \land x = vb \} &\subseteq \Big\{ kl \mid k, l, m \in \mathbb{Z} : a |l \land b |l \land \forall m \big( (a | m \land b | m) \to l |m \big)  \Big\} &\text{(def. $\mathrel{|}$)} \\
 \{ x \mid a | x \land b |x \} &\subseteq 
 \end{align}
 $$
 
-Then we show that $(\mathrm{lcm}(a,b)) \subseteq (a) \cap (b)$.
-$$
-\begin{align}
-(\mathrm{lcm}(a,b)) &\subseteq (a) \cap (b) \\
-\end{align}
-$$
+
 
 
 

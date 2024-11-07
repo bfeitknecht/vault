@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "a9a229cc754e3d06",
+            "id": "0b4b36f1c91d71d2",
             "type": "tabs",
             "children": [
               {
-                "id": "a4fd1789921ffdfe",
+                "id": "2e76758ff61fcbb1",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -187,8 +187,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "a4fd1789921ffdfe",
-      "mtime": "2024-11-05T09:20:42+01:00"
+      "active": "2e76758ff61fcbb1",
+      "mtime": "2024-11-07T18:27:05+01:00"
     },
     "00-home": {
       "main": {
@@ -1613,7 +1613,6 @@
           {
             "id": "f95d461f281c19da",
             "type": "tabs",
-            "dimension": 48.705722070844686,
             "children": [
               {
                 "id": "65cc6977d876498e",
@@ -1686,62 +1685,6 @@
                 }
               },
               {
-                "id": "10abdbe3c7f8aa83",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/TI/UE/s/TI-s-u06.pdf",
-                    "page": 2,
-                    "left": -24,
-                    "top": 444,
-                    "zoom": 0.6312198039228863
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "TI-s-u06"
-                }
-              },
-              {
-                "id": "0c5e8dd08f75d215",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/TI/UE/c/TI-c-u06.pdf",
-                    "page": 3,
-                    "left": -19,
-                    "top": 330,
-                    "zoom": 0.8495268106298433
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "TI-c-u06"
-                }
-              }
-            ],
-            "currentTab": 6
-          },
-          {
-            "id": "334b80dc2ab3a841",
-            "type": "tabs",
-            "dimension": 51.29427792915532,
-            "children": [
-              {
-                "id": "863aa1cf19e4e3a1",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
-                    "page": 127,
-                    "left": 32,
-                    "top": 601,
-                    "zoom": 1.16
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "hromkovic-TI"
-                }
-              },
-              {
                 "id": "6f3d27397d4deeae",
                 "type": "leaf",
                 "state": {
@@ -1754,9 +1697,16 @@
                   "icon": "lucide-file",
                   "title": "finite state machine (FSM)"
                 }
-              },
+              }
+            ],
+            "currentTab": 5
+          },
+          {
+            "id": "3e83adc4c2fac75e",
+            "type": "tabs",
+            "children": [
               {
-                "id": "cce861cb746acb6a",
+                "id": "9066f628c6c61a6a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -1767,6 +1717,22 @@
                   },
                   "icon": "lucide-file",
                   "title": "turing machine (TM)"
+                }
+              },
+              {
+                "id": "52840028e2faa28f",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
+                    "page": 70,
+                    "left": -14,
+                    "top": 511,
+                    "zoom": 1.0929822351014236
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "hromkovic-TI"
                 }
               }
             ],
@@ -1948,9 +1914,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "0c5e8dd08f75d215",
-      "mtime": "2024-11-07T16:33:56+01:00"
+      "active": "6f3d27397d4deeae",
+      "mtime": "2024-11-07T19:02:08+01:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-dmath"
 }

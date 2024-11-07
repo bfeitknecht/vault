@@ -51,19 +51,31 @@ The class of all languages accepted by finite state machines is denoted by $\mat
 We can also construct a [[non-deterministic finite state machine (NFSM)]], where the choice of the state transition is not deterministic. These two models are *equivalent*.
 
 
+The [[equivalence relation]] defined below creates a [[partition]] of all possible words over the alphabet, where words $x, y \in \Sigma^{*}$ that end in the same state $p \in Q$ are in the same [[equivalence class]] $\mathrm{Kl}[p] = \{ w \in \Sigma^{*} \mid \hat\delta(q_{0}, w) = p \}$.
+$$
+x R_{\delta} y \iff \hat\delta(q_{0}, x) = \hat\delta(q_{0}, y)
+$$
+
+![[hromkovic-TI.pdf#page=70&rect=139,458,340,615|hromkovic-TIN, p.55|200]]
+We observe that this creates the partition pictured above with $|Q|$ equivalence classes. Then,  we can define the accepted with these equivalence classes. This is given by the following. 
+$$
+\begin{align}
+\mathrm{Kl}[p] \cap \mathrm{Kl}[q] &= \varnothing, & \forall p, q \in Q, p \neq q \\ \\
+\Sigma^{*} &= \bigcup_{p \in Q} \mathrm{Kl}[p] \\
+L(M) &= \bigcup_{p \in F} \mathrm{Kl}[p]
+\end{align}
+$$
+
+
+
 
 
 ___
-#todo 
 
 
 
 
 
-The [[equivalence class|equivalence classes]] of the "step before" relation on two different steps
-![[hromkovic-TI.pdf#page=70&rect=139,458,340,615|hromkovic-TIN, p.55|200]]
-
-![[hromkovic-TI.pdf#page=70&rect=45,176,434,361|hromkovic-TIN, p.55]]
 
 
 # Simulation
