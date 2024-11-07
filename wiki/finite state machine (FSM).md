@@ -8,19 +8,20 @@ A [[deterministic]] **finite state machine** (FSM) is a 5-[[tuple]] $M =(Q, \Sig
 5. $F\subseteq Q$ is the set of *accepted states*
 
 
-A *configuration* of $M$ is a 2-[[tuple]] of *state* $q$ and *input word* $w$, i.e. $(q, w) \in Q\times\Sigma^*$. It denotes that $M$ is in state $q$ and will read the [[substring|suffix]] of the input [[word]] $w$ next.
-
-A configuration $(q_{0}, x)\in \{q_{0}\} \times\Sigma^*$ is called *initial configuration* of $M$ on $x$. Every configuration $(q, \lambda) \in Q\times \{\lambda \}$ is called an *end configuration*.
-
 The *state transition function* defines how $M$ transitions between states depending on the current input symbol, i.e. $\delta(q, x)=p$ means, that reading the symbol $x \in \Sigma$ in state $q$ transitions $M$ to state $p$ for some $q, p \in Q$.
 
-We denote its [[transitive closure]] as $\hat\delta : Q \times \Sigma^{*} \to Q$, defined as follows.
+We denote its [[transitive closure]] with $\hat\delta : Q \times \Sigma^{*} \to Q$, defined recursively as follows.
 $$
 \begin{align}
 \hat\delta(q, \lambda) &= q, & \forall q \in Q \\
 \hat\delta(q, wa) &= \delta (\hat\delta(q, w), a) & \forall w \in \Sigma^{*}, a \in \Sigma, q \in Q
 \end{align}
 $$
+
+A *configuration* of $M$ is a 2-[[tuple]] of *state* $q$ and *input word* $w$, i.e. $(q, w) \in Q\times\Sigma^*$. It denotes that $M$ is in state $q$ and will read the [[substring|suffix]] of the input [[word]] $w$ next.
+
+A configuration $(q_{0}, x)\in \{q_{0}\} \times\Sigma^*$ is called *initial configuration* of $M$ on $x$. Every configuration $(q, \lambda) \in Q\times \{\lambda \}$ is called *end configuration*.
+
 
 
 A *step* of $M$ is a [[relation]] on configurations, $\step{M} \subseteq (Q\times\Sigma^*)\times(Q\times\Sigma^*)$, defined by
@@ -42,6 +43,9 @@ The [[language]] $L(M)$ *accepted* by $M$ is defined as the set of all words in 
 The class of all languages accepted by finite state machines is denoted by $\mathcal L_{EA}$. It's also called the *class of regular languages* and every language $L$ in $\mathcal L_{EA}$ is called *regular*.
 
 
+# Properties
+
+[[non-deterministic finite state machine (NFSM)]]
 
 
 

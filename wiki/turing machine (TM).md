@@ -9,11 +9,17 @@ A [[deterministic]] **turing machine** $M$ is a 7-[[tuple]], $M=(Q, \Sigma, \Gam
 6. $q_{\checkmark} \in Q$ the one and only *accepting state*, where the machine halts and accepts the input word
 7. $q_{\mathsf{x}} \in Q - \{ q_{\checkmark} \}$ the *rejecting state*, where $M$ halts and the input word is rejected
 
-A *configuration* $C$ of $M$ is an element of
+A *configuration* $C$ of $M$ is an element in the set defined below.
 $$
 \mathrm{Konf}(M) = \{ \textcent \} \cdot \Gamma^{*} \cdot Q \cdot \Gamma^{+} \cup Q \cdot \{  \textcent \} \cdot \Gamma^{*}
 $$
 
 
-# Multi Tape Turing Machine (MTM)
+Similarly to NFSM, there is also an equivalent [[non-deterministic turing machine (NTM)]].
+
+
+
+
+
+# multi-tape turing machine (MTM)
 ![[multi-tape turing machine (MTM)]]
