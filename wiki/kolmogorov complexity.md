@@ -3,7 +3,7 @@
 
 The **kolmogorov complexity** of some [[word]] measures the length of the shortest [[program]] that generates that word.
 
-Formally, for $x \in \Sigma_{\mathbb{B}}$, its kolmogorov complexity $K(x)$ is the *minimum* length of binary encoding of pascal programs that generate $x$.
+Formally, for $x \in \Sigma_{\mathbb{B}}^{*}$, its kolmogorov complexity $K(x)$ is the *minimum* length of binary encoding of a pascal program that generate $x$.
 
 For a [[natural number]] $n \in \mathbb{N}$, we define its kolmogorov complexity as the length of its binary encoding.
 $$
