@@ -33,5 +33,6 @@
   "find-unlinked-files",
   "editing-toolbar",
   "obsidian-tikzjax",
-  "obsidian-cursor-location-plugin"
+  "obsidian-cursor-location-plugin",
+  "obsidian-excalidraw-plugin"
 ]

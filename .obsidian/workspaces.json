@@ -488,8 +488,8 @@
                     "file": "sem3/A&D/VRL/script/A&D-script-w05-ADT.pdf",
                     "page": 21,
                     "left": -18,
-                    "top": 298,
-                    "zoom": 0.8743843192065529
+                    "top": 302,
+                    "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-script-w05-ADT"
@@ -664,7 +664,7 @@
         }
       },
       "active": "2e5ac05a53791427",
-      "mtime": "2024-11-03T19:26:25+01:00"
+      "mtime": "2024-11-07T08:35:33+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -733,7 +733,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           },
           {
             "id": "f002029a56c7a80a",
@@ -747,9 +747,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 110,
+                    "page": 109,
                     "left": -12,
-                    "top": 534,
+                    "top": 117,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -963,7 +963,6 @@
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
           "cmdr:Export to PDF": false,
@@ -976,8 +975,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "8e2451ef2a829207",
-      "mtime": "2024-11-06T16:12:13+01:00"
+      "active": "d05f8b0e65ff0092",
+      "mtime": "2024-11-06T21:54:48+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1917,5 +1916,5 @@
       "mtime": "2024-11-06T19:43:13+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-ti"
 }
