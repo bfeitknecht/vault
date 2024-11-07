@@ -36,3 +36,16 @@
 - if outermost logarithm is not base two, take its base into the power tower, work inside out
 - if unclear, just take the biggest base log
 
+
+
+# Scratch
+
+$$
+\begin{align} \\
+\Sigma &= \{ 0,1 \} \\
+L &= \{ w \in \Sigma^{*} \mid \exists n \in \mathbb{N} : |w|_{0} = n^{3} \lor |w|_{1} = n^{3} \} \\  \\
+L_{x_{i}} &= \{ y_{j}  \in \Sigma^{*} \mid x_{i}y_{j} \in L \} \\
+x_{i} &= 110^{i^{3}-i} \\
+y_{i,j=1} &= 0^{i}
+\end{align}
+$$
