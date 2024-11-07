@@ -7,13 +7,33 @@ git clone <URL> --depth=N	      # shallow clone only HEAD~N
 git lfs pull --include “GLOB“	  # git-lfs pull only GLOB
 ```
 
+> [!info]- utility plugin list
+> 
+> - automatic table of content  
+> - language tool integration
+> - zotero integration
+> - open in new tab
+> - flashcards
+> - [auto anki](https://github.com/cadrianxyz/obsidian-auto-anki)
+>   
+
+> [!info]- usage plugin list
+> 
+> - global search and replace
+> - folder notes
+> - user plugin
+> - style settings
+
 
 ## Problems
 
->[!todo]- rename stuff
-> AuD -> A&D
-> AuW -> A&W
-> TIN -> TI
+- attachment management fucked shit up and put normal pdfs into the wrong folder
+- want to paste pdf selection as image, so it's synced to the web etc.
+- rename stuff
+	- AuD -> A&D  
+    - AuW -> A&W  
+    - TIN -> TI
+- ==minimal theme causes major lag==
 
 >[!attention]- Time To Load Plugins
 > Total plugin setup: 639ms
@@ -51,16 +71,13 @@ git lfs pull --include “GLOB“	  # git-lfs pull only GLOB
 > remember-cursor-position: 1ms
 > snippet-commands-obsidian: 1ms
 
-> [!problem]- launch terminal from obsidian messes up git
+> [!info]- launch terminal from obsidian messes up git
 > when hotkey to launch terminal, not in git??
 > not a git directory, eth (top root) also not git
 > but if another session is active (navigate to vault or eth), git works
 >
 
->[!note]- paste pdf selection as image to anki
-> want to paste pdf selection as image, so it's synced to the web etc.
-
->[!note]- serve ollama
+>[!info]- serve ollama
 > ```bash
 > open --background docker
 > ollama serve
@@ -69,7 +86,7 @@ git lfs pull --include “GLOB“	  # git-lfs pull only GLOB
 > 'obsidian://advanced-uri?vault=vault&commandid=obsidian-custom-> frames%253Aopen-custom-frames-ollama'
 > ```
 
-> [!note]- make timer web frame adapt to theme
+> [!info]- make timer web frame adapt to theme
 > ```javascript
 > // Check to see if Media-Queries are supported
 > if (window.matchMedia) {
@@ -85,42 +102,12 @@ git lfs pull --include “GLOB“	  # git-lfs pull only GLOB
 > ```
 > css styles need !important tag
 
-> [!note] var/attachment
-> attachment management fucked shit up and put normal pdfs into the wrong folder
-> 
-
-
-> [!info]- utility plugin list
-> 
-> - automatic table of content  
-> - language tool integration
-> - zotero integration
-> - open in new tab
-> - flashcards
-> - [auto anki](https://github.com/cadrianxyz/obsidian-auto-anki)
->   
-
-> [!info]- usage plugin list
-> 
-> - global search and replace
-> - folder notes
-> - user plugin
-> - style settings
-
 >[!info]- toggl hide ugly big header
 > - delete div `<div class="css-1a5pxsz-TopResponsiveBarContainer e2h8eq20">` 
 > - disable `:root { --top-responsive-bar-height: 80px; }`
 
 
-old mathjax preamble:
-```latex
-
-\newcommand{\nimpl}{\kern.6em\not\kern -.6em \implies}
-```
-
-
-
-# Miscellaneous
+# Callout Styles
 
 >[!note]
 

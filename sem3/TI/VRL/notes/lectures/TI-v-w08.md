@@ -14,12 +14,16 @@
 
 
 #todo **revisit:**
-- [ ] power set construction of NFSM from FSM
-- [ ] non-regularity of language by lemma 3.3, pumping lemma, kolmogorov complexity
+- [x] power set construction of NFSM from FSM ✅ 2024-11-07
+- [ ] non-regularity of language by
+	- [x] lemma 3.3, ✅ 2024-11-07
+	- [ ] pumping lemma,
+	- [ ] kolmogorov complexity
 - [ ] turing machine, informal understanding
-- [ ] minimum number of states required for FSM accepting given language
+- [x] minimum number of states required for FSM accepting given language ✅ 2024-11-07
 - [ ] prime number stuff
-- [ ] kolmogorov in general
+- [ ] show number of words with given kolmogorov
+- [ ] 
 
 
 # Notes
