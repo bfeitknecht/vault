@@ -8,6 +8,8 @@ A [[deterministic]] **finite state machine** (FSM) is a 5-[[tuple]] $M =(Q, \Sig
 5. $F\subseteq Q$ is the set of *accepted states*
 
 
+# Definition
+
 The *state transition function* defines how $M$ transitions between states depending on the current input symbol, i.e. $\delta(q, x)=p$ means, that reading the symbol $x \in \Sigma$ in state $q$ transitions $M$ to state $p$ for some $q, p \in Q$.
 
 We denote its [[transitive closure]] with $\hat\delta : Q \times \Sigma^{*} \to Q$, defined recursively as follows.
@@ -67,7 +69,15 @@ L(M) &= \bigcup_{p \in F} \mathrm{Kl}[p]
 $$
 
 
-For an alphabet $\Sigma$ and two  FSM $M_{1}, M_{2}$, defined as usual, the process of [[simulation]] allows us to construct a product FSM that *simulates* the transitions of its two components at the same time. Formally, we say that vor every set operation $\diamond \in \{ \cup, \cap, - \}$, there exists a FSM $M$ such that $L(M) = L(M_{1}) \diamond L(M_{2})$.
+For an alphabet $\Sigma$ and two  FSM $M_{1}, M_{2}$, defined as usual, the process of [[simulation]] allows us to construct a product FSM that *simulates* the transitions of its two components at the same time. Formally, we say that vor every set operation $\diamond \in \{ \cup, \cap, - \}$, there exists a FSM $M$ such that $L(M) = L(M_{1}) \mathrel\Box L(M_{2})$. We define this product FSM $M = (Q, \Sigma, \delta, q_{0}, F_{\mathrel\Box})$ as below.
+
+1. $Q = Q_{1} \times Q_{2}$
+2. $\delta((q, p), a) = (\delta_{1}(q,a), \delta_{2}(p, a)), \quad\forall(q,p) \in Q, a \in \Sigma$
+3. $q_{0} =(q_{0_{1}}, q_{0_{2}})$
+	- if $\Box = \cup$ then $F = F_{1} \times Q_{2} \cup Q_{1} \times F_{2}$, i.e. either one of $M_{1}, M_{2}$ has to accept
+	- if $\Box = \cap$ then $F = F_{1} \times F_{2}$, both $M_{1}$ and $M_{2}$ have to accept
+	- if $\Box = -$ then$F=F_{1} \times (Q_{2} - F_{2})$, so $M_{1}$ has to accept and $M_{2}$ mustn't accept
+
 
 
 ___
@@ -75,14 +85,6 @@ ___
 
 
 
-
-
-
-# Simulation
-[[simulation]]
-
-![[hromkovic-TI.pdf#page=78&rect=39,66,436,119|hromkovic-TIN, p.63]]
-![[hromkovic-TI.pdf#page=79&rect=38,159,413,322|hromkovic-TIN, p.64]]
 
 
 
