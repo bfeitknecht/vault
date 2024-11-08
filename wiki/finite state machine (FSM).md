@@ -67,7 +67,7 @@ L(M) &= \bigcup_{p \in F} \mathrm{Kl}[p]
 $$
 
 
-
+For an alphabet $\Sigma$ and two  FSM $M_{1}, M_{2}$, defined as usual, the process of [[simulation]] allows us to construct a product FSM that *simulates* the transitions of its two components at the same time. Formally, we say that vor every set operation $\diamond \in \{ \cup, \cap, - \}$, there exists a FSM $M$ such that $L(M) = L(M_{1}) \diamond L(M_{2})$.
 
 
 ___
