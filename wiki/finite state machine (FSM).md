@@ -8,6 +8,7 @@ A [[deterministic]] **finite state machine** (FSM) is a 5-[[tuple]] $M =(Q, \Sig
 5. $F\subseteq Q$ is the set of *accepted states*
 
 
+
 # Definition
 
 The *state transition function* defines how $M$ transitions between states depending on the current input symbol, i.e. $\delta(q, x)=p$ means, that reading the symbol $x \in \Sigma$ in state $q$ transitions $M$ to state $p$ for some $q, p \in Q$.
@@ -46,6 +47,7 @@ L(M) &= \{ w \in \Sigma^{*} \mid \exists p \in F : (q_{0}, w) \steps{M} (p, \lam
 $$
 
 The class of all languages accepted by finite state machines is denoted by $\mathcal L_{EA}$. We also say the *class of regular languages* and specifically, every language $L \in\mathcal L_{EA}$ is called *regular*.
+
 
 
 # Properties
