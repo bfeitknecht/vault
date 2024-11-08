@@ -25,8 +25,6 @@
 - [ ] prime number stuff
 - [ ] show number of words with given kolmogorov
 - [x] diagonalization argument for uncountability ✅ 2024-11-07
-- [ ] 
-
 
 
 # Notes

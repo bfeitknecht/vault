@@ -2,15 +2,17 @@
 - encoding of TM
 - non-recursive language by diagonalization argument
 - reductions (recursively enumerable, ==input enumerable==) #todo 
+- diagonalization #todo 
+
 
 **23/30 pts.**
 
 # Notes
 
-homomorphism from $\mathrm{Code(\cdot)}$ to $\mathrm{Kod}(\cdot)$, i.e. alphabet $\{ 0, 1, \# \}$ to $\{ 0,1 \}$:
+homomorphism from $\{ 0, 1, \# \}$ to $\{ 0,1 \}$:
 - write $1$ as $11$
 - write $0$ as $00$
-- write $\#$ as either $01$ or $10$
+- write $\#$ exclusively as either $01$ or $10$
 
 how to enumerate "all programs" of X:
 - enumerate over all words in alphabet of X
