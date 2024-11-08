@@ -16,14 +16,14 @@
 # Topics #todo
 
 - [x] power set construction of NFSM from FSM ✅ 2024-11-07
-- [ ] non-regularity of language by
+- [x] non-regularity of language by ✅ 2024-11-08
 	- [x] lemma 3.3, ✅ 2024-11-07
 	- [x] pumping lemma, ✅ 2024-11-07
-	- [ ] kolmogorov complexity
-- [ ] turing machine, informal understanding
+	- [x] kolmogorov complexity ✅ 2024-11-08
+- [x] turing machine, informal understanding ✅ 2024-11-08
 - [x] minimum number of states required for FSM accepting given language ✅ 2024-11-07
-- [ ] prime number stuff
-- [ ] show number of words with given kolmogorov
+- [-] prime number stuff ❌ 2024-11-08
+- [-] show number of words with given kolmogorov ❌ 2024-11-08
 - [x] diagonalization argument for uncountability ✅ 2024-11-07
 
 
@@ -33,9 +33,4 @@
 - given bound on complexity, find sequence of words: mention canonical order by length of word!!
 - if outermost logarithm is not base two, take its base into the power tower, work inside out
 - if unclear, just take the biggest base log
-
-
-
-# Scratch
-
 
