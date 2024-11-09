@@ -12,6 +12,38 @@ Every vector spaces is equipped with at least two (trivial) vector subspaces, th
 
 ## Four Fundamental Subspaces
 
+```tikz
+\usepackage{tikz-cd}
+\begin{document}
+
+\begin{tikzcd}
+W &&&&&&& W \\
+\\
+&&& V & V \\
+{\mathbf{LN}(M)} \\
+&&& {\mathbf{R}(M)} &&&& {\mathbf{C}(M)} \\
+&&&& {\mathbf{N}(M)} \\
+\\
+0 &&& 0 & 0 &&& 0 
+\arrow[no head, from=1-1, to=4-1] 
+\arrow[from=1-1, to=5-4] 
+\arrow[no head, from=1-8, to=5-8] 
+\arrow[no head, from=3-4, to=5-4] 
+\arrow[from=3-5, to=5-8] 
+\arrow[no head, from=3-5, to=6-5] 
+\arrow[no head, from=4-1, to=8-1] 
+\arrow[from=4-1, to=8-4] 
+\arrow[no head, from=5-4, to=8-4] 
+\arrow[no head, from=5-8, to=8-8] 
+\arrow[no head, from=6-5, to=8-5] 
+\arrow[from=6-5, to=8-8] 
+\arrow[from=8-1, to=8-4] 
+\arrow[from=8-5, to=8-8]
+\end{tikzcd}
+
+\end{document}
+```
+
 
 ## Complementary Subspace
 

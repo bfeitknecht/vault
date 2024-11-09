@@ -50,9 +50,3 @@ Since every zebra array of size $l$ contains zebra arrays of size $l-1$, we use 
 4. calculation order
 5. extracting solution
 6. runtime of the described algorithm is $O(nm)$, because of the two nested for loops that iterate over $n$ and $m$
-
-
-
-
-
-
