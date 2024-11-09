@@ -4,27 +4,27 @@ Basil Feitknecht, 23-922-099
 
 
 # 7.1       Subset Sum with Duplicates ![[A&D-e-u07.pdf#page=1&rect=64,388,533,527|A&D-e-u07, p.1]]
-We use a boolean DP table.
-
-```lua
-function subsetsum_duplicates(A)
-    
-end
+1. dimensions of the boolean DP table $S$ are $(b+1) \times (n+1)$, i.e. matrix
+2. entry $S[i][j]$, with $i \in [b], j \in [n]$ means that $i$ is *subset sum with duplicates* of first $j$ entries in $A$
+3. the correctness of the recurrence relation below is given by the fact, that adding an element solves a new subproblem, whereas not adding it preserves the results of the previous iterations' subproblems, i.e. the solutions of the subproblems together form the solution of the initial problem
+   
+   - base case:
+```txt
+for j = 0 .. n: S[0][j] = true      // no elements taken yields zero
+for i = 1 .. b: S[i][0] = false     // zero stays zero
 ```
 
+ - recurrence relation:
+```txt
+for j = 1 .. n:
+    for i = 1 .. b:
+        a = A[j]
+        S[i][j] = S[i][j-1] || (S[i][j-a] && a < j) || (S[i][j-2*a] && 2*a < j)
+```
 
-1. dimensions of the DP table are $b\times n$
-2. entry $S[i][j]$, with $i \in [b], j \in [n]$ means that $i$ is *subset sum with duplicates* of first $j$ entries in $A$
-3. the recursion is given by $S[i][j] = S[i][j-1] \lor i=A[i] \lor i=2A[i]$, if $a> b$ or $2a>b$ we simply break out early
-    - base case corresponds to only evaluating the first entry $a = A[1]$, then $S[0][1] = S[a][1] = S[2a][1] =$ `true`
-    - recurrence relation is correct because all previously possible subset sums with duplicates, plus zero once and twice current
-4. we iterate from 1 .. n and in that loop we iterate from 0 .. b, so bottom up
-5. solution is given by dp at b, n, since that means wether or not we can make b with all n entries
+4. we iterate $j$ over $1..n$ and $i$ over $1..b$, thus we compute bottom up
+5. solution can be extracted at $S[b][n]$, since that entry encodes if it's possible to make *subset sum with duplicates* $b$ of all $n$ entries $A[1 ..n]$
 6. running time is dominated by nested for loops and thus $O(b \cdot n)$
-
-
-
-
 
 <div class="page-break" style="page-break-before: always;"></div>
 
