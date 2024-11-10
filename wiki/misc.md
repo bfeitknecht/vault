@@ -194,21 +194,14 @@ A --> B
 \begin{document}
 
 \begin{tikzcd}
-	\bullet & \bullet
+	{A} & {B}
 	\arrow[from=1-1, to=1-2]
 \end{tikzcd}
 
 \end{document}
 ```
 
-
-
-
-
-
-
-
-
+github issue solution:
 ```tikz
 \usepackage{tikz-cd}
 \usepackage{amsmath}
