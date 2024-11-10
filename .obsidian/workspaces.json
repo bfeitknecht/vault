@@ -420,7 +420,7 @@
         }
       },
       "active": "96330edeec2161d0",
-      "mtime": "2024-11-07T08:45:36+01:00"
+      "mtime": "2024-11-10T15:37:40+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -519,7 +519,7 @@
                     "file": "sem3/A&D/UE/e/A&D-e-u07.pdf",
                     "page": 1,
                     "left": -23,
-                    "top": 41,
+                    "top": 46,
                     "zoom": 0.86
                   },
                   "icon": "lucide-file-text",
@@ -696,7 +696,7 @@
         }
       },
       "active": "1319a832513a4202",
-      "mtime": "2024-11-09T20:57:39+01:00"
+      "mtime": "2024-11-09T22:45:22+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -781,7 +781,7 @@
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 32,
                     "left": -12,
-                    "top": 383,
+                    "top": 387,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -1039,7 +1039,7 @@
         }
       },
       "active": "d05f8b0e65ff0092",
-      "mtime": "2024-11-08T20:18:44+01:00"
+      "mtime": "2024-11-10T15:37:42+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1348,8 +1348,8 @@
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w07.pdf",
                     "page": 4,
-                    "left": 48,
-                    "top": 755,
+                    "left": 40,
+                    "top": 737,
                     "zoom": 1.01
                   },
                   "icon": "lucide-file-text",
@@ -1408,20 +1408,6 @@
                 }
               },
               {
-                "id": "cea4ac865f90d99d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/vector subspace.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "vector subspace"
-                }
-              },
-              {
                 "id": "5ac699bc7ac40866",
                 "type": "leaf",
                 "state": {
@@ -1436,19 +1422,31 @@
                 }
               },
               {
-                "id": "c329249a48419fad",
+                "id": "cea4ac865f90d99d",
                 "type": "leaf",
                 "state": {
-                  "type": "pdf",
+                  "type": "markdown",
                   "state": {
-                    "file": "sem3/LinAlg/UE/e/LinAlg-e-u06.pdf",
-                    "page": 1,
-                    "left": -18,
-                    "top": 757,
-                    "zoom": 0.8743843192065531
+                    "file": "wiki/vector subspace.md",
+                    "mode": "source",
+                    "source": false
                   },
-                  "icon": "lucide-file-text",
-                  "title": "LinAlg-e-u06"
+                  "icon": "lucide-file",
+                  "title": "vector subspace"
+                }
+              },
+              {
+                "id": "bab6ed0390818fd4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/misc.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "misc"
                 }
               }
             ],
@@ -1634,10 +1632,10 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-excalidraw-plugin:Create new drawing": false,
           "obsidian-git:Open Git source control": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
@@ -1650,8 +1648,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "6f3ca2fe892d73c5",
-      "mtime": "2024-11-09T10:26:29+01:00"
+      "active": "bab6ed0390818fd4",
+      "mtime": "2024-11-10T15:37:38+01:00"
     },
     "sem3-ti": {
       "main": {

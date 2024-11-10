@@ -1,5 +1,5 @@
 {
-  "settings_version": "0.23.0",
+  "settings_version": "0.22.0",
   "debug": false,
   "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
@@ -32,7 +32,7 @@
       },
       "shells": {},
       "alias": "Open file in editor",
-      "icon": "lucide-terminal-square",
+      "icon": "terminal-square",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
@@ -77,7 +77,7 @@
       },
       "shells": {},
       "alias": "Git add all changes",
-      "icon": "lucide-plus-circle",
+      "icon": "plus-circle",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
@@ -129,7 +129,7 @@
       },
       "shells": {},
       "alias": "Open folder in terminal",
-      "icon": "lucide-terminal",
+      "icon": "terminal",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
@@ -174,7 +174,7 @@
       },
       "shells": {},
       "alias": "Toggle theme",
-      "icon": "lucide-moon",
+      "icon": "moon",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
@@ -210,7 +210,7 @@
       },
       "shells": {},
       "alias": "Empty trash",
-      "icon": "lucide-trash-2",
+      "icon": "trash",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
@@ -246,7 +246,7 @@
       },
       "shells": {},
       "alias": "Delete most recently added attachment",
-      "icon": "lucide-delete",
+      "icon": "delete",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
@@ -282,7 +282,7 @@
       },
       "shells": {},
       "alias": "Open vault root in terminal",
-      "icon": "lucide-terminal",
+      "icon": "terminal",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
@@ -318,7 +318,7 @@
       },
       "shells": {},
       "alias": "On quit",
-      "icon": "lucide-skull",
+      "icon": "skull",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {

@@ -144,3 +144,74 @@ comment
 comment
 -->
 ```
+
+
+# Testing
+
+
+change of basis
+```tikz
+\usepackage{tikz-cd}
+\begin{document}
+
+\begin{tikzcd}
+{V'} &&&& {W'} \\
+\\
+& X && Y \\
+\\
+V &&&& W
+\arrow["{A'}", from=1-1, to=1-5]
+\arrow[tail reversed, from=1-1, to=3-2]
+\arrow[tail reversed, from=1-5, to=3-4]
+\arrow["{\psi_{W}}", dashed, tail, from=1-5, to=5-5]
+\arrow["T", from=3-2, to=3-4]
+\arrow[tail reversed, from=3-2, to=5-1]
+\arrow[tail reversed, from=3-4, to=5-5]
+\arrow["{\psi_{V}}", dashed, tail, from=5-1, to=1-1]
+\arrow["A", from=5-1, to=5-5]
+\end{tikzcd}
+
+\end{document}
+```
+
+
+
+https://q.uiver.app/#q=WzAsNixbMCwwLCJWJyJdLFs0LDAsIlcnIl0sWzEsMiwiWCJdLFszLDIsIlkiXSxbMCw0LCJWIl0sWzQsNCwiVyJdLFswLDEsIkEnIl0sWzAsMiwiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiYXJyb3doZWFkIn19fV0sWzEsMywiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiYXJyb3doZWFkIn19fV0sWzEsNSwiXFxwc2lfe1d9IiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9LCJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMiwzLCJUIl0sWzIsNCwiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiYXJyb3doZWFkIn19fV0sWzMsNSwiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiYXJyb3doZWFkIn19fV0sWzQsMCwiXFxwc2lfe1Z9IiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9LCJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbNCw1LCJBIl1d
+
+
+testing tikz-cd dashed arrows
+just stuck loading... not even special arrow
+
+A --> B
+```tikz
+\usepackage{tikzcd}
+\begin{document}
+
+\begin{tikzcd}
+A & B
+\arrow[from=1-1, to=1-2]
+\end{tikzcd}
+
+\end{document}
+```
+
+
+
+
+
+
+
+
+```tikz
+\usepackage{tikz-cd}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+\begin{tikzcd}
+
+A \arrow[r, "f"] & B
+
+\end{tikzcd}
+\end{document}
+```

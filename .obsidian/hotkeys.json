@@ -239,5 +239,14 @@
       ],
       "key": "-"
     }
+  ],
+  "workspace:open-in-new-window": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "W"
+    }
   ]
 }
