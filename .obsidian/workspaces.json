@@ -1346,7 +1346,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w07.pdf"
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w07.pdf",
+                    "page": 4,
+                    "left": -19,
+                    "top": 781,
+                    "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-plan-w07"
@@ -1446,7 +1450,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1640,11 +1644,12 @@
           "workspaces:Manage workspace layouts": false,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "obsidian-excalidraw-plugin:Create new drawing": false
         }
       },
-      "active": "bab6ed0390818fd4",
-      "mtime": "2024-11-10T15:39:40+01:00"
+      "active": "cea4ac865f90d99d",
+      "mtime": "2024-11-10T19:01:24+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1973,5 +1978,5 @@
       "mtime": "2024-11-08T20:18:39+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "00-clean"
 }
