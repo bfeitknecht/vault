@@ -152,6 +152,9 @@ comment
 change of basis
 ```tikz
 \usepackage{tikz-cd}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
 \begin{document}
 
 \begin{tikzcd}
@@ -185,15 +188,19 @@ just stuck loading... not even special arrow
 A --> B
 ```tikz
 \usepackage{tikzcd}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
 \begin{document}
 
 \begin{tikzcd}
-A & B
+A && B
 \arrow[from=1-1, to=1-2]
 \end{tikzcd}
 
 \end{document}
 ```
+
 
 
 
