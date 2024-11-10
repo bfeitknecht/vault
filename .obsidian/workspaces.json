@@ -1346,11 +1346,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w07.pdf",
-                    "page": 4,
-                    "left": 40,
-                    "top": 737,
-                    "zoom": 1.01
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w07.pdf"
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-plan-w07"
@@ -1635,7 +1631,6 @@
           "obsidian-git:Open Git source control": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
@@ -1649,7 +1644,7 @@
         }
       },
       "active": "bab6ed0390818fd4",
-      "mtime": "2024-11-10T15:37:38+01:00"
+      "mtime": "2024-11-10T15:39:01+01:00"
     },
     "sem3-ti": {
       "main": {
