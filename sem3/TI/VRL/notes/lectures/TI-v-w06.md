@@ -2,7 +2,7 @@
 - [[turing machine (TM)]]
 - [[mutli tape turing machine]]
 - [[recursive language]]
-- [[power set construction (NFSM)]] to get FSM from NFSM
+- [[power set construction]] to get FSM from NFSM
 - equivalence of turing machines
 - FSM and TM as turing complete computational model
 - MTM, TM, NTM, etc. all equivalent in computational "power"

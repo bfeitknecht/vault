@@ -13,16 +13,9 @@ Introduction to programming with Java.
 - [x] exercise sheet 🔁 every week 📅 2024-09-24 ✅ 2024-09-22
 
 
-> [!attention] Topics to revisit
-> - inheritance / polymorphism quiz
-> - ebnf
-> - loop invariants, hoare triples
-> - how to code quickly
-> - how abstraction models complexity
-> - 
->   
+> [!danger] TODO!
+> - [ ] fill in week 05 - 09
 
-![[keywords (java)]]
 
 # Lectures
 
@@ -68,3 +61,15 @@ Introduction to programming with Java.
 ### W14
 ![[EProg-v-w14]]
 
+
+
+# Material
+
+> [!attention] Topics to revisit
+> - inheritance / polymorphism quiz
+> - ebnf
+> - loop invariants, hoare triples
+> - how to code quickly
+> - how abstraction models complexity
+
+![[keywords (java)]]
