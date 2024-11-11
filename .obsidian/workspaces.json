@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "0b4b36f1c91d71d2",
+            "id": "5f215fca2d0bcbdb",
             "type": "tabs",
             "children": [
               {
-                "id": "2e76758ff61fcbb1",
+                "id": "22172cdc0e12bc7f",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -174,7 +174,7 @@
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "obsidian-excalidraw-plugin:Create new drawing": true,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
           "cmdr:Export to PDF": false,
@@ -187,8 +187,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "2e76758ff61fcbb1",
-      "mtime": "2024-11-07T18:27:05+01:00"
+      "active": "22172cdc0e12bc7f",
+      "mtime": "2024-11-11T08:09:39+01:00"
     },
     "00-home": {
       "main": {
@@ -227,8 +227,7 @@
                   "title": "README"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "f4c27890fdfee2b4",
@@ -405,7 +404,7 @@
         "hiddenItems": {
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "obsidian-excalidraw-plugin:Create new drawing": true,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
           "obsidian-git:Open Git source control": true,
@@ -419,8 +418,8 @@
           "command-palette:Open command palette": true
         }
       },
-      "active": "96330edeec2161d0",
-      "mtime": "2024-11-10T15:37:40+01:00"
+      "active": "162e7a61651e562a",
+      "mtime": "2024-11-11T08:09:52+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -519,7 +518,7 @@
                     "file": "sem3/A&D/UE/e/A&D-e-u07.pdf",
                     "page": 1,
                     "left": -23,
-                    "top": 46,
+                    "top": 50,
                     "zoom": 0.86
                   },
                   "icon": "lucide-file-text",
@@ -683,7 +682,7 @@
           "graph:Open graph view": false,
           "obsidian-git:Open Git source control": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "obsidian-excalidraw-plugin:Create new drawing": true,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
           "cmdr:Export to PDF": false,
@@ -696,7 +695,7 @@
         }
       },
       "active": "1319a832513a4202",
-      "mtime": "2024-11-09T22:45:22+01:00"
+      "mtime": "2024-11-11T08:10:00+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -781,7 +780,7 @@
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 32,
                     "left": -12,
-                    "top": 387,
+                    "top": 395,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -1025,7 +1024,7 @@
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "obsidian-excalidraw-plugin:Create new drawing": true,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
           "cmdr:Export to PDF": false,
@@ -1039,7 +1038,7 @@
         }
       },
       "active": "d05f8b0e65ff0092",
-      "mtime": "2024-11-10T15:37:42+01:00"
+      "mtime": "2024-11-11T08:10:02+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1124,7 +1123,7 @@
                     "file": "sem3/EProg/UE/e/EProg-e-u06.pdf",
                     "page": 7,
                     "left": -19,
-                    "top": 497,
+                    "top": 506,
                     "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
@@ -1288,7 +1287,7 @@
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "obsidian-excalidraw-plugin:Create new drawing": true,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
           "cmdr:Export to PDF": false,
@@ -1301,7 +1300,7 @@
         }
       },
       "active": "9f760ce10cde2a26",
-      "mtime": "2024-11-06T11:16:45+01:00"
+      "mtime": "2024-11-11T08:10:03+01:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1347,9 +1346,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w07.pdf",
-                    "page": 4,
+                    "page": 3,
                     "left": -19,
-                    "top": 781,
+                    "top": 38,
                     "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
@@ -1645,11 +1644,11 @@
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "obsidian-excalidraw-plugin:Create new drawing": false
+          "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
       "active": "cea4ac865f90d99d",
-      "mtime": "2024-11-10T19:01:24+01:00"
+      "mtime": "2024-11-11T08:10:05+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1978,5 +1977,5 @@
       "mtime": "2024-11-08T20:18:39+01:00"
     }
   },
-  "active": "00-clean"
+  "active": "sem3-ti"
 }

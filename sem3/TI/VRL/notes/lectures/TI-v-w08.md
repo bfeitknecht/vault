@@ -3,6 +3,7 @@
 - [[undecidability]] of halting problem
 - undecidability of *pretty much everything*
 - halting problem and universal TM problem equivalent
+- reduction
 
 
 > [!info]- midterm
@@ -13,7 +14,7 @@
 > Von Kapitel 5 gehört nur der Abschnitt 5.2 über die Diagonalisierungsmethode zum Prüfungsstoff.
 
 
-# Topics #todo
+# Study
 
 - [x] power set construction of NFSM from FSM ✅ 2024-11-07
 - [x] non-regularity of language by ✅ 2024-11-08
