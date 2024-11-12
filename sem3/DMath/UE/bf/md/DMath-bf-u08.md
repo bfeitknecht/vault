@@ -76,7 +76,7 @@ H \times K &= \left\{\begin{matrix}
 \end{align}
 $$
 
-Then we define the bijective group homomorphism $\psi : H \times K \to \mathbb{Z}_{2} \times \mathbb{Z}_{4}$ as follows.
+Then we define a bijective group homomorphism $\psi : H \times K \to \mathbb{Z}_{2} \times \mathbb{Z}_{4}$ as follows.
 $$
 \begin{align}
 \psi(1,1) &= (0,0) \\
@@ -84,12 +84,11 @@ $$
 \psi(1, 4) &= (0,4) \\
 \psi(1, 8) &= (0,8) \\
 \psi(11, 1) &= (1,0) \\
-\psi(11, 2) &= (1,) \\
-\psi(11, 4) &= (1,) \\
-\psi(11, 8) &= (1,)
+\psi(11, 2) &= (1,2) \\
+\psi(11, 4) &= (1,4) \\
+\psi(11, 8) &= (1,8)
 \end{align}
 $$
 
-
-
  Thus $\mathbb{Z}^{*}_{15} \simeq \mathbb{Z}_{2} \times \mathbb{Z}_{4}$.
+$\square$
