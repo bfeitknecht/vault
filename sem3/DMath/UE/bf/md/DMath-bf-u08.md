@@ -64,9 +64,9 @@ H \cap K &= \{ e \} = \{ 1 \}
 \end{align}
 $$
 
-Then $\langle H; \odot_{15} \rangle$ and $\langle K; \odot_{15} \rangle$ are subgroups of $\langle \mathbb{Z}^{*}_{15}; \odot_{15} \rangle$ per definition 5.11. By subtask $(a)$ we know that the underlying group is isomorphic to its inner direct product, i.e. $\mathbb{Z}^{*}_{15} \simeq H \times K$.
+Then per definition 5.11, $\langle H; \odot_{15} \rangle$ and $\langle K; \odot_{15} \rangle$ are subgroups of $\langle \mathbb{Z}^{*}_{15}; \odot_{15} \rangle$, since they are closed under the operation $\odot_{15}$ and its inverse and both contain the neutral element $e=1$. By subtask $(a)$ we conclude that the underlying group is isomorphic to its inner direct product, i.e. $\mathbb{Z}^{*}_{15} \simeq H \times K$.
 
-Since the composition of bijections is itself again a bijection, isomorphisms are transitive. Now let's show that $H \times K \simeq \mathbb{Z}_{2} \times \mathbb{Z}_{4}$. The former set is given below.
+Since the composition of bijections is itself again a bijection, isomorphisms are transitive. Now let's show that $H \times K \simeq \mathbb{Z}_{2} \times \mathbb{Z}_{4}$. The former's carrier set is given below.
 $$
 \begin{align}
 H \times K &= \left\{\begin{matrix}
@@ -90,5 +90,5 @@ $$
 \end{align}
 $$
 
- Thus $\mathbb{Z}^{*}_{15} \simeq \mathbb{Z}_{2} \times \mathbb{Z}_{4}$.
+Hence $\mathbb{Z}^{*}_{15} \simeq H \times K \simeq \mathbb{Z}_{2} \times \mathbb{Z}_{4}$ and thus $\mathbb{Z}^{*}_{15} \simeq \mathbb{Z}_{2} \times \mathbb{Z}_{4}$.
 $\square$
