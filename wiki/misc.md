@@ -2,9 +2,9 @@
 ## Tips and Tricks
 
  ```shell
-GIT_LFS_SKIP_SMUDGE=1 git clone <URL>   # skip lfs blobs
-git clone <URL> --depth=N	      # shallow clone only HEAD~N
-git lfs pull --include “GLOB“	  # git-lfs pull only GLOB
+GIT_LFS_SKIP_SMUDGE=1 git clone <URL>   # skip lfs blobs
+git clone <URL> --depth=N	      # shallow clone only HEAD~N
+git lfs pull --include “GLOB“	  # git-lfs pull only GLOB
 ```
 
 > [!info]- utility plugin list
@@ -151,18 +151,18 @@ comment
 
 change of basis
 ```tikz
-\usepackage{tikz-cd}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{tikz-cd}
 
 \begin{document}
+\begin{tikzcd}[ampersand replacement=\&]
 
-\begin{tikzcd}
-{V'} &&&& {W'} \\
+{V'} \&\&\&\& {W'} \\
 \\
-& X && Y \\
+\& X \&\& Y \\
 \\
-V &&&& W
+V \&\&\&\& W
 \arrow["{A'}", from=1-1, to=1-5]
 \arrow[tail reversed, from=1-1, to=3-2]
 \arrow[tail reversed, from=1-5, to=3-4]
@@ -172,8 +172,8 @@ V &&&& W
 \arrow[tail reversed, from=3-4, to=5-5]
 \arrow["{\psi_{V}}", dashed, tail, from=5-1, to=1-1]
 \arrow["A", from=5-1, to=5-5]
-\end{tikzcd}
 
+\end{tikzcd}
 \end{document}
 ```
 
@@ -185,33 +185,44 @@ https://q.uiver.app/#q=WzAsNixbMCwwLCJWJyJdLFs0LDAsIlcnIl0sWzEsMiwiWCJdLFszLDIsI
 testing tikz-cd dashed arrows
 just stuck loading... not even special arrow
 
-A --> B
+
+github issue solution:
+inline arrow declaration
+
+
+
+somehow ampersand replacement works
 ```tikz
-\usepackage{tikzcd}
-\usepackage{amsmath}
-\usepackage{amssymb}
+\usepackage{tikz-cd}
 
 \begin{document}
-
-\begin{tikzcd}
-	{A} & {B}
-	\arrow[from=1-1, to=1-2]
-\end{tikzcd}
+\begin{tikzcd}[ampersand replacement=\&] A \& B \arrow["f", from=1-1, to=1-2] \end{tikzcd}
 
 \end{document}
 ```
 
-github issue solution:
+but not if the readable layout is used??? huh..
+
+
 ```tikz
 \usepackage{tikz-cd}
-\usepackage{amsmath}
-\usepackage{amssymb}
 
 \begin{document}
-\begin{tikzcd}
 
-A \arrow[r, "f"] & B
-
+\begin{tikzcd}[ampersand replacement=\&]
+A \& B
+\arrow["f", dashed, from=1-1, to=1-2]
 \end{tikzcd}
+\end{document}
+```
+
+
+
+```tikz
+\usepackage{tikzcd}
+\begin{document}
+
+\begin{tikzcd} {V'} &&&& {W'} \\ \\ & X && Y \\ \\ V &&&& W \arrow["{A'}", from=1-1, to=1-5] \arrow[tail reversed, from=1-1, to=3-2] \arrow[tail reversed, from=1-5, to=3-4] \arrow["{\psi_{W}}", dashed, tail, from=1-5, to=5-5] \arrow["T", from=3-2, to=3-4] \arrow[tail reversed, from=3-2, to=5-1] \arrow[tail reversed, from=3-4, to=5-5] \arrow["{\psi_{V}}", dashed, tail, from=5-1, to=1-1] \arrow["A", from=5-1, to=5-5] \end{tikzcd}
+
 \end{document}
 ```
