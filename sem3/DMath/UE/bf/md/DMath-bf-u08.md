@@ -23,40 +23,22 @@ $$
 
 Thus per definition 5.10, $\psi$ is a group homomorphism from $H \times K$ to $G$.
 
-The described homomorphism is surjective by definition $\mathrm{i.}$ of the carrier set $G$, since $\psi(H \times K) = \{ h * k \mid h \in H, k \in K \} = G$. 
+By definition $\mathrm{i.}$ of the carrier set $G$, the function $\psi$ is surjective since $\psi(H \times K) = \{ h * k \mid h \in H, k \in K \} = G$. 
 
-Now we prove that $\psi$ is also injective. We assume that there exists $(h,k), (h', k') \in H \times K$ such that $\psi(h,k) = \psi(h', k')$. 
-
-
-Additionally it's injective, which is proven by contradiction. Assume there exists $(h,k), (h', k') \in H \times K$ with $(h,k) \neq (h', k')$ such that $\psi(h,k) = \psi(h', k')$. Case distinction. h1 == h2 and k1 != k2 
-
-
-
-
-injective :
+Now assume that there exists $(h,k), (h', k') \in H \times K$ such that $\psi(h,k) = \psi(h', k')$. Then we prove that $\psi$ is injective below.
 $$
-\psi(h, k) = \psi(h', k') \implies (h, k) = (h', k')
+\begin{align}
+\psi(h,k) = \psi(h', k') &\overset{ \cdot }{ \implies } \psi(h,k) * \widehat\psi(h', k') = \psi(h',k') * \widehat\psi(h',k') &\text{(def. $e$)} \\
+&\overset{ \cdot }{ \implies } \psi(h,k) * \widehat{\psi}(h',k') = e &\text{(inverse of $h * k$)} \\
+&\overset{ \cdot }{ \implies } \widehat\psi(h',k') = \widehat\psi(h,k) &\text{(uniqueness of inverse)} \\
+&\overset{ \cdot }{ \implies } (h,k) = (h',k') &\text{(def. injection)}
+\end{align}
 $$
 
+Since the described homomorphism $\psi$ from $H \times K$ to $G$ is a bijection, it's proven that the two groups are isomorphic.
+$\square$
 
-inverse is unique thus h'k' must be the same as hk
-
-
-
-
-
-
-But the intersection is $H \cap K = \{ e \}$. Contradiction.
-
-
-![[dmath-script-hs24.pdf#page=111&rect=35,432,390,505&color=01 yellow|dmath-script-hs24, p.101]]
-
-![[dmath-script-hs24.pdf#page=109&rect=35,234,388,314&color=01 yellow|dmath-script-hs24, p.99]]
-
-![[dmath-script-hs24.pdf#page=110&rect=36,412,390,493&color=06 yellow|dmath-script-hs24, p.100]]
-
-
-
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## b) ![[DMath-e-u08.pdf#page=2&rect=105,428,519,459|DMath-e-u08, p.2]]
 We need to prove, that $\langle \mathbb{Z}^{*}_{15}, \odot_{15} \rangle \simeq \mathbb{Z}_{2} \times \mathbb{Z}_{4}$. First, let's observe the elements of these groups.
@@ -74,10 +56,18 @@ $$
 \end{align}
 $$
 
+We notice that the group $\mathbb{Z}^{*}_{15}$ contains two subgroups $H = \{ 1, 11 \}$ and $K =\{ 1, 2, 4, 8 \}$. Furthermore, we have the following. ==more proof needed?==
+$$
+\begin{align}
+\mathbb{Z}^{*}_{15} &= \{ h \odot_{15} k \mid h \in H, k \in K \} \\
+H \cap K &= \{ 1 \} = \{ e \}
+\end{align}
+$$
+
+Then per subtask $(a)$ we know that the underlying group is isomorphic to its inner direct product with $H, K$, i.e. $\mathbb{Z}^{*}_{15} \simeq H \times K$. 
 
 
-
-prove isomorphism is trasitive per equivalence relation
+prove isomorphism is transitive per equivalence relation
 
 show that Z15 contains two subgroups isomorphic to Z2, Z4 such that the intersection of their carrier is only the neutral element and the underlying group carrier can be constructed from them
 
