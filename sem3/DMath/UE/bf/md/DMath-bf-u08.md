@@ -25,13 +25,24 @@ Thus per definition 5.10, $\psi$ is a group homomorphism from $H \times K$ to $G
 
 The described homomorphism is surjective by definition $\mathrm{i.}$ of the carrier set $G$, since $\psi(H \times K) = \{ h * k \mid h \in H, k \in K \} = G$. 
 
+Now we prove that $\psi$ is also injective. We assume that there exists $(h,k), (h', k') \in H \times K$ such that $\psi(h,k) = \psi(h', k')$. 
+
 
 Additionally it's injective, which is proven by contradiction. Assume there exists $(h,k), (h', k') \in H \times K$ with $(h,k) \neq (h', k')$ such that $\psi(h,k) = \psi(h', k')$. Case distinction. h1 == h2 and k1 != k2 
+
+
+
 
 injective :
 $$
 \psi(h, k) = \psi(h', k') \implies (h, k) = (h', k')
 $$
+
+
+inverse is unique thus h'k' must be the same as hk
+
+
+
 
 
 
@@ -72,6 +83,8 @@ show that Z15 contains two subgroups isomorphic to Z2, Z4 such that the intersec
 
 1 11
 1 2 4 8
+
+
 
 
 1 2 4 7 8 11 14

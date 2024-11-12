@@ -778,9 +778,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 77,
+                    "page": 110,
                     "left": -12,
-                    "top": 599,
+                    "top": 277,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -838,7 +838,7 @@
                     "file": "sem3/DMath/UE/e/DMath-e-u08.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 33,
+                    "top": 37,
                     "zoom": 0.8958029552678087
                   },
                   "icon": "lucide-file-text",
@@ -1024,7 +1024,7 @@
         }
       },
       "active": "c76882f08dbb6191",
-      "mtime": "2024-11-12T08:17:07+01:00"
+      "mtime": "2024-11-12T10:18:41+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1685,8 +1685,8 @@
                   "state": {
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
                     "page": 182,
-                    "left": 4,
-                    "top": 425,
+                    "left": 0,
+                    "top": 288,
                     "zoom": 1.18
                   },
                   "icon": "lucide-file-text",
@@ -1902,7 +1902,7 @@
         }
       },
       "active": "41a95d106d57b938",
-      "mtime": "2024-11-12T08:47:45+01:00"
+      "mtime": "2024-11-12T10:18:50+01:00"
     }
   },
   "active": "sem3-dmath"
