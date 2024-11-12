@@ -14,7 +14,7 @@ Lemma 5.3, $L_{1} \leq_{\mathrm{EE}} L_{2} \implies L_{1} \leq_{\mathrm{R}} L_{2
 useful languages and language classes:
 
 
-$\mathcal{L}_{\mathrm{R}} = \{  L \mid \text{exists TM } M \text{ s.t. } L(M)=L \text{ and } M \text{ halts on every input}\}$ 
+$\mathcal{L}_{\mathrm{R}} = \{  L(M) \mid M\text{, TM that halts on every input}\}$ 
 $L_{\mathrm{H}} = \{ \mathrm{Kod}(M)\#w\in \Sigma^{*}_{\mathbb{B}} \mid M \text{ halts on } w \}$
 
 

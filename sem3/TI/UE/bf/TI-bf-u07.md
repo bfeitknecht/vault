@@ -15,15 +15,15 @@ Prove the following statements.
 
 ## (a) $L_{\text{union}} \in \mathcal{L}_{\mathrm{RE}}$
 
-// todo
+
 
 
 ## (b) $L_{\mathrm{U}} \leq_{\mathrm{m}} L_{\text{union}}$
 
-// todo
+
 
 
 ## (c) $L_{\text{union}} \leq_{\mathrm{m}} L_{\mathrm{U}}$
 
-// todo
+
 
