@@ -1,5 +1,5 @@
 
-Linear Algebra concers itself with [[vector|vectors]], [[matrix|matrices]] and what you can do with them. This enables us to model motion in space, efficiently compute with big data and much more. It is a powerful tool for [[abstraction]] in many different areas of math, computer science and engineering.
+Linear Algebra concerns itself with [[vector|vectors]], [[matrix|matrices]] and what you can do with them. This enables us to model motion in space, efficiently compute with big data and much more. It is a powerful tool for [[abstraction]] in many different areas of math, computer science and engineering.
 
 
 # Info
@@ -23,6 +23,7 @@ Linear Algebra concers itself with [[vector|vectors]], [[matrix|matrices]] and w
 
 
 #todo: scrape weekly covered subjects and summarize
+
 
 
 # Script
@@ -78,3 +79,38 @@ Linear Algebra concers itself with [[vector|vectors]], [[matrix|matrices]] and w
 ### W14
 ![[LinAlg-v-w14]]
 
+
+
+# "
+
+change of basis commutative diagram
+
+```tikz
+\usepackage{tikz-cd}
+\begin{document}
+
+\begin{tikzcd}
+	{V'} &&&& {W'} \\
+	\\
+	\\
+	& X && Y \\
+	\\
+	\\
+	V &&&& W
+	\arrow["{A'}", from=1-1, to=1-5]
+	\arrow[from=1-1, to=4-2]
+	\arrow[from=1-5, to=4-4]
+	\arrow["{\psi_{W}}", dashed, tail, from=1-5, to=7-5]
+	\arrow[from=4-2, to=1-1]
+	\arrow["T", from=4-2, to=4-4]
+	\arrow[from=4-2, to=7-1]
+	\arrow[from=4-4, to=1-5]
+	\arrow[from=4-4, to=7-5]
+	\arrow["{\psi_{V}}", dashed, tail, from=7-1, to=1-1]
+	\arrow[from=7-1, to=4-2]
+	\arrow["A", from=7-1, to=7-5]
+	\arrow[from=7-5, to=4-4]
+\end{tikzcd}
+
+\end{document}
+```

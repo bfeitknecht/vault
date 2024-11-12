@@ -150,9 +150,6 @@ comment
 
 
 
-tikzcd, double arrows from quiver don't work, also diagrams are stretched vertically
-
-
 
 ```tikz
 \usepackage{tikz-cd}
@@ -183,7 +180,6 @@ tikzcd, double arrows from quiver don't work, also diagrams are stretched vertic
 
 \end{document}
 ```
-
 
 
 https://q.uiver.app/#q=WzAsNixbMCwwLCJWJyJdLFs0LDAsIlcnIl0sWzEsMiwiWCJdLFszLDIsIlkiXSxbMCw0LCJWIl0sWzQsNCwiVyJdLFswLDEsIkEnIl0sWzEsNSwiXFxwc2lfe1d9IiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9LCJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMiwzLCJUIl0sWzQsMCwiXFxwc2lfe1Z9IiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9LCJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbNCw1LCJBIl0sWzAsMl0sWzQsMl0sWzIsNF0sWzIsMF0sWzEsM10sWzMsMV0sWzMsNV0sWzUsM11d
