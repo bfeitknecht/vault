@@ -1303,7 +1303,7 @@
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w07.pdf",
                     "page": 3,
                     "left": -19,
-                    "top": 38,
+                    "top": 42,
                     "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
@@ -1603,7 +1603,7 @@
         }
       },
       "active": "cea4ac865f90d99d",
-      "mtime": "2024-11-11T08:10:05+01:00"
+      "mtime": "2024-11-12T09:29:04+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1905,5 +1905,5 @@
       "mtime": "2024-11-12T08:47:45+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-dmath"
 }

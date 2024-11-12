@@ -149,80 +149,41 @@ comment
 # Testing
 
 
-change of basis
+
+tikzcd, double arrows from quiver don't work, also diagrams are stretched vertically
+
+
+
 ```tikz
-\usepackage{amsmath}
-\usepackage{amssymb}
 \usepackage{tikz-cd}
-
 \begin{document}
-\begin{tikzcd}[ampersand replacement=\&]
 
-{V'} \&\&\&\& {W'} \\
-\\
-\& X \&\& Y \\
-\\
-V \&\&\&\& W
-\arrow["{A'}", from=1-1, to=1-5]
-\arrow[tail reversed, from=1-1, to=3-2]
-\arrow[tail reversed, from=1-5, to=3-4]
-\arrow["{\psi_{W}}", dashed, tail, from=1-5, to=5-5]
-\arrow["T", from=3-2, to=3-4]
-\arrow[tail reversed, from=3-2, to=5-1]
-\arrow[tail reversed, from=3-4, to=5-5]
-\arrow["{\psi_{V}}", dashed, tail, from=5-1, to=1-1]
-\arrow["A", from=5-1, to=5-5]
-
+\begin{tikzcd}
+	{V'} &&&& {W'} \\
+	\\
+	\\
+	& X && Y \\
+	\\
+	\\
+	V &&&& W
+	\arrow["{A'}", from=1-1, to=1-5]
+	\arrow[from=1-1, to=4-2]
+	\arrow[from=1-5, to=4-4]
+	\arrow["{\psi_{W}}", dashed, tail, from=1-5, to=7-5]
+	\arrow[from=4-2, to=1-1]
+	\arrow["T", from=4-2, to=4-4]
+	\arrow[from=4-2, to=7-1]
+	\arrow[from=4-4, to=1-5]
+	\arrow[from=4-4, to=7-5]
+	\arrow["{\psi_{V}}", dashed, tail, from=7-1, to=1-1]
+	\arrow[from=7-1, to=4-2]
+	\arrow["A", from=7-1, to=7-5]
+	\arrow[from=7-5, to=4-4]
 \end{tikzcd}
-\end{document}
-```
-
-
-
-https://q.uiver.app/#q=WzAsNixbMCwwLCJWJyJdLFs0LDAsIlcnIl0sWzEsMiwiWCJdLFszLDIsIlkiXSxbMCw0LCJWIl0sWzQsNCwiVyJdLFswLDEsIkEnIl0sWzAsMiwiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiYXJyb3doZWFkIn19fV0sWzEsMywiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiYXJyb3doZWFkIn19fV0sWzEsNSwiXFxwc2lfe1d9IiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9LCJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMiwzLCJUIl0sWzIsNCwiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiYXJyb3doZWFkIn19fV0sWzMsNSwiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiYXJyb3doZWFkIn19fV0sWzQsMCwiXFxwc2lfe1Z9IiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9LCJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbNCw1LCJBIl1d
-
-
-testing tikz-cd dashed arrows
-just stuck loading... not even special arrow
-
-
-github issue solution:
-inline arrow declaration
-
-
-
-somehow ampersand replacement works
-```tikz
-\usepackage{tikz-cd}
-
-\begin{document}
-\begin{tikzcd}[ampersand replacement=\&] A \& B \arrow["f", from=1-1, to=1-2] \end{tikzcd}
 
 \end{document}
 ```
 
-but not if the readable layout is used??? huh..
 
 
-```tikz
-\usepackage{tikz-cd}
-
-\begin{document}
-
-\begin{tikzcd}[ampersand replacement=\&]
-A \& B
-\arrow["f", dashed, from=1-1, to=1-2]
-\end{tikzcd}
-\end{document}
-```
-
-
-
-```tikz
-\usepackage{tikzcd}
-\begin{document}
-
-\begin{tikzcd} {V'} &&&& {W'} \\ \\ & X && Y \\ \\ V &&&& W \arrow["{A'}", from=1-1, to=1-5] \arrow[tail reversed, from=1-1, to=3-2] \arrow[tail reversed, from=1-5, to=3-4] \arrow["{\psi_{W}}", dashed, tail, from=1-5, to=5-5] \arrow["T", from=3-2, to=3-4] \arrow[tail reversed, from=3-2, to=5-1] \arrow[tail reversed, from=3-4, to=5-5] \arrow["{\psi_{V}}", dashed, tail, from=5-1, to=1-1] \arrow["A", from=5-1, to=5-5] \end{tikzcd}
-
-\end{document}
-```
+https://q.uiver.app/#q=WzAsNixbMCwwLCJWJyJdLFs0LDAsIlcnIl0sWzEsMiwiWCJdLFszLDIsIlkiXSxbMCw0LCJWIl0sWzQsNCwiVyJdLFswLDEsIkEnIl0sWzEsNSwiXFxwc2lfe1d9IiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9LCJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMiwzLCJUIl0sWzQsMCwiXFxwc2lfe1Z9IiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9LCJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbNCw1LCJBIl0sWzAsMl0sWzQsMl0sWzIsNF0sWzIsMF0sWzEsM10sWzMsMV0sWzMsNV0sWzUsM11d

@@ -48,5 +48,35 @@ But the intersection is $H \cap K = \{ e \}$. Contradiction.
 
 
 ## b) ![[DMath-e-u08.pdf#page=2&rect=105,428,519,459|DMath-e-u08, p.2]]
+We need to prove, that $\langle \mathbb{Z}^{*}_{15}, \odot_{15} \rangle \simeq \mathbb{Z}_{2} \times \mathbb{Z}_{4}$. First, let's observe the elements of these groups.
+$$
+\begin{align}
+\mathbb{Z}^{*}_{15} &= \{ 1, 2, 4, 7, 8, 11, 13, 14 \} \\ \\
 
-We need to prove, that $\langle \mathbb{Z}^{*}_{15}, \odot_{15} \rangle$
+\mathbb{Z}_{2} &= \{ 0,1 \} \\
+\mathbb{Z}_{4} &= \{ 0, 1, 2, 3 \} \\ \\
+
+\mathbb{Z}_{2} \times \mathbb{Z}_{4} &= \left\{\begin{matrix}
+00, & 01, & 02, & 03 \\
+10, & 11, & 12, & 13
+\end{matrix}\right\}
+\end{align}
+$$
+
+
+
+
+prove isomorphism is trasitive per equivalence relation
+
+show that Z15 contains two subgroups isomorphic to Z2, Z4 such that the intersection of their carrier is only the neutral element and the underlying group carrier can be constructed from them
+
+1 11
+1 2 4 8
+
+
+1 2 4 7 8 11 14
+
+7 = 2 . 11 mod 15
+14 = 4 . 11 mod 15
+13 = 8 . 11 mod 15
+
