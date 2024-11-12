@@ -4,6 +4,8 @@
 
 prove indirectly, assume for contradiction there exists TM M s.t. L'diag = L(M).
 
+We prove this indirectly. 
+
 # 20 ![[TI-e-u07.pdf#page=1&rect=66,406,529,456|TI-e-u07, p.1]]
 Prove the following statements.
 
