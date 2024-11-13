@@ -443,51 +443,8 @@
                   "icon": "lucide-file",
                   "title": "A&D"
                 }
-              },
-              {
-                "id": "2e5ac05a53791427",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w05.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "A&D-v-w05"
-                }
-              },
-              {
-                "id": "7b155fdd6501c232",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w06.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "A&D-v-w06"
-                }
-              },
-              {
-                "id": "1319a832513a4202",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u07.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "A&D-bf-u07"
-                }
               }
-            ],
-            "currentTab": 3
+            ]
           },
           {
             "id": "b892157de5799d94",
@@ -517,16 +474,32 @@
                   "state": {
                     "file": "sem3/A&D/UE/e/A&D-e-u07.pdf",
                     "page": 1,
-                    "left": -23,
-                    "top": 50,
+                    "left": -4,
+                    "top": 54,
                     "zoom": 0.86
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-e-u07"
                 }
+              },
+              {
+                "id": "640e264aed0be494",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/A&D/UE/e/A&D-e-u08.pdf",
+                    "page": 4,
+                    "left": -18,
+                    "top": 704,
+                    "zoom": 0.874384319206553
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "A&D-e-u08"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -694,8 +667,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "1319a832513a4202",
-      "mtime": "2024-11-11T08:10:00+01:00"
+      "active": "640e264aed0be494",
+      "mtime": "2024-11-13T12:10:00+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1640,7 +1613,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "3e83adc4c2fac75e",
@@ -1653,10 +1626,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
-                    "page": 149,
-                    "left": -17,
-                    "top": 198,
-                    "zoom": 1.08
+                    "page": 160,
+                    "left": -14,
+                    "top": 349,
+                    "zoom": 1.0929822351014236
                   },
                   "icon": "lucide-file-text",
                   "title": "hromkovic-TI"
@@ -1685,14 +1658,15 @@
                     "file": "sem3/TI/UE/e/TI-e-u07.pdf",
                     "page": 1,
                     "left": -8,
-                    "top": 846,
+                    "top": 732,
                     "zoom": 0.9
                   },
                   "icon": "lucide-file-text",
                   "title": "TI-e-u07"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1856,7 +1830,6 @@
         "hiddenItems": {
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
-          "obsidian-excalidraw-plugin:Create new drawing": true,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
           "cmdr:Export to PDF": false,
@@ -1867,11 +1840,12 @@
           "obsidian-git:Open Git source control": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "656ea80cbd02dc9a",
-      "mtime": "2024-11-12T20:13:28+01:00"
+      "active": "4e1e156e697e0fc2",
+      "mtime": "2024-11-13T12:05:27+01:00"
     }
   },
   "active": "sem3-ti"
