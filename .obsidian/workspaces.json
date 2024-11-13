@@ -419,7 +419,7 @@
         }
       },
       "active": "162e7a61651e562a",
-      "mtime": "2024-11-11T08:09:52+01:00"
+      "mtime": "2024-11-13T11:47:41+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -778,9 +778,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 75,
+                    "page": 110,
                     "left": -12,
-                    "top": 317,
+                    "top": 103,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -829,8 +829,7 @@
                   "title": "operation"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1008,8 +1007,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "064544ae25433303",
-      "mtime": "2024-11-12T14:08:54+01:00"
+      "active": "c76882f08dbb6191",
+      "mtime": "2024-11-12T20:13:23+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1286,9 +1285,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w07.pdf",
-                    "page": 4,
+                    "page": 3,
                     "left": -19,
-                    "top": 757,
+                    "top": 61,
                     "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
@@ -1573,7 +1572,7 @@
         }
       },
       "active": "5e147ae0102336c7",
-      "mtime": "2024-11-12T14:30:54+01:00"
+      "mtime": "2024-11-13T11:36:34+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1656,7 +1655,7 @@
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
                     "page": 149,
                     "left": -17,
-                    "top": 194,
+                    "top": 198,
                     "zoom": 1.08
                   },
                   "icon": "lucide-file-text",
@@ -1872,8 +1871,8 @@
         }
       },
       "active": "656ea80cbd02dc9a",
-      "mtime": "2024-11-12T17:06:57+01:00"
+      "mtime": "2024-11-12T20:13:28+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-ti"
 }
