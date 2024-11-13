@@ -13,12 +13,16 @@ Prove the following statements.
 ## (a) $L_{\text{union}} \in \mathcal{L}_{\mathrm{RE}}$
 
 
-
-
-## (b) $L_{\mathrm{U}} \leq_{\mathrm{m}} L_{\text{union}}$
-
+TM that accepts L_union
 
 
 
-## (c) $L_{\text{union}} \leq_{\mathrm{m}} L_{\mathrm{U}}$
+## (b) $L_{\mathrm{U}} \leq_{\mathrm{EE}} L_{\text{union}}$
 
+
+
+
+## (c) $L_{\text{union}} \leq_{\mathrm{EE}} L_{\mathrm{U}}$
+
+
+just use L_u twice 
