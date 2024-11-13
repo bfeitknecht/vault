@@ -1613,7 +1613,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "3e83adc4c2fac75e",
@@ -1658,7 +1658,7 @@
                     "file": "sem3/TI/UE/e/TI-e-u07.pdf",
                     "page": 1,
                     "left": -8,
-                    "top": 732,
+                    "top": 736,
                     "zoom": 0.9
                   },
                   "icon": "lucide-file-text",
@@ -1666,7 +1666,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1844,9 +1844,9 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "4e1e156e697e0fc2",
-      "mtime": "2024-11-13T12:05:27+01:00"
+      "active": "9066f628c6c61a6a",
+      "mtime": "2024-11-13T13:26:48+01:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-dmath"
 }

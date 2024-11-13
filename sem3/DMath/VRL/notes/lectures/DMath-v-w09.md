@@ -1,4 +1,4 @@
 
 - RSA encryption
-- isomorphic groups
-- 
+- isomorphism (group theory)
+- ring
