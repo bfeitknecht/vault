@@ -1,16 +1,25 @@
 #todo 
 
 
+A **ring** is an algebra $\langle R; +, -, 0, \cdot, 1 \rangle$, such that the following holds.
+- $(\mathrm{i})$    The addition [[operation]], its [[inverse (operation)]], and the respective [[identity element (neutral element)]] form a (commutative) [[group]] $\langle R; +, -, 0 \rangle$.
+- $(\mathrm{ii})$   The multiplication operation, its inverse and neutral element form a [[monoid]] $\langle R; \cdot, 1 \rangle$.
+- $(\mathrm{ii})$   The multiplication operation distributes over the addition operation.
 
-$\mathbb{Z}\quad (a\,|\,b)\, und\, (a\,|\,c) \implies a\,|\,(b+c)$
-$\langle R;+, -, 0, \cdot, 1 \rangle\quad (a|b) \overset{def.}{\Leftrightarrow} \exists x \, ax = b$
-^^^^^^^^^^\^Ring
+If multiplication is commutative the ring is called *commutative*. The axioms are not minimal, the group's commutativity isn't required as it's implied by the others. Furthermore we have the following.
 
-$(a|b) \overset{\cdot}{\Rightarrow} ax = b$
-$(a|c) \overset{\cdot}{\Rightarrow} ay = c$ 
-$\overset{\cdot}{\Rightarrow} ax + ay = b+c$
-$\overset{\cdot}{\Rightarrow} a (x+y) = b+c$
-$\overset{\cdot}{\Rightarrow} a | (b+c)$
+![[dmath-script-hs24.pdf#page=120&rect=31,204,380,289|dmath-script-hs24, p.110]]
+
+
+The **characteristic** of a ring is the order of the additive identity element, i.e. $\mathrm{ord}(1)$.
+
+An element $u$ of a ring $R$ is called a **unit** if $u$ has a multiplicative inverse, i.e. $uv = vu = 1$ for some $v \in R$. In that case we write $v = u^{-1}$. The set of units of $R$ is denoted by $R^{*}$ and forms a multiplicative group (of units in $R$).
+
+
+# Examples
+
+- $\mathbb{Z}, \mathbb{Q}, \mathbb{R}, \mathbb{C}$ are all commutative rings
+- $\mathbb{Z}_{m}$ is a commutative ring
 
 
 
