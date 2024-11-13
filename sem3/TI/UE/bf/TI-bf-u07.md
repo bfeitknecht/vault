@@ -1,13 +1,10 @@
 
 # 19 ![[TI-e-u07.pdf#page=1&rect=67,518,527,566|TI-e-u07, p.1]]
 
-
-We prove that this implication holds.
-$L_{\mathrm{H}} \in \mathcal{L}_{\mathrm{R}} \implies L'_{\mathrm{diag}} \in \mathcal{L}_{\mathrm{R}}$ 
+We show that $L'_{\mathrm{diag}} \leq_{\mathrm{EE}} L_{\mathrm{H}}$ so there exists a map $f_{M}: \Sigma^{*}_{\mathbb{B}} \to \{ 0,1,\# \}^{*}$ 
 
 
-
-Or show that $L'_{\mathrm{diag}} \leq_{\mathrm{EE}} L_{\mathrm{H}}$, since $L_{1} \leq_{\mathrm{EE}} L_{2} \implies L_{1} \leq_{\mathrm{R}} L_{2}$.
+since $L_{1} \leq_{\mathrm{EE}} L_{2} \implies L_{1} \leq_{\mathrm{R}} L_{2}$.
 
 
 # 20 ![[TI-e-u07.pdf#page=1&rect=66,406,529,456|TI-e-u07, p.1]]
@@ -24,6 +21,4 @@ Prove the following statements.
 
 
 ## (c) $L_{\text{union}} \leq_{\mathrm{m}} L_{\mathrm{U}}$
-
-
 
