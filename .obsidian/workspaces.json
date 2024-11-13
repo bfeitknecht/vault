@@ -723,17 +723,17 @@
                 }
               },
               {
-                "id": "c76882f08dbb6191",
+                "id": "588da8c8a2eda9cc",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u08.md",
+                    "file": "wiki/ring.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "DMath-bf-u08"
+                  "title": "ring"
                 }
               }
             ],
@@ -751,9 +751,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 110,
+                    "page": 121,
                     "left": -12,
-                    "top": 103,
+                    "top": 601,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -800,6 +800,22 @@
                   },
                   "icon": "lucide-file",
                   "title": "operation"
+                }
+              },
+              {
+                "id": "ffd9a888e09291ed",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/DMath/UE/e/DMath-e-u08.pdf",
+                    "page": 2,
+                    "left": -16,
+                    "top": 317,
+                    "zoom": 0.9
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "DMath-e-u08"
                 }
               }
             ]
@@ -980,8 +996,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "c76882f08dbb6191",
-      "mtime": "2024-11-12T20:13:23+01:00"
+      "active": "588da8c8a2eda9cc",
+      "mtime": "2024-11-13T17:05:50+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1848,5 +1864,5 @@
       "mtime": "2024-11-13T13:26:48+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-ti"
 }

@@ -13,7 +13,7 @@ If multiplication is commutative the ring is called *commutative*. The axioms ar
 
 The **characteristic** of a ring is the order of the additive identity element, i.e. $\mathrm{ord}(1)$.
 
-An element $u$ of a ring $R$ is called a **unit** if $u$ has a multiplicative inverse, i.e. $uv = vu = 1$ for some $v \in R$. In that case we write $v = u^{-1}$. The set of units of $R$ is denoted by $R^{*}$ and forms a multiplicative group (of units in $R$).
+A **unit** $u$ is an element of a ring $R$ that has a [[multiplicative inverse]] i.e. $uv = vu = 1$ for some $v \in R$. In that case we write $v = u^{-1}$. The set of units of $R$ is denoted by $R^{*}$ and forms a multiplicative group (of units in $R$).
 
 
 # Examples
