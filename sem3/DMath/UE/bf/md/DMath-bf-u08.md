@@ -92,3 +92,5 @@ $$
 
 Hence $\mathbb{Z}^{*}_{15} \simeq H \times K \simeq \mathbb{Z}_{2} \times \mathbb{Z}_{4}$ and thus $\mathbb{Z}^{*}_{15} \simeq \mathbb{Z}_{2} \times \mathbb{Z}_{4}$.
 $\square$
+
+
