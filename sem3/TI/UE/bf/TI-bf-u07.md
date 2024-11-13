@@ -1,6 +1,5 @@
 
 # 19 ![[TI-e-u07.pdf#page=1&rect=67,518,527,566|TI-e-u07, p.1]]
-prove indirectly, assume for contradiction there exists TM M s.t. L'diag = L(M).
 
 
 We prove that this implication holds.
