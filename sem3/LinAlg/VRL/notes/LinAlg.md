@@ -27,11 +27,9 @@ Linear Algebra concerns itself with [[vector|vectors]], [[matrix|matrices]] and 
 #todo: scrape weekly covered subjects and summarize
 
 
-
 # Script
-
-## First Part
-[[sem3/LinAlg/VRL/LinAlg-lecture-notes-1.pdf]]
+- 1st part: [[LinAlg-script-1.pdf]]
+- 2nd part: [[LinAlg-script-2.pdf]]
 
 
 # Lectures

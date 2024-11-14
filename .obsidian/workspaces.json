@@ -188,7 +188,7 @@
         }
       },
       "active": "22172cdc0e12bc7f",
-      "mtime": "2024-11-11T08:09:39+01:00"
+      "mtime": "2024-11-14T08:55:28+01:00"
     },
     "00-home": {
       "main": {
@@ -225,6 +225,20 @@
                   },
                   "icon": "lucide-file",
                   "title": "README"
+                }
+              },
+              {
+                "id": "70e1fa3a42134238",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/todo.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "todo"
                 }
               }
             ]
@@ -419,7 +433,7 @@
         }
       },
       "active": "162e7a61651e562a",
-      "mtime": "2024-11-13T11:47:41+01:00"
+      "mtime": "2024-11-14T09:02:53+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1254,33 +1268,17 @@
                 }
               },
               {
-                "id": "490cb4cdb013deb3",
+                "id": "74ed379c6f338894",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w06.md",
+                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w09.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "LinAlg-v-w06"
-                }
-              },
-              {
-                "id": "6f3ca2fe892d73c5",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w07.pdf",
-                    "page": 3,
-                    "left": -19,
-                    "top": 61,
-                    "zoom": 0.8504901960784313
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "LinAlg-plan-w07"
+                  "title": "LinAlg-v-w09"
                 }
               },
               {
@@ -1292,14 +1290,43 @@
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w06.pdf",
                     "page": 6,
                     "left": -19,
-                    "top": 288,
-                    "zoom": 0.8504901960784313
+                    "top": 570,
+                    "zoom": 0.8504901960784316
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-plan-w06"
                 }
+              },
+              {
+                "id": "6d646d9f54a1d989",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w07.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "LinAlg-v-w07"
+                }
+              },
+              {
+                "id": "a23c2e68a1dcde28",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w08.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "LinAlg-v-w08"
+                }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "740ad403278fbd52",
@@ -1560,8 +1587,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "5e147ae0102336c7",
-      "mtime": "2024-11-13T11:36:34+01:00"
+      "active": "2d1eb6ec3855c7f5",
+      "mtime": "2024-11-14T08:55:05+01:00"
     },
     "sem3-ti": {
       "main": {

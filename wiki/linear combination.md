@@ -8,7 +8,7 @@ A **linear combination** of some [[set]] of [[vector|vectors]] is the result of 
 
 For some specific choices for $\lambda, \mu$ these special cases of a linear combination follow.
 
-![[sem3/LinAlg/VRL/LinAlg-lecture-notes-1.pdf#page=19&rect=69,488,549,594|LinAlg-lecture-notes-pt.01, p.19]]
+![[LinAlg-script-1.pdf#page=19&rect=69,488,549,594|LinAlg-lecture-notes-pt.01, p.19]]
 ![[LinAlg-plan-w00.pdf#page=4&rect=96,379,517,512|LinAlg-plan-w0, p.4]]
 
 
