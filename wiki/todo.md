@@ -14,4 +14,5 @@
 	- [ ] A&D
 	- [ ] EProg
 	- [ ] reductions
-- [ ] 
+- [ ] contraposition
+- [ ] proof patterns

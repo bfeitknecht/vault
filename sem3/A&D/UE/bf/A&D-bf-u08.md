@@ -19,34 +19,45 @@ True. Assume $\forall v \in V : \deg(v) \geq \left\lceil  \frac{n}{2}  \right\rc
 $\square$
 
 ## (c) ![[A&D-e-u08.pdf#page=4&rect=85,295,528,325|A&D-e-u08, p.4]]
+True. Assume for contradiction, that for a hamilton cycle $C$, there exists another hamilton cycle $C'$ such that $C \cap C' = \varnothing$.
+
 
 ## (d) ![[A&D-e-u08.pdf#page=4&rect=85,272,528,290|A&D-e-u08, p.4]]
 False, consider the following counterexample.
-
-
-```tikz
-\usepackage{tikz} 
-\usetikzlibrary {graphs}
-
-\begin{document}
-\tikz \graph { a -> {b, c} -> d }
-\end{document}
-```
-
-
-
 ```mermaid
-graph TD
+graph LR
 
-1((1))
-2((2))
-3((3))
-4((4))
-5((5))
+a((a))
+b((b))
+c((c))
 
-1 --- 2 --- 3 --- 4 --- 1
+a --- b --- c
 ```
+
+We observe that $\deg(b) = 2$ and $\not\exists v \in V -\{ b \} : \deg(v) =2$. Thus the statement is disproven.
+$\square$
 
 ## (e) ![[A&D-e-u08.pdf#page=4&rect=83,238,528,269|A&D-e-u08, p.4]]
+True.
+
 
 ## (f) ![[A&D-e-u08.pdf#page=4&rect=84,190,529,235|A&D-e-u08, p.4]]
+False. Observe the graph given below.
+```mermaid
+graph LR
+
+a((a))
+b((b))
+c((c))
+d((d))
+e(((e)))
+
+a --- b
+c --- d
+
+e --- a & b & c & d
+
+```
+
+Specifically, deleting any edge $e \in E$ leaves the graph connected, however deleting the vertex $e$ disconnects the graph. Thus the statement is disproven.
+$\square$
