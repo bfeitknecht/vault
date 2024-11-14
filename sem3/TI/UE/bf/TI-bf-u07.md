@@ -3,7 +3,7 @@
 
 First, let's recall the definition of the halting language.
 $$
-L_{\mathrm{H}} = \{ \mathrm{Kod}(M)\#x \in \Sigma^{*}_{\mathbb{B}} \mid \mathrm{Halts}(M, x) \}
+L_{\mathrm{H}} = \{ \mathrm{Kod}(M)\#x \in \Sigma^{*}_{\mathbb{B}} \mid x \in L(M) \lor x \not\in L(M) \}
 $$
 
 Now, assume there exists an algorithm (TM that always halts) $A$ that decides $L_{\mathrm{H}}$. Then, we construct an algorithm $B$ that decides the given language $L'_{\mathrm{diag}}$ with the help of $A$.
@@ -40,6 +40,7 @@ $\square$
 
 First, recall the definition of the universal TM language $L_{\mathrm{U}}$.
 $$
-L_{\mathrm{U}} = \{ \mathrm{Kod}(M)\#w \mid M \text{ accepts } w \in \Sigma^{*}_{\mathbb{B}} \}
+L_{\mathrm{U}} = \{ \mathrm{Kod}(M)\#w \in \Sigma^{*}_{\mathbb{B}} \mid w \in L(M) \}
 $$
+
 

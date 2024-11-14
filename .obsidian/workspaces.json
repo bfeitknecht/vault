@@ -503,7 +503,7 @@
                     "file": "sem3/A&D/UE/e/A&D-e-u08.pdf",
                     "page": 4,
                     "left": -4,
-                    "top": 676,
+                    "top": 680,
                     "zoom": 1.08
                   },
                   "icon": "lucide-file-text",
@@ -710,7 +710,7 @@
         }
       },
       "active": "bcfbdb4ce0ca330f",
-      "mtime": "2024-11-14T13:14:14+01:00"
+      "mtime": "2024-11-14T16:50:31+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1680,9 +1680,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
-                    "page": 158,
-                    "left": 23,
-                    "top": 144,
+                    "page": 111,
+                    "left": 31,
+                    "top": 476,
                     "zoom": 1.31
                   },
                   "icon": "lucide-file-text",
@@ -1913,7 +1913,7 @@
         }
       },
       "active": "656ea80cbd02dc9a",
-      "mtime": "2024-11-14T13:13:37+01:00"
+      "mtime": "2024-11-14T16:48:02+01:00"
     }
   },
   "active": "sem3-ti"

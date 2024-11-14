@@ -7,6 +7,7 @@
 
 ## (c) ![[A&D-e-u08.pdf#page=2&rect=85,431,531,535|A&D-e-u08, p.2]]
 
+<div class="page-break" style="page-break-before: always;"></div>
 
 # 8.5   Short Questions about Graphs
 
@@ -20,7 +21,6 @@ $\square$
 
 ## (c) ![[A&D-e-u08.pdf#page=4&rect=85,295,528,325|A&D-e-u08, p.4]]
 True. Assume for contradiction, that for a hamilton cycle $C$, there exists another hamilton cycle $C'$ such that $C \cap C' = \varnothing$.
-
 
 ## (d) ![[A&D-e-u08.pdf#page=4&rect=85,272,528,290|A&D-e-u08, p.4]]
 False, consider the following counterexample.
@@ -60,14 +60,3 @@ e --- a & b & c & d
 
 Specifically, deleting any edge $e \in E$ leaves the graph connected, however deleting the vertex $e$ disconnects the graph. Thus the statement is disproven.
 $\square$
-
-```tikz
-\usepackage{tikz} 
-\usetikzlibrary {graphs}
-
-\begin{document}
-
-\tikz \graph { a -> {b, c} -> d }
-
-\end{document}
-```
