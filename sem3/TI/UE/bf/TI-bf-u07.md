@@ -11,7 +11,7 @@ $$
 
 Now, assume there exists an algorithm (TM that always halts) $A$ that decides $L_{\mathrm{H}}$. Then, we construct an algorithm $B$ that decides the given language $L'_{\mathrm{diag}}$ with the help of $A$. First, the subprogram TM $C$ tests, whether or not the input word $x = w_{j}$ is of the correct form, i.e. it has an even index $j = 2i$ for some $i \in \mathbb{N}$ in the canonical order of words over $\{ 0,1 \}$. If it isn't, $B$ rejects the input word $x$ immediately.
 
-Otherwise, it $C $computes the $i$-th TM $\mathrm{Kod}(M_{i})$ with the totally recursive function $\mathrm{Gen}$, which exists per lemma 4.3. Then, it constructs a turing machine $M'$ from $\mathrm{Kod}(M_{i})$ that simulatwith the modification, that any state that transitions to the accepting state $q_{\checkmark}$ instead enters an infinite loop. 
+Otherwise, it $C $computes the $i$-th TM $\mathrm{Kod}(M_{i})$ with the totally recursive function $\mathrm{Gen}$, which exists per lemma 4.3. Then, it constructs a turing machine $M'$ from $\mathrm{Kod}(M_{i})$ that simulates $M_{i}$ on $x$ with the modification, that any state that transitions to the accepting state $q_{\checkmark}$ instead enters an infinite loop. 
 
 ![[TI-e-u07-19.png]]
 
