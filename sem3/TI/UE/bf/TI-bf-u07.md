@@ -29,7 +29,7 @@ Prove the following statements.
 
 ## (a) $L_{\text{union}} \in \mathcal{L}_{\mathrm{RE}}$
 
-Per subtask (c), we have constructed a TM $B$ that reduces $L_{\mathrm{union}}$ to $L_{\mathrm{U}}$. Then per definition of $\mathcal{L}_{\mathrm{RE}}$ we have $L_{\mathrm{union}} \in \mathcal{L}_{\mathrm{RE}}$.
+Per subtask (c), we have constructed a TM $B$ that reduces $L_{\mathrm{union}}$ to $L_{\mathrm{U}}$. Since $L_{\mathrm{U}} \in \mathcal{L}_{\mathrm{RE}}$ we have $L_{\mathrm{union}} \in \mathcal{L}_{\mathrm{RE}}$.
 $\square$
 
 ## (b) $L_{\mathrm{U}} \leq_{\mathrm{EE}} L_{\text{union}}$
@@ -43,4 +43,14 @@ $$
 L_{\mathrm{U}} = \{ \mathrm{Kod}(M)\#w \in \Sigma^{*}_{\mathbb{B}} \mid w \in L(M) \}
 $$
 
-We assume there exists an algorithm $A$ that decides $L_{\mathrm{U}}$. Then we construct an algorithm $B$ that decides $L_{\mathrm{union}}$. It consists of a subprogram $C$ that checks, if $x \in \{ 0,1,\# \}^{*}$ is of the correct form. If $x \not\in \{ M_{1}\#M_{2}\#w \mid M_{1}, M_{2}, w \in \Sigma^{*}_{\mathbb{B}}, M_{1} \in \mathrm{KodTM} \lor M_{2} \in \mathrm{KodTM}\}$, $B$ rejects.
+We assume there exists an algorithm $A$ that decides $L_{\mathrm{U}}$. Then we construct an algorithm $B$ that decides $L_{\mathrm{union}}$. It consists of a subprogram $C$ that checks, if $x \in \{ 0,1,\# \}^{*}$ is of the correct form. If $x \not\in \{ M_{1}\#M_{2}\#w \in \Sigma^{*}_{\mathbb{B}} \mid M_{1} \in \mathrm{KodTM} \lor M_{2} \in \mathrm{KodTM}\}$, $B$ rejects.
+
+Else, we know that either $M_{1}$ or $M_{2}$ is a valid encoding of a TM. Since we can transform any MTM to a TM, we pass to $A$ a TM $M(x) =\mathrm{Kod}(M')$ that encodes a 2-tape MTM $M'$ which takes no input but simulates $M_{1}, M_{2}$ on the input word $w$. This $M$ accepts if and only if $M'$ accepts, i.e. either $M_{1}, M_{2}$ on $w$ end in the accepting state $q_{\checkmark}$.
+
+Then the algorithm $A$ decides if $M$ accepts the input $x$. Hence the following holds.
+$$
+x \in L_{\mathrm{union}} \iff M(x) \in L_{\mathrm{U}}
+$$
+
+And thus we have $L_{\mathrm{union}} \leq_{\mathrm{EE}} L_{\mathrm{U}}$.
+$\square$
