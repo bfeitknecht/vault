@@ -81,3 +81,8 @@ But we have $L_{\mathrm{H}} \in \mathcal{L}_{\mathrm{RE}}$
 ![[hromkovic-TI.pdf#page=158&rect=41,68,466,90|hromkovic-TI, p.145]]
 
 
+
+
+
+
+![[hromkovic-TI.pdf#page=134&rect=39,421,435,450|hromkovic-TI, p.120]]
