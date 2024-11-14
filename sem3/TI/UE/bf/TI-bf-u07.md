@@ -43,4 +43,4 @@ $$
 L_{\mathrm{U}} = \{ \mathrm{Kod}(M)\#w \in \Sigma^{*}_{\mathbb{B}} \mid w \in L(M) \}
 $$
 
-
+We assume there exists an algorithm $A$ that decides $L_{\mathrm{U}}$. Then we 
