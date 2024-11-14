@@ -4,6 +4,8 @@
 We show that $L'_{\mathrm{diag}} \leq_{\mathrm{EE}} L_{\mathrm{H}}$, since this directly implies what is to prove $L'_{\mathrm{diag}} \leq_{\mathrm{R}} L_{\mathrm{H}}$. 
 
 
+To prove is that $L'_{\mathrm{diag}} \leq_{\mathrm{R}} L_{\mathrm{H}}$. Assume there exists an algorithm (TM that always halts) $A$ that decides $L_{\mathrm{H}}$. Then we construct an algorithm $B$ that decides the given language $L'_{\mathrm{diag}}$ with the help of $A$.
+
 # 20 ![[TI-e-u07.pdf#page=1&rect=66,406,529,456|TI-e-u07, p.1]]
 Prove the following statements.
 
