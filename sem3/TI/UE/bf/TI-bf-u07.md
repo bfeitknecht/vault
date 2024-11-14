@@ -9,7 +9,7 @@ $$
 L_{\mathrm{H}} = \{ \mathrm{Kod}(M)\#x \in \Sigma^{*}_{\mathbb{B}} \mid \mathrm{Halts}(M, x) \}
 $$
 
-Now, assume there exists an algorithm (TM that always halts) $A$ that decides $L_{\mathrm{H}}$. Then, we construct an algorithm $B$ that decides the given language $L'_{\mathrm{diag}}$ with the help of $A$. 
+Now, assume there exists an algorithm (TM that always halts) $A$ that decides $L_{\mathrm{H}}$. Then, we construct an algorithm $B$ that decides the given language $L'_{\mathrm{diag}}$ with the help of $A$. First, the subprogram TM $C$
 
 
 
