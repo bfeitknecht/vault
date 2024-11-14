@@ -457,29 +457,42 @@
                   "icon": "lucide-file",
                   "title": "A&D"
                 }
+              },
+              {
+                "id": "ec7efe08488fb637",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w09.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "A&D-v-w09"
+                }
+              },
+              {
+                "id": "bcfbdb4ce0ca330f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/A&D/UE/bf/A&D-bf-u08.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "A&D-bf-u08"
+                }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "b892157de5799d94",
             "type": "tabs",
             "children": [
-              {
-                "id": "6f3f1affb5d84f9f",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/A&D/VRL/script/A&D-script-w05-ADT.pdf",
-                    "page": 21,
-                    "left": -23,
-                    "top": 312,
-                    "zoom": 0.6916959528017257
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "A&D-script-w05-ADT"
-                }
-              },
               {
                 "id": "e6a2efee73add500",
                 "type": "leaf",
@@ -502,18 +515,30 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/A&D/UE/e/A&D-e-u08.pdf",
-                    "page": 4,
-                    "left": -18,
-                    "top": 704,
-                    "zoom": 0.874384319206553
+                    "file": "sem3/A&D/UE/e/A&D-e-u08.pdf"
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-e-u08"
                 }
+              },
+              {
+                "id": "9d0f5dee262fae46",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
+                    "page": 60,
+                    "left": -18,
+                    "top": 667,
+                    "zoom": 0.8743843192065531
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "AuW-script"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -669,7 +694,6 @@
           "graph:Open graph view": false,
           "obsidian-git:Open Git source control": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
-          "obsidian-excalidraw-plugin:Create new drawing": true,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
           "cmdr:Export to PDF": false,
@@ -681,8 +705,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "640e264aed0be494",
-      "mtime": "2024-11-13T12:10:00+01:00"
+      "active": "bcfbdb4ce0ca330f",
+      "mtime": "2024-11-14T10:52:52+01:00"
     },
     "sem3-dmath": {
       "main": {
