@@ -35,3 +35,6 @@
 - if outermost logarithm is not base two, take its base into the power tower, work inside out
 - if unclear, just take the biggest base log
 
+
+
+
