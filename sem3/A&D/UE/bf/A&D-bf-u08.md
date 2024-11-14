@@ -40,7 +40,6 @@ $\square$
 ## (e) ![[A&D-e-u08.pdf#page=4&rect=83,238,528,269|A&D-e-u08, p.4]]
 True.
 
-
 ## (f) ![[A&D-e-u08.pdf#page=4&rect=84,190,529,235|A&D-e-u08, p.4]]
 False. Observe the graph given below.
 ```mermaid
@@ -61,3 +60,14 @@ e --- a & b & c & d
 
 Specifically, deleting any edge $e \in E$ leaves the graph connected, however deleting the vertex $e$ disconnects the graph. Thus the statement is disproven.
 $\square$
+
+```tikz
+\usepackage{tikz} 
+\usetikzlibrary {graphs}
+
+\begin{document}
+
+\tikz \graph { a -> {b, c} -> d }
+
+\end{document}
+```
