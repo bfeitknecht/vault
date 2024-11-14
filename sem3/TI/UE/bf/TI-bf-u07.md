@@ -43,4 +43,4 @@ $$
 L_{\mathrm{U}} = \{ \mathrm{Kod}(M)\#w \in \Sigma^{*}_{\mathbb{B}} \mid w \in L(M) \}
 $$
 
-We assume there exists an algorithm $A$ that decides $L_{\mathrm{U}}$. Then we 
+We assume there exists an algorithm $A$ that decides $L_{\mathrm{U}}$. Then we construct an algorithm $B$ that decides $L_{\mathrm{union}}$. It consists of a subprogram $C$ that checks, if $x \in \{ 0,1,\# \}^{*}$ is of the correct form. If $x \not\in \{ M_{1}\#M_{2}\#w \mid M_{1}, M_{2}, w \in \Sigma^{*}_{\mathbb{B}}, M_{1} \in \mathrm{KodTM} \lor M_{2} \in \mathrm{KodTM}\}$, $B$ rejects.
