@@ -90,7 +90,6 @@ $\square$
 ## (d) ![[A&D-e-u08.pdf#page=4&rect=85,272,528,290|A&D-e-u08, p.4]]
 True. Assume for contradiction there exists a graph $G$ with $\forall u,v \in V : \deg(u) \neq \deg(v)$. The maximum degree any vertex $w \in V$ can then have is $\deg(w)=n-1$. 
 
-
 ## (e) ![[A&D-e-u08.pdf#page=4&rect=83,238,528,269|A&D-e-u08, p.4]]
 False. Consider the following counter example. $G$ is a graph that, for every path $P$ of length at least $|P|\geq 2$, the sum of degree of vertices in the path is even $\sum_{v_{i} \in P}\deg(v_{i}) \equiv_{2} 0$. However, $G$ does not have an eulerian walk.
 ```mermaid
