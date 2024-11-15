@@ -68,6 +68,8 @@ $\square$
 True. Assume $\forall v \in V : \deg(v) \geq \left\lceil  \frac{n}{2}  \right\rceil$. Then, for any two arbitrary vertices $u, v \in V$, with $u \neq v$ we have either $\{ u, v \} \in E$ or $\mathrm{N}(u) \cap \mathrm{N}(v) \neq \varnothing$, where $\mathrm{N}$ denotes the set of all adjacent vertices. Thus there exists a walk of length $2$ with starting vertex $u$ and ending vertex $v$. Hence, any arbitrary two distinct vertices are in the same connected component. It follows that $G$ is connected.
 $\square$
 
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## (c) ![[A&D-e-u08.pdf#page=4&rect=85,295,528,325|A&D-e-u08, p.4]]
 False. Consider the graph below. We have two hamilton cycles $C, C'$ with $C \cap C' = \varnothing$.
 
@@ -88,7 +90,10 @@ d --- e
 $\square$
 
 ## (d) ![[A&D-e-u08.pdf#page=4&rect=85,272,528,290|A&D-e-u08, p.4]]
-True. Assume for contradiction there exists a graph $G$ with $\forall u,v \in V : \deg(u) \neq \deg(v)$. The maximum degree any vertex $w \in V$ can then have is $\deg(w)=n-1$. 
+True. Since there are $n$ vertices, there are $n-1$ possible degrees. This is due to the fact that any vertex $w \in V$ can at most be connected to all other vertices besides itself, i.e. $w' \in V -\{ w \}$. On the other side, a vertex of degree zero $w'' \in V', \deg(w'') = 0$ is not connected to any other vertices so the maximum degree is $n-1\cancel{ -1+1 }$, i.e. the maximum degree from before $\deg(w)=n-1$ minus one, since $w$ is not connected to $w''$ plus one since there is an additional distinct vertex in $V'$, namely the one with degree zero $w''$.
+
+Per pigeonhole principle we have $\left\lceil  \frac{n}{n-1}  \right\rceil = 2$ which implies that there must be $u, v \in V$ such that $\deg(u) = \deg(v)$. Thus the statement is proven.
+$\square$
 
 ## (e) ![[A&D-e-u08.pdf#page=4&rect=83,238,528,269|A&D-e-u08, p.4]]
 False. Consider the following counter example. $G$ is a graph that, for every path $P$ of length at least $|P|\geq 2$, the sum of degree of vertices in the path is even $\sum_{v_{i} \in P}\deg(v_{i}) \equiv_{2} 0$. However, $G$ does not have an eulerian walk.
@@ -107,6 +112,8 @@ c --- d --- e --- c
 
 ```
 $\square$
+
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## (f) ![[A&D-e-u08.pdf#page=4&rect=84,190,529,235|A&D-e-u08, p.4]]
 False. Observe the graph given below.
@@ -130,10 +137,18 @@ Specifically, deleting any edge $e \in E$ leaves the graph connected, however de
 $\square$
 
 
+
+
 ```tikz
 \usepackage{tikz} 
 \usetikzlibrary {graphs}
+
 \begin{document}
-\tikz \graph { a -> b -> c };
+\tikz
+\graph[nodes={circle,draw}]
+{
+a -- b -- c
+};
+
 \end{document}
 ```
