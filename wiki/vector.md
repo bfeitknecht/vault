@@ -24,7 +24,7 @@ A single vector $v$ in $m$-dimensional space is denoted as $\mathbf{v}=\begin{bm
 ![[linear combination]]
 
 ## Scalar Product / Dot Product
-![[dot product]]
+![[inner product]]
 
 ## Euclidian Norm
 ![[euclidian norm]]

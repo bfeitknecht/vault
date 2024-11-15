@@ -1,6 +1,6 @@
 
 - [[linear combination]]
-- [[dot product]]
+- [[inner product]]
 - [[triangle inequality]], [[cauchy-schwarz inequality]]
 - [[linear independence]]
 - [[zero vector]]
