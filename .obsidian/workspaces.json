@@ -1336,8 +1336,37 @@
                   "icon": "lucide-file",
                   "title": "LinAlg-v-w09"
                 }
+              },
+              {
+                "id": "14d7a9be441fd340",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/LinAlg/VRL/extra/slides/LinAlg-slides-w09.pdf",
+                    "page": 1,
+                    "left": -11,
+                    "top": 276,
+                    "zoom": 1.4345363990391333
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LinAlg-slides-w09"
+                }
+              },
+              {
+                "id": "2da1bae94d1f444e",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w03.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LinAlg-plan-w03"
+                }
               }
-            ]
+            ],
+            "currentTab": 4
           },
           {
             "id": "740ad403278fbd52",
@@ -1413,8 +1442,7 @@
                   "title": "row and column space"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -1608,12 +1636,11 @@
           "workspaces:Manage workspace layouts": false,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true,
-          "obsidian-excalidraw-plugin:Create new drawing": true
+          "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "cea4ac865f90d99d",
-      "mtime": "2024-11-15T09:50:30+01:00"
+      "active": "199447fcba021479",
+      "mtime": "2024-11-15T10:25:57+01:00"
     },
     "sem3-ti": {
       "main": {
