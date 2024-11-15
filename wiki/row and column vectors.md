@@ -1,3 +1,4 @@
+#todo 
 
 Since a [[vector]] is just a one dimensional [[matrix]], there are two forms a vector can take. A **column vector**, $\mathbf{v} \in \mathbb R^m$ is a $m\times 1$ matrix, whereas a **row vector** $\mathbf{u} \in \mathbb R^n$ is a $1\times n$ matrix. 
 
@@ -30,7 +31,7 @@ A =
 $$
 
 
-similarily, for some *column vector* $\mathbf{w}\in \mathbb R^m$, 
+Similarily, for some *column vector* $\mathbf{w}\in \mathbb R^m$, 
 $$
 \mathbf{w=\begin{bmatrix}w_{1}\\ w_{2}\\ \vdots\\ w_{m} \end{bmatrix}},
 $$

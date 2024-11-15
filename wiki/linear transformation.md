@@ -13,25 +13,22 @@ Furthermore, every linear transformation exhibits [[commutativity]] under vector
 \begin{document}
 
 \begin{tikzcd}
-	{\mathbf{x}} && {T(\mathbf{x})} &&& {\mathbf{x}, \mathbf{y}} && {T(\mathbf{x}), T(\mathbf{y})} \\
+	{\mathbf{x}, \mathbf{y}} && {T(\mathbf{x}), T(\mathbf{y})} &&& {\mathbf{x}} && {T(\mathbf{x})} \\
 	\\
-	{\lambda\mathbf{x}} && {T(\lambda\mathbf{x})} & {\lambda T(\mathbf{x})} && {\mathbf{x} + \mathbf{y}} && {T(\mathbf{x} + \mathbf{y})} & {T(\mathbf{x}) + T(\mathbf{y})}
+	\\
+	{\mathbf{x} + \mathbf{y}} && {T(\mathbf{x} + \mathbf{y}) = T(\mathbf{x}) + T(\mathbf{y})} &&& {\lambda\mathbf{x}} && {T(\lambda\mathbf{x}) = \lambda T(\mathbf{x})}
 	\arrow["T", from=1-1, to=1-3]
-	\arrow["\lambda"', from=1-1, to=3-1]
-	\arrow["\lambda", from=1-3, to=3-3]
+	\arrow["{+}"', from=1-1, to=4-1]
+	\arrow["{+}", from=1-3, to=4-3]
 	\arrow["T", from=1-6, to=1-8]
-	\arrow["{+}"', from=1-6, to=3-6]
-	\arrow["{+}", from=1-8, to=3-8]
-	\arrow["T", from=3-1, to=3-3]
-	\arrow[shorten <=2pt, shorten >=2pt, Rightarrow, no head, from=3-3, to=3-4]
-	\arrow["T", from=3-6, to=3-8]
-	\arrow[shorten <=3pt, shorten >=3pt, Rightarrow, no head, from=3-8, to=3-9]
+	\arrow["\lambda"', from=1-6, to=4-6]
+	\arrow["\lambda", from=1-8, to=4-8]
+	\arrow["T", from=4-1, to=4-3]
+	\arrow["T", from=4-6, to=4-8]
 \end{tikzcd}
 
 \end{document}
 ```
-
-![[LinAlg-plan-w03.pdf#page=2&rect=77,254,537,370|LinAlg-plan-w03, p.2]]
 
 Every linear transformation can be realized through a *unique* matrix.
 
@@ -40,29 +37,3 @@ $$
 T_{A}(T_{B}(\mathrm{x})) = T_{AB}(x)
 $$
 
-
-
-```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
-    T
-    \arrow[drr, bend left, "x"]
-    \arrow[ddr, bend right, "y"]
-    \arrow[dr, dotted, "{(x,y)}" description] & & \\
-    K & X \times_Z Y \arrow[r, "p"] \arrow[d, "q"]
-    & X \arrow[d, "f"] \\
-    & Y \arrow[r, "g"]
-    & Z
-\end{tikzcd}
-\quad \quad
-\begin{tikzcd}[row sep=2.5em]
-A' \arrow[rr,"f'"] \arrow[dr,swap,"a"] \arrow[dd,swap,"g'"] &&
-  B' \arrow[dd,swap,"h'" near start] \arrow[dr,"b"] \\
-& A \arrow[rr,crossing over,"f" near start] &&
-  B \arrow[dd,"h"] \\
-C' \arrow[rr,"k'" near end] \arrow[dr,swap,"c"] && D' \arrow[dr,swap,"d"] \\
-& C \arrow[rr,"k"] \arrow[uu,<-,crossing over,"g" near end]&& D
-\end{tikzcd}
-\end{document}
-```
