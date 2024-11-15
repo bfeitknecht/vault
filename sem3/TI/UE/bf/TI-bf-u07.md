@@ -34,7 +34,23 @@ $\square$
 
 ## (b) $L_{\mathrm{U}} \leq_{\mathrm{EE}} L_{\text{union}}$
 
+![[TI-e-u07-20b.jpeg|400]]
 
+We define a function $M(x)$ for any $x \in \{ 0, 1, \# \}^*$, that fulfills the below.
+$$
+x \in L_{\mathrm{U}} \Longrightarrow M(x) \in L_{\mathrm{union}}
+$$
+If $x \notin \{M_{1}\#w | M_{1}, w \in \{0,1\}^*\}$ then $M(x) = \lambda$ else $M(x) = \{M_{1}\#M_{1}\#w | M_{1}, w \in \{0,1\}^*\}$.
+
+(i) $x \in L_{\mathrm{U}}$
+	If $x \in L_{\mathrm{U}}$ then the TM encoded in $x$ accepts the word encoded in x. If we copy this exact TM then both TM's will accept the encoded word therefore $x \in L_{\mathrm{union}}$.
+
+(ii) $x\notin L_{\mathrm{U}}$
+	If $x \notin L_U$ then: 
+	1. The form of $x$ is wrong, $M(x)$ returns $\lambda$ therefore $\lambda \notin L_{\mathrm{union}}$
+	2. TM is not a valid TM therefore $\{TM\#TM\#w\} \notin L_{\mathrm{union}}$
+	3. The encoded TM rejects the encoded word or doesn't halt therefore $x \notin L_{\mathrm{union}}$
+$\square$
 
 ## (c) $L_{\text{union}} \leq_{\mathrm{EE}} L_{\mathrm{U}}$
 
