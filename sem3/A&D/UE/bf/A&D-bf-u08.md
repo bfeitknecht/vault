@@ -2,6 +2,7 @@
 # 8.1   Introduction to Graphs ![[A&D-e-u08.pdf#page=2&rect=67,633,530,751|A&D-e-u08, p.2]]
 
 ## (a) ![[A&D-e-u08.pdf#page=2&rect=85,573,528,632|A&D-e-u08, p.2]]
+The *players* of the game are modeled as *vertices* and the relation *is on contact list* denotes an edge. Specifically, we model the game in an undirected graph, since the relation is symmetric. Then, the game is winnable if the graph has a hamilton walk.
 
 ## (b) ![[A&D-e-u08.pdf#page=2&rect=86,539,530,568|A&D-e-u08, p.2]]
 
