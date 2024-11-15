@@ -1,7 +1,7 @@
 
 - orthogonal vectors
 - orthonormal vectors
-- orthonormal basis
+- [[orthonormal basis]]
 - orthogonal vector subspace
 - complementary vector subspace
 - orthogonal complementary vector subspace
@@ -45,3 +45,4 @@ $$
 - $M \in \mathbb{F}^{m \times n}: \mathrm{rank}(M)=n$ i.e. $M$ is full rank $\implies$ $M^{\top}M$ full rank, hence $M$ invertible
 
 - skinny tall matrix $\implies$ overdetermined LSE
+
