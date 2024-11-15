@@ -48,7 +48,7 @@ $$
 - *orthogonal* matrix preserves euclidian norm and scalar product 
 - $(Q\mathbf{x})^{\top}(Q\mathbf{y}) = \mathbf{x}^{\top}\mathbf{y} \implies$ angle between $\mathbf{x},\mathbf{y}$ is preserved by $Q$, we just (stretch) rotate the space
 
-- projection matrix where $Q$ forms an orthogonal basis for a subspace $S \subseteq V$ $P=QQ^{\top}$
+- projection matrix where $Q$ forms an orthogonal basis for a subspace $S \subseteq V$ we have $P=QQ^{\top}$ (?)
 
 
 

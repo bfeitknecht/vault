@@ -3,7 +3,7 @@
 - projection (linear transformation)
 - projection matrix
 - least squares
-- normal equations
+- normal equation
 - linear regression
 
 # Lecture Plan

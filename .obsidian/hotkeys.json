@@ -248,5 +248,13 @@
       ],
       "key": "W"
     }
+  ],
+  "bookmarks:bookmark-current-view": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "B"
+    }
   ]
 }
