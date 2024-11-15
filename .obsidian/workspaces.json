@@ -502,8 +502,8 @@
                   "state": {
                     "file": "sem3/A&D/UE/e/A&D-e-u08.pdf",
                     "page": 1,
-                    "left": 60,
-                    "top": 545,
+                    "left": 56,
+                    "top": 442,
                     "zoom": 1.08
                   },
                   "icon": "lucide-file-text",
@@ -541,7 +541,8 @@
                 },
                 "group": "7b46e396558ac886"
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -705,12 +706,11 @@
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
           "command-palette:Open command palette": true,
-          "workspaces:Manage workspace layouts": false,
-          "obsidian-excalidraw-plugin:Create new drawing": true
+          "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "bcfbdb4ce0ca330f",
-      "mtime": "2024-11-15T09:42:50+01:00"
+      "active": "d8c54d8e8a726855",
+      "mtime": "2024-11-15T13:18:46+01:00"
     },
     "sem3-dmath": {
       "main": {
