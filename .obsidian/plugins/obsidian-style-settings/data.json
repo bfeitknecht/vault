@@ -35,5 +35,11 @@
   "obsidian-prism-theme@@pt-collapsed-pinned-tab": true,
   "obsidian-prism-theme@@pt-pdf-dark-theme": false,
   "obsidian-prism-theme@@pt-font-slashed-zero": false,
-  "things-style@@mobile-black-background": false
+  "things-style@@mobile-black-background": false,
+  "sanctum@@color-accent-rgb-l": "246, 141, 69",
+  "sanctum@@no-sanctum-icons": true,
+  "sanctum@@colorful-active-nav": false,
+  "sanctum@@light-mode-contrast-mode": "sanctum-default-light",
+  "sanctum@@dark-mode-contrast-mode": "sanctum-default-dark",
+  "shimmering-focus@@mac-os-native": false
 }
