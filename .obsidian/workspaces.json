@@ -418,7 +418,6 @@
         "hiddenItems": {
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
-          "obsidian-excalidraw-plugin:Create new drawing": true,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
           "obsidian-git:Open Git source control": true,
@@ -433,7 +432,7 @@
         }
       },
       "active": "162e7a61651e562a",
-      "mtime": "2024-11-14T09:02:53+01:00"
+      "mtime": "2024-11-16T11:04:07+01:00"
     },
     "sem3-a&d": {
       "main": {
