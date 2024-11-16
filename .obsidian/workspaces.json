@@ -188,7 +188,7 @@
         }
       },
       "active": "22172cdc0e12bc7f",
-      "mtime": "2024-11-14T08:55:28+01:00"
+      "mtime": "2024-11-16T11:03:26+01:00"
     },
     "00-home": {
       "main": {
@@ -473,7 +473,7 @@
                 }
               },
               {
-                "id": "bcfbdb4ce0ca330f",
+                "id": "d8c54d8e8a726855",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -484,8 +484,7 @@
                   },
                   "icon": "lucide-file",
                   "title": "A&D-bf-u08"
-                },
-                "group": "7b46e396558ac886"
+                }
               }
             ],
             "currentTab": 2
@@ -502,47 +501,15 @@
                   "state": {
                     "file": "sem3/A&D/UE/e/A&D-e-u08.pdf",
                     "page": 1,
-                    "left": 56,
-                    "top": 442,
+                    "left": 48,
+                    "top": 450,
                     "zoom": 1.08
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-e-u08"
                 }
-              },
-              {
-                "id": "9d0f5dee262fae46",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem2/AuW/VRL/extra/AuW-script.pdf",
-                    "page": 47,
-                    "left": -18,
-                    "top": 666,
-                    "zoom": 0.8743843192065531
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "AuW-script"
-                }
-              },
-              {
-                "id": "d8c54d8e8a726855",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u08.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "A&D-bf-u08"
-                },
-                "group": "7b46e396558ac886"
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -706,11 +673,12 @@
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
           "command-palette:Open command palette": true,
-          "workspaces:Manage workspace layouts": false
+          "workspaces:Manage workspace layouts": false,
+          "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "d8c54d8e8a726855",
-      "mtime": "2024-11-15T13:18:46+01:00"
+      "active": "640e264aed0be494",
+      "mtime": "2024-11-16T11:03:27+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1844,5 +1812,5 @@
       "mtime": "2024-11-15T10:08:38+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "00-home"
 }
