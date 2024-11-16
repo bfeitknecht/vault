@@ -428,11 +428,12 @@
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "command-palette:Open command palette": true
+          "command-palette:Open command palette": true,
+          "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
       "active": "162e7a61651e562a",
-      "mtime": "2024-11-16T11:04:07+01:00"
+      "mtime": "2024-11-16T12:59:50+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1811,5 +1812,5 @@
       "mtime": "2024-11-15T10:08:38+01:00"
     }
   },
-  "active": "00-home"
+  "active": "sem3-a&d"
 }

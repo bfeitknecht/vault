@@ -4,7 +4,7 @@
 
 ## (a)
 ![[A&D-e-u08.pdf#page=2&rect=85,573,528,632|A&D-e-u08, p.2]]
-The *players* of the game are modeled as *vertices* and the relation *is on contact list* denotes an undirected edge. Since the relation is symmetric, the graph is undirected. Then the game is winnable if and only if, there exists a hamilton path. Specifically, if there exists a vertex $w \in V$ such that there is no hamilton path starting from $w$, the game is not winnable since this player can't get the message to all the others.
+The *players* of the game are modeled as *vertices* and the relation *is on contact list* indicates an *edge*. Since the relation is symmetric, the graph is undirected. Then the game is winnable if and only if, there exists a hamilton path starting from every vertex $v \in V$. Specifically, if there exists a vertex $w \in V$ such that there is no hamilton path starting from $w$, the game is not winnable since this player can't get the message to all the others.
 $\square$
 
 ## (b)
