@@ -502,7 +502,7 @@
                     "file": "sem3/A&D/UE/e/A&D-e-u08.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 533,
+                    "top": 537,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
@@ -678,7 +678,7 @@
         }
       },
       "active": "d8c54d8e8a726855",
-      "mtime": "2024-11-17T10:18:01+01:00"
+      "mtime": "2024-11-18T14:33:48+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1812,5 +1812,5 @@
       "mtime": "2024-11-15T10:08:38+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-dmath"
 }
