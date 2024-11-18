@@ -432,8 +432,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "162e7a61651e562a",
-      "mtime": "2024-11-16T12:59:50+01:00"
+      "active": "c1d4bca0b23a015c",
+      "mtime": "2024-11-18T09:26:07+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -501,9 +501,9 @@
                   "state": {
                     "file": "sem3/A&D/UE/e/A&D-e-u08.pdf",
                     "page": 1,
-                    "left": 48,
-                    "top": 450,
-                    "zoom": 1.08
+                    "left": -18,
+                    "top": 533,
+                    "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-e-u08"
@@ -677,8 +677,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "640e264aed0be494",
-      "mtime": "2024-11-16T11:03:27+01:00"
+      "active": "d8c54d8e8a726855",
+      "mtime": "2024-11-17T10:18:01+01:00"
     },
     "sem3-dmath": {
       "main": {
