@@ -779,7 +779,7 @@
                     "file": "sem3/DMath/UE/e/DMath-e-u09.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 39,
+                    "top": 44,
                     "zoom": 0.8958029552678087
                   },
                   "icon": "lucide-file-text",
@@ -966,7 +966,7 @@
         }
       },
       "active": "24bc562e553f03fc",
-      "mtime": "2024-11-18T15:55:46+01:00"
+      "mtime": "2024-11-18T16:21:14+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1757,5 +1757,5 @@
       "mtime": "2024-11-15T10:08:38+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-ti"
 }

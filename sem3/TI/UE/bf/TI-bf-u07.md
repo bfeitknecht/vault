@@ -1,4 +1,8 @@
 
+Basil Feitknecht, 23-922-099,
+Camil Schmid, 23-944-234,
+Dennis Küenzi, 21-559-315
+
 # 19 ![[TI-e-u07.pdf#page=1&rect=67,518,527,566|TI-e-u07, p.1]]
 
 First, let's recall the definition of the halting language.

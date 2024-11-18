@@ -20,6 +20,32 @@ ___
 
 
 
+```tikz
+\usepackage{tikz} 
+\begin{document}
+
+\begin{tikzpicture}
+	\draw (0,0) circle (3.75);
+	\draw (0,0) circle (2.5);
+	\draw (0,0) circle (1.25);
+	\node at (0, 3.25) {\Large$\mathcal{L}_{RE}$};
+	\node at (0, 2.) {\Large$\mathcal{L}_R$};
+	\node at (0, 0) {\Large$\mathcal{L}_{EA}$};
+	
+	\node at (-0.25, -1.75) {$\{0^n1^n \,|\, n\in \mathbb{N}\}$};
+	\node at (-3.5, 3) {$L_\text{diag}$};
+	\node at (2.5, 2) {$L_{H}$};
+	\node at (-1.75, -2.75) {$L_U$};
+	\node at (3.75, -2.75) {$L_\text{empty}$};
+	\node at (3.75, 2.75) {$(L_H)^C$};
+	\node at (-1.5, 1.25) {$L_\text{prim}$};
+\end{tikzpicture}
+
+\end{document}
+```
+
+
+
 
 useful languages and language classes:
 
