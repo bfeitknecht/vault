@@ -12,5 +12,6 @@ $$
 
 # 23
 
+question @ TA: do you like to poop?
 
 # 24
