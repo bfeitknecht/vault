@@ -23,3 +23,4 @@ element in ring is unit if it has inverse
 element $a\neq0$ is zero divisor if $\exists b\neq0:ab=0$
 
 - polynomial is irreducible if it has no root (zero point in image)
+- every polynomial is EITHER irreducible OR can be written as sum of product between divisor and quotient, plus remainder 
