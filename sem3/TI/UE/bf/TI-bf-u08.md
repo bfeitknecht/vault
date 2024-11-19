@@ -32,7 +32,7 @@ Let $L(A)=L(B) \subseteq \Sigma^{*}$. Then, without loss of generality, let $\ma
 Hence we have proven that $L_{\mathrm{all}}$ is a semantically non-trivial decision problem of TMs.
 
 
-Since $M_{\varnothing} \not\in L_{\mathrm{all}}$, with $L(M_{\varnothing})=\varnothing$ we construct a reduction to prove $L_{\mathrm{H}, \lambda} \leq_{\mathrm{EE}} L_{\mathrm{all}}$.
+Since $M_{\varnothing} \not\in L_{\mathrm{all}}$, with $L(M_{\varnothing})=\varnothing$ we construct the reduction $L_{\mathrm{H}, \lambda} \leq_{\mathrm{EE}} L_{\mathrm{all}}$ to prove $L_{\mathrm{all}} \not\in \mathcal{L}_{\mathrm{R}}$.
 
 
 # 24
