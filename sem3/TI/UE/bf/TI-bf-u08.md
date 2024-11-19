@@ -32,7 +32,10 @@ Let $L(A)=L(B) \subseteq \Sigma^{*}$. Then, without loss of generality, let $\ma
 Hence we have proven that $L_{\mathrm{all}}$ is a semantically non-trivial decision problem of TMs.
 
 
-Since $M_{\varnothing} \not\in L_{\mathrm{all}}$, with $L(M_{\varnothing})=\varnothing$ we construct the reduction $L_{\mathrm{H}, \lambda} \leq_{\mathrm{EE}} L_{\mathrm{all}}$ to prove $L_{\mathrm{all}} \not\in \mathcal{L}_{\mathrm{R}}$.
+Since $M_{\varnothing} \not\in L_{\mathrm{all}}$, with $L(M_{\varnothing})=\varnothing$ we construct the reduction $L_{\mathrm{H}, \lambda} \leq_{\mathrm{EE}} L_{\mathrm{all}}$ to prove $L_{\mathrm{all}} \not\in \mathcal{L}_{\mathrm{R}}$. Since the language of interested is non-empty per definition 5.7, let $\widetilde{M}$ be a TM such that $\mathrm{Kod}(\widetilde{M}) \in L_{\mathrm{all}}$.
+
+S checks for an $x \in \Sigma^{*}_{\mathbb{B}}$ if x is an encoding of a turing machine. if this isnt the case, we output the encoding of the empty set TM.
+otherwise $S(X) = \mathrm{Kod}(A)$ where we define algorithm $A$ as follows.
 
 
 # 24
