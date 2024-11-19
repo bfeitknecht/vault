@@ -9,6 +9,10 @@ $\square$
 
 
 ## b) ![[DMath-e-u09.pdf#page=2&rect=105,668,518,698|DMath-e-u09, p.2]]
+Let $x=(1-ab)^{-1}$ be the multiplicative inverse of the unit $1-ab$.
+
+
+
 $(1-ab)^{-1} \exists \in R \implies (1-ba)^{-1}\exists \in R$
 
 
