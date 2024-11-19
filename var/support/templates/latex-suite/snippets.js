@@ -362,5 +362,8 @@ Insert tabstops for the cursor to jump to by writing "$0", "$1", etc. in the rep
     {trigger: "bot", replacement: "\\bot", options: "mA"},
     {trigger: "algb", replacement: "\\langle $0 \\rangle $1", options: "mA"},
     {trigger: "GF", replacement: "\\mathrm{GF}($0)", options: "mA"},
+    {trigger: "Kod", replacement: "\\mathrm{Kod}($0)", options: "mA"},
+    {trigger: "qacc", replacement: "q_{\\checkmark}", options: "mA"},
+    {trigger: "qrej", replacement: "q_{\\mathsf{x}}", options: "mA"},
 
 ]

@@ -20,6 +20,5 @@ Similarly to NFSM, there is also an equivalent [[non-deterministic turing machin
 
 
 
-
 # multi-tape turing machine (MTM)
 ![[multi-tape turing machine (MTM)]]
