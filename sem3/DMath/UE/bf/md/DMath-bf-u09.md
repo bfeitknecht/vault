@@ -9,5 +9,13 @@ $\square$
 
 
 ## b) ![[DMath-e-u09.pdf#page=2&rect=105,668,518,698|DMath-e-u09, p.2]]
-1 - 
+$(1-ab)^{-1} \exists \in R \implies (1-ba)^{-1}\exists \in R$
 
+
+
+$$
+\begin{align} \\
+
+(1 - ab)^{-1} &= 1+ (-a)b
+\end{align}
+$$
