@@ -1551,9 +1551,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
-                    "page": 158,
+                    "page": 159,
                     "left": -14,
-                    "top": 338,
+                    "top": 269,
                     "zoom": 1.0929822351014236
                   },
                   "icon": "lucide-file-text",
@@ -1583,7 +1583,7 @@
                     "file": "sem3/TI/UE/e/TI-e-u08.pdf",
                     "page": 1,
                     "left": -47,
-                    "top": 769,
+                    "top": 846,
                     "zoom": 0.8
                   },
                   "icon": "lucide-file-text",
@@ -1605,8 +1605,7 @@
                 },
                 "group": "911bb6ae2ab73bb1"
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1781,12 +1780,12 @@
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "obsidian-excalidraw-plugin:Create new drawing": false
+          "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "9066f628c6c61a6a",
-      "mtime": "2024-11-19T09:13:16+01:00"
+      "active": "080ab6f0f820face",
+      "mtime": "2024-11-19T16:27:15+01:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-dmath"
 }
