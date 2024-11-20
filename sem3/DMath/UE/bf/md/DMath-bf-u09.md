@@ -9,11 +9,11 @@ $\square$
 
 
 ## b) ![[DMath-e-u09.pdf#page=2&rect=105,668,518,698|DMath-e-u09, p.2]]
-Let $y=1-ab$ be a unit in $R$ with its multiplicative inverse $x = (1-ab)^{-1}$. Thus it holds that $xy = yx = 1$. Then we denote $y' = 1-ba$. To prove is the following statement.
+Let $y=1-ab$ be a unit in $R$ with its multiplicative inverse $x = (1-ab)^{-1}$. Thus it holds that $(1-ab)x = x(1-ab) = 1$. Then we denote $y' = 1-ba$. To prove is the following statement.
 $$
 y \in R^{*} \implies y' \in R^{*}
 $$
-
+dear Ta, how does poop taste? - interested civilian
 
 
 
@@ -26,5 +26,13 @@ $$
 &= \frac{1 - ab +ba}{1 - ab} \implies \\
 1 - ab + ba &= (1 + bxa) \cdot (1 - ab) \implies \\
 1 - ba &= \frac{1 - ab + ba}{(1 + bxa) \cdot (1 - ab)} - ba  \\
+\end{align}
+$$
+
+
+
+$$
+\begin{align}
+a
 \end{align}
 $$
