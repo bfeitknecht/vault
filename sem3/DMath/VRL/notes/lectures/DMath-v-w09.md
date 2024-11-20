@@ -24,3 +24,10 @@ element $a\neq0$ is zero divisor if $\exists b\neq0:ab=0$
 
 - polynomial is irreducible if it has no root (zero point in image)
 - every polynomial is EITHER irreducible OR can be written as sum of product between divisor and quotient, plus remainder 
+
+non-trivial factorization in a ring is given by elements that are not units
+
+product of element with unit does not form additional non-trivial factorizations, i.e. is a non-trivial factorization $5\cdot7=35$ but $(-5) \cdot (-7) = 35$ isn't, as it's just a different "basis"
+
+fields with equal number of elements are isomorphic !!
+
