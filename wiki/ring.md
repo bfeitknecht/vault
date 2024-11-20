@@ -6,7 +6,7 @@ A **ring** is an algebra $\langle R; +, -, 0, \cdot, 1 \rangle$, such that the f
 - $(\mathrm{ii})$   The multiplication operation, its inverse and neutral element form a [[monoid]] $\langle R; \cdot, 1 \rangle$.
 - $(\mathrm{ii})$   The multiplication operation distributes over the addition operation.
 
-If multiplication is commutative the ring is called *commutative*. The axioms are not minimal, the group's commutativity isn't required as it's implied by the others. Furthermore we have the following.
+If multiplication is commutative the ring is called *commutative ring*. The axioms are not minimal, the group's commutativity isn't required as it's implied by the others. Furthermore we have the following.
 
 ![[dmath-script-hs24.pdf#page=120&rect=31,204,380,289|dmath-script-hs24, p.110]]
 

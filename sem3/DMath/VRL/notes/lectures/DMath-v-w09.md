@@ -31,3 +31,13 @@ product of element with unit does not form additional non-trivial factorizations
 
 fields with equal number of elements are isomorphic !!
 
+
+#todo 
+operations for rings, ring extensions and fields respectively (where confusion)
+
+$$
+\begin{align}
++ \boxplus \oplus_{m(x)} \\
+\cdot \boxdot  \odot_{m(c)} \\
+\end{align}
+$$

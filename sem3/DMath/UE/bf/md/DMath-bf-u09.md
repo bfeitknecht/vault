@@ -18,16 +18,13 @@ Let $x=(1-ab)^{-1}$ be the multiplicative inverse of the unit $1-ab$.
 
 
 
-
-
-
-
+correct arrows and equalities!!
 $$
 \begin{align}
-x &= (1 - ab)^{-1} \\
-1 + bxa &= 1  +  b\frac{1}{1 + ab}a \\
-&= \frac{1 + ab + b(1 + ab) \cdot a(1 + ab)}{1 + ab} \\
-&= \frac{1 + ab (1 + ba)}{1 + ab} \\
-
+x &= (1 - ab)^{-1} \implies \\
+1 + bxa  &= 1  +  b \cdot (1 + ab)^{-1} \cdot a \implies \\
+&= 1  +  \frac{b(1 + ab) \cdot a(1+ab)}{1+ab} \implies \\
+&= \frac{(1 + ab)(1 + ba)}{1 + ab} \implies \\
+1 + ba &= \frac{1 + bxa}{1+ab} - ab \\
 \end{align}
 $$
