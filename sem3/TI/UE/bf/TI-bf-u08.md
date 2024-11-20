@@ -32,8 +32,9 @@ Let $L(A)=L(B) \subseteq \Sigma^{*}$. Then, without loss of generality, let $\ma
 Hence we have proven that $L_{\mathrm{all}}$ is a semantically non-trivial decision problem of TMs.
 
 
-Since $M_{\varnothing} \not\in L_{\mathrm{all}}$, with $L(M_{\varnothing})=\varnothing$ we construct a TM $S$ that realizes the reduction $L_{\mathrm{H}, \lambda} \leq_{\mathrm{EE}} L_{\mathrm{all}}$. Per non-triviality of $L_{\mathrm{all}}$, let $\widetilde{M}$ be a TM such that $\mathrm{Kod}(\widetilde{M}) \in L_{\mathrm{all}}$, which exists per definition 5.7. Then for an input $x \in \Sigma^{*}_{\mathbb{B}}$ the TM $S$ first checks if $x \in \mathrm{KodTM}$. If it isn't, $S(x) = \mathrm{Kod}(M_{\varnothing})$. Otherwise, $S(x) = \mathrm{Kod}(A)$, where $A$ is defined as follows.
+Since $M_{\varnothing} \not\in L_{\mathrm{all}}$, with $L(M_{\varnothing})=\varnothing$ we construct a TM $S$ that realizes the reduction $L_{\mathrm{H}, \lambda} \leq_{\mathrm{EE}} L_{\mathrm{all}}$. Per non-triviality of $L_{\mathrm{all}}$, let $\widetilde{M}$ be a TM such that $\mathrm{Kod}(\widetilde{M}) \in L_{\mathrm{all}}$, which exists per definition 5.7. Then for an input $x \in \Sigma^{*}_{\mathbb{B}}$ the TM $S$ first checks if it's a valid encoding of a TM. If this isn't the case, so $x \not\in \mathrm{KodTM}$, it outputs $S(x) = \mathrm{Kod}(M_{\varnothing})$. Otherwise, $x=\mathrm{Kod}(M) \in \mathrm{KodTM}$ and we have $S(x) = \mathrm{Kod}(A)$, where $A$ is defined as follows.
 
+Its input alphabet is equal to $\widetilde{M}$, so we have $\Sigma_{A} = \Sigma_{\widetilde{M}}$. For an arbitrary input word $y \in \Sigma^{*}_{\widetilde{M}}$, $A$ then first simulates $M$ on the empty word $\lambda$, without overwriting the input $y$. Then $A$ simulates $\widetilde{M}$ on the input word $y$. $S$ accepts $y$ if and only if $\widetilde{M}$ accepts $y$. 
 
 
 <div class="page-break" style="page-break-before: always;"></div>
