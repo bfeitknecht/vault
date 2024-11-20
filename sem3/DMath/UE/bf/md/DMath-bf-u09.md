@@ -22,9 +22,10 @@ correct arrows and equalities!!
 $$
 \begin{align}
 x &= (1 - ab)^{-1} \implies \\
-1 + bxa  &= 1  +  b \cdot (1 + ab)^{-1} \cdot a \implies \\
-&= 1  +  \frac{b(1 + ab) \cdot a(1+ab)}{1+ab} \implies \\
-&= \frac{(1 + ab)(1 + ba)}{1 + ab} \implies \\
-1 + ba &= \frac{1 + bxa}{1+ab} - ab \\
+1 + bxa  &= 1  +  b \cdot (1 - ab)^{-1} \cdot a \implies \\
+&= 1  +  \frac{ba}{1-ab} \implies \\
+&= \frac{1 - ab +ba}{1 - ab} \implies \\
+1 - ab + ba &= (1 + bxa) \cdot (1 - ab) \implies \\
+1 - ba &= (1 + bxa) \cdot (1 - ab) + ab - ba \\
 \end{align}
 $$
