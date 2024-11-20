@@ -9,17 +9,25 @@ $\square$
 
 
 ## b) ![[DMath-e-u09.pdf#page=2&rect=105,668,518,698|DMath-e-u09, p.2]]
+To prove is the following statement.
+$$
+1-ab \in R^{*} \implies 1-ba \in R^{*}
+$$
+
 Let $x=(1-ab)^{-1}$ be the multiplicative inverse of the unit $1-ab$.
 
 
 
-$(1-ab)^{-1} \in R \implies (1-ba)^{-1} \in R$
+
 
 
 
 $$
-\begin{align} \\
+\begin{align}
+x &= (1 - ab)^{-1} \\
+1 + bxa &= 1  +  b\frac{1}{1 + ab}a \\
+&= \frac{1 + ab + b(1 + ab) \cdot a(1 + ab)}{1 + ab} \\
+&= \frac{1 + ab (1 + ba)}{1 + ab} \\
 
-(1 - ab)^{-1} &= 1+ (-a)b
 \end{align}
 $$

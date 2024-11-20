@@ -747,7 +747,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "f002029a56c7a80a",
@@ -761,9 +761,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 119,
+                    "page": 136,
                     "left": -12,
-                    "top": 0,
+                    "top": 331,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -785,8 +785,25 @@
                   "icon": "lucide-file-text",
                   "title": "DMath-e-u09"
                 }
+              },
+              {
+                "id": "c44ff5e10ab712b7",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-bs.pdf",
+                    "page": 5,
+                    "left": 198,
+                    "top": 450,
+                    "zoom": 1.55
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "DMath-cheatsheet-bs"
+                }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -964,8 +981,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "0580f7ab9ac88d53",
-      "mtime": "2024-11-20T09:11:00+01:00"
+      "active": "c44ff5e10ab712b7",
+      "mtime": "2024-11-20T14:43:35+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1264,7 +1281,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "740ad403278fbd52",
@@ -1511,8 +1528,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "74ed379c6f338894",
-      "mtime": "2024-11-20T14:27:27+01:00"
+      "active": "24dadc2e19542b6e",
+      "mtime": "2024-11-20T14:45:53+01:00"
     },
     "sem3-ti": {
       "main": {
