@@ -9,23 +9,22 @@ $\square$
 
 
 ## b) ![[DMath-e-u09.pdf#page=2&rect=105,668,518,698|DMath-e-u09, p.2]]
-To prove is the following statement.
+Let $y=1-ab$ be a unit in $R$ with its multiplicative inverse $x = (1-ab)^{-1}$. Thus it holds that $xy = yx = 1$. Then we denote $y' = 1-ba$. To prove is the following statement.
 $$
-1-ab \in R^{*} \implies 1-ba \in R^{*}
+y \in R^{*} \implies y' \in R^{*}
 $$
 
-Let $x=(1-ab)^{-1}$ be the multiplicative inverse of the unit $1-ab$.
+
 
 
 
 correct arrows and equalities!!
 $$
 \begin{align}
-x &= (1 - ab)^{-1} \implies \\
 1 + bxa  &= 1  +  b \cdot (1 - ab)^{-1} \cdot a \implies \\
 &= 1  +  \frac{ba}{1-ab} \implies \\
 &= \frac{1 - ab +ba}{1 - ab} \implies \\
 1 - ab + ba &= (1 + bxa) \cdot (1 - ab) \implies \\
-1 - ba &= (1 + bxa) \cdot (1 - ab) + ab - ba \\
+1 - ba &= \frac{1 - ab + ba}{(1 + bxa) \cdot (1 - ab)} - ba  \\
 \end{align}
 $$
