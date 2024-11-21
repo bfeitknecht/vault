@@ -1590,7 +1590,7 @@
                   "state": {
                     "file": "sem3/TI/VRL/notes/lectures/TI-v-w09.md",
                     "mode": "source",
-                    "source": true
+                    "source": false
                   },
                   "icon": "lucide-file",
                   "title": "TI-v-w09"
@@ -1627,8 +1627,8 @@
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
                     "page": 159,
                     "left": -14,
-                    "top": 269,
-                    "zoom": 1.0929822351014236
+                    "top": 295,
+                    "zoom": 1.0929822351014238
                   },
                   "icon": "lucide-file-text",
                   "title": "hromkovic-TI"
@@ -1671,7 +1671,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "sem3/TI/VRL/notes/lectures/TI-v-w09.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
@@ -1679,7 +1679,8 @@
                 },
                 "group": "911bb6ae2ab73bb1"
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1853,12 +1854,11 @@
           "obsidian-git:Open Git source control": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true,
-          "obsidian-excalidraw-plugin:Create new drawing": true
+          "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
       "active": "080ab6f0f820face",
-      "mtime": "2024-11-19T16:27:15+01:00"
+      "mtime": "2024-11-21T10:20:19+01:00"
     }
   },
   "active": "sem3-ti"
