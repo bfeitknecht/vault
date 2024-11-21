@@ -7,7 +7,7 @@ Dennis Küenzi, 21-559-315
 
 Prove that the language below is not recursive by providing an explicit mapping reduction and proving its correctness.
 $$
-L_{\mathrm{reach}} = \{ \mathrm{Kod}(M)\#0^{i} \mid i \in \mathbb{N}, |Q_{M}| \geq i+1, \exists x \in \Sigma_{M}^{*} \}
+L_{\mathrm{reach}} = \{ \mathrm{Kod}(M)\#0^{i} \mid i \in \mathbb{N}, |Q_{M}| > i, \exists x \in \Sigma_{M}^{*} :  \}
 $$
 
 <div class="page-break" style="page-break-before: always;"></div>
