@@ -17,7 +17,7 @@ $$
 L_{\mathrm{all}}  = \{ \mathrm{Kod}(M) \mid L(M) = \Sigma^{*} \}
 $$
 
-First we show that the language $L_{\mathrm{all}}$ is a semantically non-trivial decision problem of TMs. We prove this by showing it fulfills the requirements $(i) - (iii)$ of definition 5.7.
+First, we show that the language $L_{\mathrm{all}}$ is a semantically non-trivial decision problem about TMs. We prove this by showing it fulfills the requirements $(i) - (iii)$ of definition 5.7.
 
 - $(i) \quad L_{\mathrm{all}} \neq \varnothing$
 We need to show that the language is not the empty set. Consider a TM $M_{1}$ such that any state $q \in Q_{M_{1}}$ transitions to the accepting state $q_{\checkmark}$ on all input. Thus $L(M_{1}) = \Sigma^{*} \implies \mathrm{Kod}(M_{1}) \in L_{\mathrm{all}}$.
@@ -32,10 +32,16 @@ Let $L(A)=L(B) \subseteq \Sigma^{*}$. Then, without loss of generality, let $\ma
 Hence we have proven that $L_{\mathrm{all}}$ is a semantically non-trivial decision problem of TMs.
 
 
-Since $M_{\varnothing} \not\in L_{\mathrm{all}}$, with $L(M_{\varnothing})=\varnothing$ we construct a TM $S$ that realizes the reduction $L_{\mathrm{H}, \lambda} \leq_{\mathrm{EE}} L_{\mathrm{all}}$. Per non-triviality of $L_{\mathrm{all}}$, let $\widetilde{M}$ be a TM such that $\mathrm{Kod}(\widetilde{M}) \in L_{\mathrm{all}}$, which exists per definition 5.7. Then for an input $x \in \Sigma^{*}_{\mathbb{B}}$ the TM $S$ first checks if it's a valid encoding of a TM. If this isn't the case, so $x \not\in \mathrm{KodTM}$, it outputs $S(x) = \mathrm{Kod}(M_{\varnothing})$. Otherwise, $x=\mathrm{Kod}(M) \in \mathrm{KodTM}$ and we have $S(x) = \mathrm{Kod}(A)$, where $A$ is defined as follows.
+Since $M_{\varnothing} \not\in L_{\mathrm{all}}$, with $L(M_{\varnothing})=\varnothing$ we construct a TM $S$ that realizes the reduction $L_{\mathrm{H}, \lambda} \leq_{\mathrm{EE}} L_{\mathrm{all}}$. Per non-triviality of $L_{\mathrm{all}}$, let $\widetilde{M}$ be a TM such that $\mathrm{Kod}(\widetilde{M}) \in L_{\mathrm{all}}$, which exists per definition 5.7. Then for an input $x \in \Sigma^{*}_{\mathbb{B}}$ the TM $S$ first checks if it's a valid encoding of a TM. If this isn't the case, i.e. $x \not\in \mathrm{KodTM}$, it outputs $S(x) = \mathrm{Kod}(M_{\varnothing})$. Otherwise, $x=\mathrm{Kod}(M) \in \mathrm{KodTM}$ and we have $S(x) = \mathrm{Kod}(A)$, where $A$ is defined as follows.
 
-Its input alphabet is equal to $\widetilde{M}$, so we have $\Sigma_{A} = \Sigma_{\widetilde{M}}$. For an arbitrary input word $y \in \Sigma^{*}_{\widetilde{M}}$, $A$ then first simulates $M$ on the empty word $\lambda$, without overwriting the input $y$. Then $A$ simulates $\widetilde{M}$ on the input word $y$. $S$ accepts $y$ if and only if $\widetilde{M}$ accepts $y$. 
+The input alphabet of $A$ is equal to that of $\widetilde{M}$, specifically $\Sigma_{A} = \Sigma_{\widetilde{M}}$. For an arbitrary input word $y \in \Sigma^{*}_{\widetilde{M}}$, the TM $A$ then first simulates $M$ on the empty word $\lambda$, without overwriting the input $y$. Then $A$ simulates $\widetilde{M}$ on the word $y$. Thus $S$ accepts $y$ if and only if $\widetilde{M}$ accepts $y$. We prove the correctness, below.
+$$
+x \in L_{\mathrm{H}, \lambda} \iff S(x) \in L_{\mathrm{all}}
+$$
 
+First, let's prove the forward implication, i.e. the "if". Assume $x \in L_{\mathrm{H}, \lambda}$. Then we show that $S(x) \in L_{\mathrm{all}}$. Per assumption, the TM $M$ encoded in $x$ halts on $\lambda$, hence $A$ will simulate $\widetilde{M}$ on $y$ which means $L(A) = L(\widetilde{M})$. Because $L_{\mathrm{all}}$ is a *semantic* decision problem, it then holds that $\mathrm{Kod}(\widetilde{M}) \in L_{\mathrm{all}} \implies \mathrm{Kod}(A) \in L_{\mathrm{all}}$. Per definition of $\widetilde{M}$, the LHS is true and thus we have $S(x) = \mathrm{Kod}(A) \in L_{\mathrm{all}}$.
+
+Then, let's cover the backward implication, the "only if". Assume $x \not\in L_{\mathrm{H}, \lambda}$. Then we show that $S(x) \not\in L_{\mathrm{all}}$. Case distinction on $x$. If $x=\mathrm{Kod}(M) \in \mathrm{KodTM}$ is a valid encoding of a TM, per assumption it doesn't halt on $\lambda$ and in turn 
 
 <div class="page-break" style="page-break-before: always;"></div>
 
