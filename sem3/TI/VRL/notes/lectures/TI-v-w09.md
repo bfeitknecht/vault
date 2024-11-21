@@ -20,6 +20,7 @@ ___
 
 
 
+language class diagram
 ```tikz
 \usepackage{tikz} 
 \begin{document}

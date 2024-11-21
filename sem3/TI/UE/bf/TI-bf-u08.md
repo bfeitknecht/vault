@@ -16,6 +16,15 @@ We want to prove that $L_{\mathrm{reach}} \not\in \mathcal{L}_{\mathrm{R}}$. To 
 buch 5.16
 
 LHS something we know isn't in LL_R 
+probably halting language
+
+the encoded TM $M$ has the following modifiations:
+- 
+
+
+to reach i-th state, 
+
+![[hromkovic-TI.pdf#page=153&rect=41,189,435,228|hromkovic-TI, p.140]]
 
 
 
