@@ -33,9 +33,10 @@ The language cannot contain every TM encoding. Consider the TM $M_{2}$ that neve
 Two TMs accepting the same language implies that their encodings are either both elements of $L_{\mathrm{all}}$ or both aren't. To prove this, we assume there are two TMs $A, B$ such that $L(A) = L(B)$, however, one's encoding is in $L_{\mathrm{all}}$ while the other's isn't. Then we show that this leads to a contradiction.
 Let $L(A)=L(B) \subseteq \Sigma^{*}$. Then, without loss of generality, let $\mathrm{Kod}(A) \in L_{\mathrm{all}}$. Per definition of $L_{\mathrm{all}}$ this means $L(A)=\Sigma^{*}$. Since we assume $L(A)=L(B)$, this implies $\mathrm{Kod}(B) \in L_{\mathrm{all}}$. But by assumption we have $\mathrm{Kod}(B) \not\in L_{\mathrm{all}}$. Contradiction. Thus, for two TMs, $A,B$ with $L(A)=L(B)$ we have $\mathrm{Kod}(A) \in L_{\mathrm{all}} \iff \mathrm{Kod}(B) \in L_{\mathrm{all}}$.
 
-Hence we have proven that $L_{\mathrm{all}}$ is a semantically non-trivial decision problem of TMs.
+Hence we have shown that $L_{\mathrm{all}}$ is a semantically non-trivial decision problem about TMs. By theorem 5.9 (rice's theorem) this proves that $L_{\mathrm{all}}$ is undecidable and thus not recursive, i.e. $L_{\mathrm{all}} \not\in \mathcal{L}_{\mathrm{R}}$.
+$\square$
 
-
+<!--
 Since $M_{\varnothing} \not\in L_{\mathrm{all}}$, with $L(M_{\varnothing})=\varnothing$ we construct a TM $S$ that realizes the reduction $L_{\mathrm{H}, \lambda} \leq_{\mathrm{EE}} L_{\mathrm{all}}$. By lemma 5.8 we have $L_{\mathrm{H},\lambda} \not\in \mathcal{L}_{\mathrm{R}}$. Per non-triviality of $L_{\mathrm{all}}$, let $\widetilde{M}$ be a TM such that $\mathrm{Kod}(\widetilde{M}) \in L_{\mathrm{all}}$, which exists per definition 5.7. Then for an input $x \in \Sigma^{*}_{\mathbb{B}}$ the TM $S$ first checks if it's a valid encoding of a TM. If this isn't the case, i.e. $x \not\in \mathrm{KodTM}$, it outputs $S(x) = \mathrm{Kod}(M_{\varnothing})$. Otherwise, $x=\mathrm{Kod}(M) \in \mathrm{KodTM}$ and we have $S(x) = \mathrm{Kod}(A)$, where $A$ is defined as follows.
 
 The input alphabet of $A$ is equal to that of $\widetilde{M}$, specifically $\Sigma_{A} = \Sigma_{\widetilde{M}}$. For an arbitrary input word $y \in \Sigma^{*}_{\widetilde{M}}$, the TM $A$ then first simulates $M$ on the empty word $\lambda$, without overwriting the input $y$. Then $A$ simulates $\widetilde{M}$ on the word $y$. Thus $S$ accepts $y$ if and only if $\widetilde{M}$ accepts $y$. We prove the correctness, below.
@@ -48,7 +49,7 @@ First, let's prove the forward implication, i.e. the "if". Assume $x \in L_{\mat
 Then, let's cover the "only if". Assume $x \not\in L_{\mathrm{H}, \lambda}$. Then we show that $S(x) \not\in L_{\mathrm{all}}$. Contraposition results in the desired backward implication. Case distinction. If $x \not\in \mathrm{KodTM}$ is not a valid encoding of a TM, per definition $S(x) = \mathrm{Kod}(M_{\varnothing}) \not\in L_{\mathrm{all}}$. Else, if $x=\mathrm{Kod}(M) \in \mathrm{KodTM}$ is a valid encoding of a TM, per assumption it doesn't halt on $\lambda$ and so $A$ never halts. Thus $L(A) = L(M_{\varnothing})$. By semantic properties and the fact that $\mathrm{Kod}(M_{\varnothing})\not\in L_{\mathrm{all}}$ it follows that $S(x) = \mathrm{Kod}(A) \not\in L_{\mathrm{all}}$.
 
 Thus we have proven the correctness of our reduction which directly implies that the language is not recursive, i.e. $L_{\mathrm{all}} \not\in \mathcal{L}_{\mathrm{R}}$.
-$\square$
+-->
 
 <div class="page-break" style="page-break-before: always;"></div>
 
