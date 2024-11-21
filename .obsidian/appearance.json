@@ -8,7 +8,8 @@
   "enabledCssSnippets": [
     "png-white-bg",
     "embed-filename",
-    "style-embed"
+    "style-embed",
+    "nowrap-math"
   ],
   "showViewHeader": true,
   "baseFontSize": 13
