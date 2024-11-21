@@ -5,10 +5,12 @@ Dennis Küenzi, 21-559-315
 
 # 22
 
-Prove that the language below is not recursive by providing an explicit mapping reduction and proving its correctness.
+Prove that the language below is not recursive by providing an explicit mapping reduction and proving its correctness. Let $|M(x)|_{q}$ denote the number of times a TM $M$ reaches the state $q$ during the computation on $x$.
 $$
-L_{\mathrm{reach}} = \{ \mathrm{Kod}(M)\#0^{i} \mid i \in \mathbb{N}, |Q_{M}| > i, \exists x \in \Sigma_{M}^{*} :  \}
+L_{\mathrm{reach}} = \{ \mathrm{Kod}(M)\#0^{i} \mid i \in \mathbb{N}, |Q_{M}| > i, \exists x \in \Sigma_{M}^{*} : |M(x)|_{q_{i}} \geq 1 \}
 $$
+
+We want to prove that $L_{\mathrm{reach}} \not\in \mathcal{L}_{\mathrm{R}}$. 
 
 <div class="page-break" style="page-break-before: always;"></div>
 
