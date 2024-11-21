@@ -10,7 +10,14 @@ $$
 L_{\mathrm{reach}} = \{ \mathrm{Kod}(M)\#0^{i} \mid i \in \mathbb{N}, |Q_{M}| > i, \exists x \in \Sigma_{M}^{*} : |M(x)|_{q_{i}} \geq 1 \}
 $$
 
-We want to prove that $L_{\mathrm{reach}} \not\in \mathcal{L}_{\mathrm{R}}$. 
+We want to prove that $L_{\mathrm{reach}} \not\in \mathcal{L}_{\mathrm{R}}$. To do so, we construct an explicit reduction $\leq_{\mathrm{EE}} L_{\mathrm{reach}}$
+
+
+
+
+LHS something we know isn't in LL_R 
+
+
 
 <div class="page-break" style="page-break-before: always;"></div>
 
