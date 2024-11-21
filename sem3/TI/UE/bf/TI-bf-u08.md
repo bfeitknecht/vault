@@ -10,6 +10,8 @@ $$
 L_{\mathrm{reach}} = \{ \mathrm{Kod}(M)\#0^{i} \mid i \in \mathbb{N}, |Q_{M}| \geq i+1, \exists x \in \Sigma_{M}^{*} \}
 $$
 
+<div class="page-break" style="page-break-before: always;"></div>
+
 # 23 
 
 We consider an alphabet $\Sigma$ and the following language. Show that it is not recursive by applying rice's theorem.
@@ -39,9 +41,12 @@ $$
 x \in L_{\mathrm{H}, \lambda} \iff S(x) \in L_{\mathrm{all}}
 $$
 
-First, let's prove the forward implication, i.e. the "if". Assume $x \in L_{\mathrm{H}, \lambda}$. Then we show that $S(x) \in L_{\mathrm{all}}$. Per assumption, the TM $M$ encoded in $x$ halts on $\lambda$, hence $A$ will simulate $\widetilde{M}$ on $y$ which means $L(A) = L(\widetilde{M})$. Because $L_{\mathrm{all}}$ is a *semantic* decision problem, it then holds that $\mathrm{Kod}(\widetilde{M}) \in L_{\mathrm{all}} \implies \mathrm{Kod}(A) \in L_{\mathrm{all}}$. Per definition of $\widetilde{M}$, the LHS is true and thus we have $S(x) = \mathrm{Kod}(A) \in L_{\mathrm{all}}$.
+First, let's prove the forward implication, i.e. the "if". Assume $x \in L_{\mathrm{H}, \lambda}$. Then we show that $S(x) \in L_{\mathrm{all}}$. Per assumption, the TM $M$ encoded in $x$ halts on $\lambda$, hence $A$ will simulate $\widetilde{M}$ on $y$ which means $L(A) = L(\widetilde{M})$. Because $L_{\mathrm{all}}$ is a semantic decision problem, it then holds that $\mathrm{Kod}(\widetilde{M}) \in L_{\mathrm{all}} \implies \mathrm{Kod}(A) \in L_{\mathrm{all}}$. Per definition of $\widetilde{M}$, the LHS is true and thus we have $S(x) = \mathrm{Kod}(A) \in L_{\mathrm{all}}$.
 
-Then, let's cover the backward implication, the "only if". Assume $x \not\in L_{\mathrm{H}, \lambda}$. Then we show that $S(x) \not\in L_{\mathrm{all}}$. Case distinction. If $x \not\in \mathrm{KodTM}$ is not a valid encoding of TM, per definition $S(x) = \mathrm{Kod}(M_{\varnothing})$. If $x=\mathrm{Kod}(M) \in \mathrm{KodTM}$ is a valid encoding of a TM, per assumption it doesn't halt on $\lambda$ and so $A$ never halts. Thus we have $L(A) = L(M_{\varnothing})$. 
+Then, let's cover the "only if". Assume $x \not\in L_{\mathrm{H}, \lambda}$. Then we show that $S(x) \not\in L_{\mathrm{all}}$. Contraposition results in the desired backward implication. Case distinction. If $x \not\in \mathrm{KodTM}$ is not a valid encoding of a TM, per definition $S(x) = \mathrm{Kod}(M_{\varnothing}) \not\in L_{\mathrm{all}}$. Else, if $x=\mathrm{Kod}(M) \in \mathrm{KodTM}$ is a valid encoding of a TM, per assumption it doesn't halt on $\lambda$ and so $A$ never halts. Thus $L(A) = L(M_{\varnothing})$. By semantic properties and the fact that $\mathrm{Kod}(M_{\varnothing})\not\in L_{\mathrm{all}}$ it follows that $S(x) = \mathrm{Kod}(A) \not\in L_{\mathrm{all}}$.
+
+Thus we have proven the correctness of our reduction which directly implies that the language is not recursive, i.e. $L_{\mathrm{all}} \not\in \mathcal{L}_{\mathrm{R}}$.
+$\square$
 
 <div class="page-break" style="page-break-before: always;"></div>
 

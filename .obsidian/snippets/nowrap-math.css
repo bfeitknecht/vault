@@ -1,4 +1,8 @@
+.markdown-source-view.mod-cm6 .cm-line > * + img.cm-widgetBuffer{
+  display: none !important;
+}
+
 .math.math-inline,
 .math {
-  white-space: nowrap;
+  white-space: nowrap !important;
 }
