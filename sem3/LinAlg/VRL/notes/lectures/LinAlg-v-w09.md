@@ -6,6 +6,7 @@
 - complementary vector subspace
 - orthogonal complementary vector subspace
 - QR decomposition
+- graham-schmidt algorithm (?)
 
 # Lecture Plan
 
