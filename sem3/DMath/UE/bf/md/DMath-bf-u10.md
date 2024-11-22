@@ -32,6 +32,10 @@ $F^{*} = F - \{ 0 \}$
 
 
 
+$|\mathbb{Z}_{3}|=3, \deg(m(x))=3 \implies |\mathbb{Z}_{3}[x]_{m(x)}| = 3^{3}$
+
+
+
 D.5.26 field definition
 L.5.36 multiplicative field (?)
 
