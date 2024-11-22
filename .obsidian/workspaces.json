@@ -1612,7 +1612,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           },
           {
             "id": "3e83adc4c2fac75e",
@@ -1625,9 +1625,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
-                    "page": 153,
+                    "page": 159,
                     "left": -14,
-                    "top": 373,
+                    "top": 446,
                     "zoom": 1.0929822351014236
                   },
                   "icon": "lucide-file-text",
@@ -1657,7 +1657,7 @@
                     "file": "sem3/TI/UE/e/TI-e-u08.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 737,
+                    "top": 742,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
@@ -1679,8 +1679,7 @@
                 },
                 "group": "911bb6ae2ab73bb1"
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -1858,9 +1857,9 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "080ab6f0f820face",
-      "mtime": "2024-11-22T09:26:00+01:00"
+      "active": "ebc0a62d675f6c4d",
+      "mtime": "2024-11-22T10:51:15+01:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-a&d"
 }

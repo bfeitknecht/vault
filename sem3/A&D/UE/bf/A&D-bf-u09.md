@@ -8,6 +8,9 @@ True. If no vertex $v \in V$ has $\deg_{in}(v)=0$, every vertex is in a cycle.
 ## (b)
 
 False. Consider the following counter example.
+
+
+
 ""
 two disconnected cycles
 ""
