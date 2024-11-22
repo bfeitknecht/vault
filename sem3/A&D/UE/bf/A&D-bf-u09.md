@@ -1,6 +1,6 @@
 
 
-# 9.2   Short Statements about Directed Graphs ![[A&D-e-u09.pdf#page=1&rect=65,324,532,369|A&D-e-u09, p.1]]
+# 9.2      Short Statements about Directed Graphs ![[A&D-e-u09.pdf#page=1&rect=65,324,532,369|A&D-e-u09, p.1]]
 ## (a) ![[A&D-e-u09.pdf#page=1&rect=85,306,533,321|A&D-e-u09, p.1]]
 
 True. Proof by contradiction. Assume $G$ has no sources, $\forall v \in V : \deg_{in}(v) \geq 1$. Then we find a topological sorting. Contradiction. This topological sorting has to start from a source but by assumption there are none. Furthermore, a topological sorting is possible if and only if the graph is a directed acyclic cycle. Contraposition of the fact that it doesn't implies that $G$ contains a cycle.
@@ -44,12 +44,12 @@ $\square$
 <div class="page-break" style="page-break-before: always;"></div>
 
 
-# 9.4   Longest Path in DAG ![[A&D-e-u09.pdf#page=3&rect=67,337,530,380|A&D-e-u09, p.3]]
+# 9.4      Longest Path in DAG ![[A&D-e-u09.pdf#page=3&rect=67,337,530,380|A&D-e-u09, p.3]]
 
 ## (a) ![[A&D-e-u09.pdf#page=3&rect=85,319,533,332|A&D-e-u09, p.3]]
 
 #todo 
-Assuming 
+
 
 ## (b) ![[A&D-e-u09.pdf#page=3&rect=86,242,534,312|A&D-e-u09, p.3]]
 
@@ -60,7 +60,7 @@ Assuming
 <div class="page-break" style="page-break-before: always;"></div>
 
 
-# 9.5   DFS doesn't solve Eulerian Cycle ![[A&D-e-u09.pdf#page=4&rect=67,638,530,668|A&D-e-u09, p.4]]
+# 9.5      DFS doesn't solve Eulerian Cycle ![[A&D-e-u09.pdf#page=4&rect=67,638,530,668|A&D-e-u09, p.4]]
 ![[A&D-e-u09.pdf#page=4&rect=66,454,533,632|A&D-e-u09, p.4]]
 
 ## (a) ![[A&D-e-u09.pdf#page=4&rect=85,129,528,406|A&D-e-u09, p.4]]
@@ -96,4 +96,32 @@ $\square$
 ## (b) ![[A&D-e-u09.pdf#page=4&rect=85,94,528,123|A&D-e-u09, p.4]]
 ![[A&D-e-u09.pdf#page=5&rect=84,525,531,771|A&D-e-u09, p.5]]
 
-#todo 
+For starting vertex $a \in V$ we have the pre-order $P=(a,c,b,d,f,g,h,i,e)$ and the following DFS tree.
+```tikz
+\usepackage{tikz} 
+\usetikzlibrary {graphs}
+
+\begin{document}
+
+\tikz[nodes={draw,circle}] {
+  \node (a) at (0,7) {a};
+  \node (b) at (0,5) {b};
+  \node (c) at (0,6) {c};
+  \node (d) at (0,4) {d};
+  \node (e) at (1,1) {e};
+  \node (f) at (0,3) {f};
+  \node (g) at (0,2) {g};
+  \node (h) at (0,1) {h};
+  \node (i) at (0,0) {i};
+
+  \graph[]{
+    (a) -- (c) -- (b) -- (d) -- (f) -- (g) -- (h) -- (i),
+    (g) -- (e)
+  };
+}
+
+\end{document}
+```
+
+The generated walk is $W =(a,d,f,g,e,c,b,d,c,a)$ which is missing the edges $\{ g,h \}, \{ h,i \}, \{ g,i \} \in E$. Thus it isn't eulerian and the algorithm produces a false output.
+$\square$

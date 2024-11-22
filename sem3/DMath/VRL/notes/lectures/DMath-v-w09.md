@@ -33,7 +33,7 @@ fields with equal number of elements are isomorphic !!
 
 
 #todo 
-operations for rings, ring extensions and fields respectively (where confusion)
+operations for rings, ring extensions and modulus group respectively (where confusion)
 
 $$
 \begin{align}
@@ -41,3 +41,5 @@ $$
 \cdot \boxdot  \odot_{m(c)} \\
 \end{align}
 $$
+
+
