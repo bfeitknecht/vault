@@ -60,3 +60,10 @@ Proof.
 
 
 
+normal equation
+$A^{\top}A \widehat{\mathbf{x}} = A^{\top}b$
+
+
+for any matrix, the vector that minimizes the error satisfies the normal equation
+
+
