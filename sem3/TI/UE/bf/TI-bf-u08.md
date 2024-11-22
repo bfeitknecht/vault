@@ -10,25 +10,23 @@ $$
 L_{\mathrm{reach}} = \{ \mathrm{Kod}(M)\#0^{i} \mid i \in \mathbb{N}, |Q_{M}| > i, \exists x \in \Sigma_{M}^{*} : |M(x)|_{q_{i}} \geq 1 \}
 $$
 
-We want to prove that $L_{\mathrm{reach}} \not\in \mathcal{L}_{\mathrm{R}}$. To do so, we construct an explicit reduction $L_{\mathrm{H}} \leq_{\mathrm{EE}} L_{\mathrm{reach}}$. Let $A$ be an algorithm, i.e. TM that always halts which decides $L_{\mathrm{H}}$. 
+To prove is that $L_{\mathrm{reach}} \not\in \mathcal{L}_{\mathrm{R}}$. To do so, let's construct an explicit reduction $L_{\mathrm{H}} \leq_{\mathrm{EE}} L_{\mathrm{reach}}$. Let $A$ be an algorithm, i.e. TM that always halts which decides $L_{\mathrm{reach}}$. Then we construct a TM $B$ that, given $A$ decides $L_{\mathrm{H}}$.
+
+For some input $x \in \{ 0, 1, \# \}^{*}$ a preprocessing TM $C$ decides if it isn't of the right form, i.e. if $x \not\in \mathrm{KodTM} \cdot \{ \# \} \cdot\Sigma^{*}_{\mathbb{B}}$, $B$ rejects immediately. Else it holds that $x=\mathrm{Kod}(M)\#w$, for some $w \in \Sigma^{*}_{\mathbb{B}}$. Then $C$ constructs a TM $M'$ that simulates $M(w)$ with the modification that any state that transitions to the rejecting state, instead goes to the accepting state. Additionally, $C$ defines $i$ as the index of the accepting state in $M'$ and passes $y = \mathrm{Kod}(M')\#0^{i}$ to the algorithm $A$. It's evident that $C$ always halts, since we only check an input and modify a given TM.
 
 
-buch 5.16
+Proof of correctness. Let's show that the following holds.
+$$
+x \in L_{\mathrm{H}} \iff B(x) \in L_{\mathrm{reach}}
+$$
 
-LHS something we know isn't in LL_R 
-probably halting language
+First, let's cover the forward implication. Assume $x=\mathrm{Kod}(M)\#w \in L_{\mathrm{H}}$, then $M$ halts on $w$ by definition 5.6. Per construction, $M'$ transitions to the state $i$-th state $q_{i} = q_{\checkmark}$ which is the accepting state. Thus $B(x) \in L_{\mathrm{reach}}$.
 
-
-
-the encoded TM $M$ has the following modifiations:
-- 
-
-
-to reach i-th state, 
-
-![[hromkovic-TI.pdf#page=153&rect=41,189,435,228|hromkovic-TI, p.140]]
+Secondly, let's cover the backwards implication. Assume $B(x) \in L_{\mathrm{reach}}$, where $x=\mathrm{Kod}(M)\#w$. Then the $i$-th state of $M'$ is reached. By construction this happens only if $M$ halts on $w$. Thus we have $x \in L_{\mathrm{H}}$.
 
 
+Hence, $B$ always halts and accepts if and only $x \in L_{\mathrm{H}}$, otherwise it rejects.
+$\square$
 
 <div class="page-break" style="page-break-before: always;"></div>
 
@@ -79,6 +77,27 @@ $$
 \end{align}
 $$
 
+We define the 2-tape TM $A$ as follows.
+- Its input tape is identical to that of $M$.
+- Every step, $A$ reads $12$ entries of the input tape and writes it on its first working tape as 12-tuple.
+  
+This can be understood as one symbol of a larger alphabet $\Gamma_{A}$. Then the first working tape has $\left\lceil  \frac{n}{12}  \right\rceil$ entries. Writing these takes $n+1$ computation steps. Then $A$ returns to the starting entry, which takes $\left\lceil  \frac{n}{12}  \right\rceil$ steps. The number of steps taken so far is given below.
+$$
+n + 1 + \left\lceil  \frac{n}{12}  \right\rceil  = 1 + \left\lceil  \frac{13n}{12}  \right\rceil  \leq 2 + \frac{13n}{12}
+$$
 
+Now we use the first working tape as modified input tape. The second working tape is used as actual working tape over the working alphabet of 12-tuples. Then, in every step $A$ computes the following.
 
-buch 6.1
+- The TM $A$ stores the $3 \cdot 12 = 36$ entries of the current entry, the one left to it and the one to its right. To do this, we take one step right, then one to the left and finally one to the right again. This takes four steps.
+- Every $12$ steps in $M$ can at most affect $2$ entries of $A$, since they must occur sequentially. According to these steps in $M$, the MTM $A$ then modifies the current entry and the one to its left (exclusive) or right. This includes moving the read/write head and in total takes two steps.
+
+Every computation step in $A$ takes $4+2=6$ elementary steps. In the original TM $M$ this corresponds to twelve steps. Thus the time taken for the simulation is given as follows.
+$$
+6 \cdot \left\lceil  \frac{\mathrm{Time}_{M}(n)}{12}  \right\rceil  \leq \frac{\mathrm{Time}_{M}(n)}{2}+6
+$$
+
+Hence the inequality to show holds.
+$$
+\mathrm{Time}_{A}(n) \leq \frac{\mathrm{Time}_{M}(n)}{2} + 6 + 2 + \frac{13n}{2} = \frac{\mathrm{Time}_{M}(n)}{2} + \frac{13n}{2} + c
+$$
+$\square$
