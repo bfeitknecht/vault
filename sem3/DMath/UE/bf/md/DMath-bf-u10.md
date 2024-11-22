@@ -7,14 +7,7 @@ The algebra $\mathbb{Z}_{3}$ is a commutative ring, by example 5.34. Then, by th
 
 Per lemma 5.35, for a ring $F[x]$, then $F[x]_{m(x)}$ is a ring with respect to addition and multiplication. Thus the algebra $\mathbb{Z}_{3}[x]_{x^{3}+2x^{2}+1}$ is a ring.
 
-Finally, for a ring $F$ its extension field $F[x]_{m(x)}$ is a field if and only if $m(x)$ is irreducible, by theorem 5.37. Thus all that remains to show is that $x^{3}+2x^{2}+1$ is irreducible in $\mathbb{Z}_{3}[x]$.
-
-
-E.5.34. $\mathbb{Z}_{m}$ is commutative ring
-T.5.21. commutative ring $R$ => $R[x]$ is commutative ring
-L.5.35. $F[x]_{m(x)}$ is a ring with respect to addition and multiplication modulo $m(x)$
-T.5.37. ring $F[x]_{m(x)}$ is field iff $m(x)$ irreducible
-
+Finally, for a ring $F$ its extension field $F[x]_{m(x)}$ is a field if and only if $m(x)$ is irreducible, by theorem 5.37. Thus all that remains to show is that $m(x) = x^{3}+2x^{2}+1$ is irreducible in $\mathbb{Z}_{3}[x]$. To do this, we prove that no monic polynomial divides $m(x)$, so $(x+\alpha) \not\mid x^{3}+2x^{2}+1$ is true for all $\alpha \in \mathbb{Z}_{3}$.
 
 
 ## b) ![[DMath-e-u10.pdf#page=1&rect=106,159,522,174|DMath-e-u10, p.1]]
