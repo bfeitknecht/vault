@@ -1357,22 +1357,6 @@
                 }
               },
               {
-                "id": "5f566ae7da07af43",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/LinAlg/UE/e/LinAlg-e-u09.pdf",
-                    "page": 1,
-                    "left": 35,
-                    "top": 446,
-                    "zoom": 1.05
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "LinAlg-e-u09"
-                }
-              },
-              {
                 "id": "eceac8c6977ec7b8",
                 "type": "leaf",
                 "state": {
@@ -1384,6 +1368,22 @@
                   },
                   "icon": "lucide-file",
                   "title": "transpose"
+                }
+              },
+              {
+                "id": "5f566ae7da07af43",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/LinAlg/UE/e/LinAlg-e-u09.pdf",
+                    "page": 1,
+                    "left": 31,
+                    "top": 450,
+                    "zoom": 1.05
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LinAlg-e-u09"
                 }
               }
             ],
@@ -1555,8 +1555,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "74ed379c6f338894",
-      "mtime": "2024-11-22T15:17:38+01:00"
+      "active": "5f566ae7da07af43",
+      "mtime": "2024-11-22T16:24:59+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1625,7 +1625,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           },
           {
             "id": "3e83adc4c2fac75e",
@@ -1640,7 +1640,7 @@
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
                     "page": 159,
                     "left": -14,
-                    "top": 446,
+                    "top": 450,
                     "zoom": 1.0929822351014236
                   },
                   "icon": "lucide-file-text",
@@ -1870,9 +1870,9 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "ebc0a62d675f6c4d",
-      "mtime": "2024-11-22T10:51:15+01:00"
+      "active": "080ab6f0f820face",
+      "mtime": "2024-11-22T16:25:23+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-dmath"
 }

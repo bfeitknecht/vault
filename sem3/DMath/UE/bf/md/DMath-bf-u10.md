@@ -25,11 +25,23 @@ $\square$
 
 ## b) ![[DMath-e-u10.pdf#page=1&rect=106,159,522,174|DMath-e-u10, p.1]]
 
+
 Recall that $F^{*}$ is the group of units in $F$. A generator $g(x)$ is a polynomial such that $\langle g(x) \rangle= F^{*}$.
 
+$F^{*} = F - \{ 0 \}$
+
+
+
+D.5.26 field definition
+L.5.36 multiplicative field (?)
+
+
+
+field is integral domain
+in integral domain
 
 # c) ![[DMath-e-u10.pdf#page=1&rect=106,140,522,156|DMath-e-u10, p.1]]
 
 
 
-
+L.5.29.

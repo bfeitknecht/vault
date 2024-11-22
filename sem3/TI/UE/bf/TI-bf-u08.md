@@ -14,7 +14,6 @@ To prove is that $L_{\mathrm{reach}} \not\in \mathcal{L}_{\mathrm{R}}$. To do so
 
 For some input $x \in \{ 0, 1, \# \}^{*}$ a preprocessing TM $C$ decides if it isn't of the right form, i.e. if $x \not\in \mathrm{KodTM} \cdot \{ \# \} \cdot\Sigma^{*}_{\mathbb{B}}$, $B$ rejects immediately. Else it holds that $x=\mathrm{Kod}(M)\#w$, for some $w \in \Sigma^{*}_{\mathbb{B}}$. Then $C$ constructs a TM $M'$ that simulates $M(w)$ with the modification that any state that transitions to the rejecting state, instead goes to the accepting state. Additionally, $C$ defines $i$ as the index of the accepting state in $M'$ and passes $y = \mathrm{Kod}(M')\#0^{i}$ to the algorithm $A$. It's evident that $C$ always halts, since we only check an input and modify a given TM.
 
-
 Proof of correctness. Let's show that the following holds.
 $$
 x \in L_{\mathrm{H}} \iff B(x) \in L_{\mathrm{reach}}
@@ -23,7 +22,6 @@ $$
 First, let's cover the forward implication. Assume $x=\mathrm{Kod}(M)\#w \in L_{\mathrm{H}}$, then $M$ halts on $w$ by definition 5.6. Per construction, $M'$ transitions to the state $i$-th state $q_{i} = q_{\checkmark}$ which is the accepting state. Thus $B(x) \in L_{\mathrm{reach}}$.
 
 Secondly, let's cover the backwards implication. Assume $B(x) \in L_{\mathrm{reach}}$, where $x=\mathrm{Kod}(M)\#w$. Then the $i$-th state of $M'$ is reached. By construction this happens only if $M$ halts on $w$. Thus we have $x \in L_{\mathrm{H}}$.
-
 
 Hence, $B$ always halts and accepts if and only $x \in L_{\mathrm{H}}$, otherwise it rejects.
 $\square$
