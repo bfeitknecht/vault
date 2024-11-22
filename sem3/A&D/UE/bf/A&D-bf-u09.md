@@ -49,6 +49,7 @@ $\square$
 ## (a) ![[A&D-e-u09.pdf#page=3&rect=85,319,533,332|A&D-e-u09, p.3]]
 
 #todo 
+Assuming 
 
 ## (b) ![[A&D-e-u09.pdf#page=3&rect=86,242,534,312|A&D-e-u09, p.3]]
 
