@@ -11,16 +11,16 @@ Finally, for a ring $F$ its extension field $F[x]_{m(x)}$ is a field if and only
 
 
 
-To do this, it follows from definition 5.28 and the fact that degrees of polynomials are added under multiplication. Hence, since the degree of the modulus polynomial is three $\deg(m(x))=3$, we prove that it has no monic polynomial divisors, i.e. $(x+\alpha) \not\mid x^{3}+2x^{2}+1$ holds for all $\alpha \in \mathbb{Z}_{3}$. The computation yields the following.
+To do this, it follows from definition 5.28 and the fact that degrees of polynomials are added under multiplication. Since the degree of the modulus polynomial is three $\deg(m(x))=3$, it suffices to prove that it has no monic polynomial divisors. This can be expressed as $(x-\alpha) \not\equiv_{m(x)} 0$ for all $\alpha \in \mathbb{Z}_{3}$. Computations yield the following.
 $$
 \begin{align}
-R_{x}(x^{3}+2x^{2}+1) &= 1 \\
+R_{x+0}(x^{3}+2x^{2}+1) &= 1 \\
 R_{x+1}(x^{3}+2x^{2}+1) &= 2 \\
 R_{x+2}(x^{3}+2x^{2}+1) &= 1
 \end{align}
 $$
 
-Thus, $m(x) = x^{3}+2x^{2}+1$ is an irreducible polynomial in $\mathbb{Z}_{2}[x]$ and thus $\mathbb{Z}_{3}[x]_{x^{3}+2x^{2}+1}$ is a field.
+Thus, $m(x) = x^{3}+2x^{2}+1$ is an irreducible polynomial in $\mathbb{Z}_{3}[x]$ and hence $F = \mathbb{Z}_{3}[x]_{x^{3}+2x^{2}+1}$ is a field.
 $\square$
 
 ## b) ![[DMath-e-u10.pdf#page=1&rect=106,159,522,174|DMath-e-u10, p.1]]
