@@ -774,11 +774,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 126,
-                    "left": 18,
-                    "top": 109,
-                    "zoom": 1.45
+                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf"
                   },
                   "icon": "lucide-file-text",
                   "title": "dmath-script-hs24"
@@ -995,7 +991,6 @@
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
-          "obsidian-excalidraw-plugin:Create new drawing": true,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
           "cmdr:Export to PDF": false,
@@ -1009,7 +1004,7 @@
         }
       },
       "active": "951e5b7f3b883935",
-      "mtime": "2024-11-23T13:25:05+01:00"
+      "mtime": "2024-11-23T16:10:02+01:00"
     },
     "sem3-eprog": {
       "main": {
