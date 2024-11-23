@@ -69,11 +69,18 @@ $\square$
 # c) ![[DMath-e-u10.pdf#page=1&rect=106,140,522,156|DMath-e-u10, p.1]]
 
 
-Since $F$ is a field, and by theorem 5.24, every field is an integral domain, $F[y]$ is an integral domain by lemma 5.22. Its elements are the polynomials in $y$ with coefficients in $F = \mathbb{Z}_{3}[x]_{m(x)}$. This can alternatively be understood as the polynomials in two indeterminates i.e. $a(x,y) \in \mathbb{Z}_{3}[x, y]_{m(x)}$, as in example 5.43. Then, per definition 5.33 for $a(x,y) \in F[x,y]$ an element $(\alpha, \beta) \in F^{2}$ is a root exactly when $a(\alpha, \beta) = 0$. In this case, we have to find $(\alpha, \beta) \in \mathbb{Z}_{3}^{2}$ 
+Since $F$ is a field, and by theorem 5.24, every field is an integral domain, $F[y]$ is an integral domain by lemma 5.22. Its elements are the polynomials in $y$ with coefficients in $F = \mathbb{Z}_{3}[x]_{m(x)}$. This can alternatively be understood as the polynomials in two indeterminates i.e. $a(x,y) \in \mathbb{Z}_{3}[x, y]_{m(x)}$, as in example 5.43. Then, per definition 5.33 for a polynomial $a(x,y) \in F[x,y]$ an element $(\alpha, \beta) \in F^{2}$ is a root exactly when $a(\alpha, \beta) = 0$. In this case, we have to find $(\alpha, \beta) \in \mathbb{Z}_{3}^{2}$.
+
+
+| $(x,y)$ | $0$ | $1$ | $2$ |
+| ------- | --- | --- | --- |
+| $0$     |     |     |     |
+| $1$     |     |     |     |
+| $2$     |     |     |     |
 
 
 
-L.5.29.
+
 
 
 
