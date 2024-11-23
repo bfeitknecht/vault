@@ -25,7 +25,6 @@ $\square$
 
 ## b) ![[DMath-e-u10.pdf#page=1&rect=106,159,522,174|DMath-e-u10, p.1]]
 
-
 Recall that $F^{*}$ is the (cyclic) group of units in the finite field $F$. Its order is given by the following.
 $$
 \begin{align}
@@ -35,6 +34,20 @@ $$
 &= 26
 \end{align}
 $$
+
+
+
+
+
+1
+2
+13
+26
+
+
+The elements of $F^{*}$ are polynomials of the form $a(x) = \alpha_{2}x^{2} + \alpha_{1}x + \alpha_{0}$ 
+
+
 
 
 $\varphi(|F^{*}|) = 12$
