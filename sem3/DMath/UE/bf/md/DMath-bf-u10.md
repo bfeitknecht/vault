@@ -36,9 +36,10 @@ $$
 \end{align}
 $$
 
-The elements of $F^{*}$ are polynomials of the form $a(x) = \alpha_{2}x^{2} + \alpha_{1}x + \alpha_{0}$, where $\alpha_{i} \in \mathbb{Z}_{3}$, not all equal zero. By theorem 5.40, the number of generators in $F^{*}$ is given by euler's totient function $\varphi(|F^{*}|) = 12$. Since all constant polynomials only generate constant polynomials, let's consider the simplest monic polynomial with an indeterminate, $g(x) = x$. The computations of the powers of $g(x)$ are given below.
+The elements of $F^{*}$ are polynomials of the form $a(x) = \alpha_{2}x^{2} + \alpha_{1}x + \alpha_{0}$, where $\alpha_{i} \in \mathbb{Z}_{3}$, not all equal zero. By theorem 5.40, the number of generators in $F^{*}$ is given by euler's totient function $\varphi(|F^{*}|) = 12$. Since all constant polynomials only generate constant polynomials, let's consider the simplest monic polynomial with an indeterminate, $g(x) = x \in F^{*}$. The computations of the powers of $g(x)$ are given below.
 $$
 \begin{align}
+g(x)^{0} = x^{0} &\equiv_{m(x)} 1 \\
 g(x)^{1} = x^{1} &\equiv_{m(x)} x \\
 g(x)^{2} = x^{2} &\equiv_{m(x)} x^{2} \\
 g(x)^{3} = x^{3} &\equiv_{m(x)} x^{2} - 1 \\
@@ -60,15 +61,24 @@ g(x)^{26} = x^{26} &\equiv_{m(x)} 1
 \end{align}
 $$
 
-It can be observed, that 
+It can be observed, that after the first thirteen iterations, continued exponentiation repeats the additive inverses of the previous expressions. Thus, since it holds that $\langle x \rangle = F^{*}$, the polynomial $g(x) = x$ is a generator of$F^{*}$.
+$\square$
 
- 
+<div class="page-break" style="page-break-before: always;"></div>
 
 # c) ![[DMath-e-u10.pdf#page=1&rect=106,140,522,156|DMath-e-u10, p.1]]
 
 
+Since the $F$ is a field, and by theorem 5.24, every field is an integral domain, $F[y]$ is an integral domain by lemma 5.22. Its elements are the polynomials in $y$ with coefficients in $F = \mathbb{Z}_{3}[x]_{m(x)}$. This can alternatively be understood as the polynomials in two indeterminates, $a(x,y) \in \mathbb{Z}_{3}[x, y]_{x^{3}-x^{2}+1}$.
 
+
+$F[y] = \mathbb{Z}_{3}[x][y]_{x^{3}+2x^{2}+1}$ 
+
+Per definition 5.33, an element $(\alpha, \beta) \in F^{2}$ is a root exactly when $a(\alpha, \beta) = 0$.
+
+T.5.24. every field is ID
 L.5.29.
+E.5.43. mutlivariate polynomial
 
 
 (x,y) =
