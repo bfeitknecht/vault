@@ -28,37 +28,27 @@ $\square$
 Recall that $F^{*}$ is the (cyclic) group of units in the finite field $F$. Its order is given by the following.
 $$
 \begin{align}
-|F^{*}| &= |F| - 1 &\text{(D. 5.26.)} \\
-&= |\mathbb{Z}_{3}|^{\deg(m(x))} - 1 &\text{(L. 5.34.)} \\
+|F^{*}| &= |F - \{ 0 \}| &\text{(D. 5.26.)} \\
+&= |F| -1 &\text{(L. 5.34.)} \\
+&= |\mathbb{Z}_{3}|^{\deg(m(x))} - 1 \\
 &=3^{3}-1  \\
 &= 26
 \end{align}
 $$
 
+The elements of $F^{*}$ are polynomials of the form $a(x) = \alpha_{2}x^{2} + \alpha_{1}x + \alpha_{0}$, where $\alpha_{i} \in \mathbb{Z}_{3}$, not all equal zero. Then, 
 
 
 
-
+divides group order
 1
 2
 13
 26
 
 
-The elements of $F^{*}$ are polynomials of the form $a(x) = \alpha_{2}x^{2} + \alpha_{1}x + \alpha_{0}$ 
-
-
-
-
+number of generators
 $\varphi(|F^{*}|) = 12$
-
-A generator $g(x)$ is a polynomial such that $\langle g(x) \rangle= F^{*}$.
-
-$F^{*} = F - \{ 0 \}$
-
-
-
-$|\mathbb{Z}_{3}|=3, \deg(m(x))=3 \implies |\mathbb{Z}_{3}[x]_{m(x)}| = 3^{3}$
 
 
 
