@@ -3,13 +3,9 @@
 
 ## a) ![[DMath-e-u10.pdf#page=1&rect=105,178,522,193|DMath-e-u10, p.1]]
 
-The algebra $\mathbb{Z}_{3}$ is a commutative ring, by example 5.34. Then, by theorem 5.21, if $R$ is a commutative ring, the extension $R[x]$ is also a commutative ring. Thus the structure $\mathbb{Z}_{3}[x]$ is a non-trivial commutative ring, since the additive and multiplicative identity are distinct, $\mathbf{0}\neq \mathbf{1}$.
-
-Per lemma 5.35, for a ring $F[x]$, then $F[x]_{m(x)}$ is a ring with respect to addition and multiplication. Thus the algebra $\mathbb{Z}_{3}[x]_{x^{3}+2x^{2}+1}$ is a ring.
+The algebra $\mathbb{Z}_{3}$ is a commutative ring, by example 5.34. Then, by theorem 5.21, if $R$ is a commutative ring, the extension $R[x]$ is also a commutative ring. Thus the structure $\mathbb{Z}_{3}[x]$ is a non-trivial commutative ring, since the additive and multiplicative identity are distinct, $\mathbf{0}\neq \mathbf{1}$. Per lemma 5.35, $F[x]_{m(x)}$ is a ring with respect to addition and multiplication. Thus the algebra $\mathbb{Z}_{3}[x]_{x^{3}+2x^{2}+1}$ is a ring.
 
 Finally, for a ring $F$ its extension field $F[x]_{m(x)}$ is a field if and only if $m(x)$ is irreducible, by theorem 5.37. Thus all that remains to show is that $m(x) = x^{3}+2x^{2}+1$ is irreducible in $\mathbb{Z}_{3}[x]$.
-
-
 
 To do this, it follows from definition 5.28 and the fact that degrees of polynomials are added under multiplication. Since the degree of the modulus polynomial is three $\deg(m(x))=3$, it suffices to prove that it has no monic polynomial divisors. This can be expressed as $(x-\alpha) \not\equiv_{m(x)} 0$ for all $\alpha \in \mathbb{Z}_{3}$. Computations yield the following.
 $$
@@ -22,6 +18,8 @@ $$
 
 Thus, $m(x) = x^{3}+2x^{2}+1$ is an irreducible polynomial in $\mathbb{Z}_{3}[x]$ and hence $F = \mathbb{Z}_{3}[x]_{x^{3}+2x^{2}+1}$ is a field.
 $\square$
+
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## b) ![[DMath-e-u10.pdf#page=1&rect=106,159,522,174|DMath-e-u10, p.1]]
 
@@ -36,7 +34,7 @@ $$
 \end{align}
 $$
 
-The elements of $F^{*}$ are polynomials of the form $a(x) = \alpha_{2}x^{2} + \alpha_{1}x + \alpha_{0}$, where $\alpha_{i} \in \mathbb{Z}_{3}$, not all equal zero. By theorem 5.40, the number of generators in $F^{*}$ is given by euler's totient function $\varphi(|F^{*}|) = 12$. Since all constant polynomials only generate constant polynomials, let's consider the simplest monic polynomial with an indeterminate, $g(x) = x \in F^{*}$. The computations of the powers of $g(x)$ are given below.
+The elements of $F^{*}$ are polynomials of the form $a(x) = \alpha_{2}x^{2} + \alpha_{1}x + \alpha_{0}$, where $\alpha_{i} \in \mathbb{Z}_{3}$, not all equal zero. Since all constant polynomials only generate constant polynomials, let's consider the simplest monic polynomial with an indeterminate, $g(x) = x \in F^{*}$. The computations of the powers of $g(x)$ are given below.
 $$
 \begin{align}
 g(x)^{0} = x^{0} &\equiv_{m(x)} 1 \\
@@ -69,29 +67,18 @@ $\square$
 # c) ![[DMath-e-u10.pdf#page=1&rect=106,140,522,156|DMath-e-u10, p.1]]
 
 
-Since $F$ is a field, and by theorem 5.24, every field is an integral domain, $F[y]$ is an integral domain by lemma 5.22. Its elements are the polynomials in $y$ with coefficients in $F = \mathbb{Z}_{3}[x]_{m(x)}$. This can alternatively be understood as the polynomials in two indeterminates i.e. $a(x,y) \in \mathbb{Z}_{3}[x, y]_{m(x)}$, as in example 5.43. Then, per definition 5.33 for a polynomial $a(x,y) \in F[x,y]$ an element $(\alpha, \beta) \in F^{2}$ is a root exactly when $a(\alpha, \beta) = 0$. In this case, we have to find $(\alpha, \beta) \in \mathbb{Z}_{3}^{2}$.
+Since $F$ is a field, and by theorem 5.24, every field is an integral domain, $F[y]$ is an integral domain by lemma 5.22. Its elements are the polynomials in $y$ with coefficients in $F = \mathbb{Z}_{3}[x]_{m(x)}$. This can alternatively be understood as the polynomials in two indeterminates i.e. $a(x,y) \in \mathbb{Z}_{3}[x, y]_{m(x)}$, as in example 5.43. Then, per definition 5.33 for a polynomial $a(x,y) \in F[x,y]$ an element $(\alpha, \beta) \in F^{2}$ is a root exactly when $a(\alpha, \beta) = 0$. The following table presents the evaluation of $a(x,y)$ for all $(\alpha, \beta) \in \mathbb{Z}_{3} \times \mathbb{Z}_{3}$. The roots are marked.
+$$
+\begin{array}{c | c | c  | c}
+(\alpha, \beta) & \beta=0 & \beta=1 & \beta=2 \\
+\hline
+\alpha=0 & 2 & \boxed{0} & \boxed{0} \\
+\hline
+\alpha=1 & \boxed{0} & 1 & \boxed{0} \\
+\hline
+\alpha=2 & \boxed{0} & 1 & 1
+\end{array}
+$$
+$\square$
 
-
-| $(\alpha, \beta)$ | $\beta=0$ | $\beta=1$ | $\beta=2$ |
-| ----------------- | --------- | --------- | --------- |
-| $\alpha=0$        | $2$       | $0$       | $0$       |
-| $\alpha=1$        | $0$       | $1$       | $0$       |
-| $\alpha=2$        | $0$       | $1$       | $1$       |
-
-
-
-
-
-
-
-(x,y) =
-~~0,0~~
-0,1
-0,2
-1,0
-~~1,1~~
-1,2
-2,0
-~~2,1~~
-~~2,2~~
 
