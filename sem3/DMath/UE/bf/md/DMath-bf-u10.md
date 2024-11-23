@@ -26,7 +26,18 @@ $\square$
 ## b) ![[DMath-e-u10.pdf#page=1&rect=106,159,522,174|DMath-e-u10, p.1]]
 
 
-Recall that $F^{*}$ is the (cyclic) group of units in the finite field $F$. The order of $F$ is given by the number of elements in its underlying field $|\mathbb{Z}_{3}|=q$
+Recall that $F^{*}$ is the (cyclic) group of units in the finite field $F$. Its order is given by the following.
+$$
+\begin{align}
+|F^{*}| &= |F| - 1 &\text{(D. 5.26.)} \\
+&= |\mathbb{Z}_{3}|^{\deg(m(x))} - 1 &\text{(L. 5.34.)} \\
+&=3^{3}-1  \\
+&= 26
+\end{align}
+$$
+
+
+$\varphi(|F^{*}|) = 12$
 
 A generator $g(x)$ is a polynomial such that $\langle g(x) \rangle= F^{*}$.
 
@@ -38,6 +49,7 @@ $|\mathbb{Z}_{3}|=3, \deg(m(x))=3 \implies |\mathbb{Z}_{3}[x]_{m(x)}| = 3^{3}$
 
 
 
+C. 5.11. every element minus identity is generator in prime order cyclic group
 D.5.26 field definition
 L.5.36 multiplicative field (?)
 
