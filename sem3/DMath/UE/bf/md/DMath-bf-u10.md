@@ -36,7 +36,8 @@ $$
 \end{align}
 $$
 
-The elements of $F^{*}$ are polynomials of the form $a(x) = \alpha_{2}x^{2} + \alpha_{1}x + \alpha_{0}$, where $\alpha_{i} \in \mathbb{Z}_{3}$, not all equal zero. Then, 
+The elements of $F^{*}$ are polynomials of the form $a(x) = \alpha_{2}x^{2} + \alpha_{1}x + \alpha_{0}$, where $\alpha_{i} \in \mathbb{Z}_{3}$, not all equal zero. By theorem 5.40, the number of generators in $F^{*}$ is given by euler's totient function $\varphi(|F^{*}|) = 12$.
+
 
 
 
@@ -48,11 +49,12 @@ divides group order
 
 
 number of generators
-$\varphi(|F^{*}|) = 12$
 
 
 
-C. 5.11. every element minus identity is generator in prime order cyclic group
+T.5.39. exists finite field with q elements iff q power of prime
+T.5.40. the group of units is cyclic
+C.5.11. every element minus identity is generator in prime order cyclic group
 D.5.26 field definition
 L.5.36 multiplicative field (?)
 
