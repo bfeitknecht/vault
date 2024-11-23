@@ -39,11 +39,38 @@ $$
 The elements of $F^{*}$ are polynomials of the form $a(x) = \alpha_{2}x^{2} + \alpha_{1}x + \alpha_{0}$, where $\alpha_{i} \in \mathbb{Z}_{3}$, not all equal zero. By theorem 5.40, the number of generators in $F^{*}$ is given by euler's totient function $\varphi(|F^{*}|) = 12$. Since all constant polynomials only generate constant polynomials, let's consider the simplest monic polynomial with an indeterminate, $g(x) = x$. The computations of the powers of $g(x)$ are given below.
 $$
 \begin{align}
-g(x)^{0} = 1 \\
-
+g(x)^{0} &= 1 \\
+g(x)^{1} &= x \\
+g(x)^{2} &= x^{2} \\
+g(x)^{3} &= x^{3} \equiv_{m(x)} x^{2} - 1 \\
+g(x)^{4} &= x^{4} \equiv_{m(x)} x^{2} + 2x + 2
 \end{align}
 $$
 
+ 
+4. x^2 - x - 1 
+5. -x - 1 
+6. -x^2 - x 
+7. x^2 + 1 
+8. x^2 + x - 1 
+9. -x^2 - x - 1 
+10. x^2 - x + 1 
+11. x - 1 
+12. x^2 - x 
+13. -1 
+14. -x 
+15. -x^2 
+16. 1 - x^2 
+17. -x^2 + x + 1 
+18. x + 1 
+19. x^2 + x 
+20. -x^2 - 1 
+21. -x^2 - x + 1 
+22. x^2 + x + 1 
+23. -x^2 + x - 1 
+24. 1 - x 
+25. -x^2 + x 
+26. 1
 
 
 
