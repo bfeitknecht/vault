@@ -775,10 +775,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 135,
-                    "left": -3,
-                    "top": 454,
-                    "zoom": 1.32
+                    "page": 126,
+                    "left": 18,
+                    "top": 109,
+                    "zoom": 1.45
                   },
                   "icon": "lucide-file-text",
                   "title": "dmath-script-hs24"
@@ -806,9 +806,9 @@
                   "state": {
                     "file": "sem3/DMath/UE/e/DMath-e-u10.pdf",
                     "page": 1,
-                    "left": -18,
-                    "top": 493,
-                    "zoom": 0.8958029552678087
+                    "left": 66,
+                    "top": 459,
+                    "zoom": 1.23
                   },
                   "icon": "lucide-file-text",
                   "title": "DMath-e-u10"
@@ -821,10 +821,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-bs.pdf",
-                    "page": 5,
-                    "left": 209,
-                    "top": 508,
-                    "zoom": 1.5
+                    "page": 4,
+                    "left": 217,
+                    "top": 577,
+                    "zoom": 1.75
                   },
                   "icon": "lucide-file-text",
                   "title": "DMath-cheatsheet-bs"
@@ -1009,7 +1009,7 @@
         }
       },
       "active": "951e5b7f3b883935",
-      "mtime": "2024-11-22T15:54:17+01:00"
+      "mtime": "2024-11-23T13:25:05+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1874,5 +1874,5 @@
       "mtime": "2024-11-22T16:25:23+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "00-clean"
 }
