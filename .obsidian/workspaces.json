@@ -502,7 +502,7 @@
                     "file": "sem3/A&D/UE/e/A&D-e-u09.pdf",
                     "page": 3,
                     "left": -18,
-                    "top": 43,
+                    "top": 570,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
@@ -521,6 +521,22 @@
                   },
                   "icon": "lucide-file",
                   "title": "A&D-bf-u08"
+                }
+              },
+              {
+                "id": "d53c3f4e50ebed1a",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/A&D/UE/e/A&D-e-u08.pdf",
+                    "page": 1,
+                    "left": -18,
+                    "top": 688,
+                    "zoom": 0.8743843192065531
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "A&D-e-u08"
                 }
               }
             ]
@@ -692,7 +708,7 @@
         }
       },
       "active": "6ff73d6e6692c48c",
-      "mtime": "2024-11-22T13:49:49+01:00"
+      "mtime": "2024-11-24T15:29:55+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1640,7 +1656,7 @@
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
                     "page": 159,
                     "left": -14,
-                    "top": 450,
+                    "top": 454,
                     "zoom": 1.0929822351014236
                   },
                   "icon": "lucide-file-text",
@@ -1870,9 +1886,9 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "080ab6f0f820face",
-      "mtime": "2024-11-22T16:25:23+01:00"
+      "active": "52840028e2faa28f",
+      "mtime": "2024-11-24T15:32:42+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-linalg"
 }
