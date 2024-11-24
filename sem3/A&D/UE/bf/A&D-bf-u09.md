@@ -48,22 +48,28 @@ $\square$
 
 ## (a) ![[A&D-e-u09.pdf#page=3&rect=85,319,533,332|A&D-e-u09, p.3]]
 
-Assume for some path $P = (v_{i_{j}})_{j \in [k]}$ of length $k$ there exists two indices $j_{1}, j_{2} \in [k]$ such that $i_{j_{1}} > i_{j_{2}}$. It's given that the lexicographic order of vertices forms a sequence $T = (v_{i})_{n}$ of topological sorting. Then it follows that for $s=i_{j_{1}}, t=i_{j_{2}}$ the edge $(v_{s}, v_{t}) = e \in E$ forms a directed cycle $C = e \cup (v_{t})_{s}$. Contradiction. By assumption, the graph $G$ is acyclic. Through contraposition the implication is proven.
+Assume for some path $P = (v_{i_{j}})_{j \in [k]}$ of length $k$ there exists two indices $j_{1}, j_{2} \in [k]$ such that $i_{j_{1}} > i_{j_{2}}$. It's given that the lexicographic order of vertices forms a sequence $T = (v_{i})_{n}$ of topological sorting. Then it follows that for $s=i_{j_{1}}, t=i_{j_{2}}$ the edge $(v_{s}, v_{t}) = e \in E$ forms a directed cycle $C = e \cup (v_{t})_{s}$. Contradiction. By assumption the given graph $G$ is acyclic. Through contraposition the implication is proven.
 $\square$
 
 ## (b) ![[A&D-e-u09.pdf#page=3&rect=86,242,534,312|A&D-e-u09, p.3]]
 
-#todo 
+1. dimension of integers memoization table is $n$, formally `dp = int[n]`
+2. subproblems consist of the length of longest path up to vertex $i$, formally `dp[v] = max length path to v`
+3. recursion, base cases and calculation order is given below, the correctness follows from the fact that traversing a path always increases its length and we always store the maximum of reaching a vertex from the current path and the one traversed before that
+```python
+# initialize dp table
+l = [0] * n
 
-1. dimension of integers memoization table is $n$, formally `int[] X = new int[n]`
-2. subproblems consist of the length of longest path up to vertex $i$, formally `X[i] = max length path to i`
-3. recursion is given below
-```lua
-for i = 0,n
+# iterate over vertices in topological order
+for v in range(n):      # v1, v2, ..., vn
+	for w in Adj[v]:    # vertices adjacent to v
+		l[w] = max(l[w], l[v] + 1)     # extend path from v or leave unchanged
+# return maximum length path in dp table
+return max(dp)
 ```
-
-![[A&D-e-u09.pdf#page=4&rect=82,714,520,732|A&D-e-u09, p.4]]
-
+4. computation order is given above, iterate over the $n$ vertices
+5. extracting the solution is done by finding the maximum of the memo array, `max{dp}`
+6. runtime is $O(|V| + |E|)$, recursion iterates over every edge $e \in E$ and extraction iterates over every vertex $v \in V$ exactly once
 
 <div class="page-break" style="page-break-before: always;"></div>
 
