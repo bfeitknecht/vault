@@ -774,7 +774,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf"
+                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
+                    "page": 132,
+                    "left": -12,
+                    "top": 627,
+                    "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
                   "title": "dmath-script-hs24"
@@ -1000,11 +1004,12 @@
           "obsidian-git:Open Git source control": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
       "active": "951e5b7f3b883935",
-      "mtime": "2024-11-23T16:10:02+01:00"
+      "mtime": "2024-11-24T09:42:27+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1869,5 +1874,5 @@
       "mtime": "2024-11-22T16:25:23+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-a&d"
 }
