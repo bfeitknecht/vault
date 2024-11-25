@@ -70,7 +70,7 @@ $\square$
 Since $F$ is a field, and by theorem 5.24, every field is an integral domain, $F[y]$ is an integral domain by lemma 5.22. Its elements are the polynomials in $y$ with coefficients in $F = \mathbb{Z}_{3}[x]_{m(x)}$. This can alternatively be understood as the polynomials in two indeterminates i.e. $a(x,y) \in \mathbb{Z}_{3}[x, y]_{m(x)}$, as in example 5.43. Then, per definition 5.33 for a polynomial $a(x,y) \in F[x,y]$ an element $(\alpha, \beta) \in F^{2}$ is a root exactly when $a(\alpha, \beta) = 0$. The following table presents the evaluation of $a(x,y)$ for all $(\alpha, \beta) \in \mathbb{Z}_{3} \times \mathbb{Z}_{3}$. The roots are marked.
 $$
 \begin{array}{c | c | c  | c}
-(\alpha, \beta) & \beta=0 & \beta=1 & \beta=2 \\
+a(x, y) & \beta=0 & \beta=1 & \beta=2 \\
 \hline
 \alpha=0 & 2 & \boxed{0} & \boxed{0} \\
 \hline

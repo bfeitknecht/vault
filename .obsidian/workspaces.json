@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "a56e50c9d684af03",
+            "id": "8a32b1704aa84555",
             "type": "tabs",
             "children": [
               {
-                "id": "20f4660e1037b156",
+                "id": "792081f84fc210fa",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -187,8 +187,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "20f4660e1037b156",
-      "mtime": "2024-11-23T16:09:59+01:00"
+      "active": "792081f84fc210fa",
+      "mtime": "2024-11-25T19:37:52+01:00"
     },
     "00-home": {
       "main": {
@@ -1890,5 +1890,5 @@
       "mtime": "2024-11-24T15:32:42+01:00"
     }
   },
-  "active": "00-clean"
+  "active": "sem3-dmath"
 }
