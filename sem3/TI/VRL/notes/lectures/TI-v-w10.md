@@ -9,11 +9,6 @@ the following strict subset inclusions are known
 
 $\mathrm{DLOG} \subsetneq \mathrm{PSPACE}$ and $\mathrm{P} \subsetneq \mathrm{EXPTIME}$
 
-
-
-
-$\mathcal{O}(n)$
-$\Omega(n)$
-$\Theta(n)$
-$o(n)$
+- $\mathrm{P}$ can be understood as finding a proof
+- $\mathrm{NP}$ can be understood as verifying a proof
 
