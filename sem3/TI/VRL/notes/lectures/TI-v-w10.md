@@ -1,11 +1,11 @@
 
-- savitch's theorem
+- savitch's theorem (non-deterministic space complexity is at most square deterministic space complexity)
 - reachable procedure
 
 
 $\mathrm{DLOG} \subseteq \mathrm{NLOG} \subseteq \mathrm{P} \subseteq \mathrm{NP} \subseteq \mathrm{PSPACE} \subseteq \mathrm{EXPTIME}$
 
-the following strict subset inclusions are known
+the following strict subset inclusions are known to hold
 
 $\mathrm{DLOG} \subsetneq \mathrm{PSPACE}$ and $\mathrm{P} \subsetneq \mathrm{EXPTIME}$
 

@@ -791,9 +791,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 131,
+                    "page": 114,
                     "left": -12,
-                    "top": 9,
+                    "top": 607,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -1025,7 +1025,7 @@
         }
       },
       "active": "951e5b7f3b883935",
-      "mtime": "2024-11-26T09:47:47+01:00"
+      "mtime": "2024-11-26T10:49:29+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1670,7 +1670,7 @@
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
                     "page": 190,
                     "left": -14,
-                    "top": 427,
+                    "top": 431,
                     "zoom": 1.0929822351014236
                   },
                   "icon": "lucide-file-text",
@@ -1901,8 +1901,8 @@
         }
       },
       "active": "35b0ca3fb1412d79",
-      "mtime": "2024-11-26T10:03:37+01:00"
+      "mtime": "2024-11-26T11:05:37+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-linalg"
 }
