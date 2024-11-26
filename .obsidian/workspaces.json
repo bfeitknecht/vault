@@ -1108,10 +1108,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/EProg/UE/e/EProg-e-u09.pdf",
-                    "page": 7,
-                    "left": -19,
-                    "top": 247,
-                    "zoom": 0.8504901960784313
+                    "page": 8,
+                    "left": 23,
+                    "top": 756,
+                    "zoom": 0.93
                   },
                   "icon": "lucide-file-text",
                   "title": "EProg-e-u09"
@@ -1287,7 +1287,7 @@
         }
       },
       "active": "95ce692e2f7cff02",
-      "mtime": "2024-11-26T11:33:33+01:00"
+      "mtime": "2024-11-26T14:52:38+01:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1935,5 +1935,5 @@
       "mtime": "2024-11-26T11:05:37+01:00"
     }
   },
-  "active": "sem3-eprog"
+  "active": "sem3-ti"
 }
