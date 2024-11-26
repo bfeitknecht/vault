@@ -28,6 +28,5 @@ implement `head(fileID) -> int`
 
 # 3
 
-
 find index of head and tail for each `fileID`
 
