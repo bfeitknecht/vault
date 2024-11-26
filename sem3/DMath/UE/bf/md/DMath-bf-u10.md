@@ -97,8 +97,8 @@ $$
 
 
 
-L5.29. root iff x - alpha divides a(x)
-T.5.31. at most deg(a(x)) roots
+L5.29. root iff y - alpha divides a(y)
+T.5.31. at most deg(a(y)) roots
 
 
 
