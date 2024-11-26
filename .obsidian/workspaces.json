@@ -1324,7 +1324,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           },
           {
             "id": "740ad403278fbd52",
@@ -1394,8 +1394,8 @@
                   "state": {
                     "file": "sem3/LinAlg/UE/e/LinAlg-e-u09.pdf",
                     "page": 1,
-                    "left": 25,
-                    "top": 368,
+                    "left": 21,
+                    "top": 373,
                     "zoom": 1.05
                   },
                   "icon": "lucide-file-text",
@@ -1571,8 +1571,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "24dadc2e19542b6e",
-      "mtime": "2024-11-25T15:44:18+01:00"
+      "active": "d65a68bd45a26918",
+      "mtime": "2024-11-26T08:33:05+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1890,5 +1890,5 @@
       "mtime": "2024-11-24T15:32:42+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-ti"
 }
