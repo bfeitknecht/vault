@@ -13,8 +13,9 @@ index of entry in data
 
 # 2
 ```text
-if head(fileID).readOnly == true then
+if head(fileID).readOnly then
     remove all entries on fileID with readOnly
+    
 else
     remove head(fileID)
 
