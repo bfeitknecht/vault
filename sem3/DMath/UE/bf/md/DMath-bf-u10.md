@@ -1,5 +1,7 @@
 
-# 10.5      Extension Fields ![[DMath-e-u10.pdf#page=1&rect=78,193,522,212|DMath-e-u10, p.1]]
+# 10.5      Extension Fields 
+
+![[DMath-e-u10.pdf#page=1&rect=78,193,522,212|DMath-e-u10, p.1]]
 
 ## a) ![[DMath-e-u10.pdf#page=1&rect=105,178,522,193|DMath-e-u10, p.1]]
 
@@ -43,7 +45,7 @@ g(x)^{2} = x^{2} &\equiv_{m(x)} x^{2} \\
 g(x)^{3} = x^{3} &\equiv_{m(x)} x^{2} - 1 \\
 g(x)^{4} = x^{4} &\equiv_{m(x)} x^{2} - x - 1 \\
 g(x)^{5} = x^{5} &\equiv_{m(x)} -x - 1 \\
-g(x)^{6} = x^{6} &\equiv_{m(x)} x^{2} - x \\
+g(x)^{6} = x^{6} &\equiv_{m(x)} -x^{2} - x \\
 g(x)^{7} = x^{7} &\equiv_{m(x)} x^{2} + 1 \\
 g(x)^{8} = x^{8} &\equiv_{m(x)} x^{2} + x - 1 \\
 g(x)^{9} = x^{9} &\equiv_{m(x)} -x^{2} - x - 1 \\
