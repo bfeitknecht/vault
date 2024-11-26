@@ -106,6 +106,7 @@ x2 + 2x3 + 2x2 + x2 + 2 %%
 
 $$
 \begin{align}
-a(y) &= y^{2} - yx^{2} - yx + x^{2} + 2
+a(y) &= y^{2} - yx^{2} - yx + x^{2} + 2 \\
+&= 0 \implies a(y) \equiv_{m(x)} 0
 \end{align}
 $$
