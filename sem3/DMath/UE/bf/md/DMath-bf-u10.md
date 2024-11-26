@@ -95,18 +95,3 @@ a(x, y) & \beta=0 & \beta=1 & \beta=2 \\
 \end{array}
 $$
 $\square$
-
-
-
-%% 
-L5.29. root iff y - alpha divides a(y)
-T.5.31. at most deg(a(y)) roots
-
-x2 + 2x3 + 2x2 + x2 + 2 %%
-
-$$
-\begin{align}
-a(y) &= y^{2} - yx^{2} - yx + x^{2} + 2 \\
-&= 0 \implies a(y) \equiv_{m(x)} 0
-\end{align}
-$$
