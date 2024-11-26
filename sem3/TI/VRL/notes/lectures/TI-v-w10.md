@@ -18,3 +18,5 @@ Let $s : \mathbb{N} \to \mathbb{N}$ be space-constructible. Then for a MTM $M$ t
 
 Similarly for time-constructible, although it takes twice the time. Basically we work backwards. First we have to write the symbol on the working tape and then compute.
 
+
+![[hromkovic-TI.pdf#page=187&rect=39,69,441,236|hromkovic-TI, p.175]]
