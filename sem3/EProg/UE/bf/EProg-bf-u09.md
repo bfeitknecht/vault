@@ -22,6 +22,7 @@ return char array of popped entries' userIDs sorted in order of addTime
 ```
 
 
+implement `head(fileID) -> int` 
 
 
 # 3
