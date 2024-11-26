@@ -82,7 +82,7 @@ $\square$
 # c) ![[DMath-e-u10.pdf#page=1&rect=106,140,522,156|DMath-e-u10, p.1]]
 
 
-Since $F$ is a field, and by theorem 5.24, every field is an integral domain, $F[y]$ is an integral domain by lemma 5.22. Its elements are the polynomials in $y$ with coefficients in $F = \mathbb{Z}_{3}[x]_{m(x)}$. This can alternatively be understood as the polynomials in two indeterminates i.e. $a(x,y) \in \mathbb{Z}_{3}[x, y]_{m(x)}$, as in example 5.43. Then, per definition 5.33 for a polynomial $a(x,y) \in F[x,y]$ an element $(\alpha, \beta) \in F^{2}$ is a root exactly when $a(\alpha, \beta) = 0$. The following table presents the evaluation of $a(x,y)$ for all $(\alpha, \beta) \in \mathbb{Z}_{3} \times \mathbb{Z}_{3}$. The roots are marked.
+Since $F$ is a field, and by theorem 5.24, every field is an integral domain, $F[y]$ is an integral domain by lemma 5.22. Its elements are the polynomials in $y$ with coefficients in $F = \mathbb{Z}_{3}[x]_{m(x)}$. This can alternatively be understood as the polynomials in two indeterminates i.e. $a(x,y) \in \mathbb{Z}_{3}[x, y]_{m(x)}$, as in example 5.43. Then, per definition 5.33 for a polynomial $a(x,y) \in \mathbb{Z}_{3}[x,y]_{m(x)}$ an element $(\alpha, \beta) \in \mathbb{Z}_{3} \times \mathbb{Z}_{3}$ is a root exactly when $a(\alpha, \beta) = 0$. The following table presents the evaluation of $a(x,y)$ for all $(\alpha, \beta) \in \mathbb{Z}_{3} \times \mathbb{Z}_{3}$. The roots are marked.
 $$
 \begin{array}{c | c | c  | c}
 a(x, y) & \beta=0 & \beta=1 & \beta=2 \\
@@ -94,12 +94,18 @@ a(x, y) & \beta=0 & \beta=1 & \beta=2 \\
 \alpha=2 & \boxed{0} & 1 & 1
 \end{array}
 $$
+$\square$
 
 
 
+%% 
 L5.29. root iff y - alpha divides a(y)
 T.5.31. at most deg(a(y)) roots
 
+x2 + 2x3 + 2x2 + x2 + 2 %%
 
-
-x2 + 2x3 + 2x2 + x2 + 2
+$$
+\begin{align}
+a(y) &= y^{2} - yx^{2} - yx + x^{2} + 2
+\end{align}
+$$
