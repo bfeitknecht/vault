@@ -1,5 +1,6 @@
 
 - [[proof system]]
+- logical calculus
 
 # Notes
 

@@ -86,11 +86,13 @@ Recall that $F$ is the field of polynomials in $x$ with coefficients in $\mathbb
 Per theorem 5.31, since $F$ is a field, the non-zero polynomial $a(y) \in F[y]$ of degree $d=2$ has at most two roots. By definition 5.33, an element $\alpha \in F$ such that $a(\alpha) = 0$ is called a root. This implies that $a(\alpha) \equiv_{m(x)} m(x)$. Then we can rewrite $a(y)$ as given below.
 $$
 \begin{align}
-a(y) = y^{2} + 2y(x^{2} + x) + (x^{2} + 2) = 0 &\equiv_{m(x)} x^{3} - x^{2} + 1 \\
-y^{2} - yx^{2} - yx + x^{2} + 2 + &\equiv_{m(x)} x^{3} - x^{2} + 1 & \Big| -(x^{2} + 2) \\
-y^{2} - yx^{2} - yx &\equiv_{m(x)} x^{3} + x^{2} \\
+a(y) = y^{2} + 2y(x^{2} + x) + (x^{2} + 2) &\equiv_{m(x)} x^{3} - x^{2} + 1 &\text{(associativity)} \\
+y^{2} - yx^{2} - yx + x^{2} + 2 &\equiv_{m(x)} x^{3} - x^{2} + 1 &  (- x^{2} - 2) \\
+y^{2} - yx^{2} - yx &\equiv_{m(x)} x^{3} + x^{2} - 1 &(x^{2} -1 \equiv_{m(x)} x^{3}) \\
+ &\equiv_{m(x)} -x^{3} \\
 \end{align}
 $$
+Then, we consider the element $\alpha_{1} = x \in F$. Evaluation confirms that this is a root, since $a(x) = \cancel{ x^{2} - x^{2} } -x^{3}$ through commutativity and definition of the additive inverse. Furthermore it holds that $y - \alpha_{1} \mid a(y)$.
 
 
 
