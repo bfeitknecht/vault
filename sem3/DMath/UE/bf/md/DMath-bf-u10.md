@@ -83,7 +83,7 @@ $\square$
 
 Recall that $F$ is the field of polynomials in $x$ with coefficients in $\mathbb{Z}_{3}$ and degree less than three. Then $F[y]$ is the ring of polynomials in $y$ with coefficients in $F$. 
 
-Per theorem 5.31, since $F$ is a field, the non-zero polynomial $a(y) \in F[y]$ of degree $d=2$ has at most two roots. By definition 5.33, an element $\alpha \in F$ such that $a(\alpha) = 0$ is called a root. This implies that $a(\alpha) \equiv_{m(x)} m(x)$. Then we can rewrite $a(y)$ as given below.
+Per theorem 5.31, since $F$ is a field, the non-zero polynomial $a(y) \in F[y]$ of degree $d=2$ has at most two roots, i.e. an element $\alpha \in F$ such that $a(\alpha) = 0$. This implies that $a(\alpha) \equiv_{m(x)} m(x)$. Then we can rewrite $a(y)$ as given below.
 $$
 \begin{align}
 a(y) = y^{2} + 2y(x^{2} + x) + (x^{2} + 2) &\equiv_{m(x)} x^{3} - x^{2} + 1 &\text{(associativity)} \\
@@ -92,9 +92,9 @@ y^{2} - yx^{2} - yx &\equiv_{m(x)} x^{3} + x^{2} - 1 &(x^{2} -1 \equiv_{m(x)} x^
  &\equiv_{m(x)} -x^{3} \\
 \end{align}
 $$
-Then, we consider the element $\alpha_{1} = x \in F$. Evaluation confirms that this is a root, since $a(x) = \cancel{ x^{2} - x^{2} } -x^{3}$ through commutativity and definition of the additive inverse. Furthermore it holds that $y - \alpha_{1} \mid a(y)$.
+First, let's consider the element $\alpha_{1} = x \in F$. Evaluation confirms that this is a root, since it holds that $a(\alpha_{1}) = \cancel{ x^{2} - x^{2} } -x^{3}$, through commutativity and definition of the additive inverse.
 
-
+Second, observe $\alpha_{2} = x^{2} \in F$. Computation of the polynomial yields $a(\alpha_{2}) = \cancel{ x^{4} - x^{4} } -x^{3}$. As above, it holds that the polynomial at $\alpha_{2}$ is congruent to zero modulo $m(x)$.
 
 
 
