@@ -1,6 +1,6 @@
 
 
-A **set** $S$ is a *collection of distinct [[element|elements]]*. Examples include the set of [[natural numbers]] $\mathbb N$ or, some [[alphabet]] $\Sigma$ of [[symbols]]. Importantly, the elements of a set can be arbitrarily chosen from some *universe* $U$.
+A **set** $S$ is a *collection of distinct [[element|elements]]*. Examples include the set of [[natural number]] $\mathbb N$ or, some [[alphabet]] $\Sigma$ of [[symbols]]. Importantly, the elements of a set can be arbitrarily chosen from some *universe* $U$.
 
 We define a [[arity|binary]] [[predicate (predicate logic)|predicate]] called *elementhood* given by,
 $$
