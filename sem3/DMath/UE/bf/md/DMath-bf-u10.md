@@ -94,7 +94,7 @@ y^{2} - yx^{2} - yx &\equiv_{m(x)} x^{3} + x^{2} - 1 &(x^{2} -1 \equiv_{m(x)} x^
 $$
 First, let's consider the element $\alpha_{1} = x \in F$. Evaluation confirms that this is a root, since it holds that $a(\alpha_{1}) = \cancel{ x^{2} - x^{2} } -x^{3}$, through commutativity and definition of the additive inverse.
 
-Second, observe $\alpha_{2} = x^{2} \in F$. Computation of the polynomial yields $a(\alpha_{2}) = \cancel{ x^{4} - x^{4} } -x^{3}$. As above, it holds that the polynomial at $\alpha_{2}$ is congruent to zero modulo $m(x)$.
+Second, observe $\alpha_{2} = x^{2} \in F$. Computation of the polynomial yields $a(\alpha_{2}) = \cancel{ x^{4} - x^{4} } -x^{3}$. As above, it holds that the polynomial evaluated on $\alpha_{2}$ is congruent to zero modulo $m(x)$.
 
 Thus we have found the two roots, $\alpha_{1}, \alpha_{2} \in F$ of $a(y)$.
 $\square$
