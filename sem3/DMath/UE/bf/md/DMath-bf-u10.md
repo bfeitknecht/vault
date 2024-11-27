@@ -82,6 +82,7 @@ $\square$
 # c) ![[DMath-e-u10.pdf#page=1&rect=106,140,522,156|DMath-e-u10, p.1]]
 
 
+%%
 Since $F$ is a field, and by theorem 5.24, every field is an integral domain, $F[y]$ is an integral domain by lemma 5.22. Its elements are the polynomials in $y$ with coefficients in $F = \mathbb{Z}_{3}[x]_{m(x)}$. This can alternatively be understood as the polynomials in two indeterminates i.e. $a(x,y) \in \mathbb{Z}_{3}[x, y]_{m(x)}$, as in example 5.43. Then, per definition 5.33 for a polynomial $a(x,y) \in \mathbb{Z}_{3}[x,y]_{m(x)}$ an element $(\alpha, \beta) \in \mathbb{Z}_{3} \times \mathbb{Z}_{3}$ is a root exactly when $a(\alpha, \beta) = 0$. The following table presents the evaluation of $a(x,y)$ for all $(\alpha, \beta) \in \mathbb{Z}_{3} \times \mathbb{Z}_{3}$. The roots are marked.
 $$
 \begin{array}{c | c | c  | c}
@@ -95,3 +96,18 @@ a(x, y) & \beta=0 & \beta=1 & \beta=2 \\
 \end{array}
 $$
 $\square$
+%%
+
+
+
+Recall that $F$ is the field of polynomials in $x$ with coefficients in $\mathbb{Z}_{3}$ and degree less than three. Then $F[y]$ is the ring of polynomials in $y$ with coefficients in $F$. 
+
+Per theorem 5.31, since $F$ is a field, the non-zero polynomial $a(y) \in F[y]$ of degree $d=2$ has at most two roots. By definition 5.33, an element $\alpha \in F$ such that $a(\alpha) = 0$ is called a root. This implies that $a(\alpha) \equiv_{m(x)} m(x)$. Then we can rewrite $a(y)$ as given below.
+$$
+\begin{align}
+a(y) = y^{2} + 2y(x^{2} + x) + (x^{2} + 2) = 0 &\equiv_{m(x)} x^{3} - x^{2} + 1 \\
+y^{2} - yx^{2} - yx + x^{2} + 2 + &\equiv_{m(x)} x^{3} - x^{2} + 1 &-(x^{2} + 2) \\
+
+\end{align}
+$$
+
