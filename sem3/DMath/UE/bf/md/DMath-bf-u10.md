@@ -115,7 +115,3 @@ a(x, y) & \beta=0 & \beta=1 & \beta=2 \\
 $$
 $\square$
 %%
-
-
-
-
