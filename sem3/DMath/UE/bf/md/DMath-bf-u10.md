@@ -96,6 +96,8 @@ First, let's consider the element $\alpha_{1} = x \in F$. Evaluation confirms th
 
 Second, observe $\alpha_{2} = x^{2} \in F$. Computation of the polynomial yields $a(\alpha_{2}) = \cancel{ x^{4} - x^{4} } -x^{3}$. As above, it holds that the polynomial at $\alpha_{2}$ is congruent to zero modulo $m(x)$.
 
+Thus we have found the two roots, $\alpha_{1}, \alpha_{2} \in F$ of $a(y)$.
+$\square$
 
 
 %%
