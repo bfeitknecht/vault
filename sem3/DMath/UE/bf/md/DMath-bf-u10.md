@@ -5,6 +5,21 @@
 
 ## a) ![[DMath-e-u10.pdf#page=1&rect=105,178,522,193|DMath-e-u10, p.1]]
 
+The algebra $\mathbb{Z}_{3}$ is a field, by theorem 5.23. Furthermore, per lemma 5.35 for $m(x) = x^{3} - x^{2} + 1$, the structure $\mathbb{Z}_{3}[x]_{m(x)}$ is a ring.
+
+To prove that $F$ is a field, per theorem 5.37 it remains to show that $m(x)$ is irreducible. From the fact that the degree of $m(x)$ is three it follows by theorem 5.31 that it has at most three roots. Since it trivially isn't the zero polynomial, corollary 5.30 states that it's irreducible if and only if it has no roots in $\mathbb{Z}_{3}$. The evaluation below demonstrates that this holds true.
+$$
+\begin{align}
+m(0) &= 0^{3} - 0^{2} + 1 = 1 \neq 0 \\
+m(1) &= 1^{3} - 1^{2} + 1 = 1 \neq 0 \\
+m(2) &= 2^{3} - 2^{2} + 1 = 2 \neq 0
+\end{align}
+$$
+
+Thus, $m(x)$ is an irreducible polynomial in $\mathbb{Z}_{3}$ and hence $F$ is a field.
+$\square$
+
+%%
 The algebra $\mathbb{Z}_{3}$ is a commutative ring, by example 5.34. Then, by theorem 5.21, if $R$ is a commutative ring, the extension $R[x]$ is also a commutative ring. Thus the structure $\mathbb{Z}_{3}[x]$ is a non-trivial commutative ring, since the additive and multiplicative identity are distinct, $\mathbf{0}\neq \mathbf{1}$. Per lemma 5.35, $F[x]_{m(x)}$ is a ring with respect to addition and multiplication. Thus the algebra $\mathbb{Z}_{3}[x]_{x^{3}+2x^{2}+1}$ is a ring.
 
 Finally, for a ring $F$ its extension field $F[x]_{m(x)}$ is a field if and only if $m(x)$ is irreducible, by theorem 5.37. Thus all that remains to show is that $m(x) = x^{3}+2x^{2}+1$ is irreducible in $\mathbb{Z}_{3}[x]$.
@@ -17,11 +32,9 @@ R_{x+1}(x^{3}+2x^{2}+1) &= 2 \\
 R_{x+2}(x^{3}+2x^{2}+1) &= 1
 \end{align}
 $$
-
-def. 5.33
-
 Thus, $m(x) = x^{3}+2x^{2}+1$ is an irreducible polynomial in $\mathbb{Z}_{3}[x]$ and hence $F = \mathbb{Z}_{3}[x]_{x^{3}+2x^{2}+1}$ is a field.
 $\square$
+%%
 
 <div class="page-break" style="page-break-before: always;"></div>
 
