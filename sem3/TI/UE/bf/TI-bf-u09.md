@@ -6,19 +6,23 @@ Dennis Küenzi, 21-559-315
 
 
 
-# 25
+# 25 ![[TI-e-u09.pdf#page=1&rect=68,463,532,565|TI-e-u09, p.1]]
 
 
 
-# 26
+# 26 ![[TI-e-u09.pdf#page=1&rect=68,400,532,422|TI-e-u09, p.1]]
 
-time constructible 
+%% == time constructible  %%
 
-## a)
+## a) ![[TI-e-u09.pdf#page=1&rect=95,376,531,393|TI-e-u09, p.1]]
 
-for any sets a, b in NTIME(f), a or b is also in NTIME(f)
+To prove is that for any $L_{1}, L_{2} \in \mathrm{NTIME}(f)$ it holds that $L_{1} \cup L_{2} \in \mathrm{NTIME}(f)$.
 
 
-# 27
+## b) ![[TI-e-u09.pdf#page=1&rect=96,350,532,368|TI-e-u09, p.1]]
+
+
+# 27 ![[TI-e-u09.pdf#page=1&rect=68,249,530,281|TI-e-u09, p.1]]
+
 
 diagonalizaion argument?
