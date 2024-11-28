@@ -1,2 +1,3 @@
 
-- 
+- bellmam-ford (algorithm)
+- MST

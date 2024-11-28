@@ -6,6 +6,8 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 - [ ] download nwehrli a&d summaries
 - [ ] gather sort / search pseudo codes
 - [ ] organize integration of old summaries
+- [ ] download rui zhang summaries
+- [ ] 
 
 
 # Info

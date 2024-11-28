@@ -459,6 +459,20 @@
                 }
               },
               {
+                "id": "d720fd891a5c532e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w10.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "A&D-v-w10"
+                }
+              },
+              {
                 "id": "ec7efe08488fb637",
                 "type": "leaf",
                 "state": {
@@ -486,8 +500,7 @@
                   "title": "A&D-bf-u09"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "b892157de5799d94",
@@ -502,7 +515,7 @@
                     "file": "sem3/A&D/UE/e/A&D-e-u09.pdf",
                     "page": 3,
                     "left": -18,
-                    "top": 570,
+                    "top": 575,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
@@ -707,8 +720,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "6ff73d6e6692c48c",
-      "mtime": "2024-11-24T15:29:55+01:00"
+      "active": "e7911976b677ac81",
+      "mtime": "2024-11-28T11:48:55+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1369,6 +1382,20 @@
                   "icon": "lucide-file-text",
                   "title": "LinAlg-lecture-notes-2"
                 }
+              },
+              {
+                "id": "da96a950103c3bf9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/conjugate transpose.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "conjugate transpose"
+                }
               }
             ],
             "currentTab": 2
@@ -1420,37 +1447,35 @@
                 }
               },
               {
-                "id": "eceac8c6977ec7b8",
+                "id": "051d0e543fd48cd0",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/transpose.md",
+                    "file": "wiki/vector subspace.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "transpose"
+                  "title": "vector subspace"
                 }
               },
               {
-                "id": "5f566ae7da07af43",
+                "id": "429cd84a1c1b2205",
                 "type": "leaf",
                 "state": {
-                  "type": "pdf",
+                  "type": "markdown",
                   "state": {
-                    "file": "sem3/LinAlg/UE/e/LinAlg-e-u09.pdf",
-                    "page": 1,
-                    "left": 11,
-                    "top": 383,
-                    "zoom": 1.05
+                    "file": "wiki/matrix decompositions.md",
+                    "mode": "source",
+                    "source": false
                   },
-                  "icon": "lucide-file-text",
-                  "title": "LinAlg-e-u09"
+                  "icon": "lucide-file",
+                  "title": "matrix decompositions"
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -1618,8 +1643,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "7c680414d80a68ec",
-      "mtime": "2024-11-28T08:54:06+01:00"
+      "active": "429cd84a1c1b2205",
+      "mtime": "2024-11-28T10:57:09+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1908,5 +1933,5 @@
       "mtime": "2024-11-27T08:34:38+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-dmath"
 }
