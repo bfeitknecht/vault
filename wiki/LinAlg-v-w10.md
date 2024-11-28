@@ -10,6 +10,8 @@
 
 # Notes
 
+- partial order on vectors is defined component wise, $\mathbf{v} \leq \mathbf{w} \iff v_{j} \leq w_{j}$
+
 - null space of a matrix is the orthogonal complementary space of its row space, $\mathcal{N}(A) = \mathcal{C}(A^{\top})^{\bot}$
 - left null space is orthogonal complementary space of column space, $\mathcal{N}(A^{\top}) = \mathcal{C}(A)^{\bot}$
 
