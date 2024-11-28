@@ -10,6 +10,11 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 - [ ] 
 
 
+
+
+
+
+
 # Info
 
 - [ ] theory exercise 🔁 every week 📅 2024-12-01
