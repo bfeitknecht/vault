@@ -4,7 +4,9 @@ Discrete mathematics is the study of mathematical structures that can be conside
 
 # Info
 
-- [ ] exercise 🔁 every week 📅 2024-11-21
+- [ ] exercise 🔁 every week 📅 2024-12-05
+- [x] exercise 🔁 every week 📅 2024-11-28 ✅ 2024-11-28
+- [x] exercise 🔁 every week 📅 2024-11-21 ✅ 2024-11-28
 - [x] exercise 🔁 every week 📅 2024-11-14 ✅ 2024-11-13
 - [x] exercise 🔁 every week 📅 2024-11-07 ✅ 2024-11-13
 - [x] exercise 🔁 every week 📅 2024-10-31 ✅ 2024-10-29

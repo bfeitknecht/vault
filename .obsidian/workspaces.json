@@ -433,7 +433,7 @@
         }
       },
       "active": "162e7a61651e562a",
-      "mtime": "2024-11-19T20:44:47+01:00"
+      "mtime": "2024-11-28T09:18:32+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -791,10 +791,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 126,
-                    "left": -12,
-                    "top": 441,
-                    "zoom": 1.27107129917431
+                    "page": 169,
+                    "left": -23,
+                    "top": 481,
+                    "zoom": 1.21
                   },
                   "icon": "lucide-file-text",
                   "title": "dmath-script-hs24"
@@ -822,8 +822,8 @@
                   "state": {
                     "file": "sem3/DMath/UE/e/DMath-e-u10.pdf",
                     "page": 1,
-                    "left": 58,
-                    "top": 620,
+                    "left": 54,
+                    "top": 625,
                     "zoom": 1.23
                   },
                   "icon": "lucide-file-text",
@@ -852,9 +852,9 @@
                   "state": {
                     "file": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-bs.pdf",
                     "page": 1,
-                    "left": 515,
+                    "left": 516,
                     "top": 599,
-                    "zoom": 1.7
+                    "zoom": 1.71
                   },
                   "icon": "lucide-file-text",
                   "title": "DMath-cheatsheet-bs"
@@ -1038,8 +1038,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "951e5b7f3b883935",
-      "mtime": "2024-11-28T08:38:23+01:00"
+      "active": "6cded826760a3d75",
+      "mtime": "2024-11-28T09:12:14+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1406,20 +1406,6 @@
                 }
               },
               {
-                "id": "199447fcba021479",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/linear transformation.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "linear transformation"
-                }
-              },
-              {
                 "id": "c4d416dad2ef767d",
                 "type": "leaf",
                 "state": {
@@ -1463,7 +1449,8 @@
                   "title": "LinAlg-e-u09"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1631,8 +1618,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "6b1ed16e11649665",
-      "mtime": "2024-11-27T13:11:10+01:00"
+      "active": "7c680414d80a68ec",
+      "mtime": "2024-11-28T08:54:06+01:00"
     },
     "sem3-ti": {
       "main": {

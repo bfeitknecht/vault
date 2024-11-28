@@ -7,12 +7,18 @@
 	- [ ] group
 	- [ ] ring
 	- [ ] integral domain
+	- [ ] field
 	- [ ] complementary subspace
 	- [ ] orthogonal subspace
 	- [ ] orthogonal complementary subspace
 	- [ ] vector projection
+	- [ ] normal equations
 	- [ ] A&D
 	- [ ] EProg
 	- [ ] reductions
 - [ ] contraposition
 - [ ] proof patterns
+- [ ] direct sum
+- [ ] direct product
+- [ ] matrix decomposition
+- [ ] 

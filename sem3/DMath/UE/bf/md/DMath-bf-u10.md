@@ -99,7 +99,6 @@ Second, observe $\alpha_{2} = x^{2} \in F$. Computation of the polynomial yields
 Thus we have found the two roots, $\alpha_{1}, \alpha_{2} \in F$ of $a(y)$.
 $\square$
 
-
 %%
 Since $F$ is a field, and by theorem 5.24, every field is an integral domain, $F[y]$ is an integral domain by lemma 5.22. Its elements are the polynomials in $y$ with coefficients in $F = \mathbb{Z}_{3}[x]_{m(x)}$. This can alternatively be understood as the polynomials in two indeterminates i.e. $a(x,y) \in \mathbb{Z}_{3}[x, y]_{m(x)}$, as in example 5.43. Then, per definition 5.33 for a polynomial $a(x,y) \in \mathbb{Z}_{3}[x,y]_{m(x)}$ an element $(\alpha, \beta) \in \mathbb{Z}_{3} \times \mathbb{Z}_{3}$ is a root exactly when $a(\alpha, \beta) = 0$. The following table presents the evaluation of $a(x,y)$ for all $(\alpha, \beta) \in \mathbb{Z}_{3} \times \mathbb{Z}_{3}$. The roots are marked.
 $$
