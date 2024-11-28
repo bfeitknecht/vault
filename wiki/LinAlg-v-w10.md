@@ -9,3 +9,6 @@
 
 - null space of a matrix is the orthogonal complementary space of its row space, $\mathrm{N}(A) = \mathrm{R}(A)^{\bot}$
 - left null space is orthogonal complementary space of column space, $\mathrm{LN}(A) = \mathrm{C}(A)^{\bot}$
+
+
+- $Q^{\top}Q = I$ but $QQ^{\top} \neq I$ since $Q$ might not be square matrix!
