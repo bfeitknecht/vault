@@ -34,5 +34,6 @@
   "editing-toolbar",
   "obsidian-tikzjax",
   "obsidian-cursor-location-plugin",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "pseudocode-in-obs"
 ]
