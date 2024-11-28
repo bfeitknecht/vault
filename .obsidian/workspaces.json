@@ -1712,10 +1712,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
-                    "page": 196,
-                    "left": -4,
-                    "top": 645,
-                    "zoom": 1.14
+                    "page": 181,
+                    "left": -14,
+                    "top": 650,
+                    "zoom": 1.0929822351014236
                   },
                   "icon": "lucide-file-text",
                   "title": "hromkovic-TI"
@@ -1926,12 +1926,12 @@
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "obsidian-excalidraw-plugin:Create new drawing": true
+          "obsidian-excalidraw-plugin:Create new drawing": false
         }
       },
-      "active": "e609eb46207bc8c3",
-      "mtime": "2024-11-28T15:48:07+01:00"
+      "active": "52840028e2faa28f",
+      "mtime": "2024-11-28T20:11:50+01:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-dmath"
 }
