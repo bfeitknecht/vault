@@ -1725,9 +1725,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
-                    "page": 183,
+                    "page": 196,
                     "left": -4,
-                    "top": 417,
+                    "top": 645,
                     "zoom": 1.14
                   },
                   "icon": "lucide-file-text",
@@ -1943,8 +1943,8 @@
         }
       },
       "active": "e609eb46207bc8c3",
-      "mtime": "2024-11-28T15:03:02+01:00"
+      "mtime": "2024-11-28T15:48:07+01:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-a&d"
 }
