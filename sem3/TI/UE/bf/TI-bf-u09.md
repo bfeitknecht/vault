@@ -16,7 +16,7 @@ Dennis Küenzi, 21-559-315
 
 ## a) ![[TI-e-u09.pdf#page=1&rect=95,376,531,393|TI-e-u09, p.1]]
 
-To prove is that for any $L_{1}, L_{2} \in \mathrm{NTIME}(f)$ it holds that $L_{1} \cup L_{2} \in \mathrm{NTIME}(f)$.
+To prove is that for any $L_{M_{1}}, L_{M_{2}} \in \mathrm{NTIME}(f)$ it holds that $L_{M_{1}} \cup L_{M_{2}} \in \mathrm{NTIME}(f)$. By definition of $\mathrm{NTIME}$
 
 
 ## b) ![[TI-e-u09.pdf#page=1&rect=96,350,532,368|TI-e-u09, p.1]]
