@@ -40,16 +40,50 @@ for every edge in $f \in F$, check if the weight in $H$ of that edge is more tha
 | `18`      | `q.pop() -> C` | `q = [E]`       |
 | `19`      | `q.pop() -> E` | `q = []`        |
 
-
-
 ## b) ![[A&D-e-u10.pdf#page=2&rect=87,478,530,494|A&D-e-u10, p.2]]
+
+Let $T = (V, E_{T})$ be the shortest path tree for $G$, rooted at the vertex $A \in V$.
+```mermaid
+graph TD
+
+A((A))
+B((B))
+C((C))
+D((D))
+E((E))
+F((F))
+G((G))
+H((H))
+I((I))
+
+A --> F & G
+G --> B & H & I
+H --> E
+I --> C
+E --> D
+```
 
 
 ## c) ![[A&D-e-u10.pdf#page=2&rect=86,458,531,474|A&D-e-u10, p.2]]
 
+| $k$     | $0$       | $1$          | $2$             | $3$          | $4$       | $5$           |
+| ------- | --------- | ------------ | --------------- | ------------ | --------- | ------------- |
+| $S_{k}$ | $\{ A \}$ | $\{ F, G \}$ | $\{ B, I, H \}$ | $\{ C, E \}$ | $\{ D \}$ | $\varnothing$ |
 
 ## d) ![[A&D-e-u10.pdf#page=2&rect=86,424,530,454|A&D-e-u10, p.2]]
 
+The critical edges of $G$ are given below.
+$$
+\begin{align}
+c_{1} &= \{ A, F \} \\
+c_{2} &= \{ A, G \} \\
+c_{3} &= \{ G, B \} \\
+c_{4} &= \{ G, H \} \\
+c_{5} &= \{ G, I \} \\
+c_{6} &= \{ H, E \} \\
+c_{7} &= \{ I, C \}
+\end{align}
+$$
 
 ## e) ![[A&D-e-u10.pdf#page=2&rect=85,377,530,420|A&D-e-u10, p.2]]
 
