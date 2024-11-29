@@ -768,26 +768,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u10.md",
+                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u11.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "DMath-bf-u10"
-                }
-              },
-              {
-                "id": "85142bfa08a04a9f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "var/other/private.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "private"
+                  "title": "DMath-bf-u11"
                 }
               }
             ],
@@ -805,9 +791,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 131,
+                    "page": 144,
                     "left": -23,
-                    "top": 36,
+                    "top": 515,
                     "zoom": 1.21
                   },
                   "icon": "lucide-file-text",
@@ -829,19 +815,19 @@
                 }
               },
               {
-                "id": "848a5578d6241eac",
+                "id": "7d83dd41508ca986",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/DMath/UE/e/DMath-e-u10.pdf",
-                    "page": 1,
-                    "left": 54,
-                    "top": 625,
-                    "zoom": 1.23
+                    "file": "sem3/DMath/UE/e/DMath-e-u11.pdf",
+                    "page": 2,
+                    "left": -18,
+                    "top": 812,
+                    "zoom": 0.8958029552678087
                   },
                   "icon": "lucide-file-text",
-                  "title": "DMath-e-u10"
+                  "title": "DMath-e-u11"
                 }
               },
               {
@@ -874,7 +860,8 @@
                   "title": "DMath-cheatsheet-bs"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1052,8 +1039,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "951e5b7f3b883935",
-      "mtime": "2024-11-29T08:18:05+01:00"
+      "active": "7d83dd41508ca986",
+      "mtime": "2024-11-29T11:16:28+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1947,5 +1934,5 @@
       "mtime": "2024-11-29T10:20:05+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-linalg"
 }

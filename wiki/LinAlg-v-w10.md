@@ -32,6 +32,8 @@ $\overbracket{ A }^{ m\times n } = \underbracket{ C }_{ m\times h } \overbracket
 $A = \overbracket{ L }^{ m \times m } \underbracket{ U }_{ m \times n }$
 
 
-**Invertible Matrix**
-
+**Determinant Properties**
 Some $n \times n$ matrix $A$ is invertible if and only if $\det(A) \neq 0$
+For an orthogonal square matrix $Q$, it holds that $\det(Q) = \pm 1$
+
+
