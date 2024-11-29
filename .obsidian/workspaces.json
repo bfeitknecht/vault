@@ -1364,7 +1364,7 @@
                     "file": "sem1/LinAlg/VRL/extra/LinAlg-lecture-notes-2.pdf",
                     "page": 4,
                     "left": -18,
-                    "top": 453,
+                    "top": 458,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
@@ -1372,21 +1372,23 @@
                 }
               },
               {
-                "id": "90ad9aacafd6cb20",
+                "id": "5e54da7b3d613b5b",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "pdf",
                   "state": {
-                    "file": "sem3/LinAlg/UE/bf/LinAlg-bf-u09.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "var/other/LATEX.pdf",
+                    "page": 1,
+                    "left": 58,
+                    "top": 772,
+                    "zoom": 1.08
                   },
-                  "icon": "lucide-file",
-                  "title": "LinAlg-bf-u09"
+                  "icon": "lucide-file-text",
+                  "title": "LATEX"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "740ad403278fbd52",
@@ -1631,8 +1633,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "11fafd359e173589",
-      "mtime": "2024-11-29T10:25:42+01:00"
+      "active": "569c272b75d17b5d",
+      "mtime": "2024-11-29T15:31:22+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1934,5 +1936,5 @@
       "mtime": "2024-11-29T10:20:05+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-a&d"
 }
