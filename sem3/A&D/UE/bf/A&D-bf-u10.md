@@ -12,7 +12,7 @@ weight of hamilton cycle in $G$ at most that of closed eulerian walk in $H$
 for every edge in $f \in F$, check if the weight in $H$ of that edge is more than that in $G$. if so, remove it and take the edge between those vertices in $G$
 
 
-
+<div class="page-break" style="page-break-before: always;"></div>
 
 # 10.2      BFS ![[A&D-e-u10.pdf#page=1&rect=68,239,529,286|A&D-e-u10, p.1]]
 ![[A&D-e-u10.pdf#page=2&rect=66,569,531,772|A&D-e-u10, p.2]]
@@ -21,24 +21,26 @@ for every edge in $f \in F$, check if the weight in $H$ of that edge is more tha
 
 | iteration | operation      | queue           |
 | --------- | -------------- | --------------- |
-| `1`       | `q.push(A)`    | `q = [A]`       |
-| `2`       | `q.pop() -> A` | `q = []`        |
-| `3`       | `q.push(F)`    | `q = [F]`       |
-| `4`       | `q.push(G)`    | `q = [F, G]`    |
-| `5`       | `q.pop() -> F` | `q = [G]`       |
-| `6`       | `q.pop() -> G` | `q = []`        |
-| `7`       | `q.push(B)`    | `q = [B]`       |
-| `8`       | `q.push(H)`    | `q = [B, H]`    |
-| `9`       | `q.push(I)`    | `q = [B, H, I]` |
-| `10`      | `q.pop() -> B` | `q = [H, I]`    |
-| `11`      | `q.pop() -> H` | `q = [I]`       |
-| `13`      | `q.push(E)`    | `q = [I, E]`    |
-| `14`      | `q.pop() -> I` | `q = [E]`       |
-| `15`      | `q.push(C)`    | `q = [E, C]`    |
-| `16`      | `q.pop() -> E` | `q = [C]`       |
-| `17`      | `q.push(D)`    | `q = [C, E]`    |
-| `18`      | `q.pop() -> C` | `q = [E]`       |
-| `19`      | `q.pop() -> E` | `q = []`        |
+| `0`       | `q.push(A)`    | `q = [A]`       |
+| `1`       | `q.pop() -> A` | `q = []`        |
+| `2`       | `q.push(F)`    | `q = [F]`       |
+| `3`       | `q.push(G)`    | `q = [F, G]`    |
+| `4`       | `q.pop() -> F` | `q = [G]`       |
+| `5`       | `q.pop() -> G` | `q = []`        |
+| `6`       | `q.push(B)`    | `q = [B]`       |
+| `7`       | `q.push(H)`    | `q = [B, H]`    |
+| `8`       | `q.push(I)`    | `q = [B, H, I]` |
+| `9`       | `q.pop() -> B` | `q = [H, I]`    |
+| `10`      | `q.pop() -> H` | `q = [I]`       |
+| `11`      | `q.push(E)`    | `q = [I, E]`    |
+| `12`      | `q.pop() -> I` | `q = [E]`       |
+| `13`      | `q.push(C)`    | `q = [E, C]`    |
+| `14`      | `q.pop() -> E` | `q = [C]`       |
+| `15`      | `q.push(D)`    | `q = [C, D]`    |
+| `16`      | `q.pop() -> C` | `q = [D]`       |
+| `17`      | `q.pop() -> D` | `q = []`        |
+
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## b) ![[A&D-e-u10.pdf#page=2&rect=87,478,530,494|A&D-e-u10, p.2]]
 
@@ -63,7 +65,6 @@ I --> C
 E --> D
 ```
 
-
 ## c) ![[A&D-e-u10.pdf#page=2&rect=86,458,531,474|A&D-e-u10, p.2]]
 
 | $k$     | $0$       | $1$          | $2$             | $3$          | $4$       | $5$           |
@@ -87,6 +88,12 @@ $$
 
 ## e) ![[A&D-e-u10.pdf#page=2&rect=85,377,530,420|A&D-e-u10, p.2]]
 
+| `vertex` | `A` | `F` | `G` | `B` | `H`  | `I`  | `E`  | `C`  | `D`  |
+| -------- | --- | --- | --- | --- | ---- | ---- | ---- | ---- | ---- |
+| `enter`  | `0` | `2` | `3` | `6` | `7`  | `8`  | `11` | `13` | `15` |
+| `leave`  | `1` | `4` | `5` | `9` | `10` | `12` | `14` | `16` | `17` |
+
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## f) ![[A&D-e-u10.pdf#page=2&rect=87,344,528,373|A&D-e-u10, p.2]]
 
