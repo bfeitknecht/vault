@@ -8,3 +8,7 @@ $$
 $$
 Assume the LHS of the implication for all vectors $\mathbf{v}, \mathbf{w} \in \mathbb{R}^{m}$ and an arbitrary square matrix $Q \in \mathbb{R}^{m \times m}$. Then rewrite $(Q\mathbf{v})^{\top}(Q\mathbf{w})$ as $\mathbf{v}^{\top}Q^{\top}Q\mathbf{w}$, by definition of transpose and per associativity. Now we have $\mathbf{v}^{\top}Q^{\top}Q\mathbf{w} =\mathbf{v}^{\top}\mathbf{w}$. This implies that the innermost inner product must be equal to the $m\times m$ identity matrix, i.e. $Q^{\top}Q = I_{m}$. It follows that $Q^{\top} = Q^{-1}$, the definition of an orthogonal matrix. Thus we have proven the statement above.
 $\square$
+
+
+$\veebar$
+
