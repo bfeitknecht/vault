@@ -5,7 +5,7 @@
 - projection
 - pseudo-inverse matrix
 - hermitian matrix (conjugate transpose)
-- 
+- determinant
 
 
 # Notes
@@ -30,3 +30,8 @@ $\overbracket{ A }^{ m\times n } = \underbracket{ C }_{ m\times h } \overbracket
 
 **LU decomposition**
 $A = \overbracket{ L }^{ m \times m } \underbracket{ U }_{ m \times n }$
+
+
+**Invertible Matrix**
+
+Some $n \times n$ matrix $A$ is invertible if and only if $\det(A) \neq 0$
