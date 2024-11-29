@@ -6,12 +6,20 @@ Dennis Küenzi, 21-559-315
 
 # 25 ![[TI-e-u09.pdf#page=1&rect=68,463,532,565|TI-e-u09, p.1]]
 
-inner configurations ?
-space / time constructible ?
+Let $M$ be the given 1-tape TM. Then, consider the inner configuration $\mathrm{In}(C)$ for a configuration $C \in \mathrm{Konf}(M)$. Since $M$ always halts, the inner configurations cannot be encountered more than once. Thus, an upper bound on the number of inner configurations yields an upper bound on the time complexity.
 
-Recall, that the statement to prove, $\mathrm{Time}_{M}(n) \in O(n \cdot s(n)^{k})$ 
+Recall that an inner configuration is of the form $\mathrm{In}(C) = (q, i, x, j)$, where $q \in Q$ is the current state, $x \in \Gamma^{*}$ is the current word on the working tape, $i$ denotes the index of the read head on the input tape and $j$ denotes the index of the position of the read / write head on the working tape. Then we explore the upper bound for all possible inner configurations on input words of length $n$.
 
+The number of states is trivially exactly $|Q|$. The index of the read head is at most $n + 1$, where $n = |w|$ plus one for the initial symbol, $w_{0} = \textcent$. The word on the working tape $x = 01^{i_{1}}2^{i_{2}} \dots (k-1)^{i_{k-1}} kkkk \dots$ can be upper bounded as the first $k$ symbols have space complexity of at most $s(n)$ given by the definition of $M$. Lastly, the index on the working tape is at most $s(n)+1$, as that limits the length of the word written there with regards for the initial symbol.
+$$
+\begin{align}
+|\mathrm{InKonf}_{M}(n)| &\leq |Q| \cdot (n+1) \cdot s(n)^{k-1} \cdot (s(n) + 1) \\
+&\leq c \cdot n \cdot s(n)^{k}  \in O(n \cdot s(n)^{k})
+\end{align}
+$$
 
+As we have upper bounded the number of inner configurations it follows that the time complexity of $M$ respects the given constraint, $\mathrm{Time}_{M}(n) \in  O(n \cdot s(n)^{k})$.
+$\square$
 
 
 <div class="page-break" style="page-break-before: always;"></div>
