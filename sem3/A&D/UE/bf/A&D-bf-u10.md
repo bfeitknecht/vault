@@ -13,7 +13,7 @@ by metric property in $G$, for any discourse in $T$ of $H$ just take the direct 
 
 
 iterate through edge in closed euler walk 
-```lua
+```
 function euler-to-hamilton
 	C = {}
 	for edge f = {u, v} in T do
