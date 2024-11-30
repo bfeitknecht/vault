@@ -3,10 +3,21 @@
 # 10.1      Shortcutting closed Eulerian Walks ![[A&D-e-u10.pdf#page=1&rect=68,335,532,527|A&D-e-u10, p.1]]
 
 
-We assume the connected graph $H = (V, F)$ on the same $n = |V|$ vertices as the complete graph $G = K_{n}$ has a closed eulerian walk $T = (f_{i})_{k}$.
+We assume the connected undirected graph $H = (V, F)$ on the same $n = |V|$ vertices as the complete undirected graph $G = K_{n}$ has a closed eulerian walk $T = (f_{i})_{k}$, where $f_{i} \in F$ and $k = |F|$. 
 
 
-weight of hamilton cycle in $G$ at most that of closed eulerian walk in $H$
+Weight of hamilton cycle in $G$ at most that of closed eulerian walk in $H$, i.e. $w(C) \leq w'(T)$.
+
+by metric property in $G$, for any discourse just take the direct path
+
+
+
+iterate through edge in closed euler walk 
+```
+visited = {}
+for each edge f in T do
+    if endpoint v not visited then
+```
 
 
 for every edge in $f \in F$, check if the weight in $H$ of that edge is more than that in $G$. if so, remove it and take the edge between those vertices in $G$
