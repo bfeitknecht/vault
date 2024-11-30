@@ -8,15 +8,21 @@ We assume the connected undirected graph $H = (V, F)$ on the same $n = |V|$ vert
 
 Weight of hamilton cycle in $G$ at most that of closed eulerian walk in $H$, i.e. $w(C) \leq w'(T)$.
 
-by metric property in $G$, for any discourse just take the direct path
+by metric property in $G$, for any discourse in $T$ of $H$ just take the direct edge in $G$
 
 
 
 iterate through edge in closed euler walk 
-```
-visited = {}
-for each edge f in T do
-    if endpoint v not visited then
+```lua
+function euler-to-hamilton
+	C = {}
+	for edge f = {u, v} in T do
+	    if not u.visited then
+	        u.visited = true
+	        C.add(u)
+	    else
+	        add
+end
 ```
 
 
