@@ -130,5 +130,5 @@ $$
 
 # 10.4      Number of Minimal Paths ![[A&D-e-u10.pdf#page=3&rect=67,652,533,752|A&D-e-u10, p.3]]
 
-To count the number of paths between two vertices of length $k$, we modify BFS as follows.
+To count the number of paths between two distinct vertices $v, v' \in V$ of length $k$, we modify BFS as follows. For every vertex we keep track of the number of distinct paths to reach it. 
 
