@@ -2,32 +2,34 @@
 
 # 10.1      Shortcutting closed Eulerian Walks ![[A&D-e-u10.pdf#page=1&rect=68,335,532,527|A&D-e-u10, p.1]]
 
+The connected graph $H = (V, F)$ on the same $n = |V|$ vertices as the complete graph $G = K_{n}$ has a closed eulerian walk $T = (f_{i})_{k}$, where $f_{i} \in F$ and $k = |F|$. Then, the algorithm presented below iterates through the edges in the given closed eulerian walk and adds the vertices in the order first encountered to the hamilton cycle $C$. Thus it keeps only those that aren't "detours".
 
-We assume the connected undirected graph $H = (V, F)$ on the same $n = |V|$ vertices as the complete undirected graph $G = K_{n}$ has a closed eulerian walk $T = (f_{i})_{k}$, where $f_{i} \in F$ and $k = |F|$. 
+Through the metric property of $G$ and the compatibility of edge weights with $H$, skipping over previously visited vertices strictly reduces the total weight. Additionally this ensures that every vertex is visited exactly once, as $H$ is connected. It follows that $C$ is a hamilton cycle in $G$ and it holds that $w(C) \leq w'(T)$. Thus the algorithm is correct and satisfies the runtime bounds.
 
-
-Weight of hamilton cycle in $G$ at most that of closed eulerian walk in $H$, i.e. $w(C) \leq w'(T)$.
-
-by metric property in $G$, for any discourse in $T$ of $H$ just take the direct edge in $G$
-
-
-
-iterate through edge in closed euler walk 
 ```
-function euler-to-hamilton
+-- algorithm to convert euler circuit to hamilton cycle
+-- @param: H = (V, F), conected graph where n = |V| and k = |F|
+-- @param: T = [f] * k, euler circuit in H where f = (u, v) in F with u, v in V
+-- @return: C = [v] * (n+1), hamilton cycle in G
+-- @runtime: O(|F|)
+
+function euler-to-hamilton(H, T)
 	C = {}
-	for edge f = {u, v} in T do
+	for edge f = (u, v) in T do
 	    if not u.visited then
 	        u.visited = true
 	        C.add(u)
-	    else
-	        add
+	    end
+	    if not v.visited then
+	        v.visited = true
+	        C.add(v)
+	    end
+	end
+	C.add(s)	-- where vertex s = starting vertex in T
+	return C
 end
 ```
-
-
-for every edge in $f \in F$, check if the weight in $H$ of that edge is more than that in $G$. if so, remove it and take the edge between those vertices in $G$
-
+$\square$
 
 <div class="page-break" style="page-break-before: always;"></div>
 
@@ -114,13 +116,19 @@ $$
 
 ## f) ![[A&D-e-u10.pdf#page=2&rect=87,344,528,373|A&D-e-u10, p.2]]
 
+| $k$     | $0$ | $1$ | $2$ | $3$  | $4$  | $5$      |
+| ------- | --- | --- | --- | ---- | ---- | -------- |
+| $t_{k}$ | $1$ | $4$ | $9$ | $14$ | $17$ | $\infty$ |
 
 ## g) ![[A&D-e-u10.pdf#page=2&rect=87,321,528,338|A&D-e-u10, p.2]]
 
+| $k$     | $0$       | $1$          | $2$          | $3$          | $4$       | $5$           |
+| ------- | --------- | ------------ | ------------ | ------------ | --------- | ------------- |
+| $R_{k}$ | $\{ A \}$ | $\{ F, G \}$ | $\{ H, I \}$ | $\{ E, C \}$ | $\{ D \}$ | $\varnothing$ |
 
-
+<div class="page-break" style="page-break-before: always;"></div>
 
 # 10.4      Number of Minimal Paths ![[A&D-e-u10.pdf#page=3&rect=67,652,533,752|A&D-e-u10, p.3]]
 
-
+To count the number of paths between two vertices of length $k$, we modify BFS as follows.
 
