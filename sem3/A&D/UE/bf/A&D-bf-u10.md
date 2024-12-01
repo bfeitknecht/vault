@@ -6,14 +6,14 @@ The connected graph $H = (V, F)$ on the same $n = |V|$ vertices as the complete 
 
 Through the metric property of $G$ and the compatibility of edge weights with $H$, skipping over previously visited vertices strictly reduces the total weight. Additionally this ensures that every vertex is visited exactly once, as $H$ is connected. It follows that $C$ is a hamilton cycle in $G$ and it holds that $w(C) \leq w'(T)$. Thus the algorithm is correct and satisfies the runtime bounds.
 
-```
+```lua
 -- algorithm to convert euler circuit to hamilton cycle
 -- @param: H = (V, F), conected graph where n = |V| and k = |F|
 -- @param: T = [f] * k, euler circuit in H where f = (u, v) in F with u, v in V
 -- @return: C = [v] * (n+1), hamilton cycle in G
 -- @runtime: O(|F|)
 
-function euler-to-hamilton(H, T)
+function euler_to_hamilton(H, T)
 	C = {}
 	for edge f = (u, v) in T do
 	    if not u.visited then
@@ -130,5 +130,35 @@ $$
 
 # 10.4      Number of Minimal Paths ![[A&D-e-u10.pdf#page=3&rect=67,652,533,752|A&D-e-u10, p.3]]
 
-To count the number of paths between two distinct vertices $v, v' \in V$ of length $k$, we modify BFS as follows. For every vertex we keep track of the number of distinct paths to reach it. 
+To count the number of paths between two distinct vertices $v, v' \in V$ of length $k$, we modify BFS as follows. For every vertex $u \in V$ we keep track of the number of distinct paths reaching it and the distance it has from $v$. Since we explore every edge and visit every vertex at most once, the given algorithm satisfies the runtime constraint of $O(n+m)$. Furthermore, its correctness is given by the fact that all paths of length $l$ are considered before exploring paths of length $l+1$. Thus we account for every path from $v$ to $v'$ that has length $k$.
+
+```lua
+-- algorithm to count the number of paths of length k from s to t
+-- @param: k, length of paths
+-- @param: s, starting vertex v
+-- @param: t, target vertex v'
+-- @param: G = (V, E), graph as adjacency list
+-- @return: p, number of paths of length k from s to t
+
+function paths_of_length(k, s, t, G)
+	p = {{}}		-- matrix where p[v][l]: paths from s to v of length l
+	p[s][0] = 1		-- starting vertex has one path of length zero to itself
+	q = {}			-- queue where (v, d): vertex v at distance d from s
+	q.push({s, 0})
+	while not q.empty() do
+		(u, d) = q.pop()
+		if not d == k then
+			for v in Adj[u] do
+				p[v][d+1] += p[u][d]
+				if d+1 <= k then
+					q.push(v, d+1)
+				end
+			end
+		end
+	end
+	return p[t][k]
+end
+```
+$\square$
+
 

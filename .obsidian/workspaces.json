@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "81dc0d125163b7ba",
+            "id": "0fa7dac3b806efc7",
             "type": "tabs",
             "children": [
               {
-                "id": "186b0ae64682ce17",
+                "id": "61045519ebc60381",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -187,8 +187,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "186b0ae64682ce17",
-      "mtime": "2024-11-27T19:32:02+01:00"
+      "active": "61045519ebc60381",
+      "mtime": "2024-12-01T19:09:35+01:00"
     },
     "00-home": {
       "main": {
@@ -1923,5 +1923,5 @@
       "mtime": "2024-11-29T10:20:05+01:00"
     }
   },
-  "active": "00-clean"
+  "active": "sem3-a&d"
 }
