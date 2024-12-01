@@ -459,20 +459,6 @@
                 }
               },
               {
-                "id": "ec7efe08488fb637",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w09.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "A&D-v-w09"
-                }
-              },
-              {
                 "id": "d720fd891a5c532e",
                 "type": "leaf",
                 "state": {
@@ -485,6 +471,20 @@
                   "icon": "lucide-file",
                   "title": "A&D-v-w10"
                 }
+              },
+              {
+                "id": "233d9efcb86b320c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/A&D/UE/bf/A&D-bf-u10.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "A&D-bf-u10"
+                }
               }
             ],
             "currentTab": 2
@@ -494,37 +494,23 @@
             "type": "tabs",
             "children": [
               {
-                "id": "2239d08067e5e15d",
+                "id": "29325db7de2f4f5d",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/A&D/UE/e/A&D-e-u09.pdf",
-                    "page": 3,
+                    "file": "sem3/A&D/UE/e/A&D-e-u10.pdf",
+                    "page": 1,
                     "left": -18,
-                    "top": 588,
-                    "zoom": 0.8743843192065531
+                    "top": 190,
+                    "zoom": 0.874384319206553
                   },
                   "icon": "lucide-file-text",
-                  "title": "A&D-e-u09"
+                  "title": "A&D-e-u10"
                 }
               },
               {
-                "id": "08c38f1da9f967ee",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u08.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "A&D-bf-u08"
-                }
-              },
-              {
-                "id": "d53c3f4e50ebed1a",
+                "id": "742a5208badbda01",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
@@ -532,14 +518,15 @@
                     "file": "sem3/A&D/UE/e/A&D-e-u08.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 688,
+                    "top": 514,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-e-u08"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -707,8 +694,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "d720fd891a5c532e",
-      "mtime": "2024-11-28T16:13:17+01:00"
+      "active": "233d9efcb86b320c",
+      "mtime": "2024-12-01T16:38:45+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1936,5 +1923,5 @@
       "mtime": "2024-11-29T10:20:05+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "00-clean"
 }
