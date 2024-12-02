@@ -92,17 +92,9 @@ E --> D
 
 ## d) ![[A&D-e-u10.pdf#page=2&rect=86,424,530,454|A&D-e-u10, p.2]]
 
-The critical edges of $G$ are given below.
+The set of critical edges in $G$ are given below.
 $$
-\begin{align}
-c_{1} &= \{ A, F \} \\
-c_{2} &= \{ A, G \} \\
-c_{3} &= \{ G, B \} \\
-c_{4} &= \{ G, H \} \\
-c_{5} &= \{ G, I \} \\
-c_{6} &= \{ H, E \} \\
-c_{7} &= \{ I, C \}
-\end{align}
+S = \{ (A, F), (A,G), (G, B), (G, H), (G, I), (H, E), (I, C) \}
 $$
 
 ## e) ![[A&D-e-u10.pdf#page=2&rect=85,377,530,420|A&D-e-u10, p.2]]
@@ -111,8 +103,6 @@ $$
 | -------- | --- | --- | --- | --- | ---- | ---- | ---- | ---- | ---- |
 | `enter`  | `0` | `2` | `3` | `6` | `7`  | `8`  | `11` | `13` | `15` |
 | `leave`  | `1` | `4` | `5` | `9` | `10` | `12` | `14` | `16` | `17` |
-
-<div class="page-break" style="page-break-before: always;"></div>
 
 ## f) ![[A&D-e-u10.pdf#page=2&rect=87,344,528,373|A&D-e-u10, p.2]]
 
