@@ -37,3 +37,12 @@ $$
 \end{cases}
 \end{align}
 $$
+
+$$
+\begin{align} \\
+\mathcal{P}^{*} = \mathcal{P} \times \mathcal{P} \\
+\phi^{*}(s, p^{*}) = \begin{cases}
+1, & \text{if } 
+\end{cases} 
+\end{align}
+$$
