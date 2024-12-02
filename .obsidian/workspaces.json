@@ -432,8 +432,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "162e7a61651e562a",
-      "mtime": "2024-11-28T09:18:32+01:00"
+      "active": "c1d4bca0b23a015c",
+      "mtime": "2024-12-02T13:14:30+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -500,10 +500,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/A&D/UE/e/A&D-e-u10.pdf",
-                    "page": 1,
+                    "page": 2,
                     "left": -18,
-                    "top": 190,
-                    "zoom": 0.874384319206553
+                    "top": 316,
+                    "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-e-u10"
@@ -516,17 +516,16 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/A&D/UE/e/A&D-e-u08.pdf",
-                    "page": 1,
+                    "page": 3,
                     "left": -18,
-                    "top": 514,
+                    "top": 163,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-e-u08"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -695,7 +694,7 @@
         }
       },
       "active": "233d9efcb86b320c",
-      "mtime": "2024-12-01T16:38:45+01:00"
+      "mtime": "2024-12-02T13:11:06+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1923,5 +1922,5 @@
       "mtime": "2024-11-29T10:20:05+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-dmath"
 }

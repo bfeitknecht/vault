@@ -17,7 +17,8 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 
 # Info
 
-- [ ] theory exercise 🔁 every week 📅 2024-12-01
+- [ ] theory exercise 🔁 every week 📅 2024-12-08
+- [x] theory exercise 🔁 every week 📅 2024-12-01 ✅ 2024-12-02
 - [x] theory exercise 🔁 every week 📅 2024-11-24 ✅ 2024-11-28
 - [x] theory exercise 🔁 every week 📅 2024-11-17 ✅ 2024-11-16
 - [x] theory exercise 🔁 every week 📅 2024-11-10 ✅ 2024-11-13
@@ -27,7 +28,8 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 - [x] theory exercise 🔁 every week 📅 2024-10-13 ✅ 2024-10-14
 - [x] theory exercise 🔁 every week 📅 2024-10-06 ✅ 2024-10-04
 - [x] theory exercise 🔁 every week 📅 2024-09-29 ✅ 2024-09-27
-- [ ] peer grading 🔁 every week 📅 2024-12-02
+- [ ] peer grading 🔁 every week 📅 2024-12-09
+- [x] peer grading 🔁 every week 📅 2024-12-02 ✅ 2024-12-02
 - [x] peer grading 🔁 every week 📅 2024-11-25 ✅ 2024-11-28
 - [x] peer grading 🔁 every week 📅 2024-11-18 ✅ 2024-11-19
 - [x] peer grading 🔁 every week 📅 2024-11-11 ✅ 2024-11-13
@@ -37,7 +39,8 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 - [x] peer grading 🔁 every week 📅 2024-10-14 ✅ 2024-10-09
 - [x] peer grading 🔁 every week 📅 2024-10-07 ✅ 2024-10-08
 - [x] peer grading 🔁 every week 📅 2024-09-30 ✅ 2024-09-30
-- [ ] moodle quiz 🔁 every week 📅 2024-12-02
+- [ ] moodle quiz 🔁 every week 📅 2024-12-09
+- [x] moodle quiz 🔁 every week 📅 2024-12-02 ✅ 2024-12-02
 - [x] moodle quiz 🔁 every week 📅 2024-11-25 ✅ 2024-11-28
 - [x] moodle quiz 🔁 every week 📅 2024-11-18 ✅ 2024-11-18
 - [x] moodle quiz 🔁 every week 📅 2024-11-11 ✅ 2024-11-13

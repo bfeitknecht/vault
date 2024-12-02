@@ -4,7 +4,7 @@
 
 The connected graph $H = (V, F)$ on the same $n = |V|$ vertices as the complete graph $G = K_{n}$ has a closed eulerian walk $T = (f_{i})_{k}$, where $f_{i} \in F$ and $k = |F|$. Then, the algorithm presented below iterates through the edges in the given closed eulerian walk and adds the vertices in the order first encountered to the hamilton cycle $C$. Thus it keeps only those that aren't "detours".
 
-Through the metric property of $G$ and the compatibility of edge weights with $H$, skipping over previously visited vertices strictly reduces the total weight. Additionally this ensures that every vertex is visited exactly once, as $H$ is connected. It follows that $C$ is a hamilton cycle in $G$ and it holds that $w(C) \leq w'(T)$. Thus the algorithm is correct and satisfies the runtime bounds.
+Through the metric property of $G$ and the compatibility of edge weights with $H$, skipping over previously visited vertices cannot increase the total weight. Additionally this ensures that every vertex is visited exactly once, as $H$ is connected. It follows that $C$ is a hamilton cycle in $G$ and it holds that $w(C) \leq w'(T)$. Thus the algorithm is correct and satisfies the runtime bounds.
 
 ```lua
 -- algorithm to convert euler circuit to hamilton cycle
@@ -88,7 +88,7 @@ E --> D
 
 | $k$     | $0$       | $1$          | $2$             | $3$          | $4$       | $5$           |
 | ------- | --------- | ------------ | --------------- | ------------ | --------- | ------------- |
-| $S_{k}$ | $\{ A \}$ | $\{ F, G \}$ | $\{ B, I, H \}$ | $\{ C, E \}$ | $\{ D \}$ | $\varnothing$ |
+| $S_{k}$ | $\{ A \}$ | $\{ F, G \}$ | $\{ B, H, I \}$ | $\{ C, E \}$ | $\{ D \}$ | $\varnothing$ |
 
 ## d) ![[A&D-e-u10.pdf#page=2&rect=86,424,530,454|A&D-e-u10, p.2]]
 
@@ -112,9 +112,9 @@ $$
 
 ## g) ![[A&D-e-u10.pdf#page=2&rect=87,321,528,338|A&D-e-u10, p.2]]
 
-| $k$     | $0$       | $1$          | $2$          | $3$          | $4$       | $5$           |
-| ------- | --------- | ------------ | ------------ | ------------ | --------- | ------------- |
-| $R_{k}$ | $\{ A \}$ | $\{ F, G \}$ | $\{ H, I \}$ | $\{ E, C \}$ | $\{ D \}$ | $\varnothing$ |
+| $k$     | $0$       | $1$          | $2$             | $3$          | $4$       | $5$           |
+| ------- | --------- | ------------ | --------------- | ------------ | --------- | ------------- |
+| $R_{k}$ | $\{ A \}$ | $\{ F, G \}$ | $\{B,  H, I \}$ | $\{ E, C \}$ | $\{ D \}$ | $\varnothing$ |
 
 <div class="page-break" style="page-break-before: always;"></div>
 
