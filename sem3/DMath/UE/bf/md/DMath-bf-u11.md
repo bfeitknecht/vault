@@ -15,9 +15,9 @@ $$
 \end{cases}
 \end{align}
 $$
-sound: no false statement can be proven (by construction)
+sound: no false statement can be proven (by construction) since underlying proof system is sound
 
-complete: every true statement has a proof
+complete: every true statement has a proof since underlying PS is complete
 
 
 
