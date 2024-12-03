@@ -29,8 +29,13 @@ $$
 > Aus Kapitel 6 sind insbesondere die Abschnitte 6.2 bis 6.4 (ohne den Satz von Savitch) sowie 6.5 und 6.6 (ohne den Beweis des Satzes von Cook und ohne die Behandlung von Optimierungsproblemen) relevant.
 
 > [!warning]+ Study
-> - proof of rice's theorem
 > - reductions (EE, R)
+> - language classes (recursive, recursive enumerable)
+> - proof of rice's theorem
+> - time and space complexity of TM
+> - time and space complexity classes
+> - dito for MTM
+> - space and time constructible function
 
 
 
@@ -50,7 +55,7 @@ $$
 **Rice's theorem**. Every semantic non-trivial decision about TM is undecidable. Proof. Case distinction.
 1. If $\mathrm{Kod}(M_{\varnothing}) \in L$ then construct reduction such that $L_{\mathrm{H},\lambda} \leq_{\mathrm{EE}} L^{\complement} \overset{ \text{L.5.3} }{ \implies } L_{\mathrm{H},\lambda} \leq_{\mathrm{R}} L^{\complement} \overset{ \text{L.5.4} }{ \implies } L_{\mathrm{H},\lambda} \leq_{\mathrm{R}} L$.
 2. If $\mathrm{Kod}(M_{\varnothing}) \not\in L$ then construct reduction such that $L_{\mathrm{H},\lambda} \leq_{\mathrm{EE}} L \overset{ \text{L. 5.3} }{ \implies } L_{\mathrm{H},\lambda} \leq_{\mathrm{R}} L$
-By contraposition both statements are false and thus the statement proven.
+By contraposition both statements are false and the claim thus proven.
 
 
 
