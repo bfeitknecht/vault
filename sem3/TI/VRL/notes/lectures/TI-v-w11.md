@@ -10,4 +10,4 @@ $$
 w \in L(M) \iff B_{M}(w) \in \mathrm{SAT}
 $$
 
-We show that every word over the alphabet, it is in the language $L$ exactly if it corresponds to a satisfiable boolean logic formula.
+We show that for every word over the alphabet, it is in the language $L$ exactly if it corresponds to a satisfiable boolean logic formula.
