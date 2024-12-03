@@ -432,8 +432,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "c1d4bca0b23a015c",
-      "mtime": "2024-12-02T13:14:30+01:00"
+      "active": "162e7a61651e562a",
+      "mtime": "2024-12-03T14:24:18+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -761,9 +761,25 @@
                   "icon": "lucide-file",
                   "title": "DMath-bf-u11"
                 }
+              },
+              {
+                "id": "ec358717ccdbf5d7",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "var/other/LATEX.pdf",
+                    "page": 1,
+                    "left": -4,
+                    "top": 692,
+                    "zoom": 0.93
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LATEX"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "f002029a56c7a80a",
@@ -777,9 +793,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 156,
+                    "page": 144,
                     "left": -23,
-                    "top": 508,
+                    "top": 206,
                     "zoom": 1.21
                   },
                   "icon": "lucide-file-text",
@@ -846,7 +862,8 @@
                   "title": "DMath-cheatsheet-bs"
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1024,8 +1041,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "19c6dd439769b532",
-      "mtime": "2024-12-03T08:35:56+01:00"
+      "active": "951e5b7f3b883935",
+      "mtime": "2024-12-03T14:22:14+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1688,7 +1705,7 @@
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
                     "page": 203,
                     "left": -22,
-                    "top": 177,
+                    "top": 181,
                     "zoom": 1.06
                   },
                   "icon": "lucide-file-text",
@@ -1919,9 +1936,9 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "52840028e2faa28f",
-      "mtime": "2024-12-03T13:46:17+01:00"
+      "active": "a2ff0320e30502d8",
+      "mtime": "2024-12-03T14:22:56+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-ti"
 }

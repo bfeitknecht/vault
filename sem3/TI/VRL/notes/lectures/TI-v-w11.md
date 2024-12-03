@@ -38,6 +38,7 @@ $$
 > - space and time constructible function
 
 
+___
 
 
 **Definition 5.7.** $L \subseteq \mathrm{KodTM}$ is semantic non-trivial decision problem about TM if the following holds.

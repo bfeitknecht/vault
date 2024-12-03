@@ -22,6 +22,8 @@ complete: every true statement has a proof since underlying PS is complete
 
 
 
+maybe change something, since need to take care of case where one claim has two proofs!!!
+
 
 <div class="page-break" style="page-break-before: always;"></div>
 
