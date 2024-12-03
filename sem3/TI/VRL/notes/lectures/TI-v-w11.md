@@ -27,3 +27,10 @@ $$
 > Aus Kapitel 5 sind insbesondere die Abschnitte 5.2 bis 5.4 relevant (inklusive des Beweises des Satzes von Rice). Die Abschnitte 5.5 bis 5.7 sind nicht prüfungsrelevant.
 > 
 > Aus Kapitel 6 sind insbesondere die Abschnitte 6.2 bis 6.4 (ohne den Satz von Savitch) sowie 6.5 und 6.6 (ohne den Beweis des Satzes von Cook und ohne die Behandlung von Optimierungsproblemen) relevant.
+
+> [!warning]+ Study
+> - proof of rice's theorem
+> - reductions (EE, R)
+
+
+
