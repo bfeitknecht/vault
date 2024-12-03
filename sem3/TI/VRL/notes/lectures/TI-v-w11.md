@@ -15,30 +15,15 @@ $$
 U(x_{1}, x_{2}, \dots, x_{n}) = \left( \bigvee_{i \in [n]} x_{i} \right) \land \left( \bigwedge_{i,j \in [n], i \neq j} (\overline{x_{i}} \lor \overline{x_{j}}) \right)
 $$
 
-$B_{M}$ constructs the formula $B_{M}(x) = A \land B \land C \land D \land E \land F \land G$ in CNF as follows.
 
-$$
-\begin{align}
-A \\
-B \\
-C \\
-D \\
-E \\
-F \\
-G
-\end{align}
-$$
+# Endterm
 
-
-
-
-
-
-
-
-
-
-
-
-
-$A = \bigwedge_{t\in [p(|w)]} A_{t}$ 
+> [!info]+ Topics
+> 
+> Die zweite freiwillige Zwischenprüfung wird hauptsächlich den Stoff umfassen, der durch die Vorlesung vom 29. Oktober bis und mit 3. Dezember sowie die Aufgabenblätter 7-10 abgedeckt wird. Natürlich wird auch eine allgemeine Vertrautheit mit dem Stoff der ersten Vorlesungshälfte vorausgesetzt.
+> 
+> Insbesondere das Kapitel 4 ist soweit relevant, wie der Formalismus der Turingmaschinen in den Kapiteln 5 und 6 verwendet wird.
+> 
+> Aus Kapitel 5 sind insbesondere die Abschnitte 5.2 bis 5.4 relevant (inklusive des Beweises des Satzes von Rice). Die Abschnitte 5.5 bis 5.7 sind nicht prüfungsrelevant.
+> 
+> Aus Kapitel 6 sind insbesondere die Abschnitte 6.2 bis 6.4 (ohne den Satz von Savitch) sowie 6.5 und 6.6 (ohne den Beweis des Satzes von Cook und ohne die Behandlung von Optimierungsproblemen) relevant.
