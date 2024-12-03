@@ -2,6 +2,7 @@
 - savitch's theorem (non-deterministic space complexity is at most square deterministic space complexity)
 - reachable procedure
 
+# Notes
 
 $\mathrm{DLOG} \subseteq \mathrm{NLOG} \subseteq \mathrm{P} \subseteq \mathrm{NP} \subseteq \mathrm{PSPACE} \subseteq \mathrm{EXPTIME}$
 
