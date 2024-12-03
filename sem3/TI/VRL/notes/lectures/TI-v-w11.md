@@ -34,3 +34,25 @@ $$
 
 
 
+
+**Definition 5.7.** $L \subseteq \mathrm{KodTM}$ is semantic non-trivial decision problem about TM if the following holds.
+1. $L \neq \varnothing$
+2. $L \neq \mathrm{KodTM}$
+3. For two TM, $A, B$ if $L(A) = L(B)$ then $\mathrm{Kod}(A) \in L \iff \mathrm{Kod}(B) \in L$
+
+
+**Lemma 5.8.** Halting language on lambda is not not recursive.
+$$
+L_{\mathrm{H}, \lambda} = \{  \mathrm{Kod}(M) \mid \text{$M$ halts on $\lambda$} \} \not\in \mathcal{L}_{\mathrm{R}}
+$$
+
+
+**Rice's theorem**. Every semantic non-trivial decision about TM is undecidable. Proof. Case distinction.
+1. If $\mathrm{Kod}(M_{\varnothing}) \in L$ then construct reduction such that $L_{\mathrm{H},\lambda} \leq_{\mathrm{EE}} L^{\complement} \overset{ \text{L.5.3} }{ \implies } L_{\mathrm{H},\lambda} \leq_{\mathrm{R}} L^{\complement} \overset{ \text{L.5.4} }{ \implies } L_{\mathrm{H},\lambda} \leq_{\mathrm{R}} L$.
+2. If $\mathrm{Kod}(M_{\varnothing}) \not\in L$ then construct reduction such that $L_{\mathrm{H},\lambda} \leq_{\mathrm{EE}} L \overset{ \text{L. 5.3} }{ \implies } L_{\mathrm{H},\lambda} \leq_{\mathrm{R}} L$
+By contraposition both statements are false and thus the statement proven.
+
+
+
+
+
