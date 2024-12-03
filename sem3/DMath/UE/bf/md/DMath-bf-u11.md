@@ -29,6 +29,34 @@ complete: every true statement has a proof since underlying PS is complete
 
 
 
+
+
+
+$$
+\begin{align}
+\mathcal{P}^{*} &= \mathcal{P} \\
+\phi^{*}(s^{*}, p^{*}) &= \begin{cases}
+1, & \text{if $\phi(s, p) = 0$} \\
+0, & \text{else}
+\end{cases}
+\end{align}
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $$
 \begin{align}
 \overline{\phi}(\overline{s}, \overline{p}) = \begin{cases}
