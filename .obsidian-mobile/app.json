@@ -10,7 +10,10 @@
   "showInlineTitle": true,
   "mobileToolbarCommands": [
     "editor:insert-callout",
+    "editor:toggle-strikethrough",
+    "editor:toggle-highlight",
     "editor:insert-codeblock",
+    "editor:toggle-code",
     "editor:fold-all",
     "editor:unfold-all",
     "editor:toggle-keyboard",

@@ -276,9 +276,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/A&D/UE/e/A&D-e-u05.pdf",
-                    "page": 2,
-                    "left": 56,
-                    "top": 488,
+                    "page": 3,
+                    "left": 32,
+                    "top": 481,
                     "zoom": 1.05
                   },
                   "icon": "lucide-file-text",
@@ -300,9 +300,53 @@
                   "icon": "lucide-file-text",
                   "title": "A&D-script-w05-ADT"
                 }
+              },
+              {
+                "id": "0c88e8d6fad654a4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/asymptotic analyis.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "asymptotic analyis"
+                }
+              },
+              {
+                "id": "4d1ced59aa7faccd",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/lendau notation.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "lendau notation"
+                }
+              },
+              {
+                "id": "653cebd7768287cc",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "var/other/LATEX.pdf",
+                    "page": 2,
+                    "left": 16,
+                    "top": 839,
+                    "zoom": 0.67
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LATEX"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -363,7 +407,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem3/A&D/UE/bf/A&D-bf-u05.md",
+                "file": "wiki/landau notation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -415,8 +459,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "e8699cf07c750231",
-      "mtime": "2024-10-23T14:18:20+02:00"
+      "active": "4d1ced59aa7faccd",
+      "mtime": "2024-12-04T09:31:09+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -795,56 +839,26 @@
                 }
               },
               {
-                "id": "5d86251edc017637",
+                "id": "2ced6d6018f60d98",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w05.md",
+                    "file": "wiki/LinAlg-v-w11.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "LinAlg-v-w05"
-                }
-              },
-              {
-                "id": "16cda7fecaa2c390",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w05.pdf",
-                    "page": 3,
-                    "left": -12,
-                    "top": 468,
-                    "zoom": 0.81
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "LinAlg-plan-w05"
+                  "title": "LinAlg-v-w11"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "36814cfe3db8ae59",
             "type": "tabs",
             "children": [
-              {
-                "id": "1361308b81648f45",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/invertible matrix.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "invertible matrix"
-                }
-              },
               {
                 "id": "5f364ebd9dd8fdcb",
                 "type": "leaf",
@@ -853,8 +867,8 @@
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/plans/LinAlg-plan-w04.pdf",
                     "page": 6,
-                    "left": 4,
-                    "top": 423,
+                    "left": 3,
+                    "top": 424,
                     "zoom": 0.88
                   },
                   "icon": "lucide-file-text",
@@ -862,7 +876,7 @@
                 }
               },
               {
-                "id": "f2459d3578267678",
+                "id": "0ed147db08afc091",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -870,23 +884,9 @@
                   "icon": "lucide-file",
                   "title": "New tab"
                 }
-              },
-              {
-                "id": "b409bff4173974c6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/row echelon form (REF).md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "row echelon form (REF)"
-                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -999,8 +999,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "b409bff4173974c6",
-      "mtime": "2024-10-23T13:04:36+02:00"
+      "active": "2ced6d6018f60d98",
+      "mtime": "2024-12-04T09:33:39+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1193,5 +1193,5 @@
       "mtime": "2024-10-22T17:49:58+02:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-dmath"
 }

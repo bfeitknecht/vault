@@ -3,10 +3,11 @@
   "cssTheme": "Minimal",
   "interfaceFontFamily": "Helvetica Neue",
   "textFontFamily": "Helvetica Neue",
-  "theme": "obsidian",
+  "theme": "system",
   "showViewHeader": false,
   "enabledCssSnippets": [
     "hide-embed-filename",
     "style-embed"
-  ]
+  ],
+  "baseFontSize": 13
 }
