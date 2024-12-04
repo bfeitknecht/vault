@@ -1087,12 +1087,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/EProg/UE/bf/EProg-bf-u09.md",
+                    "file": "sem3/EProg/UE/bf/EProg-bf-u10.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "EProg-bf-u09"
+                  "title": "EProg-bf-u10"
                 }
               }
             ],
@@ -1126,9 +1126,9 @@
                   "state": {
                     "file": "sem3/EProg/UE/e/EProg-e-u09.pdf",
                     "page": 5,
-                    "left": 14,
-                    "top": 53,
-                    "zoom": 0.93
+                    "left": -19,
+                    "top": 67,
+                    "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
                   "title": "EProg-e-u09"
@@ -1273,8 +1273,8 @@
                 "state": {
                   "type": "vertical-tabs-view",
                   "state": {},
-                  "icon": "list",
-                  "title": "Vertical Tabs"
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               }
             ],
@@ -1291,7 +1291,6 @@
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
-          "obsidian-excalidraw-plugin:Create new drawing": true,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
           "cmdr:Export to PDF": false,
@@ -1300,11 +1299,12 @@
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
-          "command-palette:Open command palette": true
+          "command-palette:Open command palette": true,
+          "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "95ce692e2f7cff02",
-      "mtime": "2024-11-26T20:08:11+01:00"
+      "active": "6c63b9e54c33cabb",
+      "mtime": "2024-12-04T17:06:47+01:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1940,5 +1940,5 @@
       "mtime": "2024-12-03T16:35:35+01:00"
     }
   },
-  "active": "sem3-eprog"
+  "active": "sem3-dmath"
 }
