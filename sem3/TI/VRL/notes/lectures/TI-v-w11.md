@@ -37,7 +37,6 @@ $$
 > - dito for NTM
 > - space and time constructible function
 
-
 ___
 
 
@@ -59,6 +58,8 @@ $$
 By contraposition both statements are false and the claim thus proven.
 
 
+___
+
 If a language and its complement have accepting TM then the language is decidable, since we can interleave the two TM which then always halts. $L \in \mathcal{L}_{\mathrm{RE}} \land L^{\complement} \in \mathcal{L}_{\mathrm{RE}} \implies L \in \mathcal{L}_{\mathrm{R}}$
 
 If for a language $L$ it holds that 
@@ -73,3 +74,6 @@ $k\mathrm{SAT}$ is formulae in CNF with clauses of **up to** $k$ literals
 $\mathrm{E}k\mathrm{SAT}$ is formulae in CNF with clauses of **exactly** $k$ **distinct** literals
 
 $\mathrm{SAT}$ is important and will *most likely* be in exam
+
+
+![[TI-nwehrl-w08.pdf#page=32&rect=25,54,381,193|TI-nwehrl-w08, p.29]]
