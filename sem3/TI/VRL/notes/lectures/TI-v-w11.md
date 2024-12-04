@@ -72,4 +72,4 @@ clique, VC, DS, etc. is important!!
 $k\mathrm{SAT}$ is formulae in CNF with clauses of **up to** $k$ literals
 $\mathrm{E}k\mathrm{SAT}$ is formulae in CNF with clauses of **exactly** $k$ **distinct** literals
 
-$\mathrm{SAT}$ is important and will *most* likely be on exam
+$\mathrm{SAT}$ is important and will *most likely* be in exam

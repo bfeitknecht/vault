@@ -761,22 +761,6 @@
                   "icon": "lucide-file",
                   "title": "DMath-bf-u11"
                 }
-              },
-              {
-                "id": "ec358717ccdbf5d7",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "var/other/LATEX.pdf",
-                    "page": 1,
-                    "left": -4,
-                    "top": 692,
-                    "zoom": 0.93
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "LATEX"
-                }
               }
             ],
             "currentTab": 3
@@ -1041,8 +1025,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "951e5b7f3b883935",
-      "mtime": "2024-12-03T14:22:14+01:00"
+      "active": "b73f048b9b1e070a",
+      "mtime": "2024-12-04T18:04:04+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1940,5 +1924,5 @@
       "mtime": "2024-12-03T16:35:35+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-ti"
 }
