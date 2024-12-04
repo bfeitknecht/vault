@@ -34,7 +34,7 @@ $$
 > - proof of rice's theorem
 > - time and space complexity of TM
 > - time and space complexity classes
-> - dito for MTM
+> - dito for NTM
 > - space and time constructible function
 
 
