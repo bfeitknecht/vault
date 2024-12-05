@@ -1685,10 +1685,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
-                    "page": 148,
-                    "left": -4,
-                    "top": 184,
-                    "zoom": 1.06
+                    "page": 147,
+                    "left": -27,
+                    "top": 45,
+                    "zoom": 1.04
                   },
                   "icon": "lucide-file-text",
                   "title": "hromkovic-TI"
@@ -1701,10 +1701,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/nwehrl/TI-nwehrl-w08.pdf",
-                    "page": 33,
+                    "page": 30,
                     "left": -13,
-                    "top": 43,
-                    "zoom": 1.1476309853751463
+                    "top": 5,
+                    "zoom": 1.1476309853751465
                   },
                   "icon": "lucide-file-text",
                   "title": "TI-nwehrl-w08"
@@ -1733,7 +1733,7 @@
                     "file": "sem3/TI/VRL/extra/nwehrl/TI-nwehrl-w09.pdf",
                     "page": 36,
                     "left": -38,
-                    "top": 93,
+                    "top": 245,
                     "zoom": 1.04
                   },
                   "icon": "lucide-file-text",
@@ -1773,7 +1773,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1951,9 +1951,9 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "a2ff0320e30502d8",
-      "mtime": "2024-12-04T21:11:29+01:00"
+      "active": "4436fbc862b6b0c8",
+      "mtime": "2024-12-05T13:42:32+01:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-dmath"
 }
