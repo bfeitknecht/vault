@@ -62,11 +62,9 @@ ___
 
 ![[TI-nwehrl-w08.pdf#page=32&rect=25,54,381,193|TI-nwehrl-w08, p.29]]
 
-If a language and its complement have accepting TM then the language is decidable, since we can interleave the two TM which then always halts. $L \in \mathcal{L}_{\mathrm{RE}} \land L^{\complement} \in \mathcal{L}_{\mathrm{RE}} \implies L \in \mathcal{L}_{\mathrm{R}}$
+If a language and its complement are recognizable, i.e. have accepting TM then the language is decidable, since we can interleave the two TM which then always halts. Formally, $L \in \mathcal{L}_{\mathrm{RE}} \land L^{\complement} \in \mathcal{L}_{\mathrm{RE}} \iff L \in \mathcal{L}_{\mathrm{R}}$.
 
-If for a language $L$ it holds that 
-
-The language $L$ is $\mathrm{NP}$-hard, if for every language $L' \in \mathrm{NP}$ it holds that we can do the polynomial reduction $L' \leq_\mathrm{p} L$.
+The language $L$ is $\mathrm{NP}$-hard, if for every language $L' \in \mathrm{NP}$ it holds that there exists a polynomial reduction $L' \leq_\mathrm{p} L$.
 If $L \in \mathrm{NP}$ then it is said to be $\mathrm{NP}$-complete.
 
 
@@ -75,6 +73,6 @@ clique, VC, DS, etc. is important!!
 $k\mathrm{SAT}$ is formulae in CNF with clauses of **up to** $k$ literals
 $\mathrm{E}k\mathrm{SAT}$ is formulae in CNF with clauses of **exactly** $k$ **distinct** literals
 
-$\mathrm{SAT}$ is important and will *most likely* be in exam
+$\mathrm{SAT}$ is important and will *most likely* be on exam
 
 
