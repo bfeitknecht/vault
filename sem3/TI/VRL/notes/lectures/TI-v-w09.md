@@ -15,6 +15,15 @@ Lemma 5.3, $L_{1} \leq_{\mathrm{EE}} L_{2} \implies L_{1} \leq_{\mathrm{R}} L_{2
 
 ___
 
+**Some language definitions**
+$$
+\begin{align}
+\mathrm{KodTM} &= \{ \mathrm{Kod}(M) \mid \text{$M$ is a TM} \} \\
+L_{\mathrm{empty}} &= \{ \mathrm{Kod}(M) \mid L(M) = \varnothing \} \\
+L_{\mathrm{U}} &= \{ \mathrm{Kod}(M)\#w \in \Sigma_{\mathbb{B}}^{*} \mid w \in L(M) \} \\
+L_{\mathrm{H}} &= \{ \mathrm{Kod}(M)\#x \in \Sigma_{\mathbb{B}}^{*} \mid \text{$M$ halts on $x$} \}
+\end{align}
+$$
 
 
 ```tikz
@@ -53,7 +62,6 @@ ___
 
 
 
-
 ![[hromkovic-TI.pdf#page=147&rect=42,147,434,198|hromkovic-TI, p.134]]
 
 
@@ -65,47 +73,9 @@ ___
 
 ![[hromkovic-TI.pdf#page=149&rect=42,201,428,237|hromkovic-TI, p.136]]
 
-
+**A language and its complement recognizable implies language is decidable**
 $L \in \mathcal{L}_{\mathrm{RE}} \land L^{\complement} \in \mathcal{L}_{\mathrm{RE}} \implies L \in \mathcal{L}_{\mathrm{R}}$
 
-
-
-
-$$
-\begin{align}
-\mathrm{KodTM} &= \{ \mathrm{Kod}(M) \mid \text{$M$ is a TM} \} \\
-L_{\mathrm{empty}} &= \{ \mathrm{Kod}(M) \mid L(M) = \varnothing \} \\
-L_{\mathrm{U}} &= \{ \mathrm{Kod}(M)\#w \in \Sigma_{\mathbb{B}}^{*} \mid w \in L(M) \} \\
-L_{\mathrm{H}} &= \{ \mathrm{Kod}(M)\#x \in \Sigma_{\mathbb{B}}^{*} \mid \text{$M$ halts on $x$} \}
-\end{align}
-$$
-
-
-
-![[hromkovic-TI.pdf#page=150&rect=42,462,432,481|hromkovic-TI, p.137]]
-![[hromkovic-TI.pdf#page=150&rect=41,355,438,374|hromkovic-TI, p.137]]
+**The decidable languages are a proper subset of the recognizable languages**
 ![[hromkovic-TI.pdf#page=150&rect=43,67,439,89|hromkovic-TI, p.137]]
-![[hromkovic-TI.pdf#page=155&rect=49,321,428,344|hromkovic-TI, p.142]]
-![[hromkovic-TI.pdf#page=155&rect=40,229,435,247|hromkovic-TI, p.142]]
-![[hromkovic-TI.pdf#page=156&rect=41,150,434,169|hromkovic-TI, p.143]]
-![[hromkovic-TI.pdf#page=157&rect=40,211,430,225|hromkovic-TI, p.144]]
 
-
-
-![[hromkovic-TI.pdf#page=151&rect=40,482,432,580|hromkovic-TI, p.138]]
-
-![[hromkovic-TI.pdf#page=152&rect=41,291,436,308|hromkovic-TI, p.139]]
-
-
-
-![[hromkovic-TI.pdf#page=153&rect=41,189,435,228|hromkovic-TI, p.140]]
-![[hromkovic-TI.pdf#page=153&rect=40,116,432,133|hromkovic-TI, p.140]]
-
-
-
-
-
-![[hromkovic-TI.pdf#page=158&rect=40,583,441,610|hromkovic-TI, p.145]]
-
-
-![[hromkovic-TI.pdf#page=158&rect=41,68,466,90|hromkovic-TI, p.145]]
