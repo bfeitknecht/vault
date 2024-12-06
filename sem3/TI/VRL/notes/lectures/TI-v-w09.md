@@ -57,15 +57,25 @@ ___
 ![[hromkovic-TI.pdf#page=147&rect=42,147,434,198|hromkovic-TI, p.134]]
 
 
-
 ![[hromkovic-TI.pdf#page=148&rect=45,238,440,324|hromkovic-TI, p.135]]
+
 
 
 
 ![[hromkovic-TI.pdf#page=148&rect=43,178,436,206|hromkovic-TI, p.135]]
 
-
 ![[hromkovic-TI.pdf#page=149&rect=42,201,428,237|hromkovic-TI, p.136]]
+
+
+
+$$
+\begin{align}
+\mathrm{KodTM} &= \{ \mathrm{Kod}(M) \mid \text{$M$ is a TM} \} \\
+L_{\mathrm{empty}} &= \{ \mathrm{Kod}(M) \mid L(M) = \varnothing \} \\
+L_{\mathrm{U}} &= \{ \mathrm{Kod}(M)\#w \in \Sigma_{\mathbb{B}}^{*} \mid w \in L(M) \} \\
+L_{\mathrm{H}} &= \{ \mathrm{Kod}(M)\#x \in \Sigma_{\mathbb{B}}^{*} \mid \text{$M$ halts on $x$} \}
+\end{align}
+$$
 
 
 
@@ -87,10 +97,6 @@ ___
 
 ![[hromkovic-TI.pdf#page=153&rect=41,189,435,228|hromkovic-TI, p.140]]
 ![[hromkovic-TI.pdf#page=153&rect=40,116,432,133|hromkovic-TI, p.140]]
-But we have $L_{\mathrm{H}} \in \mathcal{L}_{\mathrm{RE}}$
-
-
-
 
 
 
@@ -100,10 +106,3 @@ But we have $L_{\mathrm{H}} \in \mathcal{L}_{\mathrm{RE}}$
 
 
 ![[hromkovic-TI.pdf#page=158&rect=41,68,466,90|hromkovic-TI, p.145]]
-
-
-
-
-
-
-![[hromkovic-TI.pdf#page=134&rect=39,421,435,450|hromkovic-TI, p.120]]
