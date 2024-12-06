@@ -502,7 +502,7 @@
                     "file": "sem3/A&D/UE/e/A&D-e-u11.pdf",
                     "page": 2,
                     "left": -43,
-                    "top": 26,
+                    "top": 30,
                     "zoom": 0.81
                   },
                   "icon": "lucide-file-text",
@@ -678,7 +678,7 @@
         }
       },
       "active": "62b575bd725abb10",
-      "mtime": "2024-12-04T21:23:32+01:00"
+      "mtime": "2024-12-06T21:06:31+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1640,7 +1640,8 @@
                   },
                   "icon": "lucide-file",
                   "title": "TI-v-w09"
-                }
+                },
+                "group": "4efbcfe36b4fbf35"
               },
               {
                 "id": "35b0ca3fb1412d79",
@@ -1669,6 +1670,20 @@
                   "icon": "lucide-file",
                   "title": "TI-v-w11"
                 }
+              },
+              {
+                "id": "0618e664b0d9b997",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/turing machine (TM).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "turing machine (TM)"
+                }
               }
             ],
             "currentTab": 1
@@ -1684,60 +1699,45 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
-                    "page": 147,
-                    "left": -27,
-                    "top": 45,
-                    "zoom": 1.04
+                    "page": 154,
+                    "left": -10,
+                    "top": 34,
+                    "zoom": 1.11
                   },
                   "icon": "lucide-file-text",
                   "title": "hromkovic-TI"
                 }
               },
               {
-                "id": "7f088385555cec21",
+                "id": "e60c50cf468d17e4",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/nwehrl/TI-nwehrl-w08.pdf",
-                    "page": 30,
+                    "page": 31,
                     "left": -13,
-                    "top": 5,
-                    "zoom": 1.1476309853751465
+                    "top": 263,
+                    "zoom": 1.1476309853751463
                   },
                   "icon": "lucide-file-text",
                   "title": "TI-nwehrl-w08"
                 }
               },
               {
-                "id": "9066f628c6c61a6a",
+                "id": "05717a9087732df2",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/turing machine (TM).md",
-                    "mode": "source",
+                    "file": "sem3/TI/VRL/notes/lectures/TI-v-w09.md",
+                    "mode": "preview",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "turing machine (TM)"
-                }
-              },
-              {
-                "id": "4436fbc862b6b0c8",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/TI/VRL/extra/nwehrl/TI-nwehrl-w09.pdf",
-                    "page": 36,
-                    "left": -38,
-                    "top": 254,
-                    "zoom": 1.04
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "TI-nwehrl-w09"
-                }
+                  "title": "TI-v-w09"
+                },
+                "group": "4efbcfe36b4fbf35"
               },
               {
                 "id": "7e33fc8e899dd63c",
@@ -1771,8 +1771,7 @@
                   "title": "TI-nwehrl-w11"
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "vertical"
@@ -1951,7 +1950,7 @@
         }
       },
       "active": "83981181cbd53f95",
-      "mtime": "2024-12-05T14:44:28+01:00"
+      "mtime": "2024-12-06T21:05:34+01:00"
     }
   },
   "active": "sem3-ti"

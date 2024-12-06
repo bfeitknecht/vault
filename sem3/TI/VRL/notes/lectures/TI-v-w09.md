@@ -15,7 +15,8 @@ Lemma 5.3, $L_{1} \leq_{\mathrm{EE}} L_{2} \implies L_{1} \leq_{\mathrm{R}} L_{2
 
 ___
 
-**Some language definitions**
+## Language Definitions
+
 $$
 \begin{align}
 \mathrm{KodTM} &= \{ \mathrm{Kod}(M) \mid \text{$M$ is a TM} \} \\
@@ -73,9 +74,11 @@ $$
 
 ![[hromkovic-TI.pdf#page=149&rect=42,201,428,237|hromkovic-TI, p.136]]
 
-**A language and its complement recognizable implies language is decidable**
+The decidable languages are proper subset of the recognizable languages.
+$L_{\mathrm{diag}}^{\complement} \in \mathcal{L}_{\mathrm{RE}} - \mathcal{L}_{\mathrm{R}} \implies \mathcal{L}_{\mathrm{R}} \subsetneq \mathcal{L}_{\mathrm{RE}}$
+
+Language and its complement recognizable implies language is decidable.
 $L \in \mathcal{L}_{\mathrm{RE}} \land L^{\complement} \in \mathcal{L}_{\mathrm{RE}} \implies L \in \mathcal{L}_{\mathrm{R}}$
 
-**The decidable languages are a proper subset of the recognizable languages**
-![[hromkovic-TI.pdf#page=150&rect=43,67,439,89|hromkovic-TI, p.137]]
-
+Furthermore, it holds that that a reduction implies deduction about recognizable class membership.
+$L_{1} \leq_{\mathrm{EE}} L_{2} \implies (L_{2} \in \mathcal{L}_{\mathrm{RE}} \implies L_{1} \in \mathcal{L}_{\mathrm{RE}})$
