@@ -60,11 +60,14 @@ ___
 ![[hromkovic-TI.pdf#page=148&rect=45,238,440,324|hromkovic-TI, p.135]]
 
 
-
-
 ![[hromkovic-TI.pdf#page=148&rect=43,178,436,206|hromkovic-TI, p.135]]
 
+
 ![[hromkovic-TI.pdf#page=149&rect=42,201,428,237|hromkovic-TI, p.136]]
+
+
+$L \in \mathcal{L}_{\mathrm{RE}} \land L^{\complement} \in \mathcal{L}_{\mathrm{RE}} \implies L \in \mathcal{L}_{\mathrm{R}}$
+
 
 
 
