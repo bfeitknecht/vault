@@ -17,11 +17,10 @@ ___
 
 
 
-
-
 ```tikz
 \usepackage{amsfonts}
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{tikz}
 \begin{document}
 
@@ -33,18 +32,20 @@ ___
 	\node at (0, 2.) {\Large$\mathcal{L}_{\mathrm{R}}$};
 	\node at (0, 0.75) {\Large$\mathcal{L}_{\mathrm{EA}}$};
 	
-	\node at (0, 0) {$\ldots$};
+	\node at (0, 0) {$\dots$};
 	
 	\node at (-0.25, -1.75) {$\{ 0^{n} 1^{n} \mid n \in \mathbb{N} \}$};
-	\node at (-1.5, 1.25) {$L_{\mathrm{prime}}$};
+	\node at (-1.25, 1.25) {$L_{\mathrm{prime}}$};
 	
 	\node at (2.5, 2) {$L_{\mathrm{H}}$};
 	\node at (-1.75, -2.75) {$L_{\mathrm{U}}$};
-	\node at (-3.0, 1.0) {$L_{\mathrm{diag}}^{\mathsf{C}}$};
+	\node at (-3.0, 1.0) {$L_{\mathrm{diag}}^{\complement}$};
+	\node at (2.25, -2.25) {$L_{\mathrm{empty}}^{\complement}$};
 	
-	\node at (-3.5, 3) {$L_{\mathrm{diag}}$};
-	\node at (3.75, -2.75) {$L_{\mathrm{empty}}$};
-	\node at (3.75, 2.75) {$L_{\mathrm{H}}^{\mathsf{C}}$};
+	\node at (3.75, 2.75) {$L_{\mathrm{H}}^{\complement}$};
+	\node at (-4.25, 1.5) {$L_{\mathrm{diag}}$};
+	\node at (3.75, -3) {$L_{\mathrm{\mathrm{empty}}}$};
+	
 \end{tikzpicture}
 
 \end{document}
