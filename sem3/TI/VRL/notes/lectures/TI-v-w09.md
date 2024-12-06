@@ -19,45 +19,38 @@ ___
 
 
 
-
-language class diagram
 ```tikz
-\usepackage{tikz} 
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{tikz}
 \begin{document}
 
 \begin{tikzpicture}
 	\draw (0,0) circle (3.75);
 	\draw (0,0) circle (2.5);
 	\draw (0,0) circle (1.25);
-	\node at (0, 3.25) {\Large$\mathcal{L}_{RE}$};
-	\node at (0, 2.) {\Large$\mathcal{L}_R$};
-	\node at (0, 0) {\Large$\mathcal{L}_{EA}$};
+	\node at (0, 3.25) {\Large$\mathcal{L}_{\mathrm{RE}}$};
+	\node at (0, 2.) {\Large$\mathcal{L}_{\mathrm{R}}$};
+	\node at (0, 0.75) {\Large$\mathcal{L}_{\mathrm{EA}}$};
 	
-	\node at (-0.25, -1.75) {$\{0^n1^n \,|\, n\in \mathbb{N}\}$};
-	\node at (-3.5, 3) {$L_\text{diag}$};
-	\node at (2.5, 2) {$L_{H}$};
-	\node at (-1.75, -2.75) {$L_U$};
-	\node at (3.75, -2.75) {$L_\text{empty}$};
-	\node at (3.75, 2.75) {$(L_H)^C$};
-	\node at (-1.5, 1.25) {$L_\text{prim}$};
+	\node at (0, 0) {$\ldots$};
+	
+	\node at (-0.25, -1.75) {$\{ 0^{n} 1^{n} \mid n \in \mathbb{N} \}$};
+	\node at (-1.5, 1.25) {$L_{\mathrm{prime}}$};
+	
+	\node at (2.5, 2) {$L_{\mathrm{H}}$};
+	\node at (-1.75, -2.75) {$L_{\mathrm{U}}$};
+	\node at (-3.0, 1.0) {$L_{\mathrm{diag}}^{\mathsf{C}}$};
+	
+	\node at (-3.5, 3) {$L_{\mathrm{diag}}$};
+	\node at (3.75, -2.75) {$L_{\mathrm{empty}}$};
+	\node at (3.75, 2.75) {$L_{\mathrm{H}}^{\mathsf{C}}$};
 \end{tikzpicture}
 
 \end{document}
 ```
 
 
-
-
-useful languages and language classes:
-
-$\mathcal{L}_{\mathrm{R}} = \{  L(M) \mid M\text{, TM that halts on every input}\}$ 
-$L_{\mathrm{H}} = \{ \mathrm{Kod}(M)\#w\in \Sigma^{*}_{\mathbb{B}} \mid M \text{ halts on } w \}$
-
-
-
-
-
-![[hromkovic-TI.pdf#page=152&rect=44,480,428,617|hromkovic-TI, p.139]]
 
 
 ![[hromkovic-TI.pdf#page=147&rect=42,147,434,198|hromkovic-TI, p.134]]

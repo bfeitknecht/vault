@@ -763,7 +763,7 @@
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 144,
                     "left": -23,
-                    "top": 109,
+                    "top": 113,
                     "zoom": 1.21
                   },
                   "icon": "lucide-file-text",
@@ -1009,7 +1009,7 @@
         }
       },
       "active": "951e5b7f3b883935",
-      "mtime": "2024-12-05T14:43:17+01:00"
+      "mtime": "2024-12-06T13:38:08+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1954,5 +1954,5 @@
       "mtime": "2024-12-05T14:44:28+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-ti"
 }
