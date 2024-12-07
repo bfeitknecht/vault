@@ -502,7 +502,7 @@
                     "file": "sem3/A&D/UE/e/A&D-e-u11.pdf",
                     "page": 2,
                     "left": -43,
-                    "top": 30,
+                    "top": 34,
                     "zoom": 0.81
                   },
                   "icon": "lucide-file-text",
@@ -678,7 +678,7 @@
         }
       },
       "active": "62b575bd725abb10",
-      "mtime": "2024-12-06T21:06:31+01:00"
+      "mtime": "2024-12-07T14:16:56+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -763,7 +763,7 @@
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 144,
                     "left": -23,
-                    "top": 113,
+                    "top": 104,
                     "zoom": 1.21
                   },
                   "icon": "lucide-file-text",
@@ -1009,7 +1009,7 @@
         }
       },
       "active": "951e5b7f3b883935",
-      "mtime": "2024-12-06T13:38:08+01:00"
+      "mtime": "2024-12-07T14:16:34+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1063,7 +1063,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "96a399e7d24357db",
@@ -1094,7 +1094,7 @@
                     "file": "sem3/EProg/UE/e/EProg-e-u09.pdf",
                     "page": 5,
                     "left": -19,
-                    "top": 67,
+                    "top": 72,
                     "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
@@ -1270,8 +1270,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "6c63b9e54c33cabb",
-      "mtime": "2024-12-04T17:06:47+01:00"
+      "active": "25e5d66ffc741f13",
+      "mtime": "2024-12-07T14:16:49+01:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1333,7 +1333,7 @@
                     "file": "sem1/LinAlg/VRL/extra/LinAlg-lecture-notes-2.pdf",
                     "page": 4,
                     "left": -18,
-                    "top": 462,
+                    "top": 608,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
@@ -1357,7 +1357,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "740ad403278fbd52",
@@ -1602,8 +1602,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "569c272b75d17b5d",
-      "mtime": "2024-12-03T16:35:37+01:00"
+      "active": "11fafd359e173589",
+      "mtime": "2024-12-07T14:20:06+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1640,8 +1640,7 @@
                   },
                   "icon": "lucide-file",
                   "title": "TI-v-w09"
-                },
-                "group": "4efbcfe36b4fbf35"
+                }
               },
               {
                 "id": "35b0ca3fb1412d79",
@@ -1664,7 +1663,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "sem3/TI/VRL/notes/lectures/TI-v-w11.md",
-                    "mode": "source",
+                    "mode": "preview",
                     "source": false
                   },
                   "icon": "lucide-file",
@@ -1672,7 +1671,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           },
           {
             "id": "3e83adc4c2fac75e",
@@ -1684,26 +1683,14 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf"
+                    "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
+                    "page": 160,
+                    "left": -14,
+                    "top": 7,
+                    "zoom": 1.0929822351014236
                   },
                   "icon": "lucide-file-text",
                   "title": "hromkovic-TI"
-                }
-              },
-              {
-                "id": "e60c50cf468d17e4",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/TI/VRL/extra/nwehrl/TI-nwehrl-w08.pdf",
-                    "page": 31,
-                    "left": -13,
-                    "top": 263,
-                    "zoom": 1.1476309853751463
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "TI-nwehrl-w08"
                 }
               },
               {
@@ -1718,8 +1705,39 @@
                   },
                   "icon": "lucide-file",
                   "title": "TI-v-w09"
-                },
-                "group": "4efbcfe36b4fbf35"
+                }
+              },
+              {
+                "id": "e60c50cf468d17e4",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/TI/VRL/extra/nwehrl/TI-nwehrl-w08.pdf",
+                    "page": 10,
+                    "left": -13,
+                    "top": 225,
+                    "zoom": 1.1476309853751465
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "TI-nwehrl-w08"
+                }
+              },
+              {
+                "id": "06c27d04df36f33b",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/TI/VRL/extra/nwehrl/TI-nwehrl-w09.pdf",
+                    "page": 13,
+                    "left": -8,
+                    "top": 23,
+                    "zoom": 1.17
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "TI-nwehrl-w09"
+                }
               },
               {
                 "id": "7e33fc8e899dd63c",
@@ -1728,9 +1746,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/nwehrl/TI-nwehrl-w10.pdf",
-                    "page": 1,
+                    "page": 11,
                     "left": -97,
-                    "top": 260,
+                    "top": 65,
                     "zoom": 0.8516281807899141
                   },
                   "icon": "lucide-file-text",
@@ -1744,16 +1762,17 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/nwehrl/TI-nwehrl-w11.pdf",
-                    "page": 1,
+                    "page": 2,
                     "left": -13,
-                    "top": 259,
+                    "top": 35,
                     "zoom": 1.1476309853751465
                   },
                   "icon": "lucide-file-text",
                   "title": "TI-nwehrl-w11"
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1927,11 +1946,12 @@
           "obsidian-git:Open Git source control": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "a2ff0320e30502d8",
-      "mtime": "2024-12-07T10:40:30+01:00"
+      "active": "83981181cbd53f95",
+      "mtime": "2024-12-07T14:16:30+01:00"
     }
   },
   "active": "sem3-ti"
