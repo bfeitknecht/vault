@@ -69,11 +69,16 @@ Furthermore, a function $t : \mathbb{N} \to \mathbb{N}$ is called time construct
 1. $\mathrm{Time}_{B}(n) \in O(t)$, the time complexity is bounded by $t$
 2. $\forall n \in \mathbb{N}, x = 0^{n} : B(x) \text{ generates } 0^{n} \text{ on its first working tape and accepts}$
 
+**Lemma 6.5., Lemma 6.4.** Let $s, t$ be a space and a time constructible function respectively. Let $A, B$ be MTM with $\mathrm{Space}_{A}(n) \leq s(|x|)$ and $\mathrm{Time}_{B}(n) \leq t(|x|)$ for all words $x \in L(A), L(B)$. Then there exist MTM $A', B'$ that accept the same language and halt on every input, i.e. the space and time complexity is totally bounded, $\mathrm{Space}_{A'}(n) \leq s(n)$ and $\mathrm{Time}_{B'}(n) \in O(t)$. Proof.
+1. $A'$ constructs $s(|x|)$, writes special symbol at that position on all tapes and rejects if any working tape wants to advance
+2. $B'$ constructs $t(|x|)$ on additional tape and if computation takes longer, abort and reject
+
 
 **Theorem 6.2.** For every function $s$ with $s(n) \geq \log_{2}n$ the following holds.
 $$
 \mathrm{SPACE}(s) \subseteq \bigcup_{c \in \mathbb{N}} \mathrm{TIME}(c^{s(n)})
 $$
+
 
 
 
