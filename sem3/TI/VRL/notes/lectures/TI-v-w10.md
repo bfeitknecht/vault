@@ -79,6 +79,10 @@ $$
 \mathrm{SPACE}(s) \subseteq \bigcup_{c \in \mathbb{N}} \mathrm{TIME}(c^{s(n)})
 $$
 
+**Proof Patterns.**
+
+$L \in \mathcal{L}_{\mathrm{R}}$
+1. 
 
 
 
