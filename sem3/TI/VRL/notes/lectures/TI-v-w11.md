@@ -81,6 +81,8 @@ $$
 $$
 
 
+**Theorem 6.8.** $\mathrm{VP} = \mathrm{NP}$. Proof by double set inclusion.
+
 
 ___
 
