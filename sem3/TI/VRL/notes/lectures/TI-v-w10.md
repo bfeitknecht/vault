@@ -37,7 +37,9 @@ Let $M$ be a kMTM, where $K = (q, x, i, \alpha_{1}, i_{1}, \dots, \alpha_{k}, i_
 
 Notably, the time complexity does not depend on the number of tapes and the space complexity does not depend on the input length.
 
-Lendau Notation
+
+
+**Landau Notation**
 $$
 \begin{align}
 O(f) &= \{ g : \mathbb{N} \to \mathbb{R}_{+} \mid \exists N,c \in \mathbb{N} . \forall n \geq N : g(n) \leq c \cdot f (n) \} \\

@@ -62,6 +62,13 @@ By contraposition both statements are false and the claim thus proven.
 
 ___
 
+**Definition 6.9.** $A$ is $p$-verifier algorithm with $p : \mathbb{N} \to \mathbb{N}$ for language $L \subseteq \Sigma^{*}$, $V(A) = L$ if the following holds for all $(s, w) \in \Sigma^{*} \times \Sigma_{\mathbb{B}}^{*}$.
+1. $\mathrm{Time}_{A}(s, w) \leq p(|s|)$, verification computation for input is bounded by function on length of statement
+2. $\forall s \in L, \exists w \in \Sigma_{\mathbb{B}}^{*} : (s, w) \in L(A), |w| \leq p(|s|)$, for any statement there exists a witness with length bounded by $p$
+3. $\forall c \not\in L $
+
+
+___
 
 The language $L$ is $\mathrm{NP}$-hard, if for every language $L' \in \mathrm{NP}$ it holds that there exists a polynomial reduction $L' \leq_\mathrm{p} L$.
 If $L \in \mathrm{NP}$ then it is said to be $\mathrm{NP}$-complete.
