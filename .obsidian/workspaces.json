@@ -1663,7 +1663,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "sem3/TI/VRL/notes/lectures/TI-v-w11.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
@@ -1671,7 +1671,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "3e83adc4c2fac75e",
@@ -1684,10 +1684,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
-                    "page": 160,
-                    "left": -14,
-                    "top": 7,
-                    "zoom": 1.0929822351014236
+                    "page": 189,
+                    "left": 14,
+                    "top": 620,
+                    "zoom": 1.22
                   },
                   "icon": "lucide-file-text",
                   "title": "hromkovic-TI"
@@ -1714,9 +1714,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/nwehrl/TI-nwehrl-w08.pdf",
-                    "page": 10,
+                    "page": 8,
                     "left": -13,
-                    "top": 225,
+                    "top": 253,
                     "zoom": 1.1476309853751465
                   },
                   "icon": "lucide-file-text",
@@ -1730,9 +1730,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/nwehrl/TI-nwehrl-w09.pdf",
-                    "page": 13,
+                    "page": 17,
                     "left": -8,
-                    "top": 23,
+                    "top": 116,
                     "zoom": 1.17
                   },
                   "icon": "lucide-file-text",
@@ -1748,7 +1748,7 @@
                     "file": "sem3/TI/VRL/extra/nwehrl/TI-nwehrl-w10.pdf",
                     "page": 11,
                     "left": -97,
-                    "top": 65,
+                    "top": 91,
                     "zoom": 0.8516281807899141
                   },
                   "icon": "lucide-file-text",
@@ -1762,17 +1762,16 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/nwehrl/TI-nwehrl-w11.pdf",
-                    "page": 2,
+                    "page": 5,
                     "left": -13,
-                    "top": 35,
-                    "zoom": 1.1476309853751465
+                    "top": 261,
+                    "zoom": 1.1476309853751463
                   },
                   "icon": "lucide-file-text",
                   "title": "TI-nwehrl-w11"
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "vertical"
@@ -1950,9 +1949,9 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "83981181cbd53f95",
-      "mtime": "2024-12-07T14:16:30+01:00"
+      "active": "35b0ca3fb1412d79",
+      "mtime": "2024-12-07T18:22:15+01:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-a&d"
 }

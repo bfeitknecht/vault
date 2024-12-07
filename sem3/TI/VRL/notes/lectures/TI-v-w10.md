@@ -60,8 +60,15 @@ $$
 
 **Lemma 6.3.** for every function $t : \mathbb{N} \to \mathbb{R}_{+}$ it holds that $\mathrm{TIME}(t) \subseteq \mathrm{SPACE}(t)$. Proof. Every MTM $M$ can at most write $\mathrm{Time}_{M}(n)$ symbols on its working tapes. Thus it follows that $\mathrm{Space}_{M}(n) \leq \mathrm{Time}_{M}(n)$.
 
-**Definition 6.6.** A function $s : \mathbb{N} \to \mathbb{N}$ is called space constructible if it is *monotone* and $s(n) \geq \log_{2}(n+1)$. Furthermore, a function $t : \mathbb{N} \to \mathbb{N}$ is called time constructible, if it is *monotone* and  $t(n) \geq n$.
-![[hromkovic-TI.pdf#page=187&rect=39,69,441,236|hromkovic-TI, p.175]]
+
+**Definition 6.6.** A function $s : \mathbb{N} \to \mathbb{N}$ is called space constructible if it is *monotone* and $s(n) \geq \log_{2}(n+1)$. Formally, if there exists 1-MTM $A$ such that the following holds, $s$ is space constructible.
+1. $\mathrm{Space}_{A}(n) \geq s(n)$, the space complexity is bounded by $s$
+2. $\forall n \in \mathbb{N}, x = 0^{n} : A(x) \text{ generates } 0^{s(n)} \text{ on working tape and accepts}$
+
+Furthermore, a function $t : \mathbb{N} \to \mathbb{N}$ is called time constructible, if it is *monotone* and  $t(n) \geq n$. Formally, if there exists a MTM $B$ such that the below holds.
+1. $\mathrm{Time}_{B}(n) \in O(t)$, the time complexity is bounded by $t$
+2. $\forall n \in \mathbb{N}, x = 0^{n} : B(x) \text{ generates } 0^{n} \text{ on its first working tape and accepts}$
+
 
 **Theorem 6.2.** For every function $s$ with $s(n) \geq \log_{2}n$ the following holds.
 $$
