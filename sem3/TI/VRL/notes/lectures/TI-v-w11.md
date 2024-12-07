@@ -60,12 +60,26 @@ $$
 By contraposition both statements are false and the claim thus proven.
 
 
-___
-
 **Definition 6.9.** $A$ is $p$-verifier algorithm with $p : \mathbb{N} \to \mathbb{N}$ for language $L \subseteq \Sigma^{*}$, $V(A) = L$ if the following holds for all $(s, w) \in \Sigma^{*} \times \Sigma_{\mathbb{B}}^{*}$.
 1. $\mathrm{Time}_{A}(s, w) \leq p(|s|)$, verification computation for input is bounded by function on length of statement
 2. $\forall s \in L, \exists w \in \Sigma_{\mathbb{B}}^{*} : (s, w) \in L(A), |w| \leq p(|s|)$, for any statement there exists a witness with length bounded by $p$
-3. $\forall c \not\in L $
+3. $\forall s' \not\in L : (s', w') \not\in L(A) \forall w' \in \Sigma_{\mathbb{B}}^{*}$, no false statement has a witness
+
+It follows that the languages $L(A) \neq V(A)$. Specifically, the verification language is composed of all statements that have a valid witness bounded by $p$.
+$$
+V(A) = \{ s \in \Sigma^{*} \mid \exists w \in \Sigma_{\mathbb{B}}^{*}, |w| \leq p(|s|) : (s, w) \in L(A) \}
+$$
+If $p(n) \in O(n^{c})$ for some $c \in \mathbb{N}$ then we say that $A$ is polynomial time verifier. This gives the definition of polynomial time verifiable languages.
+$$
+\mathrm{VP} = \{ V(A) \mid \text{$A$ is polynomial time verifier} \}
+$$
+
+
+**Example 6.2.** A $k$-clique of a graph $G = (V, E)$ on $n = |V|$ with $k \leq n$ is a complete subgraph on $k$ vertices in $G$.
+$$
+\mathrm{CLIQUE} = \{ x\#y \mid x, y \in \Sigma_{\mathbb{B}}^{*} : \text{$x$ encodes $G_{x}$ which contains $y$-clique}  \}
+$$
+
 
 
 ___
