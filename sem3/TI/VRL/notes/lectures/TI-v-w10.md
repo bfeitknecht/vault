@@ -63,6 +63,11 @@ $$
 **Definition 6.6.** A function $s : \mathbb{N} \to \mathbb{N}$ is called space constructible if it is *monotone* and $s(n) \geq \log_{2}(n+1)$. Furthermore, a function $t : \mathbb{N} \to \mathbb{N}$ is called time constructible, if it is *monotone* and  $t(n) \geq n$.
 ![[hromkovic-TI.pdf#page=187&rect=39,69,441,236|hromkovic-TI, p.175]]
 
+**Theorem 6.2.** For every function $s$ with $s(n) \geq \log_{2}n$ the following holds.
+$$
+\mathrm{SPACE}(s) \subseteq \bigcup_{c \in \mathbb{N}} \mathrm{TIME}(c^{s(n)})
+$$
+
 
 
 
