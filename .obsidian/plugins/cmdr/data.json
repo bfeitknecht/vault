@@ -27,14 +27,14 @@
       "icon": "lucide-pin",
       "name": "Toggle pin",
       "mode": "desktop",
-      "color": "#888888"
+      "color": "#8a8a8a"
     },
     {
       "id": "workspace:toggle-stacked-tabs",
       "icon": "lucide-layers",
       "name": "Toggle stacked tabs",
       "mode": "desktop",
-      "color": "#888888"
+      "color": "#8a8a8a"
     }
   ],
   "macros": [
