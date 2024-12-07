@@ -62,9 +62,6 @@ By contraposition both statements are false and the claim thus proven.
 
 ___
 
-![[TI-nwehrl-w08.pdf#page=32&rect=25,54,381,193|TI-nwehrl-w08, p.29]]
-
-If a language and its complement are recognizable, i.e. have accepting TM then the language is decidable, since we can interleave the two TM which then always halts. Formally, $L \in \mathcal{L}_{\mathrm{RE}} \land L^{\complement} \in \mathcal{L}_{\mathrm{RE}} \iff L \in \mathcal{L}_{\mathrm{R}}$.
 
 The language $L$ is $\mathrm{NP}$-hard, if for every language $L' \in \mathrm{NP}$ it holds that there exists a polynomial reduction $L' \leq_\mathrm{p} L$.
 If $L \in \mathrm{NP}$ then it is said to be $\mathrm{NP}$-complete.

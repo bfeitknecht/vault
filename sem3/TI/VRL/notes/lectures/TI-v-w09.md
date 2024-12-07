@@ -63,6 +63,10 @@ $$
 
 
 
+![[TI-nwehrl-w08.pdf#page=32&rect=25,54,381,193|TI-nwehrl-w08, p.29]]
+
+
+
 ![[hromkovic-TI.pdf#page=147&rect=42,147,434,198|hromkovic-TI, p.134]]
 
 
