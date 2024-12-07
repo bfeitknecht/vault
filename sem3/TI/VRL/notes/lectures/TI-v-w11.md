@@ -60,6 +60,8 @@ $$
 By contraposition both statements are false and the claim thus proven.
 
 
+___
+
 **Definition 6.9.** $A$ is $p$-verifier algorithm with $p : \mathbb{N} \to \mathbb{N}$ for language $L \subseteq \Sigma^{*}$, $V(A) = L$ if the following holds for all $(s, w) \in \Sigma^{*} \times \Sigma_{\mathbb{B}}^{*}$.
 1. $\mathrm{Time}_{A}(s, w) \leq p(|s|)$, verification computation for input is bounded by function on length of statement
 2. $\forall s \in L, \exists w \in \Sigma_{\mathbb{B}}^{*} : (s, w) \in L(A), |w| \leq p(|s|)$, for any statement there exists a witness with length bounded by $p$
@@ -69,7 +71,7 @@ It follows that the languages $L(A) \neq V(A)$. Specifically, the verification l
 $$
 V(A) = \{ s \in \Sigma^{*} \mid \exists w \in \Sigma_{\mathbb{B}}^{*}, |w| \leq p(|s|) : (s, w) \in L(A) \}
 $$
-If $p(n) \in O(n^{c})$ for some $c \in \mathbb{N}$ then we say that $A$ is polynomial time verifier. This gives the definition of polynomial time verifiable languages.
+If $p(n) \in O(n^{k})$ for some $k \in \mathbb{N}$ then we say that $A$ is polynomial time verifier. This gives the definition of polynomial time verifiable languages.
 $$
 \mathrm{VP} = \{ V(A) \mid \text{$A$ is polynomial time verifier} \}
 $$
@@ -81,7 +83,7 @@ $$
 $$
 
 
-**Theorem 6.8.** $\mathrm{VP} = \mathrm{NP}$. Proof by double set inclusion.
+**Theorem 6.8.** $\mathrm{VP} = \mathrm{NP}$. Proof by double set inclusion. Intuitively, the class $\mathrm{NP}$ is all languages $L$ such that for all $x \in L$ there exists a witness $w$ with $|w| \in O(|x|^{k})$ for $k \in \mathbb{N}$ that can be verified in deterministic polynomial time with respect to the input length, $|x|$.
 
 
 ___

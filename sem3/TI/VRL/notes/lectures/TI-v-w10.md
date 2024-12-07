@@ -19,10 +19,17 @@ Let $s : \mathbb{N} \to \mathbb{N}$ be space-constructible. Then for a MTM $M$ t
 
 Similarly for time-constructible, although it takes twice the time. Work backwards. First we have to write the symbol on the working tape and then compute.
 
-
-![[hromkovic-TI.pdf#page=187&rect=39,69,441,236|hromkovic-TI, p.175]]
-
 ___
+
+Asymptotic notation helps us analyze the behavior of functions for very large values.
+$$
+\begin{align}
+O(f) &= \{ g : \mathbb{N} \to \mathbb{R}_{+} \mid \exists N,c \in \mathbb{N} . \forall n \geq N : g(n) \leq c \cdot f (n) \} \\
+\Omega(f) &= \{   g : \mathbb{N}  \to \mathbb{R}_{+} \mid \exists N, c \in \mathbb{N}. \forall n \geq N : c \cdot g(n) \geq f(n)  \} \\
+\Theta(f) &= O(f) \cap \Omega(f)
+\end{align}
+$$
+
 
 Let $M$ be a MTM that always halts, where $C = (K_{i})_{l}$ is the computation of $M$ on $x \in \Sigma_{M}^{*}$.
 
@@ -38,12 +45,30 @@ Let $M$ be a kMTM, where $K = (q, x, i, \alpha_{1}, i_{1}, \dots, \alpha_{k}, i_
 Notably, the time complexity does not depend on the number of tapes and the space complexity does not depend on the input length.
 
 
-
-**Landau Notation**
+The deterministic complexity classes for functions $f, g : \mathbb{N} \to \mathbb{R}_{+}$ are given below. Let $A, B$ be deterministic MTM.
 $$
 \begin{align}
-O(f) &= \{ g : \mathbb{N} \to \mathbb{R}_{+} \mid \exists N,c \in \mathbb{N} . \forall n \geq N : g(n) \leq c \cdot f (n) \} \\
-\Omega(f) &= \{   g : \mathbb{N}  \to \mathbb{R}_{+} \mid \exists N, c \in \mathbb{N}. \forall n \geq N : c \cdot g(n) \geq f(n)  \} \\
-\Theta(f) &= O(f) \cap \Omega(f)
+\mathrm{TIME}(f) &= \{  L(A) \mid \mathrm{Time}_{A}(n) \in O(f) \} \\
+\mathrm{SPACE}(g) &= \{ L(B) \mid \mathrm{Space}_{B}(n) \in O(g) \} \\
+ \\
+\mathrm{L} &= \mathrm{SPACE}(\log_{2}n) \\
+\mathrm{P} &=  \bigcup_{c \in \mathbb{N}} \mathrm{TIME}(n^{c}) \\
+\mathrm{PSPACE} &= \bigcup_{c \in \mathbb{N}} \mathrm{SPACE}(n^{c}) \\
+\mathrm{EXPTIME} &= \bigcup_{d \in \mathbb{N}} \mathrm{TIME}(2^{n^{d}})
+\end{align}
+$$
+
+**Lemma 6.3.** for every function $t : \mathbb{N} \to \mathbb{R}_{+}$ it holds that $\mathrm{TIME}(t) \subseteq \mathrm{SPACE}(t)$. Proof. Every MTM $M$ can at most write $\mathrm{Time}_{M}(n)$ symbols on its working tapes. Thus it follows that $\mathrm{Space}_{M}(n) \leq \mathrm{Time}_{M}(n)$.
+
+**Definition 6.6.** A function $s : \mathbb{N} \to \mathbb{N}$ is called space constructible if it is *monotone* and $s(n) \geq \log_{2}(n+1)$. Furthermore, a function $t : \mathbb{N} \to \mathbb{N}$ is called time constructible, if it is *monotone* and  $t(n) \geq n$.
+![[hromkovic-TI.pdf#page=187&rect=39,69,441,236|hromkovic-TI, p.175]]
+
+
+
+
+The non-deterministic complexity classes are as follows. Let $A, B$ be NMTM.
+$$
+\begin{align}
+\mathrm{NTIME} &= 
 \end{align}
 $$
