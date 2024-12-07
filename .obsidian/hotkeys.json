@@ -256,5 +256,14 @@
       ],
       "key": "B"
     }
+  ],
+  "editor:toggle-strikethrough": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "X"
+    }
   ]
 }

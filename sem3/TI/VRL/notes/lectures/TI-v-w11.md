@@ -30,7 +30,7 @@ $$
 
 > [!warning]+ Study
 > - reductions (EE, R)
-> - language classes (recursive, recursive enumerable)
+> - language classes (decidable, recognizable)
 > - proof of rice's theorem
 > - time and space complexity of TM
 > - time and space complexity classes

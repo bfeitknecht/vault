@@ -1,5 +1,5 @@
 {
-  "cssTheme": "Minimal",
+  "cssTheme": "",
   "interfaceFontFamily": "Helvetica Neue",
   "textFontFamily": "Helvetica Neue",
   "monospaceFontFamily": "CommitMono Nerd Font Mono",
@@ -9,7 +9,8 @@
     "png-white-bg",
     "embed-filename",
     "style-embed",
-    "nowrap-math"
+    "nowrap-math",
+    "hide-view-header"
   ],
   "showViewHeader": true,
   "baseFontSize": 13
