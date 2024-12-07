@@ -29,13 +29,15 @@ $$
 > Aus Kapitel 6 sind insbesondere die Abschnitte 6.2 bis 6.4 (ohne den Satz von Savitch) sowie 6.5 und 6.6 (ohne den Beweis des Satzes von Cook und ohne die Behandlung von Optimierungsproblemen) relevant.
 
 > [!warning]+ Study
-> - reductions (EE, R)
-> - language classes (decidable, recognizable)
-> - proof of rice's theorem
-> - time and space complexity of TM
-> - time and space complexity classes
-> - dito for NTM
-> - space and time constructible function
+> - [x] reductions (EE, R) ✅ 2024-12-07
+> - [x] language classes (decidable, recognizable) ✅ 2024-12-07
+> - [x] definition semantically non-trivial decision problem about TM ✅ 2024-12-07
+> - [ ] proof of rice's theorem
+> - [ ] time and space constructible function
+> - [ ] definition time and space complexity
+> - [ ] deterministic time and space complexity classes
+> - [ ] non-deterministic time and space complexity classes
+
 
 ___
 

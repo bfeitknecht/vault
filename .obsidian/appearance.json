@@ -9,8 +9,7 @@
     "png-white-bg",
     "embed-filename",
     "style-embed",
-    "nowrap-math",
-    "hide-view-header"
+    "nowrap-math"
   ],
   "showViewHeader": true,
   "baseFontSize": 13
