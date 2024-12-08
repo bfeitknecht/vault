@@ -22,10 +22,10 @@ $$
 \mathrm{KodTM} &= \{ \mathrm{Kod}(M) \mid \text{$M$ is a TM} \} \\
 L_{\mathrm{empty}} &= \{ \mathrm{Kod}(M) \mid L(M) = \varnothing \} \\
 L_{\mathrm{U}} &= \{ \mathrm{Kod}(M)\#w \in \Sigma_{\mathbb{B}}^{*} \mid w \in L(M) \} \\
-L_{\mathrm{H}} &= \{ \mathrm{Kod}(M)\#x \in \Sigma_{\mathbb{B}}^{*} \mid \text{$M$ halts on $x$} \}
+L_{\mathrm{H}} &= \{ \mathrm{Kod}(M)\#x \in \Sigma_{\mathbb{B}}^{*} \mid \text{$M$ halts on $x$} \} \\
+L_{\mathrm{prime}} &= \{ 0^{p} \mid p \in \mathbb{P} \}
 \end{align}
 $$
-
 
 ```tikz
 \usepackage{amsfonts}
