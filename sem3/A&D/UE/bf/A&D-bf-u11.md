@@ -30,7 +30,7 @@ Since the edge weights can be negative but it is not possible to construct a neg
 
 Construct a modified graph $G' = (V', E')$ as follows, where a layer corresponds to a unique time step equivalence class. Let $\oplus$ denote addition modulo $n$.
 1. $V' = V \times [n]$, vertices in different layers of the form $(v, t)$, where $v \in V$ and $t \in [n]$
-2. $E' = V \times V \times [n]$, edges between vertices in neighboring layers, $(v_{i}, v_{j}, t)$ where $v_{i}, v_{j} \in V$ and $t \in [n]$, i.e. $(v_{i}', v_{j}') \in E'$ with $v_{i}' = (v_{i}, t)$ and $v_{j}' = (v_{j}, t \oplus 1)$
+2. $E' = V \times V \times [n]$, edges between vertices in neighboring layers, $(v_{i}, v_{j}, t)$ where $v_{i}, v_{j} \in V$ and $t \in [n]$, alternatively understood as $(v_{i}', v_{j}') \in E'$ with $v_{i}' = (v_{i}, t)$ and $v_{j}' = (v_{j}, t \oplus 1)$, edge weights are given by $c_{t}(\{ v_{i}, v_{j} \}) = c_{0}(\{ v_{i \oplus t}, v_{j \oplus t} \})$
 
 Proof of correctness. To show is that the following holds.
 $$
