@@ -32,13 +32,15 @@ Construct a modified graph $G' = (V', E')$ as follows, where a layer corresponds
 1. $V' = V \times [n]$, vertices in different layers of the form $(v, t)$, where $v \in V$ and $t \in [n]$
 2. $E' = V \times V \times [n]$, edges between vertices in neighboring layers, $(v_{i}, v_{j}, t)$ where $v_{i}, v_{j} \in V$ and $t \in [n]$, i.e. $(v_{i}', v_{j}') \in E'$ with $v_{i}' = (v_{i}, t)$ and $v_{j}' = (v_{j}, t \oplus 1)$
 
-Proof of correctness. To show is that the following holds,
+Proof of correctness. To show is that the following holds.
 $$
 \text{Algorithm returns $P$} \iff \text{$P$ is shortest rotating weight path in $G$}
 $$
 
+Assume that our algorithm returns $P$. Then, by the correctness of the bellman ford algorithm, it holds that $P$ is the shortest $v_{0} \leadsto v_{1}$ path in $G$. Then assume some $P$ is the shortest such path in $G$. As there are no negative cycles, the bellman-ford algorithm terminates and our algorithm returns $P$. Hence the correctness of our algorithm is proven.
 
-
+The runtime is given by bellman ford, which runs in $O(nm)$. Substituting for the number of vertices and edges in the modified Graph $G' = (V', E')$ then results in the desired runtime. As there are originally $|V| = n$ vertices and we construct $n$ variants corresponding to the rotation equivalence classes for each, $|V'| = n^{2}$. As there are $|V \times V | = n^{2}$ vertex pairs in the original graph and we construct $n$ edges corresponding to the rotation time equivalence classes, the number of edges is $|E'| = n^{3}$. Thus the described algorithm is bounded by $O(n^{5})$.
+$\square$
 
 <div class="page-break" style="page-break-before: always;"></div>
 
