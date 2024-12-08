@@ -38,18 +38,18 @@ Let $M$ be a MTM that always halts, where $C = (K_{i})_{l}$ is the computation o
 
 Let $M$ be a kMTM, where $K = (q, x, i, \alpha_{1}, i_{1}, \dots, \alpha_{k}, i_{k})$ is a configuration with $i \leq |x| + 1$ and $i_{j} \leq |\alpha_{j \in [k]}|$. Let $C = (K_{i})_{l}$ be the computation of $M$ on the input $x$ as a sequence of configurations.
 
-- space complexity of $K$:				$\mathrm{Space}_{M}(K) = \max\{ |\alpha_{i}| \mid i \in [k] \}$
+- space complexity of configuration $K$:	$\mathrm{Space}_{M}(K) = \max\{ |\alpha_{i}| \mid i \in [k] \}$
 - space complexity of $M$ on input $x$:		$\mathrm{Space}_{M}(x) = \max\{ \mathrm{Space}_{M}(K_{i}) \mid i \in l \}$
 - space complexity *function* of $M$:		$\mathrm{Space}_{M}(n) = \max\{ \mathrm{Space}_{M}(x) \mid x \in \Sigma_{M}^{n} \}$
 
 Notably, the time complexity does not depend on the number of tapes and the space complexity does not depend on the input length.
 
 
-The deterministic complexity classes for functions $f, g : \mathbb{N} \to \mathbb{R}_{+}$ are given below. Let $A, B$ be deterministic MTM.
+The deterministic complexity classes for functions $f, g : \mathbb{N} \to \mathbb{R}_{+}$ are given below. Let $M$ be a deterministic MTM.
 $$
 \begin{align}
-\mathrm{TIME}(f) &= \{  L(A) \mid \mathrm{Time}_{A}(n) \in O(f) \} \\
-\mathrm{SPACE}(g) &= \{ L(B) \mid \mathrm{Space}_{B}(n) \in O(g) \} \\
+\mathrm{TIME}(f) &= \{  L(M) \mid \mathrm{Time}_{M}(n) \in O(f) \} \\
+\mathrm{SPACE}(g) &= \{ L(M) \mid \mathrm{Space}_{M}(n) \in O(g) \} \\
  \\
 \mathrm{L} &= \mathrm{SPACE}(\log_{2}n) \\
 \mathrm{P} &=  \bigcup_{c \in \mathbb{N}} \mathrm{TIME}(n^{c}) \\
@@ -80,10 +80,33 @@ $$
 $$
 Proof. Upper bound on inner configurations.
 
+___
 
-The non-deterministic complexity classes are as follows. Let $A, B$ be NMTM.
+Let $M$ be a NMTM that always halts, where $C = (K_{i})_{l}$ is the computation of $M$ on $x \in L(M) \in \Sigma_{M}^{*}$.
+
+- time complexity of $M$ on input $x$:		length of shortest accepting computation of $M$ on $x$
+- time complexity *function* of $M$:		$\mathrm{Time}_{M}(n) = \max\{ \mathrm{Time}_{M}(x) \mid x \in \Sigma_{M}^{n} \}$
+
+Let $M$ be a NMTM. Let $C = (K_{i})_{l}$ be the computation of $M$ on the input $x$ as a sequence of configurations.
+
+- space complexity of $C$:				$\mathrm{Space}_{M}(C) = \max\{ \mathrm{Space}_{M}(K_{i}) \mid i \in [l] \}$
+- space complexity of $M$ on input $x$:		$\mathrm{Space}_{M}(x) = \max\{ \mathrm{Space}_{M}(C) \mid C \text{ accepting computation of } M \text{ on } x \}$
+- space complexity *function* of $M$:		$\mathrm{Space}_{M}(n) = \max\{ \mathrm{Space}_{M}(x) \mid x \in \Sigma_{M}^{n} \}$
+
+The non-deterministic complexity classes are as follows. Let $M$ be NMTM.
 $$
 \begin{align}
-\mathrm{NTIME} &= 
-\end{align}
+\mathrm{NTIME}(f) &= \{ L(M) \mid \mathrm{Time}_{M}(n) \in O(f) \} \\
+\mathrm{NSPACE}(g) &= \{ L(M) \mid \mathrm{Space}_{M}(n) \in O(g) \} \\
+ \\
+\mathrm{NL} &= \mathrm{NSPACE}(\log_{2}n) \\
+\mathrm{NP} &= \bigcup_{c \in \mathbb{N}} \mathrm{NTIME}(n^{c}) \\
+\mathrm{NPSPACE} &= \bigcup_{c \in \mathbb{N}} \mathrm{NSPACE}(n^{c}) \\
+\end{align} 
 $$
+
+**Lemma 6.6.** For any functions $t$ and $s$ with $s(n) >) \log_{2}(n)$ the following holds.
+1. $\mathrm{NTIME}(t) \subseteq \mathrm{NSPACE}(t)$ Proof. NMTM $M$ space writing power is bounded by time
+2. $\mathrm{NSPACE}(s) \subseteq \bigcup_{c \in N} \mathrm{NTIME}(n^{c})$ Proof. Enumerate inner configurations, pigeonhole contradiction.
+
+
