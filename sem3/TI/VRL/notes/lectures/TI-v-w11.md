@@ -42,6 +42,8 @@ $$
 > - [ ] definition time and space complexity
 > - [ ] deterministic time and space complexity classes
 > - [ ] non-deterministic time and space complexity classes
+> - [ ] polynomial time reduction
+> - [ ] 
 
 
 ___
@@ -50,7 +52,7 @@ ___
 **Definition 6.9.** $A$ is $p$-verifier algorithm with $p : \mathbb{N} \to \mathbb{N}$ for language $L \subseteq \Sigma^{*}$, $V(A) = L$ if the following holds for all $(s, w) \in \Sigma^{*} \times \Sigma_{\mathbb{B}}^{*}$.
 1. $\mathrm{Time}_{A}(s, w) \leq p(|s|)$, verification computation for input is bounded by function on length of statement
 2. $\forall s \in L, \exists w \in \Sigma_{\mathbb{B}}^{*} : (s, w) \in L(A), |w| \leq p(|s|)$, for any statement there exists a witness with length bounded by $p$
-3. $\forall s' \not\in L : (s', w') \not\in L(A) \forall w' \in \Sigma_{\mathbb{B}}^{*}$, no false statement has a witness
+3. $\forall s' \not\in L, \not\exists \in \Sigma_{\mathbb{B}}^{*} : (s', w') \in L(A)$, no false statement has a witness
 
 It follows that the languages $L(A) \neq V(A)$. Specifically, the verification language is composed of all statements that have a valid witness bounded by $p$.
 $$
@@ -79,8 +81,8 @@ If $L \in \mathrm{NP}$ then it is said to be $\mathrm{NP}$-complete.
 
 clique, VC, DS, etc. is important!!
 
-$k\mathrm{SAT}$ is formulae in CNF with clauses of **up to** $k$ literals
-$\mathrm{E}k\mathrm{SAT}$ is formulae in CNF with clauses of **exactly** $k$ **distinct** literals
+$k\mathrm{SAT}$ is formulas in CNF with clauses of **up to** $k$ literals
+$\mathrm{E}k\mathrm{SAT}$ is formulas in CNF with clauses of **exactly** $k$ **distinct** literals
 
 $\mathrm{SAT}$ is important and will *most likely* be on exam
 

@@ -53,6 +53,7 @@ $$
 	\node at (2.25, -2.25) {$L_{\mathrm{empty}}^{\complement}$};
 	
 	\node at (3.75, 2.75) {$L_{\mathrm{H}}^{\complement}$};
+	\node at (-2.5, -3.5) {$L_{\mathrm{U}}^{\complement}$};
 	\node at (-4.25, 1.5) {$L_{\mathrm{diag}}$};
 	\node at (3.75, -3) {$L_{\mathrm{\mathrm{empty}}}$};
 	
@@ -113,7 +114,7 @@ ___
 > [!quote]+ **Proof patterns** for language class membership
 > 
 > $L \in \mathcal{L}_{\mathrm{R}}$
-> 1. **Reduction**. Language $L' \in \mathcal{L}_{\mathrm{R}}$. Prove reduction $L \leq_{\mathrm{R}} L'$. Alternatively prove $L \leq_{\mathrm{EE}} L'$, implies the former.
+> 1. **Reduction**. Language $L' \in \mathcal{L}_{\mathrm{R}}$. Prove $L \leq_{\mathrm{R}} L'$ or $L \leq_{\mathrm{EE}} L'$.
 > 2. **Construction** of TM $M$. Prove $L(M) = L$ and that $L$ always halts.
 > 
 > $L \not\in \mathcal{L}_{\mathrm{R}}$
@@ -126,5 +127,5 @@ ___
 > 
 > $L \not\in \mathcal{L}_{\mathrm{RE}}$
 > 1. **Diagonalization** argument.
-> 2. **Contradiction** argument of the form $L \in \mathcal{L}_{\mathrm{RE}} \land L^{\complement} \in \mathcal{L}_{\mathrm{RE}} \implies L \in \mathcal{L}_{\mathrm{R}}$.
+> 2. **Contradiction** argument of the form $L \in \mathcal{L}_{\mathrm{RE}} \land L^{\complement} \in \mathcal{L}_{\mathrm{RE}} \implies L \in \mathcal{L}_{\mathrm{R}}$ but $L \not\in \mathcal{L}_{\mathrm{R}}$.
 
