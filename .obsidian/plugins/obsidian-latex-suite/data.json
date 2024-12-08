@@ -11,6 +11,7 @@
   "snippetsFileLocation": "var/support/templates/latex-suite",
   "snippetVariablesFileLocation": "var/support/templates/latex-suite",
   "concealEnabled": true,
+  "concealRevealTimeout": 0,
   "colorPairedBracketsEnabled": true,
   "highlightCursorBracketsEnabled": true,
   "mathPreviewEnabled": true,

@@ -78,6 +78,7 @@ Furthermore, a function $t : \mathbb{N} \to \mathbb{N}$ is called time construct
 $$
 \mathrm{SPACE}(s) \subseteq \bigcup_{c \in \mathbb{N}} \mathrm{TIME}(c^{s(n)})
 $$
+Proof. Upper bound on inner configurations.
 
 
 The non-deterministic complexity classes are as follows. Let $A, B$ be NMTM.
