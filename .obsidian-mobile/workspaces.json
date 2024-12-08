@@ -486,31 +486,31 @@
                 }
               },
               {
-                "id": "05e3b28b2311e479",
+                "id": "994b3c02d65c2d6e",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/lectures/DMath-v-w06.md",
+                    "file": "sem3/DMath/VRL/notes/lectures/DMath-v-w11.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "DMath-v-w06"
+                  "title": "DMath-v-w11"
                 }
               },
               {
-                "id": "16cda7fecaa2c390",
+                "id": "7ddca145bb95b36f",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u05.md",
+                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u11.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "DMath-bf-u05"
+                  "title": "DMath-bf-u11"
                 }
               }
             ],
@@ -529,7 +529,7 @@
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 81,
                     "left": 0,
-                    "top": 499,
+                    "top": 435,
                     "zoom": 1.2281659388646287
                   },
                   "icon": "lucide-file-text",
@@ -537,34 +537,21 @@
                 }
               },
               {
-                "id": "06c41ab3b38cef5c",
+                "id": "caad1c1493d5e096",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/relation.md",
+                    "file": "wiki/proof system.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "relation"
-                }
-              },
-              {
-                "id": "87a31ed61ef05fd4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/hasse diagram.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "hasse diagram"
+                  "title": "proof system"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -625,7 +612,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem3/DMath/UE/bf/md/DMath-bf-u05.md",
+                "file": "sem3/DMath/UE/bf/md/DMath-bf-u11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -666,7 +653,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-excalidraw-plugin:Create new drawing": true,
           "switcher:Open quick switcher": true,
           "graph:Open graph view": false,
           "command-palette:Open command palette": true,
@@ -674,11 +660,12 @@
           "workspaces:Manage workspace layouts": false,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "obsidian-excalidraw-plugin:Create new drawing": false
         }
       },
-      "active": "16cda7fecaa2c390",
-      "mtime": "2024-10-26T16:07:30+02:00"
+      "active": "7ddca145bb95b36f",
+      "mtime": "2024-12-08T13:16:56+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1193,5 +1180,5 @@
       "mtime": "2024-10-22T17:49:58+02:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-ti"
 }

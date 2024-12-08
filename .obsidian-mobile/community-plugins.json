@@ -10,5 +10,6 @@
   "obsidian-tasks-plugin",
   "obsidian-excalidraw-plugin",
   "open-in-new-tab",
-  "remember-cursor-position"
+  "remember-cursor-position",
+  "obsidian-tikzjax"
 ]
