@@ -28,11 +28,16 @@ $$
 > 
 > Aus Kapitel 6 sind insbesondere die Abschnitte 6.2 bis 6.4 (ohne den Satz von Savitch) sowie 6.5 und 6.6 (ohne den Beweis des Satzes von Cook und ohne die Behandlung von Optimierungsproblemen) relevant.
 
+> [!info]+ Clarification
+> 1. Ihr dürft die Implikation "L in LRE and L^C in LRE ==> L in LR" an der Prüfung verwenden. Schreibt aber die Implikation hin wenn ihr sie verwendet.  
+> 2. Ihr dürft die Implikation "L1 <=EE L2 ==> (L2 in LRE => L1 in LRE))" auch verwenden. Ihr müsst aber hier auch hinschreiben, dass aus <=EE die Implikation folgt.  
+> 3. Für polynomiale Reduktionen dürft ihr aus dem Buch bekannte Reduktionen als Zwischenschritte verwenden, wenn dies von der Aufgabe erlaubt ist. Achtet auf die Formulierung! Wahrscheinlich wird die Aufgabe so formuliert sein, dass ihr keine Zwischenschritte brauchen dürft.
+
 > [!warning]+ Study
 > - [x] reductions (EE, R) ✅ 2024-12-07
 > - [x] language classes (decidable, recognizable) ✅ 2024-12-07
 > - [x] definition semantically non-trivial decision problem about TM ✅ 2024-12-07
-> - [ ] proof of rice's theorem
+> - [x] proof of rice's theorem ✅ 2024-12-08
 > - [ ] time and space constructible function
 > - [ ] definition time and space complexity
 > - [ ] deterministic time and space complexity classes
@@ -41,10 +46,6 @@ $$
 
 ___
 
-
-
-
-___
 
 **Definition 6.9.** $A$ is $p$-verifier algorithm with $p : \mathbb{N} \to \mathbb{N}$ for language $L \subseteq \Sigma^{*}$, $V(A) = L$ if the following holds for all $(s, w) \in \Sigma^{*} \times \Sigma_{\mathbb{B}}^{*}$.
 1. $\mathrm{Time}_{A}(s, w) \leq p(|s|)$, verification computation for input is bounded by function on length of statement
