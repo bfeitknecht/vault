@@ -92,7 +92,7 @@ $L_{1} \leq_{\mathrm{EE}} L_{2} \implies (L_{2} \in \mathcal{L}_{\mathrm{RE}} \i
 **Definition 5.7.** $L \subseteq \mathrm{KodTM}$ is semantic non-trivial decision problem about TM if the following holds.
 1. $L \neq \varnothing$
 2. $L \neq \mathrm{KodTM}$
-3. For two TM, $A, B$ if $L(A) = L(B)$ then $\mathrm{Kod}(A) \in L \iff \mathrm{Kod}(B) \in L$.
+3. For two TM, $A, B$ if $L(A) = L(B)$ then $\mathrm{Kod}(A) \in L \iff \mathrm{Kod}(B) \in L$
 The last requirement can be interpreted as the set condition of $L$ only applying to the accepted languages, i.e. $L = \{  \mathrm{Kod}(M) \mid L(M)\dots \}$.
 
 
