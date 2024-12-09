@@ -87,3 +87,5 @@ $\mathrm{E}k\mathrm{SAT}$ is formulas in CNF with clauses of **exactly** $k$ **d
 $\mathrm{SAT}$ is important and will *most likely* be on exam
 
 
+$\mathrm{SAT} \leq_{\mathrm{p}} \mathrm{CLIQUE}$:	construct graph by clause wise bubble, edges are clauses in 2SAT
+$\mathrm{CLIQUE} \leq_{\mathrm{p}} \mathrm{VC}$:		
