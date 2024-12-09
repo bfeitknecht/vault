@@ -18,7 +18,5 @@ $$
 Similarly to NFSM, there is also an equivalent [[non-deterministic turing machine (NTM)]] for every TM.
 
 
-
-
 # multi-tape turing machine (MTM)
 ![[multi-tape turing machine (MTM)]]

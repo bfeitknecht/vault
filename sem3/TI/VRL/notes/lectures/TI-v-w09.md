@@ -129,3 +129,6 @@ ___
 > 1. **Diagonalization** argument.
 > 2. **Contradiction** argument of the form $L \in \mathcal{L}_{\mathrm{RE}} \land L^{\complement} \in \mathcal{L}_{\mathrm{RE}} \implies L \in \mathcal{L}_{\mathrm{R}}$ but $L \not\in \mathcal{L}_{\mathrm{R}}$.
 
+
+
+$L_{\Tiny\boxed{\diagdown}}$ 
