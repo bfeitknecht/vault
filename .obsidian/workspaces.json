@@ -1701,7 +1701,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "3e83adc4c2fac75e",
@@ -1713,11 +1713,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
-                    "page": 147,
-                    "left": 26,
-                    "top": 562,
-                    "zoom": 1.22
+                    "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf"
                   },
                   "icon": "lucide-file-text",
                   "title": "hromkovic-TI"
@@ -1975,12 +1971,11 @@
           "obsidian-git:Open Git source control": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true,
-          "obsidian-excalidraw-plugin:Create new drawing": true
+          "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "52840028e2faa28f",
-      "mtime": "2024-12-08T15:38:26+01:00"
+      "active": "a2ff0320e30502d8",
+      "mtime": "2024-12-09T11:19:33+01:00"
     }
   },
   "active": "sem3-ti"
