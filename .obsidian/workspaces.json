@@ -1699,26 +1699,30 @@
                   "icon": "lucide-file",
                   "title": "turing machine (TM)"
                 }
+              },
+              {
+                "id": "f9714564e1477b7a",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "var/other/LATEX.pdf",
+                    "page": 2,
+                    "left": -18,
+                    "top": 774,
+                    "zoom": 0.8743843192065531
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LATEX"
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           },
           {
             "id": "3e83adc4c2fac75e",
             "type": "tabs",
             "children": [
-              {
-                "id": "52840028e2faa28f",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "hromkovic-TI"
-                }
-              },
               {
                 "id": "05717a9087732df2",
                 "type": "leaf",
@@ -1731,6 +1735,22 @@
                   },
                   "icon": "lucide-file",
                   "title": "TI-v-w09"
+                }
+              },
+              {
+                "id": "52840028e2faa28f",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
+                    "page": 320,
+                    "left": 25,
+                    "top": 133,
+                    "zoom": 1.22
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "hromkovic-TI"
                 }
               },
               {
@@ -1756,9 +1776,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/TI/VRL/extra/nwehrl/TI-nwehrl-w09.pdf",
-                    "page": 17,
+                    "page": 20,
                     "left": -8,
-                    "top": 116,
+                    "top": 175,
                     "zoom": 1.17
                   },
                   "icon": "lucide-file-text",
@@ -1774,7 +1794,7 @@
                     "file": "sem3/TI/VRL/extra/nwehrl/TI-nwehrl-w10.pdf",
                     "page": 11,
                     "left": -97,
-                    "top": 91,
+                    "top": 96,
                     "zoom": 0.8516281807899141
                   },
                   "icon": "lucide-file-text",
@@ -1797,7 +1817,8 @@
                   "title": "TI-nwehrl-w11"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1971,12 +1992,13 @@
           "obsidian-git:Open Git source control": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "a2ff0320e30502d8",
-      "mtime": "2024-12-09T11:19:33+01:00"
+      "active": "52840028e2faa28f",
+      "mtime": "2024-12-09T21:55:03+01:00"
     }
   },
-  "active": "sem3-ti"
+  "active": "sem3-dmath"
 }
