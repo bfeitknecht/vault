@@ -14,6 +14,18 @@ Assume $\mathcal{A}(F) = 1$. Let $F' = \forall y P(x, y)$.
 
 Let $F = \lnot(\forall x P(x))$ and $G = \exists x \lnot P(x)$. Let $\mathcal{A}$ be a suitable structure for both $F, G$. Then we show that if $\mathcal{A}$ is a model for $F$, then it's also a model for $G$.
 
+Assume $\mathcal{A}(F) = 1$. Let $F' = \forall x P(x)$. Then it holds that $F = \lnot F'$.
+$$
+\begin{align}
+\mathcal{A}(F) = 1 &\overset{ \ . }{ \iff } \mathcal{A}(\lnot F') = 1 &\text{(def. $F$, sem. $\lnot$)} \\
+&\overset{ \ . }{ \iff } \mathcal{A}(F') = 0 &\text{(sem. $\forall$)} \\
+&\overset{ \ . }{ \iff } \mathcal{A}_{x \to u}(P(u)) = 0 &\text{(sem. $\lnot$)} \\
+&\overset{ \ . }{ \iff } \mathcal{A}_{x \to u}(\lnot P(u)) = 1 &\text{(sem. $\exists$)} \\
+&\overset{ \ . }{ \iff } \mathcal{A}(G) = 1 &\text{(def. $G$)} \\
+\end{align}
+$$
+$\square$
+
 
 
 
