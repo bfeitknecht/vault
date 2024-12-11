@@ -5,9 +5,9 @@ Prove the following statements of predicate logic (definition 6.36.). Do not use
 
 ## a) ![[DMath-e-u12.pdf#page=2&rect=105,314,521,333|DMath-e-u12, p.2]]
 
-Let $F = \exists x \forall y P(x,y)$ be the LHS of the logical consequence to prove and $G = \exists x P(x, f(x))$ be the RHS. Let $\mathcal{A}$ be a suitable interpretation for both $F$ and $G$. It remains to show that if $\mathcal{A}$ is model for $F$ then it's also model for $G$.
+Let $F' = \forall y P(x, y)$. Let $F = \exists x F'$ and $G = \exists s P(x, f(x))$. Let $\mathcal{A}$ be suitable structure for $F, G$.
 
-Assume $\mathcal{A}(F) = 1$. Let $F' = \forall y P(x, y)$. 
+Assume $\mathcal{A}(F) = 1$. 
 
 $$
 \begin{align}
