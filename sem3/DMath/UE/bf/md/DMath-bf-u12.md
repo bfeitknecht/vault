@@ -9,6 +9,15 @@ Let $F = \exists x \forall y P(x,y)$ be the LHS of the logical consequence to pr
 
 Assume $\mathcal{A}(F) = 1$. Let $F' = \forall y P(x, y)$. 
 
+$$
+\begin{align}
+\mathcal{A} (F) = 1 \\
+ \\
+ \\
+\mathcal{A}_{[x \to u][y \to v]}(F) : f(u) = v
+\end{align}
+$$
+
 ## b) ![[DMath-e-u12.pdf#page=2&rect=106,297,522,314|DMath-e-u12, p.2]]
 
 
@@ -19,8 +28,8 @@ $$
 \begin{align}
 \mathcal{A}(F) = 1 &\overset{ \ . }{ \iff } \mathcal{A}(\lnot F') = 1 &\text{(def. $F$, sem. $\lnot$)} \\
 &\overset{ \ . }{ \iff } \mathcal{A}(F') = 0 &\text{(sem. $\forall$)} \\
-&\overset{ \ . }{ \iff } \mathcal{A}_{x \to u}(P(u)) = 0 &\text{(sem. $\lnot$)} \\
-&\overset{ \ . }{ \iff } \mathcal{A}_{x \to u}(\lnot P(u)) = 1 &\text{(sem. $\exists$)} \\
+&\overset{ \ . }{ \iff } \mathcal{A}_{[x \to u]}(P(u)) = 0 &\text{(sem. $\lnot$)} \\
+&\overset{ \ . }{ \iff } \mathcal{A}_{[x \to u]}(\lnot P(u)) = 1 &\text{(sem. $\exists$)} \\
 &\overset{ \ . }{ \iff } \mathcal{A}(G) = 1 &\text{(def. $G$)} \\
 \end{align}
 $$
