@@ -12,7 +12,7 @@ Assume $\mathcal{A}(F) = 1$.
 $$
 \begin{align}
 \mathcal{A} (F) = 1 &\overset{ \ . }{ \iff } \mathcal{A}_{[x \to u]}(F') = 1 \ \text{for some $u$ in $U^{\mathcal{A}}$} \\
-&\overset{ \ . }{ \iff } \mathcal{A}_{[x \to u][y \to v]}(P(x, y)) \ \text{for all $v$ in $U^{\mathcal{A}}$} \\
+&\overset{ \ . }{ \iff } \mathcal{A}_{[x \to u][y \to v]}(P(x, y)) = 1 \ \text{for all $v$ in $U^{\mathcal{A}}$} \\
  \\
 
 
