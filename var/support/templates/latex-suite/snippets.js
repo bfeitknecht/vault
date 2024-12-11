@@ -366,4 +366,5 @@ Insert tabstops for the cursor to jump to by writing "$0", "$1", etc. in the rep
     {trigger: "qacc", replacement: "q_{\\checkmark}", options: "mA"},
     {trigger: "qrej", replacement: "q_{\\mathsf{x}}", options: "mA"},
     {trigger: "cal", replacement: "\\mathcal{$0}", options: "mA"},
+    {trigger: "|=", replacement: "\\models", options: "mA"},
 ]
