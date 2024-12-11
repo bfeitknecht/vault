@@ -14,7 +14,7 @@ $$
 \mathcal{A} (F) = 1 \\
  \\
  \\
-\mathcal{A}_{[x \to u][y \to v]}(F) : f(u) = v
+\mathcal{A}_{[x \to u][y \to v]}(F) \therefore f(u) = v
 \end{align}
 $$
 
