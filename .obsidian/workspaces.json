@@ -433,7 +433,7 @@
         }
       },
       "active": "162e7a61651e562a",
-      "mtime": "2024-12-03T14:24:18+01:00"
+      "mtime": "2024-12-11T08:08:52+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -749,17 +749,17 @@
                 }
               },
               {
-                "id": "951e5b7f3b883935",
+                "id": "4057f32652635722",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u11.md",
+                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u12.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "DMath-bf-u11"
+                  "title": "DMath-bf-u12"
                 }
               }
             ],
@@ -778,8 +778,8 @@
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 144,
-                    "left": -23,
-                    "top": 104,
+                    "left": -4,
+                    "top": 108,
                     "zoom": 1.21
                   },
                   "icon": "lucide-file-text",
@@ -808,12 +808,28 @@
                   "state": {
                     "file": "sem3/DMath/UE/e/DMath-e-u11.pdf",
                     "page": 2,
-                    "left": -18,
-                    "top": 816,
+                    "left": -4,
+                    "top": 842,
                     "zoom": 0.8958029552678087
                   },
                   "icon": "lucide-file-text",
                   "title": "DMath-e-u11"
+                }
+              },
+              {
+                "id": "a9a4683d993937b1",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/DMath/UE/e/DMath-e-u12.pdf",
+                    "page": 2,
+                    "left": -18,
+                    "top": 687,
+                    "zoom": 0.8958029552678087
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "DMath-e-u12"
                 }
               },
               {
@@ -846,7 +862,8 @@
                   "title": "DMath-cheatsheet-bs"
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1024,8 +1041,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "951e5b7f3b883935",
-      "mtime": "2024-12-07T14:16:34+01:00"
+      "active": "4057f32652635722",
+      "mtime": "2024-12-10T19:53:29+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1093,32 +1110,15 @@
                   "state": {
                     "file": "sem3/EProg/VRL/extra/slides/EProg-slides-w04.pdf",
                     "page": 49,
-                    "left": -27,
-                    "top": 106,
+                    "left": -135,
+                    "top": 110,
                     "zoom": 0.5572916666666667
                   },
                   "icon": "lucide-file-text",
                   "title": "EProg-slides-w04"
                 }
-              },
-              {
-                "id": "6c63b9e54c33cabb",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/EProg/UE/e/EProg-e-u09.pdf",
-                    "page": 5,
-                    "left": -19,
-                    "top": 72,
-                    "zoom": 0.8504901960784313
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "EProg-e-u09"
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1287,7 +1287,7 @@
         }
       },
       "active": "25e5d66ffc741f13",
-      "mtime": "2024-12-07T14:16:49+01:00"
+      "mtime": "2024-12-11T08:07:46+01:00"
     },
     "sem3-linalg": {
       "main": {

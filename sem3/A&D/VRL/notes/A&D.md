@@ -17,7 +17,8 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 
 # Info
 
-- [ ] theory exercise 🔁 every week 📅 2024-12-08
+- [ ] theory exercise 🔁 every week 📅 2024-12-15
+- [x] theory exercise 🔁 every week 📅 2024-12-08 ✅ 2024-12-11
 - [x] theory exercise 🔁 every week 📅 2024-12-01 ✅ 2024-12-02
 - [x] theory exercise 🔁 every week 📅 2024-11-24 ✅ 2024-11-28
 - [x] theory exercise 🔁 every week 📅 2024-11-17 ✅ 2024-11-16
@@ -28,7 +29,8 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 - [x] theory exercise 🔁 every week 📅 2024-10-13 ✅ 2024-10-14
 - [x] theory exercise 🔁 every week 📅 2024-10-06 ✅ 2024-10-04
 - [x] theory exercise 🔁 every week 📅 2024-09-29 ✅ 2024-09-27
-- [ ] peer grading 🔁 every week 📅 2024-12-09
+- [ ] peer grading 🔁 every week 📅 2024-12-16
+- [x] peer grading 🔁 every week 📅 2024-12-09 ✅ 2024-12-11
 - [x] peer grading 🔁 every week 📅 2024-12-02 ✅ 2024-12-02
 - [x] peer grading 🔁 every week 📅 2024-11-25 ✅ 2024-11-28
 - [x] peer grading 🔁 every week 📅 2024-11-18 ✅ 2024-11-19
@@ -39,7 +41,8 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 - [x] peer grading 🔁 every week 📅 2024-10-14 ✅ 2024-10-09
 - [x] peer grading 🔁 every week 📅 2024-10-07 ✅ 2024-10-08
 - [x] peer grading 🔁 every week 📅 2024-09-30 ✅ 2024-09-30
-- [ ] moodle quiz 🔁 every week 📅 2024-12-09
+- [ ] moodle quiz 🔁 every week 📅 2024-12-16
+- [x] moodle quiz 🔁 every week 📅 2024-12-09 ✅ 2024-12-11
 - [x] moodle quiz 🔁 every week 📅 2024-12-02 ✅ 2024-12-02
 - [x] moodle quiz 🔁 every week 📅 2024-11-25 ✅ 2024-11-28
 - [x] moodle quiz 🔁 every week 📅 2024-11-18 ✅ 2024-11-18
@@ -50,7 +53,8 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 - [x] moodle quiz 🔁 every week 📅 2024-10-14 ✅ 2024-10-15
 - [-] moodle quiz 🔁 every week 📅 2024-10-07 ❌ 2024-10-07
 - [x] moodle quiz 🔁 every week 📅 2024-09-30 ✅ 2024-09-30
-- [ ] code expert 🔁 every 2 weeks 📅 2024-12-06
+- [ ] code expert 🔁 every 2 weeks 📅 2024-12-20
+- [x] code expert 🔁 every 2 weeks 📅 2024-12-06 ✅ 2024-12-11
 - [x] code expert 🔁 every 2 weeks 📅 2024-11-22 ✅ 2024-11-28
 - [x] code expert 🔁 every 2 weeks 📅 2024-11-08 ✅ 2024-11-13
 - [x] code expert 🔁 every 2 weeks 📅 2024-10-25 ✅ 2024-10-26

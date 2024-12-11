@@ -3,7 +3,9 @@ Introduction to programming with Java.
 
 # Info
 
-- [ ] exercise sheet 🔁 every week 📅 2024-12-03
+- [ ] exercise sheet 🔁 every week 📅 2024-12-17
+- [x] exercise sheet 🔁 every week 📅 2024-12-10 ✅ 2024-12-11
+- [x] exercise sheet 🔁 every week 📅 2024-12-03 ✅ 2024-12-11
 - [x] exercise sheet 🔁 every week 📅 2024-11-26 ✅ 2024-11-28
 - [-] exercise sheet 🔁 every week 📅 2024-11-19 ❌ 2024-11-19
 - [x] exercise sheet 🔁 every week 📅 2024-11-12 ✅ 2024-11-13
