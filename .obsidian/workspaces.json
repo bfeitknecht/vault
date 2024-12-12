@@ -500,10 +500,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/A&D/UE/e/A&D-e-u12.pdf",
-                    "page": 1,
+                    "page": 3,
                     "left": -18,
-                    "top": 163,
-                    "zoom": 0.874384319206553
+                    "top": 737,
+                    "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-e-u12"
@@ -694,7 +694,7 @@
         }
       },
       "active": "62b575bd725abb10",
-      "mtime": "2024-12-12T09:32:28+01:00"
+      "mtime": "2024-12-12T14:40:09+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1925,5 +1925,5 @@
       "mtime": "2024-12-11T15:01:46+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-dmath"
 }

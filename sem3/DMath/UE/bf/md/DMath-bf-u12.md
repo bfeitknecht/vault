@@ -5,9 +5,15 @@ Prove the following statements of predicate logic (definition 6.36.). Do not use
 
 ## a) ![[DMath-e-u12.pdf#page=2&rect=105,314,521,333|DMath-e-u12, p.2]]
 
-Let $F' = \forall y P(x, y)$. Let $F = \exists x F'$ and $G = \exists s P(x, f(x))$. Let $\mathcal{A}$ be suitable structure for $F, G$.
+Let $F' = \forall y P(x, y)$. Let $F = \exists x F'$ and $G = \exists x P(x, f(x))$. Let $\mathcal{A}$ be suitable structure for $F, G$. Assume $\mathcal{A}(F) = 1$. 
 
-Assume $\mathcal{A}(F) = 1$. 
+$$
+\begin{align}
+\mathcal{A}(F) = 1 &\overset{ \ . }{ \iff } \mathcal{A}(\exists x F') = 1 &\text{(def. $F$, sem. $\forall$)} \\
+
+\end{align}
+$$
+
 
 $$
 \begin{align}
@@ -25,16 +31,15 @@ $$
 ## b) ![[DMath-e-u12.pdf#page=2&rect=106,297,522,314|DMath-e-u12, p.2]]
 
 
-Let $F = \lnot(\forall x P(x))$ and $G = \exists x \lnot P(x)$. Let $\mathcal{A}$ be a suitable structure for both $F, G$. Then we show that if $\mathcal{A}$ is a model for $F$, then it's also a model for $G$.
-
-Assume $\mathcal{A}(F) = 1$. Let $F' = \forall x P(x)$. Then it holds that $F = \lnot F'$.
+Let $F' = \forall x P(x)$. Then, let $F = \lnot F'$ and $G = \exists x \lnot P(x)$. Let $\mathcal{A}$ be a suitable structure for both $F, G$. Then we show that if $\mathcal{A}$ is a model for $F$, it's also a model for $G$. Assume $\mathcal{A}(F) = 1$.
 $$
 \begin{align}
 \mathcal{A}(F) = 1 &\overset{ \ . }{ \iff } \mathcal{A}(\lnot F') = 1 &\text{(def. $F$, sem. $\lnot$)} \\
 &\overset{ \ . }{ \iff } \mathcal{A}(F') = 0 &\text{(sem. $\forall$)} \\
-&\overset{ \ . }{ \iff } \mathcal{A}_{[x \to u]}(P(u)) = 0 &\text{(sem. $\lnot$)} \\
-&\overset{ \ . }{ \iff } \mathcal{A}_{[x \to u]}(\lnot P(u)) = 1 &\text{(sem. $\exists$)} \\
-&\overset{ \ . }{ \iff } \mathcal{A}(G) = 1 &\text{(def. $G$)} \\
+&\overset{ \ . }{ \iff } \mathcal{A}_{[x \to u]}(P(u)) = 0 \ \text{for all $u$ in $U^{\mathcal{A}}$} &\text{(sem. $\lnot$)} \\
+&\overset{ \ . }{ \iff } \mathcal{A}_{[x \to u]}(\lnot P(u)) = 1 \ \text{for some $u$ in $U^{\mathcal{A}}$} &\text{(sem. $\exists$)} \\
+&\overset{ \ . }{ \iff } \mathcal{A}(\exists x \lnot P(x)) = 1 &\text{(def. $G$)} \\
+&\overset{ \ . }{ \iff } \mathcal{A}(G) = 1
 \end{align}
 $$
 $\square$
