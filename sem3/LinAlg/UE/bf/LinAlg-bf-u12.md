@@ -7,5 +7,5 @@
 
 
 
-Let $\mathbf{v}_{0} = \begin{bmatrix} a_{1} \\ a_{0} \end{bmatrix}$, let 
+Let $\mathbf{v}_{0} = \begin{bmatrix} a_{1} \\ a_{0} \end{bmatrix}$.
 

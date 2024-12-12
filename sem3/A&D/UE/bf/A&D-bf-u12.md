@@ -1,9 +1,6 @@
 
 
-# 12.1		MST Practice
-
-Consider the following graph.
-![[A&D-e-u12.pdf#page=1&rect=70,315,530,509|A&D-e-u12, p.1]]
+# 12.1		MST Practice ![[A&D-e-u12.pdf#page=1&rect=69,316,531,527|A&D-e-u12, p.1]]
 
 ## (a) ![[A&D-e-u12.pdf#page=1&rect=83,279,531,308|A&D-e-u12, p.1]]
 
@@ -22,9 +19,8 @@ Consider the following graph.
 ## (a) ![[A&D-e-u12.pdf#page=2&rect=85,473,532,506|A&D-e-u12, p.2]]
 
 
+
 ![[A&D-e-u12.pdf#page=2&rect=66,427,533,471|A&D-e-u12, p.2]]
-
-
 ## (b) ![[A&D-e-u12.pdf#page=2&rect=87,408,534,425|A&D-e-u12, p.2]]
 
 Hint: repeatedly apply (a)

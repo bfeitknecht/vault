@@ -1,4 +1,3 @@
-#todo 
 
 A **vector subspace** or **linear subspace** $U$ of a [[vector space]] $V$ is a non-empty [[subset]] of $V$ that exhibits [[closure]] under [[vector addition]] and [[scalar multiplication]], i.e. the sum of two elements of $U$ and the product of an element  of $U$ by a scalar belongs to $U$. This implies that every [[linear combination]] of elements of $U$ belongs to $U$.
 
