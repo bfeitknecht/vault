@@ -12,9 +12,9 @@ $$
 &\overset{ \ . }{ \iff } \mathcal{A}_{[x \to u]}(F') = 1 \ \text{for some $u$ in $U^{\mathcal{A}}$} &\text{(sem. $\forall$)} \\
 &\overset{ \ . }{ \iff } \mathcal{A}_{[x \to u][y \to v]}(P(x,y)) = 1 \ \text{for some $u$ in $U^{\mathcal{A}}$, for all $v$ in $U^{\mathcal{A}}$} &(f(u) = v) \\
 &\overset{ \ \ . }{ \implies } \mathcal{A}_{[x \to u][y \to f(u)]}(P(x,y)) = 1 \ \text{for some $u$ in $U^{\mathcal{A}}$} &\text{(sem. $\exists$)} \\
-&\overset{ \ . }{ \iff } \mathcal{A}_{[y / f(x)]}(\exists x P(x,f(x))) = 1 &\text{(def. $G$)} \\
+&\overset{ \ . }{ \iff } \mathcal{A}_{[y \to f(x)]}(\exists x P(x,y)) = 1 &\text{(sub. $y$)} \\
 &\overset{ \ . }{ \iff } \mathcal{A}(\exists x P(x,f(x))) = 1 &\text{(def. $G$)} \\
-&\overset{ \ . }{ \iff } \mathcal{A}(G) = 1 &\text{(def. $G$)}
+&\overset{ \ . }{ \iff } \mathcal{A}(G) = 1
 \end{align}
 $$
 $\square$
@@ -29,11 +29,12 @@ $$
 &\overset{ \ . }{ \iff } \mathcal{A}(F') = 0 &\text{(sem. $\forall$)} \\
 &\overset{ \ . }{ \iff } \mathcal{A}_{[x \to u]}(P(x)) = 0 \ \text{for all $u$ in $U^{\mathcal{A}}$} &\text{(sem. $\lnot$)} \\
 &\overset{ \ . }{ \iff } \mathcal{A}_{[x \to u]}(\lnot P(x)) = 1 \ \text{for some $u$ in $U^{\mathcal{A}}$} &\text{(sem. $\exists$)} \\
-&\overset{ \ . }{ \iff } \mathcal{A}(\exists x \lnot P(x)) = 1 &\text{(def. $G$)} \\
+&\overset{ \ \ . }{ \implies } \mathcal{A}(\exists x \lnot P(x)) = 1 &\text{(def. $G$)} \\
 &\overset{ \ . }{ \iff } \mathcal{A}(G) = 1
 \end{align}
 $$
 $\square$
+
 
 
 
