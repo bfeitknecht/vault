@@ -9,12 +9,6 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 - [ ] download rui zhang summaries
 - [ ] 
 
-
-
-
-
-
-
 # Info
 
 - [ ] theory exercise 🔁 every week 📅 2024-12-15
