@@ -1296,20 +1296,6 @@
                 }
               },
               {
-                "id": "74ed379c6f338894",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/LinAlg/VRL/notes/lectures/LinAlg-v-w09.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "LinAlg-v-w09"
-                }
-              },
-              {
                 "id": "11fafd359e173589",
                 "type": "leaf",
                 "state": {
@@ -1324,35 +1310,33 @@
                 }
               },
               {
+                "id": "6cb2cfc7aa689be5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/LinAlg-v-w11.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "LinAlg-v-w11"
+                }
+              },
+              {
                 "id": "569c272b75d17b5d",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem1/LinAlg/VRL/extra/LinAlg-lecture-notes-2.pdf",
-                    "page": 4,
+                    "page": 3,
                     "left": -18,
-                    "top": 608,
+                    "top": 817,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-lecture-notes-2"
-                }
-              },
-              {
-                "id": "5e54da7b3d613b5b",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "var/other/LATEX.pdf",
-                    "page": 1,
-                    "left": 58,
-                    "top": 772,
-                    "zoom": 1.08
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "LATEX"
                 }
               }
             ],
@@ -1363,77 +1347,37 @@
             "type": "tabs",
             "children": [
               {
-                "id": "6b1ed16e11649665",
+                "id": "3e292209c8388064",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "pdf",
                   "state": {
-                    "file": "wiki/polyhedron.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "sem3/LinAlg/UE/e/LinAlg-e-u12.pdf",
+                    "page": 1,
+                    "left": 89,
+                    "top": 377,
+                    "zoom": 1.08
                   },
-                  "icon": "lucide-file",
-                  "title": "polyhedron"
+                  "icon": "lucide-file-text",
+                  "title": "LinAlg-e-u12"
                 }
               },
               {
-                "id": "7c680414d80a68ec",
+                "id": "f9e7c1451318da30",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/orthonormal basis.md",
+                    "file": "sem3/LinAlg/UE/bf/LinAlg-bf-u12.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "orthonormal basis"
-                }
-              },
-              {
-                "id": "c4d416dad2ef767d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/vector space.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "vector space"
-                }
-              },
-              {
-                "id": "051d0e543fd48cd0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/vector subspace.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "vector subspace"
-                }
-              },
-              {
-                "id": "429cd84a1c1b2205",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/matrix decompositions.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "matrix decompositions"
+                  "title": "LinAlg-bf-u12"
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1601,8 +1545,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "11fafd359e173589",
-      "mtime": "2024-12-07T14:20:06+01:00"
+      "active": "6cb2cfc7aa689be5",
+      "mtime": "2024-12-12T09:15:14+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1967,5 +1911,5 @@
       "mtime": "2024-12-11T15:01:46+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-a&d"
 }
