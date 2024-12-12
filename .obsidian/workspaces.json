@@ -502,7 +502,7 @@
                     "file": "sem3/A&D/UE/e/A&D-e-u12.pdf",
                     "page": 3,
                     "left": -18,
-                    "top": 742,
+                    "top": 747,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
@@ -693,8 +693,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "e8f3f4c1552f865d",
-      "mtime": "2024-12-12T15:40:18+01:00"
+      "active": "62b575bd725abb10",
+      "mtime": "2024-12-12T16:29:52+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -777,9 +777,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 166,
+                    "page": 170,
                     "left": -12,
-                    "top": 24,
+                    "top": 462,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -1010,8 +1010,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "6cded826760a3d75",
-      "mtime": "2024-12-12T15:35:56+01:00"
+      "active": "4057f32652635722",
+      "mtime": "2024-12-12T16:33:29+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1911,5 +1911,5 @@
       "mtime": "2024-12-11T15:01:46+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-a&d"
 }
