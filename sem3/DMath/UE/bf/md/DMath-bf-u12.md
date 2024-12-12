@@ -6,27 +6,18 @@ Prove the following statements of predicate logic (definition 6.36.). Do not use
 ## a) ![[DMath-e-u12.pdf#page=2&rect=105,314,521,333|DMath-e-u12, p.2]]
 
 Let $F' = \forall y P(x, y)$. Let $F = \exists x F'$ and $G = \exists x P(x, f(x))$. Let $\mathcal{A}$ be suitable structure for $F, G$. Assume $\mathcal{A}(F) = 1$. 
-
 $$
 \begin{align}
-\mathcal{A}(F) = 1 &\overset{ \ . }{ \iff } \mathcal{A}(\exists x F') = 1 &\text{(def. $F$, sem. $\forall$)} \\
-
+\mathcal{A}(F) = 1 &\overset{ \ . }{ \iff } \mathcal{A}(\exists x F') = 1 &\text{(def. $F$, sem. $\exists$)} \\
+&\overset{ \ . }{ \iff } \mathcal{A}_{[x \to u]}(F') = 1 \ \text{for some $u$ in $U^{\mathcal{A}}$} &\text{(sem. $\forall$)} \\
+&\overset{ \ . }{ \iff } \mathcal{A}_{[x \to u][y \to v]}(P(x,y)) = 1 \ \text{for some $u$ in $U^{\mathcal{A}}$, for all $v$ in $U^{\mathcal{A}}$} &(f(u) = v) \\
+&\overset{ \ . }{ \iff } \mathcal{A}_{[x \to u][y \to f(u)]}(P(x,y)) = 1 \ \text{for some $u$ in $U^{\mathcal{A}}$} &\text{(sem. $\exists$)} \\
+&\overset{ \ . }{ \iff } \mathcal{A}_{[y / f(x)]}(\exists x P(x,f(x))) = 1 &\text{(def. $G$)} \\
+&\overset{ \ . }{ \iff } \mathcal{A}(\exists x P(x,f(x))) = 1 &\text{(def. $G$)} \\
+&\overset{ \ . }{ \iff } \mathcal{A}(G) = 1 &\text{(def. $G$)}
 \end{align}
 $$
-
-
-$$
-\begin{align}
-\mathcal{A} (F) = 1 &\overset{ \ . }{ \iff } \mathcal{A}_{[x \to u]}(F') = 1 \ \text{for some $u$ in $U^{\mathcal{A}}$} \\
-&\overset{ \ . }{ \iff } \mathcal{A}_{[x \to u][y \to v]}(P(x, y)) = 1 \ \text{for all $v$ in $U^{\mathcal{A}}$} \\
- \\
-
-
-
-\mathcal{A}_{[x \to u][y \to v]}(F) \therefore f(u) = v \\
-\mathcal{A}_{[y / f(x)]}(F)
-\end{align}
-$$
+$\square$
 
 ## b) ![[DMath-e-u12.pdf#page=2&rect=106,297,522,314|DMath-e-u12, p.2]]
 
