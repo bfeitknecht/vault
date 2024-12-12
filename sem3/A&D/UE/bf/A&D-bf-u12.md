@@ -26,7 +26,7 @@
 
 ## (a) ![[A&D-e-u12.pdf#page=2&rect=85,473,532,506|A&D-e-u12, p.2]]
 
-Let $e_{1} \in T_{1} - T_{2}$ and $e_{2} \in T_{2} - T_{1}$ be two edges in the respective set differences of the two MST. Furthermore, let $F_{1} = T_{1} - \{ e_{1} \}$ and $F_{2} = T_{2} - \{ e_{2} \}$ be the two forests resulting from removing the aforementioned edges from the two MST, thus disconnecting them. Then consider $T_{1}' = F_{1} \cup \{ e_{2} \}$ and $T_{2}' = F_{2} \cup \{  e_{1} \}$.
+Let $e_{1} \in T_{1} - T_{2}$ be an edge in the respective set difference of the two MST. Then we prove that  Furthermore, let $F_{1} = T_{1} - \{ e_{1} \}$ and $F_{2} = T_{2} - \{ e_{2} \}$ be the two forests resulting from removing the aforementioned edges from the two MST, thus disconnecting them. Then consider $T_{1}' = F_{1} \cup \{ e_{2} \}$ and $T_{2}' = F_{2} \cup \{  e_{1} \}$.
 
 
 
