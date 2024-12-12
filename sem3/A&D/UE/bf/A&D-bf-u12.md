@@ -26,6 +26,7 @@
 
 ## (a) ![[A&D-e-u12.pdf#page=2&rect=85,473,532,506|A&D-e-u12, p.2]]
 
+Let $e_{1} \in T_{1} - T_{2}$ and $e_{2} \in T_{2} - T_{1}$ be two edges in the respective set differences of the two MST. Furthermore, let $F_{1} = T_{1} - \{ e_{1} \}$ and $F_{2} = T_{2} - \{ e_{2} \}$ be the two forests resulting from removing the aforementioned edges from the two MST, thus disconnecting them. Then consider $T_{1}' = F_{1} \cup \{ e_{2} \}$ and $T_{2}' = F_{2} \cup \{  e_{1} \}$. Let $e_{1} = \{ a_{1}, b_{1} \}$
 
 
 ![[A&D-e-u12.pdf#page=2&rect=66,427,533,471|A&D-e-u12, p.2]]
@@ -43,12 +44,12 @@ Hint: Follow the proof for (b) analyze the weights of the new spanning trees pro
 
 # 12.5		Heavy and Light Edges ![[A&D-e-u12.pdf#page=3&rect=66,317,529,395|A&D-e-u12, p.3]]
 
-
-
 ## (a) ![[A&D-e-u12.pdf#page=3&rect=86,296,528,313|A&D-e-u12, p.3]]
 
 Assume for contradiction that $T \subseteq E$ is an MST which contains a heavy edge $e$. Then there exists a cycle $C \subseteq E$ such that $\forall e' \in C - \{ e \} : w_{e} > w_{e'}$. 
 
 
 ![[A&D-e-u12.pdf#page=3&rect=84,248,528,293|A&D-e-u12, p.3]]
+
+
 
