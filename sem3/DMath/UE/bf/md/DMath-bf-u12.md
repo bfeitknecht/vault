@@ -37,10 +37,11 @@ $\square$
 
 
 
-
+%% 
 ![[dmath-script-hs24.pdf#page=151&rect=36,461,389,576|dmath-script-hs24, p.141]]
 ![[dmath-script-hs24.pdf#page=152&rect=35,446,390,517|dmath-script-hs24, p.142]]
 ![[dmath-script-hs24.pdf#page=168&rect=35,275,389,486|dmath-script-hs24, p.158]]
 ![[dmath-script-hs24.pdf#page=169&rect=35,407,389,434|dmath-script-hs24, p.159]]
 
 ![[dmath-script-hs24.pdf#page=170&rect=36,50,389,312|dmath-script-hs24, p.160]]
+ %%
