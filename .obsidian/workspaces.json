@@ -502,7 +502,7 @@
                     "file": "sem3/A&D/UE/e/A&D-e-u12.pdf",
                     "page": 3,
                     "left": -18,
-                    "top": 737,
+                    "top": 742,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
@@ -693,8 +693,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "62b575bd725abb10",
-      "mtime": "2024-12-12T14:40:09+01:00"
+      "active": "e8f3f4c1552f865d",
+      "mtime": "2024-12-12T15:40:18+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1911,5 +1911,5 @@
       "mtime": "2024-12-11T15:01:46+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-dmath"
 }
