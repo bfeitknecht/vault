@@ -485,6 +485,22 @@
                   "icon": "lucide-file",
                   "title": "A&D-bf-u12"
                 }
+              },
+              {
+                "id": "64c8990774c0e19e",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "var/other/LATEX.pdf",
+                    "page": 2,
+                    "left": -91,
+                    "top": 463,
+                    "zoom": 0.71
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LATEX"
+                }
               }
             ],
             "currentTab": 2
@@ -500,9 +516,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/A&D/UE/e/A&D-e-u12.pdf",
-                    "page": 3,
+                    "page": 2,
                     "left": -18,
-                    "top": 751,
+                    "top": 685,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
@@ -694,7 +710,7 @@
         }
       },
       "active": "62b575bd725abb10",
-      "mtime": "2024-12-13T08:45:14+01:00"
+      "mtime": "2024-12-13T13:40:22+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1445,8 +1461,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1546,7 +1561,7 @@
         }
       },
       "active": "6cb2cfc7aa689be5",
-      "mtime": "2024-12-12T10:14:39+01:00"
+      "mtime": "2024-12-13T13:42:39+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1911,5 +1926,5 @@
       "mtime": "2024-12-13T10:20:57+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-eprog"
 }
