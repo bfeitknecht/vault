@@ -49,10 +49,5 @@ $\square$
 
 ## (a) ![[A&D-e-u12.pdf#page=3&rect=86,296,528,313|A&D-e-u12, p.3]]
 
-Assume for contradiction that $T \subseteq E$ is an MST which contains a heavy edge $e$. Then there exists a cycle $C \subseteq E$ such that $\forall e' \in C - \{ e \} : w_{e} > w_{e'}$. 
-
-
-![[A&D-e-u12.pdf#page=3&rect=84,248,528,293|A&D-e-u12, p.3]]
-
-
-
+Assume for contradiction that $T \subseteq E$ is an MST which contains a heavy edge $e$. Then there exists a cycle $C \subseteq E$ such that $\forall e' \in C - \{ e \} : w_{e} > w_{e'}$. Now construct $G' = T \cup \{ e' \}$, with $e' \in C$. As $T$ is MST, this introduces a cycle $C' \subseteq G'$. Finally, removing the heavy edge $e$ leads to a spanning tree $T' = G' - \{ e \}$. As $e$ is a heavy edge, the new spanning tree's weight is strictly less than that of the assumed MST with $w'(T') < w'(T)$. Contradiction. Hence, the initial assumption must be false and it's proven that a heavy edge cannot be light.
+$\square$
