@@ -1072,12 +1072,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/EProg/UE/bf/EProg-bf-u10.md",
+                    "file": "sem3/EProg/UE/bf/EProg-bf-u12.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "EProg-bf-u10"
+                  "title": "EProg-bf-u12"
                 }
               }
             ],
@@ -1096,14 +1096,31 @@
                     "file": "sem3/EProg/VRL/extra/slides/EProg-slides-w04.pdf",
                     "page": 49,
                     "left": -27,
-                    "top": 114,
-                    "zoom": 0.5572916666666667
+                    "top": 126,
+                    "zoom": 0.5572916666666666
                   },
                   "icon": "lucide-file-text",
                   "title": "EProg-slides-w04"
                 }
+              },
+              {
+                "id": "227e359a73c078e6",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/EProg/UE/e/EProg-e-u12.pdf",
+                    "page": 7,
+                    "left": 165,
+                    "top": 439,
+                    "zoom": 1.31
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "EProg-e-u12"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1171,7 +1188,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 318.5
+        "width": 318.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1271,7 +1289,7 @@
         }
       },
       "active": "95ce692e2f7cff02",
-      "mtime": "2024-12-13T13:51:56+01:00"
+      "mtime": "2024-12-14T13:50:09+01:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1925,5 +1943,5 @@
       "mtime": "2024-12-13T10:20:57+01:00"
     }
   },
-  "active": "sem3-eprog"
+  "active": "sem3-a&d"
 }
