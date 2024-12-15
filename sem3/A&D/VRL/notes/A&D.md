@@ -11,7 +11,8 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 
 # Info
 
-- [ ] theory exercise 🔁 every week 📅 2024-12-15
+- [ ] theory exercise 🔁 every week 📅 2024-12-22
+- [x] theory exercise 🔁 every week 📅 2024-12-15 ✅ 2024-12-15
 - [x] theory exercise 🔁 every week 📅 2024-12-08 ✅ 2024-12-11
 - [x] theory exercise 🔁 every week 📅 2024-12-01 ✅ 2024-12-02
 - [x] theory exercise 🔁 every week 📅 2024-11-24 ✅ 2024-11-28
