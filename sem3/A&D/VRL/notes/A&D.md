@@ -24,7 +24,8 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 - [x] theory exercise 🔁 every week 📅 2024-10-13 ✅ 2024-10-14
 - [x] theory exercise 🔁 every week 📅 2024-10-06 ✅ 2024-10-04
 - [x] theory exercise 🔁 every week 📅 2024-09-29 ✅ 2024-09-27
-- [ ] peer grading 🔁 every week 📅 2024-12-16
+- [ ] peer grading 🔁 every week 📅 2024-12-23
+- [x] peer grading 🔁 every week 📅 2024-12-16 ✅ 2024-12-16
 - [x] peer grading 🔁 every week 📅 2024-12-09 ✅ 2024-12-11
 - [x] peer grading 🔁 every week 📅 2024-12-02 ✅ 2024-12-02
 - [x] peer grading 🔁 every week 📅 2024-11-25 ✅ 2024-11-28
@@ -36,7 +37,8 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 - [x] peer grading 🔁 every week 📅 2024-10-14 ✅ 2024-10-09
 - [x] peer grading 🔁 every week 📅 2024-10-07 ✅ 2024-10-08
 - [x] peer grading 🔁 every week 📅 2024-09-30 ✅ 2024-09-30
-- [ ] moodle quiz 🔁 every week 📅 2024-12-16
+- [ ] moodle quiz 🔁 every week 📅 2024-12-23
+- [x] moodle quiz 🔁 every week 📅 2024-12-16 ✅ 2024-12-16
 - [x] moodle quiz 🔁 every week 📅 2024-12-09 ✅ 2024-12-11
 - [x] moodle quiz 🔁 every week 📅 2024-12-02 ✅ 2024-12-02
 - [x] moodle quiz 🔁 every week 📅 2024-11-25 ✅ 2024-11-28

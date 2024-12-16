@@ -1,2 +1,5 @@
 
+- formal grammar
+- regular grammar
 - 
+
