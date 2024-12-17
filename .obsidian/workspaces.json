@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "f978deb210c4ab26",
+            "id": "fb09ce3db4e5f5ef",
             "type": "tabs",
             "children": [
               {
-                "id": "c1ff1def1319934c",
+                "id": "c3c88efa4ccd8148",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -187,8 +187,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "c1ff1def1319934c",
-      "mtime": "2024-12-15T13:31:28+01:00"
+      "active": "c3c88efa4ccd8148",
+      "mtime": "2024-12-17T10:55:50+01:00"
     },
     "00-home": {
       "main": {
@@ -1380,7 +1380,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem1/LinAlg/VRL/extra/LinAlg-lecture-notes-2.pdf"
+                    "file": "sem1/LinAlg/VRL/extra/LinAlg-lecture-notes-2.pdf",
+                    "page": 58,
+                    "left": -18,
+                    "top": 796,
+                    "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-lecture-notes-2"
@@ -1585,7 +1589,7 @@
         }
       },
       "active": "52049a7689fb81a3",
-      "mtime": "2024-12-17T09:59:32+01:00"
+      "mtime": "2024-12-17T10:55:01+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1950,5 +1954,5 @@
       "mtime": "2024-12-13T10:20:57+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "00-home"
 }

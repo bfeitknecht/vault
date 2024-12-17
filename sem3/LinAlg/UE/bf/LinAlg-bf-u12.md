@@ -1,7 +1,7 @@
 
 # 3		Recursively Defined Sequences ![[LinAlg-e-u12.pdf#page=1&rect=79,162,516,193|LinAlg-e-u12, p.1]]
 
-Let $\mathbf{v}_{i} = \begin{bmatrix} a_{i+1} \\ a_{i} \end{bmatrix}$. Then by the recurrence relation, it holds that $a_{n+1} = -a_{n} + 6a_{n-1}$ . It follows that $A\mathbf{v}_{i} = \mathbf{v}_{i+1}$ for $A = \begin{bmatrix} -1 & 6 \\ 1 & 0 \end{bmatrix}$. Now find eigenvalues of $A$ through examination of the characteristic polynomial.
+Let $\mathbf{v}_{n} = \begin{bmatrix} a_{n+1} \\ a_{n} \end{bmatrix}$. Then by the recurrence relation, it holds that $a_{n+1} = -a_{n} + 6a_{n-1}$ . It follows that $A\mathbf{v}_{n} = \mathbf{v}_{n+1}$ for $A = \begin{bmatrix} -1 & 6 \\ 1 & 0 \end{bmatrix}$. Now find eigenvalues of $A$ through examination of the characteristic polynomial.
 $$
 \begin{align}
 \det(A - \lambda I) &= \lambda^{2} + \lambda - 6 \\
@@ -67,6 +67,6 @@ $$
 
 Since $A$ is full rank, it has a complete set of real eigenvectors. Thus it's possible to diagonalize the matrix $A = V \Lambda V^{-1}$, where $\Lambda = \begin{bmatrix} \lambda_{1} & 0 \\ 0 & \lambda_{2}\end{bmatrix}$ is the diagonal matrix containing the eigenvalues and $V = \begin{bmatrix} \mathbf{v}_{1} & \mathbf{v}_{2} \end{bmatrix}$ contains the corresponding eigenvectors.
 
-Finally, we can conclude that $\mathbf{v}_{i} = V \Lambda^{i}V^{-1} \mathbf{v}_{0}$.
+Finally, we can conclude that $\mathbf{v}_{n} = V \Lambda^{n}V^{-1} \mathbf{v}_{0}$.
 
 
