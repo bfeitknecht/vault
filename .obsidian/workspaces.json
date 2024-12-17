@@ -1380,11 +1380,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem1/LinAlg/VRL/extra/LinAlg-lecture-notes-2.pdf",
-                    "page": 58,
-                    "left": -18,
-                    "top": 741,
-                    "zoom": 0.8743843192065531
+                    "file": "sem1/LinAlg/VRL/extra/LinAlg-lecture-notes-2.pdf"
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-lecture-notes-2"
@@ -1589,7 +1585,7 @@
         }
       },
       "active": "52049a7689fb81a3",
-      "mtime": "2024-12-17T09:56:21+01:00"
+      "mtime": "2024-12-17T09:59:32+01:00"
     },
     "sem3-ti": {
       "main": {
