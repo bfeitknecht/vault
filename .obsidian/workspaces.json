@@ -1381,10 +1381,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem1/LinAlg/VRL/extra/LinAlg-lecture-notes-2.pdf",
-                    "page": 59,
-                    "left": 7,
-                    "top": 420,
-                    "zoom": 0.97
+                    "page": 58,
+                    "left": -18,
+                    "top": 741,
+                    "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-lecture-notes-2"
@@ -1558,8 +1558,8 @@
                 "state": {
                   "type": "vertical-tabs-view",
                   "state": {},
-                  "icon": "list",
-                  "title": "Vertical Tabs"
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               }
             ],
@@ -1588,8 +1588,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "569c272b75d17b5d",
-      "mtime": "2024-12-15T11:10:52+01:00"
+      "active": "52049a7689fb81a3",
+      "mtime": "2024-12-17T09:56:21+01:00"
     },
     "sem3-ti": {
       "main": {
