@@ -19,6 +19,7 @@
 - [ ] contraposition
 - [ ] proof patterns
 - [ ] direct sum
-- [ ] direct product
+- [ ] inner direct product
+- [ ] symmetric basis exchange
 - [ ] matrix decomposition
 - [ ] 

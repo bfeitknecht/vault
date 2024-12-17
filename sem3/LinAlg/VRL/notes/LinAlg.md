@@ -4,7 +4,7 @@ Linear Algebra concerns itself with [[vector|vectors]], [[matrix|matrices]] and 
 
 # Info
 
-- [ ] bonus quiz 🔁 every week 📅 2024-12-17
+- [-] bonus quiz 🔁 every week 📅 2024-12-17 ❌ 2024-12-17
 - [x] bonus quiz 🔁 every week 📅 2024-12-10 ✅ 2024-12-11
 - [x] bonus quiz 🔁 every week 📅 2024-12-03 ✅ 2024-12-04
 - [-] bonus quiz 🔁 every week 📅 2024-11-26 ❌ 2024-11-28
