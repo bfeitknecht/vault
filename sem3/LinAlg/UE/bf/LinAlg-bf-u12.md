@@ -75,8 +75,24 @@ v_{2}
 \end{align}
 $$
 
-Finally, we conclude that $\mathbf{v}_{n} = A^{n}\mathbf{v}_{0} = V \Lambda^{n}V^{-1} \mathbf{v}_{0}$. All that remains is to determine $\alpha, \beta$ such that $a_{n} = \frac{4}{5}\alpha^{n} + \frac{1}{5}\beta^{n}$.
+Finally, we conclude that $\mathbf{v}_{n} = A^{n}\mathbf{v}_{0} = V \Lambda^{n}V^{-1} \mathbf{v}_{0}$. This can be written as a linear combination of the eigenvectors, $\mathbf{v}_{n} = c_{1} \mathbf{v}_{1} \lambda_{1}^{n} + c_{2} \mathbf{v}_{2} \lambda_{2}^{n}$. Through substitution of the previously computed values, this simplifies to the following, from which we can derive the values $c_{1}, c_{2}$.
+$$
+\begin{align}
+&\mathbf{v}_{n} = \begin{bmatrix}
+2 c_{1} 2^{n} - 3 c_{2} (-3)^{n} \\
+c_{1} 2^{n} + c_{2} (-3)^{n}
+\end{bmatrix} &(n = 0) \\
+\implies& \mathbf{v}_{0} = \begin{bmatrix}
+1 \\
+1
+\end{bmatrix}
+= \begin{bmatrix}
+2 c_{1} - 3 c_{2} \\
+c_{1} + c_{2}
+\end{bmatrix} \\
+\implies& c_{1} = \frac{1}{5}, c_{2} = \frac{4}{5}
+\end{align}
+$$
 
-Thus it follows that $\alpha = \lambda_{1} = 2$ and $\beta = \lambda_{2} = -3$.
+Since $a_{n} = \begin{bmatrix} 0 \\ 1 \end{bmatrix} \mathbf{v}_{n}$, we have shown that for $\alpha = \lambda_{1} = 2$ and $\beta = \lambda_{2} = -3$ it holds that $a_{n} = \frac{4}{5}\alpha^{n} + \frac{1}{5}\beta^{n}$.
 $\square$
-
