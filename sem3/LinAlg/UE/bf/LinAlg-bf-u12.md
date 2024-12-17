@@ -68,3 +68,5 @@ $$
 Since $A$ is full rank, it has a complete set of real eigenvectors. Thus it's possible to diagonalize the matrix $A = V \Lambda V^{-1}$, where $\Lambda = \begin{bmatrix} \lambda_{1} & 0 \\ 0 & \lambda_{2}\end{bmatrix}$ is the diagonal matrix containing the eigenvalues and $V = \begin{bmatrix} \mathbf{v}_{1} & \mathbf{v}_{2} \end{bmatrix}$ contains the corresponding eigenvectors.
 
 Finally, we can conclude that $\mathbf{v}_{i} = V \Lambda^{i}V^{-1} \mathbf{v}_{0}$.
+
+
