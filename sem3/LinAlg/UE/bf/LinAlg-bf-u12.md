@@ -70,5 +70,7 @@ v_{2}
 \end{align}
 $$
 
-Finally, we conclude that $\mathbf{v}_{n} = A^{n}\mathbf{v}_{0} = V \Lambda^{n}V^{-1} \mathbf{v}_{0}$. Thus it follows that $\alpha = \lambda_{1} = 2$ and $\beta = \lambda_{2} = -3$.
+Finally, we conclude that $\mathbf{v}_{n} = A^{n}\mathbf{v}_{0} = V \Lambda^{n}V^{-1} \mathbf{v}_{0}$. All that remains is to determine $\alpha, \beta$ such that $a_{n} = \frac{4}{5}\alpha^{n} + \frac{1}{5}\beta^{n}$.
+
+Thus it follows that $\alpha = \lambda_{1} = 2$ and $\beta = \lambda_{2} = -3$.
 $\square$
