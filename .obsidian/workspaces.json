@@ -13,10 +13,14 @@
                 "id": "c3c88efa4ccd8148",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "var/other/private.md",
+                    "mode": "source",
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "private"
                 }
               }
             ]
@@ -188,7 +192,7 @@
         }
       },
       "active": "c3c88efa4ccd8148",
-      "mtime": "2024-12-17T21:30:54+01:00"
+      "mtime": "2024-12-18T13:36:07+01:00"
     },
     "00-home": {
       "main": {
@@ -1929,5 +1933,5 @@
       "mtime": "2024-12-13T10:20:57+01:00"
     }
   },
-  "active": "00-clean"
+  "active": "00-home"
 }
