@@ -19,9 +19,9 @@ Every vector spaces is equipped with at least two (trivial) vector subspaces, th
 W &&&&&&& W \\
 \\
 &&& V & V \\
-{\mathcal{N}(A^{\top})} \\
-&&& {\mathcal{C}(A^{\top})} &&&& {\mathcal{C}(A)} \\
-&&&& {\mathcal{N}(A)} \\
+{\mathrm{N}(A^{\top})} \\
+&&& {\mathrm{C}(A^{\top})} &&&& {\mathrm{C}(A)} \\
+&&&& {\mathrm{N}(A)} \\
 \\
 0 &&& 0 & 0 &&& 0 
 \arrow[no head, from=1-1, to=4-1] 
