@@ -1391,8 +1391,8 @@
                   "state": {
                     "file": "sem3/LinAlg/UE/e/LinAlg-e-u12.pdf",
                     "page": 1,
-                    "left": 58,
-                    "top": 223,
+                    "left": 54,
+                    "top": 227,
                     "zoom": 1.08
                   },
                   "icon": "lucide-file-text",
@@ -1583,7 +1583,7 @@
         }
       },
       "active": "52049a7689fb81a3",
-      "mtime": "2024-12-17T21:30:52+01:00"
+      "mtime": "2024-12-18T14:28:22+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1948,5 +1948,5 @@
       "mtime": "2024-12-13T10:20:57+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-a&d"
 }
