@@ -6,6 +6,7 @@ trivial
 
 # b)
 
-build AST
+destructure AST
+
 
 

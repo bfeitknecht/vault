@@ -535,10 +535,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "var/other/LATEX.pdf",
-                    "page": 2,
-                    "left": 35,
-                    "top": 502,
-                    "zoom": 1.09
+                    "page": 3,
+                    "left": 19,
+                    "top": 693,
+                    "zoom": 1
                   },
                   "icon": "lucide-file-text",
                   "title": "LATEX"
@@ -714,7 +714,7 @@
         }
       },
       "active": "b42a2a8176c99e0d",
-      "mtime": "2024-12-18T13:19:02+01:00"
+      "mtime": "2024-12-18T17:54:32+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1114,10 +1114,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/EProg/UE/e/EProg-e-u12.pdf",
-                    "page": 7,
-                    "left": 165,
-                    "top": 439,
-                    "zoom": 1.31
+                    "page": 3,
+                    "left": 12,
+                    "top": 135,
+                    "zoom": 0.95
                   },
                   "icon": "lucide-file-text",
                   "title": "EProg-e-u12"
@@ -1293,7 +1293,7 @@
         }
       },
       "active": "95ce692e2f7cff02",
-      "mtime": "2024-12-14T13:50:09+01:00"
+      "mtime": "2024-12-18T18:21:47+01:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1374,10 +1374,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem1/LinAlg/VRL/extra/LinAlg-lecture-notes-2.pdf",
-                    "page": 56,
-                    "left": -18,
-                    "top": 820,
-                    "zoom": 0.8743843192065531
+                    "page": 59,
+                    "left": -68,
+                    "top": 698,
+                    "zoom": 0.7545522484582041
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-lecture-notes-2"
@@ -1391,8 +1391,8 @@
                   "state": {
                     "file": "sem3/LinAlg/UE/e/LinAlg-e-u12.pdf",
                     "page": 1,
-                    "left": 54,
-                    "top": 227,
+                    "left": 50,
+                    "top": 231,
                     "zoom": 1.08
                   },
                   "icon": "lucide-file-text",
@@ -1413,8 +1413,7 @@
                   "title": "vector subspace"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1583,7 +1582,7 @@
         }
       },
       "active": "52049a7689fb81a3",
-      "mtime": "2024-12-18T14:28:22+01:00"
+      "mtime": "2024-12-18T17:50:36+01:00"
     },
     "sem3-ti": {
       "main": {
