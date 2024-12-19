@@ -23,7 +23,7 @@ W &&&&&&& W \\
 &&& {\mathrm{C}(A^{\top})} &&&& {\mathrm{C}(A)} \\
 &&&& {\mathrm{N}(A)} \\
 \\
-0 &&& 0 & 0 &&& 0 
+\mathbf{0}_{W} &&& \mathbf{0}_{V} & \mathbf{0}_{V} &&& \mathbf{0}_{W}
 \arrow[no head, from=1-1, to=4-1] 
 \arrow[from=1-1, to=5-4] 
 \arrow[no head, from=1-8, to=5-8] 
