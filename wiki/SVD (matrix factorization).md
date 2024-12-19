@@ -4,6 +4,7 @@ $$
 A = U \Sigma V^{\top}
 $$
 
+<!--
 ```tikz
 \usepackage{tikz}
 \usepackage{amsmath}
@@ -49,3 +50,5 @@ $$
 
 \end{document}
 ```
+
+-->
