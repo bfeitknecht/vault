@@ -59,7 +59,7 @@ $$
 \draw[thick] (0, 0) rectangle (2, 3);
 
 %% =
-\node at (, 1.5) {$=$};
+\node at (2.5, 1.5) {$=$};
 
 %% U
 \fill[gray!50] (5, 0) rectangle (6, 2);
