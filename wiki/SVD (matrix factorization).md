@@ -41,6 +41,9 @@ $$
 \end{document}
 ```
 
+-->
+
+
 
 ```tikz
 \usepackage{tikz}
@@ -51,4 +54,25 @@ $$
 \end{document}
 ```
 
--->
+
+
+
+```tikz
+\usepackage{tikz}
+\uselibrary {shapes}
+\begin{document}
+\begin{tikzpicture}
+    \draw (0, 0) rectangle (4, 2); % Draws a rectangle with corners (0,0) and (4,2)
+\end{tikzpicture}
+\end{document}
+```
+
+
+
+
+
+
+
+
+
+
