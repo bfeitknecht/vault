@@ -34,14 +34,6 @@ $$
 \draw	 (11, 1.5) rectangle (14, 2.5);
 \draw[thick] (11, -0.5) rectangle (14, 2.5);
 
-
-%\fill[gray!50] (3.5, 2.5) -- (4, 2.5) -- (3.5, 2) -- cycle;
-%\fill[gray!50] (4.5, 1.5) -- (5, 1.5) -- (4.5, 1) -- cycle;
-%
-%% Right matrix (Document by Dimension)
-%
-%
-
 \end{tikzpicture}
 \end{document}
 ```
@@ -58,11 +50,10 @@ $$
 %% A
 \draw[thick] (0, 0) rectangle (2, 3);
 
-%% =
 \node at (2.5, 1.5) {$=$};
 
 %% U
-\fill[gray!50] (5, 0) rectangle (6, 2);
+\fill[gray!50] (3, 0) rectangle (6, 2);
 \draw (5, 0) rectangle (6, 2);
 \draw[thick] (4, 0) rectangle (6, 2);
 
