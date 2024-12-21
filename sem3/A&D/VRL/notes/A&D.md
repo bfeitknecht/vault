@@ -47,7 +47,8 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 - [x] moodle quiz 🔁 every week 📅 2024-10-14 ✅ 2024-10-15
 - [-] moodle quiz 🔁 every week 📅 2024-10-07 ❌ 2024-10-07
 - [x] moodle quiz 🔁 every week 📅 2024-09-30 ✅ 2024-09-30
-- [ ] code expert 🔁 every 2 weeks 📅 2024-12-20
+- [ ] code expert 🔁 every 2 weeks 📅 2025-01-03
+- [x] code expert 🔁 every 2 weeks 📅 2024-12-20 ✅ 2024-12-21
 - [x] code expert 🔁 every 2 weeks 📅 2024-12-06 ✅ 2024-12-11
 - [x] code expert 🔁 every 2 weeks 📅 2024-11-22 ✅ 2024-11-28
 - [x] code expert 🔁 every 2 weeks 📅 2024-11-08 ✅ 2024-11-13
