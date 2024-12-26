@@ -99,3 +99,7 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 ### W14
 ![[A&D-v-w14]]
 
+
+
+# recap
+![[A&D-recap]]
