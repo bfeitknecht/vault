@@ -1,5 +1,11 @@
 
-
+```java
+void swap(int[] A, int i, int j) {
+	int t = A[i];
+	A[i] = A[j];
+	A[j] = t;
+}
+```
 
 swap two array variables without temporary variable
 ```java
