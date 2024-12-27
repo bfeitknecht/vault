@@ -436,12 +436,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/A&D/VRL/notes/A&D.md",
+                    "file": "sem3/A&D/PV/recap.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "A&D"
+                  "title": "recap"
                 }
               },
               {
@@ -485,48 +485,42 @@
                   "icon": "lucide-file",
                   "title": "A&D-v-w12"
                 }
+              },
+              {
+                "id": "119ef7f6c0518faa",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/AuD/PV/summaries/AuD-summary-jannis.pdf",
+                    "page": 7,
+                    "left": -2,
+                    "top": 737,
+                    "zoom": 0.99
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "AuD-summary-jannis"
+                }
               }
-            ],
-            "currentTab": 3
+            ]
           },
           {
             "id": "4a66b4edfa8d0493",
             "type": "tabs",
             "children": [
               {
-                "id": "e8f3f4c1552f865d",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/A&D/UE/e/A&D-e-u12.pdf",
-                    "page": 1,
-                    "left": -18,
-                    "top": 846,
-                    "zoom": 0.8743843192065531
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "A&D-e-u12"
-                }
-              },
-              {
                 "id": "2448c46e90e58772",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "var/other/LATEX.pdf",
-                    "page": 3,
-                    "left": 11,
-                    "top": 678,
-                    "zoom": 1
+                    "file": "var/other/LATEX.pdf"
                   },
                   "icon": "lucide-file-text",
                   "title": "LATEX"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -694,8 +688,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "b42a2a8176c99e0d",
-      "mtime": "2024-12-19T08:19:50+01:00"
+      "active": "e7911976b677ac81",
+      "mtime": "2024-12-27T17:16:30+01:00"
     },
     "sem3-dmath": {
       "main": {
