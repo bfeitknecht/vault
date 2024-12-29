@@ -768,7 +768,7 @@
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 170,
                     "left": -12,
-                    "top": 355,
+                    "top": 359,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -1000,7 +1000,7 @@
         }
       },
       "active": "35258697acb74564",
-      "mtime": "2024-12-29T14:02:54+01:00"
+      "mtime": "2024-12-29T14:48:50+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1360,8 +1360,7 @@
                 },
                 "group": "ae512824008d5f69"
               }
-            ],
-            "currentTab": 5
+            ]
           },
           {
             "id": "740ad403278fbd52",
@@ -1625,8 +1624,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "ffe88c80d8ddbb11",
-      "mtime": "2024-12-20T18:08:39+01:00"
+      "active": "5e147ae0102336c7",
+      "mtime": "2024-12-29T14:53:09+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1991,5 +1990,5 @@
       "mtime": "2024-12-13T10:20:57+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-a&d"
 }
