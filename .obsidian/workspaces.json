@@ -514,7 +514,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "var/other/LATEX.pdf"
+                    "file": "var/other/LATEX.pdf",
+                    "page": 3,
+                    "left": -18,
+                    "top": 700,
+                    "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "LATEX"
@@ -689,7 +693,7 @@
         }
       },
       "active": "e7911976b677ac81",
-      "mtime": "2024-12-27T17:16:30+01:00"
+      "mtime": "2024-12-29T13:21:59+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1997,5 +2001,5 @@
       "mtime": "2024-12-13T10:20:57+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-dmath"
 }
