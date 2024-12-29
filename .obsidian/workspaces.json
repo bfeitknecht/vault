@@ -13,10 +13,14 @@
                 "id": "d6637d4465a84bcb",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "var/other/private.md",
+                    "mode": "source",
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "private"
                 }
               }
             ]
@@ -188,7 +192,7 @@
         }
       },
       "active": "d6637d4465a84bcb",
-      "mtime": "2024-12-26T16:32:34+01:00"
+      "mtime": "2024-12-29T14:03:48+01:00"
     },
     "00-home": {
       "main": {
@@ -746,23 +750,9 @@
                   "icon": "lucide-file",
                   "title": "DMath-v-w12"
                 }
-              },
-              {
-                "id": "4057f32652635722",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u12.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMath-bf-u12"
-                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "f002029a56c7a80a",
@@ -778,7 +768,7 @@
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 170,
                     "left": -12,
-                    "top": 466,
+                    "top": 355,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -1009,8 +999,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "6cded826760a3d75",
-      "mtime": "2024-12-19T08:59:37+01:00"
+      "active": "35258697acb74564",
+      "mtime": "2024-12-29T14:02:54+01:00"
     },
     "sem3-eprog": {
       "main": {
