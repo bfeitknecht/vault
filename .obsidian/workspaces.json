@@ -520,9 +520,9 @@
                   "state": {
                     "file": "var/other/LATEX.pdf",
                     "page": 3,
-                    "left": -18,
-                    "top": 700,
-                    "zoom": 0.8743843192065531
+                    "left": 220,
+                    "top": 685,
+                    "zoom": 1.33
                   },
                   "icon": "lucide-file-text",
                   "title": "LATEX"
@@ -596,8 +596,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 289.5,
-        "collapsed": true
+        "width": 289.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -696,8 +695,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "e7911976b677ac81",
-      "mtime": "2024-12-29T13:21:59+01:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2024-12-30T01:31:09+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1990,5 +1989,5 @@
       "mtime": "2024-12-13T10:20:57+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "00-clean"
 }
