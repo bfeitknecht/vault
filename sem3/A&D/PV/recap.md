@@ -15,3 +15,11 @@ void swap(int[] A, int i, int j) {
 	A[i] ^= A[j];
 }
 ```
+
+
+toggle boolean variable
+```java
+boolean toggle = false;
+toggle ^= true;	// true
+toggle ^= true; // false
+```
