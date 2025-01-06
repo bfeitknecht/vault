@@ -23,3 +23,7 @@ Prove $A = B$: Double set inclusion.
 
 # Relations
 
+
+| Property | Definition |
+| -------- | ---------- |
+|          |            |
