@@ -13,3 +13,7 @@ Write proofs in the correct implication direction! Start with something true and
 $|A\times B | = |A| \cdot |B|$
 $|\mathcal{P}(A)| = 2^{|A|}$
 $0 \leq |A \cap B| \leq \min(|A|, |B|)$
+
+
+Prove $A \subseteq B$: Let $x \in A$ be arbitrary. Show $x \in B$.
+Prove $A = B$: Double set inclusion.
