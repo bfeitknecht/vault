@@ -1,4 +1,6 @@
 
+# Sets
+
 Disambiguation of some symbols.
 
 | Symbol     | Usage       | Between    |
@@ -17,3 +19,7 @@ $0 \leq |A \cap B| \leq \min(|A|, |B|)$
 
 Prove $A \subseteq B$: Let $x \in A$ be arbitrary. Show $x \in B$.
 Prove $A = B$: Double set inclusion.
+
+
+# Relations
+
