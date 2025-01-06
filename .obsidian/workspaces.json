@@ -756,31 +756,31 @@
                 }
               },
               {
-                "id": "19c6dd439769b532",
+                "id": "c2e8cdef2e331f90",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/lectures/DMath-v-w11.md",
+                    "file": "sem3/DMath/PV/DMath-recap.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "DMath-v-w11"
+                  "title": "DMath-recap"
                 }
               },
               {
-                "id": "35258697acb74564",
+                "id": "07d8c4a76eba9ff0",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/DMath/VRL/notes/lectures/DMath-v-w12.md",
+                    "file": "sem3/DMath/PV/pvw/DMath-pvw-hands-on.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "DMath-v-w12"
+                  "title": "DMath-pvw-hands-on"
                 }
               }
             ],
@@ -798,13 +798,29 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 170,
+                    "page": 65,
                     "left": -12,
-                    "top": 359,
+                    "top": 287,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
                   "title": "dmath-script-hs24"
+                }
+              },
+              {
+                "id": "e564c679655afb17",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/DMath/PV/pvw/DMath-pvw-script-HS24.pdf",
+                    "page": 5,
+                    "left": -12,
+                    "top": 87,
+                    "zoom": 0.91
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "DMath-pvw-script-HS24"
                 }
               },
               {
@@ -813,14 +829,14 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/DMath/UE/e/DMath-e-u12.pdf",
-                    "page": 1,
+                    "file": "sem3/DMath/UE/e/DMath-e-u04.pdf",
+                    "page": 2,
                     "left": -18,
-                    "top": 414,
-                    "zoom": 0.8958029552678086
+                    "top": 796,
+                    "zoom": 0.8958029552678087
                   },
                   "icon": "lucide-file-text",
-                  "title": "DMath-e-u12"
+                  "title": "DMath-e-u04"
                 }
               },
               {
@@ -838,22 +854,21 @@
                 }
               },
               {
-                "id": "91633b147b62ac65",
+                "id": "959d5d9b2a183679",
                 "type": "leaf",
                 "state": {
-                  "type": "pdf",
+                  "type": "markdown",
                   "state": {
-                    "file": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-bs.pdf",
-                    "page": 1,
-                    "left": -24,
-                    "top": 599,
-                    "zoom": 0.6333962869258455
+                    "file": "wiki/relation.md",
+                    "mode": "source",
+                    "source": false
                   },
-                  "icon": "lucide-file-text",
-                  "title": "DMath-cheatsheet-bs"
+                  "icon": "lucide-file",
+                  "title": "relation"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -921,7 +936,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 304.5,
+        "width": 240.5,
         "collapsed": true
       },
       "right": {
@@ -1031,8 +1046,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "35258697acb74564",
-      "mtime": "2024-12-29T14:48:50+01:00"
+      "active": "07d8c4a76eba9ff0",
+      "mtime": "2025-01-06T13:12:07+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -2022,5 +2037,5 @@
       "mtime": "2024-12-13T10:20:57+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-linalg"
 }
