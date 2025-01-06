@@ -1,2 +1,4 @@
 
+matrix multiplication is associative
+
 
