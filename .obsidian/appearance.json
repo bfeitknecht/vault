@@ -9,7 +9,8 @@
     "png-white-bg",
     "embed-filename",
     "style-embed",
-    "nowrap-math"
+    "nowrap-math",
+    "hide-line-above-tables"
   ],
   "showViewHeader": true,
   "baseFontSize": 13

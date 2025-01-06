@@ -423,7 +423,7 @@
         }
       },
       "active": "c1d4bca0b23a015c",
-      "mtime": "2024-12-30T14:27:41+01:00"
+      "mtime": "2025-01-06T09:06:23+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -537,9 +537,9 @@
                   "state": {
                     "file": "sem3/A&D/UE/e/A&D-e-u01.pdf",
                     "page": 1,
-                    "left": -5,
-                    "top": 595,
-                    "zoom": 0.91
+                    "left": -18,
+                    "top": 600,
+                    "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-e-u01"
@@ -729,7 +729,7 @@
         }
       },
       "active": "09d6b18a0150455f",
-      "mtime": "2025-01-03T15:00:28+01:00"
+      "mtime": "2025-01-06T09:06:24+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -2022,5 +2022,5 @@
       "mtime": "2024-12-13T10:20:57+01:00"
     }
   },
-  "active": "00-home"
+  "active": "sem3-dmath"
 }
