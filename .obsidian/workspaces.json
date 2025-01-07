@@ -784,7 +784,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "f002029a56c7a80a",
@@ -798,9 +798,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 65,
+                    "page": 77,
                     "left": -12,
-                    "top": 287,
+                    "top": 563,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -814,10 +814,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/PV/pvw/DMath-pvw-script-HS24.pdf",
-                    "page": 5,
-                    "left": -12,
-                    "top": 87,
-                    "zoom": 0.91
+                    "page": 12,
+                    "left": 56,
+                    "top": 849,
+                    "zoom": 1.08
                   },
                   "icon": "lucide-file-text",
                   "title": "DMath-pvw-script-HS24"
@@ -840,35 +840,22 @@
                 }
               },
               {
-                "id": "b73f048b9b1e070a",
+                "id": "3ceb66188f1666cd",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "pdf",
                   "state": {
-                    "file": "wiki/proof system.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "var/other/LATEX.pdf",
+                    "page": 2,
+                    "left": -18,
+                    "top": 747,
+                    "zoom": 0.8958029552678087
                   },
-                  "icon": "lucide-file",
-                  "title": "proof system"
-                }
-              },
-              {
-                "id": "959d5d9b2a183679",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/relation.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "relation"
+                  "icon": "lucide-file-text",
+                  "title": "LATEX"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1046,8 +1033,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "07d8c4a76eba9ff0",
-      "mtime": "2025-01-06T13:12:07+01:00"
+      "active": "c2e8cdef2e331f90",
+      "mtime": "2025-01-07T14:59:05+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1921,5 +1908,5 @@
       "mtime": "2024-12-13T10:20:57+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-linalg"
 }
