@@ -97,3 +97,9 @@ Surjection is onto, there are no holes in the codomain.
 
 
 # Countability
+
+**Example**
+Prove that $\mathbb{N}^{m}$ is countable for $m \in \mathbb{N}$.
+
+Define an injection $\varphi : \mathbb{N}^{m} \to \mathbb{N}$ with $\varphi(x) = \prod_{i \in [m]} p_{i}^{n_{i}}$ for $x = (n_{1}, n_{2}, \dots, n_{m}) \in \mathbb{N}^{m}$. Correctness follows from the unique prime factorization theorem.
+

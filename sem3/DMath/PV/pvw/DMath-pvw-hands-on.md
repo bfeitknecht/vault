@@ -35,3 +35,6 @@ $\rho^{*} = \rho \cup \rho^{2}$
 False. Consider $X, Y = \mathbb{N}$ and $f(x) = \begin{cases} x, & \text{if } x \equiv_{2} 0 \\x+1, &\text{else}\end{cases}$. Let $A = X$ and $B = [1]_{\equiv_{2}}$. Then $f(A - B) = [0]_{\equiv_{2}} \neq f(A) - f(B) = \varnothing$. Contradiction. $\square$
 
 
+
+
+
