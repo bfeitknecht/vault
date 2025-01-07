@@ -53,7 +53,6 @@ Let $(A, \preceq)$ be a poset with $S \subseteq A$. Then $a \in A$ can exhibit t
 
 
 # Function
-
 ```tikz
 \usepackage{tikz-cd}
 
@@ -92,3 +91,9 @@ Let $(A, \preceq)$ be a poset with $S \subseteq A$. Then $a \in A$ can exhibit t
 
 \end{document}
 ```
+
+Injection is one-to-one, no collisions occur in the codomain.
+Surjection is onto, there are no holes in the codomain.
+
+
+# Countability
