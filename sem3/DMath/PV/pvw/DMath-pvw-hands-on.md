@@ -35,6 +35,9 @@ $\rho^{*} = \rho \cup \rho^{2}$
 False. Consider $X, Y = \mathbb{N}$ and $f(x) = \begin{cases} x, & \text{if } x \equiv_{2} 0 \\x+1, &\text{else}\end{cases}$. Let $A = X$ and $B = [1]_{\equiv_{2}}$. Then $f(A - B) = [0]_{\equiv_{2}} \neq f(A) - f(B) = \varnothing$. Contradiction. $\square$
 
 
+# 4.3
+Prove or disprove, $A = \{ f: \mathbb{N} \to \mathbb{N} \mid \forall n \in \mathbb{N} : f(n) \geq f(n+1)\}$ is countable.
+
 
 
 
