@@ -60,33 +60,34 @@ Let $(A, \preceq)$ be a poset with $S \subseteq A$. Then $a \in A$ can exhibit t
 \begin{document}
 
 \begin{tikzcd}
-	&&&& {} \\
-	& \bullet && \bullet && \bullet && \bullet \\
-	& \bullet && \bullet && \bullet && \bullet \\
-	& \bullet && \bullet &&&& \bullet \\
-	& \bullet && \bullet && \bullet && \bullet \\
-	{} &&&&&&&& {} \\
-	& \bullet && \bullet && \bullet && \bullet \\
-	& \bullet &&&& \bullet \\
-	& \bullet && \bullet &&&& \bullet \\
-	& \bullet && \bullet && \bullet && \bullet \\
-	&&&& {}
-	\arrow[no head, from=1-5, to=11-5]
-	\arrow[from=2-2, to=2-4]
-	\arrow[from=2-6, to=2-8]
-	\arrow[from=3-2, to=3-4]
-	\arrow[from=3-6, to=3-8]
-	\arrow[from=4-2, to=4-4]
-	\arrow[from=5-2, to=5-4]
-	\arrow[from=5-6, to=5-8]
-	\arrow[no head, from=6-1, to=6-9]
-	\arrow[from=7-2, to=7-4]
-	\arrow[from=7-6, to=7-8]
-	\arrow[from=8-2, to=7-4]
-	\arrow[from=8-6, to=7-8]
-	\arrow[from=9-2, to=9-4]
-	\arrow[from=10-2, to=10-4]
-	\arrow[from=10-6, to=10-8]
+	& {} &&&& {} &&&& {} \\
+	{} &&&&&&&&&& {} \\
+	&& \bullet && \bullet && \bullet && \bullet \\
+	&& \bullet && \bullet &&&& \bullet \\
+	&& \bullet && \bullet && \bullet && \bullet \\
+	{} &&&&&&&&&& {} \\
+	&& \bullet && \bullet && \bullet && \bullet \\
+	&& \bullet &&&& \bullet && \bullet \\
+	&& \bullet && \bullet && \bullet && \bullet \\
+	{} &&&&&&&&&& {} \\
+	& {} &&&& {} &&&& {}
+	\arrow[no head, from=1-2, to=11-2]
+	\arrow[no head, from=1-6, to=11-6]
+	\arrow[no head, from=2-11, to=2-1]
+	\arrow[from=3-3, to=3-5]
+	\arrow[from=3-7, to=3-9]
+	\arrow[from=4-3, to=4-5]
+	\arrow[from=5-3, to=5-5]
+	\arrow[from=5-7, to=5-9]
+	\arrow[no head, from=6-1, to=6-11]
+	\arrow[from=7-3, to=7-5]
+	\arrow[from=7-7, to=7-9]
+	\arrow[from=8-3, to=7-5]
+	\arrow[from=8-7, to=7-9]
+	\arrow[from=9-3, to=9-5]
+	\arrow[from=9-7, to=9-9]
+	\arrow[no head, from=10-11, to=10-1]
+	\arrow[no head, from=11-10, to=1-10]
 \end{tikzcd}
 
 \end{document}

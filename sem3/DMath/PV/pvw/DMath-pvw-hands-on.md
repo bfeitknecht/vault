@@ -26,8 +26,12 @@ $\rho^{*} = \rho \cup \rho^{2}$
 
 
 # 2.3
-1. false. consider $\sigma = \{ (a, a), (a, b) \}$ which is not reflexive but also not irreflexive.
-2. true. assume $\sigma$ is irreflexive on a non-empty set $A$. it follows that $\exists a \in A : (a,a) \not\in \sigma \iff$ not reflexive.
-3. false. consider $\sigma = \{ (a, a) \}$ which is symmetric and antisymmetric.
+1. False. Consider $\sigma = \{ (a, a), (a, b) \}$ which is not reflexive but also not irreflexive.
+2. True. Assume $\sigma$ is irreflexive on a non-empty set $A$. it follows that $\exists a \in A : (a,a) \not\in \sigma \iff$ not reflexive.
+3. False. Consider $\sigma = \{ (a, a) \}$ which is symmetric and antisymmetric.
 
 
+# 3.1
+False. Consider $X, Y = \mathbb{N}$ and $f(x) = \begin{cases} x, & \text{if } x \equiv_{2} 0 \\x+1, &\text{else}\end{cases}$. Let $A = X$ and $B = [1]_{\equiv_{2}}$. Then $f(A - B) = [0]_{\equiv_{2}} \neq f(A) - f(B) = \varnothing$. Contradiction. $\square$
+
+# 3.2
