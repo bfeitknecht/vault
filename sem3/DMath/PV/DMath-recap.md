@@ -131,5 +131,3 @@ Allows solving multiple congruence relations.
 | group         | yes             | yes         | yes     | no          |
 | abelian group | yes             | yes         | yes     | yes         |
 
-
-

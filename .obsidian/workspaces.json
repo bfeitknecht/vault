@@ -815,28 +815,12 @@
                   "state": {
                     "file": "sem3/DMath/PV/pvw/DMath-pvw-script-HS24.pdf",
                     "page": 30,
-                    "left": 50,
-                    "top": 12,
+                    "left": 46,
+                    "top": 16,
                     "zoom": 1.08
                   },
                   "icon": "lucide-file-text",
                   "title": "DMath-pvw-script-HS24"
-                }
-              },
-              {
-                "id": "63aa883fdecb74d2",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/DMath/UE/e/DMath-e-u04.pdf",
-                    "page": 2,
-                    "left": -18,
-                    "top": 796,
-                    "zoom": 0.8958029552678087
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "DMath-e-u04"
                 }
               },
               {
@@ -861,14 +845,18 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-bs.pdf"
+                    "file": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-bs.pdf",
+                    "page": 5,
+                    "left": -24,
+                    "top": 420,
+                    "zoom": 0.6335543199315654
                   },
                   "icon": "lucide-file-text",
                   "title": "DMath-cheatsheet-bs"
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -972,12 +960,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u04.md",
+                    "file": "sem3/DMath/PV/DMath-recap.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-going-out",
-                  "title": "Outgoing links from DMath-bf-u04"
+                  "title": "Outgoing links from DMath-recap"
                 }
               },
               {
@@ -991,26 +979,6 @@
                 }
               },
               {
-                "id": "df8e8e11fe3e136a",
-                "type": "leaf",
-                "state": {
-                  "type": "toggl-report",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
-                }
-              },
-              {
-                "id": "d39f74221ae34967",
-                "type": "leaf",
-                "state": {
-                  "type": "vertical-tabs-view",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
-                }
-              },
-              {
                 "id": "315d47609478a67f",
                 "type": "leaf",
                 "state": {
@@ -1019,9 +987,19 @@
                   "icon": "clock",
                   "title": "Toggl Report"
                 }
+              },
+              {
+                "id": "8b116ea538d2a74c",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {},
+                  "icon": "spreadsheet",
+                  "title": "Advanced Tables"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
@@ -1047,7 +1025,7 @@
         }
       },
       "active": "c2e8cdef2e331f90",
-      "mtime": "2025-01-08T11:27:27+01:00"
+      "mtime": "2025-01-08T13:21:11+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1953,5 +1931,5 @@
       "mtime": "2024-12-13T10:20:57+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-linalg"
 }
