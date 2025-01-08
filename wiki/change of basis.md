@@ -4,13 +4,13 @@
 \begin{document}
 
 \begin{tikzcd}
-	{V'} &&&& {W'} \\
+	{V'_{\widetilde{\mathcal{B}}}} &&&& {W'_{\widetilde{\mathcal{C}}}} \\
 	\\
 	\\
 	& X && Y \\
 	\\
 	\\
-	V &&&& W
+	{V_\mathcal{B}} &&&& {W_{\mathcal{C}}}
 	\arrow["{A'}", from=1-1, to=1-5]
 	\arrow[from=1-1, to=4-2]
 	\arrow[from=1-5, to=4-4]

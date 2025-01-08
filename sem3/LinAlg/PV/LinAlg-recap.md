@@ -11,3 +11,4 @@ conjugation of complex number $z = a + bi$ scales imaginary component by negativ
 
 span is always a vector space
 
+
