@@ -798,9 +798,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 77,
+                    "page": 121,
                     "left": -12,
-                    "top": 563,
+                    "top": 501,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -814,9 +814,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/PV/pvw/DMath-pvw-script-HS24.pdf",
-                    "page": 12,
-                    "left": 56,
-                    "top": 849,
+                    "page": 30,
+                    "left": 50,
+                    "top": 12,
                     "zoom": 1.08
                   },
                   "icon": "lucide-file-text",
@@ -854,8 +854,21 @@
                   "icon": "lucide-file-text",
                   "title": "LATEX"
                 }
+              },
+              {
+                "id": "a2c044aeada10d26",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-bs.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "DMath-cheatsheet-bs"
+                }
               }
-            ]
+            ],
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -1034,7 +1047,7 @@
         }
       },
       "active": "c2e8cdef2e331f90",
-      "mtime": "2025-01-07T14:59:05+01:00"
+      "mtime": "2025-01-08T11:27:27+01:00"
     },
     "sem3-eprog": {
       "main": {
