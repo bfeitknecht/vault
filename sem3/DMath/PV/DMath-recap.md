@@ -106,9 +106,9 @@ Define an injection $\varphi : \mathbb{N}^{m} \to \mathbb{N}$ with $\varphi(x) =
 
 # Number Theory
 
-
 # CRT
 
+Allows solving multiple congruence relations.
 
 
 # RSA
@@ -120,5 +120,16 @@ Define an injection $\varphi : \mathbb{N}^{m} \to \mathbb{N}$ with $\varphi(x) =
 | private key   | $d \equiv_{\varphi(n)} 1$ | multiplicative inverse of $e$            |
 | message       | $m = R_{n}(c^{d})$        | plaintext message                        |
 | ciphertext    | $c = R_{n}(m^{e})$        | encrypted message                        |
+
+
+# Abstract Algebra
+
+
+| Object        | Neutral Element | Associative | Inverse | Commutative |
+| ------------- | --------------- | ----------- | ------- | ----------- |
+| monoid        | yes             | yes         | no      | no          |
+| group         | yes             | yes         | yes     | no          |
+| abelian group | yes             | yes         | yes     | yes         |
+
 
 
