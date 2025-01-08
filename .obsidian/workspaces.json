@@ -1282,7 +1282,7 @@
                     "file": "sem3/LinAlg/VRL/LinAlg-script-1.pdf",
                     "page": 7,
                     "left": -19,
-                    "top": 266,
+                    "top": 271,
                     "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
@@ -1296,10 +1296,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/LinAlg-script-2.pdf",
-                    "page": 5,
-                    "left": -18,
-                    "top": 211,
-                    "zoom": 0.8743843192065531
+                    "page": 20,
+                    "left": 46,
+                    "top": 34,
+                    "zoom": 1.1
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-script-2"
@@ -1348,7 +1348,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1516,8 +1516,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "d4fdfb4cd2c46a5a",
-      "mtime": "2025-01-08T15:43:22+01:00"
+      "active": "067d75128b18a072",
+      "mtime": "2025-01-08T21:49:44+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1882,5 +1882,5 @@
       "mtime": "2024-12-13T10:20:57+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "00-home"
 }

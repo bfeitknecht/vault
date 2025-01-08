@@ -41,3 +41,8 @@ TITLE "Today"
 INCLUDE PROJECTS "pv-a1", "pv-auw", "pv-ddca", "pv-pprog"
 EXCLUDE PROJECTS "other"
 %%
+
+
+A&D:
+	pseudo code of algos
+	de
