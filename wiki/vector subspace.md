@@ -43,6 +43,7 @@ W &&&&&&& W \\
 \end{document}
 ```
 
+From this follows that $V \simeq C(A) \oplus N(A)$ and $W \simeq C(A^{\top}) \oplus N(A^{\top})$. Additionally, it holds that $C(A^{\top}) \mathop\bot N(A)$ and $C(A) \mathop\bot N(A^{\top})$.
 
 
 ## Complementary Subspace
