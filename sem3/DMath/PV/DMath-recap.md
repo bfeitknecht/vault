@@ -1,4 +1,20 @@
 
+# Exams
+
+- [ ] HS18
+- [ ] FS19
+- [ ] HS19
+- [ ] FS20
+- [ ] HS20
+- [ ] FS21
+- [ ] HS21
+- [ ] FS22
+- [ ] HS22
+- [ ] FS23
+- [ ] HS23
+- [ ] FS24
+
+
 # Set
 
 Disambiguation of some symbols.
@@ -111,19 +127,22 @@ Define an injection $\varphi : \mathbb{N}^{m} \to \mathbb{N}$ with $\varphi(x) =
 Allows solving multiple congruence relations.
 
 
+
 # RSA
 
-| Object        | Formula                   | Meaning                                  |
-| ------------- | ------------------------- | ---------------------------------------- |
-| public number | $n = pq$                  | product of primes                        |
-| public key    | $e$                       | secret generator in $\mathbb{Z}_{n}^{*}$ |
-| private key   | $d \equiv_{\varphi(n)} 1$ | multiplicative inverse of $e$            |
-| message       | $m = R_{n}(c^{d})$        | plaintext message                        |
-| ciphertext    | $c = R_{n}(m^{e})$        | encrypted message                        |
-|               |                           |                                          |
+| Object                        | Formula                    | Meaning                           |
+| ----------------------------- | -------------------------- | --------------------------------- |
+| modulos (public)              | $n = pq$                   | product of secret primes          |
+| encryption exponent (public)  | $\gcd(e, n) = 1$           | generator in $\mathbb{Z}_{n}^{*}$ |
+| decryption exponent (private) | $de \equiv_{\varphi(n)} 1$ | multiplicative inverse of $e$     |
+| message                       | $m = R_{n}(c^{d})$         | plaintext message                 |
+| ciphertext                    | $c = R_{n}(m^{e})$         | encrypted message                 |
+
 
 
 # Abstract Algebra
+
+
 
 | Object        | Neutral Element | Associative | Inverse | Commutative |
 | ------------- | --------------- | ----------- | ------- | ----------- |

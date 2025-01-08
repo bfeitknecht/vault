@@ -449,20 +449,6 @@
                 }
               },
               {
-                "id": "b42a2a8176c99e0d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w12.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "A&D-v-w12"
-                }
-              },
-              {
                 "id": "e7911976b677ac81",
                 "type": "leaf",
                 "state": {
@@ -475,39 +461,9 @@
                   "icon": "lucide-file",
                   "title": "A&D-recap"
                 }
-              },
-              {
-                "id": "7de7487e6af29740",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/A&D/VRL/extra/rzhang/A&D-rzhang-w01.pdf",
-                    "page": 7,
-                    "left": 126,
-                    "top": 564,
-                    "zoom": 1.43
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "A&D-rzhang-w01"
-                }
-              },
-              {
-                "id": "09d6b18a0150455f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u01.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "A&D-bf-u01"
-                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           },
           {
             "id": "4a66b4edfa8d0493",
@@ -538,7 +494,7 @@
                     "file": "sem3/A&D/UE/e/A&D-e-u01.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 600,
+                    "top": 613,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
@@ -728,8 +684,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "09d6b18a0150455f",
-      "mtime": "2025-01-06T09:06:24+01:00"
+      "active": "e7911976b677ac81",
+      "mtime": "2025-01-08T15:42:57+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -798,9 +754,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 121,
+                    "page": 120,
                     "left": -12,
-                    "top": 501,
+                    "top": 253,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -814,9 +770,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/PV/pvw/DMath-pvw-script-HS24.pdf",
-                    "page": 30,
-                    "left": 46,
-                    "top": 16,
+                    "page": 21,
+                    "left": 38,
+                    "top": 419,
                     "zoom": 1.08
                   },
                   "icon": "lucide-file-text",
@@ -846,17 +802,16 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-bs.pdf",
-                    "page": 5,
-                    "left": -24,
-                    "top": 420,
-                    "zoom": 0.6335543199315654
+                    "page": 3,
+                    "left": 117,
+                    "top": 82,
+                    "zoom": 1.24
                   },
                   "icon": "lucide-file-text",
                   "title": "DMath-cheatsheet-bs"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1025,7 +980,7 @@
         }
       },
       "active": "c2e8cdef2e331f90",
-      "mtime": "2025-01-08T13:21:11+01:00"
+      "mtime": "2025-01-08T16:07:34+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1042,97 +997,20 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/EProg/VRL/notes/EProg.md",
+                    "file": "sem3/EProg/PV/EProg-recap.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "EProg"
-                }
-              },
-              {
-                "id": "25e5d66ffc741f13",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/EProg/VRL/notes/lectures/EProg-v-w04.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "EProg-v-w04"
-                }
-              },
-              {
-                "id": "95ce692e2f7cff02",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/EProg/UE/bf/EProg-bf-u12.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "EProg-bf-u12"
+                  "title": "EProg-recap"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "96a399e7d24357db",
             "type": "tabs",
             "children": [
-              {
-                "id": "bac4a95ce4aeef78",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/EProg/VRL/extra/slides/EProg-slides-w04.pdf",
-                    "page": 49,
-                    "left": -27,
-                    "top": 126,
-                    "zoom": 0.5572916666666666
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "EProg-slides-w04"
-                }
-              },
-              {
-                "id": "227e359a73c078e6",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/EProg/UE/e/EProg-e-u12.pdf",
-                    "page": 3,
-                    "left": 8,
-                    "top": 139,
-                    "zoom": 0.95
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "EProg-e-u12"
-                }
-              },
-              {
-                "id": "047c8e660ec878be",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/EProg/UE/e/EProg-e-u11.pdf",
-                    "page": 7,
-                    "left": -19,
-                    "top": 131,
-                    "zoom": 0.8504901960784313
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "EProg-e-u11"
-                }
-              },
               {
                 "id": "a4dca0ca39d46fc9",
                 "type": "leaf",
@@ -1141,16 +1019,15 @@
                   "state": {
                     "file": "sem3/EProg/UE/e/EProg-e-u08-bonus.pdf",
                     "page": 1,
-                    "left": -19,
-                    "top": 137,
-                    "zoom": 0.8504901960784313
+                    "left": -23,
+                    "top": 163,
+                    "zoom": 0.6556372549019608
                   },
                   "icon": "lucide-file-text",
                   "title": "EProg-e-u08-bonus"
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "vertical"
@@ -1218,8 +1095,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 318.5,
-        "collapsed": true
+        "width": 318.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1318,8 +1194,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "a4dca0ca39d46fc9",
-      "mtime": "2025-01-08T10:39:35+01:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2025-01-08T15:45:23+01:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1357,6 +1233,22 @@
                   "icon": "lucide-file",
                   "title": "LinAlg-recap"
                 }
+              },
+              {
+                "id": "6fb0927e74df1a23",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/LinAlg/VRL/extra/kzheng/LinAlg-w12-kai.pdf",
+                    "page": 11,
+                    "left": 4,
+                    "top": 682,
+                    "zoom": 0.98
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LinAlg-w12-kai"
+                }
               }
             ],
             "currentTab": 1
@@ -1372,9 +1264,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/LinAlg-script-1.pdf",
-                    "page": 39,
+                    "page": 7,
                     "left": -19,
-                    "top": 463,
+                    "top": 266,
                     "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
@@ -1390,14 +1282,57 @@
                     "file": "sem3/LinAlg/VRL/LinAlg-script-2.pdf",
                     "page": 5,
                     "left": -18,
-                    "top": 200,
+                    "top": 211,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-script-2"
                 }
+              },
+              {
+                "id": "067d75128b18a072",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/vector subspace.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "vector subspace"
+                }
+              },
+              {
+                "id": "8ae4913ea0ca5f30",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/matrix decompositions.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "matrix decompositions"
+                }
+              },
+              {
+                "id": "14d2b73b724d1bfa",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/change of basis.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "change of basis"
+                }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1566,7 +1501,7 @@
         }
       },
       "active": "d4fdfb4cd2c46a5a",
-      "mtime": "2025-01-07T15:17:13+01:00"
+      "mtime": "2025-01-08T15:43:22+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1931,5 +1866,5 @@
       "mtime": "2024-12-13T10:20:57+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-a&d"
 }
