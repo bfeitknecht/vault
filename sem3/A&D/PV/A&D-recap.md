@@ -36,3 +36,18 @@ toggle ^= true; // toggle == false
 
 
 
+
+# ADT (abstract data types)
+
+## Heap
+
+`extract()`
+- replace root with last leaf
+- restore heap condition
+
+`insert(n)`
+- add as last leaf
+- restore heap condition by iteratively swapping up if greater than parent
+
+## BST (binary search tree)
+
