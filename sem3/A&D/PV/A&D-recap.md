@@ -42,12 +42,22 @@ toggle ^= true; // toggle == false
 ## Heap
 
 `extract()`
-- replace root with last leaf
-- restore heap condition
+	replace root with last leaf
+	restore heap condition
 
 `insert(n)`
-- add as last leaf
-- restore heap condition by iteratively swapping up if greater than parent
+	add `n` as last leaf
+	restore heap condition by iteratively swapping up if greater than parent
 
 ## BST (binary search tree)
+
+`remove(n)`
+	- replace `n`with symmetric successor
+	- left subtree's rightmost child or right subtree's leftmost child
+
+## AVL (balanced BST)
+
+The AVL condition states that left and right subtrees' height differ by at most one, $|h_{l} - h_{r}| \leq 1$.
+
+
 
