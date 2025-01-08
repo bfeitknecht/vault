@@ -2,13 +2,6 @@
 We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|data structures]] to solve problems efficiently in [[runtime]] and [[memory space]].
 
 
-#todo !!!
-- [ ] download nwehrli a&d summaries
-- [ ] gather sort / search pseudo codes
-- [ ] organize integration of old summaries
-- [ ] download rui zhang summaries
-- [ ] 
-
 # Info
 
 - [x] theory exercise 🔁 every week 📅 2024-12-15 ✅ 2024-12-15

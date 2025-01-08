@@ -461,9 +461,25 @@
                   "icon": "lucide-file",
                   "title": "A&D-recap"
                 }
+              },
+              {
+                "id": "a84d00a2e9428e7f",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/AuD/PV/summaries/AuD-summary-danny.pdf",
+                    "page": 5,
+                    "left": 15,
+                    "top": 388,
+                    "zoom": 1.29
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "AuD-summary-danny"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "4a66b4edfa8d0493",
@@ -494,7 +510,7 @@
                     "file": "sem3/A&D/UE/e/A&D-e-u01.pdf",
                     "page": 1,
                     "left": -18,
-                    "top": 613,
+                    "top": 618,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
@@ -684,8 +700,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "e7911976b677ac81",
-      "mtime": "2025-01-08T15:42:57+01:00"
+      "active": "a84d00a2e9428e7f",
+      "mtime": "2025-01-08T21:40:02+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1866,5 +1882,5 @@
       "mtime": "2024-12-13T10:20:57+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-linalg"
 }
