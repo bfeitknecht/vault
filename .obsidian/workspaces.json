@@ -1118,16 +1118,48 @@
                   "state": {
                     "file": "sem3/EProg/UE/e/EProg-e-u12.pdf",
                     "page": 3,
-                    "left": 12,
-                    "top": 135,
+                    "left": 8,
+                    "top": 139,
                     "zoom": 0.95
                   },
                   "icon": "lucide-file-text",
                   "title": "EProg-e-u12"
                 }
+              },
+              {
+                "id": "047c8e660ec878be",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/EProg/UE/e/EProg-e-u11.pdf",
+                    "page": 7,
+                    "left": -19,
+                    "top": 131,
+                    "zoom": 0.8504901960784313
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "EProg-e-u11"
+                }
+              },
+              {
+                "id": "a4dca0ca39d46fc9",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/EProg/UE/e/EProg-e-u08-bonus.pdf",
+                    "page": 1,
+                    "left": -19,
+                    "top": 137,
+                    "zoom": 0.8504901960784313
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "EProg-e-u08-bonus"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1295,8 +1327,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "95ce692e2f7cff02",
-      "mtime": "2024-12-18T18:21:47+01:00"
+      "active": "a4dca0ca39d46fc9",
+      "mtime": "2025-01-08T10:39:35+01:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1351,7 +1383,7 @@
                     "file": "sem3/LinAlg/VRL/LinAlg-script-1.pdf",
                     "page": 39,
                     "left": -19,
-                    "top": 440,
+                    "top": 463,
                     "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
@@ -1543,7 +1575,7 @@
         }
       },
       "active": "d4fdfb4cd2c46a5a",
-      "mtime": "2025-01-07T09:08:14+01:00"
+      "mtime": "2025-01-07T15:17:13+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1908,5 +1940,5 @@
       "mtime": "2024-12-13T10:20:57+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-dmath"
 }

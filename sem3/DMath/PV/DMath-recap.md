@@ -103,3 +103,22 @@ Prove that $\mathbb{N}^{m}$ is countable for $m \in \mathbb{N}$.
 
 Define an injection $\varphi : \mathbb{N}^{m} \to \mathbb{N}$ with $\varphi(x) = \prod_{i \in [m]} p_{i}^{n_{i}}$ for $x = (n_{1}, n_{2}, \dots, n_{m}) \in \mathbb{N}^{m}$. Correctness follows from the unique prime factorization theorem.
 
+
+# Number Theory
+
+
+# CRT
+
+
+
+# RSA
+
+| Object        | Formula                   | Meaning                                  |
+| ------------- | ------------------------- | ---------------------------------------- |
+| public number | $n = pq$                  | product of primes                        |
+| public key    | $e$                       | secret generator in $\mathbb{Z}_{n}^{*}$ |
+| private key   | $d \equiv_{\varphi(n)} 1$ | multiplicative inverse of $e$            |
+| message       | $m = R_{n}(c^{d})$        | plaintext message                        |
+| ciphertext    | $c = R_{n}(m^{e})$        | encrypted message                        |
+
+

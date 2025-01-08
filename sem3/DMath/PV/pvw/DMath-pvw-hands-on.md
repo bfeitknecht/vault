@@ -20,7 +20,7 @@ symmetric +
 
 
 # 2.2
-$\widehat{\rho} = \varnothing$
+$\widehat{\rho} = \rho$
 $\rho^{2} = \{ (a, a), (b, b), (c,c), (a, c), (a, d), (c, a), (c, d), (d, a), (d c) \}$
 $\rho^{*} = \rho \cup \rho^{2}$
 
