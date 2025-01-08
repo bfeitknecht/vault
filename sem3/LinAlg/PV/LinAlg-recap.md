@@ -11,4 +11,6 @@ conjugation of complex number $z = a + bi$ scales imaginary component by negativ
 
 span is always a vector space
 
+thursday: gram schmidt, qr decomposition, orthogonal matrices, inverses
+friday: evd, svd
 
