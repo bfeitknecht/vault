@@ -753,7 +753,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "f002029a56c7a80a",
@@ -784,9 +784,9 @@
                   "state": {
                     "file": "sem3/DMath/PV/pvw/DMath-pvw-script-HS24.pdf",
                     "page": 24,
-                    "left": 29,
-                    "top": 703,
-                    "zoom": 1.1
+                    "left": -18,
+                    "top": 708,
+                    "zoom": 0.8958029552678087
                   },
                   "icon": "lucide-file-text",
                   "title": "DMath-pvw-script-HS24"
@@ -977,8 +977,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "07d8c4a76eba9ff0",
-      "mtime": "2025-01-09T14:36:48+01:00"
+      "active": "c2e8cdef2e331f90",
+      "mtime": "2025-01-09T15:28:14+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1864,5 +1864,5 @@
       "mtime": "2025-01-09T14:38:00+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-eprog"
 }
