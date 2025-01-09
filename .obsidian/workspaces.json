@@ -6,21 +6,17 @@
         "type": "split",
         "children": [
           {
-            "id": "a70c51e34214e202",
+            "id": "16378bbeee8ed13e",
             "type": "tabs",
             "children": [
               {
-                "id": "d6637d4465a84bcb",
+                "id": "2e554ccc5e504fe4",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "var/other/private.md",
-                    "mode": "source",
-                    "source": false
-                  },
+                  "type": "empty",
+                  "state": {},
                   "icon": "lucide-file",
-                  "title": "private"
+                  "title": "New tab"
                 }
               }
             ]
@@ -191,8 +187,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "d6637d4465a84bcb",
-      "mtime": "2025-01-04T17:59:38+01:00"
+      "active": "2e554ccc5e504fe4",
+      "mtime": "2025-01-09T14:37:49+01:00"
     },
     "00-home": {
       "main": {
@@ -423,7 +419,7 @@
         }
       },
       "active": "162e7a61651e562a",
-      "mtime": "2025-01-09T08:46:06+01:00"
+      "mtime": "2025-01-09T14:37:52+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -770,9 +766,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 120,
+                    "page": 6,
                     "left": -12,
-                    "top": 257,
+                    "top": 607,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -786,29 +782,13 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/PV/pvw/DMath-pvw-script-HS24.pdf",
-                    "page": 21,
-                    "left": 38,
-                    "top": 419,
-                    "zoom": 1.08
+                    "page": 24,
+                    "left": 29,
+                    "top": 703,
+                    "zoom": 1.1
                   },
                   "icon": "lucide-file-text",
                   "title": "DMath-pvw-script-HS24"
-                }
-              },
-              {
-                "id": "3ceb66188f1666cd",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "var/other/LATEX.pdf",
-                    "page": 2,
-                    "left": -18,
-                    "top": 747,
-                    "zoom": 0.8958029552678087
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "LATEX"
                 }
               },
               {
@@ -818,16 +798,17 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-bs.pdf",
-                    "page": 3,
-                    "left": 117,
-                    "top": 82,
-                    "zoom": 1.24
+                    "page": 4,
+                    "left": -4,
+                    "top": 486,
+                    "zoom": 1.48
                   },
                   "icon": "lucide-file-text",
                   "title": "DMath-cheatsheet-bs"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -895,7 +876,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 240.5,
+        "width": 283.5,
         "collapsed": true
       },
       "right": {
@@ -996,7 +977,7 @@
         }
       },
       "active": "07d8c4a76eba9ff0",
-      "mtime": "2025-01-09T08:45:49+01:00"
+      "mtime": "2025-01-09T14:36:48+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1627,8 +1608,8 @@
                   "state": {
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
                     "page": 330,
-                    "left": 25,
-                    "top": 197,
+                    "left": 21,
+                    "top": 201,
                     "zoom": 1.22
                   },
                   "icon": "lucide-file-text",
@@ -1879,8 +1860,8 @@
         }
       },
       "active": "83981181cbd53f95",
-      "mtime": "2024-12-13T10:20:57+01:00"
+      "mtime": "2025-01-09T14:38:00+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "00-home"
 }
