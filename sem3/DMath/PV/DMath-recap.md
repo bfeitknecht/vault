@@ -161,3 +161,6 @@ Allows solving multiple congruence relations.
 | group         | yes             | yes         | yes     | no          |
 | abelian group | yes             | yes         | yes     | yes         |
 
+### Generators
+
+For the additive group $\mathbb{Z}_{n}$, generators $g_{i}$ are all elements coprime to $n$, $\gcd(g_{i}, n) = 1$.
