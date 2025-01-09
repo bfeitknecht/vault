@@ -1,4 +1,15 @@
 
+# Topics
+
+DMath
+	proof patterns
+	CRT
+	modular exponent remainder rules
+	relation properties
+	function and relation quick facts (effect on properties by composition, intersection, union)
+	proof of non-minimality of group axioms
+
+
 # Exams
 
 - [ ] HS18

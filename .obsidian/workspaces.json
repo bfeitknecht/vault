@@ -210,7 +210,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "HOME.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
@@ -422,8 +422,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "c1d4bca0b23a015c",
-      "mtime": "2025-01-06T09:06:23+01:00"
+      "active": "162e7a61651e562a",
+      "mtime": "2025-01-09T08:46:06+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -756,7 +756,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "f002029a56c7a80a",
@@ -772,7 +772,7 @@
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 120,
                     "left": -12,
-                    "top": 253,
+                    "top": 257,
                     "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
@@ -995,8 +995,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "c2e8cdef2e331f90",
-      "mtime": "2025-01-08T16:07:34+01:00"
+      "active": "07d8c4a76eba9ff0",
+      "mtime": "2025-01-09T08:45:49+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1882,5 +1882,5 @@
       "mtime": "2024-12-13T10:20:57+01:00"
     }
   },
-  "active": "00-home"
+  "active": "sem3-dmath"
 }
