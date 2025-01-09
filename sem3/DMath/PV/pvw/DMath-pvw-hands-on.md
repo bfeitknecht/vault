@@ -38,6 +38,8 @@ False. Consider $X, Y = \mathbb{N}$ and $f(x) = \begin{cases} x, & \text{if } x 
 # 4.3
 Prove or disprove, $A = \{ f: \mathbb{N} \to \mathbb{N} \mid \forall n \in \mathbb{N} : f(n) \geq f(n+1)\}$ is countable.
 
+True. The given set $A$ describes the set of all monotonically decreasing functions over the natural numbers.
+
 
 
 ___
