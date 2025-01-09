@@ -253,7 +253,8 @@
                   "title": "Calendar"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -418,8 +419,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "162e7a61651e562a",
-      "mtime": "2025-01-09T14:37:52+01:00"
+      "active": "eb37342e4b713be8",
+      "mtime": "2025-01-09T14:40:30+01:00"
     },
     "sem3-a&d": {
       "main": {
