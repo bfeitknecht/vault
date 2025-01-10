@@ -69,11 +69,11 @@ find **shortest paths**
 
 ## Sorting
 
-![[bubble sort (algorithm)]]
+- easy implementations but bad runtime
+	![[bubble sort (algorithm)]]
+	![[selection sort (algorithm)]]
 
 insertion sort
-
-selection sort
 
 quick sort
 

@@ -5,7 +5,7 @@ The **DFS** [[algorithm]] is a procedure to explore a graph $G = (V, E)$, going 
 function dfs(u)
 	visit u
 	for v adjacent to u
-		if v is not visited
+		if v is not visited then
 			dfs(v)
 		end
 	end

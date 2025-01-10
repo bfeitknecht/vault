@@ -8,7 +8,7 @@ function bfs(u)
 	while Q is not empty
 		let v = Q.deq()
 		for w adjacent to v
-			if w is not visited
+			if w is not visited then
 				visit w
 				Q.enq(w)
 			end
