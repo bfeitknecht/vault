@@ -66,7 +66,6 @@ The AVL condition states that left and right subtrees' height differ by at most 
 	bellman-ford (algorithm)
 	floyd-warshall (algorithm)
 	johnson (algorithm)
-	
 
 ## Sorting
 
@@ -76,9 +75,6 @@ The AVL condition states that left and right subtrees' height differ by at most 
 	![[insertion sort (algorithm)]]
 
 - harder to implement but optimal runtime
-	
 	quick sort (algorithm)
-	
 	merge sort (algorithm)
-	
 	heap sort (algorithm)
