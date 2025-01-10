@@ -1,4 +1,12 @@
 
+# Topics
+
+A&D:
+	pseudo code of algorithms
+	runtime of algorithms
+	definition of complexity classes by limits
+	master theorem
+
 # Exams
 
 - [x] HS18 ✅ 2025-01-08
@@ -13,28 +21,6 @@
 - [ ] FS23
 - [ ] HS23
 - [ ] mock exam
-
-
-# Misc
-
-swap two array variables without temporary variable
-```java
-void swap(int[] A, int i, int j) {
-	A[i] ^= A[j];
-	A[j] ^= A[i];
-	A[i] ^= A[j];
-}
-```
-
-
-toggle boolean variable
-```java
-boolean toggle = false;
-toggle ^= true;	// toggle == true
-toggle ^= true; // toggle == false
-```
-
-
 
 
 # ADT (abstract data types)
@@ -61,3 +47,36 @@ The AVL condition states that left and right subtrees' height differ by at most 
 
 
 
+
+# Algorithms
+
+## Graphs
+
+- **explore** graphs (directed and undirected)
+	![[dfs (algorithm)]]
+	![[bfs (algorithm)]]
+- construct **MST**
+	kruskal
+	prim
+	boruvka
+
+find **shortest paths**
+	dijkstra
+	bellman-ford
+	floyd-warshall
+	johnson
+	
+
+## Sorting
+
+bubble sort
+
+insertion sort
+
+selection sort
+
+quick sort
+
+merge sort
+
+heap sort

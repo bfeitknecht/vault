@@ -43,11 +43,6 @@ EXCLUDE PROJECTS "other"
 %%
 
 
-A&D:
-	pseudo code of algorithms
-	runtime of algorithms
-	definition of complexity classes by limits
-	master theorem
 
 EProg
 	operator precedence

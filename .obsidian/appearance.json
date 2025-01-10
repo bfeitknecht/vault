@@ -8,9 +8,9 @@
   "enabledCssSnippets": [
     "png-white-bg",
     "embed-filename",
-    "style-embed",
     "nowrap-math",
-    "hide-line-above-tables"
+    "hide-line-above-tables",
+    "style-embed"
   ],
   "showViewHeader": true,
   "baseFontSize": 13

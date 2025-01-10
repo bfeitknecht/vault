@@ -164,6 +164,11 @@ Allows to solve multiple congruence relations in coprime moduli.
 
 For the additive group $\mathbb{Z}_{n}$, generators $g_{i}$ are all elements coprime to $n$, $\gcd(g_{i}, n) = 1$.
 
+### Morphism
+
+Let $G, H$ be groups under the operations $\star$ and $\diamond$, respectively. Then $\varphi : G \to H$ is a homomorphism if $\varphi(a \star b) = \varphi(a) \diamond \varphi(b)$.
+An isomorphism is a bijective homomorphism and preserves generators.
+
 
 
 
