@@ -1006,23 +1006,23 @@
             ]
           },
           {
-            "id": "96a399e7d24357db",
+            "id": "37aa2830fb11fd65",
             "type": "tabs",
             "children": [
               {
-                "id": "a4dca0ca39d46fc9",
+                "id": "3978abbe78031225",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/EProg/UE/e/EProg-e-u08-bonus.pdf",
-                    "page": 1,
-                    "left": -23,
-                    "top": 163,
-                    "zoom": 0.6556372549019608
+                    "file": "sem1/EProg/PV/EProg_pvw_HS22.pdf",
+                    "page": 41,
+                    "left": -22,
+                    "top": 192,
+                    "zoom": 0.6740570760453974
                   },
                   "icon": "lucide-file-text",
-                  "title": "EProg-e-u08-bonus"
+                  "title": "EProg_pvw_HS22"
                 }
               }
             ]
@@ -1193,7 +1193,7 @@
         }
       },
       "active": "5f4cf158045f14fe",
-      "mtime": "2025-01-08T15:45:23+01:00"
+      "mtime": "2025-01-10T11:19:00+01:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1864,5 +1864,5 @@
       "mtime": "2025-01-09T14:38:00+01:00"
     }
   },
-  "active": "sem3-eprog"
+  "active": "sem3-dmath"
 }

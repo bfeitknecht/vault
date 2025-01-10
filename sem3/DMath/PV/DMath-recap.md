@@ -135,7 +135,7 @@ Define an injection $\varphi : \mathbb{N}^{m} \to \mathbb{N}$ with $\varphi(x) =
 
 # CRT
 
-Allows solving multiple congruence relations.
+Allows to solve multiple congruence relations in coprime moduli.
 
 
 
@@ -154,7 +154,6 @@ Allows solving multiple congruence relations.
 # Abstract Algebra
 
 
-
 | Object        | Neutral Element | Associative | Inverse | Commutative |
 | ------------- | --------------- | ----------- | ------- | ----------- |
 | monoid        | yes             | yes         | no      | no          |
@@ -166,3 +165,26 @@ Allows solving multiple congruence relations.
 For the additive group $\mathbb{Z}_{n}$, generators $g_{i}$ are all elements coprime to $n$, $\gcd(g_{i}, n) = 1$.
 
 
+
+
+# Proof System, Logical Calculus
+
+In $\mathcal{A}_{[x \to u]}(F)$, the $x$ is a variable occurring (free) in $F$ and $u$ is an element of the universe, $u \in U^{\mathcal{A}}$.
+
+
+Explicit cases for semantics of quantifiers in interpretation.
+$$
+\begin{align}
+
+\mathcal{A} (\forall x F) = \begin{cases}
+ 1, & \text{if $\mathcal{A}_{[x \to u]}(F) = 1$ for all $u \in U^{\mathcal{A}}$} \\
+ 0, &\text{if $\mathcal{A}_{[x \to u]}(F) = 0$ for some $u \in U^{\mathcal{A}}$}
+\end{cases}
+\\ \\
+\mathcal{A} (\exists x F) = \begin{cases}
+ 1, & \text{if $\mathcal{A}_{[x \to u]}(F) = 1$ for some $u \in U^{\mathcal{A}}$} \\
+ 0, &\text{if $\mathcal{A}_{[x \to u]}(F) = 0$ for all $u \in U^{\mathcal{A}}$}
+\end{cases}
+
+\end{align}
+$$
