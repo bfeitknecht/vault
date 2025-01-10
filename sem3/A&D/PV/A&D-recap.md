@@ -69,7 +69,7 @@ find **shortest paths**
 
 ## Sorting
 
-bubble sort
+![[bubble sort (algorithm)]]
 
 insertion sort
 
