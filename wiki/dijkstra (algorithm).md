@@ -1,4 +1,5 @@
 
+The **dijkstra** algorithm is a [[path (graph)|path]] finding algorithm for a graph $G = (V, E)$
 
 ```
 function dijkstra(s)
