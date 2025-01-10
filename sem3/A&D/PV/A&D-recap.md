@@ -3,6 +3,7 @@
 
 A&D:
 	pseudo code of algorithms
+	topological sort
 	runtime of algorithms
 	definition of complexity classes by limits
 	master theorem
