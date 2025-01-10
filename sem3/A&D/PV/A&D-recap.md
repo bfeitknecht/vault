@@ -55,16 +55,17 @@ The AVL condition states that left and right subtrees' height differ by at most 
 - **explore** graphs (directed and undirected)
 	![[dfs (algorithm)]]
 	![[bfs (algorithm)]]
-- construct **MST**
-	kruskal
-	prim
-	boruvka
 
-find **shortest paths**
-	dijkstra
-	bellman-ford
-	floyd-warshall
-	johnson
+- construct **MST**
+	kruskal (algorithm)
+	prim (algorithm)
+	boruvka (algorithm)
+
+- find **shortest paths**
+	dijkstra (algorithm)
+	bellman-ford (algorithm)
+	floyd-warshall (algorithm)
+	johnson (algorithm)
 	
 
 ## Sorting
@@ -74,8 +75,10 @@ find **shortest paths**
 	![[selection sort (algorithm)]]
 	![[insertion sort (algorithm)]]
 
-quick sort
-
-merge sort
-
-heap sort
+- harder to implement but optimal runtime
+	
+	quick sort (algorithm)
+	
+	merge sort (algorithm)
+	
+	heap sort (algorithm)
