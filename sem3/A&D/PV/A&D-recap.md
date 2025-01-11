@@ -58,9 +58,9 @@ The AVL condition states that left and right subtrees' height differ by at most 
 	![[bfs (algorithm)]]
 
 - construct **MST**
-	kruskal (algorithm)
+	![[kruskal (algorithm)]]
 	![[prim (algorithm)]]
-	boruvka (algorithm)
+	![[boruvka (algorithm)]]
 
 - find one to all **shortest paths**
 	![[dijkstra (algorithm)]]
