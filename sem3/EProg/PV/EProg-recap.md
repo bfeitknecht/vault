@@ -51,19 +51,20 @@ toggle ^= true; // toggle == false
 
 
 
-| Operators            | Precedence                                |
-| -------------------- | ----------------------------------------- |
-| postfix              | `expr++` `expr--`                         |
-| unary                | `++expr` `--expr` `+expr` `-expr` `~` `!` |
-| multiplicative       | `*` `/` `%`                               |
-| additive             | `+` `-`                                   |
-| shift                | `<<` `>>` `>>>`                           |
-| relational           | `<` `>` `<=` `>=` `instanceof`            |
-| equality             | `==` `!=`                                 |
-| bitwise AND          | `&`                                       |
-| bitwise exclusive OR | `^`                                       |
-| bitwise inclusive OR | `\|`                                      |
-| logical AND          | `&&`                                      |
-| logical OR           | `\|`                                      |
-| ternary              | `? :`                                     |
-| assignment           | `= += -= *= /= %= &= ^= \|= <<= >>= >>>=` |
+| Operators                                      | Precedence                                                      | Associativity |
+| ---------------------------------------------- | --------------------------------------------------------------- | ------------- |
+| parenthesis, array, attribute                  | `(expr)` `[]` `.`                                               | LR            |
+| postfix                                        | `expr++` `expr--`                                               | RL            |
+| unary<br>logical NOT, bitwise INV<br>type cast | `++expr` `--expr` `+expr` `-expr`<br>`!` `~`<br>`(T)`           | RL            |
+| multiplicative                                 | `*` `/` `%`                                                     | LR            |
+| additive                                       | `+` `-`                                                         | LR            |
+| shift                                          | `<<` `>>` `>>>`                                                 | LR            |
+| relational                                     | `<` `>` `<=` `>=` `instanceof`                                  | LR            |
+| equality                                       | `==` `!=`                                                       | LR            |
+| bitwise AND                                    | `&`                                                             | LR            |
+| bitwise XOR                                    | `^`                                                             | LR            |
+| bitwise OR                                     | `\|`                                                            | LR            |
+| logical AND                                    | `&&`                                                            | LR            |
+| logical OR                                     | `\|`                                                            | LR            |
+| ternary                                        | `? :`                                                           | RL            |
+| assignment                                     | `=` `+=` `-=` `*=` `/=` `%=` `&=` `^=` `\|=` `<<=` `>>=` `>>>=` | RL            |
