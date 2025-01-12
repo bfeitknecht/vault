@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "16378bbeee8ed13e",
+            "id": "dee55190dc6c6f11",
             "type": "tabs",
             "children": [
               {
-                "id": "2e554ccc5e504fe4",
+                "id": "8a83c5a930578856",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -187,8 +187,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "2e554ccc5e504fe4",
-      "mtime": "2025-01-09T14:37:49+01:00"
+      "active": "8a83c5a930578856",
+      "mtime": "2025-01-11T17:11:05+01:00"
     },
     "00-home": {
       "main": {
@@ -459,16 +459,32 @@
                 }
               },
               {
-                "id": "a84d00a2e9428e7f",
+                "id": "a251f28fd7073373",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/AuD/PV/summaries/A&D-summary-jpiekarek.pdf",
+                    "page": 6,
+                    "left": -18,
+                    "top": 750,
+                    "zoom": 0.8743843192065531
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "A&D-summary-jpiekarek"
+                }
+              },
+              {
+                "id": "63060d568403e8ef",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem1/AuD/PV/summaries/AuD-summary-danny.pdf",
-                    "page": 4,
-                    "left": -13,
-                    "top": 103,
-                    "zoom": 1.1432525039536112
+                    "page": 35,
+                    "left": 29,
+                    "top": 494,
+                    "zoom": 1.39
                   },
                   "icon": "lucide-file-text",
                   "title": "AuD-summary-danny"
@@ -488,9 +504,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "var/other/LATEX.pdf",
-                    "page": 3,
-                    "left": -23,
-                    "top": 716,
+                    "page": 1,
+                    "left": -14,
+                    "top": 846,
                     "zoom": 0.6916959528017258
                   },
                   "icon": "lucide-file-text",
@@ -498,37 +514,55 @@
                 }
               },
               {
-                "id": "fa9ccacc4a8d4989",
+                "id": "fad541406edd9474",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/A&D/UE/e/A&D-e-u01.pdf",
-                    "page": 1,
-                    "left": -18,
-                    "top": 627,
-                    "zoom": 0.8743843192065531
+                    "file": "sem3/A&D/VRL/script/A&D-script-w05-datastructures.pdf",
+                    "page": 3,
+                    "left": -23,
+                    "top": 594,
+                    "zoom": 0.6727971562770884
                   },
                   "icon": "lucide-file-text",
-                  "title": "A&D-e-u01"
+                  "title": "A&D-script-w05-datastructures"
                 }
               },
               {
-                "id": "0c14742ee52e594e",
+                "id": "8a4aa0b90e0b95b6",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "pdf",
                   "state": {
-                    "file": "sem2/A1/PV/extra/A1-derivative-integral-rules.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "sem3/A&D/VRL/script/A&D-script-w04-search-sort.pdf",
+                    "page": 3,
+                    "left": -4,
+                    "top": 671,
+                    "zoom": 1.15
                   },
-                  "icon": "lucide-file",
-                  "title": "A1-derivative-integral-rules"
+                  "icon": "lucide-file-text",
+                  "title": "A&D-script-w04-search-sort"
+                }
+              },
+              {
+                "id": "cc23af68b4e7ad25",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/A&D/VRL/script/A&D-script-w09-graph-algorithms.pdf",
+                    "page": 12,
+                    "left": -18,
+                    "top": 254,
+                    "zoom": 0.874384319206553
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "A&D-script-w09-graph-algorithms"
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -697,7 +731,7 @@
         }
       },
       "active": "e7911976b677ac81",
-      "mtime": "2025-01-10T14:00:07+01:00"
+      "mtime": "2025-01-11T20:25:55+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1880,5 +1914,5 @@
       "mtime": "2025-01-09T14:38:00+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-eprog"
 }

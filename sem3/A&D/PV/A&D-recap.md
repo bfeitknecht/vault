@@ -5,7 +5,7 @@ A&D:
 	pseudo code of algorithms
 	topological sort
 	runtime of algorithms
-	definition of complexity classes by limits
+	definition of complexity classes $\mathcal{O}, \Theta, \Omega$ by limits
 	master theorem
 
 # Exams
@@ -39,8 +39,7 @@ A&D:
 ## BST (binary search tree)
 
 `remove(n)`
-	- replace `n`with symmetric successor
-	- left subtree's rightmost child or right subtree's leftmost child
+	replace `n`with symmetric successor, i.e. left subtree's rightmost child or right subtree's leftmost child
 
 ## AVL (balanced BST)
 
@@ -62,14 +61,14 @@ The AVL condition states that left and right subtrees' height differ by at most 
 	![[prim (algorithm)]]
 	![[boruvka (algorithm)]]
 
-- find one to all **shortest paths**
+- find *one to all* **shortest paths**
 	![[dijkstra (algorithm)]]
 	![[bellman-ford (algorithm)]]
 
-- find all to all **shortest paths**
+- find *all to all* **shortest paths**
 	![[floyd-warshall (algorithm)]]
-	johnson (algorithm)
-
+	![[johnson (algorithm)]]
+	
 ## Sorting
 
 - easy implementations but bad runtime

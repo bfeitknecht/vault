@@ -4,7 +4,7 @@ The **floyd-warshall** algorithm determines the shortest path between any two ve
 ```
 function floyd_warshall(G)
 	let n = |V|
-	let d = [n][n]
+	let d = [][]
 	for e = (u, v) in E
 		d[u][v] = w(u, v)
 	end

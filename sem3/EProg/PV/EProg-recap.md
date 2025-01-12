@@ -18,8 +18,8 @@
 ## Program
 
 - [x] HS19 ✅ 2025-01-09
-- [x] FS20 ✅ 2025-01-10
-- [ ] HS20
+- [ ] FS20
+- [x] HS20 ✅ 2025-01-11
 - [ ] FS21
 - [ ] HS21
 - [ ] FS22
@@ -51,3 +51,19 @@ toggle ^= true; // toggle == false
 
 
 
+| Operators            | Precedence                                |
+| -------------------- | ----------------------------------------- |
+| postfix              | `expr++` `expr--`                         |
+| unary                | `++expr` `--expr` `+expr` `-expr` `~` `!` |
+| multiplicative       | `*` `/` `%`                               |
+| additive             | `+` `-`                                   |
+| shift                | `<<` `>>` `>>>`                           |
+| relational           | `<` `>` `<=` `>=` `instanceof`            |
+| equality             | `==` `!=`                                 |
+| bitwise AND          | `&`                                       |
+| bitwise exclusive OR | `^`                                       |
+| bitwise inclusive OR | `\|`                                      |
+| logical AND          | `&&`                                      |
+| logical OR           | `\|`                                      |
+| ternary              | `? :`                                     |
+| assignment           | `= += -= *= /= %= &= ^= \|= <<= >>= >>>=` |
