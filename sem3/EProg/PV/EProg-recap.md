@@ -68,3 +68,6 @@ toggle ^= true; // toggle == false
 | logical OR                                     | `\|`                                                            | LR            |
 | ternary                                        | `? :`                                                           | RL            |
 | assignment                                     | `=` `+=` `-=` `*=` `/=` `%=` `&=` `^=` `\|=` `<<=` `>>=` `>>>=` | RL            |
+
+
+Java is pass-by-value, meaning what we do to a passed variable doesn't affect it if it's a primitive type but can affect it if it's an object.
