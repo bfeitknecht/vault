@@ -99,19 +99,16 @@ $$
 The fact that $f$ grows asymptotically slower than $g$, i.e. $f \ll g \iff f \leq O(g)$ is equivalent to the fact that $g$ grows asymptotically faster than $f$, i.e. $g \gg f \iff g \geq \Omega{(f)}$. If both functions have the same asymptotic growth rate we write $f \sim g \iff f \leq O(g) \land f \leq \Omega(g) \iff f  = \Theta(g) \iff g = \Theta(f)$.  
 $$
 \lim_{ n \to \infty } \frac{f(n)}{g(n)} = \begin{cases}
-0 \implies f \ll g \\
-c \implies f \sim g\\
-\infty \implies f \gg g
+0 &\implies f \ll g \\
+c &\implies f \sim g\\
+\infty &\implies f \gg g
 \end{cases}
 $$
 
 
 Proof idea for stirling's approximation $\ln n! \sim n \ln n$.
-1. $\ln n! \ll n \ln n$
-2. $\ln n! \gg n \ln n$
-
-1. $\ln n! \leq \ln n^{n} = n \ln n \ll n \ln n$
-2. $\ln n ! \geq \sum_{i=1}^{n} \ln i \geq \sum_{i=\left\lceil  \frac{n}{2}  \right\rceil} ^{n} \ln i \geq \sum_{i = \left\lceil  \frac{n}{2}  \right\rceil}^{n} \ln \frac{n}{2} = \ln \frac{n}{2} \cdot \frac{n}{2} = \cancel{ \frac{1}{2} } n (\ln n \cancel{ - \ln 2 }) \gg n \ln n$
+1. Show $\ln n! \ll n \ln n$. Proof. $\ln n! \leq \ln n^{n} = n \ln n \ll n \ln n$
+2. Show $\ln n! \gg n \ln n$. Proof. $\ln n ! \geq \sum_{i=1}^{n} \ln i \geq \sum_{i=\left\lceil  \frac{n}{2}  \right\rceil} ^{n} \ln i \geq \sum_{i = \left\lceil  \frac{n}{2}  \right\rceil}^{n} \ln \frac{n}{2} = \ln \frac{n}{2} \cdot \frac{n}{2} = \cancel{ \frac{1}{2} } n (\ln n \cancel{ - \ln 2 }) \gg n \ln n$
 
 
 | Sum                            | Formula                               |
