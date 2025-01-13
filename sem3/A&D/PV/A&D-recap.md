@@ -80,3 +80,15 @@ The AVL condition states that left and right subtrees' height differ by at most 
 	quick sort (algorithm)
 	merge sort (algorithm)
 	heap sort (algorithm)
+
+
+
+# Asymptotic Analysis
+
+
+Let $f, g : \mathbb{R}_{+} \to \mathbb{R}_{+}$ be two functions. Then $f$ grows asymptotically slower than $g$ if and only if $\lim_{ x \to \infty } \frac{f(x)}{g(x)} = 0 \iff \lim_{ x \to \infty } \frac{g(x)}{f(x)} = \infty$. This can be written as $f \in O(g)$, $f \leq O(g)$ or alternatively $f \ll g$.
+- logarithmic functions grow slower than polynomial functions
+- all polynomials grow slower than exponentials
+- the logarithm doesn't affect the asymptotic growth -> base change trick $\log_{x} z = \frac{\log_{a} z}{\log_{a} x}$
+
+$c \ll \log \log n \ll \log n \ll n \log n \sim \log n! \ll n \ll n^{c} \ll c^{n} \ll n^{n} \sim n!$
