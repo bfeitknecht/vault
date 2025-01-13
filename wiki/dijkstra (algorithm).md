@@ -3,18 +3,23 @@ The **dijkstra** algorithm is a [[path (graph)|path]] finding algorithm for a gr
 
 ```
 function dijkstra(G, s)
+	let pq = priority queue
 	let d = []
 	d[s] = 0
 	
 	for v in V \ {s}
-		d[v] = INFINITY
+		pq.insert_priority(v, INFINITY)
 	end
 	
-	let H = min-max heap from V
-	while H is not empty
-		let u = H.extract_minimum()
+	while pq is not empty
+		let u = pq.extract_minimum()
 		for v adjacent to u
-			H.push_down(v, d[v])
+			let dsuv = d[u] + w(u, v)
+			
+			if dsuv < d[v] then
+				d[v] = dsuv
+				pq.decrease_priority(d, dsuv)
+			end
 		end
 	end
 	
