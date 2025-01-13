@@ -111,9 +111,20 @@ Proof idea for stirling's approximation $\ln n! \sim n \ln n$.
 2. Show $\ln n! \gg n \ln n$. Proof. $\ln n ! \geq \sum_{i=1}^{n} \ln i \geq \sum_{i=\left\lceil  \frac{n}{2}  \right\rceil} ^{n} \ln i \geq \sum_{i = \left\lceil  \frac{n}{2}  \right\rceil}^{n} \ln \frac{n}{2} = \ln \frac{n}{2} \cdot \frac{n}{2} = \cancel{ \frac{1}{2} } n (\ln n \cancel{ - \ln 2 }) \gg n \ln n$
 
 
-| Sum                            | Formula                               |
-| ------------------------------ | ------------------------------------- |
-| $\sum_{i=1}^{n}i$              | $\frac{n(n+1)}{2}$                    |
-| $\sum_{i=1}^{n}i^{2}$          | $\frac{n(n+1)(2n+1)}{6}$              |
-| $\sum_{i=1}^{n}i^{3}$          | $\left( \frac{n(n+1)}{2} \right)^{2}$ |
-| $\sum_{i=0}^{n}c_{\neq 1}^{i}$ | $\frac{c^{n+1} - 1}{c^{n} - 1}$       |
+| Sum                            | Formula                               | Bound             |
+| ------------------------------ | ------------------------------------- | ----------------- |
+| $\sum_{i=1}^{n}i$              | $\frac{n(n+1)}{2}$                    | $\Theta(n^{2})$   |
+| $\sum_{i=1}^{n}i^{2}$          | $\frac{n(n+1)(2n+1)}{6}$              | $\Theta(n^{3})$   |
+| $\sum_{i=1}^{n}i^{3}$          | $\left( \frac{n(n+1)}{2} \right)^{2}$ | $\Theta(n^{4})$   |
+| $\sum_{i=1}^{n} i ^{k_{>0}}$   |                                       | $\Theta(n^{k+1})$ |
+| $\sum_{i=0}^{n}c_{\neq 1}^{i}$ | $\frac{c^{n+1} - 1}{c^{n} - 1}$       |                   |
+
+Master theorem. Let $T : \mathbb{N} \to \mathbb{R}_{+}$ be a monotonically increasing function such that for all $n = 2 ^{k}$ with $k \in \mathbb{N}$ the following holds for some $a \in \mathbb{R}_{+}$ and $b \in \mathbb{R}$.
+$$
+T(n) \leq a T \left( \frac{n}{2} \right) + O(n^{b}) \implies \begin{cases}
+b > \log_{2} a &\implies T(n) \ll n^{b} \\
+b = \log_{2} a &\implies T(n) \ll n^{\log_{2} a} \log n \\
+b < \log_{2} a &\implies T(n) \ll n^{\log_{2} a}
+\end{cases}
+$$
+
