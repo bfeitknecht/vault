@@ -86,9 +86,22 @@ The AVL condition states that left and right subtrees' height differ by at most 
 # Asymptotic Analysis
 
 
-Let $f, g : \mathbb{R}_{+} \to \mathbb{R}_{+}$ be two functions. Then $f$ grows asymptotically slower than $g$ if and only if $\lim_{ x \to \infty } \frac{f(x)}{g(x)} = 0 \iff \lim_{ x \to \infty } \frac{g(x)}{f(x)} = \infty$. This can be written as $f \in O(g)$, $f \leq O(g)$ or alternatively $f \ll g$.
+Let $f, g : \mathbb{N} \to \mathbb{R}_{+}$ be two functions. Then $f$ grows asymptotically slower than $g$ if and only if $\lim_{ x \to \infty } \frac{f(x)}{g(x)} = 0$. This can be written as $f \in O(g)$, $f \leq O(g)$ or alternatively $f \ll g$.
 - logarithmic functions grow slower than polynomial functions
 - all polynomials grow slower than exponentials
 - the logarithm doesn't affect the asymptotic growth -> base change trick $\log_{x} z = \frac{\log_{a} z}{\log_{a} x}$
 
-$c \ll \log \log n \ll \log n \ll n \log n \sim \log n! \ll n \ll n^{c} \ll c^{n} \ll n^{n} \sim n!$
+Let $1< c \in \mathbb{R}_{+}$ and $n \to \infty$. Then the following holds.
+$$
+c \ll \log \log n \ll \log n \ll n \ll n \log n \sim \log n! \ll n^{c} \ll c^{n} \ll n^{n} \sim n!
+$$
+
+The fact that $f$ grows asymptotically slower than $g$, i.e. $f \ll g \iff f \leq O(g)$ is equivalent to the fact that $g$ grows asymptotically faster than $f$, i.e. $g \gg f \iff g \geq \Omega{(f)}$. If both functions have the same asymptotic growth rate we write $f \sim g \iff f \leq O(g) \land f \leq \Omega(g) \iff f  = \Theta(g) \iff g = \Theta(f)$.  
+$$
+\lim_{ n \to \infty } \frac{f(n)}{g(n)} = \begin{cases}
+0 \implies f \ll g \\
+c \implies f \sim g\\
+\infty \implies f \gg g
+\end{cases}
+$$
+
