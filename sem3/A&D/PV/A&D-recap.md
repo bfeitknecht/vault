@@ -78,10 +78,9 @@ The AVL condition states that left and right subtrees' height differ by at most 
 	![[insertion sort (algorithm)]]
 
 - harder to implement but optimal runtime
-	quick sort (algorithm)
-	merge sort (algorithm)
-	heap sort (algorithm)
-
+	![[quick sort (algorithm)]]
+	![[merge sort (algorithm)]]
+	![[heap sort (algorithm)]]
 
 
 # Asymptotic Analysis

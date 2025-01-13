@@ -1,5 +1,5 @@
 
-The **bubble sort** algorithm is one of the most naive sorting algorithms. It only considers adjacent elements and swaps them if they are in the wrong order, repeating for all possible pairs. It runs in $O(n^{2})$.
+The **bubble sort** algorithm is one of the most naive sorting algorithms. It only considers adjacent elements and swaps them if they are in the wrong order, repeating for all possible pairs. It runs in $\Theta(n^{2})$ with the number of comparisons and the swaps in $O(n^{2})$.
 
 ```
 function bubblesort(A)
