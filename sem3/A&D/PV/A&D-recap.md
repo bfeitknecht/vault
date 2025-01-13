@@ -8,6 +8,8 @@ A&D:
 	definition of complexity classes $\mathcal{O}, \Theta, \Omega$ by limits
 	master theorem
 	add comparisons and swaps asymptotic analysis
+	asymptotic runtime of ADT operations
+
 
 # Exams
 
