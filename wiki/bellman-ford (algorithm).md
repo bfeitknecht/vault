@@ -1,5 +1,5 @@
 
-The **bellman-ford** algorithm finds the shortest path from some vertex $s$ to all other vertices $v \in V \setminus \{ s \}$. It's time complexity is $O(|V| \cdot |E|)$. The edge weights can be negative $w : E \to \mathbb{R}$ and negative cycles can be detected, as some path $P \in V^{*} : |P| \geq |V|$ must contain a cycle.
+The **bellman-ford** algorithm finds the shortest path from some vertex $s$ to all other vertices $v \in V \setminus \{ s \}$. It's time complexity is $O(|V| \cdot |E|)$. The edge weights can be negative $w : E \to \mathbb{R}$ and negative cycles can be detected, as some path $P \in V^{*} : |P| > |V|$ implies that the graph must contain a cycle.
 
 ```
 function bellman_ford(G, s)
@@ -12,7 +12,7 @@ function bellman_ford(G, s)
 	
 	for i in 1 .. n-1
 		for e = (u, v) in E
-			d[v] = min(d[v], d[u] + w(u, v))
+			d[v] = min(d[v], d[u] + c(u, v))
 		end
 	end
 	

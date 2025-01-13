@@ -14,11 +14,11 @@ function dijkstra(G, s)
 	while pq is not empty
 		let u = pq.extract_minimum()
 		for v adjacent to u
-			let dsuv = d[u] + w(u, v)
+			let dsuv = d[u] + c(u, v)
 			
 			if dsuv < d[v] then
 				d[v] = dsuv
-				pq.decrease_priority(d, dsuv)
+				pq.decrease_priority(v, dsuv)
 			end
 		end
 	end

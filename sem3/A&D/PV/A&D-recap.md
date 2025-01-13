@@ -69,7 +69,7 @@ The AVL condition states that left and right subtrees' height differ by at most 
 - find *all to all* **shortest paths**
 	![[floyd-warshall (algorithm)]]
 	![[johnson (algorithm)]]
-	
+
 ## Sorting
 
 - easy implementations but bad runtime
@@ -94,7 +94,7 @@ Let $f, g : \mathbb{N} \to \mathbb{R}_{+}$ be two functions. Then $f$ grows asym
 
 Let $1< c \in \mathbb{R}_{+}$ and $n \to \infty$. Then the following holds.
 $$
-c \ll \log \log n \ll \log n \ll  n^{c<1} \ll n \ll n \log n \sim \log n! \ll n^{c>1} \ll _{}{1<}c^{n} \ll n^{n} \sim n!
+c \ll \log \dots \log n \ll \log n \ll  n^{c<1} \ll n \ll n \log n \sim \log n! \ll n^{c>1} \ll _{}{1<}c^{n} \ll n^{n} \sim n!
 $$
 
 The fact that $f$ grows asymptotically slower than $g$, i.e. $f \ll g \iff f \leq O(g)$ is equivalent to the fact that $g$ grows asymptotically faster than $f$, i.e. $g \gg f \iff g \geq \Omega{(f)}$. If both functions have the same asymptotic growth rate we write $f \sim g \iff f \leq O(g) \land f \leq \Omega(g) \iff f  = \Theta(g) \iff g = \Theta(f)$.  
