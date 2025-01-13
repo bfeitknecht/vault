@@ -7,6 +7,7 @@ A&D:
 	runtime of algorithms
 	definition of complexity classes $\mathcal{O}, \Theta, \Omega$ by limits
 	master theorem
+	add comparisons and swaps asymptotic analysis
 
 # Exams
 

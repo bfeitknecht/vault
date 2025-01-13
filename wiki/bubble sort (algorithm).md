@@ -5,8 +5,8 @@ The **bubble sort** algorithm is one of the most naive sorting algorithms. It on
 function bubblesort(A)
 	for i in 1 .. n
 		for j in 1 .. n
-			if A[i] > A[j] then
-				swap(A, i, j)
+			if A[i] > A[i+1] then
+				swap(A, i, i+1)
 			end
 		end
 	end
