@@ -15,7 +15,7 @@
 - [ ] HS19
 - [ ] FS20
 - [ ] HS20
-- [ ] FS21
+- [ ] FS21 wip
 - [ ] HS21
 - [ ] FS22
 - [ ] HS22
@@ -60,7 +60,7 @@ toggle ^= true; // toggle == false
 
 | Operators                                      | Precedence                                                      | Associativity |
 | ---------------------------------------------- | --------------------------------------------------------------- | ------------- |
-| parenthesis, array, attribute                  | `(expr)` `[]` `.`                                               | LR            |
+| parenthesis, array / member access             | `(expr)` `[]` `.`                                               | LR            |
 | postfix                                        | `expr++` `expr--`                                               | RL            |
 | unary<br>logical NOT, bitwise INV<br>type cast | `++expr` `--expr` `+expr` `-expr`<br>`!` `~`<br>`(T)`           | RL            |
 | multiplicative                                 | `*` `/` `%`                                                     | LR            |
@@ -78,3 +78,6 @@ toggle ^= true; // toggle == false
 
 
 Java is pass-by-value, meaning what we do to a passed variable doesn't affect it if it's a primitive type but can affect it if it's an object.
+
+
+
