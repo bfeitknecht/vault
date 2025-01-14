@@ -1,4 +1,11 @@
 
+# Topics
+
+- [x] operator precedence ✅ 2025-01-14
+- [ ] casting rules
+- [ ] instantiation rules
+
+
 # Exams
 
 ## Theory

@@ -1,4 +1,17 @@
 
+# Topics
+
+- [ ] gram-schmidt
+- [ ] inverse matrix
+- [ ] pseudo-inverse matrix
+- [ ] regular matrix
+- [ ] PSD matrix
+- [ ] singular matrix
+- [ ] normal matrix
+- [ ] similar matrix
+- [ ] farka's lemma
+
+
 # Exams
 
 - [ ] HS18

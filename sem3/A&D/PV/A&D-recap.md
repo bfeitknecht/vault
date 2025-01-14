@@ -1,14 +1,13 @@
 
 # Topics
 
-A&D:
-	pseudo code of algorithms
-	topological sort
-	runtime of algorithms
-	definition of complexity classes $\mathcal{O}, \Theta, \Omega$ by limits
-	master theorem
-	add comparisons and swaps asymptotic analysis
-	asymptotic runtime of ADT operations
+- [x] pseudo code of algorithms ✅ 2025-01-14
+- [ ] topological sort
+- [x] runtime of algorithms ✅ 2025-01-14
+- [x] definition of complexity classes $\mathcal{O}, \Theta, \Omega$ by limits ✅ 2025-01-14
+- [x] master theorem ✅ 2025-01-14
+- [ ] add comparisons and swaps asymptotic analysis
+- [ ] asymptotic runtime of ADT operations
 
 
 # Exams
@@ -29,6 +28,14 @@ A&D:
 
 # ADT (abstract data types)
 
+
+## Queue
+
+## Priority Queue
+
+## Stack
+
+
 ## Heap
 
 `extract()`
@@ -48,12 +55,6 @@ A&D:
 
 The AVL condition states that left and right subtrees' height differ by at most one, $|h_{l}(v) - h_{r}(v)| \leq 1$.
 
-
-
-| Operation | Data Structure |
-| --------- | -------------- |
-|           |                |
-|           |                |
 
 
 

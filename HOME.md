@@ -42,21 +42,3 @@ INCLUDE PROJECTS "pv-a1", "pv-auw", "pv-ddca", "pv-pprog"
 EXCLUDE PROJECTS "other"
 %%
 
-
-
-EProg
-	operator precedence
-	casting rules
-	instantiation rules
-
-LinAlg
-	gram-schmidt
-	inverse matrix
-	pseudo-inverse matrix
-	regular matrix
-	PSD matrix
-	singular matrix
-	normal matrix
-	similar matrix
-	farka's lemma
-	
