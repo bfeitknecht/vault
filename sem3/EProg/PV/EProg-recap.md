@@ -83,3 +83,15 @@ toggle ^= true; // toggle == false
 
 
 
+```java
+class C {
+	int x = 0;
+	
+	public void m(int x) {
+		// x refers to the parameter argument
+	}
+}
+
+class CC extends C {
+	int x = 1;	// shadows super's attribute
+}
