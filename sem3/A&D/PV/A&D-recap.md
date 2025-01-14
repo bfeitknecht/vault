@@ -53,6 +53,7 @@ The AVL condition states that left and right subtrees' height differ by at most 
 | Operation | Data Structure |
 | --------- | -------------- |
 |           |                |
+|           |                |
 
 
 
