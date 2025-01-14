@@ -11,7 +11,7 @@ function dijkstra(G, s)
 		pq.insert_priority(v, INFINITY)
 	end
 	
-	while pq is not empty
+	while pq is not empty do
 		let u = pq.extract_minimum()
 		for v adjacent to u
 			let dsuv = d[u] + c(u, v)

@@ -7,7 +7,7 @@ function prim(G)
 	let S = {s}		# connected component of s
 	let F = {}
 	
-	while S is not V
+	while S is not V do
 		# find minimum weight edge adjacent to connected component
 		e = (u, v) where u in S and v not in S
 		F += e
