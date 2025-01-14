@@ -46,7 +46,13 @@ A&D:
 
 ## AVL (balanced BST)
 
-The AVL condition states that left and right subtrees' height differ by at most one, $|h_{l} - h_{r}| \leq 1$.
+The AVL condition states that left and right subtrees' height differ by at most one, $|h_{l}(v) - h_{r}(v)| \leq 1$.
+
+
+
+| Operation | Data Structure |
+| --------- | -------------- |
+|           |                |
 
 
 
