@@ -58,6 +58,9 @@ toggle ^= true; // toggle == false
 
 
 
+# Study
+
+
 | Operators                                      | Precedence                                                      | Associativity |
 | ---------------------------------------------- | --------------------------------------------------------------- | ------------- |
 | parenthesis, array / member access             | `(expr)` `[]` `.`                                               | LR            |
@@ -76,8 +79,7 @@ toggle ^= true; // toggle == false
 | ternary                                        | `? :`                                                           | RL            |
 | assignment                                     | `=` `+=` `-=` `*=` `/=` `%=` `&=` `^=` `\|=` `<<=` `>>=` `>>>=` | RL            |
 
-
-Java is pass-by-value, meaning what we do to a passed variable doesn't affect it if it's a primitive type but can affect it if it's an object.
+> [!quote] Java is pass-by-value, meaning what we do to a passed variable doesn't affect it if it's a primitive type but can affect it if it's an object.
 
 
 
