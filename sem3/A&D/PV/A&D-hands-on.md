@@ -36,3 +36,22 @@ $$
 $$
 $\square$
 
+
+
+
+
+```
+function shuffle(A, B, C)
+	let n = |A|
+	let m = |B|
+	
+	let X = [][]
+	for i in 1 .. n
+		for j in 1 .. m
+			X[i][j] = C[i] == A[i] or C[j] == B[j]
+		end
+	end
+	
+	return X[n][m]
+end
+```
