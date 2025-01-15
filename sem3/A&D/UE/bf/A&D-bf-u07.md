@@ -42,23 +42,23 @@ $\square$
 # 7.4       Weight and Volume Knapsack ![[A&D-e-u07.pdf#page=3&rect=67,461,528,567|A&D-e-u07, p.3]]
 
 ```
-function weight_volume_knapsack(P, W, weight, volume)
+function weight_volume_knapsack(P, W, Wmax, Vmax)
 	let n = |P|
-	let K = [][][]		# memoization: n * weight * volume
+	let K = [][][]		# memoization: n * Wmax * Vmax
 	
-	# base case: O(weight * volume)
-	for w in 0 .. weight
-		for v in 0 .. volume
+	# base case: O(Wmax * Vmax)
+	for w in 0 .. Wmax
+		for v in 0 .. Vmax
 			K[0][w][v] = 0
 		end
 	end
 	
-	# recurrence relation: O(n * weight * volume)
+	# recurrence relation: O(n * Wmax * Vmax)
 	for i in 1 .. n
-		for w in 1 .. weight
-			for v in 1 .. volume
+		for w in 1 .. Wmax
+			for v in 1 .. Vmax
 				# compute subproblem: O(1)
-				# maximum profit of items P[1..i] respecting limit of weight and volume
+				# maximum profit of first i items with weight <= w and volume <= v
 				if W[i] <= w then
 					K[i][w][v] = max{K[i-1][w][v], K[i][w-W[i]][v-1] + P[i]}
 				else
@@ -70,7 +70,7 @@ function weight_volume_knapsack(P, W, weight, volume)
 	end
 	
 	# extract solution: O(1)
-	return K[n][weight][volume]
+	return K[n][Wmax][Vmax]
 end
 ```
 
