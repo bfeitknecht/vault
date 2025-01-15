@@ -13,10 +13,14 @@
                 "id": "8a83c5a930578856",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "var/other/private.md",
+                    "mode": "source",
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "private"
                 }
               }
             ]
@@ -188,7 +192,7 @@
         }
       },
       "active": "8a83c5a930578856",
-      "mtime": "2025-01-14T17:57:48+01:00"
+      "mtime": "2025-01-15T16:50:24+01:00"
     },
     "00-home": {
       "main": {
@@ -459,34 +463,6 @@
                 }
               },
               {
-                "id": "15a9e3a31ac510ab",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/insertion sort (algorithm).md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "insertion sort (algorithm)"
-                }
-              },
-              {
-                "id": "5874929aa5ecc395",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/merge sort (algorithm).md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "merge sort (algorithm)"
-                }
-              },
-              {
                 "id": "15219f0540a2dc26",
                 "type": "leaf",
                 "state": {
@@ -499,30 +475,28 @@
                   "icon": "lucide-file",
                   "title": "A&D-hands-on"
                 }
+              },
+              {
+                "id": "c660aefa70213a4b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/A&D/UE/bf/A&D-bf-u07.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "A&D-bf-u07"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           },
           {
             "id": "4a66b4edfa8d0493",
             "type": "tabs",
             "children": [
-              {
-                "id": "fad541406edd9474",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/A&D/VRL/script/A&D-script-w05-datastructures.pdf",
-                    "page": 3,
-                    "left": -113,
-                    "top": 599,
-                    "zoom": 0.6727971562770884
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "A&D-script-w05-datastructures"
-                }
-              },
               {
                 "id": "8a4aa0b90e0b95b6",
                 "type": "leaf",
@@ -532,7 +506,7 @@
                     "file": "sem3/A&D/VRL/script/A&D-script-w04-search-sort.pdf",
                     "page": 13,
                     "left": -18,
-                    "top": 111,
+                    "top": 383,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
@@ -540,19 +514,19 @@
                 }
               },
               {
-                "id": "cc23af68b4e7ad25",
+                "id": "fad541406edd9474",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/A&D/VRL/script/A&D-script-w09-graph-algorithms.pdf",
-                    "page": 10,
-                    "left": 58,
-                    "top": 660,
-                    "zoom": 1.06
+                    "file": "sem3/A&D/VRL/script/A&D-script-w05-datastructures.pdf",
+                    "page": 23,
+                    "left": -18,
+                    "top": 78,
+                    "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
-                  "title": "A&D-script-w09-graph-algorithms"
+                  "title": "A&D-script-w05-datastructures"
                 }
               },
               {
@@ -563,16 +537,48 @@
                   "state": {
                     "file": "sem3/A&D/PV/extra/pvw/AuD-pvw-script-HS22.pdf",
                     "page": 24,
-                    "left": 82,
-                    "top": 728,
+                    "left": 78,
+                    "top": 732,
                     "zoom": 1.25
                   },
                   "icon": "lucide-file-text",
                   "title": "AuD-pvw-script-HS22"
                 }
+              },
+              {
+                "id": "2220a9934fe06d7d",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/A&D/UE/e/A&D-e-u07.pdf",
+                    "page": 4,
+                    "left": -4,
+                    "top": 753,
+                    "zoom": 0.95
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "A&D-e-u07"
+                }
+              },
+              {
+                "id": "c7f481d4b60b4a02",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/A&D/UE/s/A&D-s-u07.pdf",
+                    "page": 8,
+                    "left": 17,
+                    "top": 223,
+                    "zoom": 0.95
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "A&D-s-u07"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -740,8 +746,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "e7911976b677ac81",
-      "mtime": "2025-01-15T10:59:57+01:00"
+      "active": "c660aefa70213a4b",
+      "mtime": "2025-01-15T16:50:03+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1381,9 +1387,23 @@
                   "icon": "lucide-file",
                   "title": "change of basis"
                 }
+              },
+              {
+                "id": "d909466dbc83d427",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/vector.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "vector"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 5
           }
         ],
         "direction": "vertical"
@@ -1551,8 +1571,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "d4fdfb4cd2c46a5a",
-      "mtime": "2025-01-14T17:09:19+01:00"
+      "active": "d909466dbc83d427",
+      "mtime": "2025-01-15T16:29:55+01:00"
     },
     "sem3-ti": {
       "main": {

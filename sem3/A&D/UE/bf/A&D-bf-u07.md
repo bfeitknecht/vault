@@ -85,23 +85,35 @@ $\square$
 <div class="page-break" style="page-break-before: always;"></div>
 
 # 7.5    Zebra Arrays ![[A&D-e-u07.pdf#page=3&rect=63,99,530,234|A&D-e-u07, p.3]]
-Since every zebra array of size $l$ contains zebra arrays of size $l-1$, we use a bottom up approach. The base case is given for $k=1$, as any single entry $A[i][j]$ is a $1 \times 1$ zebra array with $i \in [n], j \in [m]$.
-
 
 ```
 function zebra(A)
 	let m = A.rows()
 	let n = A.cols()
-	let Z = [][]	# memoization: m * n table
+	let k = 1
+	let Z = [][]	# memoization: m * n
 	
-	# base case: O(m + n)
-	
+	# base case: O(m * n)
 	for i in 1 .. m
 		for j in 1 .. n
+			Z[i][1] = 1
+			Z[1][j] = 1
+			end
+		end
+	end
+	
+	# recurrence relation: O(m * n)
+	for i in 2 .. m
+		for j in 2 .. n
 			# compute subproblem: O(1)
-			let a = A[i][j]
-			if a == A[i+1][j+1] and a != A[i][j+1] and a != A[i+1][j] then
-				Z[i][j]++
+			# largest zebra submatrix with bottom righ at A[i][j]
+			let (x, l, u, lu) = (A[i][j], A[i][j-1], A[i-1][j], A[i-1][j-1])
+			if x == lu and x != l and x != u then
+				Z[i][j] = 1 + min{Z[i][j-1], Z[i-1][j|, Z[i-1][j-1]}
+			else
+				Z[i][j] = 1
+			end
+			k = max{k, Z[i][j]}
 			end
 		end
 	end
@@ -111,29 +123,10 @@ function zebra(A)
 end
 ```
 
-
-# a
-
-
-1. dimensions of the DP table are $(n+1) \times (m+1)$
-2. solution of the subproblems, i.e. meaning of entry $S[i][j]$ is size $k$ of the largest $k \times k$ zebra array with lower right corner at $A[i][j]$
-3. correctness of the recursion is given by the aforementioned observation, that every zebra array consists of only smaller *sub*-zebra arrays, hence the base case and recurrence relation as defined below
-   - base case:
-```txt
-for i = 0 .. n do: S[0][i] = 1
-for j = 0 .. m do: S[j][0] = 1
-```
-
-   - recurrence relation:
-```txt
-for i = 1 .. n do:
-    for j = 1 .. m do:
-        if A[i][j] != A[i-1][j] then: S[i-1][j] + 1
-        if A[i][j] != A[i][j-1] then: S[i][j-1] + 1
-        if A[i][j] != A[i-1][j-1] then: S[i-1][j-1] + 1
-```
-
-4. the calculation order is to first iterate $i$ over $1\dots n$, within which we loop $j$ over $1\dots m$
-5. solution can be extracted at $S[n][m]$
-6. runtime of the described algorithm is $O(nm)$, because of the two nested for loops that iterate over $n$ and $m$
+1. dimensions of the DP table are $(m+1) \times (n+1)$
+2. solution of the subproblems, i.e. meaning of entry $Z[i][j]$ is size $k$ of the largest $k \times k$ zebra array with bottom right corner at $A[i][j]$
+3. correctness of the recursion is given by the aforementioned observation, that every zebra array consists of only smaller *sub*-zebra arrays, hence the base case and recurrence relation are correct
+4. the calculation order is to first iterate $i$ over $1\dots m$, within which we loop $j$ over $1\dots n$
+5. solution can be extracted at $Z[m][n]$
+6. runtime of the described algorithm is $O(m \cdot n)$, because of the two nested for loops that iterate over $m$ and $n$
 $\square$
