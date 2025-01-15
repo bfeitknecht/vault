@@ -38,20 +38,19 @@ $\square$
 
 
 
-
-
 ```
 function shuffle(A, B, C)
 	let n = |A|
 	let m = |B|
 	
-	let X = [][]
+	let X = [][] with X[0][0] = true
 	for i in 1 .. n
 		for j in 1 .. m
-			X[i][j] = C[i] == A[i] or C[j] == B[j]
+			X[i][j] = (X[i-1][[j] and C[i+j] == A[i]) or (X[i][j-1] and C[i+j] == B[j])
 		end
 	end
 	
 	return X[n][m]
 end
 ```
+
