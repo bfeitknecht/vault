@@ -36,6 +36,7 @@ $$
 $$
 $\square$
 
+___
 
 
 ```
@@ -46,6 +47,7 @@ function shuffle(A, B, C)
 	let X = [][] with X[0][0] = true
 	for i in 1 .. n
 		for j in 1 .. m
+			# C[1..i+j] is shuffle of A[1..i] and B[1..j]
 			X[i][j] = (X[i-1][[j] and C[i+j] == A[i]) or (X[i][j-1] and C[i+j] == B[j])
 		end
 	end
@@ -53,4 +55,13 @@ function shuffle(A, B, C)
 	return X[n][m]
 end
 ```
+
+
+
+HW:
+A&D-u07-e
+**HS23 T3**
+**HS22 T3**
+A&D-q06-08
+
 

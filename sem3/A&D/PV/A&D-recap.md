@@ -140,4 +140,3 @@ b = \log_{2} a &\implies T(n) \ll n^{\log_{2} a} \log n \\
 b < \log_{2} a &\implies T(n) \ll n^{\log_{2} a}
 \end{cases}
 $$
-
