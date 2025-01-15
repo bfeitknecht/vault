@@ -8,7 +8,7 @@ Basil Feitknecht, 23-922-099
 ```
 function subsetsum_duplicates(A, b)
 	let n = |A|
-	let S = [][]		# boolean *b x n* DP table
+	let S = [][]		# memoization: b * n
 	
 	# base case: O(b + n)
 	for i in 1 .. b S[i][0] = false end
@@ -23,7 +23,7 @@ function subsetsum_duplicates(A, b)
 		end
 	end
 	
-	# solution extraction: O(1)
+	# extract solution: O(1)
 	return S[b][n]
 end
 ```
@@ -40,31 +40,45 @@ $\square$
 <div class="page-break" style="page-break-before: always;"></div>
 
 # 7.4       Weight and Volume Knapsack ![[A&D-e-u07.pdf#page=3&rect=67,461,528,567|A&D-e-u07, p.3]]
+
+```
+function weight_volume_knapsack(P, W, weight, volume)
+	let n = |P|
+	let K = [][][]		# memoization: n * weight * volume
+	
+	# base case: O(weight * volume)
+	for w in 0 .. weight
+		for v in 0 .. volume
+			K[0][w][v] = 0
+		end
+	end
+	
+	# recurrence relation: O(n * weight * volume)
+	for i in 1 .. n
+		for w in 1 .. weight
+			for v in 1 .. volume
+				# compute subproblem: O(1)
+				# maximum profit of items P[1..i] respecting limit of weight and volume
+				if W[i] <= w then
+					K[i][w][v] = max{K[i-1][w][v], K[i][w-W[i]][v-1] + P[i]}
+				else
+					# too heavy to carry
+					K[i][w][v] = K[i-1][w][v]
+				end
+			end
+		end
+	end
+	
+	# extract solution: O(1)
+	return K[n][weight][volume]
+end
+```
+
 1. dimensions of the 3d DP table are $(n+1) \times W_{\max} \times V_{\max}$ 
-2. the meaning of entry $S[i][j][l]$ is the profit with $i$ items that add up to weight $j$ and volume $l$ 
+2. the meaning of entry $K[i][w][v]$ is the profit with items in $P[1..i]$ that add up to weight $w$ and volume $v$ 
 3. the correctness of recursion is given by the fact that solutions to the subproblems solve the initial problem
-   - base case:
-```txt
-for i = 0 .. n do:
-    for j = 0 .. W_max do:
-        for l = 0 .. V_max do:
-            S[0][j][l] = 0      // zero items zero profit
-            S[i][0][l] = 0      // zero weight => zero items ..
-            S[i][j][0] = 0      // zero volume ..
-```
-
-   - recurrence relation:
-```txt
-for i = 1 .. n do:
-    for j = 1 .. W_max do:
-        for l = 1 .. V_max do:
-            S[i][j][l] = S[i-1][j-1][l]     // add nothing
-            if W[i] < j then:
-                S[i][j][l] = S[i-1][j-w[i]][l] + P[i]   // add item if not exceed limits
-```
-
-4. calculation order is increasing $i$ then $j$ then $l$
-5. extracting solution can be done at $S[n][W_{\max}][V_{\max}]$
+4. calculation order is increasing $i$ then $w$ then $v$
+5. extracting solution can be done in $O(1)$ at $K[n][W_{\max}][V_{\max}]$
 6. runtime of the algorithm is $O(n \cdot W_{\max} \cdot V_{\max})$
 $\square$
 
@@ -72,6 +86,34 @@ $\square$
 
 # 7.5    Zebra Arrays ![[A&D-e-u07.pdf#page=3&rect=63,99,530,234|A&D-e-u07, p.3]]
 Since every zebra array of size $l$ contains zebra arrays of size $l-1$, we use a bottom up approach. The base case is given for $k=1$, as any single entry $A[i][j]$ is a $1 \times 1$ zebra array with $i \in [n], j \in [m]$.
+
+
+```
+function zebra(A)
+	let m = A.rows()
+	let n = A.cols()
+	let Z = [][]	# memoization: m * n table
+	
+	# base case: O(m + n)
+	
+	for i in 1 .. m
+		for j in 1 .. n
+			# compute subproblem: O(1)
+			let a = A[i][j]
+			if a == A[i+1][j+1] and a != A[i][j+1] and a != A[i+1][j] then
+				Z[i][j]++
+			end
+		end
+	end
+	
+	# extract solution: O(1)
+	return k
+end
+```
+
+
+# a
+
 
 1. dimensions of the DP table are $(n+1) \times (m+1)$
 2. solution of the subproblems, i.e. meaning of entry $S[i][j]$ is size $k$ of the largest $k \times k$ zebra array with lower right corner at $A[i][j]$
