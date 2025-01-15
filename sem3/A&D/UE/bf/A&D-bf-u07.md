@@ -4,26 +4,35 @@ Basil Feitknecht, 23-922-099
 
 
 # 7.1       Subset Sum with Duplicates ![[A&D-e-u07.pdf#page=1&rect=64,388,533,527|A&D-e-u07, p.1]]
+
+```
+function subsetsum_duplicates(A, b)
+	let n = |A|
+	let S = [][]		# boolean *b x n* DP table
+	
+	# base case: O(b + n)
+	for i in 1 .. b S[i][0] = false end
+	for j in 1 .. n S[0][j] = true end
+	
+	# recurrence relation: O(b * n)
+	for i in 1 .. b
+		for j in 1 .. n
+			# compute subproblem: O(1)
+			let a = A[j]
+			S[i][j] = S[i][j-i] or (S[i][j-a] and a <= j) or (S[i][j-2*a] and 2*a <= j)
+		end
+	end
+	
+	# solution extraction: O(1)
+	return S[b][n]
+end
+```
+
+
 1. dimensions of the boolean DP table $S$ are $(b+1) \times (n+1)$, i.e. matrix
-2. entry $S[i][j]$, with $i \in [b], j \in [n]$ means that $i$ is *subset sum with duplicates* of first $j$ entries in $A$
-3. the correctness of the recurrence relation below is given by the fact, that adding an element solves a new subproblem, whereas not adding it preserves the results of the previous iterations' subproblems, i.e. the solutions of the subproblems together form the solution of the initial problem
-   - base case:
-```txt
-for j = 0 .. n do: S[0][j] = true      // no elements taken yields zero
-for i = 1 .. b do: S[i][0] = false     // zero stays zero
-```
-
-   - recurrence relation:
-```txt
-for j = 1 .. n do:
-    for i = 1 .. b do:
-        a = A[j]
-        S[i][j] = S[i][j-1] ||           // don't add new element 
-		 (S[i][j-a] && a < j) ||      // add element once
-		 (S[i][j-2*a] && 2*a < j)     // add element twice
-```
-
-4. we iterate $j$ over $1 \dots n$ and $i$ over $1 \dots b$, thus we compute bottom up
+2. entry $S[i][j]$, with $i \in [b], j \in [n]$ encodes that $i$ is *subset sum with duplicates* of first $j$ entries in $A$
+3. the correctness of the recurrence relation is given by the fact, that adding an element solves a new subproblem, whereas not adding it preserves the results of the previous iterations' subproblems, i.e. the solutions of the subproblems together form the solution of the initial problem
+4. we iterate $i$ over $1 \dots b$ and $j$ over $1 \dots n$, thus we compute bottom up
 5. solution can be extracted at $S[b][n]$, since that entry encodes if it's possible to make *subset sum with duplicates* $b$ of all $n$ entries $A[1 ..n]$
 6. running time is dominated by two nested for loops and thus $O(b \cdot n)$
 $\square$
