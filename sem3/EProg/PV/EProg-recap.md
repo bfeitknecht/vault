@@ -82,16 +82,24 @@ toggle ^= true; // toggle == false
 > [!quote] Java is pass-by-value, meaning what we do to a passed variable doesn't affect it if it's a primitive type but can affect it if it's an object.
 
 
-
 ```java
 class C {
 	int x = 0;
 	
 	public void m(int x) {
-		// x refers to the parameter argument
+		// parameter shadows attribute
 	}
 }
 
 class CC extends C {
-	int x = 1;	// shadows super's attribute
+	int x = 1;	// local attribute shadows super attribute
 }
+
+```
+
+
+
+> [!quote]- Collections and Map Frameworks in Java
+> 
+> ![[java.util.collections.svg]]
+> ![[java.util.map.svg]]

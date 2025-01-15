@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 642 441">
+    <title>java-map</title>
+    <g id="paths">
+        <path d="M282.3,67.8v32.8h-1v-32.8l-4.1,2.1,4.6-9.2,4.6,9.2-4.1-2.1Z"/>
+        <path d="M445.6,79.9l-156.7-17.9,1.6,4.3-8.7-5.6,9.7-3.5-2.5,3.9,156.7,17.9v1Z"/>
+        <path d="M280,147.6l-37.7,113.2-.9-.3,37.7-113.2-4.5.7,7.3-7.3,1.5,10.2-3.2-3.3Z"/>
+        <path d="M246.4,309.9l-4.1-2.1v-.6l-.5-.2h0l-.5.2v.6l-4.1,2.1,4.6-9.2,4.6,9.2ZM241.3,307.8v32.8h1v-32.8l-.5-.2-.5.2Z"/>
+        <path d="M445,181.7v14.8h-1v-14.8l-4.1,2.1,4.6-9.2,4.6,9.2-4.1-2.1Z"/>
+        <path d="M445,123.5v14.8h-1v-14.8l-4.1,2.1,4.6-9.2,4.6,9.2-4.1-2.1Z"/>
+        <path d="M436.9,240.4l.7-4.6-75.5,25.3-.3-.9,75.5-25.3-3.2-3.3,10.2,1.5-7.3,7.3Z"/>
+        <path d="M361.4,260.9l-76-114-2.3,4-1.3-10.2,9,5.1-4.6.6,76,114-.9.6Z"/>
+        <path d="M101.3,260.7l-18.8-112.9-3.7,2.7,3-9.9,6.1,8.4-4.4-1.4,18.8,112.9-1,.2Z"/>
+        <path d="M274.7,68.2l.5-4.6-64.2,23.9c-6,2.2-11,6.4-14.2,11.9l-94.6,161.5-.9-.5,94.6-161.5c3.3-5.7,8.5-10.1,14.7-12.3l64.2-23.9-3.4-3.1,10.3,1.1-7.1,7.6Z"/>
+        <polygon points="101.8 300.6 97.2 309.9 101.3 307.8 101.3 340.6 102.3 340.6 102.3 307.8 106.4 309.9 101.8 300.6"/>
+    </g>
+    <g id="classes">
+        <g>
+            <path d="M57.5,340.5h88v40H57.5v-40Z" fill="#e1d5e7" stroke="#9673a6"/>
+            <text x="102" y="364.5" text-anchor="middle" font-family="LiberationMono-Regular, &apos;Liberation Mono&apos;, monospace" font-size="12">Properties</text>
+        </g>
+        <g>
+            <path d="M61.5,260.5h80v40H61.5v-40Z" fill="#e1d5e7" stroke="#9673a6"/>
+            <text x="102" y="284.5" text-anchor="middle" font-family="LiberationMono-Regular, &apos;Liberation Mono&apos;, monospace" font-size="12">Hashtable</text>
+        </g>
+        <g>
+            <path d="M201.5,260.5h80v40h-80v-40Z" fill="#e1d5e7" stroke="#9673a6"/>
+            <text x="241" y="284.5" text-anchor="middle" font-family="LiberationMono-Regular, &apos;Liberation Mono&apos;, monospace" font-size="12">HashMap</text>
+        </g>
+        <g>
+            <path d="M181.5,340.5h120v40h-120v-40Z" fill="#e1d5e7" stroke="#9673a6"/>
+            <text x="241" y="364.5" text-anchor="middle" font-family="LiberationMono-Regular, &apos;Liberation Mono&apos;, monospace" font-size="12">LinkedHashMap</text>
+        </g>
+        <g>
+            <path d="M321.5,260.5h80v40h-80v-40Z" fill="#e1d5e7" stroke="#9673a6"/>
+            <text x="362" y="284.5" text-anchor="middle" font-family="LiberationMono-Regular, &apos;Liberation Mono&apos;, monospace" font-size="12">TreeMap</text>
+        </g>
+    </g>
+    <g id="abstracts">
+        <g>
+            <rect x="31.5" y="100.5" width="100" height="40" rx="6" ry="6" fill="#dae8fc" stroke="#6c8ebf"/>
+            <text x="81" y="124.5" text-anchor="middle" font-family="LiberationMono-Regular, &apos;Liberation Mono&apos;, monospace" font-size="12">Dictionary</text>
+        </g>
+        <g>
+            <rect x="231.5" y="100.5" width="100" height="40" rx="6" ry="6" fill="#dae8fc" stroke="#6c8ebf"/>
+            <text x="281" y="124.5" text-anchor="middle" font-family="LiberationMono-Regular, &apos;Liberation Mono&apos;, monospace" font-size="12">AbstractMap</text>
+        </g>
+    </g>
+    <g id="legend">
+        <rect x="495" y="291.4" width="140" height="141.6" fill="none" stroke="#000"/>
+        <g>
+            <rect x="510" y="393.4" width="105.2" height="24.4" fill="#e1d5e7" stroke="#9673a6"/>
+            <text x="562" y="408.5" text-anchor="middle" font-family="LiberationMono-Regular, &apos;Liberation Mono&apos;, monospace" font-size="10">Class</text>
+        </g>
+        <g>
+            <rect x="509.1" y="348.4" width="105.2" height="25.7" rx="3.9" ry="3.9" fill="#dae8fc" stroke="#6c8ebf"/>
+            <text x="562" y="364.5" text-anchor="middle" font-family="LiberationMono-Regular, &apos;Liberation Mono&apos;, monospace" font-size="10">Abstract class</text>
+        </g>
+        <g>
+            <ellipse cx="562.3" cy="319.5" rx="52.6" ry="12.4" fill="#fff2cc" stroke="#d6b656"/>
+            <text x="562" y="323" text-anchor="middle" font-family="LiberationMono-Regular, &apos;Liberation Mono&apos;, monospace" font-size="10">Interface</text>
+        </g>
+    </g>
+    <g>
+        <g>
+            <ellipse cx="281.5" cy="40.5" rx="60" ry="20" fill="#fff2cc" stroke="#d6b656"/>
+            <text x="282" y="44.5" text-anchor="middle" font-family="LiberationMono-Regular, &apos;Liberation Mono&apos;, monospace" font-size="12">Map</text>
+        </g>
+        <g>
+            <ellipse cx="441.8" cy="156.6" rx="58.8" ry="17.8" fill="#fff2cc" stroke="#d6b656"/>
+            <text x="443" y="160.5" text-anchor="middle" font-family="LiberationMono-Regular, &apos;Liberation Mono&apos;, monospace" font-size="12">SortedMap</text>
+        </g>
+        <g>
+            <ellipse cx="441.8" cy="97.7" rx="58.8" ry="17.8" fill="#fff2cc" stroke="#d6b656"/>
+            <text x="443" y="101.5" text-anchor="middle" font-family="LiberationMono-Regular, &apos;Liberation Mono&apos;, monospace" font-size="12">SequencedMap</text>
+        </g>
+        <g>
+            <ellipse cx="441.8" cy="214.4" rx="58.8" ry="17.8" fill="#fff2cc" stroke="#d6b656"/>
+            <text x="443" y="217.5" text-anchor="middle" font-family="LiberationMono-Regular, &apos;Liberation Mono&apos;, monospace" font-size="12">NavigableMap</text>
+        </g>
+    </g>
+    <text x="570" y="50.5" text-anchor="middle" font-family="LiberationMono-Regular, &apos;Liberation Mono&apos;, monospace" font-size="23.6">Map</text>
+</svg>
