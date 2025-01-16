@@ -1,12 +1,12 @@
-
+	
 # Topics
 
 - [x] pseudo code of algorithms ✅ 2025-01-14
-- [ ] topological sort
+	- [x] topological sort ✅ 2025-01-16
 - [x] runtime of algorithms ✅ 2025-01-14
 - [x] definition of complexity classes $\mathcal{O}, \Theta, \Omega$ by limits ✅ 2025-01-14
 - [x] master theorem ✅ 2025-01-14
-- [ ] add comparisons and swaps asymptotic analysis
+- [x] add comparisons and swaps asymptotic analysis ✅ 2025-01-16
 - [ ] asymptotic runtime of ADT operations
 - [ ] invariants of sorting and graph algorithms
 
