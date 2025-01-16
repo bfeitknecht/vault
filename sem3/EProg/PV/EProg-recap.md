@@ -103,3 +103,8 @@ class CC extends C {
 > 
 > ![[java.util.collections.svg]]
 > ![[java.util.map.svg]]
+
+- exhaustive `if() else` suffices for return 
+- for `int x` arbitrary `x % 1 == 0
+- `1 / 1 == 1`
+- 
