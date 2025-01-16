@@ -122,7 +122,7 @@ public static void main(String[] args) {
 > ![[java.util.collections.svg]]
 > ![[java.util.map.svg]]
 
-- exhaustive `if() else` suffices for return 
+- exhaustive `if() else` suffices for return value
 - for `int x` arbitrary `x % 1 == 0
 - `1 / 1 == 1`
-- in inherited methods the superclass attributes shadow the subclass
+- in inherited methods the superclass attributes shadow the subclass's
