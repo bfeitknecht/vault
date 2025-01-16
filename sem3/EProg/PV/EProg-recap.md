@@ -15,8 +15,8 @@
 - [ ] HS19
 - [ ] FS20
 - [ ] HS20
-- [ ] FS21 wip
-- [ ] HS21
+- [ ] FS21 look
+- [ ] HS21 wip
 - [ ] FS22
 - [ ] HS22
 - [ ] FS23
