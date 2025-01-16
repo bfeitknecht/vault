@@ -16,7 +16,8 @@
 - [ ] FS20
 - [ ] HS20
 - [ ] FS21 look over
-- [x] HS21 ✅ 2025-01-16
+- [x] HS21 A ✅ 2025-01-16
+- [ ] HS21 B
 - [ ] FS22
 - [ ] HS22
 - [ ] FS23
@@ -83,18 +84,35 @@ toggle ^= true; // toggle == false
 
 
 ```java
-class C {
-	int x = 0;
+class A {
+	int a = 0;
+	int x = 1;
 	
-	public void m(int x) {
-		// parameter shadows attribute
+	public void m1(int x) {
+		System.out.print(a);		// this attribute explicit parameter
+		System.out.print(x);		// parameter shadows this attribute
+	}
+	
+	public void m3(int x) {
+		System.out.print(a);		// this attribute shadows sub attribute
 	}
 }
 
-class CC extends C {
-	int x = 1;	// local attribute shadows super attribute
+class B extends A {
+	int a = 1;	// this attribute shadows super attribute
+	
+	public void m2(int x) {
+		System.out.print(x);
+		m1(x);
+	}	
 }
 
+// ...
+
+public static void main(String[] args) {
+	B b = new B()
+	b.m2(4)		// -> 404
+}
 ```
 
 
@@ -107,4 +125,4 @@ class CC extends C {
 - exhaustive `if() else` suffices for return 
 - for `int x` arbitrary `x % 1 == 0
 - `1 / 1 == 1`
-- 
+- in inherited methods the superclass attributes shadow the subclass
