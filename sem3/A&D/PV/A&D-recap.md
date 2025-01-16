@@ -61,10 +61,11 @@ The AVL condition states that left and right subtrees' height differ by at most 
 
 
 
-
 # Algorithms
 
 ## Graphs
+
+In a directed graph, a topological sorting can be achieved by reversing the `post` order of nodes visited by `dfs`. A graph having a topological sort is equivalent to it being a [[directed acyclic graph (DAG)]].
 
 - **explore** graphs (directed and undirected)
 	![[dfs (algorithm)]]
