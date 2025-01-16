@@ -1084,6 +1084,28 @@
               }
             ],
             "currentTab": 1
+          },
+          {
+            "id": "339b6373897a1370",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7fd068bef0ce7033",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/EProg/UE/e/EProg-e-u12.pdf",
+                    "page": 8,
+                    "left": -19,
+                    "top": 68,
+                    "zoom": 0.8504901960784313
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "EProg-e-u12"
+                }
+              }
+            ]
           }
         ],
         "direction": "vertical"
@@ -1251,8 +1273,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "042a0651dedba38c",
-      "mtime": "2025-01-15T11:20:39+01:00"
+      "active": "7fd068bef0ce7033",
+      "mtime": "2025-01-16T11:45:08+01:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1937,5 +1959,5 @@
       "mtime": "2025-01-09T14:38:00+01:00"
     }
   },
-  "active": "sem3-eprog"
+  "active": "sem3-a&d"
 }

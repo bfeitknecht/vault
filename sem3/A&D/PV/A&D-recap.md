@@ -75,6 +75,7 @@ The AVL condition states that left and right subtrees' height differ by at most 
 	![[boruvka (algorithm)]]
 
 - find *one to all* **shortest paths**
+	![[shortest path with DP in DAG]]
 	![[dijkstra (algorithm)]]
 	![[bellman-ford (algorithm)]]
 
