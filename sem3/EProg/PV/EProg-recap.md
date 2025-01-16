@@ -91,6 +91,7 @@ class A {
 	public void m1(int x) {
 		System.out.print(a);		// this attribute explicit parameter
 		System.out.print(x);		// parameter shadows this attribute
+		m2(x)
 	}
 	
 	public void m3(int x) {
@@ -104,14 +105,18 @@ class B extends A {
 	public void m2(int x) {
 		System.out.print(x);
 		m1(x);
-	}	
+	}
+	
+	public void m3(int x) {
+		System.out.print("x");
+	}
 }
 
 // ...
 
 public static void main(String[] args) {
 	B b = new B()
-	b.m2(4)		// -> 404
+	b.m2(4)		// -> 404x
 }
 ```
 
