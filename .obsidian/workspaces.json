@@ -1098,7 +1098,7 @@
                     "file": "sem3/EProg/UE/e/EProg-e-u12.pdf",
                     "page": 8,
                     "left": -19,
-                    "top": 68,
+                    "top": 72,
                     "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
@@ -1273,8 +1273,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "7fd068bef0ce7033",
-      "mtime": "2025-01-16T11:45:08+01:00"
+      "active": "042a0651dedba38c",
+      "mtime": "2025-01-16T18:02:06+01:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1959,5 +1959,5 @@
       "mtime": "2025-01-09T14:38:00+01:00"
     }
   },
-  "active": "sem3-eprog"
+  "active": "sem3-a&d"
 }
