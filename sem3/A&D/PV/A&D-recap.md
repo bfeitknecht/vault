@@ -2,7 +2,7 @@
 # Topics
 
 - [x] pseudo code of algorithms ✅ 2025-01-14
-	- [x] topological sort ✅ 2025-01-16
+- [x] topological sort ✅ 2025-01-16
 - [x] runtime of algorithms ✅ 2025-01-14
 - [x] definition of complexity classes $\mathcal{O}, \Theta, \Omega$ by limits ✅ 2025-01-14
 - [x] master theorem ✅ 2025-01-14
@@ -42,7 +42,7 @@
 ## Heap
 
 `extract()`
-	replace root with last leaf
+	replace root with last leaf in last level
 	restore heap condition
 
 `insert(n)`
