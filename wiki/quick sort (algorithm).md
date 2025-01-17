@@ -1,5 +1,5 @@
 
-The **quick sort** algorithm is easy to implement and has optimal runtime for comparison based sorting algorithms. It's a [[divide and conquer]] approach that splits the array into subarrays until they are trivially sorted and then combines them. It's worst case runtime is $O(n^{2})$, in practice however (using a random pivot) it achieves $\Theta(n \log n)$. This implementation of the `partition` function does not require additional memory space and as such the algorithm is in-place.
+The **quick sort** algorithm is easy to implement and has optimal runtime for comparison based sorting algorithms. It's a [[divide and conquer]] approach that splits the array into subarrays until they are trivially sorted and then combines them. It's worst case runtime is $O(n^{2})$, in practice however (using a random pivot) it achieves $\Theta(n \log n)$. This implementation of the `partition` function does not require additional memory space and as such the algorithm is in-place. The invariant to prove the correctness is that the left and right subarrays contain the elements smaller and greater than the pivot, respectively. This is to say that the pivot $p$ is at the correct position $I(l, r) = \forall a_{l} \in A[l .. m-1], a_{r} \in A[m+1 .. r] : a_{l} < p < a_{r} = A[p] \checkmark$.
 
 ```
 function quicksort(A, l, r)
