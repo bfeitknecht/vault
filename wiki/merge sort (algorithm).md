@@ -1,5 +1,5 @@
 
-The **merge sort** is another divide and conquer algorithm. It splits arrays in half until they are trivially sorted and then merges them. It runs in $\Theta(n \log n)$ with the invariant to prove its correctness being that an array of length $k$ is correctly sorted after execution, $I(k) = A[1 .. k] \checkmark$ and that the `merge` procedure correctly produces one sorted array. 
+The **merge sort** is another divide and conquer algorithm. It splits arrays in half until they are trivially sorted and then merges them. It runs in $\Theta(n \log n)$ with the invariant to prove its correctness being that an array of length $k$ is correctly sorted after execution, $I(k) = A[1 .. k] \checkmark$ and that the `merge` procedure correctly produces one sorted array from two sorted subarrays. This is done in $O(n)$, since every element is only read and written once.
 
 ```
 function mergesort(A, l, r)

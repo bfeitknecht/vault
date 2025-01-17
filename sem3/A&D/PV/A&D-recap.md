@@ -143,3 +143,10 @@ $$
 
 The MST algorithms are ordered, `prim` << `boruvka` << `kruskal`.
 
+For a graph $G = (V, E)$ the following statements are equivalent.
+1. $G$ is a tree
+2. $G$ is connected and $|E] = |V| - 1$
+3. $G$ is connected and contains no cycles
+   - removing an edge disconnects
+   - adding an edge creates cycle
+
