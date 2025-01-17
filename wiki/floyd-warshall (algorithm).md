@@ -5,14 +5,20 @@ The **floyd-warshall** algorithm determines the shortest path between any two ve
 function floyd_warshall(G)
 	let n = |V|
 	let d = [][]
-	for e = (u, v) in E
-		d[u][v] = c(u, v)
+	
+	for u in 1 .. n
+		for v in 1 .. n
+			let e = (u, v)
+			d[u][v] = u == v ? 0 :
+			E contains e ? w(e) :
+			INFINITY
+		end
 	end
 	
-	for i in 1 .. n
-		for j in 1 .. n
+	for u in 1 .. n
+		for v in 1 .. n
 			for k in 1 .. n
-				d[i][j] = min(d[i][j], d[i][k] + d[k][j])
+				d[u][v] = min(d[u][v], d[u][k] + d[k][v])
 			end
 		end
 	end
