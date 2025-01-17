@@ -1,5 +1,5 @@
 
-The **floyd-warshall** algorithm determines the shortest path between any two vertices in a graph $G = (V, E)$. It does this using [[dynamic programming]] in $O(|V|^{3})$. If the graph contains a negative cycle, the algorithm can detect it, as `d[v][v] < 0` implies exactly that.
+The **floyd-warshall** algorithm determines the shortest path between any two vertices in a graph $G = (V, E)$. It does this using [[dynamic programming]] in $O(|V|^{3})$. If there exists a vertex $v \in V$ such that `d[v][v] < 0` then the graph contains a negative cycle, however the converse is not necessarily true. The edge costs are allowed to be negative $c : E \to \mathbb{R}$.
 
 ```
 function floyd_warshall(G)
@@ -10,7 +10,7 @@ function floyd_warshall(G)
 		for v in 1 .. n
 			let e = (u, v)
 			d[u][v] = u == v ? 0 :
-			E contains e ? w(e) :
+			E contains e ? c(u, v) :
 			INFINITY
 		end
 	end
