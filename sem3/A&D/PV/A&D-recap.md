@@ -104,9 +104,9 @@ Let $f, g : \mathbb{N} \to \mathbb{R}_{+}$ be two functions. Then $f$ grows asym
 - all polynomials grow slower than exponentials
 - the logarithm doesn't affect the asymptotic growth -> base change trick $\log_{x} z = \frac{\log_{a} z}{\log_{a} x}$
 
-Let $1< c \in \mathbb{R}_{+}$ and $n \to \infty$. Then the following holds.
+Let $1 \neq c \in \mathbb{R}_{+}$ and $n \to \infty$. Then the following holds.
 $$
-c \ll \log \dots \log n \ll \log n \ll  n^{c<1} \ll n \ll n \log n \sim \log n! \ll n^{c>1} \ll _{}{1<}c^{n} \ll n! \sim n^{n}
+c \ll \log \dots \log n \ll \log n \ll  n^{1/c} \ll n \ll n \log n \sim \log n! \ll n^{c} \ll _{}{1<}c^{n} \ll n! \ll n^{n}
 $$
 
 The fact that $f$ grows asymptotically slower than $g$, i.e. $f \ll g \iff f \leq O(g)$ is equivalent to the fact that $g$ grows asymptotically faster than $f$, i.e. $g \gg f \iff g \geq \Omega{(f)}$. If both functions have the same asymptotic growth rate we write $f \sim g \iff f \leq O(g) \land f \leq \Omega(g) \iff f  = \Theta(g) \iff g = \Theta(f)$.  
