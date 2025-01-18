@@ -40,9 +40,5 @@ gaussian elimination
 
 conjugation of complex number $z = a + bi$ scales imaginary component by negative one, i.e. $\overline{z} = a - bi$
 
-
 span is always a vector space
-
-thursday: gram schmidt, qr decomposition, orthogonal matrices, inverses
-friday: evd, svd
 
