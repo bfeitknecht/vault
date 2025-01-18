@@ -43,7 +43,7 @@ W &&&&&&& W \\
 \end{document}
 ```
 
-From this follows that $V \simeq C(A) \oplus N(A)$ and $W \simeq C(A^{\top}) \oplus N(A^{\top})$. Additionally, it holds that $C(A^{\top}) \mathop\bot N(A)$ and $C(A) \mathop\bot N(A^{\top})$.
+From this follows that $V \simeq C(A) \oplus N(A)$ and $W \simeq C(A^{\top}) \oplus N(A^{\top})$. Additionally, it holds that $C(A) \mathop\bot N(A^{\top})$ and $C(A^{\top}) \mathop\bot N(A)$.
 
 
 ## Complementary Subspace
@@ -53,7 +53,7 @@ Let $U \subseteq V$. For some vector space $U'$ such that $U \cap U' = \{ \mathb
 
 ## Orthogonal Subspace
 
-Two vector spaces $U, V$ are said to be **orthogonal**, $U \mathop\bot V$ if it holds that $\forall \vec{u} \in U, \vec{v}  \in V : \vec{u} \cdot \vec{v} = 0$, i.e. all vectors are orthogonal.
+Two vector spaces $U, V$ are said to be **orthogonal**, $U \mathop\bot V$ if it holds that $\forall \mathbf{u} \in U, \mathbf{v}  \in V : \mathbf{u}^{\top} \mathbf{v} = 0$, i.e. all vectors are orthogonal.
 
 ## Isomorphisms
 
