@@ -1,5 +1,5 @@
 
-In the **insertion sort** algorithm, the invariant to uphold is that after $j$ iterations, the subarray of the first $j$ elements is in increasing order, $I(j) = {\Huge \leq}_{i \in [n]} A[i]$. It runs in $\Theta(n^{2})$ with $O(n)$ comparisons and $O(n^{2})$ swaps.
+In the **insertion sort** algorithm, the invariant to uphold is that after $j$ iterations, the subarray of the first $j$ elements is in increasing order, $I(j) = {\Huge \leq}_{i \in [n]} A[i]$. It runs in $\Theta(n^{2})$ with $O(n \log n)$ comparisons and $O(n^{2})$ swaps.
 
 ```
 function insertionsort(A)

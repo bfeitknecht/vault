@@ -837,9 +837,9 @@
                   "state": {
                     "file": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-bs.pdf",
                     "page": 4,
-                    "left": -4,
-                    "top": 212,
-                    "zoom": 1.53
+                    "left": -24,
+                    "top": 216,
+                    "zoom": 0.6333962869258454
                   },
                   "icon": "lucide-file-text",
                   "title": "DMath-cheatsheet-bs"
@@ -1015,7 +1015,7 @@
         }
       },
       "active": "c2e8cdef2e331f90",
-      "mtime": "2025-01-10T13:58:23+01:00"
+      "mtime": "2025-01-18T17:13:19+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1582,8 +1582,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "d909466dbc83d427",
-      "mtime": "2025-01-16T18:23:32+01:00"
+      "active": "d4fdfb4cd2c46a5a",
+      "mtime": "2025-01-18T17:13:17+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1948,5 +1948,5 @@
       "mtime": "2025-01-09T14:38:00+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-a&d"
 }
