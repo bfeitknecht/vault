@@ -1,0 +1,2 @@
+
+The **CR decomposition** $A = CR$ allows to write some arbitrary matrix as the [[matrix multiplication]] of the independent [[row and column vectors|column vectors]] and the matrix in [[reduced row echelon form (RREF)]]. The latter can be obtained through [[gauss-jordan elimination]]. This factorization implies that $\mathrm{rank}(A) = \mathrm{rank}(A^{\mathsf{T}})$.

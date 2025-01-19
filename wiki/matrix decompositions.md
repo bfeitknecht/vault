@@ -31,14 +31,20 @@
 
 
 
-![[matrix-decompositions.jpeg]]
+
+![[five-matrix-decompositions.png]]
 
 
+![[LU decomposition]]
 
 
+![[CR decomposition]]
 
-$A = L U$
 
-$A \leadsto L$ lower triangular matrix with gaussian elimination
-$A \leadsto U = I + [c_{ij}]_{i > j}$ upper triangular matrix where $c_{ij}$ is the multiple of row $R_{j}$ that was subtracted from row $R_{i}$
+![[QR decomposition]]
+
+![[eigenvalue decomposition (EVD)]]
+
+![[singular value decomposition (SVD)]]
+
 

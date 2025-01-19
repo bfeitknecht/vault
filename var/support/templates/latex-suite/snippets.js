@@ -368,5 +368,5 @@ Insert tabstops for the cursor to jump to by writing "$0", "$1", etc. in the rep
     {trigger: "cal", replacement: "\\mathcal{$0}", options: "mA"},
     {trigger: "|=", replacement: "\\models", options: "mA"},
     {trigger: "sf", replacement: "\\mathsf{$0}", options: "mA"},
-    {trigger: "\~>", replacement: "\\leadsto $0", options: "mA"},
+    {trigger: "~>", replacement: "\\leadsto $0", options: "mA"},
 ]

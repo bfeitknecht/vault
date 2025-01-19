@@ -44,7 +44,7 @@
 - pseudo inverse $A^{+}$
 
 
-For $T_{A} : U \to V$ the projection of $b \in U$ to the subspace $S = C(A)$ is given by the following, where $A^{\mathsf{T}} A \widehat{x} = A^{\mathsf{T}} b$.
+For $T_{A} : U \to V$ the projection of $b \in U$ on the subspace $S = C(A)$ is given by the following, where $A^{\mathsf{T}} A \widehat{x} = A^{\mathsf{T}} b$.
 $$
 \mathrm{proj}_{S}(b) = A \widehat{x}
 $$
