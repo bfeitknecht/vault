@@ -1345,9 +1345,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/LinAlg-script-2.pdf",
-                    "page": 10,
+                    "page": 21,
                     "left": -50,
-                    "top": 475,
+                    "top": 167,
                     "zoom": 0.79
                   },
                   "icon": "lucide-file-text",
@@ -1363,7 +1363,7 @@
                     "file": "sem3/LinAlg/VRL/extra/misc/LinAlg-TAoLA.pdf",
                     "page": 8,
                     "left": -18,
-                    "top": 832,
+                    "top": 783,
                     "zoom": 0.8743784437575596
                   },
                   "icon": "lucide-file-text",
@@ -1399,7 +1399,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1567,8 +1567,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "d4fdfb4cd2c46a5a",
-      "mtime": "2025-01-19T15:57:04+01:00"
+      "active": "f1aada0c09f63f68",
+      "mtime": "2025-01-19T16:48:53+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1933,5 +1933,5 @@
       "mtime": "2025-01-09T14:38:00+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-a&d"
 }

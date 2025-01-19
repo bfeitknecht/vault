@@ -1,4 +1,23 @@
 
+Matrix factorizations allow breaking a complicated [[linear transformation]] down into ones that are easier to work with or reason about.
+![[five-matrix-decompositions.png|600]]
+
+![[LU decomposition]]
+
+
+![[CR decomposition]]
+
+
+![[QR decomposition]]
+
+
+![[eigenvalue decomposition (EVD)]]
+
+
+![[singular value decomposition (SVD)]]
+
+
+
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
@@ -28,25 +47,4 @@
 
 \end{document}
 ```
-
-
-
-
-![[five-matrix-decompositions.png]]
-
-
-![[LU decomposition]]
-
-
-![[CR decomposition]]
-
-
-![[QR decomposition]]
-
-
-![[eigenvalue decomposition (EVD)]]
-
-
-![[singular value decomposition (SVD)]]
-
 

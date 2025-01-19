@@ -8,7 +8,7 @@
 - [x] master theorem ✅ 2025-01-14
 - [x] add comparisons and swaps asymptotic analysis ✅ 2025-01-16
 - [ ] asymptotic runtime of ADT operations
-- [ ] invariants of sorting and graph algorithms
+- [x] invariants of sorting and graph algorithms ✅ 2025-01-19
 
 
 

@@ -3,7 +3,7 @@
 - [[hyperplane]]
 - [[matrix]]
 - [[matrix-vector multiplication]]
-- [[matrix mutliplication]]
+- [[matrix multiplication]]
 
 
 # Lecture Plan
