@@ -31,14 +31,21 @@
 
 # Misc
 
-matrix multiplication is associative
-
-gaussian elimination
+- matrix multiplication is associative
+- gaussian elimination
 	swap rows
 	scale rows
 	add multiples of rows to each other
+- conjugation of complex number $z = a + bi$ scales imaginary component by negative one, i.e. $\overline{z} = a - bi$
+- span is always a vector space
+- matrix transpose $A^{\mathsf{T}}$
+- complex conjugate $\overline{A}$
+- conjugate transpose $\overline{A^{\mathsf{T}}} = A^{\mathsf{H}}$
+- pseudo inverse $A^{+}$
 
-conjugation of complex number $z = a + bi$ scales imaginary component by negative one, i.e. $\overline{z} = a - bi$
 
-span is always a vector space
+For $T_{A} : U \to V$ the projection of $b \in U$ to the subspace $S = C(A)$ is given by the following, where $A^{\mathsf{T}} A \widehat{x} = A^{\mathsf{T}} b$.
+$$
+\mathrm{proj}_{S}(b) = A \widehat{x}
+$$
 

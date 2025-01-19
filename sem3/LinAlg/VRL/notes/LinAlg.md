@@ -33,7 +33,10 @@ Linear Algebra concerns itself with [[vector|vectors]], [[matrix|matrices]] and 
 - [-] exercise sheet 🔁 every week 📅 2024-09-24 ❌ 2024-10-09
 
     
-#todo: scrape weekly covered subjects and summarize
+#todo 
+- [ ] scrape weekly covered subjects and summarize
+- [ ] `s/'^{\top}'/'^{\mathsf{T}}'/`
+
 
 
 # Script
