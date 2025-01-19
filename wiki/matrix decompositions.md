@@ -33,13 +33,12 @@
 
 ![[matrix-decompositions.jpeg]]
 
-$$
-\begin{align}
-A &= CR \\
-A &= LU \\
-A &= LUP \\
-A &= QR \\
-A &= U \Sigma V^{\top} \\
 
-\end{align}
-$$
+
+
+
+$A = L U$
+
+$A \leadsto L$ lower triangular matrix with gaussian elimination
+$A \leadsto U = I + [c_{ij}]_{i > j}$ upper triangular matrix where $c_{ij}$ is the multiple of row $R_{j}$ that was subtracted from row $R_{i}$
+
