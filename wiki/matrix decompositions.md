@@ -43,7 +43,9 @@
 
 ![[QR decomposition]]
 
+
 ![[eigenvalue decomposition (EVD)]]
+
 
 ![[singular value decomposition (SVD)]]
 

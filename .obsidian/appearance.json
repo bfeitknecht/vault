@@ -10,8 +10,7 @@
     "embed-filename",
     "nowrap-math",
     "hide-line-above-tables",
-    "style-embed",
-    "hide-view-header"
+    "style-embed"
   ],
   "showViewHeader": true,
   "baseFontSize": 13
