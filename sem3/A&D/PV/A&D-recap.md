@@ -162,3 +162,7 @@ For a graph $G = (V, E)$ the following statements are equivalent.
 | heap sort      | $O(n \log n)$            | $O(n \log n)$                | $O(n \log n)$                  | $O(1)$ |
 
 
+
+| ADT | insertion | deletion |     |
+| --- | --------- | -------- | --- |
+|     |           |          |     |
