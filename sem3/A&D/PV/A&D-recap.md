@@ -7,7 +7,7 @@
 - [x] definition of complexity classes $\mathcal{O}, \Theta, \Omega$ by limits ✅ 2025-01-14
 - [x] master theorem ✅ 2025-01-14
 - [x] add comparisons and swaps asymptotic analysis ✅ 2025-01-16
-- [ ] asymptotic runtime of ADT operations
+- [x] asymptotic runtime of ADT operations ✅ 2025-01-20
 - [x] invariants of sorting and graph algorithms ✅ 2025-01-19
 
 
@@ -26,37 +26,67 @@
 - [ ] HS22
 - [x] FS23 ✅ 2025-01-20
 - [ ] HS23
-- [ ] mock exam
+- [x] mock exam ✅ 2025-01-20
 
 
-# ADT (abstract data types)
+
+# Abstract Data Types (ADT)
 
 
-## Queue
-
-## Priority Queue
-
-## Stack
-
+| Data Structure     | `insert(n)` | `get(n)` | `delete(n)`           |
+| ------------------ | ----------- | -------- | --------------------- |
+| array              | $O(1)$      | $O(1)$   | $O(n)$                |
+| linked list        | $O(n)$      | $O(n)$   | $O(n)$                |
+| doubly linked list | $O(1)$      | $O(n)$   | $O(1)$ if index known |
 
 ## Heap
 
-`extract()`
+`insert(x)`
+	add `x` as last leaf
+	restore heap condition through sift down (keep swapping with greater / smaller child until invariant restored)
+`extract_max()`, `extract_min()`
 	replace root with last leaf in last level
 	restore heap condition
 
-`insert(n)`
-	add `n` as last leaf
-	restore heap condition by iteratively swapping up if greater than parent
-
 ## BST (binary search tree)
 
-`remove(n)`
-	replace `n`with symmetric successor, i.e. left subtree's rightmost child or right subtree's leftmost child
+`insert(x)`
+	add `x` as a leaf
+`remove(x)`
+	replace `x`with symmetric successor, i.e. left subtree's rightmost child or right subtree's leftmost child
 
 ## AVL (balanced BST)
 
 The AVL condition states that left and right subtrees' height differ by at most one, $|h_{l}(v) - h_{r}(v)| \leq 1$.  In an AVL tree the operations`insert`, `delete` and `find` all require $O(\log n)$.
+
+## Stack
+
+Implemented using linked list. All operations in $O(1)$. FIFO.
+
+`push(x)` 
+	adds the element `x` to the top of the stack
+`pop()`
+	returns and deletes the top element in the stack
+`peek()`
+	returns the top element
+
+## Queue
+
+Implemented with doubly linked list, all operations are in $O(1)$. LILO.
+
+`enq(x)`
+	adds the element at the end
+`deq()`
+	returns and removes the front element
+
+## Priority Queue
+
+Implemented with heap, operations in $O(\log n)$.
+
+`enq_prio(x, p)`
+	adds the element with the provided priority
+`exctract_max()`
+	returns and removes the element with top priority
 
 
 
@@ -160,9 +190,3 @@ For a graph $G = (V, E)$ the following statements are equivalent.
 | merge sort     | $\Omega(n \log n)$       | $\Theta(n \log n)$           | $O(n \log n)$                  | $O(n)$ |
 | quick sort     | $O(n \log n)$            | $O(n \log n)$                | $O(n^{2})$                     | $O(n)$ |
 | heap sort      | $O(n \log n)$            | $O(n \log n)$                | $O(n \log n)$                  | $O(1)$ |
-
-
-
-| ADT | insertion | deletion |     |
-| --- | --------- | -------- | --- |
-|     |           |          |     |
