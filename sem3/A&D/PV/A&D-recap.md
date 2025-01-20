@@ -150,3 +150,14 @@ For a graph $G = (V, E)$ the following statements are equivalent.
    - removing an edge disconnects
    - adding an edge creates cycle
 
+
+
+| Algorithm      | Best                     | Average                      | Worst                          | Extra Space |
+| -------------- | ------------------------ | ---------------------------- | ------------------------------ | ----------- |
+| bubble sort    | $\Theta(n^{2}), O(1)$    | $\Theta(n^{2}), O(n^{2})$    | $\Theta(n^{2}), \Theta(n^{2})$ | $O(1)$      |
+| selection sort | $\Theta(n^{2}), O(1)$    | $\Theta(n^{2}), O(n)$        | $\Theta(n^{2}), O(n)$          | $O(1)$      |
+| insertion sort | $\Theta(n \log n), O(1)$ | $\Theta(n \log n), O(n^{2})$ | $\Theta(n \log n), O(n^{2})$   | $O(1)$      |
+| merge sort     |                          |                              |                                |             |
+| quick sort     |                          |                              |                                |             |
+| heap sort      |                          |                              |                                |             |
+|                |                          |                              |                                |             |
