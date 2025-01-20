@@ -104,9 +104,9 @@ Let $f, g : \mathbb{N} \to \mathbb{R}_{+}$ be two functions. Then $f$ grows asym
 - all polynomials grow slower than exponentials
 - the logarithm doesn't affect the asymptotic growth -> base change trick $\log_{x} z = \frac{\log_{a} z}{\log_{a} x}$
 
-Let $1 \neq c \in \mathbb{R}_{+}$ and $n \to \infty$. Then the following holds.
+Let $c_{-}, c_{+} \in \mathbb{R}_{+}$ with $c_{-} < 1 < c_{1}$and $n \to \infty$. Then the following holds.
 $$
-c \ll \log \dots \log n \ll \log n \ll  n^{1/c} \ll n \ll n \log n \sim \log n! \ll n^{c} \ll _{}{1<}c^{n} \ll n! \ll n^{n}
+c \ll \log \dots \log n \ll \log n \ll  n^{c_{-}} \ll n \ll n \log n \sim \log n! \ll n^{c+} \ll c_{+}^{n} \ll n! \ll n^{n}
 $$
 
 The fact that $f$ grows asymptotically slower than $g$, i.e. $f \ll g \iff f \leq O(g)$ is equivalent to the fact that $g$ grows asymptotically faster than $f$, i.e. $g \gg f \iff g \geq \Omega{(f)}$. If both functions have the same asymptotic growth rate we write $f \sim g \iff f \leq O(g) \land f \leq \Omega(g) \iff f  = \Theta(g) \iff g = \Theta(f)$.  
@@ -117,7 +117,6 @@ c &\implies f \sim g\\
 \infty &\implies f \gg g
 \end{cases}
 $$
-
 
 Proof idea for stirling's approximation $\ln n! \sim n \ln n$.
 1. Show $\ln n! \ll n \ln n$. Proof. $\ln n! \leq \ln n^{n} = n \ln n \ll n \ln n$
@@ -147,17 +146,18 @@ For a graph $G = (V, E)$ the following statements are equivalent.
 1. $G$ is a tree
 2. $G$ is connected and $|E] = |V| - 1$
 3. $G$ is connected and contains no cycles
-   - removing an edge disconnects
-   - adding an edge creates cycle
+   - removing an edge disconnects it
+   - adding an edge creates a cycle
 
 
 
-| Algorithm      | Best                     | Average                      | Worst                          | Extra Space |
-| -------------- | ------------------------ | ---------------------------- | ------------------------------ | ----------- |
-| bubble sort    | $\Theta(n^{2}), O(1)$    | $\Theta(n^{2}), O(n^{2})$    | $\Theta(n^{2}), \Theta(n^{2})$ | $O(1)$      |
-| selection sort | $\Theta(n^{2}), O(1)$    | $\Theta(n^{2}), O(n)$        | $\Theta(n^{2}), O(n)$          | $O(1)$      |
-| insertion sort | $\Theta(n \log n), O(1)$ | $\Theta(n \log n), O(n^{2})$ | $\Theta(n \log n), O(n^{2})$   | $O(1)$      |
-| merge sort     |                          |                              |                                |             |
-| quick sort     |                          |                              |                                |             |
-| heap sort      |                          |                              |                                |             |
-|                |                          |                              |                                |             |
+| Algorithm      | Best                     | Average                      | Worst                          | Space  |
+| -------------- | ------------------------ | ---------------------------- | ------------------------------ | ------ |
+| bubble sort    | $\Theta(n^{2}), O(1)$    | $\Theta(n^{2}), O(n^{2})$    | $\Theta(n^{2}), \Theta(n^{2})$ | $O(1)$ |
+| selection sort | $\Theta(n^{2}), O(1)$    | $\Theta(n^{2}), O(n)$        | $\Theta(n^{2}), O(n)$          | $O(1)$ |
+| insertion sort | $\Theta(n \log n), O(1)$ | $\Theta(n \log n), O(n^{2})$ | $\Theta(n \log n), O(n^{2})$   | $O(1)$ |
+| merge sort     | $\Omega(n \log n)$       | $\Theta(n \log n)$           | $O(n \log n)$                  | $O(n)$ |
+| quick sort     | $O(n \log n)$            | $O(n \log n)$                | $O(n^{2})$                     | $O(n)$ |
+| heap sort      | $O(n \log n)$            | $O(n \log n)$                | $O(n \log n)$                  | $O(1)$ |
+
+
