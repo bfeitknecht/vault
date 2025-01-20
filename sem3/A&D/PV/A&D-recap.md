@@ -1,4 +1,4 @@
-	
+
 # Topics
 
 - [x] pseudo code of algorithms ✅ 2025-01-14
@@ -24,7 +24,7 @@
 - [ ] HS21
 - [ ] FS22
 - [ ] HS22
-- [ ] FS23
+- [x] FS23 ✅ 2025-01-20
 - [ ] HS23
 - [ ] mock exam
 
