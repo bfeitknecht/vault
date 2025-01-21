@@ -131,3 +131,31 @@ public static void main(String[] args) {
 - for `int x` arbitrary `x % 1 == 0
 - `1 / 1 == 1`
 - in inherited methods the superclass attributes shadow the subclass's
+
+
+varargs
+```java
+public void vararg(String... args) {
+	for (String s : args) {
+		System.out.println(s);
+	}
+}
+```
+
+
+
+`final class Z {}` cannot be extended
+
+
+extend interface
+
+mutliple inheritence interface
+default implementation for interface
+
+implicit modifiers for fields and methods in abstract classes and interfaces
+
+`@Overload` vs `@Override`
+what if overloaded, does sub inherit that or not
+
+
+what do all abstract classes extend

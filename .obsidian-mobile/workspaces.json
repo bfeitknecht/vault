@@ -332,45 +332,17 @@
                 }
               },
               {
-                "id": "2edf3685c5ff5fe1",
+                "id": "f9cf7b88adb40a65",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w05.md",
+                    "file": "sem3/A&D/PV/A&D-recap.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "A&D-v-w05"
-                }
-              },
-              {
-                "id": "65173d7c5fbfa763",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/A&D/VRL/notes/lectures/A&D-v-w06.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "A&D-v-w06"
-                }
-              },
-              {
-                "id": "e8699cf07c750231",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem3/A&D/UE/bf/A&D-bf-u05.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "A&D-bf-u05"
+                  "title": "A&D-recap"
                 }
               },
               {
@@ -386,88 +358,12 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           },
           {
             "id": "7771889dbebe82a9",
             "type": "tabs",
             "children": [
-              {
-                "id": "7176c1e24a0da1b6",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/A&D/UE/e/A&D-e-u04.pdf",
-                    "page": 1,
-                    "left": 0,
-                    "top": 842,
-                    "zoom": 0.6803566748869433
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "A&D-e-u04"
-                }
-              },
-              {
-                "id": "dfeee2996f66a272",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/A&D/UE/e/A&D-e-u05.pdf",
-                    "page": 3,
-                    "left": 32,
-                    "top": 481,
-                    "zoom": 1.05
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "A&D-e-u05"
-                }
-              },
-              {
-                "id": "2c356d948a3700de",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/A&D/VRL/script/A&D-script-w05-ADT.pdf",
-                    "page": 11,
-                    "left": 0,
-                    "top": 242,
-                    "zoom": 0.865564880828389
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "A&D-script-w05-ADT"
-                }
-              },
-              {
-                "id": "0c88e8d6fad654a4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/asymptotic analyis.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "asymptotic analyis"
-                }
-              },
-              {
-                "id": "4d1ced59aa7faccd",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/landau notation.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "landau notation"
-                }
-              },
               {
                 "id": "653cebd7768287cc",
                 "type": "leaf",
@@ -476,16 +372,32 @@
                   "state": {
                     "file": "var/other/LATEX.pdf",
                     "page": 2,
-                    "left": 16,
-                    "top": 839,
+                    "left": -86,
+                    "top": 840,
                     "zoom": 0.67
                   },
                   "icon": "lucide-file-text",
                   "title": "LATEX"
                 }
+              },
+              {
+                "id": "7f35212481aa5cbd",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/AuD/PV/summaries/AuD-summary-danny.pdf",
+                    "page": 20,
+                    "left": 37,
+                    "top": 494,
+                    "zoom": 1.31
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "AuD-summary-danny"
+                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -534,8 +446,7 @@
             }
           }
         ],
-        "currentTab": 0,
-        "pinned": true
+        "currentTab": 0
       },
       "right": {
         "id": "ccfbf1dce7c49978",
@@ -547,7 +458,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/landau notation.md",
+                "file": "sem3/A&D/PV/A&D-recap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -590,7 +501,7 @@
         "hiddenItems": {
           "switcher:Open quick switcher": true,
           "graph:Open graph view": false,
-          "command-palette:Open command palette": true,
+          "command-palette:Open command palette": false,
           "templates:Insert template": false,
           "workspaces:Manage workspace layouts": false,
           "pdf-plus:PDF++: Toggle auto-copy": true,
@@ -599,8 +510,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "4d1ced59aa7faccd",
-      "mtime": "2024-12-16T14:01:34+01:00"
+      "active": "f9cf7b88adb40a65",
+      "mtime": "2025-01-21T21:23:27+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1375,5 +1286,5 @@
       "mtime": "2025-01-19T09:50:41+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-eprog"
 }
