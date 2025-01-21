@@ -199,3 +199,61 @@ For a graph $G = (V, E)$ the following statements are equivalent.
 | merge sort     | $\Omega(n \log n)$       | $\Theta(n \log n)$           | $O(n \log n)$                  | $O(n)$ |
 | quick sort     | $O(n \log n)$            | $O(n \log n)$                | $O(n^{2})$                     | $O(n)$ |
 | heap sort      | $O(n \log n)$            | $O(n \log n)$                | $O(n \log n)$                  | $O(1)$ |
+
+
+# Dynamic Programming (DP)
+
+
+## Maximum Subarray Sum
+
+subproblem
+	$R_{j} = \max_{i \leq j} \sum_{k = i}^{j}A[k]$
+
+recurrence relation
+	$R_{j} = \max \{ A[j], A[j] + R_{j-1} \}$
+
+extracting solution
+	$\max \{ R_{j \in [m]}, 0 \}$
+
+
+## Jump Game
+
+```
+function min_jump(A)
+	let k = 0
+	let M = []
+	M[0] = 1
+	M[-1] = 0
+	
+	while M[k] < n
+		k++
+		M[k] = max{i + A[i] | M[k-2] < i <= M[k-1]}
+	end
+	
+	return k
+end
+```
+
+
+## Longest Common Subsequence
+
+```
+function LCS(A, B)
+	let n = |A|
+	let m = |B|
+	let L = [][]
+	
+	for j in 1 .. n L[0][j] = 0 end
+	for i in 1 .. m L[i][0] = 0 end
+	
+	for i in 1 .. m
+		for j in 1 .. n
+			L[i][j] = A[i] == B[j] ? max{1 + L[i-1][j-1], L[i-1][j], L[i][j-1]} :
+				max{L[i-1][j], L[i][j-1]}
+		end
+	end
+	
+	return L[m][n]
+end
+```
+
