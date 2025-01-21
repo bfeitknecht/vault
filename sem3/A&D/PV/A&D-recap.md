@@ -33,7 +33,7 @@
 # Abstract Data Types (ADT)
 
 
-| Data Structure     | `insert(n)` | `get(n)` | `delete(n)`           |
+| Data Structure     | `insert(x)` | `get(x)` | `delete(x)`           |
 | ------------------ | ----------- | -------- | --------------------- |
 | array              | $O(1)$      | $O(1)$   | $O(n)$                |
 | linked list        | $O(n)$      | $O(n)$   | $O(n)$                |
@@ -61,7 +61,7 @@ The AVL condition states that left and right subtrees' height differ by at most 
 
 ## Stack
 
-Implemented using linked list. All operations in $O(1)$. FIFO.
+Implemented using linked list. All operations in $O(1)$. FILO.
 
 `push(x)` 
 	adds the element `x` to the top of the stack
@@ -72,7 +72,7 @@ Implemented using linked list. All operations in $O(1)$. FIFO.
 
 ## Queue
 
-Implemented with doubly linked list, all operations are in $O(1)$. LILO.
+Implemented with doubly linked list, all operations are in $O(1)$. FIFO.
 
 `enq(x)`
 	adds the element at the end
@@ -88,7 +88,16 @@ Implemented with heap, operations in $O(\log n)$.
 `exctract_max()`
 	returns and removes the element with top priority
 
+## Union Find
 
+`make(V)`
+	creates a union find from the vertex set in $O(n)$
+`find(u)
+	returns the connected component of $u$ in $O(n)$
+`same(u, v)
+	returns true if $u$ and $v$ have the same connected component in $O(1)$
+`union(u, v)`
+	connects the CCs of $u$ and $v$ in $\Theta(n)$, on average (choose smaller CC) $O(\log n)$
 
 
 # Algorithms
