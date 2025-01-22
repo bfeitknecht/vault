@@ -469,9 +469,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem1/AuD/PV/summaries/AuD-summary-danny.pdf",
-                    "page": 30,
+                    "page": 5,
                     "left": -13,
-                    "top": 304,
+                    "top": 531,
                     "zoom": 1.1432525039536112
                   },
                   "icon": "lucide-file-text",
@@ -492,10 +492,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/A&D/VRL/script/A&D-script-w04-search-sort.pdf",
-                    "page": 15,
-                    "left": 63,
-                    "top": 562,
-                    "zoom": 1.16
+                    "page": 22,
+                    "left": -18,
+                    "top": 813,
+                    "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-script-w04-search-sort"
@@ -508,10 +508,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/A&D/VRL/script/A&D-script-w05-datastructures.pdf",
-                    "page": 12,
-                    "left": -18,
-                    "top": 371,
-                    "zoom": 0.8743843192065531
+                    "page": 19,
+                    "left": 6,
+                    "top": 422,
+                    "zoom": 0.93
                   },
                   "icon": "lucide-file-text",
                   "title": "A&D-script-w05-datastructures"
@@ -540,16 +540,17 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/A&D/PV/extra/pvw/AuD-pvw-script-HS22.pdf",
-                    "page": 34,
-                    "left": 71,
-                    "top": 39,
+                    "page": 35,
+                    "left": 44,
+                    "top": 570,
                     "zoom": 1.3
                   },
                   "icon": "lucide-file-text",
                   "title": "AuD-pvw-script-HS22"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -717,8 +718,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "8a4aa0b90e0b95b6",
-      "mtime": "2025-01-19T16:04:16+01:00"
+      "active": "fad541406edd9474",
+      "mtime": "2025-01-21T15:02:19+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -1933,5 +1934,5 @@
       "mtime": "2025-01-09T14:38:00+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-eprog"
 }
