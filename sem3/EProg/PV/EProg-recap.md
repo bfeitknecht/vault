@@ -145,17 +145,3 @@ public void vararg(String... args) {
 
 
 `final class Z {}` cannot be extended
-
-
-extend interface
-
-mutliple inheritence interface
-default implementation for interface
-
-implicit modifiers for fields and methods in abstract classes and interfaces
-
-`@Overload` vs `@Override`
-what if overloaded, does sub inherit that or not
-
-
-what do all abstract classes extend
