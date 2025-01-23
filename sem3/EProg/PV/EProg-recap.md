@@ -145,3 +145,26 @@ public void vararg(String... args) {
 
 
 `final class Z {}` cannot be extended
+
+
+# HS22
+
+`9 / 3 = 3 * 2  = 6 + 1 = 7 + "" = "7" + 2*3 = "76" + 0 -> "760`
+
+`true && false || 0 == 0 % 0 -> EXCEPTION`
+
+`1 + 0.5 = 1.5 + 2 + 2.0 -> 5.5d`
+
+
+false
+false
+false (implies s1 > s3)
+true
+false (s1, s3 > s2)
+
+
+loop invariant
+
+`n > 0 && 1 <= c && c <= n+1 && h == sum(k=1, c-1, 1/(double)k)`
+
+
