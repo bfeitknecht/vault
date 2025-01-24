@@ -10,6 +10,9 @@
 - [ ] normal matrix
 - [ ] similar matrix
 - [ ] farka's lemma
+- [ ] algebraic multiplicity vs geometric multiplicity
+- [ ] properties of eigenvalues (matrix addition or multiplication, lower triangular and diagonal matrices, trace)
+
 
 
 # Exams

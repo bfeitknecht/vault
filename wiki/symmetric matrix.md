@@ -1,0 +1,2 @@
+
+A **symmetric matrix** $S \in \mathbb{R}^{m \times m}$ is a a [[square matrix]] that is equal to its [[transpose]], i.e. $S = S^\mathsf{T}$. Equivalently, it has a [[complete set of eigenvectors]] with [[real number|real]] associated [[eigenvalues]].

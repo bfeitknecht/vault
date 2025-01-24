@@ -3,7 +3,7 @@ A **vector subspace** or **linear subspace** $U$ of a [[vector space]] $V$ is a 
 
 A subspace is a *vector space* for the induced addition and scalar multiplication, i.e. the closure property implies that the axioms of a vector space are satisfied. The closure property also implies that every [[intersection]] of linear subspaces is a linear subspace.
 
-Every vector spaces is equipped with at least two (trivial) vector subspaces, the *zero vector space* consisting of the zero vector alone and the entire vector space itself.
+Every vector spaces is equipped with at least two vector subspaces, the trivial vector space consisting of the zero vector alone and the entire vector space itself.
 
 
 ## Four Fundamental Subspaces
@@ -41,7 +41,7 @@ Every vector spaces is equipped with at least two (trivial) vector subspaces, th
 \end{document}
 ```
 
-For a matrix in $\mathbb{K}^{m \times n}$ describing a [[linear transformation]] $T_{A} : U \to V$ there are *four fundamental subspaces*. Namely, the [[row and column space]] which denote the [[image]] and [[coimage]] of the transformation and the (left-) [[nullspace (kernel)]] which denotes the (co)kernel
+For a matrix in $\mathbb{K}^{m \times n}$ describing a [[linear transformation]] $T_{A} : U \to V$ there are *four fundamental subspaces*. Namely, the [[row and column space]] which denote the [[coimage]] and [[image]] of the transformation and the (left) [[nullspace (kernel)]] which denotes the (co)kernel.
 
 Additionally, $\mathrm{C}(A^{\mathsf{T}}) = \mathrm{N}(A)^{\bot}$ and $\mathrm{C}(A) = N(A^{\mathsf{T}})^{\bot}$. From this follows that $V \simeq \mathrm{C}(A^{\mathsf{T}}) \oplus \mathrm{N}(A)$ and $W \simeq C(A) \oplus \mathrm{N}(A^{\mathsf{T}})$.
 

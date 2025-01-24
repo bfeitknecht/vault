@@ -5,7 +5,7 @@ Let $A=[a_{ij}]$ be an $m\times n$ [[matrix]], then the **transpose** of $A$ is 
 # Matrix Definitions with Transposition
 
 Let $A$ be a [[square matrix]].
-- $A$ is [[symetric matrix|symetric]] $\iff A^\top = A$
+- $A$ is [[symmetric matrix|symetric]] $\iff A^\top = A$
 - $A$ is [[skew-symetric matrix|skew-symetric]] $\iff A^\top=-A$
 - $A$ is [[orthogonal matrix]] $\iff A^\top=A^{-1}$
 

@@ -44,7 +44,7 @@ A matrix $A\in\mathbb R^{m\times n}$ can be denotes as $A=[a_{ij}]_{i, j}^{n, m}
 ![[square matrix]]
 
 ## Symetric Matrix
-![[symetric matrix]]
+![[symmetric matrix]]
 
 ## Diagonal Matrix
 ![[diagonal matrix]]

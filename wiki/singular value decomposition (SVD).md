@@ -1,10 +1,10 @@
 
+![[five-matrix-decompositions.pdf#page=1&rect=427,15,520,514|five-matrix-decompositions, p.1|300]]
+
 The **SVD** (singular value decomposition) is the ultimate theorem of linear algebra. For an $m \times n$ matrix $A$ with $\mathrm{rank}(A) = r$ it's as follows.
 $$
 A = U \Sigma V^{\top}
 $$
-
-
 
 
 ```tikz
@@ -36,10 +36,6 @@ $$
 \end{tikzpicture}
 \end{document}
 ```
-
-
-
-
 
 
 

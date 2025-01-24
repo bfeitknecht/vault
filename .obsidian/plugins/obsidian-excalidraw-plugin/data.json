@@ -25,6 +25,7 @@
   "annotatePrefix": "annotated_",
   "annotatePreserveSize": false,
   "previewImageType": "SVGIMG",
+  "renderingConcurrency": 3,
   "allowImageCache": true,
   "allowImageCacheInScene": true,
   "displayExportedImageIfAvailable": false,
@@ -99,8 +100,89 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.6.7",
-    "libraryItems": []
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.7.5",
+    "libraryItems": [
+      {
+        "status": "unpublished",
+        "elements": [
+          {
+            "id": "iE0VLmc5-G63AcgRw92V2",
+            "type": "rectangle",
+            "x": 297.171875,
+            "y": 194.234375,
+            "width": 335,
+            "height": 35,
+            "angle": 0,
+            "strokeColor": "#1e1e1e",
+            "backgroundColor": "transparent",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "strokeStyle": "solid",
+            "roughness": 1,
+            "opacity": 100,
+            "groupIds": [],
+            "frameId": null,
+            "index": "a0",
+            "roundness": {
+              "type": 3
+            },
+            "seed": 2132549024,
+            "version": 2,
+            "versionNonce": 396965280,
+            "isDeleted": false,
+            "boundElements": [
+              {
+                "id": "ZXGkH9Rz",
+                "type": "text"
+              }
+            ],
+            "updated": 1737738891584,
+            "link": null,
+            "locked": false
+          },
+          {
+            "id": "ZXGkH9Rz",
+            "type": "text",
+            "x": 391.83191680908203,
+            "y": 199.234375,
+            "width": 145.67991638183594,
+            "height": 25,
+            "angle": 0,
+            "strokeColor": "#1e1e1e",
+            "backgroundColor": "transparent",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "strokeStyle": "solid",
+            "roughness": 1,
+            "opacity": 100,
+            "groupIds": [],
+            "frameId": null,
+            "index": "a1",
+            "roundness": null,
+            "seed": 1877573024,
+            "version": 86,
+            "versionNonce": 2061923424,
+            "isDeleted": false,
+            "boundElements": [],
+            "updated": 1737738891584,
+            "link": null,
+            "locked": false,
+            "text": "$\\mathbb{R}$",
+            "rawText": "$\\mathbb{R}$",
+            "fontSize": 20,
+            "fontFamily": 5,
+            "textAlign": "center",
+            "verticalAlign": "middle",
+            "containerId": "iE0VLmc5-G63AcgRw92V2",
+            "originalText": "$\\mathbb{R}$",
+            "autoResize": true,
+            "lineHeight": 1.25
+          }
+        ],
+        "id": "MEwAe98LZq0CV2bC8gJJS",
+        "created": 1737738899970
+      }
+    ]
   },
   "imageElementNotice": true,
   "mdSVGwidth": 500,
