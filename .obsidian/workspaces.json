@@ -1041,7 +1041,7 @@
                 }
               },
               {
-                "id": "042a0651dedba38c",
+                "id": "6fc96ddd9a5df956",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -1062,22 +1062,6 @@
             "type": "tabs",
             "children": [
               {
-                "id": "7fd068bef0ce7033",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/EProg/UE/e/EProg-e-u12.pdf",
-                    "page": 8,
-                    "left": -19,
-                    "top": 82,
-                    "zoom": 0.8504901960784313
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "EProg-e-u12"
-                }
-              },
-              {
                 "id": "c6e91aee16ec4856",
                 "type": "leaf",
                 "state": {
@@ -1085,12 +1069,28 @@
                   "state": {
                     "file": "sem1/EProg/PV/EProg_pvw_HS22.pdf",
                     "page": 33,
-                    "left": -18,
-                    "top": 687,
-                    "zoom": 0.8743843192065531
+                    "left": -23,
+                    "top": 713,
+                    "zoom": 0.6400392423010504
                   },
                   "icon": "lucide-file-text",
                   "title": "EProg_pvw_HS22"
+                }
+              },
+              {
+                "id": "1893b6937bdc4d6e",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/EProg/PV/exams/theory/HS22.pdf",
+                    "page": 8,
+                    "left": -5,
+                    "top": 452,
+                    "zoom": 0.91
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "HS22"
                 }
               }
             ],
@@ -1262,8 +1262,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "042a0651dedba38c",
-      "mtime": "2025-01-18T13:12:28+01:00"
+      "active": "6fc96ddd9a5df956",
+      "mtime": "2025-01-24T15:27:27+01:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1934,5 +1934,5 @@
       "mtime": "2025-01-09T14:38:00+01:00"
     }
   },
-  "active": "sem3-eprog"
+  "active": "sem3-linalg"
 }

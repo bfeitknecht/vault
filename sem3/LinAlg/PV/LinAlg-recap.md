@@ -49,3 +49,9 @@ $$
 \mathrm{proj}_{S}(b) = A \widehat{x}
 $$
 
+
+
+$A \mathbf{x} = \mathbf{b} \to LU \mathbf{x} = \mathbf{b} \to U \mathbf{x} = \mathbf{y} \to L \mathbf{y} = \mathbf{b}$
+
+
+
