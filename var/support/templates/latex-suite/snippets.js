@@ -191,7 +191,8 @@ Insert tabstops for the cursor to jump to by writing "$0", "$1", etc. in the rep
     {trigger: "PP", replacement: "\\mathcal{P}", options: "mA"},
     {trigger: "LL", replacement: "\\mathcal{L}", options: "mA"},
     {trigger: "HH", replacement: "\\mathcal{H}", options: "mA"},
-    
+  
+    {trigger: "KK", replacement: "\\mathbb{K}", options: "mA"},   
     {trigger: "NN", replacement: "\\mathbb{N}", options: "mA"},
     {trigger: "ZZ", replacement: "\\mathbb{Z}", options: "mA"},
     {trigger: "QQ", replacement: "\\mathbb{Q}", options: "mA"},

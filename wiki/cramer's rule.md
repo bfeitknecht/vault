@@ -1,0 +1,2 @@
+
+The theorem of **cramer's rule** states, that for an [[invertible matrix]] $A \in \mathrm{Mat}_{n}(\mathbb{K})$ and a parameter [[vector]] $\mathbf{b} \in \mathbb{K}^{n}$, the *unique* solution to the [[linear system of equations (LSE)]] $A\mathbf{x} = \mathbf{b}$ is given by $\mathbf{x} = \left[\frac{\det(A'_{j})}{\det(A)}\right]_{n}$, where $A'_{j}$ is the matrix obtained from replacing the [[row and column vectors|column vector]] $\mathbf{v}_{j}$ with $\mathbf{b}$.
