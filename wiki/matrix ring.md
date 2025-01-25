@@ -1,0 +1,2 @@
+
+The **matrix ring** of $m \times n$ [[matrix|matrices]] over a field (or ring) $\mathbb{K}$ is denoted as $\mathrm{Mat}_{m \times n}(\mathbb{K})$, with the operations of [[matrix addition]] and [[matrix-matrix multiplication]]. If $m \neq n$, then this is only a module, since matrix multiplication isn't defined for misaligned dimensions.

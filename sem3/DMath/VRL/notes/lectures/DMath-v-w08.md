@@ -24,7 +24,7 @@
 - $\langle \mathbb{Z}_{m}; \oplus_{m}, \ominus_{m}, 0 \rangle$ is an *additive* group
 - $\langle \mathbb{Z}^{*}_{m}, \odot_{m}, {\widehat{\phantom{n}}}  , 1 \rangle$ is a *finite*, *multiplicative* group, where ${\widehat{\phantom{n}}}$ denotes the multiplicative inverse modulo $m$
 - the set of invertible $m \times m$ matrices forms a (non-commutative for $m \geq 2$) group under [[matrix multiplication]] with the identity matrix as identity element
-- $\langle S_{n}; \circ, {^{-1}}, id \rangle$, the *symmetric group* of $n$ elements is non-commutative for $n \geq 3$
+- $\langle S_{n}; \circ, {^{-1}}, \mathrm{id} \rangle$, the *symmetric group* of $n$ elements is non-commutative for $n \geq 3$
 
 - symmetric group $S_{n}$ is given by bijections corresponding to [[permutation|permutations]] of $n$ elements
 - every element in $\mathbb{Z}_{2} \times \mathbb{Z}_{2} \times \mathbb{Z}_{2}$ is its own inverse
