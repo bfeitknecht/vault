@@ -9,5 +9,3 @@ The **gram-schmidt** algorithm allows the transformation of a [[basis (vector sp
 		$\mathbf{p}_{k} = \mathbf{v}_{k} - \sum_{i = 1}^{k-1} (\mathbf{v}_{k}^{\top} \mathbf{q}_{i}) \cdot \mathbf{q}_{i}$
 	- **normalize**: scale by reciprocal of norm
 		$\mathbf{q}_{k} = \frac{1}{\| \mathbf{p}_{k} \|} \mathbf{p}_{k}$
-
-$A = U \Sigma V^\mathsf{T}$
