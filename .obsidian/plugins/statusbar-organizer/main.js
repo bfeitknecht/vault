@@ -43,7 +43,7 @@ var Spooler = class {
         this.spoolFix(0);
       }
     });
-    this.spoolFix(5e3);
+    this.spoolFix(0);
   }
   /**
    * Disable automatic spooling.
@@ -642,7 +642,7 @@ function upgrade(settings) {
     version = ver(0, 0, 0);
   }
   getUpgradeList(upgrades, version).forEach((x) => x.upgrade(settings));
-  settings.version = "2.1.2";
+  settings.version = "2.1.3";
 }
 registerUpdate(ver(2, 0, 0), (settings) => {
   const oldSettings = settings;
@@ -669,7 +669,7 @@ var DEFAULT_SETTINGS = {
     "Default": {}
   },
   presetsOrder: ["Default"],
-  version: "2.1.2"
+  version: "2.1.3"
 };
 var StatusBarOrganizer = class extends import_obsidian4.Plugin {
   async onload() {
@@ -685,7 +685,6 @@ var StatusBarOrganizer = class extends import_obsidian4.Plugin {
   }
   async loadSettings() {
     const savedData = await this.loadData() || {};
-    console.log(savedData);
     if (Object.keys(savedData).length != 0 && !("version" in savedData))
       savedData["version"] = "0.0.0";
     this.settings = Object.assign({}, DEFAULT_SETTINGS, savedData);
@@ -706,3 +705,5 @@ var StatusBarSettingTab = class extends import_obsidian4.PluginSettingTab {
     return showSettings(this.plugin, containerEl);
   }
 };
+
+/* nosourcemap */

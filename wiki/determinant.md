@@ -6,5 +6,5 @@ $$
 \det(M) = \sum_{\sigma \in S_{n}} \mathrm{sgn}(\sigma) \prod_{i=1}^{n} A_{i, \sigma(i)}
 $$
 
-The determinant of respects the [[transpose]], $\det(M) = \det(M^\mathsf{T})$. Additionally, it also respects matrix multiplication, $\det(AB) = \det(A) \det(B)$. For a triangular matrix $T$, the determinant is simply the product of the main diagonal, $\det(T) = \prod_{i \in [n]} T[i, i]$. For an [[orthogonal matrix]] $Q$ the determinant is $\det(Q) = \pm 1$.
+The determinant of respects the [[transpose]], $\det(M) = \det(M^\mathsf{T})$. Additionally, it also respects matrix multiplication, $\det(AB) = \det(A) \det(B)$. For a triangular matrix $T$, the determinant is simply the product of the main diagonal, $\det(T) = \prod_{i \in [n]} T_{i, i}$. For an [[orthogonal matrix]] $Q$ the determinant is $\det(Q) = \pm 1$.
 
