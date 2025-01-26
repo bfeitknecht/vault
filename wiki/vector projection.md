@@ -1,7 +1,10 @@
 
-The **vector projection** of some [[vector]] $\vec{v} \in V$ onto some [[vector subspace]] $S \subseteq V$ is defined as below, intuitively "the closest" vector to $\vec{v}$.
+The **vector projection** of some [[vector]] $\mathbf{v} \in V$ onto some [[vector subspace]] $S \subseteq V$ is defined as below, intuitively "the closest" vector to $\mathbf{v}$.
 $$
-\proj_{S}(\vec{v}) = \underset{ \vec{p} \in S }{ \argmin } \| \vec{v} - \vec{p} \|
+\proj_{S}(\mathbf{v}) = \underset{ \mathbf{p} \in S }{ \argmin } \| \mathbf{v} - \mathbf{p} \|
 $$
 
-Let $L = \mathrm{C}(\vec{a})$ be a line spanned by $\vec{a} \neq \vec{0}$. Then the projection of $\vec{b} \in \mathbb{K}^{m}$ is given by $\proj_{L}(\vec{b})$
+Let $\mathbf{a} \in \mathbb{K}^{m} - \{ \mathbf{0} \}$ and $L = \mathrm{C}(\mathbf{a})$ be the line spanned by it. Then the projection of $\mathbf{b} \in \mathbb{K}^{m}$ is given by the following, where $P$ is the [[projection matrix]].
+$$
+\proj_{L}(\mathbf{b}) = \frac{1}{\mathbf{a}^\mathsf{T}\mathbf{a}} \overbracket{ \mathbf{a}\mathbf{a}^\mathsf{T} }^{ P } \mathbf{b} =\frac{\mathbf{a}^\mathsf{T} \mathbf{b}}{\mathbf{a}^\mathsf{T} \mathbf{a}} \mathbf{a}
+$$
