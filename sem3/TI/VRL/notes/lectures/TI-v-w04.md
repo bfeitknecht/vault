@@ -18,5 +18,5 @@ Per pigeon hole principle, w.o.l.g there exists two different words, $a, b \in \
 
 Then, per Lemma 3.3., $az \in L \iff bz \in L$ for all $z \in \Sigma^*$.
 Thus we have arrived at a **contradiction**, since, per construction, $az \in L$ but $bz \not\in L$.
-$\contradiction$
+$\contr$
 
