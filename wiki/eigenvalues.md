@@ -11,3 +11,5 @@ $$
 Let $T_{A} : \mathbb{K}^{n} \to \mathbb{K}^{m}$ be the linear transformation described by $A$. Then the set $\sigma_{A} = \{ \lambda_{j} \in \mathbb{K} \mid \chi_{A}(\lambda_{j}) = 0 \}$, called the spectrum of $A$ denotes all of its eigenvalues and $E_{A}(\lambda_{j}) = \mathrm{N}(A - \lambda_{j} I_{n})$ denotes the set of all eigenvectors (and the zero vector) corresponding to that eigenvalue and is called eigenspace or characteristic space.
 The set of all eigenvalue eigenvector 2-tuples is called the eigensystem, given by $\bigcup_{\lambda_{j} \in \sigma_{A}} \big(\{ \lambda_{j} \} \times (E_{A}(\lambda_{j}) - \{ \mathbf{0} \}) \big)$.
 Finally, if the eigenvectors form a basis of the domain, it's called an eigenbasis.
+
+For $A \in \Mat_{2}(\mathbb{R})$, the eigenvalues are given by the formula $\lambda = m \pm \sqrt{ m^{2} - p}$, where $m = \frac{\tr(A)}{2}$ and $p = \det(A)$.
