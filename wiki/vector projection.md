@@ -1,12 +1,19 @@
 
-The **vector projection** of some [[vector]] $\mathbf{v} \in V$ onto some [[vector subspace]] $S \subseteq V$ is defined as below, intuitively "the closest" vector to $\mathbf{v}$.
+The **vector projection** of some [[vector]] $v \in V$ onto some [[vector subspace]] $S \subseteq V$ is defined as below, intuitively "the closest" vector to $v$.
 $$
-\proj_{S}(\mathbf{v}) = \underset{ \mathbf{p} \in S }{ \argmin } \| \mathbf{v} - \mathbf{p} \|
-$$
-
-Let $\mathbf{a} \in \mathbb{K}^{m} - \{ \mathbf{0} \}$ and $L = \mathrm{C}(\mathbf{a})$ be the line spanned by it. Then the projection of $\mathbf{b} \in \mathbb{K}^{m}$ is given by the following, where $P$ is the [[projection matrix]].
-$$
-\proj_{L}(\mathbf{b}) = \frac{1}{\mathbf{a}^\mathsf{T}\mathbf{a}} \overbracket{ \mathbf{a}\mathbf{a}^\mathsf{T}\mathbf{b} }^{ P\mathbf{b} } =\frac{\mathbf{a}^\mathsf{T} \mathbf{b}}{\mathbf{a}^\mathsf{T} \mathbf{a}} \mathbf{a}
+\proj_{S}(v) = \underset{ p \in S }{ \argmin } \| v - p \|
 $$
 
-For the general case, let $A \in \Mat_{m \times n}(\mathbb{K})$
+Let $a \in \mathbb{K}^{m} - \{ 0 \}$ and $L = \span(a)$ be the line spanned by it. Then the projection of $b \in \mathbb{K}^{m}$ is given by the following, where $P$ is the [[projection matrix]].
+$$
+\proj_{L}(b) = \frac{1}{a^\mathsf{T}a} \overbracket{ aa^\mathsf{T}b }^{ Pb } =\frac{a^\mathsf{T} b}{a^\mathsf{T} a} a
+$$
+
+For the general case, let $A \in \Mat_{m \times n}(\mathbb{K})$ be full rank and $S = \mathrm{C}(A)$. Then the projection is given by the [[matrix-vector multiplication]] that satisfies the normal equations, $A^\mathsf{T} A \widehat{x} = A^\mathsf{T} b$.
+$$
+\proj_{S}(b) = A \widehat{x}
+$$
+
+
+
+
