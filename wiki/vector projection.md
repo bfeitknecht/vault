@@ -8,3 +8,5 @@ Let $\mathbf{a} \in \mathbb{K}^{m} - \{ \mathbf{0} \}$ and $L = \mathrm{C}(\math
 $$
 \proj_{L}(\mathbf{b}) = \frac{1}{\mathbf{a}^\mathsf{T}\mathbf{a}} \overbracket{ \mathbf{a}\mathbf{a}^\mathsf{T}\mathbf{b} }^{ P\mathbf{b} } =\frac{\mathbf{a}^\mathsf{T} \mathbf{b}}{\mathbf{a}^\mathsf{T} \mathbf{a}} \mathbf{a}
 $$
+
+For the general case, let $A \in \Mat_{m \times n}(\mathbb{K})$
