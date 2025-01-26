@@ -1299,21 +1299,93 @@
                 }
               },
               {
-                "id": "56b1bf8f14dda36f",
+                "id": "78e11e02786707b8",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/gram-schmidt (algorithm).md",
+                    "file": "wiki/cofactor.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "gram-schmidt (algorithm)"
+                  "title": "cofactor"
+                }
+              },
+              {
+                "id": "090a0c3dc8c169d7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/minor.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "minor"
+                }
+              },
+              {
+                "id": "f3f370fd55e8f652",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/inverse (matrix).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "inverse (matrix)"
+                }
+              },
+              {
+                "id": "de18679ec8f9c5f4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "var/support/preambles/preamble.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "preamble"
+                }
+              },
+              {
+                "id": "192c6cf8e870e373",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/vector projection.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "vector projection"
+                }
+              },
+              {
+                "id": "a3323cd9f0464a8d",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "var/other/LATEX.pdf",
+                    "page": 2,
+                    "left": 63,
+                    "top": 114,
+                    "zoom": 1.16
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LATEX"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 6
           },
           {
             "id": "740ad403278fbd52",
@@ -1326,9 +1398,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/LinAlg-script-1.pdf",
-                    "page": 103,
+                    "page": 60,
                     "left": -34,
-                    "top": 67,
+                    "top": 768,
                     "zoom": 0.81
                   },
                   "icon": "lucide-file-text",
@@ -1341,11 +1413,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/LinAlg-script-2.pdf",
-                    "page": 58,
-                    "left": -23,
-                    "top": 103,
-                    "zoom": 0.6564181992890693
+                    "file": "sem3/LinAlg/VRL/LinAlg-script-2.pdf"
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-script-2"
@@ -1408,23 +1476,9 @@
                   "icon": "lucide-file",
                   "title": "matrix decompositions"
                 }
-              },
-              {
-                "id": "ad20d1c125eee0a2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/QR decomposition.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "QR decomposition"
-                }
               }
             ],
-            "currentTab": 6
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1455,7 +1509,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "minor",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -1592,8 +1646,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "ad20d1c125eee0a2",
-      "mtime": "2025-01-25T12:42:45+01:00"
+      "active": "192c6cf8e870e373",
+      "mtime": "2025-01-26T11:19:29+01:00"
     },
     "sem3-ti": {
       "main": {
