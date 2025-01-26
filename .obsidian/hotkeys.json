@@ -265,5 +265,13 @@
       ],
       "key": "X"
     }
+  ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "F"
+    }
   ]
 }
