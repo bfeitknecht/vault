@@ -13,3 +13,4 @@ For the general case, let $A \in \Mat_{m \times n}(\mathbb{K})$ be [[full rank]]
 $$
 \proj_{S}(b) = A \widehat{x} = Pb
 $$
+
