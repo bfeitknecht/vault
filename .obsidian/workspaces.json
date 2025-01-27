@@ -1325,23 +1325,9 @@
                   "icon": "lucide-file",
                   "title": "vector projection"
                 }
-              },
-              {
-                "id": "bff29de132ec7e32",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/pseudoinverse (matrix).md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "pseudoinverse (matrix)"
-                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           },
           {
             "id": "740ad403278fbd52",
@@ -1354,9 +1340,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/LinAlg-script-1.pdf",
-                    "page": 60,
+                    "page": 33,
                     "left": -34,
-                    "top": 768,
+                    "top": 51,
                     "zoom": 0.81
                   },
                   "icon": "lucide-file-text",
@@ -1369,14 +1355,50 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem3/LinAlg/VRL/LinAlg-script-2.pdf"
+                    "file": "sem3/LinAlg/VRL/LinAlg-script-2.pdf",
+                    "page": 28,
+                    "left": -2,
+                    "top": 812,
+                    "zoom": 0.94
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-script-2"
                 }
               },
               {
-                "id": "22f6baa930b8a0d0",
+                "id": "410ab8690fecc637",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem3/LinAlg/VRL/extra/misc/LinAlg-TAoLA.pdf",
+                    "page": 4,
+                    "left": -18,
+                    "top": 126,
+                    "zoom": 0.8743784437575596
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LinAlg-TAoLA"
+                }
+              },
+              {
+                "id": "2cc8858a0cfacb2b",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/LinAlg/PV/cheatsheets/LinAlg-cheatsheet-danny.pdf",
+                    "page": 1,
+                    "left": -4,
+                    "top": 599,
+                    "zoom": 0.61
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "LinAlg-cheatsheet-danny"
+                }
+              },
+              {
+                "id": "e2cf18cc50aa7b3c",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -1390,51 +1412,35 @@
                 }
               },
               {
-                "id": "410ab8690fecc637",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/LinAlg/VRL/extra/misc/LinAlg-TAoLA.pdf",
-                    "page": 10,
-                    "left": 14,
-                    "top": 754,
-                    "zoom": 0.94
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "LinAlg-TAoLA"
-                }
-              },
-              {
-                "id": "067d75128b18a072",
+                "id": "1ae8e93294bf41c4",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/vector subspace.md",
+                    "file": "wiki/linear independence.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "vector subspace"
+                  "title": "linear independence"
                 }
               },
               {
-                "id": "8ae4913ea0ca5f30",
+                "id": "ec59b7062f3b64f6",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/matrix decompositions.md",
+                    "file": "wiki/full rank.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "matrix decompositions"
+                  "title": "full rank"
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 6
           }
         ],
         "direction": "vertical"
@@ -1465,7 +1471,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "\\contradiction",
+                    "query": "",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -1602,8 +1608,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "bff29de132ec7e32",
-      "mtime": "2025-01-26T14:36:22+01:00"
+      "active": "ec59b7062f3b64f6",
+      "mtime": "2025-01-27T14:23:13+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1968,5 +1974,5 @@
       "mtime": "2025-01-09T14:38:00+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "00-clean"
 }
