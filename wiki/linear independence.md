@@ -8,5 +8,5 @@ $$
 \end{align}
 $$
 
-In other words, if at least one vector is a linear combination of some others, the set of vectors is not linearly independent.
+In other words, if one vector is a linear combination of the others, then the set is not linearly independent.
 
