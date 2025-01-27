@@ -1,5 +1,5 @@
 
-- [[gauss elimination]]
+- [[gauss elimination (algorithm)]]
 - [[linear system of equations (LSE)]]
 - [[inner product]] vs. [[outer product]]
 

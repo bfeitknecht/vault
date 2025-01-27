@@ -1,4 +1,3 @@
-#todo 
 
 A [[set]] of [[vector|vectors]] $B = \{ \mathbf{v}_{j} \}_{n}$  is **linearly independent** if there exists no [[trivial|nontrivial]] [[linear combination]] of the vectors that equals the [[zero vector]]. Let $S = (\lambda_{j})_{n} \in \mathbb{R}^{n}$ be a non-trivial sequence of scalars, meaning not all zero $\exists \lambda'  \in S : \lambda' \neq 0$.
 $$

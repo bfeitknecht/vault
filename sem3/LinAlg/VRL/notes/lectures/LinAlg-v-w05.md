@@ -1,8 +1,8 @@
 
 - [[row echelon form (REF)]]
 - [[reduced row echelon form (RREF)]]
-- [[gauss elimination]]
-- [[gauss-jordan elimination]]
+- [[gauss elimination (algorithm)]]
+- [[gauss-jordan elimination (algorithm)]]
 - [[matrix decompositions]]
 - 
 
