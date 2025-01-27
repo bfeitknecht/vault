@@ -12,4 +12,4 @@ Let $T_{A} : \mathbb{K}^{n} \to \mathbb{K}^{m}$ be the linear transformation des
 The set of all eigenvalue eigenvector 2-tuples is called the eigensystem, given by $\bigcup_{\lambda_{j} \in \sigma_{A}} \big(\{ \lambda_{j} \} \times (E_{A}(\lambda_{j}) - \{ \mathbf{0} \}) \big)$.
 Finally, if the eigenvectors form a basis of the domain, it's called an eigenbasis.
 
-For $A \in \Mat_{2}(\mathbb{R})$, the eigenvalues are given by the formula $\lambda = m \pm \sqrt{ m^{2} - p}$, where $m = \frac{\tr(A)}{2}$ and $p = \det(A)$.
+For $A \in \Mat_{2 \times 2}(\mathbb{R})$, the eigenvalues are given by the formula $\lambda = m \pm \sqrt{ m^{2} - p}$, where $m = \frac{\tr(A)}{2}$ and $p = \det(A)$.
