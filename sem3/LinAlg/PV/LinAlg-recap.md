@@ -26,10 +26,10 @@
 - [ ] HS21
 - [ ] FS22
 - [ ] HS22
-- [ ] FS23
-- [ ] HS23
-- [ ] FS24
-- [ ] mock exam
+- [x] FS23 ✅ 2025-01-28
+- [x] HS23 ✅ 2025-01-28
+- [x] FS24 ✅ 2025-01-28
+- [x] mock exam ✅ 2025-01-28
 
 
 # Misc
@@ -53,8 +53,5 @@ $$
 $$
 
 
+to invert matrix, invert $\Sigma$ in SVD
 
-$A \mathbf{x} = \mathbf{b} \to LU \mathbf{x} = \mathbf{b} \to U \mathbf{x} = \mathbf{y} \to L \mathbf{y} = \mathbf{b}$
-
-
-permutations
