@@ -1,0 +1,2 @@
+
+An **implication** in logic 
