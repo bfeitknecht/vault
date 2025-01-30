@@ -193,3 +193,8 @@ $$
 
 \end{align}
 $$
+
+
+> [!info | right]
+> category::function
+
