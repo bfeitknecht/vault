@@ -119,8 +119,8 @@ Let $(A, \preceq)$ be a poset with $S \subseteq A$. Then $a \in A$ can exhibit t
 \end{document}
 ```
 
-Injection is into, no collisions occur in the codomain, $f(X) = Y$.
-Surjection is onto, there are no holes in the codomain, $f(x_{1}) = f(x_{2}) \implies x_{1} = x_{2}$.
+Injection is into, no collisions occur in the codomain, $f(x_{1}) = f(x_{2}) \implies x_{1} = x_{2}$.
+Surjection is onto, there are no holes in the codomain, $f_{*}[X] = Y$.
 
 
 # Countability

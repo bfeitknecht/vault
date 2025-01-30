@@ -1341,7 +1341,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           },
           {
             "id": "740ad403278fbd52",
@@ -1354,10 +1354,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/LinAlg-script-1.pdf",
-                    "page": 80,
+                    "page": 22,
                     "left": -19,
-                    "top": 337,
-                    "zoom": 0.85
+                    "top": 5,
+                    "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-script-1"
@@ -1370,9 +1370,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/LinAlg-script-2.pdf",
-                    "page": 24,
+                    "page": 27,
                     "left": -4,
-                    "top": 179,
+                    "top": 619,
                     "zoom": 0.94
                   },
                   "icon": "lucide-file-text",
@@ -1386,41 +1386,13 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/LinAlg/VRL/extra/misc/LinAlg-TAoLA.pdf",
-                    "page": 4,
+                    "page": 6,
                     "left": -18,
-                    "top": 130,
+                    "top": 754,
                     "zoom": 0.8743784437575596
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-TAoLA"
-                }
-              },
-              {
-                "id": "e2cf18cc50aa7b3c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/LU decomposition.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "LU decomposition"
-                }
-              },
-              {
-                "id": "1ae8e93294bf41c4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/linear independence.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "linear independence"
                 }
               },
               {
@@ -1430,10 +1402,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem1/LinAlg/PV/summaries/LinAlg-summary-kai.pdf",
-                    "page": 54,
-                    "left": 3,
-                    "top": 134,
-                    "zoom": 0.98
+                    "page": 20,
+                    "left": -4,
+                    "top": 2,
+                    "zoom": 0.94
                   },
                   "icon": "lucide-file-text",
                   "title": "LinAlg-summary-kai"
@@ -1454,21 +1426,21 @@
                 }
               },
               {
-                "id": "de50697977b954e4",
+                "id": "f2c9ccec9e3909cf",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/euclidian norm.md",
+                    "file": "wiki/row and column space.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "euclidian norm"
+                  "title": "row and column space"
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1636,8 +1608,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "de50697977b954e4",
-      "mtime": "2025-01-28T18:00:17+01:00"
+      "active": "410ab8690fecc637",
+      "mtime": "2025-01-30T09:18:09+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -2002,5 +1974,5 @@
       "mtime": "2025-01-09T14:38:00+01:00"
     }
   },
-  "active": "sem3-linalg"
+  "active": "sem3-dmath"
 }
