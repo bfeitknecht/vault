@@ -174,7 +174,7 @@ An isomorphism is a bijective homomorphism and preserves generators.
 
 # Proof System, Logical Calculus
 
-In $\mathcal{A}_{[x \to u]}(F)$, the $x$ is a variable occurring (free) in $F$ and $u$ is an element of the universe, $u \in U^{\mathcal{A}}$.
+In $\mathcal{A}_{[x \to u]}(F)$, the $x$ is a variable occurring (free) in $F$ and $u$ is an element of the universe, $u \in U^{\mathcal{A}}$. If a function is needed, i.e. the formula is of the form $\forall x \exists y F$, write the function in terms of the variables occurring in the formula $\mathcal{A}_{[x \to f^{\mathcal{A}}(u)]}(F)$!
 
 
 Explicit cases for semantics of quantifiers in interpretation.
@@ -193,4 +193,5 @@ $$
 
 \end{align}
 $$
+
 
