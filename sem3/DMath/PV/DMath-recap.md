@@ -52,13 +52,13 @@ Prove $A = B$. Double set inclusion.
 
 Let $\rho$ be a binary relation on $A$. Let $a, b, c \in A$ be arbitrary.
 
-| Property     | Definition                                                       | Graph                  | Partial Order | Equivalence |
-| ------------ | ---------------------------------------------------------------- | ---------------------- | ------------- | ----------- |
-| reflexivity  | $a \mathop \rho a$                                               | every vertex has loop  | yes           | yes         |
-| ireflexivity | $a \mathop{\not\!\rho} a$                                        | no vertex has loop     |               |             |
-| symmetry     | $a \mathop\rho b \iff b \mathop\rho a$                           | undirected graph       |               | yes         |
-| antisymmetry | $a \mathop\rho b \land b \mathop\rho a \implies a = b$           | no cycle of length two | yes           |             |
-| transitive   | $a \mathop\rho b \land b \mathop\rho c \implies a \mathop\rho c$ | metric property holds  | yes           | yes         |
+| Property     | Definition                                                       | Graph                  | Preorder | Partial Order | Equivalence |
+| ------------ | ---------------------------------------------------------------- | ---------------------- | -------- | ------------- | ----------- |
+| reflexivity  | $a \mathop \rho a$                                               | every vertex has loop  | yes      | yes           | yes         |
+| ireflexivity | $a \mathop{\not\!\rho} a$                                        | no vertex has loop     |          |               |             |
+| symmetry     | $a \mathop\rho b \iff b \mathop\rho a$                           | undirected graph       |          |               | yes         |
+| antisymmetry | $a \mathop\rho b \land b \mathop\rho a \implies a = b$           | no cycle of length two |          | yes           |             |
+| transitive   | $a \mathop\rho b \land b \mathop\rho c \implies a \mathop\rho c$ | metric property holds  | yes      | yes           | yes         |
 
 Prove reflexivity. Let $x$ be arbitrary. Show $(x, x) \in \rho$.
 Prove symmetry. Let $x, y$ be arbitrary. Show $(x, y) \in \rho \implies (y,x) \in \rho$.
