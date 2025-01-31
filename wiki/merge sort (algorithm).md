@@ -13,7 +13,6 @@ end
 
 function merge(A, l, m, r)
 	let B = [] with |B| = r - l + 1
-	
 	let i = l
 	let j = m + 1
 	let k = 1		# if zero-index then k = 0 
