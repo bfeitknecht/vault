@@ -143,13 +143,13 @@ Allows to solve multiple congruence relations in coprime moduli.
 
 # RSA
 
-| Object                        | Formula                    | Meaning                             |
-| ----------------------------- | -------------------------- | ----------------------------------- |
-| modulos (public)              | $n = pq$                   | product of secret primes            |
-| encryption exponent (public)  | $\gcd(e, \varphi(n)) = 1$  | coprime to $\|\mathbb{Z}_{m}^{*}\|$ |
-| decryption exponent (private) | $de \equiv_{\varphi(n)} 1$ | multiplicative inverse of $e$       |
-| message                       | $m = R_{n}(c^{d})$         | decrypted ciphertext                |
-| ciphertext                    | $c = R_{n}(m^{e})$         | encrypted message                   |
+| Object                        | Formula                    | Meaning                                     |
+| ----------------------------- | -------------------------- | ------------------------------------------- |
+| modulos (public)              | $n = pq$                   | product of secret primes                    |
+| encryption exponent (public)  | $\gcd(e, \varphi(n)) = 1$  | coprime to $\vert \mathbb{Z}_{m}^{*} \vert$ |
+| decryption exponent (private) | $de \equiv_{\varphi(n)} 1$ | multiplicative inverse of $e$               |
+| message                       | $m = R_{n}(c^{d})$         | decrypted ciphertext                        |
+| ciphertext                    | $c = R_{n}(m^{e})$         | encrypted message                           |
 
 
 
