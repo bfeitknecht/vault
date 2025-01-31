@@ -15,5 +15,6 @@
     "float-callouts"
   ],
   "showViewHeader": true,
-  "baseFontSize": 13
+  "baseFontSize": 13,
+  "showRibbon": true
 }
