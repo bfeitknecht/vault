@@ -16,29 +16,22 @@ function merge(A, l, m, r)
 	
 	let i = l
 	let j = m + 1
-	let k = 1
+	let k = 1		# if zero-index then k = 0 
 	
 	while i <= m and j <= r do
 		if A[i] < A[j] then
-			B[k] = A[i]
-			i++
+			B[k++] = A[i++]
 		else
-			B[k] = A[j]
-			j++
+			B[k++] = A[j++]
 		end
-		k++
 	end
 	
 	while i <= m do
-		B[k] = A[i]
-		i++
-		k++
+		B[k++] = A[i++]
 	end
 	
 	while j <= r do
-		B[k] = A[j]
-		i++
-		k++
+		B[k++] = A[j++]
 	end
 	
 	A[l..r] = B
