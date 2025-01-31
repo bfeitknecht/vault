@@ -770,19 +770,31 @@
                 }
               },
               {
-                "id": "0c292eac3e98995f",
+                "id": "1c98247e47bee277",
                 "type": "leaf",
                 "state": {
-                  "type": "pdf",
+                  "type": "markdown",
                   "state": {
-                    "file": "var/other/LATEX.pdf",
-                    "page": 2,
-                    "left": 0,
-                    "top": 807,
-                    "zoom": 1.04
+                    "file": "wiki/symmetric relation.md",
+                    "mode": "source",
+                    "source": false
                   },
-                  "icon": "lucide-file-text",
-                  "title": "LATEX"
+                  "icon": "lucide-file",
+                  "title": "symmetric relation"
+                }
+              },
+              {
+                "id": "c55476975df93f63",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/antisymmetric relation.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "antisymmetric relation"
                 }
               }
             ],
@@ -800,10 +812,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 155,
-                    "left": -12,
-                    "top": 11,
-                    "zoom": 1.27107129917431
+                    "page": 29,
+                    "left": -15,
+                    "top": 352,
+                    "zoom": 1.0118514139699852
                   },
                   "icon": "lucide-file-text",
                   "title": "dmath-script-hs24"
@@ -817,8 +829,8 @@
                   "state": {
                     "file": "sem3/DMath/PV/pvw/DMath-pvw-script-HS24.pdf",
                     "page": 88,
-                    "left": 57,
-                    "top": 656,
+                    "left": 53,
+                    "top": 661,
                     "zoom": 1.04
                   },
                   "icon": "lucide-file-text",
@@ -826,19 +838,17 @@
                 }
               },
               {
-                "id": "a2c044aeada10d26",
+                "id": "aaf855dd5727cb8e",
                 "type": "leaf",
                 "state": {
-                  "type": "pdf",
+                  "type": "markdown",
                   "state": {
-                    "file": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-bs.pdf",
-                    "page": 4,
-                    "left": -24,
-                    "top": 216,
-                    "zoom": 0.6333962869258454
+                    "file": "wiki/logical implication.md",
+                    "mode": "source",
+                    "source": false
                   },
-                  "icon": "lucide-file-text",
-                  "title": "DMath-cheatsheet-bs"
+                  "icon": "lucide-file",
+                  "title": "logical implication"
                 }
               }
             ],
@@ -1011,7 +1021,7 @@
         }
       },
       "active": "c2e8cdef2e331f90",
-      "mtime": "2025-01-18T17:13:19+01:00"
+      "mtime": "2025-01-31T10:01:00+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1974,5 +1984,5 @@
       "mtime": "2025-01-09T14:38:00+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-a&d"
 }

@@ -8,6 +8,8 @@ DMath
 	relation properties
 	function and relation quick facts (effect on properties by composition, intersection, union)
 	proof of non-minimality of group axioms
+	propositional logic vs predicate logic, [source](https://math.stackexchange.com/questions/3330870/implication-between-propositions-vs-implication-between-predicates)
+	symbols of either as language
 
 
 # Exams
