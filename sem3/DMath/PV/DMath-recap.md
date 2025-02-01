@@ -67,7 +67,7 @@ Prove symmetry. Let $x, y$ be arbitrary. Show $(x, y) \in \rho \implies (y,x) \i
 Prove transitivity. Let $x, y, z$ be arbitrary with $(x,y), (y,z) \in \rho$. Show $(x,z) \in \rho$.
 
 
-Let $\rho, \sigma$ be relations on some non-empty set. The following table illustrates the preservation of its properties under set intersection, set union and relation composition.
+Let $\rho, \sigma$ be relations on some non-empty set. The following table illustrates the preservation of their properties under set intersection, set union and relation composition.
 
 | Property      | $\rho \cap \sigma$ | $\rho \cup \sigma$ | $\rho \circ \sigma$ |
 | ------------- | ------------------ | ------------------ | ------------------- |
@@ -142,7 +142,7 @@ Surjection is onto, there are no holes in the codomain, $f_{*}[X] = Y$.
 **Example**
 Prove that $\mathbb{N}^{m}$ is countable for $m \in \mathbb{N}$.
 
-Define an injection $\varphi : \mathbb{N}^{m} \to \mathbb{N}$ with $\varphi(x) = \prod_{i \in [m]} p_{i}^{n_{i}}$ for $x = (n_{1}, n_{2}, \dots, n_{m}) \in \mathbb{N}^{m}$. Correctness follows from the unique prime factorization theorem.
+Define an injection $\varphi : \mathbb{N}^{m} \to \mathbb{N}$ with $\varphi(x) = \prod_{i \in [m]} p_{i}^{n_{i}}$ for $x = (n_{i})_{m} \in \mathbb{N}^{m}$. Correctness follows from the unique prime factorization theorem.
 
 
 # Number Theory
