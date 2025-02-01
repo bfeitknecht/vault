@@ -156,8 +156,7 @@ Define an injection $\varphi : \mathbb{N}^{m} \to \mathbb{N}$ with $\varphi(x) =
 # Number Theory
 
 ## CRT
-
-Allows to solve multiple congruence relations in coprime moduli.
+![[chinese remainder theorem (CRT)]]
 
 ## Diffie-Hellman
 
