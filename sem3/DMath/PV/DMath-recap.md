@@ -11,6 +11,14 @@ DMath
 	propositional logic vs predicate logic, [source](https://math.stackexchange.com/questions/3330870/implication-between-propositions-vs-implication-between-predicates)
 	symbols of either as language
 
+# Cheatsheet
+
+- primes
+- totient function
+- relation properties definitions, preservation under operations
+- resolution calculus
+- logical calculus derivation
+- 
 
 # Exams
 
