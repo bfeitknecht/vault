@@ -52,19 +52,31 @@ Prove $A = B$. Double set inclusion.
 
 # Relation
 
-Let $\rho$ be a binary relation on $A$. Let $a, b, c \in A$ be arbitrary.
+Let $\rho$ be a binary relation on $A \neq \varnothing$. Let $a, b, c \in A$ be arbitrary.
 
-| Property     | Definition                                                       | Graph                  | Preorder | Partial Order | Equivalence |
-| ------------ | ---------------------------------------------------------------- | ---------------------- | -------- | ------------- | ----------- |
-| reflexivity  | $a \mathop \rho a$                                               | every vertex has loop  | yes      | yes           | yes         |
-| ireflexivity | $a \mathop{\not\!\rho} a$                                        | no vertex has loop     |          |               |             |
-| symmetry     | $a \mathop\rho b \iff b \mathop\rho a$                           | undirected graph       |          |               | yes         |
-| antisymmetry | $a \mathop\rho b \land b \mathop\rho a \implies a = b$           | no cycle of length two |          | yes           |             |
-| transitive   | $a \mathop\rho b \land b \mathop\rho c \implies a \mathop\rho c$ | metric property holds  | yes      | yes           | yes         |
+| Property     | Definition                                                       | Graph              | Preorder | Equivalence | Partial Order |
+| ------------ | ---------------------------------------------------------------- | ------------------ | -------- | ----------- | ------------- |
+| reflexivity  | $a \mathop \rho a$                                               | every vertex loops | yes      | yes         | yes           |
+| ireflexivity | $a \mathop{\not\!\rho} a$                                        | no vertex loops    |          |             |               |
+| symmetry     | $a \mathop\rho b \iff b \mathop\rho a$                           | undirected graph   |          | yes         |               |
+| antisymmetry | $a \mathop\rho b \land b \mathop\rho a \implies a = b$           | no 2-cycles        |          |             | yes           |
+| transitive   | $a \mathop\rho b \land b \mathop\rho c \implies a \mathop\rho c$ | every walk is edge | yes      | yes         | yes           |
 
 Prove reflexivity. Let $x$ be arbitrary. Show $(x, x) \in \rho$.
 Prove symmetry. Let $x, y$ be arbitrary. Show $(x, y) \in \rho \implies (y,x) \in \rho$.
 Prove transitivity. Let $x, y, z$ be arbitrary with $(x,y), (y,z) \in \rho$. Show $(x,z) \in \rho$.
+
+
+Let $\rho, \sigma$ be relations on some non-empty set. The following table illustrates the preservation of its properties under set intersection, set union and relation composition.
+
+| Property      | $\rho \cap \sigma$ | $\rho \cup \sigma$ | $\rho \circ \sigma$ |
+| ------------- | ------------------ | ------------------ | ------------------- |
+| reflexivity   | yes                | yes                | yes                 |
+| symmetry      | yes                |                    |                     |
+| antisymmetry  | yes                |                    |                     |
+| transitivity  | yes                |                    | yes                 |
+| equivalence   | yes                |                    |                     |
+| partial order | yes                |                    |                     |
 
 
 # Poset
