@@ -58,7 +58,7 @@ Let $\rho$ be a binary relation on $A \neq \varnothing$. Let $a, b, c \in A$ be 
 | ------------ | ---------------------------------------------------------------- | ------------------ | -------- | ----------- | ------------- |
 | reflexivity  | $a \mathop \rho a$                                               | every vertex loops | yes      | yes         | yes           |
 | ireflexivity | $a \mathop{\not\!\rho} a$                                        | no vertex loops    |          |             |               |
-| symmetry     | $a \mathop\rho b \iff b \mathop\rho a$                           | undirected graph   |          | yes         |               |
+| symmetry     | $a \mathop\rho b \iff b \mathop\rho a \iff \rho =\widehat{\rho}$ | undirected graph   |          | yes         |               |
 | antisymmetry | $a \mathop\rho b \land b \mathop\rho a \implies a = b$           | no 2-cycles        |          |             | yes           |
 | transitive   | $a \mathop\rho b \land b \mathop\rho c \implies a \mathop\rho c$ | every walk is edge | yes      | yes         | yes           |
 
