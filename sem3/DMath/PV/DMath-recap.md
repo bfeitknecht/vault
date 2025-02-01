@@ -18,7 +18,7 @@ DMath
 - relation properties definitions, preservation under operations
 - resolution calculus
 - logical calculus derivation
-- 
+- every cyclic group is commutative (generator)
 
 # Exams
 
@@ -155,13 +155,23 @@ Define an injection $\varphi : \mathbb{N}^{m} \to \mathbb{N}$ with $\varphi(x) =
 
 # Number Theory
 
-# CRT
+## CRT
 
 Allows to solve multiple congruence relations in coprime moduli.
 
+## Diffie-Hellman
 
 
-# RSA
+| Object         | Formula                                                  | Meaning                              |
+| -------------- | -------------------------------------------------------- | ------------------------------------ |
+| $p$            | $p \in \mathbb{P}$                                       | public prime                         |
+| $g$            | $\gcd(p, g) = 1$                                         | public generator in $\mathbb{Z}_{p}$ |
+| $x_{A}, x_{B}$ | $x_{A}, x_{B} \in \mathbb{Z}$                            | private exponents                    |
+| $y_{A}, y_{B}$ | $y_{A} \equiv_{p} g^{x_{A}}, y_{B} \equiv_{p} g^{x_{A}}$ | public key                           |
+| $k$            | $k \equiv_{p} y_{A}^{x_{B}} = g^{x_{A} x_{B}}$           |                                      |
+
+
+## RSA
 
 | Object                        | Formula                    | Meaning                                     |
 | ----------------------------- | -------------------------- | ------------------------------------------- |
