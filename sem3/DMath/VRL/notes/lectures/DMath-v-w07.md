@@ -5,7 +5,7 @@
 - remainder of division in the real numbers, $R_{m}(a)$
 - [[greatest common divisor (gcd)]]
 - [[least common multiple (lcm)]]
-- [[chinese remainder theorem]]
+- [[chinese remainder theorem (CRT)]]
 
 
 

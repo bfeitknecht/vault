@@ -792,10 +792,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 29,
-                    "left": -15,
-                    "top": 352,
-                    "zoom": 1.0118514139699852
+                    "page": 113,
+                    "left": 26,
+                    "top": 373,
+                    "zoom": 1.6
                   },
                   "icon": "lucide-file-text",
                   "title": "dmath-script-hs24"
@@ -830,25 +830,8 @@
                   "icon": "lucide-file",
                   "title": "logical implication"
                 }
-              },
-              {
-                "id": "e7b62e52dff2618f",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-bs.pdf",
-                    "page": 2,
-                    "left": -4,
-                    "top": 173,
-                    "zoom": 0.8
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "DMath-cheatsheet-bs"
-                }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "vertical"
@@ -1016,8 +999,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "e7b62e52dff2618f",
-      "mtime": "2025-01-31T18:28:05+01:00"
+      "active": "c2e8cdef2e331f90",
+      "mtime": "2025-02-01T22:08:58+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1980,5 +1963,5 @@
       "mtime": "2025-01-09T14:38:00+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "00-clean"
 }
