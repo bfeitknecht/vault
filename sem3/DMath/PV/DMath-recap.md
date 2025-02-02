@@ -79,6 +79,7 @@ Let $\rho, \sigma$ be relations on some non-empty set. The following table illus
 
 | Property      | $\rho \cap \sigma$ | $\rho \cup \sigma$ | $\rho \circ \sigma$ |
 | ------------- | ------------------ | ------------------ | ------------------- |
+| irreflexivity | yes                |                    |                     |
 | reflexivity   | yes                | yes                | yes                 |
 | symmetry      | yes                |                    |                     |
 | antisymmetry  | yes                |                    |                     |
