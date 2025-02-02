@@ -792,10 +792,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 113,
-                    "left": 26,
-                    "top": 373,
-                    "zoom": 1.6
+                    "page": 101,
+                    "left": -3,
+                    "top": 477,
+                    "zoom": 1.37
                   },
                   "icon": "lucide-file-text",
                   "title": "dmath-script-hs24"
@@ -830,8 +830,25 @@
                   "icon": "lucide-file",
                   "title": "logical implication"
                 }
+              },
+              {
+                "id": "dc3e56175a65f620",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-bs.pdf",
+                    "page": 3,
+                    "left": 235,
+                    "top": 534,
+                    "zoom": 1.15
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "DMath-cheatsheet-bs"
+                }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -850,7 +867,8 @@
                 "state": {
                   "type": "file-explorer",
                   "state": {
-                    "sortOrder": "alphabetical"
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -999,8 +1017,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "c2e8cdef2e331f90",
-      "mtime": "2025-02-01T22:08:58+01:00"
+      "active": "dc3e56175a65f620",
+      "mtime": "2025-02-02T17:43:43+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1963,5 +1981,5 @@
       "mtime": "2025-01-09T14:38:00+01:00"
     }
   },
-  "active": "sem3-dmath"
+  "active": "sem3-a&d"
 }
