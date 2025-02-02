@@ -77,15 +77,15 @@ Prove transitivity. Let $x, y, z$ be arbitrary with $(x,y), (y,z) \in \rho$. Sho
 
 Let $\rho, \sigma$ be relations on some non-empty set. The following table illustrates the preservation of their properties under set intersection, set union and relation composition.
 
-| Property      | $\rho \cap \sigma$ | $\rho \cup \sigma$ | $\rho \circ \sigma$ |
-| ------------- | ------------------ | ------------------ | ------------------- |
-| irreflexivity | yes                |                    |                     |
-| reflexivity   | yes                | yes                | yes                 |
-| symmetry      | yes                |                    |                     |
-| antisymmetry  | yes                |                    |                     |
-| transitivity  | yes                |                    | yes                 |
-| equivalence   | yes                |                    |                     |
-| partial order | yes                |                    |                     |
+| Property      | $\rho \cap \sigma$ | $\rho \cup \sigma$ | $\rho \circ \sigma$ |     |
+| ------------- | ------------------ | ------------------ | ------------------- | --- |
+| irreflexivity | yes                |                    |                     |     |
+| reflexivity   | yes                | yes                | yes                 |     |
+| symmetry      | yes                |                    |                     |     |
+| antisymmetry  | yes                |                    |                     |     |
+| transitivity  | yes                |                    | yes                 |     |
+| equivalence   | yes                |                    |                     |     |
+| partial order | yes                |                    |                     |     |
 
 
 # Poset
@@ -162,13 +162,13 @@ Define an injection $\varphi : \mathbb{N}^{m} \to \mathbb{N}$ with $\varphi(x) =
 ## Diffie-Hellman
 
 
-| Object         | Formula                                                  | Meaning                              |
-| -------------- | -------------------------------------------------------- | ------------------------------------ |
-| $p$            | $p \in \mathbb{P}$                                       | public prime                         |
-| $g$            | $\gcd(p, g) = 1$                                         | public generator in $\mathbb{Z}_{p}$ |
-| $x_{A}, x_{B}$ | $x_{A}, x_{B} \in \mathbb{Z}$                            | private exponents                    |
-| $y_{A}, y_{B}$ | $y_{A} \equiv_{p} g^{x_{A}}, y_{B} \equiv_{p} g^{x_{A}}$ | public key                           |
-| $k$            | $k \equiv_{p} y_{A}^{x_{B}} = g^{x_{A} x_{B}}$           |                                      |
+| Object         | Formula                                                                                                                      | Meaning                              |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| $p$            | $p \in \mathbb{P}$                                                                                                           | public prime                         |
+| $g$            | $\gcd(p, g) = 1$                                                                                                             | public generator in $\mathbb{Z}_{p}$ |
+| $x_{A}, x_{B}$ | $x_{A}, x_{B} \in [p-2]$                                                                                                     | private exponents                    |
+| $y_{A}, y_{B}$ | $y_{A} \equiv_{p} g^{x_{A}}$<br>$y_{B} \equiv_{p} g^{x_{B}}$                                                                 | public keys                          |
+| $k$            | $k_{AB} \equiv_{p} y_{B}^{x_{A}} \equiv_{p} g^{x_{B} x_{A}}$<br>$k_{BA} \equiv_{p} y_{A}^{x_{B}} \equiv_{p} g^{x_{A} x_{B}}$ | private shared secret                |
 
 
 ## RSA
