@@ -11,5 +11,7 @@
   "obsidian-excalidraw-plugin",
   "open-in-new-tab",
   "remember-cursor-position",
-  "obsidian-tikzjax"
+  "obsidian-tikzjax",
+  "plugin-reloader",
+  "obsidian-latex"
 ]

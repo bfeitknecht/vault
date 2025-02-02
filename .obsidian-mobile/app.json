@@ -16,9 +16,9 @@
     "editor:toggle-code",
     "editor:fold-all",
     "editor:unfold-all",
-    "editor:toggle-keyboard",
     "command-palette:open",
     "editor:configure-toolbar"
   ],
-  "mobilePullAction": ""
+  "mobilePullAction": "",
+  "propertiesInDocument": "source"
 }
