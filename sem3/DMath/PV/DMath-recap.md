@@ -18,7 +18,6 @@ DMath
 - relation properties definitions, preservation under operations
 - resolution calculus
 - logical calculus derivation
-- every cyclic group is commutative (generator)
 - for every proof system there exists a unique verification that makes it sound and complete
 
 # Exams
