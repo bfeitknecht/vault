@@ -9,5 +9,6 @@
     "hide-embed-filename",
     "style-embed"
   ],
-  "baseFontSize": 13
+  "baseFontSize": 13,
+  "showRibbon": true
 }

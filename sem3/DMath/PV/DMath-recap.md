@@ -15,6 +15,8 @@ DMath
 
 $f$ injective $\implies$ $f$ has right inverse $f \circ f^{-1}_{r} = \mathsf{id}$
 $f$ surjective $\implies$ $f$ has left inverse $f^{-1}_{l} \circ f = \mathsf{id}$
+$\mathrm{\mathrm{Re}s}$ to prove $F \models G$: CNF of $F \land \lnot G \leadsto \varnothing$
+
 
 # Exams
 

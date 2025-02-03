@@ -6,7 +6,6 @@
   "promptDelete": false,
   "attachmentFolderPath": "var/attachments",
   "newFileFolderPath": "wiki",
-  "showRibbon": true,
   "showInlineTitle": true,
   "mobileToolbarCommands": [
     "editor:insert-callout",
@@ -19,6 +18,6 @@
     "command-palette:open",
     "editor:configure-toolbar"
   ],
-  "mobilePullAction": "",
+  "mobilePullAction": "command-palette:open",
   "propertiesInDocument": "source"
 }
