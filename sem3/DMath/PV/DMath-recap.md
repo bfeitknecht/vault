@@ -11,15 +11,6 @@ DMath
 	propositional logic vs predicate logic, [source](https://math.stackexchange.com/questions/3330870/implication-between-propositions-vs-implication-between-predicates)
 	symbols of either as language
 
-# Cheatsheet
-
-- primes
-- totient function
-- relation properties definitions, preservation under operations
-- resolution calculus
-- logical calculus derivation
-- for every proof system there exists a unique verification that makes it sound and complete
-
 # Exams
 
 - [ ] HS18
@@ -40,12 +31,12 @@ DMath
 
 Disambiguation of some symbols.
 
-| Symbol     | Usage       | Between    |
-| ---------- | ----------- | ---------- |
-| $\to$      | formulas    | terms      |
-| $\implies$ | proofs      | statements |
-| $=$        | equality    | anything   |
-| $\equiv$   | equivalence | formulas   |
+| Symbol            | Usage       | Between    |
+| ----------------- | ----------- | ---------- |
+| $\to$             | formulas    | terms      |
+| $\Longrightarrow$ | proofs      | statements |
+| $=$               | equality    | anything   |
+| $\equiv$          | equivalence | formulas   |
 
 Write proofs in the correct implication direction! Start with something true and derive the statement to prove, not the other way around.
 
@@ -77,15 +68,15 @@ Prove transitivity. Let $x, y, z$ be arbitrary with $(x,y), (y,z) \in \rho$. Sho
 
 Let $\rho, \sigma$ be relations on some non-empty set. The following table illustrates the preservation of their properties under set intersection, set union and relation composition.
 
-| Property      | $\rho \cap \sigma$ | $\rho \cup \sigma$ | $\rho \circ \sigma$ |     |
-| ------------- | ------------------ | ------------------ | ------------------- | --- |
-| irreflexivity | yes                |                    |                     |     |
-| reflexivity   | yes                | yes                | yes                 |     |
-| symmetry      | yes                |                    |                     |     |
-| antisymmetry  | yes                |                    |                     |     |
-| transitivity  | yes                |                    | yes                 |     |
-| equivalence   | yes                |                    |                     |     |
-| partial order | yes                |                    |                     |     |
+| Property      | $\rho \cap \sigma$ | $\rho \cup \sigma$ | $\rho \circ \sigma$ |
+| ------------- | ------------------ | ------------------ | ------------------- |
+| irreflexivity | yes                |                    |                     |
+| reflexivity   | yes                | yes                | yes                 |
+| symmetry      | yes                |                    |                     |
+| antisymmetry  | yes                |                    |                     |
+| transitivity  | yes                |                    | yes                 |
+| equivalence   | yes                |                    |                     |
+| partial order | yes                |                    |                     |
 
 
 # Poset
