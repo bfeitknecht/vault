@@ -11,6 +11,11 @@ DMath
 	propositional logic vs predicate logic, [source](https://math.stackexchange.com/questions/3330870/implication-between-propositions-vs-implication-between-predicates)
 	symbols of either as language
 
+# Cheatsheet
+
+$f$ injective $\implies$ $f$ has right inverse $f \circ f^{-1}_{r} = \mathsf{id}$
+$f$ surjective $\implies$ $f$ has left inverse $f^{-1}_{l} \circ f = \mathsf{id}$
+
 # Exams
 
 - [ ] HS18
