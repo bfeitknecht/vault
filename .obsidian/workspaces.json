@@ -501,8 +501,8 @@
                   "state": {
                     "file": "sem3/A&D/VRL/script/A&D-script-w05-datastructures.pdf",
                     "page": 18,
-                    "left": -2,
-                    "top": 183,
+                    "left": -4,
+                    "top": 187,
                     "zoom": 0.93
                   },
                   "icon": "lucide-file-text",
@@ -524,8 +524,23 @@
                   "icon": "lucide-file-text",
                   "title": "A&D-script-w09-graph-algorithms"
                 }
+              },
+              {
+                "id": "bfb13815f4c7409f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/kruskal (algorithm).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "kruskal (algorithm)"
+                }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -594,8 +609,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 289.5,
-        "collapsed": true
+        "width": 289.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -694,8 +708,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "ca3960c44f5e6df4",
-      "mtime": "2025-01-31T18:21:56+01:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2025-02-03T11:11:00+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -839,9 +853,9 @@
                   "state": {
                     "file": "sem1/DMath/PV/cheatsheets/DMath-cheatsheet-bs.pdf",
                     "page": 3,
-                    "left": 235,
-                    "top": 534,
-                    "zoom": 1.15
+                    "left": -24,
+                    "top": 337,
+                    "zoom": 0.6333962869258455
                   },
                   "icon": "lucide-file-text",
                   "title": "DMath-cheatsheet-bs"
@@ -1018,7 +1032,7 @@
         }
       },
       "active": "dc3e56175a65f620",
-      "mtime": "2025-02-02T17:43:43+01:00"
+      "mtime": "2025-02-03T11:05:01+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1981,5 +1995,5 @@
       "mtime": "2025-01-09T14:38:00+01:00"
     }
   },
-  "active": "sem3-a&d"
+  "active": "sem3-dmath"
 }
