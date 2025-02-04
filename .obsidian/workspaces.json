@@ -487,7 +487,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "4a66b4edfa8d0493",
@@ -609,7 +609,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 289.5
+        "width": 289.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -708,8 +709,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2025-02-03T11:11:00+01:00"
+      "active": "f43d52007a6505d3",
+      "mtime": "2025-02-04T20:05:24+01:00"
     },
     "sem3-dmath": {
       "main": {
