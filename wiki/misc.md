@@ -1,4 +1,9 @@
 
+- noboilerplate video
+- hierarchical tags
+- named links
+- properties
+- 
 
 ## Tips and Tricks
 
@@ -147,40 +152,3 @@ comment
 ```
 
 
-# Testing
-
-
-
-
-```tikz
-\usepackage{tikz-cd}
-\begin{document}
-
-\begin{tikzcd}
-	{V'} &&&& {W'} \\
-	\\
-	\\
-	& X && Y \\
-	\\
-	\\
-	V &&&& W
-	\arrow["{A'}", from=1-1, to=1-5]
-	\arrow[from=1-1, to=4-2]
-	\arrow[from=1-5, to=4-4]
-	\arrow["{\psi_{W}}", dashed, tail, from=1-5, to=7-5]
-	\arrow[from=4-2, to=1-1]
-	\arrow["T", from=4-2, to=4-4]
-	\arrow[from=4-2, to=7-1]
-	\arrow[from=4-4, to=1-5]
-	\arrow[from=4-4, to=7-5]
-	\arrow["{\psi_{V}}", dashed, tail, from=7-1, to=1-1]
-	\arrow[from=7-1, to=4-2]
-	\arrow["A", from=7-1, to=7-5]
-	\arrow[from=7-5, to=4-4]
-\end{tikzcd}
-
-\end{document}
-```
-
-
-https://q.uiver.app/#q=WzAsNixbMCwwLCJWJyJdLFs0LDAsIlcnIl0sWzEsMiwiWCJdLFszLDIsIlkiXSxbMCw0LCJWIl0sWzQsNCwiVyJdLFswLDEsIkEnIl0sWzEsNSwiXFxwc2lfe1d9IiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9LCJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMiwzLCJUIl0sWzQsMCwiXFxwc2lfe1Z9IiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9LCJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbNCw1LCJBIl0sWzAsMl0sWzQsMl0sWzIsNF0sWzIsMF0sWzEsM10sWzMsMV0sWzMsNV0sWzUsM11d
