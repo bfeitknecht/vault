@@ -693,6 +693,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-excalidraw-plugin:New drawing": false,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
           "obsidian-git:Open Git source control": true,
@@ -705,12 +706,11 @@
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
           "command-palette:Open command palette": true,
-          "workspaces:Manage workspace layouts": false,
-          "obsidian-excalidraw-plugin:Create new drawing": true
+          "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "f43d52007a6505d3",
-      "mtime": "2025-02-04T21:31:13+01:00"
+      "active": "bfb13815f4c7409f",
+      "mtime": "2025-02-05T10:38:34+01:00"
     },
     "sem3-dmath": {
       "main": {
