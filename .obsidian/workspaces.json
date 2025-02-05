@@ -171,10 +171,11 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-excalidraw-plugin:New drawing": true,
+          "obsidian-kanban:Create new board": false,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
-          "obsidian-excalidraw-plugin:Create new drawing": true,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
           "cmdr:Export to PDF": false,
@@ -188,7 +189,7 @@
         }
       },
       "active": "fc1796993e9059f4",
-      "mtime": "2025-02-01T23:50:53+01:00"
+      "mtime": "2025-02-05T22:05:30+01:00"
     },
     "00-home": {
       "main": {
