@@ -242,8 +242,7 @@
                   "title": "misc"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "f4c27890fdfee2b4",
@@ -288,7 +287,8 @@
                 "state": {
                   "type": "file-explorer",
                   "state": {
-                    "sortOrder": "alphabetical"
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -331,8 +331,7 @@
                   "title": "Outline"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
@@ -432,11 +431,11 @@
           "pdf-plus:PDF++: Toggle auto-focus": true,
           "pdf-plus:PDF++: Toggle auto-paste": true,
           "command-palette:Open command palette": true,
-          "obsidian-kanban:Create new board": false
+          "obsidian-kanban:Create new board": true
         }
       },
-      "active": "54a110a570c6fdb8",
-      "mtime": "2025-02-05T22:05:24+01:00"
+      "active": "162e7a61651e562a",
+      "mtime": "2025-02-05T23:01:03+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -724,7 +723,8 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-excalidraw-plugin:New drawing": false,
+          "obsidian-kanban:Create new board": true,
+          "obsidian-excalidraw-plugin:New drawing": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
           "obsidian-git:Open Git source control": true,
@@ -741,7 +741,7 @@
         }
       },
       "active": "6f8048e5ecb0dadd",
-      "mtime": "2025-02-05T22:01:50+01:00"
+      "mtime": "2025-02-05T23:01:15+01:00"
     },
     "sem3-dmath": {
       "main": {
@@ -798,8 +798,8 @@
                     "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
                     "page": 111,
                     "left": -12,
-                    "top": 4,
-                    "zoom": 1.2710712991743103
+                    "top": 8,
+                    "zoom": 1.27107129917431
                   },
                   "icon": "lucide-file-text",
                   "title": "dmath-script-hs24"
@@ -972,6 +972,8 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-kanban:Create new board": true,
+          "obsidian-excalidraw-plugin:New drawing": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
@@ -984,12 +986,11 @@
           "obsidian-git:Open Git source control": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true,
-          "obsidian-excalidraw-plugin:Create new drawing": true
+          "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
       "active": "6cded826760a3d75",
-      "mtime": "2025-02-04T14:42:31+01:00"
+      "mtime": "2025-02-05T23:01:21+01:00"
     },
     "sem3-eprog": {
       "main": {
@@ -1059,8 +1060,8 @@
                   "state": {
                     "file": "sem3/EProg/PV/exams/theory/HS22.pdf",
                     "page": 8,
-                    "left": -5,
-                    "top": 452,
+                    "left": -6,
+                    "top": 456,
                     "zoom": 0.91
                   },
                   "icon": "lucide-file-text",
@@ -1220,10 +1221,11 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-kanban:Create new board": true,
+          "obsidian-excalidraw-plugin:New drawing": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
-          "obsidian-excalidraw-plugin:Create new drawing": true,
           "templates:Insert template": false,
           "cmdr:Open in default app": false,
           "cmdr:Export to PDF": false,
@@ -1236,8 +1238,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "6fc96ddd9a5df956",
-      "mtime": "2025-01-24T15:27:27+01:00"
+      "active": "1893b6937bdc4d6e",
+      "mtime": "2025-02-05T23:01:27+01:00"
     },
     "sem3-linalg": {
       "main": {
@@ -1366,7 +1368,7 @@
                     "file": "sem3/LinAlg/VRL/extra/misc/LinAlg-TAoLA.pdf",
                     "page": 6,
                     "left": -18,
-                    "top": 759,
+                    "top": 763,
                     "zoom": 0.8743784437575596
                   },
                   "icon": "lucide-file-text",
@@ -1570,6 +1572,8 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-kanban:Create new board": true,
+          "obsidian-excalidraw-plugin:New drawing": true,
           "obsidian-git:Open Git source control": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
@@ -1582,12 +1586,11 @@
           "workspaces:Manage workspace layouts": false,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true,
-          "obsidian-excalidraw-plugin:Create new drawing": true
+          "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
       "active": "410ab8690fecc637",
-      "mtime": "2025-01-31T18:23:07+01:00"
+      "mtime": "2025-02-05T23:01:36+01:00"
     },
     "sem3-ti": {
       "main": {
@@ -1697,8 +1700,8 @@
                   "state": {
                     "file": "sem3/TI/VRL/extra/hromkovic-TI.pdf",
                     "page": 330,
-                    "left": 21,
-                    "top": 201,
+                    "left": 17,
+                    "top": 205,
                     "zoom": 1.22
                   },
                   "icon": "lucide-file-text",
@@ -1932,6 +1935,8 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-kanban:Create new board": true,
+          "obsidian-excalidraw-plugin:New drawing": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
           "templates:Insert template": false,
@@ -1944,13 +1949,12 @@
           "obsidian-git:Open Git source control": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true,
-          "obsidian-excalidraw-plugin:Create new drawing": true
+          "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
       "active": "83981181cbd53f95",
-      "mtime": "2025-01-09T14:38:00+01:00"
+      "mtime": "2025-02-05T23:01:46+01:00"
     }
   },
-  "active": "00-home"
+  "active": "sem3-a&d"
 }
