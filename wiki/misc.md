@@ -2,8 +2,7 @@
 - noboilerplate video
 - hierarchical tags
 - named links
-- properties
-- 
+- properties!!! alias
 
 ## Tips and Tricks
 
