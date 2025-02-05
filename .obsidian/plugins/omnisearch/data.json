@@ -1,6 +1,7 @@
 {
   "useCache": false,
   "hideExcluded": true,
+  "recencyBoost": "0",
   "downrankedFoldersFilters": [
     "var"
   ],
