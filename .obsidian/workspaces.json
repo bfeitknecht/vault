@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "2822446fee0d0e4f",
+            "id": "7fc5e6bff1f140a0",
             "type": "tabs",
             "children": [
               {
-                "id": "fc1796993e9059f4",
+                "id": "bda29f628fc74523",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -38,7 +38,8 @@
                 "state": {
                   "type": "file-explorer",
                   "state": {
-                    "sortOrder": "alphabetical"
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -87,7 +88,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 371.5,
+        "width": 370.5,
         "collapsed": true
       },
       "right": {
@@ -188,8 +189,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "fc1796993e9059f4",
-      "mtime": "2025-02-05T22:05:50+01:00"
+      "active": "bda29f628fc74523",
+      "mtime": "2025-02-07T15:07:30+01:00"
     },
     "00-home": {
       "main": {
@@ -436,7 +437,7 @@
         }
       },
       "active": "96330edeec2161d0",
-      "mtime": "2025-02-07T14:49:02+01:00"
+      "mtime": "2025-02-07T15:08:16+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1957,5 +1958,5 @@
       "mtime": "2025-02-05T23:01:46+01:00"
     }
   },
-  "active": "00-clean"
+  "active": "00-home"
 }
