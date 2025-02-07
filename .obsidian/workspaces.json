@@ -242,7 +242,8 @@
                   "title": "misc"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "f4c27890fdfee2b4",
@@ -434,8 +435,8 @@
           "obsidian-kanban:Create new board": true
         }
       },
-      "active": "162e7a61651e562a",
-      "mtime": "2025-02-06T18:59:28+01:00"
+      "active": "96330edeec2161d0",
+      "mtime": "2025-02-07T14:49:02+01:00"
     },
     "sem3-a&d": {
       "main": {
@@ -1956,5 +1957,5 @@
       "mtime": "2025-02-05T23:01:46+01:00"
     }
   },
-  "active": "00-home"
+  "active": "00-clean"
 }

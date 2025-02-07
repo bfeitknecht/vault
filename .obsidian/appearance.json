@@ -1,5 +1,5 @@
 {
-  "cssTheme": "",
+  "cssTheme": "Thema",
   "interfaceFontFamily": "Helvetica Neue",
   "textFontFamily": "Helvetica Neue",
   "monospaceFontFamily": "CommitMono Nerd Font Mono",
@@ -12,8 +12,7 @@
     "hide-line-above-tables",
     "style-embed",
     "png-add-white-bg",
-    "float-callouts",
-    "hide-view-header"
+    "float-callouts"
   ],
   "showViewHeader": true,
   "baseFontSize": 13,
