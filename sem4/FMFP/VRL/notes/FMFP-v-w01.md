@@ -27,3 +27,27 @@ theoretical framework for describing functions and their evaluations
 - lazy evaluation
 - indentation matters!
 - strong type system
+
+function definition
+- simple
+- guards
+- case distinction
+- patterns
+
+types
+- `Char`
+- `String`
+- `Double`
+
+tuple
+- used to model records
+- can be nested
+- singleton is not tuple
+
+
+parentheses are type constructor AND term constructor
+:: is haskell notation for term LHS has type RHS
+patterns, very powerful
+guards are boolean expressions
+patterns are variables, constants or built from data constructors like tuples
+let builds one expression from others in a local scope, can be `in` another expression
