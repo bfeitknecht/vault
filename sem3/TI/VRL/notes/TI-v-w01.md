@@ -11,4 +11,4 @@
 
 Programm kann quatsch machen!
 
-Der Begriff programm ist nicht gebunden an was getan werden soll oder wird. Algorithmus nimmt immer Bezug auf Problem und dessen  Lösung, also auch ob das Verfahren korrekt / inkorrekt ist.
+Der Begriff Programm ist nicht gebunden an was getan werden soll oder wird. Algorithmus nimmt immer Bezug auf Problem und dessen Lösung, also auch ob das Verfahren korrekt / inkorrekt ist.
