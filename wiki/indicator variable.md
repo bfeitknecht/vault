@@ -6,4 +6,3 @@ $$
 0, & \omega_{i} \not\in A
 \end{cases}
 $$
-Intuitively
