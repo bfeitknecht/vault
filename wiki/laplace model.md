@@ -1,0 +1,2 @@
+
+Let $\Omega$ be a finite sample space. The **laplace model** on $\Omega$ is defined with $\mathcal{F} = \mathcal{P}(\Omega)$ and $\Pr[A] = \frac{|A|}{|\Omega|}$. The probabilities for all outcomes are equal.
