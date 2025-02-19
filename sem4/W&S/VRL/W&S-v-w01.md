@@ -7,4 +7,5 @@ None
 - event is a subset of the sample space $A \in \mathcal{P}(\Omega)$
 - [[probability space]]
 - [[laplace model]]
+- [[indicator variable]]
 - 
