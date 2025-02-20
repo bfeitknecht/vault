@@ -2,6 +2,7 @@
 course: [[DMDB]]
 prev: [[DMDB-v-w01]]
 next: [[DMDB-v-w02]]
+tags: 
 ...
 ---
 
