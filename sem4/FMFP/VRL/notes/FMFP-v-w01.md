@@ -1,3 +1,11 @@
+---
+course:
+- FMFP
+prev:
+- FMFP-v-w01
+next:
+- FMFP-v-w02
+---
 
 # Plan
 - introduction to FP
