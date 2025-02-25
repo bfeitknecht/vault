@@ -6,3 +6,12 @@ prev:
 next:
 - "[[FMFP-v-w03]]"
 ---
+
+
+# Info
+
+
+# Topics
+- validity and satisfiability of first order logic
+
+# Notes
