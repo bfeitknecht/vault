@@ -19,3 +19,5 @@ next:
 
 # Notes
 - $\forall-I$ universal quantifier introduction requires $x$ not free in any assumption in $\Gamma$
+
+
