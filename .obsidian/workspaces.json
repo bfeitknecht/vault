@@ -996,6 +996,28 @@
               }
             ],
             "currentTab": 2
+          },
+          {
+            "id": "4eae27f0ad5ff541",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0734c17461d21f0f",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/FMFP/VRL/extra/slides/FMFP-s-w01-natural deduction.pdf",
+                    "page": 40,
+                    "left": -24,
+                    "top": 362,
+                    "zoom": 0.6571969696969697
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "FMFP-s-w01-natural deduction"
+                }
+              }
+            ]
           }
         ],
         "direction": "vertical"
@@ -1064,7 +1086,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 230.5
+        "width": 269.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1164,8 +1187,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "b0c7737825c26cb3",
-      "mtime": "2025-02-26T08:14:25+01:00"
+      "active": "0734c17461d21f0f",
+      "mtime": "2025-02-26T14:18:00+01:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1476,5 +1499,5 @@
       "mtime": "2025-02-25T09:41:44+01:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "sem4-dmdb"
 }
