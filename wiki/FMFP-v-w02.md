@@ -9,6 +9,7 @@ next:
 
 
 # Info
+"syntactic sugar causes semantic cancer"
 
 
 # Topics
@@ -19,9 +20,10 @@ next:
 - interpretation
 - formal induction proof
 - list types in haskell `(x:xs)`
-- "syntactic sugar causes semantic cancer"
+
 
 # Notes
 - $\forall-I$ universal quantifier introduction requires $x$ not free in any assumption in $\Gamma$
-
+- patterns cannot have function evaluations
+- patterns are linear, no duplicate variables (except wildcard `_`)
 
