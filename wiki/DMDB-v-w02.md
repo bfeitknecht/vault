@@ -19,6 +19,7 @@ next: "[[DMDB-v-w03]]"
 - primary key can be tuple
 - `WHERE != HAVING`
 - there are different ways to implement the same query in [[relational algebra]]
+- relational calculus is declarative, relational algebra is imperative
 
 
 ![[DMDB-s-w02-relational-calculus.pdf#page=3&rect=56,43,924,434|DMDB-s-w02-relational-calculus, p.3]]
