@@ -8,7 +8,7 @@ on_quit() {
   # save workspace
   # CAUSES THE WINDOW TO REOPEN
   uri="obsidian://advanced-uri?vault=vault&commandid=workspaces%253Asave"
-  #open --background $uri
+  open --background $uri
 
   # change to vault root
   cd "$1" &> /dev/null
