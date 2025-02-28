@@ -25,7 +25,7 @@ next: "[[DMDB-v-w03]]"
 - relational calculus is declarative, relational algebra is imperative
 
 
-![[DMDB-s-w02-relational-calculus.pdf#page=3&rect=56,43,924,434|DMDB-s-w02-relational-calculus, p.3]]
+![[DMDB-s02-relational-calculus.pdf#page=3&rect=56,43,924,434|DMDB-s-w02-relational-calculus, p.3]]
 
 
 | Operation           | $\mathrm{Set}$             | `PostgreSQL`                          |

@@ -477,22 +477,6 @@
                 }
               },
               {
-                "id": "3e4e99df6fd0780d",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/CN/VRL/extra/CN-s02-layering.pdf",
-                    "page": 4,
-                    "left": -15,
-                    "top": 361,
-                    "zoom": 1.0127672209026128
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "CN-s02-layering"
-                }
-              },
-              {
                 "id": "124052a7cdf4d396",
                 "type": "leaf",
                 "state": {
@@ -507,7 +491,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -676,8 +660,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "f45b8b2700e1a1fd",
-      "mtime": "2025-02-24T15:47:08+01:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2025-02-28T10:45:10+01:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -759,44 +743,44 @@
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/DMDB-script.pdf",
                     "page": 13,
-                    "left": -14,
+                    "left": -15,
                     "top": 110,
-                    "zoom": 1.1187500000000001
+                    "zoom": 1.084375
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-script"
                 }
               },
               {
-                "id": "f65bec881fe4804c",
+                "id": "f3278ecf8359adf7",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s-w01-relational-algebra.pdf",
-                    "page": 35,
-                    "left": -28,
-                    "top": 434,
-                    "zoom": 0.5593750000000001
+                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s01-relational-algebra.pdf",
+                    "page": 6,
+                    "left": -29,
+                    "top": 131,
+                    "zoom": 0.5421875
                   },
                   "icon": "lucide-file-text",
-                  "title": "DMDB-s-w01-relational-algebra"
+                  "title": "DMDB-s01-relational-algebra"
                 }
               },
               {
-                "id": "dafca779154baae9",
+                "id": "d07db205ad5cbaed",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s-w02-relational-calculus.pdf",
-                    "page": 4,
-                    "left": -37,
-                    "top": 515,
-                    "zoom": 0.55
+                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s02-relational-calculus.pdf",
+                    "page": 14,
+                    "left": -29,
+                    "top": 90,
+                    "zoom": 0.5421875
                   },
                   "icon": "lucide-file-text",
-                  "title": "DMDB-s-w02-relational-calculus"
+                  "title": "DMDB-s02-relational-calculus"
                 }
               }
             ],
@@ -970,8 +954,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "dafca779154baae9",
-      "mtime": "2025-02-28T09:04:59+01:00"
+      "active": "6358a248387a981d",
+      "mtime": "2025-02-28T10:45:49+01:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1528,5 +1512,5 @@
       "mtime": "2025-02-25T09:41:44+01:00"
     }
   },
-  "active": "sem4-dmdb"
+  "active": "sem4-cn"
 }
