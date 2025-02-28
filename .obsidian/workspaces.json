@@ -437,7 +437,7 @@
         }
       },
       "active": "96330edeec2161d0",
-      "mtime": "2025-02-18T10:29:15+01:00"
+      "mtime": "2025-02-28T09:05:40+01:00"
     },
     "sem4-cn": {
       "main": {
@@ -717,20 +717,6 @@
                 }
               },
               {
-                "id": "517ae4f862405924",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/DMDB-v-w01.md",
-                    "mode": "preview",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMDB-v-w01"
-                }
-              },
-              {
                 "id": "6358a248387a981d",
                 "type": "leaf",
                 "state": {
@@ -745,21 +731,21 @@
                 }
               },
               {
-                "id": "902144456997d298",
+                "id": "72dc23dfdd0de146",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/natural join.md",
+                    "file": "wiki/relational division.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "natural join"
+                  "title": "relational division"
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 2
           },
           {
             "id": "b2d58a2794577117",
@@ -773,28 +759,12 @@
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/DMDB-script.pdf",
                     "page": 13,
-                    "left": -16,
+                    "left": -14,
                     "top": 110,
-                    "zoom": 1.0778629115758958
+                    "zoom": 1.1187500000000001
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-script"
-                }
-              },
-              {
-                "id": "36987f30fabb3818",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s-w01-intro.pdf",
-                    "page": 43,
-                    "left": 0,
-                    "top": 197,
-                    "zoom": 0.5
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "DMDB-s-w01-intro"
                 }
               },
               {
@@ -804,10 +774,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s-w01-relational-algebra.pdf",
-                    "page": 30,
-                    "left": 244,
-                    "top": 13,
-                    "zoom": 0.82
+                    "page": 35,
+                    "left": -28,
+                    "top": 434,
+                    "zoom": 0.5593750000000001
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-s-w01-relational-algebra"
@@ -820,9 +790,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s-w02-relational-calculus.pdf",
-                    "page": 26,
-                    "left": 60,
-                    "top": 361,
+                    "page": 4,
+                    "left": -37,
+                    "top": 515,
                     "zoom": 0.55
                   },
                   "icon": "lucide-file-text",
@@ -899,7 +869,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 273.5
+        "width": 273.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -999,8 +970,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "902144456997d298",
-      "mtime": "2025-02-27T11:16:03+01:00"
+      "active": "dafca779154baae9",
+      "mtime": "2025-02-28T09:04:59+01:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1053,8 +1024,7 @@
                   "title": "FMFP-v-w02"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "4eae27f0ad5ff541",
@@ -1069,7 +1039,7 @@
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s-w01-natural deduction.pdf",
                     "page": 40,
                     "left": -24,
-                    "top": 386,
+                    "top": 391,
                     "zoom": 0.6571969696969697
                   },
                   "icon": "lucide-file-text",
@@ -1246,8 +1216,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "0734c17461d21f0f",
-      "mtime": "2025-02-28T08:27:39+01:00"
+      "active": "71254ba74efcb51c",
+      "mtime": "2025-02-28T09:07:03+01:00"
     },
     "sem4-w&s": {
       "main": {

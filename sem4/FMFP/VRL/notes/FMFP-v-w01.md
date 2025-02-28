@@ -1,10 +1,7 @@
 ---
-module:
-- "[[FMFP]]"
-prev:
-- "[[FMFP-v-w01]]"
-next:
-- "[[FMFP-v-w02]]"
+module: "[[FMFP]]"
+prev: "[[FMFP-v-w01]]"
+next: "[[FMFP-v-w02]]"
 ---
 
 # Plan

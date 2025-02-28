@@ -4,7 +4,8 @@
 # Info
 
 > [!error] #todo 
-> exercises
+> - exercises
+> - course website
 
 # Lectures
 
