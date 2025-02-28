@@ -5,7 +5,7 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "wiki",
   "attachmentFolderPath": "var/attachments",
-  "propertiesInDocument": "source",
+  "propertiesInDocument": "visible",
   "strictLineBreaks": false,
   "pdfExportSettings": {
     "pageSize": "A4",
