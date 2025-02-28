@@ -11,8 +11,11 @@ next: "[[DMDB-v-w03]]"
 - introduction to `SQL`
 - [[natural join]]
 - [[relational division]]
-- [[relational algebra]]
-- [[relational calculus]]
+- [[relational algebra (RA)]]
+- [[relational calculus (RC)]]
+- [[safe queries]]
+- [[domain independent relational calculus (DI-RC)]]
+- 
 
 # Notes
 - primary key CANNOT be `NULL` and must be unique
