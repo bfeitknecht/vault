@@ -34,4 +34,5 @@ next: "[[DMDB-v-w03]]"
 | selection           | $\sigma_{\mathrm{c}} (R)$  | `SELECT * FROM R WHERE c`             |
 | projection          | $\prod_{ (A_{i})_{n}} (R)$ | `SELECT A1, .. An FROM R`             |
 | renaming            | $\rho_{(B_{i})_{n}} (R)$   | `SELECT A1 AS B1, .. An AS Bn FROM R` |
+| distinct            | $\delta(R)$                | `SELECT DISTINCT FROM R`              |
 
