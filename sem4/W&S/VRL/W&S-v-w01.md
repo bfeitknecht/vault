@@ -1,3 +1,8 @@
+---
+module: "[[W&S]]"
+prev: "[[W&S-v-w01]]"
+next: "[[W&S-v-w02]]"
+---
 
 # Info
 None

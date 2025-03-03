@@ -503,7 +503,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/CN/VRL/extra/CN-s03-DNS.pdf"
+                    "file": "sem4/CN/VRL/extra/CN-s03-DNS.pdf",
+                    "page": 39,
+                    "left": -70,
+                    "top": 1072,
+                    "zoom": 0.2140625
                   },
                   "icon": "lucide-file-text",
                   "title": "CN-s03-DNS"
@@ -594,8 +598,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 291.5,
-        "collapsed": true
+        "width": 291.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -696,7 +699,7 @@
         }
       },
       "active": "fcdd1c94aeffa85e",
-      "mtime": "2025-02-28T20:04:48+01:00"
+      "mtime": "2025-03-03T16:42:44+01:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1547,5 +1550,5 @@
       "mtime": "2025-02-25T09:41:44+01:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-w&s"
 }
