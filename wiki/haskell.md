@@ -3,6 +3,5 @@
 
 
 # Goodies
-```haskell
-null xs = length xs > 0
-```
+- `null = (==[])` returns true if the list is nil (empty list)
+- `span` 
