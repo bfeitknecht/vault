@@ -1284,20 +1284,6 @@
                 }
               },
               {
-                "id": "36583b3016db331a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/W&S/VRL/W&S-v-w01.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "W&S-v-w01"
-                }
-              },
-              {
                 "id": "9201342ac4d36eeb",
                 "type": "leaf",
                 "state": {
@@ -1312,35 +1298,35 @@
                 }
               },
               {
-                "id": "4dcd5beeeba414e5",
+                "id": "a9aae0afab2e9a35",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/probability space.md",
+                    "file": "wiki/W&S-v-w03.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "probability space"
+                  "title": "W&S-v-w03"
                 }
               },
               {
-                "id": "8895f0a8ba92eec2",
+                "id": "0072f8c35cce443b",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/probability measure.md",
+                    "file": "sem4/W&S/UE/bf/W&S-bf-u02.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "probability measure"
+                  "title": "W&S-bf-u02"
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           },
           {
             "id": "f6a409c477b7352e",
@@ -1354,8 +1340,8 @@
                   "state": {
                     "file": "sem4/W&S/VRL/extra/W&S-script-1.pdf",
                     "page": 9,
-                    "left": 53,
-                    "top": 233,
+                    "left": 45,
+                    "top": 241,
                     "zoom": 1.01
                   },
                   "icon": "lucide-file-text",
@@ -1363,22 +1349,23 @@
                 }
               },
               {
-                "id": "51d1bc4c214b0e08",
+                "id": "a9fb05e05f056663",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "var/other/LATEX.pdf",
+                    "file": "sem4/W&S/UE/e/W&S-e-u02.pdf",
                     "page": 1,
-                    "left": -18,
-                    "top": 570,
-                    "zoom": 0.8743843192065531
+                    "left": -19,
+                    "top": 773,
+                    "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
-                  "title": "LATEX"
+                  "title": "W&S-e-u02"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1548,9 +1535,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "abdbe5787aa302d9",
-      "mtime": "2025-03-03T17:24:20+01:00"
+      "active": "a9fb05e05f056663",
+      "mtime": "2025-03-04T11:45:56+01:00"
     }
   },
-  "active": "sem4-w&s"
+  "active": "sem4-fmfp"
 }
