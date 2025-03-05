@@ -1078,7 +1078,7 @@
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s01-natural deduction.pdf",
                     "page": 40,
                     "left": -24,
-                    "top": 396,
+                    "top": 401,
                     "zoom": 0.6571969696969697
                   },
                   "icon": "lucide-file-text",
@@ -1256,7 +1256,7 @@
         }
       },
       "active": "f4f3850f082e1138",
-      "mtime": "2025-03-03T17:28:19+01:00"
+      "mtime": "2025-03-05T11:40:01+01:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1539,5 +1539,5 @@
       "mtime": "2025-03-04T11:45:56+01:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "sem4-w&s"
 }
