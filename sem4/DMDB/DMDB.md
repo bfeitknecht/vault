@@ -1,3 +1,7 @@
+---
+semester:
+  - sem4
+---
 
 "Some love for CAPS-LOCK."
 
