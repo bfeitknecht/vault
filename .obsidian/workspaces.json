@@ -494,11 +494,11 @@
             "currentTab": 2
           },
           {
-            "id": "e140d9b1002c2d1a",
+            "id": "f8e98817c16c28b1",
             "type": "tabs",
             "children": [
               {
-                "id": "fcdd1c94aeffa85e",
+                "id": "b30b040bb66e7593",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
@@ -506,7 +506,7 @@
                     "file": "sem4/CN/VRL/extra/CN-s03-DNS.pdf",
                     "page": 39,
                     "left": -70,
-                    "top": 1072,
+                    "top": 1077,
                     "zoom": 0.2140625
                   },
                   "icon": "lucide-file-text",
@@ -514,22 +514,23 @@
                 }
               },
               {
-                "id": "c0651eb02b6c76b7",
+                "id": "d4f3682594d8ef33",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/CN-s04-WWW.pdf",
-                    "page": 88,
-                    "left": -25,
-                    "top": 240,
-                    "zoom": 0.6377672209026127
+                    "page": 1,
+                    "left": -32,
+                    "top": 491,
+                    "zoom": 0.48812351543943
                   },
                   "icon": "lucide-file-text",
                   "title": "CN-s04-WWW"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -698,8 +699,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "fcdd1c94aeffa85e",
-      "mtime": "2025-03-03T16:42:44+01:00"
+      "active": "d4f3682594d8ef33",
+      "mtime": "2025-03-06T17:36:46+01:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1523,5 +1524,5 @@
       "mtime": "2025-03-05T14:16:27+01:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-dmdb"
 }
