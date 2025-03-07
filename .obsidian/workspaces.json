@@ -767,7 +767,8 @@
                   "title": "relational division"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "b2d58a2794577117",
@@ -781,28 +782,12 @@
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/DMDB-script.pdf",
                     "page": 13,
-                    "left": -15,
-                    "top": 110,
-                    "zoom": 1.084375
+                    "left": -18,
+                    "top": 115,
+                    "zoom": -0.0625
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-script"
-                }
-              },
-              {
-                "id": "f3278ecf8359adf7",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s01-relational-algebra.pdf",
-                    "page": 6,
-                    "left": -29,
-                    "top": 131,
-                    "zoom": 0.5421875
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "DMDB-s01-relational-algebra"
                 }
               },
               {
@@ -812,13 +797,29 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s02-relational-calculus.pdf",
-                    "page": 14,
+                    "page": 2,
                     "left": -29,
-                    "top": 95,
+                    "top": 182,
                     "zoom": 0.5421875
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-s02-relational-calculus"
+                }
+              },
+              {
+                "id": "075d48acb0ca61ca",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s03-entity-relationship-model.pdf",
+                    "page": 8,
+                    "left": -29,
+                    "top": 39,
+                    "zoom": 0.5421875
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "DMDB-s03-entity-relationship-model"
                 }
               }
             ],
@@ -992,8 +993,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "e81bd16c68218834",
-      "mtime": "2025-03-06T10:12:08+01:00"
+      "active": "9ecb0c1e9830f2dc",
+      "mtime": "2025-03-07T10:10:54+01:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1524,5 +1525,5 @@
       "mtime": "2025-03-05T14:16:27+01:00"
     }
   },
-  "active": "sem4-dmdb"
+  "active": "sem4-cn"
 }

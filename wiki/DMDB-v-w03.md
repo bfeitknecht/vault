@@ -17,3 +17,4 @@ next: "[[DMDB-v-w04]]"
 
 # Notes
 - `VIEW` captures data only at moment of creation
+
