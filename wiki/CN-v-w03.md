@@ -9,7 +9,8 @@ next: "[[CN-v-w04]]"
 
 # Topics
 - [[transport layer]]
-- 
+- [[user datagram protocol (UDP)]]
+- [[transmission control protocol (TCP)]]
 
 # Notes
 
