@@ -8,5 +8,11 @@ next: "[[DMDB-v-w04]]"
 
 # Topics
 - [[entity relationship model (ER)]]
-- 
+- SQL
+	- `VIEW`
+	- `LIMIT`
+	- `OFFSET`
+	- `INNER JOIN`, `LEFT JOIN`, `RIGHT_JOIN`
+
 # Notes
+- `VIEW` captures data at moment of creation
