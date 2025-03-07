@@ -1,0 +1,49 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "var/support/templates/templater",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "sem4/CN/VRL",
+      "template": "var/support/templates/templater/lecture-note-TEMPLATE.md"
+    },
+    {
+      "folder": "sem4/DMDB/VRL",
+      "template": "var/support/templates/templater/lecture-note-TEMPLATE.md"
+    },
+    {
+      "folder": "sem4/FMFP/VRL",
+      "template": "var/support/templates/templater/lecture-note-TEMPLATE.md"
+    },
+    {
+      "folder": "sem4/W&S/VRL",
+      "template": "var/support/templates/templater/lecture-note-TEMPLATE.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ]
+}
