@@ -484,14 +484,28 @@
                   "state": {
                     "file": "sem4/CN/VRL/notes/CN-v-w02.md",
                     "mode": "source",
-                    "source": false
+                    "source": true
                   },
                   "icon": "lucide-file",
                   "title": "CN-v-w02"
                 }
+              },
+              {
+                "id": "2b1d162596225820",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/CN-v-w03.md",
+                    "mode": "source",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "CN-v-w03"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "f8e98817c16c28b1",
@@ -517,16 +531,14 @@
                 "id": "d4f3682594d8ef33",
                 "type": "leaf",
                 "state": {
-                  "type": "pdf",
+                  "type": "markdown",
                   "state": {
-                    "file": "sem4/CN/VRL/extra/CN-s04-WWW.pdf",
-                    "page": 1,
-                    "left": -32,
-                    "top": 491,
-                    "zoom": 0.48812351543943
+                    "file": "var/support/templates/templater/lecture-note-TEMPLATE.md",
+                    "mode": "source",
+                    "source": true
                   },
-                  "icon": "lucide-file-text",
-                  "title": "CN-s04-WWW"
+                  "icon": "lucide-file",
+                  "title": "lecture-note-TEMPLATE"
                 }
               }
             ],
@@ -696,11 +708,12 @@
           "obsidian-git:Open Git source control": true,
           "pdf-plus:PDF++: Toggle auto-copy": true,
           "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "templater-obsidian:Templater": true
         }
       },
-      "active": "d4f3682594d8ef33",
-      "mtime": "2025-03-06T17:36:46+01:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2025-03-07T10:46:59+01:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -731,7 +744,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/DMDB-v-w02.md",
+                    "file": "sem4/DMDB/VRL/DMDB-v-w02.md",
                     "mode": "source",
                     "source": false
                   },
@@ -745,7 +758,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/DMDB-v-w03.md",
+                    "file": "sem4/DMDB/VRL/DMDB-v-w03.md",
                     "mode": "source",
                     "source": false
                   },
@@ -814,9 +827,9 @@
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s03-entity-relationship-model.pdf",
                     "page": 8,
-                    "left": -29,
-                    "top": 39,
-                    "zoom": 0.5421875
+                    "left": -34,
+                    "top": 47,
+                    "zoom": 0.43515625
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-s03-entity-relationship-model"
@@ -892,8 +905,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 273.5,
-        "collapsed": true
+        "width": 273.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -976,6 +988,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "templater-obsidian:Templater": false,
           "obsidian-excalidraw-plugin:New drawing": true,
           "obsidian-kanban:Create new board": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
@@ -994,7 +1007,7 @@
         }
       },
       "active": "9ecb0c1e9830f2dc",
-      "mtime": "2025-03-07T10:10:54+01:00"
+      "mtime": "2025-03-07T10:47:46+01:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1079,7 +1092,7 @@
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s01-natural deduction.pdf",
                     "page": 40,
                     "left": -24,
-                    "top": 362,
+                    "top": 367,
                     "zoom": 0.6571969696969697
                   },
                   "icon": "lucide-file-text",
@@ -1239,6 +1252,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "templater-obsidian:Templater": false,
           "obsidian-excalidraw-plugin:New drawing": true,
           "obsidian-kanban:Create new board": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
@@ -1256,8 +1270,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "f4f3850f082e1138",
-      "mtime": "2025-03-06T14:33:16+01:00"
+      "active": "0734c17461d21f0f",
+      "mtime": "2025-03-07T10:47:01+01:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1525,5 +1539,5 @@
       "mtime": "2025-03-05T14:16:27+01:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-fmfp"
 }

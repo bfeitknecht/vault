@@ -1,8 +1,6 @@
 ---
-module: <%
-tp.config.active_file.frontmatter
-%>
-prev:
+module:
+prev: "[[<% tp.file.title %>]]"
 next:
 ---
 
