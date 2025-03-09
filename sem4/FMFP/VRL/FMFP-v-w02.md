@@ -25,3 +25,16 @@ next: "[[FMFP-v-w03]]"
 - patterns are linear, no duplicate variables (except wildcard `_`)
 
 
+## Precedence of Propositional Operations
+
+| Operation | Associativity |
+| --------- | ------------- |
+| $\lnot$   | right         |
+| $\land$   | left          |
+| $\lor$    | left          |
+| $\to$     | right         |
+
+
+
+## Derivation Rules for Propositional Logic
+![[FMFP-s01b-natural deduction.pdf#page=20&rect=51,43,760,508|FMFP-s01b-natural deduction, p.19]]
