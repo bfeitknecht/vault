@@ -30,4 +30,10 @@ $$
 ![[FMFP-s02b-lists.pdf#page=46&rect=166,206,615,427|FMFP-s02b-lists, p.45]]
 
 
-$\left( T_{i} \right)_{n} = \left( \sum_{j \in [n]}j \right)_{n}$
+$$
+\begin{align}
+T_{m} &=  T_{m-1} + m = 1 + 2 \dots + m\\
+&= \sum_{k \in [m]}k  = \frac{n \cdot (n+1)}{2}  \\
+&= \frac{n^{2} + n}{2}
+\end{align}
+$$
