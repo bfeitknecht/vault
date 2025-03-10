@@ -10,6 +10,8 @@ next: "[[W&S-v-w03]]"
 - [[baye's theorem]]
 - [[union bound]]
 - [[indicator variable]]
+- [[conditional probability]]
+- 
 
 # Notes
 
