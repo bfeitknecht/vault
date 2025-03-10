@@ -22,7 +22,9 @@ $$
 &\leadsto y
 \end{align}
 $$
-```haskell
-(\x -> x) y
-y :: a
-```
+
+
+## Map, Folds
+![[FMFP-s02b-lists.pdf#page=43&rect=167,215,602,430|FMFP-s02b-lists, p.42]]
+
+![[FMFP-s02b-lists.pdf#page=46&rect=166,206,615,427|FMFP-s02b-lists, p.45]]
