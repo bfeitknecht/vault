@@ -8,6 +8,10 @@ next: "[[CN-v-w05]]"
 
 
 # Topics
+- transport layer
+- TCP
+- QUIC
+- fairness in transport layer protocols
 
 
 # Notes
