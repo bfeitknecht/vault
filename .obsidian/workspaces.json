@@ -1361,7 +1361,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "f6a409c477b7352e",
@@ -1390,9 +1390,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/W&S/VRL/extra/W&S-script-1.pdf",
-                    "page": 37,
-                    "left": 79,
-                    "top": 572,
+                    "page": 36,
+                    "left": 53,
+                    "top": 419,
                     "zoom": 1.01
                   },
                   "icon": "lucide-file-text",
@@ -1469,7 +1469,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 257.5
+        "width": 257.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1570,9 +1571,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "7f55524449bd4cde",
-      "mtime": "2025-03-10T16:49:57+01:00"
+      "active": "fde8f4bb6bd4dd07",
+      "mtime": "2025-03-10T20:15:03+01:00"
     }
   },
-  "active": "sem4-w&s"
+  "active": "sem4-fmfp"
 }
