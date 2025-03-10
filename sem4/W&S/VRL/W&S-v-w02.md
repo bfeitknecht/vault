@@ -9,6 +9,7 @@ next: "[[W&S-v-w03]]"
 # Topics
 - [[baye's theorem]]
 - [[union bound]]
+- [[indicator variable]]
 
 # Notes
 

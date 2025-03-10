@@ -172,6 +172,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "templater-obsidian:Templater": true,
           "obsidian-excalidraw-plugin:New drawing": true,
           "obsidian-kanban:Create new board": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
@@ -190,7 +191,7 @@
         }
       },
       "active": "bda29f628fc74523",
-      "mtime": "2025-02-07T15:07:30+01:00"
+      "mtime": "2025-03-10T16:50:05+01:00"
     },
     "00-home": {
       "main": {
@@ -419,6 +420,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "templater-obsidian:Templater": true,
           "obsidian-excalidraw-plugin:New drawing": true,
           "omnisearch:Omnisearch": false,
           "graph:Open graph view": false,
@@ -437,7 +439,7 @@
         }
       },
       "active": "96330edeec2161d0",
-      "mtime": "2025-02-28T09:05:40+01:00"
+      "mtime": "2025-03-10T16:50:01+01:00"
     },
     "sem4-cn": {
       "main": {
@@ -534,7 +536,7 @@
                     "file": "sem4/CN/VRL/extra/CN-s03-DNS.pdf",
                     "page": 38,
                     "left": -55,
-                    "top": 2,
+                    "top": 5,
                     "zoom": 0.27109375
                   },
                   "icon": "lucide-file-text",
@@ -712,8 +714,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "adb525215c31aa3a",
-      "mtime": "2025-03-10T16:36:33+01:00"
+      "active": "b30b040bb66e7593",
+      "mtime": "2025-03-10T16:50:06+01:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -828,7 +830,7 @@
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s03-entity-relationship-model.pdf",
                     "page": 8,
                     "left": -34,
-                    "top": 47,
+                    "top": 51,
                     "zoom": 0.43515625
                   },
                   "icon": "lucide-file-text",
@@ -988,7 +990,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "templater-obsidian:Templater": false,
+          "templater-obsidian:Templater": true,
           "obsidian-excalidraw-plugin:New drawing": true,
           "obsidian-kanban:Create new board": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
@@ -1006,8 +1008,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "9ecb0c1e9830f2dc",
-      "mtime": "2025-03-07T10:47:46+01:00"
+      "active": "075d48acb0ca61ca",
+      "mtime": "2025-03-10T16:50:12+01:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1110,7 +1112,7 @@
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s02b-lists.pdf",
                     "page": 63,
                     "left": -30,
-                    "top": 549,
+                    "top": 603,
                     "zoom": 0.5293560606060606
                   },
                   "icon": "lucide-file-text",
@@ -1288,8 +1290,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "a21327598f8cdeff",
-      "mtime": "2025-03-10T15:50:59+01:00"
+      "active": "61b9bc7ec1bf2244",
+      "mtime": "2025-03-10T16:50:13+01:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1317,12 +1319,26 @@
                 }
               },
               {
-                "id": "9201342ac4d36eeb",
+                "id": "de7aff77cbedf3d4",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/W&S-v-w02.md",
+                    "file": "sem4/W&S/VRL/W&S-v-w01.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "W&S-v-w01"
+                }
+              },
+              {
+                "id": "fde8f4bb6bd4dd07",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/W&S/VRL/W&S-v-w02.md",
                     "mode": "source",
                     "source": false
                   },
@@ -1331,12 +1347,12 @@
                 }
               },
               {
-                "id": "a9aae0afab2e9a35",
+                "id": "7f55524449bd4cde",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/W&S-v-w03.md",
+                    "file": "sem4/W&S/VRL/W&S-v-w03.md",
                     "mode": "source",
                     "source": false
                   },
@@ -1345,28 +1361,12 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "f6a409c477b7352e",
             "type": "tabs",
             "children": [
-              {
-                "id": "abdbe5787aa302d9",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/W&S/VRL/extra/W&S-script-1.pdf",
-                    "page": 38,
-                    "left": 53,
-                    "top": 649,
-                    "zoom": 1.01
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "W&S-script-1"
-                }
-              },
               {
                 "id": "a9fb05e05f056663",
                 "type": "leaf",
@@ -1376,14 +1376,31 @@
                     "file": "sem4/W&S/UE/e/W&S-e-u02.pdf",
                     "page": 1,
                     "left": -19,
-                    "top": 777,
+                    "top": 781,
                     "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
                   "title": "W&S-e-u02"
                 }
+              },
+              {
+                "id": "abdbe5787aa302d9",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/W&S/VRL/extra/W&S-script-1.pdf",
+                    "page": 37,
+                    "left": 79,
+                    "top": 572,
+                    "zoom": 1.01
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "W&S-script-1"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1452,8 +1469,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 257.5,
-        "collapsed": true
+        "width": 257.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1536,6 +1552,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "templater-obsidian:Templater": true,
           "obsidian-excalidraw-plugin:New drawing": true,
           "obsidian-kanban:Create new board": true,
           "obsidian-shellcommands:Shell commands: Custom variables": true,
@@ -1553,8 +1570,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "a9aae0afab2e9a35",
-      "mtime": "2025-03-05T14:16:27+01:00"
+      "active": "7f55524449bd4cde",
+      "mtime": "2025-03-10T16:49:57+01:00"
     }
   },
   "active": "sem4-w&s"
