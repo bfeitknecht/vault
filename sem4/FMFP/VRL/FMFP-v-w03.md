@@ -24,6 +24,12 @@ $$
 \end{align}
 $$
 
+> [!quote] Mantra
+> - arrows associate to the right, $a \to b \to c = a \to (b \to c)$
+> - evaluation associates to the left, `f g a == (f g) a`
+> 	- exception: `f $ g a == f (g a)`
+
+
 
 ## Map, Folds
 ![[FMFP-s02b-lists.pdf#page=43&rect=167,215,602,430|FMFP-s02b-lists, p.42]]
