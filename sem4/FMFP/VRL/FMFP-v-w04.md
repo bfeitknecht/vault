@@ -16,6 +16,6 @@ next: "[[FMFP-v-w05]]"
 $$
 \begin{align}
 \hline \Gamma \\
-\hline \vdash \phi
+\hline \vdash \phi \to \psi
 \end{align}
 $$
