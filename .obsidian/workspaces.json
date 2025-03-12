@@ -1056,12 +1056,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem4/FMFP/VRL/FMFP-v-w03.md",
+                    "file": "sem4/FMFP/VRL/FMFP-v-w04.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "FMFP-v-w03"
+                  "title": "FMFP-v-w04"
                 }
               }
             ],
@@ -1110,10 +1110,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s02b-lists.pdf",
-                    "page": 63,
-                    "left": -30,
-                    "top": 603,
-                    "zoom": 0.5293560606060606
+                    "page": 61,
+                    "left": -24,
+                    "top": 385,
+                    "zoom": 0.6571969696969696
                   },
                   "icon": "lucide-file-text",
                   "title": "FMFP-s02b-lists"
@@ -1189,7 +1189,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 269.5
+        "width": 269.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1290,8 +1291,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "61b9bc7ec1bf2244",
-      "mtime": "2025-03-10T16:50:13+01:00"
+      "active": "a21327598f8cdeff",
+      "mtime": "2025-03-12T10:52:04+01:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1575,5 +1576,5 @@
       "mtime": "2025-03-10T20:15:03+01:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "sem4-w&s"
 }

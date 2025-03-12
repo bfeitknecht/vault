@@ -1,4 +1,8 @@
-
+---
+module: "[[W&S]]"
+prev: "[[W&S-v-w02]]"
+next: "[[W&S-v-w04]]"
+---
 # Info
 A random variable is a deterministic function and thus neither random nor a variable.
 
