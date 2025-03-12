@@ -9,6 +9,7 @@ next: "[[FMFP-v-w05]]"
 
 
 # Topics
-
+- formal induction
+- well ordering of natural numbers
 
 # Notes
