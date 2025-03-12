@@ -13,3 +13,9 @@ next: "[[FMFP-v-w05]]"
 - well ordering of natural numbers
 
 # Notes
+$$
+\begin{align}
+\hline \Gamma \\
+\hline \vdash \phi
+\end{align}
+$$
