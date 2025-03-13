@@ -15,6 +15,7 @@ next: "[[FMFP-v-w05]]"
 - types, terms, expressions
 
 # Notes
+## Natural Deduction
 $$
 \begin{align}
 \hline \Gamma \equiv \phi &\vdash \psi \\
