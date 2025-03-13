@@ -25,6 +25,6 @@ $$
 ## Mini Haskell
 $$
 \begin{align}
-
+t ::= \mathcal{V} \mathrel{\bigg|} (\lambda x.t) \mathrel{\bigg|}
 \end{align}
 $$
