@@ -1,19 +1,25 @@
 {
+  "lastVersion": "3.0.9",
   "aestheticStyle": "glass",
   "positionStyle": "top",
   "menuCommands": [
     {
-      "id": "editing-toolbar:editor:toggle-bold",
+      "id": "editing-toolbar:toggle-bold",
       "name": "Toggle bold",
       "icon": "bold-glyph"
     },
     {
-      "id": "editing-toolbar:editor:toggle-italics",
+      "id": "editing-toolbar:toggle-italics",
       "name": "Toggle italics",
       "icon": "italic-glyph"
     },
     {
-      "id": "editing-toolbar:editor:toggle-strikethrough",
+      "id": "editing-toolbar:toggle-format-brush",
+      "name": "Format Brush",
+      "icon": "paintbrush"
+    },
+    {
+      "id": "editing-toolbar:toggle-strikethrough",
       "name": "Toggle strikethrough",
       "icon": "strikethrough-glyph"
     },
@@ -23,7 +29,7 @@
       "icon": "underline-glyph"
     },
     {
-      "id": "editor:toggle-highlight",
+      "id": "editing-toolbar:toggle-highlight",
       "name": "==Toggle highlight ==",
       "icon": "highlight-glyph"
     },
@@ -38,7 +44,7 @@
           "icon": "lucide-table"
         },
         {
-          "id": "editing-toolbar:editor:insert-callout",
+          "id": "editing-toolbar:insert-callout",
           "name": "Insert callout ",
           "icon": "lucide-quote"
         },
@@ -58,7 +64,7 @@
           "icon": "square-code"
         },
         {
-          "id": "editing-toolbar:editor:toggle-inline-math",
+          "id": "editing-toolbar:toggle-inline-math",
           "name": "Toggle inline math",
           "icon": "lucide-sigma"
         },
@@ -98,7 +104,7 @@
           "icon": "file"
         },
         {
-          "id": "editing-toolbar:editor:insert-link",
+          "id": "editing-toolbar:insert-link",
           "name": "insert link []()",
           "icon": "link-2"
         },
@@ -115,12 +121,12 @@
       "icon": "list",
       "SubmenuCommands": [
         {
-          "id": "editor:toggle-bullet-list",
+          "id": "editing-toolbar:toggle-bullet-list",
           "name": "Toggle bullet list",
           "icon": "lucide-list"
         },
         {
-          "id": "editor:toggle-numbered-list",
+          "id": "editing-toolbar:toggle-numbered-list",
           "name": "Toggle numbered list",
           "icon": "lucide-list-ordered"
         },
@@ -213,5 +219,9 @@
   "custom_fc3": "#245BDB",
   "custom_fc4": "#6425D0",
   "custom_fc5": "#646A73",
-  "isLoadOnMobile": false
+  "isLoadOnMobile": false,
+  "horizontalPosition": 0,
+  "verticalPosition": 0,
+  "formatBrushes": {},
+  "customCommands": []
 }
