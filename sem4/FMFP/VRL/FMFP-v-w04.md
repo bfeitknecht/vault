@@ -11,11 +11,20 @@ next: "[[FMFP-v-w05]]"
 # Topics
 - formal induction
 - well ordering of natural numbers
+- algebraic data types
+- 
 
 # Notes
 $$
 \begin{align}
-\hline \Gamma \\
-\hline \vdash \phi \to \psi
+\hline \Gamma \equiv \phi &\vdash \psi \\
+\hline \varnothing &\vdash \phi \to \psi
+\end{align}
+$$
+
+## Mini Haskell
+$$
+\begin{align}
+
 \end{align}
 $$
