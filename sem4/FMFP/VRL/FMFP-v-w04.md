@@ -12,7 +12,7 @@ next: "[[FMFP-v-w05]]"
 - formal induction
 - well ordering of natural numbers
 - algebraic data types
-- 
+- types, terms, expressions
 
 # Notes
 $$
@@ -22,9 +22,6 @@ $$
 \end{align}
 $$
 
-## Mini Haskell
-$$
-\begin{align}
-t ::= \mathcal{V} \mathrel{\bigg|} (\lambda x.t) \mathrel{\bigg|}
-\end{align}
-$$
+## Types
+- $t :: \tau$ corresponds to term $t$ `typeof` $\tau$ 
+- 
