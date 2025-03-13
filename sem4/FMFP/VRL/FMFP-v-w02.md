@@ -37,9 +37,23 @@ next: "[[FMFP-v-w03]]"
 
 ## Natural Deduction
 $$
-\begin{prooftree}
+\begin{align}
+&\begin{prooftree}
 \AXC{}
-\RL{Ax}
-\UIC{$\Gamma, \phi \vdash \phi$}
-\end{prooftree}
+\RL{${\small \mathrm{AXIOM}}$}
+\UIC{$\Gamma, A \vdash A$}
+\end{prooftree} \\ \\
+&\begin{prooftree}
+\AXC{$\Gamma, A \vdash B$}
+\RL{$\to_{I}$}
+\UIC{$\Gamma \vdash A \to B$}
+\end{prooftree} \\ \\
+&\begin{prooftree}
+\AXC{$\Gamma \vdash A \to B$}
+\AXC{$\Gamma \vdash A$}
+\RL{${\small \to_{E}}$}
+\BIC{$\Gamma \vdash B$}
+\end{prooftree} \\ \\
+
+\end{align}
 $$
