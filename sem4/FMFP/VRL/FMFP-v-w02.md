@@ -25,7 +25,7 @@ next: "[[FMFP-v-w03]]"
 - patterns are linear, no duplicate variables (except wildcard `_`)
 
 
-## Precedence of Propositional Operations
+## Precedence of Propositional Logic Operations
 
 | Operation | Associativity |
 | --------- | ------------- |
@@ -35,6 +35,11 @@ next: "[[FMFP-v-w03]]"
 | $\to$     | right         |
 
 
-
-## Derivation Rules for Propositional Logic
-![[FMFP-s01b-natural deduction.pdf#page=20&rect=51,43,760,508|FMFP-s01b-natural deduction, p.19]]
+## Natural Deduction
+$$
+\begin{prooftree}
+\AXC{}
+\RL{Ax}
+\UIC{$\Gamma, \phi \vdash \phi$}
+\end{prooftree}
+$$
