@@ -741,20 +741,6 @@
                 }
               },
               {
-                "id": "6358a248387a981d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/DMDB-v-w02.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMDB-v-w02"
-                }
-              },
-              {
                 "id": "3b8e35536431def3",
                 "type": "leaf",
                 "state": {
@@ -797,7 +783,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "b2d58a2794577117",
@@ -811,48 +797,32 @@
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/DMDB-script.pdf",
                     "page": 13,
-                    "left": -18,
-                    "top": 115,
-                    "zoom": -0.0625
+                    "left": -20,
+                    "top": 123,
+                    "zoom": 0.8650859391178299
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-script"
                 }
               },
               {
-                "id": "d07db205ad5cbaed",
+                "id": "707ae8a7db58ce10",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s02-relational-calculus.pdf",
-                    "page": 2,
+                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s05-recursion,integrity-constraints.pdf",
+                    "page": 48,
                     "left": -29,
-                    "top": 182,
+                    "top": 99,
                     "zoom": 0.5421875
                   },
                   "icon": "lucide-file-text",
-                  "title": "DMDB-s02-relational-calculus"
-                }
-              },
-              {
-                "id": "075d48acb0ca61ca",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s03-entity-relationship-model.pdf",
-                    "page": 8,
-                    "left": -34,
-                    "top": 63,
-                    "zoom": 0.43515625
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "DMDB-s03-entity-relationship-model"
+                  "title": "DMDB-s05-recursion,integrity-constraints"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -921,7 +891,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 273.5
+        "width": 273.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1023,7 +994,7 @@
         }
       },
       "active": "9ecb0c1e9830f2dc",
-      "mtime": "2025-03-14T09:19:57+01:00"
+      "mtime": "2025-03-14T10:33:15+01:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1604,5 +1575,5 @@
       "mtime": "2025-03-12T19:52:07+01:00"
     }
   },
-  "active": "sem4-dmdb"
+  "active": "sem4-cn"
 }
