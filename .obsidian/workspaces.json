@@ -512,7 +512,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem4/CN/VRL/extra/CN-v-w04.md",
+                    "file": "sem4/CN/VRL/CN-v-w04.md",
                     "mode": "source",
                     "source": false
                   },
@@ -535,15 +535,32 @@
                   "state": {
                     "file": "sem4/CN/VRL/extra/CN-s03-DNS.pdf",
                     "page": 38,
-                    "left": -55,
-                    "top": 5,
-                    "zoom": 0.27109375
+                    "left": -70,
+                    "top": 14,
+                    "zoom": 0.21406250000000002
                   },
                   "icon": "lucide-file-text",
                   "title": "CN-s03-DNS"
                 }
+              },
+              {
+                "id": "c31e794c4dc6010d",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/CN/VRL/extra/CN-s08-network-layer.pdf",
+                    "page": 34,
+                    "left": -155,
+                    "top": 464,
+                    "zoom": 0.48
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "CN-s08-network-layer"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -714,8 +731,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "b30b040bb66e7593",
-      "mtime": "2025-03-10T16:50:06+01:00"
+      "active": "adb525215c31aa3a",
+      "mtime": "2025-03-14T15:14:47+01:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1575,5 +1592,5 @@
       "mtime": "2025-03-12T19:52:07+01:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-dmdb"
 }
