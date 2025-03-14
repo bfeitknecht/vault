@@ -14,4 +14,9 @@ next: "[[DMDB-v-w05]]"
 
 # Notes
 - relation in a database has type constraint and key constraint
+- `UNIQUE` attribute allows multiple null values!
+- `CHECK` enforces constraints in relation creation
+	- can't do subqueries
+
+
 
