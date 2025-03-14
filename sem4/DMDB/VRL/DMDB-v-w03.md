@@ -4,7 +4,9 @@ prev: "[[DMDB-v-w02]]"
 next: "[[DMDB-v-w04]]"
 ---
 
+
 # Info
+
 
 # Topics
 - [[entity relationship model (ER)]]
@@ -15,6 +17,7 @@ next: "[[DMDB-v-w04]]"
 	- `OFFSET`
 	- `INNER JOIN`, `LEFT JOIN`, `RIGHT_JOIN`
 
+
 # Notes
-- `VIEW` captures data only at moment of creation
+- `VIEW` only captures state of data at moment of creation
 

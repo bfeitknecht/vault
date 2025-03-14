@@ -4,7 +4,13 @@
 - named links
 - properties!!! alias
 
-## Tips and Tricks
+
+# Ideas
+- automatically convert lecture video into markdown notes
+- convert lecture videos into AI generated video narrated by missile guy
+-  
+
+# Tips and Tricks
 
  ```shell
 GIT_LFS_SKIP_SMUDGE=1 git clone <URL>   # skip lfs blobs
@@ -30,7 +36,7 @@ git lfs pull --include “GLOB“	  # git-lfs pull only GLOB
 > - style settings
 
 
-## Problems
+# Problems
 
 - attachment management fucked shit up and put normal pdfs into the wrong folder
 - want to paste pdf selection as image, so it's synced to the web etc.
