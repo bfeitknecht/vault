@@ -42,18 +42,29 @@ $$
 \AXC{}
 \RL{${\small \mathrm{AXIOM}}$}
 \UIC{$\Gamma, A \vdash A$}
-\end{prooftree} \\ \\
+\end{prooftree}
+\\ \\
 &\begin{prooftree}
 \AXC{$\Gamma, A \vdash B$}
-\RL{$\to_{I}$}
+\RL{${\small\to_{I}}$}
 \UIC{$\Gamma \vdash A \to B$}
-\end{prooftree} \\ \\
+\end{prooftree}
+\\ \\
 &\begin{prooftree}
 \AXC{$\Gamma \vdash A \to B$}
 \AXC{$\Gamma \vdash A$}
 \RL{${\small \to_{E}}$}
 \BIC{$\Gamma \vdash B$}
-\end{prooftree} \\ \\
-
+\end{prooftree}
+\\ \\
+&\begin{prooftree}
+\AXC{$\Gamma$}
+\UIC{}
+\end{prooftree}
+\\ \\
+&\begin{prooftree}
+\AXC{$\Gamma$}
+\UIC{A}
+\end{prooftree}
 \end{align}
 $$
