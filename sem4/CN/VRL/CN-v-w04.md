@@ -31,4 +31,7 @@ next: "[[CN-v-w05]]"
 
 
 ## IP
+> [!quote] A name indicates what we seek. An address indicates where it is. A route indicates how to get there.
+
+
 ![[CN-s08-network-layer.pdf#page=30&rect=99,111,610,351|CN-s08-network-layer, p.30]]
