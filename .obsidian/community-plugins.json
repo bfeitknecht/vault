@@ -38,5 +38,6 @@
   "pseudocode-in-obs",
   "table-editor-obsidian",
   "obsidian-kanban",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-qrcode-plugin"
 ]
