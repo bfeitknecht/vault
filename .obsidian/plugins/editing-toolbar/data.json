@@ -1,5 +1,5 @@
 {
-  "lastVersion": "3.0.9",
+  "lastVersion": "3.1.1",
   "aestheticStyle": "glass",
   "positionStyle": "top",
   "menuCommands": [
@@ -12,11 +12,6 @@
       "id": "editing-toolbar:toggle-italics",
       "name": "Toggle italics",
       "icon": "italic-glyph"
-    },
-    {
-      "id": "editing-toolbar:toggle-format-brush",
-      "name": "Format Brush",
-      "icon": "paintbrush"
     },
     {
       "id": "editing-toolbar:toggle-strikethrough",
@@ -200,6 +195,11 @@
       ]
     }
   ],
+  "followingCommands": [],
+  "topCommands": [],
+  "fixedCommands": [],
+  "mobileCommands": [],
+  "enableMultipleConfig": false,
   "appendMethod": "workspace",
   "shouldShowMenuOnSelect": false,
   "cMenuVisibility": true,

@@ -36,6 +36,7 @@ next: "[[FMFP-v-w03]]"
 
 
 ## Natural Deduction
+The following are rules for natural deduction in intuitionistic predicate logic.
 $$
 \begin{align}
 &
