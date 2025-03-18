@@ -82,5 +82,19 @@ $$
 \UIC{$\Gamma \vdash \mathop{\tt{snd}} t :: \tau_{2}$}
 \end{prooftree}
 \\ \\
+&
+\begin{prooftree}
+\AXC{$\Gamma, x : \sigma \vdash t :: \tau$}
+\RL{${\ \mathrm{Abs}^{*}}$}
+\UIC{$\Gamma \vdash (\lambda x.t)  :: \sigma \to \tau$}
+\end{prooftree}
+\qquad \begin{prooftree}
+\AXC{$\Gamma \vdash t_{1} :: \sigma \to \tau :: \tau$}
+\AXC{$\Gamma \vdash t_{2} :: \sigma$}
+\RL{${\ \mathrm{App}}$}
+\BIC{$\Gamma \vdash (t_{1} \ \  t_{2})  :: \tau$}
+\end{prooftree}
+\\ \\
+\ast &\quad x \not\in \Gamma
 \end{align}
 $$

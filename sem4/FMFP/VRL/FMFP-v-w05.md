@@ -10,8 +10,10 @@ next: "[[FMFP-v-w06]]"
 
 # Topics
 - curry-howard isomorphism
-- 
+- `Eq` and `Ord` typeclasses
 
 
 # Notes
+- typeclasses support hierarchical inheritance
+- reimplementation of unrelated typeclasses improves flexibility
 - 
