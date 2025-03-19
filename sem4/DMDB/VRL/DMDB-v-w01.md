@@ -1,9 +1,8 @@
 ---
 module: "[[DMDB]]"
-prev: "[[DMDB-v-w01]]"
+prev: "[[DMDB]]"
 next: "[[DMDB-v-w02]]"
-tags: 
-...
+tags:
 ---
 
 # Info
