@@ -8,14 +8,13 @@ A random variable is a deterministic function and thus neither random nor a vari
 
 # Topics
 - [[random variable]]
-- [[probability distribution function]]
+- [[probability density function (PDF)]]
 - [[bernoulli distribution]]
 - [[binomial distribution]]
-- [[uniform distribution]]
 - [[geometric distribution]]
 - measurable space, $E$-valued random variable
 - 
 
 
 # Notes
-- for a [[measurable space]] $(E, \xi)$, 
+- for a [[measurable space]] $(E, \xi)$, something holds

@@ -16,4 +16,5 @@ next: "[[W&S-v-w03]]"
 - 
 
 # Notes
+- distribution function of random variable is right continuous
 
