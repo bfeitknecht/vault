@@ -6,21 +6,50 @@ export def main [module?: string] {
     name = (input "Please enter the module name: ")
     if ($module | is-empty) { error make { msg: "Input cannot be empty" }
   }
-
+  
+  mkdir $module && cd $module
   touch $"($module).md"
-  # $module.md
-  # UE/
-  # VRL/
-  #  ├── $module-v-w01.md
-  #  ├── $module-v-w02.md
-  #  ├── $module-v-w03.md
-  #  ├── ...
-  #  └── extra/
-  #
-  # seq 1 14 | each {|n| printf "%02d" $n }
-  # $module-v-w($i)
-  # ---
-  # module: "[[$module]]"
-  # prev: "[[$module-v-w($i-1)]]" # or a-w01
-  # next: "[[$module-v-w($i+1)]]" # or x-w14
+  mkdir -p "UE/e"
+  mkdir -p "VRL/extra"
+
+  let content = $"
+---
+module: \"[[($module)]]\"
+prev: \"[[($module)-v-w($i)]]\"
+next: \"[[($module)-v-w($i)]]\"
+---
+
+
+# Info
+
+
+# Topics
+
+
+# Notes"
+  | str trim
+
+}
+
+def content [module: string, index: int
+  ] {
+  let i = if ($index > 1) {$"-v-w($index - 1 | printf "%02d" $in)"}
+  let j = if ($index < 14) {$"-v-w($index + 1 | printf "%02d" $in)"}
+
+  $"
+  ---
+  module: \"[[($module)]]\"
+  prev: \"[[($module)($i)]]\"
+  next: \"[[($module)($j)]]\"
+  ---
+  
+  
+  # Info
+  
+  
+  # Topics
+  
+  
+  # Notes
+  " | str trim
 }
