@@ -790,7 +790,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "b2d58a2794577117",
@@ -835,10 +835,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s07-normal-forms.pdf",
-                    "page": 1,
-                    "left": -29,
-                    "top": 544,
-                    "zoom": 0.5421875
+                    "page": 40,
+                    "left": 8,
+                    "top": 257,
+                    "zoom": 0.58
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-s07-normal-forms"
@@ -1028,8 +1028,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "e036317fb9c1bd4b",
-      "mtime": "2025-03-21T09:18:53+01:00"
+      "active": "9ecb0c1e9830f2dc",
+      "mtime": "2025-03-21T10:15:59+01:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1620,5 +1620,5 @@
       "mtime": "2025-03-19T14:22:11+01:00"
     }
   },
-  "active": "sem4-dmdb"
+  "active": "sem4-cn"
 }
