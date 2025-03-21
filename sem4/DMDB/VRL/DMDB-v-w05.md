@@ -14,6 +14,8 @@ next: "[[DMDB-v-w06]]"
 
 
 # Notes
+
+- 2NF is 
 - functional dependency is a constraint on attributes of a relation
 	- if $X, Y \subseteq R$ then $X \to Y$ is a functional dependency if every
 
