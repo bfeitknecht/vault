@@ -11,6 +11,8 @@ next: "[[CN-v-w04]]"
 - [[transport layer]]
 - [[user datagram protocol (UDP)]]
 - [[transmission control protocol (TCP)]]
+- jitter
+
 
 # Notes
 
