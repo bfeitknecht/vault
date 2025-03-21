@@ -10,9 +10,10 @@ next: "[[DMDB-v-w06]]"
 
 # Topics
 - [[functional dependency]]
-- 
+- [[normal form]]
 
 
 # Notes
-
+- functional dependency is a constraint on attributes of a relation
+	- if $X, Y \subseteq R$ then $X \to Y$ is a functional dependency if every
 
