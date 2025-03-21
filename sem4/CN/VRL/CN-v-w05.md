@@ -24,3 +24,6 @@ next: "[[CN-v-w06]]"
 - neighbor discovery protocol (NDP) equates to DHCP
 - happy eyeballs, dual stack solution with string preference for IPv6 (150ms slower still wins)
 - IPv6 islands connected through IPv4 tunnels to transition global network
+
+
+![[CN-s09-routing.pdf#page=33&rect=91,148,456,309|CN-s09-routing, p.33|300]]
