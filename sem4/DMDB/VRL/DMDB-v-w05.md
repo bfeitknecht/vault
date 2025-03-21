@@ -11,6 +11,8 @@ next: "[[DMDB-v-w06]]"
 # Topics
 - [[functional dependency]]
 - [[normal form]]
+- data manipulation anomaly
+- [[superkey]]
 
 
 # Notes
@@ -20,5 +22,5 @@ next: "[[DMDB-v-w06]]"
 - BCNF, ..., i.e. only store same information once
 - functional dependency is a constraint on attributes of a relation
 	- if $X, Y \subseteq R$ then $X \to Y$ is functional dependency if every value $x \in X$ uniquely determines value in $y \in Y$
-	- 
+	- if $Y \subseteq X$ then $X \to Y$ is a trivial FD
 

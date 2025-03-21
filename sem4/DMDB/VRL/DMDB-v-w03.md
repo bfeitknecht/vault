@@ -17,6 +17,9 @@ next: "[[DMDB-v-w04]]"
 	- `LIMIT`
 	- `OFFSET`
 	- `INNER JOIN`, `LEFT JOIN`, `RIGHT_JOIN`
+- [[candidate key]]
+- [[primary key]]
+- 
 
 
 # Notes
