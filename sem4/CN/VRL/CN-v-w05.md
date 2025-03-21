@@ -10,10 +10,13 @@ next: "[[CN-v-w06]]"
 
 
 # Topics
-- network address table (NAT)
+- network address translation (NAT)
 - port forwarding
 - dynamic DNS service
+- IPv6
+- ABC classes
+- CIDR
 
 
 # Notes
-- 
+- NAT breaks some transport layer principles (extract destination IP from FTP packet)
