@@ -439,7 +439,7 @@
         }
       },
       "active": "54a110a570c6fdb8",
-      "mtime": "2025-03-14T09:23:12+01:00"
+      "mtime": "2025-03-21T09:19:17+01:00"
     },
     "sem4-cn": {
       "main": {
@@ -772,9 +772,25 @@
                   "icon": "lucide-file",
                   "title": "DMDB-v-w05"
                 }
+              },
+              {
+                "id": "e036317fb9c1bd4b",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s07-normal-forms.pdf",
+                    "page": 1,
+                    "left": -29,
+                    "top": 544,
+                    "zoom": 0.5421875
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "DMDB-s07-normal-forms"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "b2d58a2794577117",
@@ -788,28 +804,44 @@
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/DMDB-script.pdf",
                     "page": 13,
-                    "left": -20,
-                    "top": 123,
-                    "zoom": 0.8650859391178299
+                    "left": -18,
+                    "top": 640,
+                    "zoom": 0.8703125
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-script"
                 }
               },
               {
-                "id": "707ae8a7db58ce10",
+                "id": "85cf87e6936a3b80",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s05-recursion,integrity-constraints.pdf",
-                    "page": 41,
-                    "left": -44,
-                    "top": 41,
+                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s06-functional-dependencies.pdf",
+                    "page": 1,
+                    "left": -34,
+                    "top": 543,
+                    "zoom": 0.43515625
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "DMDB-s06-functional-dependencies"
+                }
+              },
+              {
+                "id": "4c67a34a368494cc",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s07-normal-forms.pdf",
+                    "page": 1,
+                    "left": -29,
+                    "top": 544,
                     "zoom": 0.5421875
                   },
                   "icon": "lucide-file-text",
-                  "title": "DMDB-s05-recursion,integrity-constraints"
+                  "title": "DMDB-s07-normal-forms"
                 }
               },
               {
@@ -996,8 +1028,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "9ecb0c1e9830f2dc",
-      "mtime": "2025-03-20T17:08:38+01:00"
+      "active": "e036317fb9c1bd4b",
+      "mtime": "2025-03-21T09:18:53+01:00"
     },
     "sem4-fmfp": {
       "main": {

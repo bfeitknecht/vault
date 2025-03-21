@@ -14,8 +14,11 @@ next: "[[DMDB-v-w06]]"
 
 
 # Notes
-
-- 2NF is 
+- 1NF, only atomic domains, i.e. no tuple entries
+- 2NF, every non-key attribute is minimally dependent on every key, i.e. everything depends on the key
+- 3NF,
+- BCNF, ..., i.e. only store same information once
 - functional dependency is a constraint on attributes of a relation
-	- if $X, Y \subseteq R$ then $X \to Y$ is a functional dependency if every
+	- if $X, Y \subseteq R$ then $X \to Y$ is functional dependency if every value $x \in X$ uniquely determines value in $y \in Y$
+	- 
 

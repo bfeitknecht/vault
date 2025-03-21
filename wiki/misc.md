@@ -8,7 +8,7 @@
 # Ideas
 - automatically convert lecture video into markdown notes
 - convert lecture videos into AI generated video narrated by missile guy
--  
+-  science fiction SIP course autumn semester
 
 # Tips and Tricks
 
@@ -34,7 +34,6 @@ git lfs pull --include “GLOB“	  # git-lfs pull only GLOB
 > - folder notes
 > - user plugin
 > - style settings
-
 
 # Problems
 
