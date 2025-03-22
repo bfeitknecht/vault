@@ -27,3 +27,16 @@ next: "[[CN-v-w06]]"
 
 
 ![[CN-s09-routing.pdf#page=33&rect=91,148,456,309|CN-s09-routing, p.33|300]]
+
+$$
+\begin{align}
+2^{n} &\sim 10^{m} \implies \begin{cases}
+m \sim \frac{3n}{10} \\
+n \sim \frac{10m}{3}
+\end{cases} \\
+2^{10} &\sim 10^{3} \\
+2^{20} &\sim 10^{6} \\
+2^{30} &\sim 10^{9} \\
+
+\end{align}
+$$
