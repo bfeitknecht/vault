@@ -17,7 +17,7 @@ next: "[[W&S-v-w06]]"
 
 
 # Notes
-- [[random variable]] $U$ is
+- [[random variable]] $U$ isz 
 - fundamental property of uniform distribution
 - rademacher distribution is binomial but with bernoulli on $W = \{ -1, 1 \}$
 - construction of a random variable with an arbitrary distribution $F$
