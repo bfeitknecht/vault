@@ -1414,9 +1414,9 @@
                   "state": {
                     "file": "sem4/W&S/VRL/extra/W&S-script-1.pdf",
                     "page": 34,
-                    "left": 20,
-                    "top": 194,
-                    "zoom": 1.12
+                    "left": -18,
+                    "top": 206,
+                    "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "W&S-script-1"
@@ -1589,8 +1589,8 @@
                 "state": {
                   "type": "vertical-tabs-view",
                   "state": {},
-                  "icon": "list",
-                  "title": "Vertical Tabs"
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               }
             ]
@@ -1620,9 +1620,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "abdbe5787aa302d9",
-      "mtime": "2025-03-22T10:57:47+01:00"
+      "active": "7f55524449bd4cde",
+      "mtime": "2025-03-24T14:35:44+01:00"
     }
   },
-  "active": "sem4-w&s"
+  "active": "sem4-cn"
 }
