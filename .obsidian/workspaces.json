@@ -556,8 +556,8 @@
                     "file": "sem4/CN/VRL/extra/CN-s09-routing.pdf",
                     "page": 1,
                     "left": -24,
-                    "top": 36,
-                    "zoom": 0.6181710213776722
+                    "top": 40,
+                    "zoom": 0.6181710213776723
                   },
                   "icon": "lucide-file-text",
                   "title": "CN-s09-routing"
@@ -735,8 +735,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "d5acb720f9e7b06c",
-      "mtime": "2025-03-26T15:07:43+01:00"
+      "active": "921dcc09a991357e",
+      "mtime": "2025-03-26T16:48:24+01:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -769,28 +769,26 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem4/DMDB/VRL/DMDB-v-w05.md",
+                    "file": "sem4/DMDB/VRL/DMDB-v-w06.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "DMDB-v-w05"
+                  "title": "DMDB-v-w06"
                 }
               },
               {
-                "id": "e036317fb9c1bd4b",
+                "id": "d47f8295aafb7e06",
                 "type": "leaf",
                 "state": {
-                  "type": "pdf",
+                  "type": "markdown",
                   "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s07-normal-forms.pdf",
-                    "page": 1,
-                    "left": -29,
-                    "top": 544,
-                    "zoom": 0.5421875
+                    "file": "sem4/DMDB/VRL/DMDB-v-w05.md",
+                    "mode": "source",
+                    "source": true
                   },
-                  "icon": "lucide-file-text",
-                  "title": "DMDB-s07-normal-forms"
+                  "icon": "lucide-file",
+                  "title": "DMDB-v-w05"
                 }
               }
             ],
@@ -840,8 +838,8 @@
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s07-normal-forms.pdf",
                     "page": 40,
-                    "left": 1,
-                    "top": 295,
+                    "left": -3,
+                    "top": 299,
                     "zoom": 0.58
                   },
                   "icon": "lucide-file-text",
@@ -1032,8 +1030,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "4c67a34a368494cc",
-      "mtime": "2025-03-23T13:30:57+01:00"
+      "active": "9ecb0c1e9830f2dc",
+      "mtime": "2025-03-26T16:48:11+01:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1624,5 +1622,5 @@
       "mtime": "2025-03-24T14:35:44+01:00"
     }
   },
-  "active": "sem4-dmdb"
+  "active": "sem4-fmfp"
 }
