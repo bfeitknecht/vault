@@ -508,8 +508,7 @@
                   "title": "CN-v-w-06"
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           },
           {
             "id": "f8e98817c16c28b1",
@@ -554,17 +553,33 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/CN-s09-routing.pdf",
-                    "page": 1,
+                    "page": 95,
                     "left": -24,
-                    "top": 40,
-                    "zoom": 0.6181710213776723
+                    "top": 4,
+                    "zoom": 0.6181710213776722
                   },
                   "icon": "lucide-file-text",
                   "title": "CN-s09-routing"
                 }
+              },
+              {
+                "id": "782aef3c9a317493",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/CN/VRL/extra/CN-v-s10-BGP.pdf",
+                    "page": 34,
+                    "left": -24,
+                    "top": 588,
+                    "zoom": 0.6181710213776723
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "CN-v-s10-BGP"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -735,8 +750,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "921dcc09a991357e",
-      "mtime": "2025-03-26T16:48:24+01:00"
+      "active": "782aef3c9a317493",
+      "mtime": "2025-03-28T19:44:07+01:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -806,8 +821,8 @@
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s08-engine-data-memory.pdf",
                     "page": 34,
-                    "left": -2,
-                    "top": 212,
+                    "left": -4,
+                    "top": 216,
                     "zoom": 0.6
                   },
                   "icon": "lucide-file-text",
@@ -1001,7 +1016,7 @@
         }
       },
       "active": "9ecb0c1e9830f2dc",
-      "mtime": "2025-03-28T11:26:31+01:00"
+      "mtime": "2025-03-28T19:44:09+01:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1561,5 +1576,5 @@
       "mtime": "2025-03-24T14:35:44+01:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-fmfp"
 }

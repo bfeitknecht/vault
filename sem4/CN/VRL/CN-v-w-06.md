@@ -1,5 +1,5 @@
 ---
-module: "[[CN]]"
+lecture: "[[CN]]"
 prev: "[[CN-v-w05]]"
 next: "[[CN-v-w07]]"
 slides:
