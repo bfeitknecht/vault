@@ -10,6 +10,9 @@ next: "[[DMDB-v-w07]]"
 
 
 # Topics
+- row store
+- column store
 
 
 # Notes
+- 
