@@ -6,7 +6,7 @@ next: "[[DMDB-v-w07]]"
 
  
 # Info
-- n/a
+- "Forget linked lists!"
 
 # Topics
 
