@@ -776,20 +776,6 @@
                   "icon": "lucide-file",
                   "title": "DMDB-v-w06"
                 }
-              },
-              {
-                "id": "d47f8295aafb7e06",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/DMDB-v-w05.md",
-                    "mode": "source",
-                    "source": true
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMDB-v-w05"
-                }
               }
             ],
             "currentTab": 1
@@ -805,61 +791,45 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/DMDB-script.pdf",
-                    "page": 13,
-                    "left": -18,
-                    "top": 640,
-                    "zoom": 0.8703125
+                    "page": 1,
+                    "zoom": 1
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-script"
                 }
               },
               {
-                "id": "85cf87e6936a3b80",
+                "id": "05b195bf198fef39",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s06-functional-dependencies.pdf",
+                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s08-engine-data-memory.pdf",
+                    "page": 34,
+                    "left": -2,
+                    "top": 212,
+                    "zoom": 0.6
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "DMDB-s08-engine-data-memory"
+                }
+              },
+              {
+                "id": "f83244e249347815",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s09-engine-buffer-cache.pdf",
                     "page": 1,
-                    "left": -34,
-                    "top": 543,
-                    "zoom": 0.43515625
+                    "zoom": 1
                   },
                   "icon": "lucide-file-text",
-                  "title": "DMDB-s06-functional-dependencies"
-                }
-              },
-              {
-                "id": "4c67a34a368494cc",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s07-normal-forms.pdf",
-                    "page": 40,
-                    "left": -3,
-                    "top": 299,
-                    "zoom": 0.58
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "DMDB-s07-normal-forms"
-                }
-              },
-              {
-                "id": "bca1100ab677ffcb",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "var/attachments/DMDB-schedule.png"
-                  },
-                  "icon": "lucide-image",
-                  "title": "DMDB-schedule"
+                  "title": "DMDB-s09-engine-buffer-cache"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1031,7 +1001,7 @@
         }
       },
       "active": "9ecb0c1e9830f2dc",
-      "mtime": "2025-03-26T16:48:11+01:00"
+      "mtime": "2025-03-28T11:26:31+01:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1591,5 +1561,5 @@
       "mtime": "2025-03-24T14:35:44+01:00"
     }
   },
-  "active": "sem4-dmdb"
+  "active": "sem4-cn"
 }
