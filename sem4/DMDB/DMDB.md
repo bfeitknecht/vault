@@ -6,7 +6,7 @@ semester:
 
 
 # Info
-- [Moodle](https://moodle-app2.let.ethz.ch/course/view.php?id=24995)
+- [DMDB Moodle](https://moodle-app2.let.ethz.ch/course/view.php?id=24995)
 
 
 # Schedule
