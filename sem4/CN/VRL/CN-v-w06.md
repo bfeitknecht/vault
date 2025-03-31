@@ -15,6 +15,7 @@ slides:
 # Topics
 - autonomous system (AS)
 - border gateway protocol (BGP)
+- valley route
 
 
 # Notes
