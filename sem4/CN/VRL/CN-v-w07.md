@@ -11,7 +11,7 @@ slides: []
 
 
 # Topics
-- 
+- BPG
 
 # Notes
-- 
+- BGP does not allow for ingress path control
