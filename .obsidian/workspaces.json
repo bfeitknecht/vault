@@ -1072,7 +1072,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "4eae27f0ad5ff541",
@@ -1086,9 +1086,9 @@
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/FMFP-s03-higher-order.pdf",
                     "page": 36,
-                    "left": -42,
-                    "top": 136,
-                    "zoom": 0.63
+                    "left": -24,
+                    "top": 186,
+                    "zoom": 0.6571969696969696
                   },
                   "icon": "lucide-file-text",
                   "title": "FMFP-s03-higher-order"
@@ -1281,8 +1281,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "325a2618a6662eb3",
-      "mtime": "2025-03-28T08:17:23+01:00"
+      "active": "c40aced07013fa88",
+      "mtime": "2025-03-31T14:19:24+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1576,5 +1576,5 @@
       "mtime": "2025-03-24T14:35:44+01:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "sem4-cn"
 }
