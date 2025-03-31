@@ -12,7 +12,7 @@ slides: []
 
 # Topics
 - BPG
-- gao-rexford rules
+- gao-rexford rule
 
 # Notes
 - BGP does not allow for ingress path control
