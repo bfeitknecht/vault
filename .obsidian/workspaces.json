@@ -467,31 +467,17 @@
                 }
               },
               {
-                "id": "cd9eff7169da0b53",
+                "id": "841434293e02843f",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem4/CN/VRL/CN-v-w03.md",
+                    "file": "sem4/CN/VRL/CN-v-w06.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "CN-v-w03"
-                }
-              },
-              {
-                "id": "adb525215c31aa3a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/CN/VRL/CN-v-w04.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "CN-v-w04"
+                  "title": "CN-v-w06"
                 }
               },
               {
@@ -500,15 +486,16 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem4/CN/VRL/CN-v-w-06.md",
+                    "file": "sem4/CN/VRL/CN-v-w07.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "CN-v-w-06"
+                  "title": "CN-v-w07"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "f8e98817c16c28b1",
@@ -553,33 +540,17 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/CN-s09-routing.pdf",
-                    "page": 95,
+                    "page": 106,
                     "left": -24,
-                    "top": 4,
+                    "top": 522,
                     "zoom": 0.6181710213776722
                   },
                   "icon": "lucide-file-text",
                   "title": "CN-s09-routing"
                 }
-              },
-              {
-                "id": "782aef3c9a317493",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/CN/VRL/extra/CN-v-s10-BGP.pdf",
-                    "page": 34,
-                    "left": -24,
-                    "top": 588,
-                    "zoom": 0.6181710213776723
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "CN-v-s10-BGP"
-                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -750,8 +721,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "782aef3c9a317493",
-      "mtime": "2025-03-28T19:44:07+01:00"
+      "active": "921dcc09a991357e",
+      "mtime": "2025-04-01T00:01:56+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1576,5 +1547,5 @@
       "mtime": "2025-03-24T14:35:44+01:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-fmfp"
 }
