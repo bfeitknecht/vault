@@ -9,7 +9,7 @@ slides:
 
 
 # Info
-- n/a
+- "It's very powerful to have your own glue."
 
 
 # Topics
