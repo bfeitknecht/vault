@@ -7,7 +7,7 @@ $$
 f_{a, b}(x) &= \begin{cases}
 \frac{1}{b-a} & x \in [a, b], \\
 0 & \text{otherwise}
-\end{cases} \\
+\end{cases} \\ \\
 F_{X}(x) &= \begin{cases}
 0 & x < a, \\
 \frac{x-a}{b-a} & a \leq x \leq b, \\
