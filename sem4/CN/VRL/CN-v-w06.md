@@ -4,7 +4,7 @@ prev: "[[CN-v-w05]]"
 next: "[[CN-v-w07]]"
 slides:
   - "[[CN-s09-routing.pdf]]"
-  - "[[CN-v-s10-BGP.pdf]]"
+  - "[[CN-s10-BGP.pdf]]"
 ---
 
 

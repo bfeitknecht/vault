@@ -467,6 +467,22 @@
                 }
               },
               {
+                "id": "59194e13d9a00355",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/CN/VRL/extra/CN-top-down-kurose-ross.pdf",
+                    "page": 4,
+                    "left": -16,
+                    "top": 789,
+                    "zoom": 0.7341325811001412
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "CN-top-down-kurose-ross"
+                }
+              },
+              {
                 "id": "841434293e02843f",
                 "type": "leaf",
                 "state": {
@@ -495,7 +511,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "f8e98817c16c28b1",
@@ -539,11 +555,11 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/CN/VRL/extra/CN-s09-routing.pdf",
+                    "file": "sem4/CN/VRL/extra/slides/CN-s09-routing.pdf",
                     "page": 106,
                     "left": -24,
-                    "top": 522,
-                    "zoom": 0.6181710213776722
+                    "top": 526,
+                    "zoom": 0.6181710213776723
                   },
                   "icon": "lucide-file-text",
                   "title": "CN-s09-routing"
@@ -721,8 +737,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "921dcc09a991357e",
-      "mtime": "2025-04-01T00:01:56+02:00"
+      "active": "59194e13d9a00355",
+      "mtime": "2025-04-02T14:07:28+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1314,31 +1330,17 @@
                 }
               },
               {
-                "id": "9cca85737893d2e7",
+                "id": "0a50ffc799d25476",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem4/W&S/VRL/W&S-v-w04.md",
+                    "file": "sem4/W&S/VRL/W&S-v-w07.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "W&S-v-w04"
-                }
-              },
-              {
-                "id": "7f55524449bd4cde",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/W&S/VRL/W&S-v-w05.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "W&S-v-w05"
+                  "title": "W&S-v-w07"
                 }
               },
               {
@@ -1356,42 +1358,12 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "f6a409c477b7352e",
             "type": "tabs",
             "children": [
-              {
-                "id": "abdbe5787aa302d9",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/W&S/VRL/extra/W&S-script-1.pdf",
-                    "page": 34,
-                    "left": -18,
-                    "top": 206,
-                    "zoom": 0.8743843192065531
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "W&S-script-1"
-                }
-              },
-              {
-                "id": "0a50ffc799d25476",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wiki/probability density function (PDF).md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "probability density function (PDF)"
-                }
-              },
               {
                 "id": "fe8f2208504de122",
                 "type": "leaf",
@@ -1576,9 +1548,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "7f55524449bd4cde",
-      "mtime": "2025-03-24T14:35:44+01:00"
+      "active": "0a50ffc799d25476",
+      "mtime": "2025-04-02T14:03:44+02:00"
     }
   },
-  "active": "sem4-w&s"
+  "active": "sem4-dmdb"
 }
