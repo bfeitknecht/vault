@@ -18,6 +18,8 @@ slides:
 - evaluation strategy
 - church numerals
 - formal methods
+- model checking
+- state space exploration
 
 
 # Notes
