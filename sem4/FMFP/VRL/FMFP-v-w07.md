@@ -10,6 +10,7 @@ slides:
 
 # Info
 - "It's very powerful to have your own glue."
+- "When you click here, cool things will happen!"
 
 
 # Topics
