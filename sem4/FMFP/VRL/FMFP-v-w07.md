@@ -17,6 +17,7 @@ slides:
 - $\beta$-reduction
 - evaluation strategy
 - church numerals
+- 
 
 
 # Notes
