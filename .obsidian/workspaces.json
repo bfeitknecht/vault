@@ -771,12 +771,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem4/DMDB/VRL/DMDB-v-w06.md",
+                    "file": "sem4/DMDB/VRL/DMDB-v-w07.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "DMDB-v-w06"
+                  "title": "DMDB-v-w07"
                 }
               }
             ],
@@ -793,27 +793,13 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/DMDB-script.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 13,
+                    "left": -15,
+                    "top": 250,
+                    "zoom": 1.084375
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-script"
-                }
-              },
-              {
-                "id": "05b195bf198fef39",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s08-engine-data-memory.pdf",
-                    "page": 34,
-                    "left": -4,
-                    "top": 216,
-                    "zoom": 0.6
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "DMDB-s08-engine-data-memory"
                 }
               },
               {
@@ -829,9 +815,25 @@
                   "icon": "lucide-file-text",
                   "title": "DMDB-s09-engine-buffer-cache"
                 }
+              },
+              {
+                "id": "0a7c8082888b0cff",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s10-analytics-1.pdf",
+                    "page": 25,
+                    "left": -29,
+                    "top": 530,
+                    "zoom": 0.5421875
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "DMDB-s10-analytics-1"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1003,7 +1005,7 @@
         }
       },
       "active": "9ecb0c1e9830f2dc",
-      "mtime": "2025-03-28T19:44:09+01:00"
+      "mtime": "2025-04-03T09:43:46+02:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1552,5 +1554,5 @@
       "mtime": "2025-04-02T14:03:44+02:00"
     }
   },
-  "active": "sem4-dmdb"
+  "active": "sem4-fmfp"
 }

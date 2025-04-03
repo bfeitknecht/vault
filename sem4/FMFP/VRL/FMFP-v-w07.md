@@ -14,6 +14,7 @@ slides:
 
 # Topics
 - $\lambda$-calculus substitution rules
+- $\beta$-reduction
 - evaluation strategy
 - church numerals
 
