@@ -17,7 +17,7 @@ slides:
 - $\beta$-reduction
 - evaluation strategy
 - church numerals
-- 
+- formal methods
 
 
 # Notes
