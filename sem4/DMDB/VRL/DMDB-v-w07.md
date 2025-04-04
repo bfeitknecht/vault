@@ -16,8 +16,13 @@ next: "[[DMDB-v-w08]]"
 - confidence
 - `CUBE` operator
 - `ROLLUP` operator
+- buffer cache
 
 
 # Notes
 - `CUBE` operator syntactic sugar for equivalent query with union over possible combinations of arguments
 - `ROLLUP` is similar but only preserves prefixes of defined order, drops undesired combinations
+- buffer cache similar to OS virtual memory and paging mechanism but 
+	- DB knows access patterns
+	- thus much more optimization possible
+- 
