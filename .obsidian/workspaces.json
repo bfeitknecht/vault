@@ -1062,7 +1062,8 @@
                   "title": "FMFP-v-w07"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "4eae27f0ad5ff541",
@@ -1075,9 +1076,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/FMFP-s09-formal-methods.pdf",
-                    "page": 5,
+                    "page": 4,
                     "left": -24,
-                    "top": 544,
+                    "top": 77,
                     "zoom": 0.6182517906139757
                   },
                   "icon": "lucide-file-text",
@@ -1255,8 +1256,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "783e8e0569d6a6f8",
-      "mtime": "2025-04-04T08:19:43+02:00"
+      "active": "325a2618a6662eb3",
+      "mtime": "2025-04-04T09:49:01+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1506,5 +1507,5 @@
       "mtime": "2025-04-02T14:03:44+02:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "sem4-cn"
 }
