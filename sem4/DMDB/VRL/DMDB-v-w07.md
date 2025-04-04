@@ -25,4 +25,6 @@ next: "[[DMDB-v-w08]]"
 - buffer cache similar to OS virtual memory and paging mechanism but 
 	- DB knows access patterns
 	- thus much more optimization possible
-- 
+- think about DB systems at very large scale
+	- reduce length of linked list by having more hash buckets, tradeoff with memory
+	- simple hash function, as computed maybe millions of times per second
