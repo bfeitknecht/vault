@@ -809,8 +809,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s09-engine-buffer-cache.pdf",
-                    "page": 1,
-                    "zoom": 1
+                    "page": 12,
+                    "left": -29,
+                    "top": 160,
+                    "zoom": 0.5421875
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-s09-engine-buffer-cache"
@@ -823,9 +825,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s10-analytics-1.pdf",
-                    "page": 25,
-                    "left": -29,
-                    "top": 530,
+                    "page": 30,
+                    "left": -4,
+                    "top": 512,
                     "zoom": 0.5421875
                   },
                   "icon": "lucide-file-text",
@@ -833,7 +835,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1005,7 +1007,7 @@
         }
       },
       "active": "9ecb0c1e9830f2dc",
-      "mtime": "2025-04-03T09:43:46+02:00"
+      "mtime": "2025-04-04T09:46:23+02:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1504,5 +1506,5 @@
       "mtime": "2025-04-02T14:03:44+02:00"
     }
   },
-  "active": "sem4-dmdb"
+  "active": "sem4-fmfp"
 }
