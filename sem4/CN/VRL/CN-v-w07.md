@@ -2,7 +2,9 @@
 lecture: "[[CN]]"
 prev: "[[CN-v-w06]]"
 next: "[[CN-v-w08]]"
-slides: []
+slides:
+  - "[[CN-s10-BGP.pdf]]"
+  - "[[CN-s11-link-layer-protocols.pdf]]"
 ---
 
 
@@ -13,6 +15,8 @@ slides: []
 # Topics
 - BPG
 - gao-rexford rule
+- ethernet
+- wireless
 
 # Notes
 - BGP does not allow for ingress path control
