@@ -15,7 +15,7 @@
  ```shell
 GIT_LFS_SKIP_SMUDGE=1 git clone <URL>   # skip lfs blobs
 git clone <URL> --depth=N	      # shallow clone only HEAD~N
-git lfs pull --include “GLOB“	  # git-lfs pull only GLOB
+git lfs pull --include <GLOB>	  # git-lfs pull only GLOB
 ```
 
 > [!info]- utility plugin list
