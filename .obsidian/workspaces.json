@@ -467,22 +467,6 @@
                 }
               },
               {
-                "id": "59194e13d9a00355",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/CN/VRL/extra/CN-top-down-kurose-ross.pdf",
-                    "page": 4,
-                    "left": -16,
-                    "top": 789,
-                    "zoom": 0.7341325811001412
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "CN-top-down-kurose-ross"
-                }
-              },
-              {
                 "id": "841434293e02843f",
                 "type": "leaf",
                 "state": {
@@ -511,26 +495,42 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "f8e98817c16c28b1",
             "type": "tabs",
             "children": [
               {
-                "id": "b30b040bb66e7593",
+                "id": "59194e13d9a00355",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/CN/VRL/extra/CN-s03-DNS.pdf",
-                    "page": 38,
-                    "left": -70,
-                    "top": 14,
-                    "zoom": 0.21406250000000002
+                    "file": "sem4/CN/VRL/extra/CN-top-down-kurose-ross.pdf",
+                    "page": 3,
+                    "left": -25,
+                    "top": 162,
+                    "zoom": 0.5796897038081806
                   },
                   "icon": "lucide-file-text",
-                  "title": "CN-s03-DNS"
+                  "title": "CN-top-down-kurose-ross"
+                }
+              },
+              {
+                "id": "145881690b247d8c",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/CN/VRL/extra/CN-kathara-introduction.pdf",
+                    "page": 30,
+                    "left": -29,
+                    "top": 99,
+                    "zoom": 0.5421875
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "CN-kathara-introduction"
                 }
               },
               {
@@ -558,7 +558,7 @@
                     "file": "sem4/CN/VRL/extra/slides/CN-s09-routing.pdf",
                     "page": 106,
                     "left": -24,
-                    "top": 526,
+                    "top": 530,
                     "zoom": 0.6181710213776723
                   },
                   "icon": "lucide-file-text",
@@ -566,7 +566,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -737,8 +737,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "59194e13d9a00355",
-      "mtime": "2025-04-02T14:07:28+02:00"
+      "active": "d5acb720f9e7b06c",
+      "mtime": "2025-04-06T16:41:14+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1507,5 +1507,5 @@
       "mtime": "2025-04-02T14:03:44+02:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "00-clean"
 }
