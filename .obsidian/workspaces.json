@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "76e22adb2dd2d704",
+            "id": "da6631c6fc804523",
             "type": "tabs",
             "children": [
               {
-                "id": "1de401c91bae06c5",
+                "id": "22a7ebe3c3d16eb2",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -190,8 +190,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "1de401c91bae06c5",
-      "mtime": "2025-04-06T16:51:25+02:00"
+      "active": "22a7ebe3c3d16eb2",
+      "mtime": "2025-04-06T17:36:51+02:00"
     },
     "00-home": {
       "main": {
@@ -524,9 +524,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/CN-kathara-introduction.pdf",
-                    "page": 30,
+                    "page": 1,
                     "left": -29,
-                    "top": 99,
+                    "top": 544,
                     "zoom": 0.5421875
                   },
                   "icon": "lucide-file-text",
@@ -738,7 +738,7 @@
         }
       },
       "active": "d5acb720f9e7b06c",
-      "mtime": "2025-04-06T16:41:14+02:00"
+      "mtime": "2025-04-06T17:36:36+02:00"
     },
     "sem4-dmdb": {
       "main": {
