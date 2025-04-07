@@ -13,9 +13,10 @@ slides:
 
 # Topics
 - switches
-- 
+- error detection
+- error correction
 
 
 # Notes
 - in order to avoid possible endless packet forwards, switches build spanning tree of the network topology
-- 
+- bit stuffing has better worst case overhead than byte stuffing but pretty much same average
