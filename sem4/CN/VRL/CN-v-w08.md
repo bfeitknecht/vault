@@ -8,7 +8,7 @@ slides:
 
 
 # Info
-- n/a
+- "It's okay that it's not so great."
 
 
 # Topics
