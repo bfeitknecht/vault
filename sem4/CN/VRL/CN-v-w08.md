@@ -2,7 +2,8 @@
 lecture: "[[CN]]"
 prev: "[[CN-v-w07]]"
 next: "[[CN-v-w09]]"
-slides: []
+slides:
+  - "[[CN-s12-link-layer-coding.pdf]]"
 ---
 
 
@@ -11,7 +12,10 @@ slides: []
 
 
 # Topics
+- switches
 - 
 
+
 # Notes
+- in order to avoid possible endless packet forwards, switches build spanning tree of the network topology
 - 
