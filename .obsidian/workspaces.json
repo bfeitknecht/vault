@@ -540,10 +540,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s11-link-layer-protocols.pdf",
-                    "page": 92,
-                    "left": -24,
-                    "top": 506,
-                    "zoom": 0.6181710213776723
+                    "page": 91,
+                    "left": -25,
+                    "top": 135,
+                    "zoom": 0.6377672209026127
                   },
                   "icon": "lucide-file-text",
                   "title": "CN-s11-link-layer-protocols"
@@ -556,9 +556,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s12-link-layer-coding.pdf",
-                    "page": 29,
-                    "left": -24,
-                    "top": 104,
+                    "page": 30,
+                    "left": -38,
+                    "top": 165,
                     "zoom": 0.6181710213776722
                   },
                   "icon": "lucide-file-text",
@@ -566,7 +566,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -738,7 +738,7 @@
         }
       },
       "active": "d5acb720f9e7b06c",
-      "mtime": "2025-04-07T15:01:27+02:00"
+      "mtime": "2025-04-07T15:14:46+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1075,14 +1075,30 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/FMFP/VRL/extra/FMFP-s09-formal-methods.pdf",
+                    "file": "sem4/FMFP/VRL/extra/slides/FMFP-s09-formal-methods.pdf",
                     "page": 4,
-                    "left": -24,
-                    "top": 77,
+                    "left": -38,
+                    "top": 81,
                     "zoom": 0.6182517906139757
                   },
                   "icon": "lucide-file-text",
                   "title": "FMFP-s09-formal-methods"
+                }
+              },
+              {
+                "id": "2a6699a5d8bc33f2",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/FMFP/VRL/extra/semantics-with-applications-nielson.pdf",
+                    "page": 1,
+                    "left": -22,
+                    "top": 729,
+                    "zoom": 0.7120098039215687
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "semantics-with-applications-nielson"
                 }
               }
             ]
@@ -1256,8 +1272,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "325a2618a6662eb3",
-      "mtime": "2025-04-04T09:49:01+02:00"
+      "active": "783e8e0569d6a6f8",
+      "mtime": "2025-04-07T15:16:19+02:00"
     },
     "sem4-w&s": {
       "main": {
