@@ -526,7 +526,7 @@
                     "file": "sem4/CN/VRL/extra/CN-kathara-introduction.pdf",
                     "page": 1,
                     "left": -29,
-                    "top": 544,
+                    "top": 456,
                     "zoom": 0.5421875
                   },
                   "icon": "lucide-file-text",
@@ -737,8 +737,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "d5acb720f9e7b06c",
-      "mtime": "2025-04-06T17:36:36+02:00"
+      "active": "145881690b247d8c",
+      "mtime": "2025-04-07T07:41:53+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1507,5 +1507,5 @@
       "mtime": "2025-04-02T14:03:44+02:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-w&s"
 }

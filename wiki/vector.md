@@ -1,5 +1,5 @@
 
-A **vector** is an element of a [[vector space]]. For example, $\mathbf{v}\in \mathbb R^m$ describes a point in an $m$-dimensional [[euclidian space]] with some magnitude from the [[origin]] and direction (translation). Vectors can be added and scaled to form a [[vector space]]. We can interpret it as an ordered list of $m$ [[real number|real numbers]] 
+A **vector** is an element of a [[vector space]]. For example, $\mathbf{v}\in \mathbb R^m$ describes a point in an $m$-dimensional [[euclidian space]] with some magnitude from the [[origin]] and direction (translation). Vectors can be added and scaled to form a [[vector space]]. We can interpret it as an ordered list of $m$ [[real numbers]] 
 
 
 

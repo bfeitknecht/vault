@@ -1,5 +1,5 @@
 
-A **matrix** $A$ is an $m\times n$ table of [[real number|real numbers]] with $m$ rows and $n$ columns. In a sense it is a [[vector]] of vectors.
+A **matrix** $A$ is an $m\times n$ table of [[real numbers]] with $m$ rows and $n$ columns. In a sense it is a [[vector]] of vectors.
 
 
 # Matrix Notation

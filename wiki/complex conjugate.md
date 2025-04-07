@@ -1,5 +1,5 @@
 
-The **complex conjugate** of a [[complex number]] is the number with an equal [[real number|real]] part and an [[imaginary number|imaginary]] part equal in [[magnitude]] but opposite in sign. That is, if 
+The **complex conjugate** of a [[complex number]] is the number with an equal [[real numbers|real]] part and an [[imaginary number|imaginary]] part equal in [[magnitude]] but opposite in sign. That is, if 
 $a$ and $b$ are real numbers then the complex conjugate of $a+bi$ is $a-bi$. The complex conjugate of $z$ is often denoted as $\overline{z}$ or $z^*$.
 
 ![[complex-conjugate.svg|200]]
