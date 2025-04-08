@@ -18,6 +18,6 @@ slides:
 
 
 $$
-\mathord\lb{\mathord{\textlbrackdbl}}
+\mathord{\mathord{\textlbrackdbl}}
 
 $$
