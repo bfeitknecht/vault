@@ -19,3 +19,4 @@ slides:
 
 # Notes
 - formal semantics non-trivial
+- optimizations might be incorrect for expressions with side-effect
