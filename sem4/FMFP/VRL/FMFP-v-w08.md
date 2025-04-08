@@ -15,8 +15,16 @@ slides:
 # Topics
 - formal semantics
 - undefined behavior
+- semantic function
 
 
 # Notes
 - formal semantics non-trivial
 - optimizations might be incorrect for expressions with side-effect
+
+$$
+\begin{align} \\
+\mathcal{N} &: \mathrm{Numeral} \to \mathrm{Val} \\
+\sigma &: \mathrm{Var} \to \mathrm{Val}
+\end{align}
+$$
