@@ -191,7 +191,7 @@
         }
       },
       "active": "22a7ebe3c3d16eb2",
-      "mtime": "2025-04-06T17:36:51+02:00"
+      "mtime": "2025-04-08T11:01:28+02:00"
     },
     "00-home": {
       "main": {
@@ -1061,9 +1061,23 @@
                   "icon": "lucide-file",
                   "title": "FMFP-v-w07"
                 }
+              },
+              {
+                "id": "120fb418d514e83e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/FMFP/VRL/FMFP-v-w08.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "FMFP-v-w08"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "4eae27f0ad5ff541",
@@ -1076,13 +1090,29 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s09-formal-methods.pdf",
-                    "page": 4,
-                    "left": -38,
-                    "top": 81,
+                    "page": 48,
+                    "left": -24,
+                    "top": 60,
                     "zoom": 0.6182517906139757
                   },
                   "icon": "lucide-file-text",
                   "title": "FMFP-s09-formal-methods"
+                }
+              },
+              {
+                "id": "6502ab99fccabcdb",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/FMFP/VRL/extra/slides/FMFP-s10-IMP.pdf",
+                    "page": 1,
+                    "left": -24,
+                    "top": 599,
+                    "zoom": 0.6182517906139757
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "FMFP-s10-IMP"
                 }
               },
               {
@@ -1093,9 +1123,9 @@
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/semantics-with-applications-nielson.pdf",
                     "page": 1,
-                    "left": -22,
-                    "top": 729,
-                    "zoom": 0.7120098039215687
+                    "left": -19,
+                    "top": 739,
+                    "zoom": 0.8504901960784315
                   },
                   "icon": "lucide-file-text",
                   "title": "semantics-with-applications-nielson"
@@ -1272,8 +1302,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "783e8e0569d6a6f8",
-      "mtime": "2025-04-07T15:16:19+02:00"
+      "active": "120fb418d514e83e",
+      "mtime": "2025-04-08T11:01:13+02:00"
     },
     "sem4-w&s": {
       "main": {

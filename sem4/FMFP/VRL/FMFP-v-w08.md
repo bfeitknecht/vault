@@ -3,21 +3,19 @@ name: "[[FMFP.md]]"
 prev: "[[FMFP-v-w07.md]]"
 next: "[[FMFP-v-w09.md]]"
 slides:
+  - "[[FMFP-s09-formal-methods.pdf]]"
   - "[[FMFP-s10-IMP.pdf]]"
 ---
   
   
 # Info
-  
-  
+- "Formal methods give you an edge."
+
+
 # Topics
-  
-  
+- formal semantics
+- undefined behavior
+
+
 # Notes
-
-
-
-$$
-\mathord{\mathord{\textlbrackdbl}}
-
-$$
+- formal semantics non-trivial
