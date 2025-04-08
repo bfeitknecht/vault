@@ -5,6 +5,7 @@ next: "[[FMFP-v-w08]]"
 slides:
   - "[[FMFP-s06-parsers.pdf]]"
   - "[[FMFP-s07-conclusion.pdf]]"
+  - "[[FMFP-s09-formal-methods.pdf]]"
 ---
 
 

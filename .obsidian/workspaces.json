@@ -540,9 +540,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s11-link-layer-protocols.pdf",
-                    "page": 91,
-                    "left": -25,
-                    "top": 135,
+                    "page": 88,
+                    "left": -12,
+                    "top": 575,
                     "zoom": 0.6377672209026127
                   },
                   "icon": "lucide-file-text",
@@ -556,9 +556,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s12-link-layer-coding.pdf",
-                    "page": 30,
-                    "left": -38,
-                    "top": 165,
+                    "page": 43,
+                    "left": -24,
+                    "top": 455,
                     "zoom": 0.6181710213776722
                   },
                   "icon": "lucide-file-text",
@@ -738,7 +738,7 @@
         }
       },
       "active": "d5acb720f9e7b06c",
-      "mtime": "2025-04-07T15:14:46+02:00"
+      "mtime": "2025-04-08T10:20:32+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1523,5 +1523,5 @@
       "mtime": "2025-04-07T15:01:46+02:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-fmfp"
 }
