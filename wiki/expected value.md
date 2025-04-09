@@ -1,4 +1,7 @@
-#todo 
-The **expected value** is the "average" of some [[random variable]] $X$.
+---
+aliases:
+  - mean
+---
 
-$\E[X]$ 
+
+The **expected value** is the "average" of some [[random variable]] $X$.

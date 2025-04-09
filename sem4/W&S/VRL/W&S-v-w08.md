@@ -13,7 +13,7 @@ slides:
 # Topics
 - variance
 - moment
-- central moment
+- [[central moment]]
 - covariance
 - standard moment
 
