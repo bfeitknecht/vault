@@ -14,5 +14,5 @@ next: "[[W&S-v-w08]]"
 
 
 # Notes
-- $\mathbb{E}[X] = \int_{-\infty}^{+\infty} x f(x) \mathop{dx}$
+- $\Ex[X] = \int_{-\infty}^{+\infty} x f(x) \mathop{dx}$
 - 

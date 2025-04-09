@@ -16,6 +16,8 @@ slides:
 - [[central moment]]
 - covariance
 - standard moment
+- vector valued random variable
+- joint distributions
 
 
 # Notes
