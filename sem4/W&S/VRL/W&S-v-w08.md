@@ -33,4 +33,8 @@ slides:
 	- only if $X, Y$ are gaussian then $\Cov[X, Y] = 0 \implies X \bot Y$
 	- $\Cov[X, X] = \Var[X]$
 	- $\Cov[\alpha X, \beta Y] = \alpha \beta \Cov[X, Y]$
+- vector valued random variables just come down to destructure and apply definitions
+	- discrete case:
+		- $P_{X}(x_{1}, \dots x_{n}) = \Pr[X_{1} = x_{1}, \dots X_{n = }x_{n}]$ with $(x_{1},\dots x_{n}) \in \prod_{i \in [n]}W_{i}$
+		- $\phi : \mathbb{R}^{n} \to \mathbb{R}$, $\Ex[\phi(X)] = \sum_{x \in \prod_{i \in [n]}W_{i}}P_{X}(x) \phi(x)$
 	- 
