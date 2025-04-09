@@ -1077,7 +1077,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           },
           {
             "id": "4eae27f0ad5ff541",
@@ -1090,9 +1090,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s09-formal-methods.pdf",
-                    "page": 48,
+                    "page": 56,
                     "left": -24,
-                    "top": 60,
+                    "top": 442,
                     "zoom": 0.6182517906139757
                   },
                   "icon": "lucide-file-text",
@@ -1131,7 +1131,8 @@
                   "title": "semantics-with-applications-nielson"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1302,8 +1303,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "120fb418d514e83e",
-      "mtime": "2025-04-08T11:01:13+02:00"
+      "active": "6502ab99fccabcdb",
+      "mtime": "2025-04-09T10:36:07+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1553,5 +1554,5 @@
       "mtime": "2025-04-07T15:01:46+02:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "sem4-w&s"
 }
