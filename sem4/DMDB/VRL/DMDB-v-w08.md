@@ -19,4 +19,4 @@ slides:
 - notion of cluster can be ambiguous
 - partitional clustering, every element is in exactly one cluster
 - hierarchical clustering, nested clusters organized into hierarchy
-- 
+- k-means clustering, define clusters based on minimal euclidian distance to centroids
