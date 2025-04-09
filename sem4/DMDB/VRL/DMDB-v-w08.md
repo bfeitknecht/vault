@@ -22,3 +22,5 @@ slides:
 - hierarchical clustering, nested clusters organized into hierarchy
 - k-means clustering, define clusters based on minimal euclidian distance to centroids
 - classification is learning target function that maps attribute set to a label
+- locality sensitive hashing (LSH) divides data space into hyperplanes and assigns corresponding attribute bit
+- treating database as vector space enables enhanced performance because of proximity approximation
