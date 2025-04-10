@@ -12,8 +12,7 @@
     "hide-line-above-tables",
     "style-embed",
     "png-add-white-bg",
-    "float-callouts",
-    "hide-view-header"
+    "float-callouts"
   ],
   "showViewHeader": true,
   "baseFontSize": 13,
