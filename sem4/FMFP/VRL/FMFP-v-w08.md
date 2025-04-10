@@ -6,7 +6,7 @@ slides:
   - "[[FMFP-s09-formal-methods.pdf]]"
   - "[[FMFP-s10-IMP.pdf]]"
 ---
-  
+   
   
 # Info
 - "Formal methods give you an edge."
@@ -21,7 +21,7 @@ slides:
 # Notes
 - formal semantics non-trivial
 - optimizations might be incorrect for expressions with side-effect
-
+- semantic functions
 $$
 \begin{align} \\
 \mathcal{N} &: \mathrm{Numeral} \to \mathrm{Val} \\
