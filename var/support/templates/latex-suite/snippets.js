@@ -371,4 +371,7 @@ Insert tabstops for the cursor to jump to by writing "$0", "$1", etc. in the rep
     {trigger: "sf", replacement: "\\mathsf{$0}", options: "mA"},
     {trigger: "~>", replacement: "\\leadsto $0", options: "mA"},
     {trigger: "trns", replacement: "^\\mathsf{T} $0", options: "mA"},
+    {trigger: "lbb", replacement: "[\\![ $0", options: "mA"},
+    {trigger: "rbb", replacement: "]\\!] $0", options: "mA"},
+
 ]
