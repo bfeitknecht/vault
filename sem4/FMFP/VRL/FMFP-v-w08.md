@@ -129,7 +129,7 @@ $$
 \ast\ast &\quad \mathcal{B}[\![ \mathsfit{b}]\!] \sigma = \mathrm{F}
 \end{align}
 $$
-- if there exists a finite derivation tree of rule applications resulting in a transition, then that can be written $\vdash \langle \mathsfit{s}, \sigma \rangle \to \sigma' \iff \exists T.\rho(T) \equiv \langle \mathsfit{s}, \sigma \rangle \to \sigma'$
+- if there exists a finite derivation tree $T$ of rule applications resulting in a transition, then that can be written $\vdash \langle \mathsfit{s}, \sigma \rangle \to \sigma' \iff \exists T.\mathrm{root}(T) \equiv \langle \mathsfit{s}, \sigma \rangle \to \sigma'$
 - build up derivation tree from bottom until reach axioms, then top down to fill in states
 - statements do not necessarily terminate, i.e. `while true do skip end`
 - 
