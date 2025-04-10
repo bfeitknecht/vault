@@ -5,6 +5,7 @@ next: "[[FMFP-v-w09.md]]"
 slides:
   - "[[FMFP-s09-formal-methods.pdf]]"
   - "[[FMFP-s10-IMP.pdf]]"
+  - "[[FMFP-s11-operational-semantics.pdf]]"
 ---
    
   
@@ -28,20 +29,15 @@ slides:
 	- state function assigns to every variable a value, i.e. every variable is always initialized
 	- arithmetic expression function maps syntactic operation to semantic "mathematical" interpretation
 $$
-\begin{align} \\
-\mathcal{N} &: \mathrm{Numeral} \to \mathrm{Val} \\
-\mathrm{State} &: \mathrm{Var} \to \mathrm{Val} \\
-\mathcal{A} &: \mathrm{Aexp} \to \mathrm{State} \to \mathrm{Val} \\
-\mathcal{B} &: \mathrm{Bexp} \to \mathrm{State} \to \mathrm{Bool}
+\begin{align}
+\mathcal{N} &: \mathsf{Numeral} \to \mathsf{Val} \\
+\mathsf{State} &: \mathsf{Var} \to \mathsf{Val} \\
+\mathcal{A} &: \mathsf{Aexp} \to \mathsf{State} \to \mathsf{Val} \\
+\mathcal{B} &: \mathsf{Bexp} \to \mathsf{State} \to \mathsf{Bool}
 \end{align}
 $$
 - there are no side effects in `IMP`
 - evaluation of expressions can never fail
 - expressions always terminate
-
-$$
-\begin{align}
-\mathcal{A} [\![ \mathsfit{x} ]\!] \sigma \\ \\
-\mathcal{N} \lb n \rb
-\end{align}
-$$
+- totality of semantic functions by structural induction over domains
+- free variables
