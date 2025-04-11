@@ -558,15 +558,31 @@
                     "file": "sem4/CN/VRL/extra/slides/CN-s12-link-layer-coding.pdf",
                     "page": 43,
                     "left": -24,
-                    "top": 455,
-                    "zoom": 0.6181710213776722
+                    "top": 459,
+                    "zoom": 0.6181710213776723
                   },
                   "icon": "lucide-file-text",
                   "title": "CN-s12-link-layer-coding"
                 }
+              },
+              {
+                "id": "ad9c4a4de8637a80",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/CN/VRL/extra/slides/CN-s13-physical-layer.pdf",
+                    "page": 1,
+                    "left": -24,
+                    "top": 201,
+                    "zoom": 0.6181710213776723
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "CN-s13-physical-layer"
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -737,8 +753,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "d5acb720f9e7b06c",
-      "mtime": "2025-04-08T10:20:32+02:00"
+      "active": "ad9c4a4de8637a80",
+      "mtime": "2025-04-11T23:16:33+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1600,5 +1616,5 @@
       "mtime": "2025-04-09T14:10:32+02:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-dmdb"
 }

@@ -3,7 +3,8 @@ name: "[[DMDB.md]]"
 prev: "[[DMDB-v-w07.md]]"
 next: "[[DMDB-v-w09.md]]"
 slides:
-  - "[[DMDB-s12-analytics-2-clustering-k-means.pdf]]"
+  - "[[DMDB-s11-analytics-2-clustering-k-means.pdf]]"
+  - "[[DMDB-s12-indexing.pdf]]"
 ---
 
 
