@@ -31,4 +31,4 @@ echo "finished installation succesfully!"
 
 
 - configure kathara terminal to tmux
-- use vscode ssh dev extension to connect to vsos server?
+- use vscode ssh dev extension to connect to vsos server? -> otherwise only edit with vim etc possible

@@ -6,17 +6,21 @@
         "type": "split",
         "children": [
           {
-            "id": "02d9c1138d126669",
+            "id": "2766cd5599da1af8",
             "type": "tabs",
             "children": [
               {
-                "id": "71cba7b918e2e833",
+                "id": "9a91a06064badfe8",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/scratch.md",
+                    "mode": "source",
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "scratch"
                 }
               }
             ]
@@ -190,8 +194,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "71cba7b918e2e833",
-      "mtime": "2025-04-13T15:15:21+02:00"
+      "active": "9a91a06064badfe8",
+      "mtime": "2025-04-13T17:39:18+02:00"
     },
     "00-home": {
       "main": {
@@ -1633,5 +1637,5 @@
       "mtime": "2025-04-09T14:10:32+02:00"
     }
   },
-  "active": "00-clean"
+  "active": "00-home"
 }
