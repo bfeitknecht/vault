@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "cn",
+  "search": "",
   "showTags": false,
   "showAttachments": true,
   "hideUnresolved": true,
@@ -17,6 +17,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.05306659588275538,
-  "close": false
+  "scale": 0.019062980353084572,
+  "close": true
 }

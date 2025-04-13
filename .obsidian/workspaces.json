@@ -242,14 +242,13 @@
                   "state": {
                     "file": "wiki/misc.md",
                     "mode": "source",
-                    "source": false
+                    "source": true
                   },
                   "icon": "lucide-file",
                   "title": "misc"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "f4c27890fdfee2b4",
@@ -275,7 +274,8 @@
                   "title": "Calendar"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -442,8 +442,8 @@
           "obsidian-kanban:Create new board": true
         }
       },
-      "active": "54a110a570c6fdb8",
-      "mtime": "2025-04-06T17:14:15+02:00"
+      "active": "162e7a61651e562a",
+      "mtime": "2025-04-13T17:44:53+02:00"
     },
     "sem4-cn": {
       "main": {
@@ -1637,5 +1637,5 @@
       "mtime": "2025-04-09T14:10:32+02:00"
     }
   },
-  "active": "00-home"
+  "active": "sem4-fmfp"
 }
