@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "95c527345026ded7",
+            "id": "02d9c1138d126669",
             "type": "tabs",
             "children": [
               {
-                "id": "a751a963947feb10",
+                "id": "71cba7b918e2e833",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -190,8 +190,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "a751a963947feb10",
-      "mtime": "2025-04-09T17:43:47+02:00"
+      "active": "71cba7b918e2e833",
+      "mtime": "2025-04-13T15:15:21+02:00"
     },
     "00-home": {
       "main": {
@@ -824,12 +824,28 @@
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/DMDB-script.pdf",
                     "page": 210,
-                    "left": -15,
-                    "top": 179,
-                    "zoom": 1.084375
+                    "left": -18,
+                    "top": 187,
+                    "zoom": 0.8703125
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-script"
+                }
+              },
+              {
+                "id": "3543e2a1b5b186a8",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s12-indexing.pdf",
+                    "page": 5,
+                    "left": -29,
+                    "top": 326,
+                    "zoom": 0.5421875
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "DMDB-s12-indexing"
                 }
               },
               {
@@ -848,7 +864,8 @@
                   "title": "DMDB-s10-analytics-1"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1019,8 +1036,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "cf8a844f8d3f4047",
-      "mtime": "2025-04-10T08:45:27+02:00"
+      "active": "3543e2a1b5b186a8",
+      "mtime": "2025-04-13T15:06:33+02:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1616,5 +1633,5 @@
       "mtime": "2025-04-09T14:10:32+02:00"
     }
   },
-  "active": "sem4-dmdb"
+  "active": "sem4-cn"
 }
