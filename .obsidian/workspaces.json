@@ -572,10 +572,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s13-physical-layer.pdf",
-                    "page": 1,
-                    "left": -24,
-                    "top": 201,
-                    "zoom": 0.6181710213776723
+                    "page": 39,
+                    "left": 13,
+                    "top": 263,
+                    "zoom": 0.7
                   },
                   "icon": "lucide-file-text",
                   "title": "CN-s13-physical-layer"
@@ -753,8 +753,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "ad9c4a4de8637a80",
-      "mtime": "2025-04-11T23:16:33+02:00"
+      "active": "d5acb720f9e7b06c",
+      "mtime": "2025-04-13T15:46:10+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1633,5 +1633,5 @@
       "mtime": "2025-04-09T14:10:32+02:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "00-clean"
 }
