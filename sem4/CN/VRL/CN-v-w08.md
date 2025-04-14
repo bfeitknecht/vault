@@ -16,6 +16,7 @@ slides:
 - switches
 - error detection
 - error correction
+- physical layer
 
 
 # Notes
