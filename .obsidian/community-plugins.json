@@ -39,5 +39,6 @@
   "table-editor-obsidian",
   "obsidian-kanban",
   "templater-obsidian",
-  "obsidian-qrcode-plugin"
+  "obsidian-qrcode-plugin",
+  "obsidian-hotkeys-for-templates"
 ]

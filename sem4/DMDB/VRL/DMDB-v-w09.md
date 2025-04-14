@@ -2,14 +2,15 @@
 name: "[[DMDB.md]]"
 prev: "[[DMDB-v-w08.md]]"
 next: "[[DMDB-v-w10.md]]"
-slides:
+slides: 
+tags: 
 ---
-  
-  
+
+
 # Info
-  
-  
+
+
 # Topics
-  
-  
+
+
 # Notes

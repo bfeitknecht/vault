@@ -176,7 +176,6 @@
   ],
   "app:open-help": [],
   "editor:open-link-in-new-window": [],
-  "templater-obsidian:create-new-note-from-template": [],
   "templater-obsidian:insert-templater": [],
   "templater-obsidian:replace-in-file-templater": [],
   "workspace:split-horizontal": [
@@ -272,6 +271,14 @@
         "Ctrl"
       ],
       "key": "F"
+    }
+  ],
+  "app:delete-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Backspace"
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "files": [],
+  "templaterFiles": [],
+  "newFileTemplates": [
+    {
+      "folder": "wiki",
+      "path": "note-wiki-TEMPLATE.md",
+      "plugin": "templater"
+    }
+  ],
+  "openNewFileTemplateInNewPane": true,
+  "useNewFileTemplateOnFileCreation": true
+}

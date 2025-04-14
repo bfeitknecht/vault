@@ -5,6 +5,7 @@ next: "[[CN-v-w09]]"
 slides:
   - "[[CN-s12-link-layer-coding.pdf]]"
   - "[[CN-s13-physical-layer.pdf]]"
+tags: []
 ---
 
 

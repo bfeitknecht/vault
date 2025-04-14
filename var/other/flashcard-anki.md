@@ -43,6 +43,6 @@ regular images work.
 
 
 
-### test #card
+### test
 alright, now this shouldn't make a card
 

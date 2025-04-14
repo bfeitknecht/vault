@@ -2,14 +2,15 @@
 name: "[[CN.md]]"
 prev: "[[CN-v-w13.md]]"
 next: "[[CN.md]]"
-slides:
+slides: 
+tags: 
 ---
-  
-  
+
+
 # Info
-  
-  
+
+
 # Topics
-  
-  
+
+
 # Notes
