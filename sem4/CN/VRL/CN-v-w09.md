@@ -30,4 +30,4 @@ tags:
 - nyquist limit corresponds to maximum sample rate with $V$ signal levels, $R = 2B \log_{2}V \frac{b}{s}$
 - signal to noise ratio (SNR) corresponds to logarithm of how many signal levels we can distinguish, $\mathrm{SNR}_{\mathrm{dB}} = 10 \log_{10} \frac{S}{N}$
 - shannon capacity is maximum information carrying rate of the channel, $C = B \log_{2}\left( 1 + \frac{S}{N} \right) \frac{b}{s}$
-- 
+- IP requires little from lower layers, delivers few guarantees to higher levels
