@@ -13,7 +13,7 @@ tags:
 
 
 # Topics
-- determinism semantics
+- deterministic semantics
 
 
 # Notes
