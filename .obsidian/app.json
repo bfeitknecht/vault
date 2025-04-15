@@ -13,6 +13,6 @@
     "margin": "2",
     "downscalePercent": 10
   },
-  "showLineNumber": true,
+  "showLineNumber": false,
   "vimMode": true
 }
