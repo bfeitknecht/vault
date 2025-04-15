@@ -210,7 +210,7 @@
         }
       },
       "active": "64d86e673e5f70b2",
-      "mtime": "2025-04-14T14:12:13+02:00"
+      "mtime": "2025-04-15T19:39:02+02:00"
     },
     "00-home": {
       "main": {
@@ -843,16 +843,32 @@
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s12-indexing.pdf",
                     "page": 5,
-                    "left": -29,
-                    "top": 335,
-                    "zoom": 0.5421875
+                    "left": -28,
+                    "top": 360,
+                    "zoom": 0.559375
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-s12-indexing"
                 }
+              },
+              {
+                "id": "360573ebc066e3d7",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s13-operators.pdf",
+                    "page": 40,
+                    "left": -28,
+                    "top": 187,
+                    "zoom": 0.559375
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "DMDB-s13-operators"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1023,8 +1039,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "3543e2a1b5b186a8",
-      "mtime": "2025-04-14T17:16:11+02:00"
+      "active": "360573ebc066e3d7",
+      "mtime": "2025-04-15T19:44:05+02:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1157,7 +1173,7 @@
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s11-operational-semantics.pdf",
                     "page": 26,
                     "left": -25,
-                    "top": 583,
+                    "top": 587,
                     "zoom": 0.6378505505469836
                   },
                   "icon": "lucide-file-text",
@@ -1337,7 +1353,7 @@
         }
       },
       "active": "482c4d171aa2b2de",
-      "mtime": "2025-04-15T15:33:58+02:00"
+      "mtime": "2025-04-15T19:40:59+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1634,5 +1650,5 @@
       "mtime": "2025-04-09T14:10:32+02:00"
     }
   },
-  "active": "sem4-dmdb"
+  "active": "sem4-w&s"
 }

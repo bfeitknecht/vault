@@ -11,7 +11,8 @@
     "nowrap-math",
     "style-embed",
     "png-add-white-bg",
-    "float-callouts"
+    "float-callouts",
+    "hide-view-header"
   ],
   "showViewHeader": true,
   "baseFontSize": 13,

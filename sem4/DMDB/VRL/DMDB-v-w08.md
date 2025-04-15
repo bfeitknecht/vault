@@ -16,7 +16,8 @@ slides:
 - k-means
 - clustering
 - classification
-
+- hashing
+- hash table
 
 # Notes
 - notion of cluster can be ambiguous
