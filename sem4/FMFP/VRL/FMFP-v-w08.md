@@ -132,8 +132,8 @@ $$
 \UIC{$\langle \texttt{while $\mathsfit{b}$ do $\mathsfit{s}$ end}, \sigma \rangle \to \sigma $}
 \end{prooftree}
 \\ \\
-\ast &\quad \mathcal{B}[\![ \mathsfit{b}]\!] \sigma = \mathrm{T} \\
-\ast\ast &\quad \mathcal{B}[\![ \mathsfit{b}]\!] \sigma = \mathrm{F}
+\ast &\quad \mathcal{B}[\![  \mathsfit{b}]\!] \sigma = \mathrm{True} \\
+\ast\ast &\quad \mathcal{B}[\![ \mathsfit{b}]\!] \sigma = \mathrm{False}
 \end{align}
 $$
 - if there exists a finite derivation tree $T$ of rule applications resulting in a transition, then that can be written $\vdash \langle \mathsfit{s}, \sigma \rangle \to \sigma' \iff \exists T.\mathrm{root}(T) \equiv \langle \mathsfit{s}, \sigma \rangle \to \sigma'$

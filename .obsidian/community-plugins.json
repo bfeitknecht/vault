@@ -40,5 +40,6 @@
   "obsidian-kanban",
   "templater-obsidian",
   "obsidian-qrcode-plugin",
-  "obsidian-hotkeys-for-templates"
+  "obsidian-hotkeys-for-templates",
+  "obsidian-relative-line-numbers"
 ]
