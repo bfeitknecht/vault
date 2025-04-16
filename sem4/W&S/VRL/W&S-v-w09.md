@@ -11,6 +11,9 @@ tags:
 
 
 # Topics
+- law of large numbers
+- monte carlo simulation
 
 
 # Notes
+- 
