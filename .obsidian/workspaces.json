@@ -210,7 +210,7 @@
         }
       },
       "active": "64d86e673e5f70b2",
-      "mtime": "2025-04-15T19:39:02+02:00"
+      "mtime": "2025-04-16T08:30:24+02:00"
     },
     "00-home": {
       "main": {
@@ -1172,9 +1172,9 @@
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s11-operational-semantics.pdf",
                     "page": 26,
-                    "left": -25,
-                    "top": 587,
-                    "zoom": 0.6378505505469836
+                    "left": -24,
+                    "top": 591,
+                    "zoom": 0.6182517906139757
                   },
                   "icon": "lucide-file-text",
                   "title": "FMFP-s11-operational-semantics"
@@ -1352,8 +1352,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "482c4d171aa2b2de",
-      "mtime": "2025-04-15T19:40:59+02:00"
+      "active": "87b5445002117350",
+      "mtime": "2025-04-15T19:52:34+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1451,8 +1451,8 @@
                   "state": {
                     "file": "sem4/W&S/VRL/extra/W&S-script-1.pdf",
                     "page": 66,
-                    "left": -18,
-                    "top": 6,
+                    "left": -27,
+                    "top": 10,
                     "zoom": 0.8743843192065529
                   },
                   "icon": "lucide-file-text",
@@ -1647,8 +1647,8 @@
         }
       },
       "active": "22e5d93e9e3be884",
-      "mtime": "2025-04-09T14:10:32+02:00"
+      "mtime": "2025-04-15T19:51:15+02:00"
     }
   },
-  "active": "sem4-w&s"
+  "active": "sem4-fmfp"
 }

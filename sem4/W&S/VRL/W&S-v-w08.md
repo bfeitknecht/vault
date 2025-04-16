@@ -17,7 +17,7 @@ slides:
 - covariance
 - standard moment
 - vector valued random variable
-- joint distributions
+- joint distribution
 
 
 # Notes

@@ -16,5 +16,5 @@
   ],
   "showViewHeader": true,
   "baseFontSize": 13,
-  "showRibbon": false
+  "showRibbon": true
 }
