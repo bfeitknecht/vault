@@ -96,52 +96,56 @@ $$
 \qquad \begin{prooftree}
 \AXC{}
 \RL{$\ \mathrm{Assign}$}
-\UIC{$\langle \texttt{$\mathsfit{x} := \mathsfit{e} $}, \sigma  \rangle \to \sigma [ \mathsfit{x} \mapsto \mathcal{A}[\![ \mathsfit{e}]\!]  \sigma] $}
+\UIC{$\langle \texttt{$x$ := $e$}, \sigma  \rangle \to \sigma [ x \mapsto \mathcal{A}[\![ e]\!]  \sigma] $}
 \end{prooftree}
 \\ \\ 
 &
 \begin{prooftree}
-\AXC{$\langle \mathsfit{s}, \sigma \rangle \to \sigma'$}
-\AXC{$\langle \mathsfit{s'}, \sigma' \rangle \to \sigma''$}
+\AXC{$\langle s, \sigma \rangle \to \sigma'$}
+\AXC{$\langle s', \sigma' \rangle \to \sigma''$}
 \RL{${\ \mathrm{Seq}}$}
-\BIC{$\langle \texttt{$\mathsfit{s}$; $\mathsfit{s'}$}, \sigma \rangle \to \sigma'' $}
+\BIC{$\langle \texttt{$s$; $s'$}, \sigma \rangle \to \sigma'' $}
 \end{prooftree}
 \\ \\
 &
 \begin{prooftree}
-\AXC{$\langle \mathsfit{s}, \sigma \rangle \to \sigma'$}
+\AXC{$\langle s, \sigma \rangle \to \sigma'$}
 \RL{${\ \text{If $\ast$}}$}
-\UIC{$\langle \texttt{if $\mathsfit{b}$ then $\mathsfit{s}$ else $\mathsfit{s'}$ end}, \sigma \rangle \to \sigma' $}
+\UIC{$\langle \texttt{if $b$ then $s$ else $s'$ end}, \sigma \rangle \to \sigma' $}
 \end{prooftree}
 \qquad\begin{prooftree}
-\AXC{$\langle \mathsfit{s'}, \sigma \rangle \to \sigma'$}
+\AXC{$\langle s', \sigma \rangle \to \sigma'$}
 \RL{${\ \text{Else $\ast\ast$}}$}
-\UIC{$\langle \texttt{if $\mathsfit{b}$ then $\mathsfit{s}$ else $\mathsfit{s'}$ end}, \sigma \rangle \to \sigma' $}
+\UIC{$\langle \texttt{if $b$ then $s$ else $s'$ end}, \sigma \rangle \to \sigma' $}
 \end{prooftree}
 \\ \\
 &
 \begin{prooftree}
-\AXC{$\langle \mathsfit{s}, \sigma \rangle \to \sigma'$}
-\AXC{$ \langle \texttt{while $\mathsfit{b}$ do $\mathsfit{s}$ end}, \sigma'  \rangle \to \sigma''$}
+\AXC{$\langle s, \sigma \rangle \to \sigma'$}
+\AXC{$ \langle \texttt{while $b$ do $s$ end}, \sigma'  \rangle \to \sigma''$}
 \RL{${\ \text{While $\ast$}}$}
-\BIC{$\langle \texttt{while $\mathsfit{b}$ do $\mathsfit{s}$ end}, \sigma \rangle \to \sigma'' $}
+\BIC{$\langle \texttt{while $b$ do $s$ end}, \sigma \rangle \to \sigma'' $}
 \end{prooftree}
 \qquad\begin{prooftree}
 \AXC{}
 \RL{${\ \text{End $\ast\ast$}}$}
-\UIC{$\langle \texttt{while $\mathsfit{b}$ do $\mathsfit{s}$ end}, \sigma \rangle \to \sigma $}
+\UIC{$\langle \texttt{while $b$ do $s$ end}, \sigma \rangle \to \sigma $}
 \end{prooftree}
 \\ \\
-\ast &\quad \mathcal{B}[\![  \mathsfit{b}]\!] \sigma = \mathrm{True} \\
-\ast\ast &\quad \mathcal{B}[\![ \mathsfit{b}]\!] \sigma = \mathrm{False}
+\ast &\quad \mathcal{B}[\![  b]\!] \sigma = \mathrm{True} \\
+\ast\ast &\quad \mathcal{B}[\![ b]\!] \sigma = \mathrm{False}
 \end{align}
 $$
-- if there exists a finite derivation tree $T$ of rule applications resulting in a transition, then that can be written $\vdash \langle \mathsfit{s}, \sigma \rangle \to \sigma' \iff \exists T.\mathrm{root}(T) \equiv \langle \mathsfit{s}, \sigma \rangle \to \sigma'$
+- if there exists a finite derivation tree $T$ of rule applications resulting in a transition, write $\vdash \langle s, \sigma \rangle \to \sigma' \iff \exists T.\mathrm{root}(T) \equiv \langle s, \sigma \rangle \to \sigma'$
 - build up derivation tree from bottom until reach axioms, then top down to fill in states
 - statements do not necessarily terminate, i.e. `while true do skip end`
-- meta-variables
+- meta-variables in $math$, program variables in $\texttt{typewriter}$
 $$
 \begin{align}
-\mathsfit{n} 
+n &\in \mathsf{Numeral} \\
+x, y, z &\in \mathsf{Var}  \\
+e, e', \dots &\in \mathsf{Aexp} \\
+b, b', \dots &\in \mathsf{Bexp} \\
+s, s' , \dots &\in \mathsf{Stm}
 \end{align}
 $$

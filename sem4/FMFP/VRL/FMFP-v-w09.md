@@ -20,26 +20,18 @@ tags:
 - big step semantics of `IMP` is deterministic
 - allocation is non-deterministic
 - realistic programming language not deterministic
-- structural induction for statements $\mathsf{Stm}$ ==incorrect== to prove determinism of `IMP`
+- structural induction over $\mathsf{Stm}$ ==insufficient== to prove determinism of `IMP`
 $$
 \begin{align}
-& \mathrm{if} = \texttt{if $\mathsfit{b}$ then $\mathsfit{s}_{1}$ else $\mathsfit{s}_{2}$ end} \\
-& \mathrm{while} = \texttt{while $\mathsfit{b}$ do $\mathsfit{s}$ end} \\
-& \Gamma' = \Gamma, P(\mathsfit{s}_{1}), P(\mathsfit{s}_{2}) \\
-& \Gamma'' = \Gamma, P(\mathsfit{s}) \\
-\\ &
+&
 \begin{prooftree}
-\AXC{$\Gamma \vdash P(\texttt{skip})$}
-\AXC{$\Gamma \vdash P(\texttt{$\mathsfit{x}$ := $\mathsfit{e}$} )$}
-\AXC{$\Gamma' \vdash P(\texttt{$\mathsfit{s}_{1}$; $\mathsfit{s}_{2}$} )$}
-\AXC{$\Gamma' \vdash P(\mathrm{if})$}
-\AXC{$\Gamma'' \vdash P(\mathrm{while})$}
+\AXC{$\begin{align} & \Gamma \vdash P(\texttt{skip} ) \\ & \Gamma \vdash P(\texttt{\(x\) := \(e\)}) \\ & \Gamma, P(s), P(s') \vdash P(\texttt{\(s\); \(s'\)}) \\ & \Gamma, P(s), P(s') \vdash P(\texttt{if \(b\) then \(s\) else \(s'\) end}) \\ & \Gamma, P(s) \vdash P(\texttt{while \(b\) do \(s\) end}) \\ \end{align}$}
 \RL{${\ \mathrm{Stm}\ \ast}$}
-\QuinaryInfC{$\Gamma \vdash \forall \mathsfit{s}. P(\mathsfit{s}) $}
+\UIC{$\Gamma \vdash \forall s. P(s) $}
 \end{prooftree}
 \\ \\
-\ast &\quad \mathsfit{x}, \mathsfit{e}, \mathsfit{b}, \mathsfit{s}, \mathsfit{s}_{1}, \mathsfit{s}_{2} \not\in \mathrm{free}(\Gamma) \\
+\ast &\quad x, e, b, s, s' \not\in \mathrm{free}(\Gamma) \\
 \end{align}
 $$
-- instead use induction on shape of derivation tree
-- because derivation trees are finite, noetherian order exists, corresponding to strict subtrees
+- instead use induction on (shape) of derivation tree
+- because derivation trees are finite, noetherian order corresponding to strict subtrees exists
