@@ -14,6 +14,7 @@ tags:
 
 # Topics
 - deterministic semantics
+- extensions to `IMP`
 
 
 # Notes
@@ -35,3 +36,14 @@ $$
 $$
 - instead use induction on (shape) of derivation tree
 - because derivation trees are finite, noetherian order corresponding to strict subtrees exists
+- local variable declaration needs to restore prior state after execution of statement
+$$
+\begin{align}
+&
+\begin{prooftree}
+\AXC{$\langle s, \sigma[x \mapsto \mathcal{A} [\![ e ]\!]  \sigma] \rangle \to \sigma' $}
+\RL{${\ \mathrm{Local}}$}
+\UIC{$\langle \texttt{var $x$ := $e$ in $s$ end}, \sigma  \rangle \to \sigma'[x \to \sigma(x) ] $}
+\end{prooftree}
+\end{align}
+$$
