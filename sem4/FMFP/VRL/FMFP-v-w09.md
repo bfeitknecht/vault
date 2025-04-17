@@ -47,3 +47,17 @@ $$
 \end{prooftree}
 \end{align}
 $$
+- procedure declaration requires formal parameter names to be distinct
+- procedure call requires "return" variable parameters to be distinct (no aliasing)
+```IMP
+procedure p(; a, b)
+begin
+	a := 1
+	print b
+	b := 2
+end;
+
+var x := 3 in
+	p(; x, x)
+end
+```
