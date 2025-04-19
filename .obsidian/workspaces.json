@@ -1096,7 +1096,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "4eae27f0ad5ff541",
@@ -1141,10 +1141,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s10-IMP.pdf",
-                    "page": 6,
-                    "left": -268,
-                    "top": 85,
-                    "zoom": 0.4
+                    "page": 21,
+                    "left": -24,
+                    "top": 192,
+                    "zoom": 0.6182517906139757
                   },
                   "icon": "lucide-file-text",
                   "title": "FMFP-s10-IMP"
@@ -1157,9 +1157,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s11-operational-semantics.pdf",
-                    "page": 31,
+                    "page": 42,
                     "left": -24,
-                    "top": 334,
+                    "top": 262,
                     "zoom": 0.6182517906139757
                   },
                   "icon": "lucide-file-text",
@@ -1167,7 +1167,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1338,8 +1338,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "6502ab99fccabcdb",
-      "mtime": "2025-04-16T10:37:24+02:00"
+      "active": "87b5445002117350",
+      "mtime": "2025-04-19T14:39:48+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1650,5 +1650,5 @@
       "mtime": "2025-04-17T10:58:02+02:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "00-clean"
 }
