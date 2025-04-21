@@ -1109,10 +1109,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/semantics-with-applications-nielson.pdf",
-                    "page": 1,
-                    "left": -19,
-                    "top": 743,
-                    "zoom": 0.8504901960784313
+                    "page": 18,
+                    "left": -41,
+                    "top": 170,
+                    "zoom": 0.38725490196078427
                   },
                   "icon": "lucide-file-text",
                   "title": "semantics-with-applications-nielson"
@@ -1159,15 +1159,14 @@
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s11-operational-semantics.pdf",
                     "page": 42,
                     "left": -24,
-                    "top": 262,
+                    "top": 66,
                     "zoom": 0.6182517906139757
                   },
                   "icon": "lucide-file-text",
                   "title": "FMFP-s11-operational-semantics"
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "vertical"
@@ -1338,8 +1337,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "87b5445002117350",
-      "mtime": "2025-04-19T14:39:48+02:00"
+      "active": "482c4d171aa2b2de",
+      "mtime": "2025-04-20T19:40:57+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1650,5 +1649,5 @@
       "mtime": "2025-04-17T10:58:02+02:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "00-clean"
 }
