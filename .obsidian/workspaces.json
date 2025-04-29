@@ -574,9 +574,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s10-BGP.pdf",
-                    "page": 34,
+                    "page": 33,
                     "left": -24,
-                    "top": 458,
+                    "top": 475,
                     "zoom": 0.6181710213776723
                   },
                   "icon": "lucide-file-text",
@@ -755,8 +755,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "adf5fd1871781ebc",
-      "mtime": "2025-04-15T10:57:50+02:00"
+      "active": "c5f53ec5a7411e6f",
+      "mtime": "2025-04-29T10:32:42+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1648,5 +1648,5 @@
       "mtime": "2025-04-17T10:58:02+02:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-fmfp"
 }
