@@ -11,6 +11,8 @@ tags:
 
 
 # Topics
+- grace hash join
 
 
 # Notes
+- disjoint partitions save many operations in join operation

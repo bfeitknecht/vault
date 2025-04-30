@@ -810,9 +810,23 @@
                   "icon": "lucide-file",
                   "title": "DMDB-v-w08"
                 }
+              },
+              {
+                "id": "e461e6d0f5ca4729",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/DMDB/VRL/DMDB-v-w09.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "DMDB-v-w09"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "b2d58a2794577117",
@@ -858,8 +872,8 @@
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s13-operators.pdf",
                     "page": 40,
-                    "left": -28,
-                    "top": 187,
+                    "left": -13,
+                    "top": 191,
                     "zoom": 0.559375
                   },
                   "icon": "lucide-file-text",
@@ -1038,8 +1052,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "360573ebc066e3d7",
-      "mtime": "2025-04-15T19:44:05+02:00"
+      "active": "e461e6d0f5ca4729",
+      "mtime": "2025-04-30T14:44:52+02:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1093,9 +1107,23 @@
                   "icon": "lucide-file",
                   "title": "FMFP-v-w09"
                 }
+              },
+              {
+                "id": "3f47370b9252821b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/FMFP/VRL/FMFP-v-w10.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "FMFP-v-w10"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "4eae27f0ad5ff541",
@@ -1109,28 +1137,12 @@
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/semantics-with-applications-nielson.pdf",
                     "page": 18,
-                    "left": -41,
-                    "top": 170,
-                    "zoom": 0.38725490196078427
+                    "left": -19,
+                    "top": 179,
+                    "zoom": 0.8504901960784315
                   },
                   "icon": "lucide-file-text",
                   "title": "semantics-with-applications-nielson"
-                }
-              },
-              {
-                "id": "783e8e0569d6a6f8",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/FMFP/VRL/extra/slides/FMFP-s09-formal-methods.pdf",
-                    "page": 56,
-                    "left": -24,
-                    "top": 446,
-                    "zoom": 0.6182517906139757
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "FMFP-s09-formal-methods"
                 }
               },
               {
@@ -1140,9 +1152,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s10-IMP.pdf",
-                    "page": 21,
+                    "page": 24,
                     "left": -24,
-                    "top": 192,
+                    "top": 577,
                     "zoom": 0.6182517906139757
                   },
                   "icon": "lucide-file-text",
@@ -1156,16 +1168,17 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s11-operational-semantics.pdf",
-                    "page": 42,
+                    "page": 96,
                     "left": -24,
-                    "top": 66,
+                    "top": 108,
                     "zoom": 0.6182517906139757
                   },
                   "icon": "lucide-file-text",
                   "title": "FMFP-s11-operational-semantics"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1336,8 +1349,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "482c4d171aa2b2de",
-      "mtime": "2025-04-20T19:40:57+02:00"
+      "active": "3f47370b9252821b",
+      "mtime": "2025-04-30T14:45:04+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1648,5 +1661,5 @@
       "mtime": "2025-04-17T10:58:02+02:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "sem4-dmdb"
 }
