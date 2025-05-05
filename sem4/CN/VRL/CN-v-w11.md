@@ -9,6 +9,7 @@ tags:
 
 # Info
 - "The internet is on fire!"
+- "Basics of BGP were designed on three paper napkins over lunch."
 
 
 # Topics
@@ -16,3 +17,5 @@ tags:
 
 
 # Notes
+- implementing secure global internet needs revolution not evolution, fresh start
+- 
