@@ -38,7 +38,7 @@ next: "[[FMFP-v-w03]]"
 ## Natural Deduction
 The following are rules for natural deduction in intuitionistic predicate logic.
 $$
-\begin{align}
+\overset{\huge \mathrm{ND}}{\boxed{\begin{align}
 &
 \begin{prooftree}
 \AXC{}
@@ -141,5 +141,5 @@ $$
 \\ \\ \\
 \ast & \quad \forall \phi \in \Gamma. x \not\in \mathrm{free}(\phi) \\
 \ast \ast & \quad \forall \psi \in (\Gamma \cup B). x \not\in \mathrm{free}(\psi)
-\end{align}
+\end{align}}}
 $$

@@ -26,8 +26,9 @@ tags:
 		- $\mathbf{P} \models \mathbf{Q} \iff \forall \sigma.\mathcal{B}[\![\mathbf{P}]\!]\sigma= \mathrm{True} \to \mathcal{B}[\![\mathbf{Q}]\!]\sigma = \mathrm{True}$
 		- i.e. **semantic** consequence of assertions
 		- may strengthen preconditions and weaken postconditions, in diagram $\uparrow \circ \rightarrow \circ \downarrow$
+		- build proof outlines bottom-up
 $$
-\begin{align}
+\overset{\huge \mathrm{Ax}}{\boxed{\begin{align}
 &
 \begin{prooftree}
 \AXC{}
@@ -71,5 +72,5 @@ $$
 \end{prooftree}
 \\ \\
 \ast &\quad \mathbf{P} \models \mathbf{P'}, \mathbf{Q}' \models \mathbf{Q}
-\end{align}
+\end{align}}}
 $$

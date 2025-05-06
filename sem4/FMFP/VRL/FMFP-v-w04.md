@@ -29,7 +29,7 @@ next: "[[FMFP-v-w05]]"
 
 ## Typing Rules
 $$
-\begin{align}
+\overset{\huge \mathrm{Lambda}}{\boxed{\begin{align}
 &
 \begin{prooftree}
 \AXC{}
@@ -96,5 +96,5 @@ $$
 \end{prooftree}
 \\ \\
 \ast &\quad x \not\in \Gamma
-\end{align}
+\end{align}}}
 $$

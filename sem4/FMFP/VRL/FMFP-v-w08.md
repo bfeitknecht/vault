@@ -86,7 +86,7 @@ $$
 	- shortcut `if b then s end`, boolean constants `true`, `false`
 - inference rules for natural semantics of `IMP`
 $$
-\begin{align}
+\overset{\huge \mathrm{NS}}{\boxed{\begin{align}
 &
 \begin{prooftree}
 \AXC{}
@@ -134,7 +134,7 @@ $$
 \\ \\
 \ast &\quad \mathcal{B}[\![  b]\!] \sigma = \mathrm{True} \\
 \ast\ast &\quad \mathcal{B}[\![ b]\!] \sigma = \mathrm{False}
-\end{align}
+\end{align}}}
 $$
 - if there exists a finite derivation tree $T$ of rule applications resulting in a transition, write $\vdash \langle s, \sigma \rangle \to \sigma' \iff \exists T.\mathrm{root}(T) \equiv \langle s, \sigma \rangle \to \sigma'$
 - build up derivation tree from bottom until reach axioms, then top down to fill in states
