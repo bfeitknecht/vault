@@ -28,7 +28,7 @@ tags:
 		- may strengthen preconditions and weaken postconditions, in diagram $\uparrow \circ \rightarrow \circ \downarrow$
 		- build proof outlines bottom-up
 $$
-\overset{\huge \mathrm{Ax}}{\boxed{\begin{align}
+\overset{\huge \mathrm{Axiom}}{\boxed{\begin{align}
 &
 \begin{prooftree}
 \AXC{}
@@ -71,6 +71,6 @@ $$
 \UIC{$ \{ \mathbf{P} \} \ s \ \{ \mathbf{Q} \} $}
 \end{prooftree}
 \\ \\
-\ast &\quad \mathbf{P} \models \mathbf{P'}, \mathbf{Q}' \models \mathbf{Q}
+\ast &\quad \text{$\mathbf{P} \models \mathbf{P'}$ and $\mathbf{Q}' \models \mathbf{Q}$}
 \end{align}}}
 $$
