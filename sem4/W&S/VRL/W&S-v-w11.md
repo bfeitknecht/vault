@@ -11,6 +11,14 @@ tags:
 
 
 # Topics
+- gamma function
+- chi distribution
+- t-distribution
+- normal model
+
 
 
 # Notes
+- $\{ X_{i} \sim \mathcal{N}(0, 1)\}_{m} \implies |(X_{i})_{m}| \sim \mathcal{X}_{m}$, for a family of $m$ normal distributions, the length of the combined vector exhibits chi distribution in $m$
+- $\frac{\mathcal{X}_{m}}{\sqrt{ m }} \overset{m}{\to} 1$, as the number of dimensions in chi distribution increases, the normalized vector length approaches one
+- let $X \sim \mathcal{N}(0,1)$ and $Y \sim \mathcal{X}^{2}_{m}$ be independent, then $Z = \frac{X}{\sqrt{ \frac{Y}{m} }} \sim t_{m}$, i.e. as the number of dimension increases, the t-distribution converges to a normal distribution
