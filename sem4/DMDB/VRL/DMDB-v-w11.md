@@ -18,3 +18,5 @@ tags:
 # Notes
 - logical plan to physical plan is hard problem
 - catalogue of a database gives available tables, attribute sizes, etc.
+- cost estimates help determine optimal query plan
+- equi-depth histogram allows uniform partition of data
