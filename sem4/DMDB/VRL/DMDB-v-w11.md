@@ -12,7 +12,9 @@ tags:
 
 
 # Topics
+- query optimization
 
 
 # Notes
+- logical plan to physical plan is hard problem
 - catalogue of a database gives available tables, attribute sizes, etc.
