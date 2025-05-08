@@ -31,6 +31,7 @@ tags:
 	- partial correctness and total correctness hoare triples independent systems
 	- arithmetic expressions as loop variant, provides upper bound on number of iterations
 	- need to be made on well-founded set
+	- if an assertion is both pre- and post-condition, no downarrow
 $$
 \overset{\huge \mathrm{Axiom}}{\boxed{\begin{align}
 &
