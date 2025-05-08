@@ -86,7 +86,7 @@ $$
 	- shortcut `if b then s end`, boolean constants `true`, `false`
 - inference rules for natural semantics of `IMP`
 $$
-\overset{\huge \mathrm{NS}}{\boxed{\begin{align}
+\overset{\huge \mathrm{Natural}}{\boxed{\begin{align}
 &
 \begin{prooftree}
 \AXC{}

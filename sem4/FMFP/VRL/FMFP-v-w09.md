@@ -15,6 +15,8 @@ tags:
 # Topics
 - deterministic semantics
 - extensions to `IMP`
+- transition system
+- operational semantics
 
 
 # Notes
@@ -61,3 +63,57 @@ var x := 3 in
 	p(; x, x)
 end
 ```
+- natural semantics (big-step) analyze programs as a whole (statements form atomic execution granularity)
+	- how the overall result is obtained
+- operational semantics (small-step) analyze what happens "within" the execution
+	- how individual "steps" of computation take place
+	- uses transition system to model step
+	- allows judgment over non-terminating programs and where order of execution matters
+$$
+\overset{\huge \mathrm{Operational}}{\boxed{\begin{align}
+&
+\begin{prooftree}
+\AXC{}
+\RL{${\ \mathrm{Skip}}$}
+\UIC{$\langle \texttt{skip}, \sigma  \rangle \to_{1} \sigma $}
+\end{prooftree}
+\qquad \begin{prooftree}
+\AXC{}
+\RL{$\ \mathrm{Assign}$}
+\UIC{$\langle \texttt{$x$ := $e$}, \sigma  \rangle \to_{1} \sigma [ x \mapsto \mathcal{A}[\![ e]\!]  \sigma] $}
+\end{prooftree}
+\\ \\ 
+&
+\begin{prooftree}
+\AXC{$\langle s, \sigma \rangle \to_{1} \sigma'$}
+\RL{${\ \mathrm{Seq_{1}}}$}
+\UIC{$\langle \texttt{$s$; $s'$}, \sigma \rangle \to_{1} \langle s', \sigma' \rangle $}
+\end{prooftree}
+\quad \begin{prooftree}
+\AXC{$\langle s, \sigma \rangle \to_{1} \langle s'', \sigma' \rangle $}
+\RL{${\ \mathrm{Seq_{+}}}$}
+\UIC{$\langle \texttt{$s$; $s'$}, \sigma \rangle \to_{1} \langle \texttt{$s''$; $s'$}, \sigma' \rangle $}
+\end{prooftree}
+\\ \\
+&
+\begin{prooftree}
+\AXC{}
+\RL{${\ \text{If $\ast$}}$}
+\UIC{$\langle \texttt{if $b$ then $s$ else $s'$ end}, \sigma \rangle \to_{1} \langle s, \sigma \rangle $}
+\end{prooftree}
+\qquad\begin{prooftree}
+\AXC{}
+\RL{${\ \text{Else $\ast\ast$}}$}
+\UIC{$\langle \texttt{if $b$ then $s$ else $s'$ end}, \sigma \rangle \to_{1} \langle s', \sigma \rangle $}
+\end{prooftree}
+\\ \\
+&
+\begin{prooftree}
+\AXC{}
+\RL{${\ \text{While}}$}
+\UIC{$\langle \texttt{while $b$ do $s$ end}, \sigma \rangle \to_{1} \langle \texttt{if $b$ then $s$; while $b$ do $s$ end else skip end}, \sigma \rangle  $}
+\end{prooftree}
+\\ \\
+\ast &\quad \mathcal{B}[\![  b]\!] \sigma = \mathrm{True} \\
+\end{align}}}
+$$
