@@ -27,6 +27,10 @@ tags:
 		- i.e. **semantic** consequence of assertions
 		- may strengthen preconditions and weaken postconditions, in diagram $\uparrow \circ \rightarrow \circ \downarrow$
 		- build proof outlines bottom-up
+- total correctness hoare triple $\{  \mathbf{P} \} \ s \ \{ \Downarrow  \mathbf{ Q}\}$
+	- partial correctness and total correctness hoare triples independent systems
+	- arithmetic expressions as loop variant, provides upper bound on number of iterations
+	- need to be made on well-founded set
 $$
 \overset{\huge \mathrm{Axiom}}{\boxed{\begin{align}
 &
@@ -66,11 +70,19 @@ $$
 \\ \\
 &
 \begin{prooftree}
+\AXC{$ \{ b \land \mathbf{P} \land e = Z\} \ s \ \{ \Downarrow \mathbf{P} \land e < Z\} $}
+\RL{${\ \text{While}\ast\ast}$}
+\UIC{$ \{ \mathbf{P} \} \ \texttt{while $b$ do $s$ end} \ \{ \Downarrow \lnot b \land \mathbf{P} \} $}
+\end{prooftree}
+\\ \\
+&
+\begin{prooftree}
 \AXC{$ \{ \mathbf{P}' \} \ s \ \{ \mathbf{Q}' \} $}
 \RL{${\ \text{Consequence $\ast$}}$}
 \UIC{$ \{ \mathbf{P} \} \ s \ \{ \mathbf{Q} \} $}
 \end{prooftree}
 \\ \\
-\ast &\quad \text{$\mathbf{P} \models \mathbf{P'}$ and $\mathbf{Q}' \models \mathbf{Q}$}
+\ast &\quad \text{$\mathbf{P} \models \mathbf{P'}$ and $\mathbf{Q}' \models \mathbf{Q}$} \\
+\ast \ast & \text{$Z \not\in \mathrm{free}(\mathbf{P})$ and $b \land \mathbf{P} \models 0 \leq e$}
 \end{align}}}
 $$
