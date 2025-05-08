@@ -9,20 +9,20 @@ tags:
 
 
 # Info
-
+- exam relevant topics only up to structural semantics, without axiomatic semantics
 
 # Topics
+- axiomatic semantics
+- hoare triple
 - partial correctness
 - termination
 - total correctness
-- axiomatic semantics
-- hoare triple
 
 # Notes
 - hoare triple $\{  \mathbf{P} \} \ s \ \{  \mathbf{Q} \}$
 - logical variables are only used in assertions and allow reference across pre- and post-condition
 	- substitution lemma holds, $\mathcal{B}[\![\mathbf{P}[x \mapsto e]]\!]\sigma = \mathcal{B}[\![\mathbf{P}]\!]\sigma[x \mapsto \mathcal{A}[\![e]\!]\sigma]$
-	- applying $\texttt{skip}$ rule requires ==**syntactic** equivalence==, for this use
+	- applying $\texttt{skip}$ rule requires ==**syntactic** equivalence== of assertions, thus use
 		- $\mathbf{P} \models \mathbf{Q} \iff \forall \sigma.\mathcal{B}[\![\mathbf{P}]\!]\sigma= \mathrm{True} \to \mathcal{B}[\![\mathbf{Q}]\!]\sigma = \mathrm{True}$
 		- i.e. **semantic** consequence of assertions
 		- may strengthen preconditions and weaken postconditions, in diagram $\uparrow \circ \rightarrow \circ \downarrow$
