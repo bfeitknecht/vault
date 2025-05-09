@@ -111,9 +111,13 @@ $$
 \begin{prooftree}
 \AXC{}
 \RL{${\ \text{While}}$}
-\UIC{$\langle \texttt{while $b$ do $s$ end}, \sigma \rangle \to_{1} \langle \texttt{if $b$ then $s$; while $b$ do $s$ end else skip end}, \sigma \rangle  $}
+\UIC{$ \begin{align}
+\langle &\texttt{while $b$ do $s$ end}, \sigma \rangle \to_{1} \\
+\langle &\texttt{if $b$ then ($s$; while $b$ do $s$ end) else skip end}, \sigma \rangle
+\end{align} $}
 \end{prooftree}
 \\ \\
 \ast &\quad \mathcal{B}[\![  b]\!] \sigma = \mathrm{True} \\
+\ast\ast &\quad \mathcal{B}[\![  b]\!] \sigma = \mathrm{False}
 \end{align}}}
 $$
