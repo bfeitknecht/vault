@@ -21,8 +21,7 @@ tags:
 
 # Notes
 - big step semantics of `IMP` is deterministic
-- allocation is non-deterministic
-- realistic programming language not deterministic
+- realistic programming language not deterministic, e.g. memory allocation
 - structural induction over $\mathsf{Stm}$ ==insufficient== to prove determinism of `IMP`
 $$
 \begin{align}
@@ -38,6 +37,9 @@ $$
 $$
 - instead use induction on (shape) of derivation tree
 - because derivation trees are finite, noetherian order corresponding to strict subtrees exists
+- substitution $\_[x \mapsto e]$ replace each free occurrence of variable $x$ by expression $e$
+- substitution lemma, $\mathcal{B}[\![b[x\mapsto e]]\!]\sigma \iff \mathcal{B}[\![b]\!]\sigma[x \mapsto \mathcal{A}[\![e]\!]\sigma]$
+
 - local variable declaration needs to restore prior state after execution of statement
 $$
 \begin{align}
@@ -63,7 +65,8 @@ var x := 3 in
 	p(; x, x)
 end
 ```
-- natural semantics (big-step) analyze programs as a whole (statements form atomic execution granularity)
+
+- natural semantics (big-step) analyze programs as a whole (statements form atomic granularity)
 	- how the overall result is obtained
 - operational semantics (small-step) analyze what happens "within" the execution
 	- how individual "steps" of computation take place
