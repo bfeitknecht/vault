@@ -88,26 +88,26 @@ $$
 \\ \\ 
 &
 \begin{prooftree}
-\AXC{$\langle s, \sigma \rangle \to_{1} \sigma'$}
+\AXC{$\langle s_{1}, \sigma \rangle \to_{1} \sigma'$}
 \RL{${\ \mathrm{Seq_{1}}}$}
-\UIC{$\langle \texttt{$s$; $s'$}, \sigma \rangle \to_{1} \langle s', \sigma' \rangle $}
+\UIC{$\langle \texttt{$s_{1}$; $s_{2}$}, \sigma \rangle \to_{1} \langle s_{2}, \sigma' \rangle $}
 \end{prooftree}
 \quad \begin{prooftree}
-\AXC{$\langle s, \sigma \rangle \to_{1} \langle s'', \sigma' \rangle $}
+\AXC{$\langle s_{1}, \sigma \rangle \to_{1} \langle s', \sigma' \rangle $}
 \RL{${\ \mathrm{Seq_{+}}}$}
-\UIC{$\langle \texttt{$s$; $s'$}, \sigma \rangle \to_{1} \langle \texttt{$s''$; $s'$}, \sigma' \rangle $}
+\UIC{$\langle \texttt{$s_{1}$; $s_{2}$}, \sigma \rangle \to_{1} \langle \texttt{$s'$; $s_{2}$}, \sigma' \rangle $}
 \end{prooftree}
 \\ \\
 &
 \begin{prooftree}
 \AXC{}
 \RL{${\ \text{If $\ast$}}$}
-\UIC{$\langle \texttt{if $b$ then $s$ else $s'$ end}, \sigma \rangle \to_{1} \langle s, \sigma \rangle $}
+\UIC{$\langle \texttt{if $b$ then $s_{1}$ else $s_{2}$ end}, \sigma \rangle \to_{1} \langle s_{1}, \sigma \rangle $}
 \end{prooftree}
 \qquad\begin{prooftree}
 \AXC{}
 \RL{${\ \text{Else $\ast\ast$}}$}
-\UIC{$\langle \texttt{if $b$ then $s$ else $s'$ end}, \sigma \rangle \to_{1} \langle s', \sigma \rangle $}
+\UIC{$\langle \texttt{if $b$ then $s_{1}$ else $s_{2}$ end}, \sigma \rangle \to_{1} \langle s_{2}, \sigma \rangle $}
 \end{prooftree}
 \\ \\
 &
