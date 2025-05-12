@@ -1067,20 +1067,6 @@
                 }
               },
               {
-                "id": "a520cc0ebd5cb69f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/FMFP/VRL/FMFP-v-w07.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "FMFP-v-w07"
-                }
-              },
-              {
                 "id": "2757481fc84a0b9c",
                 "type": "leaf",
                 "state": {
@@ -1137,7 +1123,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "4eae27f0ad5ff541",
@@ -1166,9 +1152,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s10-IMP.pdf",
-                    "page": 28,
+                    "page": 26,
                     "left": -25,
-                    "top": 580,
+                    "top": 159,
                     "zoom": 0.6378505505469836
                   },
                   "icon": "lucide-file-text",
@@ -1182,9 +1168,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s11-operational-semantics.pdf",
-                    "page": 82,
+                    "page": 63,
                     "left": -38,
-                    "top": 97,
+                    "top": 259,
                     "zoom": 0.6182517906139757
                   },
                   "icon": "lucide-file-text",
@@ -1198,9 +1184,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s12-axiomatic-semantics.pdf",
-                    "page": 38,
+                    "page": 9,
                     "left": -38,
-                    "top": 601,
+                    "top": 114,
                     "zoom": 0.6182517906139757
                   },
                   "icon": "lucide-file-text",
@@ -1208,7 +1194,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1379,8 +1365,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "2757481fc84a0b9c",
-      "mtime": "2025-05-12T20:36:49+02:00"
+      "active": "3f47370b9252821b",
+      "mtime": "2025-05-12T21:55:06+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1707,5 +1693,5 @@
       "mtime": "2025-05-07T12:48:45+02:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "00-clean"
 }
