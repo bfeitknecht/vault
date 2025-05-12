@@ -72,6 +72,7 @@ end
 	- how individual "steps" of computation take place
 	- uses transition system to model step
 	- allows judgment over non-terminating programs and where order of execution matters
+	- specifically, non-determinism does not suppress non-termination
 $$
 \overset{\huge \mathrm{Operational}}{\boxed{\begin{align}
 &
