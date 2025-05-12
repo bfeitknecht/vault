@@ -33,7 +33,7 @@ tags:
 	- need to be made on well-founded set
 	- if an assertion is both pre- and post-condition, no downarrow
 $$
-\overset{\huge \mathrm{Axiom}}{\boxed{\begin{align}
+\overset{\huge \mathrm{Hoare}}{\boxed{\begin{align}
 &
 \begin{prooftree}
 \AXC{}
