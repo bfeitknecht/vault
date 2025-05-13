@@ -18,4 +18,7 @@ tags:
 # Notes
 - model checker produces concrete counterexample for violated property
 - systems are modeled as finite transition systems
-- 
+```spin
+#define N 5
+mtype = {ack, req};
+```
