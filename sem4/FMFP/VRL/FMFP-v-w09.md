@@ -61,6 +61,7 @@ begin
 	b := 2
 end;
 
+// not allowed
 var x := 3 in
 	p(; x, x)
 end
@@ -71,8 +72,12 @@ end
 - operational semantics (small-step) analyze what happens "within" the execution
 	- how individual "steps" of computation take place
 	- uses transition system to model step
+		- $\Gamma = \{ \langle s, \sigma \rangle \mid s \in \mathsf{Stm}, \sigma \in \mathsf{State} \} \cup \mathsf{State}$
+		- $T = \mathsf{State}$
+		- $\mathrel{\to_{1}} \subseteq (\Gamma - T) \times \Gamma$
 	- allows judgment over non-terminating programs and where order of execution matters
 	- specifically, non-determinism does not suppress non-termination
+	- $\langle s, \sigma \rangle \to_{1} \gamma$ describes the first step of the execution of statement $s$ in state $\sigma$
 $$
 \overset{\huge \mathrm{Operational}}{\boxed{\begin{align}
 &
