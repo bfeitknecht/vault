@@ -95,7 +95,7 @@ $$
 &
 \begin{prooftree}
 \AXC{$\langle s_{1}, \sigma \rangle \to_{1} \sigma'$}
-\RL{${\ \mathrm{Seq_{1}}}$}
+\RL{${\ \mathrm{Seq}}$}
 \UIC{$\langle \texttt{$s_{1}$; $s_{2}$}, \sigma \rangle \to_{1} \langle s_{2}, \sigma' \rangle $}
 \end{prooftree}
 \quad \begin{prooftree}

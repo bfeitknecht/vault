@@ -11,6 +11,11 @@ tags:
 
 
 # Topics
-
+- verification of parallel programs
+- model checking
+- promela
 
 # Notes
+- model checker produces concrete counterexample for violated property
+- systems are modeled as finite transition systems
+- 
