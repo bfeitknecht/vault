@@ -224,7 +224,7 @@
         }
       },
       "active": "61ee652f7a8c1691",
-      "mtime": "2025-05-13T08:49:54+02:00"
+      "mtime": "2025-05-13T17:24:47+02:00"
     },
     "00-home": {
       "main": {
@@ -452,7 +452,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
           "templater-obsidian:Templater": true,
           "obsidian-excalidraw-plugin:New drawing": true,
           "omnisearch:Omnisearch": false,
@@ -472,7 +471,7 @@
         }
       },
       "active": "162e7a61651e562a",
-      "mtime": "2025-05-02T18:28:09+02:00"
+      "mtime": "2025-05-13T17:26:02+02:00"
     },
     "sem4-cn": {
       "main": {
@@ -1081,34 +1080,6 @@
                 }
               },
               {
-                "id": "2757481fc84a0b9c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/FMFP/VRL/FMFP-v-w08.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "FMFP-v-w08"
-                }
-              },
-              {
-                "id": "94ce1b5c51c5a351",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/FMFP/VRL/FMFP-v-w09.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "FMFP-v-w09"
-                }
-              },
-              {
                 "id": "3f47370b9252821b",
                 "type": "leaf",
                 "state": {
@@ -1135,6 +1106,20 @@
                   "icon": "lucide-file",
                   "title": "FMFP-v-w11"
                 }
+              },
+              {
+                "id": "6e9c0ed95c9950a5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/FMFP/VRL/FMFP-v-w12.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "FMFP-v-w12"
+                }
               }
             ],
             "currentTab": 3
@@ -1152,27 +1137,11 @@
                     "file": "sem4/FMFP/VRL/extra/semantics-with-applications-nielson.pdf",
                     "page": 203,
                     "left": -28,
-                    "top": 123,
+                    "top": 128,
                     "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
                   "title": "semantics-with-applications-nielson"
-                }
-              },
-              {
-                "id": "478b173c41a04d45",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/FMFP/VRL/extra/slides/FMFP-s10-IMP.pdf",
-                    "page": 27,
-                    "left": -25,
-                    "top": 588,
-                    "zoom": 0.6378505505469836
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "FMFP-s10-IMP"
                 }
               },
               {
@@ -1182,9 +1151,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s11-operational-semantics.pdf",
-                    "page": 63,
+                    "page": 64,
                     "left": -38,
-                    "top": 259,
+                    "top": 583,
                     "zoom": 0.6182517906139757
                   },
                   "icon": "lucide-file-text",
@@ -1198,9 +1167,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s12-axiomatic-semantics.pdf",
-                    "page": 9,
+                    "page": 48,
                     "left": -38,
-                    "top": 114,
+                    "top": 391,
                     "zoom": 0.6182517906139757
                   },
                   "icon": "lucide-file-text",
@@ -1208,7 +1177,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1379,8 +1348,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "478b173c41a04d45",
-      "mtime": "2025-05-13T08:00:11+02:00"
+      "active": "6e9c0ed95c9950a5",
+      "mtime": "2025-05-13T17:24:26+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1707,5 +1676,5 @@
       "mtime": "2025-05-07T12:48:45+02:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "sem4-cn"
 }
