@@ -1166,9 +1166,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s10-IMP.pdf",
-                    "page": 26,
+                    "page": 27,
                     "left": -25,
-                    "top": 159,
+                    "top": 588,
                     "zoom": 0.6378505505469836
                   },
                   "icon": "lucide-file-text",
@@ -1379,8 +1379,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "3f47370b9252821b",
-      "mtime": "2025-05-12T21:55:06+02:00"
+      "active": "478b173c41a04d45",
+      "mtime": "2025-05-13T08:00:11+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1707,5 +1707,5 @@
       "mtime": "2025-05-07T12:48:45+02:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "00-clean"
 }
