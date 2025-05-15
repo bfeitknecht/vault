@@ -527,7 +527,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "f8e98817c16c28b1",
@@ -556,10 +556,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s17-SCION.pdf",
-                    "page": 59,
+                    "page": 54,
                     "left": -24,
-                    "top": 51,
-                    "zoom": 0.6181710213776723
+                    "top": 480,
+                    "zoom": 0.6181710213776722
                   },
                   "icon": "lucide-file-text",
                   "title": "CN-s17-SCION"
@@ -705,8 +705,8 @@
                 "state": {
                   "type": "vertical-tabs-view",
                   "state": {},
-                  "icon": "list",
-                  "title": "Vertical Tabs"
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               }
             ],
@@ -737,8 +737,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "7aaf570480aa10cb",
-      "mtime": "2025-05-05T16:12:29+02:00"
+      "active": "1ce358e985fe4cbc",
+      "mtime": "2025-05-15T10:13:02+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1676,5 +1676,5 @@
       "mtime": "2025-05-07T12:48:45+02:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-fmfp"
 }
