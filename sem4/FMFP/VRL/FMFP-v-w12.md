@@ -32,3 +32,12 @@ mtype = {ack, req};
 - for promela, buffer and capacity are both another source of explosion
 - expression statement is executable if $\texttt{E}$ does not evaluate to zero
 - $\texttt{\_{}nr\_pr}$ contains the number of active processes at any time
+- `if` selection statement semantically more like parallel choice in `IMP`
+- to model conditional, write expression followed by `->` before statement
+```promela
+if
+:: s1 /* first option */
+:: s2 /* .. */
+:: en -> sn /* conditional execution */
+fi
+```
