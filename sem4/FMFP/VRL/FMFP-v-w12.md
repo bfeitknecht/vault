@@ -43,6 +43,6 @@ fi
 ```
 - binary semaphore (locks)
 	- global bit variable, `locked`
-	- atomically wait until lock is available `locked == 0` and lock `locked = 1`
+	- atomically wait until lock is available `locked == 0`, then lock it `locked = 1`
 	- enter critical section, unlock
 - can declare atomic section, `atomic {}`
