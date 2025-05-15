@@ -30,3 +30,4 @@ mtype = {ack, req};
 - state space explosion, number of states grows exponentially in the number of variables
 - for concurrent programs, number of processes is another explosion
 - for promela, buffer and capacity are both another source of explosion
+- expression statement is executable if $\texttt{E}$ does not evaluate to zero
