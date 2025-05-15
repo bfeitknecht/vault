@@ -31,3 +31,4 @@ mtype = {ack, req};
 - for concurrent programs, number of processes is another explosion
 - for promela, buffer and capacity are both another source of explosion
 - expression statement is executable if $\texttt{E}$ does not evaluate to zero
+- $\texttt{\_{}nr\_pr}$ contains the number of active processes at any time
