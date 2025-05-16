@@ -44,15 +44,6 @@
       "key": "E"
     }
   ],
-  "cmdr:macro-0": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "S"
-    }
-  ],
   "editor:delete-paragraph": [],
   "break-page:insert-break-page": [
     {
@@ -73,14 +64,6 @@
         "Shift"
       ],
       "key": "7"
-    }
-  ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "S"
     }
   ],
   "editor:save-file": [],
@@ -295,6 +278,24 @@
         "Shift"
       ],
       "key": "Escape"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "cmdr:macro-0": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "E"
     }
   ]
 }

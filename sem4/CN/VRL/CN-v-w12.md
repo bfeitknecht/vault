@@ -11,9 +11,9 @@ tags:
 
 
 # Topics
+- linear programming
 - flow
 - shortest path
-- 
 
 
 # Notes
