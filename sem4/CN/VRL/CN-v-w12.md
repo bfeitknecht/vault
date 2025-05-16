@@ -8,6 +8,7 @@ tags:
 
 
 # Info
+- "Let's end the lecture! No, there's another lecture."
 
 
 # Topics
@@ -17,3 +18,4 @@ tags:
 
 
 # Notes
+- general space of integer linear problem (ILP) is NP-hard
