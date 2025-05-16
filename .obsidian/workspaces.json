@@ -499,20 +499,6 @@
                 }
               },
               {
-                "id": "2215c19a106f2baf",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/CN/VRL/CN-v-w10.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "CN-v-w10"
-                }
-              },
-              {
                 "id": "7aaf570480aa10cb",
                 "type": "leaf",
                 "state": {
@@ -525,9 +511,23 @@
                   "icon": "lucide-file",
                   "title": "CN-v-w11"
                 }
+              },
+              {
+                "id": "6db56890fb545153",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/CN/VRL/CN-v-w12.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "CN-v-w12"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "f8e98817c16c28b1",
@@ -558,8 +558,8 @@
                     "file": "sem4/CN/VRL/extra/slides/CN-s17-SCION.pdf",
                     "page": 54,
                     "left": -24,
-                    "top": 480,
-                    "zoom": 0.6181710213776722
+                    "top": 484,
+                    "zoom": 0.6181710213776723
                   },
                   "icon": "lucide-file-text",
                   "title": "CN-s17-SCION"
@@ -737,8 +737,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "1ce358e985fe4cbc",
-      "mtime": "2025-05-15T10:13:02+02:00"
+      "active": "6db56890fb545153",
+      "mtime": "2025-05-16T10:59:54+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -763,20 +763,6 @@
                   "pinned": true,
                   "icon": "lucide-file",
                   "title": "DMDB"
-                }
-              },
-              {
-                "id": "e461e6d0f5ca4729",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/DMDB-v-w09.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMDB-v-w09"
                 }
               },
               {
@@ -805,6 +791,20 @@
                   },
                   "icon": "lucide-file",
                   "title": "DMDB-v-w11"
+                }
+              },
+              {
+                "id": "e05f27f3cca729a1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/DMDB/VRL/DMDB-v-w12.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "DMDB-v-w12"
                 }
               }
             ],
@@ -865,14 +865,13 @@
               {
                 "id": "0cf080f2bd0ccf5c",
                 "type": "leaf",
-                "dimension": 25,
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s14-query-optimization.pdf",
                     "page": 29,
-                    "left": -28,
-                    "top": 433,
+                    "left": -13,
+                    "top": 437,
                     "zoom": 0.559375
                   },
                   "icon": "lucide-file-text",
@@ -1051,8 +1050,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "78f276af3cf26253",
-      "mtime": "2025-05-08T10:35:27+02:00"
+      "active": "e05f27f3cca729a1",
+      "mtime": "2025-05-16T11:00:14+02:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1145,39 +1144,39 @@
                 }
               },
               {
-                "id": "aa08e2944241896a",
+                "id": "bb9af1d8c62a2d09",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/FMFP/VRL/extra/slides/FMFP-s11-operational-semantics.pdf",
-                    "page": 64,
-                    "left": -38,
-                    "top": 583,
-                    "zoom": 0.6182517906139757
+                    "file": "sem4/FMFP/VRL/extra/slides/FMFP-s13-modeling.pdf",
+                    "page": 54,
+                    "left": -25,
+                    "top": 450,
+                    "zoom": 0.6182517906139756
                   },
                   "icon": "lucide-file-text",
-                  "title": "FMFP-s11-operational-semantics"
+                  "title": "FMFP-s13-modeling"
                 }
               },
               {
-                "id": "45996a20780806d2",
+                "id": "32f77a30bfe3d3c6",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/FMFP/VRL/extra/slides/FMFP-s12-axiomatic-semantics.pdf",
-                    "page": 48,
-                    "left": -38,
-                    "top": 391,
-                    "zoom": 0.6182517906139757
+                    "file": "sem4/FMFP/VRL/extra/slides/FMFP-s14-linear-time-properties.pdf",
+                    "page": 3,
+                    "left": -25,
+                    "top": 522,
+                    "zoom": 0.6182517906139756
                   },
                   "icon": "lucide-file-text",
-                  "title": "FMFP-s12-axiomatic-semantics"
+                  "title": "FMFP-s14-linear-time-properties"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1349,7 +1348,7 @@
         }
       },
       "active": "6e9c0ed95c9950a5",
-      "mtime": "2025-05-13T17:24:26+02:00"
+      "mtime": "2025-05-16T10:59:34+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1377,34 +1376,6 @@
                 }
               },
               {
-                "id": "c0bd1bb88f2aa27d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/W&S/VRL/W&S-v-w09.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "W&S-v-w09"
-                }
-              },
-              {
-                "id": "73daccfe8207d8c2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/W&S/VRL/W&S-v-w10.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "W&S-v-w10"
-                }
-              },
-              {
                 "id": "138b01415c3a2f01",
                 "type": "leaf",
                 "state": {
@@ -1416,6 +1387,20 @@
                   },
                   "icon": "lucide-file",
                   "title": "W&S-v-w11"
+                }
+              },
+              {
+                "id": "0d158fda98abca89",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/W&S/VRL/W&S-v-w12.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "W&S-v-w12"
                 }
               },
               {
@@ -1433,7 +1418,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "f6a409c477b7352e",
@@ -1477,8 +1462,8 @@
                   "state": {
                     "file": "sem4/W&S/VRL/extra/W&S-script-2-de.pdf",
                     "page": 19,
-                    "left": 63,
-                    "top": 192,
+                    "left": 59,
+                    "top": 196,
                     "zoom": 1.1
                   },
                   "icon": "lucide-file-text",
@@ -1672,9 +1657,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "138b01415c3a2f01",
-      "mtime": "2025-05-07T12:48:45+02:00"
+      "active": "0d158fda98abca89",
+      "mtime": "2025-05-16T11:00:04+02:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "sem4-cn"
 }
