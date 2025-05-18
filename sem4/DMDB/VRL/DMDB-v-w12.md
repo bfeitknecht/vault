@@ -13,6 +13,8 @@ tags:
 
 
 # Topics
+- database transactions
 
 
 # Notes
+- what's inside log record?
