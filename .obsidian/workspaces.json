@@ -540,33 +540,49 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/CN-top-down-kurose-ross.pdf",
-                    "page": 457,
-                    "left": -21,
-                    "top": 352,
-                    "zoom": 0.7341325811001411
+                    "page": 456,
+                    "left": -29,
+                    "top": 7,
+                    "zoom": 0.5088152327221439
                   },
                   "icon": "lucide-file-text",
                   "title": "CN-top-down-kurose-ross"
                 }
               },
               {
-                "id": "1ce358e985fe4cbc",
+                "id": "b0f359983a881eed",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/CN/VRL/extra/slides/CN-s17-SCION.pdf",
-                    "page": 54,
+                    "file": "sem4/CN/VRL/extra/slides/CN-s19-linear-programming.pdf",
+                    "page": 30,
                     "left": -24,
-                    "top": 484,
-                    "zoom": 0.6181710213776723
+                    "top": 389,
+                    "zoom": 0.637767220902613
                   },
                   "icon": "lucide-file-text",
-                  "title": "CN-s17-SCION"
+                  "title": "CN-s19-linear-programming"
+                }
+              },
+              {
+                "id": "69e5453492ab9f66",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/CN/VRL/extra/slides/CN-s20-probabilistic-techniques.pdf",
+                    "page": 43,
+                    "left": -24,
+                    "top": 85,
+                    "zoom": 0.6377672209026128
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "CN-s20-probabilistic-techniques"
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -705,8 +721,8 @@
                 "state": {
                   "type": "vertical-tabs-view",
                   "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
+                  "icon": "list",
+                  "title": "Vertical Tabs"
                 }
               }
             ],
@@ -737,8 +753,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "6db56890fb545153",
-      "mtime": "2025-05-16T10:59:54+02:00"
+      "active": "69e5453492ab9f66",
+      "mtime": "2025-05-16T18:04:24+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1151,8 +1167,8 @@
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s13-modeling.pdf",
                     "page": 54,
-                    "left": -25,
-                    "top": 450,
+                    "left": -39,
+                    "top": 454,
                     "zoom": 0.6182517906139756
                   },
                   "icon": "lucide-file-text",
@@ -1347,8 +1363,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "6e9c0ed95c9950a5",
-      "mtime": "2025-05-16T10:59:34+02:00"
+      "active": "bb9af1d8c62a2d09",
+      "mtime": "2025-05-18T14:50:45+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1661,5 +1677,5 @@
       "mtime": "2025-05-16T11:00:04+02:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-dmdb"
 }
