@@ -871,7 +871,7 @@
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s13-operators.pdf",
                     "page": 6,
                     "left": -29,
-                    "top": 162,
+                    "top": 176,
                     "zoom": 0.5421875
                   },
                   "icon": "lucide-file-text",
@@ -884,14 +884,14 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s14-query-optimization.pdf",
-                    "page": 29,
-                    "left": -13,
-                    "top": 437,
-                    "zoom": 0.559375
+                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s17-logging.pdf",
+                    "page": 33,
+                    "left": -29,
+                    "top": 7,
+                    "zoom": 0.5421875
                   },
                   "icon": "lucide-file-text",
-                  "title": "DMDB-s14-query-optimization"
+                  "title": "DMDB-s17-logging"
                 }
               }
             ],
@@ -1067,7 +1067,7 @@
         }
       },
       "active": "e05f27f3cca729a1",
-      "mtime": "2025-05-16T11:00:14+02:00"
+      "mtime": "2025-05-19T14:32:26+02:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1677,5 +1677,5 @@
       "mtime": "2025-05-16T11:00:04+02:00"
     }
   },
-  "active": "sem4-dmdb"
+  "active": "sem4-cn"
 }

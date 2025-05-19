@@ -17,4 +17,4 @@ tags:
 
 
 # Notes
-- what's inside log record?w
+- what's inside log record?

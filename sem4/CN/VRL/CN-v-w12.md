@@ -15,6 +15,7 @@ tags:
 - linear programming
 - flow
 - shortest path
+- hash collision
 
 
 # Notes
