@@ -17,8 +17,9 @@ tags:
 - shortest path
 - hash collision
 - bloom filter
-- 
 
 
 # Notes
 - general space of integer linear problem (ILP) is NP-hard
+- less than 1% of flows account for more than 90% of traffic volume
+- 
