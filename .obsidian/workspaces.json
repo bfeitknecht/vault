@@ -573,8 +573,8 @@
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s20-probabilistic-techniques.pdf",
                     "page": 43,
-                    "left": -24,
-                    "top": 85,
+                    "left": -11,
+                    "top": 89,
                     "zoom": 0.6377672209026128
                   },
                   "icon": "lucide-file-text",
@@ -753,8 +753,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "69e5453492ab9f66",
-      "mtime": "2025-05-16T18:04:24+02:00"
+      "active": "6db56890fb545153",
+      "mtime": "2025-05-20T09:46:47+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1677,5 +1677,5 @@
       "mtime": "2025-05-16T11:00:04+02:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-fmfp"
 }
