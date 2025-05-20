@@ -8,12 +8,14 @@ tags:
 
 
 # Info
+- "You go to some random website, you don't know if it's made by your friend or the NSA."
 
 
 # Topics
 - verification of parallel programs
 - model checking
 - promela
+- number only used once (nonce)
 
 # Notes
 - model checker produces concrete counterexample for violated property
@@ -46,3 +48,5 @@ fi
 	- atomically wait until lock is available `locked == 0`, then lock it `locked = 1`
 	- enter critical section, unlock
 - can declare atomic section, `atomic {}`
+
+- separate cryptography on data level from high level reasoning on protocol level, assume it just works
