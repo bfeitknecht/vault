@@ -88,3 +88,16 @@ fi
 	- violated in *infinite* time
 - every possible property can be written as a conjunction of safety properties and liveness properties
 - trade-off between the two to meet desired specification and quality
+
+
+
+
+
+
+$$
+\begin{align}
+\mathop{\huge\circ}\phi \\
+\mathop{\huge\diamond} \phi &\equiv \mathrm{True} \mathrel{\mathsf{U}} \phi\\
+\mathop{\square} \phi &\equiv \lnot \mathop{\huge\diamond} \lnot \phi
+\end{align}
+$$
