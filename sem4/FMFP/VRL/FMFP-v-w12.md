@@ -16,6 +16,10 @@ tags:
 - model checking
 - promela
 - number only used once (nonce)
+- linear temporal logic
+- transition system
+- safety property
+- liveness property
 
 # Notes
 - model checker produces concrete counterexample for violated property
@@ -50,3 +54,35 @@ fi
 - can declare atomic section, `atomic {}`
 
 - separate cryptography on data level from high level reasoning on protocol level, assume it just works
+
+- infinite sequence $S^{\omega}$, where $s_{[i]} \in S^{\omega}$ denotes $i$-th element
+- $\gamma \in \Gamma^{\omega}$ is a computation of transition system
+	- $\gamma_{[0]} = \sigma_{I}$
+	- $\forall i \in \mathbb{N}. \gamma_{[i]} \to\gamma_{[i+1]}$
+	- $\sigma \in \Gamma$ ranges over states of transition system
+- $\mathcal{C}(\mathrm{TS})$ is the set of all computations of transition system $\mathrm{TS}$
+- linear time property over states is a subset of computations, $P \subseteq \Gamma^{\omega}$
+	- $\mathrm{TS} \models P \iff \mathcal{C}(\mathrm{TS}) \subseteq P$
+	- every computation of $\mathrm{TS}$ belongs to $P$
+- atomic propositions additionally specify a set $\mathrm{AP}$
+	- atomic proposition contains no logical connective (logical AND, consequence, etc.)
+	- must provide labeling function that maps configurations to sets of atomic propositions
+	- $L : \Gamma \to \mathcal{P}(\mathrm{AP})$
+	- $L(\sigma)$ is an abstract state
+	- this allows for much simpler reasoning, since explicit state specification can be avoided
+- trace is an abstraction of a computation
+	- infinite sequence of abstract states
+	- only care about the propositions of each state, not concrete state
+	- $t \in \mathcal{P}(\mathrm{AP})^{\omega}$ is a trace of $\mathrm{TS}$ only if
+		- $t = (L(\gamma_{[i]}))_{i \in \mathbb{N}}$, where $\gamma = (\gamma_{i})_{n \in \mathbb{N}} \in \mathcal{C}(\mathrm{TS})$ is a computation of the transition system
+	- $\mathcal{T}(\mathrm{TS})$ is the set of all traces of a transition system
+- safety property "something bad (which cannot be fixed) must never happen!", i.e. invariants
+	- DEFINITION #todo 
+	- violated in *finite* time
+	- bad prefix is finite sequence of steps that leads to violation of property
+- liveness property "something good will happen eventually"
+	- DEFINITION #todo 
+	- violated in *infinite* time
+	- does not rule out any prefix
+- every possible property can be written as a conjunction of safety properties and liveness properties
+- trade-off between the two to meet desired specification and quality
