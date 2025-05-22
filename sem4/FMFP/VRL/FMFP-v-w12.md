@@ -91,15 +91,44 @@ fi
 - every possible property can be written as a conjunction of safety properties and liveness properties
 - trade-off between the two to meet desired specification and quality
 
-
-
-
-
-
-$$
-\begin{align}
-\mathop{\huge\circ}\phi \\
-\mathop{\huge\diamond} \phi &\equiv \mathrm{True} \mathrel{\mathsf{U}} \phi\\
-\mathop{\square} \phi &\equiv \lnot \mathop{\huge\diamond} \lnot \phi
-\end{align}
-$$
+- syntax of linear temporal logic
+- LTL formula,  $\phi = p \mid \lnot \phi \mid \phi \land \phi \mid \phi \mathrel{\mathsf{U}} \psi \mid \mathop{\huge\circ}\phi$
+	- atomic proposition $p \in \mathrm{AP} \neq \varnothing$
+	- negation, conjunction as usual
+	- until, non-negative natural number of steps
+	- next, after current step
+- semantics of LTL
+	- $t \models \phi$ expresses that trace $t \in \mathcal{P}(\mathrm{AP})^{\omega}$ satisfies LTL formula $\phi$, defined as follows
+		- $t \models p \iff p \in t_{[0]}$
+		- $t \models \lnot\phi \iff \text{not } t \models \phi$
+		- $t \models \phi \land \psi \iff t \models \phi \text{ and } t \models \psi$}$
+		- $t \models \phi \mathrel{\mathsf{U}} \psi \iff \exists k \in \mathbb{N}_{+}. t_{(\geq k)} \models \psi \text{ and } \exists j \in \mathbb{N}_{+}, j < k. t_{(\geq j)} \models \phi$}$
+		- $t \models \mathop{\huge\circ}\phi  \iff t_{(\geq1)} \models \phi$
+	- derived operators and constants
+		- $\mathrm{True}, \mathrm{False}, \lor, \Rightarrow, \Leftrightarrow$ as usual
+		- eventually, $\mathop{\huge\diamond} \phi \equiv \mathrm{True} \mathrel{\mathsf{U}} \phi$
+		- always, $\mathop{\square} \phi \equiv \lnot \mathop{\huge\diamond} \lnot \phi$
+- $p \mathrel{\mathsf{U}} q$ is neither safety nor liveness property
+	- $\{ p \}^{\omega}$ violates safety property, there is no bad prefix
+	- $\{ \lnot p \} \{  q \} \dots$ violates liveness property, trace cannot be fixed
+- useful patterns
+	- strong invariant, $\mathop{\square} \phi$
+		- $\phi$ always holds
+		- safety property if $\phi$ is safety property
+		- example, file is always either open or closed
+	- monotone invariant, $\mathop{\square} (\phi \Rightarrow \mathop{\square} \phi)$
+		- once $\phi$ holds it always holds
+		- safety property if $\phi$ is safety property
+		- example, once information is public, it can never become secret again
+	- establishing invariant, $\mathop{\huge\diamond}\mathop{\square} \phi$
+		- eventually $\phi$ always holds
+		- example, system initialization starts service
+		- liveness property if $\phi$ is satisfiable
+	- responsiveness, $\mathop{\square} (\psi \Rightarrow \mathop{\huge\diamond} \phi)$
+		- every time $\psi$ holds, $\phi$ will eventually hold
+		- example, all open files must be closed eventually
+		- liveness property if $\phi$ is satisfiable
+	- fairness, $\mathop{\square} \mathop{\huge\diamond} \phi$
+		- $\phi$ holds infinitely often
+		- example, producer does not wait infinitely long before critical section
+		- liveness property if $\phi$ is satisfiable
