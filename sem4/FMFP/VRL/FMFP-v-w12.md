@@ -115,20 +115,20 @@ fi
 	- strong invariant, $\mathop{\square} \phi$
 		- $\phi$ always holds
 		- safety property if $\phi$ is safety property
-		- example, file is always either open or closed
+		- "file is always either open or closed"
 	- monotone invariant, $\mathop{\square} (\phi \Rightarrow \mathop{\square} \phi)$
 		- once $\phi$ holds it always holds
 		- safety property if $\phi$ is safety property
-		- example, once information is public, it can never become secret again
+		- "once information is public, it can never become secret again"
 	- establishing invariant, $\mathop{\huge\diamond}\mathop{\square} \phi$
 		- eventually $\phi$ always holds
-		- example, system initialization starts service
 		- liveness property if $\phi$ is satisfiable
+		- "system initialization starts service"
 	- responsiveness, $\mathop{\square} (\psi \Rightarrow \mathop{\huge\diamond} \phi)$
 		- every time $\psi$ holds, $\phi$ will eventually hold
-		- example, all open files must be closed eventually
+		- "all open files must be closed eventually"
 		- liveness property if $\phi$ is satisfiable
 	- fairness, $\mathop{\square} \mathop{\huge\diamond} \phi$
 		- $\phi$ holds infinitely often
-		- example, producer does not wait infinitely long before critical section
 		- liveness property if $\phi$ is satisfiable
+		- "producer does not wait infinitely long before critical section"
