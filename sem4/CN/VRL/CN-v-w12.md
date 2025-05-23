@@ -2,8 +2,12 @@
 name: "[[CN.md]]"
 prev: "[[CN-v-w11.md]]"
 next: "[[CN-v-w13.md]]"
-slides: 
-tags: 
+slides:
+  - "[[CN-s18-network-algorithms.pdf]]"
+  - "[[CN-s19-linear-programming.pdf]]"
+  - "[[CN-s20-probabilistic-techniques.pdf]]"
+tags:
+  - todo
 ---
 
 
