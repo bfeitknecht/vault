@@ -17,7 +17,6 @@ tags:
 - normal model
 
 
-
 # Notes
 - $\{ X_{i} \sim \mathcal{N}(0, 1)\}_{m} \implies |(X_{i})_{m}| \sim \chi_{m}$, for a family of $m$ normal distributions, the length of the combined vector exhibits chi distribution in $m$
 - $\frac{\chi_{m}}{\sqrt{ m }} \overset{m}{\to} 1$, as the number of dimensions in chi distribution increases, the normalized vector length approaches one

@@ -1169,9 +1169,9 @@
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s14-linear-time-properties.pdf",
                     "page": 22,
-                    "left": -24,
-                    "top": 518,
-                    "zoom": 0.6378505505469837
+                    "left": -4,
+                    "top": 522,
+                    "zoom": 0.6378505505469836
                   },
                   "icon": "lucide-file-text",
                   "title": "FMFP-s14-linear-time-properties"
@@ -1247,8 +1247,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 276.5,
-        "collapsed": true
+        "width": 276.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1349,8 +1348,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "6e9c0ed95c9950a5",
-      "mtime": "2025-05-23T15:15:08+02:00"
+      "active": "5f4cf158045f14fe",
+      "mtime": "2025-05-25T12:18:46+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1663,5 +1662,5 @@
       "mtime": "2025-05-23T15:15:19+02:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "sem4-w&s"
 }
