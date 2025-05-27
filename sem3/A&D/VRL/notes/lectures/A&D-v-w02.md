@@ -1,3 +1,3 @@
 
-- [[asymptotic analyis]] with [[limit|limits]]
+- [[asymptotic analysis]] with [[limit|limits]]
 - using [[l'hopital's rule]]

@@ -7,8 +7,5 @@ $$
 
 The **row space** of some matrix $A\in \mathbb R^{m\times n}$, is the **span** of its [[row and column vectors|row vectors]].
 $$
-\mathbf{R}(A) = \mathbf{C}(A^\top)
+\mathbf{R}(A) = \mathbf{C}(A^{\mathsf{T}})
 $$
-
-
-

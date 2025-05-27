@@ -3,12 +3,12 @@
 
 The **SVD** (singular value decomposition) is the ultimate theorem of linear algebra. For an $m \times n$ matrix $A$ with $\mathrm{rank}(A) = r$ it's as follows.
 $$
-A = U \Sigma V^{\top}
+A = U \Sigma V^{\mathsf{T}}
 $$
 
 
 ```tikz
-\usepackage{tikz} 
+\usepackage{tikz}
 \begin{document}
 
 \begin{tikzpicture}
@@ -41,7 +41,7 @@ $$
 
 
 ```tikz
-\usepackage{tikz} 
+\usepackage{tikz}
 \begin{document}
 
 \begin{tikzpicture}

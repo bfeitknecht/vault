@@ -19,17 +19,17 @@ git lfs pull --include <GLOB>	  # git-lfs pull only GLOB
 ```
 
 > [!info]- utility plugin list
-> 
-> - automatic table of content  
+>
+> - automatic table of content
 > - language tool integration
 > - zotero integration
 > - open in new tab
 > - flashcards
 > - [auto anki](https://github.com/cadrianxyz/obsidian-auto-anki)
->   
+>
 
 > [!info]- usage plugin list
-> 
+>
 > - global search and replace
 > - folder notes
 > - user plugin
@@ -40,8 +40,8 @@ git lfs pull --include <GLOB>	  # git-lfs pull only GLOB
 - attachment management fucked shit up and put normal pdfs into the wrong folder
 - want to paste pdf selection as image, so it's synced to the web etc.
 - rename stuff
-	- AuD -> A&D  
-    - AuW -> A&W  
+	- AuD -> A&D
+    - A&W -> A&W
     - TIN -> TI
 - ==minimal theme causes major lag==
 
@@ -113,7 +113,7 @@ git lfs pull --include <GLOB>	  # git-lfs pull only GLOB
 > css styles need !important tag
 
 >[!info]- toggl hide ugly big header
-> - delete div `<div class="css-1a5pxsz-TopResponsiveBarContainer e2h8eq20">` 
+> - delete div `<div class="css-1a5pxsz-TopResponsiveBarContainer e2h8eq20">`
 > - disable `:root { --top-responsive-bar-height: 80px; }`
 
 
@@ -154,5 +154,3 @@ comment
 comment
 -->
 ```
-
-

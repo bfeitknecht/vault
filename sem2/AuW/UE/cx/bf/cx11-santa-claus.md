@@ -1,11 +1,11 @@
 
 ## Problem
-![[auw-network-flow-multi-source&sink.png]]
-![[auw-network-flow-multi-source&sink-img.png]]
+![[A&W-network-flow-multi-source&sink.png]]
+![[A&W-network-flow-multi-source&sink-img.png]]
 
 
-![[auw-network-flow-vertex-capacity.png]]
-![[auw-network-flow-vertex-capacity-img.png]]
+![[A&W-network-flow-vertex-capacity.png]]
+![[A&W-network-flow-vertex-capacity-img.png]]
 
 
 ## Graph
@@ -38,7 +38,7 @@ public boolean possible() {
 	int S = 0;            // supersource
 	int T = n+m+1;        // supersink
 	int D = 0;            // total deserved toys
-      
+
 	Graph G = new Graph(n+m+2);
 	for (int i = 1; i <= n+m; i++) {
 		if (i <= n) {             	// iterate over kids

@@ -1,7 +1,7 @@
-#todo 
+#todo
 
 - [ ] min, max vs argmin, argmax
-- [ ] rename directories (AuD, AuW)
+- [ ] rename directories (AuD, A&W)
 - [ ] catch up with note taking
 	- [ ] monoid
 	- [ ] group
@@ -22,4 +22,4 @@
 - [ ] inner direct product
 - [ ] symmetric basis exchange
 - [ ] matrix decomposition
-- [ ] 
+- [ ]

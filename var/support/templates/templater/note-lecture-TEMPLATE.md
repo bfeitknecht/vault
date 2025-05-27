@@ -3,6 +3,7 @@ module:
 prev:
 next:
 tags:
+  - note/lecture
 slides:
 ---
 

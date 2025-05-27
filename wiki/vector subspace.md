@@ -53,7 +53,7 @@ Let $U \subseteq V$. For some vector space $U'$ such that $U \cap U' = \{ \mathb
 
 ## Orthogonal Subspace
 
-Two vector spaces $U, V$ are said to be **orthogonal**, $U \mathop\bot V$ if it holds that $\forall \mathbf{u} \in U, \mathbf{v}  \in V : \mathbf{u}^{\top} \mathbf{v} = 0$, i.e. all vectors are orthogonal.
+Two vector spaces $U, V$ are said to be **orthogonal**, $U \mathop\bot V$ if it holds that $\forall \mathbf{u} \in U, \mathbf{v}  \in V : \mathbf{u}^{\mathsf{T}} \mathbf{v} = 0$, i.e. all vectors are orthogonal.
 
 
 ## Orthogonal Complement
@@ -62,4 +62,3 @@ Let $V \subseteq W$ be a vector subspace of $V$. Then $V^{\bot} = \{  w \in W \m
 
 
 ## Isomorphisms
-

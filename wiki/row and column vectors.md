@@ -1,6 +1,6 @@
-#todo 
+#todo
 
-Since a [[vector]] is just a one dimensional [[matrix]], there are two forms a vector can take. A **column vector**, $\mathbf{v} \in \mathbb R^m$ is a $m\times 1$ matrix, whereas a **row vector** $\mathbf{u} \in \mathbb R^n$ is a $1\times n$ matrix. 
+Since a [[vector]] is just a one dimensional [[matrix]], there are two forms a vector can take. A **column vector**, $\mathbf{v} \in \mathbb R^m$ is a $m\times 1$ matrix, whereas a **row vector** $\mathbf{u} \in \mathbb R^n$ is a $1\times n$ matrix.
 
 Let $A\in\mathbb R^{m\times n}$ be some matrix,
 $$
@@ -31,8 +31,8 @@ A =
 $$
 
 
-Similarily, for some *column vector* $\mathbf{w}\in \mathbb R^m$, 
+Similarily, for some *column vector* $\mathbf{w}\in \mathbb R^m$,
 $$
 \mathbf{w=\begin{bmatrix}w_{1}\\ w_{2}\\ \vdots\\ w_{m} \end{bmatrix}},
 $$
-it's [[transpose]] $\mathbf{w}^\top=\begin{bmatrix}w_{1}, &w_{2}, &\dots, &w_{m }\end{bmatrix}$ is a *row vector* and vice versa.
+its [[transpose]] $\mathbf{w}^{\mathsf{T}}=\begin{bmatrix}w_{1}, &w_{2}, &\dots, &w_{m }\end{bmatrix}$ is a *row vector* and vice versa.

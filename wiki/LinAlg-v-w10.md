@@ -12,15 +12,15 @@
 
 - partial order on vectors is defined component wise, $\mathbf{v} \leq \mathbf{w} \iff v_{j} \leq w_{j}$
 
-- null space of a matrix is the orthogonal complementary space of its row space, $\mathcal{N}(A) = \mathcal{C}(A^{\top})^{\bot}$
-- left null space is orthogonal complementary space of column space, $\mathcal{N}(A^{\top}) = \mathcal{C}(A)^{\bot}$
+- null space of a matrix is the orthogonal complementary space of its row space, $\mathcal{N}(A) = \mathcal{C}(A^{\mathsf{T}})^{\bot}$
+- left null space is orthogonal complementary space of column space, $\mathcal{N}(A^{\mathsf{T}}) = \mathcal{C}(A)^{\bot}$
 
 
-- $Q^{\top}Q = I$ but $QQ^{\top} \neq I$ since $Q$ might not be square matrix!
+- $Q^{\mathsf{T}}Q = I$ but $QQ^{\mathsf{T}} \neq I$ since $Q$ might not be square matrix!
 
 
 **Pseudoinverse**
-$A^{+}$ is pseudoinverse of matrix $A$ and approximates the inverse of the linear transformation described by $A$ $T_{A^{+}} : \mathcal{C}(A) \oplus \mathcal{N}(A^{\top}) \to \mathcal{C}(A^{\top})$
+$A^{+}$ is pseudoinverse of matrix $A$ and approximates the inverse of the linear transformation described by $A$ $T_{A^{+}} : \mathcal{C}(A) \oplus \mathcal{N}(A^{\mathsf{T}}) \to \mathcal{C}(A^{\mathsf{T}})$
 
 If matrix $A$ is square and full rank, the pseudoinverse is the inverse
 

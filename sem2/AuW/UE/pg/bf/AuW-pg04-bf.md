@@ -1,11 +1,11 @@
-![[A&W-e-pg04.pdf#page=1&rect=86,405,522,557|AuW-u04-pg-e, p.1]]
+![[A&W-e-pg04.pdf#page=1&rect=86,405,522,557|A&W-u04-pg-e, p.1]]
 $$
 \begin{align}
 &\mathbf{Algorithm\ A} \\
 &\text{Input: } N\in \mathbb N \\
 &\text{Output: } X\in(N, 2N) \\
 &\text{Runtime: $\mathcal O(\log N)$} \\
-&\text{Probability: } p_{N} \geq \frac{1}{\log N} 
+&\text{Probability: } p_{N} \geq \frac{1}{\log N}
 \end{align}
 $$
 
@@ -24,7 +24,7 @@ $$
 &\text{Input: } N\in \mathbb N \\
 &\text{Output: } X\in(N, 2N) \\
 &\text{Runtime: $\mathcal O(?)$} \\
-&\text{Probability: } p_{N} \geq \frac{1}{2} 
+&\text{Probability: } p_{N} \geq \frac{1}{2}
 \end{align}
 $$
 

@@ -1,13 +1,13 @@
 
 
-![[A&W-e-pg06.pdf#page=1&rect=88,483,516,547|AuW-pg06-e, p.1]]
+![[A&W-e-pg06.pdf#page=1&rect=88,483,516,547|A&W-pg06-e, p.1]]
 
 
 
 <div class="page-break" style="page-break-before: always;"></div>
 
 ## (a)
-![[A&W-e-pg06.pdf#page=1&rect=113,442,516,481|AuW-pg06-e, p.1]]
+![[A&W-e-pg06.pdf#page=1&rect=113,442,516,481|A&W-pg06-e, p.1]]
 
 **Algorithm to Merge Two Convex Hulls:**
 1. **Find Upper and Lower Tangents**:
@@ -46,7 +46,7 @@
 <div class="page-break" style="page-break-before: always;"></div>
 
 ## (b)
-![[A&W-e-pg06.pdf#page=1&rect=113,401,518,440|AuW-pg06-e, p.1]]
+![[A&W-e-pg06.pdf#page=1&rect=113,401,518,440|A&W-pg06-e, p.1]]
 
 **Algorithm**:
 1. **Base Case**: If there are 1 or 2 points, the convex hull is the points themselves.

@@ -12,9 +12,9 @@ A = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-Then the set condition $A\mathbf{v}=\mathbf{0}$ in $S^{\mathbf{v}}$ can be rewritten as $[\mathbf{u}_{i}^{\top} \mathbf{v}]_{i=1}^{2} = \mathbf{0}$,  where $\mathbf{v} \in \mathbb{R}^{m}$ denotes an arbitrary fixed, non-zero vector, i.e. $\mathbf{v} \neq \mathbf{0}$.
+Then the set condition $A\mathbf{v}=\mathbf{0}$ in $S^{\mathbf{v}}$ can be rewritten as $[\mathbf{u}_{i}^{\mathsf{T}} \mathbf{v}]_{i=1}^{2} = \mathbf{0}$,  where $\mathbf{v} \in \mathbb{R}^{m}$ denotes an arbitrary fixed, non-zero vector, i.e. $\mathbf{v} \neq \mathbf{0}$.
 
-This implies that both row vectors of $A$, namely $\mathbf{u}_{1}, \mathbf{u}_{2} \in \mathbb{R}^{m}$ must be orthogonal to $\mathbf{v}$, i.e. lie in the hyperplane $H = \{ \mathbf{w} \in \mathbb{R}^{m} : \mathbf{w}^{\top}\mathbf{v}=0 \} \subseteq \mathbb{R}^{m}$ induced by it.
+This implies that both row vectors of $A$, namely $\mathbf{u}_{1}, \mathbf{u}_{2} \in \mathbb{R}^{m}$ must be orthogonal to $\mathbf{v}$, i.e. lie in the hyperplane $H = \{ \mathbf{w} \in \mathbb{R}^{m} : \mathbf{w}^{\mathsf{T}}\mathbf{v}=0 \} \subseteq \mathbb{R}^{m}$ induced by it.
 
 Per $1a, 1b$ we know that the dimension of a hyperplane that is vector subspace of a vector space $V$ is $\dim(V) -1$. Since $\dim(\mathbb{R}^{m})=m$, we have $\dim(H) = m-1$.
 

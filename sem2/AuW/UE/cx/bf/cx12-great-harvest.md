@@ -4,7 +4,7 @@
 ```
 n	=	4
 m	=	4
-v	= 	[1, 2, 3, 2]	
+v	= 	[1, 2, 3, 2]
 p	=	[12, 6, 3, 5]
 d	=	[4, 1, 8, 13]
 
@@ -54,14 +54,14 @@ idt0((0))
 idt1((1))
 idt2((2))
 idt3((3))
-  
+
 
 %% variety
 id0a((a))
 id1b((b))
 id2c((c))
 id3b((b))
-  
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -125,7 +125,7 @@ id1((12))
 id2((13))
 id3((14))
 id4((15))
-  
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -155,7 +155,7 @@ id4 ---|"?/13"| idT
 
 ```
 
-![[auw-cx12-great-harvest-graph.png]]
+![[A&W-cx12-great-harvest-graph.png]]
 
 
 ## Code
@@ -167,13 +167,13 @@ public static void testCase() {
 	int s = 4*n;
 	int t = s+1;
 	int I = Integer.MAX_VALUE;
-	
+
 	int[] variety = new int[n];
 	int demands = 0;
 	int produce = 0;
-	
+
 	Graph G = new Graph(4*n+2);
-	
+
 	for (int i = 1; i <= n; i++) {
 		int v = In.readInt();
 		int p = In.readInt();
@@ -181,28 +181,28 @@ public static void testCase() {
 		variety[i-1] = v;
 		demands += d;
 		produce += p;
-		
+
 		int a = 4*(i-1);
 		int b = a+4;
 		G.addEdge(s, a+v, p);
 		G.addEdge(b, t, d);
-		
+
 		for (int j = 1; j <= 3; j++) {
 			G.addEdge(a+j, b, I);
 		}
 	}
-	
+
 	for (int i = 1; i <= m; i++) {
 		int a = In.readInt();
 		int b = In.readInt();
-		
+
 		for (int j = 1; j <= 3; j++) {
 			if (variety[b] != j) {
 				G.addEdge(4*a+j, 4*b+j, I);
 			}
 		}
-	} 
-	
+	}
+
 	boolean possible = G.computeMaximumFlow(s, t) == demandsy;
 	Out.println(possible? "y" : "n");
 }

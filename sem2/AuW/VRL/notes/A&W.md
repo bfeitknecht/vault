@@ -88,7 +88,7 @@ MST ist lowerbound von optimaler TSP tour
 
 
 
-[TSP video](https://youtu.be/GiDsjIBOVoA?si=GTyS4TDwsS9jECNy) 
+[TSP video](https://youtu.be/GiDsjIBOVoA?si=GTyS4TDwsS9jECNy)
 
 
 
@@ -118,33 +118,5 @@ k-zsh. ≤ k-edge.zsh. ≤ $\delta(G)$
 
 
 
-![[AuW-script.pdf#page=212&rect=114,516,483,636|AuW-script, p.212]]
-![[AuW-script.pdf#page=213&rect=209,515,385,534|AuW-script, p.213]]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![[A&W-script.pdf#page=212&rect=114,516,483,636|A&W-script, p.212]]
+![[A&W-script.pdf#page=213&rect=209,515,385,534|A&W-script, p.213]]

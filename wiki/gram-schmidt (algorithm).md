@@ -6,6 +6,6 @@ The **gram-schmidt** algorithm allows the transformation of a [[basis (vector sp
 
 2. **iterate**: `for k in 2 .. n`
 	- **orthogonalize**: subtract the projection of the $k$-th vector $\mathbf{v}_{k} \in B$ onto the span of $Q_{k}$
-		$\mathbf{p}_{k} = \mathbf{v}_{k} - \sum_{i = 1}^{k-1} (\mathbf{v}_{k}^{\top} \mathbf{q}_{i}) \cdot \mathbf{q}_{i}$
+		$\mathbf{p}_{k} = \mathbf{v}_{k} - \sum_{i = 1}^{k-1} (\mathbf{v}_{k}^{\mathsf{T}} \mathbf{q}_{i}) \cdot \mathbf{q}_{i}$
 	- **normalize**: scale by reciprocal of norm
 		$\mathbf{q}_{k} = \frac{1}{\| \mathbf{p}_{k} \|} \mathbf{p}_{k}$

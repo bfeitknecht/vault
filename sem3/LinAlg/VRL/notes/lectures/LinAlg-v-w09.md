@@ -23,7 +23,7 @@ $$
 3 \\
 4 \\
 5
-\end{bmatrix} + [\alpha_{0}]_{5} }^{ \text{linear combination} } = 
+\end{bmatrix} + [\alpha_{0}]_{5} }^{ \text{linear combination} } =
 \begin{bmatrix}
 1 & 1 \\
 2 & 1 \\
@@ -40,30 +40,28 @@ $$
 
 # Notes
 
-- $\mathbf{C}(A^{\top}) = \mathbf{C}(A^{\top}A)$
-- $\mathbf{N}(A^{\top}) = \mathbf{N}(A^{\top}A)$
+- $\mathbf{C}(A^{\mathsf{T}}) = \mathbf{C}(A^{\mathsf{T}}A)$
+- $\mathbf{N}(A^{\mathsf{T}}) = \mathbf{N}(A^{\mathsf{T}}A)$
 
-- $M \in \mathbb{F}^{m \times n}: \mathrm{rank}(M)=n$ i.e. $M$ is full rank $\implies$ $M^{\top}M$ full rank, hence $M$ invertible
+- $M \in \mathbb{F}^{m \times n}: \mathrm{rank}(M)=n$ i.e. $M$ is full rank $\implies$ $M^{\mathsf{T}}M$ full rank, hence $M$ invertible
 
 - skinny tall matrix $\implies$ overdetermined LSE
-- *orthogonal* matrix preserves euclidian norm and scalar product 
-- $(Q\mathbf{x})^{\top}(Q\mathbf{y}) = \mathbf{x}^{\top}\mathbf{y} \implies$ angle between $\mathbf{x},\mathbf{y}$ is preserved by $Q$, we just (stretch) rotate the space
+- *orthogonal* matrix preserves euclidian norm and scalar product
+- $(Q\mathbf{x})^{\mathsf{T}}(Q\mathbf{y}) = \mathbf{x}^{\mathsf{T}}\mathbf{y} \implies$ angle between $\mathbf{x},\mathbf{y}$ is preserved by $Q$, we just (stretch) rotate the space
 
-- projection matrix where $Q$ forms an orthogonal basis for a subspace $S \subseteq V$ we have $P=QQ^{\top}$ (?)
+- projection matrix where $Q$ forms an orthogonal basis for a subspace $S \subseteq V$ we have $P=QQ^{\mathsf{T}}$ (?)
 
 
 
 Proof.
-1. $(Q\mathbf{x})^{\top}(Q\mathbf{y}) = \mathbf{x}^{\top}\overbrace{ \cancel{ Q^{\top}Q } }^{ I }\mathbf{y} = \mathbf{x}^{\top}\mathbf{y}$
-2. $\|Q\mathbf{x}\|^{2} = (Q\mathbf{x})^{\top}(Q\mathbf{x}) = \mathbf{x}^{\top}\overbrace{ \cancel{ Q^{\top}Q } }^{ I }\mathbf{x} = \mathbf{x}^{\top}\mathbf{x}=\|\mathbf{x}\|^{2}$
+1. $(Q\mathbf{x})^{\mathsf{T}}(Q\mathbf{y}) = \mathbf{x}^{\mathsf{T}}\overbrace{ \cancel{ Q^{\mathsf{T}}Q } }^{ I }\mathbf{y} = \mathbf{x}^{\mathsf{T}}\mathbf{y}$
+2. $\|Q\mathbf{x}\|^{2} = (Q\mathbf{x})^{\mathsf{T}}(Q\mathbf{x}) = \mathbf{x}^{\mathsf{T}}\overbrace{ \cancel{ Q^{\mathsf{T}}Q } }^{ I }\mathbf{x} = \mathbf{x}^{\mathsf{T}}\mathbf{x}=\|\mathbf{x}\|^{2}$
 
 
 
 
 normal equation
-$A^{\top}A \widehat{\mathbf{x}} = A^{\top}b$
+$A^{\mathsf{T}}A \widehat{\mathbf{x}} = A^{\mathsf{T}}b$
 
 
 for any matrix, the vector that minimizes the error satisfies the normal equation
-
-

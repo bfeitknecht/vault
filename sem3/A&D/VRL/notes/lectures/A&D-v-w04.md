@@ -1,8 +1,8 @@
 
 - [[dynamic programming]]
-- [[asymptotic analyis]]
+- [[asymptotic analysis]]
 - [[search algorithm]]
-- [[sorting algorithm]] 
+- [[sorting algorithm]]
 
 
 
@@ -17,7 +17,7 @@
             \State \Call{Quicksort}{$A, q + 1, r$}
         \EndIf
     \EndProcedure
-      
+
     \Procedure{Partition}{$A, p, r$}
         \State $x \gets A[r]$
         \State $i \gets p - 1$

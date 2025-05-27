@@ -32,13 +32,6 @@ Linear Algebra concerns itself with [[vector|vectors]], [[matrix|matrices]] and 
 - [-] exercise sheet 🔁 every week 📅 2024-10-01 ❌ 2024-10-09
 - [-] exercise sheet 🔁 every week 📅 2024-09-24 ❌ 2024-10-09
 
-    
-#todo 
-- [ ] scrape weekly covered subjects and summarize
-- [ ] `s/'^{\top}'/'^{\mathsf{T}}'/`
-
-
-
 # Script
 - 1st part: [[LinAlg-script-1.pdf]]
 - 2nd part: [[LinAlg-script-2.pdf]]
