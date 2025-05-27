@@ -1,4 +1,4 @@
-#todo 
+#todo
 
 A [[word]] $x\in \Sigma_{\mathbb{B}}^{*}$ is **random** if its [[kolmogorov complexity]] is greater or equal to its length, i.e. $K(x)\geq|x|$.
 
@@ -20,6 +20,6 @@ The primes are quite dense. The original proof is complicated and relies on the 
 
 
 # Number of Primes
-![[hromkovic-TI.pdf#page=56&rect=45,70,438,111|hromkovic-TIN, p.41]]
+![[hromkovic-TI.pdf#page=56&rect=45,70,438,111|hromkovic-TI, p.41]]
 
 The proof idea is, that we need infinitely many primes to decompose the infinitely many, increasing random numbers.

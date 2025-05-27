@@ -1,5 +1,5 @@
 
-A [[deterministic]] **finite state machine** (FSM) is a 5-[[tuple]] $M =(Q, \Sigma, \delta, q_{0}, F)$, where 
+A [[deterministic]] **finite state machine** (FSM) is a 5-[[tuple]] $M =(Q, \Sigma, \delta, q_{0}, F)$, where
 
 1. $Q$ is a finite, non-empty [[set]] of *states*
 2. $\Sigma$ is an [[alphabet]], called *input alphabet*
@@ -60,8 +60,8 @@ $$
 x R_{\delta} y \iff \hat\delta(q_{0}, x) = \hat\delta(q_{0}, y)
 $$
 
-![[hromkovic-TI.pdf#page=70&rect=139,458,340,615|hromkovic-TIN, p.55|200]]
-We observe that this creates the partition pictured above with $|Q|$ equivalence classes. Then,  we can define the accepted with these equivalence classes. This is given by the following. 
+![[hromkovic-TI.pdf#page=70&rect=139,458,340,615|hromkovic-TI, p.55|200]]
+We observe that this creates the partition pictured above with $|Q|$ equivalence classes. Then,  we can define the accepted with these equivalence classes. This is given by the following.
 $$
 \begin{align}
 \mathrm{Kl}[p] \cap \mathrm{Kl}[q] &= \varnothing, & \forall p, q \in Q, p \neq q \\ \\
@@ -95,7 +95,7 @@ ___
 
 ch.3.4, proof of non-existence
 
-![[hromkovic-TI.pdf#page=83&rect=38,150,445,249|hromkovic-TIN, p.68]]
+![[hromkovic-TI.pdf#page=83&rect=38,150,445,249|hromkovic-TI, p.68]]
 
 what it's saying is, that given two inputs (different) that end in the same configuration, we can add an arbitrary identical suffix and the end configuration will be the same
 
@@ -105,7 +105,7 @@ $a^nb^n$ is not regular language := proven by contradiction using lemma 3.3. con
 becasue we define more words than the FSM has configurations, exists two natural numbers i, j in \[|Q|+1] i < j such that the word $0^i 1^i$ is in the language but $0^j 1^i$ isn't
 
 
-![[hromkovic-TI.pdf#page=84&rect=42,173,440,341|hromkovic-TIN, p.69]]
+![[hromkovic-TI.pdf#page=84&rect=42,173,440,341|hromkovic-TI, p.69]]
 
 
 
@@ -119,10 +119,4 @@ In contrast, a [[non-deterministic]] FSM is the same (quintuple), but the state 
 
 The computation tree $\mathcal{B}_{M}(x)$ of $M$ on $x$ describes all the possible "decision" we can take. The nodes of the tree are the configurations, the root is the initial configuration
 
-![[hromkovic-TI.pdf#page=93&rect=44,406,420,624|hromkovic-TIN, p.78]]
-
-
-
-
-
-
+![[hromkovic-TI.pdf#page=93&rect=44,406,420,624|hromkovic-TI, p.78]]

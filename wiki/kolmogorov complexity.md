@@ -1,4 +1,4 @@
-#todo 
+#todo
 
 
 The **kolmogorov complexity** of some [[word]] measures the length of the shortest [[program]] that generates that word.
@@ -26,13 +26,11 @@ $$
 
 # Lemmas
 
-![[hromkovic-TI.pdf#page=52&rect=43,437,416,475|hromkovic-TIN, p.37]]
-Proof by contradiction, let $C(x_{i\in[2^n]})$ be the shortest [[bitstring]] that generates $x_{i\in[2^n]}$. 
+![[hromkovic-TI.pdf#page=52&rect=43,437,416,475|hromkovic-TI, p.37]]
+Proof by contradiction, let $C(x_{i\in[2^n]})$ be the shortest [[bitstring]] that generates $x_{i\in[2^n]}$.
 
 
 
 
 
 # Examples
-
-

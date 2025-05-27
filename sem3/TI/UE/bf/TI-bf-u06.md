@@ -83,7 +83,7 @@ $\square$
 
 To prove that there is a strategy that *the taster* can use to eat all chocolates, we must show that the set of chocolates served to her is equinumerous to the number of rounds.
 
-Let $i \in \mathbb{N}$ denote the $i$-th round of the game and $C_{i}=\{ c_{j \in [n_{i}]} \}$ be the set of $|C_{i}|=n_{i} \in \mathbb{N}$ chocolates served in that round. Then $C =\bigcup_{i \in \mathbb{N}}C_{i}$ denotes the set of all chocolates served during the whole game. So we denote the $j$-th chocolate in the $i$-th round with $c_{ij}=c_{j} \in C_{i}$. 
+Let $i \in \mathbb{N}$ denote the $i$-th round of the game and $C_{i}=\{ c_{j \in [n_{i}]} \}$ be the set of $|C_{i}|=n_{i} \in \mathbb{N}$ chocolates served in that round. Then $C =\bigcup_{i \in \mathbb{N}}C_{i}$ denotes the set of all chocolates served during the whole game. So we denote the $j$-th chocolate in the $i$-th round with $c_{ij}=c_{j} \in C_{i}$.
 
 We define the lexicographic total order on $C$ below. Then the strategy is to simply eat the chocolates in canonical order.
 $$
@@ -100,10 +100,10 @@ $\square$
 
 The previously described strategy no longer works, since the number of chocolates served in a particular round is not finite anymore. We prove the statement by a diagonalization argument.
 
-We define the set $C$ similar to before, where $C_{i}= \{ c_{j \in \mathbb{N}} \}$ denotes the countably infinite set of chocolates served in round $i \in \mathbb{N}$. 
+We define the set $C$ similar to before, where $C_{i}= \{ c_{j \in \mathbb{N}} \}$ denotes the countably infinite set of chocolates served in round $i \in \mathbb{N}$.
 
 The diagram below illustrates the order in which we eat the chocolates, where the rows denote the $i$-th round and the columns represent the $j$-th chocolate.
-![[hromkovic-TI.pdf#page=143&rect=44,388,433,621|hromkovic-TIN, p.130]]
+![[hromkovic-TI.pdf#page=143&rect=44,388,433,621|hromkovic-TI, p.130]]
 
 In this way we enumerate over all chocolates served in all rounds, hence $C \sim \mathbb{N}$ and thus the strategy is correct.
 $\square$
