@@ -2,10 +2,10 @@
 lecture: "[[CN]]"
 prev: "[[CN-v-w07]]"
 next: "[[CN-v-w09]]"
+tags: []
 slides:
   - "[[CN-s12-link-layer-coding.pdf]]"
   - "[[CN-s13-physical-layer.pdf]]"
-tags: []
 ---
 
 

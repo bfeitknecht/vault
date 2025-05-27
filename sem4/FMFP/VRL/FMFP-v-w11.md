@@ -2,9 +2,9 @@
 name: "[[FMFP.md]]"
 prev: "[[FMFP-v-w10.md]]"
 next: "[[FMFP-v-w12.md]]"
+tags:
 slides:
   - "[[FMFP-s12-axiomatic-semantics.pdf]]"
-tags:
 ---
 
 
@@ -51,7 +51,7 @@ $$
 \RL{$\ \mathrm{Assign}$}
 \UIC{$ \{ \mathbf{P}[x \mapsto e] \} \ \texttt{$x$ := $e$} \ \{ \mathbf{P} \} $}
 \end{prooftree}
-\\ \\ 
+\\ \\
 &
 \begin{prooftree}
 \AXC{$ \{ \mathbf{P} \} \ s_{1} \ \{ \mathbf{Q} \} $}

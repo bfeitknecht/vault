@@ -2,10 +2,10 @@
 name: "[[FMFP.md]]"
 prev: "[[FMFP-v-w08.md]]"
 next: "[[FMFP-v-w10.md]]"
+tags:
 slides:
   - "[[FMFP-s10-IMP.pdf]]"
   - "[[FMFP-s11-operational-semantics.pdf]]"
-tags:
 ---
 
 
@@ -91,7 +91,7 @@ $$
 \RL{$\ \mathrm{Assign}$}
 \UIC{$\langle \texttt{$x$ := $e$}, \sigma  \rangle \to_{1} \sigma [ x \mapsto \mathcal{A}[\![ e]\!]  \sigma] $}
 \end{prooftree}
-\\ \\ 
+\\ \\
 &
 \begin{prooftree}
 \AXC{$\langle s_{1}, \sigma \rangle \to_{1} \sigma'$}

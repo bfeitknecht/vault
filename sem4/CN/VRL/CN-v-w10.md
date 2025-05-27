@@ -2,9 +2,9 @@
 name: "[[CN.md]]"
 prev: "[[CN-v-w09.md]]"
 next: "[[CN-v-w11.md]]"
+tags:
 slides:
   - "[[CN-s15-CDN.pdf]]"
-tags:
 ---
 
 

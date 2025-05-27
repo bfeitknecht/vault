@@ -2,10 +2,10 @@
 name: "[[FMFP.md]]"
 prev: "[[FMFP-v-w11.md]]"
 next: "[[FMFP-v-w13.md]]"
+tags:
 slides:
   - "[[FMFP-s13-modeling.pdf]]"
   - "[[FMFP-s14-linear-time-properties.pdf]]"
-tags:
 ---
 
 

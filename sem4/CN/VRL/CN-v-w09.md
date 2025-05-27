@@ -2,10 +2,10 @@
 name: "[[CN.md]]"
 prev: "[[CN-v-w08.md]]"
 next: "[[CN-v-w10.md]]"
+tags:
 slides:
   - "[[CN-s13-physical-layer.pdf]]"
   - "[[CN-s14-network-stack.pdf]]"
-tags:
 ---
 
 

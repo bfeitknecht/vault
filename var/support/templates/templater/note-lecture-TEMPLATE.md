@@ -1,9 +1,9 @@
 ---
-module: 
-prev: 
-next: 
-slides: 
+module:
+prev:
+next:
 tags:
+slides:
 ---
 
 # Info
