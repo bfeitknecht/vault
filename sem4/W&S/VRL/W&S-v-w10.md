@@ -17,3 +17,7 @@ tags:
 
 
 # Notes
+- parameter space contains all possible parameters
+- parameter $\theta \in \Theta$ defines family of probability density functions $(\Pr_{\theta})_{\theta \in\Theta}$
+- estimator is a random variable $T : \Omega \to \mathbb{R}$ with $T=t(X_{1}, \dots X_{n})$, where $t : \mathbb{R}^{n} \to \mathbb{R}$
+- estimate is a number, $T(\omega) = x \in$
