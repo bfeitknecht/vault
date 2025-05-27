@@ -70,10 +70,10 @@ Linear Algebra concerns itself with [[vector|vectors]], [[matrix|matrices]] and 
 ![[LinAlg-v-w09]]
 
 ### W10
-![[LinAlg-v-w10]]
+![[wiki/LinAlg-v-w10]]
 
 ### W11
-![[LinAlg-v-w11]]
+![[wiki/LinAlg-v-w11]]
 
 ### W12
 ![[LinAlg-v-w12]]

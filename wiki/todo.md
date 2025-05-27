@@ -1,7 +1,7 @@
 #todo
 
 - [ ] min, max vs argmin, argmax
-- [ ] rename directories (AuD, A&W)
+- [ ] rename directories (A&D, A&W)
 - [ ] catch up with note taking
 	- [ ] monoid
 	- [ ] group

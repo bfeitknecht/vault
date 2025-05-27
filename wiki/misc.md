@@ -37,12 +37,6 @@ git lfs pull --include <GLOB>	  # git-lfs pull only GLOB
 
 # Problems
 
-- attachment management fucked shit up and put normal pdfs into the wrong folder
-- want to paste pdf selection as image, so it's synced to the web etc.
-- rename stuff
-	- AuD -> A&D
-    - A&W -> A&W
-    - TIN -> TI
 - ==minimal theme causes major lag==
 
 >[!attention]- Time To Load Plugins
