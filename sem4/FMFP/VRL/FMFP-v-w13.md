@@ -21,4 +21,3 @@ slides:
 # Notes
 - safety property is regular if its bad prefixes are described by a regular language over the alphabet $\mathcal{P}(\mathrm{AP})$
 - construct product automaton from NFSM for transition system and regular safety property to check for bad prefix
--
