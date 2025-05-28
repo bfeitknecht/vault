@@ -2,8 +2,10 @@
 name: "[[DMDB.md]]"
 prev: "[[DMDB-v-w12.md]]"
 next: "[[DMDB-v-w14.md]]"
-tags:
+tags: 
 slides:
+  - "[[DMDB-s19-data-replication.pdf]]"
+  - "[[DMDB-s20-cloud-databases.pdf]]"
 ---
 
 
@@ -11,6 +13,8 @@ slides:
 
 
 # Topics
+- replication strategies
+- key value store (KVS)
 
 
 # Notes

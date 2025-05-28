@@ -6,6 +6,7 @@ tags:
   - todo
 slides:
   - "[[DMDB-s17-logging.pdf]]"
+  - "[[DMDB-s18-distributed-commit.pdf]]"
 ---
 
 
