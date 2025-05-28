@@ -1137,7 +1137,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "4eae27f0ad5ff541",
@@ -1166,10 +1166,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s15-model-checking.pdf",
-                    "page": 16,
-                    "left": -24,
-                    "top": 245,
-                    "zoom": 0.6378505505469837
+                    "page": 19,
+                    "left": -25,
+                    "top": 475,
+                    "zoom": 0.6378505505469836
                   },
                   "icon": "lucide-file-text",
                   "title": "FMFP-s15-model-checking"
@@ -1347,8 +1347,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "04c28fdaa0c591b5",
-      "mtime": "2025-05-27T11:24:45+02:00"
+      "active": "6e9c0ed95c9950a5",
+      "mtime": "2025-05-28T10:22:33+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1675,5 +1675,5 @@
       "mtime": "2025-05-27T10:25:06+02:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "sem4-w&s"
 }
