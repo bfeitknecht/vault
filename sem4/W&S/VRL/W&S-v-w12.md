@@ -23,10 +23,10 @@ slides:
 	- $K \subseteq \mathbb{R}$ is a deterministic subset of the real numbers, the critical region
 - the null-hypothesis $H_{0}$ is rejected, if $T(\omega) \in K$
 - otherwise it is accepted
-- type 1 error (false negative)
+- type 1 error (false positive)
 	- happens for $\theta \in \Theta_{0}$ and $T \in K$
 	- $\Pr_{\theta}[T \in K]$ is probability of type 1 error for $\theta \in \Theta_{0}$
-- type 2 error (false positive)
+- type 2 error (false negative)
 	- happens for $\theta \in \Theta_{1}$ and $T \not\in K$
 	- $\Pr_{\theta}[T \not\in K] = 1 - \Pr_{\theta}[T \in K]$ is probability of type 2 error for $\theta \in \Theta_{1}$
 - statistical test $(T, K)$ has the the following two properties
