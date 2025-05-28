@@ -15,6 +15,7 @@ slides:
 
 # Topics
 - database transactions
+- ACID
 
 
 # Notes
