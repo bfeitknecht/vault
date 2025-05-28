@@ -14,4 +14,6 @@ slides:
 # Topics
 - p-value
 
+
 # Notes
+- low p-value $\implies$ $H_{0}$ is probably rejected
