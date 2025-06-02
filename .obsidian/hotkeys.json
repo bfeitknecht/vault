@@ -283,8 +283,7 @@
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Mod"
       ],
       "key": "S"
     }
@@ -295,7 +294,9 @@
         "Mod",
         "Shift"
       ],
-      "key": "E"
+      "key": "S"
     }
-  ]
+  ],
+  "table-editor-obsidian:table-control-bar": [],
+  "obsidian-editor-shortcuts:deleteLine": []
 }
