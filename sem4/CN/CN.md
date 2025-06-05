@@ -25,7 +25,6 @@
 
 This table shows a list of networking acronyms used in this course, what they stand for, and a brief explanation.
 
-Note that we do *not* expect you to be able to expand each of these abbreviations. You should however understand and be able to explain and apply the corresponding concepts.
 
 ![[abbreviations]]
 

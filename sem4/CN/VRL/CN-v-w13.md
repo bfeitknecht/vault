@@ -5,6 +5,8 @@ next: "[[CN-v-w14.md]]"
 tags:
   - todo
 slides:
+  - "[[CN-s21-sustainable-networking.pdf]]"
+  - "[[CN-s22-routing-security.pdf]]"
 ---
 
 
