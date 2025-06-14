@@ -280,14 +280,6 @@
       "key": "Escape"
     }
   ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "S"
-    }
-  ],
   "cmdr:macro-0": [
     {
       "modifiers": [
@@ -298,5 +290,14 @@
     }
   ],
   "table-editor-obsidian:table-control-bar": [],
-  "obsidian-editor-shortcuts:deleteLine": []
+  "obsidian-editor-shortcuts:deleteLine": [],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ]
 }
