@@ -22,9 +22,12 @@
 | SCION                                    | *Optional reading:* SCION book (2017 version, chapters 1-3), available [here](https://scion-architecture.net/pdf/SCION-book.pdf)                                                                                                                                                                  |
 
 # Abbreviations
-
 This table shows a list of networking acronyms used in this course, what they stand for, and a brief explanation.
 
 
 ![[abbreviations]]
+
+
+
+# Summary
 
