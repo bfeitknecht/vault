@@ -11,7 +11,7 @@ The network can be broken down into five layers that provide different services.
 | **L2 (link)**        | local best-effort delivery            | move frames across link                | ethernet, wifi, DSL, LTE     |
 | **L1 (physical)**    | physical transfer of bits             | move bits across physical medium       | optical fiber, coaxial cable |
 The design exhibits some core principles listed below.
-- need for stable interfaces, stability in implementation is important to minimize need for adaption
+- need for stable interfaces, important to minimize need for adaptions of implementations
 - end-to-end principle, allow abstraction to assume network transfer works
 - fate-sharing principle, when storing state in distributed system, co-locate it with entities that rely on it
 
