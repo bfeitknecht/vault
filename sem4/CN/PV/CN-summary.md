@@ -16,10 +16,6 @@ The design exhibits some core principles listed below.
 - fate-sharing principle, when storing state in distributed system, co-locate it with entities that rely on it
 
 
-# DNS
-#todo 
-
-
 # HTTP
 #todo 
 
@@ -46,6 +42,10 @@ The main difference between the [[user datagram protocol (UDP)]] and [[transmiss
 | Packet Order | No ordering guarantees | Maintains order           |
 | Speed        | Faster (lightweight)   | Slower (more overhead)    |
 | Use Cases    | VoIP, Streaming, DNS   | HTTP, FTP, Email          |
+
+
+# DNS
+#todo 
 
 
 # IP
