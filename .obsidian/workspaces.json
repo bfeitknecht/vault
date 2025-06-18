@@ -512,9 +512,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s02-layering.pdf",
-                    "page": 24,
+                    "page": 48,
                     "left": -24,
-                    "top": 312,
+                    "top": 187,
                     "zoom": 0.6181710213776723
                   },
                   "icon": "lucide-file-text",
@@ -693,7 +693,7 @@
         }
       },
       "active": "f273b4431c93fde8",
-      "mtime": "2025-06-15T13:01:49+02:00"
+      "mtime": "2025-06-18T14:04:23+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1704,5 +1704,5 @@
       "mtime": "2025-05-28T14:29:15+02:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-fmfp"
 }

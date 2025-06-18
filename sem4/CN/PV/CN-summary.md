@@ -1,7 +1,7 @@
 
 
 # Layers
-The network can be broken down into five layers that provide different services. Each layer provides a service to the layer above by using the services of the layer directly below it.
+Computer networks can be broken down into five layers that provide different services. Each layer provides a service to the layer above by using the services of the layer directly below it.
 
 | Layer                | Service                               | Role                                   | Protocol(s)                  |
 | -------------------- | ------------------------------------- | -------------------------------------- | ---------------------------- |
