@@ -1,6 +1,6 @@
 
 
-# Layers
+# network layers
 Computer networks can be broken down into five layers that provide different services. Each layer provides a service to the layer above by using the services of the layer directly below it.
 
 | Layer                | Service                               | Role                                   | Protocol(s)                  |
@@ -52,7 +52,7 @@ The main difference between the [[user datagram protocol (UDP)]] and [[transmiss
 #todo 
 
 
-# Routing
+# routing
 #todo 
 
 

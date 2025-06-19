@@ -7,6 +7,8 @@
     "persistent-graph:run-graph-simulation",
     "persistent-graph:stop-graph-simulation",
     "editor:fold-all",
-    "obsidian-shellcommands:shell-command-blauwcovle"
+    "obsidian-shellcommands:shell-command-blauwcovle",
+    "open-with-default-app:open",
+    "open-with-default-app:show"
   ]
 }
