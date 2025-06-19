@@ -1167,7 +1167,7 @@
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s11-operational-semantics.pdf",
                     "page": 89,
                     "left": -24,
-                    "top": 409,
+                    "top": 421,
                     "zoom": 0.6182517906139757
                   },
                   "icon": "lucide-file-text",
@@ -1362,8 +1362,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "2965848f6613a230",
-      "mtime": "2025-06-02T17:31:53+02:00"
+      "active": "6aa16ac910c60d3a",
+      "mtime": "2025-06-19T10:37:46+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1704,5 +1704,5 @@
       "mtime": "2025-05-28T14:29:15+02:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "sem4-w&s"
 }
