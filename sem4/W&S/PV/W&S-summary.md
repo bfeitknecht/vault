@@ -12,5 +12,6 @@ The **likelihood function** on a [[probability space]] $\Omega$ with parameter s
 
 # estimator
 
+
 # distribution
 
