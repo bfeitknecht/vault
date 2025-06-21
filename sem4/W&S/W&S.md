@@ -8,6 +8,27 @@
 	- Password: t57kF3W
 - 10 pages of A4 notes for exam
 
+# Topics
+ - probability space
+ - probability measure
+ - random variables
+ - distributions
+ - densities
+ - independence
+ - conditional probabilities
+ - expectation 
+ - variance, covariance
+ - law of large numbers
+ - central limit theorem
+ - large deviations
+ - chernoff bounds
+ - maximum likelihood estimator
+ - method of moments estimator
+ - tests
+ - neyman-pearson lemma
+ - confidence intervals
+
+
 # Lectures
 
 ## W01

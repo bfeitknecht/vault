@@ -7,8 +7,7 @@ next: "[[W&S-v-w02]]"
 # Info
 
 # Topics
-- sample space $\Omega$ and elementary experiment $\omega \in \Omega$
-- event is a subset of the sample space $A \in \mathcal{P}(\Omega)$
+- sample space
 - [[sigma algebra]]
 - [[probability space]]
 - [[laplace model]]
@@ -16,6 +15,8 @@ next: "[[W&S-v-w02]]"
 - [[inclusion exclusion formula]]
 
 # Notes
+-  sample space denoted by $\Omega$ and outcome of elementary experiment $\omega \in \Omega$
+- event is a subset of the sample space $A \in \mathcal{P}(\Omega)$
 $\Pr[\varnothing] = 0$
 
 
