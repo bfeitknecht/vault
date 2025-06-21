@@ -13,10 +13,12 @@ next: "[[W&S-v-w02]]"
 - [[laplace model]]
 - [[indicator variable]]
 - [[inclusion exclusion formula]]
+- [[cumulative distribution function (CDF)]]
 
 # Notes
 -  sample space denoted by $\Omega$ and outcome of elementary experiment $\omega \in \Omega$
 - event is a subset of the sample space $A \in \mathcal{P}(\Omega)$
-$\Pr[\varnothing] = 0$
+- $\Pr[\varnothing] = 0$
+- 
 
 
