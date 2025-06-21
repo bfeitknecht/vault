@@ -5,7 +5,6 @@ next: "[[W&S-v-w02]]"
 ---
 
 # Info
-None
 
 # Topics
 - sample space $\Omega$ and elementary experiment $\omega \in \Omega$
