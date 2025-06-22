@@ -48,7 +48,7 @@ We use [[algorithm|algorithms]] (mathematical procedures) and [[data structure|d
 - [x] code expert 🔁 every 2 weeks 📅 2024-10-25 ✅ 2024-10-26
 
 
-# Lectures
+# Notes
 
 ### W01
 ![[A&D-v-w01]]

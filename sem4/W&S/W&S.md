@@ -16,7 +16,7 @@
  - densities
  - independence
  - conditional probabilities
- - expectation 
+ - expectation
  - variance, covariance
  - law of large numbers
  - central limit theorem
@@ -29,7 +29,7 @@
  - confidence intervals
 
 
-# Lectures
+# Notes
 
 ## W01
 ![[W&S-v-w01]]

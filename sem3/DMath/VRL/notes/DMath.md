@@ -18,13 +18,13 @@ Discrete mathematics is the study of mathematical structures that can be conside
 - [x] exercise 🔁 every week 📅 2024-10-03 ✅ 2024-09-30
 - [x] exercise 🔁 every week 📅 2024-09-26 ✅ 2024-09-23
 
-#todo 
+#todo
 - [ ] domain
 - [ ] codomain
 - [ ] image
 - [ ] range
 
-# Lectures
+# Notes
 
 ### W01
 ![[DMath-v-w01]]
@@ -67,4 +67,3 @@ Discrete mathematics is the study of mathematical structures that can be conside
 
 ### W14
 ![[DMath-v-w14]]
-

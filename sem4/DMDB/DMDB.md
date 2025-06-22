@@ -12,7 +12,7 @@ semester:
 # Schedule
 ![[DMDB-schedule.png]]
 
-# Lectures
+# Notes
 
 ## W01
 ![[DMDB-v-w01]]

@@ -16,14 +16,14 @@
 - [x] exercise sheet 🔁 every week 📅 2024-09-27 ✅ 2024-09-27
 
 
-> [!danger] #todo 
+> [!danger] #todo
 > - [ ] scrape class diagram of languages from hand drawn pdf notes
 > - [ ] create boolean set note, boolean matrix
 > - [x] add points of weekly submissions ✅ 2024-11-05
-> - [ ] 
+> - [ ]
 
 
-# Lectures
+# Notes
 
 ### W01
 ![[TI-v-w01]]
@@ -66,4 +66,3 @@
 
 ### W14
 ![[TI-v-w14]]
-

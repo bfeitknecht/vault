@@ -37,7 +37,7 @@ Linear Algebra concerns itself with [[vector|vectors]], [[matrix|matrices]] and 
 - 2nd part: [[LinAlg-script-2.pdf]]
 
 
-# Lectures
+# Notes
 
 ### W00
 ![[LinAlg-v-w00]]

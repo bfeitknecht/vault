@@ -1,6 +1,6 @@
 
 # Info
-- [CN Website](https://netsec.ethz.ch/courses/cn-2025/)
+- [Website](https://netsec.ethz.ch/courses/cn-2025/)
 - two projects for max 0.25 extra credit
 
 | Lecture                                  | Book chapter                                                                                                                                                                                                                                                                                       |
@@ -25,16 +25,16 @@
 
 # Plan
 
-| **W1**  | Course organization, networking basics<br>Layering, network metrics                                                             |
+| **W01** | Course organization, networking basics<br>Layering, network metrics                                                             |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| **W2**  | DNS<br>Web/HTTP                                                                                                                 |
-| **W3**  | Transport principles<br>Internet transport                                                                                      |
-| **W4**  | Transport sockets<br>Network layer                                                                                              |
-| **W5**  | Network layer (continued)<br>Network layer (continued), routing                                                                 |
-| **W6**  | Routing (continued)<br>BGP                                                                                                      |
-| **W7**  | BGP (continued)<br>Link layer (protocols)                                                                                       |
-| **W8**  | Link layer (protocols, framing and error correction)<br>Link layer (framing and error correction), physical layer               |
-| **W9**  | Summary                                                                                                                         |
+| **W02** | DNS<br>Web/HTTP                                                                                                                 |
+| **W03** | Transport principles<br>Internet transport                                                                                      |
+| **W04** | Transport sockets<br>Network layer                                                                                              |
+| **W05** | Network layer (continued)<br>Network layer (continued), routing                                                                 |
+| **W06** | Routing (continued)<br>BGP                                                                                                      |
+| **W07** | BGP (continued)<br>Link layer (protocols)                                                                                       |
+| **W08** | Link layer (protocols, framing and error correction)<br>Link layer (framing and error correction), physical layer               |
+| **W09** | Summary                                                                                                                         |
 | **W10** |                                                                                                                                 |
 | **W11** |                                                                                                                                 |
 | **W12** | SCION                                                                                                                           |
@@ -46,9 +46,46 @@
 # Abbreviations
 This table shows a list of networking acronyms used in this course, what they stand for, and a brief explanation.
 
-
 ![[abbreviations]]
 
 
+# Lectures
 
-# Summary
+## W01
+![[CN-v-w01]]
+
+## W02
+![[CN-v-w02]]
+
+## W03
+![[CN-v-w03]]
+
+## W04
+![[CN-v-w04]]
+
+## W05
+![[CN-v-w05]]
+
+## W06
+![[CN-v-w06]]
+
+## W07
+![[CN-v-w07]]
+
+## W08
+![[CN-v-w08]]
+
+## W09
+![[CN-v-w09]]
+
+## W10
+![[CN-v-w10]]
+
+## W11
+![[CN-v-w11]]
+
+## W12
+![[CN-v-w12]]
+
+## W13
+![[CN-v-w13]]

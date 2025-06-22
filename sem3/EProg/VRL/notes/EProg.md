@@ -23,7 +23,7 @@ Introduction to programming with Java.
 > - [ ] fill in week 05 - 09
 
 
-# Lectures
+# Notes
 
 ### W01
 ![[EProg-v-w01]]
