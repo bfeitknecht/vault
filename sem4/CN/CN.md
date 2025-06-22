@@ -1,7 +1,7 @@
 
 # Info
 - [Website](https://netsec.ethz.ch/courses/cn-2025/)
-- two projects for max 0.25 extra credit
+- two projects for up to 0.25 extra credit
 
 | Lecture                                  | Book chapter                                                                                                                                                                                                                                                                                       |
 | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -20,11 +20,9 @@
 | CDNs, video                              | 2.6                                                                                                                                                                                                                                                                                                |
 | Link layer: framing and error correction | 6.2                                                                                                                                                                                                                                                                                                |
 | SCION                                    | *Optional reading:* SCION book (2017 version, chapters 1-3), available [here](https://scion-architecture.net/pdf/SCION-book.pdf)                                                                                                                                                                   |
-|                                          |                                                                                                                                                                                                                                                                                                    |
 
 
 # Plan
-
 | **W01** | Course organization, networking basics<br>Layering, network metrics                                                             |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | **W02** | DNS<br>Web/HTTP                                                                                                                 |
@@ -49,7 +47,7 @@ This table shows a list of networking acronyms used in this course, what they st
 ![[abbreviations]]
 
 
-# Lectures
+# Notes
 
 ## W01
 ![[CN-v-w01]]

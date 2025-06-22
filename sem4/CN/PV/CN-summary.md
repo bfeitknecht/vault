@@ -1,6 +1,6 @@
 
 
-# network layers
+# Network Layers
 Computer networks can be broken down into five layers that provide different services. Each layer provides a service to the layer above by using the services of the layer directly below it.
 
 | Layer                | Service                               | Role                                   | Protocol(s)                  |
@@ -15,12 +15,10 @@ The design exhibits some core principles listed below.
 - end-to-end principle, allow abstraction to assume network transfer works
 - fate-sharing principle, when storing state in distributed system, co-locate it with entities that rely on it
 
-
-# HTTP
+## HTTP
 #todo 
 
-
-# UDP / TCP
+## UDP / TCP
 The main difference between the [[user datagram protocol (UDP)]] and [[transmission control protocol (TCP)]] lies in **reliability**, **ordering**, and **overhead**.
 
 **UDP**
@@ -43,23 +41,18 @@ The main difference between the [[user datagram protocol (UDP)]] and [[transmiss
 | Speed        | Faster (lightweight)   | Slower (more overhead)    |
 | Use Cases    | VoIP, Streaming, DNS   | HTTP, FTP, Email          |
 
+## DNS
+#todo 
 
-# DNS
+## IP
 #todo 
 
 
-# IP
+# Routing
+#todo 
+## BGP
 #todo 
 
-
-# routing
-#todo 
-
-
-# BGP
-#todo 
-
-
-# SCION
+## SCION
 #todo 
 
