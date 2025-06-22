@@ -6,7 +6,6 @@ next: "[[CN-v-w05]]"
 
 
 # Info
-- n/a
 
 
 # Topics

@@ -6,7 +6,6 @@ next: "[[DMDB-v-w04]]"
 
 
 # Info
-- n/a
 
 
 # Topics
@@ -19,9 +18,8 @@ next: "[[DMDB-v-w04]]"
 	- `INNER JOIN`, `LEFT JOIN`, `RIGHT_JOIN`
 - [[candidate key]]
 - [[primary key]]
-- 
+-
 
 
 # Notes
 - `VIEW` only captures state of data at moment of creation
-

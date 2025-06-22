@@ -6,12 +6,11 @@ next: "[[W&S-v-w07]]"
 
 
 # Info
-- n/a
 
 
 # Topics
-- 
+-
 
 
 # Notes
-- 
+-

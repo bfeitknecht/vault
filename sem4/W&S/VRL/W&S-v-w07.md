@@ -6,7 +6,6 @@ next: "[[W&S-v-w08]]"
 
 
 # Info
-- n/a
 
 
 # Topics
@@ -15,4 +14,4 @@ next: "[[W&S-v-w08]]"
 
 # Notes
 - $\Ex[X] = \int_{-\infty}^{+\infty} x f(x) \mathop{dx}$
-- 
+-

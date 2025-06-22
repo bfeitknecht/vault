@@ -1,6 +1,7 @@
 ---
 aliases:
   - random variables
+  - r.v.
 ---
 
 A **random variable** on a [[probability space]] $(\Omega, \mathcal{F}, \Pr)$ is a [[function|map]] $X : \Omega \to \mathbb{R}$ such that $\forall a \in \mathbb{R}. \{  \omega \in \Omega \mid X(\omega) \leq a \} \in \mathcal{F}$.
@@ -13,3 +14,30 @@ $$
 An infinite sequence $(X_{i})_{\infty}$ of random variables is said to be independent if $(X_{i})_{n}$ are independent for every $n \in \mathbb{N}$ and **independent and identically distributed (i.i.d.)** if they are independent and have the same [[probability distribution|distribution]], $\forall i,j. F_{X_{i}} = F_{X_{j}}$.
 
 Random variables can be transformed, specifically for $\phi : \mathbb{R}^{k} \to \mathbb{R}$ let $\phi(X_{1}, \dots X_{k}) = \phi \circ (X_{1}, \dots X_{k})$.
+
+# Examples
+## Discrete
+### Bernoulli
+![[bernoulli distribution]]
+
+### Binomial
+![[binomial distribution]]
+
+### Geometric
+![[geometric distribution]]
+
+### Poisson
+![[poisson distribution]]
+
+
+## Continuous
+
+### Uniform
+![[uniform distribution]]
+
+### Exponential
+![[exponential distribution]]
+
+### Normal
+![[normal distribution]]
+

@@ -16,6 +16,6 @@ next: "[[W&S-v-w02]]"
 - [[probability distribution]]
 
 # Notes
--  sample space denoted by $\Omega$ and outcome of elementary experiment $\omega \in \Omega$
+- sample space denoted by $\Omega$ and outcome of elementary experiment $\omega \in \Omega$
 - event is a subset of the sample space $A \in \mathcal{P}(\Omega)$
 - $\Pr[\varnothing] = 0$

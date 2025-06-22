@@ -1,6 +1,11 @@
 
-
-# Probability Space
+> [!danger] TO-DO
+> - [ ] joint distribution
+> - [ ] expectation
+> - [ ] variance
+> - [ ] covariance
+> - [ ] skewness, kurtosis, moments
+> - [ ] random variable distributions
 
 
 # Joint Distribution
@@ -13,5 +18,4 @@ The **likelihood function** on a [[probability space]] $\Omega$ with parameter s
 # Estimator
 
 
-# Distribution
 

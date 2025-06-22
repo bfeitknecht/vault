@@ -6,7 +6,7 @@ next: "[[DMDB-v-w06]]"
 
 
 # Info
-- n/a
+
 
 # Topics
 - [[functional dependency]]

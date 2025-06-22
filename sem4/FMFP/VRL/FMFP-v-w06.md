@@ -6,7 +6,6 @@ next: "[[FMFP-v-w07]]"
 
 
 # Info
-- n/a
 
 
 # Topics

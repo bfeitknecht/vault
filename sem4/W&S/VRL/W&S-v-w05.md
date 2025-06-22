@@ -6,11 +6,10 @@ next: "[[W&S-v-w06]]"
 
 
 # Info
-- n/a
 
 
 # Topics
-- [[continuous uniform distribution]]
+- [[uniform distribution]]
 - [[rademacher distribution]]
 - [[geometric distribution]]
 - [[poisson distribution]]
