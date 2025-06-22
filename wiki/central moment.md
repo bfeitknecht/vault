@@ -4,7 +4,7 @@ $$
 \mu_{n} = \Ex[(X - \mu])^{n}]
 $$
 
-For a continuous univariate probability distribution with [[probability density function (PDF)|density]] $f(x)$ it equals the [[integral]] below.
+For a continuous univariate probability distribution with [[probability density|density]] $f(x)$ it equals the [[integral]] below.
 $$
 \mu_{n} = \int_{-\infty}^{+\infty}(x - \mu)^{n} f(x) \d x
 $$

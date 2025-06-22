@@ -13,7 +13,7 @@ next: "[[W&S-v-w02]]"
 - [[laplace model]]
 - [[indicator variable]]
 - [[inclusion exclusion formula]]
-- [[cumulative distribution function (CDF)]]
+- [[probability distribution]]
 
 # Notes
 -  sample space denoted by $\Omega$ and outcome of elementary experiment $\omega \in \Omega$

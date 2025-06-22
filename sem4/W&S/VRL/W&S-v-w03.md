@@ -8,7 +8,7 @@ A random variable is a deterministic function and thus neither random nor a vari
 
 # Topics
 - [[random variable]]
-- [[probability density function (PDF)]]
+- [[probability density]]
 - [[bernoulli distribution]]
 - [[binomial distribution]]
 - [[geometric distribution]]

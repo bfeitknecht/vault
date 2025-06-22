@@ -1,7 +1,7 @@
 
 ![[W&S-script-1.pdf#page=43&rect=131,506,498,595|W&S-script-1, p.42]]
 
-A [[continuous]] [[random variable]] $X$ is said to exhibit **continuous uniform distribution** in the [[interval]] $[a, b]$, with $a < b$ if its [[probability density function (PDF)|density]] and hence [[cumulative distribution function (CDF)|distribution]] is as defined below. In this case we write $X \sim \mathcal{U}([a, b])$.
+A [[continuous]] [[random variable]] $X$ is said to exhibit **continuous uniform distribution** in the [[interval]] $[a, b]$, with $a < b$ if its [[probability density|density]] and hence [[probability distribution|distribution]] is as defined below. In this case we write $X \sim \mathcal{U}([a, b])$.
 $$
 \begin{align}
 f_{a, b}(x) &= \begin{cases}
@@ -16,4 +16,4 @@ F_{X}(x) &= \begin{cases}
 \end{align}
 $$
 
-Intuitively, $X$ describes a point in the interval uniformly chosen. The [[cumulative distribution function (CDF)]] of any random variable is uniformly distributed.
+Intuitively, $X$ describes a point in the interval uniformly chosen. The [[probability distribution]] of any random variable is uniformly distributed.
