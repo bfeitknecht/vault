@@ -20,3 +20,9 @@ map s[ :surround_square_brackets<CR>
 map s] :surround_square_brackets<CR>
 map s{ :surround_curly_brackets<CR>
 map s} :surround_curly_brackets<CR>
+
+exmap unfoldall obcommand editor:unfold-all
+nmap zR :unfoldall<CR>
+
+exmap foldall obcommand editor:fold-all
+nmap zM :foldall<CR>
