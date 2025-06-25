@@ -6,7 +6,7 @@ Computer networks can be broken down into five layers that provide different ser
 | Layer                | Service                               | Role                                   | Protocol(s)                  |
 | -------------------- | ------------------------------------- | -------------------------------------- | ---------------------------- |
 | **L5 (application)** | network access                        | exchange messages between processes    | HTTP, SMTP, FTP, SIP         |
-| **L4 (transport)**   | end-to-end delivery (reliable or not) | transport segments between end-systems | TCP, UDP, SCTP               |
+| **L4 (transport)**   | end-to-end delivery (reliable or not) | transport segments between end-systems | TCP, UDP, SCTP, QUIC         |
 | **L3 (network)**     | global best-effort delivery           | move packets around network            | IP                           |
 | **L2 (link)**        | local best-effort delivery            | move frames across link                | ethernet, wifi, DSL, LTE     |
 | **L1 (physical)**    | physical transfer of bits             | move bits across physical medium       | optical fiber, coaxial cable |
