@@ -43,3 +43,6 @@ next: "[[DMDB-v-w03]]"
 - schema of $R, S$ must be identical, otherwise can't apply operation
 - order is irrelevant, relations in RA are sets
 - $T =R \div S$ is the largest relation such that $S \times T \subseteq R$
+- inner join edge cases
+	- with no shared attributes, $R(A, B, C), S(D, E)$, the result is cartesian products $R \bowtie S = R \times S$
+	- with all attributes shared, $R(A,B,C), S(A,B,C)$, the result is intersection $R \bowtie S = R \cap S$
