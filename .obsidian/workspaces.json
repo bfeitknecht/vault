@@ -210,7 +210,7 @@
         }
       },
       "active": "e946321ee3e829b6",
-      "mtime": "2025-06-15T18:42:38+02:00"
+      "mtime": "2025-06-25T19:30:39+02:00"
     },
     "00-home": {
       "main": {
@@ -457,7 +457,7 @@
         }
       },
       "active": "162e7a61651e562a",
-      "mtime": "2025-06-15T18:44:07+02:00"
+      "mtime": "2025-06-25T19:32:06+02:00"
     },
     "sem4-cn": {
       "main": {
@@ -506,16 +506,32 @@
             "type": "tabs",
             "children": [
               {
+                "id": "89c88c1a6ce3c845",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/CN/VRL/extra/CN-top-down-kurose-ross.pdf",
+                    "page": 65,
+                    "left": 11,
+                    "top": 48,
+                    "zoom": 0.7574047954866009
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "CN-top-down-kurose-ross"
+                }
+              },
+              {
                 "id": "d3e0548326747f01",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s02-layering.pdf",
-                    "page": 48,
-                    "left": -24,
-                    "top": 191,
-                    "zoom": 0.6181710213776723
+                    "page": 82,
+                    "left": -16,
+                    "top": 284,
+                    "zoom": 0.65
                   },
                   "icon": "lucide-file-text",
                   "title": "CN-s02-layering"
@@ -693,7 +709,7 @@
         }
       },
       "active": "f273b4431c93fde8",
-      "mtime": "2025-06-19T16:00:26+02:00"
+      "mtime": "2025-06-25T20:38:52+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -728,13 +744,14 @@
                   "state": {
                     "file": "sem4/DMDB/PV/DMDB-summary.md",
                     "mode": "source",
-                    "source": false
+                    "source": true
                   },
                   "icon": "lucide-file",
                   "title": "DMDB-summary"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "b2d58a2794577117",
@@ -748,9 +765,9 @@
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s02-relational-calculus.pdf",
                     "page": 1,
-                    "left": -35,
+                    "left": -192,
                     "top": 544,
-                    "zoom": 0.42265625000000007
+                    "zoom": 0.42265625
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-s02-relational-calculus"
@@ -825,7 +842,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 350.5
+        "width": 350.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -926,8 +944,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2025-06-22T11:14:29+02:00"
+      "active": "cf8a844f8d3f4047",
+      "mtime": "2025-06-25T19:32:50+02:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1432,5 +1450,5 @@
       "mtime": "2025-06-22T11:01:49+02:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-dmdb"
 }
