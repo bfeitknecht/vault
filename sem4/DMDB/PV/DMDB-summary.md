@@ -3,6 +3,9 @@
 > - [ ] primary key
 > - [ ] compound key
 > - [ ] functional dependency
-> - [ ] relational algebra, relational calculus
+> - [x] relational algebra, relational calculus ✅ 2025-06-26
 > - [ ] SPJR algebra
+> - [ ] entity relationship model
+
+
 
