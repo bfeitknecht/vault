@@ -15,16 +15,7 @@
 
 ## Relational Calculus
 
-**schema**
-- relation schema, $R(A_{1} : D_{1}, \dots A_{n} : D_{n})$, where $D_{i}$ is a constant
-- database schema, $S = (R_{i})_{m}$, where $R_{i}$ is a relation of arity $n_{i}$
-- domain, $\mathrm{dom} = \bigcup_{i \in \mathbb{N}}D_{i}$, infinite set of constants
 
-**instance**
-- relation instance, $R(A_{1} : D_{1}, \dots A_{n} : A_{n}) : I_{R} \subseteq \mathrm{dom}^{n}$, specifically $I_{R}$ is finite
-	- finite set of facts over the relation
-- database instance, $S(R_{1},\dots R_{m}) : \mathbb{I}$, is a function that maps the relation schema $R_{i}$ to an instance $\mathbb{I}(R_{i})$
-	- finite set of facts over all relations
 
 
 **relational calculus query**

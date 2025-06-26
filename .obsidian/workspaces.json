@@ -498,8 +498,7 @@
                   "title": "CN-summary"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "ff76ae8e25882880",
@@ -513,8 +512,8 @@
                   "state": {
                     "file": "sem4/CN/VRL/extra/CN-top-down-kurose-ross.pdf",
                     "page": 65,
-                    "left": 11,
-                    "top": 48,
+                    "left": 3,
+                    "top": 56,
                     "zoom": 0.7574047954866009
                   },
                   "icon": "lucide-file-text",
@@ -708,8 +707,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "f273b4431c93fde8",
-      "mtime": "2025-06-25T20:38:52+02:00"
+      "active": "89c88c1a6ce3c845",
+      "mtime": "2025-06-26T14:45:54+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -779,8 +778,8 @@
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s02-relational-calculus.pdf",
                     "page": 12,
-                    "left": 45,
-                    "top": 55,
+                    "left": 61,
+                    "top": 264,
                     "zoom": 0.76
                   },
                   "icon": "lucide-file-text",
@@ -975,7 +974,7 @@
         }
       },
       "active": "c7ef8cceb85ab7b5",
-      "mtime": "2025-06-26T14:40:48+02:00"
+      "mtime": "2025-06-26T14:45:19+02:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1003,6 +1002,20 @@
                 }
               },
               {
+                "id": "976f8b0ec993ee6a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/FMFP/VRL/FMFP-v-w13.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "FMFP-v-w13"
+                }
+              },
+              {
                 "id": "0ff0cadc15454576",
                 "type": "leaf",
                 "state": {
@@ -1016,7 +1029,8 @@
                   "title": "FMFP-summary"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "4eae27f0ad5ff541",
@@ -1209,8 +1223,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "71254ba74efcb51c",
-      "mtime": "2025-06-26T14:41:39+02:00"
+      "active": "0ff0cadc15454576",
+      "mtime": "2025-06-26T14:45:43+02:00"
     },
     "sem4-w&s": {
       "main": {

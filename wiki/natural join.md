@@ -6,4 +6,3 @@ $$
 The following case distinction on the attributes of $R, S$ are made.
 1. $\mathrm{Attr}(R) \cap \mathrm{Attr}(S) = \varnothing \implies R \bowtie S = R \times S$
 2. $\mathrm{Attr}(R) = \mathrm{Attr}(S) \implies R \bowtie S = R \cap S$
-3. 
