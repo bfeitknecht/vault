@@ -5,7 +5,7 @@ next: "[[DMDB-v-w03]]"
 ---
 
 # Info
-- do some `postgreSQL` in `docker`
+- do some `SQL` in `docker`
 
 # Topics
 - introduction to `SQL`
@@ -28,7 +28,7 @@ next: "[[DMDB-v-w03]]"
 ![[DMDB-s02-relational-calculus.pdf#page=3&rect=56,43,924,434|DMDB-s-w02-relational-calculus, p.3]]
 
 
-| Operation           | $\mathrm{Set}$             | `PostgreSQL`                          |
+| Operation           | $\mathrm{Set}$             | `SQL`                                 |
 | ------------------- | -------------------------- | ------------------------------------- |
 | intersection        | $R_{1} \cap R_{2}$         | `R1 INTERSECT R2`                     |
 | union               | $R_{1} \cup R_{2}$         | `R1 UNION R2`                         |
