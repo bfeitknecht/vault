@@ -4,11 +4,12 @@ prev: "[[DMDB-v-w01]]"
 next: "[[DMDB-v-w03]]"
 tags: 
 slides:
+  - "[[DMDB-s01-relational-algebra.pdf]]"
   - "[[DMDB-s02-relational-calculus.pdf]]"
 ---
 
 # Info
-- do some `SQL` in `docker`
+- practice`SQL`
 
 # Topics
 - [[relational algebra (RA)]]
