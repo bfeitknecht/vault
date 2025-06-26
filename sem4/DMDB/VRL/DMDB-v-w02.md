@@ -21,22 +21,25 @@ next: "[[DMDB-v-w03]]"
 - primary key CANNOT be `NULL` and must be unique
 - primary key can be tuple
 - `WHERE != HAVING`
-- there are different ways to implement the same query in [[relational algebra]]
+- there are multiple different ways to implement the same query in [[relational algebra]]
 - relational calculus is declarative, relational algebra is imperative
 
 
 ![[DMDB-s02-relational-calculus.pdf#page=3&rect=56,43,924,434|DMDB-s-w02-relational-calculus, p.3]]
 
 
-| Operation           | $\mathrm{Set}$             | `SQL`                                 |
-| ------------------- | -------------------------- | ------------------------------------- |
-| intersection        | $R_{1} \cap R_{2}$         | `R1 INTERSECT R2`                     |
-| union               | $R_{1} \cup R_{2}$         | `R1 UNION R2`                         |
-| difference          | $R_{1} - R_{2}$            | `R1 EXCEPT R2`                        |
-| cartesian product   | $R_{1} \times R_{2}$       | `SELECT * FROM R1, R2`                |
-| relational division | $R_{1} \div R_{2}$         |                                       |
-| selection           | $\sigma_{\mathrm{c}} (R)$  | `SELECT * FROM R WHERE c`             |
-| projection          | $\prod_{ (A_{i})_{n}} (R)$ | `SELECT A1, .. An FROM R`             |
-| renaming            | $\rho_{(B_{i})_{n}} (R)$   | `SELECT A1 AS B1, .. An AS Bn FROM R` |
-| distinct            | $\delta(R)$                | `SELECT DISTINCT FROM R`              |
-
+| Operation           | $\mathsf{Set}$             | `SQL`                                 | Definition                                                                              |
+| ------------------- | -------------------------- | ------------------------------------- | --------------------------------------------------------------------------------------- |
+| intersection        | $R \cap S$                 | `R INTERSECT S`                       |                                                                                         |
+| union               | $R \cup S$                 | `R UNION S`                           |                                                                                         |
+| difference          | $R - S$                    | `R EXCEPT S`                          |                                                                                         |
+| cartesian product   | $R \times S$               | `SELECT * FROM R, S`                  |                                                                                         |
+| relational division | $R \div S$                 |                                       | $\prod_{R - S}R - \prod_{R -S} \left( \left( \prod_{R-S} R\right) \times S - R \right)$ |
+| selection           | $\sigma_{\mathrm{c}} (R)$  | `SELECT * FROM R WHERE c`             | $\{ x \in R \mid c(x) \}$                                                               |
+| projection          | $\prod_{ (A_{i})_{n}} (R)$ | `SELECT A1, .. An FROM R`             |                                                                                         |
+| renaming            | $\rho_{(B_{i})_{n}} (R)$   | `SELECT A1 AS B1, .. An AS Bn FROM R` |                                                                                         |
+| distinct            | $\delta(R)$                | `SELECT DISTINCT FROM R`              |                                                                                         |
+| inner join          | $R \bowtie S$              |                                       |                                                                                         |
+- schema of $R, S$ must be identical, otherwise can't apply operation
+- order is irrelevant, relations in RA are sets
+- $T =R \div S$ is the largest relation such that $S \times T \subseteq R$
