@@ -42,7 +42,28 @@ The main difference between the [[user datagram protocol (UDP)]] and [[transmiss
 | Use Cases    | VoIP, Streaming, DNS   | HTTP, FTP, Email          |
 
 ## DNS
+- uses UDP, reliability through repeating requests
+- overall highly ...
+	- scalable, in terms of records, analytics, administration
+	- available, domains replicate independently
+	- extensible, any level (including TLD) can be modified independently
+- caching is very effective, top level servers rarely change and are very frequently requested
+	- TTL field in record specifies for how long
+
+### Resolution
+#### Recursive
 #todo 
+
+#### Iterative
+#todo 
+
+
+### RRs
+![[DNS-RRs.png]]
+
+### Glue Record
+#todo 
+
 
 ## IP
 #todo 
