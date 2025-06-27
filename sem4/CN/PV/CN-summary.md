@@ -51,12 +51,14 @@ The main difference between the [[user datagram protocol (UDP)]] and [[transmiss
 	- TTL field in record specifies for how long
 
 ### Resolution
-#### Recursive
-#todo 
-
-#### Iterative
-#todo 
-
+- recursive resolution strategy
+	- client offloads resolution of query to rest of tree
+	![[CN-top-down-kurose-ross.pdf#page=168&rect=53,412,403,900|CN-top-down-kurose-ross, p.168|300]]
+- iterative resolution strategy
+	- resolve server only returns address of next server to query
+	![[CN-top-down-kurose-ross.pdf#page=166&rect=52,101,386,553|CN-top-down-kurose-ross, p.166|300]]
+	
+- ==type of resolution strategy can change along the path!==
 
 ### RRs
 ![[DNS-RRs.png]]
