@@ -9,7 +9,7 @@ slides:
 
 
 # Info
-- "Microsoft 1, Intel 0"
+- "Microsoft 1, Intel 0."
 - "Tier 1 networks are those networks that don't pay any other network for transit yet still can reach all networks connected to the internet."
 
 

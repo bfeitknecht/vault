@@ -7,7 +7,7 @@ next: "[[CN-v-w06]]"
 
 # Info
 - "Never let the telephone people do networking. That's how we got 48bit MAC addresses."
-- "150ms is an eternity"
+- "150ms is an eternity."
 
 
 # Topics
