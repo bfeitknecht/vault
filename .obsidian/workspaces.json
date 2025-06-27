@@ -750,7 +750,7 @@
                 }
               },
               {
-                "id": "cf8a844f8d3f4047",
+                "id": "da00d4184c32ad6a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -764,7 +764,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "b2d58a2794577117",
@@ -776,33 +776,34 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s02-relational-calculus.pdf",
-                    "page": 12,
-                    "left": 61,
-                    "top": 264,
-                    "zoom": 0.76
+                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s03-entity-relationship-model.pdf",
+                    "page": 54,
+                    "left": -28,
+                    "top": 64,
+                    "zoom": 0.5593750000000001
                   },
                   "icon": "lucide-file-text",
-                  "title": "DMDB-s02-relational-calculus"
+                  "title": "DMDB-s03-entity-relationship-model"
                 }
               },
               {
-                "id": "ab2e2e98bc39c19b",
+                "id": "32f9e34e02de8e93",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s01-relational-algebra.pdf",
-                    "page": 41,
-                    "left": 21,
-                    "top": 494,
-                    "zoom": 0.62
+                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s04-null,view.pdf",
+                    "page": 39,
+                    "left": -28,
+                    "top": 64,
+                    "zoom": 0.559375
                   },
                   "icon": "lucide-file-text",
-                  "title": "DMDB-s01-relational-algebra"
+                  "title": "DMDB-s04-null,view"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -973,8 +974,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "c7ef8cceb85ab7b5",
-      "mtime": "2025-06-26T14:45:19+02:00"
+      "active": "da00d4184c32ad6a",
+      "mtime": "2025-06-27T09:21:36+02:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1493,5 +1494,5 @@
       "mtime": "2025-06-22T11:01:49+02:00"
     }
   },
-  "active": "sem4-dmdb"
+  "active": "sem4-cn"
 }
