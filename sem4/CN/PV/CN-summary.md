@@ -15,9 +15,6 @@ The design exhibits some core principles listed below.
 - end-to-end principle, allow abstraction to assume network transfer works
 - fate-sharing principle, when storing state in distributed system, co-locate it with entities that rely on it
 
-## HTTP
-#todo 
-
 ## UDP / TCP
 The main difference between the [[user datagram protocol (UDP)]] and [[transmission control protocol (TCP)]] lies in **reliability**, **ordering**, and **overhead**.
 
@@ -65,6 +62,9 @@ The main difference between the [[user datagram protocol (UDP)]] and [[transmiss
 
 ### Glue Record
 #todo 
+
+
+## HTTP
 
 
 ## IP
