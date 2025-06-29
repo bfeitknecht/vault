@@ -6,7 +6,7 @@
         "type": "split",
         "children": [
           {
-            "id": "9a0a4f484fcee7cb",
+            "id": "827dc382b9c7f85e",
             "type": "tabs",
             "children": [
               {
@@ -21,28 +21,6 @@
                   },
                   "icon": "lucide-file",
                   "title": "scratch"
-                }
-              }
-            ]
-          },
-          {
-            "id": "b7dddc1206f6748d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b4a880bcc617d8b3",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem3/DMath/VRL/extra/dmath-script-hs24.pdf",
-                    "page": 68,
-                    "left": -12,
-                    "top": 144,
-                    "zoom": 1.2800099159054936
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "dmath-script-hs24"
                 }
               }
             ]
@@ -217,7 +195,7 @@
         }
       },
       "active": "703132741165361f",
-      "mtime": "2025-06-28T18:33:20+02:00"
+      "mtime": "2025-06-28T20:17:29+02:00"
     },
     "00-home": {
       "main": {
@@ -1519,5 +1497,5 @@
       "mtime": "2025-06-22T11:01:49+02:00"
     }
   },
-  "active": "00-clean"
+  "active": "sem4-cn"
 }
