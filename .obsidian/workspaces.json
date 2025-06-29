@@ -529,17 +529,33 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s04-WWW.pdf",
-                    "page": 29,
+                    "page": 30,
                     "left": -24,
-                    "top": 291,
+                    "top": 519,
                     "zoom": 0.637767220902613
                   },
                   "icon": "lucide-file-text",
                   "title": "CN-s04-WWW"
                 }
+              },
+              {
+                "id": "14fb3ea050e60f8a",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/CN/VRL/extra/slides/CN-s05-transport-layer.pdf",
+                    "page": 54,
+                    "left": -56,
+                    "top": 184,
+                    "zoom": 0.2796875
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "CN-s05-transport-layer"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -710,8 +726,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "556119eb78120e9c",
-      "mtime": "2025-06-28T18:35:26+02:00"
+      "active": "f273b4431c93fde8",
+      "mtime": "2025-06-29T10:34:36+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1497,5 +1513,5 @@
       "mtime": "2025-06-22T11:01:49+02:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-dmdb"
 }

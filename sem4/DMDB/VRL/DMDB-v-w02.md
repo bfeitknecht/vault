@@ -38,25 +38,25 @@ slides:
 		- with no shared attributes, $R(A, B, C), S(D, E)$, the result is cartesian products $R \bowtie S = R \times S$
 		- with all attributes shared, $R(A,B,C), S(A,B,C)$, the result is intersection $R \bowtie S = R \cap S$
 
-| Operation           | `SQL`                                  | Notation                   | Definition                                                                              |
-| ------------------- | -------------------------------------- | -------------------------- | --------------------------------------------------------------------------------------- |
-| intersection        | `R INTERSECT S`                        | $R \cap S$                 |                                                                                         |
-| union               | `R UNION S`                            | $R \cup S$                 |                                                                                         |
-| difference          | `R EXCEPT S`                           | $R - S$                    |                                                                                         |
-| cartesian product   | `SELECT * FROM R, S`                   | $R \times S$               |                                                                                         |
-| relational division |                                        | $R \div S$                 | $\prod_{R - S}R - \prod_{R -S} \left( \left( \prod_{R-S} R\right) \times S - R \right)$ |
-| selection           | `SELECT * FROM R WHERE c`              | $\sigma_{\mathrm{c}} (R)$  | $\{ x \in R \mid c(x) \}$                                                               |
-| projection          | `SELECT A1, .. An FROM R`              | $\prod_{ (A_{i})_{n}} (R)$ |                                                                                         |
-| renaming            | `SELECT A1 AS B1, .. An AS Bn FROM R`  | $\rho_{(B_{i})_{n}} (R)$   |                                                                                         |
-| distinct            | `SELECT DISTINCT FROM R`               | $\delta(R)$                |                                                                                         |
-| inner join          | `SELECT * FROM R INNER JOIN S ON TRUE` | $R \bowtie S$              | $R(A,B) \bowtie S(B,C) = \prod_{A, B, C} (\sigma_{R.B = S.B}(R \times S))$              |
-| theta join          | `SELECT * FROM R JOIN S ON theta`      | $R \bowtie_{\theta} S$     | $R \bowtie_{\theta} S = \sigma_{\theta}(R \times S)$                                    |
+| Operation           | `SQL`                                         | Notation                  | Definition                                                                          |
+| ------------------- | --------------------------------------------- | ------------------------- | ----------------------------------------------------------------------------------- |
+| intersection        | `SELECT * FROM R INTERSECT SELECT * FROM * S` | $R \cap S$                |                                                                                     |
+| union               | `R UNION S`                                   | $R \cup S$                |                                                                                     |
+| difference          | `R EXCEPT S`                                  | $R - S$                   |                                                                                     |
+| cartesian product   | `SELECT * FROM R, S`                          | $R \times S$              |                                                                                     |
+| relational division | n/a                                           | $R \div S$                | $\Pi_{R - S}(R) - \Pi_{R -S} \left( \left( \Pi_{R-S} R\right) \times S - R \right)$ |
+| selection           | `SELECT * FROM R WHERE c`                     | $\sigma_{\mathrm{c}} (R)$ | $\{ x \in R \mid c(x) \}$                                                           |
+| projection          | `SELECT A1, .. An FROM R`                     | $\Pi_{ (A_{i})_{n}} (R)$  | $\{ t[A_{i}]_{n} \mid t \in R \}$                                                   |
+| renaming            | `SELECT A1 AS B1, .. An AS Bn FROM R`         | $\rho_{(B_{i})_{n}} (R)$  |                                                                                     |
+| distinct            | `SELECT  * DISTINCT FROM R`                   | $\delta(R)$               |                                                                                     |
+| inner join          | `SELECT * FROM R INNER JOIN S ON R.B=S.B`     | $R \bowtie S$             | $\Pi_{A, B, C} (\sigma_{R.B = S.B}(R \times S))$                                    |
+| theta join          | `SELECT * FROM R INNER JOIN S ON theta`       | $R \bowtie_{\theta} S$    | $\sigma_{\theta}(R \times S)$                                                       |
 
 ## Relational Calculus
 - model in first order logic is a tuple $\mathcal{M}= ( \mathbb{D}, \mathbb{I})$, where
 	- $\mathbb{D}$ is the domain with all possible symbols
 	- $\mathbb{I}$ is the interpretation function that maps to tuples of elements in the domain that fulfill a predicate
-	- $\mathcal{M} = \phi$ if, and only if $\phi$ evaluates to true under $\mathcal{M}$
+	- $\mathcal{M} \models \phi$ if, and only if $\phi$ evaluates to true under $\mathcal{M}$
 ### Schema
 - relation schema, $R(A_{1} : D_{1}, \dots A_{n} : D_{n})$, where $D_{i}$ is a constant
 - database schema, $S = (R_{i})_{m}$, where $R_{i}$ is a relation of arity $n_{i}$
