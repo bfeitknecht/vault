@@ -442,7 +442,7 @@
         }
       },
       "active": "162e7a61651e562a",
-      "mtime": "2025-06-25T19:32:06+02:00"
+      "mtime": "2025-06-29T15:23:23+02:00"
     },
     "sem4-cn": {
       "main": {
@@ -783,7 +783,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "b2d58a2794577117",
@@ -845,8 +845,8 @@
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s04-null,view.pdf",
                     "page": 37,
-                    "left": -57,
-                    "top": 267,
+                    "left": -594,
+                    "top": 270,
                     "zoom": 0.26406250000000003
                   },
                   "icon": "lucide-file-text",
@@ -1025,8 +1025,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "a09546924192b8cc",
-      "mtime": "2025-06-29T14:09:24+02:00"
+      "active": "da00d4184c32ad6a",
+      "mtime": "2025-06-29T15:22:00+02:00"
     },
     "sem4-fmfp": {
       "main": {
