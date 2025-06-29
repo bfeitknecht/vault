@@ -1,8 +1,11 @@
 ---
 module: "[[DMDB]]"
 prev: "[[DMDB]]"
-tags:
 next: "[[DMDB-v-w02]]"
+tags: 
+slides:
+  - "[[DMDB-s01-intro.pdf]]"
+  - "[[DMDB-s01-relational-algebra.pdf]]"
 ---
 
 # Info
