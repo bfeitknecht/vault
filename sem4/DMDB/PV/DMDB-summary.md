@@ -38,4 +38,6 @@ flowchart TD
 
 id01[entity]
 id02[[weak entity]]
+
+A@{shape: }
 ```
