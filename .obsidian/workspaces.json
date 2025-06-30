@@ -781,6 +781,20 @@
                   "icon": "lucide-file",
                   "title": "DMDB-summary"
                 }
+              },
+              {
+                "id": "f4be11161e617aea",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem3/TI/UE/bf/TI-bf-u04.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "TI-bf-u04"
+                }
               }
             ],
             "currentTab": 2
@@ -790,31 +804,15 @@
             "type": "tabs",
             "children": [
               {
-                "id": "ab2064a76acaeb90",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s01-relational-algebra.pdf",
-                    "page": 40,
-                    "left": -28,
-                    "top": 146,
-                    "zoom": 0.559375
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "DMDB-s01-relational-algebra"
-                }
-              },
-              {
                 "id": "d9ba60fdd938e62d",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s02-relational-calculus.pdf",
-                    "page": 60,
+                    "page": 51,
                     "left": -28,
-                    "top": 301,
+                    "top": 493,
                     "zoom": 0.559375
                   },
                   "icon": "lucide-file-text",
@@ -830,7 +828,7 @@
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s03-entity-relationship-model.pdf",
                     "page": 54,
                     "left": -28,
-                    "top": 497,
+                    "top": 69,
                     "zoom": 0.559375
                   },
                   "icon": "lucide-file-text",
@@ -843,18 +841,18 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s04-null,view.pdf",
-                    "page": 37,
-                    "left": -594,
-                    "top": 270,
-                    "zoom": 0.26406250000000003
+                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s04-NULL-views.pdf",
+                    "page": 39,
+                    "left": -28,
+                    "top": 473,
+                    "zoom": 0.559375
                   },
                   "icon": "lucide-file-text",
-                  "title": "DMDB-s04-null,view"
+                  "title": "DMDB-s04-NULL-views"
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1026,7 +1024,7 @@
         }
       },
       "active": "da00d4184c32ad6a",
-      "mtime": "2025-06-29T15:22:00+02:00"
+      "mtime": "2025-06-30T15:14:51+02:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1275,8 +1273,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "0ff0cadc15454576",
-      "mtime": "2025-06-26T14:45:43+02:00"
+      "active": "6aa16ac910c60d3a",
+      "mtime": "2025-06-30T15:14:53+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1545,5 +1543,5 @@
       "mtime": "2025-06-22T11:01:49+02:00"
     }
   },
-  "active": "sem4-dmdb"
+  "active": "sem4-w&s"
 }
