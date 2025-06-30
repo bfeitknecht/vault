@@ -34,10 +34,11 @@
 # ER Diagram
 
 ```mermaid
-flowchart TD
+flowchart LR
 
 id01[entity]
 id02[[weak entity]]
+id03{relationship}
+id04((attribute))
 
-A@{shape: }
 ```
