@@ -34,3 +34,16 @@
 
 
 
+## Network
+
+**routing**
+- decide where packet goes, which direction
+- control plane of network
+- global process
+- expensive
+
+**forwarding**
+- just send packet along its path
+- data plane of network
+- local process
+- fast
