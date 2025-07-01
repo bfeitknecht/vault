@@ -20,7 +20,7 @@ next: "[[CN-v-w05]]"
 
 # Notes
 - datagram is pass along strategy (connectionless)
-- every packet is handles separately by routers based on current state
+- every packet is handled separately by routers based on current state
 	- can lead to reordering and packet delay or packet loss
 - virtual circuit is connection oriented
 - requires additional state in packet header and setup time
@@ -34,5 +34,3 @@ next: "[[CN-v-w05]]"
 ## IP
 > [!quote] A name indicates what we seek. An address indicates where it is. A route indicates how to get there.
 
-
-![[CN-s08-network-layer.pdf#page=30&rect=99,111,610,351|CN-s08-network-layer, p.30]]

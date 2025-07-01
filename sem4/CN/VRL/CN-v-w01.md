@@ -14,6 +14,7 @@ next: "[[CN-v-w02]]"
 # Notes
 
 ## Network Layers
+![[CN-s08-network-layer.pdf#page=30&rect=99,111,610,351|CN-s08-network-layer, p.30]]
 Computer networks can be broken down into five layers that provide different services. Each layer provides a service to the layer above by using the services of the layer directly below it.
 
 | Layer                | Service                               | Role                                                 | Protocol(s)                  |
