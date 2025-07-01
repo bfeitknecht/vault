@@ -8,52 +8,34 @@ next: "[[CN-v-w03]]"
 
 
 # Topics
-- DNS
+- [[domain name system (DNS)]]
+- DNS resolution strategy
+- uniform resource locator (URL)
+
 
 # Notes
-- DNS contains fully qualified network name `subdomain.domain.tld`
-- hierarchical architecture ensures no collisions, every level has one responsible organization
-
-> [!info]- `dig` request for DNS resolution for hostname
-> ```dig>
-> $ dig ch. @a.root-servers.net.>
-> >
-> ; <<>> DiG 9.10.6 <<>> ch. @a.root-servers.net.>
-> ;; global options: +cmd>
-> ;; Got answer:>
-> ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53540>
-> ;; flags: qr rd; QUERY: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 11>
-> ;; WARNING: recursion requested but not available>
-> >
-> ;; OPT PSEUDOSECTION:>
-> ; EDNS: version: 0, flags:; udp: 4096>
-> ;; QUESTION SECTION:>
-> ;ch.				IN	A>
-> >
-> ;; AUTHORITY SECTION:>
-> ch.			172800	IN	NS	b.nic.ch.>
-> ch.			172800	IN	NS	e.nic.ch.>
-> ch.			172800	IN	NS	a.nic.ch.>
-> ch.			172800	IN	NS	d.nic.ch.>
-> ch.			172800	IN	NS	f.nic.ch.>
-> >
-> ;; ADDITIONAL SECTION:>
-> b.nic.ch.		172800	IN	A	130.59.31.43>
-> b.nic.ch.		172800	IN	AAAA	2001:620:0:ff::58>
-> e.nic.ch.		172800	IN	A	194.0.17.1>
-> e.nic.ch.		172800	IN	AAAA	2001:678:3::1>
-> a.nic.ch.		172800	IN	A	130.59.31.41>
-> a.nic.ch.		172800	IN	AAAA	2001:620:0:ff::56>
-> d.nic.ch.		172800	IN	A	194.0.25.39>
-> d.nic.ch.		172800	IN	AAAA	2001:678:20::39>
-> f.nic.ch.		172800	IN	A	194.146.106.10>
-> f.nic.ch.		172800	IN	AAAA	2001:67c:1010:2::53>
-> >
-> ;; Query time: 27 msec>
-> ;; SERVER: 2001:503:ba3e::2:30#53(2001:503:ba3e::2:30)>
-> ;; WHEN: Mon Feb 24 14:54:36 CET 2025>
-> ;; MSG SIZE  rcvd: 335>
-> ```
-
-
+## URL
 ![[CN-s04-WWW.pdf#page=14&rect=56,172,805,253|CN-s04-WWW, p.14]]
+- specifies a resource in a network and how to access it
+
+
+## DNS
+- DNS contains fully qualified network name `subdomain.domain.tld.`
+- hierarchical architecture ensures no collisions, every level has one responsible organization
+- uses UDP, reliability through repeating requests
+- overall highly ...
+	- scalable, in terms of records, analytics, administration
+	- available, domains replicate independently
+	- extensible, any level (including TLD) can be modified independently
+- caching is very effective, top level servers rarely change and are very frequently requested
+	- TTL field in record specifies how long until discard
+
+### Resolution
+- recursive resolution strategy
+	- client offloads resolution of query to rest of tree
+	![[CN-top-down-kurose-ross.pdf#page=168&rect=53,412,403,900|CN-top-down-kurose-ross, p.168|300]]
+- iterative resolution strategy
+	- resolve server only returns address of next server to query
+	![[CN-top-down-kurose-ross.pdf#page=166&rect=52,101,386,553|CN-top-down-kurose-ross, p.166|300]]
+	
+- ==type of resolution strategy can change along the path!==
