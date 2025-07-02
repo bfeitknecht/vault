@@ -6,7 +6,8 @@ semester:
 
 
 # Info
-- [DMDB Moodle](https://moodle-app2.let.ethz.ch/course/view.php?id=24995)
+- [Moodle](https://moodle-app2.let.ethz.ch/course/view.php?id=24995)
+- exam is on moodle
 
 
 # Schedule

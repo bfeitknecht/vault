@@ -251,11 +251,11 @@
             ]
           },
           {
-            "id": "f4c27890fdfee2b4",
+            "id": "9650c8be49143653",
             "type": "tabs",
             "children": [
               {
-                "id": "c1d4bca0b23a015c",
+                "id": "8803ad54421ae0a7",
                 "type": "leaf",
                 "state": {
                   "type": "graph",
@@ -265,7 +265,7 @@
                 }
               },
               {
-                "id": "eb37342e4b713be8",
+                "id": "f26cc426790c77d9",
                 "type": "leaf",
                 "state": {
                   "type": "custom-frames-calendar",
@@ -442,7 +442,7 @@
         }
       },
       "active": "162e7a61651e562a",
-      "mtime": "2025-07-02T09:51:13+02:00"
+      "mtime": "2025-07-02T12:20:39+02:00"
     },
     "sem4-cn": {
       "main": {
@@ -840,8 +840,7 @@
                   "title": "TI-bf-u04"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "b2d58a2794577117",
@@ -872,7 +871,7 @@
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s03-entity-relationship-model.pdf",
                     "page": 54,
                     "left": -28,
-                    "top": 73,
+                    "top": 77,
                     "zoom": 0.559375
                   },
                   "icon": "lucide-file-text",
@@ -1067,8 +1066,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "da00d4184c32ad6a",
-      "mtime": "2025-07-02T12:01:20+02:00"
+      "active": "e81bd16c68218834",
+      "mtime": "2025-07-02T12:33:26+02:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1373,8 +1372,7 @@
                   "title": "W&S-summary"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "f6a409c477b7352e",
@@ -1389,7 +1387,7 @@
                     "file": "sem4/W&S/VRL/extra/W&S-script-1.pdf",
                     "page": 68,
                     "left": -17,
-                    "top": 748,
+                    "top": 753,
                     "zoom": 0.9021025541093545
                   },
                   "icon": "lucide-file-text",
@@ -1583,9 +1581,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "a200e032c559113b",
-      "mtime": "2025-07-01T10:24:55+02:00"
+      "active": "bda29f628fc74523",
+      "mtime": "2025-07-02T12:34:07+02:00"
     }
   },
-  "active": "00-home"
+  "active": "sem4-dmdb"
 }

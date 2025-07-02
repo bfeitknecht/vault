@@ -7,6 +7,7 @@
 	- Login: pos-25s
 	- Password: t57kF3W
 - 10 pages of A4 notes for exam
+- exam is 60% multiple choice
 
 # Topics
  - probability space
