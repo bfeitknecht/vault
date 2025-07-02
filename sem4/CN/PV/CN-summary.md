@@ -22,7 +22,7 @@
 - prevents a set of senders from overloading the network
 	- uses "congestion" window, i.e. how many bytes can be sent without network overflow
 	- based on network conditions
-- three principles
+- three driving principles
 	- congestion detection, three possible approaches
 		- network tells source – signal itself could be lost
 		- measure packet delay – signal often noisy, delay varies considerably
