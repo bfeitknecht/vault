@@ -11,6 +11,7 @@
 > 	- [ ] congestion control
 > 	- [ ] CCAs
 > - [ ] HTTP
+> - [ ] head-of-line blocking
 
 
 ## Flow Control
