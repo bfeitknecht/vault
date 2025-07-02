@@ -29,6 +29,7 @@ The main difference between the [[user datagram protocol (UDP)]] and [[transmiss
 - reliable, guarantees delivery of data with packets **in order**, handles retransmission of lost packets
 - some overhead because of setup, error checking ACKs and congestion control
 - use cases where accuracy is critical, e.g. web browsing (HTTP, HTTPS), email (SMTP), file transfer (FTP)
+- full duplex service, data may flow both ways
 
 | **Feature**  | **UDP**                | **TCP**                   |
 | ------------ | ---------------------- | ------------------------- |

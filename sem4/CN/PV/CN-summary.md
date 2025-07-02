@@ -48,3 +48,28 @@
 - data plane of network
 - local process
 - fast
+
+
+## Switching
+**packet switching**
+- applicable for high peak-average utilization rate, bursty traffic
+
+**circuit switching**
+- applicable when peak-average utilization rate is low, i.e. constant bandwidth required
+
+**virtual circuit**
+- #todo 
+
+
+"A 5-tuple uniquely identifies a UDP/TCP session.", https://www.ietf.org/rfc/rfc6146.txt#:~:text=5-Tuple%3A%20The%20tuple%20
+This tuple consists of (source IP, source port, destination ip, destination port, protocol) but here we already know that the protocol is TCP hence the prior four suffice.
+
+- **Transmission delay:** Time it takes to put packets onto the wire.
+- **Propoagation delay:** Time it takes packets to travel through the wire from source to destination.
+- **Processing delay:** Time it takes for packet to be processed within a switch from being taken out of the queue to be sent out.
+- **Queuing delay:** Time a packet spends in a queue between arriving and being processed.
+
+_Simplex_: data may only flow one way.  
+_Half-duplex_: data may flow both ways, but not simultaneously  
+_Full-duplex_: data may flow both ways simultaneously
+
