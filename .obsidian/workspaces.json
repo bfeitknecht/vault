@@ -512,7 +512,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           },
           {
             "id": "ff76ae8e25882880",
@@ -590,8 +590,8 @@
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s08-network-layer.pdf",
                     "page": 133,
-                    "left": 11,
-                    "top": 92,
+                    "left": 6,
+                    "top": 96,
                     "zoom": 0.68
                   },
                   "icon": "lucide-file-text",
@@ -770,8 +770,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "f273b4431c93fde8",
-      "mtime": "2025-07-02T09:40:40+02:00"
+      "active": "642fc42403387d1a",
+      "mtime": "2025-07-02T12:01:10+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -872,7 +872,7 @@
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s03-entity-relationship-model.pdf",
                     "page": 54,
                     "left": -28,
-                    "top": 69,
+                    "top": 73,
                     "zoom": 0.559375
                   },
                   "icon": "lucide-file-text",
@@ -1068,7 +1068,7 @@
         }
       },
       "active": "da00d4184c32ad6a",
-      "mtime": "2025-06-30T15:14:51+02:00"
+      "mtime": "2025-07-02T12:01:20+02:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1587,5 +1587,5 @@
       "mtime": "2025-07-01T10:24:55+02:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "00-home"
 }

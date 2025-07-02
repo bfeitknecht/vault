@@ -20,9 +20,9 @@ The main difference between the [[user datagram protocol (UDP)]] and [[transmiss
 
 **UDP**
 - unreliable, no guarantee that packets arrive in order or even arrive at all
-- connectionless, data is sent without establishing connection
-- less overhead
-- use cases where time-sensitivity is important, i.e. video streaming, VoIP, gaming, **DNS queries**
+- connectionless, data is sent without establishing session
+- little overhead
+- use cases where time-sensitivity is important, i.e. video streaming, VoIP, gaming, DNS queries
 
 **TCP**
 - before transmission three-way [[TCP handshake]] is performed to establish connection
@@ -33,11 +33,11 @@ The main difference between the [[user datagram protocol (UDP)]] and [[transmiss
 
 | **Feature**  | **UDP**                | **TCP**                   |
 | ------------ | ---------------------- | ------------------------- |
-| Reliability  | No                     | Yes (acknowledged, retry) |
-| Connection   | Connectionless         | Connection-oriented       |
-| Packet Order | No ordering guarantees | Maintains order           |
-| Speed        | Faster (lightweight)   | Slower (more overhead)    |
-| Use Cases    | VoIP, Streaming, DNS   | HTTP, FTP, Email          |
+| reliability  | no                     | yes (acknowledged, retry) |
+| connection   | connectionless         | connection-oriented       |
+| packet order | no ordering guarantees | maintains order           |
+| speed        | faster (lightweight)   | slower (more overhead)    |
+| usecases     | VoIP, streaming, DNS   | HTTP, FTP, SMTP           |
 
 ## TCP State Diagram
 ![[TCP-state-diagram.png|white]]
