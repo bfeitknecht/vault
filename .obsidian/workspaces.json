@@ -274,7 +274,8 @@
                   "title": "Calendar"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -394,23 +395,13 @@
                 }
               },
               {
-                "id": "df8e8e11fe3e136a",
-                "type": "leaf",
-                "state": {
-                  "type": "toggl-report",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Toggl Report"
-                }
-              },
-              {
                 "id": "d39f74221ae34967",
                 "type": "leaf",
                 "state": {
                   "type": "vertical-tabs-view",
                   "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
+                  "icon": "list",
+                  "title": "Vertical Tabs"
                 }
               }
             ],
@@ -442,7 +433,7 @@
         }
       },
       "active": "162e7a61651e562a",
-      "mtime": "2025-07-02T12:20:39+02:00"
+      "mtime": "2025-07-04T09:25:45+02:00"
     },
     "sem4-cn": {
       "main": {
@@ -871,7 +862,7 @@
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s03-entity-relationship-model.pdf",
                     "page": 54,
                     "left": -28,
-                    "top": 77,
+                    "top": 104,
                     "zoom": 0.559375
                   },
                   "icon": "lucide-file-text",
@@ -1067,7 +1058,7 @@
         }
       },
       "active": "e81bd16c68218834",
-      "mtime": "2025-07-02T12:33:26+02:00"
+      "mtime": "2025-07-03T19:40:42+02:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1385,9 +1376,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/W&S/VRL/extra/W&S-script-1.pdf",
-                    "page": 68,
+                    "page": 70,
                     "left": -17,
-                    "top": 753,
+                    "top": 231,
                     "zoom": 0.9021025541093545
                   },
                   "icon": "lucide-file-text",
@@ -1497,7 +1488,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "wiki/cumulative distribution function (CDF).md",
+                    "file": "sem4/W&S/VRL/extra/W&S-script-1.pdf",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1507,7 +1498,7 @@
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for cumulative distribution function (CDF)"
+                  "title": "Backlinks for W&S-script-1"
                 }
               },
               {
@@ -1550,11 +1541,12 @@
                 "state": {
                   "type": "vertical-tabs-view",
                   "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
+                  "icon": "list",
+                  "title": "Vertical Tabs"
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "horizontal",
@@ -1581,9 +1573,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "bda29f628fc74523",
-      "mtime": "2025-07-02T12:34:07+02:00"
+      "active": "8268ee7324e36902",
+      "mtime": "2025-07-04T09:23:09+02:00"
     }
   },
-  "active": "sem4-dmdb"
+  "active": "sem4-cn"
 }
