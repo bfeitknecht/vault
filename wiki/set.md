@@ -41,26 +41,3 @@ $$
 
 Analogous to the lemmas regarding [[operation (propositional logic)|operations]] in [[propositional logic]], we can define the following theorem for operations on sets.
 ![[dmath-script-hs24.pdf#page=57&rect=36,196,389,349|dmath-script-hs24, p.47]]
-
-
-
-
-
-
-
-
-___
-
-
-[[russell's paradox]]
-
-
-
-A ~ B def.: es gibt eine bijektion von A $\rightarrow$ B und B $\rightarrow$ A 
-
-
-$$\langle G ; *;\odot ;e \rangle \times \langle H;\diamond ;\bowtie ;e'\rangle = \langle G\times H; \Box;\cdot\cdot\cdot; (e,e') \rangle$$
-where: 
-$$(g,\,h) \Box (g',\,h') = (g*g', h\diamond h')$$
-
-$\mathbb{Z}_2\times \mathbb{Z}_3\simeq\mathbb{Z}_6$

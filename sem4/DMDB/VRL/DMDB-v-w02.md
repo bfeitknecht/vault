@@ -39,19 +39,23 @@ slides:
 		- with all attributes shared, $R(A,B,C), S(A,B,C)$, the result is intersection $R \bowtie S = R \cap S$
 	- restriction of tuple, $t[a_{i}]_{n} = \{ (a', v) \in t \mid a' \in [a_{i}]_{n} \}$
 
-| Operation           | `SQL`                                           | Notation                                                 | Definition                                                              |
-| ------------------- | ----------------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------------------------- |
-| intersection        | `(SELECT * FROM R) INTERSECT (SELECT * FROM S)` | $R \cap S$                                               | like set semantics                                                      |
-| union               | `(SELECT * FROM R) UNION (SELECT * FROM S)`     | $R \cup S$                                               | ''                                                                      |
-| difference          | `(SELECT * FROM R) EXCEPT (SELECT * FROM S)`    | $R - S$                                                  | ''                                                                      |
-| cartesian product   | `SELECT * FROM R, S`                            | $R \times S$                                             | ''                                                                      |
-| relational division | n/a                                             | $R \div S$                                               | $\Pi_{R - S}(R) - \Pi_{R - S} \big( \Pi_{R-S} (R) \times (S - R) \big)$ |
-| selection           | `SELECT * FROM R WHERE c`                       | $\sigma_{\mathrm{c}} (R)$                                | $\{ t \in R \mid c(t) \}$                                               |
-| projection          | `SELECT A1, .. An FROM R`                       | $\Pi_{ (A_{i})_{n}} (R)$                                 | $\{ t[A_{i}]_{n} \mid t \in R \}$                                       |
-| renaming            | `SELECT A1 AS B1, .. An AS Bn FROM R`           | $\rho_{(B_{i} \leftarrow A_{i})_{n}} (R)$, $\rho_{S}(R)$ | attribute $B_{i}$ renamed to $A_{i}$ or relation $R$ renamed to $R$     |
-| distinct            | `SELECT  * DISTINCT FROM R`                     | $\delta(R)$                                              | duplicate tuples (columns) removed                                      |
-| inner join          | `SELECT * FROM R INNER JOIN S ON R.B=S.B`       | $R(A, B) \bowtie S(B, C)$                                | $\Pi_{A, B, C} (\sigma_{R.B = S.B}(R \times S))$                        |
-| theta join          | `SELECT * FROM R INNER JOIN S ON theta`         | $R \bowtie_{\theta} S$                                   | $\sigma_{\theta}(R \times S)$                                           |
+| Operation           | `SQL`                                           | Notation                                                 | Definition                                                                                                                        |
+| ------------------- | ----------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| intersection        | `(SELECT * FROM R) INTERSECT (SELECT * FROM S)` | $R \cap S$                                               | like set semantics                                                                                                                |
+| union               | `(SELECT * FROM R) UNION (SELECT * FROM S)`     | $R \cup S$                                               | ''                                                                                                                                |
+| difference          | `(SELECT * FROM R) EXCEPT (SELECT * FROM S)`    | $R - S$                                                  | ''                                                                                                                                |
+| cartesian product   | `SELECT * FROM R, S`                            | $R \times S$                                             | ''                                                                                                                                |
+| relational division | n/a                                             | $R \div S$                                               | maximum relation that estimates  inverse of product, $\Pi_{R - S}(R) - \Pi_{R - S} \big( \Pi_{R-S} (R) \times (S - R) \big)$      |
+| selection           | `SELECT * FROM R WHERE c`                       | $\sigma_{\mathrm{c}} (R)$                                | tuples that fulfill condition, $\{ t \in R \mid c(t) \}$                                                                          |
+| projection          | `SELECT A1, .. An FROM R`                       | $\Pi_{ (A_{i})_{n}} (R)$                                 | restriction of tuples to attribute subset, $\{ t[A_{i}]_{n} \mid t \in R \}$                                                      |
+| renaming            | `SELECT A1 AS B1, .. An AS Bn FROM R`           | $\rho_{(B_{i} \leftarrow A_{i})_{n}} (R)$, $\rho_{S}(R)$ | attribute $B_{i}$ renamed to $A_{i}$ or relation $R$ renamed to $S$                                                               |
+| distinct            | `SELECT  * DISTINCT FROM R`                     | $\delta(R)$                                              | duplicate tuples (rows) removed                                                                                                   |
+| natural join        | `SELECT * FROM R NATURAL JOIN S`                | $R \bowtie S$                                            | tuples joined on shared attribute set, $\Pi_{R \cup S} (\sigma_{\bigwedge_{i \in [\|R \cap S\|]} R.A_{i} = S.A_{i}}(R \times S))$ |
+| theta join          | `SELECT * FROM R INNER JOIN S ON theta`         | $R \bowtie_{\theta} S$<br><br>                           | tuples joined on condition, $\sigma_{\theta}(R \times S)$                                                                         |
+| equijoin            | `SELECT * FROM R INNER JOIN USING (A)`          | $R \bowtie_{A} S$                                        | tuples joined on attribute equality, $\sigma_{R.A = S.A}(R \times S)$                                                             |
+| semijoin            | `SELECT * FROM R WHERE a IN (SELECT a FROM S)`  | $R \ltimes S$                                            | restriction of joined tuples to one operand's attribute set, $\Pi_{R}(R \bowtie S)$                                               |
+
+
 
 ## Relational Calculus
 - model in first order logic is a tuple $\mathcal{M}= ( \mathbb{D}, \mathbb{I})$, where
