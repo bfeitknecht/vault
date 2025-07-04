@@ -581,8 +581,8 @@
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s08-network-layer.pdf",
                     "page": 133,
-                    "left": 6,
-                    "top": 96,
+                    "left": 1,
+                    "top": 101,
                     "zoom": 0.68
                   },
                   "icon": "lucide-file-text",
@@ -761,8 +761,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "642fc42403387d1a",
-      "mtime": "2025-07-02T12:01:10+02:00"
+      "active": "fe7f778b4414a311",
+      "mtime": "2025-07-04T09:30:00+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1577,5 +1577,5 @@
       "mtime": "2025-07-04T09:23:09+02:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-dmdb"
 }
