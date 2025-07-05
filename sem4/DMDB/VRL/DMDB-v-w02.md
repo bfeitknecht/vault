@@ -55,10 +55,9 @@ slides:
 | renaming            | `SELECT A1 AS B1, .. An AS Bn FROM R`           | $\rho_{(B_{i} \leftarrow A_{i})_{n}} (R)$, $\rho_{S}(R)$ | attribute $B_{i}$ renamed to $A_{i}$ or relation $R$ renamed to $S$                                                               |
 | distinct            | `SELECT  * DISTINCT FROM R`                     | $\delta(R)$                                              | duplicate tuples (rows) removed                                                                                                   |
 | natural join        | `SELECT * FROM R NATURAL JOIN S`                | $R \Join S$                                              | tuples joined on shared attribute set, $\Pi_{R \cup S} (\sigma_{\bigwedge_{i \in [\|R \cap S\|]} R.A_{i} = S.A_{i}}(R \times S))$ |
-| theta join          | `SELECT * FROM R INNER JOIN S ON theta`         | $R \Join_{\theta} S$<br><br>                             | tuples joined on condition, $\sigma_{\theta}(R \times S)$                                                                         |
-| equijoin            | `SELECT * FROM R INNER JOIN USING (A)`          | $R \Join_{A} S$                                          | tuples joined on attribute equality, $\sigma_{R.A = S.A}(R \times S)$                                                             |
+| theta join          | `SELECT * FROM R JOIN S ON theta`               | $R \Join_{\theta} S$<br><br>                             | tuples joined on condition, $\sigma_{\theta}(R \times S)$                                                                         |
+| equijoin            | `SELECT * FROM R JOIN USING (A)`                | $R \Join_{A} S$                                          | tuples joined on attribute equality, $\sigma_{R.A = S.A}(R \times S)$                                                             |
 | semijoin            | `SELECT * FROM R WHERE A IN (SELECT A FROM S)`  | $R \ltimes S$                                            | restriction of join to one operand's tuples, $\Pi_{R}(R \Join S)$                                                                 |
-
 
 
 ## Relational Calculus

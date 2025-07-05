@@ -9,8 +9,8 @@
 > - [x] primary key, candidate key, superkey ✅ 2025-06-29
 
 > [!info]- Exercise
-> - [ ] exercise 01
-> - [ ] exercise 02
+> - [x] exercise 01 ✅ 2025-07-05
+> - [x] exercise 02 ✅ 2025-07-05
 > - [ ] exercise 03
 > - [ ] exercise 04
 > - [ ] exercise 05
