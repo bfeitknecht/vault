@@ -56,7 +56,7 @@ slides:
 | natural join        | `SELECT * FROM R NATURAL JOIN S`                | $R \bowtie S$                                            | tuples joined on shared attribute set, $\Pi_{R \cup S} (\sigma_{\bigwedge_{i \in [\|R \cap S\|]} R.A_{i} = S.A_{i}}(R \times S))$ |
 | theta join          | `SELECT * FROM R INNER JOIN S ON theta`         | $R \bowtie_{\theta} S$<br><br>                           | tuples joined on condition, $\sigma_{\theta}(R \times S)$                                                                         |
 | equijoin            | `SELECT * FROM R INNER JOIN USING (A)`          | $R \bowtie_{A} S$                                        | tuples joined on attribute equality, $\sigma_{R.A = S.A}(R \times S)$                                                             |
-| semijoin            | `SELECT * FROM R WHERE a IN (SELECT a FROM S)`  | $R \ltimes S$                                            | restriction of joined tuples to one operand's attribute set, $\Pi_{R}(R \bowtie S)$                                               |
+| semijoin            | `SELECT * FROM R WHERE A IN (SELECT A FROM S)`  | $R \ltimes S$                                            | restriction of join to one operand's tuples, $\Pi_{R}(R \bowtie S)$                                                               |
 
 
 ## Relational Calculus
