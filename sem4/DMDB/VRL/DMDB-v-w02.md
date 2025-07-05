@@ -38,6 +38,9 @@ slides:
 		- with no shared attributes, $R(A, B, C), S(D, E)$, the result is cartesian products $R \bowtie S = R \times S$
 		- with all attributes shared, $R(A,B,C), S(A,B,C)$, the result is intersection $R \bowtie S = R \cap S$
 	- restriction of tuple, $t[a_{i}]_{n} = \{ (a', v) \in t \mid a' \in [a_{i}]_{n} \}$
+	- semijoin reduction $R \bowtie S = (R \ltimes \Pi_{R \cap S} S) \bowtie S$
+		- semijoin sends what matters in $S$ to $R$
+		- 
 
 | Operation           | `SQL`                                           | Notation                                                 | Definition                                                                                                                        |
 | ------------------- | ----------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
@@ -54,7 +57,6 @@ slides:
 | theta join          | `SELECT * FROM R INNER JOIN S ON theta`         | $R \bowtie_{\theta} S$<br><br>                           | tuples joined on condition, $\sigma_{\theta}(R \times S)$                                                                         |
 | equijoin            | `SELECT * FROM R INNER JOIN USING (A)`          | $R \bowtie_{A} S$                                        | tuples joined on attribute equality, $\sigma_{R.A = S.A}(R \times S)$                                                             |
 | semijoin            | `SELECT * FROM R WHERE a IN (SELECT a FROM S)`  | $R \ltimes S$                                            | restriction of joined tuples to one operand's attribute set, $\Pi_{R}(R \bowtie S)$                                               |
-
 
 
 ## Relational Calculus
