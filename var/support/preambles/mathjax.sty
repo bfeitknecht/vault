@@ -1,21 +1,19 @@
 %% the step relation on the given argument #1
-\newcommand{\step}[1]{\mathrel{\smash{\raise{-.2em}{
+\newcommand{\step}[1]{\mathbin{{
     {\Large \vdash}_{
         \kern{-1em}{
-            \smash{\raise{.2em}{\tiny #1}}
+            \smash{\raise{.2em}{\scriptscriptstyle #1}}
         }
     }
-}}}}
+}}}
 
 %% the reflexive and transitive closure of the step relation on #1
-\newcommand{\steps}[1]{\mathrel{
-    \step{#1}^{
-        \kern{-.88em}{
-            \smash{\raise{-.3em}{\tiny *}}
+\newcommand{\steps}[1]{\mathbin{
+    \stepp{#1}^{
+        \kern{-.9em}{
+            {\scriptscriptstyle \ast}
         }
-    }
-}}
-
+}}}
 %% negated implication
 \newcommand{\nimpl}{
     \kern{.6em}{\not\kern{-.6em}{\implies}}
@@ -37,10 +35,21 @@
   \mathrm{d}
 }
 
+%% probability theory functions
 \DeclareMathOperator{\Ex}{E}
 \DeclareMathOperator{\Var}{Var}
 \DeclareMathOperator{\Cov}{Cov}
 
+%% join operators
 \newcommand{\Join}{
     \mathrel{\small ⨝}
+}
+\newcommand{\leftouterjoin}{
+    \mathrel{\small ⟕}
+}
+\newcommand{\rightouterjoin}{
+    \mathrel{\small ⟖}
+}
+\newcommand{\outerjoin}{
+    \mathrel{\small ⟗}
 }

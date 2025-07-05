@@ -2,7 +2,7 @@
 module: "[[DMDB]]"
 prev: "[[DMDB-v-w01]]"
 next: "[[DMDB-v-w03]]"
-tags: 
+tags:
 slides:
   - "[[DMDB-s01-relational-algebra.pdf]]"
   - "[[DMDB-s02-relational-calculus.pdf]]"
@@ -35,11 +35,11 @@ slides:
 	- order is irrelevant, relations in RA are sets
 	- $T =R \div S$ is the largest relation such that $S \times T \subseteq R$
 	- inner join edge cases
-		- with no shared attributes, $R(A, B, C), S(D, E)$, the result is cartesian products $R \bowtie S = R \times S$
-		- with all attributes shared, $R(A,B,C), S(A,B,C)$, the result is intersection $R \bowtie S = R \cap S$
+		- with no shared attributes, join equals to cartesian product, $\mathrm{Attr}(R) \cap \mathrm{Attr}(S) = \varnothing \implies R \Join S = R \times S$
+		- with all attributes shared, join equals intersection, $\mathrm{Attr}(R) = \mathrm{Attr}(S) \implies R \Join S = R \cap S$
 	- restriction of tuple, $t[a_{i}]_{n} = \{ (a', v) \in t \mid a' \in [a_{i}]_{n} \}$
 	- semijoin reduction saves communication by not sending complete relations
-		- $R \bowtie S = \underbracket{ \big(R \ltimes \Pi_{R \cap S} (S) \big) }_{ 1. } \bowtie \underbracket{ S }_{ 2. }$
+		- $R \Join S = \underbracket{ \big(R \ltimes \Pi_{R \cap S} (S) \big) }_{ 1. } \Join \underbracket{ S }_{ 2. }$
 		1. semijoin sends only what matters in $S$ to $R$
 		2. join sends back only what matters in $R$ to $S$
 
@@ -54,10 +54,10 @@ slides:
 | projection          | `SELECT A1, .. An FROM R`                       | $\Pi_{ (A_{i})_{n}} (R)$                                 | restriction of tuples to attribute subset, $\{ t[A_{i}]_{n} \mid t \in R \}$                                                      |
 | renaming            | `SELECT A1 AS B1, .. An AS Bn FROM R`           | $\rho_{(B_{i} \leftarrow A_{i})_{n}} (R)$, $\rho_{S}(R)$ | attribute $B_{i}$ renamed to $A_{i}$ or relation $R$ renamed to $S$                                                               |
 | distinct            | `SELECT  * DISTINCT FROM R`                     | $\delta(R)$                                              | duplicate tuples (rows) removed                                                                                                   |
-| natural join        | `SELECT * FROM R NATURAL JOIN S`                | $R \bowtie S$                                            | tuples joined on shared attribute set, $\Pi_{R \cup S} (\sigma_{\bigwedge_{i \in [\|R \cap S\|]} R.A_{i} = S.A_{i}}(R \times S))$ |
-| theta join          | `SELECT * FROM R INNER JOIN S ON theta`         | $R \bowtie_{\theta} S$<br><br>                           | tuples joined on condition, $\sigma_{\theta}(R \times S)$                                                                         |
-| equijoin            | `SELECT * FROM R INNER JOIN USING (A)`          | $R \bowtie_{A} S$                                        | tuples joined on attribute equality, $\sigma_{R.A = S.A}(R \times S)$                                                             |
-| semijoin            | `SELECT * FROM R WHERE A IN (SELECT A FROM S)`  | $R \ltimes S$                                            | restriction of join to one operand's tuples, $\Pi_{R}(R \bowtie S)$                                                               |
+| natural join        | `SELECT * FROM R NATURAL JOIN S`                | $R \Join S$                                            | tuples joined on shared attribute set, $\Pi_{R \cup S} (\sigma_{\bigwedge_{i \in [\|R \cap S\|]} R.A_{i} = S.A_{i}}(R \times S))$ |
+| theta join          | `SELECT * FROM R INNER JOIN S ON theta`         | $R \Join_{\theta} S$<br><br>                             | tuples joined on condition, $\sigma_{\theta}(R \times S)$                                                                         |
+| equijoin            | `SELECT * FROM R INNER JOIN USING (A)`          | $R \Join_{A} S$                                        | tuples joined on attribute equality, $\sigma_{R.A = S.A}(R \times S)$                                                             |
+| semijoin            | `SELECT * FROM R WHERE A IN (SELECT A FROM S)`  | $R \ltimes S$                                            | restriction of join to one operand's tuples, $\Pi_{R}(R \Join S)$                                                               |
 
 
 ## Relational Calculus
@@ -89,3 +89,4 @@ slides:
 - semantics of active domain query, $Q_{\mathrm{adom}(\phi , \mathbb{I})} = \{ (x_{1}, \dots x_{k}) \mid \phi' \land \forall i \in [k]. x_{i} \in \mathrm{adom(\phi, \mathbb{I})} \}$
 	- $\phi'$ constrains all variables in $\phi$ bound by quantifiers to $\mathrm{adom}(\phi, \mathbb{I})$
 - result of query in RC under active domain semantics is always finite
+

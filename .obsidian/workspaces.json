@@ -862,9 +862,9 @@
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s01-relational-algebra.pdf",
                     "page": 36,
-                    "left": 63,
-                    "top": 458,
-                    "zoom": 0.63
+                    "left": -28,
+                    "top": 470,
+                    "zoom": 0.559375
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-s01-relational-algebra"
@@ -1090,7 +1090,7 @@
         }
       },
       "active": "b489fdbbfa03cd88",
-      "mtime": "2025-07-05T12:36:26+02:00"
+      "mtime": "2025-07-05T13:03:28+02:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1609,5 +1609,5 @@
       "mtime": "2025-07-04T09:23:09+02:00"
     }
   },
-  "active": "sem4-dmdb"
+  "active": "00-clean"
 }
