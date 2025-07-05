@@ -38,9 +38,10 @@ slides:
 		- with no shared attributes, $R(A, B, C), S(D, E)$, the result is cartesian products $R \bowtie S = R \times S$
 		- with all attributes shared, $R(A,B,C), S(A,B,C)$, the result is intersection $R \bowtie S = R \cap S$
 	- restriction of tuple, $t[a_{i}]_{n} = \{ (a', v) \in t \mid a' \in [a_{i}]_{n} \}$
-	- semijoin reduction $R \bowtie S = (R \ltimes \Pi_{R \cap S} S) \bowtie S$
-		- semijoin sends what matters in $S$ to $R$
-		- 
+	- semijoin reduction saves communication by not sending complete relations
+		- $R \bowtie S = \underbracket{ \big(R \ltimes \Pi_{R \cap S} (S) \big) }_{ 1. } \bowtie \underbracket{ S }_{ 2. }$
+		1. semijoin sends only what matters in $S$ to $R$
+		2. join sends back only what matters in $R$ to $S$
 
 | Operation           | `SQL`                                           | Notation                                                 | Definition                                                                                                                        |
 | ------------------- | ----------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
