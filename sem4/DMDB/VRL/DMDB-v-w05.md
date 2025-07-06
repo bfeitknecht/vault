@@ -25,7 +25,7 @@ slides:
 	- if $X, Y \subseteq R$ then $X \to Y$ is functional dependency if every value $x \in X$ uniquely determines value $y \in Y$
 	- if $Y \subseteq X$ then $X \to Y$ is a trivial FD which satisfies reflexivity
 	- $R \vDash \alpha \to \beta$ expresses that the relation satisfies the functional dependency
-- armstrong's axioms for a set of FDs $F$, and a relation schema $\mathcal{R}$
+- armstrong's axioms for a set of FDs $F$, and a relation schema $\mathcal{R}$, with $\alpha, \beta , \gamma, \theta \subseteq \mathcal{R}$
 	- reflexivity, $\alpha \subseteq \beta \implies \beta \to \alpha$
 	- augmentation, $\alpha \to \beta \implies \alpha\gamma \to \beta\gamma$, where $\alpha\gamma = \alpha \cup \gamma$
 	- transitivity, $\alpha \to \beta, \beta \to \gamma \implies \alpha \to \gamma$
@@ -39,10 +39,14 @@ slides:
 		- union, $\alpha, \beta, \alpha \to \gamma \implies \alpha \to \beta\gamma$
 		- decomposition, $\alpha \to \beta\gamma \implies \alpha \to \beta, \alpha \to \gamma$
 		- pseudo-transitivity, $\alpha \to \beta, \beta\gamma \to \theta \implies \alpha\gamma \to \theta$
+	- minimal FD can't have LHS restricted, $\forall A \in \alpha. \alpha - \{ A \} \nrightarrow \beta \iff \alpha \overset\cdot\to \beta$
+	- superkey uniquely identifies every row, $\alpha \to \mathcal{R}$ 
+	- candidate key is minimal superkey, $\alpha \overset\cdot\to \mathcal{R}$
 - minimal cover for $F$ is a set $G$ such that the following holds
 	- $F \equiv G$
 	- every RHS of FDs in $G$ is a single attribute
 	- it's not not possible to make $G$ smaller without violating the previous requirements
+		- removing FDs or restricting the LHS
 
 ## Normal Form
 - 1NF, only atomic domains, i.e. ==no tuple entries==
