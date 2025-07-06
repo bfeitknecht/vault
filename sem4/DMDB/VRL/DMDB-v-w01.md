@@ -27,3 +27,12 @@ DB and OS are close friends and also enemies, as both do a lot of the same thing
 
 
 Drawback of hierarchical model is that data needs to conform to tree structure.
+
+
+## Keys
+| Key Type      | Definition                                                                                 | Properties                                  |
+| ------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------- |
+| superkey      | set of one or more attributes that uniquely identifies every row                           | unique                                      |
+| candidate key | minimal superkey, removing any one attribute destroys uniqueness, no redundant information | unique, minimal                             |
+| primary key   | candidate key chosen for identification of tuples in relation                              | unique, minimal, not `NULL`                 |
+| foreign key   | one or more attributes that reference candidate key of another relation                    | non-unique, nullable, referential integrity |

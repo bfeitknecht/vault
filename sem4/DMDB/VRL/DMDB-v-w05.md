@@ -19,6 +19,24 @@ slides:
 
 
 # Notes
+
+## Functional Dependency
+- functional dependency (FD) is a constraint on attributes of a relation
+	- if $X, Y \subseteq R$ then $X \to Y$ is functional dependency if every value $x \in X$ uniquely determines value $y \in Y$
+	- if $Y \subseteq X$ then $X \to Y$ is a trivial FD which satisfies reflexivity
+	- $R \vDash \alpha \to \beta$ expresses that the relation satisfies the functional dependency
+- armstrong's axioms for a set of FDs $F$, and a relation schema $\mathcal{R}$
+	- reflexivity, $\alpha \subseteq \beta \implies \beta \to \alpha$
+	- augmentation, $\alpha \to \beta \implies \alpha\gamma \to \beta\gamma$, where $\alpha\gamma = \alpha \cup \gamma$
+	- transitivity, $\alpha \to \beta, \beta \to \gamma \implies \alpha \to \gamma$
+	- together sound and complete
+	- closure of attribute set with respect to $F$, $\alpha^{+} = \{ y \in \mathcal{R} \mid F \vdash \alpha \to y\}$
+	- $F \vdash \alpha \to \beta$, syntactic entailment through application of inference rules
+	- $F \vDash \alpha \to \beta$, semantic entailment
+	- fundamental result of armstrong's axioms, $F \vDash \alpha \to \beta \iff F \vdash \alpha \to \beta$
+	- the transitive closure, $F^{+}$ is set of all FDs that are semantically implied
+
+## Normal Form
 - 1NF, only atomic domains, i.e. ==no tuple entries==
 - 2NF, every non-key attribute is minimally dependent on every key, i.e. ==everything depends on the key==
 - 3NF, if at least one of the following holds for all attributes $X, Y \subseteq R$, i.e. ==no transitive dependencies==
@@ -26,9 +44,6 @@ slides:
 	- $X$ is a superkey
 	- $Y$ is attribute of at least one key
 - BCNF, same as 3NF but without last condition, i.e. only store same information once
-- functional dependency (FD) is a constraint on attributes of a relation
-	- if $X, Y \subseteq R$ then $X \to Y$ is functional dependency if every value $x \in X$ uniquely determines value in $y \in Y$
-	- if $Y \subseteq X$ then $X \to Y$ is a trivial FD
 - BCNF does not preserve all FD while 3NF does
 - BCNF does not get rid of all data redundancies, only ones causes by FD
 - lossless decomposition up to 4NF

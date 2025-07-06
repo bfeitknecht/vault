@@ -19,7 +19,7 @@ $$
 ## b)
 ![[DMath-e-u04.pdf#page=2&rect=107,685,521,700|DMath-e-u04, p.2]]
 
-True. We prove this by a series of equivalence transformations. We note that an element not being in the intersection of sets is logical consequence of the element not being in any one of the sets, i.e. $x \not\in C \models x \not\in (A \cap B \cap C)$. We will refer to this fact by $1$.
+True. We prove this by a series of equivalence transformations. We note that an element not being in the intersection of sets is logical consequence of the element not being in any one of the sets, i.e. $x \not\in C \vDash x \not\in (A \cap B \cap C)$. We will refer to this fact by $1$.
 $$
 \begin{align}
 A \cap (B \setminus C) &= \{ x \mid x \in A \land x \not\in(B \setminus C) \} &\text{(def. $\setminus$,)} \\
@@ -54,4 +54,3 @@ $$
 &= 2^{2^{k+l}} \geq 2 &\square
 \end{align}
 $$
-

@@ -64,7 +64,7 @@ fi
 	- $\sigma \in \Gamma$ ranges over states of transition system
 - $\mathcal{C}(\mathrm{TS})$ is the set of all computations of transition system $\mathrm{TS}$
 - **linear time property** over states is a subset of computations, $P \subseteq \Gamma^{\omega}$
-	- $\mathrm{TS} \models P \iff \mathcal{C}(\mathrm{TS}) \subseteq P$
+	- $\mathrm{TS} \vDash P \iff \mathcal{C}(\mathrm{TS}) \subseteq P$
 	- every computation of $\mathrm{TS}$ belongs to $P$
 - atomic propositions additionally specify a set $\mathrm{AP}$
 	- atomic proposition contains no logical connective (logical AND, consequence, etc.)
@@ -98,12 +98,12 @@ fi
 	- until, non-negative natural number of steps
 	- next, after current step
 - semantics of LTL
-	- $t \models \phi$ expresses that trace $t \in \mathcal{P}(\mathrm{AP})^{\omega}$ satisfies LTL formula $\phi$, defined as follows
-		- $t \models p \iff p \in t_{[0]}$
-		- $t \models \lnot\phi \iff \text{not } t \models \phi$
-		- $t \models \phi \land \psi \iff t \models \phi \text{ and } t \models \psi$}$
-		- $t \models \phi \mathrel{\mathsf{U}} \psi \iff \exists k \in \mathbb{N}_{+}. t_{(\geq k)} \models \psi \text{ and } \exists j \in \mathbb{N}_{+}, j < k. t_{(\geq j)} \models \phi$}$
-		- $t \models \mathop{\huge\circ}\phi  \iff t_{(\geq1)} \models \phi$
+	- $t \vDash \phi$ expresses that trace $t \in \mathcal{P}(\mathrm{AP})^{\omega}$ satisfies LTL formula $\phi$, defined as follows
+		- $t \vDash p \iff p \in t_{[0]}$
+		- $t \vDash \lnot\phi \iff \text{not } t \vDash \phi$
+		- $t \vDash \phi \land \psi \iff t \vDash \phi \text{ and } t \vDash \psi$}$
+		- $t \vDash \phi \mathrel{\mathsf{U}} \psi \iff \exists k \in \mathbb{N}_{+}. t_{(\geq k)} \vDash \psi \text{ and } \exists j \in \mathbb{N}_{+}, j < k. t_{(\geq j)} \vDash \phi$}$
+		- $t \vDash \mathop{\huge\circ}\phi  \iff t_{(\geq1)} \vDash \phi$
 	- derived operators and constants
 		- $\mathrm{True}, \mathrm{False}, \lor, \Rightarrow, \Leftrightarrow$ as usual
 		- eventually, $\mathop{\huge\diamond} \phi \equiv \mathrm{True} \mathrel{\mathsf{U}} \phi$

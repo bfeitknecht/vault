@@ -23,7 +23,7 @@ slides:
 - logical variables are only used in assertions and allow reference across pre- and post-condition
 	- substitution lemma holds, $\mathcal{B}[\![\mathbf{P}[x \mapsto e]]\!]\sigma = \mathcal{B}[\![\mathbf{P}]\!]\sigma[x \mapsto \mathcal{A}[\![e]\!]\sigma]$
 	- applying $\texttt{skip}$ rule requires ==**syntactic** equivalence== of assertions, thus use
-		- $\mathbf{P} \models \mathbf{Q} \iff \forall \sigma.\mathcal{B}[\![\mathbf{P}]\!]\sigma= \mathrm{True} \to \mathcal{B}[\![\mathbf{Q}]\!]\sigma = \mathrm{True}$
+		- $\mathbf{P} \vDash \mathbf{Q} \iff \forall \sigma.\mathcal{B}[\![\mathbf{P}]\!]\sigma= \mathrm{True} \to \mathcal{B}[\![\mathbf{Q}]\!]\sigma = \mathrm{True}$
 		- i.e. **semantic** consequence of assertions
 		- may strengthen preconditions and weaken postconditions, in diagram $\uparrow \circ \rightarrow \circ \downarrow$
 		- build proof outlines bottom-up
@@ -34,10 +34,10 @@ slides:
 	- if an assertion is both pre- and post-condition, no downarrow necessary
 - $\vdash \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \} \iff \exists T.\mathrm{root(T) \equiv \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \}}$
 	- property can be proven (exists derivation tree with triple as root)
-- $\models \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \} \iff \forall \sigma, \sigma'. \mathcal{B}[\![\mathbf{P}]\!]\sigma \land \vdash \langle s, \sigma \rangle \to \sigma' \implies \mathcal{B}[\![\mathbf{Q}]\!]\sigma'$
+- $\vDash \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \} \iff \forall \sigma, \sigma'. \mathcal{B}[\![\mathbf{P}]\!]\sigma \land \vdash \langle s, \sigma \rangle \to \sigma' \implies \mathcal{B}[\![\mathbf{Q}]\!]\sigma'$
 	- property is true (for all states, precondition in initial state implies postcondition in state after execution)
-- $\vdash \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \} \implies \models \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \}$, if a property can be proven, it is correct (soundness)
-- $\models \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \} \implies \vdash \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \}$, if a property is true, it can be proven (completeness)
+- $\vdash \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \} \implies \vDash \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \}$, if a property can be proven, it is correct (soundness)
+- $\vDash \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \} \implies \vdash \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \}$, if a property is true, it can be proven (completeness)
 $$
 \overset{\huge \mathrm{Hoare}}{\boxed{\begin{align}
 &
@@ -89,7 +89,7 @@ $$
 \UIC{$ \{ \mathbf{P} \} \ s \ \{ \mathbf{Q} \} $}
 \end{prooftree}
 \\ \\
-\ast &\quad \text{$\mathbf{P} \models \mathbf{P'}$ and $\mathbf{Q}' \models \mathbf{Q}$} \\
-\ast \ast & \text{$Z \not\in \mathrm{free}(\mathbf{P})$ and $b \land \mathbf{P} \models 0 \leq e$}
+\ast &\quad \text{$\mathbf{P} \vDash \mathbf{P'}$ and $\mathbf{Q}' \vDash \mathbf{Q}$} \\
+\ast \ast & \text{$Z \not\in \mathrm{free}(\mathbf{P})$ and $b \land \mathbf{P} \vDash 0 \leq e$}
 \end{align}}}
 $$

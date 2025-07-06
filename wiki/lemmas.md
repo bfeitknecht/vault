@@ -1,5 +1,5 @@
 
-#todo 
+#todo
 $S \Rightarrow T$ beweisen, indem man
 $T\, falsch \Rightarrow S\, falsch$ beweist.
 
@@ -13,10 +13,10 @@ $T\, falsch \Rightarrow S\, falsch$ beweist.
 >$\overset{\cdot}{\Rightarrow} x\, rational$ (Def. rational)
 
 >[!example] Lemma: $A \wedge (A\rightarrow B)$
->$(A_1 \vee A_2) \wedge (A_1 \rightarrow B) \wedge (A_2 \rightarrow B) \models B$
->$(A_1 \vee A_2 \vee \cdot\cdot\cdot \vee A_k) \wedge (A_1 \rightarrow B) \wedge (A_2 \rightarrow B) \wedge \cdot\cdot\cdot \wedge (A_k \rightarrow B) \models B$
+>$(A_1 \vee A_2) \wedge (A_1 \rightarrow B) \wedge (A_2 \rightarrow B) \vDash B$
+>$(A_1 \vee A_2 \vee \cdot\cdot\cdot \vee A_k) \wedge (A_1 \rightarrow B) \wedge (A_2 \rightarrow B) \wedge \cdot\cdot\cdot \wedge (A_k \rightarrow B) \vDash B$
 
->[!example] Lemma: $(\lnot A \rightarrow B) \wedge \lnot B \models B$
+>[!example] Lemma: $(\lnot A \rightarrow B) \wedge \lnot B \vDash B$
 >$S\, falsch \overset{\cdot}{\Rightarrow}$
 >$\quad\quad\quad\quad\overset{\cdot}{\Rightarrow}$
 >$\quad\quad\quad\quad\overset{\cdot}{\Rightarrow} T \, falsch$
@@ -38,7 +38,7 @@ $m! +1$
 >$U=\mathbb{N}, \, fixes \, P$
 >Theorem:
 >$P(O) \wedge \forall n (P(n) \rightarrow P(n+1)) \implies \forall n, \,P(n)$
->$\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\models \forall n, \,P(n)$
+>$\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\vDash \forall n, \,P(n)$
 >$\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\rightarrow \forall n, \,P(n)$
 
 
@@ -59,8 +59,3 @@ Geht nicht, weil Universum aller Mengen ist keine Menge
 
 
 $\forall x (x\in A \leftrightarrow x\in B) \overset{def.}{\Leftrightarrow} A=B$
-
-
-
-
-

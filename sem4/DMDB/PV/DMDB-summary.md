@@ -19,14 +19,3 @@
 > - [ ] quiz-08 query-processing
 > - [ ] quiz-09 transactions
 > - [ ] quiz-10 recovery, locking
-
-# Key
-| Key Type      | Definition                                                                                 | Properties                                  |
-| ------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------- |
-| superkey      | set of one or more attributes that uniquely identifies every row                           | unique                                      |
-| candidate key | minimal superkey, removing any one attribute destroys uniqueness, no redundant information | unique, minimal                             |
-| primary key   | candidate key chosen for identification of tuples in relation                              | unique, minimal, not `NULL`                 |
-| foreign key   | one or more attributes that reference candidate key of another relation                    | non-unique, nullable, referential integrity |
-
-# Normal Form
-#todo 

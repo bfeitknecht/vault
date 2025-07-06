@@ -17,7 +17,7 @@ $$
 \{ k \cdot \mathrm{lcm}(a,b) \mid k \in \mathbb{Z} \} &\subseteq \{ x \mid u,v \in \mathbb{Z} : x = ua \land x = vb \} &\text{(def. $\mathrel|$)} \\
 \{ k \cdot \mathrm{lcm}(a,b) \mid k \in \mathbb{Z} \} &\subseteq \{ x \mid a|x \land b|x \} &\text{(def. $\subseteq$, def. $\mathrm{lcm}$)} \\
 \forall x \Big( \big( x = kl \land a|l \land b|l \land \forall m ( (a|m \land b|m) \to l|m) \big) &\to \big( a|x \land b|x \big) \Big) &\text{(def. $\mathrel|$)} \\
-\forall x \Big( \big( a|x \land b|x \land \forall m ( (a|m \land b|m) \to l|m) \big) &\to \big( a|x \land b|x \big) \Big) &\text{($F \land G \models F$)} \\
+\forall x \Big( \big( a|x \land b|x \land \forall m ( (a|m \land b|m) \to l|m) \big) &\to \big( a|x \land b|x \big) \Big) &\text{($F \land G \vDash F$)} \\
 \forall x \big( (a|x \land b|x) &\to (a|x \land b|x) \big)  \equiv \top &\text{($F \to F \equiv \top$)} \\
 \end{align}
 $$
@@ -31,7 +31,7 @@ $$
 \{ x \mid a | x \land b |x \} &\subseteq \{ k \cdot \mathrm{lcm}(a,b) \mid k \in \mathbb{Z} \} &\text{(def. $\subseteq$)}
 \\
 \forall x \Big( (a|x \land b|x) &\to  \big(x = kl \land a|l \land b|l \land \forall m (( a|m \land b|m) \to l|m \big) \Big) &\text{(def. $\mathrel|$)} \\
-\forall x \Big( (a|x \land b|x) &\to  \big(a|x \land b|x \land \forall m (( a|m \land b|m) \to l|m \big) \Big) &\text{($F \land G \models F$)} \\
+\forall x \Big( (a|x \land b|x) &\to  \big(a|x \land b|x \land \forall m (( a|m \land b|m) \to l|m \big) \Big) &\text{($F \land G \vDash F$)} \\
 \forall x \big( (a|x \land b|x) &\to  (a|x \land b|x) \big) \equiv \top &\text{($F \to F \equiv \top$)} \\
 \end{align}
 $$
