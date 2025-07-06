@@ -8,7 +8,6 @@ slides:
 
 
 # Info
-#todo
 
 
 # Topics
