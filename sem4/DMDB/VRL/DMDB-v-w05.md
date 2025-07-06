@@ -30,11 +30,19 @@ slides:
 	- augmentation, $\alpha \to \beta \implies \alpha\gamma \to \beta\gamma$, where $\alpha\gamma = \alpha \cup \gamma$
 	- transitivity, $\alpha \to \beta, \beta \to \gamma \implies \alpha \to \gamma$
 	- together sound and complete
-	- closure of attribute set with respect to $F$, $\alpha^{+} = \{ y \in \mathcal{R} \mid F \vdash \alpha \to y\}$
+	- transitive closure, $F^{+}$ is set of all FDs that are implied
 	- $F \vdash \alpha \to \beta$, syntactic entailment through application of inference rules
 	- $F \vDash \alpha \to \beta$, semantic entailment
 	- fundamental result of armstrong's axioms, $F \vDash \alpha \to \beta \iff F \vdash \alpha \to \beta$
-	- the transitive closure, $F^{+}$ is set of all FDs that are semantically implied
+	- closure of attribute set denoted by $\alpha^{+} = \{ \beta \in \mathcal{R} \mid F \vdash \alpha \to \beta \}$
+	- other, derived inference rules
+		- union, $\alpha, \beta, \alpha \to \gamma \implies \alpha \to \beta\gamma$
+		- decomposition, $\alpha \to \beta\gamma \implies \alpha \to \beta, \alpha \to \gamma$
+		- pseudo-transitivity, $\alpha \to \beta, \beta\gamma \to \theta \implies \alpha\gamma \to \theta$
+- minimal cover for $F$ is a set $G$ such that the following holds
+	- $F \equiv G$
+	- every RHS of FDs in $G$ is a single attribute
+	- it's not not possible to make $G$ smaller without violating the previous requirements
 
 ## Normal Form
 - 1NF, only atomic domains, i.e. ==no tuple entries==
