@@ -67,7 +67,7 @@ slides:
 	- $\mathcal{M} \models \phi$ if, and only if $\phi$ evaluates to true under $\mathcal{M}$
 
 ### Schema
-- relation schema, $R(A_{1} : D_{1}, \dots A_{n} : D_{n})$, where $D_{i}$ is a constant
+- relation schema, $R(A_{i} : D_{i})_{n}$, where $D_{i}$ is a constant
 - database schema, $S = (R_{i})_{m}$, where $R_{i}$ is a relation of arity $n_{i}$
 - domain, $\mathrm{dom} = \bigcup_{i \in \mathbb{N}}D_{i}$, infinite set of constants
 

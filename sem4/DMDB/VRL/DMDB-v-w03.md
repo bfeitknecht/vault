@@ -4,8 +4,9 @@ prev: "[[DMDB-v-w02]]"
 next: "[[DMDB-v-w04]]"
 tags: 
 slides:
-  - "[[DMDB-s02-relational-calculus.pdf]]" 
+  - "[[DMDB-s02-relational-calculus.pdf]]"
   - "[[DMDB-s03-entity-relationship-model.pdf]]"
+  - "[[DMDB-s04-NULL-views.pdf]]"
 ---
 
 

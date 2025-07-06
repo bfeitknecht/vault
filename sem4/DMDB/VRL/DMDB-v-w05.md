@@ -2,6 +2,10 @@
 module: "[[DMDB]]"
 prev: "[[DMDB-v-w04]]"
 next: "[[DMDB-v-w06]]"
+tags: 
+slides:
+  - "[[DMDB-s06-functional-dependencies.pdf]]"
+  - "[[DMDB-s07-normal-forms.pdf]]"
 ---
 
 
@@ -12,7 +16,6 @@ next: "[[DMDB-v-w06]]"
 - [[functional dependency]]
 - [[normal form]]
 - data manipulation anomaly
-- [[superkey]]
 
 
 # Notes
