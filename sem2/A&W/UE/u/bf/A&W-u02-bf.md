@@ -59,27 +59,27 @@ A straightforward approach is to iterate over all possible combinations, which, 
 
 picked = {}
 for stack Si do
-	card ci_fmax = {}
-	for card cj in stack Si
-		if f(cj) > f(ci_fmax) do
-			if !picked.contains(val(cj)) do
-				picked.add(cj)
-			elseif !picked.contains(val(ci_fmax)) do
-				picked.add(ci_fmax)
-			else backtrack() end
-		end
-	end
+    card ci_fmax = {}
+    for card cj in stack Si
+        if f(cj) > f(ci_fmax) do
+            if !picked.contains(val(cj)) do
+                picked.add(cj)
+            elseif !picked.contains(val(ci_fmax)) do
+                picked.add(ci_fmax)
+            else backtrack() end
+        end
+    end
 end
 
 function backtrack()
-	picked.remove(#picked)    // remove card last added
-	go back to last decision
-	if !pick-different-possible do backtrack()
-	else pick-different end
+    picked.remove(#picked)    // remove card last added
+    go back to last decision
+    if !pick-different-possible do backtrack()
+    else pick-different end
 end
 
 function pick different()
-	pick a different card and continue
+    pick a different card and continue
 end
 
 print(picked)

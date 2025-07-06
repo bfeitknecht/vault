@@ -3,36 +3,36 @@ The **merge sort** is another divide and conquer algorithm. It splits arrays in 
 
 ```
 function mergesort(A, l, r)
-	if l < r then
-		let m = floor((l + r) / 2)
-		mergesort(A, l, m)
-		mergesort(A, m+1, r)
-		merge(A, l, m, r)
-	end
+    if l < r then
+        let m = floor((l + r) / 2)
+        mergesort(A, l, m)
+        mergesort(A, m+1, r)
+        merge(A, l, m, r)
+    end
 end
 
 function merge(A, l, m, r)
-	let B = [] with |B| = r - l + 1
-	let i = l
-	let j = m + 1
-	let k = 1		# if zero-index then k = 0 
-	
-	while i <= m and j <= r do
-		if A[i] < A[j] then
-			B[k++] = A[i++]
-		else
-			B[k++] = A[j++]
-		end
-	end
-	
-	while i <= m do
-		B[k++] = A[i++]
-	end
-	
-	while j <= r do
-		B[k++] = A[j++]
-	end
-	
-	A[l..r] = B
+    let B = [] with |B| = r - l + 1
+    let i = l
+    let j = m + 1
+    let k = 1        # if zero-index then k = 0 
+    
+    while i <= m and j <= r do
+        if A[i] < A[j] then
+            B[k++] = A[i++]
+        else
+            B[k++] = A[j++]
+        end
+    end
+    
+    while i <= m do
+        B[k++] = A[i++]
+    end
+    
+    while j <= r do
+        B[k++] = A[j++]
+    end
+    
+    A[l..r] = B
 end
 ```

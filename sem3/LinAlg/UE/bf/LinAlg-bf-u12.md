@@ -1,5 +1,5 @@
 
-# 3		Recursively Defined Sequences ![[LinAlg-e-u12.pdf#page=1&rect=79,162,516,193|LinAlg-e-u12, p.1]]
+# 3        Recursively Defined Sequences ![[LinAlg-e-u12.pdf#page=1&rect=79,162,516,193|LinAlg-e-u12, p.1]]
 
 
 It holds that $a_{n+1} = -a_{n} + 6a_{n-1}$, by the recurrence relation. Then, let $\mathbf{v}_{n} = \begin{bmatrix} a_{n+1} \\ a_{n} \end{bmatrix}$. It follows that $A\mathbf{v}_{n} = \mathbf{v}_{n+1}$ for $A = \begin{bmatrix} -1 & 6 \\ 1 & 0 \end{bmatrix}$. Since $A$ is full rank, it has a complete set of real eigenvectors. Thus it's possible to diagonalize it, $A = U \Lambda U^{-1}$, where $\Lambda = \begin{bmatrix} \lambda_{1} & 0 \\ 0 & \lambda_{2}\end{bmatrix}$ is the diagonal matrix containing the eigenvalues and $U = \begin{bmatrix} \mathbf{u}_{1} & \mathbf{u}_{2} \end{bmatrix}$ contains the corresponding eigenvectors.

@@ -3,17 +3,17 @@ To construct an [[MST (minimum spanning tree)]] $T$ of a graph $G = (V, E)$ **pr
 
 ```
 function prim(G)
-	let s = arbitrary starting vertex
-	let S = {s}		# connected component of s
-	let F = {}
-	
-	while S is not V do
-		# find minimum weight edge adjacent to connected component
-		e = (u, v) where u in S and v not in S
-		F += e
-		S += v
-	end
-	
-	return F
+    let s = arbitrary starting vertex
+    let S = {s}        # connected component of s
+    let F = {}
+    
+    while S is not V do
+        # find minimum weight edge adjacent to connected component
+        e = (u, v) where u in S and v not in S
+        F += e
+        S += v
+    end
+    
+    return F
  end
 ```

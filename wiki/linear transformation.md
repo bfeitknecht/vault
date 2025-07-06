@@ -4,7 +4,7 @@ A **linear transformation**, also known as a **linear map**, is applying some [[
 Such a map can be defined as a [[function]] $T:\mathbb{R}^n \to \mathbb{R}^m$ and exhibits two properties.
 (i)     linearity (closure under [[vector addition|addition]]): $T(\mathrm{x}+\mathrm{y}) = T(\mathrm{x})+T(\mathrm{y})$
 (ii)    homogeneity (closure under [[scalar multiplication|multiplication]]): $T(\lambda \mathrm{x})=\lambda T(\mathrm{x})$
-(\*iii)   combination: $T(\lambda \mathrm{x}+ \mu \mathrm{y})=\lambda T(\mathrm{x})+ \mu T(\mathrm{y})$
+(\*iii)   combination: $T(\lambda \mathrm{x}+ \mu \mathrm{y})=\lambda T(\mathrm{x})+ \mu T(\mathrm{y})$
 
 Furthermore, every linear transformation exhibits [[commutativity]] under vector addition and scalar multiplication.
 
@@ -13,18 +13,18 @@ Furthermore, every linear transformation exhibits [[commutativity]] under vector
 \begin{document}
 
 \begin{tikzcd}
-	{\mathbf{x}, \mathbf{y}} && {T(\mathbf{x}), T(\mathbf{y})} &&& {\mathbf{x}} && {T(\mathbf{x})} \\
-	\\
-	\\
-	{\mathbf{x} + \mathbf{y}} && {T(\mathbf{x} + \mathbf{y}) = T(\mathbf{x}) + T(\mathbf{y})} &&& {\lambda\mathbf{x}} && {T(\lambda\mathbf{x}) = \lambda T(\mathbf{x})}
-	\arrow["T", from=1-1, to=1-3]
-	\arrow["{+}"', from=1-1, to=4-1]
-	\arrow["{+}", from=1-3, to=4-3]
-	\arrow["T", from=1-6, to=1-8]
-	\arrow["\lambda"', from=1-6, to=4-6]
-	\arrow["\lambda", from=1-8, to=4-8]
-	\arrow["T", from=4-1, to=4-3]
-	\arrow["T", from=4-6, to=4-8]
+    {\mathbf{x}, \mathbf{y}} && {T(\mathbf{x}), T(\mathbf{y})} &&& {\mathbf{x}} && {T(\mathbf{x})} \\
+    \\
+    \\
+    {\mathbf{x} + \mathbf{y}} && {T(\mathbf{x} + \mathbf{y}) = T(\mathbf{x}) + T(\mathbf{y})} &&& {\lambda\mathbf{x}} && {T(\lambda\mathbf{x}) = \lambda T(\mathbf{x})}
+    \arrow["T", from=1-1, to=1-3]
+    \arrow["{+}"', from=1-1, to=4-1]
+    \arrow["{+}", from=1-3, to=4-3]
+    \arrow["T", from=1-6, to=1-8]
+    \arrow["\lambda"', from=1-6, to=4-6]
+    \arrow["\lambda", from=1-8, to=4-8]
+    \arrow["T", from=4-1, to=4-3]
+    \arrow["T", from=4-6, to=4-8]
 \end{tikzcd}
 
 \end{document}
@@ -36,4 +36,3 @@ The [[composition]] of linear transformations is achieved through [[matrix multi
 $$
 T_{A}(T_{B}(\mathrm{x})) = T_{AB}(x)
 $$
-

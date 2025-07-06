@@ -3,13 +3,13 @@ Two ways to understand
 $F=\forall A(x=0 \vee \exists y (x\cdot y = 1))$
 
 - w/o interpretation (universe, predicates, what is equal?):
-	$F \equiv \forall x (\lnot\lnot (x=0) \vee \exists y (x\cdot y = 1))$
-	$F \equiv \forall x (\lnot (x=0) \rightarrow \exists y (x\cdot y = 1))$
+    $F \equiv \forall x (\lnot\lnot (x=0) \vee \exists y (x\cdot y = 1))$
+    $F \equiv \forall x (\lnot (x=0) \rightarrow \exists y (x\cdot y = 1))$
 
 - with interpretation:
-	every number that is not zero has a multiplicative inverse
-	valid (Q, R)
-	invalid (N, Z)
+    every number that is not zero has a multiplicative inverse
+    valid (Q, R)
+    invalid (N, Z)
 
 
 >$\exists x (P(x) \wedge Q(x))$

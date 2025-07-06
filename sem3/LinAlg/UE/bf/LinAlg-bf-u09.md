@@ -1,6 +1,6 @@
 
 
-# 2     Preserving Inner Products ![[LinAlg-e-u09.pdf#page=1&rect=79,208,515,238|LinAlg-e-u09, p.1]]
+# 2     Preserving Inner Products ![[LinAlg-e-u09.pdf#page=1&rect=79,208,515,238|LinAlg-e-u09, p.1]]
 
 To prove is the following implication.
 $$

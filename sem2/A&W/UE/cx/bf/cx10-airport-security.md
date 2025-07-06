@@ -18,7 +18,7 @@ id3-..-x|"r1"|id2
 ```java
 double exp_not_taken = 0;
 for (int i = 0; i < n; i++) {
-	exp_not_taken += 1 - (P[i] * R[i]);
+    exp_not_taken += 1 - (P[i] * R[i]);
 }
 return exp_not_taken;
 ```
@@ -49,7 +49,7 @@ id4-->|"1"|id2
 id2-->|"r2"|id5
 
 subgraph .
-	id5-.->|"?"|id4
+    id5-.->|"?"|id4
 end
 ```
 
@@ -215,7 +215,7 @@ $$
 \Pr[\mathrm{T}=0] &= \prod_{i=1}^{n} 1-(p_{i} \cdot r_{i}) \\
 \Pr[\mathrm{T}=1] &= \sum_{i=1}^{n} \left((p_{i} \cdot r_{i}) \cdot \prod_{j\neq i}^{n} 1-(p_{j} \cdot r_{j})\right) \\
 
-\Pr[\mathrm{T}=2] &= ?? 
+\Pr[\mathrm{T}=2] &= ??
 
 
 \\
@@ -239,7 +239,7 @@ $$
 ```java
 double exp_not_taken = 0;
 for (int i = 0; i <= n; i++) {
-	exp_not_taken += i * pr(i);
+    exp_not_taken += i * pr(i);
 }
 return exp_not_taken;
 ```
@@ -249,7 +249,7 @@ return exp_not_taken;
 
 
 
-DP\[i]\[j] = 
+DP\[i]\[j] =
 
 $\mathrm{DP}[i][j] = i \text{-th bag taken out of first }j$
 $(1-p_{i})+(p_{i}*(1-r_{i}))$
@@ -290,7 +290,7 @@ dp to get probability for each bag, then sum them up
 ```
 double[] E
 for i in 1 .. k
-	E[i] = p[i] * r[i]
+    E[i] = p[i] * r[i]
 end
 
 // streaks[b][a] = Pr["bags a to b taken"]
@@ -298,18 +298,18 @@ double[][] streaks = new double[n+1][]
 
 // streaks ending at b ..
 for b in k+1 .. n
-	
-	// # streaks from a to b, length > k
-	streaks[b] = new double[b-k+1]
-	
-	// .. starting at a
-	for a in 1 .. n-k
-		streaks[b][a] = streak(a, b)
-	end
-	
-	for streak in streaks[b]
-		E[b] += streak
-	end
+
+    // # streaks from a to b, length > k
+    streaks[b] = new double[b-k+1]
+
+    // .. starting at a
+    for a in 1 .. n-k
+        streaks[b][a] = streak(a, b)
+    end
+
+    for streak in streaks[b]
+        E[b] += streak
+    end
 end
 
 ```
@@ -321,7 +321,7 @@ end
 
 ```java
 // E[i] = Pr["i-th bag taken"]
-double[] E = new double[n+1];
+double[] E = new double[n+1];
 
 // streak[a] = Pr["all bags taken from a to b"]
 // streak[0] = Pr["more than k bags taken at b"]
@@ -329,27 +329,27 @@ double[] streak = new double[n+1];
 
 // streak ending at b ..
 for (int b = 1; b <= n; b++) {
-	streak[b] = 1;
-	if (b<=k) {
-		E[b] = p[b] * r[b];
-	}
-	else {
-		E[b] = p[b] * r[b] * (1-streak[0]);
-	}
-	
-	// .. starting at a
-	for (int a = 1; a <= b; a++) {
-		streak[a] *= E[b];
-	}
-	
-	// update the total probability of streaks > k at b 
-	for (int a = 1; a <= b-k; a++) {
-		streak[0] *= streak[a];
-	}
-	
-	if (b>k) {
-		E[b] += streak[0] * r[b];
-	}
+    streak[b] = 1;
+    if (b<=k) {
+        E[b] = p[b] * r[b];
+    }
+    else {
+        E[b] = p[b] * r[b] * (1-streak[0]);
+    }
+
+    // .. starting at a
+    for (int a = 1; a <= b; a++) {
+        streak[a] *= E[b];
+    }
+
+    // update the total probability of streaks > k at b
+    for (int a = 1; a <= b-k; a++) {
+        streak[0] *= streak[a];
+    }
+
+    if (b>k) {
+        E[b] += streak[0] * r[b];
+    }
 }
 ```
 
@@ -358,28 +358,28 @@ for (int b = 1; b <= n; b++) {
 
 ```java
 // E[i] = Pr["taking i-th bag"]
-double[] E = new double[n+1];
+double[] E = new double[n+1];
 
 // streaks[b][a] = Pr["taking all bags from a to b"]
 double[][] streaks = new double[n+1][];
 
 // streaks ending at b ..
 for (int b = 1; b <= n; b++) {
-	// 1-Pr["k-th bag"] * p[b] * r[b]
-	E[b] = (b>k)? (1-streaks[b-1][b-k]) * p[b] * r[b] : p[b] * r[b]; 
-	
-	streaks[b] = new double[b+1]; // # streaks ending at b
-	
-	// .. starting at a
-	for (int a = 1; a <= b; a++) {
-		streaks[b][a] = streaks[b-1][a] * E[b];
-		
-		if (b-a>k) {
-			// when the streak is longer than k
-			// modify the probability to take b-th bag
-			E[b] += streaks[b][a] * r[b];
-		}
-	}
+    // 1-Pr["k-th bag"] * p[b] * r[b]
+    E[b] = (b>k)? (1-streaks[b-1][b-k]) * p[b] * r[b] : p[b] * r[b];
+
+    streaks[b] = new double[b+1]; // # streaks ending at b
+
+    // .. starting at a
+    for (int a = 1; a <= b; a++) {
+        streaks[b][a] = streaks[b-1][a] * E[b];
+
+        if (b-a>k) {
+            // when the streak is longer than k
+            // modify the probability to take b-th bag
+            E[b] += streaks[b][a] * r[b];
+        }
+    }
 }
 ```
 

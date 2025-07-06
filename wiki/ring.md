@@ -1,10 +1,10 @@
-#todo 
+#todo
 
 
 A **ring** is an algebra $\langle R; +, -, 0, \cdot, 1 \rangle$, such that the following holds.
-- $(\mathrm{i})$    The addition [[operation]], its [[inverse (operation)]], and the respective [[identity element (neutral element)]] form a (commutative) [[group]] $\langle R; +, -, 0 \rangle$.
-- $(\mathrm{ii})$   The multiplication operation, its inverse and neutral element form a [[monoid]] $\langle R; \cdot, 1 \rangle$.
-- $(\mathrm{ii})$   The multiplication operation distributes over the addition operation.
+- $(\mathrm{i})$    The addition [[operation]], its [[inverse (operation)]], and the respective [[identity element (neutral element)]] form a (commutative) [[group]] $\langle R; +, -, 0 \rangle$.
+- $(\mathrm{ii})$   The multiplication operation, its inverse and neutral element form a [[monoid]] $\langle R; \cdot, 1 \rangle$.
+- $(\mathrm{ii})$   The multiplication operation distributes over the addition operation.
 
 If multiplication is commutative the ring is called *commutative ring*. The axioms are not minimal, the group's commutativity isn't required as it's implied by the others. Furthermore we have the following.
 
@@ -20,8 +20,3 @@ A **unit** $u$ is an element of a ring $R$ that has a [[multiplicative inverse]]
 
 - $\mathbb{Z}, \mathbb{Q}, \mathbb{R}, \mathbb{C}$ are all commutative rings
 - $\mathbb{Z}_{m}$ is a commutative ring
-
-
-
-
-

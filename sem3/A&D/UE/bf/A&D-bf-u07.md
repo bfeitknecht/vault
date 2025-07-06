@@ -7,24 +7,24 @@ Basil Feitknecht, 23-922-099
 
 ```
 function subsetsum_duplicates(A, b)
-	let n = |A|
-	let S = [][]		# memoization: b * n
-	
-	# base case: O(b + n)
-	for i in 1 .. b S[i][0] = false end
-	for j in 1 .. n S[0][j] = true end
-	
-	# recurrence relation: O(b * n)
-	for i in 1 .. b
-		for j in 1 .. n
-			# compute subproblem: O(1)
-			let a = A[j]
-			S[i][j] = S[i][j-i] or (S[i][j-a] and a <= j) or (S[i][j-2*a] and 2*a <= j)
-		end
-	end
-	
-	# extract solution: O(1)
-	return S[b][n]
+    let n = |A|
+    let S = [][]        # memoization: b * n
+    
+    # base case: O(b + n)
+    for i in 1 .. b S[i][0] = false end
+    for j in 1 .. n S[0][j] = true end
+    
+    # recurrence relation: O(b * n)
+    for i in 1 .. b
+        for j in 1 .. n
+            # compute subproblem: O(1)
+            let a = A[j]
+            S[i][j] = S[i][j-i] or (S[i][j-a] and a <= j) or (S[i][j-2*a] and 2*a <= j)
+        end
+    end
+    
+    # extract solution: O(1)
+    return S[b][n]
 end
 ```
 
@@ -43,34 +43,34 @@ $\square$
 
 ```
 function weight_volume_knapsack(P, W, Wmax, Vmax)
-	let n = |P|
-	let K = [][][]		# memoization: n * Wmax * Vmax
-	
-	# base case: O(Wmax * Vmax)
-	for w in 0 .. Wmax
-		for v in 0 .. Vmax
-			K[0][w][v] = 0
-		end
-	end
-	
-	# recurrence relation: O(n * Wmax * Vmax)
-	for i in 1 .. n
-		for w in 1 .. Wmax
-			for v in 1 .. Vmax
-				# compute subproblem: O(1)
-				# maximum profit of first i items with weight <= w and volume <= v
-				if W[i] <= w then
-					K[i][w][v] = max{K[i-1][w][v], K[i][w-W[i]][v-1] + P[i]}
-				else
-					# too heavy to carry
-					K[i][w][v] = K[i-1][w][v]
-				end
-			end
-		end
-	end
-	
-	# extract solution: O(1)
-	return K[n][Wmax][Vmax]
+    let n = |P|
+    let K = [][][]        # memoization: n * Wmax * Vmax
+    
+    # base case: O(Wmax * Vmax)
+    for w in 0 .. Wmax
+        for v in 0 .. Vmax
+            K[0][w][v] = 0
+        end
+    end
+    
+    # recurrence relation: O(n * Wmax * Vmax)
+    for i in 1 .. n
+        for w in 1 .. Wmax
+            for v in 1 .. Vmax
+                # compute subproblem: O(1)
+                # maximum profit of first i items with weight <= w and volume <= v
+                if W[i] <= w then
+                    K[i][w][v] = max{K[i-1][w][v], K[i][w-W[i]][v-1] + P[i]}
+                else
+                    # too heavy to carry
+                    K[i][w][v] = K[i-1][w][v]
+                end
+            end
+        end
+    end
+    
+    # extract solution: O(1)
+    return K[n][Wmax][Vmax]
 end
 ```
 
@@ -88,38 +88,38 @@ $\square$
 
 ```
 function zebra(A)
-	let m = A.rows()
-	let n = A.cols()
-	let k = 1
-	let Z = [][]	# memoization: m * n
-	
-	# base case: O(m * n)
-	for i in 1 .. m
-		for j in 1 .. n
-			Z[i][1] = 1
-			Z[1][j] = 1
-			end
-		end
-	end
-	
-	# recurrence relation: O(m * n)
-	for i in 2 .. m
-		for j in 2 .. n
-			# compute subproblem: O(1)
-			# largest zebra submatrix with bottom righ at A[i][j]
-			let (x, l, u, lu) = (A[i][j], A[i][j-1], A[i-1][j], A[i-1][j-1])
-			if x == lu and x != l and x != u then
-				Z[i][j] = 1 + min{Z[i][j-1], Z[i-1][j|, Z[i-1][j-1]}
-			else
-				Z[i][j] = 1
-			end
-			k = max{k, Z[i][j]}
-			end
-		end
-	end
-	
-	# extract solution: O(1)
-	return k
+    let m = A.rows()
+    let n = A.cols()
+    let k = 1
+    let Z = [][]    # memoization: m * n
+    
+    # base case: O(m * n)
+    for i in 1 .. m
+        for j in 1 .. n
+            Z[i][1] = 1
+            Z[1][j] = 1
+            end
+        end
+    end
+    
+    # recurrence relation: O(m * n)
+    for i in 2 .. m
+        for j in 2 .. n
+            # compute subproblem: O(1)
+            # largest zebra submatrix with bottom righ at A[i][j]
+            let (x, l, u, lu) = (A[i][j], A[i][j-1], A[i-1][j], A[i-1][j-1])
+            if x == lu and x != l and x != u then
+                Z[i][j] = 1 + min{Z[i][j-1], Z[i-1][j|, Z[i-1][j-1]}
+            else
+                Z[i][j] = 1
+            end
+            k = max{k, Z[i][j]}
+            end
+        end
+    end
+    
+    # extract solution: O(1)
+    return k
 end
 ```
 

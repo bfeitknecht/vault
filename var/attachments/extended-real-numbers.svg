@@ -34,7 +34,7 @@
    <use xlink:href="#Rm" x="100" y="50" />
    <use xlink:href="#Rp" x="480" y="50" />
    <path style="stroke:red;fill:none" d="M 300 550 A 200 200 0 0 0 300 150" />
-   <path style="stroke:blue;fill:none" d="M 300 550 A 200 200 0 0 1 300 150" />	
+   <path style="stroke:blue;fill:none" d="M 300 550 A 200 200 0 0 1 300 150" />    
    <circle cx="300" cy="550" r="4" style="fill:black"/>
    <circle cx="300" cy="150" r="4" style="fill:orange"/>
    <use xlink:href="#aro" transform="rotate(90)" x="350" y="-100" />

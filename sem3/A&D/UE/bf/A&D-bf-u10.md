@@ -14,19 +14,19 @@ Through the metric property of $G$ and the compatibility of edge weights with $H
 -- @runtime: O(|F|)
 
 function euler_to_hamilton(H, T)
-	C = {}
-	for edge f = (u, v) in T do
-	    if not u.visited then
-	        u.visited = true
-	        C.add(u)
-	    end
-	    if not v.visited then
-	        v.visited = true
-	        C.add(v)
-	    end
-	end
-	C.add(s)	-- where vertex s = starting vertex in T
-	return C
+    C = {}
+    for edge f = (u, v) in T do
+        if not u.visited then
+            u.visited = true
+            C.add(u)
+        end
+        if not v.visited then
+            v.visited = true
+            C.add(v)
+        end
+    end
+    C.add(s)    -- where vertex s = starting vertex in T
+    return C
 end
 ```
 $\square$
@@ -131,22 +131,22 @@ To count the number of paths between two distinct vertices $v, v' \in V$ of leng
 -- @return: p, number of paths of length k from s to t
 
 function paths_of_length(k, s, t, G)
-	p = {{}}		-- matrix where p[v][l]: paths from s to v of length l
-	p[s][0] = 1		-- starting vertex has one path of length zero to itself
-	q = {}			-- queue where (v, d): vertex v at distance d from s
-	q.push({s, 0})
-	while not q.empty() do
-		(u, d) = q.pop()
-		if not d == k then
-			for v in Adj[u] do
-				p[v][d+1] += p[u][d]
-				if d+1 <= k then
-					q.push(v, d+1)
-				end
-			end
-		end
-	end
-	return p[t][k]
+    p = {{}}        -- matrix where p[v][l]: paths from s to v of length l
+    p[s][0] = 1        -- starting vertex has one path of length zero to itself
+    q = {}            -- queue where (v, d): vertex v at distance d from s
+    q.push({s, 0})
+    while not q.empty() do
+        (u, d) = q.pop()
+        if not d == k then
+            for v in Adj[u] do
+                p[v][d+1] += p[u][d]
+                if d+1 <= k then
+                    q.push(v, d+1)
+                end
+            end
+        end
+    end
+    return p[t][k]
 end
 ```
 $\square$

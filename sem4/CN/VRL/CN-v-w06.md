@@ -22,5 +22,5 @@ slides:
 - peering links are only used if both entities make some money
 - ISPs can choose not to announce prefixes, leading to entities disappearing from the internet
 - rule of thumb
-	- don't cross two peer links
-	- after crossing peer link only go downwards
+    - don't cross two peer links
+    - after crossing peer link only go downwards

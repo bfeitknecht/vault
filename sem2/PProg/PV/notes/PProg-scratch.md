@@ -25,25 +25,25 @@ blocking :: additional overhead from context switches
 > ![[PProg-pvw-script-fs22.pdf#page=26&rect=327,108,495,191|PProg-pvw-script, p.25]]
 > ```java
 > public class SemaphoreBarrier {
-> 	private final int threads = 8;
-> 	
-> 	public synchronized void barrier() {
-> 		volatile int count = 0;
-> 		Semaphore s0 = new Semaphore(0);
-> 		Semaphore s1 = new Semaphore(1);
-> 		
-> 		count++;
-> 		if (count == threads) {
-> 			s1.acquire(); s0.release();
-> 		}
-> 		s0.acquire(); s0.release();
-> 		
-> 		count--;
-> 		if (count == 0) {
-> 			s0.acquire(); s1.release();
-> 		}
-> 		s1.acquire(); s0.release();
-> 	}
+>     private final int threads = 8;
+>
+>     public synchronized void barrier() {
+>         volatile int count = 0;
+>         Semaphore s0 = new Semaphore(0);
+>         Semaphore s1 = new Semaphore(1);
+>
+>         count++;
+>         if (count == threads) {
+>             s1.acquire(); s0.release();
+>         }
+>         s0.acquire(); s0.release();
+>
+>         count--;
+>         if (count == 0) {
+>             s0.acquire(); s1.release();
+>         }
+>         s1.acquire(); s0.release();
+>     }
 > }
 > ```
 >
@@ -51,21 +51,21 @@ blocking :: additional overhead from context switches
 <!--
 ```pseudo
 int threads = number of threads
-int[] level(threads)
+int[] level(threads)
 int[] lastEnter(threads)
 
 lock(me) {
-	for (i = 1, threads) {
-		level[me] = 1;
-		lastEnter[i] = me;
-		bool meLast = lastEnter[i] == me;
-		bool othersFirst = exists(k!=me), level[k] >= i;
-		while (lastMe && othersFirst) {}
-	}
+    for (i = 1, threads) {
+        level[me] = 1;
+        lastEnter[i] = me;
+        bool meLast = lastEnter[i] == me;
+        bool othersFirst = exists(k!=me), level[k] >= i;
+        while (lastMe && othersFirst) {}
+    }
 }
 
 unlock(me) {
-	level[me] = 0;
+    level[me] = 0;
 }
 ```
 -->

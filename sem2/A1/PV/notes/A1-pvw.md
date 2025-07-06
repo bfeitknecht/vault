@@ -1,6 +1,6 @@
 
 >[!quote] Prüfung
-> Die Prüfung wird aus **drei Teilen** bestehen:
+> Die Prüfung wird aus **drei Teilen** bestehen:
 >
 > 1. Multiple-Choice- oder Single-Choice-Fragen
 > 2. Box-Fragen, bei denen nur das Endergebnis bewertet wird (z.B. Berechnung von Grenzwerten, Ableitungen, Integralen,...)
@@ -21,7 +21,7 @@ ___
 The value the terms of a series "approach"
 - Cannot be $\pm \infty$.
 - If, and only if it exists, can be notated as $\lim_{ n \to \infty }a_{n} = l$ or $a_{n} \underset{n \rightarrow \infty}{\rightarrow} l$
-- 
+-
 
 
 
@@ -48,7 +48,7 @@ The value the terms of a series "approach"
 
 root trick:
 $$
-|\sqrt{ n }+\sqrt{ n+1 }| = 
+|\sqrt{ n }+\sqrt{ n+1 }| =
 $$
 
 
@@ -68,7 +68,7 @@ $$
 \begin{align}
 f(x) &= x \cdot \sqrt{ 1-x } \\
 f'(x) &= \frac{2-3x}{2\cdot\sqrt{1-x}} \\
-f''(x) &= 
+f''(x) &=
 \end{align}
 $$
 
@@ -105,5 +105,4 @@ ___
 - the three stop conditions for DI method (differentiation by parts)
 - u substitution rule
 - definitions od bounded, monotonic, convex, etc
-- 
-
+-

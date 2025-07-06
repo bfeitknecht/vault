@@ -17,10 +17,10 @@ $$
 
 # Geometric definition
 
-In [[euclidian space]], the dot product of two vectors $\mathbf{u}$ and $\mathbf{v}$ is defined by $\mathbf{u} \cdot \mathbf{v} = \|\mathbf{u}\| \ \|\mathbf{v}\| \cos\theta$, where $\theta$ is the angle between them.
+In [[euclidian space]], the dot product of two vectors $\mathbf{u}$ and $\mathbf{v}$ is defined by $\mathbf{u} \cdot \mathbf{v} = \|\mathbf{u}\| \ \|\mathbf{v}\| \cos\theta$, where $\theta$ is the angle between them.
 
-In particular, if the vectors are [[orthogonal]] (i.e., their [[angle]] is $\frac{\pi}{2} =90^\circ$), then $\cos \frac{\pi}{2}=0$, which implies that $\mathbf{u}\cdot \mathbf{v} =0$
+In particular, if the vectors are [[orthogonal]] (i.e., their [[angle]] is $\frac{\pi}{2} =90^\circ$), then $\cos \frac{\pi}{2}=0$, which implies that $\mathbf{u}\cdot \mathbf{v} =0$
 
-If they are [[codirectional]] then the angle between them is zero with $\cos 0=1$ and $\mathbf{u}\cdot \mathbf{v}=\|\mathbf{u}\| \ \|\mathbf{v}\|$.
+If they are [[codirectional]] then the angle between them is zero with $\cos 0=1$ and $\mathbf{u}\cdot \mathbf{v}=\|\mathbf{u}\| \ \|\mathbf{v}\|$.
 
 This implies that the dot product of a vector $\mathbf{u}$ with itself is $\mathbf{u}\cdot \mathbf{u}=\|\mathbf{u}\|^2$ which gives the formula $\|\mathbf{u}\|=\sqrt{ \mathbf{u}\cdot \mathbf{u} }$ for the [[euclidian norm]].

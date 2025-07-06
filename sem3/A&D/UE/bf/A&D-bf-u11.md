@@ -1,5 +1,5 @@
 
-# 11.1		Multiplicative Weight Shortest Path
+# 11.1        Multiplicative Weight Shortest Path
 ![[A&D-e-u11.pdf#page=1&rect=66,321,532,529|A&D-e-u11, p.1]]
 
 
@@ -23,7 +23,7 @@ $\square$
 
 <div class="page-break" style="page-break-before: always;"></div>
 
-# 11.2		Rotating Weights
+# 11.2        Rotating Weights
 ![[A&D-e-u11.pdf#page=1&rect=66,86,532,246|A&D-e-u11, p.1]]
 
 Since the edge weights can be negative but it is not possible to construct a negative cycle, bellman-ford's algorithm is applicable to find the shortest rotating weights path $P = v_{0} \leadsto v_{1}$.
@@ -44,7 +44,7 @@ $\square$
 
 <div class="page-break" style="page-break-before: always;"></div>
 
-# 11.4		Rail Racer
+# 11.4        Rail Racer
 ![[A&D-e-u11.pdf#page=3&rect=67,566,530,752|A&D-e-u11, p.3]]
 
 ## (b)

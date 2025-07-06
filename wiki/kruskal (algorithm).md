@@ -3,16 +3,16 @@ Similar to [[prim (algorithm)]], **kruskal's algorithm** determines the [[MST (m
 
 ```
 function kruskal(G)
-	let F = {}
-	let E' = sort(E)
-	
-	for e = (u, v) in E'
-		if not same(u, v) then
-			F += e
-			union(u, v)
-		end
-	end
-	
-	return F
+    let F = {}
+    let E' = sort(E)
+    
+    for e = (u, v) in E'
+        if not same(u, v) then
+            F += e
+            union(u, v)
+        end
+    end
+    
+    return F
 end
 ```

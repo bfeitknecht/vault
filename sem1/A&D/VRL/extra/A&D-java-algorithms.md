@@ -79,8 +79,8 @@ public static int getMaximumScore(int n, int[] A) { // left-right game
       int j = i + s - 1;
       if (s == 2) DP[i][j] = Math.abs(A[i] - A[j]);
       else DP[i][j] = Math.max(Math.max(DP[i+1][j], DP[i][j-1]),
-						       Math.abs(A[i] - A[j]) + DP[i+1][j-1]);
-	}
+                               Math.abs(A[i] - A[j]) + DP[i+1][j-1]);
+    }
   }
   return DP[0][n-1];
 }

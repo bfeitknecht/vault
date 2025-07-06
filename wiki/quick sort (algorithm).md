@@ -3,26 +3,26 @@ The **quick sort** algorithm is easy to implement and has optimal runtime for co
 
 ```
 function quicksort(A, l, r)
-	if l < r then
-		let k = partition(A, l, r)
-		quicksort(A, l, k - 1)
-		quicksort(A, k + 1, r)
-	end
+    if l < r then
+        let k = partition(A, l, r)
+        quicksort(A, l, k - 1)
+        quicksort(A, k + 1, r)
+    end
 end
 
 function partition(A, l, r)
-	let i = l
-	let j = r - 1
-	
-	do
-		while i < r and A[i] <= p do i++ end
-		while j > l and A[j] > p do j-- end
-		if i < j then
-			swap(A, i, j)
-		end
-	while i <= j
-	
-	swap(A, i, r)
-	return i
+    let i = l
+    let j = r - 1
+    
+    do
+        while i < r and A[i] <= p do i++ end
+        while j > l and A[j] > p do j-- end
+        if i < j then
+            swap(A, i, j)
+        end
+    while i <= j
+    
+    swap(A, i, r)
+    return i
 end
 ```

@@ -1,5 +1,5 @@
 
-# 8.1   Introduction to Graphs ![[A&D-e-u08.pdf#page=2&rect=67,633,530,751|A&D-e-u08, p.2]]
+# 8.1   Introduction to Graphs ![[A&D-e-u08.pdf#page=2&rect=67,633,530,751|A&D-e-u08, p.2]]
 
 ## (a) ![[A&D-e-u08.pdf#page=2&rect=85,573,528,632|A&D-e-u08, p.2]]
 The *players* of the game are modeled as *vertices* and the relation *is on contact list* indicates an *edge*. Since the relation is symmetric, the graph is undirected. Then the game is winnable if and only if, there exists a hamilton path starting from every vertex $v \in V$. Specifically, if there exists a vertex $w \in V$ such that there is no hamilton path starting from $w$, the game is not winnable since this player can't get the message to all the others.
@@ -9,7 +9,7 @@ $\square$
 
 Observe the following counterexample.
 ```tikz
-\usepackage{tikz} 
+\usepackage{tikz}
 \usetikzlibrary {graphs}
 
 \begin{document}
@@ -19,8 +19,8 @@ Observe the following counterexample.
   \node (c) at (2,0) {c};
 
   \graph[]{
-    (a) -- (b) -- (c),
-  };
+    (a) -- (b) -- (c),
+  };
 }
 
 \end{document}
@@ -38,7 +38,7 @@ In terms of our graph model, the stated conditions translate to the following.
 
 The following counterexample fulfills the requirements stated above and illustrates that the claim is false for $n=5$, since starting from any vertex $v \in V - \{ c \}$ the game is winnable, however starting from $c$ it isn't.
 ```tikz
-\usepackage{tikz} 
+\usepackage{tikz}
 \usetikzlibrary {graphs}
 
 \begin{document}
@@ -50,11 +50,11 @@ The following counterexample fulfills the requirements stated above and illustra
   \node (e) at (2, -1) {e};
 
   \graph[]{
-    (c) -- {(a), (b)},
-    (a) -- (b),
-    (c) -- {(d), (e)},
-    (d) -- (e)
-  };
+    (c) -- {(a), (b)},
+    (a) -- (b),
+    (c) -- {(d), (e)},
+    (d) -- (e)
+  };
 }
 
 \end{document}
@@ -63,7 +63,7 @@ $\square$
 
 <div class="page-break" style="page-break-before: always;"></div>
 
-# 8.5   Short Questions about Graphs
+# 8.5   Short Questions about Graphs
 
 In the following, let $G = (V, E)$ be a graph with $n = |V|$ and $m = |E|$. For statements (b) - (f), decide if the statement is true or false. If it's true, provide a proof, else provide a counterexample.
 
@@ -102,7 +102,7 @@ $\square$
 False. Consider the following counter example. $G$ is a graph that, for every path $P$ of length at least $|P|\geq 2$, the sum of degree of vertices in the path is even $\sum_{v_{i} \in P}\deg(v_{i}) \equiv_{2} 0$. However, $G$ does not have an eulerian walk.
 
 ```tikz
-\usepackage{tikz} 
+\usepackage{tikz}
 \usetikzlibrary {graphs}
 
 \begin{document}
@@ -114,10 +114,10 @@ False. Consider the following counter example. $G$ is a graph that, for every pa
   \node (e) at (3, 0) {e};
 
   \graph[]{
-    (a) -- {(b), (c)},
-    (b) -- (c),
-    (d) -- (e)
-  };
+    (a) -- {(b), (c)},
+    (b) -- (c),
+    (d) -- (e)
+  };
 }
 
 \end{document}
@@ -127,7 +127,7 @@ $\square$
 ## (f) ![[A&D-e-u08.pdf#page=4&rect=84,190,529,235|A&D-e-u08, p.4]]
 False. Observe the graph given below.
 ```tikz
-\usepackage{tikz} 
+\usepackage{tikz}
 \usetikzlibrary {graphs}
 
 \begin{document}
@@ -139,11 +139,11 @@ False. Observe the graph given below.
   \node (e) at (2, -1) {e};
 
   \graph[]{
-    (c) -- {(a), (b)},
-    (a) -- (b),
-    (c) -- {(d), (e)},
-    (d) -- (e)
-  };
+    (c) -- {(a), (b)},
+    (a) -- (b),
+    (c) -- {(d), (e)},
+    (d) -- (e)
+  };
 }
 
 \end{document}

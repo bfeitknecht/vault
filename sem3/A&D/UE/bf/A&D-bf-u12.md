@@ -1,6 +1,6 @@
 
 
-# 12.1		MST Practice ![[A&D-e-u12.pdf#page=1&rect=69,316,531,527|A&D-e-u12, p.1]]
+# 12.1        MST Practice ![[A&D-e-u12.pdf#page=1&rect=69,316,531,527|A&D-e-u12, p.1]]
 
 ## (a) ![[A&D-e-u12.pdf#page=1&rect=83,279,531,308|A&D-e-u12, p.1]]
 
@@ -23,7 +23,7 @@
 
 <div class="page-break" style="page-break-before: always;"></div>
 
-# 12.3		Exploring MST Connectivity ![[A&D-e-u12.pdf#page=2&rect=67,509,531,554|A&D-e-u12, p.2]]
+# 12.3        Exploring MST Connectivity ![[A&D-e-u12.pdf#page=2&rect=67,509,531,554|A&D-e-u12, p.2]]
 
 ## (a) ![[A&D-e-u12.pdf#page=2&rect=85,473,532,506|A&D-e-u12, p.2]]
 
@@ -46,7 +46,7 @@ $\square$
 
 <div class="page-break" style="page-break-before: always;"></div>
 
-# 12.5		Heavy and Light Edges ![[A&D-e-u12.pdf#page=3&rect=66,317,529,395|A&D-e-u12, p.3]]
+# 12.5        Heavy and Light Edges ![[A&D-e-u12.pdf#page=3&rect=66,317,529,395|A&D-e-u12, p.3]]
 
 ## (a) ![[A&D-e-u12.pdf#page=3&rect=86,296,528,313|A&D-e-u12, p.3]]
 

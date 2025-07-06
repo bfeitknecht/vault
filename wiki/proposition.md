@@ -6,6 +6,6 @@ A (mathematical) **proposition** is a claim that can be true or false. In order 
 
 > [!example]+ Example
 > - 91 is a prime number (has no divisors except 1 and itself, i.e. 91)
-> 	- Is it a mathematical proposition? Yes
-> 	- Is it understood? Yes
-> 	- Is it true / false? $7 \cdot 13 \implies$ False
+>     - Is it a mathematical proposition? Yes
+>     - Is it understood? Yes
+>     - Is it true / false? $7 \cdot 13 \implies$ False

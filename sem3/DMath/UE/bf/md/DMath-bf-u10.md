@@ -1,5 +1,5 @@
 
-# 10.5      Extension Fields 
+# 10.5      Extension Fields
 
 ![[DMath-e-u10.pdf#page=1&rect=78,193,522,212|DMath-e-u10, p.1]]
 

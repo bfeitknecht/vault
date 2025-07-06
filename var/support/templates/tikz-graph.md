@@ -1,5 +1,5 @@
 ```tikz
-\usepackage{tikz} 
+\usepackage{tikz}
 \usetikzlibrary {graphs}
 
 \begin{document}
@@ -12,11 +12,11 @@
   \node (e) at (2, -1) {e};
 
   \graph[]{
-    (c) -- {(a), (b)},
-    (a) -- (b),
-    (c) -- {(d), (e)},
-    (d) -- (e)
-  };
+    (c) -- {(a), (b)},
+    (a) -- (b),
+    (c) -- {(d), (e)},
+    (d) -- (e)
+  };
 }
 
 \end{document}

@@ -48,28 +48,28 @@ The following algorithm solves the problem, given a described network $N$ and re
 -- returns true and a distribution
 -- if possible or false if not
 function deliveryPossible(N, H)
-	possible = H == N.maximumFlow(s, t)
-	return possible and N.presents()
+    possible = H == N.maximumFlow(s, t)
+    return possible and N.presents()
 end
 
 function presents()
-	presents = {}
-	for j=1, m do
-		presents[j] = {}
-		for i=1, n do
-			presents[j][i] = N.flow(j)
-		end
-	end
-	return presents
+    presents = {}
+    for j=1, m do
+        presents[j] = {}
+        for i=1, n do
+            presents[j][i] = N.flow(j)
+        end
+    end
+    return presents
 end
 
 function maximumFlow(s, t)
-	-- runs Ford Fulkerson on network N
-	-- returns maximum flow from s to t
+    -- runs Ford Fulkerson on network N
+    -- returns maximum flow from s to t
 end
 
 function flow(v)
-	-- returns the flow at vertex v
+    -- returns the flow at vertex v
 end
 ```
 

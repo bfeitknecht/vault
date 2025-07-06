@@ -29,46 +29,46 @@ slides:
 ```haskell
 -- IMP syntax definition
 module IMP where
-	type Var = String 		-- identifier
-	type Numeral = Integer	-- unbounded numerals
-	
-	-- arithmetic expression
-	data Aexp = Bin Op Aexp Aexp
-		| Var
-		| Numeral
-	
-	-- arithmethic operation
-	data Op = Add | Sub | Mul
-	
-	-- boolean expression
-	data Bexp = Or Bexp Bexp
-		| And Bexp Bexp
-		| Not Bexp
-		| Rel Rop Aexp Aexp
-		| True		-- syntactic abbreviation for 1 = 1
-		| False		-- syntactic abbreviation for 1 # 1
-	
-	-- relation operation
-	data Rop = Eq	-- =
-		| Neq		-- #
-		| Lt		-- <
-		| Leq		-- <=
-		| Gt		-- >
-		| Geq		-- >=
-	
-	-- statement
-	data Stm = Skip			-- skip
-		| Assign Var Aexp	-- x := e
-		| Seq Stm Stm		-- (s; s')
-		| If Bexp Stm Stm	-- if b then s else s' end
-		| While Bexp Stm	-- while b do s end
+    type Var = String         -- identifier
+    type Numeral = Integer    -- unbounded numerals
+    
+    -- arithmetic expression
+    data Aexp = Bin Op Aexp Aexp
+        | Var
+        | Numeral
+    
+    -- arithmethic operation
+    data Op = Add | Sub | Mul
+    
+    -- boolean expression
+    data Bexp = Or Bexp Bexp
+        | And Bexp Bexp
+        | Not Bexp
+        | Rel Rop Aexp Aexp
+        | True        -- syntactic abbreviation for 1 = 1
+        | False        -- syntactic abbreviation for 1 # 1
+    
+    -- relation operation
+    data Rop = Eq    -- =
+        | Neq        -- #
+        | Lt        -- <
+        | Leq        -- <=
+        | Gt        -- >
+        | Geq        -- >=
+    
+    -- statement
+    data Stm = Skip            -- skip
+        | Assign Var Aexp    -- x := e
+        | Seq Stm Stm        -- (s; s')
+        | If Bexp Stm Stm    -- if b then s else s' end
+        | While Bexp Stm    -- while b do s end
 ```
 
 - semantic evaluation functions
-	- meta variables, for arbitrary values of types
-	- designated constant zero state, where all variables are zero
-	- state function assigns to every variable a value, i.e. every variable is always initialized
-	- arithmetic expression function maps syntactic operation to semantic "mathematical" interpretation
+    - meta variables, for arbitrary values of types
+    - designated constant zero state, where all variables are zero
+    - state function assigns to every variable a value, i.e. every variable is always initialized
+    - arithmetic expression function maps syntactic operation to semantic "mathematical" interpretation
 $$
 \begin{align}
 \mathcal{N} &: \mathsf{Numeral} \to \mathsf{Val} \\
@@ -83,7 +83,7 @@ $$
 - totality of semantic functions by structural induction over domains
 - free variables
 - syntactic sugar for `IMP`
-	- shortcut `if b then s end`, boolean constants `true`, `false`
+    - shortcut `if b then s end`, boolean constants `true`, `false`
 - inference rules for natural semantics of `IMP`
 $$
 \overset{\huge \mathrm{Natural}}{\boxed{\begin{align}

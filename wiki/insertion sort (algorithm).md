@@ -3,11 +3,11 @@ In the **insertion sort** algorithm, the invariant to uphold is that after $j$ i
 
 ```
 function insertionsort(A)
-	for i in 2 .. n
-		let k = argmin(A[i] <= A[j]) with j in [i-1]	# first unordered element's index
-		let x = A[i]
-		A[k+1..i] = A[k..i-1]
-		A[k] = x
-	end
+    for i in 2 .. n
+        let k = argmin(A[i] <= A[j]) with j in [i-1]    # first unordered element's index
+        let x = A[i]
+        A[k+1..i] = A[k..i-1]
+        A[k] = x
+    end
 end
 ```

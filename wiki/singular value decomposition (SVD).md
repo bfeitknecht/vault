@@ -30,7 +30,7 @@ $$
 
 %% V^T
 \fill[gray!50] (11, 1.5) rectangle (14, 2.5);
-\draw	 (11, 1.5) rectangle (14, 2.5);
+\draw     (11, 1.5) rectangle (14, 2.5);
 \draw[thick] (11, -0.5) rectangle (14, 2.5);
 
 \end{tikzpicture}
@@ -63,7 +63,7 @@ $$
 
 %% V^T
 \fill[gray!50] (11, 1.5) rectangle (13, 2.5);
-\draw	 (11, 1.5) rectangle (13, 2.5);
+\draw     (11, 1.5) rectangle (13, 2.5);
 \draw[thick] (11, 0.5) rectangle (13, 2.5);
 
 \end{tikzpicture}

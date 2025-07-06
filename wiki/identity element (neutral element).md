@@ -1,5 +1,5 @@
 
-A [[arity|binary]] [[operation]] $*$ on a [[set]] $S$ has an **identity element** (**neutral element**) if there is an element $e \in S$ such that the following holds. Here, the auxiliary operation is the operation of [[arity]] zero that has $e$ as its result.
+A [[arity|binary]] [[operation]] $*$ on a [[set]] $S$ has an **identity element** (**neutral element**) if there is an element $e \in S$ such that the following holds. Here, the auxiliary operation is the operation of [[arity]] zero that has $e$ as its result.
 $$
 x * e = e * x, \quad \forall x \in S
 $$
@@ -14,4 +14,4 @@ $$
 e_{l} * x = x, \quad \forall x \in S
 $$
 
-The identity element is *unique*, i.e. an operation in an algebra can't have multiple identity elements. *Proof.* #todo 
+The identity element is *unique*, i.e. an operation in an algebra can't have multiple identity elements. *Proof.* #todo

@@ -28,13 +28,13 @@ slides:
 - skewness tells about symmetry of distribution, more mass on the left or right of mean
 - kurtosis is about the tails of the distribution, "figure" (wide or narrow) of distribution around expectation
 - covariance measures "relation" between two random variables
-	- similar to scalar product
-	- two random variables independent then covariance equals zero
-	- only if $X, Y$ are gaussian then $\Cov[X, Y] = 0 \implies X \bot Y$
-	- $\Cov[X, X] = \Var[X]$
-	- $\Cov[\alpha X, \beta Y] = \alpha \beta \Cov[X, Y]$
+    - similar to scalar product
+    - two random variables independent then covariance equals zero
+    - only if $X, Y$ are gaussian then $\Cov[X, Y] = 0 \implies X \bot Y$
+    - $\Cov[X, X] = \Var[X]$
+    - $\Cov[\alpha X, \beta Y] = \alpha \beta \Cov[X, Y]$
 - vector valued random variables just come down to destructure and apply definitions
-	- discrete case:
-		- $P_{X}(x_{1}, \dots x_{n}) = \Pr[X_{1} = x_{1}, \dots X_{n = }x_{n}]$ with $(x_{1},\dots x_{n}) \in \prod_{i \in [n]}W_{i}$
-		- $\phi : \mathbb{R}^{n} \to \mathbb{R}$, $\Ex[\phi(X)] = \sum_{x \in \prod_{i \in [n]}W_{i}}P_{X}(x) \phi(x)$
-	- 
+    - discrete case:
+        - $P_{X}(x_{1}, \dots x_{n}) = \Pr[X_{1} = x_{1}, \dots X_{n = }x_{n}]$ with $(x_{1},\dots x_{n}) \in \prod_{i \in [n]}W_{i}$
+        - $\phi : \mathbb{R}^{n} \to \mathbb{R}$, $\Ex[\phi(X)] = \sum_{x \in \prod_{i \in [n]}W_{i}}P_{X}(x) \phi(x)$
+    - 

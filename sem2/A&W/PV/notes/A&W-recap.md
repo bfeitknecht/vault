@@ -8,11 +8,11 @@ cards-deck: sem2::A&W::bf
 > [!attention]- Exam Points
 > - 40p Moodle Quiz: ähnliche oder gleiche Fragen wie Miniquiz
 > - 20p Programmieren, vermutlich:
-> 	Eine Flow-Aufgabe
-> 	Eine Wahrscheinlichkeits-Aufgabe (bedingte Wahrscheinlichkeit und DP)
+>     Eine Flow-Aufgabe
+>     Eine Wahrscheinlichkeits-Aufgabe (bedingte Wahrscheinlichkeit und DP)
 > - 20p Schriftlich, vermutlich:
-> 	~10p Wahrscheinlichkeitsaufgabe (Erwartungswert, Varianz)
-> 	~10p Beweise
+>     ~10p Wahrscheinlichkeitsaufgabe (Erwartungswert, Varianz)
+>     ~10p Beweise
 
 > [!attention]+ Study This
 > - matchings, perfect matchings

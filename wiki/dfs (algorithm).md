@@ -9,13 +9,13 @@ let pre = []
 let post = []
 
 function dfs(u)
-	pre[u] = k++		# visit u: pre order
-	u.visited = true
-	for v adjacent to u
-		if v is not visited then
-			dfs(v)
-		end
-	end
-	post[u] = k++		# leave u: post order
+    pre[u] = k++        # visit u: pre order
+    u.visited = true
+    for v adjacent to u
+        if v is not visited then
+            dfs(v)
+        end
+    end
+    post[u] = k++        # leave u: post order
 end
 ```

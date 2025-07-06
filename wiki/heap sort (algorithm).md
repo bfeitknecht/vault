@@ -3,12 +3,12 @@ The **heap sort** algorithm uses a minimum [[heap (data structure)]] to organize
 
 ```
 function heapsort(A)
-	let n = length of A
-	let H = heapify(A)
-	
-	for i in 1 .. n
-		A[i] = H.pop()
-	end
+    let n = length of A
+    let H = heapify(A)
+    
+    for i in 1 .. n
+        A[i] = H.pop()
+    end
 end
 ```
 

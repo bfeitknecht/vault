@@ -3,20 +3,20 @@ The **bellman-ford** algorithm finds the shortest path from some vertex $s$ to a
 
 ```
 function bellman_ford(G, s)
-	let n = |V|
-	let d = []
-	for i in 1 .. n
-		d[i] = INFINITY
-	end
-	d[s] = 0
-	
-	for i in 1 .. n-1
-		for e = (u, v) in E
-			d[v] = min(d[v], d[u] + c(u, v))
-		end
-	end
-	
-	return d
+    let n = |V|
+    let d = []
+    for i in 1 .. n
+        d[i] = INFINITY
+    end
+    d[s] = 0
+    
+    for i in 1 .. n-1
+        for e = (u, v) in E
+            d[v] = min(d[v], d[u] + c(u, v))
+        end
+    end
+    
+    return d
 end
 ```
 

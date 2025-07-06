@@ -95,13 +95,13 @@ Below is a top-down implementation of the sequence as a recursive function.
 
 ```
 function f(n)
-	if n <= 2 then return n end     // guard arm
-	 
-	if n % 2 == 1 then
+    if n <= 2 then return n end     // guard arm
+
+    if n % 2 == 1 then
         return (f(n-1) + f(n-2)) / 2
     else
-		return 2 / ((1 / f(n-2)) + (1 / f(n-1)))
-	end
+        return 2 / ((1 / f(n-2)) + (1 / f(n-1)))
+    end
 end
 ```
 
@@ -130,20 +130,20 @@ $\square$
 The improved implementation is given below.
 ```
 function f(n)
-	if n <= 2 then return n end     // guard arm
-	
-	f1 = 1
-	f2 = 2
-	f3          // variable declaration
-	
-	for i = 3 .. n do
-		if i % 2 == 1 then
-			f3 = (f1 + f2) / 2      // odd index
-		else
-			f3 = 2 / ((1 / f2) + (1 / f1))      // even index
-		end
-		(f1, f2) = (f2, f3)         // swap values up
-	end 
+    if n <= 2 then return n end     // guard arm
+
+    f1 = 1
+    f2 = 2
+    f3          // variable declaration
+
+    for i = 3 .. n do
+        if i % 2 == 1 then
+            f3 = (f1 + f2) / 2      // odd index
+        else
+            f3 = 2 / ((1 / f2) + (1 / f1))      // even index
+        end
+        (f1, f2) = (f2, f3)         // swap values up
+    end
 end
 ```
 
@@ -183,7 +183,7 @@ $$
 R'[1..n] = [0, 0, 1, 6, 4, 3, 7, 8, 5, 9]
 $$
 
-To compute the solution to the maximum almost subarray problem, we take the maximum of $R[1..n]$ and $R'[1..n]$, so the solution is given by $\max \{ R[1..n], R'[1..n] \}$. 
+To compute the solution to the maximum almost subarray problem, we take the maximum of $R[1..n]$ and $R'[1..n]$, so the solution is given by $\max \{ R[1..n], R'[1..n] \}$.
 
 ```
 R  =  [  0,  3,  5,  3,  4,  2, -1,  4,  5,  2,  6  ]

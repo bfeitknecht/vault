@@ -7,40 +7,40 @@
 ## Tribulations
 ```java
 public static void testCase() {
-	int n = In.readInt();   // bikes
-	int m = In.readInt();   // shops
-	int k = In.readInt();   // parts
-	int s = m*(k+1)+n;      // source
-	int t = s+1;            // target
-	
-	Graph G = new Graph(m*(k+1)+n+2);
-	
-	// source -> shops -> parts
-	for (int i = 0; i < m; i++) {
-		int shop = i*(k+1);   // i-th shop
-		G.addEdge(s, shop, Integer.MAX_VALUE);
-		for (int p = 1; p <= k; p++) {
-			int stock = In.readInt();
-			G.addEdge(shop, shop+p, stock);
-		}
-	}
-	
-	// local shop's parts -> bikes -> target
-	for (int i = 0; i < n; i++) {
-		int bike = m*(k+1)+i;     // i-th bike
-		int d = In.readInt();     // how many local shops
-		for (int j = 0; j < d; j++) {
-			int local = In.readInt()*(k+1);
-			// p-th product from j-th local shop
-			for (int p = 1; p <= k; p++) {
-				G.addEdge(local+p, bike, 1);
-			}
-		}
-		G.addEdge(bike, t, k);
-	}
-	
-	boolean possible = G.computeMaximumFlow(s, t) == n*k;
-	Out.println(possible? "yes" : "no");
+    int n = In.readInt();   // bikes
+    int m = In.readInt();   // shops
+    int k = In.readInt();   // parts
+    int s = m*(k+1)+n;      // source
+    int t = s+1;            // target
+    
+    Graph G = new Graph(m*(k+1)+n+2);
+    
+    // source -> shops -> parts
+    for (int i = 0; i < m; i++) {
+        int shop = i*(k+1);   // i-th shop
+        G.addEdge(s, shop, Integer.MAX_VALUE);
+        for (int p = 1; p <= k; p++) {
+            int stock = In.readInt();
+            G.addEdge(shop, shop+p, stock);
+        }
+    }
+    
+    // local shop's parts -> bikes -> target
+    for (int i = 0; i < n; i++) {
+        int bike = m*(k+1)+i;     // i-th bike
+        int d = In.readInt();     // how many local shops
+        for (int j = 0; j < d; j++) {
+            int local = In.readInt()*(k+1);
+            // p-th product from j-th local shop
+            for (int p = 1; p <= k; p++) {
+                G.addEdge(local+p, bike, 1);
+            }
+        }
+        G.addEdge(bike, t, k);
+    }
+    
+    boolean possible = G.computeMaximumFlow(s, t) == n*k;
+    Out.println(possible? "yes" : "no");
 }
 ```
 
@@ -143,9 +143,9 @@ id5 --> id4
 id4 --> id1 & id2 & id3
 
 subgraph p0
-	id1
-	id2
-	id3
+    id1
+    id2
+    id3
 end
 
 p0 --> id6 --> id7
@@ -335,41 +335,41 @@ idb1 -->|"k"| idT
 **Did it.**
 ```java
 public static void testCase() {
-	int n = In.readInt();   // bikes
-	int m = In.readInt();   // shops
-	int k = In.readInt();   // parts
-	int s = (m*k)+(n*k)+n;  // source
-	int t = s+1;            // target
-	
-	Graph G = new Graph((m*k)+(n*k)+n+2);
-	
-	for (int i = 0; i < m*k; i++) {
-		// source -> shop parts
-		G.addEdge(s, i, In.readInt());
-	}
-	
-	for (int i = 0; i < n; i++) {
-		int part = (m*k)+i*(k+1);	// base + i * offset
-		int d = In.readInt();
-		
-		for (int j = 0; j < d; j++) {
-			int local = In.readInt()*k;
-			for (int p = 0; p < k; p++) {
-				// shop parts -> bike parts
-				G.addEdge(local+p, part+p, 1);
-			}
-		}
-		
-		for (int p = 0; p < k; p++) {
-			// bike parts -> bike
-			G.addEdge(part+p, part+k, 1);
-		}
-		
-		// bike -> target
-		G.addEdge(part+k, t, k);
-	}
-	
-	boolean possible = G.computeMaximumFlow(s, t) == n*k;
-	Out.println(possible? "yes" : "no");
+    int n = In.readInt();   // bikes
+    int m = In.readInt();   // shops
+    int k = In.readInt();   // parts
+    int s = (m*k)+(n*k)+n;  // source
+    int t = s+1;            // target
+    
+    Graph G = new Graph((m*k)+(n*k)+n+2);
+    
+    for (int i = 0; i < m*k; i++) {
+        // source -> shop parts
+        G.addEdge(s, i, In.readInt());
+    }
+    
+    for (int i = 0; i < n; i++) {
+        int part = (m*k)+i*(k+1);    // base + i * offset
+        int d = In.readInt();
+        
+        for (int j = 0; j < d; j++) {
+            int local = In.readInt()*k;
+            for (int p = 0; p < k; p++) {
+                // shop parts -> bike parts
+                G.addEdge(local+p, part+p, 1);
+            }
+        }
+        
+        for (int p = 0; p < k; p++) {
+            // bike parts -> bike
+            G.addEdge(part+p, part+k, 1);
+        }
+        
+        // bike -> target
+        G.addEdge(part+k, t, k);
+    }
+    
+    boolean possible = G.computeMaximumFlow(s, t) == n*k;
+    Out.println(possible? "yes" : "no");
 }
 ```

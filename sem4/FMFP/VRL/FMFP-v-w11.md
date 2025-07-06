@@ -21,21 +21,21 @@ slides:
 # Notes
 - hoare triple $\{  \mathbf{P} \} \ s \ \{  \mathbf{Q} \}$
 - logical variables are only used in assertions and allow reference across pre- and post-condition
-	- substitution lemma holds, $\mathcal{B}[\![\mathbf{P}[x \mapsto e]]\!]\sigma = \mathcal{B}[\![\mathbf{P}]\!]\sigma[x \mapsto \mathcal{A}[\![e]\!]\sigma]$
-	- applying $\texttt{skip}$ rule requires ==**syntactic** equivalence== of assertions, thus use
-		- $\mathbf{P} \vDash \mathbf{Q} \iff \forall \sigma.\mathcal{B}[\![\mathbf{P}]\!]\sigma= \mathrm{True} \to \mathcal{B}[\![\mathbf{Q}]\!]\sigma = \mathrm{True}$
-		- i.e. **semantic** consequence of assertions
-		- may strengthen preconditions and weaken postconditions, in diagram $\uparrow \circ \rightarrow \circ \downarrow$
-		- build proof outlines bottom-up
+    - substitution lemma holds, $\mathcal{B}[\![\mathbf{P}[x \mapsto e]]\!]\sigma = \mathcal{B}[\![\mathbf{P}]\!]\sigma[x \mapsto \mathcal{A}[\![e]\!]\sigma]$
+    - applying $\texttt{skip}$ rule requires ==**syntactic** equivalence== of assertions, thus use
+        - $\mathbf{P} \vDash \mathbf{Q} \iff \forall \sigma.\mathcal{B}[\![\mathbf{P}]\!]\sigma= \mathrm{True} \to \mathcal{B}[\![\mathbf{Q}]\!]\sigma = \mathrm{True}$
+        - i.e. **semantic** consequence of assertions
+        - may strengthen preconditions and weaken postconditions, in diagram $\uparrow \circ \rightarrow \circ \downarrow$
+        - build proof outlines bottom-up
 - total correctness hoare triple $\{  \mathbf{P} \} \ s \ \{ \Downarrow  \mathbf{ Q}\}$
-	- partial correctness and total correctness hoare triples form independent systems, don't mix!
-	- arithmetic expressions as loop variant, provides upper bound on number of iterations
-	- need to be made on well-founded set
-	- if an assertion is both pre- and post-condition, no downarrow necessary
+    - partial correctness and total correctness hoare triples form independent systems, don't mix!
+    - arithmetic expressions as loop variant, provides upper bound on number of iterations
+    - need to be made on well-founded set
+    - if an assertion is both pre- and post-condition, no downarrow necessary
 - $\vdash \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \} \iff \exists T.\mathrm{root(T) \equiv \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \}}$
-	- property can be proven (exists derivation tree with triple as root)
+    - property can be proven (exists derivation tree with triple as root)
 - $\vDash \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \} \iff \forall \sigma, \sigma'. \mathcal{B}[\![\mathbf{P}]\!]\sigma \land \vdash \langle s, \sigma \rangle \to \sigma' \implies \mathcal{B}[\![\mathbf{Q}]\!]\sigma'$
-	- property is true (for all states, precondition in initial state implies postcondition in state after execution)
+    - property is true (for all states, precondition in initial state implies postcondition in state after execution)
 - $\vdash \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \} \implies \vDash \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \}$, if a property can be proven, it is correct (soundness)
 - $\vDash \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \} \implies \vdash \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \}$, if a property is true, it can be proven (completeness)
 $$

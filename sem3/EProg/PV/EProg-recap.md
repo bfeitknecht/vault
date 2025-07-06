@@ -43,9 +43,9 @@
 swap two array variables without temporary variable
 ```java
 void swap(int[] A, int i, int j) {
-	A[i] ^= A[j];
-	A[j] ^= A[i];
-	A[i] ^= A[j];
+    A[i] ^= A[j];
+    A[j] ^= A[i];
+    A[i] ^= A[j];
 }
 ```
 
@@ -53,7 +53,7 @@ void swap(int[] A, int i, int j) {
 toggle boolean variable
 ```java
 boolean toggle = false;
-toggle ^= true;	// toggle == true
+toggle ^= true;    // toggle == true
 toggle ^= true; // toggle == false
 ```
 
@@ -65,8 +65,8 @@ toggle ^= true; // toggle == false
 | Operators                                      | Precedence                                                      | Associativity |
 | ---------------------------------------------- | --------------------------------------------------------------- | ------------- |
 | parenthesis, array / member access             | `(expr)` `[]` `.`                                               | LR            |
-| postfix                                        | `expr++` `expr--`                                               | RL            |
-| unary<br>logical NOT, bitwise INV<br>type cast | `++expr` `--expr` `+expr` `-expr`<br>`!` `~`<br>`(T)`           | RL            |
+| postfix                                        | `expr++` `expr--`                                               | RL            |
+| unary<br>logical NOT, bitwise INV<br>type cast | `++expr` `--expr` `+expr` `-expr`<br>`!` `~`<br>`(T)`           | RL            |
 | multiplicative                                 | `*` `/` `%`                                                     | LR            |
 | additive                                       | `+` `-`                                                         | LR            |
 | shift                                          | `<<` `>>` `>>>`                                                 | LR            |
@@ -85,45 +85,45 @@ toggle ^= true; // toggle == false
 
 ```java
 class A {
-	int a = 0;
-	int x = 1;
-	
-	public void m1(int x) {
-		System.out.print(a);		// this attribute explicit parameter
-		System.out.print(x);		// parameter shadows this attribute
-		m2(x)
-	}
-	
-	public void m3(int x) {
-		System.out.print(a);		// this attribute shadows sub attribute
-	}
+    int a = 0;
+    int x = 1;
+
+    public void m1(int x) {
+        System.out.print(a);        // this attribute explicit parameter
+        System.out.print(x);        // parameter shadows this attribute
+        m2(x)
+    }
+
+    public void m3(int x) {
+        System.out.print(a);        // this attribute shadows sub attribute
+    }
 }
 
 class B extends A {
-	int a = 1;	// this attribute shadows super attribute
-	
-	public void m2(int x) {
-		System.out.print(x);
-		m1(x);
-	}
-	
-	public void m3(int x) {
-		System.out.print("x");
-	}
+    int a = 1;    // this attribute shadows super attribute
+
+    public void m2(int x) {
+        System.out.print(x);
+        m1(x);
+    }
+
+    public void m3(int x) {
+        System.out.print("x");
+    }
 }
 
 // ...
 
 public static void main(String[] args) {
-	B b = new B()
-	b.m2(4)		// -> 404x
+    B b = new B()
+    b.m2(4)        // -> 404x
 }
 ```
 
 
 
 > [!quote]- Collections and Map Frameworks in Java
-> 
+>
 > ![[java.util.collections.svg]]
 > ![[java.util.map.svg]]
 
@@ -136,9 +136,9 @@ public static void main(String[] args) {
 varargs
 ```java
 public void vararg(String... args) {
-	for (String s : args) {
-		System.out.println(s);
-	}
+    for (String s : args) {
+        System.out.println(s);
+    }
 }
 ```
 

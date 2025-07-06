@@ -790,20 +790,6 @@
                 }
               },
               {
-                "id": "b489fdbbfa03cd88",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/DMDB-v-w02.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMDB-v-w02"
-                }
-              },
-              {
                 "id": "a09546924192b8cc",
                 "type": "leaf",
                 "state": {
@@ -815,6 +801,34 @@
                   },
                   "icon": "lucide-file",
                   "title": "DMDB-v-w03"
+                }
+              },
+              {
+                "id": "b8ba24cb35511ba6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/DMDB/VRL/DMDB-v-w04.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "DMDB-v-w04"
+                }
+              },
+              {
+                "id": "86104bd59c03f672",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/DMDB/VRL/DMDB-v-w05.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "DMDB-v-w05"
                 }
               },
               {
@@ -839,53 +853,20 @@
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/DMDB-sql-tutorial.pdf",
                     "page": 15,
-                    "left": 12,
-                    "top": 70,
+                    "left": -7,
+                    "top": 74,
                     "zoom": 0.91
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-sql-tutorial"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "b2d58a2794577117",
             "type": "tabs",
             "children": [
-              {
-                "id": "2a3e6df94ac97deb",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s01-relational-algebra.pdf",
-                    "page": 36,
-                    "left": -28,
-                    "top": 470,
-                    "zoom": 0.559375
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "DMDB-s01-relational-algebra"
-                }
-              },
-              {
-                "id": "d9ba60fdd938e62d",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s02-relational-calculus.pdf",
-                    "page": 62,
-                    "left": -35,
-                    "top": 437,
-                    "zoom": 0.42265625000000007
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "DMDB-s02-relational-calculus"
-                }
-              },
               {
                 "id": "7d35622c1ceb61bf",
                 "type": "leaf",
@@ -893,10 +874,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s03-entity-relationship-model.pdf",
-                    "page": 39,
-                    "left": -35,
-                    "top": 473,
-                    "zoom": 0.42265625000000007
+                    "page": 45,
+                    "left": -28,
+                    "top": 332,
+                    "zoom": 0.5593750000000002
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-s03-entity-relationship-model"
@@ -909,16 +890,49 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s04-NULL-views.pdf",
-                    "page": 1,
-                    "left": -35,
-                    "top": 544,
-                    "zoom": 0.42265625000000007
+                    "page": 26,
+                    "left": -28,
+                    "top": 135,
+                    "zoom": 0.5593750000000001
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-s04-NULL-views"
                 }
+              },
+              {
+                "id": "8fef599ef98a6f6e",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s06-functional-dependencies.pdf",
+                    "page": 21,
+                    "left": -28,
+                    "top": 130,
+                    "zoom": 0.559375
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "DMDB-s06-functional-dependencies"
+                }
+              },
+              {
+                "id": "313fb6bffdaf1229",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s07-normal-forms.pdf",
+                    "page": 15,
+                    "left": -28,
+                    "top": 501,
+                    "zoom": 0.559375
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "DMDB-s07-normal-forms"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1089,8 +1103,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "b489fdbbfa03cd88",
-      "mtime": "2025-07-05T13:03:28+02:00"
+      "active": "e81bd16c68218834",
+      "mtime": "2025-07-06T19:19:02+02:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1609,5 +1623,5 @@
       "mtime": "2025-07-04T09:23:09+02:00"
     }
   },
-  "active": "sem4-dmdb"
+  "active": "sem4-cn"
 }

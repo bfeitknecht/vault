@@ -7,9 +7,9 @@ cards-deck: sem2::PProg::bf
 > - [x] add gustafson's law ➕ 2024-07-08 ✅ 2024-07-09
 > - [x] add amdahl's law ➕ 2024-07-08 ✅ 2024-07-09
 > - [x] recap locks ➕ 2024-07-09 ✅ 2024-07-22
->	- [x] what is a lock? ✅ 2024-07-22
->	- [x] common types of locks ✅ 2024-07-22
->	- [x] problems with locking ✅ 2024-07-22
+>    - [x] what is a lock? ✅ 2024-07-22
+>    - [x] common types of locks ✅ 2024-07-22
+>    - [x] problems with locking ✅ 2024-07-22
 >
 
 
@@ -234,25 +234,25 @@ ___
 > 
 > ```java
 > public class SemaphoreBarrier {
-> 	private final int threads = 8;
-> 	
-> 	public synchronized void barrier() {
-> 		volatile int count = 0;
-> 		Semaphore s0 = new Semaphore(0);
-> 		Semaphore s1 = new Semaphore(1);
-> 		
-> 		count++;
-> 		if (count == threads) {
-> 			s1.acquire(); s0.release();
-> 		}
-> 		s0.acquire(); s0.release();
-> 		
-> 		count--;
-> 		if (count == 0) {
-> 			s0.acquire(); s1.release();
-> 		}
-> 		s1.acquire(); s0.release();
-> 	}
+>     private final int threads = 8;
+>     
+>     public synchronized void barrier() {
+>         volatile int count = 0;
+>         Semaphore s0 = new Semaphore(0);
+>         Semaphore s1 = new Semaphore(1);
+>         
+>         count++;
+>         if (count == threads) {
+>             s1.acquire(); s0.release();
+>         }
+>         s0.acquire(); s0.release();
+>         
+>         count--;
+>         if (count == 0) {
+>             s0.acquire(); s1.release();
+>         }
+>         s1.acquire(); s0.release();
+>     }
 > }
 > ```
 > 
@@ -389,20 +389,20 @@ MPI default group :: MPI.COMM_WORLD
 
 ```java
 public class Semaphore {
-	volatile int count;
-	
-	public Semaphore(int init) {
-		this.count = init;
-	}
-	
-	public synchronized void acquire() throws InterruptedException {
-		while(count <= 0) wait();
-		count--;
-	}
-	
-	public synchronized void release() {
-		count++;
-		notifyAll();
-	}
+    volatile int count;
+    
+    public Semaphore(int init) {
+        this.count = init;
+    }
+    
+    public synchronized void acquire() throws InterruptedException {
+        while(count <= 0) wait();
+        count--;
+    }
+    
+    public synchronized void release() {
+        count++;
+        notifyAll();
+    }
 }
 ```

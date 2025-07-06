@@ -1,20 +1,20 @@
 
 ```
-n = 2	// evens
-m = 2	// odds
-K = 3	// friendships
+n = 2    // evens
+m = 2    // odds
+K = 3    // friendships
 
-a b		// i-th even need a e_tk, have b o_tk
-1 1		
+a b        // i-th even need a e_tk, have b o_tk
+1 1        
 0 0
 i
 
-c d		// j-th odd need c o_tk, have d e_tk
+c d        // j-th odd need c o_tk, have d e_tk
 0 0
 1 1
 j
 
-i j		// i-th even f/w j-th odd
+i j        // i-th even f/w j-th odd
 0 0
 1 0
 1 1
@@ -66,13 +66,13 @@ idt((9))
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
 subgraph even
-	idfe0
-	idfe1
+    idfe0
+    idfe1
 end
-	
+    
 subgraph steven
-	idte0
-	idte1
+    idte0
+    idte1
 end
 
 idf -->|"a0"| idfe0
@@ -99,16 +99,16 @@ just do the naming like this:
 
 ```java
 for (int i = 0; i < k; i++) {
-	int e = In.readInt();   // e-th even steven (0..n)
-	int o = In.readInt();   // o-th odd todd (0..m)
-	
-	int even = 2*e;        
-	int steven = 2*e+1;
-	int odd = 2*(n+o);
-	int todd = 2*(n+o)+1;
-	
-	G.addEdge(even, todd, I);
-	G.addEdge(odd, steven, I);
+    int e = In.readInt();   // e-th even steven (0..n)
+    int o = In.readInt();   // o-th odd todd (0..m)
+    
+    int even = 2*e;        
+    int steven = 2*e+1;
+    int odd = 2*(n+o);
+    int todd = 2*(n+o)+1;
+    
+    G.addEdge(even, todd, I);
+    G.addEdge(odd, steven, I);
 }
 ```
 

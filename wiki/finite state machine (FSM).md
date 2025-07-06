@@ -76,9 +76,9 @@ For an alphabet $\Sigma$ and two  FSM $M_{1}, M_{2}$, defined as usual, the proc
 1. $Q = Q_{1} \times Q_{2}$
 2. $\delta((q, p), a) = (\delta_{1}(q,a), \delta_{2}(p, a)), \quad\forall(q,p) \in Q, a \in \Sigma$
 3. $q_{0} =(q_{0_{1}}, q_{0_{2}})$
-	- if $\Box = \cup$ then $F = F_{1} \times Q_{2} \cup Q_{1} \times F_{2}$, i.e. either one of $M_{1}, M_{2}$ has to accept
-	- if $\Box = \cap$ then $F = F_{1} \times F_{2}$, both $M_{1}$ and $M_{2}$ have to accept
-	- if $\Box = -$ then$F=F_{1} \times (Q_{2} - F_{2})$, so $M_{1}$ has to accept and $M_{2}$ mustn't accept
+    - if $\Box = \cup$ then $F = F_{1} \times Q_{2} \cup Q_{1} \times F_{2}$, i.e. either one of $M_{1}, M_{2}$ has to accept
+    - if $\Box = \cap$ then $F = F_{1} \times F_{2}$, both $M_{1}$ and $M_{2}$ have to accept
+    - if $\Box = -$ then$F=F_{1} \times (Q_{2} - F_{2})$, so $M_{1}$ has to accept and $M_{2}$ mustn't accept
 
 
 

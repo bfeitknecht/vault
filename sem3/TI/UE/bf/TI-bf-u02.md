@@ -10,13 +10,13 @@ Dennis Küenzi, 21-559-315
 First, we construct a program, that takes $n$ as input and prints $w_n$.
 ```pascal
 begin
-	M := n;
-	M := 4 * (M ^ 2);
-	
-	for i = 1 to 100_000
-		write(0);
-	for i = 1 to M
-		write(0101);
+    M := n;
+    M := 4 * (M ^ 2);
+
+    for i = 1 to 100_000
+        write(0);
+    for i = 1 to M
+        write(0101);
 end
 ```
 
@@ -70,10 +70,10 @@ We have $i = \log_{3}(|y_{i}|)$ for  some $\ i \geq 0$.
 We show a program, that takes $i$ as an input and prints $y_i$:
 ```pascal
 begin
-	M := i;
-	M := 3 ^ M;
-	for I = 0 to M;
-		write(0);
+    M := i;
+    M := 3 ^ M;
+    for I = 0 to M;
+        write(0);
 end
 ```
 
@@ -86,7 +86,7 @@ K(y_{i}) &\leq \log_{2}(i) + c \\
 &\leq \log_{2}\log_{3}(|y_{i}|) + c
 \end{align}
 $$
-for some constant $c$.
+for some constant $c$.
 $\square$
 
 <div class="page-break" style="page-break-before: always;"></div>
@@ -120,8 +120,8 @@ For the sake of contradiction, let's assume there exists some program $P$ that t
 We define another program, $Q$, which takes as input some $n\in \mathbb N$ and returns the word $w$ that $P(n)$ generates.
 ```pascal
 begin
-	x := n;
-	P(x);
+    x := n;
+    P(x);
 end
 ```
 
@@ -141,4 +141,3 @@ $$
 
 This leaves us with the inequality, that some constant $c''$ (independent from $n$) must be greater than $n-\lfloor \log_{2}(n) \rfloor$. The RHS is unbounded, since the asymptotic growth of a linear function dominates the logarithmic growth, however the LHS is constant. This results in a contradiction, as $c'' \overset{!}{>} \infty$ is impossible and thus there exists no such program $P$.
 $\square$
-

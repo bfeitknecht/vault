@@ -18,9 +18,9 @@
 
 - [x] power set construction of NFSM from FSM ✅ 2024-11-07
 - [x] non-regularity of language by ✅ 2024-11-08
-	- [x] lemma 3.3, ✅ 2024-11-07
-	- [x] pumping lemma, ✅ 2024-11-07
-	- [x] kolmogorov complexity ✅ 2024-11-08
+    - [x] lemma 3.3, ✅ 2024-11-07
+    - [x] pumping lemma, ✅ 2024-11-07
+    - [x] kolmogorov complexity ✅ 2024-11-08
 - [x] turing machine, informal understanding ✅ 2024-11-08
 - [x] minimum number of states required for FSM accepting given language ✅ 2024-11-07
 - [-] prime number stuff ❌ 2024-11-08

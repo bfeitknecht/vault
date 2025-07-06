@@ -6,10 +6,10 @@ Dennis Küenzi, 21-559-315
 ![[TI-e-u03.pdf#page=1&rect=67,525,529,575|TI-e-u03, p.1]]
 > **Definition 2.19**
 > A number $n$ in binary representation is called *random* if $K(n) \geq \lceil \log_{2} (n+1) \rceil -1$.
-> 
+>
 > **Prime Number Theorem**
 > $\lim_{ n \to \infty} \frac{\mathrm{Prim}(n)}{n /\ln (n)} =1$, which can be strengthened to
-> $\ln(n)-\frac{3}{2} <\frac{n}{\mathrm{Prin}(n)}< \ln(n)-\frac{1}{2}$, for all $n\geq 67$ 
+> $\ln(n)-\frac{3}{2} <\frac{n}{\mathrm{Prin}(n)}< \ln(n)-\frac{1}{2}$, for all $n\geq 67$
 
 
 The idea of the proof is, that for some $N \in \mathbb{N}$, the number of primes up to $N$ that are not random approaches infinity as $N \to \infty$. This implies that the ratio of primes to random primes is at most finite. Proof by contradiction. Let's assume there is an infinite amount of random primes and thus, more specifically, a
@@ -18,9 +18,9 @@ Let $P$ be a program that takes some $i \in \mathbb{N}^+$ and generates the $i$-
 
 ```pascal
 begin
-	N := n;
-	for i := 1 to N do
-	   write(P(i));
+    N := n;
+    for i := 1 to N do
+       write(P(i));
 end
 ```
 
@@ -38,7 +38,7 @@ $\square$
 ## (a)
 
 We will construct a finite automaton that accepts $L_{1}$, i.e. $L(M)=L_{1}$.
-Let $M=(Q, \Sigma, \delta, q_{0}, F)$, where $Q=\{ q_{0}, q_{1}, q_{2}, q_{3}, q_{4} \}$ is the set of all states, $\Sigma = \{ a,b\}$ is the input alphabet, and $F=\{ q_{4} \}$ is the set of accepted states. 
+Let $M=(Q, \Sigma, \delta, q_{0}, F)$, where $Q=\{ q_{0}, q_{1}, q_{2}, q_{3}, q_{4} \}$ is the set of all states, $\Sigma = \{ a,b\}$ is the input alphabet, and $F=\{ q_{4} \}$ is the set of accepted states.
 
 The graph representation of $M$ follows.
 ```mermaid

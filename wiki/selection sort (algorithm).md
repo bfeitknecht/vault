@@ -3,9 +3,9 @@ The **selection sort** algorithm fulfills the same invariant as [[bubble sort (a
 
 ```
 function selectionsort(A)
-	for i in n .. 1
-		let k = argmax(A[1..i])		# index of maximum of first i elements
-		swap(A, k, i)
-	end
+    for i in n .. 1
+        let k = argmax(A[1..i])        # index of maximum of first i elements
+        swap(A, k, i)
+    end
 end
 ```

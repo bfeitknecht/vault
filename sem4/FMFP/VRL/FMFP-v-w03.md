@@ -27,7 +27,7 @@ $$
 > [!quote] Mantra
 > - arrows associate to the right, $a \to b \to c = a \to (b \to c)$
 > - evaluation associates to the left, `f g a == (f g) a`
-> 	- exception: `f $ g a == f (g a)`
+>     - exception: `f $ g a == f (g a)`
 
 
 

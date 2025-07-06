@@ -41,25 +41,25 @@ ___
 
 ```
 function shuffle(A, B, C)
-	let m = |A|
-	let n = |B|
-	let S = [][]	# memoization: m * n
+    let m = |A|
+    let n = |B|
+    let S = [][]    # memoization: m * n
 
-	# base case: O(m + n)
-	for i in 1 .. m S[i][0] = true end
-	for j in 1 .. n S[0][j] = true end
+    # base case: O(m + n)
+    for i in 1 .. m S[i][0] = true end
+    for j in 1 .. n S[0][j] = true end
 
-	# recurrence relation: O(m * n)
-	for i in 1 .. m
-		for j in 1 .. n
-			# compute subproblem: O(1)
-			# C[1..i+j] is shuffle of A[1..i] and B[1..j]
-			S[i][j] = (S[i-1][[j] and C[i+j] == A[i]) or (S[i][j-1] and C[i+j] == B[j])
-		end
-	end
+    # recurrence relation: O(m * n)
+    for i in 1 .. m
+        for j in 1 .. n
+            # compute subproblem: O(1)
+            # C[1..i+j] is shuffle of A[1..i] and B[1..j]
+            S[i][j] = (S[i-1][[j] and C[i+j] == A[i]) or (S[i][j-1] and C[i+j] == B[j])
+        end
+    end
 
-	# extract solution: O(1)
-	return S[n][m]
+    # extract solution: O(1)
+    return S[n][m]
 end
 ```
 

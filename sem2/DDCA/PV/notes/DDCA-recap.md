@@ -16,7 +16,7 @@ ___
 ## Binary Numbers $\star$
 
 ![[DDCA-topics.pdf#page=5&rect=70,270,645,400|DDCA-topics, p.5]]
-\+ IEE 32b / 64b FP 
+\+ IEE 32b / 64b FP
 
 >[!check]+ Yes
 >If the hexadecimal number $(82)_{16}$ is expressing a number in sign-magnitude format, which number does it describe in decimal system?
@@ -36,7 +36,7 @@ ___
 >True or false, “pMOS transistors are used in CMOS gates to drive the output of a logic gate to logic low”
 
 >[!fail]+ No
-> - calculate electrical properties of a circuit with transistors 
+> - calculate electrical properties of a circuit with transistors
 > - draw/derive the transistor level schematic of a logic function
 > - i.e. Draw the transistor level schematic of the CMOS logic gate realizing the function Y= A. (B+C)
 
@@ -45,9 +45,9 @@ ___
 ### Semiconductors
 >[!quote]+ What is so great about semiconductors?
 > - Silicone based
-> - You can “engineer” its properties 
-> - Make it P type by injecting type-III elements (B, Ga, In) 
-> - Make it N type by injecting elements from type-V (P, As) 
+> - You can “engineer” its properties
+> - Make it P type by injecting type-III elements (B, Ga, In)
+> - Make it N type by injecting elements from type-V (P, As)
 > - Starting with a pure semiconductor, you can combine P and N regions
 > - Allows you to make interesting electrical devices (Diodes, Transistors, Thrystors)
 
@@ -61,19 +61,19 @@ ___
 
 ### Transistors
 >[!quote]+ **What is so great about CMOS?**
-> - No input current 
-> - Capacitive input, no resistive path from the input. 
-> - No current when output is at logic levels 
-> - Little static power, current is needed only when switching 
-> - Electrical properties determined directly by geometry: 
->	a transistor that is 2 times larger drives twice the current 
+> - No input current
+> - Capacitive input, no resistive path from the input.
+> - No current when output is at logic levels
+> - Little static power, current is needed only when switching
+> - Electrical properties determined directly by geometry:
+>    a transistor that is 2 times larger drives twice the current
 > - Very simple to manufacture:
->	pMOS and nMOS can be manufactured on the same substrate
+>    pMOS and nMOS can be manufactured on the same substrate
 
 >[!idea]- pMOS + nMOS = CMOS
 > - "When one MOS works, the other is the load"
 > - can pull current u**p** (**p**MOS) or dow**n** (**n**MOS)
->  
+>
 ![[DDCA-L02b-electrical-engineering.pdf#page=26&rect=26,98,660,377|DDCA-L02b-electrical-engineering, p.26]]
 ![[DDCA-L02b-electrical-engineering.pdf#page=27&rect=26,94,664,378|DDCA-L02b-electrical-engineering, p.27]]
 
@@ -81,7 +81,7 @@ ___
 ### Logic Gates
 >[!quote]+ What is so great about logic gates?
 > - helps us abstract:
->	translate between formula and circuit 
+>    translate between formula and circuit
 > - easier to draw than complex transistor layouts
 > - "pushing bubbles" can simplify
 
@@ -122,15 +122,15 @@ ___
 >> - Memoryless
 >> - Outputs determined by current values of inputs
 >> - Every circuit element is itself combinational
->> - Every node of the circuit is either 
->> 	designated as an input to the circuit or 
->> 	 connects to exactly one output terminal of a circuit element
->> 
+>> - Every node of the circuit is either
+>>     designated as an input to the circuit or
+>>      connects to exactly one output terminal of a circuit element
+>>
 >
 >>[!quote]+ What is a sequential circuit?
->> - Has memory 
+>> - Has memory
 >> - Outputs determined by previous and current values of inputs
->> 
+>>
 >
 >
 
@@ -141,9 +141,9 @@ ___
 >> ![[DDCA-L03-combinational-circuits-theory.pdf#page=24&rect=34,177,682,419|DDCA-L03-combinational-circuits-theory, p.24]]
 >
 >>[!idea]- Karnaugh Maps
->> - Special order for bit combination (gray codes;  00, 01, 11, 10) 
->> - Every 1 in a K-map must be circled at least once 
->> - Squares have dimension $2^n \times 2^m$ 
+>> - Special order for bit combination (gray codes;  00, 01, 11, 10)
+>> - Every 1 in a K-map must be circled at least once
+>> - Squares have dimension $2^n \times 2^m$
 >> - Squares must be as large as possible and may wrap the map
 >> - “Don't care” (X) is circled only if it helps minimize the equation
 >> ![[DDCA-L04a-combinational-circuits-theory.pdf#page=16&rect=50,76,678,417|DDCA-L04a-combinational-circuits-theory, p.16]]
@@ -167,29 +167,29 @@ ___
 >[!fail]+ No
 > - design circuits that make use of tri-state logic
 > - fixing glitches
->	 i.e. Design a multiplexer using tri-state buffers
+>     i.e. Design a multiplexer using tri-state buffers
 
 >[!quote]+ More Boolean Algebra
 >
 > critical path = longest path
-> 
+>
 >>[!idea]+ SOP vs POS
 >>
 >>![[DDCA-L04a-combinational-circuits-theory.pdf#page=10&rect=57,12,704,433|DDCA-L04a-combinational-circuits-theory, p.10]]
 >>
 >>>[!idea]- SOP
->>> - All Boolean equations can be written in SOP form 
->>>	Each row in a truth table has a minterm
->>>	A minterm is a product (AND) of literals 
->>>	Each minterm is TRUE for that row (and only that row) 
+>>> - All Boolean equations can be written in SOP form
+>>>    Each row in a truth table has a minterm
+>>>    A minterm is a product (AND) of literals
+>>>    Each minterm is TRUE for that row (and only that row)
 >>>  - Formed by ORing $\bigvee^*$ the minterms for which the output is TRUE
 >>>![[DDCA-L04a-combinational-circuits-theory.pdf#page=7&rect=170,286,697,456|DDCA-L04a-combinational-circuits-theory, p.7]]
 >>
->>>[!idea]- POS
+>>>[!idea]- POS
 >>> - All Boolean equations can be written in POS form
->>>	Each row in a truth table has a maxterm 
->>>	A maxterm is a sum (OR) of literals 
->>>	Each maxterm is FALSE for that row (and only that row) 
+>>>    Each row in a truth table has a maxterm
+>>>    A maxterm is a sum (OR) of literals
+>>>    Each maxterm is FALSE for that row (and only that row)
 >>> - Formed by ANDing $\bigwedge^*$ the maxterms for which the output is FALSE
 >>>![[DDCA-L04a-combinational-circuits-theory.pdf#page=8&rect=160,28,536,241|DDCA-L04a-combinational-circuits-theory, p.8]]
 >>
@@ -207,28 +207,28 @@ ___
 > - Which one of the following Verilog statements have an ERROR? Explain the issue, and correct the line.
 
 >[!fail]+ No
-> - Implement tri-state busses, circuits using tri-state busses 
+> - Implement tri-state busses, circuits using tri-state busses
 > - Derive truth tables or work with functions that have Z and X inputs
 > - i.e. How do you write a Verilog code that implements a 32-bit tristate bus with 3 different drivers (Frank, Mohammad, Ataberk).
 
 >[!quote]+ Verilog Basics
-> 
+>
 > ![[DDCA-L04b-verilog-combinational.pdf#page=13&rect=31,77,623,433|DDCA-L04b-verilog-combinational, p.13]]
 > ![[DDCA-L04b-verilog-combinational.pdf#page=33&rect=30,24,675,501|DDCA-L04b-verilog-combinational, p.33]]
-> 
-> 
+>
+>
 >>[!Iidea]- Defining a Module
 >> ![[DDCA-L04b-verilog-combinational.pdf#page=8&rect=41,250,375,432|DDCA-L04b-verilog-combinational, p.8]]
 >> ![[DDCA-L04b-verilog-combinational.pdf#page=8&rect=176,79,547,222|DDCA-L04b-verilog-combinational, p.8]]
 >
 >>[!idea]- Busses
 >> ```verilog
->> wire[31:0] a;	// a[31] .. a[0], big endian, default
->> wire[8:0] b; 	// b[0] .. b[7], little endian, only use for arrays
+>> wire[31:0] a;    // a[31] .. a[0], big endian, default
+>> wire[8:0] b;     // b[0] .. b[7], little endian, only use for arrays
 >> ```
 >> little vs big endian
 >> ![[ddca-endians.jpg]]
->> 
+>>
 >> Concatenating by `{}`
 >> ```verilog
 >> wire[3:0] a = 4'b0101;
@@ -243,14 +243,14 @@ ___
 >>
 >> bitwise logical operators:
 >> ![[DDCA-L04b-verilog-combinational.pdf#page=25&rect=69,159,407,287|DDCA-L04b-verilog-combinational, p.25]]
->> 
+>>
 >> logical reduction operators:
 >> ```verilog
 >> wire a[3:0];
->> assign y1 = &a;	// logical or reduction
->> assign y2 = |a;	// logical and reduction
+>> assign y1 = &a;    // logical or reduction
+>> assign y2 = |a;    // logical and reduction
 >> ```
-> 
+>
 >>[!idea]- Numbers
 >>![[DDCA-L04b-verilog-combinational.pdf#page=34&rect=26,156,663,439|DDCA-L04b-verilog-combinational, p.34]]
 >
@@ -263,7 +263,7 @@ ___
 >> input [widht-1:0] b,
 >> output [width-1:0] y
 >> );
->> 	assign y = ~(a ^ b);	// NOT XOR
+>>     assign y = ~(a ^ b);    // NOT XOR
 >> endmodule
 >> ```
 >
@@ -280,7 +280,7 @@ ___
 > - Calculate the propagation/contamination delay of a 16-bit Ripple Carry Adder. What is the maximum operating frequency of a processor that uses this adder in its critical path?
 
 >[!fail]+ No
-> - To derive how comparators are obtained from adders 
+> - To derive how comparators are obtained from adders
 > - Design/draw large multipliers
 > - i.e. Draw the transistor level schematic of the CMOS logic gate realizing the function Y= A. (B+C)
 
@@ -295,7 +295,7 @@ ___
 > - Design the FSM that implements “….” derive the logic equations for next state calculation, minimize them
 
 >[!fail]+ No
-> - To ‘factor’ FSMs in the exam (i.e. slides 60-63) 
+> - To ‘factor’ FSMs in the exam (i.e. slides 60-63)
 > - Draw, transistor level schematics of latches and FFs
 > - i.e. draw the transistor level schematic of a rising-edge trigerred D-type flip-flop with asynchronous reset and enable.
 
@@ -366,8 +366,8 @@ ___
 > - Give an example where the rounding would result in different numbers.
 
 >[!fail]+ No
-> - To perform a IEEE 32/64 bit floating point number operation using a golden model in binary/hex 
-> - To identify, describe the Floating Point Unit in page 30 
+> - To perform a IEEE 32/64 bit floating point number operation using a golden model in binary/hex
+> - To identify, describe the Floating Point Unit in page 30
 > - To memorize the special case encodings
 > - i.e. Which number 32bit floating point number is represented by 32’h160a_59EF
 
@@ -410,7 +410,7 @@ ___
 > - ??
 
 >[!fail]+ No
-> - Exceptions and exception handling 
+> - Exceptions and exception handling
 > - Floating point instructions
 > - i.e. Explain what happens during an exception call. What is EPC and how is it updated.
 
@@ -424,7 +424,7 @@ ___
 > - ??
 
 >[!fail]+ No
-> - To know all instructions by heart, if questions involve details of an instruction, the table from Appendix B of your book will be provided 
+> - To know all instructions by heart, if questions involve details of an instruction, the table from Appendix B of your book will be provided
 > - To draw an entire processor from scratch. If there are such questions, it will be to complete pieces of a missing diagram or find/fix errors.
 > - i.e. What is the opcode for lw
 
@@ -435,8 +435,8 @@ ___
 ![[DDCA-topics.pdf#page=23&rect=71,328,530,398|DDCA-topics, p.23]]
 
 >[!check]+ Yes
-> - We have a single cycle processor that works at 1GHz. The idea is to have a 10-stage pipeline pipelining to improve performance. What is the theoretical max frequency? 
-> - We use pipeline registers with a 20ps setup time, 0ps hold time and a 30 ps propagation/contamination delay. If everything else needed for pipelining can be done without ill effects, what is the max frequency we can achieve. 
+> - We have a single cycle processor that works at 1GHz. The idea is to have a 10-stage pipeline pipelining to improve performance. What is the theoretical max frequency?
+> - We use pipeline registers with a 20ps setup time, 0ps hold time and a 30 ps propagation/contamination delay. If everything else needed for pipelining can be done without ill effects, what is the max frequency we can achieve.
 > - What other effects do you expect would reduce this theoretical performance? Name three different aspects, describe one of them.
 
 >[!fail]+ No
@@ -452,22 +452,19 @@ ___
 ## Other
 
 > [!quote]- Arithmetic operation complexity
-> 
+>
 > ![[DDCA-L06-arithmetic-circuits.pdf#page=8&rect=35,38,708,437|DDCA-L06-arithmetic-circuits, p.8]]
-> 
+>
 > Addition is the most important so get it right!!
-> 
+>
 
 
 >[!quote]- Carry save adder
 >
 > ![[DDCA-L06-arithmetic-circuits.pdf#page=19&rect=50,158,681,424|DDCA-L06-arithmetic-circuits, p.19]]
 > ![[DDCA-L06-arithmetic-circuits.pdf#page=20&rect=448,64,664,414|DDCA-L06-arithmetic-circuits, p.20]]
-> 
-> Z = D + E + F + G + H 
-> - An array of carry save adders reduce the inputs to two 
-> - A final (fast) carry propagate adder (CPA) merges the two numbers 
+>
+> Z = D + E + F + G + H
+> - An array of carry save adders reduce the inputs to two
+> - A final (fast) carry propagate adder (CPA) merges the two numbers
 > - Performance mostly dictated by CPA
-
-
-

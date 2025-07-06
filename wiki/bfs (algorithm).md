@@ -3,16 +3,16 @@ The **BFS** algorithm explores vertices in a graph $G = (V, E)$ in levels. It ru
 
 ```
 function bfs(u)
-	let q = empty queue
-	q.enq(u)
-	while q is not empty do
-		let v = q.deq()
-		for w adjacent to v
-			if w is not visited then
-				visit w
-				q.enq(w)
-			end
-		end
-	end
+    let q = empty queue
+    q.enq(u)
+    while q is not empty do
+        let v = q.deq()
+        for w adjacent to v
+            if w is not visited then
+                visit w
+                q.enq(w)
+            end
+        end
+    end
 end
 ```

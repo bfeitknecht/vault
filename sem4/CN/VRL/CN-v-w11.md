@@ -20,6 +20,6 @@ slides:
 # Notes
 - implementing secure global internet needs revolution not evolution, fresh start
 - consequences of SCION
-	- beaconing does not require iterative convergence
-	- very fast convergence, beaconing enables rapid path exploration between every two core ASes
-	- global connectivity of internet after cold start could be achieved within seconds
+    - beaconing does not require iterative convergence
+    - very fast convergence, beaconing enables rapid path exploration between every two core ASes
+    - global connectivity of internet after cold start could be achieved within seconds

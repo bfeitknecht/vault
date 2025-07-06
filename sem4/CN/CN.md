@@ -37,7 +37,7 @@
 | **W11** |                                                                                                                                 |
 | **W12** | SCION                                                                                                                           |
 | **W13** | Algorithms                                                                                                                      |
-| **W14** | Network monitoring<br>Network sustainability (guest lecture by [Dr. Romain Jacob](https://nsg.ee.ethz.ch/people/romain-jacob/)) |
+| **W14** | Network monitoring<br>Network sustainability (guest lecture by [Dr. Romain Jacob](https://nsg.ee.ethz.ch/people/romain-jacob/)) |
 | **W15** | Network sustainability (continued)<br>Routing security                                                                          |
 
 

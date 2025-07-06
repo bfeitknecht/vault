@@ -33,14 +33,14 @@ $$
 
 Let $M$ be a MTM that always halts, where $C = (K_{i})_{l}$ is the computation of $M$ on $x \in \Sigma_{M}^{*}$.
 
-- time complexity of $M$ on input $x$:		$\mathrm{Time}_{M}(x) = l - 1$
-- time complexity *function* of $M$:		$\mathrm{Time}_{M}(n) = \max\{ \mathrm{Time}_{M}(x) \mid x \in \Sigma_{M}^{n} \}$
+- time complexity of $M$ on input $x$:        $\mathrm{Time}_{M}(x) = l - 1$
+- time complexity *function* of $M$:        $\mathrm{Time}_{M}(n) = \max\{ \mathrm{Time}_{M}(x) \mid x \in \Sigma_{M}^{n} \}$
 
 Let $M$ be a kMTM, where $K = (q, x, i, \alpha_{1}, i_{1}, \dots, \alpha_{k}, i_{k})$ is a configuration with $i \leq |x| + 1$ and $i_{j} \leq |\alpha_{j \in [k]}|$. Let $C = (K_{i})_{l}$ be the computation of $M$ on the input $x$ as a sequence of configurations.
 
-- space complexity of configuration $K$:	$\mathrm{Space}_{M}(K) = \max\{ |\alpha_{i}| \mid i \in [k] \}$
-- space complexity of $M$ on input $x$:		$\mathrm{Space}_{M}(x) = \max\{ \mathrm{Space}_{M}(K_{i}) \mid i \in l \}$
-- space complexity *function* of $M$:		$\mathrm{Space}_{M}(n) = \max\{ \mathrm{Space}_{M}(x) \mid x \in \Sigma_{M}^{n} \}$
+- space complexity of configuration $K$:    $\mathrm{Space}_{M}(K) = \max\{ |\alpha_{i}| \mid i \in [k] \}$
+- space complexity of $M$ on input $x$:        $\mathrm{Space}_{M}(x) = \max\{ \mathrm{Space}_{M}(K_{i}) \mid i \in l \}$
+- space complexity *function* of $M$:        $\mathrm{Space}_{M}(n) = \max\{ \mathrm{Space}_{M}(x) \mid x \in \Sigma_{M}^{n} \}$
 
 Notably, the time complexity does not depend on the number of tapes and the space complexity does not depend on the input length.
 
@@ -84,14 +84,14 @@ ___
 
 Let $M$ be a NMTM that always halts, where $C = (K_{i})_{l}$ is the computation of $M$ on $x \in L(M) \in \Sigma_{M}^{*}$.
 
-- time complexity of $M$ on input $x$:		length of shortest accepting computation of $M$ on $x$
-- time complexity *function* of $M$:		$\mathrm{Time}_{M}(n) = \max\{ \mathrm{Time}_{M}(x) \mid x \in \Sigma_{M}^{n} \}$
+- time complexity of $M$ on input $x$:        length of shortest accepting computation of $M$ on $x$
+- time complexity *function* of $M$:        $\mathrm{Time}_{M}(n) = \max\{ \mathrm{Time}_{M}(x) \mid x \in \Sigma_{M}^{n} \}$
 
 Let $M$ be a NMTM. Let $C = (K_{i})_{l}$ be the computation of $M$ on the input $x$ as a sequence of configurations.
 
-- space complexity of $C$:				$\mathrm{Space}_{M}(C) = \max\{ \mathrm{Space}_{M}(K_{i}) \mid i \in [l] \}$
-- space complexity of $M$ on input $x$:		$\mathrm{Space}_{M}(x) = \max\{ \mathrm{Space}_{M}(C) \mid C \text{ accepting computation of } M \text{ on } x \}$
-- space complexity *function* of $M$:		$\mathrm{Space}_{M}(n) = \max\{ \mathrm{Space}_{M}(x) \mid x \in \Sigma_{M}^{n} \}$
+- space complexity of $C$:                $\mathrm{Space}_{M}(C) = \max\{ \mathrm{Space}_{M}(K_{i}) \mid i \in [l] \}$
+- space complexity of $M$ on input $x$:        $\mathrm{Space}_{M}(x) = \max\{ \mathrm{Space}_{M}(C) \mid C \text{ accepting computation of } M \text{ on } x \}$
+- space complexity *function* of $M$:        $\mathrm{Space}_{M}(n) = \max\{ \mathrm{Space}_{M}(x) \mid x \in \Sigma_{M}^{n} \}$
 
 The non-deterministic complexity classes are as follows. Let $M$ be NMTM.
 $$

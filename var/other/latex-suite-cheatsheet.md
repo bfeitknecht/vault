@@ -7,7 +7,7 @@
 | rd      | ^{ }             |
 | _       | _{ }             |
 | sq      | \sqrt{ }         |
-| x/y Tab | \frac{x}{y}      |
+| x/y Tab | \frac{x}{y}      |
 | //      | \frac{ }{ }      |
 | "       | \text{ }         |
 | text    | \text{ }         |
@@ -23,7 +23,7 @@
 | ee      | e^{ }            |
 | invs    | ^{-1}            |
 
-When running a snippet that moves the cursor inside brackets {}, press **tab** to exit the brackets.
+When running a snippet that moves the cursor inside brackets {}, press **tab** to exit the brackets.
 
 ### Greek letters
 

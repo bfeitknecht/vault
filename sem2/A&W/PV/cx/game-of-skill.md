@@ -15,7 +15,7 @@ ___
 
 ## q2
 
->[!idea] okay
+>[!idea] okay
 >just use bayes theorem, multiply and divide it out
 
 ```java
@@ -37,6 +37,3 @@ need dynamic programming
 // expected square after n turns
 // expected turns until square n
 ```
-
-
-

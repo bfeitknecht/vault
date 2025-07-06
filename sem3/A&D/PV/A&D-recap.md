@@ -42,18 +42,18 @@
 ## Heap
 
 `insert(x)`
-	add `x` as last leaf
-	restore heap condition through sift down (keep swapping with greater / smaller child until invariant restored)
+    add `x` as last leaf
+    restore heap condition through sift down (keep swapping with greater / smaller child until invariant restored)
 `extract_max()`, `extract_min()`
-	replace root with last leaf in last level
-	restore heap condition
+    replace root with last leaf in last level
+    restore heap condition
 
 ## BST (binary search tree)
 
 `insert(x)`
-	add `x` as a leaf
+    add `x` as a leaf
 `remove(x)`
-	replace `x`with symmetric successor, i.e. left subtree's rightmost child or right subtree's leftmost child
+    replace `x`with symmetric successor, i.e. left subtree's rightmost child or right subtree's leftmost child
 
 ## AVL (balanced BST)
 
@@ -64,40 +64,40 @@ The AVL condition states that left and right subtrees' height differ by at most 
 Implemented using linked list. All operations in $O(1)$. FILO.
 
 `push(x)` 
-	adds the element `x` to the top of the stack
+    adds the element `x` to the top of the stack
 `pop()`
-	returns and deletes the top element in the stack
+    returns and deletes the top element in the stack
 `peek()`
-	returns the top element
+    returns the top element
 
 ## Queue
 
 Implemented with doubly linked list, all operations are in $O(1)$. FIFO.
 
 `enq(x)`
-	adds the element at the end
+    adds the element at the end
 `deq()`
-	returns and removes the front element
+    returns and removes the front element
 
 ## Priority Queue
 
 Implemented with heap, operations in $O(\log n)$.
 
 `enq_prio(x, p)`
-	adds the element with the provided priority
+    adds the element with the provided priority
 `exctract_max()`
-	returns and removes the element with top priority
+    returns and removes the element with top priority
 
 ## Union Find
 
 `make(V)`
-	creates a union find from the vertex set in $O(n)$
+    creates a union find from the vertex set in $O(n)$
 `find(u)
-	returns the connected component of $u$ in $O(n)$
+    returns the connected component of $u$ in $O(n)$
 `same(u, v)
-	returns true if $u$ and $v$ have the same connected component in $O(1)$
+    returns true if $u$ and $v$ have the same connected component in $O(1)$
 `union(u, v)`
-	connects the CCs of $u$ and $v$ in $\Theta(n)$, on average (choose smaller CC) $O(\log n)$
+    connects the CCs of $u$ and $v$ in $\Theta(n)$, on average (choose smaller CC) $O(\log n)$
 
 
 # Algorithms
@@ -105,34 +105,34 @@ Implemented with heap, operations in $O(\log n)$.
 ## Graphs
 
 - **explore** graphs (directed and undirected)
-	![[dfs (algorithm)]]
-	![[bfs (algorithm)]]
+    ![[dfs (algorithm)]]
+    ![[bfs (algorithm)]]
 
 - construct **MST**
-	![[kruskal (algorithm)]]
-	![[prim (algorithm)]]
-	![[boruvka (algorithm)]]
+    ![[kruskal (algorithm)]]
+    ![[prim (algorithm)]]
+    ![[boruvka (algorithm)]]
 
 - find *one to all* **shortest paths**
-	![[shortest path with DP in DAG]]
-	![[dijkstra (algorithm)]]
-	![[bellman-ford (algorithm)]]
+    ![[shortest path with DP in DAG]]
+    ![[dijkstra (algorithm)]]
+    ![[bellman-ford (algorithm)]]
 
 - find *all to all* **shortest paths**
-	![[floyd-warshall (algorithm)]]
-	![[johnson (algorithm)]]
+    ![[floyd-warshall (algorithm)]]
+    ![[johnson (algorithm)]]
 
 ## Sorting
 
 - easy implementations but bad runtime
-	![[bubble sort (algorithm)]]
-	![[selection sort (algorithm)]]
-	![[insertion sort (algorithm)]]
+    ![[bubble sort (algorithm)]]
+    ![[selection sort (algorithm)]]
+    ![[insertion sort (algorithm)]]
 
 - harder to implement but optimal runtime
-	![[quick sort (algorithm)]]
-	![[merge sort (algorithm)]]
-	![[heap sort (algorithm)]]
+    ![[quick sort (algorithm)]]
+    ![[merge sort (algorithm)]]
+    ![[heap sort (algorithm)]]
 
 
 # Asymptotic Analysis
@@ -207,30 +207,30 @@ For a graph $G = (V, E)$ the following statements are equivalent.
 ## Maximum Subarray Sum
 
 subproblem
-	$R_{j} = \max_{i \leq j} \sum_{k = i}^{j}A[k]$
+    $R_{j} = \max_{i \leq j} \sum_{k = i}^{j}A[k]$
 
 recurrence relation
-	$R_{j} = \max \{ A[j], A[j] + R_{j-1} \}$
+    $R_{j} = \max \{ A[j], A[j] + R_{j-1} \}$
 
 extracting solution
-	$\max \{ R_{j \in [m]}, 0 \}$
+    $\max \{ R_{j \in [m]}, 0 \}$
 
 
 ## Jump Game
 
 ```
 function min_jump(A)
-	let k = 0
-	let M = []
-	M[0] = 1
-	M[-1] = 0
-	
-	while M[k] < n
-		k++
-		M[k] = max{i + A[i] | M[k-2] < i <= M[k-1]}
-	end
-	
-	return k
+    let k = 0
+    let M = []
+    M[0] = 1
+    M[-1] = 0
+    
+    while M[k] < n
+        k++
+        M[k] = max{i + A[i] | M[k-2] < i <= M[k-1]}
+    end
+    
+    return k
 end
 ```
 
@@ -239,21 +239,21 @@ end
 
 ```
 function LCS(A, B)
-	let n = |A|
-	let m = |B|
-	let L = [][]
-	
-	for j in 1 .. n L[0][j] = 0 end
-	for i in 1 .. m L[i][0] = 0 end
-	
-	for i in 1 .. m
-		for j in 1 .. n
-			L[i][j] = A[i] == B[j] ? max{1 + L[i-1][j-1], L[i-1][j], L[i][j-1]} :
-				max{L[i-1][j], L[i][j-1]}
-		end
-	end
-	
-	return L[m][n]
+    let n = |A|
+    let m = |B|
+    let L = [][]
+    
+    for j in 1 .. n L[0][j] = 0 end
+    for i in 1 .. m L[i][0] = 0 end
+    
+    for i in 1 .. m
+        for j in 1 .. n
+            L[i][j] = A[i] == B[j] ? max{1 + L[i-1][j-1], L[i-1][j], L[i][j-1]} :
+                max{L[i-1][j], L[i][j-1]}
+        end
+    end
+    
+    return L[m][n]
 end
 ```
 

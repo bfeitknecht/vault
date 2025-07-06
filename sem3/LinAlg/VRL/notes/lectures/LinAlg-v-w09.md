@@ -14,7 +14,7 @@
 
 # In-Class
 
-## 1.   Linear Regression
+## 1.   Linear Regression
 $$
 \begin{align}
 \overbrace{ \alpha_{1} \begin{bmatrix}

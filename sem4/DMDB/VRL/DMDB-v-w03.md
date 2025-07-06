@@ -16,24 +16,24 @@ slides:
 # Topics
 - [[entity relationship model (ER)]]
 - SQL
-	- `INDEX`
-	- `VIEW`
-	- `LIMIT`
-	- `OFFSET`
-	- `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`
+    - `INDEX`
+    - `VIEW`
+    - `LIMIT`
+    - `OFFSET`
+    - `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`
 - [[candidate key]]
 - [[primary key]]
 - extract-transform-load (ETL)
 
 
 # Notes
-- `CREATE VIEW` only captures state of data at moment of creation
+- `CREATE VIEW` only captures state of data at moment of creation, "alias" for the query
 - view is only updatable, if it maintains injectivity between view and base relation, i.e.
-	- it involves only one base relation
-	- it involves the key of the base relation
-	- it does not involve aggregates, group-by or duplicate elimination
+    - it involves only one base relation
+    - it involves the key of the base relation
+    - it does not involve aggregates, group-by or duplicate elimination
 
 - ER model is constraint language that defines the set of valid DB instances
-	- possible values to take, $\mathcal{D} = \mathcal{B} \cup \Delta$
-		- $\mathcal{B}$, concrete values (`integer`, `character`, `float`, etc.)
-		- $\Delta$, abstract values corresponding to entities
+    - possible values to take, $\mathcal{D} = \mathcal{B} \cup \Delta$
+        - $\mathcal{B}$, concrete values (`integer`, `character`, `float`, etc.)
+        - $\Delta$, abstract values corresponding to entities

@@ -2,14 +2,14 @@
 # Topics
 
 DMath
-	proof patterns
-	CRT
-	modular exponent remainder rules
-	relation properties
-	function and relation quick facts (effect on properties by composition, intersection, union)
-	proof of non-minimality of group axioms
-	propositional logic vs predicate logic, [source](https://math.stackexchange.com/questions/3330870/implication-between-propositions-vs-implication-between-predicates)
-	symbols of either as language
+    proof patterns
+    CRT
+    modular exponent remainder rules
+    relation properties
+    function and relation quick facts (effect on properties by composition, intersection, union)
+    proof of non-minimality of group axioms
+    propositional logic vs predicate logic, [source](https://math.stackexchange.com/questions/3330870/implication-between-propositions-vs-implication-between-predicates)
+    symbols of either as language
 
 # Cheatsheet
 
@@ -107,34 +107,34 @@ Let $(A, \preceq)$ be a poset with $S \subseteq A$. Then $a \in A$ can exhibit t
 \begin{document}
 
 \begin{tikzcd}
-	& {} &&&& {} &&&& {} \\
-	{} &&&&&&&&&& {} \\
-	&& \bullet && \bullet && \bullet && \bullet \\
-	&& \bullet && \bullet &&&& \bullet \\
-	&& \bullet && \bullet && \bullet && \bullet \\
-	{} &&&&&&&&&& {} \\
-	&& \bullet && \bullet && \bullet && \bullet \\
-	&& \bullet &&&& \bullet && \bullet \\
-	&& \bullet && \bullet && \bullet && \bullet \\
-	{} &&&&&&&&&& {} \\
-	& {} &&&& {} &&&& {}
-	\arrow[no head, from=1-2, to=11-2]
-	\arrow[no head, from=1-6, to=11-6]
-	\arrow[no head, from=2-11, to=2-1]
-	\arrow[from=3-3, to=3-5]
-	\arrow[from=3-7, to=3-9]
-	\arrow[from=4-3, to=4-5]
-	\arrow[from=5-3, to=5-5]
-	\arrow[from=5-7, to=5-9]
-	\arrow[no head, from=6-1, to=6-11]
-	\arrow[from=7-3, to=7-5]
-	\arrow[from=7-7, to=7-9]
-	\arrow[from=8-3, to=7-5]
-	\arrow[from=8-7, to=7-9]
-	\arrow[from=9-3, to=9-5]
-	\arrow[from=9-7, to=9-9]
-	\arrow[no head, from=10-11, to=10-1]
-	\arrow[no head, from=11-10, to=1-10]
+    & {} &&&& {} &&&& {} \\
+    {} &&&&&&&&&& {} \\
+    && \bullet && \bullet && \bullet && \bullet \\
+    && \bullet && \bullet &&&& \bullet \\
+    && \bullet && \bullet && \bullet && \bullet \\
+    {} &&&&&&&&&& {} \\
+    && \bullet && \bullet && \bullet && \bullet \\
+    && \bullet &&&& \bullet && \bullet \\
+    && \bullet && \bullet && \bullet && \bullet \\
+    {} &&&&&&&&&& {} \\
+    & {} &&&& {} &&&& {}
+    \arrow[no head, from=1-2, to=11-2]
+    \arrow[no head, from=1-6, to=11-6]
+    \arrow[no head, from=2-11, to=2-1]
+    \arrow[from=3-3, to=3-5]
+    \arrow[from=3-7, to=3-9]
+    \arrow[from=4-3, to=4-5]
+    \arrow[from=5-3, to=5-5]
+    \arrow[from=5-7, to=5-9]
+    \arrow[no head, from=6-1, to=6-11]
+    \arrow[from=7-3, to=7-5]
+    \arrow[from=7-7, to=7-9]
+    \arrow[from=8-3, to=7-5]
+    \arrow[from=8-7, to=7-9]
+    \arrow[from=9-3, to=9-5]
+    \arrow[from=9-7, to=9-9]
+    \arrow[no head, from=10-11, to=10-1]
+    \arrow[no head, from=11-10, to=1-10]
 \end{tikzcd}
 
 \end{document}

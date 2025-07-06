@@ -56,31 +56,31 @@ The correctness of the algorithm is given by the fact that the weird array conta
 ```
 // algorithm to determine pivot element in weird array
 // based on modified binary search
-// runtime:		O(log n)
-// input:		integer array A of length n
-// output: 		integer pivot
+// runtime:        O(log n)
+// input:        integer array A of length n
+// output:         integer pivot
 
 function weird-sort(A) begin
-	let l = 1			// left
-	let r = n			// right
-	let m = (l+r)/2		// middle split
-	
-	while l <= r do
-		m = (l+r)/2							// middle split
-		
-		if A[m] > A[m+1] then break end		// found pivot
-		if A[m] < A[1] then					// search left
-			r = m - 1
-		elseif A[m] > A[n]					// search right
-			l = m + 1
-		end
-	end
-	
-	let M = []
-	M[1..m-n] = A[m+1..n]
-	M[m-n+1..n] = A[1..m]
-	A = M	
-	return m
+    let l = 1            // left
+    let r = n            // right
+    let m = (l+r)/2        // middle split
+    
+    while l <= r do
+        m = (l+r)/2                            // middle split
+        
+        if A[m] > A[m+1] then break end        // found pivot
+        if A[m] < A[1] then                    // search left
+            r = m - 1
+        elseif A[m] > A[n]                    // search right
+            l = m + 1
+        end
+    end
+    
+    let M = []
+    M[1..m-n] = A[m+1..n]
+    M[m-n+1..n] = A[1..m]
+    A = M    
+    return m
 end
 ```
 $\square$
@@ -96,16 +96,16 @@ The correctness of the algorithm is given by the fact that the array is now sort
 
 ```
 // algorithm to determine if weird array contains given element
-// runtime:		O(log n)
-// input:		integer l, integer array A of length n
-// output:		boolean contains
+// runtime:        O(log n)
+// input:        integer l, integer array A of length n
+// output:        boolean contains
  
 function weird-contains(l, A) begin
-	// sort array with algorithm from (a)
-	weird-sort(A)
-	
-	// find element l if it exists using binary search
-	return binary-search(l, A) == l
+    // sort array with algorithm from (a)
+    weird-sort(A)
+    
+    // find element l if it exists using binary search
+    return binary-search(l, A) == l
 end
 ```
 $\square$
