@@ -43,13 +43,7 @@ The **likelihood function** on a [[probability space]] $\Omega$ with parameter s
 
 
 # PVW
-
-> [!note] Problems
-> - [ ] FS23, ex.5
-> - [ ] HS22, ex.3.2-3.4
-> 
-
-
+ 
 Is $\mathcal{F}$ a sigma algebra?
 - check $\Omega$ and $\varnothing$, then conjunction
 - $\mathcal{P}(\Omega)$, $\{ \varnothing, A, A^{\complement}, \Omega \}$, $\{ \varnothing, \Omega \}$ are trivial sigma algebras
