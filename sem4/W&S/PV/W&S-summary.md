@@ -7,6 +7,8 @@
 > - [ ] skewness, kurtosis, moments
 > - [ ] distributions
 > - [ ] laplace model
+> - [ ] estimator
+> - [ ] MSE
 
 
 # Joint Distribution
@@ -22,6 +24,17 @@ $$
 The **likelihood function** on a [[probability space]] $\Omega$ with parameter space $\Theta$ is defined in terms of the [[joint distribution]], based on the space's atomicity.
 
 # Estimator
+#todo 
 
 
+# Distributions
 
+| Distribution                   | Expectation         | Variance                |
+| ------------------------------ | ------------------- | ----------------------- |
+| $\mathrm{Ber}(p)$              | $p$                 | $p(1-p)$                |
+| $\mathrm{Bin}(n, p)$           | $np$                | $np(1-p)$               |
+| $\mathrm{Geom}(p)$             | $\frac{1}{p}$       | $\frac{1-p}{p^{2}}$     |
+| $\mathrm{Pois}(\lambda)$       | $\lambda$           | $\lambda$               |
+| $\mathcal{U}([a, b])$          | $\frac{a+b}{2}$     | $\frac{(b-a)^{2}}{12}$  |
+| $\mathcal{N}(\mu, \sigma^{2})$ | $\mu$               | $\sigma^{2}$            |
+| $\mathrm{Exp}(\lambda)$        | $\frac{1}{\lambda}$ | $\frac{1}{\lambda^{2}}$ |

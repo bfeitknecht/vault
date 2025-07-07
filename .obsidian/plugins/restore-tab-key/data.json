@@ -21,7 +21,7 @@
   "indentCharacters": " \t",
   "activateInCodeBlocks": true,
   "activateInLists": true,
-  "activateInTables": true,
+  "activateInTables": false,
   "activateInInlineCode": false,
   "activateInOthers": true,
   "activateOnlyOnCodeBlocks": false
