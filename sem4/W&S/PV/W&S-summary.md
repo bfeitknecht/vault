@@ -9,6 +9,7 @@
 > - [ ] laplace model
 > - [ ] estimator
 > - [ ] MSE
+> - [ ] PMF
 
 
 # Joint Distribution
