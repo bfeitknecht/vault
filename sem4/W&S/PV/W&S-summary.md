@@ -55,3 +55,9 @@ Is $\mathcal{F}$ a sigma algebra?
 - $\mathcal{P}(\Omega)$, $\{ \varnothing, A, A^{\complement}, \Omega \}$, $\{ \varnothing, \Omega \}$ are trivial sigma algebras
 
 For an independent family of events $(A_{i})_{i \in \mathcal{I}}$, it holds that $\forall \mathcal{J} \in \mathcal{P}(\mathcal{I}.) \Pr\left[ \bigcap_{j \in \mathcal{J}} A_{j} \right] = \prod_{j \in \mathcal{J}} A_{j}$. That is to say, pairwise independence does not imply total independence.
+
+
+| from $n$ take $k$               | with repetition       | without repetition                     |
+| ------------------------------- | --------------------- | -------------------------------------- |
+| **with order** (combination)    | $n^{k}$               | $\frac{n!}{(n-k)!}$                    |
+| **without order** (permutation) | ${{n-1+k}\choose{k}}$ | ${{n}\choose{k}} =\frac{n!}{n!(n-k)!}$ |
