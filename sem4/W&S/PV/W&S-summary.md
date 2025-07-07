@@ -44,6 +44,14 @@ The **likelihood function** on a [[probability space]] $\Omega$ with parameter s
 
 # PVW
 
+> [!note] Problems
+> - [ ] FS23, ex.5
+> - [ ] HS22, ex.3.2-3.4
+> 
+
+
 Is $\mathcal{F}$ a sigma algebra?
 - check $\Omega$ and $\varnothing$, then conjunction
 - $\mathcal{P}(\Omega)$, $\{ \varnothing, A, A^{\complement}, \Omega \}$, $\{ \varnothing, \Omega \}$ are trivial sigma algebras
+
+For an independent family of events $(A_{i})_{i \in \mathcal{I}}$, it holds that $\forall \mathcal{J} \in \mathcal{P}(\mathcal{I}.) \Pr\left[ \bigcap_{j \in \mathcal{J}} A_{j} \right] = \prod_{j \in \mathcal{J}} A_{j}$. That is to say, pairwise independence does not imply total independence.
