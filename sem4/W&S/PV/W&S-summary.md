@@ -38,3 +38,12 @@ The **likelihood function** on a [[probability space]] $\Omega$ with parameter s
 | $\mathcal{U}([a, b])$          | $\frac{a+b}{2}$     | $\frac{(b-a)^{2}}{12}$  |
 | $\mathcal{N}(\mu, \sigma^{2})$ | $\mu$               | $\sigma^{2}$            |
 | $\mathrm{Exp}(\lambda)$        | $\frac{1}{\lambda}$ | $\frac{1}{\lambda^{2}}$ |
+
+
+
+
+# PVW
+
+Is $\mathcal{F}$ a sigma algebra?
+- check $\Omega$ and $\varnothing$, then conjunction
+- $\mathcal{P}(\Omega)$, $\{ \varnothing, A, A^{\complement}, \Omega \}$, $\{ \varnothing, \Omega \}$ are trivial sigma algebras
