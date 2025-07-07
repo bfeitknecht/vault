@@ -54,4 +54,4 @@ For an independent family of events $(A_{i})_{i \in \mathcal{I}}$, it holds that
 | from $n$ take $k$               | with repetition       | without repetition                     |
 | ------------------------------- | --------------------- | -------------------------------------- |
 | **with order** (combination)    | $n^{k}$               | $\frac{n!}{(n-k)!}$                    |
-| **without order** (permutation) | ${{n-1+k}\choose{k}}$ | ${{n}\choose{k}} =\frac{n!}{n!(n-k)!}$ |
+| **without order** (permutation) | ${{n+k-1}\choose{k}}$ | ${{n}\choose{k}} =\frac{n!}{n!(n-k)!}$ |
