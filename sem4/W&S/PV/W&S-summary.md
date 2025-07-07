@@ -5,7 +5,8 @@
 > - [ ] variance
 > - [ ] covariance
 > - [ ] skewness, kurtosis, moments
-> - [ ] random variable distributions
+> - [ ] distributions
+> - [ ] laplace model
 
 
 # Joint Distribution
