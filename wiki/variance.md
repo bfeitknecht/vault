@@ -9,7 +9,10 @@ The **variance** of a [[random variable]] $X$ captures its *spread* around the [
 $$
 \Var[X] = \Ex[(X - \mu)^{2}] = \Cov[X, X]
 $$
-
 Application of some identities leads to the equality $\Var[X] = \Ex[X^{2}] - \Ex[X]^{2}$.
 
 In case of a [[discrete]] [[probability space]], it can be computed as $\Var[X] = \sum_{x \in W} (x -\mu)^{2} p_{X}(x)$. For a [[continuous]] probability space, it is likewise defined as $\Var[X] = \int_{\mathbb{R}}(x - \mu)^{2} f_{X}(x) \d x$.
+
+The variance exhibits the following properties.
+- it is non-negative, $\Var[X] \geq 0$
+- scalars are squared, $\Var[\lambda X] = \lambda^{2}\Var[X]$, which directly results in the following identity $\Var[X - Y] = \Var[X] + \Var[Y]$
