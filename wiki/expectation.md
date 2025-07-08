@@ -4,7 +4,7 @@ aliases:
   - mean
 ---
 
-The **expected value** of some [[random variable]] $X$ is the "mean" of the possible values, weighted by the respective probabilities. It is defined based on the atomicity of the underlying [[probability space]].
+The **expectation** of some [[random variable]] $X$ is the "mean" of the possible values, weighted by the respective probabilities. It is defined based on the atomicity of the underlying [[probability space]].
 
 For the [[discrete]] case, it is defined as the weighted average of all possible outcomes in $W$ by the [[probability mass]].
 $$

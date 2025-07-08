@@ -1,8 +1,8 @@
 
 > [!danger] TO-DO
 > - [ ] joint distribution
-> - [ ] expectation
-> - [ ] variance
+> - [x] expectation ✅ 2025-07-08
+> - [x] variance ✅ 2025-07-08
 > - [ ] covariance
 > - [ ] skewness, kurtosis, moments
 > - [ ] distributions
@@ -11,7 +11,6 @@
 > - [ ] MSE
 > - [ ] PMF
 > - [ ] correlation
-> - [ ] expectation
 
 
 # Joint Distribution
