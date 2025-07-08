@@ -31,15 +31,24 @@ The **likelihood function** on a [[probability space]] $\Omega$ with parameter s
 
 # Distributions
 
-| Distribution                   | Expectation $\Ex[X]$ | Variance $\Var[X]$      | mass $p_{X}(k)$ / density $f_{X}(x)$  | distribution $F_{X}(x)$ |
-| ------------------------------ | -------------------- | ----------------------- | ------------------------------------- | ----------------------- |
-| $\mathrm{Ber}(p)$              | $p$                  | $p(1-p)$                |                                       |                         |
-| $\mathrm{Bin}(n, p)$           | $np$                 | $np(1-p)$               | ${n \choose k} p^{k} (1-p)^{n-k}$     |                         |
-| $\mathrm{Geom}(p)$             | $\frac{1}{p}$        | $\frac{1-p}{p^{2}}$     |                                       |                         |
-| $\mathrm{Pois}(\lambda)$       | $\lambda$            | $\lambda$               | $\frac{\lambda^{k} e^{-\lambda}}{k!}$ |                         |
-| $\mathcal{U}([a, b])$          | $\frac{a+b}{2}$      | $\frac{(b-a)^{2}}{12}$  |                                       |                         |
-| $\mathcal{N}(\mu, \sigma^{2})$ | $\mu$                | $\sigma^{2}$            |                                       |                         |
-| $\mathrm{Exp}(\lambda)$        | $\frac{1}{\lambda}$  | $\frac{1}{\lambda^{2}}$ |                                       |                         |
+[[bernoulli distribution]]
+[[binomial distribution]]
+[[geometric distribution]]
+[[poisson distribution]]
+[[uniform distribution]]
+[[normal distribution]]
+[[exponential distribution]]
+
+
+| Distribution                   | Expectation $\Ex[X]$ | Variance $\Var[X]$      | mass $p_{X}(k)$ / density $f_{X}(x)$                                                  | distribution $F_{X}(x)$ |
+| ------------------------------ | -------------------- | ----------------------- | ------------------------------------------------------------------------------------- | ----------------------- |
+| $\mathrm{Ber}(p)$              | $p$                  | $p(1-p)$                |                                                                                       |                         |
+| $\mathrm{Bin}(n, p)$           | $np$                 | $np(1-p)$               | ${n \choose k} p^{k} (1-p)^{n-k}$                                                     |                         |
+| $\mathrm{Geom}(p)$             | $\frac{1}{p}$        | $\frac{1-p}{p^{2}}$     |                                                                                       |                         |
+| $\mathrm{Pois}(\lambda)$       | $\lambda$            | $\lambda$               | $\frac{\lambda^{k} e^{-\lambda}}{k!}$                                                 |                         |
+| $\mathcal{U}([a, b])$          | $\frac{a+b}{2}$      | $\frac{(b-a)^{2}}{12}$  |                                                                                       |                         |
+| $\mathcal{N}(\mu, \sigma^{2})$ | $\mu$                | $\sigma^{2}$            |                                                                                       |                         |
+| $\mathrm{Exp}(\lambda)$        | $\frac{1}{\lambda}$  | $\frac{1}{\lambda^{2}}$ | $\begin{cases}\lambda e^{-\lambda x}, & x \geq 0 \\ 0, & \text{otherwise}\end{cases}$ |                         |
 
 
 
@@ -57,3 +66,8 @@ For an independent family of events $(A_{i})_{i \in \mathcal{I}}$, it holds that
 | ------------------------------- | --------------------- | -------------------------------------- |
 | **with order** (combination)    | $n^{k}$               | $\frac{n!}{(n-k)!}$                    |
 | **without order** (permutation) | ${{n+k-1}\choose{k}}$ | ${{n}\choose{k}} =\frac{n!}{n!(n-k)!}$ |
+
+
+- geometric distribution models waiting time until success of discrete experiment
+- exponential is the same for continuous case
+- 
