@@ -1,7 +1,7 @@
 
 ![[W&S-script-1.pdf#page=43&rect=131,506,498,595|W&S-script-1, p.42]]
 
-A [[continuous]] [[random variable]] $X$ is said to exhibit **continuous uniform distribution** in the [[interval]] $[a, b]$, with $a < b$ if its [[probability density|density]] and hence [[probability distribution|distribution]] is as defined below. In this case we write $X \sim \mathcal{U}([a, b])$.
+A [[continuous]] [[random variable]] $X \sim \mathcal{U}([a, b])$ exhibits **continuous uniform distribution** in the closed [[interval]] $[a, b]$, with [[probability density|density]] and [[probability distribution|distribution]] as defined below. Intuitively, $X$ describes a point in the interval uniformly chosen.
 $$
 \begin{align}
 f_{a, b}(x) &= \begin{cases}
@@ -15,5 +15,3 @@ F_{X}(x) &= \begin{cases}
 \end{cases}
 \end{align}
 $$
-
-Intuitively, $X$ describes a point in the interval uniformly chosen. The [[probability distribution]] of any random variable is uniformly distributed.

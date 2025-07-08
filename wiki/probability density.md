@@ -1,6 +1,7 @@
 ---
 aliases:
   - density
+  - probability density
   - probability density function
   - PDF
 ---

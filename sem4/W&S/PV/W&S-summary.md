@@ -11,6 +11,7 @@
 > - [ ] MSE
 > - [ ] PMF
 > - [ ] correlation
+> - [ ] expectation
 
 
 # Joint Distribution
@@ -24,9 +25,6 @@ $$
 
 # Likelihood
 The **likelihood function** on a [[probability space]] $\Omega$ with parameter space $\Theta$ is defined in terms of the [[joint distribution]], based on the space's atomicity.
-
-# Estimator
-#todo 
 
 
 # Distributions
@@ -70,4 +68,7 @@ For an independent family of events $(A_{i})_{i \in \mathcal{I}}$, it holds that
 
 - geometric distribution models waiting time until success of discrete experiment
 - exponential is the same for continuous case
-- 
+
+
+> for normal distribution $X \sim \mathcal{N}(\mu, \sigma^{2})$ then by variance addition laws, $X = \sigma Z + \mu \implies Z = \frac{X - \mu}{\sigma}$ for $Z \sim \mathcal{N}(0, 1)$
+
