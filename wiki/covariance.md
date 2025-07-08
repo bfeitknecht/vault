@@ -9,3 +9,11 @@ $$
 \Cov(X, Y) = \Ex[XY] - \Ex[X] \Ex[Y]
 $$
 
+Specifically, if the two random variables are independent then the covariance is equal to zero.
+$$
+X \bot Y \implies \Cov(X, Y) = 0
+$$
+The reciprocal implication is not generally true. A stronger version is given for two arbitrary piecewise continuous and bounded [[function|functions]] $\phi, \psi$.
+$$
+X \bot Y \iff \Cov(\phi(X), \psi(Y)) = 0
+$$
