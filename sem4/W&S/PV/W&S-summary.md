@@ -10,6 +10,7 @@
 > - [ ] estimator
 > - [ ] MSE
 > - [ ] PMF
+> - [ ] correlation
 
 
 # Joint Distribution
@@ -30,15 +31,15 @@ The **likelihood function** on a [[probability space]] $\Omega$ with parameter s
 
 # Distributions
 
-| Distribution                   | Expectation         | Variance                | mass / density                               | distribution |
-| ------------------------------ | ------------------- | ----------------------- | -------------------------------------------- | ------------ |
-| $\mathrm{Ber}(p)$              | $p$                 | $p(1-p)$                |                                              |              |
-| $\mathrm{Bin}(n, p)$           | $np$                | $np(1-p)$               | $p_{X}(k) = {n \choose k} p^{k} (1-p)^{n-k}$ |              |
-| $\mathrm{Geom}(p)$             | $\frac{1}{p}$       | $\frac{1-p}{p^{2}}$     |                                              |              |
-| $\mathrm{Pois}(\lambda)$       | $\lambda$           | $\lambda$               |                                              |              |
-| $\mathcal{U}([a, b])$          | $\frac{a+b}{2}$     | $\frac{(b-a)^{2}}{12}$  |                                              |              |
-| $\mathcal{N}(\mu, \sigma^{2})$ | $\mu$               | $\sigma^{2}$            |                                              |              |
-| $\mathrm{Exp}(\lambda)$        | $\frac{1}{\lambda}$ | $\frac{1}{\lambda^{2}}$ |                                              |              |
+| Distribution                   | Expectation $\Ex[X]$ | Variance $\Var[X]$      | mass $p_{X}(k)$ / density $f_{X}(x)$  | distribution $F_{X}(x)$ |
+| ------------------------------ | -------------------- | ----------------------- | ------------------------------------- | ----------------------- |
+| $\mathrm{Ber}(p)$              | $p$                  | $p(1-p)$                |                                       |                         |
+| $\mathrm{Bin}(n, p)$           | $np$                 | $np(1-p)$               | ${n \choose k} p^{k} (1-p)^{n-k}$     |                         |
+| $\mathrm{Geom}(p)$             | $\frac{1}{p}$        | $\frac{1-p}{p^{2}}$     |                                       |                         |
+| $\mathrm{Pois}(\lambda)$       | $\lambda$            | $\lambda$               | $\frac{\lambda^{k} e^{-\lambda}}{k!}$ |                         |
+| $\mathcal{U}([a, b])$          | $\frac{a+b}{2}$      | $\frac{(b-a)^{2}}{12}$  |                                       |                         |
+| $\mathcal{N}(\mu, \sigma^{2})$ | $\mu$                | $\sigma^{2}$            |                                       |                         |
+| $\mathrm{Exp}(\lambda)$        | $\frac{1}{\lambda}$  | $\frac{1}{\lambda^{2}}$ |                                       |                         |
 
 
 
