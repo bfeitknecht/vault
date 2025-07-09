@@ -14,7 +14,7 @@ $$
 F_{\mathbf{X}}(\mathbf{x}) = \Pr[X_{1} \leq x_{1}, \dots X_{n} \leq x_{n}]
 $$
 
-The joint [[probability mass|mass]] of discrete random variables with $\forall X_{i}. \Pr[X_{i} \in W_{i}] = 1$ for some $W_{i} \subset \mathbb{R}$ *finite* or *countable* is the collection $p = (p(x_{1}, \dots x_{n}))_{x_{i}\in W_{i}}$, where $p(x_{1}, \dots x_{n}) = \Pr[X_{1}=x_{1}, \dots X_{n} = x_{n}]$.
+The joint [[probability mass|mass]] of discrete random variables $(X_{i})_{n}$ such that $\forall X_{i}. \Pr[X_{i} \in W_{i}] = 1$ for some $W_{i} \subset \mathbb{R}$ *finite* or *countable* is the collection $p = (p(x_{1}, \dots x_{n}))_{x_{i}\in W_{i}}$, where $p(x_{1}, \dots x_{n}) = \Pr[X_{1}=x_{1}, \dots X_{n} = x_{n}]$.
 
 
 The continuous random variables $(X_{i})_{n}$ have a joint [[probability density|density]] $f : \mathbb{R}^{n} \to \mathbb{R}_{+}$, if it satisfies the following.
