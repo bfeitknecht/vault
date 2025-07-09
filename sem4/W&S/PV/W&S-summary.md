@@ -71,8 +71,3 @@ For an independent family of events $(A_{i})_{i \in \mathcal{I}}$, it holds that
 
 > for normal distribution $X \sim \mathcal{N}(\mu, \sigma^{2})$ then by variance addition laws, $X = \sigma Z + \mu \implies Z = \frac{X - \mu}{\sigma}$ for $Z \sim \mathcal{N}(0, 1)$
 
-
-
-# Inequalities
-
-[[markov inequality]]
