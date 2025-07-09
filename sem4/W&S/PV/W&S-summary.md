@@ -35,7 +35,7 @@ The **likelihood function** on a [[probability space]] $\Omega$ with parameter s
 [[uniform distribution]]
 [[normal distribution]]
 [[exponential distribution]]
-
+[[joint distribution]]
 
 | Distribution                   | Expectation $\Ex[X]$ | Variance $\Var[X]$      | mass $p_{X}(k)$ / density $f_{X}(x)$             | distribution $F_{X}(x)$ |
 | ------------------------------ | -------------------- | ----------------------- | ------------------------------------------------ | ----------------------- |

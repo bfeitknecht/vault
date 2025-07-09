@@ -16,6 +16,7 @@ $$
 $$
 
 The following properties hold in any case.
-- respects of transformation for a [[function]] $\phi: \mathbb{R} \to \mathbb{R}$, i.e. $\Ex[\phi(x)] = \begin{cases} \sum_{x \in W} \phi(x) p_{X}(x) \\ \int_{\mathbb{R}} \phi(x) f_{X}(x) \d x \end{cases}$
+- respects of transformation for a [[function]] $\phi: \mathbb{R} \to \mathbb{R}$, i.e. $\Ex[\phi(x)] = \begin{cases} \sum_{x \in W} \phi(x) p_{X}(x) \\  \int_{\mathbb{R}} \phi(x) f_{X}(x) \d x \end{cases}$
+	- also applies to joint distributions, i.e. for $\phi : \mathbb{R}^{n} \to \mathbb{R}$ whenever the sum or integral is defined
 - exhibits linearity, $\Ex[\alpha X + \beta Y] = \alpha\Ex[X] + \beta \Ex[Y]$
 - product of independent random variables factors, $X \bot Y \implies \Ex[XY] = \Ex[X] \Ex[Y]$
