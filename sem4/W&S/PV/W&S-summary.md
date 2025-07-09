@@ -1,9 +1,9 @@
 
 > [!danger] TO-DO
-> - [ ] joint distribution
+> - [x] joint distribution ✅ 2025-07-09
 > - [x] expectation ✅ 2025-07-08
 > - [x] variance ✅ 2025-07-08
-> - [ ] covariance
+> - [x] covariance ✅ 2025-07-09
 > - [ ] skewness, kurtosis, moments
 > - [ ] distributions
 > - [ ] laplace model
@@ -11,15 +11,7 @@
 > - [ ] MSE
 > - [ ] PMF
 > - [ ] correlation
-
-
-# Joint Distribution
-The **joint distribution** of $n$ discrete [[random variable|random variables]] with $\forall X_{i}. \Pr[X_{i} \in W_{i}] = 1$ for some $W_{i} \subset \mathbb{R}$ *finite* or *countable* is the collection $p = (p(x_{1}, \dots x_{n}))_{x_{i}\in W_{i}}$, where $p(x_{1}, \dots x_{n}) = \Pr[X_{1}=x_{1}, \dots X_{n} = x_{n}]$.
-
-The continuous random variables $(X_{i})_{n}$ have a **joint density** $f : \mathbb{R}^{n} \to \mathbb{R}_{+}$, if it satisfies the following.
-$$
-\Pr[X_{1} \leq a_{1}, \dots X_{n} \leq a_{n}] = \int_{-\infty}^{a_{1}} \cdots \int_{-\infty}^{a_{n}} f(x_{1}, \dots x_{n}) \d x_{n} , \dots \d x_{1}
-$$
+> - [ ] marginal density
 
 
 # Likelihood
@@ -51,13 +43,6 @@ The **likelihood function** on a [[probability space]] $\Omega$ with parameter s
 
 
 # PVW
- 
-Is $\mathcal{F}$ a sigma algebra?
-- check $\Omega$ and $\varnothing$, then conjunction
-- $\mathcal{P}(\Omega)$, $\{ \varnothing, A, A^{\complement}, \Omega \}$, $\{ \varnothing, \Omega \}$ are trivial sigma algebras
-
-For an independent family of events $(A_{i})_{i \in \mathcal{I}}$, it holds that $\forall \mathcal{J} \in \mathcal{P}(\mathcal{I}.) \Pr\left[ \bigcap_{j \in \mathcal{J}} A_{j} \right] = \prod_{j \in \mathcal{J}} A_{j}$. That is to say, pairwise independence does not imply total independence.
-
 
 | from $n$ take $k$               | with repetition       | without repetition                     |
 | ------------------------------- | --------------------- | -------------------------------------- |
@@ -71,3 +56,6 @@ For an independent family of events $(A_{i})_{i \in \mathcal{I}}$, it holds that
 
 > for normal distribution $X \sim \mathcal{N}(\mu, \sigma^{2})$ then by variance addition laws, $X = \sigma Z + \mu \implies Z = \frac{X - \mu}{\sigma}$ for $Z \sim \mathcal{N}(0, 1)$
 
+
+
+continuous r.v. has continuous CDF
