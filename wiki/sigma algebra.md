@@ -2,7 +2,7 @@
 A **sigma algebra** ($\sigma$-algebra) over some [[set]] $X$ is a non-empty collection of subsets closed under complement, countable union and intersection. Formally it's a subset of the [[power set]], i.e. $\Sigma \subseteq \mathcal{P}(X)$ such that the following holds.
 1. $X \in \Sigma$
 2. closure under complement, $A \in \Sigma \iff (X - A) \in \Sigma$
-3. closure under countable union, $\mathcal{I}\subseteq \mathbb{N} : A_{i \in \mathcal{I}} \in \Sigma \implies \bigcup_{i \in \mathcal{ I}} A_{i} \in \Sigma$
+3. closure under countable union, $\mathcal{A} \subseteq \Sigma \implies \bigcup_{A \in \mathcal{A}} A \in \Sigma$
 
 Easily checked sigma algebras are the following.
 - trivial case, $\{ \varnothing, X \}$
