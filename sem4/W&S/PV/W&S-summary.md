@@ -37,7 +37,7 @@ The **likelihood function** on a [[probability space]] $\Omega$ with parameter s
 [[exponential distribution]]
 [[joint distribution]]
 
-| Distribution                   | Expectation $\Ex[X]$ | Variance $\Var[X]$      | mass $p_{X}(k)$ / density $f_{X}(x)$             | distribution $F_{X}(x)$ |
+| Distribution                   | Expectation $\Ex[X]$ | Variance $\Var[X]$      | Mass $p_{X}(k)$ / Density $f_{X}(x)$             | Distribution $F_{X}(x)$ |
 | ------------------------------ | -------------------- | ----------------------- | ------------------------------------------------ | ----------------------- |
 | $\mathrm{Ber}(p)$              | $p$                  | $p(1-p)$                |                                                  |                         |
 | $\mathrm{Bin}(n, p)$           | $np$                 | $np(1-p)$               | ${n \choose k} p^{k} (1-p)^{n-k}$                |                         |
