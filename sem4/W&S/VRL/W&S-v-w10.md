@@ -29,4 +29,4 @@ slides:
 ---
 - for parameter $\theta$ and random variable $X$ corresponding to observed data
 	- estimator is random variable from sample space to sample estimates, i.e. $\hat{\theta}(X) : \Omega \to \mathbb{R}$
-	- estimate is the fixed value for some observed data value, i.e. $X = x$ then $\hat{\theta}(x) \in \mathbb{R}$
+	- estimate is the fixed value for some observed data value, i.e. for $X = x$ then $\hat{\theta}(x) \in \mathbb{R}$

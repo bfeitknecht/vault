@@ -6,7 +6,7 @@ aliases:
 
 A **random variable** on a [[probability space]] $(\Omega, \mathcal{F}, \Pr)$ is a [[function|map]] $X : \Omega \to \mathbb{R}$ such that $\forall a \in \mathbb{R}. \{  \omega \in \Omega \mid X(\omega) \leq a \} \in \mathcal{F}$. A random variable is [[discrete]], if it's [[sample space]] is finite or countable. Otherwise it is [[continuous]].
 
-Let $(X_{i})_{n} = X_{1}, \dots X_{n}$ be $n$ random variables on some probability space. Then they are **independent** if the following holds.
+Let $(X_{i})_{n} = X_{1}, \dots X_{n}$ be random variables on some probability space. Then they are **independent** if, for any random [[vector]] of possible values, the [[joint distribution]] is equal to the product of the individual distributions.
 $$
 \forall[x_{i}]_{n} \in \mathbb{R}^{n}.\Pr[X_{1} \leq x_{1}, \dots X_{n} \leq x_{n}] = \prod_{i \in [n]} \Pr[X_{i} \leq x_{i}]
 $$
