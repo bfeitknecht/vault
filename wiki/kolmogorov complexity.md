@@ -7,7 +7,7 @@ Formally, for $x \in \Sigma_{\mathbb{B}}^{*}$, its kolmogorov complexity $K(x)$ 
 
 For a [[natural number]] $n \in \mathbb{N}$, we define its kolmogorov complexity as the length of its binary encoding.
 $$
-K(n) = K(\mathrm{Bin}(n)) =\lfloor \log_{2}(n) \rfloor + 1 = \lceil \log_{2}(n+1) \rceil
+K(n) = K(\Bin(n)) = \lfloor \log_{2}(n) \rfloor + 1 = \lceil \log_{2}(n+1) \rceil
 $$
 
 

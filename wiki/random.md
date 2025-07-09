@@ -2,7 +2,7 @@
 
 A [[word]] $x\in \Sigma_{\mathbb{B}}^{*}$ is **random** if its [[kolmogorov complexity]] is greater or equal to its length, i.e. $K(x)\geq|x|$.
 
-A [[natural number]] $n\in \mathbb N$ is random, if $K(n)=K(\mathrm{Bin}(n))\geq \lceil \log_{2}(n+1) \rceil -1$.
+A [[natural number]] $n\in \mathbb N$ is random, if $K(n)=K(\Bin(n))\geq \lceil \log_{2}(n+1) \rceil -1$.
 
 
 

@@ -20,7 +20,7 @@ public static void testCase() {
 
 >[!quote] Definitions
 >1. compute the probability that we surpass the target after n rounds
->$\mathrm{P}[X] \overset{?}{=} k > m_{n}$
+>$\Pr[X] \overset{?}{=} k > m_{n}$
 >
 >2. how many days correlates with (1.)
 >$n \sim c$
@@ -32,14 +32,14 @@ public static void testCase() {
 >$b_{i} \in \mathbb N_{0}$
 >
 >5. compute partial probabilities (?)
->$\mathrm{P}[X_{i}] =$ "surpass $m$ at round $i$"
+>$\Pr[X_{i}] =$ "surpass $m$ at round $i$"
 
 
 ## Intuition
 - when $p_{i}$ is high, bet high, else bet low \=> maximize win, minimize loss
 - $b_{i} = \lfloor p_{i} |m-k| \rceil$, bet as much as possible when far from target, else bet less
 - use dp to compute every possible sub problem
-- $\mathrm{P}[X_{i}] \sim p_{1..i}$
+- $\Pr[X_{i}] \sim p_{1..i}$
 
 
 ### Sample Case 1
