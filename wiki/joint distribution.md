@@ -15,7 +15,7 @@ $$
 F_{\mathbf{X}}(\mathbf{x}) = \Pr[X_{1} \leq x_{1}, \dots X_{n} \leq x_{n}]
 $$
 
-The joint [[probability mass|mass]] of *discrete* random variables $\mathbf{X} =(X_{i})_{n}$ such that $\forall X_{i}. \Pr[X_{i} \in W_{i}] = 1$ for some $W_{i} \subset \mathbb{R}$ *finite* or *countable* is defined as given below for $\mathbf{x} = [x_{i}]_{n} \in \bigtimes_{i \in [n|]} W_{i}$.
+The joint [[probability mass|mass]] of *discrete* random variables $\mathbf{X} =(X_{i})_{n}$ such that $\forall X_{i}. \Pr[X_{i} \in W_{i}] = 1$ for some $W_{i} \subset \mathbb{R}$ *finite* or *countable* is defined as given below for $\mathbf{x} = [x_{i}]_{n} \in \bigtimes_{i \in [n]} W_{i}$.
 $$
 p_{\mathbf{X}}(\mathbf{x}) = \Pr[X_{1} = x_{1}, \dots X_{n} = x_{n}]
 $$
