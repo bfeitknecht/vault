@@ -20,3 +20,10 @@ The following properties hold in any case.
 	- also applies to joint distributions, i.e. for $\phi : \mathbb{R}^{n} \to \mathbb{R}$ whenever the sum or integral is defined
 - exhibits linearity, $\Ex[\alpha X + \beta Y] = \alpha\Ex[X] + \beta \Ex[Y]$
 - product of independent random variables factors, $X \bot Y \implies \Ex[XY] = \Ex[X] \Ex[Y]$
+
+
+
+$$
+Pr[X_1 <= x_1, ... X_n <= x_n] = integral_(-oo)^x_1 dots.c integral_(-oo)^x_n f_bf(X)(bf(x)) dif x_n ... dif x_1
+$$
+
