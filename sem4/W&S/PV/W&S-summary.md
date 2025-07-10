@@ -12,6 +12,7 @@
 > - [ ] PMF
 > - [ ] correlation
 > - [ ] marginal distribution
+> - [ ] law of large numbers
 
 
 # Likelihood
@@ -60,3 +61,8 @@ The **likelihood function** on a [[probability space]] $\Omega$ with parameter s
 
 
 continuous r.v. has continuous CDF
+
+$\Var[X + Y] = \Var[X] + \Var[Y] + 2\Cov[X, Y]$
+
+
+## Law of Large Numbers

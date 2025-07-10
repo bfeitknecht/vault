@@ -35,9 +35,9 @@ Random variables can be transformed, specifically for $\phi : \mathbb{R}^{k} \to
 ### Uniform
 ![[uniform distribution]]
 
-### Exponential
-![[exponential distribution]]
-
 ### Normal
 ![[normal distribution]]
+
+### Exponential
+![[exponential distribution]]
 
