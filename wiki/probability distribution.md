@@ -4,6 +4,8 @@ aliases:
   - distribution function
   - cumulative distribution function
   - CDF
+  - almost surely
+  - a.s.
 ---
 
 The **probability distribution** of a [[random variable]] $X$ on $E = \mathbb{R}$ is the [[function]] defined by $F_{X}(x) = \Pr[X \leq x]$ and expresses the probability that $X$ is at most $x$. It is right-continuous and monotone increasing, i.e. [[right continuous with left limit (RCLL)]], thus it is a [[bijection]] and has an [[inverse (function)]] $F_{X}^{-1}$. Additionally, it satisfies the following two properties.

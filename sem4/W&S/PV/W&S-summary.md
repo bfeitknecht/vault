@@ -13,6 +13,7 @@
 > - [ ] correlation
 > - [ ] marginal distribution
 > - [ ] law of large numbers
+> - [ ] central limit theorem
 
 
 # Likelihood
