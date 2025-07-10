@@ -65,5 +65,3 @@ continuous r.v. has continuous CDF
 
 $\Var[X + Y] = \Var[X] + \Var[Y] + 2\Cov[X, Y]$
 
-
-## Law of Large Numbers
