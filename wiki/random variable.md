@@ -10,7 +10,6 @@ Let $(X_{i})_{n} = X_{1}, \dots X_{n}$ be random variables on some probability s
 $$
 \forall[x_{i}]_{n} \in \mathbb{R}^{n}.\Pr[X_{1} \leq x_{1}, \dots X_{n} \leq x_{n}] = \prod_{i \in [n]} \Pr[X_{i} \leq x_{i}]
 $$
-Specifically, pairwise independence does not imply total independence. Two independent random variables are denoted $X \bot Y$.
 
 An infinite sequence $(X_{i})_{\infty}$ of random variables is said to be independent if $(X_{i})_{n}$ are independent for every $n \in \mathbb{N}$ and **independent and identically distributed (i.i.d.)** if they are independent and have the same [[probability distribution|distribution]], $\forall i,j. F_{X_{i}} = F_{X_{j}}$.
 
