@@ -55,7 +55,7 @@
 - applicable for high peak-average utilization rate, bursty traffic
 
 **circuit switching**
-- applicable when peak-average utilization rate is low, i.e. constant bandwidth required
+- applicable when peak-average utilization rate is low, constant bandwidth required, e.g. voice streaming
 
 **virtual circuit**
 - #todo 
@@ -68,6 +68,7 @@ This tuple consists of (source IP, source port, destination ip, destination port
 - **Propoagation delay:** Time it takes packets to travel through the wire from source to destination.
 - **Processing delay:** Time it takes for packet to be processed within a switch from being taken out of the queue to be sent out.
 - **Queuing delay:** Time a packet spends in a queue between arriving and being processed.
+
 
 _Simplex_: data may only flow one way.  
 _Half-duplex_: data may flow both ways, but not simultaneously  
