@@ -86,3 +86,11 @@ confidence interval typically symmetric
 put random variable (sample mean) in middle of probability space measure function, only want one occurrence of it
 
 
+
+## Tests
+
+decide whether theta is in Theta zero or alternative
+
+T is test statistic, r.v. 
+critical region subset of R
+
