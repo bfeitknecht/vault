@@ -78,8 +78,11 @@ $\Var[X + Y] = \Var[X] + \Var[Y] + 2\Cov[X, Y]$
 $I = [A, B], A = a(X_{1}, \dots X_{n}), B = b(X_{1}, \dots X_{n})$
 $\Pr_{\theta}[\theta \in I] = \Pr[A \leq \theta \leq B] \geq 1- \alpha$ for $\alpha \in [0, 1]$
 
-
-
-
 like estimator but gives range instead of point
 Pr theta of subset of range has smaller probability
+
+confidence interval typically symmetric
+
+put random variable (sample mean) in middle of probability space measure function, only want one occurrence of it
+
+
