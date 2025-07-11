@@ -65,3 +65,21 @@ continuous r.v. has continuous CDF
 
 $\Var[X + Y] = \Var[X] + \Var[Y] + 2\Cov[X, Y]$
 
+
+
+
+## MLE
+1. likelihood function
+2. log likehlihood
+3. partially derive log L
+4. set equal to zero and solve for theta
+
+## Confidence Interval
+$I = [A, B], A = a(X_{1}, \dots X_{n}), B = b(X_{1}, \dots X_{n})$
+$\Pr_{\theta}[\theta \in I] = \Pr[A \leq \theta \leq B] \geq 1- \alpha$ for $\alpha \in [0, 1]$
+
+
+
+
+like estimator but gives range instead of point
+Pr theta of subset of range has smaller probability
