@@ -11,7 +11,6 @@ next: "[[CN-v-w04]]"
 - [[transport layer]]
 - [[user datagram protocol (UDP)]]
 - [[transmission control protocol (TCP)]]
-- jitter
 
 
 # Notes
@@ -30,6 +29,8 @@ The main difference between the [[user datagram protocol (UDP)]] and [[transmiss
 - some overhead because of setup, error checking ACKs and congestion control
 - use cases where accuracy is critical, e.g. web browsing (HTTP, HTTPS), email (SMTP), file transfer (FTP)
 - full duplex service, data may flow both ways
+- suffers from head-of-line blocking due to congestion control
+    - lost packet needs to be retransmitted, the ones behind it must wait
 
 | **Feature**  | **UDP**                | **TCP**                   |
 | ------------ | ---------------------- | ------------------------- |
