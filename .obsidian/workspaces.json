@@ -1513,10 +1513,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/W&S/PV/summaries/W&S-summary-ykuenzi.pdf",
-                    "page": 40,
-                    "left": -17,
-                    "top": 726,
-                    "zoom": 0.9021025541093545
+                    "page": 51,
+                    "left": 33,
+                    "top": 501,
+                    "zoom": 1.11
                   },
                   "icon": "lucide-file-text",
                   "title": "W&S-summary-ykuenzi"
@@ -1694,9 +1694,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "a200e032c559113b",
-      "mtime": "2025-07-11T11:26:07+02:00"
+      "active": "5f35b4b004a54160",
+      "mtime": "2025-07-12T11:41:17+02:00"
     }
   },
-  "active": "sem4-w&s"
+  "active": "sem4-cn"
 }

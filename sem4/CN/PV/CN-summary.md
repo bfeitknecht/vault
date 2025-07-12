@@ -3,15 +3,16 @@
 > - [ ] BGP
 > - [ ] SCION
 > - [ ] QUIC
-> - [ ] glue record
 > - [ ] IP
 > - [ ] TCP
 >     - [ ] ACK strategies
 >     - [ ] flow control
 >     - [ ] congestion control
 >     - [ ] CCAs
+>     - [ ] head-of-line blocking
 > - [ ] HTTP
-> - [ ] head-of-line blocking
+> - [ ] DNS
+>     - [ ] glue record
 
 
 ## Flow Control
