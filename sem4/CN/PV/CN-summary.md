@@ -58,12 +58,11 @@
 **circuit switching**
 - applicable when peak-average utilization rate is low, constant bandwidth required, e.g. voice streaming
 
-**virtual circuit**
-- #todo 
 
 
-"A 5-tuple uniquely identifies a UDP/TCP session.", [source](https://www.ietf.org/rfc/rfc6146.txt#:~:text=5-Tuple%3A%20The%20tuple%20)
-This tuple consists of (source IP, source port, destination ip, destination port, protocol).
+
+
+## Misc
 
 | Delay Type   | Definition                                                  |
 | ------------ | ----------------------------------------------------------- |

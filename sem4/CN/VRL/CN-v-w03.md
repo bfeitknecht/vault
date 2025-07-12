@@ -15,7 +15,7 @@ next: "[[CN-v-w04]]"
 
 # Notes
 ## UDP / TCP
-The main difference between the [[user datagram protocol (UDP)]] and [[transmission control protocol (TCP)]] lies in **reliability**, **ordering**, and **overhead**.
+The main difference between the [[user datagram protocol (UDP)]] and [[transmission control protocol (TCP)]] lies in **reliability**, **ordering**, and **overhead**. A 5-[[tuple]] $(\mathrm{IP}_{src}, \mathrm{port}_{src}, \mathrm{IP}_{dest}, \mathrm{port}_{dest}, \mathrm{protocol})$ uniquely identifies UDP/TCP session.
 
 **UDP**
 - unreliable, no guarantee that packets arrive in order or even arrive at all
