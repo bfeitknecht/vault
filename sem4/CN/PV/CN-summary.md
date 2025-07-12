@@ -62,15 +62,18 @@
 - #todo 
 
 
-"A 5-tuple uniquely identifies a UDP/TCP session.", https://www.ietf.org/rfc/rfc6146.txt#:~:text=5-Tuple%3A%20The%20tuple%20
-This tuple consists of (source IP, source port, destination ip, destination port, protocol) but here we already know that the protocol is TCP hence the prior four suffice.
+"A 5-tuple uniquely identifies a UDP/TCP session.", [source](https://www.ietf.org/rfc/rfc6146.txt#:~:text=5-Tuple%3A%20The%20tuple%20)
+This tuple consists of (source IP, source port, destination ip, destination port, protocol).
 
-- **Transmission delay:** Time it takes to put packets onto the wire.
-- **Propoagation delay:** Time it takes packets to travel through the wire from source to destination.
-- **Processing delay:** Time it takes for packet to be processed within a switch from being taken out of the queue to be sent out.
-- **Queuing delay:** Time a packet spends in a queue between arriving and being processed.
+| Delay Type   | Definition                                                  |
+| ------------ | ----------------------------------------------------------- |
+| transmission | time to put packet onto wire                                |
+| propagation  | time for packet to travel wire from source to destination   |
+| queueing     | time of packet in queue after arrival and before processing |
+| processing   | time to process packet between dequeue and forward          |
 
-
-_Simplex_: data may only flow one way.  
-_Half-duplex_: data may flow both ways, but not simultaneously  
-_Full-duplex_: data may flow both ways simultaneously
+| Plex        | Definition                                    |
+| ----------- | --------------------------------------------- |
+| simplex     | data flows one way                            |
+| half duplex | data can flow both ways but not simulateously |
+| full duplex | data can flow both ways simultaneously        |
