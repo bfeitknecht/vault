@@ -10,12 +10,12 @@ next: "[[CN-v-w05]]"
 
 # Topics
 - transport layer
-- TCP
+- [[transmission control protocol (TCP)]]
 - QUIC
-- fairness in transport layer protocols
+- transport layer fairness
 - network layer
-- datagram vs virtual circuit
-- internet protocol (IP)
+- virtual circuit
+- [[internet protocol (IP)]]
 
 
 # Notes
