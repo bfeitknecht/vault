@@ -16,6 +16,7 @@ next: "[[CN-v-w05]]"
 - network layer
 - virtual circuit
 - [[internet protocol (IP)]]
+- [[network address translation (NAT)]]
 
 
 # Notes
