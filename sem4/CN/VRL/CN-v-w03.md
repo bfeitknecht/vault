@@ -22,6 +22,7 @@ The main difference between the [[user datagram protocol (UDP)]] and [[transmiss
 - connectionless, data is sent without establishing session
 - little overhead
 - use cases where time-sensitivity is important, i.e. video streaming, VoIP, gaming, DNS queries
+- half duplex, at any given time data can only be sent one way
 
 **TCP**
 - before transmission three-way [[TCP handshake]] is performed to establish connection
