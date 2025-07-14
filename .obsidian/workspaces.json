@@ -461,20 +461,6 @@
                 }
               },
               {
-                "id": "642fc42403387d1a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/CN/VRL/CN-v-w03.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "CN-v-w03"
-                }
-              },
-              {
                 "id": "8354a00b557287c4",
                 "type": "leaf",
                 "state": {
@@ -486,6 +472,34 @@
                   },
                   "icon": "lucide-file",
                   "title": "CN-v-w04"
+                }
+              },
+              {
+                "id": "1af004273dba92e1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/CN/VRL/CN-v-w05.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "CN-v-w05"
+                }
+              },
+              {
+                "id": "17b401c77eeabc94",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "wiki/internet protocol (IP).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "internet protocol (IP)"
                 }
               },
               {
@@ -503,7 +517,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "ff76ae8e25882880",
@@ -534,7 +548,7 @@
                     "file": "sem4/CN/VRL/extra/slides/CN-s03-DNS.pdf",
                     "page": 75,
                     "left": -56,
-                    "top": 156,
+                    "top": 527,
                     "zoom": 0.2796875
                   },
                   "icon": "lucide-file-text",
@@ -548,9 +562,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s05-transport-layer.pdf",
-                    "page": 52,
+                    "page": 56,
                     "left": -56,
-                    "top": 322,
+                    "top": 102,
                     "zoom": 0.2796875
                   },
                   "icon": "lucide-file-text",
@@ -563,14 +577,14 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/CN/VRL/extra/slides/CN-s06-UCP-TCP.pdf",
-                    "page": 137,
-                    "left": -274,
-                    "top": 999,
-                    "zoom": 0.23
+                    "file": "sem4/CN/VRL/extra/slides/CN-s06-UDP-TCP.pdf",
+                    "page": 134,
+                    "left": -54,
+                    "top": 30,
+                    "zoom": 0.28
                   },
                   "icon": "lucide-file-text",
-                  "title": "CN-s06-UCP-TCP"
+                  "title": "CN-s06-UDP-TCP"
                 }
               },
               {
@@ -580,10 +594,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s08-network-layer.pdf",
-                    "page": 134,
-                    "left": -4,
-                    "top": 396,
-                    "zoom": 0.68
+                    "page": 81,
+                    "left": -24,
+                    "top": 399,
+                    "zoom": 0.637767220902613
                   },
                   "icon": "lucide-file-text",
                   "title": "CN-s08-network-layer"
@@ -761,8 +775,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "f273b4431c93fde8",
-      "mtime": "2025-07-11T13:02:24+02:00"
+      "active": "1af004273dba92e1",
+      "mtime": "2025-07-14T13:04:21+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1698,5 +1712,5 @@
       "mtime": "2025-07-12T11:41:17+02:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-fmfp"
 }
