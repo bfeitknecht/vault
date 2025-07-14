@@ -29,7 +29,7 @@
 
 
 
-___
+---
 
 
 >[!quote] Cut vertex, cut edge :
@@ -43,7 +43,7 @@ ___
 >$$
 
 
-___
+---
 #### Cut vertex with DFS
 >[!quote] Finding cut vertices and cut edges:
 >$v$ is cut vertex $\iff$
@@ -59,7 +59,7 @@ ___
 Satz:
 Die um die Berechnung von $low[]$ ergänzte **Tiefensuche** berechnet in einem zusammenhängenden Graphen alle Artikulationsknoten und Brücken in Zeit **O(m + n)**.
 
-___
+---
 # Cycles
 
 

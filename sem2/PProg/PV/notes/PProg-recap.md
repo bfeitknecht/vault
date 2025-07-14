@@ -18,21 +18,21 @@ semaphore, barriers, specific locks, etc. NICHT auswendig lernen
 aber konzeptuel (bakery lock: lexikographische ordnung, etc.)
 
 
-___
+---
 
 
 ## Threads, Concurrency, Parallelism
 
 > [!quote]+ Concurrency vs Parallelism
-> 
+>
 > ![[PProg-w02-benji.pdf#page=13&rect=34,214,845,501|PProg-w02-benji, p.13]]
-> → concurrency is possible with a single thread, parallelism isn't! 
+> → concurrency is possible with a single thread, parallelism isn't!
 
 > [!quote]+ Thread State Model
 > ![[PProg-w03-benji.pdf#page=61&rect=149,54,834,413|PProg-w03-benji, p.61]]
 
 > [!quote]+ How to create and run a Thread
-> 
+>
 >
 > In Java, there’s the `java.lang.Thread` class for managing Threads. The most important methods are:
 > ![[PProg-summary-rböhr.pdf#page=5&rect=99,151,556,237|PProg-abstract, p.5]]
@@ -110,7 +110,7 @@ ___
 >&= P - \mathbf{f}(P-1)
 >\end{align}
 >$$
-> 
+>
 > **G**ustafson **O**ptimistic
 > e.g. render a 3d scene
 
@@ -118,77 +118,77 @@ ___
 ## Locks, Semaphores, Barriers
 
 > [!quote]+ What is a Lock?
-> Locks are primitives with atomic operations: 
-> - new: Make a new lock, initially “not held" 
-> - acquire: Blocks if this lock is already currently “held” 
+> Locks are primitives with atomic operations:
+> - new: Make a new lock, initially “not held"
+> - acquire: Blocks if this lock is already currently “held”
 > - release: Makes this lock “not held” (if more than 1 threads are blocked on the lock, exactly one will acquire it)
 >
 
 > [!quote]+ Some Common Types of Locks
-> 
+>
 > ![[PProg-lock-types.pdf#page=1&rect=86,709,511,789|locks-overview, p.1]]
 > ![[PProg-w11-kuhn.pdf#page=8&rect=49,94,656,285|PProg-w11-kuhn, p.8]]
-> 
+>
 >> [!idea]- Reentrant Lock
 >>  Re-entrant lock (recursive lock) stores the thread that currently holds it and a count. If the current holder calls acquire, it does not block but increments the count. On release, the count is decremented and if the count is 0, the lock becomes not held.
->>  
+>>
 >> ![[PProg-pvw-script-fs22.pdf#page=28&rect=69,268,527,294|PProg-pvw-script, p.27]]
->> 
+>>
 >
 >> [!idea]- Decker Lock
 >> Decker’s Algorithm is an algorithm to ensure mutual exclusion with two processes. It uses two flags (indicating that the other process wants to enter the critical section) and a variable turn to indicate which thread is allowed to enter the critical section:
 >> ![[PProg-summary-rböhr.pdf#page=24&rect=101,422,552,622|PProg-summary-rböhr, p.24]]
->> 
+>>
 >
 >> [!idea]- Peterson Lock
 >> Peterson Lock is another way to ensure 2 process mutual exclusion. We again have two flags and a turn or victim variable:
 >> ![[PProg-summary-rböhr.pdf#page=24&rect=90,68,554,280|PProg-summary-rböhr, p.24]]
->> 
+>>
 >> 1. Set our flag, thereby indicating that we’re interested in entering the critical section.
 >> 2. Indicate that the other thread is allowed to go first. The thread that arrives at this statement first will enter the critical section first.
 >> 3. Wait until the other thread is either no longer interested in entering the critical section or until we’re allowed to go first.
 >> 4. Indicate that we’re no longer interested.
->> 
+>>
 >> ![[PProg-pvw-script-fs22.pdf#page=24&rect=207,380,386,472|PProg-pvw-script, p.23]]
 >> It’s easy to see that the Peterson Lock satisfies the requirements for correct implementation of a critical section. In fact, it’s even starvation-free. One can prove this using a short proof by contradiction.
->> 
+>>
 >
 >> [!idea]- Filter Lock
 >> The Filter Lock is an extension of Peterson’s Lock to n processes. The idea is that every thread knows his level in the filter `level[t]`. In order to enter the critical section, a thread has to elevate all levels. For each level, we use Petersons’s mechanism to filter at most one thread if other threads are at higher level. For every level, there is one `victim[l]` that has to let other pass in case of conflicts. It is not fair, as it's not first come first serve.
 >> ![[PProg-summary-rböhr.pdf#page=25&rect=88,404,562,634|PProg-summary-rböhr, p.25]]
->> 
+>>
 >> ![[PProg-pvw-script-fs22.pdf#page=25&rect=196,571,402,785|PProg-pvw-script, p.24]]
 >> ![[PProg-pvw-script-fs22.pdf#page=25&rect=66,510,532,564|PProg-pvw-script, p.24]]
->> 
->> 
+>>
+>>
 >
 >> [!idea]- Bakery Lock
 >> The bakery algorithm works like the numbering system in a postal office. Every thread has a label indicating when he is allowed to enter the critical section (when he has the lowest label). It is possible that multiple processes have the same label, in which case the thread id gets compared.
 >> ![[PProg-summary-rböhr.pdf#page=26&rect=87,534,556,741|PProg-summary-rböhr, p.26]]
->> 
+>>
 >> ![[PProg-pvw-script-fs22.pdf#page=26&rect=209,545,386,786|PProg-pvw-script, p.25]]
 >> ![[PProg-pvw-script-fs22.pdf#page=26&rect=66,417,531,535|PProg-pvw-script, p.25]]
->> 
+>>
 >
 >> [!idea]- Spinlock
 >> When implementing mutual exclusion, there are two different choices on what to do when we cannot immediately acquire a lock. The first choice would be to continue trying to acquire the lock. This is called spinning or busy waiting. The FilterLock and BakeryLock are such spinlocks. As spinning takes up CPU cycles, this approach only makes sense on a multiprocessor system.
 >> The second choice would be to ask the operating system’s scheduler to schedule another thread on your processor until the lock becomes available again. This is called blocking. Because switching from thread to another is expensive, blocking only makes sense if you expect the lock delay to be long.
->> 
->>> [!idea]- TASLock 
+>>
+>>> [!idea]- TASLock
 >>> It's very easy to implement spinlock with TAS:
 >>> ![[PProg-summary-rböhr.pdf#page=26&rect=83,380,279,479|PProg-summary-rböhr, p.26]]
 >>> ![[PProg-pvw-script-fs22.pdf#page=26&rect=101,116,267,188|PProg-pvw-script, p.25]]
->>> 
+>>>
 >>> If we have a CAS(memref a, int old, int new) operation, it is also very easy to implement a spinlock:
 >>> ![[PProg-summary-rböhr.pdf#page=26&rect=81,242,362,341|PProg-summary-rböhr, p.26]]
 >>> Not fair.
->> 
+>>
 >>
 >>> [!idea]- TATAS Lock
 >>> The performance of the spinlock described above is quite poor for many threads, because all threads fight for the bus (memory bus) during the call of `getAndSet()` and the cache coherency protocol needs to invalidate cached copies of the lock on other processors. Therefore, we can improve performance by only calling `getAndSet()` / `compareAndSet()` when we noticed that the lock is available (i.e. testing first):
 >>> ![[PProg-summary-rböhr.pdf#page=27&rect=90,630,415,740|PProg-summary-rböhr, p.27]]
 >>> ![[PProg-pvw-script-fs22.pdf#page=26&rect=327,108,495,191|PProg-pvw-script, p.25]]
->>> 
+>>>
 >>>> [!idea]+ TATAS Lock with Backoff (BackOffLock)
 >>>> In a TATAS lock, there are still too many threads fighting for access to the same resource. Therefore we set a thread to sleep for a random duration when the acquisition of the lock fails. With an exponential backoff, we double the duration every time the acquisition fails.
 >>>> This leads to a heavy improvement in performance:
@@ -206,47 +206,47 @@ ___
 >
 >> [!idea]+ Livelock
 >> No work is done, but with constant state changes. Imagine two people in narrow hallway and continuously moving out of each other's way into each other's way. CPU usage high (due to constant locking mechanism state change)
->> 
+>>
 >
 >> [!idea]+ Starvation
 >> Situation where a thread never gets the chance to run, by pure bad luck or by some of its property (low priority).
 >> Starvation free means, "more than one thread wants lock => all are guaranteed to acquire it *within finite time*"
->> 
+>>
 >
 >> [!idea]+ Unfairness
 >> Fair locks are FIFO (first come, first serve). "We consider a thread P to be “first-in” compared to a competing thread Q, when P finishes its doorway section before Q starts its doorway section."
->> 
+>>
 >
 >
 
 
 >[!quote]- What is a Semaphore?
-> Up until now, locks have always ensured that only a single thread enters the critical section. Yet in some cases, this might not be what we want. 
+> Up until now, locks have always ensured that only a single thread enters the critical section. Yet in some cases, this might not be what we want.
 > If, for example, we have a server that can support up to 100 requests at a time, we want to be able to allow up to 100 threads into the critical section. This is where semaphores come into play.
-> 
+>
 > ![[PProg-pvw-script-fs22.pdf#page=30&rect=66,184,530,296|PProg-pvw-script, p.29]]
-> 
+>
 > ![[pprog-semaphore.jpg]]
-> 
+>
 
 
 >[!quote]- What is a Barrier?
-> 
+>
 > ```java
 > public class SemaphoreBarrier {
 >     private final int threads = 8;
->     
+>
 >     public synchronized void barrier() {
 >         volatile int count = 0;
 >         Semaphore s0 = new Semaphore(0);
 >         Semaphore s1 = new Semaphore(1);
->         
+>
 >         count++;
 >         if (count == threads) {
 >             s1.acquire(); s0.release();
 >         }
 >         s0.acquire(); s0.release();
->         
+>
 >         count--;
 >         if (count == 0) {
 >             s0.acquire(); s1.release();
@@ -255,7 +255,7 @@ ___
 >     }
 > }
 > ```
-> 
+>
 
 
 ## Lock Methods, `wait()`, `notify()`
@@ -274,10 +274,10 @@ ___
 
 > [!quote]+ What is sequential consistency?
 > ![[PProg-pvw-script-fs22.pdf#page=38&rect=75,90,520,230&color=01 yellow|PProg-pvw-script, p.37]]
-> 
+>
 >- All instructions are executed in order
 >- Every write operation becomes instantaneously visible throughout the system
->  
+>
 >> [!idea]+ Inventor's two cents
 >> "...the results of any execution is the same as if the operations of all the processors were executed in some sequential order, and the operations of each individual processor appear in this sequence in the order specified by its program."
 >
@@ -291,35 +291,35 @@ ___
 
 > [!quote]+ What is linearizability?
 > ![[PProg-pvw-script-fs22.pdf#page=39&rect=72,398,520,468|PProg-pvw-script, p.38]]
-> 
+>
 >- Linearizability provides the illusion that each operation applied by concurrent processes takes effect instantaneously between its invocation and its response
 >- "can we project onto a single history without reordering"
 >- Linearizability implies sequential consistency
-> 
+>
 
 ## ExecutorService, ForkJoinPool Framework
 
 > [!quote]- What is the ExecutorService Framework?
-> 
+>
 > `ExecutorService` Tasks :: ![[PProg-pvw-script-fs22.pdf#page=12&rect=65,226,532,305|PProg-pvw-script, p.11]]
-> 
+>
 > `Runnable` :: override `void run()`, `Runnable r; r.start()` -> `Future<T> f` -> `f.get()`(try/catch!)
-> 
+>
 > `Callable<T>` :: override `T call()`, `Callable<T> c; c.start()` -> `Future<T> f` -> `f.get()` (try/catch!)
-> 
+>
 > `ExecutorService` methods: {1: `submit(Callable<T> || Runnable)`} to start a task's implemented {2: `void run()` or `T call()`} method, which can then {3: `exs.submit(t)` or `t.start()`} to spawn another task and {4: `t.get()`} (need to wrap in try/catch block!) to try and obtain the {5: `Future<T>`} that represents the result of the spawned task `t`.
-> 
+>
 
 > [!quote]- What is the ForkJoinPool Framework?
-> 
+>
 > `ForkJoinPool` Tasks :: ![[PProg-pvw-script-fs22.pdf#page=13&rect=62,73,537,231|PProg-pvw-script, p.12]]
 >
 > `RecursiveAction` :: override `compute()`, `fork() -> void join()`
-> 
+>
 > `RecursiveTask<T>` :: override `compute()`, `fork() -> T join()`
-> 
+>
 > `ForkJoinPool` methods: {1: `T invoke(ForkJoinTask<T>)`} to start a task's implemented {2: `compute()`} method, which can call {3: `fork()`} to add work to the threadpool and {4: `join()` (returns `T` for `RecursiveTask`!)} to get the result inside the task.
-> 
+>
 
 
 
@@ -334,7 +334,7 @@ Sequential consistency and quiescent consistency :: are incomparable!
 
 Locks guarantee: {1: mutual exclusion}, {2: deadlock freedom} and {3: starvation freedom}. Might also be {4: fair (FIFO, i.e. first-come-first-serve)}.
 
-Semaphore :: lock that allows up to $n$ threads in the critical section at a time. 
+Semaphore :: lock that allows up to $n$ threads in the critical section at a time.
 
 Barrier on $n$ threads :: only lets all $n$ threads pass, when all $n$ have arrived at barrier, like a checkpoint with a threshold.
 
@@ -390,16 +390,16 @@ MPI default group :: MPI.COMM_WORLD
 ```java
 public class Semaphore {
     volatile int count;
-    
+
     public Semaphore(int init) {
         this.count = init;
     }
-    
+
     public synchronized void acquire() throws InterruptedException {
         while(count <= 0) wait();
         count--;
     }
-    
+
     public synchronized void release() {
         count++;
         notifyAll();

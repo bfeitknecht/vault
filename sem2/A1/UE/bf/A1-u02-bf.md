@@ -3,10 +3,10 @@ a) 1. ?
 b) 4. ?
 c) 2.?
 d) 4. ?
-e) 
+e)
 
-___
-## 2.3 
+---
+## 2.3
 a) \*
 $$
 \begin{align}
@@ -22,7 +22,7 @@ y = (3n^5 + 2n^3 + 5n) / (10 + 2n^5) |n>0|
 ```
 
 beschränkt: nein ?
-konvergent: ja, $\lim_{n\rightarrow \infty} a_n =\frac{3}{2}$ 
+konvergent: ja, $\lim_{n\rightarrow \infty} a_n =\frac{3}{2}$
 
 b) \*
 $$
@@ -50,13 +50,13 @@ $$
 ```desmos-graph
 y = 1
 ```
-        
-___
+
+---
 ## 2.4 \*
 Es sei $(x_n)_{n\geq 1}$ rekursiv gegeben durch $x_1 := 1$ und
 $$
 \begin{align}
-& x_{n+1} := 1 + \frac{1}{x_n}, & n\geq 1 
+& x_{n+1} := 1 + \frac{1}{x_n}, & n\geq 1
 \end{align}
 $$
 i) Nehmen Sie an, dass $(x_n)_{n\geq 1}$ gegen $g \in \mathbb R$ konvergiert. Bestimmen Sie $g$.
@@ -130,15 +130,15 @@ $$
 
 
 
-___
+---
 ## 1.4
 
-___
+---
 ## 1.5
 i)
 ii)
 
-___
+---
 ## 1.6
 a)
 $$
@@ -158,14 +158,14 @@ $$
 \end{align*}
 $$
 
-___
+---
 ## 1.7
 a) true
-b) 
+b)
 c)
 d)
 
-___
+---
 ## 1.8
 
 
@@ -181,7 +181,7 @@ ___
 
 
 
-___
+---
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -195,7 +195,3 @@ $$
 
 \end{align}
 $$
-
-
-
-

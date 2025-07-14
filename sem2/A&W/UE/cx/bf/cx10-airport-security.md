@@ -29,7 +29,7 @@ return exp_not_taken;
 
 
 
-___
+---
 ## q2
 
 ```mermaid
@@ -73,7 +73,7 @@ return pr_A_B;
 
 
 
-___
+---
 ## q3
 
 
@@ -408,7 +408,7 @@ at the k+1 th iteration, we need
 
 
 
-___
+---
 
 ```mermaid
 flowchart TD

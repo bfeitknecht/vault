@@ -12,7 +12,7 @@
 ```verilog
 assign IsIO = ALUResult[31:4] == 28'h00007ff;
 assign IsMemWrite = MemWrite & ~IsIO;
-assign IOWriteData = WriteData; 
+assign IOWriteData = WriteData;
 assign IOAddr = ALUResult[3:0];
 assign IOWriteEn = MemWrite & IsIO;
 ```
@@ -25,13 +25,13 @@ assign IOWriteEn = MemWrite & IsIO;
 ## (1)
 ![[DDCA-u08a-report.pdf#page=1&rect=88,339,527,385|DDCA-u08a-report, p.1]]
 
-All Mips instructions that store something back into the register won’t work anymore. 
+All Mips instructions that store something back into the register won’t work anymore.
 In the controlUnit we can see all affected operations listed:
 `OP_RTYPE`, `OP_LW` and `OP_ADDI`
 
 
 
-___
+---
 ## (2)
 ![[DDCA-u08a-report.pdf#page=2&rect=88,667,530,698|DDCA-u08a-report, p.2]]
 
@@ -81,7 +81,6 @@ always @ ( * ) begin
             AN = 4'b0111;
             DispDigit = DispReg[27:21];
         end   // MSB, default
-    endcase  
+    endcase
 end
 ```
-

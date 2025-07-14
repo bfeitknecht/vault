@@ -1,7 +1,7 @@
 ![[A&W-e-u04.pdf]]
 <div class="page-break" style="page-break-before: always;"></div>
 
-___
+---
 ## (a)
 Let $\mathrm{X}$ be the random variable denoting the number of streets with flowers. We recall that the trip is a disaster, if $\mathrm{X} \geq \frac 3 4$. To apply Markov's inequality, $\Pr[\mathrm{X} \geq t] \leq \frac {\Ex[\mathrm{X}]} t$, we need the expected value $\mathbb{E}[\mathrm{X}]$, meaning the expected number of streets with flowers encountered.
 For this, we can use linearity of expectation, since the probability for a street to have flowers is binomially distributed. Hence,
@@ -15,7 +15,7 @@ $$
 $$
 
 
-___
+---
 ## (b)
 Using Chebyshev's inequality, $\Pr[|\mathrm{X} - \Ex[\mathrm{X}]| \geq t] \leq \frac{\text{Var}[\mathrm{X}]}{t^2}$, requires $\text{Var}[\mathrm{X}]$. This is given by $\text{Var}[\mathrm{X}]=np(1-p)=\frac{k}{4}$, as $\mathrm{X}\sim \Bin(k, p)$.
 
@@ -30,7 +30,7 @@ $$
 $$
 
 
-___
+---
 ## (c)
 Let $\text{Y = "\# sniffling dogs"}$, where $\mathrm{Y} := \sum_{i=1}^{n-1}\mathrm{Y}_{i}$ with $\mathrm{Y}_{i} \sim \mathrm{Bernoulli}(p)$, independent. Let $\mathrm{Y}_{i}= \text{"the }i\text{-th dog sniffles"}$. The probability, $p$ for some $i$-th dog to sniffle all day is $\Pr[\mathrm{Y_{i}=1}]=\Pr[\mathrm{X} = k]=\frac{1}{2^k}$, given by all of its trip's streets having flowers. Thus, $\mathrm{Y} \sim \text{Bin}(n-1, p)$.
 
@@ -56,7 +56,7 @@ $$
 
 <div class="page-break" style="page-break-before: always;"></div>
 
-___
+---
 ## (d)
 Let $\text{Z = "\# disaster trips"}$,  where $\mathrm{Z} := \sum_{i=1}^{n-1}\mathrm{Z}_{i}$ with $\mathrm{Z}_{i} \sim \mathrm{Bernoulli}(p)$, independent denoting, whether the $i$-th trip was a disaster.
 

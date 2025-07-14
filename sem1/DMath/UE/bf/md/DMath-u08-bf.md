@@ -2,13 +2,13 @@
 ## 8.3
 
 Let $\langle G,*,\hat\, , e\rangle$ be a group, and let $S$ be a set. Assume that $f : G \rightarrow S$ is a bijection, and consider
-- the binary operation $\star$ on $S$ given by $s \star s′ \overset{def}{=} f (f^{−1}(s) ∗ f^{−1}(s′))$ 
+- the binary operation $\star$ on $S$ given by $s \star s′ \overset{def}{=} f (f^{−1}(s) ∗ f^{−1}(s′))$
 - the unary operation $\tilde{}$  on $S$ given by $\tilde{s} \overset{def}{=} f(\widehat{f^{-1}(s)})$.
- 
-  Prove the following statement. 
+
+  Prove the following statement.
   a) Axiom G1 ($\star$ is associative) holds for $\langle S, \star, \tilde{\,}, f(e)\rangle$
 
-___
+---
 
 To prove that **G1** holds for $\langle S; \star, \tilde{\;}, f(e)\rangle$, we will show that the operation $\star$ is associative.
 
@@ -25,11 +25,11 @@ $$
 $$
 f(f^{−1}(s_1​)∗(f^{−1}(s_2​)∗f^{−1}(s_3​)))=f^{−1}(s_1)∗(f^{−1}(s_2​)∗f^{−1}(s_3​))
 $$
-Thus, 
+Thus,
 $$(s_1 \star s_2)\star s_3= s_1 \star(s_2\star s_3)$$
 $\square$
 
-___
+---
 
 ## 8.4
 c) Prove that $\langle\mathbb{Z}^*_{15}, \odot_{15}\rangle \simeq \langle\mathbb{Z}^∗_{16}, \odot_{16}〉$.
@@ -81,7 +81,7 @@ $\psi(11)=7$
 $\psi(13)=13$
 $\psi(14)=15$
 
-Obviously the function is bijective, as it maps each element onto one unique element (injective) and each element has an inverse (surjective). 
+Obviously the function is bijective, as it maps each element onto one unique element (injective) and each element has an inverse (surjective).
 
 Now we will prove that it is a group homomorphism on $\langle\mathbb{Z}^*_{15}, \odot_{15}\rangle$
 

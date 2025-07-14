@@ -30,7 +30,7 @@ A ([[arity|binary]]) **relation** $\rho$ from some [[set]] $A$ (domain) to anoth
 ## Totality #todo
 
 
-___
+---
 
 # Operations
 
@@ -46,7 +46,7 @@ ___
 ## Inversion
 ![[inverse relation]]
 
-___
+---
 
 # Types of binary relations
 

@@ -102,7 +102,7 @@ cards-deck: sem2::A&W::bf
 >
 >%%- any 2 approximation is also a 4 approximation,  ??  %%
 
-___
+---
 
 ## Probabilities
 
@@ -123,7 +123,7 @@ ___
 
 
 
-___
+---
 ## Quizzes
 
 

@@ -10,6 +10,6 @@ For every [[non-deterministic finite state machine (NFSM)|NFSM]] $M = (Q_{M}, \S
 
 Intuitively, we start at the set of the initial state of $M$, and then transition to the *set* of all states reachable from there in $M$.
 
-___
+---
 
 #todo  diagram, maybe with $\Sigma=\{ a,b \}$ for $L = \{ w \in \Sigma^{*} \mid|w| = 2 \} \cup \{ wab \mid w \in \Sigma^{*} \} \cup \{ wba \mid w \in \Sigma^{*} \}$

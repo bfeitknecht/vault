@@ -56,7 +56,7 @@ $gcd(a,\,lcm(b,\,c)) = lcm(gcd(a,\,b),\,gcd(a,\,c))$
 for all positive integers $a,\,b,\,c$
 $\square$
 
-___
+---
 
 
 
@@ -74,18 +74,3 @@ $d=gcd(a,\,b) \overset{\cdot}{\implies} \exists u,\,v \in \mathbb{Z}\,|\,d=u\cdo
 
 
 $\forall \,a,\,b,\,u,\,v\,\in\mathbb{Z}/\{0\}\,|\, u\cdot a + v\cdot b = 1\overset{\cdot}{\implies} gcd(a,\,b)=1$
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

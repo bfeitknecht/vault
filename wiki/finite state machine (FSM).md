@@ -82,7 +82,7 @@ For an alphabet $\Sigma$ and two  FSM $M_{1}, M_{2}$, defined as usual, the proc
 
 
 
-___
+---
 
 
 

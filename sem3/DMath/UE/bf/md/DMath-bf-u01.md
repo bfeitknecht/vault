@@ -2,14 +2,14 @@
 # 1.2
 ![[DMath-e-u01.pdf#page=1&rect=76,225,477,363|DMath-e-u01, p.1]]
 
-$S\def n\text{ is the largest natural number}$ 
+$S\def n\text{ is the largest natural number}$
 $T\def S \land n=1$
 $S \nimpl T$
 
-The mistake in this proof is that $S$ is a false statement, there exists no largest number $n\in \N$. Additionally, $T$ is a compound statement from $S$ and the the binding of its $n=1$. 
+The mistake in this proof is that $S$ is a false statement, there exists no largest number $n\in \N$. Additionally, $T$ is a compound statement from $S$ and the the binding of its $n=1$.
 $\square$
 
-___
+---
 
 # 1.4
 ## (a)
@@ -45,7 +45,7 @@ A & B & {F} \\
 $$
 $\square$
 
-___
+---
 
 ## (b)
 ![[DMath-e-u01.pdf#page=2&rect=106,488,521,517|DMath-e-u01, p.2]]
@@ -53,7 +53,7 @@ ___
 We use the formula derived from subpart (a), namely $G\equiv A\vee B$.
 $\square$
 
-___
+---
 
 # 1.5
 ![[DMath-e-u01.pdf#page=2&rect=78,346,417,452|DMath-e-u01, p.2]]
@@ -91,7 +91,7 @@ $$
 Since the function tables for $A \diamondsuit B$ and $B \, \diamondsuit A$ are the same, $A\diamondsuit B \equiv B \,\diamondsuit A$, i.e. the $\diamondsuit$ operator **is** commutative.
 $\square$
 
-___
+---
 
 ## b)
 ![[DMath-e-u01.pdf#page=2&rect=106,194,517,272|DMath-e-u01, p.2]]
@@ -109,7 +109,7 @@ A & B & {A \,\heartsuit B} & {B \, \heartsuit A} & {\lnot A \, \heartsuit B} \\
 1 & 1 & 1 & 1 & 0 \\
 \end{array}
 $$
- 
+
  Then, we will go over $F$ as a whole.
 $$
 \begin{array}{c | c | c || c | c }
@@ -156,7 +156,7 @@ A & B & C & {\neg  (A \diamondsuit B)} & {\neg (B \diamondsuit C)} & {(\neg A \d
 $$
 Since the function tables differ (e.g. the case of $A = B = C = 1$) we can conclude that $F \not \equiv G$. Thus, the statement is disproven. $\square$
 
-___
+---
 
 ## c)
 ![[DMath-e-u01.pdf#page=2&rect=105,173,519,190|DMath-e-u01, p.2]]

@@ -9,9 +9,9 @@ If for every vertex $v \in V$ its in-degree $deg_{in}(v)$ is even, then $|E|$ is
 **Proof:**
 This statement is true. Consider any directed graph G = (V, E) where every vertex v has an even in-degree. We can count the number of edges by summing up the in-degrees of all vertices because each edge contributes to the in-degree of one vertex. Since every in-degree is even, the sum of all in-degrees is even. This implies that the number of edges |E| is also even.
 
-___
+---
 
-(b) 
+(b)
 For a longest directed path $P : v_0, \dots , v_l$ in $G$, the endpoint has to be a sink.
 
 **Proof:**
@@ -19,7 +19,7 @@ This statement is true. Let's assume, for the sake of contradiction, that the lo
 
 This completes the proof, demonstrating that in a directed graph, the endpoint of the longest directed path must be a sink.
 
-___
+---
 
 (b)
 The following graph has a topological sorting. If so, give a topological sorting; if not, prove why no topological sorting can exist.
@@ -75,7 +75,7 @@ The resulting topological sorting is: G, E, C, D, A, H, F, I, B.
 
 Therefore, the given graph has a topological sorting.
 
-___
+---
 
 ## 9.4
 
@@ -97,7 +97,7 @@ Now, let's consider the vertices between $v_1$ and $v_n$, i.e. $v_{\pi(2)},\ v_{
 
 Thus we have a topological ordering where $v_1$​ is the first vertex, $v_n$​ is the last vertex, and the vertices in between are ordered according to the topological ordering. This proves the existence of such a topological sorting for $G$.
 
-___
+---
 
 (b)
 Prove that for any directed $v_1-v_n$-path $P : v_1 = v_{i_0} , v_{i_1} , \dots , v_{i_l} = v_n$ we have $i_0 < i_1 < \dots < i_l$.
@@ -114,7 +114,7 @@ Since $i_0\geq i_1$​ is false, $i_1​≥i_2$​ is false, and so on, it follo
 
 Therefore, for any directed $v_1​−v_n​$-path $P$, the indices of the vertices along the path are strictly increasing.
 
-___
+---
 
 (c)
 Describe a bottom-up dynamic programming algorithm that, given a graph G with the property that v1, . . . , vn is a topological sorting, returns the number of v1-vn paths in G in O(|V | + |E|) time. You can assume that the graph is provided to you as a pair (n, Adj) of the integer n = |V | and the adjacency lists Adj. Your algorithm can access Adj[u], which is a list of vertices to which u has a direct edge, in constant time. Formally, Adj[u] := {v ∈ V | (u, v) ∈ E}.
@@ -131,7 +131,7 @@ In your solution, address the following aspects:
 **Solution:**
 
 **1. Dimensions of the DP Table:**
-The DP table will be a 1D array, DP, of size $(n+1)$ where $(n = |V|)$. 
+The DP table will be a 1D array, DP, of size $(n+1)$ where $(n = |V|)$.
 
 **2. Subproblems:**
 Each entry $DP[i]$ represents the number of paths from vertex $(v_i)$ to $(v_n)$ in the graph.
@@ -172,7 +172,7 @@ def count_paths(n, Adj):
 
 In this code, `Adj` is the adjacency list representation of the graph, where `Adj[i]` is the list of vertices to which $(v_i)$ has a direct edge.
 
-___
+---
 
 
 ## 9.5

@@ -1,9 +1,9 @@
 
 ## 9.2
-#### a) 
+#### a)
 Determine the order and the elements of the group $\langle \mathbb Z^\ast_{36} ; \odot \rangle$
 
-___
+---
 
 $\mathbb Z^\ast_{36}$: This denotes the set of all positive integers (because of $^\ast$) less than 36 that are coprime (relatively prime) to 36 (because of $_{36}$). These are the numbers that do not share any common factors with 36 other than 1.
 
@@ -11,7 +11,7 @@ $\odot$: This denotes the operation on the group, in this case multiplication mo
 
 Let's find the elements. The prime factors of 36 are $2^2, 3^2$, so we need all numbers less than 36 that don't share these factors.
 
-$\mathbb Z^\ast_{36} = \{1, 5, 7, 11, 13, 17, 19, 23, 25, 29, 31, 35\}$ 
+$\mathbb Z^\ast_{36} = \{1, 5, 7, 11, 13, 17, 19, 23, 25, 29, 31, 35\}$
 
 Now let's find the order of each element. The order is defined as follows: $a^n = e$, where $e$ is the neutral element in the group, $a$ is an element in the group, $n$ is the smallest positive integer such that the equation holds. In our case we write this as follows: $a^n \equiv_{36} 1$.
 
@@ -104,11 +104,11 @@ Hint: consider (1 + 1)(a + b).
 
 
 
-___
+---
 
 ## **Proof**:
 
-Let's consider the case $(1+1)(a+b)$. 
+Let's consider the case $(1+1)(a+b)$.
 
 
 
@@ -125,7 +125,7 @@ $$
 &\quad\square
 \end{align}
 
-$$ 
+$$
 
 
 We have proven that the operation $+$ on the algebra $\langle R; +, -, 0, \cdot, 1\rangle$ is commutative. The algebra is thus proven to be a ring.
@@ -163,6 +163,3 @@ For a group $\langle G; \ast, \hat{\;},e \rangle$ we have for all $a, b, c \in G
 (iv) Right cancellation law: $b \ast a = c \ast a \implies b = c$
 (v) The equation $a \ast x = b$ has a unique solution $x$ for any $a$ and $b$
 So does the equation $x \ast a = b$
-
-
-

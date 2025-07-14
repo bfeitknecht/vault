@@ -44,7 +44,7 @@ Which is to say that "for all $s \in \mathcal S$ with $\overline \tau(s) = 1$ th
 So all true statements in $\overline \Sigma$ have a proof $p \in \mathcal P$ for which $\overline \phi(s, p)= 1$. Thus, if $\Sigma$ is sound $\overline \Sigma$ is complete (if we assume $\mathcal S, \mathcal P \neq \varnothing$).
 $\square$
 
-___
+---
 
 If we consider $\mathcal S$ and $\mathcal P$ to possibly be the empty set, the implication could be disproven by contradiction as follows:
 
@@ -52,11 +52,11 @@ If we consider $\mathcal S$ and $\mathcal P$ to possibly be the empty set, the i
 >Let $\Sigma = \{\mathcal S, \mathcal P, \tau, \phi\}$ where $\mathcal S = \{0 \}$, $\mathcal P = \varnothing$, $\tau(0)=0$ and $\phi : \mathcal S \times \mathcal P \rightarrow \{0,1\}$
 >(Definition of cartesian product between set and empty set implies $\mathcal S \times \varnothing = \varnothing$)
 >
->Let $\overline \Sigma = \{\mathcal S, \mathcal P, \overline\tau, \overline\phi\}$ where $\mathcal S = \{0 \}$, $\mathcal P = \varnothing$, $\overline\tau(0)=1$ and $\overline\phi : \mathcal S \times \mathcal P \rightarrow \{0,1\}$ 
+>Let $\overline \Sigma = \{\mathcal S, \mathcal P, \overline\tau, \overline\phi\}$ where $\mathcal S = \{0 \}$, $\mathcal P = \varnothing$, $\overline\tau(0)=1$ and $\overline\phi : \mathcal S \times \mathcal P \rightarrow \{0,1\}$
 
-$\Sigma$ is sound, as there is no $s \in \mathcal S$ such that $\tau(s)=1$ (Definition of Sound). Let's assume, for the sake of contradiction, that the implication holds, i.e. for all $\overline\tau(s)= 1$ there exists a $p \in \mathcal P$ such that $\overline\phi(s, p) = 1$. However, we arrive at a contradiction, as we defined $\mathcal P = \varnothing$. Thus there exists no $p \in \mathcal P$ such that $\overline\phi(s, p)= 1$ if we consider $\mathcal P$ to be the empty set. 
+$\Sigma$ is sound, as there is no $s \in \mathcal S$ such that $\tau(s)=1$ (Definition of Sound). Let's assume, for the sake of contradiction, that the implication holds, i.e. for all $\overline\tau(s)= 1$ there exists a $p \in \mathcal P$ such that $\overline\phi(s, p) = 1$. However, we arrive at a contradiction, as we defined $\mathcal P = \varnothing$. Thus there exists no $p \in \mathcal P$ such that $\overline\phi(s, p)= 1$ if we consider $\mathcal P$ to be the empty set.
 
-___
+---
 
 ## b)
 
@@ -69,7 +69,7 @@ Which (per definition) is the same as to say "for all statements $s \in \mathcal
 
 Which gives us no further information on the soundness of the proof system $\overline\Sigma$, as all we know is that for all false statements there exists a proof, such that the verification of that statement with that proof is false.
 
-___
+---
 
 Let's disprove the implication with a counterexample:
 

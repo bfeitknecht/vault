@@ -19,7 +19,7 @@ Let $s : \mathbb{N} \to \mathbb{N}$ be space-constructible. Then for a MTM $M$ t
 
 Similarly for time-constructible, although it takes twice the time. Work backwards. First we have to write the symbol on the working tape and then compute.
 
-___
+---
 
 Asymptotic notation helps us analyze the behavior of functions for very large values.
 $$
@@ -80,7 +80,7 @@ $$
 $$
 Proof. Upper bound on inner configurations.
 
-___
+---
 
 Let $M$ be a NMTM that always halts, where $C = (K_{i})_{l}$ is the computation of $M$ on $x \in L(M) \in \Sigma_{M}^{*}$.
 
@@ -102,11 +102,9 @@ $$
 \mathrm{NL} &= \mathrm{NSPACE}(\log_{2}n) \\
 \mathrm{NP} &= \bigcup_{c \in \mathbb{N}} \mathrm{NTIME}(n^{c}) \\
 \mathrm{NPSPACE} &= \bigcup_{c \in \mathbb{N}} \mathrm{NSPACE}(n^{c}) \\
-\end{align} 
+\end{align}
 $$
 
 **Lemma 6.6.** For any functions $t$ and $s$ with $s(n) >) \log_{2}(n)$ the following holds.
 1. $\mathrm{NTIME}(t) \subseteq \mathrm{NSPACE}(t)$ Proof. NMTM $M$ space writing power is bounded by time
 2. $\mathrm{NSPACE}(s) \subseteq \bigcup_{c \in N} \mathrm{NTIME}(n^{c})$ Proof. Enumerate inner configurations, pigeonhole contradiction.
-
-

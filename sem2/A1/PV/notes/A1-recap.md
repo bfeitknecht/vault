@@ -1,4 +1,4 @@
-  
+
 
 
 >[!attention] Study this more!
@@ -19,7 +19,7 @@ $$
  & \text{Exponential} & z &= r \cdot e^{i\theta} \\
  \\
 & \text{Modulus:} & r &= |z| = \sqrt{ a^2 +b^2}  \\
-& \text{Argument:} & \theta &= \arg(z) = \arctan\left( \frac{b}{a} \right) \\ 
+& \text{Argument:} & \theta &= \arg(z) = \arctan\left( \frac{b}{a} \right) \\
 \end{align}
 $$
 
@@ -60,7 +60,7 @@ $$
 \begin{align}
 f: X \overset{I}{\rightarrow} Y ,\ g: Y \overset{S}{\rightarrow} Z &\implies f\circ g: X \overset{B}{\rightarrow} Z \\
 \\
-&\text{$DI$ Method:} \\ 
+&\text{$DI$ Method:} \\
 &\text{0. don't integrate $\ln(x)$} \\
 &\text{1. zero in $D$ column} \\
 &\text{2. row repeats (sign inverse)} \\
@@ -99,7 +99,7 @@ $$
 
 
 
-___
+---
 # Exercises
 
 
@@ -127,6 +127,6 @@ $$
 &= -120-\sin{x}-e^{-x} \implies \text{n.a.} \\
  \\
  \\
-\lim_{ x \to 1 } \frac{\ln{\cos{x^2-1}}}{x-e^x} &= 
+\lim_{ x \to 1 } \frac{\ln{\cos{x^2-1}}}{x-e^x} &=
 \end{align}
 $$

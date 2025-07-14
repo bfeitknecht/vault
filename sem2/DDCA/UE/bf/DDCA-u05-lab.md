@@ -5,7 +5,7 @@
 
 $2^7 \cdot 2^{32} \cdot 2^{32} =2^{71}$
 
-___
+---
 
 ## Part 3
 ![[DDCA-u05-manual.pdf#page=9&rect=85,142,537,345|DDCA-u05-manual, p.9]]
@@ -20,4 +20,3 @@ ___
 | longest path                    | 18.993ns                  |
 | routing in longest path         | 13.707ns                  |
 | levels of logic in longest path | 16                        |
-

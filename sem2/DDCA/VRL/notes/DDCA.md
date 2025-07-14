@@ -32,7 +32,7 @@
 >- MSB encodes sign
 >- one more negative number than positive numbers
 
-___
+---
 
 >[!quote] Principles for engineering
 >- Good engineers are lazy! (They do not want to work unnecessarily, be creative)
@@ -46,7 +46,7 @@ ___
 >[!quote] nMOS, pMOS, CMOS
 >nMOS:
 >- made with n-type semiconductor (negative surcharge)
->- input = 1 -> output = 1, input = 0 -> output = 0 
+>- input = 1 -> output = 1, input = 0 -> output = 0
 >
 >pMOS:
 >- made with p-type semiconductor (positive surcharge)
@@ -65,14 +65,3 @@ ___
 >- nMOS pull dow**n** network
 >- network is either in parallel: one transistor on -> network on
 >- or in series: all transistors on -> network on, complementary to each other
-
-
-
-
-
-
-
-
-
-
-

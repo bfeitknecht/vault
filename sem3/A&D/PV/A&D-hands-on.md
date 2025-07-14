@@ -13,7 +13,7 @@ Let $n = k \in \mathbb{N}_{\geq 1}$ be arbitrary. Then assume that the following
 Let $n = k+1$. Then $\sum_{i=1}^{k+1} (2i- 1) = \sum_{i=1}^{k}(2i - 1)  + (2(k+1) - 1) \overset{ \text{i.h.} }{ = } k^{2} + 2k + 1 = (k+1)^{2}$.
 $\square$
 
-___
+---
 
 ![[sem3/A&D/PV/extra/pvw/A&D-pvw-script-HS22.pdf#page=11&rect=116,215,562,236|A&D-pvw-script-HS22, p.11]]
 **b.c.**
@@ -36,7 +36,7 @@ $$
 $$
 $\square$
 
-___
+---
 
 
 ```

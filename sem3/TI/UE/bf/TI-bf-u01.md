@@ -42,7 +42,7 @@ $$
 
 $\square$
 
-___
+---
 
 # 2
 Prove or disprove.
@@ -80,7 +80,7 @@ Since $A\subseteq B,B\subseteq A \implies A=B$, as was to be proven.
 $\square$
 
 
-___
+---
 
 # 3
 ![[TI-e-u01.pdf#page=2&rect=68,744,529,776|TI-e-u01, p.]]
@@ -120,7 +120,7 @@ L_{1} &= \{ a^{i} \mid i \in [k] \} &\text{(1)} \\
 L_{2} &= \{  b^{j} \mid j \in [l] \} &\text{(2)} \\
  \\
 \text{(1), (2)} &\implies |L_{1}| = k, \ |L_{2}| = l  &\text{(3)}\\
-L_{1} \cap L_{2} = \empty \text{, (3)} &\implies |L_{1}L_{2}| = k\cdot l 
+L_{1} \cap L_{2} = \empty \text{, (3)} &\implies |L_{1}L_{2}| = k\cdot l
 \end{align}
 $$
 $\square$

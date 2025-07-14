@@ -33,8 +33,7 @@
 
 When we consider the monoid $\langle A^{A}; \circ, \mathrm{d} \rangle$, a function $f \in A^{A}$ has a left inverse only if it is injective, and has a right inverse only if it is surjective. Hence $f$ has an inverse $f^{-1}$ if and only it is bijective.
 
-___
+---
 
 #todo identity element, group, monoid, axioms
 #todo binary operation
-

@@ -14,7 +14,7 @@ Using the semantics of predicate logic extended in this way, prove or disprove t
 
 **Expectation:** If the statement is true, your proof should use the definitions of the semantics. In each step, at most one definition (e.g., the semantics of $\bigcirc$) should be applied. If the statement is not true, you should provide a counterexample: make sure to define everything needed for a suitable interpretation.
 
-___
+---
 
 a) The formula $(\bigcirc x F)\wedge (\bigcirc x \lnot F)$ is unsatisfiable.
 
@@ -57,7 +57,7 @@ Let $g : \mathbb N \rightarrow T$ be defined as $g(x) = 2\cdot x + 1$. Since, fo
 Thus both parts are satisfiable under some interpretation $\mathcal A$, disproving the statement.
 $\square$
 
-___
+---
 
 **b)** $\bigcirc x F \vDash \exists x F$
 
@@ -77,7 +77,7 @@ $$
 As was to be shown.
 $\square$
 
-___
+---
 
 **c)** $\forall x \hspace{-0.2em}\bigcirc \hspace{-0.2em} y F \vDash \bigcirc y \forall x F$
 

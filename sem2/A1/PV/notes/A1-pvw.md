@@ -11,11 +11,11 @@
 
 ## Sequences (Folgen)
 Just some numbers.
-___
+---
 
 ## Series (Reihen)
 Sum of the terms of a sequence.
-___
+---
 
 ## Limits
 The value the terms of a series "approach"
@@ -98,7 +98,7 @@ $f(x)$ monotonic on an interval $[a, b]$ $\iff$ $\forall x \in [a, b], f'(x) \ge
 
 
 
-___
+---
 
 ## Add to cheatsheet
 

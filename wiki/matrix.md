@@ -67,7 +67,7 @@ A matrix $A\in\mathbb R^{m\times n}$ can be denotes as $A=[a_{ij}]_{i, j}^{n, m}
 
 
 
-___
+---
 
 
 ## Scalar Matrix
@@ -75,6 +75,3 @@ ___
 ## Rotation Matrix
 
 ## Shear Matrix
-
-
-

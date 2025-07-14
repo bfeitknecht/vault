@@ -5,7 +5,7 @@
 3. $3$
 4. $\infty$
 
-___
+---
 ## 2.
 #### a)
 $2^{32} \ll \log n \ll n \equiv n + \sqrt n \ll 0.01n^2 \ll e^n \equiv 2^n$
@@ -13,7 +13,7 @@ $2^{32} \ll \log n \ll n \equiv n + \sqrt n \ll 0.01n^2 \ll e^n \equiv 2^n$
 #### b)
 $2^{32} \ll \ln n \equiv \log n \equiv \log n^2 \ll e^{\sqrt {\log n}} \ll n^{1/4} \ll \frac{n}{\log n} \ll n \equiv n + \sqrt n \ll 0.01n^2 \ll e^n \equiv 2^n \ll n!$
 
-___
+---
 
 ## 3.
 
@@ -84,7 +84,7 @@ $$
 \end{align}
 $$
 
-___
+---
 
 ## 4.
 
@@ -93,13 +93,13 @@ Zeigen Sie, dass jeder Graph $G$ mit $n \geq 2$ Knoten zwei Knoten $v \neq w$ en
 Hinweis: Für ein gegebenes $n$, was ist der grösstmögliche Grad den ein Knoten haben kann?
 -> $n-1$
 
-___
+---
 
 ## 5.
 
 abc
 
-___
+---
 
 ## 6.
 
@@ -111,5 +111,5 @@ $a \implies b \implies c \implies d \implies a$
 // how to show:
 - circular implication
 - $|E| = |V| - 1 \Longleftrightarrow$ $G$ /zusammenhängend/ und kreisfrei (a => b, b => c)
-- $G$ kreisfrei $\Longleftrightarrow$ G zusammenhängend (b => c) 
+- $G$ kreisfrei $\Longleftrightarrow$ G zusammenhängend (b => c)
 - $\forall x,y, \in V: \exists! \ \ \text{x-y-path} \in G \Longleftrightarrow$ $G$ Baum (c => d, d => a)

@@ -29,7 +29,7 @@ id9(10)
 id10((70))
 id11((51))
 
-id0 --> id10 
+id0 --> id10
 id0 --> id2
 id10 --> id3 & id1
 id2 --> id11 & id6
@@ -77,13 +77,13 @@ id6 --> id13
 
 # 5.3
 ![[A&D-e-u05.pdf#page=2&rect=65,378,530,472|A&D-e-u05, p.2]]
-___
+---
 ![[A&D-e-u05.pdf#page=2&rect=67,114,528,160|A&D-e-u05, p.2]]
 
 ## (a)
 ![[A&D-e-u05.pdf#page=3&rect=85,666,538,776|A&D-e-u05, p.3]]
 
-We show that the number of comparisons $T(n)$ satisfies the given recurrence relation. 
+We show that the number of comparisons $T(n)$ satisfies the given recurrence relation.
 $$
 \begin{align}
 & T(1) = 0,
@@ -168,10 +168,10 @@ Now we consider an iteration of the algorithm at an arbitrary level $t \leq \mat
 > In this case, $N$ and its children fulfill the heap condition and we can move on.
 
 *Case* $\mathrm{key}(N) < \mathrm{key}(C)$
-> Without loss of generality, let $C$ denote a child node of $N$ such that the above condition holds. In this case, the algorithm *swaps* the nodes $N$ and $C$ during the execution of the appropriate `if` statement. 
-> 
+> Without loss of generality, let $C$ denote a child node of $N$ such that the above condition holds. In this case, the algorithm *swaps* the nodes $N$ and $C$ during the execution of the appropriate `if` statement.
+>
 > After this, it restores the heap condition in the subtree rooted at $N$ in level $t+1$, repeating the procedure described above. This *pushes* the node $N$ down to a level such that the key of its parent node $P$ is greater than or equal to its own $\mathrm{key}(P)\geq \mathrm{key}(N)$.
-> 
+>
 
 Iterating over all nodes at level $t$ results in the invariant $I(t)$. Specifically, happens in every iteration of the outermost `for` loop, converting the binary tree to a valid heap from bottom up.
 

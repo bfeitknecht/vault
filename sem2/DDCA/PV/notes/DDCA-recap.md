@@ -1,4 +1,4 @@
-___
+---
 
 ## Introduction
 
@@ -11,7 +11,7 @@ ___
 **The goal of circuit design is to optimize:**
 ![[DDCA-L02b-electrical-engineering.pdf#page=10&rect=34,57,580,428|DDCA-L02b-electrical-engineering, p.10]]
 
-___
+---
 
 ## Binary Numbers $\star$
 
@@ -26,7 +26,7 @@ ___
 
 
 
-___
+---
 
 ## Electrical Engineering (Transistors and Gates)
 
@@ -40,7 +40,7 @@ ___
 > - draw/derive the transistor level schematic of a logic function
 > - i.e. Draw the transistor level schematic of the CMOS logic gate realizing the function Y= A. (B+C)
 
-___
+---
 
 ### Semiconductors
 >[!quote]+ What is so great about semiconductors?
@@ -103,7 +103,7 @@ ___
 To construct any inverting logic gates, i.e. NOT, NAND, NOR:
 ![[DDCA-L02b-electrical-engineering.pdf#page=34&rect=30,79,700,431|DDCA-L02b-electrical-engineering, p.34]]
 
-___
+---
 
 ## Combinational Circuits (Theory)
 
@@ -152,7 +152,7 @@ ___
 >
 
 
-___
+---
 
 ## Combinational Circuits (Design) $\star$
 
@@ -196,7 +196,7 @@ ___
 >>
 
 
-___
+---
 ## Verilog for Combinational Circuits $\star$
 
 ![[DDCA-topics.pdf#page=9&rect=71,355,439,400|DDCA-topics, p.9]]
@@ -270,7 +270,7 @@ ___
 >
 
 
-___
+---
 
 ## Combinational Circuits in Processors
 
@@ -284,7 +284,7 @@ ___
 > - Design/draw large multipliers
 > - i.e. Draw the transistor level schematic of the CMOS logic gate realizing the function Y= A. (B+C)
 
-___
+---
 
 ## Sequential Logic Design $\star$
 
@@ -299,7 +299,7 @@ ___
 > - Draw, transistor level schematics of latches and FFs
 > - i.e. draw the transistor level schematic of a rising-edge trigerred D-type flip-flop with asynchronous reset and enable.
 
-___
+---
 
 ## Verilog for Sequential Circuits $\star$
 
@@ -313,7 +313,7 @@ ___
 > - Combinational Verilog descriptions where sensitivity list is manipulated to miss some signals.
 > - i.e. Show that a combinational circuit described using unblocking statements wi ll work as well as one written with blocking statements
 
-___
+---
 
 ## Sequential Circuits: Timing $\star$
 
@@ -326,7 +326,7 @@ ___
 > - Calculations involving synchronizers (knowing what they do and their basics could be asked, but no detailed calculations on MTBF etc)
 > - i.e. What is the mean time of failure for a circuit running at 1 GHz, when the input changes 100 times a second, Aperture time is 50ps, setup time is 300 ps, and the technology constant is 75 ps
 
-___
+---
 
 ## Need for Verification
 
@@ -339,7 +339,7 @@ ___
 > - List all possible testbench variations (slide 23)
 > - i.e. Draw three different testbenches and explain what the differences are.
 
-___
+---
 
 ## Using Verilog for Testbenches
 
@@ -355,7 +355,7 @@ ___
 > - Discuss the timing of stimuli application and sampling of expected outputs
 > - i.e. Develop a golden model in a language of your preference to implement a golden model for multiplication.
 
-___
+---
 
 ## Number Systems
 
@@ -371,7 +371,7 @@ ___
 > - To memorize the special case encodings
 > - i.e. Which number 32bit floating point number is represented by 32’h160a_59EF
 
-___
+---
 
 ## MIPS Assembly $\star$
 
@@ -385,7 +385,7 @@ ___
 > - To memorize the registers, all instructions of MIPS. If we ask questions that need such information, these will be provided
 > - i.e. What is register number 17 in MIPS
 
-___
+---
 
 ## Memory
 
@@ -399,7 +399,7 @@ ___
 > - Internal structure of the RAMs using transistor/capacitor and questions related to how electrically the RAM works.
 > - i.e. Explain how the transistors connected to the wordline work
 
-___
+---
 
 ## MIPS Programming $\star$
 
@@ -414,7 +414,7 @@ ___
 > - Floating point instructions
 > - i.e. Explain what happens during an exception call. What is EPC and how is it updated.
 
-___
+---
 
 ## Microarchitecture (Single Cycle) $\star$
 
@@ -428,7 +428,7 @@ ___
 > - To draw an entire processor from scratch. If there are such questions, it will be to complete pieces of a missing diagram or find/fix errors.
 > - i.e. What is the opcode for lw
 
-___
+---
 
 ## Pipelined MIPS Architecture $\star$
 
@@ -443,7 +443,7 @@ ___
 > - To modify the block diagram to implement various hazard mitigation mechanisms like forwarding and branch prediction (you should still know what these mechanisms are, but not memorize the specific implementation details)
 > - i.e. Explain how the execute stage can be stalled and modify the block diagram of the processor to add the STALLD, STALLF and FLUSHE signals
 
-___
+---
 
 
 

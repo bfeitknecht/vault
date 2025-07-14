@@ -12,9 +12,9 @@ public static void testCase() {
     int k = In.readInt();   // parts
     int s = m*(k+1)+n;      // source
     int t = s+1;            // target
-    
+
     Graph G = new Graph(m*(k+1)+n+2);
-    
+
     // source -> shops -> parts
     for (int i = 0; i < m; i++) {
         int shop = i*(k+1);   // i-th shop
@@ -24,7 +24,7 @@ public static void testCase() {
             G.addEdge(shop, shop+p, stock);
         }
     }
-    
+
     // local shop's parts -> bikes -> target
     for (int i = 0; i < n; i++) {
         int bike = m*(k+1)+i;     // i-th bike
@@ -38,7 +38,7 @@ public static void testCase() {
         }
         G.addEdge(bike, t, k);
     }
-    
+
     boolean possible = G.computeMaximumFlow(s, t) == n*k;
     Out.println(possible? "yes" : "no");
 }
@@ -155,7 +155,7 @@ p0 --> id6 --> id7
 i have no idea what to do
 
 
-___
+---
 
 
 i have an idea of what to do
@@ -340,18 +340,18 @@ public static void testCase() {
     int k = In.readInt();   // parts
     int s = (m*k)+(n*k)+n;  // source
     int t = s+1;            // target
-    
+
     Graph G = new Graph((m*k)+(n*k)+n+2);
-    
+
     for (int i = 0; i < m*k; i++) {
         // source -> shop parts
         G.addEdge(s, i, In.readInt());
     }
-    
+
     for (int i = 0; i < n; i++) {
         int part = (m*k)+i*(k+1);    // base + i * offset
         int d = In.readInt();
-        
+
         for (int j = 0; j < d; j++) {
             int local = In.readInt()*k;
             for (int p = 0; p < k; p++) {
@@ -359,16 +359,16 @@ public static void testCase() {
                 G.addEdge(local+p, part+p, 1);
             }
         }
-        
+
         for (int p = 0; p < k; p++) {
             // bike parts -> bike
             G.addEdge(part+p, part+k, 1);
         }
-        
+
         // bike -> target
         G.addEdge(part+k, t, k);
     }
-    
+
     boolean possible = G.computeMaximumFlow(s, t) == n*k;
     Out.println(possible? "yes" : "no");
 }
