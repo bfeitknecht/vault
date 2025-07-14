@@ -79,7 +79,7 @@ end
     - specifically, non-determinism does not suppress non-termination
     - $\langle s, \sigma \rangle \to_{1} \gamma$ describes the first step of the execution of statement $s$ in state $\sigma$
 $$
-\overset{\huge \mathrm{Operational}}{\boxed{\begin{align}
+\overset{\huge \text{Operational Semantics}}{\boxed{\begin{align}
 &
 \begin{prooftree}
 \AXC{}

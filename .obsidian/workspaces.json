@@ -263,19 +263,8 @@
                   "icon": "lucide-git-fork",
                   "title": "Graph view"
                 }
-              },
-              {
-                "id": "f26cc426790c77d9",
-                "type": "leaf",
-                "state": {
-                  "type": "custom-frames-calendar",
-                  "state": {},
-                  "icon": "lucide-calendar-clock",
-                  "title": "Calendar"
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -433,7 +422,7 @@
         }
       },
       "active": "162e7a61651e562a",
-      "mtime": "2025-07-04T09:25:45+02:00"
+      "mtime": "2025-07-14T16:35:15+02:00"
     },
     "sem4-cn": {
       "main": {
@@ -596,7 +585,7 @@
                     "file": "sem4/CN/VRL/extra/slides/CN-s08-network-layer.pdf",
                     "page": 81,
                     "left": -24,
-                    "top": 399,
+                    "top": 403,
                     "zoom": 0.637767220902613
                   },
                   "icon": "lucide-file-text",
@@ -775,8 +764,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "1af004273dba92e1",
-      "mtime": "2025-07-14T13:04:21+02:00"
+      "active": "fe7f778b4414a311",
+      "mtime": "2025-07-14T16:33:43+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1146,6 +1135,34 @@
                 }
               },
               {
+                "id": "e74c6860ce5d3b2d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/FMFP/VRL/FMFP-v-w08.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "FMFP-v-w08"
+                }
+              },
+              {
+                "id": "a01fd55510d06db6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/FMFP/VRL/FMFP-v-w09.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "FMFP-v-w09"
+                }
+              },
+              {
                 "id": "976f8b0ec993ee6a",
                 "type": "leaf",
                 "state": {
@@ -1173,8 +1190,7 @@
                   "title": "FMFP-summary"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "4eae27f0ad5ff541",
@@ -1187,16 +1203,33 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s01b-natural deduction.pdf",
-                    "page": 1,
-                    "left": -23,
-                    "top": 616,
-                    "zoom": 0.678030303030303
+                    "page": 31,
+                    "left": -30,
+                    "top": 568,
+                    "zoom": 0.5331439393939393
                   },
                   "icon": "lucide-file-text",
                   "title": "FMFP-s01b-natural deduction"
                 }
+              },
+              {
+                "id": "d7a66f6d35bd6b7f",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/FMFP/PV/summaries/FMFP-summary-dcamenisch.pdf",
+                    "page": 20,
+                    "left": 84,
+                    "top": 100,
+                    "zoom": 1.16
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "FMFP-summary-dcamenisch"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1367,8 +1400,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "6aa16ac910c60d3a",
-      "mtime": "2025-06-30T15:14:53+02:00"
+      "active": "71254ba74efcb51c",
+      "mtime": "2025-07-14T16:33:36+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1712,5 +1745,5 @@
       "mtime": "2025-07-12T11:41:17+02:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "00-clean"
 }

@@ -43,5 +43,6 @@
   "vim-yank-highlight",
   "obsidian-tasks-plugin",
   "obsidian-relative-line-numbers",
-  "obsidian-vimrc-support"
+  "obsidian-vimrc-support",
+  "typst"
 ]

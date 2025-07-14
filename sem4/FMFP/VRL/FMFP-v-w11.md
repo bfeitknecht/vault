@@ -39,7 +39,7 @@ slides:
 - $\vdash \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \} \implies \vDash \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \}$, if a property can be proven, it is correct (soundness)
 - $\vDash \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \} \implies \vdash \{  \mathbf{P} \}\ s \ \{ \mathbf{Q} \}$, if a property is true, it can be proven (completeness)
 $$
-\overset{\huge \mathrm{Hoare}}{\boxed{\begin{align}
+\overset{\huge \text{Hoare Logic}}{\boxed{\begin{align}
 &
 \begin{prooftree}
 \AXC{}

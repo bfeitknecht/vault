@@ -23,13 +23,7 @@ Let $\pi_{x} : \mathrm{SL}(n, \mathbb{Z}[x]) \to \mathrm{SL}(n, \mathbb{Z})$ whi
 ---
 
 
-
 ```typst
-= Fibonacci sequence
-The Fibonacci sequence is defined through the
-_recurrence relation_ $F_n = F_(n-1) + F_(n-2)$.
-It can also be expressed in closed form:
-
 $ F_n = floor(1 / sqrt(5) phi.alt^n), quad
   phi.alt = (1 + sqrt(5)) / 2 $
 
@@ -47,6 +41,6 @@ The first #count numbers of the sequence are:
   ..nums.map(n => $F_#n$),
   ..nums.map(n => str(fib(n))),
 ))
+```
 
-```​
 

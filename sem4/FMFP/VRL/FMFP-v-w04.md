@@ -29,7 +29,7 @@ next: "[[FMFP-v-w05]]"
 
 ## Typing Rules
 $$
-\overset{\huge \mathrm{Lambda}}{\boxed{\begin{align}
+\overset{\huge \text{Mini Haskell}}{\boxed{\begin{align}
 &
 \begin{prooftree}
 \AXC{}

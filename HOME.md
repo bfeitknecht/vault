@@ -22,14 +22,15 @@
 > HIDE EDIT BUTTON
 > ```
 
-___
+<!--
+---
 ```toggl
 SUMMARY PAST 10 DAYS
-
-TITLE "Past Week"
+TITLE "Recently"
 ```
-___
+---
 ```toggl
 LIST TODAY
 TITLE "Today"
 ```
+-->

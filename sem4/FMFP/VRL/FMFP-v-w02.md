@@ -38,7 +38,7 @@ next: "[[FMFP-v-w03]]"
 ## Natural Deduction
 The following are rules for natural deduction in intuitionistic predicate logic.
 $$
-\overset{\huge \mathrm{ND}}{\boxed{\begin{align}
+\overset{\huge \text{Natural Deduction}}{\boxed{\begin{align}
 &
 \begin{prooftree}
 \AXC{}
