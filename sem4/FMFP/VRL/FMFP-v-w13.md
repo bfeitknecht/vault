@@ -1,8 +1,8 @@
 ---
 course: "[[FMFP]]"
 prev: "[[FMFP-v-w12]]"
-next: "[[FMFP"
-tags:
+next: "[[FMFP]]"
+tags: 
 slides:
   - "[[FMFP-s15-model-checking.pdf]]"
 ---
