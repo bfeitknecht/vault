@@ -1,5 +1,5 @@
 ---
-name: "[[DMDB]]"
+course: "[[DMDB]]"
 prev: "[[DMDB-v-w07]]"
 next: "[[DMDB-v-w09]]"
 slides:

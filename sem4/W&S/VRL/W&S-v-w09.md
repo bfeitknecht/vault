@@ -1,5 +1,5 @@
 ---
-name: "[[W&S]]"
+course: "[[W&S]]"
 prev: "[[W&S-v-w08]]"
 next: "[[W&S-v-w10]]"
 tags:

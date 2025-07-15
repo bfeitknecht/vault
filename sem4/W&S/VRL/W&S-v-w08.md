@@ -1,5 +1,5 @@
 ---
-name: "[[W&S]]"
+course: "[[W&S]]"
 prev: "[[W&S-v-w07]]"
 next: "[[W&S-v-w09]]"
 slides:

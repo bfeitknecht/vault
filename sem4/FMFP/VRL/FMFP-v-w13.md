@@ -1,5 +1,5 @@
 ---
-name: "[[FMFP]]"
+course: "[[FMFP]]"
 prev: "[[FMFP-v-w12]]"
 next: "[[FMFP"
 tags:

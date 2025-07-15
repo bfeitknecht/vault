@@ -1,8 +1,8 @@
 ---
-name: "[[DMDB]]"
+course: "[[DMDB]]"
 prev: "[[DMDB-v-w12]]"
 next: "[[DMDB]]"
-tags: 
+tags:
 slides:
   - "[[DMDB-s19-data-replication.pdf]]"
   - "[[DMDB-s20-cloud-databases.pdf]]"

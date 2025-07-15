@@ -1,5 +1,5 @@
 ---
-name: "[[CN]]"
+course: "[[CN]]"
 prev: "[[CN-v-w08]]"
 next: "[[CN-v-w10]]"
 tags:

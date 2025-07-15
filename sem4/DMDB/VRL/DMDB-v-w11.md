@@ -1,5 +1,5 @@
 ---
-name: "[[DMDB]]"
+course: "[[DMDB]]"
 prev: "[[DMDB-v-w10]]"
 next: "[[DMDB-v-w12]]"
 tags:

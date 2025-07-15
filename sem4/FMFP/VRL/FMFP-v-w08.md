@@ -1,5 +1,5 @@
 ---
-name: "[[FMFP]]"
+course: "[[FMFP]]"
 prev: "[[FMFP-v-w07]]"
 next: "[[FMFP-v-w09]]"
 slides:
