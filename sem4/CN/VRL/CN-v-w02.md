@@ -2,12 +2,17 @@
 module: "[[CN]]"
 prev: "[[CN-v-w01]]"
 next: "[[CN-v-w03]]"
+tags: 
+slides:
+  - "[[CN-s03-DNS.pdf]]"
+  - "[[CN-s04-WWW.pdf]]"
 ---
 
 # Info
 
 
 # Topics
+- [[application layer]]
 - [[domain name system (DNS)]]
 - DNS resolution strategy
 - uniform resource locator (URL)

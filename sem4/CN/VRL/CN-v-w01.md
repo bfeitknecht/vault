@@ -1,7 +1,11 @@
 ---
 module: "[[CN]]"
-prev: 
+prev: "[[CN-v-w01]]"
 next: "[[CN-v-w02]]"
+tags: 
+slides:
+  - "[[CN-s01-introduction.pdf]]"
+  - "[[CN-s02-layering.pdf]]"
 ---
 
 

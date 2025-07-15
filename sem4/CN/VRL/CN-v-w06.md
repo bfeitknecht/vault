@@ -2,6 +2,7 @@
 lecture: "[[CN]]"
 prev: "[[CN-v-w05]]"
 next: "[[CN-v-w07]]"
+tags: 
 slides:
   - "[[CN-s09-routing.pdf]]"
   - "[[CN-s10-BGP.pdf]]"

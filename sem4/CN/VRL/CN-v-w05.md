@@ -2,6 +2,9 @@
 module: "[[CN]]"
 prev: "[[CN-v-w04]]"
 next: "[[CN-v-w06]]"
+tags: 
+slides:
+  - "[[CN-s09-routing.pdf]]"
 ---
 
 
@@ -24,9 +27,10 @@ next: "[[CN-v-w06]]"
 - neighbor discovery protocol (NDP) equates to DHCP
 - happy eyeballs, dual stack solution with string preference for IPv6 (150ms slower but still wins)
 - IPv6 islands connected through IPv4 tunnels to transition global network
-
-
-![[CN-s09-routing.pdf#page=33&rect=91,148,456,309|CN-s09-routing, p.33|300]]
+- routers route, hosts only forward
+![[CN-s09-routing.pdf#page=33&rect=91,148,456,309|CN-s09-routing, p.33|275]]
+- packet fragmentations to connect networks with different maximum transmission unit (MTU)
+![[CN-s08-network-layer.pdf#page=81&rect=78,126,496,261|CN-s08-network-layer, p.81|300]]
 
 ## Binary to Decimal Conversion
 $$

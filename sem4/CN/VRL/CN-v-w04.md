@@ -2,6 +2,10 @@
 lecture: "[[CN]]"
 prev: "[[CN-v-w03]]"
 next: "[[CN-v-w05]]"
+tags: 
+slides:
+  - "[[CN-s07-QUIC.pdf]]"
+  - "[[CN-s08-network-layer.pdf]]"
 ---
 
 
@@ -9,11 +13,11 @@ next: "[[CN-v-w05]]"
 
 
 # Topics
-- transport layer
+- [[transport layer]]
 - [[transmission control protocol (TCP)]]
 - QUIC
 - transport layer fairness
-- network layer
+- [[network layer]]
 - virtual circuit
 - [[internet protocol (IP)]]
 - [[network address translation (NAT)]]
@@ -31,6 +35,3 @@ next: "[[CN-v-w05]]"
     - longest time for any packet sent through the internet is 255 seconds
     - why still have loops today?
 
-
-## IP
-![[internet protocol (IP)]]

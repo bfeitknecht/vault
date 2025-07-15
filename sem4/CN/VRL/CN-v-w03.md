@@ -2,6 +2,10 @@
 lecture: "[[CN]]"
 prev: "[[CN-v-w02]]"
 next: "[[CN-v-w04]]"
+tags: 
+slides:
+  - "[[CN-s05-transport-layer.pdf]]"
+  - "[[CN-s06-UDP-TCP.pdf]]"
 ---
 
 # Info
@@ -25,7 +29,7 @@ The main difference between the [[user datagram protocol (UDP)]] and [[transmiss
 - half duplex, at any given time data can only be sent one way at 
 
 **TCP**
-- before transmission three-way [[TCP handshake]] is performed to establish connection
+- before transmission three-way [[TCP handshake]] is performed to establish **reliable** connection
 - reliable, guarantees delivery of data with packets **in order**, handles retransmission of lost packets
 - some overhead because of setup, error checking ACKs and congestion control
 - use cases where accuracy is critical, e.g. web browsing (HTTP, HTTPS), email (SMTP), file transfer (FTP)
@@ -41,5 +45,3 @@ The main difference between the [[user datagram protocol (UDP)]] and [[transmiss
 | speed        | faster (lightweight)   | slower (more overhead)    |
 | usecases     | VoIP, streaming, DNS   | HTTP, FTP, SMTP           |
 
-## TCP State Diagram
-![[TCP-state-diagram.png|white]]
