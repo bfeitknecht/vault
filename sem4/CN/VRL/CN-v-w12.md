@@ -1,7 +1,7 @@
 ---
-name: "[[CN.md]]"
-prev: "[[CN-v-w11.md]]"
-next: "[[CN-v-w13.md]]"
+name: "[[CN]]"
+prev: "[[CN-v-w11]]"
+next: "[[CN-v-w13]]"
 tags: []
 slides:
   - "[[CN-s18-network-algorithms.pdf]]"

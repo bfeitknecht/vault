@@ -1,7 +1,7 @@
 ---
-name: "[[CN.md]]"
-prev: "[[CN-v-w08.md]]"
-next: "[[CN-v-w10.md]]"
+name: "[[CN]]"
+prev: "[[CN-v-w08]]"
+next: "[[CN-v-w10]]"
 tags:
 slides:
   - "[[CN-s13-physical-layer.pdf]]"

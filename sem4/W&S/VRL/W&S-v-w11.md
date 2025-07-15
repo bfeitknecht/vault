@@ -1,7 +1,7 @@
 ---
-name: "[[W&S.md]]"
-prev: "[[W&S-v-w10.md]]"
-next: "[[W&S-v-w12.md]]"
+name: "[[W&S]]"
+prev: "[[W&S-v-w10]]"
+next: "[[W&S-v-w12]]"
 tags:
   - todo
 slides:

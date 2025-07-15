@@ -1,7 +1,7 @@
 ---
-name: "[[FMFP.md]]"
-prev: "[[FMFP-v-w10.md]]"
-next: "[[FMFP-v-w12.md]]"
+name: "[[FMFP]]"
+prev: "[[FMFP-v-w10]]"
+next: "[[FMFP-v-w12]]"
 tags:
 slides:
   - "[[FMFP-s12-axiomatic-semantics.pdf]]"

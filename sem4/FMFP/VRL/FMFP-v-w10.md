@@ -1,7 +1,7 @@
 ---
-name: "[[FMFP.md]]"
-prev: "[[FMFP-v-w09.md]]"
-next: "[[FMFP-v-w11.md]]"
+name: "[[FMFP]]"
+prev: "[[FMFP-v-w09]]"
+next: "[[FMFP-v-w11]]"
 tags:
 slides:
   - "[[FMFP-s11-operational-semantics.pdf]]"

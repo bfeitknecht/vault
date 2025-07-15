@@ -1,8 +1,8 @@
 ---
-name: "[[CN.md]]"
-prev: "[[CN-v-w09.md]]"
-next: "[[CN-v-w11.md]]"
-tags: 
+name: "[[CN]]"
+prev: "[[CN-v-w09]]"
+next: "[[CN-v-w11]]"
+tags:
 slides:
   - "[[CN-s15-CDN.pdf]]"
   - "[[CN-s16-video.pdf]]"

@@ -1,7 +1,7 @@
 ---
-name: "[[W&S.md]]"
-prev: "[[W&S-v-w11.md]]"
-next: "[[W&S-v-w13.md]]"
+name: "[[W&S]]"
+prev: "[[W&S-v-w11]]"
+next: "[[W&S-v-w13]]"
 tags:
   - todo
 slides:
@@ -33,5 +33,5 @@ slides:
     - significance level, $\alpha \in (1,0)$, if $\forall \theta \in \Theta_{0}.\Pr_{\theta}[T \in K] \leq \alpha$, to reduce type 1 errors
     - power, $\beta :\Theta_{1} \to [0,1]$, where $\beta(\theta) = \Pr_{\theta}[T \in K]$, to reduce type 2 errors
 - $(T, (K_{t})_{t \geq 0})$ is an ordered family of tests with respect to $T$ if $K_{t} \subset \mathbb{R}$ and $s \leq t \implies K_{t} \subset K_{s}$
-    - typical examples include LHS $K_{t} = (-\infty, t)$, RHS $K_{t} = (\infty, t)$ and symmetric tests 
+    - typical examples include LHS $K_{t} = (-\infty, t)$, RHS $K_{t} = (\infty, t)$ and symmetric tests
 - p-value for ordered family of tests is random variable defined as $G(T)$, where $G : \mathbb{R}_{+} \to [0,1]$ with $G(t) = \Pr_{\theta_{0}}[T \in K_{t}]$

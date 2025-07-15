@@ -1,6 +1,6 @@
 ---
 module: "[[W&S]]"
-prev: "[[W&S-v-w01]]"
+prev: "[[W&S]]"
 next: "[[W&S-v-w02]]"
 ---
 

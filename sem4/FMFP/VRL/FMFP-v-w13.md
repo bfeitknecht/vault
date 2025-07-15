@@ -1,7 +1,7 @@
 ---
-name: "[[FMFP.md]]"
-prev: "[[FMFP-v-w12.md]]"
-next: "[[FMFP-v-w14.md]]"
+name: "[[FMFP]]"
+prev: "[[FMFP-v-w12]]"
+next: "[[FMFP"
 tags:
 slides:
   - "[[FMFP-s15-model-checking.pdf]]"

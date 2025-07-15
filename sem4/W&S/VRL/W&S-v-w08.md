@@ -1,7 +1,7 @@
 ---
-name: "[[W&S.md]]"
-prev: "[[W&S-v-w07.md]]"
-next: "[[W&S-v-w09.md]]"
+name: "[[W&S]]"
+prev: "[[W&S-v-w07]]"
+next: "[[W&S-v-w09]]"
 slides:
 ---
 
@@ -37,4 +37,4 @@ slides:
     - discrete case:
         - $P_{X}(x_{1}, \dots x_{n}) = \Pr[X_{1} = x_{1}, \dots X_{n = }x_{n}]$ with $(x_{1},\dots x_{n}) \in \prod_{i \in [n]}W_{i}$
         - $\phi : \mathbb{R}^{n} \to \mathbb{R}$, $\Ex[\phi(X)] = \sum_{x \in \prod_{i \in [n]}W_{i}}P_{X}(x) \phi(x)$
-    - 
+    -

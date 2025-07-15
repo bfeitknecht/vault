@@ -1,7 +1,7 @@
 ---
-name: "[[CN.md]]"
-prev: "[[CN-v-w12.md]]"
-next: "[[CN-v-w14.md]]"
+name: "[[CN]]"
+prev: "[[CN-v-w12]]"
+next: "[[CN]]"
 tags:
   - "#todo"
 slides:

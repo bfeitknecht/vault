@@ -1,13 +1,13 @@
 ---
-name: "[[FMFP.md]]"
-prev: "[[FMFP-v-w07.md]]"
-next: "[[FMFP-v-w09.md]]"
+name: "[[FMFP]]"
+prev: "[[FMFP-v-w07]]"
+next: "[[FMFP-v-w09]]"
 slides:
   - "[[FMFP-s09-formal-methods.pdf]]"
   - "[[FMFP-s10-IMP.pdf]]"
   - "[[FMFP-s11-operational-semantics.pdf]]"
 ---
- 
+
 
 # Info
 - "Formal methods give you an edge."
@@ -31,15 +31,15 @@ slides:
 module IMP where
     type Var = String         -- identifier
     type Numeral = Integer    -- unbounded numerals
-    
+
     -- arithmetic expression
     data Aexp = Bin Op Aexp Aexp
         | Var
         | Numeral
-    
+
     -- arithmethic operation
     data Op = Add | Sub | Mul
-    
+
     -- boolean expression
     data Bexp = Or Bexp Bexp
         | And Bexp Bexp
@@ -47,7 +47,7 @@ module IMP where
         | Rel Rop Aexp Aexp
         | True        -- syntactic abbreviation for 1 = 1
         | False        -- syntactic abbreviation for 1 # 1
-    
+
     -- relation operation
     data Rop = Eq    -- =
         | Neq        -- #
@@ -55,7 +55,7 @@ module IMP where
         | Leq        -- <=
         | Gt        -- >
         | Geq        -- >=
-    
+
     -- statement
     data Stm = Skip            -- skip
         | Assign Var Aexp    -- x := e
@@ -98,7 +98,7 @@ $$
 \RL{$\ \mathrm{Assign}$}
 \UIC{$\langle \texttt{$x$ := $e$}, \sigma  \rangle \to \sigma [ x \mapsto \mathcal{A}[\![ e]\!]  \sigma] $}
 \end{prooftree}
-\\ \\ 
+\\ \\
 &
 \begin{prooftree}
 \AXC{$\langle s_{1}, \sigma \rangle \to \sigma'$}

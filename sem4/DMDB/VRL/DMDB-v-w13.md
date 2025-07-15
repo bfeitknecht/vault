@@ -1,7 +1,7 @@
 ---
-name: "[[DMDB.md]]"
-prev: "[[DMDB-v-w12.md]]"
-next: "[[DMDB-v-w14.md]]"
+name: "[[DMDB]]"
+prev: "[[DMDB-v-w12]]"
+next: "[[DMDB]]"
 tags: 
 slides:
   - "[[DMDB-s19-data-replication.pdf]]"

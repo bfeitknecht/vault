@@ -1,7 +1,7 @@
 ---
-name: "[[DMDB.md]]"
-prev: "[[DMDB-v-w11.md]]"
-next: "[[DMDB-v-w13.md]]"
+name: "[[DMDB]]"
+prev: "[[DMDB-v-w11]]"
+next: "[[DMDB-v-w13]]"
 tags:
   - todo
 slides:

@@ -6,7 +6,10 @@ next: "[[FMFP-v-w03]]"
 
 
 # Info
-"syntactic sugar causes semantic cancer"
+- "Syntactic sugar causes semantic cancer."
+- "Arrow associates to the right, function application to the left."
+	- $a \to b \to c \equiv a \to (b \to c)$
+	- $f\ g\ h \equiv (f\  g)\  h$
 
 
 # Topics

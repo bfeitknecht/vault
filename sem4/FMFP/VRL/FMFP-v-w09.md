@@ -1,7 +1,7 @@
 ---
-name: "[[FMFP.md]]"
-prev: "[[FMFP-v-w08.md]]"
-next: "[[FMFP-v-w10.md]]"
+name: "[[FMFP]]"
+prev: "[[FMFP-v-w08]]"
+next: "[[FMFP-v-w10]]"
 tags:
 slides:
   - "[[FMFP-s10-IMP.pdf]]"
