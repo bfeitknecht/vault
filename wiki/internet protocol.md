@@ -1,5 +1,6 @@
 ---
-aliases: 
+aliases:
+  - IP
 tags:
   - note/wiki
 ---

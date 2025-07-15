@@ -1,6 +1,6 @@
 
 For some $n\in \N$, the $n$-th fibonacci number, $F_{n}$ is defined by the [[recurrence relation]] $$F_{n} = F_{n-1} +F_{n-2}$$
-and is modelled by the following [[directed acyclic graph (DAG)]].
+and is modelled by the following [[directed acyclic graph]].
 
 ```mermaid
 flowchart TD

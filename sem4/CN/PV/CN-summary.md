@@ -21,7 +21,7 @@
     - based on receiver input
 
 ## Congestion Control
-- prevents a set of senders from overloading the network
+- prevents set of senders from overloading the network
     - uses "congestion" window, i.e. how many bytes can be sent without network overflow
     - based on network conditions
 - three driving principles

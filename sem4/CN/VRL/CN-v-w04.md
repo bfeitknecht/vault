@@ -14,13 +14,13 @@ slides:
 
 # Topics
 - [[transport layer]]
-- [[transmission control protocol (TCP)]]
+- [[transmission control protocol]]
 - QUIC
 - transport layer fairness
 - [[network layer]]
 - virtual circuit
-- [[internet protocol (IP)]]
-- [[network address translation (NAT)]]
+- [[internet protocol]]
+- [[network address translation]]
 
 
 # Notes
