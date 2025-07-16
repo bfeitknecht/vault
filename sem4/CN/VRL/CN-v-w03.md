@@ -13,13 +13,17 @@ slides:
 
 # Topics
 - [[transport layer]]
-- [[user datagram protocol (UDP)]]
+- [[user datagram protocol]]
 - [[transmission control protocol]]
+- ACK strategy
+	- [demo](https://www.tkn.tu-berlin.de/teaching/rn/animations/gbn_sr/ "demo")
+    - go back N
+    - selective repeat
 
 
 # Notes
 ## UDP / TCP
-The main difference between the [[user datagram protocol (UDP)]] and [[transmission control protocol]] lies in **reliability**, **ordering**, and **overhead**. A 5-[[tuple]] $(\mathrm{IP}_{src}, \mathrm{port}_{src}, \mathrm{IP}_{dest}, \mathrm{port}_{dest}, \mathrm{protocol})$ uniquely identifies UDP/TCP session.
+The main difference between the [[user datagram protocol]] and [[transmission control protocol]] lies in **reliability**, **ordering**, and **overhead**. A 5-[[tuple]] $(\mathrm{IP}_{src}, \mathrm{port}_{src}, \mathrm{IP}_{dest}, \mathrm{port}_{dest}, \mathrm{protocol})$ uniquely identifies UDP/TCP session.
 
 **UDP**
 - unreliable, no guarantee that packets arrive in order or even arrive at all
