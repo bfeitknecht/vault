@@ -13,6 +13,7 @@ slides:
 
 # Topics
 - [[transport layer]]
+- transport layer fairness
 - [[user datagram protocol]]
 - [[transmission control protocol]]
 - ACK strategy [(demo)](https://www.tkn.tu-berlin.de/teaching/rn/animations/gbn_sr/)
@@ -27,6 +28,11 @@ slides:
     - too small (less than RTT) leads to duplicate packets
 - RTT estimation is tricky
 - retransmission timeout (RTO)
+- four goals of reliable transport
+	- correctness, ensure data is delivered in-order and untouched
+	- timeliness, minimize time until data is transferred
+	- efficiency, use bandwidth optimally
+	- fairness, play well with concurrent communications
 
 ## UDP / TCP
 The main difference between the [[user datagram protocol]] and [[transmission control protocol]] lies in **reliability**, **ordering**, and **overhead**. A 5-[[tuple]] $(\mathrm{IP}_{src}, \mathrm{port}_{src}, \mathrm{IP}_{dest}, \mathrm{port}_{dest}, \mathrm{protocol})$ uniquely identifies UDP/TCP session.
@@ -40,7 +46,7 @@ The main difference between the [[user datagram protocol]] and [[transmission co
 
 **TCP**
 - before transmission three-way [[TCP handshake]] is performed to establish **reliable** connection
-- reliable, guarantees delivery of data with packets **in order**, handles retransmission of lost packets
+- reliable, guarantees delivery of data with packets **in-order**, handles retransmission of lost packets
 - some overhead because of setup, error checking ACKs and congestion control
 - use cases where accuracy is critical, e.g. web browsing (HTTP, HTTPS), email (SMTP), file transfer (FTP)
 - full duplex service, data may flow both ways

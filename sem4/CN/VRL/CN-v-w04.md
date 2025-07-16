@@ -13,10 +13,7 @@ slides:
 
 
 # Topics
-- [[transport layer]]
-- [[transmission control protocol]]
 - QUIC
-- transport layer fairness
 - [[network layer]]
 - virtual circuit
 - [[internet protocol]]
@@ -28,8 +25,8 @@ slides:
 - every packet is handled separately by routers based on current state
     - can lead to reordering and packet delay or packet loss
 - virtual circuit is connection oriented
-- requires additional state in packet header and setup time
-    - faster routing
+	- requires additional state in packet header and setup time
+	    - faster routing
 - IP packet contains TTL in header to eliminate potential problem of cycle in network, leading to congestion
     - decremented on every hop and every second in buffer
     - longest time for any packet sent through the internet is 255 seconds

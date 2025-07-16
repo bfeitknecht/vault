@@ -9,7 +9,20 @@ tags:
 The **transmission control protocol (TCP)** is a protocol used in the [[transport layer]] of the internet. It improves upon [[user datagram protocol]] by establishing a session for reliability and ensuring in-order delivery of packets. Additionally, congestion control is built in. 
 
 # ACK Strategy
-#todo 
+| Strategy             | Definition                      | Pro                                                             | Con                                                  | Packet Reorder    | Packet Duplication                                                             |
+| -------------------- | ------------------------------- | --------------------------------------------------------------- | ---------------------------------------------------- | ----------------- | ------------------------------------------------------------------------------ |
+| individual ACK       | received 1, received 2, ...     | know fate of every packet<br>simple window algorithm            | loss of ACK packet causes unnecessary retransmission | out-of-order ACKs | no problem                                                                     |
+| cumulative ACK       | received up to 3                | simple<br>low ACK overhead                                      | cannot inform sender about out-of-order ACKs         | gapped ACKs       | no problem                                                                     |
+| full information ACK | received up to 3 and received 5 | enables selective retransmission<br>efficient in lossy networks | larger header<br>more complex logic                  | duplicate ACKs    | problematic, duplicate ACKs confused for loss cause unnecessary retransmission |
+
+# Retransmission Strategy
+
+| Strategy         | Definition                                                 | ACK strategy |
+| ---------------- | ---------------------------------------------------------- | ------------ |
+| go back N        | upon inferred loss, retransmit everything not yet ACKed    | cummulative  |
+| selective repeat | upon inferred loss, retransmit only packet considered lost | individual   |
+
+
 
 
 # Congestion Control
