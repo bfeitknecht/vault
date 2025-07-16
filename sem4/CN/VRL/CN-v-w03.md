@@ -15,13 +15,19 @@ slides:
 - [[transport layer]]
 - [[user datagram protocol]]
 - [[transmission control protocol]]
-- ACK strategy
-	- [demo](https://www.tkn.tu-berlin.de/teaching/rn/animations/gbn_sr/ "demo")
+- ACK strategy [(demo)](https://www.tkn.tu-berlin.de/teaching/rn/animations/gbn_sr/)
     - go back N
     - selective repeat
 
 
 # Notes
+- ISN randomly chosen to circumvent weakness of predictability
+- choosing appropriate timeout value
+    - too long (greater than RTT) leads to inefficiency
+    - too small (less than RTT) leads to duplicate packets
+- RTT estimation is tricky
+- retransmission timeout (RTO)
+
 ## UDP / TCP
 The main difference between the [[user datagram protocol]] and [[transmission control protocol]] lies in **reliability**, **ordering**, and **overhead**. A 5-[[tuple]] $(\mathrm{IP}_{src}, \mathrm{port}_{src}, \mathrm{IP}_{dest}, \mathrm{port}_{dest}, \mathrm{protocol})$ uniquely identifies UDP/TCP session.
 
