@@ -47,7 +47,7 @@ $$
 \begin{prooftree}
 \AXC{$\langle s, \sigma[x \mapsto \mathcal{A} [\![ e ]\!]  \sigma] \rangle \to \sigma' $}
 \RL{${\ \mathrm{Local}}$}
-\UIC{$\langle \texttt{var $x$ := $e$ in $s$ end}, \sigma  \rangle \to \sigma'[x \to \sigma(x) ] $}
+\UIC{$\langle \texttt{var $x$ := $e$ in $s$ end}, \sigma  \rangle \to \sigma'[x \mapsto \sigma(x) ] $}
 \end{prooftree}
 \end{align}
 $$
