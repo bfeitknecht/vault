@@ -15,7 +15,7 @@ slides:
 # Topics
 - reverse proxy
 - forward proxy
-- content distribution network (CDN)
+- content distribution network
 - overlay routing
 
 
