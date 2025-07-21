@@ -446,6 +446,20 @@
                 }
               },
               {
+                "id": "225d334bdbf21c60",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/CN/VRL/CN-v-w01.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "CN-v-w01"
+                }
+              },
+              {
                 "id": "8354a00b557287c4",
                 "type": "leaf",
                 "state": {
@@ -460,20 +474,35 @@
                 }
               },
               {
-                "id": "01fc6daf284abd2e",
+                "id": "2bfa282437158462",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "wiki/transmission control protocol.md",
+                    "file": "sem4/CN/VRL/CN-v-w05.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "transmission control protocol"
+                  "title": "CN-v-w05"
+                }
+              },
+              {
+                "id": "320230d893d5e659",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/CN/VRL/CN-v-w08.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "CN-v-w08"
                 }
               }
-            ]
+            ],
+            "currentTab": 4
           },
           {
             "id": "ff76ae8e25882880",
@@ -496,22 +525,6 @@
                 }
               },
               {
-                "id": "14fb3ea050e60f8a",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/CN/VRL/extra/slides/CN-s05-transport-layer.pdf",
-                    "page": 63,
-                    "left": -56,
-                    "top": 112,
-                    "zoom": 0.2796875
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "CN-s05-transport-layer"
-                }
-              },
-              {
                 "id": "9eb5830bad61fcd8",
                 "type": "leaf",
                 "state": {
@@ -519,32 +532,48 @@
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s06-UDP-TCP.pdf",
                     "page": 68,
-                    "left": -54,
-                    "top": 293,
-                    "zoom": 0.27968750000000003
+                    "left": -56,
+                    "top": 297,
+                    "zoom": 0.2796875
                   },
                   "icon": "lucide-file-text",
                   "title": "CN-s06-UDP-TCP"
                 }
               },
               {
-                "id": "fe7f778b4414a311",
+                "id": "961df7f35dc9c83c",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/CN/VRL/extra/slides/CN-s08-network-layer.pdf",
-                    "page": 81,
+                    "file": "sem4/CN/VRL/extra/slides/CN-s09-routing.pdf",
+                    "page": 63,
                     "left": -24,
-                    "top": 295,
+                    "top": 117,
                     "zoom": 0.637767220902613
                   },
                   "icon": "lucide-file-text",
-                  "title": "CN-s08-network-layer"
+                  "title": "CN-s09-routing"
+                }
+              },
+              {
+                "id": "30ed56977839a0e2",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/CN/VRL/extra/slides/CN-s12-link-layer-coding.pdf",
+                    "page": 70,
+                    "left": -52,
+                    "top": 348,
+                    "zoom": 0.3010688836104513
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "CN-s12-link-layer-coding"
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -715,8 +744,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "0931bf62e5e4226f",
-      "mtime": "2025-07-17T12:59:47+02:00"
+      "active": "320230d893d5e659",
+      "mtime": "2025-07-21T16:34:52+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1727,5 +1756,5 @@
       "mtime": "2025-07-12T11:41:17+02:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-fmfp"
 }
