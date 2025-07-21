@@ -14,12 +14,13 @@ slides:
 
 
 # Topics
-- network address translation (NAT)
+- [[network address translation]]
 - port forwarding
 - dynamic DNS service
 - IPv6
 - ABC classes
 - CIDR
+- routing algorithms
 
 
 # Notes
