@@ -21,6 +21,9 @@ slides:
 - ABC classes
 - CIDR
 - routing algorithms
+	- distance vector routing
+	- link state routing
+	- path vector routing
 
 
 # Notes
@@ -46,3 +49,10 @@ n \approx \frac{10m}{3}
 
 \end{align}
 $$
+## Routing Algorithms
+
+| Algorithm       | Definition                                                         | Correctness                              | Convergence                              | Scalability               | Local Policy Flexibility                            | Link Failure Detection                         |
+| --------------- | ------------------------------------------------------------------ | ---------------------------------------- | ---------------------------------------- | ------------------------- | --------------------------------------------------- | ---------------------------------------------- |
+| distance vector | every router shares distance vector table with neighbors           | distributed [[bellman-ford (algorithm)]] | slow, many exchanges                     | proportional to neighbors | router can assign custom metric                     | can lead to count-to-$\infty$ problem          |
+| link state      | every router builds complete map of network by flooding LSAs       | replicated [[dijkstra (algorithm)]]      | fast, flood and compute                  | proportional to network   | global system does not allow for local modification | triggers new LSA flood, resolves itself        |
+| path vetor      | every AS advertises full path (sequence of AS) to each destination | AS level checks                          | depends on network and policy complexity | proportional to network   | router can apply import/export policy               | AS path checks and propagation give resilience |
