@@ -9,7 +9,7 @@ slides:
 
 
 # Info
-- exam relevant topics only up to structural semantics, without axiomatic semantics
+- for endterm exam relevant topics only up to structural semantics, without axiomatic semantics
 
 # Topics
 - axiomatic semantics
