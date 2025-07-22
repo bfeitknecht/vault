@@ -19,3 +19,7 @@
 > - [ ] quiz-08 query-processing
 > - [ ] quiz-09 transactions
 > - [ ] quiz-10 recovery, locking
+
+> [!quote] Exams
+> - [ ] FS24
+> 
