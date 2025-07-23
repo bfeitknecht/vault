@@ -2,6 +2,7 @@
 course: "[[DMDB]]"
 prev: "[[DMDB-v-w07]]"
 next: "[[DMDB-v-w09]]"
+tags: 
 slides:
   - "[[DMDB-s11-analytics-2-clustering-k-means.pdf]]"
   - "[[DMDB-s12-indexing.pdf]]"

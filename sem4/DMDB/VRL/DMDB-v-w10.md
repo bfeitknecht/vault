@@ -2,8 +2,7 @@
 course: "[[DMDB]]"
 prev: "[[DMDB-v-w09]]"
 next: "[[DMDB-v-w11]]"
-tags:
-  - "#todo"
+tags: []
 slides:
 ---
 

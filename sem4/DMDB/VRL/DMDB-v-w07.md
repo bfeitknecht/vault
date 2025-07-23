@@ -2,6 +2,10 @@
 module: "[[DMDB]]"
 prev: "[[DMDB-v-w07]]"
 next: "[[DMDB-v-w08]]"
+tags: 
+slides:
+  - "[[DMDB-s10-analytics-1-frequent-itemsets.pdf]]"
+  - "[[DMDB-s11-analytics-2-clustering-k-means.pdf]]"
 ---
 
 
