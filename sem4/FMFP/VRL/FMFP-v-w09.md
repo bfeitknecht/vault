@@ -35,11 +35,12 @@ $$
 \ast &\quad x, e, b, s, s' \not\in \mathrm{free}(\Gamma) \\
 \end{align}
 $$
-- instead use induction on (shape) of derivation tree
+- instead use induction on shape of derivation tree
 - because derivation trees are finite, noetherian order corresponding to strict subtrees exists
 - substitution $\_[x \mapsto e]$ replace each free occurrence of variable $x$ by expression $e$
 - substitution lemma, $\mathcal{B}[\![b[x\mapsto e]]\!]\sigma \iff \mathcal{B}[\![b]\!]\sigma[x \mapsto \mathcal{A}[\![e]\!]\sigma]$
 
+## IMP Extensions
 - local variable declaration needs to restore prior state after execution of statement
 $$
 \begin{align}
@@ -67,6 +68,8 @@ var x := 3 in
 end
 ```
 
+
+## Semantics
 - natural semantics (big-step) analyze programs as a whole (statements form atomic granularity)
     - how the overall result is obtained
 - operational semantics (small-step) analyze what happens "within" the execution
