@@ -6,7 +6,9 @@ tags:
 ---
 ![[TCP-state-diagram.png|white]]
 
-The **transmission control protocol (TCP)** is a protocol used in the [[transport layer]] of the internet. It improves upon [[user datagram protocol]] by establishing a session for reliability and ensuring in-order delivery of packets. Additionally, congestion control is built in. 
+The **transmission control protocol (TCP)** is a protocol used in the [[transport layer]] of the internet. It improves upon [[user datagram protocol]] by establishing a session through the TCP handshake for reliability and ensuring in-order delivery of packets. Additionally, congestion control is built in. 
+
+The TCP handshake takes 1RTT, however encryption, i.e. TLS takes another 2RTT. TCP sockets use the virtual circuit method for session management.
 
 # ACK Strategy
 | Strategy             | Definition                      | Pro                                                             | Con                                                  | Packet Reorder    | Packet Duplication                                                             |
@@ -15,23 +17,16 @@ The **transmission control protocol (TCP)** is a protocol used in the [[transpor
 | cumulative ACK       | received up to 3                | simple<br>low ACK overhead                                      | cannot inform sender about out-of-order ACKs         | gapped ACKs       | no problem                                                                     |
 | full information ACK | received up to 3 and received 5 | enables selective retransmission<br>efficient in lossy networks | larger header<br>more complex logic                  | duplicate ACKs    | problematic, duplicate ACKs confused for loss cause unnecessary retransmission |
 
-# Retransmission Strategy
-
-| Strategy         | Definition                                                 | ACK strategy |
-| ---------------- | ---------------------------------------------------------- | ------------ |
-| go back N        | upon inferred loss, retransmit everything not yet ACKed    | cummulative  |
-| selective repeat | upon inferred loss, retransmit only packet considered lost | individual   |
-
-
-
 
 # Congestion Control
 ![[TCP-congestion-control.jpeg]]
 TCP implements congestion control through different phases. In general, an additive increase multiplicative decrease (AIMD) algorithm is used. As result, multiple flows will eventually converge to use equal amounts of contended link, making resource distribution fair.
 
-The receiver advertises its *receive window (rwnd)*, which denotes the rate limit of receiving data. The sender maintains the *congestion window (cwnd)* which limits how much data is sent.
+The receiver advertises its *receive window (rwnd)*, which denotes the rate limit of receiving data. The sender maintains the *congestion window (cwnd)* which limits how much data is sent. This represents flow control.
 
-In the initial phase of *congestion control (slow start)*, the cwnd is increased by small multiple of *maximum segment size (MSS)* on each received ACK, effectively doubling it every RTT.
+In the initial phase of *congestion control (slow start)*, the cwnd is increased by small multiple of *maximum segment size (MSS)* on each received ACK, effectively doubling it every RTT. This represents congestion control.
+
+The CCA used by TCP is loss based and thus not kleinrock optimal. Furthermore, it's inherently RTT unfair, since lower RTT increases `swnd` faster.
 
 ```
 # initialization
@@ -64,7 +59,7 @@ on duplicate_ACK:
 ```
 
 
-## Algorithms
+## Other Algorithms
 Loss based CCAs are inherently suboptimal!
 ![[CN-s06-UDP-TCP.pdf#page=146&rect=59,57,1810,921|CN-s06-UDP-TCP, p.146|400]]
 

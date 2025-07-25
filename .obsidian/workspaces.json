@@ -1144,28 +1144,12 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "4eae27f0ad5ff541",
             "type": "tabs",
             "children": [
-              {
-                "id": "6aa16ac910c60d3a",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/FMFP/VRL/extra/slides/FMFP-s01b-natural deduction.pdf",
-                    "page": 31,
-                    "left": -23,
-                    "top": 578,
-                    "zoom": 0.6780303030303031
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "FMFP-s01b-natural deduction"
-                }
-              },
               {
                 "id": "c8c98d26112527e5",
                 "type": "leaf",
@@ -1175,7 +1159,7 @@
                     "file": "sem4/FMFP/PV/pvw/FMFP-pvw-s05.pdf",
                     "page": 36,
                     "left": -11,
-                    "top": 255,
+                    "top": 259,
                     "zoom": 1.4800116162997399
                   },
                   "icon": "lucide-file-text",
@@ -1183,19 +1167,35 @@
                 }
               },
               {
-                "id": "d7a66f6d35bd6b7f",
+                "id": "dfb88fdd13c56113",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/FMFP/PV/summaries/FMFP-summary-dcamenisch.pdf",
-                    "page": 32,
-                    "left": 72,
-                    "top": 172,
-                    "zoom": 1.12
+                    "file": "sem4/FMFP/VRL/extra/slides/FMFP-s12-axiomatic-semantics.pdf",
+                    "page": 43,
+                    "left": -25,
+                    "top": 213,
+                    "zoom": 0.6378505505469836
                   },
                   "icon": "lucide-file-text",
-                  "title": "FMFP-summary-dcamenisch"
+                  "title": "FMFP-s12-axiomatic-semantics"
+                }
+              },
+              {
+                "id": "91b82beb06e82415",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/FMFP/VRL/extra/semantics-with-applications-nielson.pdf",
+                    "page": 201,
+                    "left": 14,
+                    "top": 14,
+                    "zoom": 1
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "semantics-with-applications-nielson"
                 }
               }
             ],
@@ -1370,8 +1370,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "0ff0cadc15454576",
-      "mtime": "2025-07-22T16:30:48+02:00"
+      "active": "bc8a600cef19d61b",
+      "mtime": "2025-07-25T12:05:30+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1687,5 +1687,5 @@
       "mtime": "2025-07-22T16:36:00+02:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "sem4-cn"
 }

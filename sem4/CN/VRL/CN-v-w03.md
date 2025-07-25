@@ -16,7 +16,8 @@ slides:
 - transport layer fairness
 - [[user datagram protocol]]
 - [[transmission control protocol]]
-- ACK strategy [(demo)](https://www.tkn.tu-berlin.de/teaching/rn/animations/gbn_sr/)
+- [[automatic repeat request]]
+- [[automatic repeat request|ARQ]] [(demo)](https://www.tkn.tu-berlin.de/teaching/rn/animations/gbn_sr/)
     - go back N
     - selective repeat
 
