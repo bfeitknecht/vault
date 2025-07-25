@@ -13,4 +13,5 @@
 
 - strong induction on haskell definitions
 	- generalize most annoying term
-	- 
+    - fix variables in case distinction
+	- quantify induction hypothesis

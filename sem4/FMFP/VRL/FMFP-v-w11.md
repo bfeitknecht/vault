@@ -23,7 +23,7 @@ slides:
 - logical variables are only used in assertions and allow reference across pre- and post-condition
     - substitution lemma holds, $\mathcal{B}[\![\mathbf{P}[x \mapsto e]]\!]\sigma = \mathcal{B}[\![\mathbf{P}]\!]\sigma[x \mapsto \mathcal{A}[\![e]\!]\sigma]$
     - applying $\texttt{skip}$ rule requires ==**syntactic** equivalence== of assertions, thus use
-        - $\mathbf{P} \vDash \mathbf{Q} \iff \forall \sigma.\mathcal{B}[\![\mathbf{P}]\!]\sigma= \mathrm{True} \to \mathcal{B}[\![\mathbf{Q}]\!]\sigma = \mathrm{True}$
+        - $\mathbf{P} \vDash \mathbf{Q} \iff \forall \sigma.(\mathcal{B}[\![\mathbf{P}]\!]\sigma \implies \mathcal{B}[\![\mathbf{Q}]\!]\sigma)$
         - i.e. **semantic** consequence of assertions
         - may strengthen preconditions and weaken postconditions, in diagram $\uparrow \circ \rightarrow \circ \downarrow$
         - build proof outlines bottom-up
