@@ -67,6 +67,7 @@ $$
 
 
 ## Routing Algorithms
+Nodes are decentralized and distributed. There is no controller and the nodes only know what they exchange in messages. There may be link failures at any given time.
 
 | Algorithm       | Definition                                                         | Correctness                              | Convergence                              | Scalability               | Local Policy Flexibility                            | Link Failure Detection                         |
 | --------------- | ------------------------------------------------------------------ | ---------------------------------------- | ---------------------------------------- | ------------------------- | --------------------------------------------------- | ---------------------------------------------- |
