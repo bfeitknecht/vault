@@ -22,9 +22,9 @@ slides:
 - hoare triple $\{  \mathbf{P} \} \ s \ \{  \mathbf{Q} \}$
 - logical variables are only used in assertions and allow reference across pre- and post-condition
     - substitution lemma holds, $\mathcal{B}[\![\mathbf{P}[x \mapsto e]]\!]\sigma = \mathcal{B}[\![\mathbf{P}]\!]\sigma[x \mapsto \mathcal{A}[\![e]\!]\sigma]$
-    - applying $\texttt{skip}$ rule requires ==**syntactic** equivalence== of assertions, thus use
+    - applying $\texttt{skip}$ rule requires ==**syntactic** equivalence== of assertions, 
+	    - use **semantic** consequence of assertions
         - $\mathbf{P} \vDash \mathbf{Q} \iff \forall \sigma.(\mathcal{B}[\![\mathbf{P}]\!]\sigma \implies \mathcal{B}[\![\mathbf{Q}]\!]\sigma)$
-        - i.e. **semantic** consequence of assertions
         - may strengthen preconditions and weaken postconditions, in diagram $\uparrow \circ \rightarrow \circ \downarrow$
         - build proof outlines bottom-up
 - total correctness hoare triple $\{  \mathbf{P} \} \ s \ \{ \Downarrow  \mathbf{ Q}\}$
@@ -55,7 +55,7 @@ $$
 &
 \begin{prooftree}
 \AXC{$ \{ \mathbf{P} \} \ s_{1} \ \{ \mathbf{Q} \} $}
-\AXC{$ \{ \mathbf{R} \} \ s_{2} \ \{ \mathbf{R} \}$}
+\AXC{$ \{ \mathbf{Q} \} \ s_{2} \ \{ \mathbf{R} \}$}
 \RL{${\ \mathrm{Seq}}$}
 \BIC{$ \{ \mathbf{P} \} \ \texttt{$s_{1}$; $s_{2}$} \ \{ \mathbf{R} \} $}
 \end{prooftree}
