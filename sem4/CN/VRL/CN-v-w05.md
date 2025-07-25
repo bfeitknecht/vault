@@ -27,7 +27,7 @@ slides:
 
 
 # Notes
-- NAT breaks some transport layer principles (extract destination IP from FTP packet)
+- NAT breaks some transport layer principles (extract destination IP from UDP/TCP packet)
 - neighbor discovery protocol (NDP) equates to DHCP
 - happy eyeballs, dual stack solution with string preference for IPv6 (150ms slower but still wins)
 - IPv6 islands connected through IPv4 tunnels to transition global network
@@ -49,6 +49,23 @@ n \approx \frac{10m}{3}
 
 \end{align}
 $$
+## Routing Models
+![[CN-s09-routing.pdf#page=6&rect=54,160,823,372|CN-s09-routing, p.6]]
+- unicast
+    - one to one communication
+    - every packet has single unique address
+- broadcast
+    - one to all communication
+    - packet destination is broadcast address, routers propagate forward
+- multicast
+	- one to many communication
+	- packet destination is group, routers distribute
+- anycast
+	- one to nearest communication
+	- multiple hosts share same anycast address
+    	- routers propagate to nearest instance based on metric like path length or latency
+
+
 ## Routing Algorithms
 
 | Algorithm       | Definition                                                         | Correctness                              | Convergence                              | Scalability               | Local Policy Flexibility                            | Link Failure Detection                         |
@@ -56,3 +73,6 @@ $$
 | distance vector | every router shares distance vector table with neighbors           | distributed [[bellman-ford (algorithm)]] | slow, many exchanges                     | proportional to neighbors | router can assign custom metric                     | can lead to count-to-$\infty$ problem          |
 | link state      | every router builds complete map of network by flooding LSAs       | replicated [[dijkstra (algorithm)]]      | fast, flood and compute                  | proportional to network   | global system does not allow for local modification | triggers new LSA flood, resolves itself        |
 | path vetor      | every AS advertises full path (sequence of AS) to each destination | AS level checks                          | depends on network and policy complexity | proportional to network   | router can apply import/export policy               | AS path checks and propagation give resilience |
+### Relevant Metrics
+
+![[CN-s09-routing.pdf#page=7&rect=57,139,657,387|CN-s09-routing, p.7]]
