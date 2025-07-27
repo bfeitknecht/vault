@@ -4,16 +4,23 @@
 > - [ ] SCION
 > - [ ] QUIC
 > - [ ] IP
-> - [ ] TCP
->     - [ ] ACK strategies
->     - [ ] flow control
->     - [ ] congestion control
->     - [ ] CCAs
->     - [ ] head-of-line blocking
+> - [x] TCP ✅ 2025-07-27
+>     - [x] ACK strategies ✅ 2025-07-27
+>     - [x] flow control ✅ 2025-07-27
+>     - [x] congestion control ✅ 2025-07-27
+>     - [x] CCAs ✅ 2025-07-27
+>     - [x] head-of-line blocking ✅ 2025-07-27
 > - [ ] HTTP
 > - [ ] DNS
 >     - [ ] glue record
 
+> [!quote] Exams
+> - [ ] FS24
+> - [ ] FS23
+> - [ ] FS22
+> - [ ] FS21
+> - [ ] FS20
+> 
 
 ## Flow Control
 - prevents one fast sender from overloading slow receiver
