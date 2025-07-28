@@ -2,9 +2,11 @@
 course: "[[CN]]"
 prev: "[[CN-v-w10]]"
 next: "[[CN-v-w12]]"
-tags:
+tags: 
 slides:
   - "[[CN-s17-SCION.pdf]]"
+  - "[[CN-s18-network-algorithms.pdf]]"
+  - "[[CN-s21-sustainable-networking.pdf]]"
 ---
 
 
@@ -15,7 +17,7 @@ slides:
 
 # Topics
 - SCION
-- 
+- sustainability
 
 
 # Notes

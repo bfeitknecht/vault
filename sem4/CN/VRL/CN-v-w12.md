@@ -2,11 +2,11 @@
 course: "[[CN]]"
 prev: "[[CN-v-w11]]"
 next: "[[CN-v-w13]]"
-tags: []
+tags: 
 slides:
-  - "[[CN-s18-network-algorithms.pdf]]"
   - "[[CN-s19-linear-programming.pdf]]"
   - "[[CN-s20-probabilistic-techniques.pdf]]"
+  - "[[CN-s22-routing-security.pdf]]"
 ---
 
 
