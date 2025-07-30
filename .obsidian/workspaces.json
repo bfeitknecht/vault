@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "60fdbd5c1e9134c7",
+            "id": "f237a267e092c6c3",
             "type": "tabs",
             "children": [
               {
-                "id": "6838bbf7d5f70e12",
+                "id": "289f91628988872f",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -190,8 +190,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "6838bbf7d5f70e12",
-      "mtime": "2025-07-27T15:06:40+02:00"
+      "active": "289f91628988872f",
+      "mtime": "2025-07-30T15:16:47+02:00"
     },
     "00-home": {
       "main": {
@@ -488,20 +488,6 @@
                 }
               },
               {
-                "id": "73c09bc60882cfad",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/CN/VRL/CN-v-w12.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "CN-v-w12"
-                }
-              },
-              {
                 "id": "43ead63fe72c8254",
                 "type": "leaf",
                 "state": {
@@ -530,7 +516,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 5
           },
           {
             "id": "ff76ae8e25882880",
@@ -543,9 +529,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/CN-top-down-kurose-ross.pdf",
-                    "page": 166,
-                    "left": -4,
-                    "top": 939,
+                    "page": 171,
+                    "left": -11,
+                    "top": 179,
                     "zoom": 0.7574047954866009
                   },
                   "icon": "lucide-file-text",
@@ -559,9 +545,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s06-UDP-TCP.pdf",
-                    "page": 68,
+                    "page": 146,
                     "left": -56,
-                    "top": 297,
+                    "top": 913,
                     "zoom": 0.2796875
                   },
                   "icon": "lucide-file-text",
@@ -609,7 +595,7 @@
                     "file": "sem4/CN/VRL/extra/slides/CN-s22-routing-security.pdf",
                     "page": 1,
                     "left": -24,
-                    "top": 357,
+                    "top": 299,
                     "zoom": 0.637767220902613
                   },
                   "icon": "lucide-file-text",
@@ -617,7 +603,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -788,8 +774,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "05202411495b9441",
-      "mtime": "2025-07-28T10:56:54+02:00"
+      "active": "6852d8407c8b24f3",
+      "mtime": "2025-07-30T10:50:17+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1187,8 +1173,7 @@
                   "title": "FMFP-summary"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "4eae27f0ad5ff541",
@@ -1218,9 +1203,9 @@
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s12-axiomatic-semantics.pdf",
                     "page": 43,
-                    "left": -25,
-                    "top": 213,
-                    "zoom": 0.6378505505469836
+                    "left": -52,
+                    "top": 229,
+                    "zoom": 0.3011082207889392
                   },
                   "icon": "lucide-file-text",
                   "title": "FMFP-s12-axiomatic-semantics"
@@ -1414,8 +1399,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "bc8a600cef19d61b",
-      "mtime": "2025-07-25T12:05:30+02:00"
+      "active": "dfb88fdd13c56113",
+      "mtime": "2025-07-30T15:12:37+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1731,5 +1716,5 @@
       "mtime": "2025-07-28T11:02:00+02:00"
     }
   },
-  "active": "sem4-cn"
+  "active": "sem4-fmfp"
 }
