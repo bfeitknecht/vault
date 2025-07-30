@@ -16,6 +16,10 @@
 > - [ ] central limit theorem
 
 
+> [!quote] Exams
+> - [ ] HS24
+> - [ ] FS24
+
 # Likelihood
 The **likelihood function** on a [[probability space]] $\Omega$ with parameter space $\Theta$ is defined in terms of the [[joint distribution]], based on the space's atomicity.
 

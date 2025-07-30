@@ -494,7 +494,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "sem4/CN/PV/CN-summary.md",
-                    "mode": "source",
+                    "mode": "preview",
                     "source": false
                   },
                   "icon": "lucide-file",
@@ -516,7 +516,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           },
           {
             "id": "ff76ae8e25882880",
@@ -547,7 +547,7 @@
                     "file": "sem4/CN/VRL/extra/slides/CN-s06-UDP-TCP.pdf",
                     "page": 146,
                     "left": -56,
-                    "top": 913,
+                    "top": 919,
                     "zoom": 0.2796875
                   },
                   "icon": "lucide-file-text",
@@ -774,8 +774,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "6852d8407c8b24f3",
-      "mtime": "2025-07-30T10:50:17+02:00"
+      "active": "43ead63fe72c8254",
+      "mtime": "2025-07-30T18:03:54+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1103,8 +1103,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "a2fe38bcff0accf1",
-      "mtime": "2025-07-23T15:19:28+02:00"
+      "active": "8f7d122e3f3116a5",
+      "mtime": "2025-07-30T18:00:20+02:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1173,7 +1173,8 @@
                   "title": "FMFP-summary"
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           },
           {
             "id": "4eae27f0ad5ff541",
@@ -1202,10 +1203,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s12-axiomatic-semantics.pdf",
-                    "page": 43,
-                    "left": -52,
-                    "top": 229,
-                    "zoom": 0.3011082207889392
+                    "page": 44,
+                    "left": -25,
+                    "top": 338,
+                    "zoom": 0.6378505505469836
                   },
                   "icon": "lucide-file-text",
                   "title": "FMFP-s12-axiomatic-semantics"
@@ -1399,8 +1400,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "dfb88fdd13c56113",
-      "mtime": "2025-07-30T15:12:37+02:00"
+      "active": "0ff0cadc15454576",
+      "mtime": "2025-07-30T18:07:05+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1531,9 +1532,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/W&S/PV/summaries/W&S-summary-ykuenzi.pdf",
-                    "page": 51,
-                    "left": 25,
-                    "top": 509,
+                    "page": 48,
+                    "left": 47,
+                    "top": 627,
                     "zoom": 1.11
                   },
                   "icon": "lucide-file-text",
@@ -1712,9 +1713,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "5f35b4b004a54160",
-      "mtime": "2025-07-28T11:02:00+02:00"
+      "active": "a200e032c559113b",
+      "mtime": "2025-07-30T18:00:10+02:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "sem4-w&s"
 }
