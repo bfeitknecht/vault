@@ -46,20 +46,19 @@ The **likelihood function** on a [[probability space]] $\Omega$ with parameter s
 [[joint distribution]]
 [[marginal distribution]]
 
-| Distribution                   | Expectation $\Ex[X]$ | Variance $\Var[X]$      | Mass $p_{X}(k)$ / Density $f_{X}(x)$             | Distribution $F_{X}(x)$                                   |
-| ------------------------------ | -------------------- | ----------------------- | ------------------------------------------------ | --------------------------------------------------------- |
-| $\Ber(p)$                      | $p$                  | $p(1-p)$                | $pk + (1 -p) (1 - k)$                            | $p \mathbb{1}_{k \geq 1} + (1 - p) \mathbb{1}_{k \geq 0}$ |
-| $\Bin(n, p)$                   | $np$                 | $np(1-p)$               | ${n \choose k} p^{k} (1-p)^{n-k}$                |                                                           |
-| $\Geom(p)$                     | $\frac{1}{p}$        | $\frac{1-p}{p^{2}}$     | $p(1 - p)^{k - 1}$                               |                                                           |
-| $\Pois(\lambda)$               | $\lambda$            | $\lambda$               | $\frac{\lambda^{k} e^{-\lambda}}{k!}$            |                                                           |
-| $\mathcal{U}([a, b])$          | $\frac{a+b}{2}$      | $\frac{(b-a)^{2}}{12}$  |                                                  |                                                           |
-| $\mathcal{N}(\mu, \sigma^{2})$ | $\mu$                | $\sigma^{2}$            |                                                  |                                                           |
-| $\Exp(\lambda)$                | $\frac{1}{\lambda}$  | $\frac{1}{\lambda^{2}}$ | $\lambda \exp(-\lambda x) \mathbb{1}_{x \geq 0}$ | $1-e^{-\lambda x}$                                        |
+| Distribution                   | Expectation $\Ex[X]$ | Variance $\Var[X]$      | Mass $p_{X}(k)$ / Density $f_{X}(x)$             | Distribution $F_{X}(x)$                                             |
+| ------------------------------ | -------------------- | ----------------------- | ------------------------------------------------ | ------------------------------------------------------------------- |
+| $\Ber(p)$                      | $p$                  | $p(1-p)$                | $pk + (1 -p) (1 - k)$                            | $p \mathbb{1}_{k \geq 1} + (1 - p) \mathbb{1}_{k \geq 0}$           |
+| $\Bin(n, p)$                   | $np$                 | $np(1-p)$               | ${n \choose k} p^{k} (1-p)^{n-k}$                |                                                                     |
+| $\Geom(p)$                     | $\frac{1}{p}$        | $\frac{1-p}{p^{2}}$     | $p(1 - p)^{k - 1}$                               |                                                                     |
+| $\Pois(\lambda)$               | $\lambda$            | $\lambda$               | $\frac{\lambda^{k} e^{-\lambda}}{k!}$            |                                                                     |
+| $\mathcal{U}([a, b])$          | $\frac{a+b}{2}$      | $\frac{(b-a)^{2}}{12}$  | $\frac{\mathbb{1}_{x \in [a, b]}}{b-a}$          | $\mathbb{1}_{x \in [a, b]}\frac{x - a}{b - a} + \mathbb{1}_{x > b}$ |
+| $\mathcal{N}(\mu, \sigma^{2})$ | $\mu$                | $\sigma^{2}$            |                                                  |                                                                     |
+| $\Exp(\lambda)$                | $\frac{1}{\lambda}$  | $\frac{1}{\lambda^{2}}$ | $\lambda \exp(-\lambda x) \mathbb{1}_{x \geq 0}$ | $1-e^{-\lambda x}$                                                  |
 
 
 
 # PVW
-
 
 | from $n$ take $k$               | with repetition       | without repetition                     |
 | ------------------------------- | --------------------- | -------------------------------------- |
