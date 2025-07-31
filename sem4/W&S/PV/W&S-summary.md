@@ -48,9 +48,9 @@ The **likelihood function** on a [[probability space]] $\Omega$ with parameter s
 
 | Distribution                   | Expectation $\Ex[X]$ | Variance $\Var[X]$      | Mass $p_{X}(k)$ / Density $f_{X}(x)$             | Distribution $F_{X}(x)$ |
 | ------------------------------ | -------------------- | ----------------------- | ------------------------------------------------ | ----------------------- |
-| $\Ber(p)$                      | $p$                  | $p(1-p)$                |                                                  |                         |
+| $\Ber(p)$                      | $p$                  | $p(1-p)$                | $pk + (1 -p) (1 - k)$                            |                         |
 | $\Bin(n, p)$                   | $np$                 | $np(1-p)$               | ${n \choose k} p^{k} (1-p)^{n-k}$                |                         |
-| $\Geom(p)$                     | $\frac{1}{p}$        | $\frac{1-p}{p^{2}}$     |                                                  |                         |
+| $\Geom(p)$                     | $\frac{1}{p}$        | $\frac{1-p}{p^{2}}$     | $p(1 - p)^{k - 1}$                               |                         |
 | $\Pois(\lambda)$               | $\lambda$            | $\lambda$               | $\frac{\lambda^{k} e^{-\lambda}}{k!}$            |                         |
 | $\mathcal{U}([a, b])$          | $\frac{a+b}{2}$      | $\frac{(b-a)^{2}}{12}$  |                                                  |                         |
 | $\mathcal{N}(\mu, \sigma^{2})$ | $\mu$                | $\sigma^{2}$            |                                                  |                         |
