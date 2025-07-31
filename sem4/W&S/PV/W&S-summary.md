@@ -82,6 +82,7 @@ $\Var[X + Y] = \Var[X] + \Var[Y] + 2\Cov[X, Y]$
 
 
 
+
 ## MLE
 1. likelihood function
 2. log likehlihood
