@@ -31,7 +31,7 @@
 > - [ ] FS19
 
 # Likelihood
-The **likelihood function** on a [[probability space]] $\Omega$ with parameter space $\Theta$ is defined in terms of the [[joint distribution]], based on the space's atomicity.
+The **likelihood function** on a [[probability space]] with parameter space $\Theta$ is defined in terms of the [[joint distribution]], based on the space's atomicity.
 
 
 # Distributions
