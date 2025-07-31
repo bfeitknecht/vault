@@ -74,15 +74,32 @@
 
 ## Misc
 
-| Delay Type   | Definition                                                  |
-| ------------ | ----------------------------------------------------------- |
-| transmission | time to put packet onto wire                                |
-| propagation  | time for packet to travel wire from source to destination   |
-| queueing     | time of packet in queue after arrival and before processing |
-| processing   | time to process packet between dequeue and forward          |
+| Delay Type   | Definition                                                |
+| ------------ | --------------------------------------------------------- |
+| transmission | time to put data onto wire                                |
+| propagation  | time for data to travel wire from source to destination   |
+| queueing     | time of data in queue after arrival and before processing |
+| processing   | time to process data between dequeue and forward          |
 
 | Plex        | Definition                                    |
 | ----------- | --------------------------------------------- |
 | simplex     | data flows one way                            |
 | half duplex | data can flow both ways but not simulateously |
 | full duplex | data can flow both ways simultaneously        |
+
+
+## IGP
+Does not need to be completely hardcoded, dynamic system. Intra domain routing.
+
+- IS-IS, OSPF link state protocol via layer two
+- RIP, distance vector
+- RIP counts hops
+- OSPF maximizes bandwidth
+- IS-IS highly customizable
+
+
+## EGP
+Inter domain routing.
+
+- BGP
+- SCION

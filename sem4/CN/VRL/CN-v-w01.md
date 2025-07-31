@@ -23,7 +23,7 @@ slides:
 
 Computer networks can be broken down into five layers that provide different services. Each layer provides a service to the layer above by using the services of the layer directly below it.
 
-| Layer                | Service                               | Role                                                 | Protocol(s)                  |
+| Layer                | Service                               | Role                                                 | Protocols / Techs            |
 | -------------------- | ------------------------------------- | ---------------------------------------------------- | ---------------------------- |
 | **L5 (application)** | network access                        | exchange *messages* between processes (applications) | HTTP, SMTP, FTP, SIP         |
 | **L4 (transport)**   | end-to-end delivery (reliable or not) | transport *segments* between end-systems             | TCP, UDP, SCTP, QUIC         |
