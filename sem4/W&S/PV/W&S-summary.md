@@ -19,6 +19,16 @@
 > [!quote] Exams
 > - [ ] HS24
 > - [ ] FS24
+> - [ ] HS23
+> - [ ] FS23
+> - [ ] HS22
+> - [ ] FS22
+> - [ ] HS21
+> - [ ] FS21
+> - [ ] HS20
+> - [ ] FS20
+> - [ ] HS19
+> - [ ] FS19
 
 # Likelihood
 The **likelihood function** on a [[probability space]] $\Omega$ with parameter space $\Theta$ is defined in terms of the [[joint distribution]], based on the space's atomicity.
