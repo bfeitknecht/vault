@@ -48,6 +48,7 @@ slides:
 	- impose minimum frame size so node can't finish send before collision
 	- multiple waiting nodes will queue up then collide – more load, more problems
 	- binary exponential backoff (BEB) is easy solution that doubles wait interval for successive collision
+
 - wireless comes with complications
 	- nodes may have different coverage – doesn't fit carrier sense
 	- nodes can't hear while sending – no collision detection
@@ -63,3 +64,11 @@ slides:
 	- receiver replies with clear to send (CTS) with frame length
 	- sender transmits frame while nodes hearing CTS stay silent
 		- collisions on RTS/CTS still possible but less likely
+
+- in order to avoid possible endless packet forwards, switches build spanning tree of the network topology
+- switch connection requires distributed zero knowledge spanning tree algorithm
+	- any topology with no configuration
+	- adapt to link/switch failures
+		- initially, every switch believes it's the root
+		- send periodic updates to neighbors with address, root address and distance to root in hops
+		- switches favor ports with shorter distance to lowest root and use lowest address as tiebreaker

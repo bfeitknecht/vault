@@ -4,6 +4,7 @@ prev: "[[CN-v-w07]]"
 next: "[[CN-v-w09]]"
 tags: []
 slides:
+  - "[[CN-s11-link-layer-protocols.pdf]]"
   - "[[CN-s12-link-layer-coding.pdf]]"
   - "[[CN-s13-physical-layer.pdf]]"
 ---
@@ -26,7 +27,6 @@ slides:
 
 
 # Notes
-- in order to avoid possible endless packet forwards, switches build spanning tree of the network topology
 ![[CN-s12-link-layer-coding.pdf#page=6&rect=125,107,706,422|CN-s12-link-layer-coding, p.6]] 
 - framing methods define, how to differentiate frames on the physical layer
 	- naive idea, just count bytes
@@ -39,3 +39,17 @@ slides:
 - code with hamming distance $d + 1$ allows detection of up to $d$ errors
 - hamming distance $2d + 1$ allows for up to $d$ errors to be corrected, mapping to the closest code word
 - internet checksum is negated one's complement sum (add carry back) of 16bit words 
+- error detection needed when errors are expected (high BER) or there's no time for retransmission
+- error detection more efficient when errors are not expected and are large when they do occur
+
+## Hamming Code
+![[CN-s12-link-layer-coding.pdf#page=66&rect=84,94,652,433|CN-s12-link-layer-coding, p.66|300]]
+- hamming code encoding
+	- check bits at binary powers
+    	- cover data bits at positions with that binary power set
+	- correspond to parity of data bits covered
+- decoding is simple
+	- recompute check bits (with parity sum including check bit)
+	- arrange as binary number whose value (syndrome) tells error position
+
+## CRC
