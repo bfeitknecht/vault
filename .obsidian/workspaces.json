@@ -545,9 +545,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s06-UDP-TCP.pdf",
-                    "page": 146,
+                    "page": 150,
                     "left": -56,
-                    "top": 923,
+                    "top": 155,
                     "zoom": 0.2796875
                   },
                   "icon": "lucide-file-text",
@@ -775,7 +775,7 @@
         }
       },
       "active": "43ead63fe72c8254",
-      "mtime": "2025-07-31T11:30:54+02:00"
+      "mtime": "2025-08-01T14:07:30+02:00"
     },
     "sem4-dmdb": {
       "main": {
@@ -1189,7 +1189,7 @@
                     "file": "sem4/FMFP/PV/pvw/FMFP-pvw-s05.pdf",
                     "page": 36,
                     "left": -11,
-                    "top": 259,
+                    "top": 263,
                     "zoom": 1.4800116162997399
                   },
                   "icon": "lucide-file-text",
@@ -1205,7 +1205,7 @@
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s12-axiomatic-semantics.pdf",
                     "page": 44,
                     "left": -25,
-                    "top": 338,
+                    "top": 342,
                     "zoom": 0.6378505505469836
                   },
                   "icon": "lucide-file-text",
@@ -1228,8 +1228,7 @@
                   "title": "semantics-with-applications-nielson"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1401,7 +1400,7 @@
         }
       },
       "active": "0ff0cadc15454576",
-      "mtime": "2025-07-30T18:07:05+02:00"
+      "mtime": "2025-08-01T09:57:33+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1502,7 +1501,7 @@
                     "file": "sem4/W&S/VRL/extra/W&S-script-2-de.pdf",
                     "page": 39,
                     "left": -17,
-                    "top": 541,
+                    "top": 545,
                     "zoom": 0.9021025541093545
                   },
                   "icon": "lucide-file-text",
@@ -1518,7 +1517,7 @@
                     "file": "sem4/W&S/PV/summaries/W&S-pvw-script.pdf",
                     "page": 13,
                     "left": -17,
-                    "top": 711,
+                    "top": 716,
                     "zoom": 0.9021025541093545
                   },
                   "icon": "lucide-file-text",
@@ -1532,9 +1531,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/W&S/PV/summaries/W&S-summary-ykuenzi.pdf",
-                    "page": 32,
-                    "left": 31,
-                    "top": 672,
+                    "page": 39,
+                    "left": 71,
+                    "top": 130,
                     "zoom": 1.11
                   },
                   "icon": "lucide-file-text",
@@ -1542,7 +1541,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1713,8 +1712,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "5f35b4b004a54160",
-      "mtime": "2025-07-31T11:17:29+02:00"
+      "active": "ba26fe271dc1f3ba",
+      "mtime": "2025-07-31T16:45:36+02:00"
     }
   },
   "active": "sem4-w&s"
