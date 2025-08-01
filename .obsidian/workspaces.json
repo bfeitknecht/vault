@@ -1501,7 +1501,7 @@
                     "file": "sem4/W&S/VRL/extra/W&S-script-2-de.pdf",
                     "page": 39,
                     "left": -17,
-                    "top": 545,
+                    "top": 485,
                     "zoom": 0.9021025541093545
                   },
                   "icon": "lucide-file-text",
@@ -1712,9 +1712,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "ba26fe271dc1f3ba",
-      "mtime": "2025-07-31T16:45:36+02:00"
+      "active": "a200e032c559113b",
+      "mtime": "2025-08-01T16:38:26+02:00"
     }
   },
-  "active": "sem4-w&s"
+  "active": "sem4-cn"
 }
