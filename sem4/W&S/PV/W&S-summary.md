@@ -55,7 +55,7 @@ The **likelihood function** on a [[probability space]] with parameter space $\Th
 | $\Pois(\lambda)$               | $\lambda$            | $\lambda$               | $\frac{\lambda^{k} e^{-\lambda}}{k!}$            |                                                                     |
 | $\mathcal{U}([a, b])$          | $\frac{a+b}{2}$      | $\frac{(b-a)^{2}}{12}$  | $\frac{\mathbb{1}_{x \in [a, b]}}{b-a}$          | $\mathbb{1}_{x \in [a, b]}\frac{x - a}{b - a} + \mathbb{1}_{x > b}$ |
 | $\mathcal{N}(\mu, \sigma^{2})$ | $\mu$                | $\sigma^{2}$            | $\frac{\exp()}{\sqrt{ 2\pi\sigma^{2} }}$         |                                                                     |
-| $\Exp(\lambda)$                | $\frac{1}{\lambda}$  | $\frac{1}{\lambda^{2}}$ | $\lambda \exp(-\lambda x) \mathbb{1}_{x \geq 0}$ | $1-e^{-\lambda x}$                                                  |
+| $\Exp(\lambda)$                | $\frac{1}{\lambda}$  | $\frac{1}{\lambda^{2}}$ | $\lambda \exp(-\lambda x) \mathbb{1}_{x \geq 0}$ | $1 - \exp(-\lambda x)$                                              |
 
 
 
