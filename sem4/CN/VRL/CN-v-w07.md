@@ -40,4 +40,26 @@ slides:
 - multiple access control determines how to multiples users according to needs
 	- ALOHA protocol
 		- just send when have traffic
-		- if there was collision (no ACK), wait random time until resend16 * 7*
+		- if there was collision (no ACK), wait random time until resend
+- carrier sense multiple access (CSMA) improved ALOHA by listening for activity before send
+	- easy with wire, not so much with wireless
+    - still possible for collision to occur because of delay
+- CSMA/CD reduces cost of collisions through detection and abort rest of frame
+	- impose minimum frame size so node can't finish send before collision
+	- multiple waiting nodes will queue up then collide – more load, more problems
+	- binary exponential backoff (BEB) is easy solution that doubles wait interval for successive collision
+- wireless comes with complications
+	- nodes may have different coverage – doesn't fit carrier sense
+	- nodes can't hear while sending – no collision detection
+- wireless signal is received if broadcast nearby and sufficient signal to noise ration (SNR)
+	- hidden terminals *can't* hear each other (to coordinate) yet may collide
+    	- want to avoid inefficiency of collisions
+	   ![[CN-s11-link-layer-protocols.pdf#page=40&rect=145,118,667,298|CN-s11-link-layer-protocols, p.40|300]]
+	- exposed terminals *can* hear each other yet don't collide
+    	- want to send concurrently to increase performance
+	   ![[CN-s11-link-layer-protocols.pdf#page=41&rect=110,125,633,317|CN-s11-link-layer-protocols, p.41|300]]
+- multiple access with collision avoidance (MACA)
+	- sender transmits request to send (RTS) with frame length
+	- receiver replies with clear to send (CTS) with frame length
+	- sender transmits frame while nodes hearing CTS stay silent
+		- collisions on RTS/CTS still possible but less likely
