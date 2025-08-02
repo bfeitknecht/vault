@@ -53,3 +53,4 @@ slides:
 	- arrange as binary number whose value (syndrome) tells error position
 
 ## CRC
+#todo 

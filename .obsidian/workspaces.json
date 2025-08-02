@@ -1159,6 +1159,20 @@
                 }
               },
               {
+                "id": "d6e60116a557ea9a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/FMFP/VRL/FMFP-v-w10.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "FMFP-v-w10"
+                }
+              },
+              {
                 "id": "bc8a600cef19d61b",
                 "type": "leaf",
                 "state": {
@@ -1170,6 +1184,34 @@
                   },
                   "icon": "lucide-file",
                   "title": "FMFP-v-w11"
+                }
+              },
+              {
+                "id": "8b499b063390f196",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/FMFP/VRL/FMFP-v-w12.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "FMFP-v-w12"
+                }
+              },
+              {
+                "id": "4d519fc8ac33c141",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem4/FMFP/VRL/FMFP-v-w13.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "FMFP-v-w13"
                 }
               },
               {
@@ -1187,7 +1229,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 5
           },
           {
             "id": "4eae27f0ad5ff541",
@@ -1202,7 +1244,7 @@
                     "file": "sem4/FMFP/PV/pvw/FMFP-pvw-s05.pdf",
                     "page": 36,
                     "left": -11,
-                    "top": 263,
+                    "top": 267,
                     "zoom": 1.4800116162997399
                   },
                   "icon": "lucide-file-text",
@@ -1218,7 +1260,7 @@
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s12-axiomatic-semantics.pdf",
                     "page": 44,
                     "left": -25,
-                    "top": 342,
+                    "top": 346,
                     "zoom": 0.6378505505469836
                   },
                   "icon": "lucide-file-text",
@@ -1241,7 +1283,8 @@
                   "title": "semantics-with-applications-nielson"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1412,8 +1455,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "0ff0cadc15454576",
-      "mtime": "2025-08-01T09:57:33+02:00"
+      "active": "4d519fc8ac33c141",
+      "mtime": "2025-08-02T10:11:22+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1729,5 +1772,5 @@
       "mtime": "2025-08-01T16:38:26+02:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "sem4-cn"
 }
