@@ -54,4 +54,4 @@ slides:
 	- arrange as binary number whose value (syndrome) tells error position
 
 ## CRC
-- uses generator polynomials $p(x) \in \mathrm{GF}(2)[x]$
+- uses generator polynomials $p(x) \in \mathrm{GF}(2)[x]$ of degree $n$

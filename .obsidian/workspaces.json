@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "94af9c351814d1ac",
+            "id": "976e27548b5d7ed3",
             "type": "tabs",
             "children": [
               {
-                "id": "f60654143fa18c4d",
+                "id": "e5650772fa313476",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -190,8 +190,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "f60654143fa18c4d",
-      "mtime": "2025-08-02T11:43:41+02:00"
+      "active": "e5650772fa313476",
+      "mtime": "2025-08-02T16:06:34+02:00"
     },
     "00-home": {
       "main": {
@@ -623,9 +623,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s14-network-stack.pdf",
-                    "page": 7,
+                    "page": 8,
                     "left": -24,
-                    "top": 374,
+                    "top": 225,
                     "zoom": 0.637767220902613
                   },
                   "icon": "lucide-file-text",
@@ -804,7 +804,7 @@
         }
       },
       "active": "ccf1e6a50696c117",
-      "mtime": "2025-08-02T11:35:58+02:00"
+      "mtime": "2025-08-02T16:03:22+02:00"
     },
     "sem4-dmdb": {
       "main": {
