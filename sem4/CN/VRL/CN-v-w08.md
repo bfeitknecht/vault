@@ -41,6 +41,7 @@ slides:
 - internet checksum is negated one's complement sum (add carry back) of 16bit words 
 - error detection needed when errors are expected (high BER) or there's no time for retransmission
 - error detection more efficient when errors are not expected and are large when they do occur
+- ethernet frame uses CRC-32 for error detection, no ACK or retransmission
 
 ## Hamming Code
 ![[CN-s12-link-layer-coding.pdf#page=66&rect=84,94,652,433|CN-s12-link-layer-coding, p.66|300]]
