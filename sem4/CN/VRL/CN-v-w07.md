@@ -48,6 +48,8 @@ slides:
 	- impose minimum frame size so node can't finish send before collision
 	- multiple waiting nodes will queue up then collide – more load, more problems
 	- binary exponential backoff (BEB) is easy solution that doubles wait interval for successive collision
+	- contention slot is transmission of 1RTT node
+    	- time sending without collision required to assure sender no other node started sending  
 
 - wireless comes with complications
 	- nodes may have different coverage – doesn't fit carrier sense
