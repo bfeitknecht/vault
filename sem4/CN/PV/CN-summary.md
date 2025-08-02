@@ -92,8 +92,7 @@
 Does not need to be completely hardcoded, dynamic system. Intra domain routing.
 
 - IS-IS, OSPF link state protocol via layer two
-- RIP, distance vector
-- RIP counts hops
+- RIP, distance vector protocol that counts hops
 - OSPF maximizes bandwidth
 - IS-IS highly customizable
 
