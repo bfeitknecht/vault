@@ -39,7 +39,7 @@ slides:
 - code with hamming distance $d + 1$ allows detection of up to $d$ errors
 - hamming distance $2d + 1$ allows for up to $d$ errors to be corrected, mapping to the closest code word
 - internet checksum is negated one's complement sum (add carry back) of 16bit words 
-- error detection needed when errors are expected (high BER) or there's no time for retransmission
+- error detection needed for high bit error rate (BER) or there's no time for retransmission
 - error detection more efficient when errors are not expected and are large when they do occur
 - ethernet frame uses CRC-32 for error detection, no ACK or retransmission
 
@@ -54,4 +54,4 @@ slides:
 	- arrange as binary number whose value (syndrome) tells error position
 
 ## CRC
-#todo 
+- uses generator polynomials $p(x) \in \mathrm{GF}(2)[x]$

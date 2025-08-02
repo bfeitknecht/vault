@@ -10,9 +10,6 @@
 
 
 # Notes
-
-a ring is a set closed under two binary operations with inverse element
-
-congruence per modulo over ring
-
-multi-variate polynomial in $k$ variables decomposes under remainder for division by $m$, i.e. respects modulus
+- ring is a set closed under two binary operations with inverse element
+- congruence per modulo over ring
+- multi-variate polynomial in $k$ variables decomposes under remainder for division by $m$, i.e. respects modulus

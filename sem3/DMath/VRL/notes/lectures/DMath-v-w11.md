@@ -16,13 +16,6 @@
 - logical calculus is finite set of derivation rules
 - theorems are logical consequence of axioms (set of formulas in fixed logic, i.e. theory)
 
-
 - tautologies are useful because they are theorems in any theory, i.e., for any set of axiom
 
-
-**Interpretation**
-An interpretation is a 4-[[tuple]] $\mathcal{A} = (U, \phi, \psi, \xi )$ where,
-1. a
-2. b
-3. c
-4. d
+- an interpretation is a 4-[[tuple]] $\mathcal{A} = (U, \phi, \psi, \xi )$

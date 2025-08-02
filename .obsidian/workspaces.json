@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "f237a267e092c6c3",
+            "id": "94af9c351814d1ac",
             "type": "tabs",
             "children": [
               {
-                "id": "289f91628988872f",
+                "id": "f60654143fa18c4d",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -190,8 +190,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "289f91628988872f",
-      "mtime": "2025-07-30T15:16:47+02:00"
+      "active": "f60654143fa18c4d",
+      "mtime": "2025-08-02T11:43:41+02:00"
     },
     "00-home": {
       "main": {
@@ -543,9 +543,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/CN-top-down-kurose-ross.pdf",
-                    "page": 171,
-                    "left": -15,
-                    "top": 183,
+                    "page": 619,
+                    "left": -20,
+                    "top": 644,
                     "zoom": 0.7574047954866009
                   },
                   "icon": "lucide-file-text",
@@ -561,7 +561,7 @@
                     "file": "sem4/CN/VRL/extra/slides/CN-s10-BGP.pdf",
                     "page": 6,
                     "left": -24,
-                    "top": 535,
+                    "top": 473,
                     "zoom": 0.637767220902613
                   },
                   "icon": "lucide-file-text",
@@ -575,9 +575,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s11-link-layer-protocols.pdf",
-                    "page": 35,
+                    "page": 34,
                     "left": -24,
-                    "top": 349,
+                    "top": 294,
                     "zoom": 0.637767220902613
                   },
                   "icon": "lucide-file-text",
@@ -591,9 +591,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/CN/VRL/extra/slides/CN-s12-link-layer-coding.pdf",
-                    "page": 44,
+                    "page": 19,
                     "left": -24,
-                    "top": 531,
+                    "top": 406,
                     "zoom": 0.637767220902613
                   },
                   "icon": "lucide-file-text",
@@ -601,23 +601,39 @@
                 }
               },
               {
-                "id": "f0e88a249780db89",
+                "id": "6cbc57eb0964ed17",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/CN/VRL/extra/slides/CN-s22-routing-security.pdf",
-                    "page": 1,
+                    "file": "sem4/CN/VRL/extra/slides/CN-s13-physical-layer.pdf",
+                    "page": 48,
+                    "left": -1,
+                    "top": 413,
+                    "zoom": 0.67
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "CN-s13-physical-layer"
+                }
+              },
+              {
+                "id": "58355a8109301805",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem4/CN/VRL/extra/slides/CN-s14-network-stack.pdf",
+                    "page": 7,
                     "left": -24,
-                    "top": 299,
+                    "top": 374,
                     "zoom": 0.637767220902613
                   },
                   "icon": "lucide-file-text",
-                  "title": "CN-s22-routing-security"
+                  "title": "CN-s14-network-stack"
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 5
           }
         ],
         "direction": "vertical"
@@ -787,8 +803,8 @@
           "templater-obsidian:Templater": true
         }
       },
-      "active": "0ee4313564048899",
-      "mtime": "2025-08-01T21:12:43+02:00"
+      "active": "ccf1e6a50696c117",
+      "mtime": "2025-08-02T11:35:58+02:00"
     },
     "sem4-dmdb": {
       "main": {
