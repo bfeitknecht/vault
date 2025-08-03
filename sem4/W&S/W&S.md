@@ -1,3 +1,7 @@
+---
+semester:
+  - sem4
+---
 
 "Statistics probably never lie!"
 

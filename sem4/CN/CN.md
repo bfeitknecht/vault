@@ -1,3 +1,7 @@
+---
+semester:
+  - sem4
+---
 
 # Info
 - [Website](https://netsec.ethz.ch/courses/cn-2025/)
