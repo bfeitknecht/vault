@@ -37,12 +37,10 @@ semester:
 | **W07** | BGP (continued)<br>Link layer (protocols)                                                                                       |
 | **W08** | Link layer (protocols, framing and error correction)<br>Link layer (framing and error correction), physical layer               |
 | **W09** | Summary                                                                                                                         |
-| **W10** |                                                                                                                                 |
-| **W11** |                                                                                                                                 |
-| **W12** | SCION                                                                                                                           |
-| **W13** | Algorithms                                                                                                                      |
-| **W14** | Network monitoring<br>Network sustainability (guest lecture by [Dr. Romain Jacob](https://nsg.ee.ethz.ch/people/romain-jacob/)) |
-| **W15** | Network sustainability (continued)<br>Routing security                                                                          |
+| **W10** | SCION                                                                                                                           |
+| **W11** | Algorithms                                                                                                                      |
+| **W12** | Network monitoring<br>Network sustainability (guest lecture by [Dr. Romain Jacob](https://nsg.ee.ethz.ch/people/romain-jacob/)) |
+| **W13** | Network sustainability (continued)<br>Routing security                                                                          |
 
 
 # Abbreviations

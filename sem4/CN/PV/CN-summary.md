@@ -1,18 +1,21 @@
 
 > [!danger] TO-DO
-> - [ ] BGP
-> - [ ] SCION
-> - [ ] QUIC
-> - [ ] IP
+> - [x] BGP ✅ 2025-08-03
+> - [x] SCION ✅ 2025-08-03
+> - [x] QUIC ✅ 2025-08-03
+> - [x] IP ✅ 2025-08-03
 > - [x] TCP ✅ 2025-07-27
 >     - [x] ACK strategies ✅ 2025-07-27
 >     - [x] flow control ✅ 2025-07-27
 >     - [x] congestion control ✅ 2025-07-27
 >     - [x] CCAs ✅ 2025-07-27
 >     - [x] head-of-line blocking ✅ 2025-07-27
-> - [ ] HTTP
+> - [x] HTTP ✅ 2025-08-03
 > - [ ] DNS
 >     - [ ] glue record
+> - [ ] IGP
+> 	- [ ] OSPF
+> 	- [ ] IS-IS
 
 > [!quote] Exams
 > - [ ] FS24
@@ -47,7 +50,6 @@
 
 
 ## Network
-
 **routing**
 - decide where packet goes, which direction
 - control plane of network
@@ -73,7 +75,6 @@
 
 
 ## Misc
-
 | Delay Type   | Definition                                                |
 | ------------ | --------------------------------------------------------- |
 | transmission | time to put data onto wire                                |
