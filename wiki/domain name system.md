@@ -1,5 +1,6 @@
 ---
-aliases: 
+aliases:
+  - DNS
 tags:
   - note/wiki
   - "#todo"

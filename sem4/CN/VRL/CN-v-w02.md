@@ -13,7 +13,7 @@ slides:
 
 # Topics
 - [[application layer]]
-- [[domain name system (DNS)]]
+- [[domain name system]]
 - DNS resolution strategy
 - uniform resource locator (URL)
 
