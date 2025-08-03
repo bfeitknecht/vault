@@ -15,8 +15,6 @@ slides:
 
 
 # Topics
-- BPG
-- gao-rexford rule
 - ethernet
 - wireless
 - automatic repeat request

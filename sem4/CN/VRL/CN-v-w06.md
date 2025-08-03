@@ -14,8 +14,9 @@ slides:
 
 
 # Topics
-- autonomous system (AS)
-- border gateway protocol (BGP)
+- autonomous system
+- border gateway protocol
+- gao-rexford rules
 - valley route
 
 
@@ -25,6 +26,13 @@ slides:
 - rule of thumb
     - don't cross two peer links
     - after crossing peer link only go downwards
+
+| propagate routes (from/to) | customer | peer | customer |
+| -------------------------- | -------- | ---- | -------- |
+| **customer**               | ✓        | ✓    | ✓        |
+| **peer**                   | ✓        | X    | X        |
+| **provider**               | ✓        | X    | X        |
+
 
 - split horizon prevents advertise of route though interface from which it was learned
 - poison reverse advertises failed link's route through interface from which it was learned with infinite metric
