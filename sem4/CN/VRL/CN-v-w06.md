@@ -25,3 +25,7 @@ slides:
 - rule of thumb
     - don't cross two peer links
     - after crossing peer link only go downwards
+
+- split horizon prevents advertise of route though interface from which it was learned
+- poison reverse advertises failed link's route through interface from which it was learned with infinite metric
+	- other nodes on subnet won't hop here next
