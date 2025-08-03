@@ -43,5 +43,6 @@
   "vim-yank-highlight",
   "obsidian-tasks-plugin",
   "obsidian-vimrc-support",
-  "emoji-shortcodes"
+  "emoji-shortcodes",
+  "font-size"
 ]

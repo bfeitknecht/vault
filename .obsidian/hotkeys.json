@@ -204,24 +204,6 @@
       "key": "2"
     }
   ],
-  "window:zoom-in": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "1"
-    }
-  ],
-  "window:zoom-out": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "-"
-    }
-  ],
   "workspace:open-in-new-window": [
     {
       "modifiers": [
@@ -307,6 +289,33 @@
         "Shift"
       ],
       "key": "O"
+    }
+  ],
+  "font-size:increment-font-size": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
+  "font-size:decrement-font-size": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "-"
+    }
+  ],
+  "font-size:reset-font-size": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "0"
     }
   ]
 }
