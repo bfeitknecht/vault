@@ -43,7 +43,8 @@ slides:
 	- easy with wire, not so much with wireless
     - still possible for collision to occur because of delay
 - CSMA/CD reduces cost of collisions through detection and abort rest of frame
-	- impose minimum frame size so node can't finish send before collision
+	- impose minimum frame size that takes $2D$  time to send so node can't finish before collision
+		- $D$ is the maximum propagation delay between any two nodes connected to link
 	- multiple waiting nodes will queue up then collide – more load, more problems
 	- binary exponential backoff (BEB) is easy solution that doubles wait interval for successive collision
 	- contention slot is transmission of 1RTT node
