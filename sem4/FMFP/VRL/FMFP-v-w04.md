@@ -24,8 +24,8 @@ next: "[[FMFP-v-w05]]"
     - 
 
 ## Type Judgment
-- $t :: \tau$ corresponds to the term $t$ having type $\tau$, i.e. `typeof` operator $\sim$ `==`
-- $x_{i} : \tau_{i}$ corresponds to a binding of variable $x_{i}$ to type $\tau_{i}$, i.e. binding operator $\sim$ `:=`
+- $x_{i} : \tau_{i}$ corresponds to the binding of variable $x_{i}$ to type $\tau_{i}$
+- $t :: \tau$ corresponds to the judgment of term $t$ having type $\tau$
 
 ## Typing Rules
 $$
