@@ -21,7 +21,7 @@ next: "[[FMFP-v-w05]]"
     - $\mathrm{App} \sim\; \to_{I}$, lambda application with implication introduction
     - $\mathrm{Abs} \sim\; \to_{E}$, lambda abstraction with implication elimination
     - $\mathrm{Var} \sim\mathrm{Ax}$, variable with axiom
-    - 
+
 
 ## Type Judgment
 - $x_{i} : \tau_{i}$ corresponds to the binding of variable $x_{i}$ to type $\tau_{i}$
