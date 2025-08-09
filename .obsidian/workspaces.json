@@ -1050,28 +1050,12 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           },
           {
             "id": "4eae27f0ad5ff541",
             "type": "tabs",
             "children": [
-              {
-                "id": "c8c98d26112527e5",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/FMFP/PV/pvw/FMFP-pvw-s05.pdf",
-                    "page": 36,
-                    "left": -11,
-                    "top": 267,
-                    "zoom": 1.4800116162997399
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "FMFP-pvw-s05"
-                }
-              },
               {
                 "id": "dfb88fdd13c56113",
                 "type": "leaf",
@@ -1080,8 +1064,8 @@
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/slides/FMFP-s12-axiomatic-semantics.pdf",
                     "page": 44,
-                    "left": -25,
-                    "top": 350,
+                    "left": -12,
+                    "top": 442,
                     "zoom": 0.6378505505469836
                   },
                   "icon": "lucide-file-text",
@@ -1096,9 +1080,9 @@
                   "state": {
                     "file": "sem4/FMFP/VRL/extra/semantics-with-applications-nielson.pdf",
                     "page": 201,
-                    "left": 14,
-                    "top": 14,
-                    "zoom": 1
+                    "left": -19,
+                    "top": 12,
+                    "zoom": 0.8504901960784317
                   },
                   "icon": "lucide-file-text",
                   "title": "semantics-with-applications-nielson"
@@ -1276,8 +1260,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "0ff0cadc15454576",
-      "mtime": "2025-08-03T09:53:38+02:00"
+      "active": "91b82beb06e82415",
+      "mtime": "2025-08-08T08:17:04+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1592,5 +1576,5 @@
       "mtime": "2025-08-03T16:03:16+02:00"
     }
   },
-  "active": "sem4-fmfp"
+  "active": "sem4-w&s"
 }
