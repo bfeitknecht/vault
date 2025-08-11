@@ -4,17 +4,17 @@
 > - [x] expectation ✅ 2025-07-08
 > - [x] variance ✅ 2025-07-08
 > - [x] covariance ✅ 2025-07-09
-> - [ ] skewness, kurtosis, moments
-> - [ ] distributions
-> - [ ] laplace model
-> - [ ] estimator
-> - [ ] maximum likelihood estimator
-> - [ ] MSE
-> - [ ] PMF
-> - [ ] correlation
-> - [ ] marginal distribution
-> - [ ] law of large numbers
-> - [ ] central limit theorem
+> - [-] skewness, kurtosis, moments
+> - [x] distributions ✅ 2025-08-11
+> - [x] laplace model ✅ 2025-08-11
+> - [x] estimator ✅ 2025-08-11
+> - [x] maximum likelihood estimator ✅ 2025-08-11
+> - [x] MSE ✅ 2025-08-11
+> - [x] PMF ✅ 2025-08-11
+> - [-] correlation
+> - [x] marginal distribution ✅ 2025-08-11
+> - [x] law of large numbers ✅ 2025-08-11
+> - [x] central limit theorem ✅ 2025-08-11
 
 
 > [!quote] Exams
@@ -46,17 +46,6 @@ The **likelihood function** on a [[probability space]] with parameter space $\Th
 [[exponential distribution]]
 [[joint distribution]]
 [[marginal distribution]]
-
-| Distribution                   | Expectation $\Ex[X]$ | Variance $\Var[X]$      | Mass $p_{X}(k)$ / Density $f_{X}(x)$             | Distribution $F_{X}(x)$                                             |
-| ------------------------------ | -------------------- | ----------------------- | ------------------------------------------------ | ------------------------------------------------------------------- |
-| $\Ber(p)$                      | $p$                  | $p(1-p)$                | $p^{k} (1 - p)^{1 - k}$                          | $p \mathbb{1}_{k \geq 1} + (1 - p) \mathbb{1}_{k \geq 0}$           |
-| $\Bin(n, p)$                   | $np$                 | $np(1-p)$               | ${n \choose k} p^{k} (1-p)^{n-k}$                |                                                                     |
-| $\Geom(p)$                     | $\frac{1}{p}$        | $\frac{1-p}{p^{2}}$     | $p(1 - p)^{k - 1}$                               |                                                                     |
-| $\Pois(\lambda)$               | $\lambda$            | $\lambda$               | $\frac{\lambda^{k} e^{-\lambda}}{k!}$            |                                                                     |
-| $\mathcal{U}([a, b])$          | $\frac{a+b}{2}$      | $\frac{(b-a)^{2}}{12}$  | $\frac{\mathbb{1}_{x \in [a, b]}}{b-a}$          | $\mathbb{1}_{x \in [a, b]}\frac{x - a}{b - a} + \mathbb{1}_{x > b}$ |
-| $\mathcal{N}(\mu, \sigma^{2})$ | $\mu$                | $\sigma^{2}$            | $\frac{\exp()}{\sqrt{ 2\pi\sigma^{2} }}$         |                                                                     |
-| $\Exp(\lambda)$                | $\frac{1}{\lambda}$  | $\frac{1}{\lambda^{2}}$ | $\lambda \exp(-\lambda x) \mathbb{1}_{x \geq 0}$ | $1 - \exp(-\lambda x)$                                              |
-
 
 
 # PVW
