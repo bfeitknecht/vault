@@ -56,20 +56,8 @@ The **likelihood function** on a [[probability space]] with parameter space $\Th
 | **without order** (permutation) | ${{n+k-1}\choose{k}}$ | ${{n}\choose{k}} =\frac{n!}{n!(n-k)!}$ |
 
 
-- geometric distribution models waiting time until success of discrete experiment
-- exponential is the same for continuous case
 
-
-> for normal distribution $X \sim \mathcal{N}(\mu, \sigma^{2})$ then by variance addition laws, $X = \sigma Z + \mu \implies Z = \frac{X - \mu}{\sigma}$ for $Z \sim \mathcal{N}(0, 1)$
-
-
-
-continuous r.v. has continuous CDF
-
-$\Var[X + Y] = \Var[X] + \Var[Y] + 2\Cov[X, Y]$
-
-
-
+> For $X \sim \mathcal{N}(\mu, \sigma^{2})$, then $X = \sigma Z + \mu \implies Z = \frac{X - \mu}{\sigma}$ with $Z \sim \mathcal{N}(0, 1)$.
 
 
 ## MLE
