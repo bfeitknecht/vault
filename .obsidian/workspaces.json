@@ -1330,7 +1330,8 @@
                   "title": "W&S-summary"
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           },
           {
             "id": "f6a409c477b7352e",
@@ -1343,10 +1344,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/W&S/VRL/extra/W&S-script-1.pdf",
-                    "page": 22,
-                    "left": 69,
-                    "top": 685,
-                    "zoom": 1.07
+                    "page": 60,
+                    "left": -18,
+                    "top": 512,
+                    "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
                   "title": "W&S-script-1"
@@ -1358,14 +1359,14 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem4/W&S/VRL/extra/W&S-script-2-de.pdf",
-                    "page": 39,
-                    "left": -17,
-                    "top": 489,
-                    "zoom": 0.9021025541093545
+                    "file": "sem4/W&S/VRL/extra/W&S-script-2-en.pdf",
+                    "page": 28,
+                    "left": -4,
+                    "top": 749,
+                    "zoom": 1.05
                   },
                   "icon": "lucide-file-text",
-                  "title": "W&S-script-2-de"
+                  "title": "W&S-script-2-en"
                 }
               },
               {
@@ -1376,8 +1377,8 @@
                   "state": {
                     "file": "sem4/W&S/PV/summaries/W&S-pvw-script.pdf",
                     "page": 13,
-                    "left": -17,
-                    "top": 716,
+                    "left": -8,
+                    "top": 721,
                     "zoom": 0.9021025541093545
                   },
                   "icon": "lucide-file-text",
@@ -1391,17 +1392,16 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/W&S/PV/summaries/W&S-summary-ykuenzi.pdf",
-                    "page": 39,
-                    "left": 71,
-                    "top": 130,
-                    "zoom": 1.11
+                    "page": 56,
+                    "left": -4,
+                    "top": 343,
+                    "zoom": 1.25
                   },
                   "icon": "lucide-file-text",
                   "title": "W&S-summary-ykuenzi"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1572,9 +1572,9 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "bda29f628fc74523",
-      "mtime": "2025-08-03T16:03:16+02:00"
+      "active": "8268ee7324e36902",
+      "mtime": "2025-08-13T14:09:34+02:00"
     }
   },
-  "active": "sem4-w&s"
+  "active": "sem4-dmdb"
 }
