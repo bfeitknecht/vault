@@ -43,5 +43,6 @@
   "obsidian-tasks-plugin",
   "obsidian-vimrc-support",
   "emoji-shortcodes",
-  "font-size"
+  "font-size",
+  "folders2graph"
 ]

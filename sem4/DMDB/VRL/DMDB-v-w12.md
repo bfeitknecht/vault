@@ -20,3 +20,4 @@ slides:
 
 # Notes
 - what's inside log record?
+- history is **recoverable** if, whenever $T_{i}$ reads from $T_{j}$ and commits, then $c_j < c_{i}$
