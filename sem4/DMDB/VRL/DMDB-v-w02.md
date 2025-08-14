@@ -9,7 +9,7 @@ slides:
 ---
 
 # Info
-- `SQL`
+
 
 # Topics
 - [[relational algebra (RA)]]
