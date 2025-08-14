@@ -657,8 +657,8 @@
                   "type": "markdown",
                   "state": {
                     "file": "sem4/DMDB/DMDB.md",
-                    "mode": "source",
-                    "source": false
+                    "mode": "preview",
+                    "source": true
                   },
                   "pinned": true,
                   "icon": "lucide-file",
@@ -737,28 +737,12 @@
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s03-entity-relationship-model.pdf",
                     "page": 45,
-                    "left": -28,
-                    "top": 88,
+                    "left": -13,
+                    "top": 92,
                     "zoom": 0.559375
                   },
                   "icon": "lucide-file-text",
                   "title": "DMDB-s03-entity-relationship-model"
-                }
-              },
-              {
-                "id": "8f7d122e3f3116a5",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s05-recursion,integrity-constraints.pdf",
-                    "page": 1,
-                    "left": -28,
-                    "top": 544,
-                    "zoom": 0.559375
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "DMDB-s05-recursion,integrity-constraints"
                 }
               },
               {
@@ -784,9 +768,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/DMDB/VRL/extra/slides/DMDB-s07-normal-forms.pdf",
-                    "page": 15,
-                    "left": -28,
-                    "top": 501,
+                    "page": 1,
+                    "left": -13,
+                    "top": 234,
                     "zoom": 0.559375
                   },
                   "icon": "lucide-file-text",
@@ -794,7 +778,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -965,8 +949,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "8f7d122e3f3116a5",
-      "mtime": "2025-08-03T16:03:17+02:00"
+      "active": "e81bd16c68218834",
+      "mtime": "2025-08-14T11:53:09+02:00"
     },
     "sem4-fmfp": {
       "main": {
@@ -1346,7 +1330,7 @@
                     "file": "sem4/W&S/VRL/extra/W&S-script-1.pdf",
                     "page": 60,
                     "left": -18,
-                    "top": 512,
+                    "top": 472,
                     "zoom": 0.8743843192065531
                   },
                   "icon": "lucide-file-text",
@@ -1392,16 +1376,17 @@
                   "type": "pdf",
                   "state": {
                     "file": "sem4/W&S/PV/summaries/W&S-summary-ykuenzi.pdf",
-                    "page": 56,
-                    "left": -4,
-                    "top": 343,
+                    "page": 42,
+                    "left": 79,
+                    "top": 773,
                     "zoom": 1.25
                   },
                   "icon": "lucide-file-text",
                   "title": "W&S-summary-ykuenzi"
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1572,8 +1557,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "8268ee7324e36902",
-      "mtime": "2025-08-13T14:09:34+02:00"
+      "active": "5f35b4b004a54160",
+      "mtime": "2025-08-14T12:15:24+02:00"
     }
   },
   "active": "sem4-dmdb"

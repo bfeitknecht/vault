@@ -65,6 +65,8 @@ slides:
     - $\mathbb{D}$ is the domain with all possible symbols
     - $\mathbb{I}$ is the interpretation function that maps to tuples of elements in the domain that fulfill a predicate
     - $\mathcal{M} \vDash \phi$ if, and only if $\phi$ evaluates to true under $\mathcal{M}$
+	    - if $\phi$ contains free variables, the interpretation depends on an assignment $\alpha$ function
+    	- $\mathcal{M}, \alpha \vDash \phi$ if, and only if $\phi$ evaluates to true under $\mathcal{M}$ with $\alpha$
 
 ### Schema
 - relation schema, $R(A_{i} : D_{i})_{n}$, where $D_{i}$ is a constant
