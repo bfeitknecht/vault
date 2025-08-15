@@ -3,9 +3,9 @@
 > - [x] SPJR algebra ✅ 2025-06-29
 > - [ ] entity relationship model
 > - [ ] views
-> - [ ] functional dependency
-> - [ ] normal forms
-> - [ ] `NULL`
+> - [x] functional dependency ✅ 2025-08-15
+> - [x] normal forms ✅ 2025-08-15
+> - [x] `NULL` ✅ 2025-08-15
 > - [x] primary key, candidate key, superkey ✅ 2025-06-29
 
 > [!info]+ Exercise
