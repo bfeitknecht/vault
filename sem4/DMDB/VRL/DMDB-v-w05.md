@@ -41,7 +41,7 @@ slides:
         - pseudo-transitivity, $\alpha \to \beta, \beta\gamma \to \theta \implies \alpha\gamma \to \theta$
     - minimal FD can't have LHS restricted, $\forall A \in \alpha. \alpha - \{ A \} \nrightarrow \beta \iff \alpha \overset\cdot\to \beta$
     - superkey uniquely identifies every row, $\alpha \to \mathcal{R}$ 
-    - candidate key is minimal superkey, $\alpha \overset\cdot\to \mathcal{R}$
+    - candidate key is **minimal** superkey, $\alpha \overset\cdot\to \mathcal{R}, \forall A \in \alpha. \alpha - \{ A \} \not\to \mathcal{R}$
 - minimal cover for $F$ is a set $G$ such that the following holds
     - $F \equiv G$
     - every RHS of FDs in $G$ is a single attribute
@@ -56,8 +56,8 @@ slides:
     - $X$ is a superkey
     - $Y$ is attribute of at least one key
 - BCNF, same as 3NF but without last condition, i.e. only store same information once
-- BCNF does not preserve all FD while 3NF does
-- BCNF does not get rid of all data redundancies, only ones causes by FD
+    - does not preserve all FD while 3NF does
+    - does not get rid of all data redundancies, only ones caused by FD
 - lossless decomposition up to 4NF
 
 
