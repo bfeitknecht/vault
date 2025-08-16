@@ -2,7 +2,7 @@
 module: "[[DMDB]]"
 prev: "[[DMDB-v-w02]]"
 next: "[[DMDB-v-w04]]"
-tags: 
+tags:
 slides:
   - "[[DMDB-s02-relational-calculus.pdf]]"
   - "[[DMDB-s03-entity-relationship-model.pdf]]"
@@ -37,3 +37,30 @@ slides:
     - possible values to take, $\mathcal{D} = \mathcal{B} \cup \Delta$
         - $\mathcal{B}$, concrete values (`integer`, `character`, `float`, etc.)
         - $\Delta$, abstract values corresponding to entities
+
+
+## Three Value Logic
+
+| `p`       | `q`       | `p OR q`  | `p AND q` | `p = q`   |
+| --------- | --------- | --------- | --------- | --------- |
+| ✓`TRUE`    | ✓`TRUE`    | ✓`TRUE`    | ✓`TRUE`    | ✓`TRUE`    |
+| ✓`TRUE`    | X`FALSE`   | ✓`TRUE`    | X`FALSE`   | X`FALSE`   |
+| ✓`TRUE`    | O`NULL` | ✓`TRUE`    | O`NULL` | O`NULL` |
+| X`FALSE`   | ✓`TRUE`    | ✓`TRUE`    | X`FALSE`   | X`FALSE`   |
+| X`FALSE`   | X`FALSE`   | X`FALSE`   | X`FALSE`   | ✓`TRUE`    |
+| X`FALSE`   | O`NULL` | O`NULL` | X`FALSE`   | O`NULL` |
+| O`NULL` | ✓`TRUE`    | ✓`TRUE`    | O`NULL` | O`NULL` |
+| O`NULL` | X`FALSE`   | O`NULL` | X`FALSE`   | O`NULL` |
+| O`NULL` | O`NULL` | O`NULL` | O`NULL` | O`NULL` |
+
+| `p`       | `NOT p`   |
+| --------- | --------- |
+| ✓`TRUE`    | X`FALSE`   |
+| X`FALSE`   | ✓`TRUE`    |
+| O`NULL` | O`NULL` |
+
+| `p`      | `p IS TRUE` | `p IS NOT TRUE` | `p IS FALSE` | `p IS NOT FALSE` | `p IS NULL` | `p IS NOT NULL` |
+| -------- | ----------- | --------------- | ------------ | ---------------- | ----------- | --------------- |
+| ✓`TRUE`  | ✓`TRUE`     | X`FALSE`        | X`FALSE`     | ✓`TRUE`          | X`FALSE`    | ✓`TRUE`         |
+| X`FALSE` | X`FALSE`    | ✓`TRUE`         | ✓`TRUE`      | X`FALSE`         | X`FALSE`    | ✓`TRUE`         |
+| O`NULL`  | X`FALSE`    | ✓`TRUE`         | X`FALSE`     | ✓`TRUE`          | ✓`TRUE`     | X`FALSE`        |
