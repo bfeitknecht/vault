@@ -53,7 +53,7 @@ slides:
 ## Normal Form
 - 1NF, only atomic domains, i.e. ==no tuple entries==
 - 2NF, every non-key attribute is minimally dependent on every key, i.e. ==everything depends on the key==
-- 3NF, if at least one of the following holds for all attributes $X, Y \subseteq R$, i.e. ==no transitive dependencies==
+- 3NF, if at least one of the following holds for all FDs $X \to Y$, i.e. ==no transitive dependencies==
     - $X \to Y$ is trivial FD
     - $X$ is a superkey
     - $Y$ is attribute of at least one key
@@ -66,4 +66,4 @@ slides:
 
 
 ## Lossless Decomposition
-For $\{ \mathcal{R}_{i} \}_{n}$, the criterion for a lossless decomposition is that there exists an attribute to join on that implies one 
+For $\{ \mathcal{R}_{i} \}_{n}$, the criterion for a lossless decomposition is that there exists an attribute to join on such that the whole relation is captured, $\exists \mathcal{I} \subseteq [n]. \exists k. \bigcup_{i \in \mathcal{I}} \mathcal{R}_{i} \to \mathcal{R}_{k}$.
