@@ -15,7 +15,9 @@ slides:
 # Topics
 - [[functional dependency]]
 - [[normal form]]
+- lossless decomposition
 - data manipulation anomaly
+
 
 
 # Notes
@@ -60,5 +62,8 @@ slides:
     - does not get rid of all data redundancies, only ones caused by FD
 - lossless decomposition up to 4NF
 
-
 ![[DMDB-s07-normal-forms.pdf#page=41&rect=74,84,330,316|DMDB-s07-normal-forms, p.41|300]]
+
+
+## Lossless Decomposition
+For $\{ \mathcal{R}_{i} \}_{n}$, the criterion for a lossless decomposition is that there exists an attribute to join on that implies one 
