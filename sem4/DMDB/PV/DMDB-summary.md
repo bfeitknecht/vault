@@ -29,3 +29,9 @@
 > - [x] FS24 ✅ 2025-08-18
 > - [x] FS23 ✅ 2025-08-18
 
+
+# Conflict Serializability
+To check conflict serializability, construct **precedence graph** for history of $n$ transactions $\text{H} = \{ T_{i} \equiv (o_{i})_{m_{i}} \}_{n}$ consisting of $m_{i}$ operations each. For every pair of conflicting operations (RW, WR, WW) on the same item $X$ from different transactions $T_{i}, T_{j}. i \neq j$, draw directed edge according to partial order $<_{\text{H}}$ induced by history, $T_{i} \to T_{j} \iff o_{i} <_{\text{H}} o_{j}$. If the resulting graph is acyclic, the history is conflict serializable through topological sort.
+
+# Recoverability Classes
+#todo 
