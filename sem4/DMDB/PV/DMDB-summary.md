@@ -33,17 +33,32 @@
 # Recoverability Classes
 ![[DMDB-s15-concurrency-control.pdf#page=54&rect=183,42,756,443|DMDB-s15-concurrency-control, p.54|500]]
 
+Transaction $T_{i}$ reads from $T_{j}$ exactly if $T_{i}$ reads some value written by $T_{j}$ at a time when $T_{j}$ is not aborted.
+
 ## Conflict Serializability
-To check **conflict serializability**, construct precedence graph for history $\text{H} = (o_{i})_{n}$ consisting of $m$ transactions $\{ T_{k} \equiv (o_{j})_{n_{k}} \}_{m}$ of $n_{k}$ operations each. For every pair of conflicting operations (RW, WR, WW) on the same item  from different transactions $T_{i}, T_{j}. i \neq j$, draw directed edge according to partial order $<_{\text{H}}$ induced by history, $T_{i} \to T_{j} \iff o_{i} <_{\text{H}} o_{j}$. If the resulting graph is acyclic, the history is conflict serializable through topological sort. This implies serializability.
+To check **conflict serializability**, construct serializability graph for history $\text{H} = (o_{i})_{n}$ consisting of $m$ transactions $\{ T_{k} \equiv (o_{j})_{n_{k}} \}_{m}$ of $n_{k}$ operations each. For every pair of conflicting operations (RW, WR, WW) on the same item  from different transactions $T_{i}, T_{j}. i \neq j$, draw directed edge according to partial order $<_{\text{H}}$ induced by history, $T_{i} \to T_{j} \iff o_{i} <_{\text{H}} o_{j}$. If the resulting graph is acyclic, the history is conflict serializable through topological sort. This implies serializability.
 
 ## Recoverable
-The history $\text{H}$ is recoverable if, whenever $T_{j}$ reads version of $X$ written by $T_{i}$ with $i \neq j$, then $T_{i}$ commits before $T_{j}$, i.e. $c_{i} <_{\text{H}} c_{j}$.
+The history $\text{H}$ is recoverable if, whenever $T_{i}$ reads version of $X$ written by $T_{j}$ with $i \neq j$, then $T_{j}$ commits before $T_{i}$, i.e. $c_{j} <_{\text{H}} c_{i}$. *Transactions commit in their serialization order.*
 $$
-\forall r_{j}(X). \exists w_{i}(X). c_{i} <_{\text{H}} c_{j}
+\forall r_{i}(X) \leadsto w_{j}(X). c_{j} <_{\text{H}} c_{i}
 $$
 
 ## ACA
 #todo 
 
+*Transactions only read from committed transactions.*
+$$
+\forall r_{i}(X) \leadsto w_{j}(X). c_{j} <_{\text{H}} r_{i}(X)
+$$
+
 ## Strict
 #todo 
+
+*Transactions do not read or overwrite updates of uncommitted transactions.*
+$$
+\begin{align}
+(1) &: \forall r_{i}(X) \leadsto w_{j}(X). c_{j} <_{\text{H}} r_{i}(X) \lor c_{j} <_{\text{H}} w_{i}(X) \\
+(2) &: \forall w_{i}(X) \leadsto w_{j}(X). a_{j} <_{\text{H}} r_{i}(X) \lor a_{j} <_{\text{H}} w_{i}(X)
+\end{align}
+$$
