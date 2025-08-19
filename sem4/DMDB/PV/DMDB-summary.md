@@ -31,7 +31,13 @@
 
 
 # Conflict Serializability
-To check conflict serializability, construct **precedence graph** for history of $n$ transactions $\text{H} = \{ T_{i} \equiv (o_{i})_{m_{i}} \}_{n}$ consisting of $m_{i}$ operations each. For every pair of conflicting operations (RW, WR, WW) on the same item $X$ from different transactions $T_{i}, T_{j}. i \neq j$, draw directed edge according to partial order $<_{\text{H}}$ induced by history, $T_{i} \to T_{j} \iff o_{i} <_{\text{H}} o_{j}$. If the resulting graph is acyclic, the history is conflict serializable through topological sort.
+To check conflict serializability, construct **precedence graph** for history $\text{H} = (o_{i})_{n}$ consisting of $m$ transactions $\{ T_{k} \equiv (o_{j})_{n_{k}} \}_{m}$ of $n_{k}$ operations each. For every pair of conflicting operations (RW, WR, WW) on the same item $X$ from different transactions $T_{i}, T_{j}. i \neq j$, draw directed edge according to partial order $<_{\text{H}}$ induced by history, $T_{i} \to T_{j} \iff o_{i} <_{\text{H}} o_{j}$. If the resulting graph is acyclic, the history is conflict serializable through topological sort.
 
 # Recoverability Classes
-#todo 
+## Recoverable
+The history $\text{H}$ is recoverable if, whenever $T_{j}$ reads version of $X$ written by $T_{i}$ with $i \neq j$, then $T_{i}$ commits before $T_{j}$, i.e. $c_{i} <_{\text{H}} c_{j}$.
+$$
+\forall r_{j}(X). \exists w_{i}(X). c_{i} <_{\text{H}} c_{j}
+$$
+
+## ACA
