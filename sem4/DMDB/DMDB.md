@@ -8,6 +8,7 @@ semester:
 # Info
 - [Moodle](https://moodle-app2.let.ethz.ch/course/view.php?id=24995)
 - exam is on moodle
+- [annik's notion site](https://www.notion.so/anniko/DMDB-19fcc04aa7de8010a4a0eb4340e554d5)
 
 
 # Schedule
