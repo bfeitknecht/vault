@@ -39,7 +39,7 @@
 Transaction $T_{i}$ reads from $T_{j}$ exactly if $T_{i}$ reads some value written by $T_{j}$ at a time when $T_{j}$ is not aborted.
 
 ## Conflict Serializability
-To check **conflict serializability**, construct serializability graph for history $\text{H} = (o_{i})_{n}$ consisting of $m$ transactions $\{ T_{k} \equiv (o_{j})_{n_{k}} \}_{m}$ of $n_{k}$ operations each. For every pair of conflicting operations (RW, WR, WW) on the same item  from different transactions $T_{i}, T_{j}. i \neq j$, draw directed edge according to partial order $<_{\text{H}}$ induced by history, $T_{i} \to T_{j} \iff o_{i} <_{\text{H}} o_{j}$. If the resulting graph is acyclic, the history is conflict serializable through topological sort. This implies serializability.
+To check **conflict serializability**, construct serializability graph for history $\text{H} = (o_{i})_{n}$ consisting of $m$ transactions $\{ T_{k} \equiv (o_{j})_{n_{k}} \}_{m}$ of $n_{k}$ operations each. For every pair of conflicting operations (RW, WR, WW) on the same item  from different transactions $T_{i}, T_{j}. i \neq j$, draw directed edge according to partial order $<_{\text{H}}$ induced by history, $T_{i} \to T_{j} \iff o_{i} <_{\text{H}} o_{j}$. If the resulting graph is acyclic, the history is conflict serializable through topological sort. This implies serializability. *Transactions have serialization order.*
 
 ## Recoverable
 The history $\text{H}$ is recoverable if, whenever $T_{i}$ reads version of $X$ written by $T_{j}$ with $i \neq j$, then $T_{j}$ commits before $T_{i}$, i.e. $c_{j} <_{\text{H}} c_{i}$. *Transactions commit in their serialization order.*
