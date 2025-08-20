@@ -8,11 +8,11 @@
 > - [x] `NULL` ✅ 2025-08-15
 > - [x] primary key, candidate key, superkey ✅ 2025-06-29
 > - [ ] transactions
-> 	- [ ] conflict serializability
-> 	- [ ] recoverability classes
-> 		- [ ] recoverable
-> 		- [ ] ACA
-> 		- [ ] strict
+> 	- [x] conflict serializability ✅ 2025-08-20
+> 	- [x] recoverability classes ✅ 2025-08-20
+> 		- [x] recoverable ✅ 2025-08-20
+> 		- [x] ACA ✅ 2025-08-20
+> 		- [x] strict ✅ 2025-08-20
 > 	- [ ] snapshot isolation
 > 	- [ ] locking
 
