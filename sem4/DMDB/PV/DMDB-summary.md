@@ -2,7 +2,7 @@
 > - [x] relational algebra, relational calculus ✅ 2025-06-26
 > - [x] SPJR algebra ✅ 2025-06-29
 > - [ ] entity relationship model
-> - [ ] views
+> - [x] views ✅ 2025-08-21
 > - [x] functional dependency ✅ 2025-08-15
 > - [x] normal forms ✅ 2025-08-15
 > - [x] `NULL` ✅ 2025-08-15
