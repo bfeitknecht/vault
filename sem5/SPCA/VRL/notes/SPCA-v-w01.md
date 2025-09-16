@@ -11,6 +11,8 @@ slides:
 
 
 # Topics
+- introduction to the C programing language
 
 
 # Notes
+- LLM does not 

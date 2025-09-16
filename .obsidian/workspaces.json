@@ -421,1164 +421,6 @@
       "active": "162e7a61651e562a",
       "mtime": "2025-07-14T16:35:15+02:00"
     },
-    "sem4-cn": {
-      "main": {
-        "id": "ef0204964e2b9162",
-        "type": "split",
-        "children": [
-          {
-            "id": "7fc5e6bff1f140a0",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0931bf62e5e4226f",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/CN/CN.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "CN"
-                }
-              }
-            ]
-          },
-          {
-            "id": "ff76ae8e25882880",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "89c88c1a6ce3c845",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/CN/VRL/extra/CN-top-down-kurose-ross.pdf",
-                    "page": 171,
-                    "left": -19,
-                    "top": 187,
-                    "zoom": 0.734132581100141
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "CN-top-down-kurose-ross"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "fe28d63e32c3168b",
-        "type": "split",
-        "children": [
-          {
-            "id": "fddab58c0769d063",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5f4cf158045f14fe",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "70265419a98d8a68",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "b14014a5400a500b",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "0f56d709fdb24392",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u04.md"
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of DMath-bf-u04"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 291.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "4be59d580df31d93",
-        "type": "split",
-        "children": [
-          {
-            "id": "a9eab3abde570e06",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b3aff261bc292caf",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "sem4/CN/VRL/extra/slides/CN-s12-link-layer-coding.pdf",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for CN-s12-link-layer-coding"
-                }
-              },
-              {
-                "id": "2d28441159ca953f",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "sem4/CN/VRL/extra/slides/CN-s12-link-layer-coding.pdf",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from CN-s12-link-layer-coding"
-                }
-              },
-              {
-                "id": "d4d9e5cf2cd5e94b",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {},
-                  "icon": "git-pull-request",
-                  "title": "Source Control"
-                }
-              },
-              {
-                "id": "315d47609478a67f",
-                "type": "leaf",
-                "state": {
-                  "type": "toggl-report",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Toggl Report"
-                }
-              },
-              {
-                "id": "8421fb8be31bcbf5",
-                "type": "leaf",
-                "state": {
-                  "type": "vertical-tabs-view",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 294.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "obsidian-excalidraw-plugin:New drawing": true,
-          "obsidian-kanban:Create new board": true,
-          "obsidian-shellcommands:Shell commands: Custom variables": true,
-          "omnisearch:Omnisearch": false,
-          "graph:Open graph view": false,
-          "templates:Insert template": false,
-          "cmdr:Open in default app": false,
-          "cmdr:Export to PDF": false,
-          "workspaces:Manage workspace layouts": false,
-          "switcher:Open quick switcher": true,
-          "command-palette:Open command palette": true,
-          "obsidian-git:Open Git source control": true,
-          "pdf-plus:PDF++: Toggle auto-copy": true,
-          "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true,
-          "templater-obsidian:Templater": true
-        }
-      },
-      "active": "89c88c1a6ce3c845",
-      "mtime": "2025-08-05T17:02:36+02:00"
-    },
-    "sem4-dmdb": {
-      "main": {
-        "id": "ef0204964e2b9162",
-        "type": "split",
-        "children": [
-          {
-            "id": "7fc5e6bff1f140a0",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "e81bd16c68218834",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/DMDB/DMDB.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "DMDB"
-                }
-              },
-              {
-                "id": "5b7f17a185a4fa7f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/DMDB-v-w12.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMDB-v-w12"
-                }
-              },
-              {
-                "id": "fa459dfde57119dd",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/DMDB-v-w02.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMDB-v-w02"
-                }
-              },
-              {
-                "id": "da00d4184c32ad6a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/DMDB/PV/DMDB-summary.md",
-                    "mode": "preview",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMDB-summary"
-                }
-              },
-              {
-                "id": "5da2f933fb1d0822",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "var/other/LATEX.pdf",
-                    "page": 2,
-                    "left": -18,
-                    "top": 8,
-                    "zoom": 0.8743843192065531
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "LATEX"
-                }
-              }
-            ],
-            "currentTab": 3
-          },
-          {
-            "id": "b2d58a2794577117",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "636db34df32e7bac",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s08-engine-data-memory.pdf",
-                    "page": 5,
-                    "left": -29,
-                    "top": 179,
-                    "zoom": 0.5421875
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "DMDB-s08-engine-data-memory"
-                }
-              },
-              {
-                "id": "5a9887a839c7d6b3",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s09-engine-buffer-cache.pdf",
-                    "page": 1,
-                    "left": -29,
-                    "top": 544,
-                    "zoom": 0.5421875
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "DMDB-s09-engine-buffer-cache"
-                }
-              },
-              {
-                "id": "9222411722166d9d",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s16-locking.pdf",
-                    "page": 1,
-                    "left": -37,
-                    "top": 544,
-                    "zoom": 0.40546875000000004
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "DMDB-s16-locking"
-                }
-              },
-              {
-                "id": "6e00fbd2feaf07ce",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/extra/slides/DMDB-s15-concurrency-control.pdf",
-                    "page": 1,
-                    "left": -29,
-                    "top": 544,
-                    "zoom": 0.5421875
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "DMDB-s15-concurrency-control"
-                }
-              }
-            ],
-            "currentTab": 3
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "fe28d63e32c3168b",
-        "type": "split",
-        "children": [
-          {
-            "id": "fddab58c0769d063",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5f4cf158045f14fe",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "70265419a98d8a68",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "b14014a5400a500b",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "0f56d709fdb24392",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u04.md"
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of DMath-bf-u04"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 350.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "4be59d580df31d93",
-        "type": "split",
-        "children": [
-          {
-            "id": "a9eab3abde570e06",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b3aff261bc292caf",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u04.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for DMath-bf-u04"
-                }
-              },
-              {
-                "id": "2d28441159ca953f",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "HOME.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from HOME"
-                }
-              },
-              {
-                "id": "d4d9e5cf2cd5e94b",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {},
-                  "icon": "git-pull-request",
-                  "title": "Source Control"
-                }
-              },
-              {
-                "id": "315d47609478a67f",
-                "type": "leaf",
-                "state": {
-                  "type": "toggl-report",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Toggl Report"
-                }
-              },
-              {
-                "id": "8421fb8be31bcbf5",
-                "type": "leaf",
-                "state": {
-                  "type": "vertical-tabs-view",
-                  "state": {},
-                  "icon": "lucide-ghost",
-                  "title": "vertical-tabs-view"
-                }
-              }
-            ],
-            "currentTab": 4
-          }
-        ],
-        "direction": "horizontal",
-        "width": 230.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "bases:Create new base": false,
-          "templater-obsidian:Templater": true,
-          "obsidian-excalidraw-plugin:New drawing": true,
-          "obsidian-kanban:Create new board": true,
-          "obsidian-shellcommands:Shell commands: Custom variables": true,
-          "omnisearch:Omnisearch": false,
-          "graph:Open graph view": false,
-          "templates:Insert template": false,
-          "cmdr:Open in default app": false,
-          "cmdr:Export to PDF": false,
-          "workspaces:Manage workspace layouts": false,
-          "switcher:Open quick switcher": true,
-          "command-palette:Open command palette": true,
-          "obsidian-git:Open Git source control": true,
-          "pdf-plus:PDF++: Toggle auto-copy": true,
-          "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
-        }
-      },
-      "active": "da00d4184c32ad6a",
-      "mtime": "2025-09-16T09:26:43+02:00"
-    },
-    "sem4-fmfp": {
-      "main": {
-        "id": "ef0204964e2b9162",
-        "type": "split",
-        "children": [
-          {
-            "id": "7fc5e6bff1f140a0",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "71254ba74efcb51c",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/FMFP/FMFP.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "FMFP"
-                }
-              },
-              {
-                "id": "49bf5919807c0eb9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/FMFP/VRL/FMFP-v-w09.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "FMFP-v-w09"
-                }
-              },
-              {
-                "id": "d6e60116a557ea9a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/FMFP/VRL/FMFP-v-w10.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "FMFP-v-w10"
-                }
-              },
-              {
-                "id": "4d519fc8ac33c141",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/FMFP/VRL/FMFP-v-w13.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "FMFP-v-w13"
-                }
-              },
-              {
-                "id": "0ff0cadc15454576",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/FMFP/PV/FMFP-summary.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "FMFP-summary"
-                }
-              }
-            ]
-          },
-          {
-            "id": "4eae27f0ad5ff541",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "dfb88fdd13c56113",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/FMFP/VRL/extra/slides/FMFP-s12-axiomatic-semantics.pdf",
-                    "page": 44,
-                    "left": -12,
-                    "top": 442,
-                    "zoom": 0.6378505505469836
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "FMFP-s12-axiomatic-semantics"
-                }
-              },
-              {
-                "id": "91b82beb06e82415",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/FMFP/VRL/extra/semantics-with-applications-nielson.pdf",
-                    "page": 201,
-                    "left": -19,
-                    "top": 24,
-                    "zoom": 0.8504901960784313
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "semantics-with-applications-nielson"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "fe28d63e32c3168b",
-        "type": "split",
-        "children": [
-          {
-            "id": "fddab58c0769d063",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5f4cf158045f14fe",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "70265419a98d8a68",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "b14014a5400a500b",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "0f56d709fdb24392",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u04.md"
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of DMath-bf-u04"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 305.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "4be59d580df31d93",
-        "type": "split",
-        "children": [
-          {
-            "id": "a9eab3abde570e06",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b3aff261bc292caf",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u04.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for DMath-bf-u04"
-                }
-              },
-              {
-                "id": "2d28441159ca953f",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "HOME.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from HOME"
-                }
-              },
-              {
-                "id": "d4d9e5cf2cd5e94b",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {},
-                  "icon": "git-pull-request",
-                  "title": "Source Control"
-                }
-              },
-              {
-                "id": "315d47609478a67f",
-                "type": "leaf",
-                "state": {
-                  "type": "toggl-report",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Toggl Report"
-                }
-              },
-              {
-                "id": "8421fb8be31bcbf5",
-                "type": "leaf",
-                "state": {
-                  "type": "vertical-tabs-view",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
-                }
-              }
-            ],
-            "currentTab": 4
-          }
-        ],
-        "direction": "horizontal",
-        "width": 230.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "bases:Create new base": false,
-          "templater-obsidian:Templater": true,
-          "obsidian-excalidraw-plugin:New drawing": true,
-          "obsidian-kanban:Create new board": true,
-          "obsidian-shellcommands:Shell commands: Custom variables": true,
-          "omnisearch:Omnisearch": false,
-          "graph:Open graph view": false,
-          "templates:Insert template": false,
-          "cmdr:Open in default app": false,
-          "cmdr:Export to PDF": false,
-          "workspaces:Manage workspace layouts": false,
-          "switcher:Open quick switcher": true,
-          "command-palette:Open command palette": true,
-          "obsidian-git:Open Git source control": true,
-          "pdf-plus:PDF++: Toggle auto-copy": true,
-          "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
-        }
-      },
-      "active": "71254ba74efcb51c",
-      "mtime": "2025-09-16T08:20:40+02:00"
-    },
-    "sem4-w&s": {
-      "main": {
-        "id": "ef0204964e2b9162",
-        "type": "split",
-        "children": [
-          {
-            "id": "7fc5e6bff1f140a0",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "bda29f628fc74523",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/W&S/W&S.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "W&S"
-                }
-              },
-              {
-                "id": "3a3817373dd23c47",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/W&S/VRL/W&S-v-w05.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "W&S-v-w05"
-                }
-              },
-              {
-                "id": "5180e98b8f6e41b5",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/W&S/VRL/W&S-v-w10.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "W&S-v-w10"
-                }
-              },
-              {
-                "id": "a200e032c559113b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/W&S/PV/W&S-summary.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "W&S-summary"
-                }
-              }
-            ],
-            "currentTab": 3
-          },
-          {
-            "id": "f6a409c477b7352e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8268ee7324e36902",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/W&S/VRL/extra/W&S-script-1.pdf",
-                    "page": 60,
-                    "left": -18,
-                    "top": 472,
-                    "zoom": 0.8743843192065531
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "W&S-script-1"
-                }
-              },
-              {
-                "id": "ba26fe271dc1f3ba",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/W&S/VRL/extra/W&S-script-2-en.pdf",
-                    "page": 28,
-                    "left": -4,
-                    "top": 749,
-                    "zoom": 1.05
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "W&S-script-2-en"
-                }
-              },
-              {
-                "id": "654cdf88532d1d37",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/W&S/PV/summaries/W&S-pvw-script.pdf",
-                    "page": 13,
-                    "left": -8,
-                    "top": 721,
-                    "zoom": 0.9021025541093545
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "W&S-pvw-script"
-                }
-              },
-              {
-                "id": "5f35b4b004a54160",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "sem4/W&S/PV/summaries/W&S-summary-ykuenzi.pdf",
-                    "page": 42,
-                    "left": 79,
-                    "top": 773,
-                    "zoom": 1.25
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "W&S-summary-ykuenzi"
-                }
-              }
-            ],
-            "currentTab": 3
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "fe28d63e32c3168b",
-        "type": "split",
-        "children": [
-          {
-            "id": "fddab58c0769d063",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5f4cf158045f14fe",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "70265419a98d8a68",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "b14014a5400a500b",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "0f56d709fdb24392",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "sem3/DMath/UE/bf/md/DMath-bf-u04.md"
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of DMath-bf-u04"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 257.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "4be59d580df31d93",
-        "type": "split",
-        "children": [
-          {
-            "id": "a9eab3abde570e06",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b3aff261bc292caf",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "sem4/W&S/VRL/extra/W&S-script-1.pdf",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for W&S-script-1"
-                }
-              },
-              {
-                "id": "2d28441159ca953f",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "sem4/W&S/VRL/W&S-v-w05.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from W&S-v-w05"
-                }
-              },
-              {
-                "id": "d4d9e5cf2cd5e94b",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {},
-                  "icon": "git-pull-request",
-                  "title": "Source Control"
-                }
-              },
-              {
-                "id": "315d47609478a67f",
-                "type": "leaf",
-                "state": {
-                  "type": "toggl-report",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Toggl Report"
-                }
-              },
-              {
-                "id": "8421fb8be31bcbf5",
-                "type": "leaf",
-                "state": {
-                  "type": "vertical-tabs-view",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
-                }
-              }
-            ],
-            "currentTab": 3
-          }
-        ],
-        "direction": "horizontal",
-        "width": 230.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "templater-obsidian:Templater": true,
-          "obsidian-excalidraw-plugin:New drawing": true,
-          "obsidian-kanban:Create new board": true,
-          "obsidian-shellcommands:Shell commands: Custom variables": true,
-          "omnisearch:Omnisearch": false,
-          "graph:Open graph view": false,
-          "templates:Insert template": false,
-          "cmdr:Open in default app": false,
-          "cmdr:Export to PDF": false,
-          "workspaces:Manage workspace layouts": false,
-          "switcher:Open quick switcher": true,
-          "command-palette:Open command palette": true,
-          "obsidian-git:Open Git source control": true,
-          "pdf-plus:PDF++: Toggle auto-copy": true,
-          "pdf-plus:PDF++: Toggle auto-focus": true,
-          "pdf-plus:PDF++: Toggle auto-paste": true
-        }
-      },
-      "active": "5f35b4b004a54160",
-      "mtime": "2025-08-14T12:15:24+02:00"
-    },
     "VLSI-1": {
       "main": {
         "id": "ef0204964e2b9162",
@@ -2009,7 +851,256 @@
       },
       "active": "5f4cf158045f14fe",
       "mtime": "2025-09-16T09:26:38+02:00"
+    },
+    "SPCA": {
+      "main": {
+        "id": "ef0204964e2b9162",
+        "type": "split",
+        "children": [
+          {
+            "id": "254ae3b71cdd2347",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f0020a4d1c291fb2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem5/VLSI1/VLSI1.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "VLSI1"
+                }
+              },
+              {
+                "id": "ff18500a8101f653",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem5/VLSI1/VRL/notes/VLSI1-v-w01.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "VLSI1-v-w01"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "fe28d63e32c3168b",
+        "type": "split",
+        "children": [
+          {
+            "id": "fddab58c0769d063",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5f4cf158045f14fe",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "70265419a98d8a68",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:/sem1/AuD/UE/e",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "b14014a5400a500b",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "0f56d709fdb24392",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {},
+                  "icon": "lucide-list",
+                  "title": "Outline"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 346.5
+      },
+      "right": {
+        "id": "4be59d580df31d93",
+        "type": "split",
+        "children": [
+          {
+            "id": "a9eab3abde570e06",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b3aff261bc292caf",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks"
+                }
+              },
+              {
+                "id": "2d28441159ca953f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links"
+                }
+              },
+              {
+                "id": "d4d9e5cf2cd5e94b",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              },
+              {
+                "id": "d39f74221ae34967",
+                "type": "leaf",
+                "state": {
+                  "type": "vertical-tabs-view",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "vertical-tabs-view"
+                }
+              },
+              {
+                "id": "52c1bf159ef0f846",
+                "type": "leaf",
+                "state": {
+                  "type": "toggl-report",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Toggl Report"
+                }
+              },
+              {
+                "id": "5d9beee53cc3dc04",
+                "type": "leaf",
+                "state": {
+                  "type": "footnotes",
+                  "state": {
+                    "file": "README.md"
+                  },
+                  "icon": "lucide-file-signature",
+                  "title": "Footnotes"
+                }
+              },
+              {
+                "id": "b5eaa95de581e159",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "7f1259f65eb6077a",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 280.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "bases:Create new base": false,
+          "templater-obsidian:Templater": true,
+          "obsidian-excalidraw-plugin:New drawing": true,
+          "omnisearch:Omnisearch": false,
+          "graph:Open graph view": false,
+          "templates:Insert template": false,
+          "cmdr:Open in default app": false,
+          "obsidian-git:Open Git source control": true,
+          "obsidian-shellcommands:Shell commands: Custom variables": true,
+          "cmdr:Export to PDF": false,
+          "workspaces:Manage workspace layouts": false,
+          "switcher:Open quick switcher": true,
+          "pdf-plus:PDF++: Toggle auto-copy": true,
+          "pdf-plus:PDF++: Toggle auto-focus": true,
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "command-palette:Open command palette": true,
+          "obsidian-kanban:Create new board": true
+        }
+      },
+      "active": "ff18500a8101f653",
+      "mtime": "2025-09-16T10:44:15+02:00"
     }
   },
-  "active": "VLSI-1"
+  "active": "SPCA"
 }
