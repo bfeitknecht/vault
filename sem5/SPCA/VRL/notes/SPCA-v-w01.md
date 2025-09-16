@@ -16,3 +16,6 @@ slides:
 
 # Notes
 - LLM does not rise to the task of writing system program
+- floating point arithmetic's addition is not associative
+	- floats are not numbers!
+	- this is not a bug but correct specification
