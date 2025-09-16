@@ -1,3 +1,3 @@
 ---
-sem: sem5
+semester: sem5
 ---

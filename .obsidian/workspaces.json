@@ -1052,8 +1052,7 @@
                   "title": "FMFP-summary"
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           },
           {
             "id": "4eae27f0ad5ff541",
@@ -1084,7 +1083,7 @@
                     "file": "sem4/FMFP/VRL/extra/semantics-with-applications-nielson.pdf",
                     "page": 201,
                     "left": -19,
-                    "top": 20,
+                    "top": 24,
                     "zoom": 0.8504901960784313
                   },
                   "icon": "lucide-file-text",
@@ -1264,8 +1263,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "91b82beb06e82415",
-      "mtime": "2025-09-16T07:59:41+02:00"
+      "active": "71254ba74efcb51c",
+      "mtime": "2025-09-16T08:20:40+02:00"
     },
     "sem4-w&s": {
       "main": {
@@ -1580,7 +1579,7 @@
       "active": "5f35b4b004a54160",
       "mtime": "2025-08-14T12:15:24+02:00"
     },
-    "sem5-vlsi1": {
+    "VLSI-1": {
       "main": {
         "id": "ef0204964e2b9162",
         "type": "split",
@@ -1593,10 +1592,14 @@
                 "id": "73b84c36144ea7f5",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem5/VLSI-1/VLSI-1.md",
+                    "mode": "source",
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "VLSI-1"
                 }
               }
             ]
@@ -1666,8 +1669,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5,
-        "collapsed": true
+        "width": 346.5
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1809,8 +1811,8 @@
         }
       },
       "active": "73b84c36144ea7f5",
-      "mtime": "2025-09-16T07:59:40+02:00"
+      "mtime": "2025-09-16T08:20:34+02:00"
     }
   },
-  "active": "sem5-vlsi1"
+  "active": "VLSI-1"
 }
