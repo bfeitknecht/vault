@@ -4,6 +4,8 @@ prev: "[[SPCA]]"
 next: "[[SPCA-v-w02]]"
 tags: note/lecture/SPCA
 slides:
+  - "[[SPCA-s01-introduction.pdf]]"
+  - "[[SPCA-s02-C.pdf]]"
 ---
 
 
@@ -12,6 +14,7 @@ slides:
 
 # Topics
 - introduction to the C programing language
+- so many things are implementation defined
 
 
 # Notes
@@ -23,3 +26,4 @@ slides:
 	- constant factors may dominate
 - computers don't just execute programs
 - programs don't just calculate values
+- programs are not semantic specifications

@@ -12,9 +12,10 @@
     "style-embed",
     "png-add-white-bg",
     "float-callouts",
-    "hide-properties.heading"
+    "hide-properties.heading",
+    "hide-view-header"
   ],
   "showViewHeader": true,
   "baseFontSize": 13,
-  "showRibbon": true
+  "showRibbon": false
 }
