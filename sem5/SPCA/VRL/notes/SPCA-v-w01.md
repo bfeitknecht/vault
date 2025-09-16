@@ -21,3 +21,5 @@ slides:
 	- this is not a bug but correct specification
 - performance in the real world is about much more than asymptotic complexity
 	- constant factors may dominate
+- computers don't just execute programs
+- programs don't just calculate values
