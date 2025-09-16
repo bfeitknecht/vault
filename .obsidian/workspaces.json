@@ -427,221 +427,20 @@
         "type": "split",
         "children": [
           {
-            "id": "58c9987bca6de1d5",
+            "id": "5f2e0860b9a17037",
             "type": "tabs",
             "children": [
               {
-                "id": "78284c46e801e533",
+                "id": "5491a1ccc326a0f9",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem5/VLSI1/VLSI1.md",
-                    "mode": "source",
-                    "source": false
-                  },
+                  "type": "empty",
+                  "state": {},
                   "icon": "lucide-file",
-                  "title": "VLSI1"
-                }
-              },
-              {
-                "id": "909fd904d6a51403",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem5/VLSI1/VRL/notes/VLSI1-v-w01.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "VLSI1-v-w01"
-                }
-              },
-              {
-                "id": "52a9f8e6651e5203",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/CN/VRL/notes/CN-v-w01.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "CN-v-w01"
-                }
-              },
-              {
-                "id": "857f93272a26c150",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/notes/DMDB-v-w01.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMDB-v-w01"
-                }
-              },
-              {
-                "id": "b792161c11505f8b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/FMFP/VRL/notes/FMFP-v-w01.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "FMFP-v-w01"
-                }
-              },
-              {
-                "id": "637cec144b2aab0e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/W&S/VRL/notes/W&S-v-w01.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "W&S-v-w01"
-                }
-              },
-              {
-                "id": "00f55f0f3e3506c9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/W&S/VRL/notes/W&S-v-w13.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "W&S-v-w13"
-                }
-              },
-              {
-                "id": "d263c02d05dfe0c1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/W&S/VRL/notes/W&S-v-w02.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "W&S-v-w02"
-                }
-              },
-              {
-                "id": "0710720146ff6eea",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/FMFP/VRL/notes/FMFP-v-w02.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "FMFP-v-w02"
-                }
-              },
-              {
-                "id": "092d50b223db7b12",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/notes/DMDB-v-w10.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMDB-v-w10"
-                }
-              },
-              {
-                "id": "e2eb791da3f905bc",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/notes/DMDB-v-w02.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMDB-v-w02"
-                }
-              },
-              {
-                "id": "ddab384f239315fd",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/notes/DMDB-v-w08.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMDB-v-w08"
-                }
-              },
-              {
-                "id": "cf53326d0aa5e615",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/DMDB/VRL/notes/DMDB-v-w13.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "DMDB-v-w13"
-                }
-              },
-              {
-                "id": "214293db882fd81b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem4/CN/VRL/notes/CN-v-w07.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "CN-v-w07"
-                }
-              },
-              {
-                "id": "4a2c9ba382faeb7c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "sem5/VLSI1/VRL/notes/VLSI1-v-w04.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "VLSI1-v-w04"
+                  "title": "New tab"
                 }
               }
-            ],
-            "currentTab": 5
+            ]
           }
         ],
         "direction": "vertical"
@@ -849,8 +648,8 @@
           "obsidian-kanban:Create new board": true
         }
       },
-      "active": "5f4cf158045f14fe",
-      "mtime": "2025-09-16T09:26:38+02:00"
+      "active": "5491a1ccc326a0f9",
+      "mtime": "2025-09-16T13:13:59+02:00"
     },
     "SPCA": {
       "main": {
@@ -858,39 +657,55 @@
         "type": "split",
         "children": [
           {
-            "id": "254ae3b71cdd2347",
+            "id": "98e720f15f7e6b29",
             "type": "tabs",
             "children": [
               {
-                "id": "f0020a4d1c291fb2",
+                "id": "dc071cff3cc7d3ca",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem5/VLSI1/VLSI1.md",
+                    "file": "sem5/SPCA/SPCA.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "VLSI1"
+                  "title": "SPCA"
                 }
               },
               {
-                "id": "ff18500a8101f653",
+                "id": "1718106a4504fa6a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem5/VLSI1/VRL/notes/VLSI1-v-w01.md",
+                    "file": "sem5/SPCA/VRL/notes/SPCA-v-w01.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "VLSI1-v-w01"
+                  "title": "SPCA-v-w01"
+                }
+              },
+              {
+                "id": "5d21b704a618983a",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem5/SPCA/VRL/extra/slides/SPCA-s01-introduction.pdf",
+                    "page": 56,
+                    "left": -14,
+                    "top": 129,
+                    "zoom": 1.1504314117794172
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "SPCA-s01-introduction"
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -957,7 +772,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346.5
+        "width": 346.5,
+        "collapsed": true
       },
       "right": {
         "id": "4be59d580df31d93",
@@ -1014,8 +830,8 @@
                 "state": {
                   "type": "vertical-tabs-view",
                   "state": {},
-                  "icon": "lucide-ghost",
-                  "title": "vertical-tabs-view"
+                  "icon": "list",
+                  "title": "Vertical Tabs"
                 }
               },
               {
@@ -1034,7 +850,7 @@
                 "state": {
                   "type": "footnotes",
                   "state": {
-                    "file": "README.md"
+                    "file": "sem5/SPCA/VRL/extra/slides/SPCA-s01-introduction.pdf"
                   },
                   "icon": "lucide-file-signature",
                   "title": "Footnotes"
@@ -1068,6 +884,18 @@
                   "icon": "lucide-tags",
                   "title": "Tags"
                 }
+              },
+              {
+                "id": "e73f4711b9b9108a",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "sem5/SPCA/VRL/extra/slides/SPCA-s01-introduction.pdf"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for SPCA-s01-introduction"
+                }
               }
             ],
             "currentTab": 2
@@ -1098,9 +926,9 @@
           "obsidian-kanban:Create new board": true
         }
       },
-      "active": "ff18500a8101f653",
-      "mtime": "2025-09-16T10:44:15+02:00"
+      "active": "5d21b704a618983a",
+      "mtime": "2025-09-16T13:14:00+02:00"
     }
   },
-  "active": "SPCA"
+  "active": "VLSI-1"
 }
