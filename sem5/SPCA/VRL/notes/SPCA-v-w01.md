@@ -15,4 +15,4 @@ slides:
 
 
 # Notes
-- LLM does not 
+- LLM does not rise to the task of writing system program
