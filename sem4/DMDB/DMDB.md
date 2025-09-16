@@ -9,6 +9,7 @@ semester:
 - [Moodle](https://moodle-app2.let.ethz.ch/course/view.php?id=24995)
 - exam is on moodle
 - [annik's notion site](https://www.notion.so/anniko/DMDB-19fcc04aa7de8010a4a0eb4340e554d5)
+- [moritz's notion site](https://moritzslearningspace.notion.site/DMD-Data-Modeling-and-Databases-928fd499f5774299bcd96758f8a5d28b#ee4bbc48362141bda882ecb39f8fde27)
 
 
 # Schedule

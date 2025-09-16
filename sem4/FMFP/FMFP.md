@@ -9,7 +9,10 @@ semester:
 
 # Resources
 - [Ramon Wick](https://n.ethz.ch/~rawick/#/formalMethodsFunctionalProgramming)
-
+- [Natural Deduction Tool](https://fmfp.ramonwick.ch)
+- [Maximilian Schlegel](https://n.ethz.ch/~mschlegel/fmfp23/fmfp.html)
+- [Learn You a Haskell for Great Good](https://learnyouahaskell.github.io/)
+- [Spin](https://www.spinroot.com/spin/Man/Manual.html), [Also Spin](https://spinroot.com/spin/Man/Quick.html), [Promela](https://spinroot.com/spin/Man/datatypes.html)
 
 # Notes
 
