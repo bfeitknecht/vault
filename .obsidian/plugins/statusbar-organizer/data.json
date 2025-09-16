@@ -39,6 +39,10 @@
       "plugin-editing-toolbar-editingToolbar-statusbar-button;1": {
         "position": 8,
         "visible": false
+      },
+      "plugin-properties;1": {
+        "position": 10,
+        "visible": false
       }
     }
   },

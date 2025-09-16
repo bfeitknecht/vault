@@ -8,7 +8,7 @@ slides:
 
 
 # Info
-
+"In practice, the difference in productivity between the worst and best programmer is on the order of two magnitudes."
 
 # Topics
 - introduction to the C programing language
@@ -19,3 +19,5 @@ slides:
 - floating point arithmetic's addition is not associative
 	- floats are not numbers!
 	- this is not a bug but correct specification
+- performance in the real world is about much more than asymptotic complexity
+	- constant factors may dominate
