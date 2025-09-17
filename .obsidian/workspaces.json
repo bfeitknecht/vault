@@ -434,13 +434,34 @@
                 "id": "5491a1ccc326a0f9",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "sem5/VLSI1/VLSI1.md",
+                    "mode": "source",
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "VLSI1"
+                }
+              },
+              {
+                "id": "1a849338ed00af80",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem5/VLSI1/UE/slides/VLSI1-s01-e.pdf",
+                    "page": 4,
+                    "left": -6,
+                    "top": 71,
+                    "zoom": 2.3275042374633097
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "VLSI1-s01-e"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -648,8 +669,8 @@
           "obsidian-kanban:Create new board": true
         }
       },
-      "active": "5491a1ccc326a0f9",
-      "mtime": "2025-09-16T13:13:59+02:00"
+      "active": "1a849338ed00af80",
+      "mtime": "2025-09-17T19:43:33+02:00"
     },
     "SPCA": {
       "main": {
@@ -930,5 +951,5 @@
       "mtime": "2025-09-16T13:14:00+02:00"
     }
   },
-  "active": "VLSI-1"
+  "active": "00-home"
 }
