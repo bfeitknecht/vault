@@ -13,9 +13,11 @@ Professor will not budge on uploading lecture recordings before end of semester.
 
 # Topics
 - catastrophic cancellation
+- complex step differentiation
 
 
 # Notes
 - rounding errors due to the implementation of floats
 - stable computation for roots of quadratic polynomial
 - power series approximation is rarely used in practice due to catastrophic cancellation
+	- requires function to be differentiable around point of interest
