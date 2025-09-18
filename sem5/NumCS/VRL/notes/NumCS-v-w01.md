@@ -8,11 +8,14 @@ slides:
 
 
 # Info
+Professor will not budge on uploading lecture recordings before end of semester.
 
 
 # Topics
-- rounding errors due to the implementation of floats
-- stable computation for roots of quadratic polynomial
+- catastrophic cancellation
 
 
 # Notes
+- rounding errors due to the implementation of floats
+- stable computation for roots of quadratic polynomial
+- power series approximation is rarely used in practice due to catastrophic cancellation
