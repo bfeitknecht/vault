@@ -10,8 +10,8 @@ slides:
 
 
 # Info
-Professor will not budge on uploading lecture recordings before end of semester.
-
+- professor will not budge on uploading lecture recordings before end of semester.
+- "Wähle eine tolle Basis, dann hast du einen tollen Raum."
 
 # Topics
 - catastrophic cancellation
