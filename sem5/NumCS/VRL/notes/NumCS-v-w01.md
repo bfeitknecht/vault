@@ -4,6 +4,8 @@ prev: "[[NumCS]]"
 next: "[[NumCS-v-w02]]"
 tags: note/lecture/NumCS
 slides:
+  - "[[NumCS-u01-slides.pdf]]"
+  - "[[NumCS-u02-slides.pdf]]"
 ---
 
 
@@ -14,6 +16,7 @@ Professor will not budge on uploading lecture recordings before end of semester.
 # Topics
 - catastrophic cancellation
 - complex step differentiation
+- matrix operations algorithms
 
 
 # Notes
