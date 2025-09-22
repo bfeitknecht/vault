@@ -28,3 +28,4 @@ slides:
 - ignore useless entries in matrix multiplication to reduce number of operations
 ![[NumCS-s01-floating-error.pdf#page=19&rect=594,0,1132,608|NumCS-s01-floating-error, p.19|300]]
 - [[kronecker product]], $\mathbf{A} \otimes \mathbf{B}$
+- newton basis
