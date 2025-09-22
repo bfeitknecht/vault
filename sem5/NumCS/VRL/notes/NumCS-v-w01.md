@@ -4,8 +4,8 @@ prev: "[[NumCS]]"
 next: "[[NumCS-v-w02]]"
 tags: note/lecture/NumCS
 slides:
-  - "[[NumCS-u01-slides.pdf]]"
-  - "[[NumCS-u02-slides.pdf]]"
+  - "[[NumCS-s01-floating-error.pdf]]"
+  - "[[NumCS-s02-polynomial-interpolation.pdf]]"
 ---
 
 

@@ -6,11 +6,11 @@
         "type": "split",
         "children": [
           {
-            "id": "9a867480433c3843",
+            "id": "f92f5c68c2b84e49",
             "type": "tabs",
             "children": [
               {
-                "id": "2bed8bbb998f939d",
+                "id": "ce536b8624c2de1a",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -191,8 +191,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": true
         }
       },
-      "active": "2bed8bbb998f939d",
-      "mtime": "2025-09-21T22:17:41+02:00"
+      "active": "ce536b8624c2de1a",
+      "mtime": "2025-09-22T08:36:33+02:00"
     },
     "00-home": {
       "main": {
@@ -716,28 +716,28 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "sem5/NumCS/VRL/notes/NumCS-v-w01.md",
+                    "file": "wiki/row and column vectors.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "NumCS-v-w01"
+                  "title": "row and column vectors"
                 }
               },
               {
-                "id": "2024b886888837e3",
+                "id": "13badd746bfc094d",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "sem5/NumCS/VRL/extra/slides/NumCS-u00-slides.pdf",
-                    "page": 2,
-                    "left": -208,
-                    "top": 118,
-                    "zoom": 0.6983648881239243
+                    "file": "sem5/NumCS/VRL/extra/slides/NumCS-u01-floating-error.pdf",
+                    "page": 12,
+                    "left": -17,
+                    "top": 539,
+                    "zoom": 0.9216867469879518
                   },
                   "icon": "lucide-file-text",
-                  "title": "NumCS-u00-slides"
+                  "title": "NumCS-u01-floating-error"
                 }
               }
             ],
@@ -773,7 +773,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:/sem1/AuD/UE/e",
+                    "query": "",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -899,8 +899,8 @@
           "obsidian-kanban:Create new board": true
         }
       },
-      "active": "2024b886888837e3",
-      "mtime": "2025-09-18T15:43:56+02:00"
+      "active": "13badd746bfc094d",
+      "mtime": "2025-09-22T08:36:20+02:00"
     },
     "A2": {
       "main": {
