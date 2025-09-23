@@ -14,3 +14,4 @@ slides:
 
 
 # Notes
+- null byte terminate strings in C
