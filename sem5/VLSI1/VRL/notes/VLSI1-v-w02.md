@@ -9,7 +9,7 @@ slides:
 
 
 # Info
-
+"You can never have enough memory."
 
 # Topics
 - FPGA
@@ -18,3 +18,5 @@ slides:
 # Notes
 - programming (an FPGA) is nothing else than storing the appropriate logic values in the memory
 - area of FPGA is dominated by wires to connect switches
+- due to FPGA being produced in much higher volume, more advanced fabrication techniques can be used
+- modern FPGA has blocks for dedicated functions (memory, arithmetic, signal processing, ...)
