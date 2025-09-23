@@ -5,6 +5,7 @@ next: "[[VLSI1-v-w02]]"
 tags: note/lecture/VLSI1
 slides:
   - "[[VLSI1-s00-introduction.pdf]]"
+  - "[[VLSI1-s01-perspectives.pdf]]"
 ---
 
 
