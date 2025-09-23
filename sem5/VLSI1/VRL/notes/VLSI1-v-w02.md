@@ -12,6 +12,9 @@ slides:
 
 
 # Topics
+- FPGA
 
 
 # Notes
+- programming (an FPGA) is nothing else than storing the appropriate logic values in the memory
+- area of FPGA is dominated by wires to connect switches
