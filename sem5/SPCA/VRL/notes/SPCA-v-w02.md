@@ -11,7 +11,8 @@ slides:
 
 
 # Topics
-
+- C language
 
 # Notes
 - null byte terminate strings in C
+- C allows to build stuff that other languages might already provide
