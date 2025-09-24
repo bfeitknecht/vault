@@ -15,3 +15,5 @@ slides:
 
 
 # Notes
+- confusing notation, $2.2k\Omega \sim 2.2k\mathrm{R} \sim 2k2$, $\mu \sim u$, $100n \sim 0u1$
+- 
