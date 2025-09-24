@@ -1308,22 +1308,71 @@
             "type": "tabs",
             "children": [
               {
-                "id": "a3f63c0193b011ef",
+                "id": "93a08dfece5200b1",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem5/VLSI1/VRL/extra/slides/VLSI1-s01-perspectives.pdf",
+                    "page": 1,
+                    "left": -28,
+                    "top": 544,
+                    "zoom": 0.559375
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "VLSI1-s01-perspectives"
+                }
+              },
+              {
+                "id": "566233ef971f41d4",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "sem5/VLSI1/VRL/extra/slides/VLSI1-s02-FPGA.pdf",
                     "page": 46,
-                    "left": 16,
-                    "top": 495,
-                    "zoom": 0.71
+                    "left": -28,
+                    "top": 503,
+                    "zoom": 0.559375
                   },
                   "icon": "lucide-file-text",
                   "title": "VLSI1-s02-FPGA"
                 }
+              },
+              {
+                "id": "a3f63c0193b011ef",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem5/VLSI1/UE/slides/VLSI1-s01-e.pdf",
+                    "page": 6,
+                    "left": -14,
+                    "top": 20,
+                    "zoom": 1.1224110132704948
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "VLSI1-s01-e"
+                }
+              },
+              {
+                "id": "79d386b185655ee9",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "sem5/VLSI1/UE/slides/VLSI1-u02-e.pdf",
+                    "page": 11,
+                    "left": 40,
+                    "top": 790,
+                    "zoom": 1.08
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "VLSI1-u02-e"
+                }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1532,8 +1581,8 @@
           "obsidian-kanban:Create new board": true
         }
       },
-      "active": "a3f63c0193b011ef",
-      "mtime": "2025-09-23T10:10:29+02:00"
+      "active": "79d386b185655ee9",
+      "mtime": "2025-09-24T11:27:48+02:00"
     },
     "ES": {
       "main": {
@@ -1749,5 +1798,5 @@
       "mtime": "2025-09-23T08:56:01+02:00"
     }
   },
-  "active": "VLSI1"
+  "active": "00-clean"
 }
