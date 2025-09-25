@@ -17,3 +17,5 @@ slides:
 
 
 # Notes
+- don't mix equidistant sample with polynomials of higher order
+	- use chebyshev nodes
