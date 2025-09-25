@@ -11,6 +11,8 @@ slides:
 
 
 # Topics
+- newton basis
+- polynomial interpolation, polynomial extrapolation
 
 
 # Notes
